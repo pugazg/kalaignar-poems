@@ -37,7 +37,8 @@ This wording is preserved as source evidence rather than rewritten into a normal
 | 3–4 | photograph / portrait front matter | verified |
 | 5–10 | `என்னுரை` by குறிஞ்சி சுப்பிரமணியன் | verified |
 | 11–12 | captioned photograph pages | verified |
-| 13–26 | poem body; scan 26 also carries printer imprint | not started |
+| 13–18 | poem body — first batch | verified |
+| 19–26 | poem body remainder; scan 26 also carries printer imprint | not started |
 | 27 | colour poster / congratulatory back matter | not started |
 | 28 | back cover photograph and caption | not started |
 
@@ -47,12 +48,15 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 
 - repository structure: **created**
 - source checksum / file size / page count: **recorded**
-- physical page map: **current**
-- verified page records: **12 / 28** — scans **1–12**
-- front matter before poem: **complete at page-record level**
-- poem-body verified: **0 / 14** — scans **13–26** not yet transcribed
-- assembled Tamil poem: **not yet started**
-- audit: **current through scan 12**
+- physical page map: **current through scan 18**
+- verified page records: **18 / 28** — scans **1–18**
+- front matter scans 1–12: **complete / verified**
+- poem-body verified: **6 / 14** — scans **13–18**
+- poem-body remaining: **8 / 14** — scans **19–26**
+- `needs-review` poem scans: **0**
+- `blocked` poem scans: **0**
+- assembled Tamil poem: **not yet started intentionally**
+- audit: **current through scan 18**
 - English translation: **not started / intentionally deferred**
 
 Current audit: [`audit.md`](audit.md).
@@ -63,19 +67,37 @@ Current audit: [`audit.md`](audit.md).
 pages/
   0001.md  # verified
   ...
-  0012.md  # verified
-  0013.md  # next — poem opening
+  0012.md  # verified front matter
+  0013.md  # verified poem opening
+  ...
+  0018.md  # verified poem
+  0019.md  # next
   ...
   0028.md
 ```
 
-Each physical scan gets its own record, including non-poem material. After poem scans are verified, the poem will be assembled separately at:
+Each physical scan gets its own record, including non-poem material. After all poem scans are verified and source comparison is complete, the poem will be assembled separately at:
 
 ```text
 sections/idhayathai-thanthidu-anna.md
 ```
 
-## Source variations already preserved
+## First poem batch — scans 13–18
+
+The first six poem scans are now directly compared with the source and marked `verified`.
+
+Source-fidelity decisions recorded in the page files/audit include:
+
+- scan 13: printed radio/context note kept separate from verse;
+- scan 14: unusual readings such as `தங்கு சனி வேல்`, `வேது`, `பொருதடக்கை`, and `களப்பரணி..` retained;
+- scan 15: `அரு மூன்று எழுத்தாலே` and `அய்ம்பத்திரண்டுதனில்` retained;
+- scan 16: repeated `முன்றெழுத்து` and `எடெல்லாம் வீடெல்லாம் தமிழ்` retained;
+- scan 17: `மாண்பே! .` and `நாலைந்து` retained;
+- scan 18: source forms such as `பனிமலர் வீழ் தும்பியதாய்த்`, `கோலற்ற குருடர்`, and `தீர் அண்ணா திராவிடர் கழகமெனும்` retained.
+
+No web text, remembered version, metre-based reconstruction or silent normalization was used as authority.
+
+## Source variations already preserved in front matter
 
 The foreword contains source-supported variations which have deliberately **not** been normalized, including:
 
@@ -86,15 +108,13 @@ See [`audit.md`](audit.md) for the verification trail.
 
 ## Next activity
 
-Begin the poem itself with a first poem batch of **scans 13–18 / printed pages 11–16**.
+Continue the poem from **scan 19 / printed page 17**. Process **scans 19–26** as the next poem batch if practical:
 
-For every page:
-
-1. re-open the scan directly at high enough resolution;
-2. create `pages/0013.md` through `pages/0018.md`;
+1. re-open every scan directly at high enough resolution;
+2. create `pages/0019.md` through `pages/0026.md`;
 3. preserve exact poem lineation, indentation, stanza spacing, quotation marks, dashes, repetition and ellipses;
-4. keep scan 13's parenthetical contextual note separate from the verse;
-5. do not normalize spelling or reconstruct metre;
-6. update page map and audit after the batch.
+4. on scan 26, keep the poem conclusion separate from the printer imprint;
+5. update page map and audit counts;
+6. only after all poem-body scans 13–26 are verified, consider assembling `sections/idhayathai-thanthidu-anna.md` and performing an assembly review.
 
-Do **not** begin English translation.
+Do **not** begin English translation yet.
