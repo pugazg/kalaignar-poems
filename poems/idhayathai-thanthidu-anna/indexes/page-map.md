@@ -5,12 +5,12 @@ Total scan pages: **28**
 
 `printed_page` below records only a page number visibly present in the inspected scan. Sequence values are not silently inferred where no number is visible.
 
-| Scan | Visible printed page | Page type | Section / note | Initial status |
+| Scan | Visible printed page | Page type | Section / note | Status |
 |---:|---:|---|---|---|
-| 1 | — | cover | title cover; portraits; authorial identification | not-started |
-| 2 | — | advertisement | `குறிஞ்சி சுப்பிரமணியன் அன்பளிப்பு புத்தகங்கள்` list | not-started |
-| 3 | — | photograph | captioned presentation photograph; page rotated in scan | not-started |
-| 4 | — | portrait | தந்தை பெரியார் portrait with printed slogan/caption | not-started |
+| 1 | — | cover | title cover; portraits; authorial identification | verified |
+| 2 | — | advertisement | `குறிஞ்சி சுப்பிரமணியன் அன்பளிப்பு புத்தகங்கள்` list | verified |
+| 3 | — | photograph | captioned presentation photograph; page rotated in scan | verified |
+| 4 | — | portrait | தந்தை பெரியார் portrait with printed slogan/caption | verified |
 | 5 | 3 | foreword | `என்னுரை` begins — குறிஞ்சி சுப்பிரமணியன் | not-started |
 | 6 | 4 | foreword | `என்னுரை` continuation | not-started |
 | 7 | 5 | foreword | `என்னுரை` continuation | not-started |
@@ -35,6 +35,12 @@ Total scan pages: **28**
 | 26 | — | poem + imprint | poem conclusion; printer imprint at foot | not-started |
 | 27 | — | poster | colour congratulatory / promotional poster; not poem body | not-started |
 | 28 | — | back-cover | photograph, caption and political-symbol artwork | not-started |
+
+## Current count
+
+- `verified`: **4 / 28**
+- `not-started`: **24 / 28**
+- poem-body pages verified: **0 / 14**
 
 ## Poem-body boundary
 
