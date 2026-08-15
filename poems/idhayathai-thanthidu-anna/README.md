@@ -30,16 +30,16 @@ This wording is preserved as source evidence rather than rewritten into a normal
 
 ## Physical publication structure
 
-| Scan range | Role |
-|---|---|
-| 1 | front cover |
-| 2 | book-donation advertisement/list |
-| 3–4 | photograph / portrait front matter |
-| 5–10 | `என்னுரை` by குறிஞ்சி சுப்பிரமணியன் |
-| 11–12 | captioned photograph pages |
-| 13–26 | poem body; scan 26 also carries printer imprint |
-| 27 | colour poster / congratulatory back matter |
-| 28 | back cover photograph and caption |
+| Scan range | Role | Status |
+|---|---|---|
+| 1 | front cover | verified |
+| 2 | book-donation advertisement/list | verified |
+| 3–4 | photograph / portrait front matter | verified |
+| 5–10 | `என்னுரை` by குறிஞ்சி சுப்பிரமணியன் | verified |
+| 11–12 | captioned photograph pages | verified |
+| 13–26 | poem body; scan 26 also carries printer imprint | not started |
+| 27 | colour poster / congratulatory back matter | not started |
+| 28 | back cover photograph and caption | not started |
 
 Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 
@@ -47,12 +47,12 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 
 - repository structure: **created**
 - source checksum / file size / page count: **recorded**
-- physical page map: **created**
-- verified page records: **4 / 28** — scans **1–4**
-- remaining front matter before poem: **8 scans** — scans **5–12**
+- physical page map: **current**
+- verified page records: **12 / 28** — scans **1–12**
+- front matter before poem: **complete at page-record level**
 - poem-body verified: **0 / 14** — scans **13–26** not yet transcribed
 - assembled Tamil poem: **not yet started**
-- audit: **created and current**
+- audit: **current through scan 12**
 - English translation: **not started / intentionally deferred**
 
 Current audit: [`audit.md`](audit.md).
@@ -62,10 +62,9 @@ Current audit: [`audit.md`](audit.md).
 ```text
 pages/
   0001.md  # verified
-  0002.md  # verified
-  0003.md  # verified
-  0004.md  # verified
-  0005.md  # next
+  ...
+  0012.md  # verified
+  0013.md  # next — poem opening
   ...
   0028.md
 ```
@@ -76,13 +75,26 @@ Each physical scan gets its own record, including non-poem material. After poem 
 sections/idhayathai-thanthidu-anna.md
 ```
 
+## Source variations already preserved
+
+The foreword contains source-supported variations which have deliberately **not** been normalized, including:
+
+- scan 10: `மொழிபெயர்ப்பு செய்யப்பட்டு`;
+- scan 10: later title occurrence `“இதயத்தை தந்திடு அண்ணா”`, while other occurrences print `“இதயத்தைத் தந்திடு அண்ணா”`.
+
+See [`audit.md`](audit.md) for the verification trail.
+
 ## Next activity
 
-Continue from **scan 5 / printed page 3** and create page records for **scans 5–12** in source order:
+Begin the poem itself with a first poem batch of **scans 13–18 / printed pages 11–16**.
 
-1. scans 5–10 — complete `என்னுரை` transcription;
-2. scans 11–12 — rotate and transcribe the printed photograph captions;
-3. update page map and audit counts;
-4. stop at the front-matter/poem boundary before scan 13 unless the activity explicitly proceeds into the poem.
+For every page:
+
+1. re-open the scan directly at high enough resolution;
+2. create `pages/0013.md` through `pages/0018.md`;
+3. preserve exact poem lineation, indentation, stanza spacing, quotation marks, dashes, repetition and ellipses;
+4. keep scan 13's parenthetical contextual note separate from the verse;
+5. do not normalize spelling or reconstruct metre;
+6. update page map and audit after the batch.
 
 Do **not** begin English translation.
