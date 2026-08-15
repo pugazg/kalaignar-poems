@@ -12,11 +12,11 @@
 
 | Status | Count |
 |---|---:|
-| verified | 12 |
+| verified | 18 |
 | partial | 0 |
 | needs-review | 0 |
 | blocked | 0 |
-| not-started | 16 |
+| not-started | 10 |
 | **total** | **28** |
 
 Verified page records:
@@ -25,6 +25,7 @@ Verified page records:
 - scans 5–10 — complete `என்னுரை` by குறிஞ்சி சுப்பிரமணியன், printed pages 3–8
 - scan 11 — rotated captioned photograph, dated 8.11.1960 in the printed caption
 - scan 12 — rotated captioned photograph, dated 15.8.1975 in the printed caption
+- scans 13–18 — first poem batch, printed pages 11–16
 
 Front matter **scans 1–12 is closed at page-record level**.
 
@@ -32,14 +33,48 @@ Front matter **scans 1–12 is closed at page-record level**.
 
 | Status | Count |
 |---|---:|
-| verified | 0 |
+| verified | 6 |
 | partial | 0 |
 | needs-review | 0 |
 | blocked | 0 |
-| not-started | 14 |
+| not-started | 8 |
 | **total poem scans** | **14** |
 
-Poem transcription has **not yet begun**. The first poem scan is scan **13** / printed page **11**.
+The first poem batch **scans 13–18 / printed pages 11–16** is source-reviewed and verified. The next poem scan is **19 / printed page 17**.
+
+## Source-faithful observations from scans 13–18
+
+### Scan 13 — title/context versus verse
+
+The printed title and parenthetical note about **9.2.1969**, **சென்னை வானொலி**, **பேரறிஞர் அண்ணா**, and **கலைஞர் மு. கருணாநிதி** are archived separately from the poem verse. The page ends with `உமைத்`, which continues onto scan 14; the page records do not silently join the physical boundary.
+
+### Scan 14 — unusual source forms
+
+Direct high-resolution review retained source-supported readings such as:
+
+- `தங்கு சனி வேல் செய்த புண்களை`
+- `அன்பெனும் வேது கொண்டாற்றியும்`
+- `பொருதடக்கை வாளெங்கே; மணி மார்பெங்கே?`
+- `கலவி மடவீர் கழற்சென்னி`
+- `களப்பரணி.. கலிங்கத்துப் பரணி`
+
+These are not regularized by meaning, metre or remembered versions.
+
+### Scan 15 — non-normalized number/word forms
+
+The page visibly prints `அரு மூன்று எழுத்தாலே` and `அய்ம்பத்திரண்டுதனில்`. Both are retained. In particular, `அய்ம்பத்திரண்டுதனில்` is **not** silently changed to a modernized spelling.
+
+### Scan 16 — repeated `முன்றெழுத்து`
+
+The repeated form `முன்றெழுத்து` is source-supported throughout the passage and is preserved exactly. The page also prints `எடெல்லாம் வீடெல்லாம் தமிழ்`, which is retained rather than editorially changed. Stepped indentation in the lower stanza is represented in the page record.
+
+### Scan 17 — punctuation and page continuation
+
+Source-supported forms including `சாலை யோரத்திலே`, `வேலையற்றதுகள்`, `பனுவல்`, and `நாலைந்து` are retained. The isolated period following `மாண்பே!` is visibly present and is preserved as `மாண்பே! .`. The page ends `வயிறு தாங்காக் காரணத்தால்`, continuing onto scan 18.
+
+### Scan 18 — source wording retained
+
+Direct visual comparison retained unusual readings including `பனிமலர் வீழ் தும்பியதாய்த்`, `கோலற்ற குருடர்`, and `தீர் அண்ணா திராவிடர் கழகமெனும்`. The final line `அன்புறு காந்தியின் அருளால் இன்று` continues onto scan 19.
 
 ## Source-faithful observations from scans 5–12
 
@@ -91,17 +126,18 @@ The source was re-opened at high resolution before closure. An initially inserte
 ## Source-boundary notes
 
 - scans 1–12: front matter / photographs / foreword — **verified**
-- scans 13–26: poem body; scan 26 also includes printer imprint — **not started**
+- scans 13–18: poem body, first batch — **verified**
+- scans 19–26: remaining poem body; scan 26 also includes printer imprint — **not started**
 - scans 27–28: back matter / back cover — **not started**
 
 No English translation should begin until the Tamil source layer is complete and the assembled poem has passed source comparison.
 
+## Assembly readiness
+
+- verified poem scans available for later assembly: **13–18**
+- complete poem source available: **No — scans 19–26 remain**
+- `sections/idhayathai-thanthidu-anna.md`: **not created intentionally**
+
 ## Next audit checkpoint
 
-Begin the poem at **scan 13 / printed page 11**. For the poem batch:
-
-1. re-open every scan directly before assigning `verified`;
-2. preserve exact poetic lineation, indentation, stanza spacing, quotation marks, dashes and ellipses;
-3. do not use OCR or remembered versions as authority;
-4. keep the parenthetical contextual note on scan 13 distinct from the poem lines;
-5. update poem-body counts after the batch.
+Continue with the remaining poem batch beginning at **scan 19 / printed page 17**. Process **scans 19–26** if practical, with the same direct source review and exact lineation policy. Scan 26 must keep the poem conclusion distinct from the printer imprint. After that batch, recheck all poem-body page counts before assembling the Tamil poem.
