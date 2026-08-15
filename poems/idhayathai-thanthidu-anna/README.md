@@ -48,17 +48,24 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 - repository structure: **created**
 - source checksum / file size / page count: **recorded**
 - physical page map: **created**
-- page-level transcription records: **not yet started**
+- verified page records: **4 / 28** — scans **1–4**
+- remaining front matter before poem: **8 scans** — scans **5–12**
+- poem-body verified: **0 / 14** — scans **13–26** not yet transcribed
 - assembled Tamil poem: **not yet started**
-- audit: **not yet started**
+- audit: **created and current**
 - English translation: **not started / intentionally deferred**
 
-## Planned page structure
+Current audit: [`audit.md`](audit.md).
+
+## Page structure
 
 ```text
 pages/
-  0001.md
-  0002.md
+  0001.md  # verified
+  0002.md  # verified
+  0003.md  # verified
+  0004.md  # verified
+  0005.md  # next
   ...
   0028.md
 ```
@@ -71,4 +78,11 @@ sections/idhayathai-thanthidu-anna.md
 
 ## Next activity
 
-Create and verify the first page-record batch for **scans 1–12** in source order, preserving all visible printed text/captions and distinguishing photographs/decorative material from text. Do **not** begin English translation. After front matter is stable, begin poem transcription at scan 13 with exact source lineation.
+Continue from **scan 5 / printed page 3** and create page records for **scans 5–12** in source order:
+
+1. scans 5–10 — complete `என்னுரை` transcription;
+2. scans 11–12 — rotate and transcribe the printed photograph captions;
+3. update page map and audit counts;
+4. stop at the front-matter/poem boundary before scan 13 unless the activity explicitly proceeds into the poem.
+
+Do **not** begin English translation.
