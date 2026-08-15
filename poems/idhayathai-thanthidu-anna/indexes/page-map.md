@@ -25,40 +25,42 @@ Total scan pages: **28**
 | 16 | 14 | poem | poem continuation | verified |
 | 17 | 15 | poem | poem continuation | verified |
 | 18 | 16 | poem | poem continuation | verified |
-| 19 | 17 | poem | poem continuation | not-started |
-| 20 | 18 | poem | poem continuation | not-started |
-| 21 | 19 | poem | poem continuation | not-started |
-| 22 | 20 | poem | poem continuation | not-started |
-| 23 | 21 | poem | poem continuation | not-started |
-| 24 | 22 | poem | poem continuation | not-started |
-| 25 | 23 | poem | poem continuation | not-started |
-| 26 | — | poem + imprint | poem conclusion; printer imprint at foot | not-started |
+| 19 | 17 | poem | poem continuation | verified |
+| 20 | 18 | poem | poem continuation | verified |
+| 21 | 19 | poem | poem continuation | verified |
+| 22 | 20 | poem | poem continuation | verified |
+| 23 | 21 | poem | poem continuation | verified |
+| 24 | 22 | poem | poem continuation | verified |
+| 25 | 23 | poem | poem continuation | verified |
+| 26 | — | poem + imprint | poem conclusion; printer imprint separately recorded at foot | verified |
 | 27 | — | poster | colour congratulatory / promotional poster; not poem body | not-started |
 | 28 | — | back-cover | photograph, caption and political-symbol artwork | not-started |
 
 ## Current count
 
-- `verified`: **18 / 28**
-- `not-started`: **10 / 28**
+- `verified`: **26 / 28**
+- `not-started`: **2 / 28**
 - `needs-review`: **0 / 28**
 - `blocked`: **0 / 28**
-- poem-body pages verified: **6 / 14**
-- poem-body pages not started: **8 / 14**
+- poem-body pages verified: **14 / 14**
+- poem-body pages not started: **0 / 14**
 
 ## Front-matter checkpoint
 
 Scans **1–12** are page-recorded and visually verified. The physical transition into the poem occurs at scan **13**, which opens the titled poem and visibly carries printed page **11**.
 
-## First poem-batch checkpoint
+## Poem-body checkpoint
 
-Scans **13–18 / printed pages 11–16** are now transcribed and visually verified against the source scan.
+Scans **13–26** are now transcribed and directly compared with the controlling scan.
 
-- scan 13 keeps the printed contextual note separate from the verse;
-- poem lineation and stanza boundaries are preserved page by page;
-- source-supported unusual spellings, punctuation and page-boundary continuations are retained rather than normalized;
-- no poem reading in this batch remains `needs-review` or `blocked`.
+- scans 13–25 visibly carry printed pages **11–23**;
+- scan 26 carries no visible printed page number and remains unmapped rather than being silently labelled `24`;
+- scan 26's poem conclusion and printer imprint are preserved as separate source layers;
+- poem lineation, stanza boundaries, unusual source spellings, punctuation and page-boundary continuations are retained;
+- poem-body `needs-review`: **0**;
+- poem-body `blocked`: **0**.
 
-The next poem scan is **scan 19 / printed page 17**.
+The page-level Tamil poem source is therefore complete and ready for assembly review.
 
 ## Poem-body boundary
 
@@ -68,7 +70,7 @@ Archival poem scope remains **scans 13–26**.
 - scan 26 contains the final verse lines and then a printer imprint;
 - scan 27 is visually and editorially separate poster/back matter.
 
-This boundary may be revised only if later direct scan review supplies contrary evidence; any revision must be documented in `audit.md`.
+The printer imprint must not be included in the assembled poem.
 
 ## Printed pagination observation
 
@@ -77,3 +79,7 @@ This boundary may be revised only if later direct scan review supplies contrary 
 - Scan 13 resumes at visible printed page **11**.
 - Scans 13–25 visibly continue **11–23**.
 - Scan 26 has no visible printed page number observed; do not silently label it `24` in page metadata.
+
+## Remaining physical-source pages
+
+Scans **27–28** remain to be archived as non-poem back matter. Their incomplete status does not alter the now-complete **14/14 poem-body transcription**, but they must be processed before declaring the entire physical publication source-complete.
