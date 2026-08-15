@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **26/28 physical scans verified; poem 14/14 verified; Tamil assembly next** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **26/28 physical scans verified; poem 14/14 verified; Tamil assembly reviewed PASS** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -31,6 +31,7 @@ poems/
       page-map.md
     pages/
     sections/
+    ASSEMBLY_REVIEW.md
     audit.md
     translations/
 ```
@@ -44,14 +45,15 @@ poems/
 - scans **13–26**: complete poem body — **verified 14/14**
 - poem `needs-review`: **0**
 - poem `blocked`: **0**
-- scan **26**: poem conclusion verified; printer imprint separately recorded and excluded from poem assembly scope
+- assembled Tamil poem: [`sections/idhayathai-thanthidu-anna.md`](poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md) — **created and reviewed**
+- assembly review: [`ASSEMBLY_REVIEW.md`](poems/idhayathai-thanthidu-anna/ASSEMBLY_REVIEW.md) — **PASS; 14/14 source page blocks matched, 0 discrepancies**
+- scan **26**: printer imprint remains separately recorded and excluded from poem assembly scope
 - scans **27–28**: non-poem back matter — **not started**
 - verified physical scans overall: **26 / 28**
-- assembled Tamil poem: **not yet created intentionally; READY for assembly**
-- English translation: **deferred until Tamil assembly/source review is stable**
+- English translation: **still deferred until the complete physical booklet layer is closed**
 
 ## அடுத்த activity
 
-Assemble **இதயத்தைத் தந்திடு அண்ணா** from the verified poem page records **scans 13–26**, excluding scan 13's contextual note from verse and excluding scan 26's printer imprint. Perform a page-to-assembly source comparison and record it in `ASSEMBLY_REVIEW.md` before any English translation.
+Archive the remaining non-poem back matter **scans 27–28** as `pages/0027.md` and `pages/0028.md`, update the page map/audit, and perform the final 28/28 physical-source completion check.
 
-The non-poem back-matter scans **27–28** remain to be archived before the entire physical booklet is declared source-complete.
+Only after that physical-source closure should translation planning begin.
