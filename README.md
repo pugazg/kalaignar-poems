@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **26/28 physical scans verified; poem 14/14 verified; Tamil assembly reviewed PASS** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **Tamil archival layer COMPLETE — 28/28 scans verified; poem 14/14; assembly PASS** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -32,28 +32,30 @@ poems/
     pages/
     sections/
     ASSEMBLY_REVIEW.md
+    SOURCE_COMPLETENESS_REVIEW.md
     audit.md
     translations/
 ```
 
 விரிவான workflow: [`POEM_PROCESSING_GUIDE.md`](POEM_PROCESSING_GUIDE.md).  
-தற்போதைய படைப்பு: [`poems/idhayathai-thanthidu-anna/README.md`](poems/idhayathai-thanthidu-anna/README.md).
+முதல் முழுமையான படைப்பு: [`poems/idhayathai-thanthidu-anna/README.md`](poems/idhayathai-thanthidu-anna/README.md).
 
-## தற்போதைய நிலை
+## இதயத்தைத் தந்திடு அண்ணா — இறுதி நிலை
 
 - scans **1–12**: front matter / photographs / `என்னுரை` — **verified**
 - scans **13–26**: complete poem body — **verified 14/14**
-- poem `needs-review`: **0**
-- poem `blocked`: **0**
+- scan **26**: printer imprint separately recorded and excluded from poem assembly
+- scan **27**: colour poster / World Classical Tamil Conference back matter — **verified**
+- scan **28**: back cover — **verified**
+- verified physical scans overall: **28 / 28**
+- physical `needs-review`: **0**
+- physical `blocked`: **0**
 - assembled Tamil poem: [`sections/idhayathai-thanthidu-anna.md`](poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md) — **created and reviewed**
 - assembly review: [`ASSEMBLY_REVIEW.md`](poems/idhayathai-thanthidu-anna/ASSEMBLY_REVIEW.md) — **PASS; 14/14 source page blocks matched, 0 discrepancies**
-- scan **26**: printer imprint remains separately recorded and excluded from poem assembly scope
-- scans **27–28**: non-poem back matter — **not started**
-- verified physical scans overall: **26 / 28**
-- English translation: **still deferred until the complete physical booklet layer is closed**
+- source completeness review: [`SOURCE_COMPLETENESS_REVIEW.md`](poems/idhayathai-thanthidu-anna/SOURCE_COMPLETENESS_REVIEW.md) — **PASS; 28/28**
+- Tamil archival/source layer: **COMPLETE**
+- English translation: **not yet started**
 
 ## அடுத்த activity
 
-Archive the remaining non-poem back matter **scans 27–28** as `pages/0027.md` and `pages/0028.md`, update the page map/audit, and perform the final 28/28 physical-source completion check.
-
-Only after that physical-source closure should translation planning begin.
+The first work is now fully closed at the Tamil archival/source level. The next activity can establish the **English translation plan and review workflow** for `இதயத்தைத் தந்திடு அண்ணா`, while keeping all verified Tamil source files immutable except for documented source corrections.
