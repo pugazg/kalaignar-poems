@@ -44,8 +44,12 @@ The 15.9.2008 foreword date is an internal source-supported date. It must not be
 - Scan 2: full-page book-donation advertisement/list.
 - Scan 3: captioned photograph. Printed text says that **குறிஞ்சி சுப்பிரமணியன்** gave **ரூபாய் 3 இலட்சம் பங்குத் தொகையாக** for the **“பெரியார்” திரைப்படக் காவியம்** on **22.9.2006**; the page also carries **பேராசிரியர். தி.வ. மெய்கண்டார் அவர்களின் அன்பளிப்பு**.
 - Scan 4: portrait page captioned **தந்தை பெரியார் ஈ.வெ.ராமசாமி / Thanthai Periyar E.V. Ramasamy** with the printed slogan **மானமும் அறிவும் மனிதர்க்கு அழகு**.
-- Scans 5–10: **என்னுரை** by குறிஞ்சி சுப்பிரமணியன், printed pages 3–8.
-- Scans 11–12: photograph pages with printed captions; they remain physical-source front matter and are not poem text.
+- Scans 5–10: **என்னுரை** by குறிஞ்சி சுப்பிரமணியன், printed pages 3–8; page-level transcription is verified. Scan 9 contains a large bordered prose passage within the foreword.
+- Scan 10 preserves source forms including **மொழிபெயர்ப்பு செய்யப்பட்டு** and the later title occurrence **“இதயத்தை தந்திடு அண்ணா”**; these are not silently normalized.
+- Scan 11: rotated photograph page. Printed caption reads **மதுரை தியாகராசர் கல்லூரியில் 8.11.1960இல் மாணவர் மன்ற விழாவில் சொற்பொழிவு ஆற்றவந்த பேரறிஞர் அண்ணாவுடன் (வலப்பக்கம்) அன்றைய மாணவர் தலைவர் குறிஞ்சி சுப்பிரமணியன்**.
+- Scan 12: rotated photograph page. Printed caption reads **புரட்சித் தலைவர் எம்.ஜி.ஆர்., நாவரசு கா. காளிமுத்து விருதுநகர் பெ.சீனிவாசன் இவர்களுடன் குறிஞ்சி சுப்பிரமணியன் (எம்.ஜி.ஆரின் வலப்பக்கம்) 15.8.1975**.
+
+Scans **1–12** are now verified at the page-record level.
 
 ## Poem body
 
