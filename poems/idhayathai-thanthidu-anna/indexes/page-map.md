@@ -11,14 +11,14 @@ Total scan pages: **28**
 | 2 | — | advertisement | `குறிஞ்சி சுப்பிரமணியன் அன்பளிப்பு புத்தகங்கள்` list | verified |
 | 3 | — | photograph | captioned presentation photograph; page rotated in scan | verified |
 | 4 | — | portrait | தந்தை பெரியார் portrait with printed slogan/caption | verified |
-| 5 | 3 | foreword | `என்னுரை` begins — குறிஞ்சி சுப்பிரமணியன் | not-started |
-| 6 | 4 | foreword | `என்னுரை` continuation | not-started |
-| 7 | 5 | foreword | `என்னுரை` continuation | not-started |
-| 8 | 6 | foreword | `என்னுரை` continuation | not-started |
-| 9 | 7 | foreword | `என்னுரை` continuation | not-started |
-| 10 | 8 | foreword | `என்னுரை` conclusion; Chennai/date/signature | not-started |
-| 11 | — | photograph | captioned historical photograph; page rotated in scan | not-started |
-| 12 | — | photograph | captioned historical photograph; page rotated in scan | not-started |
+| 5 | 3 | foreword | `என்னுரை` begins — குறிஞ்சி சுப்பிரமணியன் | verified |
+| 6 | 4 | foreword | `என்னுரை` continuation | verified |
+| 7 | 5 | foreword | `என்னுரை` continuation | verified |
+| 8 | 6 | foreword | `என்னுரை` continuation | verified |
+| 9 | 7 | foreword | `என்னுரை` continuation; boxed passage | verified |
+| 10 | 8 | foreword | `என்னுரை` conclusion; Chennai/date/signature | verified |
+| 11 | — | photograph | மதுரை தியாகராசர் கல்லூரி 8.11.1960 caption; page rotated in scan | verified |
+| 12 | — | photograph | எம்.ஜி.ஆர். group photograph caption dated 15.8.1975; page rotated in scan | verified |
 | 13 | 11 | poem | poem title/context and opening verse | not-started |
 | 14 | 12 | poem | poem continuation | not-started |
 | 15 | 13 | poem | poem continuation | not-started |
@@ -38,9 +38,13 @@ Total scan pages: **28**
 
 ## Current count
 
-- `verified`: **4 / 28**
-- `not-started`: **24 / 28**
+- `verified`: **12 / 28**
+- `not-started`: **16 / 28**
 - poem-body pages verified: **0 / 14**
+
+## Front-matter checkpoint
+
+Scans **1–12** are now page-recorded and visually verified. The physical transition into the poem occurs at scan **13**, which opens the titled poem and visibly carries printed page **11**.
 
 ## Poem-body boundary
 
