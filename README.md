@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **4/28 physical scans verified; poem 0/14 — next scan 5** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **12/28 physical scans verified; front matter 1–12 complete; poem 0/14 — next scan 13** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -40,4 +40,4 @@ poems/
 
 ## அடுத்த activity
 
-`இதயத்தைத் தந்திடு அண்ணா` scans **1–4** source-faithfully archived and verified. Continue with scans **5–12** (`என்னுரை` + two captioned photograph pages), update audit/page-map counts, then begin the poem at scan **13** in a later activity with exact lineation.
+`இதயத்தைத் தந்திடு அண்ணா` scans **1–12** source-faithfully archived and verified. Begin the poem with **scans 13–18 / printed pages 11–16** as the first poem batch, preserving the scan's exact poetic lineation and keeping the contextual note on scan 13 separate from the verse.
