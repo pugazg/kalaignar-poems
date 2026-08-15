@@ -9,7 +9,7 @@ Branch: `main`
 
 1. Read `POEM_PROCESSING_GUIDE.md` completely.
 2. Read root `README.md`.
-3. Read the target work's `README.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`.
+3. Read the target work's `README.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, and `ASSEMBLY_REVIEW.md`.
 4. Inspect existing `pages/` / `sections/` before creating anything; continue existing work and do not duplicate records.
 5. Re-open the supplied scan page directly before changing any source reading or marking anything `verified`.
 6. The attached/source scan remains controlling; do not silently normalize Tamil or poem lineation.
@@ -29,98 +29,96 @@ Scan 13 states that on **9.2.1969**, on **சென்னை வானொலி*
 
 Do not replace this wording with an inferred venue/event description.
 
-## Completed activities
+## Completed source work
 
-Verified page records now exist for **scans 1–26**:
+Verified page records exist for **scans 1–26**:
 
 - `pages/0001.md` — cover
 - `pages/0002.md` — donation/book-list advertisement
 - `pages/0003.md` — captioned photograph
 - `pages/0004.md` — portrait page
-- `pages/0005.md` through `pages/0010.md` — complete `என்னுரை` by குறிஞ்சி சுப்பிரமணியன்
-- `pages/0011.md` — rotated captioned photograph, printed date 8.11.1960
-- `pages/0012.md` — rotated captioned photograph, printed date 15.8.1975
+- `pages/0005.md` through `pages/0010.md` — complete `என்னுரை`
+- `pages/0011.md` and `pages/0012.md` — captioned photograph pages
 - `pages/0013.md` through `pages/0025.md` — poem, visible printed pages 11–23
 - `pages/0026.md` — poem conclusion + separately recorded printer imprint; no visible printed page number
 
-Current counts:
+Current source counts:
 
 - physical scans verified: **26 / 28**
 - physical scans not started: **2 / 28** — scans 27–28 only
-- front matter scans 1–12: **complete / verified**
 - poem-body scans verified: **14 / 14**
-- poem-body scans not started: **0 / 14**
 - poem `needs-review`: **0**
 - poem `blocked`: **0**
-- poem-body mapped range: **13–26**
-- assembled Tamil poem: **not created yet intentionally**
-- assembly readiness: **READY**
+
+## Tamil assembly — COMPLETE
+
+Created:
+
+- `sections/idhayathai-thanthidu-anna.md`
+- `ASSEMBLY_REVIEW.md`
+
+Assembly method:
+
+- only verified `Poem text` from scans **13–26** was used;
+- scan 13's title/context note remains outside verse;
+- scan 26's printer imprint is excluded from verse;
+- physical scan boundaries remain traceable with hidden comments;
+- no cross-page wording was editorially joined, corrected or normalized.
+
+Assembly review result:
+
+- page blocks checked: **14 / 14**
+- missing blocks: **0**
+- duplicate blocks: **0**
+- textual discrepancies: **0**
+- status: **PASS**
+
+The source scans 13–26 were re-opened during the review and the assembled file was re-read sequentially after creation.
 
 ## Important source-fidelity notes already established
 
 ### Front matter
 
-- Scan 3 refers to **ரூபாய் 3 இலட்சம் பங்குத் தொகையாக** வழங்கியபோது for the **“பெரியார்” திரைப்படக் காவியம்**, dated **22.9.2006**. Do not reuse the discarded earlier description about three lakh books.
+- Scan 3 refers to **ரூபாய் 3 இலட்சம் பங்குத் தொகையாக** for the **“பெரியார்” திரைப்படக் காவியம்**, dated **22.9.2006**.
 - Scan 6 → 7 physical split is `ஆலடி` / `அருணா`.
 - Scan 8 retains `அய்ஏஎஸ்` and `அப்துல்ரகுமான்`.
 - Scan 10 retains `மொழிபெயர்ப்பு செய்யப்பட்டு` and the title variant `“இதயத்தை தந்திடு அண்ணா”`.
 
-### Poem scans 13–18
+### Poem
 
-- Scan 13 context note is separate from verse; page ends `உமைத்` into scan 14.
-- Scan 14 retains forms including `தங்கு சனி வேல்`, `வேது`, `பொருதடக்கை`, `களப்பரணி..`.
-- Scan 15 retains `அரு மூன்று எழுத்தாலே` and `அய்ம்பத்திரண்டுதனில்`.
-- Scan 16 retains repeated `முன்றெழுத்து` and `எடெல்லாம் வீடெல்லாம் தமிழ்`.
-- Scan 17 retains `மாண்பே! .`, `நாலைந்து`, and other source punctuation/forms.
-- Scan 18 ends `அன்புறு காந்தியின் அருளால் இன்று`, continuing to scan 19.
+Keep the already verified page records controlling. Examples of deliberate source retention include:
 
-### Poem scans 19–26
-
-- Scan 19 retains `பிரிவாய்மாறி`, indented `கீறல் விழ`, and `வந்தமர்வார்..`.
-- Scan 20 direct native-scan review confirms `மகாத்மாவின் தோன்றல்` and `கீரியென்றால்`.
-- Scan 21 confirms `பல்லாவரத்தார்`, `பழந்தமிழ்ப்`, `ஈன்றாள் எனினும்;`, and `சழக்கரால்`.
-- Scan 22 confirms `மாறிற்றுத் தமிழர் மனம்`, `நடத்திட்டார்`, `வாடினாள்`, `பாடினாள்`, `சுடுநெருப்பில்`, `ஆடினாள்`, plus irregular source quotation marks.
-- Scan 23 confirms `கடிதோச்சி`, `எறியத்`, `ஓங்கிற்றென்றாள்`, `அமுத மொழி`, `போதாகி`, and `பதிகத்துப்`.
-- Scan 24 confirms `வளையாத நெஞ்சுப் பாரதிக்கும்`, `வீரமா முனிவருக்கும்`, and `கால்டுவெல் போப்புக்கும்`.
-- Scan 25 retains source punctuation including `உலகறிய ;`, `வைத்த போது..`, `நின்றார்..`, and `எம் அண்ணா.. இதயமன்னா...`.
-- Scan 26 retains `கொண்டுன்னைப்`, `வேண்டுமென்றாய்:`, `ஏதண்ணா`, `இருக்குமிடந்`, `இதயத்தை தந்திடண்ணா..`, and final `அண்ணா...`.
+- `களப்பரணி..`
+- `அய்ம்பத்திரண்டுதனில்`
+- repeated `முன்றெழுத்து`
+- `எடெல்லாம் வீடெல்லாம் தமிழ்`
+- `மாண்பே! .`
+- `பிரிவாய்மாறி`
+- `கீரியென்றால்`
+- `சழக்கரால்`
+- `மாறிற்றுத் தமிழர் மனம்`
+- `கடிதோச்சி`
+- `போதாகி மலர்கின்ற`
+- `கால்டுவெல் போப்புக்கும் சிலை`
+- `பற்றுதனை உலகறிய ; அந்த`
+- `இதயத்தை தந்திடண்ணா..`
 
 ### Scan 26 imprint boundary
 
-The poem conclusion ends before a horizontal rule. Below it is the distinct printer imprint:
+The poem ends at `உன் கால்மலரில் வைப்பேன் அண்ணா...`. The printer imprint below the rule is a separate source layer and must never enter poem verse.
 
-- `அச்சிட்டோர்`
-- `வைகை பிரிண்டர்ஸ் & பப்ளிஷர்ஸ்,`
-- `சைதாப்பேட்டை, சென்னை-15.`
+## Exact next activity — physical back-matter closure
 
-**Never include this imprint in the assembled poem.**
+Process **scans 27–28** only.
 
-## Exact next activity — Tamil assembly review
-
-1. Read verified page records `pages/0013.md` through `pages/0026.md`.
-2. Create `sections/idhayathai-thanthidu-anna.md` using **only the verified poem verse** from those records.
-3. Keep scan 13's title/context metadata outside poem verse; the assembled file may carry its own archival heading and scan markers, but must not silently add content to the source poem.
-4. Exclude scan 26's printer imprint completely from poem verse.
-5. Preserve verified lineation, stanza spacing, punctuation, quotation marks, repeated words, and source-supported unusual spellings.
-6. Preserve page-boundary continuations faithfully when assembling; do not accidentally duplicate or omit split phrases.
-7. Compare the completed assembly back against all 14 page records / source scans and create `ASSEMBLY_REVIEW.md` with a clear PASS/FAIL, scan coverage, and any corrections made.
-8. Update `audit.md`, work/root README, and this handover after assembly review.
-9. Do **not** begin English translation in the same activity unless explicitly requested after assembly closure.
-
-## Remaining physical-source closure
-
-Scans **27–28** are non-poem back matter and remain `not-started`:
-
-- scan 27 — colour poster / congratulatory material;
-- scan 28 — back cover photograph/caption/artwork.
-
-These should receive page records before the entire 28-scan physical publication is declared source-complete. They do not belong in the assembled poem.
+1. Re-open scans 27 and 28 directly from the supplied PDF.
+2. Create `pages/0027.md` for the colour poster / congratulatory material.
+3. Create `pages/0028.md` for the back-cover photograph, caption and visible artwork/text.
+4. Preserve printed text exactly; do not infer identities from appearance beyond what the page itself labels.
+5. Keep poster/back-cover material outside the assembled poem.
+6. Update `indexes/page-map.md`, `audit.md`, work/root README and this handover.
+7. If both pages verify cleanly, close the physical source at **28/28 verified** and perform a final completeness check.
 
 ## Translation
 
-English translation is **intentionally deferred**. Do not start translation until:
-
-- assembled Tamil poem exists;
-- page-to-assembly review passes;
-- source audit is stable;
-- preferably scans 27–28 physical-source closure is also complete.
+English translation remains **intentionally deferred** until the physical-source layer reaches 28/28 and the final audit is stable.
