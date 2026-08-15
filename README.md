@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **12/28 physical scans verified; front matter 1–12 complete; poem 0/14 — next scan 13** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **18/28 physical scans verified; poem 6/14 verified — next scan 19** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -38,6 +38,17 @@ poems/
 விரிவான workflow: [`POEM_PROCESSING_GUIDE.md`](POEM_PROCESSING_GUIDE.md).  
 தற்போதைய படைப்பு: [`poems/idhayathai-thanthidu-anna/README.md`](poems/idhayathai-thanthidu-anna/README.md).
 
+## தற்போதைய நிலை
+
+- scans **1–12**: front matter / photographs / `என்னுரை` — **verified**
+- scans **13–18 / printed pages 11–16**: first poem batch — **verified**
+- scans **19–26**: remaining poem body — **not started**
+- scans **27–28**: back matter — **not started**
+- poem `needs-review`: **0**
+- poem `blocked`: **0**
+- assembled Tamil poem: **not yet created intentionally**
+- English translation: **deferred until Tamil archival layer is source-complete**
+
 ## அடுத்த activity
 
-`இதயத்தைத் தந்திடு அண்ணா` scans **1–12** source-faithfully archived and verified. Begin the poem with **scans 13–18 / printed pages 11–16** as the first poem batch, preserving the scan's exact poetic lineation and keeping the contextual note on scan 13 separate from the verse.
+Continue **இதயத்தைத் தந்திடு அண்ணா** from **scan 19 / printed page 17**. Process scans **19–26** as the next poem batch if practical, preserving exact source lineation and separating scan 26's printer imprint from the poem conclusion. After all 14 poem scans are verified, proceed to Tamil assembly and source comparison before any English translation.
