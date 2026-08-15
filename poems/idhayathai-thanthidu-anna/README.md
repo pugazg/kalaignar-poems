@@ -38,15 +38,17 @@ This wording is preserved as source evidence rather than rewritten into a normal
 | 5–10 | `என்னுரை` by குறிஞ்சி சுப்பிரமணியன் | verified |
 | 11–12 | captioned photograph pages | verified |
 | 13–26 | complete poem body; scan 26 also carries printer imprint | **verified 14/14** |
-| 27 | colour poster / congratulatory back matter | not started |
-| 28 | back cover photograph and caption | not started |
+| 27 | colour World Classical Tamil Conference poster / donor back matter | verified |
+| 28 | back-cover photograph, caption and political-symbol artwork | verified |
 
 Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 
-## Current archival status
+## Final archival status
 
-- verified physical page records: **26 / 28** — scans **1–26**
-- remaining physical pages: **2 / 28** — scans **27–28**, both non-poem back matter
+- verified physical page records: **28 / 28**
+- physical `not-started`: **0**
+- physical `needs-review`: **0**
+- physical `blocked`: **0**
 - poem-body verified: **14 / 14** — scans **13–26**
 - poem `needs-review`: **0**
 - poem `blocked`: **0**
@@ -54,7 +56,9 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 - assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md) — **PASS**
 - assembly page blocks checked: **14 / 14**
 - assembly discrepancies: **0**
-- English translation: **not started / intentionally deferred until physical booklet closure**
+- final physical-source review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md) — **PASS**
+- Tamil archival/source layer: **COMPLETE**
+- English translation: **not started; ready for separate planning activity**
 
 Current audit: [`audit.md`](audit.md).
 
@@ -66,13 +70,28 @@ Assembly rules applied:
 
 1. scan 13's printed contextual note is represented outside the verse body;
 2. scan 26's printer imprint is excluded from verse;
-3. no cross-page wording was silently joined or rewritten;
-4. physical page boundaries remain traceable through hidden source comments;
-5. page-supported indentation, stanza breaks, punctuation and unusual source forms remain unchanged.
+3. scans 27–28 back matter are excluded from verse;
+4. no cross-page wording was silently joined or rewritten;
+5. physical page boundaries remain traceable through hidden source comments;
+6. page-supported indentation, stanza breaks, punctuation and unusual source forms remain unchanged.
 
-A direct page-to-assembly comparison was completed after creation. The review found **14/14 page blocks present, no duplicates, no missing blocks, and no textual discrepancies**. See [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md).
+A direct page-to-assembly comparison found **14/14 page blocks present, no duplicates, no missing blocks, and no textual discrepancies**. See [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md).
 
 Source-fidelity examples retained in the assembly include `களப்பரணி..`, `அய்ம்பத்திரண்டுதனில்`, repeated `முன்றெழுத்து`, `மாண்பே! .`, `பிரிவாய்மாறி`, `கீரியென்றால்`, `மாறிற்றுத் தமிழர் மனம்`, `கடிதோச்சி`, `போதாகி மலர்கின்ற`, `கால்டுவெல் போப்புக்கும் சிலை`, `பற்றுதனை உலகறிய ; அந்த`, and `இதயத்தை தந்திடண்ணா..`.
+
+## Back-matter closure
+
+### Scan 27
+
+`pages/0027.md` preserves the folded colour poster as a separate source layer. It contains a World Classical Tamil Conference heading, a printed Kalaignar composition beginning `பிறப்பொக்கும் எல்லா உயிர்க்கும் -`, and a donor/publisher block for **குறிஞ்சி சுப்பிரமணியன்**. The fold-affected line `அமைதி வழிகாட்டும்` was checked with enlarged native-scan rendering; tiny emblem lettering that is not reliably legible is not reconstructed.
+
+### Scan 28
+
+`pages/0028.md` preserves the back-cover caption:
+
+`தமிழக துணை முதல்வர் தளபதி மு.க. ஸ்டாலின் அவர்களுடன் / புத்தகத்தின் பதிப்பாளர் குறிஞ்சி சுப்பிரமணியன்`
+
+The page record uses the printed caption for names/roles rather than facial inference and documents the lower political-symbol artwork separately.
 
 ## Page structure
 
@@ -81,20 +100,14 @@ pages/
   0001.md  # verified
   ...
   0026.md  # verified poem conclusion + separate printer imprint
-  0027.md  # next — poster
-  0028.md  # next — back cover
+  0027.md  # verified poster / back matter
+  0028.md  # verified back cover
 sections/
   idhayathai-thanthidu-anna.md  # assembled + reviewed
 ASSEMBLY_REVIEW.md               # PASS
+SOURCE_COMPLETENESS_REVIEW.md    # PASS — 28/28
 ```
 
 ## Next activity
 
-Archive the remaining physical-source back matter:
-
-1. create `pages/0027.md` from scan 27, preserving its poster/congratulatory material as printed;
-2. create `pages/0028.md` from scan 28, preserving its photograph caption and visible artwork/text without identity inference beyond printed labels;
-3. update `indexes/page-map.md` and `audit.md` to **28/28** if both verify cleanly;
-4. run a final physical-source completeness check.
-
-Do **not** begin English translation until that closure is complete.
+The Tamil archival/source layer for this first work is closed. The next activity may begin **English translation planning**, without changing the verified Tamil source files.
