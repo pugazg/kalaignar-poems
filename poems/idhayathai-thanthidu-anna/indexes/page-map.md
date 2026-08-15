@@ -33,53 +33,47 @@ Total scan pages: **28**
 | 24 | 22 | poem | poem continuation | verified |
 | 25 | 23 | poem | poem continuation | verified |
 | 26 | — | poem + imprint | poem conclusion; printer imprint separately recorded at foot | verified |
-| 27 | — | poster | colour congratulatory / promotional poster; not poem body | not-started |
-| 28 | — | back-cover | photograph, caption and political-symbol artwork | not-started |
+| 27 | — | poster | colour World Classical Tamil Conference poster; printed poem and donor block; folded/creased | verified |
+| 28 | — | back-cover | captioned photograph and political-symbol artwork | verified |
 
-## Current count
+## Final count
 
-- `verified`: **26 / 28**
-- `not-started`: **2 / 28**
+- `verified`: **28 / 28**
+- `not-started`: **0 / 28**
+- `partial`: **0 / 28**
 - `needs-review`: **0 / 28**
 - `blocked`: **0 / 28**
 - poem-body pages verified: **14 / 14**
-- poem-body pages not started: **0 / 14**
 
-## Front-matter checkpoint
+## Source-layer checkpoints
 
-Scans **1–12** are page-recorded and visually verified. The physical transition into the poem occurs at scan **13**, which opens the titled poem and visibly carries printed page **11**.
-
-## Poem-body checkpoint
-
-Scans **13–26** are now transcribed and directly compared with the controlling scan.
-
-- scans 13–25 visibly carry printed pages **11–23**;
-- scan 26 carries no visible printed page number and remains unmapped rather than being silently labelled `24`;
-- scan 26's poem conclusion and printer imprint are preserved as separate source layers;
-- poem lineation, stanza boundaries, unusual source spellings, punctuation and page-boundary continuations are retained;
-- poem-body `needs-review`: **0**;
-- poem-body `blocked`: **0**.
-
-The page-level Tamil poem source is therefore complete and ready for assembly review.
+- scans **1–12**: front matter / photographs / `என்னுரை` — **verified**;
+- scans **13–26**: complete poem body — **verified 14/14**;
+- scan **26**: printer imprint recorded separately from poem verse;
+- scan **27**: poster/back matter — **verified**, outside assembled poem scope;
+- scan **28**: back cover — **verified**, outside assembled poem scope.
 
 ## Poem-body boundary
 
-Archival poem scope remains **scans 13–26**.
+Archival poem scope is **scans 13–26**.
 
 - scan 13 explicitly opens the titled poem;
 - scan 26 contains the final verse lines and then a printer imprint;
-- scan 27 is visually and editorially separate poster/back matter.
+- scans 27–28 are visually and editorially separate back matter.
 
-The printer imprint must not be included in the assembled poem.
+The printer imprint and back matter are excluded from the assembled poem.
 
 ## Printed pagination observation
 
 - Scans 5–10 visibly show printed pages **3–8**.
-- Scans 11–12 are photograph pages with no printed page number observed in the supplied images.
+- Scans 11–12 have no printed page number observed.
 - Scan 13 resumes at visible printed page **11**.
 - Scans 13–25 visibly continue **11–23**.
-- Scan 26 has no visible printed page number observed; do not silently label it `24` in page metadata.
+- Scan 26 has no visible printed page number observed; it is not silently labelled `24`.
+- Scans 27–28 have no printed page number observed.
 
-## Remaining physical-source pages
+## Physical-source closure
 
-Scans **27–28** remain to be archived as non-poem back matter. Their incomplete status does not alter the now-complete **14/14 poem-body transcription**, but they must be processed before declaring the entire physical publication source-complete.
+All **28/28** scan pages now have page records and are visually reviewed. The physical publication layer is source-complete.
+
+Final completeness review: [`../SOURCE_COMPLETENESS_REVIEW.md`](../SOURCE_COMPLETENESS_REVIEW.md).
