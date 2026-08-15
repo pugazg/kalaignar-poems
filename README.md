@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **Source registered; transcription pending** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **4/28 physical scans verified; poem 0/14 — next scan 5** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -35,8 +35,9 @@ poems/
     translations/
 ```
 
-விரிவான workflow: [`POEM_PROCESSING_GUIDE.md`](POEM_PROCESSING_GUIDE.md).
+விரிவான workflow: [`POEM_PROCESSING_GUIDE.md`](POEM_PROCESSING_GUIDE.md).  
+தற்போதைய படைப்பு: [`poems/idhayathai-thanthidu-anna/README.md`](poems/idhayathai-thanthidu-anna/README.md).
 
 ## அடுத்த activity
 
-`இதயத்தைத் தந்திடு அண்ணா` source registration முடிந்த பின் scan-by-scan archival transcription தொடங்க வேண்டும். முதலில் front matter-ஐ scan 1 முதல் வரிசையாகப் பதிவு செய்து, பின்னர் scan 13-ல் தொடங்கும் கவிதைப் பகுதியை source-faithful lineation-உடன் தொடர வேண்டும்.
+`இதயத்தைத் தந்திடு அண்ணா` scans **1–4** source-faithfully archived and verified. Continue with scans **5–12** (`என்னுரை` + two captioned photograph pages), update audit/page-map counts, then begin the poem at scan **13** in a later activity with exact lineation.
