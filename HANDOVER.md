@@ -33,7 +33,7 @@ Do not replace this wording with an inferred venue/event description.
 
 Repository initialized with the permanent processing guide, source metadata, page map, audit, work README and handover.
 
-Verified page records now exist for **scans 1–12**:
+Verified page records now exist for **scans 1–18**:
 
 - `pages/0001.md` — cover
 - `pages/0002.md` — donation/book-list advertisement
@@ -42,13 +42,17 @@ Verified page records now exist for **scans 1–12**:
 - `pages/0005.md` through `pages/0010.md` — complete `என்னுரை` by குறிஞ்சி சுப்பிரமணியன்
 - `pages/0011.md` — rotated captioned photograph, printed date 8.11.1960
 - `pages/0012.md` — rotated captioned photograph, printed date 15.8.1975
+- `pages/0013.md` through `pages/0018.md` — first poem batch, printed pages 11–16
 
 Current counts:
 
-- physical scans verified: **12 / 28**
-- physical scans not started: **16 / 28**
+- physical scans verified: **18 / 28**
+- physical scans not started: **10 / 28**
 - front matter scans 1–12: **complete / verified**
-- poem-body scans verified: **0 / 14**
+- poem-body scans verified: **6 / 14**
+- poem-body scans not started: **8 / 14**
+- poem `needs-review`: **0**
+- poem `blocked`: **0**
 - poem-body mapped range: **13–26**
 
 ## Important source-fidelity notes already established
@@ -78,20 +82,47 @@ High-resolution source review confirmed:
 
 Both are intentional source transcriptions, not errors to normalize.
 
+### Scan 13
+
+Keep the printed parenthetical 9.2.1969 / சென்னை வானொலி context separate from the poem verse. Scan 13 ends `உமைத்`, continuing onto scan 14.
+
+### Scan 14
+
+Direct source review retained unusual forms including `தங்கு சனி வேல்`, `வேது`, `பொருதடக்கை`, `கலவி மடவீர் கழற்சென்னி`, and `களப்பரணி..`.
+
+### Scan 15
+
+Retain `அரு மூன்று எழுத்தாலே` and the visibly printed `அய்ம்பத்திரண்டுதனில்`.
+
+### Scan 16
+
+The repeated source form is `முன்றெழுத்து`, not a normalized replacement. Also retain `எடெல்லாம் வீடெல்லாம் தமிழ்`. The page's stepped indentation is represented in the poem record.
+
+### Scan 17
+
+Retain `சாலை யோரத்திலே`, `வேலையற்றதுகள்`, `பனுவல்`, `நாலைந்து`, and the source punctuation `மாண்பே! .`. The final line continues to scan 18.
+
+### Scan 18
+
+Retain source readings including `பனிமலர் வீழ் தும்பியதாய்த்`, `கோலற்ற குருடர்`, and `தீர் அண்ணா திராவிடர் கழகமெனும்`. Scan 18 ends `அன்புறு காந்தியின் அருளால் இன்று`, continuing onto scan 19.
+
 ## Exact next activity
 
-Begin the poem with **scans 13–18 / printed pages 11–16**.
+Continue the poem with **scans 19–26**.
 
-1. Re-open scans 13–18 directly before transcription.
-2. Create `pages/0013.md` through `pages/0018.md`.
-3. On scan 13, transcribe the title and parenthetical contextual note separately from the poem verse.
-4. Preserve exact poetic lineation, indentation, stanza spacing, dashes, quotation marks, ellipses, repeated words and unusual source spellings.
+1. Re-open scans 19–26 directly before transcription.
+2. Create `pages/0019.md` through `pages/0026.md`.
+3. Preserve exact poetic lineation, indentation, stanza spacing, dashes, quotation marks, ellipses, repeated words and unusual source spellings.
+4. Follow page-boundary continuations explicitly; scan 19 begins by continuing the final line/context from scan 18.
 5. Do not use OCR output, metre, remembered versions or web text as authority.
 6. If a reading is difficult, follow the difficult-reading protocol in `POEM_PROCESSING_GUIDE.md` rather than guessing.
-7. Update `indexes/page-map.md`, `audit.md`, work/root README and this handover after the batch.
-8. Do not yet assemble `sections/idhayathai-thanthidu-anna.md` unless all included poem pages are verified and the assembly scope is explicitly reached.
+7. On scan 26, keep the poem conclusion and printer imprint as distinct source layers within the physical page record.
+8. Update `indexes/page-map.md`, `audit.md`, work/root README and this handover after the batch.
+9. After all poem scans 13–26 are verified, create `sections/idhayathai-thanthidu-anna.md` only from verified page records and perform a page-to-assembly source review.
 
-After scans 13–18, continue with scans **19–26** as the next poem batch.
+## Assembly
+
+`sections/idhayathai-thanthidu-anna.md` has **not** been created intentionally. Do not assemble yet unless scans **19–26** have been source-reviewed and the poem body is complete.
 
 ## Translation
 
@@ -99,4 +130,4 @@ English translation is **intentionally deferred**. Do not start translation unti
 
 - all poem-body scans 13–26 are source-reviewed;
 - the assembled Tamil poem exists;
-- source audit is stable.
+- source audit and assembly review are stable.
