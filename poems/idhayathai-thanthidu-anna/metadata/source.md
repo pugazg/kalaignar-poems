@@ -49,7 +49,7 @@ The 15.9.2008 foreword date is an internal source-supported date. It must not be
 - Scan 11: rotated photograph page. Printed caption reads **மதுரை தியாகராசர் கல்லூரியில் 8.11.1960இல் மாணவர் மன்ற விழாவில் சொற்பொழிவு ஆற்றவந்த பேரறிஞர் அண்ணாவுடன் (வலப்பக்கம்) அன்றைய மாணவர் தலைவர் குறிஞ்சி சுப்பிரமணியன்**.
 - Scan 12: rotated photograph page. Printed caption reads **புரட்சித் தலைவர் எம்.ஜி.ஆர்., நாவரசு கா. காளிமுத்து விருதுநகர் பெ.சீனிவாசன் இவர்களுடன் குறிஞ்சி சுப்பிரமணியன் (எம்.ஜி.ஆரின் வலப்பக்கம்) 15.8.1975**.
 
-Scans **1–12** are now verified at the page-record level.
+Scans **1–12** are verified at the page-record level.
 
 ## Poem body
 
@@ -58,18 +58,22 @@ Scans **1–12** are now verified at the page-record level.
 - The poem continues through scan page **26**, which carries the final verse lines followed by the printer imprint.
 - Scans 13–25 visibly carry printed pages **11–23** in sequence.
 - Scan 26 has no visible printed page number in the inspected image; no number is inferred in archival metadata.
+- Page-level poem transcription for scans **13–26 is now verified 14/14**, with **0 `needs-review` and 0 `blocked` poem scans**.
+- On scan 26 the poem conclusion and printer imprint are explicitly separated; the imprint is outside assembled-poem scope.
 
-Poem lineation, indentation, punctuation, ellipses, quotation marks and stanza spacing are source features and must be preserved during transcription.
+Poem lineation, indentation, punctuation, ellipses, quotation marks and stanza spacing are source features and are preserved in the verified page records.
 
 ## Back matter
 
 - Scan 27: full-page colour poster / congratulatory material associated with குறிஞ்சி சுப்பிரமணியன்; it is not part of the poem body.
 - Scan 28: back cover with a photograph and caption identifying **தமிழக துணை முதல்வர் தளபதி மு.க. ஸ்டாலின்** and **புத்தகத்தின் பதிப்பாளர் குறிஞ்சி சுப்பிரமணியன்**; party-symbol imagery appears below.
+- Scans **27–28 remain to be archived at page-record level** before the entire physical publication is source-complete.
 
 ## Scan / physical-copy observations
 
 - The PDF is image-based; no usable text layer was parsed from the source.
 - Most interior text is clear, but the source uses a handwritten/calligraphic Tamil display type for the poem and therefore requires direct visual transcription rather than OCR trust.
+- Native embedded scan images and enlarged crops were used to resolve difficult poem readings while keeping the supplied scan authoritative.
 - Some pages show faint reverse-side bleed-through.
 - Photo pages are rotated in the scan orientation on scans 3, 11 and 12.
 - Scan 27 is a folded/creased colour poster page.
