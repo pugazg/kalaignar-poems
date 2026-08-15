@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **18/28 physical scans verified; poem 6/14 verified — next scan 19** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **26/28 physical scans verified; poem 14/14 verified; Tamil assembly next** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -41,14 +41,17 @@ poems/
 ## தற்போதைய நிலை
 
 - scans **1–12**: front matter / photographs / `என்னுரை` — **verified**
-- scans **13–18 / printed pages 11–16**: first poem batch — **verified**
-- scans **19–26**: remaining poem body — **not started**
-- scans **27–28**: back matter — **not started**
+- scans **13–26**: complete poem body — **verified 14/14**
 - poem `needs-review`: **0**
 - poem `blocked`: **0**
-- assembled Tamil poem: **not yet created intentionally**
-- English translation: **deferred until Tamil archival layer is source-complete**
+- scan **26**: poem conclusion verified; printer imprint separately recorded and excluded from poem assembly scope
+- scans **27–28**: non-poem back matter — **not started**
+- verified physical scans overall: **26 / 28**
+- assembled Tamil poem: **not yet created intentionally; READY for assembly**
+- English translation: **deferred until Tamil assembly/source review is stable**
 
 ## அடுத்த activity
 
-Continue **இதயத்தைத் தந்திடு அண்ணா** from **scan 19 / printed page 17**. Process scans **19–26** as the next poem batch if practical, preserving exact source lineation and separating scan 26's printer imprint from the poem conclusion. After all 14 poem scans are verified, proceed to Tamil assembly and source comparison before any English translation.
+Assemble **இதயத்தைத் தந்திடு அண்ணா** from the verified poem page records **scans 13–26**, excluding scan 13's contextual note from verse and excluding scan 26's printer imprint. Perform a page-to-assembly source comparison and record it in `ASSEMBLY_REVIEW.md` before any English translation.
+
+The non-poem back-matter scans **27–28** remain to be archived before the entire physical booklet is declared source-complete.
