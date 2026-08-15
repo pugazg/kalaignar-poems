@@ -5,18 +5,18 @@
 - Source file: `TVA_BOK_0064132_இதயத்தைத்_தந்திடு_அண்ணா.pdf`
 - SHA-256: `152cfb251a2049662102a2296487220f6f227f243657c9456df34105520676fe`
 - Total scan pages: **28**
-- Poem-body range currently mapped: **13–26** (**14 scans**)
+- Poem-body range: **13–26** (**14 scans**)
 - Source PDF committed: **No**
 
 ## Current physical-page status
 
 | Status | Count |
 |---|---:|
-| verified | 18 |
+| verified | 26 |
 | partial | 0 |
 | needs-review | 0 |
 | blocked | 0 |
-| not-started | 10 |
+| not-started | 2 |
 | **total** | **28** |
 
 Verified page records:
@@ -26,21 +26,129 @@ Verified page records:
 - scan 11 — rotated captioned photograph, dated 8.11.1960 in the printed caption
 - scan 12 — rotated captioned photograph, dated 15.8.1975 in the printed caption
 - scans 13–18 — first poem batch, printed pages 11–16
+- scans 19–25 — remaining numbered poem pages, printed pages 17–23
+- scan 26 — poem conclusion plus separately archived printer imprint; no visible printed page number
 
-Front matter **scans 1–12 is closed at page-record level**.
+Scans **27–28** remain non-poem back matter and are not yet page-recorded.
 
 ## Current poem-body status
 
 | Status | Count |
 |---|---:|
-| verified | 6 |
+| verified | 14 |
 | partial | 0 |
 | needs-review | 0 |
 | blocked | 0 |
-| not-started | 8 |
+| not-started | 0 |
 | **total poem scans** | **14** |
 
-The first poem batch **scans 13–18 / printed pages 11–16** is source-reviewed and verified. The next poem scan is **19 / printed page 17**.
+The complete poem body **scans 13–26** is now source-reviewed and verified at page-record level.
+
+## Source-faithful observations from scans 19–26
+
+### Scan 19 — continuation and party split passage
+
+Scan 19 begins by continuing scan 18's `அன்புறு காந்தியின் அருளால் இன்று` passage. Source-specific forms and layout retained include:
+
+- `பிரிவாய்மாறி`;
+- the indented `கீறல் விழ`;
+- `வந்தமர்வார்..` with two dots;
+- the stepped `பூத்திருக்கும் மலர்த் தோட்டம் / காலைப் பனிநீர்...` passage.
+
+The page ends `யாரேனும் கேட்டதுண்டா?`.
+
+### Scan 20 — high-resolution reading checks
+
+Direct native-scan review confirms:
+
+- `மகாத்மாவின் தோன்றல் நீர்தான் என்று`;
+- `கீரியென்றால் மலையன்றோ - அந்த`;
+- `இதுபோல வாழ்வில் என்றும் கண்டதில்லை'யென`;
+- `ஆந்திரத்துப் பிரம்மானந்த ரெட்டிகாரும்`.
+
+These are retained as printed rather than replaced by more expected or normalized wording.
+
+### Scan 21 — calligraphic forms resolved
+
+Direct enlarged review confirms:
+
+- `பழந்தமிழ் வித்தகர் பல்லாவரத்தார்`;
+- `பழந்தமிழ்ப் பேச்சால்`;
+- `நூலாயிரம் செய்திட்ட புலவர்களை ஈன்றாள் எனினும்;`;
+- `சழக்கரால்`;
+- `நச்சுமரம்`.
+
+The indented `மலர் / மன்னன் / நூல்` sequence is preserved.
+
+### Scan 22 — sandhi, verb endings and quotation layer
+
+High-resolution native-pixel inspection was especially important on this page. The source supports:
+
+- `மாறிற்றுத் தமிழர் மனம்` — the terminal `த்` is visibly present and is retained;
+- `நடக்காது வேலையென்று நடத்திட்டார் சில தமிழர்!`;
+- `வாடினாள் தமிழன்னை`;
+- `பாடினாள் தமிழன்னை; சுடுநெருப்பில்`;
+- `ஆடினாள் தமிழன்னை...`;
+- `புவியூர் விட்டுப் புகழூரில் வாழுகின்றான்`.
+
+The source's irregular opening/closing quotation marks in the Valluvar dialogue are preserved as closely as Unicode permits. The final open quotation continues onto scan 23.
+
+### Scan 23 — difficult calligraphy resolved without normalization
+
+Direct scan comparison confirms source-supported forms including:
+
+- `கடிதோச்சி மெல்ல எறியத் தெரியாமல்`;
+- `கொன்றெறியும் கோல் ஓங்கிற்றென்றாள்;`;
+- `அமுத மொழி வள்ளுவனும்`;
+- `விழுதனைய கைகளாலே..`;
+- `போதாகி மலர்கின்ற`;
+- `பதிகத்துப் பொருளாய்ப்`.
+
+The opening line closes the quotation begun on scan 22, and the final phrase continues onto scan 24.
+
+### Scan 24 — names/titles retained as printed
+
+Direct review confirms:
+
+- `வளையாத நெஞ்சுப் பாரதிக்கும்,`;
+- `வணங்காமுடிப் பாரதிதாசருக்கும் சிலை`;
+- `வீரமா முனிவருக்கும் சிலை`;
+- `கால்டுவெல் போப்புக்கும் சிலை`;
+- `ஒளவைக்கோர் சிலை`.
+
+No historical-name normalization is silently applied.
+
+### Scan 25 — elegiac punctuation retained
+
+Source punctuation and forms deliberately preserved include:
+
+- `பற்றுதனை உலகறிய ; அந்த`;
+- `சென்னையிலே வைத்த போது..`;
+- `ஆள்காட்டி விரல் மட்டும் காட்டி நின்றார்..`;
+- `எம் அண்ணா.. இதயமன்னா...`;
+- `எமை விடுத்தும்`;
+- `நிழல் நீ தான்`;
+- `நான்தானடா நன்முத்து`.
+
+### Scan 26 — poem conclusion versus printer imprint
+
+Scan 26 has **no visible printed page number**. It contains the poem conclusion, followed by a horizontal rule and a printer imprint. These are preserved as separate layers in `pages/0026.md`.
+
+Source-supported final forms include:
+
+- `பேரழகைப் பார்த்துள்ளேன்.. இன்று`;
+- `மண் மூடிக் கொண்டுன்னைப் பார்க்காமல்`;
+- `எதையும் தாங்கும் இதயம் வேண்டுமென்றாய்:`;
+- `இதையும் தாங்க ஏதண்ணா எமக்கிதயம்?`;
+- `இருக்குமிடந் தேடி யான் வரும் வரையில்`;
+- `இரவலாக உன் இதயத்தை தந்திடண்ணா..`;
+- `உன் கால்மலரில் வைப்பேன் அண்ணா...`.
+
+Printer imprint, excluded from poem assembly scope:
+
+- `அச்சிட்டோர்`
+- `வைகை பிரிண்டர்ஸ் & பப்ளிஷர்ஸ்,`
+- `சைதாப்பேட்டை, சென்னை-15.`
 
 ## Source-faithful observations from scans 13–18
 
@@ -62,7 +170,7 @@ These are not regularized by meaning, metre or remembered versions.
 
 ### Scan 15 — non-normalized number/word forms
 
-The page visibly prints `அரு மூன்று எழுத்தாலே` and `அய்ம்பத்திரண்டுதனில்`. Both are retained. In particular, `அய்ம்பத்திரண்டுதனில்` is **not** silently changed to a modernized spelling.
+The page visibly prints `அரு மூன்று எழுத்தாலே` and `அய்ம்பத்திரண்டுதனில்`. Both are retained.
 
 ### Scan 16 — repeated `முன்றெழுத்து`
 
@@ -92,7 +200,7 @@ Forms such as `அய்ஏஎஸ்` and `அப்துல்ரகுமா�
 
 ### Scan 9 boxed passage
 
-A large bordered passage about Mao, the crowds at Anna's funeral, and the Guinness record appears inside the foreword. It is retained as a distinct printed-text block in `pages/0009.md`; it is not poem text.
+A large bordered prose passage about Mao, the crowds at Anna's funeral, and the Guinness record appears inside the foreword. It is retained as a distinct printed-text block in `pages/0009.md`; it is not poem text.
 
 ### Scan 10 title / sandhi variants
 
@@ -126,18 +234,22 @@ The source was re-opened at high resolution before closure. An initially inserte
 ## Source-boundary notes
 
 - scans 1–12: front matter / photographs / foreword — **verified**
-- scans 13–18: poem body, first batch — **verified**
-- scans 19–26: remaining poem body; scan 26 also includes printer imprint — **not started**
+- scans 13–26: complete poem body — **verified 14/14**
+- scan 26 printer imprint — **verified separately from poem verse**
 - scans 27–28: back matter / back cover — **not started**
 
-No English translation should begin until the Tamil source layer is complete and the assembled poem has passed source comparison.
+No English translation should begin until the Tamil assembly has passed page-to-assembly comparison and the remaining physical back matter has been archived.
 
 ## Assembly readiness
 
-- verified poem scans available for later assembly: **13–18**
-- complete poem source available: **No — scans 19–26 remain**
-- `sections/idhayathai-thanthidu-anna.md`: **not created intentionally**
+- verified poem scans available for assembly: **13–26 / 14 of 14**
+- poem-body `needs-review`: **0**
+- poem-body `blocked`: **0**
+- `sections/idhayathai-thanthidu-anna.md`: **not created intentionally yet**
+- assembly status: **READY**
 
 ## Next audit checkpoint
 
-Continue with the remaining poem batch beginning at **scan 19 / printed page 17**. Process **scans 19–26** if practical, with the same direct source review and exact lineation policy. Scan 26 must keep the poem conclusion distinct from the printer imprint. After that batch, recheck all poem-body page counts before assembling the Tamil poem.
+Assemble `sections/idhayathai-thanthidu-anna.md` **only from the verified poem text in scans 13–26**, excluding scan 13's contextual note from verse and excluding scan 26's printer imprint. Then perform a page-to-assembly comparison and record the result in `ASSEMBLY_REVIEW.md`.
+
+Scans **27–28** remain a separate physical-source closure task and must also be archived before the entire 28-scan publication is declared source-complete.
