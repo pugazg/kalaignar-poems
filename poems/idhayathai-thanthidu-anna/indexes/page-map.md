@@ -19,12 +19,12 @@ Total scan pages: **28**
 | 10 | 8 | foreword | `என்னுரை` conclusion; Chennai/date/signature | verified |
 | 11 | — | photograph | மதுரை தியாகராசர் கல்லூரி 8.11.1960 caption; page rotated in scan | verified |
 | 12 | — | photograph | எம்.ஜி.ஆர். group photograph caption dated 15.8.1975; page rotated in scan | verified |
-| 13 | 11 | poem | poem title/context and opening verse | not-started |
-| 14 | 12 | poem | poem continuation | not-started |
-| 15 | 13 | poem | poem continuation | not-started |
-| 16 | 14 | poem | poem continuation | not-started |
-| 17 | 15 | poem | poem continuation | not-started |
-| 18 | 16 | poem | poem continuation | not-started |
+| 13 | 11 | poem | poem title/context and opening verse | verified |
+| 14 | 12 | poem | poem continuation | verified |
+| 15 | 13 | poem | poem continuation | verified |
+| 16 | 14 | poem | poem continuation | verified |
+| 17 | 15 | poem | poem continuation | verified |
+| 18 | 16 | poem | poem continuation | verified |
 | 19 | 17 | poem | poem continuation | not-started |
 | 20 | 18 | poem | poem continuation | not-started |
 | 21 | 19 | poem | poem continuation | not-started |
@@ -38,17 +38,31 @@ Total scan pages: **28**
 
 ## Current count
 
-- `verified`: **12 / 28**
-- `not-started`: **16 / 28**
-- poem-body pages verified: **0 / 14**
+- `verified`: **18 / 28**
+- `not-started`: **10 / 28**
+- `needs-review`: **0 / 28**
+- `blocked`: **0 / 28**
+- poem-body pages verified: **6 / 14**
+- poem-body pages not started: **8 / 14**
 
 ## Front-matter checkpoint
 
-Scans **1–12** are now page-recorded and visually verified. The physical transition into the poem occurs at scan **13**, which opens the titled poem and visibly carries printed page **11**.
+Scans **1–12** are page-recorded and visually verified. The physical transition into the poem occurs at scan **13**, which opens the titled poem and visibly carries printed page **11**.
+
+## First poem-batch checkpoint
+
+Scans **13–18 / printed pages 11–16** are now transcribed and visually verified against the source scan.
+
+- scan 13 keeps the printed contextual note separate from the verse;
+- poem lineation and stanza boundaries are preserved page by page;
+- source-supported unusual spellings, punctuation and page-boundary continuations are retained rather than normalized;
+- no poem reading in this batch remains `needs-review` or `blocked`.
+
+The next poem scan is **scan 19 / printed page 17**.
 
 ## Poem-body boundary
 
-Archival poem scope currently mapped as **scans 13–26**.
+Archival poem scope remains **scans 13–26**.
 
 - scan 13 explicitly opens the titled poem;
 - scan 26 contains the final verse lines and then a printer imprint;
