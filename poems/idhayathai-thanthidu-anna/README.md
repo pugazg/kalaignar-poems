@@ -37,8 +37,7 @@ This wording is preserved as source evidence rather than rewritten into a normal
 | 3–4 | photograph / portrait front matter | verified |
 | 5–10 | `என்னுரை` by குறிஞ்சி சுப்பிரமணியன் | verified |
 | 11–12 | captioned photograph pages | verified |
-| 13–18 | poem body — first batch | verified |
-| 19–26 | poem body remainder; scan 26 also carries printer imprint | not started |
+| 13–26 | complete poem body; scan 26 also carries printer imprint | **verified 14/14** |
 | 27 | colour poster / congratulatory back matter | not started |
 | 28 | back cover photograph and caption | not started |
 
@@ -48,15 +47,14 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 
 - repository structure: **created**
 - source checksum / file size / page count: **recorded**
-- physical page map: **current through scan 18**
-- verified page records: **18 / 28** — scans **1–18**
-- front matter scans 1–12: **complete / verified**
-- poem-body verified: **6 / 14** — scans **13–18**
-- poem-body remaining: **8 / 14** — scans **19–26**
-- `needs-review` poem scans: **0**
-- `blocked` poem scans: **0**
-- assembled Tamil poem: **not yet started intentionally**
-- audit: **current through scan 18**
+- physical page map: **current through scan 26**
+- verified physical page records: **26 / 28** — scans **1–26**
+- remaining physical pages: **2 / 28** — scans **27–28**, both non-poem back matter
+- poem-body verified: **14 / 14** — scans **13–26**
+- poem `needs-review`: **0**
+- poem `blocked`: **0**
+- assembled Tamil poem: **not yet created intentionally**
+- assembly readiness: **READY**
 - English translation: **not started / intentionally deferred**
 
 Current audit: [`audit.md`](audit.md).
@@ -70,51 +68,49 @@ pages/
   0012.md  # verified front matter
   0013.md  # verified poem opening
   ...
-  0018.md  # verified poem
-  0019.md  # next
-  ...
-  0028.md
+  0026.md  # verified poem conclusion + separate printer imprint
+  0027.md  # not started — poster
+  0028.md  # not started — back cover
 ```
 
-Each physical scan gets its own record, including non-poem material. After all poem scans are verified and source comparison is complete, the poem will be assembled separately at:
+## Poem source status
+
+The Tamil poem source layer at page-record level is now complete:
+
+- scans **13–18 / printed pages 11–16** — verified;
+- scans **19–25 / printed pages 17–23** — verified;
+- scan **26** — final poem lines verified; no printed page number inferred; printer imprint separated from verse.
+
+Source-fidelity decisions include retaining unusual or difficult readings only after direct scan comparison. Examples from the second batch include:
+
+- scan 20: `மகாத்மாவின் தோன்றல்`, `கீரியென்றால்`;
+- scan 21: `பல்லாவரத்தார்`, `ஈன்றாள் எனினும்;`;
+- scan 22: `மாறிற்றுத் தமிழர் மனம்`, `வாடினாள்`, `சுடுநெருப்பில்`;
+- scan 23: `கடிதோச்சி`, `அமுத மொழி`, `போதாகி`;
+- scan 24: `வளையாத நெஞ்சுப் பாரதிக்கும்`, `கால்டுவெல் போப்புக்கும்`;
+- scan 25: source punctuation such as `வைத்த போது..` and `எம் அண்ணா.. இதயமன்னா...`;
+- scan 26: `இதயத்தை தந்திடண்ணா..` and the final `அண்ணா...`.
+
+See [`audit.md`](audit.md) for the complete verification trail.
+
+## Assembly target
+
+After this page-level closure, the poem should be assembled at:
 
 ```text
 sections/idhayathai-thanthidu-anna.md
 ```
 
-## First poem batch — scans 13–18
+Assembly rules:
 
-The first six poem scans are now directly compared with the source and marked `verified`.
-
-Source-fidelity decisions recorded in the page files/audit include:
-
-- scan 13: printed radio/context note kept separate from verse;
-- scan 14: unusual readings such as `தங்கு சனி வேல்`, `வேது`, `பொருதடக்கை`, and `களப்பரணி..` retained;
-- scan 15: `அரு மூன்று எழுத்தாலே` and `அய்ம்பத்திரண்டுதனில்` retained;
-- scan 16: repeated `முன்றெழுத்து` and `எடெல்லாம் வீடெல்லாம் தமிழ்` retained;
-- scan 17: `மாண்பே! .` and `நாலைந்து` retained;
-- scan 18: source forms such as `பனிமலர் வீழ் தும்பியதாய்த்`, `கோலற்ற குருடர்`, and `தீர் அண்ணா திராவிடர் கழகமெனும்` retained.
-
-No web text, remembered version, metre-based reconstruction or silent normalization was used as authority.
-
-## Source variations already preserved in front matter
-
-The foreword contains source-supported variations which have deliberately **not** been normalized, including:
-
-- scan 10: `மொழிபெயர்ப்பு செய்யப்பட்டு`;
-- scan 10: later title occurrence `“இதயத்தை தந்திடு அண்ணா”`, while other occurrences print `“இதயத்தைத் தந்திடு அண்ணா”`.
-
-See [`audit.md`](audit.md) for the verification trail.
+1. use **only** verified verse from scans 13–26;
+2. keep scan 13's printed contextual note outside poem verse;
+3. keep scan 26's printer imprint outside poem verse;
+4. preserve page-supported lineation, stanza boundaries, punctuation and source forms;
+5. perform a page-to-assembly comparison and record it in `ASSEMBLY_REVIEW.md` before translation.
 
 ## Next activity
 
-Continue the poem from **scan 19 / printed page 17**. Process **scans 19–26** as the next poem batch if practical:
+Create and review the assembled Tamil poem from the verified page records **13–26**. Do not begin English translation yet.
 
-1. re-open every scan directly at high enough resolution;
-2. create `pages/0019.md` through `pages/0026.md`;
-3. preserve exact poem lineation, indentation, stanza spacing, quotation marks, dashes, repetition and ellipses;
-4. on scan 26, keep the poem conclusion separate from the printer imprint;
-5. update page map and audit counts;
-6. only after all poem-body scans 13–26 are verified, consider assembling `sections/idhayathai-thanthidu-anna.md` and performing an assembly review.
-
-Do **not** begin English translation yet.
+Scans **27–28** remain a separate physical-source closure task and must also be archived before the entire 28-scan booklet is declared source-complete.
