@@ -8,26 +8,30 @@
 - Poem-body range: **13–26** (**14 scans**)
 - Source PDF committed: **No**
 
-## Current physical-page status
+## Final physical-page status
 
 | Status | Count |
 |---|---:|
-| verified | 26 |
+| verified | 28 |
 | partial | 0 |
 | needs-review | 0 |
 | blocked | 0 |
-| not-started | 2 |
+| not-started | 0 |
 | **total** | **28** |
 
-Verified page records:
+Verified page records now cover the entire publication:
 
-- scans 1–4 — cover / advertisement / photograph / portrait front matter
-- scans 5–10 — complete `என்னுரை`, printed pages 3–8
-- scans 11–12 — captioned photograph pages
-- scans 13–25 — poem, visible printed pages 11–23
-- scan 26 — poem conclusion plus separately archived printer imprint; no visible printed page number
+- scans 1–4 — cover / advertisement / photograph / portrait front matter;
+- scans 5–10 — complete `என்னுரை`, printed pages 3–8;
+- scans 11–12 — captioned photograph pages;
+- scans 13–25 — poem, visible printed pages 11–23;
+- scan 26 — poem conclusion plus separately archived printer imprint; no visible printed page number;
+- scan 27 — folded colour poster / World Classical Tamil Conference back matter;
+- scan 28 — captioned back-cover photograph and political-symbol artwork.
 
-Scans **27–28** remain non-poem back matter and are not yet page-recorded.
+The physical publication layer is now **source-complete at 28/28 verified**.
+
+Final completeness review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md).
 
 ## Current poem-body status
 
@@ -52,14 +56,15 @@ The complete poem body **scans 13–26** is source-reviewed and verified at page
 - Textual discrepancies: **0**
 - Assembly status: **PASS**
 
-The assembled file was created only from the verified `Poem text` blocks in `pages/0013.md` through `pages/0026.md`. Scans **13–26** were re-opened from the supplied PDF during the assembly review, and the assembled file was re-read sequentially after creation.
+The assembled file was created only from the verified `Poem text` blocks in `pages/0013.md` through `pages/0026.md`. Scans **13–26** were re-opened from the supplied PDF during assembly review.
 
 ### Assembly boundary rules confirmed
 
-- scan 13's printed title/context note is represented outside the verse body;
-- scan 26's printer imprint is excluded from verse;
+- scan 13's printed title/context note is outside verse;
+- scan 26's printer imprint is outside verse;
+- scans 27–28 back matter are outside verse;
 - no cross-page wording was silently joined, normalized or reconstructed;
-- page-supported indentation, stanza breaks, punctuation and unusual source forms were retained;
+- page-supported indentation, stanza breaks, punctuation and unusual source forms are retained;
 - physical page boundaries remain traceable through hidden assembly comments.
 
 ## Source-faithful observations — poem scans 13–18
@@ -221,6 +226,31 @@ Retained source forms include:
 
 Only identities/relations explicitly supplied by printed captions are archived; no facial-appearance inference is used.
 
+## Source-faithful observations — back matter
+
+### Scan 27
+
+The folded colour poster is archived in `pages/0027.md` and is explicitly outside the poem body.
+
+Source-supported poster elements include:
+
+- heading beginning `ஜூன் 23 அன்று தொடங்கி, ஜூன் 27வரை 5நாட்கள்` and referring to the **உலகத்தமிழ் செம்மொழி மாநாடு** in Coimbatore;
+- heading `தமிழ் இனத்தின் தலைவர் தமிழக முதல்வர் / முத்தமிழ் அறிஞர் டாக்டர்.கலைஞர் அவர்கள் / தீட்டியுள்ள கவிதை !`;
+- printed poem beginning `பிறப்பொக்கும் எல்லா உயிர்க்கும் -` and ending with repeated `வாழிய வாழியவே!`;
+- donor/publisher block naming **குறிஞ்சி சுப்பிரமணியன்**, **உரிமையாளர், குறிஞ்சி பப்ளிஷர்**, with address and telephone numbers.
+
+The physical fold crosses the line `அமைதி வழிகாட்டும்`. Enlarged native-scan review supports that reading. Small lettering inside/around the circular emblem remains too small to transcribe reliably and is **not reconstructed**.
+
+### Scan 28
+
+The back cover is archived in `pages/0028.md`.
+
+Printed caption:
+
+`தமிழக துணை முதல்வர் தளபதி மு.க. ஸ்டாலின் அவர்களுடன் / புத்தகத்தின் பதிப்பாளர் குறிஞ்சி சுப்பிரமணியன்`
+
+The people are recorded by name only because the printed caption supplies those identities/roles; no facial-appearance inference is used. Political-symbol artwork below the caption is recorded as visual material and excluded from poem scope.
+
 ## Corrections / reopened readings
 
 ### Scan 3
@@ -235,18 +265,17 @@ The source-supported `என் கல்லூரித் தோழர்` was
 
 An initially inserted editorial sandhi in `மொழிபெயர்ப்புச் செய்யப்பட்டு` was removed; the source-supported `மொழிபெயர்ப்பு செய்யப்பட்டு` is retained.
 
-## Source-boundary status
+## Final source-boundary status
 
-- scans 1–12: front matter / photographs / foreword — **verified**
-- scans 13–26: poem body — **verified 14/14**
-- Tamil poem assembly — **created and reviewed PASS**
-- scan 26 printer imprint — **verified separately from verse**
-- scans 27–28: back matter / back cover — **not started**
+- scans 1–12: front matter / photographs / foreword — **verified**;
+- scans 13–26: poem body — **verified 14/14**;
+- Tamil poem assembly — **created and reviewed PASS**;
+- scan 26 printer imprint — **verified separately from verse**;
+- scans 27–28: back matter / back cover — **verified**;
+- complete physical source — **28/28 verified**.
 
 ## Translation readiness
 
-Translation is **not yet released to start** because the physical publication layer is still 26/28. The Tamil poem itself is transcription-complete and assembly-reviewed, but scans **27–28** must be archived before the booklet is declared source-complete.
+The Tamil archival layer is now **source-complete** and the assembled poem has passed review. English translation has **not** been started.
 
-## Next audit checkpoint
-
-Process scans **27–28**, update physical counts to **28/28** if both verify cleanly, and perform the final source-completeness check. After that closure, translation planning may begin as a separate activity.
+Status: **READY FOR TRANSLATION PLANNING as a separate activity.**
