@@ -45,19 +45,34 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 
 ## Current archival status
 
-- repository structure: **created**
-- source checksum / file size / page count: **recorded**
-- physical page map: **current through scan 26**
 - verified physical page records: **26 / 28** — scans **1–26**
 - remaining physical pages: **2 / 28** — scans **27–28**, both non-poem back matter
 - poem-body verified: **14 / 14** — scans **13–26**
 - poem `needs-review`: **0**
 - poem `blocked`: **0**
-- assembled Tamil poem: **not yet created intentionally**
-- assembly readiness: **READY**
-- English translation: **not started / intentionally deferred**
+- assembled Tamil poem: [`sections/idhayathai-thanthidu-anna.md`](sections/idhayathai-thanthidu-anna.md) — **created**
+- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md) — **PASS**
+- assembly page blocks checked: **14 / 14**
+- assembly discrepancies: **0**
+- English translation: **not started / intentionally deferred until physical booklet closure**
 
 Current audit: [`audit.md`](audit.md).
+
+## Tamil assembly
+
+The assembled poem is built **only** from the verified `Poem text` blocks in scans **13–26**.
+
+Assembly rules applied:
+
+1. scan 13's printed contextual note is represented outside the verse body;
+2. scan 26's printer imprint is excluded from verse;
+3. no cross-page wording was silently joined or rewritten;
+4. physical page boundaries remain traceable through hidden source comments;
+5. page-supported indentation, stanza breaks, punctuation and unusual source forms remain unchanged.
+
+A direct page-to-assembly comparison was completed after creation. The review found **14/14 page blocks present, no duplicates, no missing blocks, and no textual discrepancies**. See [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md).
+
+Source-fidelity examples retained in the assembly include `களப்பரணி..`, `அய்ம்பத்திரண்டுதனில்`, repeated `முன்றெழுத்து`, `மாண்பே! .`, `பிரிவாய்மாறி`, `கீரியென்றால்`, `மாறிற்றுத் தமிழர் மனம்`, `கடிதோச்சி`, `போதாகி மலர்கின்ற`, `கால்டுவெல் போப்புக்கும் சிலை`, `பற்றுதனை உலகறிய ; அந்த`, and `இதயத்தை தந்திடண்ணா..`.
 
 ## Page structure
 
@@ -65,52 +80,21 @@ Current audit: [`audit.md`](audit.md).
 pages/
   0001.md  # verified
   ...
-  0012.md  # verified front matter
-  0013.md  # verified poem opening
-  ...
   0026.md  # verified poem conclusion + separate printer imprint
-  0027.md  # not started — poster
-  0028.md  # not started — back cover
+  0027.md  # next — poster
+  0028.md  # next — back cover
+sections/
+  idhayathai-thanthidu-anna.md  # assembled + reviewed
+ASSEMBLY_REVIEW.md               # PASS
 ```
-
-## Poem source status
-
-The Tamil poem source layer at page-record level is now complete:
-
-- scans **13–18 / printed pages 11–16** — verified;
-- scans **19–25 / printed pages 17–23** — verified;
-- scan **26** — final poem lines verified; no printed page number inferred; printer imprint separated from verse.
-
-Source-fidelity decisions include retaining unusual or difficult readings only after direct scan comparison. Examples from the second batch include:
-
-- scan 20: `மகாத்மாவின் தோன்றல்`, `கீரியென்றால்`;
-- scan 21: `பல்லாவரத்தார்`, `ஈன்றாள் எனினும்;`;
-- scan 22: `மாறிற்றுத் தமிழர் மனம்`, `வாடினாள்`, `சுடுநெருப்பில்`;
-- scan 23: `கடிதோச்சி`, `அமுத மொழி`, `போதாகி`;
-- scan 24: `வளையாத நெஞ்சுப் பாரதிக்கும்`, `கால்டுவெல் போப்புக்கும்`;
-- scan 25: source punctuation such as `வைத்த போது..` and `எம் அண்ணா.. இதயமன்னா...`;
-- scan 26: `இதயத்தை தந்திடண்ணா..` and the final `அண்ணா...`.
-
-See [`audit.md`](audit.md) for the complete verification trail.
-
-## Assembly target
-
-After this page-level closure, the poem should be assembled at:
-
-```text
-sections/idhayathai-thanthidu-anna.md
-```
-
-Assembly rules:
-
-1. use **only** verified verse from scans 13–26;
-2. keep scan 13's printed contextual note outside poem verse;
-3. keep scan 26's printer imprint outside poem verse;
-4. preserve page-supported lineation, stanza boundaries, punctuation and source forms;
-5. perform a page-to-assembly comparison and record it in `ASSEMBLY_REVIEW.md` before translation.
 
 ## Next activity
 
-Create and review the assembled Tamil poem from the verified page records **13–26**. Do not begin English translation yet.
+Archive the remaining physical-source back matter:
 
-Scans **27–28** remain a separate physical-source closure task and must also be archived before the entire 28-scan booklet is declared source-complete.
+1. create `pages/0027.md` from scan 27, preserving its poster/congratulatory material as printed;
+2. create `pages/0028.md` from scan 28, preserving its photograph caption and visible artwork/text without identity inference beyond printed labels;
+3. update `indexes/page-map.md` and `audit.md` to **28/28** if both verify cleanly;
+4. run a final physical-source completeness check.
+
+Do **not** begin English translation until that closure is complete.
