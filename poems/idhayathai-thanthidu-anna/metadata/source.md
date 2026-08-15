@@ -42,8 +42,8 @@ The 15.9.2008 foreword date is an internal source-supported date. It must not be
 
 - Scan 1: front cover with title, portraits, and authorial identification.
 - Scan 2: full-page book-donation advertisement/list.
-- Scan 3: photograph page; caption identifies **பேராசிரியர். தி.வ. மெய்கண்டார்** and refers to presentation of three இலட்சம் books to Kalaignar by **குறிஞ்சி சுப்பிரமணியன்** on **22.9.2006**.
-- Scan 4: portrait of **தந்தை பெரியார் ஈ.வெ.ராமசாமி / Thanthai Periyar E.V. Ramasamy** with the printed slogan **மானமும் அறிவும் மனிதர்க்கு அழகு**.
+- Scan 3: captioned photograph. Printed text says that **குறிஞ்சி சுப்பிரமணியன்** gave **ரூபாய் 3 இலட்சம் பங்குத் தொகையாக** for the **“பெரியார்” திரைப்படக் காவியம்** on **22.9.2006**; the page also carries **பேராசிரியர். தி.வ. மெய்கண்டார் அவர்களின் அன்பளிப்பு**.
+- Scan 4: portrait page captioned **தந்தை பெரியார் ஈ.வெ.ராமசாமி / Thanthai Periyar E.V. Ramasamy** with the printed slogan **மானமும் அறிவும் மனிதர்க்கு அழகு**.
 - Scans 5–10: **என்னுரை** by குறிஞ்சி சுப்பிரமணியன், printed pages 3–8.
 - Scans 11–12: photograph pages with printed captions; they remain physical-source front matter and are not poem text.
 
