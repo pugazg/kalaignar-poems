@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **28/28 source complete; Tamil assembly PASS; English Batch 01 reviewed PASS** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **28/28 source complete; Tamil assembly PASS; English Batches 01–02 reviewed PASS** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -41,6 +41,7 @@ poems/
         SOURCE_MAP.md
         batches/
           batch-01.md
+          batch-02.md
 ```
 
 விரிவான workflow: [`POEM_PROCESSING_GUIDE.md`](POEM_PROCESSING_GUIDE.md).  
@@ -56,15 +57,15 @@ poems/
 - English translation planning: **COMPLETE**
 - governing translation principle: **retain Kalaignar's language/voice — cadence, rhetoric, repetition, political/literary density and grief — rather than smoothing him into generic English**
 - English Batch 01, scans **13–15 / printed pages 11–13**: [`batch-01.md`](poems/idhayathai-thanthidu-anna/translations/en/batches/batch-01.md) — **REVIEWED PASS**
-- Batch 01 source omissions: **0**
-- Batch 01 source duplications: **0**
-- Batch 01 Kalaignar-voice review: **PASS**
-- English Batches **02–05**: **not started**
+- English Batch 02, scans **16–19 / printed pages 14–17**: [`batch-02.md`](poems/idhayathai-thanthidu-anna/translations/en/batches/batch-02.md) — **REVIEWED PASS**
+- Batches 01–02 source omissions / duplications: **0 / 0**
+- Batches 01–02 Kalaignar-voice reviews: **PASS**
+- English Batches **03–05**: **not started**
 
-Batch 01 deliberately preserves source imagery and rhetoric, including flower/body metaphors, public-oratorical calls, the `Parani` genre-turn, one-crore idiom, and the escalation `A flood! / A flood! / A mighty flood!`. Difficult verified Tamil forms were not silently normalized before translation.
+Batch 02 preserves the repeated `முன்றெழுத்து` rhetoric by retaining the key Tamil lexical forms with compact English glosses and repeated `three letters`; Anna's slogans remain slogans, and `Dravidar Kazhagam`, `Munnetra Kazhagam`, `Ayya` and other relationship/political language are not flattened into generic prose.
 
 ## அடுத்த activity
 
-Begin English translation **Batch 02 — scans 16–19 / printed pages 14–17**.
+Begin English translation **Batch 03 — scans 20–21 / printed pages 18–19**.
 
-Start from scan 15's closing `நினைவுண்டா உங்களுக்கு?` and preserve scan 16's repeated `முன்றெழுத்து` wordplay as a central rhetorical structure rather than turning it into explanatory prose. Batch 02 must again pass source-fidelity and explicit Kalaignar-voice review before Batch 03.
+Preserve the rhetorical pairing between Batch 02's closing `யாரேனும் கேட்டதுண்டா?` and scan 20's `யாரேனும் புகன்றதுண்டா?`; retain Kalaignar's public/governance praise as rhetoric, named figures and literary references, and scan 21's compact `மலர் / மன்னன் / நூல்` parallelism. Batch 03 must again pass source-fidelity and Kalaignar-voice review before Batch 04.
