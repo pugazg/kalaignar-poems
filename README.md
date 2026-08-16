@@ -12,7 +12,7 @@
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English Batches 01–05 reviewed PASS; English assembly next** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English Batches 01–05 PASS; English assembly + full-poem consistency/voice review PASS; release report next** |
 
 ## இதயத்தைத் தந்திடு அண்ணா — நிலை
 
@@ -21,21 +21,18 @@
 - Tamil assembly: **PASS; 0 discrepancies**
 - Tamil archival/source layer: **COMPLETE**
 - English translation principle: **retain Kalaignar's language/voice — cadence, rhetoric, repetition, political/literary density and grief**
-- English Batch 01, scans **13–15**: **REVIEWED PASS**
-- English Batch 02, scans **16–19**: **REVIEWED PASS**
-- English Batch 03, scans **20–21**: **REVIEWED PASS**
-- English Batch 04, scans **22–23**: **REVIEWED PASS**
-- English Batch 05, scans **24–26**: [`batch-05.md`](poems/idhayathai-thanthidu-anna/translations/en/batches/batch-05.md) — **REVIEWED PASS**
-- all batch-level source omissions / duplications: **0 / 0**
-- all batch-level Kalaignar-voice reviews: **PASS**
-- complete English assembly: **not yet created**
+- English Batches **01–05**: **REVIEWED PASS**
+- batch-level source omissions / duplications: **0 / 0**
+- complete English assembly: [`idhayathai-thanthidu-anna-en.md`](poems/idhayathai-thanthidu-anna/translations/en/idhayathai-thanthidu-anna-en.md) — **reviewed assembly**
+- full-poem review: [`EDITORIAL_CONSISTENCY_REVIEW.md`](poems/idhayathai-thanthidu-anna/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md) — **PASS**
+- assembly batches present: **5/5 once each**
+- source poem scans represented in English: **14/14**
+- English assembly missing / duplicate batch bodies: **0 / 0**
+- full-poem Kalaignar-language/voice review: **PASS**
+- English release closure: **pending `RELEASE_REPORT.md`**
 
-Batch 05 preserves the open literary continuation from Batch 04, Anna's role/title accumulation, the statue/cultural-memory crescendo, the one-finger/one-year realization, the abrupt turn into grief, repeated direct questions, and the final borrowing-and-return plea for Anna's heart. Scan 26's printer imprint remains outside verse.
+The English assembly preserves the reviewed cross-batch continuities, political/literary terms, repeated rhetoric, Mother Tamil/Valluvar sequence, cultural-statue crescendo, the abrupt turn into grief, and the final borrowing-and-return plea for Anna's heart. Scan 26 printer imprint and other non-verse matter remain outside the poem.
 
 ## அடுத்த activity
 
-Create and verify the complete English poem at:
-
-`poems/idhayathai-thanthidu-anna/translations/en/idhayathai-thanthidu-anna-en.md`
-
-Assemble from **reviewed Batch 01–05 verse only**, then run the full editorial consistency and Kalaignar-voice review before release.
+Create `poems/idhayathai-thanthidu-anna/translations/en/RELEASE_REPORT.md`, run the final release checklist, and mark the English translation release-complete only if all checks remain PASS.
