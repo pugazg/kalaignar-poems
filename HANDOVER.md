@@ -92,14 +92,31 @@ Source: scans **20–21 / printed pages 18–19**.
 
 - scans: **2/2**
 - omissions / duplications: **0/0**
-- Batch 02 → 03 question pair preserved: `யாரேனும் கேட்டதுண்டா? / யாரேனும் புகன்றதுண்டா?` → **“Has anyone ever heard...?” / “Has anyone ever spoken...?”**
-- governance/public praise remains Kalaignar's rhetoric rather than neutral historical prose;
+- Batch 02 → 03 question pair preserved;
+- governance/public praise remains Kalaignar's rhetoric;
 - tiger, plough, prohibition, mountain/cloud and poison-tree imagery retained;
-- `கீரியென்றால்` handled through the immediately source-supported V. V. Giri mountain pun without modifying the Tamil source;
-- `சழக்கரால்` remains visible as *sazhakkar* rather than guessed into a normalized word;
-- `Navalar` retained as title;
-- `மலர் / மன்னன் / நூல்` preserved as **`If flower / if king / if book`**;
-- social-critique turn retained;
+- `கீரியென்றால்` handled through V. V. Giri source-local pun without modifying Tamil;
+- `சழக்கரால்` retained visibly as *sazhakkar*;
+- `மலர் / மன்னன் / நூல்` parallelism retained;
+- source-fidelity: **PASS**
+- Kalaignar voice: **PASS**.
+
+## English Batch 04 — REVIEWED PASS
+
+File: `translations/en/batches/batch-04.md`  
+Source: scans **22–23 / printed pages 20–21**.
+
+- scans: **2/2**
+- omissions / duplications: **0/0**
+- Batch 03 → 04 social-critique continuity: **PASS**
+- scan 22 → 23 quotation continuation: **PASS**
+- Mother Tamil's repeated `வாடினாள் / பாடினாள் / ஆடினாள் / ஓடினாள்` personification retained;
+- `புவியூர் / புகழூர் / கவியூர்` wordplay retained as **town of earth / town of fame / town of poetry**;
+- Valluvar dialogue remains direct question/answer speech;
+- `சென்றமையக்...` rendered conservatively; no substitute Tamil imported;
+- `கடிதோச்சி மெல்ல எறிய` preserves the severe-display/gentle-execution paradox;
+- `அறிவில் கன்றனையோர்`, banyan-root arms, field/seedling, gruel, rock-candy and honey images retained;
+- `பதிகத்துப் பொருளாய்ப்` remains open for scan 24 continuation;
 - source-fidelity: **PASS**
 - Kalaignar voice: **PASS**.
 
@@ -110,28 +127,29 @@ Source: scans **20–21 / printed pages 18–19**.
 | 01 | 13–15 | 11–13 | **reviewed — PASS** |
 | 02 | 16–19 | 14–17 | **reviewed — PASS** |
 | 03 | 20–21 | 18–19 | **reviewed — PASS** |
-| 04 | 22–23 | 20–21 | not started |
+| 04 | 22–23 | 20–21 | **reviewed — PASS** |
 | 05 | 24–26 | 22–23 + unnumbered | not started |
 
 Only reviewed batches may enter the eventual `translations/en/idhayathai-thanthidu-anna-en.md`.
 
-## Exact next activity — English Translation Batch 04
+## Exact next activity — English Translation Batch 05
 
-Process **scans 22–23 / printed pages 20–21 only**.
+Process **scans 24–26 / printed pages 22–23 + unnumbered final scan only**.
 
-1. Re-read Batch 03's final caste/social-critique lines.
-2. Read `pages/0022.md` and `pages/0023.md` plus corresponding Tamil assembly blocks.
-3. Read Batch 04 notes in `translations/en/SOURCE_MAP.md`.
-4. Re-read `batch-01.md` through `batch-03.md` for voice, terminology and punctuation continuity.
-5. Create `translations/en/batches/batch-04.md`.
-6. Carry Batch 03's social critique continuously into scan 22's catalogue of decline.
-7. Preserve Mother Tamil's personification and emotional movement.
-8. Preserve Valluvar dialogue as dialogue: question/answer rhythm, speaker identity and quotation continuity must remain clear.
-9. Check scan 22 → 23 continuation exactly: `‘தமிழர் மனம் வாழ்வெல்லாம்` → `தங்கமாக ஆக்க’ என்றாள்.`
-10. Preserve difficult moral/literary vocabulary without replacing it with generic explanation.
-11. The end of scan 23 (`பதிகத்துப் பொருளாய்ப்`) continues directly into Batch 05 (`பழந்தமிழர் புறப்பாட்டாய்`); do not falsely close that rhetorical unit.
-12. Compare Batch 04 English against both verified Tamil page records; omissions/duplications must remain zero.
-13. Run separate source-fidelity and Kalaignar-language/voice reviews.
-14. Do **not** begin Batch 05 until Batch 04 is reviewed PASS.
+1. Re-read Batch 04's final open sequence: `தமிழ் உணர்வின் புதுமணமாய்ப் / பதிகத்துப் பொருளாய்ப்`.
+2. Read `pages/0024.md`, `pages/0025.md`, `pages/0026.md` and the corresponding Tamil assembly blocks.
+3. Read Batch 05 notes and scan 24 → 25 continuation in `translations/en/SOURCE_MAP.md`.
+4. Re-read `batch-01.md` through `batch-04.md` for voice, terminology and punctuation continuity.
+5. Create `translations/en/batches/batch-05.md`.
+6. Carry the open Batch 04 syntax into scan 24's `பழந்தமிழர் புறப்பாட்டாய்`; do not restart the rhetorical unit.
+7. Preserve the accumulative list of Anna's roles/titles/descriptions rather than compressing it.
+8. Preserve the statue/cultural-memory catalogue across scan 24 → 25 as one crescendo.
+9. Keep the abrupt turn from public memorialization into the one-finger/grief sequence sharp.
+10. Preserve repeated direct questions and intimate calls, especially `எம் அண்ணா.. இதயமன்னா...`.
+11. Preserve the final title-bearing heart request with restraint; do not embellish beyond Kalaignar's language.
+12. Keep scan 26's printer imprint outside the poem translation.
+13. Compare Batch 05 English against all three verified Tamil page records; omissions/duplications must remain zero.
+14. Run separate source-fidelity and Kalaignar-language/voice reviews.
+15. Do **not** assemble `idhayathai-thanthidu-anna-en.md` until Batch 05 is reviewed PASS.
 
 Do not revise verified Tamil text unless a new source-level discrepancy is found and documented through the audit workflow.
