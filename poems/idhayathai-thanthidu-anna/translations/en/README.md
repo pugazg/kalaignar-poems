@@ -1,6 +1,6 @@
 # English translation — இதயத்தைத் தந்திடு அண்ணா
 
-Status: **Batch 01 reviewed PASS; Batches 02–05 not started**
+Status: **Batches 01–02 reviewed PASS; Batches 03–05 not started**
 
 ## Scope
 
@@ -63,7 +63,7 @@ translations/en/
   SOURCE_MAP.md
   batches/
     batch-01.md  # reviewed PASS
-    batch-02.md  # not started
+    batch-02.md  # reviewed PASS
     batch-03.md  # not started
     batch-04.md  # not started
     batch-05.md  # not started
@@ -76,24 +76,36 @@ translations/en/
 
 ### Batch 01 — scans 13–15 / printed pages 11–13
 
-File: [`batches/batch-01.md`](batches/batch-01.md)
-
+File: [`batches/batch-01.md`](batches/batch-01.md)  
 Status: **REVIEWED — PASS**
 
-Checks completed:
+Key closure checks:
 
 - source scans represented: **3/3**;
-- source omissions: **0**;
-- source duplication: **0**;
+- source omissions / duplication: **0 / 0**;
 - cross-page continuations: **PASS**;
 - Kalaignar voice review: **PASS**;
-- flower/body imagery retained: **PASS**;
-- public-oratorical calls retained: **PASS**;
 - `Parani` literary turn retained: **PASS**;
 - `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!` retained as `A flood! / A flood! / A mighty flood!`: **PASS**;
 - silent normalization of difficult Tamil: **none**.
 
-Where a verified Tamil form could not safely be converted into a normalized lexical reading, Batch 01 uses restrained transliteration plus a translator's note rather than guessing.
+### Batch 02 — scans 16–19 / printed pages 14–17
+
+File: [`batches/batch-02.md`](batches/batch-02.md)  
+Status: **REVIEWED — PASS**
+
+Key closure checks:
+
+- source scans represented: **4/4**;
+- source omissions / duplication: **0 / 0**;
+- scan 17 → 18 and scan 18 → 19 continuations: **PASS**;
+- repeated `முன்றெழுத்து` architecture preserved using Tamil lexical forms + compact English glosses + repeated `three letters`: **PASS**;
+- Anna's remembered slogans kept compact and quotational: **PASS**;
+- `Dravidar Kazhagam`, `Munnetra Kazhagam`, `Ayya` and political relationship-language retained without generic substitution: **PASS**;
+- source-odd forms handled through restrained transliteration/notes rather than silent correction: **PASS**;
+- Kalaignar voice review: **PASS**.
+
+Batch 02 ends `Has anyone ever heard of such a thing?`; scan 20 begins with the paired second question `யாரேனும் புகன்றதுண்டா?`. Batch 03 must preserve that rhetorical linkage.
 
 ## Excluded from poem translation
 
@@ -119,4 +131,4 @@ See [`TRANSLATION_PLAN.md`](TRANSLATION_PLAN.md) for the workflow and [`SOURCE_M
 
 ## Exact next activity
 
-Translate and review **Batch 02 — scans 16–19 / printed pages 14–17**. Begin by carrying forward scan 15's closing question `நினைவுண்டா உங்களுக்கு?` into the repeated `முன்றெழுத்து` answer on scan 16. Preserve the three-letter wordplay as rhetoric; do not turn it into explanatory prose.
+Translate and review **Batch 03 — scans 20–21 / printed pages 18–19**. Begin by preserving the rhetorical pairing between Batch 02's closing `யாரேனும் கேட்டதுண்டா?` and scan 20's `யாரேனும் புகன்றதுண்டா?`. Keep public/governance claims as Kalaignar's rhetoric, retain named figures and literary references, and preserve scan 21's compact `மலர் / மன்னன் / நூல்` parallelism rather than explanatory paraphrase.
