@@ -1,6 +1,6 @@
 # English translation — இதயத்தைத் தந்திடு அண்ணா
 
-Status: **Batches 01–05 reviewed PASS; complete English assembly reviewed PASS; release report pending**
+Status: **RELEASE-COMPLETE — Batches 01–05 reviewed PASS; complete English assembly reviewed PASS; final release report PASS**
 
 ## Scope and source authority
 
@@ -40,7 +40,7 @@ translations/en/
     batch-05.md  # reviewed PASS
   idhayathai-thanthidu-anna-en.md       # reviewed English assembly
   EDITORIAL_CONSISTENCY_REVIEW.md       # PASS
-  RELEASE_REPORT.md                     # next
+  RELEASE_REPORT.md                     # PASS — release-complete
 ```
 
 ## Batch closure
@@ -101,14 +101,20 @@ The following remain outside the English poem body:
 - scan 27 separate World Classical Tamil Conference composition/back matter;
 - scan 28 back-cover matter.
 
-## Next activity
+## Release closure — PASS
 
-Create `RELEASE_REPORT.md` and run the final release checklist against:
+Final report: [`RELEASE_REPORT.md`](RELEASE_REPORT.md)
 
-- the reviewed English assembly;
-- all five reviewed batches;
-- `SOURCE_MAP.md`;
-- `EDITORIAL_CONSISTENCY_REVIEW.md`;
-- the locked source exclusions.
+Release checks confirm:
 
-Only after that final check should the English translation be marked **release-complete**.
+- all five batch files remain `reviewed`;
+- assembly remains `reviewed-assembly`;
+- batches 01–05 occur exactly once in the complete assembly;
+- all poem scans 13–26 remain represented;
+- translator notes and batch-review prose do not enter poem verse;
+- locked source exclusions remain intact;
+- editorial consistency remains PASS;
+- full-poem Kalaignar-language/voice fidelity remains PASS;
+- no Tamil source-layer change was required during release closure.
+
+**English translation status: RELEASE-COMPLETE.**
