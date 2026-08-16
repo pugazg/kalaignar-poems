@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **28/28 source complete; Tamil assembly PASS; English translation planning complete** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **28/28 source complete; Tamil assembly PASS; English Batch 01 reviewed PASS** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -39,6 +39,8 @@ poems/
         README.md
         TRANSLATION_PLAN.md
         SOURCE_MAP.md
+        batches/
+          batch-01.md
 ```
 
 விரிவான workflow: [`POEM_PROCESSING_GUIDE.md`](POEM_PROCESSING_GUIDE.md).  
@@ -48,22 +50,21 @@ poems/
 
 - scans **1–28**: complete physical source — **verified 28/28**
 - scans **13–26**: poem body — **verified 14/14**
-- poem `needs-review`: **0**
-- poem `blocked`: **0**
-- assembled Tamil poem: [`sections/idhayathai-thanthidu-anna.md`](poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md) — **created and reviewed**
-- assembly review: [`ASSEMBLY_REVIEW.md`](poems/idhayathai-thanthidu-anna/ASSEMBLY_REVIEW.md) — **PASS; 14/14 source page blocks matched, 0 discrepancies**
-- source completeness review: [`SOURCE_COMPLETENESS_REVIEW.md`](poems/idhayathai-thanthidu-anna/SOURCE_COMPLETENESS_REVIEW.md) — **PASS; 28/28**
+- assembled Tamil poem: **reviewed PASS; 0 discrepancies**
+- source completeness review: **PASS; 28/28**
 - Tamil archival/source layer: **COMPLETE**
 - English translation planning: **COMPLETE**
 - governing translation principle: **retain Kalaignar's language/voice — cadence, rhetoric, repetition, political/literary density and grief — rather than smoothing him into generic English**
-- English translation drafting: **not started**
+- English Batch 01, scans **13–15 / printed pages 11–13**: [`batch-01.md`](poems/idhayathai-thanthidu-anna/translations/en/batches/batch-01.md) — **REVIEWED PASS**
+- Batch 01 source omissions: **0**
+- Batch 01 source duplications: **0**
+- Batch 01 Kalaignar-voice review: **PASS**
+- English Batches **02–05**: **not started**
+
+Batch 01 deliberately preserves source imagery and rhetoric, including flower/body metaphors, public-oratorical calls, the `Parani` genre-turn, one-crore idiom, and the escalation `A flood! / A flood! / A mighty flood!`. Difficult verified Tamil forms were not silently normalized before translation.
 
 ## அடுத்த activity
 
-Begin English translation **Batch 01 — scans 13–15 / printed pages 11–13** using:
+Begin English translation **Batch 02 — scans 16–19 / printed pages 14–17**.
 
-- [`translations/en/README.md`](poems/idhayathai-thanthidu-anna/translations/en/README.md)
-- [`translations/en/TRANSLATION_PLAN.md`](poems/idhayathai-thanthidu-anna/translations/en/TRANSLATION_PLAN.md)
-- [`translations/en/SOURCE_MAP.md`](poems/idhayathai-thanthidu-anna/translations/en/SOURCE_MAP.md)
-
-Translate only Batch 01 first. Before moving to Batch 02, perform both **source-fidelity** review and an explicit **Kalaignar-voice fidelity** review.
+Start from scan 15's closing `நினைவுண்டா உங்களுக்கு?` and preserve scan 16's repeated `முன்றெழுத்து` wordplay as a central rhetorical structure rather than turning it into explanatory prose. Batch 02 must again pass source-fidelity and explicit Kalaignar-voice review before Batch 03.
