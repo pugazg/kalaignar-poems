@@ -14,7 +14,7 @@
 
 | படைப்பு | ஆசிரியர் | source identity | நிலை |
 |---|---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **Tamil archival layer COMPLETE — 28/28 scans verified; poem 14/14; assembly PASS** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | 28-scan-page booklet; scan 13 identifies the poem as a 09-02-1969 Chennai radio tribute to பேரறிஞர் அண்ணா | **28/28 source complete; Tamil assembly PASS; English translation planning complete** |
 
 ## களஞ்சிய அமைப்பு
 
@@ -35,27 +35,35 @@ poems/
     SOURCE_COMPLETENESS_REVIEW.md
     audit.md
     translations/
+      en/
+        README.md
+        TRANSLATION_PLAN.md
+        SOURCE_MAP.md
 ```
 
 விரிவான workflow: [`POEM_PROCESSING_GUIDE.md`](POEM_PROCESSING_GUIDE.md).  
 முதல் முழுமையான படைப்பு: [`poems/idhayathai-thanthidu-anna/README.md`](poems/idhayathai-thanthidu-anna/README.md).
 
-## இதயத்தைத் தந்திடு அண்ணா — இறுதி நிலை
+## இதயத்தைத் தந்திடு அண்ணா — தற்போதைய நிலை
 
-- scans **1–12**: front matter / photographs / `என்னுரை` — **verified**
-- scans **13–26**: complete poem body — **verified 14/14**
-- scan **26**: printer imprint separately recorded and excluded from poem assembly
-- scan **27**: colour poster / World Classical Tamil Conference back matter — **verified**
-- scan **28**: back cover — **verified**
-- verified physical scans overall: **28 / 28**
-- physical `needs-review`: **0**
-- physical `blocked`: **0**
+- scans **1–28**: complete physical source — **verified 28/28**
+- scans **13–26**: poem body — **verified 14/14**
+- poem `needs-review`: **0**
+- poem `blocked`: **0**
 - assembled Tamil poem: [`sections/idhayathai-thanthidu-anna.md`](poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md) — **created and reviewed**
 - assembly review: [`ASSEMBLY_REVIEW.md`](poems/idhayathai-thanthidu-anna/ASSEMBLY_REVIEW.md) — **PASS; 14/14 source page blocks matched, 0 discrepancies**
 - source completeness review: [`SOURCE_COMPLETENESS_REVIEW.md`](poems/idhayathai-thanthidu-anna/SOURCE_COMPLETENESS_REVIEW.md) — **PASS; 28/28**
 - Tamil archival/source layer: **COMPLETE**
-- English translation: **not yet started**
+- English translation planning: **COMPLETE**
+- governing translation principle: **retain Kalaignar's language/voice — cadence, rhetoric, repetition, political/literary density and grief — rather than smoothing him into generic English**
+- English translation drafting: **not started**
 
 ## அடுத்த activity
 
-The first work is now fully closed at the Tamil archival/source level. The next activity can establish the **English translation plan and review workflow** for `இதயத்தைத் தந்திடு அண்ணா`, while keeping all verified Tamil source files immutable except for documented source corrections.
+Begin English translation **Batch 01 — scans 13–15 / printed pages 11–13** using:
+
+- [`translations/en/README.md`](poems/idhayathai-thanthidu-anna/translations/en/README.md)
+- [`translations/en/TRANSLATION_PLAN.md`](poems/idhayathai-thanthidu-anna/translations/en/TRANSLATION_PLAN.md)
+- [`translations/en/SOURCE_MAP.md`](poems/idhayathai-thanthidu-anna/translations/en/SOURCE_MAP.md)
+
+Translate only Batch 01 first. Before moving to Batch 02, perform both **source-fidelity** review and an explicit **Kalaignar-voice fidelity** review.
