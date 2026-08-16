@@ -2,7 +2,7 @@
 
 ## Status
 
-**Planning complete. Translation drafting has not started.**
+**Planning complete. Batch 01 reviewed PASS; Batches 02–05 not started.**
 
 Tamil source status before translation:
 
@@ -88,11 +88,11 @@ The target should sound rhetorically elevated where the Tamil is elevated, conve
 
 ## Batch plan
 
-Translation will proceed in five reviewable batches.
+Translation proceeds in five reviewable batches.
 
-| Batch | Source scans | Visible printed pages | Broad movement | Draft status |
+| Batch | Source scans | Visible printed pages | Broad movement | Status |
 |---|---:|---:|---|---|
-| 01 | 13–15 | 11–13 | opening praise; martial/literary tribute; `அவலப் பரணி` turn | not started |
+| 01 | 13–15 | 11–13 | opening praise; martial/literary tribute; `அவலப் பரணி` turn | **reviewed — PASS** |
 | 02 | 16–19 | 14–17 | three-letter motif; Anna's sayings; movement history; split and new movement | not started |
 | 03 | 20–21 | 18–19 | governance/public praise; scholars; Tamil/social critique begins | not started |
 | 04 | 22–23 | 20–21 | social decline; Valluvar dialogue; Anna figured as renewed Tamil leadership | not started |
@@ -176,6 +176,22 @@ Translator's notes are permitted for:
 
 Notes must be concise and must not become a second interpretive essay.
 
+## Batch 01 closure
+
+Created: [`batches/batch-01.md`](batches/batch-01.md)
+
+Review result:
+
+- scans covered: **13–15 / 3 of 3**;
+- omitted source units: **0**;
+- duplicated source units: **0**;
+- scan 13 → 14 and scan 14 → 15 continuations checked: **PASS**;
+- repetition/crescendo `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!`: **preserved**;
+- source oddities handled without silent Tamil normalization: **PASS**;
+- Kalaignar voice review: **PASS**.
+
+The batch deliberately retains `Kazhagam`, `Parani`, one-crore idiom and narrowly transliterated residues for source forms that should not be guessed into smoother Tamil before translation.
+
 ## Assembly and release stages
 
 After all five batches are reviewed:
@@ -200,6 +216,6 @@ English may be called release-ready only when:
 
 ## Exact next activity
 
-Begin **Batch 01 — scans 13–15 / printed pages 11–13**.
+Begin **Batch 02 — scans 16–19 / printed pages 14–17**.
 
-Before drafting, reread `pages/0013.md`–`pages/0015.md` and the corresponding assembly blocks. Translate only that batch, then perform source-fidelity and Kalaignar-voice review before moving to Batch 02.
+Before drafting, reread scan 15's closing `நினைவுண்டா உங்களுக்கு?`, then `pages/0016.md`–`pages/0019.md` and the corresponding Tamil assembly blocks. The repeated `முன்றெழுத்து` structure must be treated as a central rhetorical/wordplay problem, not flattened into explanatory prose.
