@@ -82,17 +82,7 @@ Translation planning is complete:
 
 > **Retain Kalaignar's language.**
 
-The English must preserve Kalaignar's voice rather than merely carry over dictionary meaning. Protected features include:
-
-- direct address to Anna;
-- oratorical cadence;
-- repetition and parallelism;
-- rhetorical questions and exclamations;
-- slogans and quoted formulations;
-- literary/classical imagery and references;
-- political specificity;
-- movement between public rhetoric and intimate grief;
-- emotional pressure of the closing elegy.
+The English must preserve Kalaignar's voice rather than merely carry over dictionary meaning. Protected features include direct address, oratorical cadence, repetition/parallelism, rhetorical questions, slogans, literary/classical imagery, political specificity, and the movement between public rhetoric and intimate grief.
 
 The English must **not** smooth Kalaignar into a generic modern English poet, neutralize his politics, replace his metaphors, or silently translate from an editorially “corrected” Tamil that is not the verified source.
 
@@ -100,37 +90,41 @@ Voice fidelity does not require mechanical word-for-word syntax or fake archaic 
 
 ## English Batch 01 — COMPLETE / REVIEWED PASS
 
-File: [`translations/en/batches/batch-01.md`](translations/en/batches/batch-01.md)
-
+File: [`translations/en/batches/batch-01.md`](translations/en/batches/batch-01.md)  
 Source range: **scans 13–15 / printed pages 11–13**.
 
 Review result:
 
 - source scans represented: **3 / 3**;
-- source omissions: **0**;
-- source duplications: **0**;
-- scan 13 → 14 continuation: **PASS**;
-- scan 14 → 15 continuation: **PASS**;
+- source omissions / duplications: **0 / 0**;
+- scan 13 → 14 and 14 → 15 continuations: **PASS**;
 - source-fidelity review: **PASS**;
 - Kalaignar-language/voice review: **PASS**;
-- publication/context note kept outside verse: **PASS**.
+- `Parani` literary turn and `A flood! / A flood! / A mighty flood!` crescendo retained.
 
-Batch 01 preserves the flower/body imagery rather than replacing it with smoother English metaphors; preserves the public calls through repeated `Listen / Hear`; retains `Kazhagam` and `Parani` where the Tamil political/literary term carries force; retains the one-crore idiom; and preserves the crescendo:
+## English Batch 02 — COMPLETE / REVIEWED PASS
 
-```text
-A flood!
-A flood!
-A mighty flood!
-```
+File: [`translations/en/batches/batch-02.md`](translations/en/batches/batch-02.md)  
+Source range: **scans 16–19 / printed pages 14–17**.
 
-Verified but lexically difficult source forms such as `தங்கு சனி வேல்` and `கழற்சென்னி` are not silently normalized before translation; restrained transliteration and explicit translator notes are used instead.
+Review result:
+
+- source scans represented: **4 / 4**;
+- source omissions / duplications: **0 / 0**;
+- scan 17 → 18 and 18 → 19 continuations: **PASS**;
+- source-fidelity review: **PASS**;
+- Kalaignar-language/voice review: **PASS**;
+- repeated `முன்றெழுத்து` wordplay preserved through Tamil lexical forms + compact English glosses + repeated `three letters`;
+- Anna's remembered formulations remain compact quotations rather than explanatory prose;
+- `Dravidar Kazhagam`, `Munnetra Kazhagam`, `Ayya` and relationship/political vocabulary remain visible;
+- verified difficult source forms are handled through restrained notes/transliteration rather than silent Tamil normalization.
 
 ### Translation batch status
 
 | Batch | Scans | Printed pages | Status |
 |---|---:|---:|---|
 | 01 | 13–15 | 11–13 | **reviewed — PASS** |
-| 02 | 16–19 | 14–17 | not started |
+| 02 | 16–19 | 14–17 | **reviewed — PASS** |
 | 03 | 20–21 | 18–19 | not started |
 | 04 | 22–23 | 20–21 | not started |
 | 05 | 24–26 | 22–23 + unnumbered final scan | not started |
@@ -155,19 +149,20 @@ translations/
     SOURCE_MAP.md
     batches/
       batch-01.md  # reviewed PASS
-      batch-02.md  # next
+      batch-02.md  # reviewed PASS
+      batch-03.md  # next
     idhayathai-thanthidu-anna-en.md   # only after all batch reviews
 ```
 
 ## Next activity
 
-Begin **English Translation Batch 02 — scans 16–19 / printed pages 14–17**.
+Begin **English Translation Batch 03 — scans 20–21 / printed pages 18–19**.
 
 Before drafting:
 
-1. reread scan 15's closing `நினைவுண்டா உங்களுக்கு?`;
-2. reread `pages/0016.md`–`pages/0019.md` and the corresponding assembly blocks;
-3. treat repeated `முன்றெழுத்து` as a central rhetorical/wordplay structure, not explanatory content to be flattened;
-4. preserve quoted Anna formulations as compact, memorable speech;
-5. carry the political-history acceleration into the Periyar/Anna split and movement formation without neutralizing Kalaignar's rhetoric;
-6. perform source-fidelity and explicit Kalaignar-voice review before Batch 03.
+1. carry forward Batch 02's closing `யாரேனும் கேட்டதுண்டா?` into scan 20's paired `யாரேனும் புகன்றதுண்டா?`;
+2. reread `pages/0020.md`–`pages/0021.md` and the corresponding Tamil assembly blocks;
+3. keep public/governance claims as Kalaignar's rhetoric rather than neutralized historical prose;
+4. preserve named figures and literary references;
+5. preserve scan 21's compact `மலர் / மன்னன் / நூல்` parallelism and the turn toward social critique;
+6. perform source-fidelity and explicit Kalaignar-voice review before Batch 04.
