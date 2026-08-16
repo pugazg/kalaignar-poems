@@ -49,14 +49,6 @@ The English preserves direct address, oratorical cadence, repetition, slogans, p
 | 04 | 22–23 | 20–21 | **reviewed — PASS** |
 | 05 | 24–26 | 22–23 + unnumbered final scan | **reviewed — PASS** |
 
-Batch files:
-
-- [`batch-01.md`](translations/en/batches/batch-01.md)
-- [`batch-02.md`](translations/en/batches/batch-02.md)
-- [`batch-03.md`](translations/en/batches/batch-03.md)
-- [`batch-04.md`](translations/en/batches/batch-04.md)
-- [`batch-05.md`](translations/en/batches/batch-05.md)
-
 Across all batches:
 
 - source poem scans represented: **14/14**
@@ -65,23 +57,33 @@ Across all batches:
 - source/continuity reviews: **PASS**
 - Kalaignar-language/voice reviews: **PASS**
 
-### Batch 05 fidelity highlights
+## Complete English assembly — REVIEWED PASS
 
-- Batch 04's open `பதிகத்துப் பொருளாய்ப்` sequence continues into `பழந்தமிழர் புறப்பாட்டாய்`;
-- Anna's repeated roles/titles remain accumulative;
-- the statue catalogue continues across scans 24–25 as one crescendo;
-- the index-finger image turns into the one-year realization without external explanation;
-- `எம் அண்ணா.. இதயமன்னா...` remains direct;
-- eye/pond, shade/sea, pearl/seashore, tongue/music, finger/writing imagery remains visible;
-- `வரமாட்டாய்; வரமாட்டாய்;` remains repeated;
-- `இரவலாக உன் இதயத்தை தந்திடண்ணா..` is retained through the temporary borrowing logic as **“lend me your heart, Anna..”**;
-- `கால்மலரில்` returns to the opening flower/body imagery as **“foot-flowers”**;
-- scan 26 printer imprint is excluded from translation verse.
+Created:
+
+- [`translations/en/idhayathai-thanthidu-anna-en.md`](translations/en/idhayathai-thanthidu-anna-en.md)
+- [`translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`](translations/en/EDITORIAL_CONSISTENCY_REVIEW.md)
+
+Assembly uses **reviewed Batch 01–05 verse only**.
+
+Full-poem review:
+
+- reviewed batches present: **5/5 once each**
+- source poem scans represented: **14/14**
+- missing batch bodies: **0**
+- duplicate batch bodies: **0**
+- locked non-verse exclusions: **PASS**
+- cross-batch continuity: **PASS**
+- names/titles/political terminology: **PASS**
+- literary terminology/transliteration policy: **PASS**
+- repetition and rhetorical architecture: **PASS**
+- recurring image systems: **PASS**
+- full-poem Kalaignar-language/voice review: **PASS**
+
+Important retained structures include the three-letter refrain, paired public questions, Mother Tamil/Valluvar dramatic sequence, the `pathigam → purappāṭṭu` continuation, the statue catalogue, the sharp turn into grief, `You will not come; you will not come;`, and the return of opening flower imagery in the final `foot-flowers`.
+
+The English assembly is editorially reviewed but **not yet release-closed**.
 
 ## Next activity
 
-Create the complete English assembly:
-
-`translations/en/idhayathai-thanthidu-anna-en.md`
-
-Use reviewed Batch 01–05 **verse only**, preserve all cross-batch continuations, then perform the full editorial-consistency and Kalaignar-voice review. Do not release until those checks pass.
+Create `translations/en/RELEASE_REPORT.md` and run the final release checklist. Only after that report passes should the English translation be marked **release-complete**.
