@@ -43,7 +43,7 @@ This wording is preserved as source evidence rather than rewritten into a normal
 
 Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 
-## Final archival status
+## Final Tamil archival status
 
 - verified physical page records: **28 / 28**
 - physical `not-started`: **0**
@@ -58,7 +58,6 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 - assembly discrepancies: **0**
 - final physical-source review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md) — **PASS**
 - Tamil archival/source layer: **COMPLETE**
-- English translation: **not started; ready for separate planning activity**
 
 Current audit: [`audit.md`](audit.md).
 
@@ -93,21 +92,68 @@ Source-fidelity examples retained in the assembly include `களப்பரண
 
 The page record uses the printed caption for names/roles rather than facial inference and documents the lower political-symbol artwork separately.
 
-## Page structure
+## English translation planning — COMPLETE
+
+Created:
+
+- [`translations/en/README.md`](translations/en/README.md)
+- [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
+- [`translations/en/SOURCE_MAP.md`](translations/en/SOURCE_MAP.md)
+
+### Governing translation principle
+
+> **Retain Kalaignar's language.**
+
+The English must preserve Kalaignar's voice rather than merely carry over dictionary meaning. The plan therefore explicitly protects:
+
+- direct address to Anna;
+- oratorical cadence;
+- repetition and parallelism;
+- rhetorical questions and exclamations;
+- slogans and quoted formulations;
+- literary/classical imagery and references;
+- political specificity;
+- movement between public rhetoric and intimate grief;
+- the emotional pressure of the closing elegy.
+
+The English must **not** smooth Kalaignar into a generic modern English poet, neutralize his politics, replace his metaphors, or paraphrase difficult source forms merely for elegance.
+
+At the same time, voice fidelity does not require mechanical word-for-word syntax or fake archaic English. English grammar may breathe naturally where necessary, provided meaning, image, rhetorical force and structure remain intact.
+
+### Planned translation batches
+
+| Batch | Scans | Printed pages | Status |
+|---|---:|---:|---|
+| 01 | 13–15 | 11–13 | not started |
+| 02 | 16–19 | 14–17 | not started |
+| 03 | 20–21 | 18–19 | not started |
+| 04 | 22–23 | 20–21 | not started |
+| 05 | 24–26 | 22–23 + unnumbered final scan | not started |
+
+Each batch must pass both **source-fidelity** review and **Kalaignar-voice fidelity** review before the next batch begins.
+
+## Page / translation structure
 
 ```text
 pages/
-  0001.md  # verified
+  0001.md
   ...
-  0026.md  # verified poem conclusion + separate printer imprint
-  0027.md  # verified poster / back matter
-  0028.md  # verified back cover
+  0028.md
 sections/
-  idhayathai-thanthidu-anna.md  # assembled + reviewed
-ASSEMBLY_REVIEW.md               # PASS
-SOURCE_COMPLETENESS_REVIEW.md    # PASS — 28/28
+  idhayathai-thanthidu-anna.md
+ASSEMBLY_REVIEW.md
+SOURCE_COMPLETENESS_REVIEW.md
+translations/
+  en/
+    README.md
+    TRANSLATION_PLAN.md
+    SOURCE_MAP.md
+    batches/                 # created when drafting begins
+    idhayathai-thanthidu-anna-en.md   # only after batch reviews
 ```
 
 ## Next activity
 
-The Tamil archival/source layer for this first work is closed. The next activity may begin **English translation planning**, without changing the verified Tamil source files.
+Begin **English Translation Batch 01 — scans 13–15 / printed pages 11–13**.
+
+Before drafting, reread `pages/0013.md`–`pages/0015.md` and the corresponding Tamil assembly blocks. Translate only that range first, then perform explicit source and **Kalaignar-language/voice** review before moving to Batch 02.
