@@ -31,7 +31,7 @@ Locked exclusions from poem verse:
 - scan 26 printer imprint;
 - scans 27–28 back matter.
 
-## English translation workflow
+## English translation workflow — RELEASE-COMPLETE
 
 Governing rule:
 
@@ -82,8 +82,23 @@ Full-poem review:
 
 Important retained structures include the three-letter refrain, paired public questions, Mother Tamil/Valluvar dramatic sequence, the `pathigam → purappāṭṭu` continuation, the statue catalogue, the sharp turn into grief, `You will not come; you will not come;`, and the return of opening flower imagery in the final `foot-flowers`.
 
-The English assembly is editorially reviewed but **not yet release-closed**.
+## Final English release — COMPLETE
+
+Release report: [`translations/en/RELEASE_REPORT.md`](translations/en/RELEASE_REPORT.md)
+
+Final checks:
+
+- all five batches remain `reviewed`: **PASS**
+- complete assembly remains `reviewed-assembly`: **PASS**
+- translator notes / batch review prose leaked into poem verse: **NO**
+- source exclusions remain intact: **PASS**
+- missing / duplicate English batch bodies: **0 / 0**
+- final editorial consistency: **PASS**
+- final Kalaignar-language/voice release review: **PASS**
+- Tamil source-layer changes required during release closure: **NONE**
+
+**English translation status: RELEASE-COMPLETE.**
 
 ## Next activity
 
-Create `translations/en/RELEASE_REPORT.md` and run the final release checklist. Only after that report passes should the English translation be marked **release-complete**.
+This work is now closed for both the Tamil archival layer and the English translation. A future continuation should start the next Kalaignar poem through the repository startup/source-inspection workflow. Do not reopen this released work unless a genuine source-level discrepancy or separately requested editorial revision is identified and documented.
