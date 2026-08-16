@@ -52,49 +52,27 @@ Detailed mapping: [`indexes/page-map.md`](indexes/page-map.md).
 - poem-body verified: **14 / 14** — scans **13–26**
 - poem `needs-review`: **0**
 - poem `blocked`: **0**
-- assembled Tamil poem: [`sections/idhayathai-thanthidu-anna.md`](sections/idhayathai-thanthidu-anna.md) — **created**
-- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md) — **PASS**
-- assembly page blocks checked: **14 / 14**
-- assembly discrepancies: **0**
-- final physical-source review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md) — **PASS**
+- assembled Tamil poem: [`sections/idhayathai-thanthidu-anna.md`](sections/idhayathai-thanthidu-anna.md) — **created and reviewed**
+- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md) — **PASS; 14/14 blocks, 0 discrepancies**
+- final physical-source review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md) — **PASS; 28/28**
 - Tamil archival/source layer: **COMPLETE**
 
 Current audit: [`audit.md`](audit.md).
 
-## Tamil assembly
+## Tamil assembly rules already locked
 
-The assembled poem is built **only** from the verified `Poem text` blocks in scans **13–26**.
-
-Assembly rules applied:
-
-1. scan 13's printed contextual note is represented outside the verse body;
-2. scan 26's printer imprint is excluded from verse;
-3. scans 27–28 back matter are excluded from verse;
-4. no cross-page wording was silently joined or rewritten;
-5. physical page boundaries remain traceable through hidden source comments;
+1. scan 13's printed contextual note remains outside verse;
+2. scan 26's printer imprint remains outside verse;
+3. scans 27–28 back matter remain outside verse;
+4. no cross-page wording is silently joined or rewritten;
+5. physical page boundaries remain traceable;
 6. page-supported indentation, stanza breaks, punctuation and unusual source forms remain unchanged.
 
-A direct page-to-assembly comparison found **14/14 page blocks present, no duplicates, no missing blocks, and no textual discrepancies**. See [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md).
+Source-fidelity examples retained in Tamil include `களப்பரணி..`, `அய்ம்பத்திரண்டுதனில்`, repeated `முன்றெழுத்து`, `மாண்பே! .`, `பிரிவாய்மாறி`, `கீரியென்றால்`, `மாறிற்றுத் தமிழர் மனம்`, `கடிதோச்சி`, `போதாகி மலர்கின்ற`, `கால்டுவெல் போப்புக்கும் சிலை`, `பற்றுதனை உலகறிய ; அந்த`, and `இதயத்தை தந்திடண்ணா..`.
 
-Source-fidelity examples retained in the assembly include `களப்பரணி..`, `அய்ம்பத்திரண்டுதனில்`, repeated `முன்றெழுத்து`, `மாண்பே! .`, `பிரிவாய்மாறி`, `கீரியென்றால்`, `மாறிற்றுத் தமிழர் மனம்`, `கடிதோச்சி`, `போதாகி மலர்கின்ற`, `கால்டுவெல் போப்புக்கும் சிலை`, `பற்றுதனை உலகறிய ; அந்த`, and `இதயத்தை தந்திடண்ணா..`.
+## English translation workflow
 
-## Back-matter closure
-
-### Scan 27
-
-`pages/0027.md` preserves the folded colour poster as a separate source layer. It contains a World Classical Tamil Conference heading, a printed Kalaignar composition beginning `பிறப்பொக்கும் எல்லா உயிர்க்கும் -`, and a donor/publisher block for **குறிஞ்சி சுப்பிரமணியன்**. The fold-affected line `அமைதி வழிகாட்டும்` was checked with enlarged native-scan rendering; tiny emblem lettering that is not reliably legible is not reconstructed.
-
-### Scan 28
-
-`pages/0028.md` preserves the back-cover caption:
-
-`தமிழக துணை முதல்வர் தளபதி மு.க. ஸ்டாலின் அவர்களுடன் / புத்தகத்தின் பதிப்பாளர் குறிஞ்சி சுப்பிரமணியன்`
-
-The page record uses the printed caption for names/roles rather than facial inference and documents the lower political-symbol artwork separately.
-
-## English translation planning — COMPLETE
-
-Created:
+Translation planning is complete:
 
 - [`translations/en/README.md`](translations/en/README.md)
 - [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
@@ -104,7 +82,7 @@ Created:
 
 > **Retain Kalaignar's language.**
 
-The English must preserve Kalaignar's voice rather than merely carry over dictionary meaning. The plan therefore explicitly protects:
+The English must preserve Kalaignar's voice rather than merely carry over dictionary meaning. Protected features include:
 
 - direct address to Anna;
 - oratorical cadence;
@@ -114,25 +92,52 @@ The English must preserve Kalaignar's voice rather than merely carry over dictio
 - literary/classical imagery and references;
 - political specificity;
 - movement between public rhetoric and intimate grief;
-- the emotional pressure of the closing elegy.
+- emotional pressure of the closing elegy.
 
-The English must **not** smooth Kalaignar into a generic modern English poet, neutralize his politics, replace his metaphors, or paraphrase difficult source forms merely for elegance.
+The English must **not** smooth Kalaignar into a generic modern English poet, neutralize his politics, replace his metaphors, or silently translate from an editorially “corrected” Tamil that is not the verified source.
 
-At the same time, voice fidelity does not require mechanical word-for-word syntax or fake archaic English. English grammar may breathe naturally where necessary, provided meaning, image, rhetorical force and structure remain intact.
+Voice fidelity does not require mechanical word-for-word syntax or fake archaic English. English grammar may breathe naturally where necessary, provided meaning, image, rhetorical force and structure remain intact.
 
-### Planned translation batches
+## English Batch 01 — COMPLETE / REVIEWED PASS
+
+File: [`translations/en/batches/batch-01.md`](translations/en/batches/batch-01.md)
+
+Source range: **scans 13–15 / printed pages 11–13**.
+
+Review result:
+
+- source scans represented: **3 / 3**;
+- source omissions: **0**;
+- source duplications: **0**;
+- scan 13 → 14 continuation: **PASS**;
+- scan 14 → 15 continuation: **PASS**;
+- source-fidelity review: **PASS**;
+- Kalaignar-language/voice review: **PASS**;
+- publication/context note kept outside verse: **PASS**.
+
+Batch 01 preserves the flower/body imagery rather than replacing it with smoother English metaphors; preserves the public calls through repeated `Listen / Hear`; retains `Kazhagam` and `Parani` where the Tamil political/literary term carries force; retains the one-crore idiom; and preserves the crescendo:
+
+```text
+A flood!
+A flood!
+A mighty flood!
+```
+
+Verified but lexically difficult source forms such as `தங்கு சனி வேல்` and `கழற்சென்னி` are not silently normalized before translation; restrained transliteration and explicit translator notes are used instead.
+
+### Translation batch status
 
 | Batch | Scans | Printed pages | Status |
 |---|---:|---:|---|
-| 01 | 13–15 | 11–13 | not started |
+| 01 | 13–15 | 11–13 | **reviewed — PASS** |
 | 02 | 16–19 | 14–17 | not started |
 | 03 | 20–21 | 18–19 | not started |
 | 04 | 22–23 | 20–21 | not started |
 | 05 | 24–26 | 22–23 + unnumbered final scan | not started |
 
-Each batch must pass both **source-fidelity** review and **Kalaignar-voice fidelity** review before the next batch begins.
+The assembled English release file will be created only after all five batches pass review.
 
-## Page / translation structure
+## Repository structure for this work
 
 ```text
 pages/
@@ -148,12 +153,21 @@ translations/
     README.md
     TRANSLATION_PLAN.md
     SOURCE_MAP.md
-    batches/                 # created when drafting begins
-    idhayathai-thanthidu-anna-en.md   # only after batch reviews
+    batches/
+      batch-01.md  # reviewed PASS
+      batch-02.md  # next
+    idhayathai-thanthidu-anna-en.md   # only after all batch reviews
 ```
 
 ## Next activity
 
-Begin **English Translation Batch 01 — scans 13–15 / printed pages 11–13**.
+Begin **English Translation Batch 02 — scans 16–19 / printed pages 14–17**.
 
-Before drafting, reread `pages/0013.md`–`pages/0015.md` and the corresponding Tamil assembly blocks. Translate only that range first, then perform explicit source and **Kalaignar-language/voice** review before moving to Batch 02.
+Before drafting:
+
+1. reread scan 15's closing `நினைவுண்டா உங்களுக்கு?`;
+2. reread `pages/0016.md`–`pages/0019.md` and the corresponding assembly blocks;
+3. treat repeated `முன்றெழுத்து` as a central rhetorical/wordplay structure, not explanatory content to be flattened;
+4. preserve quoted Anna formulations as compact, memorable speech;
+5. carry the political-history acceleration into the Periyar/Anna split and movement formation without neutralizing Kalaignar's rhetoric;
+6. perform source-fidelity and explicit Kalaignar-voice review before Batch 03.
