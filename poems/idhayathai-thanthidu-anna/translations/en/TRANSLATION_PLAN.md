@@ -2,7 +2,7 @@
 
 ## Status
 
-**Planning complete. Batches 01–03 reviewed PASS; Batches 04–05 not started.**
+**Planning complete. Batches 01–04 reviewed PASS; Batch 05 not started.**
 
 Tamil source status:
 
@@ -39,7 +39,7 @@ Readability is not permission to paraphrase away source texture.
 | 01 | 13–15 | 11–13 | opening praise; martial/literary tribute; `அவலப் பரணி` turn | **reviewed — PASS** |
 | 02 | 16–19 | 14–17 | three-letter motif; Anna's sayings; movement history; split and new movement | **reviewed — PASS** |
 | 03 | 20–21 | 18–19 | governance/public praise; scholars; Tamil/social critique begins | **reviewed — PASS** |
-| 04 | 22–23 | 20–21 | social decline; Valluvar dialogue; Anna figured as renewed Tamil leadership | not started |
+| 04 | 22–23 | 20–21 | social decline; Valluvar dialogue; Anna figured as renewed Tamil leadership | **reviewed — PASS** |
 | 05 | 24–26 | 22–23 + unnumbered final scan | Anna's roles; statues/cultural memory; final elegy and heart appeal | not started |
 
 ## Per-batch workflow
@@ -98,8 +98,23 @@ Do not move to the next batch with unresolved meaning or voice issues.
 - tiger, plough, prohibition, Giri mountain/cloud and poison-tree imagery retained;
 - the source-local V. V. Giri pun is translated and documented without changing `கீரியென்றால்` in Tamil;
 - `சழக்கரால்` remains visible as *sazhakkar* because the verified form is difficult;
-- Mother Tamil and Valluvar movement is introduced without genericizing the literary references;
-- `மலர் / மன்னன் / நூல்` parallelism preserved as `If flower / if king / if book`;
+- `மலர் / மன்னன் / நூல்` parallelism preserved;
+- Kalaignar voice: **PASS**.
+
+## Batch 04 closure
+
+[`batches/batch-04.md`](batches/batch-04.md): **REVIEWED — PASS**
+
+- scans **22–23 / 2 of 2**;
+- omissions / duplication: **0 / 0**;
+- Batch 03 → 04 social-critique continuity: **PASS**;
+- scan 22 → 23 quotation continuation: **PASS**;
+- Mother Tamil personification and repeated action sequence retained;
+- Valluvar dialogue preserved as direct dialogue rather than narrative paraphrase;
+- `புவியூர் / புகழூர் / கவியூர்` wordplay retained through repeated `town` construction;
+- difficult `சென்றமையக்...` and `கடிதோச்சி...` lines translated conservatively with notes, not by silently correcting the Tamil;
+- banyan-root, field/seedling, gruel, rock-candy and honey imagery retained;
+- final `பதிகத்துப் பொருளாய்ப்` remains open for scan 24 continuation;
 - Kalaignar voice: **PASS**.
 
 ## Assembly and release stages
@@ -114,6 +129,6 @@ After all five batches are reviewed:
 
 ## Exact next activity
 
-Begin **Batch 04 — scans 22–23 / printed pages 20–21**.
+Begin **Batch 05 — scans 24–26 / printed pages 22–23 + unnumbered final scan**.
 
-Before drafting, reread Batch 03's closing caste line and then `pages/0022.md`–`pages/0023.md`. Preserve the catalogue of social decline, Mother Tamil's personification, the Valluvar dialogue and its question/answer rhythm, and the scan 22 → 23 quotation continuation. The final lines of scan 23 continue directly into Batch 05, so the Batch 04 ending must remain open to that continuation.
+Before drafting, reread Batch 04's final open sequence and `pages/0024.md`–`pages/0026.md`. Preserve the continuation into `பழந்தமிழர் புறப்பாட்டாய்`, the accumulative list of Anna's roles, the statue/cultural-memory catalogue, the sudden turn from public memorialization to personal grief, repeated direct questions, and the final title-bearing heart appeal. Scan 26's printer imprint remains outside verse. Batch 05 must pass source-fidelity and Kalaignar-voice review before the full English assembly is created.
