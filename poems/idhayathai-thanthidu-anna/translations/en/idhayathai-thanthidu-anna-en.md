@@ -5,7 +5,7 @@ title_en: "Lend Me Your Heart, Anna"
 author: "M. Karunanidhi"
 language: "en"
 source_scans: "13-26"
-status: "assembled-review-pending"
+status: "reviewed-assembly"
 assembly_basis: "reviewed English translation batches 01-05 only"
 voice_policy: "retain Kalaignar's language, rhetoric, cadence, imagery, repetition, political-literary density and grief"
 ---
