@@ -60,7 +60,7 @@ Translation priority: **voice fidelity before elegance**.
 | 01 | 13–15 | 11–13 | **reviewed — PASS** |
 | 02 | 16–19 | 14–17 | **reviewed — PASS** |
 | 03 | 20–21 | 18–19 | **reviewed — PASS** |
-| 04 | 22–23 | 20–21 | not started |
+| 04 | 22–23 | 20–21 | **reviewed — PASS** |
 | 05 | 24–26 | 22–23 + unnumbered final scan | not started |
 
 ### Batch 01
@@ -75,22 +75,26 @@ Translation priority: **voice fidelity before elegance**.
 
 [`translations/en/batches/batch-03.md`](translations/en/batches/batch-03.md): source **2/2**, omissions/duplications **0/0**, source review **PASS**, Kalaignar voice **PASS**.
 
-Key Batch 03 fidelity decisions:
+### Batch 04
 
-- Batch 02 `யாரேனும் கேட்டதுண்டா?` → Batch 03 `யாரேனும் புகன்றதுண்டா?` preserved as paired public questions;
-- `பதுங்கிப் பாயும் வேங்கை` retains its crouching/springing tiger image;
-- `ஏரார்ந்த உழவர்` retains the plough image rather than bureaucratic agricultural language;
-- prohibition imagery remains close to the source;
-- `கீரியென்றால்` is translated through the immediately source-supported V. V. Giri mountain/cloud wordplay, without changing the Tamil archive;
-- `சழக்கரால்` remains visible as *sazhakkar* rather than guessed into smoother Tamil;
-- literary names/titles remain specific;
-- `மலர் / மன்னன் / நூல்` remains a compact `If flower / if king / if book` sequence;
-- the turn into caste/social critique remains sharp.
+[`translations/en/batches/batch-04.md`](translations/en/batches/batch-04.md): source **2/2**, omissions/duplications **0/0**, source review **PASS**, Kalaignar voice **PASS**.
+
+Key Batch 04 fidelity decisions:
+
+- Batch 03's caste/social critique continues directly into scan 22;
+- `அழுக்காறு - அவா - வெகுளி - இன்னாச் சொல்` remains a compact four-part moral sequence;
+- Mother Tamil's `வாடினாள் / பாடினாள் / ஆடினாள் / ஓடினாள்` movement remains repeated and personified;
+- `புவியூர் / புகழூர் / கவியூர்` is retained through `town of earth / town of fame / town of poetry`;
+- Valluvar dialogue remains direct question/answer speech;
+- scan 22 → 23 `தமிழர் மனம் வாழ்வெல்லாம் / தங்கமாக ஆக்க` is preserved as one utterance;
+- `சென்றமையக்...` and `கடிதோச்சி...` are translated conservatively with notes rather than silently corrected;
+- `அறிவில் கன்றனையோர்`, banyan-root arms, ploughed-field/seedling, gruel, rock-candy and honey imagery remain visible;
+- `பதிகத்துப் பொருளாய்ப்` remains grammatically open for the scan 24 continuation.
 
 The assembled English release file will be created only after all five batches pass review.
 
 ## Next activity
 
-Begin **English Translation Batch 04 — scans 22–23 / printed pages 20–21**.
+Begin **English Translation Batch 05 — scans 24–26 / printed pages 22–23 + unnumbered final scan**.
 
-Carry Batch 03's closing caste/social critique directly into scan 22's catalogue of decline. Preserve Mother Tamil's personification, the Valluvar dialogue and its question/answer rhythm, and the scan 22 → 23 quotation continuation. Batch 04's final lines continue into Batch 05, so do not close that rhetorical unit prematurely.
+Carry Batch 04's open literary sequence into scan 24's `பழந்தமிழர் புறப்பாட்டாய்`. Preserve Anna's accumulative roles, the statue/cultural-memory catalogue, the sharp turn into grief, repeated direct questions and the final title-bearing plea for Anna's heart. Keep scan 26's printer imprint outside verse. Only after Batch 05 passes review should the full English poem assembly begin.
