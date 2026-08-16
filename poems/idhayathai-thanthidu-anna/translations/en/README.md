@@ -1,10 +1,10 @@
 # English translation — இதயத்தைத் தந்திடு அண்ணா
 
-Status: **planning complete; translation not yet started**
+Status: **Batch 01 reviewed PASS; Batches 02–05 not started**
 
 ## Scope
 
-This directory will contain the English translation of Kalaignar M. Karunanidhi's **இதயத்தைத் தந்திடு அண்ணா**, based only on the verified Tamil archival layer in this repository.
+This directory contains the controlled English translation workflow for Kalaignar M. Karunanidhi's **இதயத்தைத் தந்திடு அண்ணா**, based only on the verified Tamil archival layer in this repository.
 
 Controlling Tamil sources:
 
@@ -56,25 +56,44 @@ It does not require mechanical word-for-word English or artificial archaic Engli
 
 ## Translation layers
 
-Planned files:
-
 ```text
 translations/en/
   README.md
   TRANSLATION_PLAN.md
   SOURCE_MAP.md
   batches/
-    batch-01.md
-    batch-02.md
-    batch-03.md
-    batch-04.md
-    batch-05.md
-  idhayathai-thanthidu-anna-en.md
-  EDITORIAL_CONSISTENCY_REVIEW.md
-  RELEASE_REPORT.md
+    batch-01.md  # reviewed PASS
+    batch-02.md  # not started
+    batch-03.md  # not started
+    batch-04.md  # not started
+    batch-05.md  # not started
+  idhayathai-thanthidu-anna-en.md       # after all batches reviewed
+  EDITORIAL_CONSISTENCY_REVIEW.md       # later
+  RELEASE_REPORT.md                     # later
 ```
 
-The batch files will be drafts under review. The assembled English poem will be created only after every batch has passed source and voice review.
+## Current translation progress
+
+### Batch 01 — scans 13–15 / printed pages 11–13
+
+File: [`batches/batch-01.md`](batches/batch-01.md)
+
+Status: **REVIEWED — PASS**
+
+Checks completed:
+
+- source scans represented: **3/3**;
+- source omissions: **0**;
+- source duplication: **0**;
+- cross-page continuations: **PASS**;
+- Kalaignar voice review: **PASS**;
+- flower/body imagery retained: **PASS**;
+- public-oratorical calls retained: **PASS**;
+- `Parani` literary turn retained: **PASS**;
+- `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!` retained as `A flood! / A flood! / A mighty flood!`: **PASS**;
+- silent normalization of difficult Tamil: **none**.
+
+Where a verified Tamil form could not safely be converted into a normalized lexical reading, Batch 01 uses restrained transliteration plus a translator's note rather than guessing.
 
 ## Excluded from poem translation
 
@@ -97,3 +116,7 @@ Each batch must pass all of these before being marked reviewed:
 6. **Continuity** — cross-page and cross-batch continuations are checked against `SOURCE_MAP.md`.
 
 See [`TRANSLATION_PLAN.md`](TRANSLATION_PLAN.md) for the workflow and [`SOURCE_MAP.md`](SOURCE_MAP.md) for batch/source mapping.
+
+## Exact next activity
+
+Translate and review **Batch 02 — scans 16–19 / printed pages 14–17**. Begin by carrying forward scan 15's closing question `நினைவுண்டா உங்களுக்கு?` into the repeated `முன்றெழுத்து` answer on scan 16. Preserve the three-letter wordplay as rhetoric; do not turn it into explanatory prose.
