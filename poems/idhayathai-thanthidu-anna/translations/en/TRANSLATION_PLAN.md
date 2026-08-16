@@ -2,7 +2,7 @@
 
 ## Status
 
-**Batches 01–05 reviewed PASS. Complete English assembly reviewed PASS. Final release report pending.**
+**RELEASE-COMPLETE — Batches 01–05 reviewed PASS; complete English assembly reviewed PASS; final release report PASS.**
 
 Tamil source status:
 
@@ -83,19 +83,23 @@ Assembly review result:
 - The opening flower/body frame returns at the end in `foot-flowers`.
 - The title-bearing closing request keeps the temporary borrowing/return logic of Anna's heart.
 
-## Release criteria
+## Release closure — COMPLETE
 
-Before release-complete status, create `RELEASE_REPORT.md` and confirm:
+Final report: [`RELEASE_REPORT.md`](RELEASE_REPORT.md)
 
-1. English assembly status is `reviewed-assembly`;
-2. all five batch files remain `reviewed`;
-3. `EDITORIAL_CONSISTENCY_REVIEW.md` remains PASS;
-4. source exclusions are intact;
-5. no translator notes/review prose leaked into the visible poem body;
-6. no batch body is missing or duplicated;
-7. no unresolved translation issue remains;
-8. README/HANDOVER status matches the release judgement.
+Release checklist result:
 
-## Exact next activity
+1. English assembly status `reviewed-assembly`: **CONFIRMED**;
+2. all five batch files remain `reviewed`: **CONFIRMED**;
+3. `EDITORIAL_CONSISTENCY_REVIEW.md`: **PASS**;
+4. source exclusions intact: **PASS**;
+5. translator notes / batch review prose leaked into poem verse: **NO**;
+6. missing / duplicate batch bodies: **0 / 0**;
+7. unresolved release issues: **0**;
+8. Kalaignar-language/voice release check: **PASS**.
 
-Create **`RELEASE_REPORT.md`**, run the final release checklist, and if all checks pass mark the English translation **release-complete**. Do not alter the verified Tamil source layer during release closure.
+## Final judgement
+
+**English translation: RELEASE-COMPLETE.**
+
+No change to the verified Tamil source layer was required during release closure.
