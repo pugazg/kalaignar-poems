@@ -12,7 +12,7 @@
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English Batches 01–05 PASS; English assembly + full-poem consistency/voice review PASS; release report next** |
+| இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 
 ## இதயத்தைத் தந்திடு அண்ணா — நிலை
 
@@ -25,14 +25,15 @@
 - batch-level source omissions / duplications: **0 / 0**
 - complete English assembly: [`idhayathai-thanthidu-anna-en.md`](poems/idhayathai-thanthidu-anna/translations/en/idhayathai-thanthidu-anna-en.md) — **reviewed assembly**
 - full-poem review: [`EDITORIAL_CONSISTENCY_REVIEW.md`](poems/idhayathai-thanthidu-anna/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md) — **PASS**
+- final release report: [`RELEASE_REPORT.md`](poems/idhayathai-thanthidu-anna/translations/en/RELEASE_REPORT.md) — **PASS**
 - assembly batches present: **5/5 once each**
 - source poem scans represented in English: **14/14**
 - English assembly missing / duplicate batch bodies: **0 / 0**
 - full-poem Kalaignar-language/voice review: **PASS**
-- English release closure: **pending `RELEASE_REPORT.md`**
+- English release status: **RELEASE-COMPLETE**
 
-The English assembly preserves the reviewed cross-batch continuities, political/literary terms, repeated rhetoric, Mother Tamil/Valluvar sequence, cultural-statue crescendo, the abrupt turn into grief, and the final borrowing-and-return plea for Anna's heart. Scan 26 printer imprint and other non-verse matter remain outside the poem.
+The English release preserves the reviewed cross-batch continuities, political/literary terms, repeated rhetoric, Mother Tamil/Valluvar sequence, cultural-statue crescendo, the abrupt turn into grief, and the final borrowing-and-return plea for Anna's heart. Scan 26 printer imprint and other non-verse matter remain outside the poem.
 
 ## அடுத்த activity
 
-Create `poems/idhayathai-thanthidu-anna/translations/en/RELEASE_REPORT.md`, run the final release checklist, and mark the English translation release-complete only if all checks remain PASS.
+**இதயத்தைத் தந்திடு அண்ணா** is closed for both the Tamil archival layer and the English translation release. For the next poem, begin again with the repository startup/source-inspection workflow in `POEM_PROCESSING_GUIDE.md`; do not alter this released work unless a genuine source-level discrepancy is found and documented.
