@@ -8,32 +8,19 @@
 
 மூல PDF repository-யில் commit செய்யப்படாது. மூல wording, punctuation, lineation, பெயர், தேதி, historical spelling ஆகியவற்றை silently normalize செய்யக்கூடாது.
 
-## தற்போதைய படைப்பு
+## தற்போதைய படைப்புகள்
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
+| அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Source setup COMPLETE; Tamil transcription IN PROGRESS** |
 
-## இதயத்தைத் தந்திடு அண்ணா — நிலை
+## அணையா விளக்கு அண்ணா — நிலை
 
-- physical source: **28/28 verified**
-- poem body: **14/14 verified**
-- Tamil assembly: **PASS; 0 discrepancies**
-- Tamil archival/source layer: **COMPLETE**
-- English translation principle: **retain Kalaignar's language/voice — cadence, rhetoric, repetition, political/literary density and grief**
-- English Batches **01–05**: **REVIEWED PASS**
-- batch-level source omissions / duplications: **0 / 0**
-- complete English assembly: [`idhayathai-thanthidu-anna-en.md`](poems/idhayathai-thanthidu-anna/translations/en/idhayathai-thanthidu-anna-en.md) — **reviewed assembly**
-- full-poem review: [`EDITORIAL_CONSISTENCY_REVIEW.md`](poems/idhayathai-thanthidu-anna/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md) — **PASS**
-- final release report: [`RELEASE_REPORT.md`](poems/idhayathai-thanthidu-anna/translations/en/RELEASE_REPORT.md) — **PASS**
-- assembly batches present: **5/5 once each**
-- source poem scans represented in English: **14/14**
-- English assembly missing / duplicate batch bodies: **0 / 0**
-- full-poem Kalaignar-language/voice review: **PASS**
-- English release status: **RELEASE-COMPLETE**
+- source identity: COMPLETE
+- page classification: COMPLETE
+- Tamil visual transcription: IN PROGRESS
+- Tamil assembly: PENDING
+- English translation: PENDING
 
-The English release preserves the reviewed cross-batch continuities, political/literary terms, repeated rhetoric, Mother Tamil/Valluvar sequence, cultural-statue crescendo, the abrupt turn into grief, and the final borrowing-and-return plea for Anna's heart. Scan 26 printer imprint and other non-verse matter remain outside the poem.
-
-## அடுத்த activity
-
-**இதயத்தைத் தந்திடு அண்ணா** is closed for both the Tamil archival layer and the English translation release. For the next poem, begin again with the repository startup/source-inspection workflow in `POEM_PROCESSING_GUIDE.md`; do not alter this released work unless a genuine source-level discrepancy is found and documented.
+Next work continues under `poems/anaiya-vilakku-anna/`.
