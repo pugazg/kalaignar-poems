@@ -4,10 +4,10 @@
 |---:|---|---|---|---|
 | 1 | — | cover | verified | title/author attribution/price/publisher visible |
 | 2 | — | frontispiece-photo-quote | verified | Anna quotation over photograph |
-| 3 | — | commemorative-graphic | not-started | Anna centenary-style graphic; caption visible |
-| 4 | — | photograph | not-started | photograph with printed caption |
-| 5 | — | photograph | not-started | photograph with printed caption |
-| 6 | — | title-photo | not-started | title repeated beside Kalaignar photograph |
+| 3 | — | commemorative-graphic | needs-review | bottom caption verified; circular-emblem lettering remains unresolved |
+| 4 | — | photograph | verified | printed caption: `பகுத்தறிவுத் தந்தையும் பாசமிகு தனயனும்` |
+| 5 | — | photograph | verified | printed caption: `வாஞ்சைமிகு அண்ணனுடன் வழிநடக்கும் தம்பி!` |
+| 6 | — | title-photo | verified | `அணையா விளக்கு / அண்ணா` + `கலைஞர் கவிதை` |
 | 7 | — | poem | not-started | poem/text body begins |
 | 8 | — | poem | not-started | continuation |
 | 9 | — | poem | not-started | continuation |
