@@ -2,11 +2,11 @@
 
 English title: **The Valiant Woman**
 
-Status: **BATCH 01 REVIEWED — PASS; English assembly next**
+Status: **RELEASE-COMPLETE — Batch 01 reviewed PASS; English assembly reviewed PASS; release report PASS**
 
 ## Scope and source authority
 
-This directory contains the controlled English translation workspace for Kalaignar M. Karunanidhi's **மறத்தி**.
+This directory contains the controlled English translation of Kalaignar M. Karunanidhi's **மறத்தி**.
 
 Controlling Tamil sources:
 
@@ -37,8 +37,6 @@ Do not silently modernize, sanitize, genericize or correct the Tamil while trans
 
 ## Translation structure
 
-Because the complete poem body occupies only three source scans and forms one continuous narrative unit, it is handled as a single controlled batch:
-
 ```text
 translations/en/
   README.md
@@ -46,9 +44,9 @@ translations/en/
   SOURCE_MAP.md
   batches/
     batch-01.md       # reviewed — PASS
-  marathi-en.md
-  EDITORIAL_CONSISTENCY_REVIEW.md
-  RELEASE_REPORT.md
+  marathi-en.md       # reviewed final English assembly
+  EDITORIAL_REVIEW.md # PASS
+  RELEASE_REPORT.md   # PASS
 ```
 
 ## Title decision
@@ -58,20 +56,26 @@ English title: **The Valiant Woman**
 
 This is an explicit translation-layer title decision. It reflects the poem's governing martial courage, honour, sacrifice and public duty. The archival Tamil title remains unchanged.
 
-## Current status
+## Final status
 
 - Tamil source layer: **COMPLETE**
 - Tamil assembly: **REVIEWED — PASS**
-- unresolved Tamil readings: **0 currently documented**
 - translation setup: **COMPLETE**
 - Batch 01, scans 59–61: **REVIEWED — PASS**
 - source coverage: **PASS; 3/3 poem scans represented**
 - omissions / duplications: **0 / 0**
 - continuity review: **PASS**
 - Kalaignar-language / voice review: **PASS**
-- English assembly: **NEXT**
-- release review: **PENDING**
+- English assembly: **REVIEWED — PASS**
+- editorial consistency review: **PASS**
+- release report: **PASS**
 
-## Exact next step
+## Final translation-sensitive decisions
 
-Assemble reviewed Batch 01 verse only into `marathi-en.md`, preserving the reviewed scan boundaries as hidden provenance comments. Then perform the full-poem editorial consistency review before release closure.
+- `வட்டிலினால் நாள்/நாழிகை பார்க்கும்`: timekeeping with a traditional water clock / clepsydra;
+- `மானம்` / `மானங்காத்தார்`: **honour** / **those who guarded honour**;
+- `பரணி`: retained as *Parani*, with explanatory note;
+- `திருமகளே`: **O noble woman!**;
+- `செருமுனை`: **battle-front**.
+
+**English translation status: RELEASE-COMPLETE.**
