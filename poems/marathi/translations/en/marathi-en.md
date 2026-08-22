@@ -122,7 +122,7 @@ she rose and said.
 not for the house!"
 
 Queen among the women of Tamil land, who knew
-the way of measuring the naazhi with the circular vessel,
+to measure time with the water clock,
 she remembered the pure treasure she had raised in the cradle,
 who had gone to learn, without fail,
 from the teacher beneath the banyan tree!
@@ -162,7 +162,7 @@ O noble woman! — in this flower-world?
 - **`கட்டாணிமுத்தாள்`:** "pearl among women", retaining the image rather than flattening it to a character label.
 - **`கொற்றவன்`:** "victorious king", retaining the martial praise register.
 - **`பனி வெல்லும் விழி`:** "eyes that could shame the dew", preserving the source image.
-- **`வட்டிலினால் நாழிபார்க்கும்`:** kept close to the material image; *naazhi* remains visible rather than being generalized away.
+- **`வட்டிலினால் நாள்/நாழிகை பார்க்கும்`:** "measuring time using a water clock." The `வட்டில்` here refers to the vessel used in the traditional Tamil water-clock (*clepsydra*) system for determining time or *nāzhigai*.
 - **`மானம்` / `மானங்காத்தார்`:** "honour" / "those who guarded honour", preserving the repeated ethical-public concept.
 - **`பரணி`:** retained as *Parani* — **"A genre of classical Tamil martial poetry composed in honor of a hero who has slain a thousand male elephants in battle."**
 - **`செருமுனை`:** "battle-front", retaining the final forward martial movement.
@@ -170,4 +170,4 @@ O noble woman! — in this flower-world?
 
 ## Assembly provenance
 
-This English poem is assembled from `batches/batch-01.md`, status **REVIEWED — PASS**. No new translation, rewriting, smoothing, source correction or silent normalization was introduced during assembly. The locked Tamil source layer remains authoritative if any source question is reopened.
+This English poem is assembled from `batches/batch-01.md`, status **REVIEWED — PASS**. The water-clock reading above records a user-confirmed translation-layer interpretation correction after initial assembly. The locked Tamil source layer itself remains unchanged and authoritative for source wording.
