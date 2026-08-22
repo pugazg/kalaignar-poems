@@ -17,15 +17,22 @@ At the user's explicit request, the previous `poems/anaiya-vilakku-anna/` conten
 
 | Status | Count |
 |---|---:|
-| verified | 2 |
-| not-started | 17 |
-| needs-review | 0 |
+| verified | 5 |
+| needs-review | 1 |
+| not-started | 13 |
 | blocked | 0 |
 
 Verified so far:
 
 - scan 1 — cover
 - scan 2 — frontispiece/photo quotation
+- scan 4 — photograph + printed caption
+- scan 5 — photograph + printed caption
+- scan 6 — title/photo page
+
+Needs review:
+
+- scan 3 — commemorative graphic. Bottom caption `அண்ணாவின் காலமலரில் / முரசொலியின் காணிக்கை` is verified; the circular-emblem lettering remains unresolved because it is low-contrast and integrated into the artwork. It has not been guessed.
 
 ## Preliminary scope
 
@@ -33,11 +40,13 @@ Verified so far:
 - scans 7–17: principal poem/text body
 - scans 18–19: closing visual/back matter
 
-The scope boundary will be locked only after page-level verification.
+The poem-body boundary is now visually supported to begin at scan 7. Final source completeness will still require all 19 scan records.
 
 ## Tamil transcription readiness
 
-- poem scans transcribed: **0 / 11 preliminary poem scans**
+- poem scans transcribed: **0 / 11 poem scans**
+- front-matter records created: **6 / 6**
+- front-matter fully verified: **5 / 6**
 - Tamil assembly: **NOT READY**
 - English translation: **NOT READY**
 
@@ -47,8 +56,9 @@ The scope boundary will be locked only after page-level verification.
 - no source PDF committed;
 - no web/secondary edition substituted for the scan;
 - no Tamil normalization introduced;
-- no inferred printed pagination recorded as printed page numbers.
+- no inferred printed pagination recorded as printed page numbers;
+- unresolved graphic lettering on scan 3 is explicitly held for review instead of guessed.
 
 ## Next activity
 
-Continue fresh front-matter verification for scans 3–6, then begin scan 7 poem transcription with direct visual comparison and glyph-level review.
+Begin fresh glyph-first transcription of **scan 7**, preserving lineation, punctuation, title/header material and all visible verse structure exactly from the supplied scan. Do not use the deleted old transcription as authority.
