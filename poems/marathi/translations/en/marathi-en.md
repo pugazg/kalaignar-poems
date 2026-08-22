@@ -166,7 +166,7 @@ O noble woman! — in this flower-world?
 - **`மானம்` / `மானங்காத்தார்`:** "honour" / "those who guarded honour", preserving the repeated ethical-public concept.
 - **`பரணி`:** retained as *Parani* — **"A genre of classical Tamil martial poetry composed in honor of a hero who has slain a thousand male elephants in battle."**
 - **`செருமுனை`:** "battle-front", retaining the final forward martial movement.
-- **`திருமகளே`:** "O noble woman!", treated here as an elevated human address rather than an unsupported identification with Lakshmi.
+- **`திருமகளே`:** "O noble woman!", an elevated address to the woman.
 
 ## Assembly provenance
 
