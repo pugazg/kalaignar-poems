@@ -19,7 +19,7 @@ This folder preserves the Kalaignar poem **மறத்தி** from the control
 - Tamil assembly: REVIEWED — PASS
 - Tamil source layer: COMPLETE
 - English translation setup: COMPLETE
-- English translation: IN PROGRESS — Batch 01 translated; review pending
+- English translation: RELEASE-COMPLETE
 
 ## Tamil source closure
 
@@ -39,21 +39,30 @@ Two scan-supported punctuation corrections were confirmed during review:
 
 No other speculative or editorial correction was applied.
 
-## English translation workspace
+## English translation closure
 
-Created under `translations/en/`:
+English title: **The Valiant Woman**
 
-- `README.md`
-- `TRANSLATION_PLAN.md`
-- `SOURCE_MAP.md`
-- `batches/batch-01.md` — complete scans 59–61 translation; source/voice review pending
+Completed under `translations/en/`:
 
-Because the poem body occupies only scans 59–61 and is one continuous narrative unit, the complete poem is handled as a single controlled **Batch 01** rather than fragmented into artificial page-sized translation batches.
+- `batches/batch-01.md` — REVIEWED — PASS
+- `marathi-en.md` — final English assembly
+- `EDITORIAL_REVIEW.md` — PASS
+- `RELEASE_REPORT.md` — PASS
 
-The English title is intentionally not fixed yet; it will be decided only after complete-poem translation and review.
+Final English coverage:
 
-### Exact next step
+- poem scans represented: 3/3
+- omissions: 0
+- duplications: 0
+- continuity review: PASS
+- Kalaignar-language / voice review: PASS
+- editorial consistency review: PASS
 
-Review **Batch 01 — scans 59–61** against the locked Tamil source for complete source coverage, omissions/duplications, scan-boundary continuity, speech attribution, image fidelity, culturally specific terms, rhetorical repetition and Kalaignar-language/voice fidelity. Do not assemble the final English poem until Batch 01 is reviewed PASS.
+Translation-layer decisions such as the water-clock interpretation, *Parani* note, **O noble woman!**, and **battle-front** are documented in the English translation layer. They do not alter the locked Tamil source wording.
 
-The scan remains the controlling source. Original Tamil wording, punctuation, line breaks and historical forms are preserved. Reopen the Tamil source layer only for a documented source-level discrepancy.
+## Final status
+
+**மறத்தி / The Valiant Woman: Tamil archival layer COMPLETE; English translation RELEASE-COMPLETE.**
+
+The scan remains the controlling source. Reopen the Tamil source layer only for a documented source-level discrepancy.
