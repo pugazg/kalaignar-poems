@@ -15,8 +15,27 @@ This folder preserves the Kalaignar poem **மறத்தி** from the control
 
 - Source identity: COMPLETE
 - Folder migration: COMPLETE
-- Tamil visual transcription: IN PROGRESS
-- Tamil assembly: PENDING
+- Tamil visual transcription: COMPLETE
+- Tamil assembly: REVIEWED — PASS
+- Tamil source layer: COMPLETE
 - English translation: PENDING
 
-The scan remains the controlling source. Original Tamil wording, punctuation, line breaks and historical forms will be preserved.
+## Tamil source closure
+
+- source pages in work range: 4
+- title/image pages verified: 1/1
+- poem pages visual-reviewed: 3/3
+- needs-review: 0
+- blocked: 0
+- assembled poem: `sections/marathi.md`
+- assembly review: `ASSEMBLY_REVIEW.md` — PASS
+- audit: `audit.md`
+
+Two scan-supported punctuation corrections were confirmed during review:
+
+- scan 60: `வாழ்த்துகள் வழங்கினர் !`
+- scan 61: `பட்டொழிந்து போகட்டும் எனஎழுந்தாள் !`
+
+No other speculative or editorial correction was applied.
+
+The scan remains the controlling source. Original Tamil wording, punctuation, line breaks and historical forms are preserved. Reopen the Tamil source layer only for a documented source-level discrepancy.
