@@ -157,7 +157,7 @@ and blessed him:
 "Go, my son.. toward the battle-front!"
 Who is there that would not praise and sing
 that scene from the sacred Tamil land —
-O Lakshmi! — in this flower-world?
+O noble woman! — in this flower-world?
 
 ## Translator's notes
 
@@ -171,6 +171,7 @@ O Lakshmi! — in this flower-world?
 8. **`மானம்` / `மானங்காத்தார்`:** kept consistently as "honour" / "those who guarded honour" because the repeated ethical/public concept drives the mother-son turn.
 9. **`பரணி`:** retained as `Parani`, not replaced with "victory song"; the Tamil literary genre remains visible in the English.
 10. **`செருமுனை`:** rendered as "battle-front" to retain the final forward martial movement.
+11. **`திருமகளே`:** rendered as **"O noble woman!"** in this context. It is treated as an elevated address to the woman, not as the proper name of the goddess Lakshmi; the English therefore avoids an unsupported divine identification.
 
 ## Source-fidelity review
 
@@ -184,6 +185,7 @@ O Lakshmi! — in this flower-world?
 - `போர்! போர் ! போர் !` / `பார்! பார்! பார்!` repetition retained as `War! War! War!` / `Look! Look! Look!`: **PASS**
 - `மானம்` repetition retained: **PASS**
 - `பரணி` retained as a culturally active literary term: **PASS**
+- `திருமகளே` retained as an elevated human address without unsupported divine identification: **PASS**
 - silent Tamil normalization introduced during translation: **NO — PASS**
 
 ## Kalaignar-language / voice review
