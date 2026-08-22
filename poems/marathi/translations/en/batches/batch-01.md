@@ -126,7 +126,7 @@ she rose and said.
 not for the house!"
 
 Queen among the women of Tamil land, who knew
-the way of measuring the naazhi with the circular vessel,
+to measure time with the water clock,
 she remembered the pure treasure she had raised in the cradle,
 who had gone to learn, without fail,
 from the teacher beneath the banyan tree!
@@ -167,11 +167,11 @@ O noble woman! — in this flower-world?
 4. **`கட்டாணிமுத்தாள்`:** rendered descriptively as "pearl among women"; retained as an image rather than normalized into a plain character label.
 5. **`கொற்றவன்`:** rendered as "victorious king" to retain the martial praise register.
 6. **`பனி வெல்லும் விழி`:** retained as an image — "eyes that could shame the dew" — rather than replaced by conventional beauty language.
-7. **`வட்டிலினால் நாழிபார்க்கும்`:** kept close to the material image — measuring the *naazhi* with the circular vessel — and not normalized into a generic domestic description.
+7. **`வட்டிலினால் நாழிபார்க்கும்`:** rendered as "to measure time with the water clock." The `வட்டில்` here refers to the vessel used in the traditional Tamil water-clock / clepsydra system for determining time or *nāzhigai*.
 8. **`மானம்` / `மானங்காத்தார்`:** kept consistently as "honour" / "those who guarded honour" because the repeated ethical/public concept drives the mother-son turn.
-9. **`பரணி`:** retained as `Parani`, not replaced with "victory song"; the Tamil literary genre remains visible in the English.
+9. **`பரணி`:** retained as *Parani* — **"A genre of classical Tamil martial poetry composed in honor of a hero who has slain a thousand male elephants in battle."**
 10. **`செருமுனை`:** rendered as "battle-front" to retain the final forward martial movement.
-11. **`திருமகளே`:** rendered as **"O noble woman!"** in this context. It is treated as an elevated address to the woman, not as the proper name of the goddess Lakshmi; the English therefore avoids an unsupported divine identification.
+11. **`திருமகளே`:** rendered as **"O noble woman!"**, an elevated address to the woman.
 
 ## Source-fidelity review
 
@@ -183,9 +183,10 @@ O noble woman! — in this flower-world?
 - scan 60 → 61 grief-to-duty transition preserved: **PASS**
 - husband/wife, messenger/widow and mother/son speech attribution preserved: **PASS**
 - `போர்! போர் ! போர் !` / `பார்! பார்! பார்!` repetition retained as `War! War! War!` / `Look! Look! Look!`: **PASS**
+- `வட்டிலினால் நாழிபார்க்கும்` water-clock/timekeeping sense retained: **PASS**
 - `மானம்` repetition retained: **PASS**
 - `பரணி` retained as a culturally active literary term: **PASS**
-- `திருமகளே` retained as an elevated human address without unsupported divine identification: **PASS**
+- `திருமகளே` retained as an elevated human address: **PASS**
 - silent Tamil normalization introduced during translation: **NO — PASS**
 
 ## Kalaignar-language / voice review
@@ -206,4 +207,4 @@ O noble woman! — in this flower-world?
 
 **REVIEWED — PASS.**
 
-Batch 01 is source-complete and voice-reviewed. It may now be assembled into the final English poem using reviewed verse only.
+Batch 01 is source-complete and voice-reviewed. It is aligned with the final English assembly and may proceed to full-poem editorial consistency review.
