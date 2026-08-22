@@ -35,7 +35,7 @@ Two scan-supported punctuation corrections were made to previously entered trans
 
 No other speculative or editorial correction was applied.
 
-## Assembly
+## Tamil assembly
 
 Assembly: `sections/marathi.md`
 
@@ -52,12 +52,45 @@ Result:
 - source punctuation preservation: **PASS**
 - assembly-level normalization: **NONE**
 
-## Readiness
+## English translation
+
+English title: **The Valiant Woman**
+
+Translation artifacts:
+
+- `translations/en/batches/batch-01.md` — **REVIEWED — PASS**
+- `translations/en/marathi-en.md` — final English assembly
+- `translations/en/EDITORIAL_REVIEW.md` — **PASS**
+- `translations/en/RELEASE_REPORT.md` — **RELEASE-COMPLETE — PASS**
+
+Release totals:
+
+- poem scans represented: **3 / 3**
+- batches: **1 / 1 reviewed**
+- omissions: **0**
+- duplications: **0**
+- continuity: **PASS**
+- Kalaignar-language / voice fidelity: **PASS**
+- editorial consistency: **PASS**
+
+Documented translation-layer interpretation decisions include:
+
+- `வட்டிலினால் நாள்/நாழிகை பார்க்கும்` as timekeeping by a traditional water clock / clepsydra;
+- `மானம்` / `மானங்காத்தார்` as **honour** / **those who guarded honour**;
+- `பரணி` retained as *Parani* with an explanatory genre note;
+- `திருமகளே` as **O noble woman!**;
+- `செருமுனை` as **battle-front**.
+
+These translation-layer decisions did not alter the locked Tamil source wording.
+
+## Final readiness
 
 - Tamil source layer: **COMPLETE**
 - Tamil assembly: **REVIEWED — PASS**
+- English translation: **RELEASE-COMPLETE**
 - needs-review: **0**
 - blocked: **0**
-- English translation readiness: **READY**, subject to the translation policy in `POEM_PROCESSING_GUIDE.md`
+
+**Work status: COMPLETE under the current Tamil archival + English translation workflow.**
 
 Any future reopening of the Tamil source layer should be based on a documented scan-level discrepancy, not stylistic preference or normalization.
