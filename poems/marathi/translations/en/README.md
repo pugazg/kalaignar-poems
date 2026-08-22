@@ -1,6 +1,8 @@
 # English translation — மறத்தி
 
-Status: **SETUP COMPLETE — translation not yet started**
+English title: **The Valiant Woman**
+
+Status: **BATCH 01 REVIEWED — PASS; English assembly next**
 
 ## Scope and source authority
 
@@ -35,7 +37,7 @@ Do not silently modernize, sanitize, genericize or correct the Tamil while trans
 
 ## Translation structure
 
-Because the complete poem body occupies only three source scans and forms one continuous narrative unit, it will be translated as a single controlled batch:
+Because the complete poem body occupies only three source scans and forms one continuous narrative unit, it is handled as a single controlled batch:
 
 ```text
 translations/en/
@@ -43,11 +45,18 @@ translations/en/
   TRANSLATION_PLAN.md
   SOURCE_MAP.md
   batches/
-    batch-01.md
+    batch-01.md       # reviewed — PASS
   marathi-en.md
   EDITORIAL_CONSISTENCY_REVIEW.md
   RELEASE_REPORT.md
 ```
+
+## Title decision
+
+Tamil title: **மறத்தி**  
+English title: **The Valiant Woman**
+
+This is an explicit translation-layer title decision. It reflects the poem's governing martial courage, honour, sacrifice and public duty. The archival Tamil title remains unchanged.
 
 ## Current status
 
@@ -55,8 +64,14 @@ translations/en/
 - Tamil assembly: **REVIEWED — PASS**
 - unresolved Tamil readings: **0 currently documented**
 - translation setup: **COMPLETE**
-- Batch 01: **NEXT**
-- English assembly: **PENDING**
+- Batch 01, scans 59–61: **REVIEWED — PASS**
+- source coverage: **PASS; 3/3 poem scans represented**
+- omissions / duplications: **0 / 0**
+- continuity review: **PASS**
+- Kalaignar-language / voice review: **PASS**
+- English assembly: **NEXT**
 - release review: **PENDING**
 
-English title is intentionally **not fixed yet**. A translation-layer title decision will be made only after the poem itself has been translated and reviewed.
+## Exact next step
+
+Assemble reviewed Batch 01 verse only into `marathi-en.md`, preserving the reviewed scan boundaries as hidden provenance comments. Then perform the full-poem editorial consistency review before release closure.
