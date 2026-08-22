@@ -7,6 +7,12 @@
 - File size: 220351424 bytes
 - Source type: scanned image PDF
 
+## Work identity
+
+- Title as visible on title page: **மறக்குமா கருணை**
+- Title source: PDF page 58 title/image page
+- Author: மு. கருணாநிதி (to be confirmed from source text/context)
+
 ## Scope
 
 - User-confirmed poem range: PDF pages 58–61
@@ -20,4 +26,5 @@
 ## Anomalies
 
 - Illustrated title page and poem pages contain historical print layout elements.
-- Title, lineation and wording will be taken only from the controlling scan.
+- Title was visually identified from the title page scan; final metadata remains subject to full source review.
+- Lineation and wording will be taken only from the controlling scan.
