@@ -1,6 +1,8 @@
 # மறத்தி — English Translation — Batch 01
 
-Status: **TRANSLATED — source/voice review pending**
+English title: **The Valiant Woman**
+
+Status: **REVIEWED — PASS**
 
 Source scans: **59–61**  
 Scope: complete poem body
@@ -157,19 +159,49 @@ Who is there that would not praise and sing
 that scene from the sacred Tamil land —
 O Lakshmi! — in this flower-world?
 
-## Translation notes requiring review
+## Translator's notes
 
-- `மறத்தி`: English title intentionally not fixed in this batch.
-- `முல்லைசூழ்`: rendered as "jasmine-girdled" to retain the floral image; requires review against the intended cultural register.
-- `சுக்குநூறுதான் சூழ்ந்துவரும் பகை`: rendered idiomatically as smashing surrounding enemies "to dust"; this is interpretive and must be checked against the source force.
-- `கட்டாணிமுத்தாள்`: rendered descriptively as "pearl among women"; requires review.
-- `கொற்றவன்`: rendered as "victorious king" rather than transliterated; requires consistency review.
-- `பனி வெல்லும் விழி`: retained as an image rather than flattened into conventional beauty language.
-- `வட்டிலினால் நாழிபார்க்கும்`: rendered close to the source image and deliberately not normalized into a generic domestic description; requires source/cultural review.
-- `மானம்` / `மானங்காத்தார்`: kept consistently as "honour" / "those who guarded honour" for this draft; must be reviewed across the poem.
-- `பரணி`: retained as `Parani`, not replaced with a generic term such as "victory song"; explanatory handling belongs in review/notes rather than the verse body.
-- `செருமுனை`: rendered as "battle-front" for the draft; requires review for force and register.
+1. **Title — `மறத்தி`:** English title fixed as **The Valiant Woman** as an explicit translation-layer decision. The Tamil source title remains unchanged. The title reflects the poem's martial courage, honour, sacrifice and public duty without replacing the archival Tamil title.
+2. **`முல்லைசூழ்`:** rendered as "jasmine-girdled" to retain the floral image rather than flattening it into a generic geographical description.
+3. **`சுக்குநூறுதான் சூழ்ந்துவரும் பகை`:** rendered idiomatically as smashing surrounding enemies "to dust"; the English preserves the boast/oath force rather than treating the difficult compact wording as licence to alter the Tamil source.
+4. **`கட்டாணிமுத்தாள்`:** rendered descriptively as "pearl among women"; retained as an image rather than normalized into a plain character label.
+5. **`கொற்றவன்`:** rendered as "victorious king" to retain the martial praise register.
+6. **`பனி வெல்லும் விழி`:** retained as an image — "eyes that could shame the dew" — rather than replaced by conventional beauty language.
+7. **`வட்டிலினால் நாழிபார்க்கும்`:** kept close to the material image — measuring the *naazhi* with the circular vessel — and not normalized into a generic domestic description.
+8. **`மானம்` / `மானங்காத்தார்`:** kept consistently as "honour" / "those who guarded honour" because the repeated ethical/public concept drives the mother-son turn.
+9. **`பரணி`:** retained as `Parani`, not replaced with "victory song"; the Tamil literary genre remains visible in the English.
+10. **`செருமுனை`:** rendered as "battle-front" to retain the final forward martial movement.
 
-## Next step
+## Source-fidelity review
 
-Perform Batch 01 source-coverage, continuity, image-fidelity, speech-attribution and Kalaignar-language/voice review before this verse can be marked reviewed or assembled into the final English poem.
+- source scans represented: **59, 60, 61 — PASS**
+- complete poem body represented: **PASS**
+- source units omitted: **0 — PASS**
+- source units duplicated: **0 — PASS**
+- scan 59 → 60 narrative continuity preserved: **PASS**
+- scan 60 → 61 grief-to-duty transition preserved: **PASS**
+- husband/wife, messenger/widow and mother/son speech attribution preserved: **PASS**
+- `போர்! போர் ! போர் !` / `பார்! பார்! பார்!` repetition retained as `War! War! War!` / `Look! Look! Look!`: **PASS**
+- `மானம்` repetition retained: **PASS**
+- `பரணி` retained as a culturally active literary term: **PASS**
+- silent Tamil normalization introduced during translation: **NO — PASS**
+
+## Kalaignar-language / voice review
+
+- public-martial cadence retained: **PASS**
+- direct dramatic narration retained: **PASS**
+- rhetorical repetition retained: **PASS**
+- battlefield imagery retained rather than softened: **PASS**
+- family grief retained without added sentimentality: **PASS**
+- abrupt victory → bereavement turn retained: **PASS**
+- grief → public duty / honour turn retained: **PASS**
+- final mother-to-son command retains urgency: **PASS**
+- culturally specific vocabulary flattened away: **NO — PASS**
+- fake archaism introduced: **NO — PASS**
+- explanatory material inserted into verse body: **NO — PASS**
+
+## Batch judgement
+
+**REVIEWED — PASS.**
+
+Batch 01 is source-complete and voice-reviewed. It may now be assembled into the final English poem using reviewed verse only.
