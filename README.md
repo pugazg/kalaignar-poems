@@ -13,14 +13,17 @@
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
-| அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Source setup COMPLETE; Tamil transcription IN PROGRESS** |
+| அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Restarted from supplied scan; fresh source setup COMPLETE; page verification STARTED** |
 
-## அணையா விளக்கு அண்ணா — நிலை
+## அணையா விளக்கு அண்ணா — தற்போதைய நிலை
 
-- source identity: COMPLETE
-- page classification: COMPLETE
-- Tamil visual transcription: IN PROGRESS
-- Tamil assembly: PENDING
-- English translation: PENDING
+- previous work: **DELETED at user request**
+- controlling source: newly supplied 19-scan PDF
+- fresh source identity/checksum: **COMPLETE**
+- physical page classification: **19/19 mapped preliminarily**
+- verified fresh page records: **2/19**
+- Tamil poem transcription: **NOT STARTED**
+- Tamil assembly: **PENDING**
+- English translation: **PENDING**
 
-Next work continues under `poems/anaiya-vilakku-anna/`.
+Next work continues source-first under `poems/anaiya-vilakku-anna/`, beginning with the remaining front matter before scan 7 poem transcription.
