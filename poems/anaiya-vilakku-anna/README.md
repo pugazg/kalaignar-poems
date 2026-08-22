@@ -13,26 +13,27 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - source type: scanned image PDF
 - source PDF is not committed to the repository
 
-## Preliminary physical structure
+## Physical structure
 
-- scan 1: cover
-- scan 2: quotation/photo front matter
-- scan 3: commemorative graphic
-- scans 4–5: photograph pages with captions
-- scan 6: title/photo page
+- scan 1: cover — verified
+- scan 2: quotation/photo front matter — verified
+- scan 3: commemorative graphic — needs-review for circular-emblem lettering only; bottom caption verified
+- scan 4: photograph page — verified
+- scan 5: photograph page — verified
+- scan 6: title/photo page — verified
 - scans 7–17: poem/text body
 - scan 18: memorial/monument photograph
 - scan 19: closing quotation/back matter
-
-This classification is based on direct visual inspection of all 19 supplied scans and will be refined only where the scan itself requires it.
 
 ## Processing status
 
 - previous `anaiya-vilakku-anna` work: **DELETED at user request**
 - fresh source identity: **COMPLETE**
-- physical page classification: **COMPLETE — preliminary roles mapped for 19/19 scans**
-- page records: **STARTED**
-- Tamil poem transcription: **NOT STARTED**
+- physical page classification: **COMPLETE — roles mapped for 19/19 scans**
+- page records created: **6 / 19**
+- verified page records: **5 / 19**
+- needs-review page records: **1 / 19**
+- Tamil poem transcription: **NOT STARTED — scan 7 NEXT**
 - Tamil assembly: **PENDING**
 - English translation: **PENDING**
 
@@ -40,6 +41,8 @@ This classification is based on direct visual inspection of all 19 supplied scan
 
 The supplied scan is the controlling source. Tamil wording, punctuation, lineation, historical forms, captions and page roles must not be silently normalized or reconstructed from outside sources.
 
+The unresolved circular-emblem wording on scan 3 is deliberately held as `needs-review`; it must not delay poem transcription because it is front-matter artwork and is not part of the poem body.
+
 ## Exact next step
 
-Create and verify the non-poem front-matter page records, then begin glyph-first visual transcription of scan 7. Do not assemble or translate until the complete Tamil source layer is verified.
+Begin fresh **glyph-first visual transcription of scan 7** directly from the supplied source. Preserve the printed header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Do not reuse the deleted old transcription as authority. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
