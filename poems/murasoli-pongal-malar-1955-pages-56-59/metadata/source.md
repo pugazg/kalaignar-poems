@@ -9,17 +9,15 @@
 
 ## Scope
 
-- User-supplied poem range: PDF pages 56–59
-- Physical scan pages must be verified against the source PDF before final assembly.
+- User-confirmed poem range: PDF pages 58–61
+- Physical scan pages are being verified against the source PDF before final assembly.
 
 ## Initial observations
 
-- Page 56: image page with the printed caption/title visible as `மதுரையில் மணிக்க...` (requires verification before metadata naming).
-- Page 57: illustrated page with caption text; requires classification as source context/non-verse.
-- Page 58: illustrated cover/title-style page; title requires visual verification.
-- Page 59: poem text page; transcription pending.
+- Page 58: title page with image; retained as part of the source record.
+- Pages 59–61: poem body pages; transcription pending.
 
 ## Anomalies
 
-- Colour illustrations and layout elements are present.
-- Title and poem boundary are not inferred from visual clues alone.
+- Illustrated title page and poem pages contain historical print layout elements.
+- Title, lineation and wording will be taken only from the controlling scan.
