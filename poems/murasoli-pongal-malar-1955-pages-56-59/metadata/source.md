@@ -9,7 +9,7 @@
 
 ## Work identity
 
-- Title as visible on title page: **மறக்குமா கருணை**
+- Title as visible on title page: **மறத்தி**
 - Title source: PDF page 58 title/image page
 - Author: மு. கருணாநிதி (to be confirmed from source text/context)
 
@@ -26,5 +26,5 @@
 ## Anomalies
 
 - Illustrated title page and poem pages contain historical print layout elements.
-- Title was visually identified from the title page scan; final metadata remains subject to full source review.
+- Title was visually identified from the title page scan; corrected after visual review.
 - Lineation and wording will be taken only from the controlling scan.
