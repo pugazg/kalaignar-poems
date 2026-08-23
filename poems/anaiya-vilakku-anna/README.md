@@ -37,8 +37,9 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - Tamil poem transcription: **COMPLETE — scans 7–17 verified (11/11 poem scans)**
 - user-requested second-pass poem verification: **COMPLETE — 11/11**
 - source completeness review: **PASS**
-- Tamil assembly: **READY TO BEGIN**
-- English translation: **PENDING Tamil assembly review**
+- canonical Tamil assembly: [`sections/anaiya-vilakku-anna.md`](sections/anaiya-vilakku-anna.md) — **COMPLETE**
+- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md) — **PASS**
+- English translation: **READY FOR PLANNING / SOURCE MAP; NOT YET STARTED**
 
 ## Governing rule
 
@@ -48,6 +49,16 @@ The second-pass review was required because several plausible-looking but source
 
 Scan 3's visible circular-emblem wording was resolved only from the supplied image at high resolution; no unseen continuation was supplied from memory or another edition.
 
+The canonical assembly uses **only scans 7–17**, preserves physical scan boundaries, retains the scan-16 `★ ★ ★` / `முடிவுரை` structure, and keeps the scan-17 event caption/date outside the verse body.
+
 ## Exact next step
 
-Assemble the canonical Tamil poem from the verified poem-body records **scans 7–17 only**, preserving the verified order, lineation, punctuation, internal `★ ★ ★` break, `முடிவுரை` heading and page-to-page continuity. Keep event captions, photographs, front matter and closing back matter outside the poem assembly. Then perform an assembly review before English translation begins.
+Begin the English translation preparation stage under the repository workflow:
+
+1. create `translations/en/README.md`;
+2. create `translations/en/TRANSLATION_PLAN.md`;
+3. create `translations/en/SOURCE_MAP.md` mapping the locked Tamil assembly to translation batches;
+4. preserve Kalaignar's language, public cadence, repetition, political specificity, rhetorical questions, literary references and imagery;
+5. do not alter the now-locked Tamil source layer while translating.
+
+Translation prose itself should begin only after the plan/source map is recorded.
