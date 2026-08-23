@@ -17,11 +17,11 @@ This work has been restarted from scratch from the newly supplied source PDF und
 
 - scan 1: cover — verified
 - scan 2: quotation/photo front matter — verified
-- scan 3: commemorative graphic — needs-review for circular-emblem lettering only; bottom caption verified
+- scan 3: commemorative graphic — verified after dedicated high-resolution emblem review
 - scan 4: photograph page — verified
 - scan 5: photograph page — verified
 - scan 6: title/photo page — verified
-- scans 7–17: poem/text body — **all 11/11 verified**
+- scans 7–17: poem/text body — **all 11/11 verified and second-pass rechecked**
 - scan 18: closing photograph — verified
 - scan 19: closing quotation/back matter — verified
 
@@ -31,22 +31,23 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - fresh source identity: **COMPLETE**
 - physical page classification: **COMPLETE — roles mapped for 19/19 scans**
 - page records created: **19 / 19**
-- verified page records: **18 / 19**
-- needs-review page records: **1 / 19**
+- verified page records: **19 / 19**
+- needs-review page records: **0**
 - not-started page records: **0**
 - Tamil poem transcription: **COMPLETE — scans 7–17 verified (11/11 poem scans)**
-- source completeness review: **HOLD — scan 3 circular-emblem lettering remains unresolved**
-- Tamil assembly: **PENDING source-layer closure**
-- English translation: **PENDING**
+- user-requested second-pass poem verification: **COMPLETE — 11/11**
+- source completeness review: **PASS**
+- Tamil assembly: **READY TO BEGIN**
+- English translation: **PENDING Tamil assembly review**
 
 ## Governing rule
 
 The supplied scan is the controlling source. Tamil wording, punctuation, lineation, historical forms, captions and page roles must not be silently normalized or reconstructed from outside sources.
 
-The unresolved circular-emblem wording on scan 3 remains deliberately held as `needs-review`. Scans 7 and 8 were reopened and corrected after source-level rechecks exposed plausible-looking but source-incorrect readings; all subsequent poem pages were therefore verified with full-line visual comparison before a `verified` status was assigned.
+The second-pass review was required because several plausible-looking but source-incorrect readings had entered pages previously marked `verified`. The renewed scan comparison corrected those readings, including `வறிஞன்`, `வழக்கறிஞனும்`, `பேருழைப்பால்`, `பல்லாயிரம்`, and `உறுதி குரல் கொடுப்போம்!`, together with earlier scan 7–11 corrections.
 
-The complete poem body itself is now source-verified. However, the repository benchmark for physical completeness requires the remaining scan-3 source uncertainty to be resolved or explicitly documented as an archival limitation before canonical assembly is closed.
+Scan 3's visible circular-emblem wording was resolved only from the supplied image at high resolution; no unseen continuation was supplied from memory or another edition.
 
 ## Exact next step
 
-Perform a dedicated high-resolution visual/glyph review of **scan 3's circular-emblem lettering**. If the lettering can be read confidently, update `pages/0003.md`, the page map, audit and `SOURCE_COMPLETENESS_REVIEW.md`, then proceed to canonical Tamil assembly. Do not begin English translation before that source-layer closure.
+Assemble the canonical Tamil poem from the verified poem-body records **scans 7–17 only**, preserving the verified order, lineation, punctuation, internal `★ ★ ★` break, `முடிவுரை` heading and page-to-page continuity. Keep event captions, photographs, front matter and closing back matter outside the poem assembly. Then perform an assembly review before English translation begins.
