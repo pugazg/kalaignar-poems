@@ -4,22 +4,24 @@
 |---:|---|---|---|---|
 | 1 | — | cover | verified | title/author attribution/price/publisher visible |
 | 2 | — | frontispiece-photo-quote | verified | Anna quotation over photograph |
-| 3 | — | commemorative-graphic | needs-review | bottom caption verified; circular-emblem lettering remains unresolved |
+| 3 | — | commemorative-graphic | verified | high-resolution review resolved visible circular-emblem lettering; bottom caption verified |
 | 4 | — | photograph | verified | printed caption: `பகுத்தறிவுத் தந்தையும் பாசமிகு தனயனும்` |
 | 5 | — | photograph | verified | printed caption: `வாஞ்சைமிகு அண்ணனுடன் வழிநடக்கும் தம்பி!` |
 | 6 | — | title-photo | verified | `அணையா விளக்கு / அண்ணா` + `கலைஞர் கவிதை` |
-| 7 | — | poem | verified | poem body begins; source-level corrections incorporated after recheck |
-| 8 | — | poem | verified | full-page recheck completed; corrected source readings retained |
-| 9 | — | poem | verified | full-line glyph review completed |
-| 10 | — | poem | verified | full-line glyph review completed |
-| 11 | — | poem | verified | final line continues into scan 12 |
-| 12 | — | poem | verified | opens as continuation of scan 11; final line continues into scan 13 |
-| 13 | — | poem | verified | opens as continuation of scan 12; final sentence continues into scan 14 |
-| 14 | — | poem | verified | opens as continuation of scan 13; full-page glyph review completed |
-| 15 | — | poem | verified | full-page glyph review completed; quoted rice-price passage preserved as printed |
-| 16 | — | poem | verified | visible `★ ★ ★` internal break and `முடிவுரை` heading preserved; final line continues into scan 17 |
-| 17 | — | poem-conclusion | verified | final poem page; event caption and printed date `15 - 9 - 2008` preserved |
+| 7 | — | poem | verified | second-pass source recheck completed; corrections retained |
+| 8 | — | poem | verified | second-pass source recheck completed; corrections retained |
+| 9 | — | poem | verified | second-pass source recheck completed; source-visible refrain parentheses retained |
+| 10 | — | poem | verified | second-pass source recheck completed; corrected readings retained |
+| 11 | — | poem | verified | second-pass source recheck completed; corrected readings retained; final line continues into scan 12 |
+| 12 | — | poem | verified | second-pass source recheck completed; `வழக்கறிஞனும்`, `வறிஞன்` corrected; continues into scan 13 |
+| 13 | — | poem | verified | second-pass source recheck completed; `பேருழைப்பால்` corrected; final sentence continues into scan 14 |
+| 14 | — | poem | verified | first-pass verified; second-pass recheck pending closure |
+| 15 | — | poem | verified | first-pass verified; second-pass recheck pending closure |
+| 16 | — | poem | verified | first-pass verified; `★ ★ ★` / `முடிவுரை` preserved; second-pass recheck pending closure |
+| 17 | — | poem-conclusion | verified | first-pass verified; event caption/date preserved; second-pass recheck pending closure |
 | 18 | — | photograph | verified | printed caption: `எதையும் தாங்கும் இதயம் / இங்கே உறங்குகிறது` |
 | 19 | — | closing-back-matter | verified | Anna quotation, Kalaignar speech attribution and printed date `15 - 9 - 1987`; building/statue photograph |
 
 No printed page number is recorded unless physically visible in the scan. Sequence position is not treated as printed pagination.
+
+All 19 physical source records are now `verified`; however, canonical Tamil assembly remains on hold until the user-requested second-pass poem re-verification is complete through scan 17.
