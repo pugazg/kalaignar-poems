@@ -1,8 +1,8 @@
-# Page map — தென்னன் கதை
+# Page map — தென்னவன் காதை
 
 | PDF scan | Visible printed page | Role | Status | Notes |
 |---:|---:|---|---|---|
-| 145 | — | title + poem opening | not-started | large heading `தென்னன் கதை`; decorative circular artwork behind/around verse |
+| 145 | — | title + poem opening | not-started | large heading `தென்னவன் காதை`; decorative circular artwork behind/around verse |
 | 146 | — | illustrated poem | not-started | large narrative illustration; verse continues below |
 | 147 | — | illustrated poem | not-started | large narrative illustration; verse continues below |
 | 148 | — | illustrated poem | not-started | large chariot/sea illustration; verse continues below |
