@@ -24,10 +24,10 @@ User-supplied contextual description: `தென்னிலங்கை வே�
 
 | Status | Count |
 |---|---:|
-| verified | 3 |
+| verified | 4 |
 | partial | 0 |
 | needs-review | 0 |
-| not-started | 3 |
+| not-started | 2 |
 | blocked | 0 |
 
 The absent scans 151–152 are tracked as a source-completeness limitation, not as fabricated page records.
@@ -67,6 +67,17 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 - no outside witness or normalized Ramayana wording was imported;
 - page ends `ஏறென்றான்.` and continues onto scan 148.
 
+## Scan 148 review
+
+- scan 148 was freshly rendered from the attached controlling PDF and inspected at high resolution;
+- opening continuity was checked against scan 147's closing `கப்பலிலே / ஏறென்றான்.` before transcription;
+- full visible verse was compared line by line in left-column then right-column reading order;
+- visible `★` separator preserved;
+- a circular later stamp/library mark overlaps several lower-left lines; an enlarged 8× crop was used to inspect the underlying glyphs rather than silently regularizing the wording;
+- source-visible forms and punctuation were retained, including `மாபினிலே`, `நின்றுள்`, `பன நுங்கு`, `பதினுபிரம்`, `போனுள்தானென்ன`, `என்றுன்`, `விட்டணன்`, and `தாப்பைகளின்`;
+- no outside Ramayana witness was used to replace or normalize the controlling scan;
+- page remains narratively open and continues onto scan 149.
+
 ## Source-first safeguards
 
 - scan pixels are controlling;
@@ -79,11 +90,11 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 ## Readiness
 
 - page-level role mapping for available scans: **COMPLETE — 6/6**
-- Tamil transcription: **3/6 available scans verified**
+- Tamil transcription: **4/6 available scans verified**
 - Tamil assembly: **NOT READY**
 - physical completeness: **HOLD — requested scans 151–152 absent from supplied PDF**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Transcribe scan **148** using the same high-resolution glyph-first method, beginning from the narrative continuation after scan 147's closing `ஏறென்றான்.`.
+Transcribe scan **149** using the same high-resolution glyph-first method, beginning from scan 148's open narrative continuation.
