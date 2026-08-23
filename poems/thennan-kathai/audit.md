@@ -9,7 +9,7 @@
 - source file: `TVA_PRL_0007090_முரசொலி.pdf`
 - SHA-256: `a9252bcb0931366c61497d55a354964b1450a8254d2ca3f119c5f6b1c680a643`
 - file size: **246,184,679 bytes**
-- PDF scans: **150**
+- PDF scans available in the controlling source view: **150**
 - source form: image scan; no usable text layer
 
 User-supplied contextual description: `தென்னிலங்கை வேந்தன் இராவணனைத் தமிழ்ப் பண்பாட்டுக் காவலனாகக் காட்டும் கலைஞர் அவர்களின் கவிதை நடைச் சித்திரம்.` This is contextual metadata and is not imported into poem verse.
@@ -17,20 +17,20 @@ User-supplied contextual description: `தென்னிலங்கை வே�
 ## Requested work scope
 
 - user-specified range: **145–152**
-- scans available in supplied PDF: **145–150**
+- scans available in supplied source view: **145–150**
 - unavailable requested scans: **151–152**
 
 ## Current available-page status
 
 | Status | Count |
 |---|---:|
-| verified | 5 |
+| verified | 6 |
 | partial | 0 |
 | needs-review | 0 |
-| not-started | 1 |
+| not-started | 0 |
 | blocked | 0 |
 
-The absent scans 151–152 are tracked as a source-completeness limitation, not as fabricated page records.
+All six physically available work scans are now verified. The absent scans 151–152 remain a source-completeness limitation and are not fabricated as page records.
 
 ## Scan 145 review
 
@@ -86,7 +86,19 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 - three source-visible `★` separators were preserved;
 - a later circular library/stamp mark crosses lower-left/centre text; enlarged native-image crops plus non-destructive contrast/threshold variants were used to recover directly visible glyph evidence rather than infer wording from the narrative;
 - source forms and punctuation including `சுக்கிரிவன்`, `வேண்டாம்-`, `தென்னவனும்-கண்கள்`, `கோடரியின்`, `அறுத் தெறியாமல்`, `சிந்தன்`, `தம்பியல்லநான்`, `இன்றிகத்`, `!.....`, and `...!` were retained rather than normalized;
-- the closing `இராவணன் நான்—` is visibly open; a boundary-only inspection of scan 150 confirms the speech continues there, but scan 150 itself has not been transcribed or marked verified;
+- the closing `இராவணன் நான்—` is visibly open and continues onto scan 150;
+- no outside transcription or normalized Ramayana wording was imported.
+
+## Scan 150 review
+
+- scan 150 was freshly inspected from the attached controlling source and checked against scan 149's closing `இராவணன் நான்—` before transcription;
+- the native embedded page image was extracted at its source resolution (**300 ppi**) and inspected with enlarged crops;
+- full visible verse was compared line by line in left-column then right-column reading order;
+- no source-visible `★` separator occurs on this scan;
+- a later circular library/stamp mark overlaps lower-centre text across both columns; enlarged source-image and non-destructive contrast variants were used to inspect the affected glyphs rather than reconstruct wording from narrative expectation;
+- source-visible unusual forms and punctuation were retained, including `ஆரணயம்`, `எதிர்க்கின்றூர்`, `பென்றால்`, `போடுகின்றூர்`, `பூப்பந்தனைய`, `யாப்புணையும்`, `கோப் பெருந்தேவியவள்`, and `தந்தோன் !`;
+- the final visible line in the supplied scan is `கட்டி!`;
+- scan 150 is the last physically available page in the supplied 150-page source view, but it is **not** treated as proof of the work's true conclusion because the requested range extends through scans 151–152;
 - no outside transcription or normalized Ramayana wording was imported.
 
 ## Source-first safeguards
@@ -96,16 +108,17 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 - no outside transcription has been imported;
 - no Tamil normalization has been performed;
 - no visible printed page numbers have been inferred from PDF scan numbers;
-- illustration identities and narrative details will not be invented beyond what the scan visibly supports.
+- illustration identities and narrative details are not invented beyond what the scan visibly supports;
+- scans 151–152 are not invented, inferred, or silently filled from another source.
 
 ## Readiness
 
 - page-level role mapping for available scans: **COMPLETE — 6/6**
-- Tamil transcription: **5/6 available scans verified**
-- Tamil assembly: **NOT READY**
-- physical completeness: **HOLD — requested scans 151–152 absent from supplied PDF**
+- Tamil transcription of available source: **COMPLETE — 6/6 verified**
+- Tamil assembly: **NOT READY — physical source completeness unresolved**
+- physical completeness: **HOLD — requested scans 151–152 absent from supplied source**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Transcribe scan **150** using the same high-resolution glyph-first method, beginning by checking its opening against scan 149's closing `இராவணன் நான்—`. Do not assume scan 150 is the true work conclusion because requested scans 151–152 remain unavailable in the supplied source.
+Perform a **full available-range continuity/transcription audit of scans 145–150**, rechecking page joins, lineation, punctuation, separators and stamp-affected readings against the controlling scan. Do **not** assemble the Tamil poem or begin English translation, and do not infer scans 151–152. Physical completeness remains on hold until those requested scans are supplied or independently proven unnecessary by source evidence.
