@@ -44,9 +44,17 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 ## Scan 146 review
 
 - high-resolution full-page and enlarged two-column text review completed;
+- a second glyph-level pass was performed before moving to scan 147 because the first transcription contained several plausible-looking misreadings;
+- corrected directly from source pixels:
+  - `உருவினன் கொடுவோன்` → `உருவினை கொடுவாள்`;
+  - `காட்டெல்லாம்` → `காடெல்லாம்`;
+  - `வழிந்திடுமே` → `வழிந்திடுதே`;
+  - `விட்டாலே` → `விட்டதாலே`;
+  - `மின்பாளும்` → `மண்பாளும்`;
+  - `முடிகுட முன்னந்து` → `முடிசூட முனைந்து`;
 - scan 145 → 146 continuation checked directly against the source;
 - visible `★` separator preserved;
-- source forms including `ஆகா தெனக்`, `முடிகுட`, and `கள்ளப்பினில்` retained without normalization;
+- source forms including `ஆகா தெனக்`, `கரும்பனைய`, and `கள்ளப்பினில்` retained without normalization;
 - poem sequence involving முத்துநகை, இராமன், இலக்குவன் and சீதை transcribed from the scan without importing an outside version;
 - final line `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....` remains open into scan 147.
 
