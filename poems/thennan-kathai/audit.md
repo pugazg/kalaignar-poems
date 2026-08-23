@@ -24,13 +24,22 @@ User-supplied contextual description: `தென்னிலங்கை வே�
 
 | Status | Count |
 |---|---:|
-| verified | 0 |
+| verified | 1 |
 | partial | 0 |
 | needs-review | 0 |
-| not-started | 6 |
+| not-started | 5 |
 | blocked | 0 |
 
 The absent scans 151–152 are tracked as a source-completeness limitation, not as fabricated page records.
+
+## Scan 145 review
+
+- high-resolution direct visual comparison completed;
+- title verified as `தென்னவன் காதை`;
+- source-visible `★` structural separator preserved;
+- bottom author credit `மு. கருணாநிதி` recorded as visual evidence outside the poem body;
+- unusual source forms such as `மண்டிலத்தின்`, `வைத்தநம்பாட்டன்`, and `தோற்றுத் தெல்லாம்` were retained rather than normalized;
+- final line continues onto scan 146: `கடவுளுக்குப் பலிதரும் வேளை, ஆகாது`.
 
 ## Source-first safeguards
 
@@ -44,11 +53,11 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 ## Readiness
 
 - page-level role mapping for available scans: **COMPLETE — 6/6**
-- Tamil transcription: **NOT STARTED**
+- Tamil transcription: **1/6 available scans verified**
 - Tamil assembly: **NOT READY**
 - physical completeness: **HOLD — requested scans 151–152 absent from supplied PDF**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Begin high-resolution glyph-first transcription of scan 145 using the corrected title **தென்னவன் காதை**. Do not close the physical source until the range discrepancy is resolved.
+Transcribe scan **146** by the same high-resolution glyph-first method, beginning by verifying the continuation from scan 145's final open line.
