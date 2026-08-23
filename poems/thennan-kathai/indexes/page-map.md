@@ -2,7 +2,7 @@
 
 | PDF scan | Visible printed page | Role | Status | Notes |
 |---:|---:|---|---|---|
-| 145 | — | title + poem opening | not-started | large heading `தென்னவன் காதை`; decorative circular artwork behind/around verse |
+| 145 | — | title + poem opening | verified | large heading `தென்னவன் காதை`; decorative circular artwork; opening verse transcribed by high-resolution glyph-first review; continues onto scan 146 |
 | 146 | — | illustrated poem | not-started | large narrative illustration; verse continues below |
 | 147 | — | illustrated poem | not-started | large narrative illustration; verse continues below |
 | 148 | — | illustrated poem | not-started | large chariot/sea illustration; verse continues below |
