@@ -21,30 +21,28 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - scan 4: photograph page — verified
 - scan 5: photograph page — verified
 - scan 6: title/photo page — verified
-- scans 7–17: poem/text body
-- scan 18: memorial/monument photograph
-- scan 19: closing quotation/back matter
+- scans 7–17: poem/text body — **all verified**
+- scan 18: memorial/monument photograph — not started
+- scan 19: closing quotation/back matter — not started
 
 ## Processing status
 
 - previous `anaiya-vilakku-anna` work: **DELETED at user request**
 - fresh source identity: **COMPLETE**
 - physical page classification: **COMPLETE — roles mapped for 19/19 scans**
-- page records created: **15 / 19**
-- verified page records: **14 / 19**
+- page records created: **17 / 19**
+- verified page records: **16 / 19**
 - needs-review page records: **1 / 19**
-- Tamil poem transcription: **IN PROGRESS — scans 7–15 verified (9/11 poem scans)**
-- Tamil assembly: **PENDING**
+- Tamil poem transcription: **COMPLETE — scans 7–17 verified (11/11 poem scans)**
+- Tamil assembly: **PENDING source-layer closure**
 - English translation: **PENDING**
 
 ## Governing rule
 
 The supplied scan is the controlling source. Tamil wording, punctuation, lineation, historical forms, captions and page roles must not be silently normalized or reconstructed from outside sources.
 
-The unresolved circular-emblem wording on scan 3 is deliberately held as `needs-review`; it must not delay poem transcription because it is front-matter artwork and is not part of the poem body.
-
-Scans 7 and 8 were reopened and corrected after source-level rechecks exposed plausible-looking but source-incorrect readings. Subsequent pages are therefore being verified with full-line visual comparison before a `verified` status is assigned.
+The unresolved circular-emblem wording on scan 3 remains deliberately held as `needs-review`. Scans 7 and 8 were reopened and corrected after source-level rechecks exposed plausible-looking but source-incorrect readings; all subsequent poem pages were therefore verified with full-line visual comparison before a `verified` status was assigned.
 
 ## Exact next step
 
-Proceed with fresh full-page glyph transcription of **scan 16**, paying particular attention to the visible internal break and preserving it exactly as printed. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
+Process **scan 18** and **scan 19** as closing source records. Then perform the complete Tamil source-layer audit, including the unresolved scan-3 artwork lettering. Only after that audit passes should the canonical Tamil poem be assembled and English translation begin.
