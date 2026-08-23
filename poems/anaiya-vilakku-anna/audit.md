@@ -53,6 +53,28 @@ The second pass found multiple errors in pages previously marked `verified`, con
 - scan 18: photograph record verified; printed caption `எதையும் தாங்கும் இதயம் / இங்கே உறங்குகிறது`
 - scan 19: closing quotation/back-matter verified; printed date `15 - 9 - 1987`
 
+## Tamil source closure
+
+- physical completeness: **PASS — 19/19 verified**
+- poem-body source verification: **PASS — 11/11 second-pass rechecked**
+- `SOURCE_COMPLETENESS_REVIEW.md`: **PASS**
+- needs-review: **0**
+- blocked: **0**
+
+## Canonical assembly
+
+- assembled file: `sections/anaiya-vilakku-anna.md`
+- source page blocks represented: **11 / 11**
+- missing blocks: **0**
+- duplicate blocks: **0**
+- assembly discrepancies: **0**
+- physical scan boundaries retained: **PASS**
+- repeated decorative headers excluded from verse: **PASS**
+- scan-16 internal `★ ★ ★` and `முடிவுரை` retained: **PASS**
+- scan-17 event caption/date kept outside verse: **PASS**
+- scans 18–19 excluded from poem assembly: **PASS**
+- `ASSEMBLY_REVIEW.md`: **PASS — source-faithful Tamil assembly complete**
+
 ## Source-first safeguards
 
 - supplied scan pixels remain controlling;
@@ -61,14 +83,13 @@ The second pass found multiple errors in pages previously marked `verified`, con
 - no web/secondary edition substituted for the scan;
 - no silent Tamil normalization;
 - no inferred printed pagination;
-- semantic plausibility is not accepted as evidence for a glyph reading.
+- semantic plausibility is not accepted as evidence for a glyph reading;
+- no Tamil source wording was changed during canonical assembly.
 
 ## Closure state
 
-Physical completeness: **PASS — 19/19 verified**.
+**Tamil archival/source layer: COMPLETE — PASS.**
 
-Poem-body second-pass source verification: **PASS — 11/11 rechecked**.
+**Canonical Tamil assembly: COMPLETE — PASS.**
 
-Needs-review: **0**. Blocked: **0**.
-
-The Tamil source layer is now eligible for canonical assembly. English translation remains blocked until the Tamil assembly itself is reviewed and passes.
+English translation may now proceed to its planning/source-map stage. The locked Tamil source and assembly must not be silently edited during translation.
