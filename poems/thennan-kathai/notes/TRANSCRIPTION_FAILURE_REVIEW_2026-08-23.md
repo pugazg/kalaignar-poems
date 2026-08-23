@@ -28,7 +28,7 @@ The controlling authority remains the **source pixels**. The user-provided corre
 
 ## Additional scan-145 misses found during the failure review
 
-Direct enlarged reinspection also found two items not in the user's initial word list:
+Direct enlarged reinspection also found items not in the user's initial word list:
 
 - `போதை ஏறிக்` → source-visible **`போதையேறிக்`**;
 - `உருவில் சிங்கம். உள்ளம் தங்கம்!` → source-visible **`உருவில் சிங்கம், உள்ளம் தங்கம்!`**;
@@ -49,16 +49,37 @@ The failure was **procedural**, not limited to one difficult glyph.
 
 ## Verification consequence
 
-The earlier `verified`/`PASS` claims for scans 145–150 are **withdrawn**. They cannot be used as evidence that those transcriptions are accurate.
+The earlier `verified`/`PASS` claims for scans 145–150 are **withdrawn**. They cannot be used as evidence that those old verification results were accurate.
 
 Required recovery policy:
 
-- scans **145–150** must be reopened as `needs-review`;
+- each affected scan must be reopened and redone independently;
 - scans **151–152**, now supplied by the user, remain `not-started` until separately transcribed;
-- the next pass must be a **blind source-first transcription from a blank working buffer**, one full line at a time;
+- the recovery pass must be a **blind source-first transcription from a blank working buffer**, one full line at a time;
 - every line must receive a second glyph-level comparison before it can return to `verified`;
 - suffixes, compact clusters, punctuation, separators and line-end continuations must each be checked explicitly;
 - earlier repository text may be used only **after** a blind reading, as a diff target—not as a reading aid.
+
+## Recovery progress — scan 145
+
+Scan **145** has now completed the replacement recovery protocol and is again **VERIFIED**.
+
+The page was freshly rendered at high resolution and retranscribed source-first before comparison with the repository record. A second enlarged pass checked every visible line, punctuation mark, suffix, separator and the continuation into scan 146.
+
+The recovery pass independently confirmed all source-backed corrections listed above and found one additional discrepancy that had survived the reopening stage:
+
+- `கண்ணுக்குள் பாவைபோல் இலங்கைத் தீவு.` → **`கண்ணுக்குள் பாவை போல் இலங்கைத் தீவு.`**
+
+The page record now explicitly documents:
+
+- comma in `உருவில் சிங்கம், உள்ளம் தங்கம்!`;
+- absence of an inserted dash in `மாடுகளை, ஆடுகளை மனிதர்களை`;
+- semicolon in `காப்பதற்கு;`;
+- exclamation mark in `அவனுக்கு அவள்!`;
+- one visible `★` separator;
+- closing continuation `கடவுளுக்குப் பலிதேடும் வேலை, ஆகாது`.
+
+This recovered verification applies **only to scan 145**. Scans 146–150 remain reopened until they undergo the same blank-buffer procedure.
 
 ## Source-range correction
 
@@ -68,4 +89,4 @@ Therefore the Karuvoolam description must not be used to determine this poem's b
 
 ## Exact next activity
 
-Redo **scan 145 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 145 be marked `verified` again. Then repeat the same process sequentially for 146–152.
+Redo **scan 146 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 146 be marked `verified` again. Then repeat the same process sequentially for 147–152.
