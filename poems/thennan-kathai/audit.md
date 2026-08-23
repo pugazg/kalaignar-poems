@@ -24,10 +24,10 @@ User-supplied contextual description: `தென்னிலங்கை வே�
 
 | Status | Count |
 |---|---:|
-| verified | 1 |
+| verified | 2 |
 | partial | 0 |
 | needs-review | 0 |
-| not-started | 5 |
+| not-started | 4 |
 | blocked | 0 |
 
 The absent scans 151–152 are tracked as a source-completeness limitation, not as fabricated page records.
@@ -41,6 +41,15 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 - unusual source forms such as `மண்டிலத்தின்`, `வைத்தநம்பாட்டன்`, and `தோற்றுத் தெல்லாம்` were retained rather than normalized;
 - final line continues onto scan 146: `கடவுளுக்குப் பலிதரும் வேளை, ஆகாது`.
 
+## Scan 146 review
+
+- high-resolution full-page and enlarged two-column text review completed;
+- scan 145 → 146 continuation checked directly against the source;
+- visible `★` separator preserved;
+- source forms including `ஆகா தெனக்`, `முடிகுட`, and `கள்ளப்பினில்` retained without normalization;
+- poem sequence involving முத்துநகை, இராமன், இலக்குவன் and சீதை transcribed from the scan without importing an outside version;
+- final line `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....` remains open into scan 147.
+
 ## Source-first safeguards
 
 - scan pixels are controlling;
@@ -53,11 +62,11 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 ## Readiness
 
 - page-level role mapping for available scans: **COMPLETE — 6/6**
-- Tamil transcription: **1/6 available scans verified**
+- Tamil transcription: **2/6 available scans verified**
 - Tamil assembly: **NOT READY**
 - physical completeness: **HOLD — requested scans 151–152 absent from supplied PDF**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Transcribe scan **146** by the same high-resolution glyph-first method, beginning by verifying the continuation from scan 145's final open line.
+Transcribe scan **147** using the same high-resolution glyph-first method, first checking its opening as the continuation of scan 146's closing `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....`.
