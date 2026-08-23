@@ -19,7 +19,7 @@
 | 15 | — | poem | verified | full-page glyph review completed; quoted rice-price passage preserved as printed |
 | 16 | — | poem | verified | visible `★ ★ ★` internal break and `முடிவுரை` heading preserved; final line continues into scan 17 |
 | 17 | — | poem-conclusion | verified | final poem page; event caption and printed date `15 - 9 - 2008` preserved |
-| 18 | — | photograph | not-started | memorial/monument image |
-| 19 | — | closing-back-matter | not-started | quotation/text plus building/statue image |
+| 18 | — | photograph | verified | printed caption: `எதையும் தாங்கும் இதயம் / இங்கே உறங்குகிறது` |
+| 19 | — | closing-back-matter | verified | Anna quotation, Kalaignar speech attribution and printed date `15 - 9 - 1987`; building/statue photograph |
 
 No printed page number is recorded unless physically visible in the scan. Sequence position is not treated as printed pagination.
