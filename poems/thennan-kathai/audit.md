@@ -24,10 +24,10 @@ User-supplied contextual description: `தென்னிலங்கை வே�
 
 | Status | Count |
 |---|---:|
-| verified | 2 |
+| verified | 3 |
 | partial | 0 |
 | needs-review | 0 |
-| not-started | 4 |
+| not-started | 3 |
 | blocked | 0 |
 
 The absent scans 151–152 are tracked as a source-completeness limitation, not as fabricated page records.
@@ -55,8 +55,17 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 - scan 145 → 146 continuation checked directly against the source;
 - visible `★` separator preserved;
 - source forms including `ஆகா தெனக்`, `கரும்பனைய`, and `கள்ளப்பினில்` retained without normalization;
-- poem sequence involving முத்துநகை, இராமன், இலக்குவன் and சீதை transcribed from the scan without importing an outside version;
 - final line `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....` remains open into scan 147.
+
+## Scan 147 review
+
+- high-resolution direct visual comparison completed using enlarged left/right text crops and a 6× render for the lower lines;
+- opening was checked as the continuation of scan 146's mutilation/retaliation sequence;
+- visible `★` separator preserved;
+- a circular later stamp/library mark overlaps the lower-left text; the underlying glyphs were reviewed at 6× rather than guessed from context;
+- source forms including `முகமிழந் / தாள்`, `குத்திரியாச்`, `குர்ப்பனகை`, `பிரஜையன்றோ`, `வசம்`, and `கரம் படவும்` were retained as printed;
+- no outside witness or normalized Ramayana wording was imported;
+- page ends `ஏறென்றான்.` and continues onto scan 148.
 
 ## Source-first safeguards
 
@@ -70,11 +79,11 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 ## Readiness
 
 - page-level role mapping for available scans: **COMPLETE — 6/6**
-- Tamil transcription: **2/6 available scans verified**
+- Tamil transcription: **3/6 available scans verified**
 - Tamil assembly: **NOT READY**
 - physical completeness: **HOLD — requested scans 151–152 absent from supplied PDF**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Transcribe scan **147** using the same high-resolution glyph-first method, first checking its opening as the continuation of scan 146's closing `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....`.
+Transcribe scan **148** using the same high-resolution glyph-first method, beginning from the narrative continuation after scan 147's closing `ஏறென்றான்.`.
