@@ -24,10 +24,10 @@ User-supplied contextual description: `தென்னிலங்கை வே�
 
 | Status | Count |
 |---|---:|
-| verified | 4 |
+| verified | 5 |
 | partial | 0 |
 | needs-review | 0 |
-| not-started | 2 |
+| not-started | 1 |
 | blocked | 0 |
 
 The absent scans 151–152 are tracked as a source-completeness limitation, not as fabricated page records.
@@ -78,6 +78,17 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 - no outside Ramayana witness was used to replace or normalize the controlling scan;
 - page remains narratively open and continues onto scan 149.
 
+## Scan 149 review
+
+- scan 149 was freshly inspected from the attached controlling source, including extraction of the native page image for glyph-level comparison;
+- opening was checked against scan 148's ending before transcription;
+- all visible verse was compared line by line in left-column then right-column reading order;
+- three source-visible `★` separators were preserved;
+- a later circular library/stamp mark crosses lower-left/centre text; enlarged native-image crops plus non-destructive contrast/threshold variants were used to recover directly visible glyph evidence rather than infer wording from the narrative;
+- source forms and punctuation including `சுக்கிரிவன்`, `வேண்டாம்-`, `தென்னவனும்-கண்கள்`, `கோடரியின்`, `அறுத் தெறியாமல்`, `சிந்தன்`, `தம்பியல்லநான்`, `இன்றிகத்`, `!.....`, and `...!` were retained rather than normalized;
+- the closing `இராவணன் நான்—` is visibly open; a boundary-only inspection of scan 150 confirms the speech continues there, but scan 150 itself has not been transcribed or marked verified;
+- no outside transcription or normalized Ramayana wording was imported.
+
 ## Source-first safeguards
 
 - scan pixels are controlling;
@@ -90,11 +101,11 @@ The absent scans 151–152 are tracked as a source-completeness limitation, not 
 ## Readiness
 
 - page-level role mapping for available scans: **COMPLETE — 6/6**
-- Tamil transcription: **4/6 available scans verified**
+- Tamil transcription: **5/6 available scans verified**
 - Tamil assembly: **NOT READY**
 - physical completeness: **HOLD — requested scans 151–152 absent from supplied PDF**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Transcribe scan **149** using the same high-resolution glyph-first method, beginning from scan 148's open narrative continuation.
+Transcribe scan **150** using the same high-resolution glyph-first method, beginning by checking its opening against scan 149's closing `இராவணன் நான்—`. Do not assume scan 150 is the true work conclusion because requested scans 151–152 remain unavailable in the supplied source.
