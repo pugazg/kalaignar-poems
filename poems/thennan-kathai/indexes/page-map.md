@@ -6,7 +6,7 @@
 | 146 | — | illustrated poem | verified | large narrative illustration; two-column verse transcribed and rechecked by high-resolution glyph-first review; visible `★` separator preserved; continues onto scan 147 |
 | 147 | — | illustrated poem | verified | large forest/action illustration; two-column verse transcribed by high-resolution/6× glyph review; visible `★` preserved; later circular stamp overlaps lower-left text; narrative continues onto scan 148 |
 | 148 | — | illustrated poem | verified | large chariot/sea illustration; two-column verse freshly transcribed by high-resolution glyph-first review; visible `★` preserved; later circular stamp overlaps lower-left lines, checked at 8×; continues onto scan 149 |
-| 149 | — | illustrated poem | not-started | large fire/city narrative illustration; verse continues below |
+| 149 | — | illustrated poem | verified | large fire/city narrative illustration; two-column verse transcribed from native/high-resolution image with enlarged stamp-overlap review; three visible `★` separators preserved; ends open at `இராவணன் நான்—` and continues onto scan 150 |
 | 150 | — | illustrated poem | not-started | large chariot illustration; verse continues below; source file ends here |
 
 ## Missing requested source
