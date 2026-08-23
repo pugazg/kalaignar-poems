@@ -17,8 +17,8 @@
 | 13 | — | poem | verified | opens as continuation of scan 12; final sentence continues into scan 14 |
 | 14 | — | poem | verified | opens as continuation of scan 13; full-page glyph review completed |
 | 15 | — | poem | verified | full-page glyph review completed; quoted rice-price passage preserved as printed |
-| 16 | — | poem | not-started | continuation / visible internal break requires transcription review |
-| 17 | — | poem | not-started | concluding text; visible date `15-9-2008` |
+| 16 | — | poem | verified | visible `★ ★ ★` internal break and `முடிவுரை` heading preserved; final line continues into scan 17 |
+| 17 | — | poem-conclusion | verified | final poem page; event caption and printed date `15 - 9 - 2008` preserved |
 | 18 | — | photograph | not-started | memorial/monument image |
 | 19 | — | closing-back-matter | not-started | quotation/text plus building/statue image |
 
