@@ -1,49 +1,37 @@
 # Page map — தென்னவன் காதை
 
-| Supplied PDF scan | Visible printed page | Role | Status | Notes |
-|---:|---:|---|---|---|
-| 145 | — | title + poem opening | verified | large heading `தென்னவன் காதை`; decorative circular artwork; full-range audit rechecked lineation/join and corrected `சொல்லவதென்றால்` → `சொல்வதென்றால்`; continues onto scan 146 |
-| 146 | — | illustrated poem | verified | large narrative illustration; two-column verse rechecked; visible `★` preserved; full-range audit corrected `தூங்குகின்றாள்` → `தூங்குகின்றுள்`; continues onto scan 147 |
-| 147 | — | illustrated poem | verified | large forest/action illustration; visible `★` preserved; later circular stamp overlaps lower-left text; full-range audit corrected `பாங்கமுள்ள`, `அண்ணிக்கு விலை / விசம் நினைப்போ`, and `தேர்போல`; continues onto scan 148 |
-| 148 | — | illustrated poem | verified | large chariot/sea illustration; visible `★` preserved; later circular stamp overlaps lower-left lines; full-range audit corrected `மரபினிலே`, `விறகொடித்து`, source line-end `காத்தி-`, `யொன்றின்`, and `சூழ்ச்சியிலே`; continues onto scan 149 |
-| 149 | — | illustrated poem | verified | large fire/city illustration; three visible `★` separators preserved; stamp-overlapped lines rechecked; full-range audit restored source-visible `-உன்` verb endings; ends open at `இராவணன் நான்—` and continues onto scan 150 |
-| 150 | — | illustrated poem | verified | large chariot illustration; no visible `★`; later circular stamp overlaps lower-centre text; full-range audit restored `களால்,` and corrected `மடங்களாய்ப்`; last visible line `கட்டி!`; supplied PDF ends physically here |
+| Work page | Source holding | Visible printed page | Role | Status | Notes |
+|---:|---|---:|---|---|---|
+| 145 | `TVA_PRL_0007090_முரசொலி.pdf` | — | title + poem opening | needs-review | previous `verified` withdrawn; user spot-check exposed multiple transcription errors; source-backed corrections applied but full blind re-audit still required |
+| 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn because verification method failed on scan 145; existing text provisional only |
+| 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; fresh blind glyph-first re-audit required |
+| 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; fresh blind glyph-first re-audit required |
+| 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; fresh blind glyph-first re-audit required |
+| 150 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; now known to continue onto user-supplied page 151 |
+| 151 | user-supplied one-page PDF | — | illustrated poem continuation | not-started | supplied 2026-08-23; source record `pages/0151.md`; transcription not started |
+| 152 | user-supplied one-page PDF | — | illustrated poem continuation / terminal page in user-confirmed range | not-started | supplied 2026-08-23; source record `pages/0152.md`; transcription not started |
 
-## Available-range audit
+## Correct work range
 
-The complete physically available work range **145–150** has been rechecked against the controlling scan for:
+The user confirms **145–152** as the poem's page range. The two terminal page images 151 and 152 are now supplied directly and visibly continue the same illustrated poem sequence.
 
-- page-to-page continuity;
-- source lineation and line-end breaks;
-- punctuation;
-- visible `★` separators;
-- later stamp/library-mark overlap;
-- plausible-looking Tamil readings that required glyph-level correction.
+The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** and is not used for page boundaries.
 
-Result: **PASS for the available range after source-backed corrections.** All **6/6 supplied work scans** remain `verified`.
+## Verification reset
 
-## Physical completeness finding
+A scan-145 spot-check demonstrated that the previous `verified` and full-range `PASS` labels were unreliable. Consequently:
 
-Direct inspection shows supplied scans **143–144 are not part of this poem**, and the work begins at supplied scan **145**. Because the supplied PDF ends at scan **150**, this file contains only **6 work pages**.
+- verified: **0/8**;
+- needs-review: **6/8** — pages 145–150;
+- not-started: **2/8** — pages 151–152;
+- physical page-image availability: **8/8 complete**;
+- Tamil assembly: **blocked**;
+- English translation: **blocked**.
 
-An independent Tamil Virtual Academy **Kalaignar Karuvoolam** entry for the same author/publication/year/context states:
+See `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented failure analysis.
 
-> `இந்த pdf-ன் பக்க எண் 143 முதல் 150 வரை இடம்பெற்றுள்ளது.`
+## Recovery order
 
-That external TVA witness therefore identifies an **8-page work span** in its linked PDF.
+Redo pages sequentially **145 → 152**, starting each page with a blind source-first transcription before comparing against any existing repository text.
 
-Result: **the supplied controlling PDF is confirmed incomplete by two terminal work pages.**
-
-The TVA witness uses a different scan position and catalogue title (`தென்னவன் கதை`). The controlling supplied scan remains authoritative for the canonical title **தென்னவன் காதை** and all archived wording.
-
-### Missing terminal material
-
-- expected complete work extent from the official secondary witness: **8 pages**;
-- work pages physically present in supplied PDF: **6**;
-- missing terminal work pages: **2**;
-- local page records for absent pages: **not created**;
-- exact pixel mapping of the TVA witness's final two pages to local notional `151–152`: **not yet verified**.
-
-See `../SOURCE_COMPLETENESS_REVIEW.md`.
-
-Tamil assembly and English translation remain blocked until the two terminal page images are obtained, directly inspected and provenance-mapped. No PDF scan index is treated as a visible printed page number.
+No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
