@@ -9,16 +9,19 @@
 - source file: `TVA_PRL_0007090_முரசொலி.pdf`
 - SHA-256: `a9252bcb0931366c61497d55a354964b1450a8254d2ca3f119c5f6b1c680a643`
 - file size: **246,184,679 bytes**
-- PDF scans available in the controlling source view: **150**
+- supplied PDF physical scans: **150**
 - source form: image scan; no usable text layer
 
 User-supplied contextual description: `தென்னிலங்கை வேந்தன் இராவணனைத் தமிழ்ப் பண்பாட்டுக் காவலனாகக் காட்டும் கலைஞர் அவர்களின் கவிதை நடைச் சித்திரம்.` This is contextual metadata and is not imported into poem verse.
 
-## Requested work scope
+## Supplied-source scope
 
-- user-specified range: **145–152**
-- scans available in supplied source view: **145–150**
-- unavailable requested scans: **151–152**
+- original expected range in supplied-file numbering: **145–152**
+- supplied scans 143–144: directly inspected; **not part of this poem**
+- work begins visibly in supplied source: **145**
+- work scans physically available: **145–150**
+- supplied PDF physical EOF: **150**
+- supplied work pages available: **6**
 
 ## Current available-page status
 
@@ -30,7 +33,7 @@ User-supplied contextual description: `தென்னிலங்கை வே�
 | not-started | 0 |
 | blocked | 0 |
 
-All six physically available work scans are verified. The absent scans 151–152 remain a source-completeness limitation and are not fabricated as page records.
+All six physically available work scans are verified. No page records are fabricated for absent terminal material.
 
 ## Scan 145 review
 
@@ -116,7 +119,8 @@ All six physically available work scans are verified. The absent scans 151–152
   - corrected `மடங்களாய் போனதம்மோ!` → `மடங்களாய்ப் போனதம்மோ!`;
 - source-visible unusual forms and punctuation retained, including `ஆரணயம்`, `எதிர்க்கின்றூர்`, `பென்றால்`, `போடுகின்றூர்`, `பூப்பந்தனைய`, `யாப்புணையும்`, `கோப் பெருந்தேவியவள்`, and `தந்தோன் !`;
 - final visible line in the supplied scan is `கட்டி!`;
-- scan 150 is the last physically available page in the supplied 150-page source view, but it is **not** treated as proof of the work's true conclusion because the requested range extends through scans 151–152;
+- scan 150 is the physical EOF of the supplied PDF;
+- independent TVA completeness evidence now confirms that this supplied EOF is **not the complete physical extent of the work**;
 - no outside transcription or normalized Ramayana wording imported.
 
 ## Full available-range continuity/transcription audit — COMPLETE
@@ -146,29 +150,75 @@ Scans **145–150** were rechecked as one continuous available source sequence a
 - page joins: **PASS**;
 - lineation / punctuation / separator review: **PASS after corrections above**;
 - stamp-affected readings: **rechecked from enlarged source pixels**;
-- outside wording imported: **0**;
+- outside wording imported into canonical transcription: **0**;
 - silent normalization: **0**;
-- available scans verified after audit: **6/6**.
+- supplied scans verified after audit: **6/6**.
+
+## Source completeness review — RESOLVED
+
+A dedicated Tamil Virtual Academy **Kalaignar Karuvoolam** entry for the same work was independently reviewed on **2026-08-23**:
+
+`https://tamildigitallibrary.in/kalaignar/01.literature/kavithaigal/011_தென்னவன்_கதை.html`
+
+The TVA entry records:
+
+- listed title: `தென்னவன் கதை`;
+- author: `கலைஞர் மு. கருணாநிதி`;
+- publication: `முரசொலி-பொங்கல் மலர்`;
+- edition: `1956`;
+- contextual description matching the project description;
+- curator note: **`இந்த pdf-ன் பக்க எண் 143 முதல் 150 வரை இடம்பெற்றுள்ளது.`**
+
+This identifies an **8-page PDF span** for the work in the TVA-linked witness.
+
+Direct inspection of the supplied source establishes that its own scans 143–144 are unrelated and that **தென்னவன் காதை** begins only at supplied scan 145. Since the supplied PDF then ends at 150, it contains only **6 work pages**.
+
+### Completeness conclusion
+
+- expected complete work extent from independent official TVA witness: **8 pages**;
+- work pages present in supplied controlling PDF: **6**;
+- missing terminal work pages: **2**;
+- supplied-source physical completeness: **CONFIRMED INCOMPLETE**;
+- previous uncertainty over whether supplied scan 150 might be the true ending: **RESOLVED — it is not sufficient for physical completeness**;
+- exact pixel-level correspondence of the TVA witness's final pages to local notional scans `151–152`: **not yet directly verified**;
+- unseen terminal text imported: **0**;
+- absent page records fabricated: **0**.
+
+The TVA catalogue's title `தென்னவன் கதை` does not replace the scan-verified canonical title **தென்னவன் காதை**.
+
+See `SOURCE_COMPLETENESS_REVIEW.md` for the dedicated provenance review.
 
 ## Source-first safeguards
 
-- scan pixels are controlling;
-- work identity corrected from the initial misreading `தென்னன் கதை` to **`தென்னவன் காதை`**;
-- no outside transcription imported;
+- supplied scan pixels remain controlling for the canonical 145–150 transcription;
+- work identity remains **`தென்னவன் காதை`** from source pixels;
+- no outside transcription imported into existing page records;
 - no Tamil normalization performed;
 - no visible printed page numbers inferred from PDF scan numbers;
 - illustration identities and narrative details are not invented beyond visible scan evidence;
-- scans 151–152 are not invented, inferred, or silently filled from another source.
+- the two missing terminal pages are not transcribed from catalogue metadata or semantic expectation.
 
 ## Readiness
 
-- page-level role mapping for available scans: **COMPLETE — 6/6**
-- Tamil transcription of available source: **COMPLETE — 6/6 verified**
+- supplied-source role mapping: **COMPLETE — 6/6 available scans**
+- Tamil transcription of supplied source: **COMPLETE — 6/6 verified**
 - full available-range continuity/transcription audit: **PASS**
-- Tamil assembly: **NOT READY — physical source completeness unresolved**
-- physical completeness: **HOLD — requested scans 151–152 absent from supplied source**
+- expected complete work extent: **8 pages**
+- canonical coverage currently available: **6/8 expected work pages**
+- physical completeness of supplied PDF: **CONFIRMED INCOMPLETE — 2 terminal pages absent**
+- Tamil assembly: **BLOCKED**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Resolve **source completeness for scans 151–152**. Until those scans are supplied, or source evidence independently proves that the work ends at scan 150, do **not** assemble the Tamil poem and do **not** begin English translation. The current 145–150 transcription is source-audited and should remain frozen except for a newly demonstrated scan-level discrepancy.
+Acquire the **two terminal page images** from a complete witness of the same 1956 `முரசொலி-பொங்கல் மலர்` work, preferably the TVA witness linked from Kalaignar Karuvoolam.
+
+Before using those pages canonically:
+
+1. inspect the witness page images directly;
+2. compare an overlapping page against an already verified supplied scan to prove sequence/edition correspondence;
+3. record source provenance and page mapping;
+4. do not silently replace the verified 145–150 wording;
+5. do not create `0151.md` / `0152.md` from catalogue metadata alone.
+
+Until the two terminal page images are obtained and visually verified, do **not** assemble the Tamil poem and do **not** begin English translation.
