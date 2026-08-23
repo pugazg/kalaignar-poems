@@ -17,16 +17,16 @@ At the user's explicit request, the previous `poems/anaiya-vilakku-anna/` conten
 
 | Status | Count |
 |---|---:|
-| verified | 13 |
+| verified | 14 |
 | needs-review | 1 |
-| not-started | 5 |
+| not-started | 4 |
 | blocked | 0 |
 
 Verified so far:
 
 - scans 1–2 — cover/frontispiece
 - scans 4–6 — front matter photographs/title page
-- scans 7–14 — poem pages, direct glyph/full-line review
+- scans 7–15 — poem pages, direct glyph/full-line review
 
 Needs review:
 
@@ -35,14 +35,14 @@ Needs review:
 ## Poem-body scope
 
 - scans 7–17: principal poem/text body
-- scans 7–14 verified
-- scans 15–17 remain
+- scans 7–15 verified
+- scans 16–17 remain
 - scans 18–19: closing visual/back matter
 
 ## Tamil transcription progress
 
-- poem scans transcribed and verified: **8 / 11**
-- remaining poem scans: **3**
+- poem scans transcribed and verified: **9 / 11**
+- remaining poem scans: **2**
 - front-matter records created: **6 / 6**
 - front-matter fully verified: **5 / 6**
 - Tamil assembly: **NOT READY**
@@ -52,13 +52,14 @@ Needs review:
 
 Scan 7 and scan 8 were reopened after initial transcription because plausible-looking but source-incorrect readings had entered the Markdown. Those pages were rechecked directly against the scan and corrected. This reinforces the rule that semantic plausibility is never authority; the source pixels are controlling.
 
-## Scan 14 review
+## Scan 15 review
 
-- opening continuity from scan 13 `கருணாநிதி என்று சொன்னாய்-` verified: **PASS**
-- full-line visual review: **PASS**
-- source forms such as `யாத்திரை ஸ்தலம்`, `எதிரிகட்குக்`, `தந்திடண்ணா`, `தம்பி யென்று`, and `தாசானு தாசர்களாய்` preserved without normalization: **PASS**
-- poetic lineation / stanza breaks preserved: **PASS**
-- punctuation / quotation marks / semicolons / hyphens preserved: **PASS**
+- full-page plus enlarged top/middle/bottom visual review: **PASS**
+- source forms and lineation preserved without normalization: **PASS**
+- moustache imagery passage preserved directly from scan: **PASS**
+- `ஏழையின் சிரிப்பிலே இறைவனைக் காண` passage preserved: **PASS**
+- quoted one-rupee-rice passage preserved as printed: **PASS**
+- punctuation / quotation marks / hyphens / stanza spacing preserved: **PASS**
 - no printed page number inferred: **PASS**
 
 ## Source-first safeguards
@@ -72,4 +73,4 @@ Scan 7 and scan 8 were reopened after initial transcription because plausible-lo
 
 ## Next activity
 
-Proceed to fresh full-page glyph transcription of **scan 15**, using scan 14 only for continuity and treating the scan pixels as controlling.
+Proceed to fresh full-page glyph transcription of **scan 16**, paying particular attention to its visible internal break and preserving it exactly from the scan.
