@@ -14,7 +14,7 @@
 | 10 | — | poem | verified | full-line glyph review completed |
 | 11 | — | poem | verified | final line continues into scan 12 |
 | 12 | — | poem | verified | opens as continuation of scan 11; final line continues into scan 13 |
-| 13 | — | poem | not-started | continuation |
+| 13 | — | poem | verified | opens as continuation of scan 12; final sentence continues into scan 14 |
 | 14 | — | poem | not-started | continuation |
 | 15 | — | poem | not-started | continuation |
 | 16 | — | poem | not-started | continuation / visible internal break requires transcription review |
