@@ -8,12 +8,12 @@
 | 4 | — | photograph | verified | printed caption: `பகுத்தறிவுத் தந்தையும் பாசமிகு தனயனும்` |
 | 5 | — | photograph | verified | printed caption: `வாஞ்சைமிகு அண்ணனுடன் வழிநடக்கும் தம்பி!` |
 | 6 | — | title-photo | verified | `அணையா விளக்கு / அண்ணா` + `கலைஞர் கவிதை` |
-| 7 | — | poem | verified | poem body begins; repeated work header recorded separately from verse |
-| 8 | — | poem | not-started | continuation |
-| 9 | — | poem | not-started | continuation |
-| 10 | — | poem | not-started | continuation |
-| 11 | — | poem | not-started | continuation |
-| 12 | — | poem | not-started | continuation |
+| 7 | — | poem | verified | poem body begins; source-level corrections incorporated after recheck |
+| 8 | — | poem | verified | full-page recheck completed; corrected source readings retained |
+| 9 | — | poem | verified | full-line glyph review completed |
+| 10 | — | poem | verified | full-line glyph review completed |
+| 11 | — | poem | verified | final line continues into scan 12 |
+| 12 | — | poem | verified | opens as continuation of scan 11; final line continues into scan 13 |
 | 13 | — | poem | not-started | continuation |
 | 14 | — | poem | not-started | continuation |
 | 15 | — | poem | not-started | continuation |
