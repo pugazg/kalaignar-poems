@@ -3,7 +3,7 @@
 | Work page | Source holding | Visible printed page | Role | Status | Notes |
 |---:|---|---:|---|---|---|
 | 145 | `TVA_PRL_0007090_முரசொலி.pdf` | — | title + poem opening | verified | fresh blank-buffer 4× source-first retranscription + second glyph/punctuation pass complete; prior errors corrected; additional `பாவைபோல்` → `பாவை போல்` spacing correction found during recovery |
-| 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn because verification method failed on scan 145; existing text provisional only |
+| 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi source-first retranscription + second enlarged pass complete; recovery corrected `மண்பாளும்` → `மணையாளும்` and `கைகாரி` → `கைக்காரி`; stamp-overlapped lines rechecked |
 | 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; fresh blind glyph-first re-audit required |
 | 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; fresh blind glyph-first re-audit required |
 | 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; fresh blind glyph-first re-audit required |
@@ -19,9 +19,9 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 ## Verification recovery
 
-A scan-145 spot-check demonstrated that the previous `verified` and full-range `PASS` labels were unreliable. All earlier page-verification claims were therefore withdrawn.
+A scan-145 spot-check demonstrated that the previous `verified` and full-range `PASS` labels were unreliable. All earlier page-verification claims were therefore withdrawn and pages are being restored only after a replacement blank-buffer recovery pass.
 
-Scan **145** has now completed the replacement recovery protocol:
+Scans **145–146** have now completed that protocol:
 
 1. fresh source-first retranscription from a blank working buffer using a new high-resolution render;
 2. second enlarged glyph/punctuation comparison of every visible line;
@@ -30,8 +30,8 @@ Scan **145** has now completed the replacement recovery protocol:
 
 Current status:
 
-- verified: **1/8** — page 145;
-- needs-review: **5/8** — pages 146–150;
+- verified: **2/8** — pages 145–146;
+- needs-review: **4/8** — pages 147–150;
 - not-started: **2/8** — pages 151–152;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **blocked**;
@@ -41,6 +41,6 @@ See `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented fai
 
 ## Recovery order
 
-Continue sequentially **146 → 152**, starting each page with a blind source-first transcription before comparing against any existing repository text.
+Continue sequentially **147 → 152**, starting each page with a blind source-first transcription before comparing against any existing repository text.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
