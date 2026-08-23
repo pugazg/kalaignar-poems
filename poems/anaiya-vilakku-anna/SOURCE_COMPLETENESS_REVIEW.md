@@ -1,6 +1,6 @@
 # அணையா விளக்கு அண்ணா — Source Completeness Review
 
-Status: **HOLD — one non-poem front-matter item remains needs-review**
+Status: **HOLD — physical source complete; second-pass poem verification still active**
 
 ## Scope
 
@@ -10,28 +10,27 @@ This review checks the complete 19-scan physical source after fresh restart from
 
 - total physical scans: **19**
 - page records created: **19 / 19 — PASS**
-- verified: **18 / 19**
-- needs-review: **1 / 19**
+- verified: **19 / 19 — PASS**
+- needs-review: **0 / 19**
 - blocked: **0**
 - not-started: **0**
+
+Scan 3's circular-emblem lettering has been re-reviewed at high resolution and its visible lettering is now recorded without supplying any unseen continuation.
 
 ## Poem-body completeness
 
 - poem/text body: scans **7–17**
 - poem scans represented: **11 / 11 — PASS**
-- poem scans verified: **11 / 11 — PASS**
-- omitted poem scans: **0 — PASS**
-- duplicated poem scans: **0 — PASS**
-- scan 16 internal `★ ★ ★` break and printed `முடிவுரை` heading preserved: **PASS**
-- scan 17 concluding event caption/date kept outside the poem conclusion: **PASS**
+- first-pass verification: **11 / 11 — COMPLETE**
+- user-requested second-pass verification: **IN PROGRESS**
+- second pass closed through scan **13**
+- scans **14–17** remain under renewed scrutiny
 
-## Non-poem source records
+## Why final PASS is still withheld
 
-- scans 1–2: verified
-- scan 3: **needs-review** only for low-contrast circular-emblem lettering; bottom caption is verified
-- scans 4–6: verified
-- scan 18: verified photograph record with printed caption `எதையும் தாங்கும் இதயம் / இங்கே உறங்குகிறது`
-- scan 19: verified closing quotation/back-matter record with printed date `15 - 9 - 1987`
+The renewed review has found genuine source mismatches in pages that had previously been marked `verified`, including `வரிஞன்` → `வறிஞன்`, `வழக்கறிஞன் நீ` → `வழக்கறிஞனும் நீ`, and `பெருமைப்பால்` → `பேருழைப்பால்`, as well as earlier corrections on scans 7–11.
+
+Therefore, a physical count of 19/19 is no longer sufficient by itself for archival closure. Final PASS will be issued only after scans 14–17 are rechecked at the same glyph-level standard and all resulting corrections are committed.
 
 ## Source-integrity checks
 
@@ -42,10 +41,8 @@ This review checks the complete 19-scan physical source after fresh restart from
 - external edition substituted for scan: **NO — PASS**
 - unresolved glyphs guessed: **NO — PASS**
 
-## Review judgement
+## Current judgement
 
-The **poem body itself is source-complete and verified (11/11)**. The complete physical source layer is **not yet eligible for final PASS** because scan 3 still has unresolved circular-emblem lettering. Under the repository benchmark, final physical completeness should reach **19/19 verified with needs-review 0** before canonical Tamil assembly is closed.
+**HOLD.** Physical source coverage is complete, but source-layer closure remains intentionally blocked until the second-pass poem review reaches scan 17.
 
-## Exact next step
-
-Re-open scan 3 and perform a dedicated high-resolution visual/glyph review of the circular-emblem lettering. If it can be read confidently, update `pages/0003.md`, the page map and audit, then rerun this review. If the pixels genuinely do not support a reading, document that source limitation explicitly before deciding whether an archival exception is warranted. Do **not** begin English translation yet.
+Do **not** assemble the canonical Tamil poem or begin English translation yet.
