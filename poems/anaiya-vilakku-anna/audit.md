@@ -17,16 +17,16 @@ At the user's explicit request, the previous `poems/anaiya-vilakku-anna/` conten
 
 | Status | Count |
 |---|---:|
-| verified | 12 |
+| verified | 13 |
 | needs-review | 1 |
-| not-started | 6 |
+| not-started | 5 |
 | blocked | 0 |
 
 Verified so far:
 
 - scans 1–2 — cover/frontispiece
 - scans 4–6 — front matter photographs/title page
-- scans 7–13 — poem pages, direct glyph/full-line review
+- scans 7–14 — poem pages, direct glyph/full-line review
 
 Needs review:
 
@@ -35,14 +35,14 @@ Needs review:
 ## Poem-body scope
 
 - scans 7–17: principal poem/text body
-- scans 7–13 verified
-- scans 14–17 remain
+- scans 7–14 verified
+- scans 15–17 remain
 - scans 18–19: closing visual/back matter
 
 ## Tamil transcription progress
 
-- poem scans transcribed and verified: **7 / 11**
-- remaining poem scans: **4**
+- poem scans transcribed and verified: **8 / 11**
+- remaining poem scans: **3**
 - front-matter records created: **6 / 6**
 - front-matter fully verified: **5 / 6**
 - Tamil assembly: **NOT READY**
@@ -52,14 +52,14 @@ Needs review:
 
 Scan 7 and scan 8 were reopened after initial transcription because plausible-looking but source-incorrect readings had entered the Markdown. Those pages were rechecked directly against the scan and corrected. This reinforces the rule that semantic plausibility is never authority; the source pixels are controlling.
 
-## Scan 13 review
+## Scan 14 review
 
-- opening continuity from scan 12 `வரிஞன் செல்வன் என்று` verified: **PASS**
+- opening continuity from scan 13 `கருணாநிதி என்று சொன்னாய்-` verified: **PASS**
 - full-line visual review: **PASS**
+- source forms such as `யாத்திரை ஸ்தலம்`, `எதிரிகட்குக்`, `தந்திடண்ணா`, `தம்பி யென்று`, and `தாசானு தாசர்களாய்` preserved without normalization: **PASS**
 - poetic lineation / stanza breaks preserved: **PASS**
-- punctuation / semicolons / hyphens / ellipsis preserved: **PASS**
-- integrated lower-right photograph noted without inferred identity: **PASS**
-- final sentence intentionally left open for scan 14 continuation: **PASS**
+- punctuation / quotation marks / semicolons / hyphens preserved: **PASS**
+- no printed page number inferred: **PASS**
 
 ## Source-first safeguards
 
@@ -72,4 +72,4 @@ Scan 7 and scan 8 were reopened after initial transcription because plausible-lo
 
 ## Next activity
 
-Proceed to fresh full-page glyph transcription of **scan 14**, first verifying the continuation from scan 13's closing `கருணாநிதி என்று சொன்னாய்-`.
+Proceed to fresh full-page glyph transcription of **scan 15**, using scan 14 only for continuity and treating the scan pixels as controlling.
