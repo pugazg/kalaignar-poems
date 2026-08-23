@@ -75,6 +75,23 @@ The second pass found multiple errors in pages previously marked `verified`, con
 - scans 18–19 excluded from poem assembly: **PASS**
 - `ASSEMBLY_REVIEW.md`: **PASS — source-faithful Tamil assembly complete**
 
+## English translation closure
+
+- translation batches: **4 / 4 reviewed — PASS**
+- source poem scans represented in English: **11 / 11**
+- missing English batch bodies: **0**
+- duplicate English batch bodies: **0**
+- complete English assembly: `translations/en/anaiya-vilakku-anna-en.md` — **COMPLETE**
+- `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`: **PASS**
+- `translations/en/RELEASE_REPORT.md`: **PASS — RELEASE-COMPLETE**
+- translator notes leaked into English verse: **NO**
+- batch-review prose leaked into English verse: **NO**
+- locked source exclusions preserved: **PASS**
+- cross-batch continuity: **PASS**
+- names / political vocabulary / literary terminology consistency: **PASS**
+- full-poem Kalaignar-language/voice review: **PASS**
+- Tamil source-layer changes required by translation: **NONE**
+
 ## Source-first safeguards
 
 - supplied scan pixels remain controlling;
@@ -84,12 +101,15 @@ The second pass found multiple errors in pages previously marked `verified`, con
 - no silent Tamil normalization;
 - no inferred printed pagination;
 - semantic plausibility is not accepted as evidence for a glyph reading;
-- no Tamil source wording was changed during canonical assembly.
+- no Tamil source wording was changed during canonical assembly;
+- no Tamil source wording was changed to improve the English translation.
 
-## Closure state
+## Final closure state
 
 **Tamil archival/source layer: COMPLETE — PASS.**
 
 **Canonical Tamil assembly: COMPLETE — PASS.**
 
-English translation may now proceed to its planning/source-map stage. The locked Tamil source and assembly must not be silently edited during translation.
+**English translation: RELEASE-COMPLETE — PASS.**
+
+The work is closed under the current source-first Tamil archival + English translation workflow. Any future change to the Tamil or English text requires an explicit reopen with source-level provenance.
