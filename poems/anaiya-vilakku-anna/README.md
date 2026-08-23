@@ -30,10 +30,10 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - previous `anaiya-vilakku-anna` work: **DELETED at user request**
 - fresh source identity: **COMPLETE**
 - physical page classification: **COMPLETE — roles mapped for 19/19 scans**
-- page records created: **14 / 19**
-- verified page records: **13 / 19**
+- page records created: **15 / 19**
+- verified page records: **14 / 19**
 - needs-review page records: **1 / 19**
-- Tamil poem transcription: **IN PROGRESS — scans 7–14 verified (8/11 poem scans)**
+- Tamil poem transcription: **IN PROGRESS — scans 7–15 verified (9/11 poem scans)**
 - Tamil assembly: **PENDING**
 - English translation: **PENDING**
 
@@ -47,4 +47,4 @@ Scans 7 and 8 were reopened and corrected after source-level rechecks exposed pl
 
 ## Exact next step
 
-Proceed with fresh full-page glyph transcription of **scan 15**, using scan 14 only for continuity. Preserve the repeated page header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
+Proceed with fresh full-page glyph transcription of **scan 16**, paying particular attention to the visible internal break and preserving it exactly as printed. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
