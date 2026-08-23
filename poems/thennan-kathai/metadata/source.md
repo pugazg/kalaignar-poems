@@ -1,10 +1,18 @@
-# Source metadata — தென்னன் கதை
+# Source metadata — தென்னவன் காதை
 
 ## Work identity
 
-- Title as visibly printed on source page 145: **தென்னன் கதை**
-- Source publication: **முரசொலி பொங்கல் மலர், 1956**
+- Title: **தென்னவன் காதை**
+- Author: **கலைஞர் மு. கருணாநிதி**
+- Publication: **முரசொலி-பொங்கல் மலர்**
+- Edition/year: **1956**
 - Source work begins at PDF page **145**.
+
+### User-supplied contextual description
+
+> தென்னிலங்கை வேந்தன் இராவணனைத் தமிழ்ப் பண்பாட்டுக் காவலனாகக் காட்டும் கலைஞர் அவர்களின் கவிதை நடைச் சித்திரம்.
+
+This description is recorded as supplied contextual metadata. It is not part of the poem body unless the controlling scan itself prints equivalent wording.
 
 ## File
 
@@ -24,7 +32,7 @@ The attached PDF itself contains only **150 physical scan pages**. Therefore:
 - requested pages **151–152 are not present in the supplied PDF**;
 - no phantom page records will be invented for absent scans.
 
-Pages 145–150 visibly form one illustrated poetic sequence beginning with the heading **தென்னன் கதை**. Page 145 carries the title and opening verse; pages 146–150 continue verse beneath large narrative illustrations.
+Pages 145–150 visibly form one illustrated poetic sequence beginning with the heading **தென்னவன் காதை**. Page 145 carries the title and opening verse; pages 146–150 continue verse beneath large narrative illustrations.
 
 Whether page 150 is the true end of the work cannot be asserted from this truncated physical source alone, because the user-specified range extends to page 152.
 
