@@ -17,9 +17,9 @@ At the user's explicit request, the previous `poems/anaiya-vilakku-anna/` conten
 
 | Status | Count |
 |---|---:|
-| verified | 5 |
+| verified | 6 |
 | needs-review | 1 |
-| not-started | 13 |
+| not-started | 12 |
 | blocked | 0 |
 
 Verified so far:
@@ -29,26 +29,35 @@ Verified so far:
 - scan 4 — photograph + printed caption
 - scan 5 — photograph + printed caption
 - scan 6 — title/photo page
+- scan 7 — first poem page, fresh glyph-first transcription
 
 Needs review:
 
 - scan 3 — commemorative graphic. Bottom caption `அண்ணாவின் காலமலரில் / முரசொலியின் காணிக்கை` is verified; the circular-emblem lettering remains unresolved because it is low-contrast and integrated into the artwork. It has not been guessed.
 
-## Preliminary scope
+## Poem-body scope
 
-- scans 1–6: front matter
 - scans 7–17: principal poem/text body
+- scan 7 is now directly verified and confirms the poem-body start
 - scans 18–19: closing visual/back matter
 
-The poem-body boundary is now visually supported to begin at scan 7. Final source completeness will still require all 19 scan records.
+## Tamil transcription progress
 
-## Tamil transcription readiness
-
-- poem scans transcribed: **0 / 11 poem scans**
+- poem scans transcribed and verified: **1 / 11**
+- remaining poem scans: **10**
 - front-matter records created: **6 / 6**
 - front-matter fully verified: **5 / 6**
 - Tamil assembly: **NOT READY**
 - English translation: **NOT READY**
+
+## Scan 7 review
+
+- page header `அணையா விளக்கு அண்ணா` recorded separately from verse: **PASS**
+- poem lineation preserved: **PASS**
+- stanza spacing preserved: **PASS**
+- punctuation / quotation marks / hyphens / semicolons preserved from scan: **PASS**
+- visible integrated photograph noted without adding an inferred caption: **PASS**
+- deleted prior transcription used as authority: **NO**
 
 ## Source-first safeguards
 
@@ -61,4 +70,4 @@ The poem-body boundary is now visually supported to begin at scan 7. Final sourc
 
 ## Next activity
 
-Begin fresh glyph-first transcription of **scan 7**, preserving lineation, punctuation, title/header material and all visible verse structure exactly from the supplied scan. Do not use the deleted old transcription as authority.
+Proceed to fresh glyph-first transcription of **scan 8**, checking continuity from scan 7 while treating the scan pixels—not meaning, metre, or any earlier transcription—as controlling.
