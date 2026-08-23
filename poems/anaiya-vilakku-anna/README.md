@@ -30,10 +30,10 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - previous `anaiya-vilakku-anna` work: **DELETED at user request**
 - fresh source identity: **COMPLETE**
 - physical page classification: **COMPLETE — roles mapped for 19/19 scans**
-- page records created: **12 / 19**
-- verified page records: **11 / 19**
+- page records created: **13 / 19**
+- verified page records: **12 / 19**
 - needs-review page records: **1 / 19**
-- Tamil poem transcription: **IN PROGRESS — scans 7–12 verified (6/11 poem scans)**
+- Tamil poem transcription: **IN PROGRESS — scans 7–13 verified (7/11 poem scans)**
 - Tamil assembly: **PENDING**
 - English translation: **PENDING**
 
@@ -47,4 +47,4 @@ Scans 7 and 8 were reopened and corrected after source-level rechecks exposed pl
 
 ## Exact next step
 
-Proceed with fresh full-page glyph transcription of **scan 13**, first verifying the continuation from scan 12's final line `வரிஞன் செல்வன் என்று`. Preserve repeated page header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
+Proceed with fresh full-page glyph transcription of **scan 14**, first verifying continuation from scan 13's closing `கருணாநிதி என்று சொன்னாய்-`. Preserve the repeated page header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
