@@ -16,7 +16,7 @@
 | 12 | — | poem | verified | opens as continuation of scan 11; final line continues into scan 13 |
 | 13 | — | poem | verified | opens as continuation of scan 12; final sentence continues into scan 14 |
 | 14 | — | poem | verified | opens as continuation of scan 13; full-page glyph review completed |
-| 15 | — | poem | not-started | continuation |
+| 15 | — | poem | verified | full-page glyph review completed; quoted rice-price passage preserved as printed |
 | 16 | — | poem | not-started | continuation / visible internal break requires transcription review |
 | 17 | — | poem | not-started | concluding text; visible date `15-9-2008` |
 | 18 | — | photograph | not-started | memorial/monument image |
