@@ -41,11 +41,11 @@ These corrections reinforce that punctuation and spacing must be checked from in
 The failure was **procedural**, not limited to one difficult glyph.
 
 1. **Confirmation bias from the existing transcription** — later passes repeatedly compared the scan against already typed text instead of starting from a blank line-by-line reading.
-2. **Semantic substitution** — familiar or grammatically plausible Tamil (`பூசாரிகள்`, `வேளை`, `முல்லை`) was accepted when the printed glyphs supported a different form.
-3. **Weak suffix verification** — word-final `-ளை`, `-ை`, `-லை`, `-ஆன்` and final consonants were not independently checked at character level.
-4. **Cluster segmentation failure** — compact old-print clusters such as `சுரர்கள்` and `ற்ப` were treated as whole-word shapes rather than decomposed glyph by glyph.
+2. **Semantic substitution** — familiar or grammatically plausible Tamil was accepted when the printed glyphs supported a different form.
+3. **Weak suffix verification** — word-final suffixes and final consonants were not independently checked at character level.
+4. **Cluster segmentation failure** — compact old-print clusters were sometimes treated as whole-word shapes rather than decomposed glyph by glyph.
 5. **Audit scope drift** — the earlier “full-range audit” concentrated on previously suspicious readings, page joins and selected enlarged crops; it was **not a truly blind, fresh transcription of every line**.
-6. **Punctuation was normalized by eye** — punctuation such as the comma after `சிங்கம்` and the absence of a dash after `ஆடுகளை` was not always verified against source ink.
+6. **Punctuation was normalized by eye** rather than consistently verified from source ink.
 
 ## Verification consequence
 
@@ -62,7 +62,7 @@ Required recovery policy:
 
 ## Recovery progress — scan 145
 
-Scan **145** has now completed the replacement recovery protocol and is again **VERIFIED**.
+Scan **145** has completed the replacement recovery protocol and is again **VERIFIED**.
 
 The page was freshly rendered at high resolution and retranscribed source-first before comparison with the repository record. A second enlarged pass checked every visible line, punctuation mark, suffix, separator and the continuation into scan 146.
 
@@ -70,16 +70,20 @@ The recovery pass independently confirmed all source-backed corrections listed a
 
 - `கண்ணுக்குள் பாவைபோல் இலங்கைத் தீவு.` → **`கண்ணுக்குள் பாவை போல் இலங்கைத் தீவு.`**
 
-The page record now explicitly documents:
+## Recovery progress — scan 146
 
-- comma in `உருவில் சிங்கம், உள்ளம் தங்கம்!`;
-- absence of an inserted dash in `மாடுகளை, ஆடுகளை மனிதர்களை`;
-- semicolon in `காப்பதற்கு;`;
-- exclamation mark in `அவனுக்கு அவள்!`;
-- one visible `★` separator;
-- closing continuation `கடவுளுக்குப் பலிதேடும் வேலை, ஆகாது`.
+Scan **146** has now also completed the replacement recovery protocol and is **VERIFIED**.
 
-This recovered verification applies **only to scan 145**. Scans 146–150 remain reopened until they undergo the same blank-buffer procedure.
+A fresh **600-dpi** render was read from a blank working buffer before opening the provisional repository transcription. A second enlarged pass checked both columns, punctuation, the single `★`, the circular stamp/library-mark overlap, and both page joins.
+
+The recovery diff exposed two additional source-backed errors that had survived the former verification cycle:
+
+- `மண்பாளும்` → **`மணையாளும்`**;
+- `காவலுக்குக் கைகாரி சீதாதேவி!` → **`காவலுக்குக் கைக்காரி சீதாதேவி!`**.
+
+The pass also independently rechecked the existing source-backed readings `உருவினை கொடுவாள்`, `காடெல்லாம்`, `வழிந்திடுதே`, `விட்டதாலே`, `முடிசூட முனைந்து`, and `தூங்குகின்றுள்` rather than inheriting them from the earlier audit.
+
+The recovered verification status therefore currently applies only to scans **145–146**. Scans **147–150** remain reopened until they undergo the same blank-buffer procedure.
 
 ## Source-range correction
 
@@ -89,4 +93,4 @@ Therefore the Karuvoolam description must not be used to determine this poem's b
 
 ## Exact next activity
 
-Redo **scan 146 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 146 be marked `verified` again. Then repeat the same process sequentially for 147–152.
+Redo **scan 147 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 147 be marked `verified` again. Then repeat the same process sequentially for 148–152.
