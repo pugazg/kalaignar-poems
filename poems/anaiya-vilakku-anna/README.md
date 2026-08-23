@@ -30,10 +30,10 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - previous `anaiya-vilakku-anna` work: **DELETED at user request**
 - fresh source identity: **COMPLETE**
 - physical page classification: **COMPLETE — roles mapped for 19/19 scans**
-- page records created: **7 / 19**
-- verified page records: **6 / 19**
+- page records created: **12 / 19**
+- verified page records: **11 / 19**
 - needs-review page records: **1 / 19**
-- Tamil poem transcription: **IN PROGRESS — scan 7 verified (1/11 poem scans)**
+- Tamil poem transcription: **IN PROGRESS — scans 7–12 verified (6/11 poem scans)**
 - Tamil assembly: **PENDING**
 - English translation: **PENDING**
 
@@ -43,6 +43,8 @@ The supplied scan is the controlling source. Tamil wording, punctuation, lineati
 
 The unresolved circular-emblem wording on scan 3 is deliberately held as `needs-review`; it must not delay poem transcription because it is front-matter artwork and is not part of the poem body.
 
+Scans 7 and 8 were reopened and corrected after source-level rechecks exposed plausible-looking but source-incorrect readings. Subsequent pages are therefore being verified with full-line visual comparison before a `verified` status is assigned.
+
 ## Exact next step
 
-Proceed with fresh **glyph-first visual transcription of scan 8**, using scan 7 only for continuity checking and never as authority for unseen wording. Preserve the repeated page header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
+Proceed with fresh full-page glyph transcription of **scan 13**, first verifying the continuation from scan 12's final line `வரிஞன் செல்வன் என்று`. Preserve repeated page header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
