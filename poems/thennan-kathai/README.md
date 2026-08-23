@@ -1,14 +1,22 @@
-# தென்னன் கதை
+# தென்னவன் காதை
 
 ## Source-first archival record
 
-This work is being processed from the supplied scanned **முரசொலி பொங்கல் மலர், 1956** source under the repository `HANDOVER.md` and `POEM_PROCESSING_GUIDE.md` rules.
+This work is being processed from the supplied scanned **முரசொலி-பொங்கல் மலர், 1956** source under the repository `HANDOVER.md` and `POEM_PROCESSING_GUIDE.md` rules.
+
+## Work identity
+
+- title: **தென்னவன் காதை**
+- author: **கலைஞர் மு. கருணாநிதி**
+- publication: **முரசொலி-பொங்கல் மலர்**
+- edition/year: **1956**
+- user-supplied contextual description: **தென்னிலங்கை வேந்தன் இராவணனைத் தமிழ்ப் பண்பாட்டுக் காவலனாகக் காட்டும் கலைஞர் அவர்களின் கவிதை நடைச் சித்திரம்.**
+
+The descriptive sentence above is retained as supplied contextual metadata; it is not being silently inserted into the poem text.
 
 ## Source
 
-- printed work title: **தென்னன் கதை**
 - source file: `TVA_PRL_0007090_முரசொலி.pdf`
-- source publication visible on the volume cover: **முரசொலி பொங்கல் மலர், 1956**
 - full PDF: **150 scans**
 - user-specified work range: **145–152**
 - available range in the attached PDF: **145–150 only**
@@ -23,8 +31,7 @@ The available source therefore does not yet prove whether scan 150 is the poem's
 
 ## Processing status
 
-- existing repository work with this title: **none found before initialization**
-- source identity: **established**
+- source identity: **corrected to தென்னவன் காதை**
 - checksum / file size / PDF page count: **recorded**
 - available source pages visually inspected for role: **145–150 (6 scans)**
 - page transcription: **not yet verified**
@@ -37,4 +44,4 @@ The supplied scan is the controlling source. Do not normalize Tamil, infer missi
 
 ## Exact next step
 
-Create page-level records for scans **145–150**, then begin a high-resolution glyph-first transcription with scan **145**. Keep the work open pending the absent requested scans **151–152** unless source evidence establishes that page 150 is actually the end.
+Begin high-resolution glyph-first transcription with scan **145**, using the corrected title **தென்னவன் காதை**, then continue page by page through the available source.
