@@ -13,74 +13,54 @@ At the user's explicit request, the previous `poems/anaiya-vilakku-anna/` conten
 - usable text layer: **none**
 - controlling evidence: direct visual inspection of scan images
 
-## Current page status
+## Current physical page status
 
 | Status | Count |
 |---|---:|
-| verified | 18 |
-| needs-review | 1 |
+| verified | 19 |
+| needs-review | 0 |
 | not-started | 0 |
 | blocked | 0 |
 
-Verified so far:
-
-- scans 1–2 — cover/frontispiece
-- scans 4–6 — front matter photographs/title page
-- scans 7–17 — complete poem body
-- scan 18 — closing photograph with printed caption
-- scan 19 — closing quotation/back matter
-
-Needs review:
-
-- scan 3 — commemorative graphic. Bottom caption `அண்ணாவின் காலமலரில் / முரசொலியின் காணிக்கை` is verified; circular-emblem lettering remains unresolved and has not been guessed.
+Scan 3 was reopened at high resolution. The visible circular-emblem lettering is now recorded from the source as `வீழ்வது நாமாக இருப்பினும்` / `வாழ்வது தமிழாக`, with visible star separators. No unseen continuation was supplied from memory or a secondary quotation.
 
 ## Poem-body scope
 
-- scans 7–17: principal poem/text body — **11/11 verified — COMPLETE**
-- scan 16 contains the visible internal `★ ★ ★` break and printed `முடிவுரை` heading
-- scan 17 contains the conclusion, event caption and printed date `15 - 9 - 2008`
-- scans 18–19 are non-poem closing source records
+- scans 7–17: principal poem/text body — **11/11 represented**
+- first-pass verification: **11/11 complete**
+- user-requested second-pass re-verification: **in progress**
+- second pass completed through scan 13
+- scans 14–17 remain to be closed under the second pass
+
+## Confirmed second-pass corrections
+
+The second pass has already found multiple errors in pages previously marked `verified`, confirming that the verification flag alone is not sufficient authority.
+
+- scan 7: corrected source readings include `அனலிடை`, `கண்டுவிடின்`, `அடுக்களை`
+- scan 8: corrected source readings include `மராட்டியத்திலும்`, `ஏடுகள்`, `கனதனவான்களுக்காக`, `(பலத்த கைதட்டல்)`, `தம்பட்டம்`
+- scan 9: restored the source-visible opening parenthesis on each repeated `முதல் நூற்றாண்டு...` refrain
+- scan 10: renewed review corrected source readings including `உயரும்` and `கதைகளாய்`
+- scan 11: renewed review corrected source readings including `பொறுப்பல்ல`, `குறிப்பிட்டிருப்பது`, `அரக்கன்`
+- scan 12: corrected `வழக்கறிஞன் நீ` → `வழக்கறிஞனும் நீ`; corrected `வரிஞன்` → `வறிஞன்`
+- scan 13: corrected `பெருமைப்பால்` → `பேருழைப்பால்`
 
 ## Closing-source review
 
-### Scan 18
-
-- page type: photograph
-- printed caption: `எதையும் தாங்கும் இதயம் / இங்கே உறங்குகிறது`
-- no monument identity/location inferred beyond printed evidence: **PASS**
-
-### Scan 19
-
-- closing Anna quotation transcribed: **PASS**
-- source form `வாளாவா` retained without normalization: **PASS**
-- attribution `அண்ணா அறிவாலயத்தைத் / திறந்து வைத்த தலைவர் கலைஞர் உரை` preserved: **PASS**
-- printed date `15 - 9 - 1987` preserved: **PASS**
-- building/statue image noted without unsupported identification: **PASS**
-
-## Tamil source completeness
-
-- physical records created: **19 / 19 — PASS**
-- poem scans verified: **11 / 11 — PASS**
-- physical scans verified: **18 / 19 — HOLD**
-- needs-review: **1**
-- blocked: **0**
-- `SOURCE_COMPLETENESS_REVIEW.md`: **HOLD pending scan 3 emblem review**
-- canonical Tamil assembly: **NOT YET AUTHORIZED BY SOURCE-LAYER PASS**
-- English translation: **NOT STARTED**
-
-## Source-level corrections/rechecks
-
-Scans 7 and 8 were reopened after initial transcription because plausible-looking but source-incorrect readings had entered the Markdown. Those pages were rechecked directly against the scan and corrected. This reinforces the rule that semantic plausibility is never authority; the source pixels are controlling.
+- scan 18: photograph record verified; printed caption `எதையும் தாங்கும் இதயம் / இங்கே உறங்குகிறது`
+- scan 19: closing quotation/back-matter verified; printed date `15 - 9 - 1987`
 
 ## Source-first safeguards
 
+- supplied scan pixels remain controlling;
 - no old transcription reused after reset;
 - no source PDF committed;
 - no web/secondary edition substituted for the scan;
 - no silent Tamil normalization;
 - no inferred printed pagination;
-- unresolved graphic lettering on scan 3 remains explicitly held for review.
+- semantic plausibility is not accepted as evidence for a glyph reading.
 
-## Next activity
+## Closure state
 
-Perform a dedicated high-resolution glyph review of **scan 3's circular-emblem lettering**. If confidently recoverable, update scan 3 and rerun the source-completeness review. Do not assemble the canonical Tamil poem or begin English translation until the physical source layer reaches closure or an explicitly documented archival exception is justified.
+Physical completeness is now **19/19 verified**, but the source layer remains **HOLD** because the user explicitly requested a second full poem-body verification after new errors were discovered.
+
+Canonical Tamil assembly and English translation remain blocked until scans **14–17** receive the same second-pass scrutiny and the correction log is closed.
