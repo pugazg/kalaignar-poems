@@ -43,7 +43,7 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 The earlier repository state marked scans 145–150 `verified` and later recorded a full available-range audit as `PASS`.
 
-That conclusion remains **withdrawn** for the old verification cycle.
+That conclusion remains **withdrawn for the old verification cycle**. Pages are restored to `verified` only after the replacement blank-buffer recovery protocol.
 
 A user spot-check of scan 145 exposed multiple transcription errors that had survived both earlier page verification and the later audit. The error density on one page proved that the prior method was not sufficiently independent or glyph-first.
 
@@ -51,12 +51,12 @@ A user spot-check of scan 145 exposed multiple transcription errors that had sur
 
 | Status | Count |
 |---|---:|
-| verified | 1 |
-| needs-review | 5 |
+| verified | 2 |
+| needs-review | 4 |
 | not-started | 2 |
 
-- page **145**: `verified` under the replacement recovery protocol;
-- pages **146–150**: `needs-review`;
+- pages **145–146**: `verified` under the replacement recovery protocol;
+- pages **147–150**: `needs-review`;
 - pages **151–152**: `not-started`;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **BLOCKED**;
@@ -90,40 +90,56 @@ See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the detailed root-cau
 
 ## Scan 145 — fresh blank-buffer recovery audit — PASS
 
-Scan 145 was then redone from a fresh high-resolution render under the replacement protocol:
+Scan 145 was redone from a fresh high-resolution render under the replacement protocol. A blank-buffer reading and second enlarged pass confirmed the corrected source readings and exposed one additional spacing discrepancy:
 
-1. a source-first transcription was produced from a blank working buffer;
-2. every line was re-read at enlarged resolution;
-3. suffixes, compact clusters, punctuation, spacing, separator and page-ending continuation were checked explicitly;
-4. only after the source-first reading was complete was the repository transcription used as a comparison target.
+- `கண்ணுக்குள் பாவைபோல் இலங்கைத் தீவு.` → `கண்ணுக்குள் பாவை போல் இலங்கைத் தீவு.`
 
-The recovery pass independently confirms the corrected source readings listed above.
+Explicit checks included the title, one `★`, punctuation in `உருவில் சிங்கம், உள்ளம் தங்கம்!`, absence of an inserted dash in `மாடுகளை, ஆடுகளை மனிதர்களை`, semicolon in `காப்பதற்கு;`, exclamation in `அவனுக்கு அவள்!`, and the continuation `கடவுளுக்குப் பலிதேடும் வேலை, ஆகாது`.
 
-It also found one additional discrepancy that had survived the reopening correction list:
+Result: **scan 145 VERIFIED under the recovery protocol.**
 
-- `கண்ணுக்குள் பாவைபோல் இலங்கைத் தீவு.` → source-visible `கண்ணுக்குள் பாவை போல் இலங்கைத் தீவு.`
+## Scan 146 — fresh blank-buffer recovery audit — PASS
+
+Scan 146 was independently rendered at **600 dpi** and reread from a blank working buffer before the provisional repository text was consulted.
+
+A second enlarged source-pixel pass checked:
+
+- every visible line in both columns;
+- word-final suffixes and compact clusters;
+- punctuation and line breaks;
+- the single visible `★` separator;
+- the page-145 → page-146 continuation;
+- the later circular stamp/library-mark overlap in the lower text;
+- the open ending into scan 147.
+
+The recovery diff found two source-backed errors that had survived the former verification cycle:
+
+| Provisional repository reading | Source-backed recovery reading |
+|---|---|
+| `மண்பாளும்` | `மணையாளும்` |
+| `காவலுக்குக் கைகாரி சீதாதேவி!` | `காவலுக்குக் கைக்காரி சீதாதேவி!` |
+
+The recovery pass independently rechecked earlier source-backed readings already present in the provisional record, including `உருவினை கொடுவாள்`, `காடெல்லாம்`, `வழிந்திடுதே`, `விட்டதாலே`, `முடிசூட முனைந்து`, and `தூங்குகின்றுள்`; they were retained.
 
 Explicit punctuation/structure checks:
 
-- title: `தென்னவன் காதை` — PASS;
+- opening continuation from page 145: `...பலிதேடும் வேலை, ஆகாது` → `கொடுமையென உருவினை கொடுவாள்!` — PASS;
+- `அட, தொடுவேனோ ஆரியத்தேன் என` — PASS;
+- `அந்தக் காளை!....` — exclamation plus four following dots retained;
 - one visible `★` separator — PASS;
-- `உருவில் சிங்கம், உள்ளம் தங்கம்!` — comma confirmed;
-- no inserted dash between `ஆடுகளை` and `மனிதர்களை` — PASS;
-- `காப்பதற்கு;` — semicolon confirmed;
-- `அவனுக்கு அவள்!` — exclamation confirmed;
-- final visible line: `கடவுளுக்குப் பலிதேடும் வேலை, ஆகாது` — PASS and continues onto scan 146;
-- author credit `மு. கருணாநிதி` remains visual evidence outside the poem body.
+- left-column then right-column reading order — PASS;
+- final visible line `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....` — PASS and remains open into scan 147.
 
-Result: **scan 145 VERIFIED under the recovery protocol.** This result applies only to scan 145 and does not revive the withdrawn verification status of scans 146–150.
+Result: **scan 146 VERIFIED under the recovery protocol.**
 
 ## Where the previous process failed
 
 The failure pattern remains documented as procedural:
 
 1. later checks were anchored to the existing transcription instead of starting blind from source pixels;
-2. familiar Tamil words were accepted because they were semantically plausible (`பூசாரிகள்`, `முல்லை`, `வேளை`);
-3. suffixes such as `-ளை`, `-ை`, `-லை`, `-ஆன்` were not independently verified;
-4. compact clusters such as `சுரர்கள்` and `ற்ப` were not decomposed character by character;
+2. familiar Tamil words were accepted because they were semantically plausible;
+3. suffixes and final consonants were not always independently verified;
+4. compact old-print clusters were not always decomposed character by character;
 5. punctuation and spacing were sometimes normalized instead of read from ink;
 6. the previous “full-range audit” was not a true blank-slate retranscription of every line.
 
@@ -146,14 +162,14 @@ This supersedes the earlier `SOURCE_COMPLETENESS_REVIEW.md` conclusion that depe
 ## Readiness
 
 - physical page images: **COMPLETE — 8/8**
-- verified transcription: **1/8**
-- pages needing re-audit: **146–150**
+- verified transcription: **2/8**
+- pages needing re-audit: **147–150**
 - pages awaiting first transcription: **151–152**
 - Tamil assembly: **BLOCKED**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Redo **scan 146 from scratch** with a blank source-first transcription and a second independent glyph-level comparison.
+Redo **scan 147 from scratch** with a blank source-first transcription and a second independent glyph-level comparison.
 
-Do not reuse the current page text as a reading guide. Only after scan 146 is independently clean may it be restored to `verified`, then continue sequentially through **147–152**.
+Do not reuse the current page text as a reading guide. Only after scan 147 is independently clean may it be restored to `verified`, then continue sequentially through **148–152**.
