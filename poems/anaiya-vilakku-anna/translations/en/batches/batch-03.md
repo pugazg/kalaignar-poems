@@ -13,19 +13,19 @@ translation_basis: "locked verified Tamil page records and reviewed Tamil assemb
 
 <!-- scan 13 -->
 
-You stood on the path of equality,
-declaring that to draw dividing lines of speech
-and nurture difference is evil!
+You who stood on the path of equality,
+declaring it wrong to nurture division
+through speech that defines one as poor and another as wealthy!
 
 Giving it the name “Anna Renaissance Scheme,”
-through the tireless labour of the Local Administration Minister
-who makes it his very eye and turns it into action,
-raising the prosperity of thousands upon thousands of villages,
-raising water wealth and land wealth,
-so that village and town alike may stand in equal measure
-in the prosperity of the land —
-Anna, is not the feeling your name instilled
-the first and fullest cause behind that vision?
+through the tireless great labour
+of the Local Administration Minister who tends its work like the apple of his eye,
+village prosperity has been multiplied into many thousands, many lakhs,
+water wealth and land wealth have been raised,
+so that, in the prosperity of the land,
+village and town may stand on an equal footing —
+Anna, was it not the feeling infused by your name
+that became the first and fullest cause of this vision!
 
 For Salem's iron,
 for the Sethusamudram Project,
@@ -46,7 +46,7 @@ Whether in office or out of office,
 Anna, this younger brother of yours, this Karunanidhi,
 will never forget the one who made him what he is.
 Even if he should rise like the finial
-of a tower a thousand feet high,
+atop a tower a thousand feet high,
 he will never, as long as life remains in him,
 forget that the foundation of that tower
 is the crores upon crores of cadre-comrades —
@@ -61,18 +61,18 @@ would regard both alike” —
 
 <!-- scan 14 -->
 
-And when he was confined in solitary imprisonment
+and when he was confined in solitary imprisonment
 in Palayamkottai Prison,
 you shed tears and said
 that prison was a place of pilgrimage for you —
 
-And when you declared with certainty,
+and when you declared with certainty,
 “I have written half the history of the movement;
 Karunanidhi will continue and write the other half” —
 because those words were planted permanently in my heart, Anna,
 I can bear the “ram” I raised charging into my chest,
 and those who forgot gratitude stabbing me in the back —
-But how, Anna, can I bear it and remain alive
+but how, Anna, can I bear it and remain alive
 when Ettappans betray to the enemy
 the Kazhagam we raised with tears and blood?
 
@@ -96,19 +96,19 @@ have today become servants of servants.
 
 Now the conjurer says
 we do not need Sethu at all!
-It is no sin to grow angry
+It is no wrong to grow angry
 when we see those who would block Sethu
-and reduce to ground level
+and bring down to ground level
 the prosperity it would bring to Tamil land.
 
 Are we not a pride of lions —
 should we bow our heads before the schemes of little foxes?
 Before raging tigers,
-should the lowly put on a show?
-Where is my Tamil?
+should petty men put on a show?
+Where is my Tamilan?
 Does he stand like an upright pillar?
 Or does he lie there,
-without a tremor in his limbs?
+without a pulse in his limbs?
 
 <!-- scan 15 -->
 
@@ -119,7 +119,7 @@ Raise him a statue in gold —
 
 Like two chisels laid above the lips,
 the radiant Pandyan bears a moustache;
-as though proclaiming that no disgrace has ever come upon the race,
+as though proclaiming that mercy had never come,
 the Chola's moustache spreads
 as far as the edge of his ears!
 
@@ -133,7 +133,7 @@ That valour is needed today —
 needed greatly!
 
 Gather strength in deeds of goodness;
-cast away deeds of violence entirely;
+cast away harsh deeds entirely;
 recover the spirit of the Tamils of old!
 Recover the spirit of self-respect!
 
@@ -147,31 +147,35 @@ If I am to say it
 in your own words:
 
 “I said we should give the people
-a measure of rice for one rupee —
+a *padi* of rice for one rupee —
 but before I knew it,
 Maran wrote in *Murasoli*
 that it was Anna's promise.
 What I then thought a task like overturning a mountain,
 today my younger brother Karunanidhi,
 to gladden the hearts of the people of the State,
-has announced as:
+has announced:
 one kilo of rice for one rupee;
-and he showers endless rains of flowers upon my grave —
+and he showers countless rains of flowers upon my grave —
 and I too
 embrace him with joy
 and bless him” —
 
 ## Translator notes
 
+- Scan 13 begins as the continuation of scan 12's `வறிஞன் செல்வன் என்று`; the English therefore explicitly preserves the **poor / wealthy** contrast and does not treat either word as a proper name.
 - `சமதர்ம` is rendered as **equality**, preserving the social-egalitarian force without importing a doctrinal label not required by the source.
 - `அண்ணா மறுமலர்ச்சித் திட்டம்` is rendered as **Anna Renaissance Scheme**, keeping the scheme-name form visible.
+- `கோபுரக் கலசம்` is retained through the image **finial atop a tower**, because the foundation/height contrast carries the political metaphor.
 - `கழகம்` remains **Kazhagam** where the movement/organization itself is rhetorically central.
 - `எட்டப்பர்கள்` is retained as **Ettappans** rather than flattened to “traitors”; the source uses the historical-cultural type-name as an accusation.
 - `மறப்போம்; மன்னிப்போம்` is translated compactly as **“Let us forget; let us forgive!”** to preserve slogan-like cadence.
 - `தாசானு தாசர்கள்` is rendered **servants of servants**, retaining the source's humiliation register.
 - `சேது` is retained as **Sethu** in the political passage because the source is referring to the Sethusamudram issue already named in scan 13.
+- Scan 15's visible source form `அளி வந்ததில்லையென்று` is not silently normalized. The English uses the direct lexical value **“mercy had never come”** rather than substituting a more contextually convenient Tamil reading.
 - The Chera/Chola/Pandya moustache imagery is translated literally enough to preserve the martial-cultural symbolism rather than rationalizing it into abstract “courage.”
 - `தன்மான உணர்வு` is rendered **spirit of self-respect**, preserving its movement-era political resonance.
+- `படியரிசி` is rendered ***padi* of rice**, retaining the traditional measure because the same quotation later contrasts it with `kilo`.
 - The rice-policy passage remains a distinct quotation in Anna's imagined voice; *Murasoli*, Maran and the one-rupee-rice formulation are kept explicit.
 
 ## Batch review
@@ -183,12 +187,13 @@ Checks:
 - source scans represented: **3/3 — scans 13, 14, 15**;
 - source order: **PASS**;
 - omissions/duplications detected in batch: **0 / 0**;
-- scan 12 → 13 continuation understood and not falsely closed at the batch boundary: **PASS**;
+- scan 12 → 13 continuation and `வறிஞன் / செல்வன்` contrast: **PASS**;
 - scan 13 → 14 memory sequence preserved: **PASS**;
 - scan 14 → 15 martial-rhetorical transition preserved: **PASS**;
 - Anna Renaissance Scheme / Salem / Sethusamudram / Classical Language references retained: **PASS**;
 - personal-loyalty and betrayal/forgiveness rhetoric retained: **PASS**;
 - Chera/Chola/Pandya imagery retained without explanatory replacement: **PASS**;
+- unusual source form `அளி` not silently corrected: **PASS**;
 - rice-policy quotation and speaker distinction preserved: **PASS**;
 - Tamil source altered to improve English: **NO**;
 - Kalaignar-language/voice review: **PASS**.
