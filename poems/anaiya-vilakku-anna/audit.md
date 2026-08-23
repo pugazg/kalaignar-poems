@@ -17,50 +17,62 @@ At the user's explicit request, the previous `poems/anaiya-vilakku-anna/` conten
 
 | Status | Count |
 |---|---:|
-| verified | 14 |
+| verified | 16 |
 | needs-review | 1 |
-| not-started | 4 |
+| not-started | 2 |
 | blocked | 0 |
 
 Verified so far:
 
 - scans 1–2 — cover/frontispiece
 - scans 4–6 — front matter photographs/title page
-- scans 7–15 — poem pages, direct glyph/full-line review
+- scans 7–17 — complete poem body, direct glyph/full-line review
 
 Needs review:
 
 - scan 3 — commemorative graphic. Bottom caption `அண்ணாவின் காலமலரில் / முரசொலியின் காணிக்கை` is verified; circular-emblem lettering remains unresolved and has not been guessed.
 
+Not started:
+
+- scan 18 — memorial/monument photograph
+- scan 19 — closing quotation/back matter
+
 ## Poem-body scope
 
-- scans 7–17: principal poem/text body
-- scans 7–15 verified
-- scans 16–17 remain
+- scans 7–17: principal poem/text body — **11/11 verified**
+- scan 16 contains the visible internal `★ ★ ★` break and printed `முடிவுரை` heading
+- scan 17 contains the conclusion, event caption and printed date `15 - 9 - 2008`
 - scans 18–19: closing visual/back matter
 
 ## Tamil transcription progress
 
-- poem scans transcribed and verified: **9 / 11**
-- remaining poem scans: **2**
+- poem scans transcribed and verified: **11 / 11 — COMPLETE**
+- remaining poem scans: **0**
 - front-matter records created: **6 / 6**
 - front-matter fully verified: **5 / 6**
-- Tamil assembly: **NOT READY**
-- English translation: **NOT READY**
+- Tamil assembly: **READY AFTER closing-source records / source-layer audit**
+- English translation: **NOT STARTED**
 
 ## Source-level corrections/rechecks
 
 Scan 7 and scan 8 were reopened after initial transcription because plausible-looking but source-incorrect readings had entered the Markdown. Those pages were rechecked directly against the scan and corrected. This reinforces the rule that semantic plausibility is never authority; the source pixels are controlling.
 
-## Scan 15 review
+## Scan 16 review
 
-- full-page plus enlarged top/middle/bottom visual review: **PASS**
-- source forms and lineation preserved without normalization: **PASS**
-- moustache imagery passage preserved directly from scan: **PASS**
-- `ஏழையின் சிரிப்பிலே இறைவனைக் காண` passage preserved: **PASS**
-- quoted one-rupee-rice passage preserved as printed: **PASS**
-- punctuation / quotation marks / hyphens / stanza spacing preserved: **PASS**
-- no printed page number inferred: **PASS**
+- visible three-star internal break preserved: **PASS**
+- printed heading `முடிவுரை` preserved as a section heading: **PASS**
+- full-line visual review: **PASS**
+- final line left open for scan 17 continuation: **PASS**
+
+## Scan 17 review
+
+- continuation from scan 16 preserved without invented bridging text: **PASS**
+- full-line visual review: **PASS**
+- concluding `மாநில சுயாட்சி; / மத்தியிலே கூட்டாட்சி!` preserved: **PASS**
+- three-star separator preserved: **PASS**
+- event caption preserved separately from poem conclusion: **PASS**
+- printed date `15 - 9 - 2008` preserved: **PASS**
+- lower photograph noted without inferred identities: **PASS**
 
 ## Source-first safeguards
 
@@ -73,4 +85,4 @@ Scan 7 and scan 8 were reopened after initial transcription because plausible-lo
 
 ## Next activity
 
-Proceed to fresh full-page glyph transcription of **scan 16**, paying particular attention to its visible internal break and preserving it exactly from the scan.
+Process **scans 18 and 19** as closing source records, then perform a source-layer audit including the unresolved scan-3 artwork lettering. Do not assemble the canonical Tamil poem or begin English translation until that source-layer review is complete.
