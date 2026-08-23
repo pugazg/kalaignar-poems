@@ -30,10 +30,10 @@ This work has been restarted from scratch from the newly supplied source PDF und
 - previous `anaiya-vilakku-anna` work: **DELETED at user request**
 - fresh source identity: **COMPLETE**
 - physical page classification: **COMPLETE — roles mapped for 19/19 scans**
-- page records created: **6 / 19**
-- verified page records: **5 / 19**
+- page records created: **7 / 19**
+- verified page records: **6 / 19**
 - needs-review page records: **1 / 19**
-- Tamil poem transcription: **NOT STARTED — scan 7 NEXT**
+- Tamil poem transcription: **IN PROGRESS — scan 7 verified (1/11 poem scans)**
 - Tamil assembly: **PENDING**
 - English translation: **PENDING**
 
@@ -45,4 +45,4 @@ The unresolved circular-emblem wording on scan 3 is deliberately held as `needs-
 
 ## Exact next step
 
-Begin fresh **glyph-first visual transcription of scan 7** directly from the supplied source. Preserve the printed header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Do not reuse the deleted old transcription as authority. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
+Proceed with fresh **glyph-first visual transcription of scan 8**, using scan 7 only for continuity checking and never as authority for unseen wording. Preserve the repeated page header, poetic lineation, punctuation, stanza spacing and visible non-text marks. Tamil assembly and English translation remain blocked until the complete Tamil source layer is verified.
