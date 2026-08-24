@@ -27,15 +27,15 @@ Current source availability:
 - page **151**: supplied separately by the user on 2026-08-23;
 - page **152**: supplied separately by the user on 2026-08-23.
 
-All **8/8 physical page images are now available**.
+All **8/8 physical page images are available**.
 
-The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** because the user has identified that description as incorrect. See `SOURCE_COMPLETENESS_REVIEW.md`.
+The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** because the user identified that description as incorrect. See `SOURCE_COMPLETENESS_REVIEW.md`.
 
 ## Verification recovery
 
-A user spot-check of scan 145 exposed multiple transcription errors that had survived both page verification and the later full-range audit. Therefore the earlier `verified` and `PASS` claims were withdrawn for scans 145–150.
+A user spot-check of scan 145 exposed multiple transcription errors that had survived both page verification and the later full-range audit. Therefore the earlier `verified` and `PASS` claims were withdrawn for scans 145–150 and each affected page was reprocessed source-first.
 
-Scans **145–151** have now been processed under the replacement source-first recovery protocol and are **VERIFIED** after fresh high-resolution reading, a second enlarged glyph/punctuation pass, and direct source confirmation of every retained unusual form. Scan 151 was a true blank-buffer first transcription because no canonical page text previously existed.
+Scans **145–152** have now completed page-level source-first verification. Pages 151–152 were true blank-buffer first transcriptions because no canonical text previously existed for them.
 
 Recovery findings include:
 
@@ -45,16 +45,16 @@ Recovery findings include:
 - scan 148: `பாடுபட்டாமல்` → `பாடுபடாமல்`; `பதினுபிரம்` → `பதினாயிரம்`; `போனுள்தானென்ன` → `போனால்தானென்ன`; six-dot `விட்டணன்......` → source-visible five-dot `விட்டணன்.....`; `இலங்கையமா` → `இலங்கைமா`; `சூழ்ச்சியிலே` → `சூழ்ச்சியினில்`;
 - scan 149: `விபீஷண!` → `விபீஷணு!`; `உடை வாளைப் போலப்` → `உடை வாளிப் போலப்`; `நின்றான்,` → `நின்றுன்,`; long dash in `பயனில்லை—பாழாகும்` → source-visible short hyphen `பயனில்லை-பாழாகும்`; `நடைகட்டு` → `நடை கட்டு`;
 - scan 150: `அவரை நத்திக் கிடப்போர்;` → `அவரை நத்திக் கிடப்போர்,`; `ஆரணயம்` → `ஆரண்யம்`;
-- scan 151: first source-first transcription completed; difficult readings directly rechecked include `அம்புவில்லில் பெட்டா என்று`, `கரும்போ உயிரென்று`, `ஆண்டெனச்`, `சேனைதனை`, `பூண்களே`, `போர்க் கண்ணையை`, and stamp-affected `கோடையிலே அதிர்கின்ற இடிதானோ? எனப்`.
+- scan 151: first source-first transcription completed; difficult readings directly rechecked include `அம்புவில்லில் பெட்டா என்று`, `கரும்போ உயிரென்று`, `ஆண்டெனச்`, `சேனைதனை`, `பூண்களே`, `போர்க் கண்ணையை`, and stamp-affected `கோடையிலே அதிர்கின்ற இடிதானோ? எனப்`;
+- scan 152: first source-first transcription completed; unusual source forms directly rechecked include `கண வெடித் தள்ளி`, `இன்னலிலே`, `குறுவளி`, `வீடணன்`, `பணமரத்`, `தாலுடையான்`, source-spaced `மாந்தர் !`, and the terminal `★`.
 
 Current status:
 
-- scans **145–151**: `verified` under the source-first recovery protocol;
-- scan **152**: `not-started`;
-- verified pages: **7/8**;
+- scans **145–152**: `verified` at page level under the source-first recovery protocol;
+- verified pages: **8/8**;
 - physical source availability: **COMPLETE — 8/8 page images present**;
-- Tamil transcription verification: **IN RECOVERY — one page remains**;
-- Tamil assembly: **BLOCKED**;
+- page-level Tamil transcription: **COMPLETE**;
+- Tamil assembly: **BLOCKED pending one final full-range continuity/transcription audit**;
 - English translation: **BLOCKED**.
 
 See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented failure analysis and recovery policy.
@@ -63,10 +63,10 @@ See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented failur
 
 Source pixels are controlling. Do not normalize Tamil, preserve a plausible earlier reading merely because it already exists in the repository, or use semantic expectation to repair faint glyphs.
 
-For scan **152**, which has not yet been transcribed, each line must first be transcribed **blindly from the supplied scan** before any comparison or interpretation.
+The completed page-level verification is not itself permission to assemble the poem. Because the earlier audit process failed, one final 145–152 continuity/transcription audit is required across all eight verified page records before assembly.
 
 ## Exact next step
 
-Transcribe **scan 152 from scratch** from the user-supplied one-page source, then perform a second glyph-level comparison of every visible character, suffix, punctuation mark, separator, stamp-affected reading and line break.
+Perform a **full continuity/transcription audit of scans 145–152**. Recheck all seven page joins, lineation, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
 
-Do not assemble the Tamil poem or begin English translation until scan 152 is independently complete and the full 145–152 continuity has been checked.
+Only after that audit passes may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
