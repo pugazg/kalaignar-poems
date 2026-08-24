@@ -8,12 +8,12 @@
 | 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `பாடுபடாமல்`, `பதினாயிரம்`, `போனால்தானென்ன`, five-dot `விட்டணன்.....`, `இலங்கைமா`, and `சூழ்ச்சியினில்`; stamp overlap and joins rechecked |
 | 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `விபீஷணு`, `வாளிப் போலப்`, `நின்றுன்`, source short hyphen in `பயனில்லை-பாழாகும்`, and spacing `நடை கட்டு`; three separators, stamp overlap and both joins rechecked |
 | 150 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh 600-dpi + native-image source recovery complete; corrected `கிடப்போர்;` → `கிடப்போர்,` and `ஆரணயம்` → `ஆரண்யம்`; unusual source forms and stamp-affected lines directly rechecked; 149→150 and 150→151 joins checked |
-| 151 | user-supplied one-page PDF | — | illustrated poem continuation | not-started | supplied 2026-08-23; source record `pages/0151.md`; transcription not started |
+| 151 | user-supplied one-page PDF | — | illustrated poem continuation | verified | fresh blank-buffer source-first transcription from 600-dpi + native image; second glyph/punctuation pass complete; unusual forms including `அம்புவில்லில் பெட்டா என்று`, `கரும்போ உயிரென்று`, `ஆண்டெனச்`, `பூண்களே`, and stamp-affected lower-right lines directly rechecked; 150→151 and 151→152 joins checked |
 | 152 | user-supplied one-page PDF | — | illustrated poem continuation / terminal page in user-confirmed range | not-started | supplied 2026-08-23; source record `pages/0152.md`; transcription not started |
 
 ## Correct work range
 
-The user confirms **145–152** as the poem's page range. The two terminal page images 151 and 152 are now supplied directly and visibly continue the same illustrated poem sequence.
+The user confirms **145–152** as the poem's page range. The two terminal page images 151 and 152 are supplied directly and visibly continue the same illustrated poem sequence.
 
 The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** and is not used for page boundaries.
 
@@ -21,18 +21,18 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 A scan-145 spot-check demonstrated that the previous `verified` and full-range `PASS` labels were unreliable. All earlier page-verification claims were therefore withdrawn and pages are being restored only after a replacement source-first recovery pass.
 
-Scans **145–150** have now completed recovery:
+Scans **145–151** have now completed that process:
 
-1. fresh high-resolution source rereading rather than trusting the old transcription;
+1. fresh high-resolution source reading, with blank-buffer first transcription for not-yet-transcribed pages;
 2. second enlarged glyph/punctuation comparison of every visible line;
-3. source-backed discrepancies corrected before restoring `verified`;
-4. unusual forms retained only where the pixels directly support them.
+3. source-backed discrepancies corrected before assigning or restoring `verified`;
+4. unusual forms retained only where source pixels directly support them.
 
 Current status:
 
-- verified: **6/8** — pages 145–150;
+- verified: **7/8** — pages 145–151;
 - needs-review: **0/8**;
-- not-started: **2/8** — pages 151–152;
+- not-started: **1/8** — page 152;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **blocked**;
 - English translation: **blocked**.
@@ -41,6 +41,6 @@ See `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented fai
 
 ## Recovery order
 
-Continue sequentially **151 → 152**, starting each page with a blank source-first transcription before comparing against any later working text.
+The sole remaining page activity is **scan 152**, which must be transcribed from scratch from the supplied source image and independently glyph-checked before verification.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
