@@ -55,10 +55,10 @@ Required recovery policy:
 
 - each affected scan must be reopened and redone independently;
 - scans **151–152**, now supplied by the user, remain `not-started` until separately transcribed;
-- the recovery pass must be a **blind source-first transcription from a blank working buffer**, one full line at a time;
+- first-transcription work must be a **blind source-first transcription from a blank working buffer**, one full line at a time;
 - every line must receive a second glyph-level comparison before it can return to `verified`;
 - suffixes, compact clusters, punctuation, separators and line-end continuations must each be checked explicitly;
-- earlier repository text may be used only **after** a blind reading, as a diff target—not as a reading aid.
+- earlier repository text may be used only as a diff target, never as authority over source pixels.
 
 ## Recovery progress — scan 145
 
@@ -121,7 +121,7 @@ The pass independently reconfirmed `மரபினிலே`, `விறகொ�
 
 ## Recovery progress — scan 149
 
-Scan **149** has now completed the same blank-buffer recovery protocol and is **VERIFIED**.
+Scan **149** has completed the same blank-buffer recovery protocol and is **VERIFIED**.
 
 A fresh **600-dpi** render and the native embedded page image were read before the provisional repository transcription was consulted. A second enlarged review covered both columns, punctuation, quotation marks, compact clusters, all three `★` separators, the circular stamp/library-mark overlap, and the 148→149 / 149→150 joins.
 
@@ -135,7 +135,20 @@ The recovery diff exposed five source-backed errors that had survived the former
 
 The pass independently reconfirmed unusual source-visible readings already present in the provisional record, including `என்றுன்!`, `நின்றுன்—`, `சென்றுன்,`, `ஜடை கட்டி`, `அறுத் தெறியாமல்`, `பிடியே!.....`, and `இன்றிகத்`.
 
-The recovered verification status therefore currently applies to scans **145–149**. Scan **150** remains reopened until it undergoes the same blank-buffer procedure.
+## Recovery progress — scan 150
+
+Scan **150** has now completed a fresh high-resolution source recovery and is **VERIFIED**.
+
+A fresh **600-dpi** render and the native embedded page image were used to reread every visible line directly. The current page record had been loaded to establish repository state, but provisional wording was not accepted unless the source pixels directly confirmed it. A second enlarged pass covered both columns, punctuation, unusual word forms, the circular stamp/library-mark overlap, and the 149→150 / 150→151 joins.
+
+The recovery comparison exposed two source-backed errors that had survived the former verification cycle:
+
+- `அவரை நத்திக் கிடப்போர்;` → **`அவரை நத்திக் கிடப்போர்,`**;
+- `ஆரணயம் ஓடிவந்த இராமன்,` → **`ஆரண்யம் ஓடிவந்த இராமன்,`**.
+
+The pass independently reconfirmed unusual source-visible readings already present in the provisional record, including `எதிர்க்கின்றூர்`, `பென்றால்`, `போடுகின்றூர்`, `தீப்பந்தனைய`, `பூப்பந்தனைய`, `யாப்புணையும்`, `கோப் பெருந்தேவியவள்`, and `தந்தோன் !`. Scan 150 contains no visible `★`; its final visible line is `கட்டி!`, and the user-supplied scan 151 continues the poem on the following page.
+
+The recovered verification status therefore currently applies to scans **145–150**. Scans **151–152** remain `not-started` and must be transcribed independently from their supplied source images.
 
 ## Source-range correction
 
@@ -145,4 +158,6 @@ Therefore the Karuvoolam description must not be used to determine this poem's b
 
 ## Exact next activity
 
-Redo **scan 150 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 150 be marked `verified` again. Then repeat the same process sequentially for 151–152.
+Transcribe **scan 151 from scratch** from the user-supplied one-page source. Use a blank source-first transcription and a second independent glyph-level comparison before assigning any verification status.
+
+Do not begin scan 152 until scan 151 is independently complete.
