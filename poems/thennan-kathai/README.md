@@ -35,7 +35,7 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 A user spot-check of scan 145 exposed multiple transcription errors that had survived both page verification and the later full-range audit. Therefore the earlier `verified` and `PASS` claims were withdrawn for scans 145–150.
 
-Scans **145–150** have now been redone under the replacement source-first recovery protocol and are **VERIFIED** after fresh high-resolution rereading, a second enlarged glyph/punctuation pass, and direct source confirmation of every retained unusual form.
+Scans **145–151** have now been processed under the replacement source-first recovery protocol and are **VERIFIED** after fresh high-resolution reading, a second enlarged glyph/punctuation pass, and direct source confirmation of every retained unusual form. Scan 151 was a true blank-buffer first transcription because no canonical page text previously existed.
 
 Recovery findings include:
 
@@ -44,15 +44,16 @@ Recovery findings include:
 - scan 147: `விலையாக` → `விலையாகக்`; both `முத்துகை` occurrences → `முத்துநகை`; `குத்திரியாச்` → `சுத்திரியாச்`; `குர்ப்பனகை` → `சூர்ப்பனகை`; `மாடொன்று` → `மானொன்று`; `முத்தவனும்` → `மூத்தவனும்`; `என்ன உனக்குத்` → `என்னை உனக்குத்`;
 - scan 148: `பாடுபட்டாமல்` → `பாடுபடாமல்`; `பதினுபிரம்` → `பதினாயிரம்`; `போனுள்தானென்ன` → `போனால்தானென்ன`; six-dot `விட்டணன்......` → source-visible five-dot `விட்டணன்.....`; `இலங்கையமா` → `இலங்கைமா`; `சூழ்ச்சியிலே` → `சூழ்ச்சியினில்`;
 - scan 149: `விபீஷண!` → `விபீஷணு!`; `உடை வாளைப் போலப்` → `உடை வாளிப் போலப்`; `நின்றான்,` → `நின்றுன்,`; long dash in `பயனில்லை—பாழாகும்` → source-visible short hyphen `பயனில்லை-பாழாகும்`; `நடைகட்டு` → `நடை கட்டு`;
-- scan 150: `அவரை நத்திக் கிடப்போர்;` → `அவரை நத்திக் கிடப்போர்,`; `ஆரணயம்` → `ஆரண்யம்`.
+- scan 150: `அவரை நத்திக் கிடப்போர்;` → `அவரை நத்திக் கிடப்போர்,`; `ஆரணயம்` → `ஆரண்யம்`;
+- scan 151: first source-first transcription completed; difficult readings directly rechecked include `அம்புவில்லில் பெட்டா என்று`, `கரும்போ உயிரென்று`, `ஆண்டெனச்`, `சேனைதனை`, `பூண்களே`, `போர்க் கண்ணையை`, and stamp-affected `கோடையிலே அதிர்கின்ற இடிதானோ? எனப்`.
 
 Current status:
 
-- scans **145–150**: `verified` under the recovery protocol;
-- scans **151–152**: `not-started`;
-- verified pages: **6/8**;
+- scans **145–151**: `verified` under the source-first recovery protocol;
+- scan **152**: `not-started`;
+- verified pages: **7/8**;
 - physical source availability: **COMPLETE — 8/8 page images present**;
-- Tamil transcription verification: **IN RECOVERY**;
+- Tamil transcription verification: **IN RECOVERY — one page remains**;
 - Tamil assembly: **BLOCKED**;
 - English translation: **BLOCKED**.
 
@@ -62,10 +63,10 @@ See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented failur
 
 Source pixels are controlling. Do not normalize Tamil, preserve a plausible earlier reading merely because it already exists in the repository, or use semantic expectation to repair faint glyphs.
 
-For scans **151–152**, which have not yet been transcribed, each line must first be transcribed **blindly from the supplied scan** before any comparison or interpretation.
+For scan **152**, which has not yet been transcribed, each line must first be transcribed **blindly from the supplied scan** before any comparison or interpretation.
 
 ## Exact next step
 
-Transcribe **scan 151 from scratch** from the user-supplied one-page source, then perform a second glyph-level comparison of every visible character, suffix, punctuation mark, separator, stamp-affected reading and line break.
+Transcribe **scan 152 from scratch** from the user-supplied one-page source, then perform a second glyph-level comparison of every visible character, suffix, punctuation mark, separator, stamp-affected reading and line break.
 
-Do not start scan 152 until scan 151 is independently complete.
+Do not assemble the Tamil poem or begin English translation until scan 152 is independently complete and the full 145–152 continuity has been checked.
