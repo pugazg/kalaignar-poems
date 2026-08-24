@@ -51,12 +51,12 @@ A user spot-check of scan 145 exposed multiple transcription errors that had sur
 
 | Status | Count |
 |---|---:|
-| verified | 6 |
+| verified | 7 |
 | needs-review | 0 |
-| not-started | 2 |
+| not-started | 1 |
 
-- pages **145–150**: `verified` under the replacement recovery process;
-- pages **151–152**: `not-started`;
+- pages **145–151**: `verified` under the replacement source-first process;
+- page **152**: `not-started`;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **BLOCKED**;
 - English translation: **BLOCKED**.
@@ -83,7 +83,7 @@ Additional source-backed corrections found during the failure review:
 
 - `போதை ஏறிக்` → `போதையேறிக்`;
 - `உருவில் சிங்கம்.` → `உருவில் சிங்கம்,`;
-- the inserted dash in `மாடுகள், ஆடுகள்—மனிதர்கள்` was removed; source reads `மாடுகளை, ஆடுகளை மனிதர்களை வெட்டிப் பிண`.
+- the earlier inserted em dash in `மாடுகள், ஆடுகள்—மனிதர்கள்` is not source-backed; the source line reads `மாடுகளை, ஆடுகளை மனிதர்களை வெட்டிப் பிண`.
 
 See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the detailed root-cause analysis.
 
@@ -242,6 +242,25 @@ Explicit structure/punctuation checks:
 
 Result: **scan 150 VERIFIED under the recovery process.**
 
+## Scan 151 — fresh first-transcription audit — PASS
+
+Scan 151 was transcribed **from scratch** from the user-supplied one-page PDF. A fresh **600-dpi** render and the native embedded scan image were read source-first without importing OCR or catalogue text. A second enlarged pass then checked every visible line in both columns, word-final forms, punctuation, line breaks, the circular stamp/library-mark overlap in the lower-right text, and the 150→151 / 151→152 joins.
+
+Difficult or unusual source-visible readings directly rechecked include `முள்ளம் பன்றிக்குப் பழி தீர்த்துத் திரும்பிடு / வோம்!”`, the source line break `முதுகுன்றத் தோளுடை / யோன்!`, `அம்புவில்லில் பெட்டா என்று`, `கரும்போ உயிரென்று`, `ஆண்டெனச் சாய்ந்துவிட்ட`, `சேனைதனை நடத்தி வந்த`, `பூண்களே!....`, `போர்க் கண்ணையை!`, and the stamp-affected lower-right lines beginning `கோடையிலே அதிர்கின்ற இடிதானோ? எனப்`.
+
+Explicit structure/punctuation checks:
+
+- scan 150 ending `கட்டி!` → scan 151 opening `அந்த யாழ் மீட்டும் பாணனுக்கு, சீதையெனும்` — PASS;
+- the carried speech closes after `வோம்!”` — PASS;
+- no visible `★` separator on scan 151 — PASS;
+- the small printed mark following `தமிழ் பறக்கப்` is a non-text printer/graphic mark and is not transcribed as a separator;
+- left-column then right-column reading sequence — PASS;
+- later circular stamp/library mark overlaps lower-right verse; affected readings were checked from enlarged render/native pixels rather than reconstructed semantically;
+- final visible line `கால்பட்ட பிடரியுடன் கயவர்களும் மறைந்துபோனார்` has no added terminal punctuation — PASS;
+- scan 152 was inspected only at its opening to confirm continuity beginning `ஒழிந்ததடா பகையென்று, நகை முழக்கம்`; no scan-152 body was transcribed.
+
+Result: **scan 151 VERIFIED under the source-first process.**
+
 ## Where the previous process failed
 
 The failure pattern remains documented as procedural:
@@ -271,14 +290,14 @@ This supersedes the earlier `SOURCE_COMPLETENESS_REVIEW.md` conclusion that depe
 ## Readiness
 
 - physical page images: **COMPLETE — 8/8**
-- verified transcription: **6/8**
-- pages needing re-audit: **none among 145–150**
-- pages awaiting first transcription: **151–152**
+- verified transcription: **7/8**
+- pages needing re-audit: **none among 145–151**
+- pages awaiting first transcription: **152 only**
 - Tamil assembly: **BLOCKED**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Transcribe **scan 151 from scratch** from the user-supplied one-page source using a blank source-first transcription and a second independent glyph-level comparison.
+Transcribe **scan 152 from scratch** from the user-supplied one-page source using a blank source-first transcription and a second independent glyph-level comparison.
 
-Do not begin scan 152 until scan 151 is independently complete.
+Do not assemble the poem or begin translation until scan 152 has independently completed verification.
