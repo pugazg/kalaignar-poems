@@ -54,7 +54,7 @@ The earlier `verified`/`PASS` claims for scans 145–150 are **withdrawn**. They
 Required recovery policy:
 
 - each affected scan must be reopened and redone independently;
-- scans **151–152**, now supplied by the user, remain `not-started` until separately transcribed;
+- scans **151–152**, supplied later by the user, must be independently transcribed from their own source images;
 - first-transcription work must be a **blind source-first transcription from a blank working buffer**, one full line at a time;
 - every line must receive a second glyph-level comparison before it can return to `verified`;
 - suffixes, compact clusters, punctuation, separators and line-end continuations must each be checked explicitly;
@@ -137,7 +137,7 @@ The pass independently reconfirmed unusual source-visible readings already prese
 
 ## Recovery progress — scan 150
 
-Scan **150** has now completed a fresh high-resolution source recovery and is **VERIFIED**.
+Scan **150** has completed a fresh high-resolution source recovery and is **VERIFIED**.
 
 A fresh **600-dpi** render and the native embedded page image were used to reread every visible line directly. The current page record had been loaded to establish repository state, but provisional wording was not accepted unless the source pixels directly confirmed it. A second enlarged pass covered both columns, punctuation, unusual word forms, the circular stamp/library-mark overlap, and the 149→150 / 150→151 joins.
 
@@ -148,7 +148,28 @@ The recovery comparison exposed two source-backed errors that had survived the f
 
 The pass independently reconfirmed unusual source-visible readings already present in the provisional record, including `எதிர்க்கின்றூர்`, `பென்றால்`, `போடுகின்றூர்`, `தீப்பந்தனைய`, `பூப்பந்தனைய`, `யாப்புணையும்`, `கோப் பெருந்தேவியவள்`, and `தந்தோன் !`. Scan 150 contains no visible `★`; its final visible line is `கட்டி!`, and the user-supplied scan 151 continues the poem on the following page.
 
-The recovered verification status therefore currently applies to scans **145–150**. Scans **151–152** remain `not-started` and must be transcribed independently from their supplied source images.
+## Recovery progress — scan 151
+
+Scan **151** has now completed its first source-first transcription and verification and is **VERIFIED**.
+
+The user-supplied one-page PDF was transcribed from a blank working buffer using a fresh **600-dpi** render and the native embedded scan image. A second enlarged review covered both columns, punctuation, compact clusters, the circular stamp/library-mark overlap in the lower-right verse, and the 150→151 / 151→152 joins.
+
+Source-visible readings explicitly rechecked include:
+
+- `முள்ளம் பன்றிக்குப் பழி தீர்த்துத் திரும்பிடு / வோம்!”`;
+- `முதுகுன்றத் தோளுடை / யோன்!`;
+- `அம்புவில்லில் பெட்டா என்று`;
+- `கரும்போ உயிரென்று`;
+- `ஆண்டெனச் சாய்ந்துவிட்ட`;
+- `சேனைதனை நடத்தி வந்த`;
+- `பூண்களே!....`;
+- `போர்க் கண்ணையை!`;
+- `வேல்பட்ட புலி போல—விடுபட்ட கண்போல—`;
+- final `கால்பட்ட பிடரியுடன் கயவர்களும் மறைந்துபோனார்` with no added terminal punctuation.
+
+No visible `★` separator occurs on scan 151. The small mark after `தமிழ் பறக்கப்` was checked and treated as a non-text printer/graphic mark. Scan 152 was inspected only at its opening for boundary continuity; its body was not transcribed.
+
+The recovered/verified status therefore currently applies to scans **145–151**. Scan **152** remains `not-started` and must be independently transcribed from its supplied source image.
 
 ## Source-range correction
 
@@ -158,6 +179,6 @@ Therefore the Karuvoolam description must not be used to determine this poem's b
 
 ## Exact next activity
 
-Transcribe **scan 151 from scratch** from the user-supplied one-page source. Use a blank source-first transcription and a second independent glyph-level comparison before assigning any verification status.
+Transcribe **scan 152 from scratch** from the user-supplied one-page source. Use a blank source-first transcription and a second independent glyph-level comparison before assigning verification.
 
-Do not begin scan 152 until scan 151 is independently complete.
+Do not assemble the Tamil poem or begin translation until scan 152 has independently completed verification.
