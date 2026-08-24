@@ -35,21 +35,22 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 A user spot-check of scan 145 exposed multiple transcription errors that had survived both page verification and the later full-range audit. Therefore the earlier `verified` and `PASS` claims were withdrawn for scans 145–150.
 
-Scans **145–148** have now been redone under the replacement recovery protocol and are **VERIFIED** after blank-buffer source-first retranscription, a second enlarged glyph/punctuation pass, and comparison with repository text only after the independent source reading.
+Scans **145–149** have now been redone under the replacement recovery protocol and are **VERIFIED** after blank-buffer source-first retranscription, a second enlarged glyph/punctuation pass, and comparison with repository text only after the independent source reading.
 
 Recovery findings include:
 
 - scan 145: numerous user-demonstrated source corrections plus additional spacing/punctuation corrections;
 - scan 146: `மண்பாளும்` → `மணையாளும்`; `கைகாரி` → `கைக்காரி`;
 - scan 147: `விலையாக` → `விலையாகக்`; both `முத்துகை` occurrences → `முத்துநகை`; `குத்திரியாச்` → `சுத்திரியாச்`; `குர்ப்பனகை` → `சூர்ப்பனகை`; `மாடொன்று` → `மானொன்று`; `முத்தவனும்` → `மூத்தவனும்`; `என்ன உனக்குத்` → `என்னை உனக்குத்`;
-- scan 148: `பாடுபட்டாமல்` → `பாடுபடாமல்`; `பதினுபிரம்` → `பதினாயிரம்`; `போனுள்தானென்ன` → `போனால்தானென்ன`; six-dot `விட்டணன்......` → source-visible five-dot `விட்டணன்.....`; `இலங்கையமா` → `இலங்கைமா`; `சூழ்ச்சியிலே` → `சூழ்ச்சியினில்`.
+- scan 148: `பாடுபட்டாமல்` → `பாடுபடாமல்`; `பதினுபிரம்` → `பதினாயிரம்`; `போனுள்தானென்ன` → `போனால்தானென்ன`; six-dot `விட்டணன்......` → source-visible five-dot `விட்டணன்.....`; `இலங்கையமா` → `இலங்கைமா`; `சூழ்ச்சியிலே` → `சூழ்ச்சியினில்`;
+- scan 149: `விபீஷண!` → `விபீஷணு!`; `உடை வாளைப் போலப்` → `உடை வாளிப் போலப்`; `நின்றான்,` → `நின்றுன்,`; long dash in `பயனில்லை—பாழாகும்` → source-visible short hyphen `பயனில்லை-பாழாகும்`; `நடைகட்டு` → `நடை கட்டு`.
 
 Current status:
 
-- scans **145–148**: `verified` under the recovery protocol;
-- scans **149–150**: `needs-review` — previous text retained only as provisional comparison material;
+- scans **145–149**: `verified` under the recovery protocol;
+- scan **150**: `needs-review` — previous text retained only as provisional comparison material;
 - scans **151–152**: `not-started`;
-- verified pages: **4/8**;
+- verified pages: **5/8**;
 - physical source availability: **COMPLETE — 8/8 page images present**;
 - Tamil transcription verification: **IN RECOVERY**;
 - Tamil assembly: **BLOCKED**;
@@ -65,6 +66,6 @@ For the recovery pass, each line must first be transcribed **blindly from the sc
 
 ## Exact next step
 
-Redo **scan 149 from scratch** using a blank working transcription, then perform a second glyph-level comparison of every visible character, suffix, punctuation mark, separator, stamp-affected reading and line break.
+Redo **scan 150 from scratch** using a blank working transcription, then perform a second glyph-level comparison of every visible character, suffix, punctuation mark, separator, stamp-affected reading and line break.
 
-Do not treat the former scan-149 `verified` state as evidence. Only the newly demonstrated source reading can restore verification.
+Do not treat the former scan-150 `verified` state as evidence. Only the newly demonstrated source reading can restore verification.
