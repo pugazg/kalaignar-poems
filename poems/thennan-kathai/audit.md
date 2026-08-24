@@ -35,7 +35,7 @@ This is contextual metadata only and is not imported into the poem body.
 - SHA-256: `1d1b52abd203ddaf690e659874ba58fa4344539648f1b6bfa7c66ac408c2206a`
 - supplied: **2026-08-23**
 
-The user confirms pages **145–152** as the poem. The two terminal page images visibly continue the illustrated poem beyond page 150.
+The user confirms pages **145–152** as the poem. The two terminal page images visibly continue the illustrated poem beyond page 150 through the terminal `★` on scan 152.
 
 The earlier Kalaignar Karuvoolam description/page-range inference is **superseded as incorrect** and is not used for this work's boundaries.
 
@@ -43,7 +43,7 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 The earlier repository state marked scans 145–150 `verified` and later recorded a full available-range audit as `PASS`.
 
-That conclusion remains **withdrawn for the old verification cycle**. Pages are restored to `verified` only after the replacement source-first recovery process.
+That conclusion remains **withdrawn for the old verification cycle**. Pages were restored to `verified` only after the replacement source-first recovery process.
 
 A user spot-check of scan 145 exposed multiple transcription errors that had survived both earlier page verification and the later audit. The error density on one page proved that the prior method was not sufficiently independent or glyph-first.
 
@@ -51,14 +51,14 @@ A user spot-check of scan 145 exposed multiple transcription errors that had sur
 
 | Status | Count |
 |---|---:|
-| verified | 7 |
+| verified | 8 |
 | needs-review | 0 |
-| not-started | 1 |
+| not-started | 0 |
 
-- pages **145–151**: `verified` under the replacement source-first process;
-- page **152**: `not-started`;
+- pages **145–152**: `verified` at page level under the replacement source-first process;
 - physical page-image availability: **8/8 complete**;
-- Tamil assembly: **BLOCKED**;
+- page-level Tamil transcription: **COMPLETE**;
+- Tamil assembly: **BLOCKED pending final full-range continuity/transcription audit**;
 - English translation: **BLOCKED**.
 
 ## Scan 145 — failure corrections established during reopening
@@ -257,9 +257,38 @@ Explicit structure/punctuation checks:
 - left-column then right-column reading sequence — PASS;
 - later circular stamp/library mark overlaps lower-right verse; affected readings were checked from enlarged render/native pixels rather than reconstructed semantically;
 - final visible line `கால்பட்ட பிடரியுடன் கயவர்களும் மறைந்துபோனார்` has no added terminal punctuation — PASS;
-- scan 152 was inspected only at its opening to confirm continuity beginning `ஒழிந்ததடா பகையென்று, நகை முழக்கம்`; no scan-152 body was transcribed.
+- scan 152 was inspected only at its opening to confirm continuity beginning `ஒழிந்ததடா பகையென்று, நகை முழக்கம்`; no scan-152 body was transcribed during the scan-151 activity.
 
 Result: **scan 151 VERIFIED under the source-first process.**
+
+## Scan 152 — fresh first-transcription audit — PASS
+
+Scan 152 was transcribed **from scratch** from the user-supplied terminal one-page PDF. Its native embedded source is a **2132×2902, 300-ppi** scan. The page was read directly from that native image and enlarged crops without importing OCR, catalogue text, or any prior transcription. A second complete glyph/punctuation pass then rechecked both columns and the terminal region.
+
+Difficult or unusual source-visible readings directly rechecked include:
+
+- `மார்பினிலே பட்ட கண வெடித் தள்ளி,`;
+- `ஒடுதற்கு வழியின்றிச் சிக்கிவிட்ட இராமன் கூட்டம்`;
+- `தேடுதற்கும் தசையின்றிப் பஞ்சாய்ப் போகும்!...`;
+- `இன்னலிலே மாட்டிவிட்ட உங்களுக்கு-இந்த` with a source short hyphen;
+- `குறுவளி தனையும் சூழ்ந்தெதிர்க்கும்`;
+- `கனி சுவைக்கும் வீடணன் கண்டு விட்டான்!`;
+- `ஈட்டியொன்று அவன் கையில்!....எறிந்து`;
+- `மலைப்பாறை முதுகினிலே, ஊடுருவி, மார்பகத் / —தில் தல நீட்டிக்`;
+- `பணமரத் தோளுடையான்—கையிலே`;
+- `பார்ப்பனரின் தாலுடையான்—`;
+- source-spaced final `இலங்கை மாந்தர் !`.
+
+Explicit structure/punctuation checks:
+
+- scan 151 ending `கால்பட்ட பிடரியுடன் கயவர்களும் மறைந்துபோனார்` → scan 152 opening `ஒழிந்ததடா பகையென்று, நகை முழக்கம்` — PASS;
+- left-column then right-column reading sequence — PASS;
+- `—விட்டான்!`, `—தில் தல நீட்டிக்`, and `—கண்ணீர் கொட்டும்!` preserve source-visible line-initial long dashes — PASS;
+- quote opens at `“எனக் கொன்றவன் என் தம்பி,` and closes at `சாகின்றேன்”` — PASS;
+- one visible terminal `★` follows the final verse — PASS;
+- no verse was inferred after that `★`.
+
+Result: **scan 152 VERIFIED under the source-first process.**
 
 ## Where the previous process failed
 
@@ -290,14 +319,14 @@ This supersedes the earlier `SOURCE_COMPLETENESS_REVIEW.md` conclusion that depe
 ## Readiness
 
 - physical page images: **COMPLETE — 8/8**
-- verified transcription: **7/8**
-- pages needing re-audit: **none among 145–151**
-- pages awaiting first transcription: **152 only**
-- Tamil assembly: **BLOCKED**
+- verified page-level transcription: **8/8**
+- pages needing page-level recovery: **none**
+- final full-range continuity/transcription audit: **PENDING**
+- Tamil assembly: **BLOCKED pending that audit**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Transcribe **scan 152 from scratch** from the user-supplied one-page source using a blank source-first transcription and a second independent glyph-level comparison.
+Perform a **full continuity/transcription audit across scans 145–152** against the controlling source pixels. Recheck all seven page joins, lineation, punctuation, separators, quote carry-over, and every stamp-affected reading.
 
-Do not assemble the poem or begin translation until scan 152 has independently completed verification.
+Do not assemble the Tamil poem or begin translation until that final full-range audit passes.
