@@ -62,7 +62,7 @@ Required recovery policy:
 
 ## Recovery progress — scan 145
 
-Scan **145** has completed the replacement recovery protocol and is again **VERIFIED**.
+Scan **145** completed the replacement recovery protocol and is **VERIFIED**.
 
 The page was freshly rendered at high resolution and retranscribed source-first before comparison with the repository record. A second enlarged pass checked every visible line, punctuation mark, suffix, separator and the continuation into scan 146.
 
@@ -72,7 +72,7 @@ The recovery pass independently confirmed all source-backed corrections listed a
 
 ## Recovery progress — scan 146
 
-Scan **146** has also completed the replacement recovery protocol and is **VERIFIED**.
+Scan **146** completed the replacement recovery protocol and is **VERIFIED**.
 
 A fresh **600-dpi** render was read from a blank working buffer before opening the provisional repository transcription. A second enlarged pass checked both columns, punctuation, the single `★`, the circular stamp/library-mark overlap, and both page joins.
 
@@ -85,7 +85,7 @@ The pass also independently rechecked the existing source-backed readings `உ�
 
 ## Recovery progress — scan 147
 
-Scan **147** has completed the same blank-buffer recovery protocol and is **VERIFIED**.
+Scan **147** completed the same blank-buffer recovery protocol and is **VERIFIED**.
 
 A fresh **600-dpi** render was transcribed before the provisional repository text was consulted. A second enlarged review covered both columns, the single `★`, quotation marks, compact clusters, the later circular stamp/library-mark overlap, and the 146→147 / 147→148 joins.
 
@@ -104,7 +104,7 @@ The pass independently reconfirmed the previously corrected readings `பாங�
 
 ## Recovery progress — scan 148
 
-Scan **148** has completed the same blank-buffer recovery protocol and is **VERIFIED**.
+Scan **148** completed the same blank-buffer recovery protocol and is **VERIFIED**.
 
 A fresh **600-dpi** render and the native embedded page image were read before the provisional repository transcription was consulted. A second enlarged review covered both columns, punctuation, quotation marks, compact clusters, the single `★`, the circular stamp/library-mark overlap, and the 147→148 / 148→149 joins.
 
@@ -121,7 +121,7 @@ The pass independently reconfirmed `மரபினிலே`, `விறகொ�
 
 ## Recovery progress — scan 149
 
-Scan **149** has completed the same blank-buffer recovery protocol and is **VERIFIED**.
+Scan **149** completed the same blank-buffer recovery protocol and is **VERIFIED**.
 
 A fresh **600-dpi** render and the native embedded page image were read before the provisional repository transcription was consulted. A second enlarged review covered both columns, punctuation, quotation marks, compact clusters, all three `★` separators, the circular stamp/library-mark overlap, and the 148→149 / 149→150 joins.
 
@@ -137,7 +137,7 @@ The pass independently reconfirmed unusual source-visible readings already prese
 
 ## Recovery progress — scan 150
 
-Scan **150** has completed a fresh high-resolution source recovery and is **VERIFIED**.
+Scan **150** completed a fresh high-resolution source recovery and is **VERIFIED**.
 
 A fresh **600-dpi** render and the native embedded page image were used to reread every visible line directly. The current page record had been loaded to establish repository state, but provisional wording was not accepted unless the source pixels directly confirmed it. A second enlarged pass covered both columns, punctuation, unusual word forms, the circular stamp/library-mark overlap, and the 149→150 / 150→151 joins.
 
@@ -150,7 +150,7 @@ The pass independently reconfirmed unusual source-visible readings already prese
 
 ## Recovery progress — scan 151
 
-Scan **151** has now completed its first source-first transcription and verification and is **VERIFIED**.
+Scan **151** completed its first source-first transcription and verification and is **VERIFIED**.
 
 The user-supplied one-page PDF was transcribed from a blank working buffer using a fresh **600-dpi** render and the native embedded scan image. A second enlarged review covered both columns, punctuation, compact clusters, the circular stamp/library-mark overlap in the lower-right verse, and the 150→151 / 151→152 joins.
 
@@ -167,18 +167,48 @@ Source-visible readings explicitly rechecked include:
 - `வேல்பட்ட புலி போல—விடுபட்ட கண்போல—`;
 - final `கால்பட்ட பிடரியுடன் கயவர்களும் மறைந்துபோனார்` with no added terminal punctuation.
 
-No visible `★` separator occurs on scan 151. The small mark after `தமிழ் பறக்கப்` was checked and treated as a non-text printer/graphic mark. Scan 152 was inspected only at its opening for boundary continuity; its body was not transcribed.
+No visible `★` separator occurs on scan 151. The small mark after `தமிழ் பறக்கப்` was checked and treated as a non-text printer/graphic mark. Scan 152 was inspected only at its opening for boundary continuity during this page's activity.
 
-The recovered/verified status therefore currently applies to scans **145–151**. Scan **152** remains `not-started` and must be independently transcribed from its supplied source image.
+## Recovery progress — scan 152
+
+Scan **152** completed its first source-first transcription and verification and is **VERIFIED**.
+
+The user-supplied terminal one-page PDF contains a native **2132×2902, 300-ppi** scan. It was transcribed from a blank source-first working buffer and then checked again line by line from enlarged native-source crops. No OCR, catalogue text, or prior transcription was imported.
+
+Source-visible readings explicitly rechecked include:
+
+- `மார்பினிலே பட்ட கண வெடித் தள்ளி,`;
+- `ஒடுதற்கு வழியின்றிச் சிக்கிவிட்ட இராமன் கூட்டம்`;
+- `தேடுதற்கும் தசையின்றிப் பஞ்சாய்ப் போகும்!...`;
+- `இன்னலிலே மாட்டிவிட்ட உங்களுக்கு-இந்த`;
+- `குறுவளி தனையும் சூழ்ந்தெதிர்க்கும்`;
+- `கனி சுவைக்கும் வீடணன் கண்டு விட்டான்!`;
+- `ஈட்டியொன்று அவன் கையில்!....எறிந்து`;
+- `மலைப்பாறை முதுகினிலே, ஊடுருவி, மார்பகத் / —தில் தல நீட்டிக்`;
+- `பணமரத் தோளுடையான்—கையிலே`;
+- `பார்ப்பனரின் தாலுடையான்—`;
+- final source spacing `இலங்கை மாந்தர் !`.
+
+One visible `★` follows the terminal verse. The page preserves line-initial long dashes in `—விட்டான்!`, `—தில் தல நீட்டிக்`, and `—கண்ணீர் கொட்டும்!`. The quotation from `“எனக் கொன்றவன் என் தம்பி,` through `சாகின்றேன்”` was checked as a complete source-visible pair.
+
+The page-level verified status now applies to **all scans 145–152**.
 
 ## Source-range correction
 
-The earlier source-completeness reasoning relied on an incorrect Kalaignar Karuvoolam description/page-range note. The user has explicitly corrected the work range to **145–152** and supplied the two missing terminal page images.
+The earlier source-completeness reasoning relied on an incorrect Kalaignar Karuvoolam description/page-range note. The user explicitly corrected the work range to **145–152** and supplied the two missing terminal page images.
 
 Therefore the Karuvoolam description must not be used to determine this poem's boundaries. See `../SOURCE_COMPLETENESS_REVIEW.md` for the corrected completeness record.
 
+## Current readiness
+
+- physical source images: **8/8 complete**;
+- page-level verified transcription: **8/8 complete**;
+- final full-range continuity/transcription audit: **pending**;
+- Tamil assembly: **blocked pending that audit**;
+- English translation: **blocked**.
+
 ## Exact next activity
 
-Transcribe **scan 152 from scratch** from the user-supplied one-page source. Use a blank source-first transcription and a second independent glyph-level comparison before assigning verification.
+Perform a **full 145–152 continuity/transcription audit** against the controlling source pixels. Recheck all seven page joins, lineation, punctuation, separators, quote carry-over, and every stamp-affected reading.
 
-Do not assemble the Tamil poem or begin translation until scan 152 has independently completed verification.
+Do not assemble the Tamil poem or begin translation until that final full-range audit passes.
