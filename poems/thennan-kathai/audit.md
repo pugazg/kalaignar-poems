@@ -51,12 +51,12 @@ A user spot-check of scan 145 exposed multiple transcription errors that had sur
 
 | Status | Count |
 |---|---:|
-| verified | 3 |
-| needs-review | 3 |
+| verified | 4 |
+| needs-review | 2 |
 | not-started | 2 |
 
-- pages **145–147**: `verified` under the replacement recovery protocol;
-- pages **148–150**: `needs-review`;
+- pages **145–148**: `verified` under the replacement recovery protocol;
+- pages **149–150**: `needs-review`;
 - pages **151–152**: `not-started`;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **BLOCKED**;
@@ -155,6 +155,39 @@ Explicit structure checks:
 
 Result: **scan 147 VERIFIED under the recovery protocol.**
 
+## Scan 148 — fresh blank-buffer recovery audit — PASS
+
+Scan 148 was freshly rendered at **600 dpi** and also checked against the native embedded page image. A blank-buffer source-first transcription was completed before the provisional repository text was opened. A second enlarged pass reviewed both columns, word-final forms, spacing, punctuation, quotation marks, the single `★`, the later circular stamp/library-mark overlap, and both page joins.
+
+The recovery diff exposed six source-backed discrepancies:
+
+| Provisional repository reading | Source-backed recovery reading |
+|---|---|
+| `பாடுபட்டாமல்` | `பாடுபடாமல்` |
+| `பதினுபிரம்` | `பதினாயிரம்` |
+| `போனுள்தானென்ன` | `போனால்தானென்ன` |
+| `விட்டணன்......` | `விட்டணன்.....` |
+| `இலங்கையமா` | `இலங்கைமா` |
+| `சூழ்ச்சியிலே` | `சூழ்ச்சியினில்` |
+
+The recovery pass independently rechecked earlier source-backed readings already present in the provisional record, including `மரபினிலே`, `விறகொடித்து`, the line-end hyphen `காத்தி- / ருப்போன்`, `யொன்றின்`, and the unusual source form `தாப்பைகளின்`; they were retained.
+
+Explicit structure/punctuation checks:
+
+- scan 147 ending `கரம் படவும் விடமாட்டேன், கப்பலிலே / ஏறென்றான்.` → scan 148 opening `மானத்தைக் கப்பலிலே ஏற்றிவிட்ட` — PASS;
+- one visible `★` separator — PASS;
+- left-column then right-column reading order — PASS;
+- opening double quote before `சிறையெடுத்துப்...` and closing quote after `ரோசம்!` retained;
+- `பாடுபடாமல் வருவதென்றால்...` — three following dots retained;
+- `விளம்புகின்ற கூட்டந் தன்னை...` — three following dots retained;
+- `விட்டணன்.....` — five following dots retained;
+- `அழித்திடுக இலங்கைமா நகரையென்றுன்....` — four following dots retained;
+- stamp-affected lower text rechecked on enlarged source pixels and the native image without semantic reconstruction;
+- final visible line `கொடியன்.` — PASS;
+- scan 149 visibly continues the illustrated poem sequence; no text is inserted between pages.
+
+Result: **scan 148 VERIFIED under the recovery protocol.**
+
 ## Where the previous process failed
 
 The failure pattern remains documented as procedural:
@@ -185,14 +218,14 @@ This supersedes the earlier `SOURCE_COMPLETENESS_REVIEW.md` conclusion that depe
 ## Readiness
 
 - physical page images: **COMPLETE — 8/8**
-- verified transcription: **3/8**
-- pages needing re-audit: **148–150**
+- verified transcription: **4/8**
+- pages needing re-audit: **149–150**
 - pages awaiting first transcription: **151–152**
 - Tamil assembly: **BLOCKED**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Redo **scan 148 from scratch** with a blank source-first transcription and a second independent glyph-level comparison.
+Redo **scan 149 from scratch** with a blank source-first transcription and a second independent glyph-level comparison.
 
-Do not reuse the current page text as a reading guide. Only after scan 148 is independently clean may it be restored to `verified`, then continue sequentially through **149–152**.
+Do not reuse the current page text as a reading guide. Only after scan 149 is independently clean may it be restored to `verified`, then continue sequentially through **150–152**.
