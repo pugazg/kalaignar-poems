@@ -85,7 +85,7 @@ The pass also independently rechecked the existing source-backed readings `உ�
 
 ## Recovery progress — scan 147
 
-Scan **147** has now completed the same blank-buffer recovery protocol and is **VERIFIED**.
+Scan **147** has completed the same blank-buffer recovery protocol and is **VERIFIED**.
 
 A fresh **600-dpi** render was transcribed before the provisional repository text was consulted. A second enlarged review covered both columns, the single `★`, quotation marks, compact clusters, the later circular stamp/library-mark overlap, and the 146→147 / 147→148 joins.
 
@@ -102,7 +102,24 @@ The recovery diff exposed eight source-backed errors that had survived the forme
 
 The pass independently reconfirmed the previously corrected readings `பாங்கமுள்ள`, `அண்ணிக்கு விலை / விசம் நினைப்போ`, and `தேர்போல`.
 
-The recovered verification status therefore currently applies to scans **145–147**. Scans **148–150** remain reopened until they undergo the same blank-buffer procedure.
+## Recovery progress — scan 148
+
+Scan **148** has now completed the same blank-buffer recovery protocol and is **VERIFIED**.
+
+A fresh **600-dpi** render and the native embedded page image were read before the provisional repository transcription was consulted. A second enlarged review covered both columns, punctuation, quotation marks, compact clusters, the single `★`, the circular stamp/library-mark overlap, and the 147→148 / 148→149 joins.
+
+The recovery diff exposed six source-backed errors that had survived the former verification cycle:
+
+- `பாடுபட்டாமல்` → **`பாடுபடாமல்`**;
+- `பதினுபிரம்` → **`பதினாயிரம்`**;
+- `போனுள்தானென்ன` → **`போனால்தானென்ன`**;
+- `விட்டணன்......` → **`விட்டணன்.....`** — the source has five following dots;
+- `இலங்கையமா` → **`இலங்கைமா`**;
+- `சூழ்ச்சியிலே` → **`சூழ்ச்சியினில்`**.
+
+The pass independently reconfirmed `மரபினிலே`, `விறகொடித்து`, `காத்தி- / ருப்போன்`, `யொன்றின்`, and `தாப்பைகளின்` rather than inheriting them from the earlier audit.
+
+The recovered verification status therefore currently applies to scans **145–148**. Scans **149–150** remain reopened until they undergo the same blank-buffer procedure.
 
 ## Source-range correction
 
@@ -112,4 +129,4 @@ Therefore the Karuvoolam description must not be used to determine this poem's b
 
 ## Exact next activity
 
-Redo **scan 148 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 148 be marked `verified` again. Then repeat the same process sequentially for 149–152.
+Redo **scan 149 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 149 be marked `verified` again. Then repeat the same process sequentially for 150–152.
