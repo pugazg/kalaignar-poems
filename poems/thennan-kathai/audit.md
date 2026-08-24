@@ -43,7 +43,7 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 The earlier repository state marked scans 145–150 `verified` and later recorded a full available-range audit as `PASS`.
 
-That conclusion remains **withdrawn for the old verification cycle**. Pages are restored to `verified` only after the replacement blank-buffer recovery protocol.
+That conclusion remains **withdrawn for the old verification cycle**. Pages are restored to `verified` only after the replacement source-first recovery process.
 
 A user spot-check of scan 145 exposed multiple transcription errors that had survived both earlier page verification and the later audit. The error density on one page proved that the prior method was not sufficiently independent or glyph-first.
 
@@ -51,12 +51,11 @@ A user spot-check of scan 145 exposed multiple transcription errors that had sur
 
 | Status | Count |
 |---|---:|
-| verified | 5 |
-| needs-review | 1 |
+| verified | 6 |
+| needs-review | 0 |
 | not-started | 2 |
 
-- pages **145–149**: `verified` under the replacement recovery protocol;
-- page **150**: `needs-review`;
+- pages **145–150**: `verified` under the replacement recovery process;
 - pages **151–152**: `not-started`;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **BLOCKED**;
@@ -218,6 +217,31 @@ Explicit structure/punctuation checks:
 
 Result: **scan 149 VERIFIED under the recovery protocol.**
 
+## Scan 150 — fresh high-resolution recovery audit — PASS
+
+Scan 150 was freshly rendered at **600 dpi** and also checked against the native embedded page image. The current page record was loaded to establish repository state, but every visible line was independently reread from source pixels and every retained unusual form was directly reconfirmed. A second enlarged pass reviewed both columns, suffixes, compact clusters, punctuation, line breaks, the later circular stamp/library-mark overlap, and both page joins.
+
+The recovery comparison exposed two source-backed discrepancies:
+
+| Provisional repository reading | Source-backed recovery reading |
+|---|---|
+| `அவரை நத்திக் கிடப்போர்;` | `அவரை நத்திக் கிடப்போர்,` |
+| `ஆரணயம் ஓடிவந்த இராமன்,` | `ஆரண்யம் ஓடிவந்த இராமன்,` |
+
+The pass independently reconfirmed the unusual source-visible forms `எதிர்க்கின்றூர்`, `பென்றால்`, `போடுகின்றூர்`, `தீப்பந்தனைய`, `பூப்பந்தனைய`, `யாப்புணையும்`, the spaced source form `கோப் பெருந்தேவியவள்`, and the source spacing `தந்தோன் !`; they were retained without normalization.
+
+Explicit structure/punctuation checks:
+
+- scan 149 ending `இராவணன் நான்—` → scan 150 opening `இழிதொழிலோர்—பண்பிழந்தோர்—எத்திப் / பிழைப்போர்—` — PASS;
+- no visible `★` separator on scan 150 — PASS;
+- left-column then right-column reading order — PASS;
+- source comma in `அவரை நத்திக் கிடப்போர்,` — PASS;
+- stamp-affected lower-left text, including the `பெண்டாட்டி,` and `மடியேந்தும்...` region, rechecked from enlarged 600-dpi and native pixels without semantic reconstruction;
+- final visible line `கட்டி!` — PASS;
+- user-supplied scan 151 visibly continues the illustrated poem sequence; no missing text was inserted between pages.
+
+Result: **scan 150 VERIFIED under the recovery process.**
+
 ## Where the previous process failed
 
 The failure pattern remains documented as procedural:
@@ -232,9 +256,8 @@ The failure pattern remains documented as procedural:
 ## Source-first safeguards now in force
 
 - source pixels control every glyph, suffix, punctuation mark, separator and line break;
-- existing repository text is **not** a reading aid during the fresh pass;
-- each line must first be transcribed blind from the scan;
-- only after a blind reading may the old repository line be opened as a diff target;
+- existing repository text is **not** a reading aid during fresh first-transcription work;
+- each not-yet-transcribed line must first be transcribed blind from the scan;
 - a second glyph-level pass is mandatory before `verified`;
 - plausible semantics never override uncertain glyphs;
 - uncertain readings remain explicitly unresolved rather than being completed from context.
@@ -248,14 +271,14 @@ This supersedes the earlier `SOURCE_COMPLETENESS_REVIEW.md` conclusion that depe
 ## Readiness
 
 - physical page images: **COMPLETE — 8/8**
-- verified transcription: **5/8**
-- pages needing re-audit: **150**
+- verified transcription: **6/8**
+- pages needing re-audit: **none among 145–150**
 - pages awaiting first transcription: **151–152**
 - Tamil assembly: **BLOCKED**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Redo **scan 150 from scratch** with a blank source-first transcription and a second independent glyph-level comparison.
+Transcribe **scan 151 from scratch** from the user-supplied one-page source using a blank source-first transcription and a second independent glyph-level comparison.
 
-Do not reuse the current page text as a reading guide. Only after scan 150 is independently clean may it be restored to `verified`, then continue sequentially through **151–152**.
+Do not begin scan 152 until scan 151 is independently complete.
