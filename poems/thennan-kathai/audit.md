@@ -51,12 +51,12 @@ A user spot-check of scan 145 exposed multiple transcription errors that had sur
 
 | Status | Count |
 |---|---:|
-| verified | 2 |
-| needs-review | 4 |
+| verified | 3 |
+| needs-review | 3 |
 | not-started | 2 |
 
-- pages **145–146**: `verified` under the replacement recovery protocol;
-- pages **147–150**: `needs-review`;
+- pages **145–147**: `verified` under the replacement recovery protocol;
+- pages **148–150**: `needs-review`;
 - pages **151–152**: `not-started`;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **BLOCKED**;
@@ -102,15 +102,7 @@ Result: **scan 145 VERIFIED under the recovery protocol.**
 
 Scan 146 was independently rendered at **600 dpi** and reread from a blank working buffer before the provisional repository text was consulted.
 
-A second enlarged source-pixel pass checked:
-
-- every visible line in both columns;
-- word-final suffixes and compact clusters;
-- punctuation and line breaks;
-- the single visible `★` separator;
-- the page-145 → page-146 continuation;
-- the later circular stamp/library-mark overlap in the lower text;
-- the open ending into scan 147.
+A second enlarged source-pixel pass checked every visible line in both columns, word-final suffixes and compact clusters, punctuation and line breaks, the single visible `★`, the page-145 → page-146 continuation, the later circular stamp/library-mark overlap, and the open ending into scan 147.
 
 The recovery diff found two source-backed errors that had survived the former verification cycle:
 
@@ -131,6 +123,37 @@ Explicit punctuation/structure checks:
 - final visible line `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....` — PASS and remains open into scan 147.
 
 Result: **scan 146 VERIFIED under the recovery protocol.**
+
+## Scan 147 — fresh blank-buffer recovery audit — PASS
+
+Scan 147 was freshly rendered at **600 dpi** and transcribed from a blank working buffer before the provisional repository text was opened. A second enlarged pass reviewed the complete left and right text columns, compact glyph clusters, word-final suffixes, punctuation, quotation marks, the single `★`, and the later circular stamp/library-mark overlap.
+
+The recovery diff exposed eight source-backed discrepancies:
+
+| Provisional repository reading | Source-backed recovery reading |
+|---|---|
+| `கற்புக்கு விலையாக` | `கற்புக்கு விலையாகக்` |
+| first `முத்துகை` | `முத்துநகை` |
+| `குத்திரியாச்` | `சுத்திரியாச்` |
+| `குர்ப்பனகை` | `சூர்ப்பனகை` |
+| second `முத்துகை` | `முத்துநகை` |
+| `மாடொன்று` | `மானொன்று` |
+| `முத்தவனும்` | `மூத்தவனும்` |
+| `என்ன உனக்குத்` | `என்னை உனக்குத்` |
+
+The pass independently rechecked the earlier source-backed readings `பாங்கமுள்ள`, `அண்ணிக்கு விலை / விசம் நினைப்போ`, and `தேர்போல`; they were retained.
+
+Explicit structure checks:
+
+- scan 146 ending `கற்புக்கனல் காக்கக் கொதித்தெழுந்தாள்....` → scan 147 opening `கனி மரம் போல் தனிபொருத்தி—இருமந்தி!` — PASS;
+- one visible `★` separator — PASS;
+- left-column then right-column reading order — PASS;
+- opening double quote before `அண்ணனில்லா...` and later opening single quote before `மூத்தவனும்...` retained from source ink;
+- stamp-affected lower text rechecked on enlarged source pixels without semantic reconstruction;
+- final visible line `ஏறென்றான்.` — PASS;
+- scan 148 begins `மானத்தைக் கப்பலிலே ஏற்றிவிட்ட`, confirming continuity without inserting text.
+
+Result: **scan 147 VERIFIED under the recovery protocol.**
 
 ## Where the previous process failed
 
@@ -162,14 +185,14 @@ This supersedes the earlier `SOURCE_COMPLETENESS_REVIEW.md` conclusion that depe
 ## Readiness
 
 - physical page images: **COMPLETE — 8/8**
-- verified transcription: **2/8**
-- pages needing re-audit: **147–150**
+- verified transcription: **3/8**
+- pages needing re-audit: **148–150**
 - pages awaiting first transcription: **151–152**
 - Tamil assembly: **BLOCKED**
 - English translation: **BLOCKED**
 
 ## Exact next activity
 
-Redo **scan 147 from scratch** with a blank source-first transcription and a second independent glyph-level comparison.
+Redo **scan 148 from scratch** with a blank source-first transcription and a second independent glyph-level comparison.
 
-Do not reuse the current page text as a reading guide. Only after scan 147 is independently clean may it be restored to `verified`, then continue sequentially through **148–152**.
+Do not reuse the current page text as a reading guide. Only after scan 148 is independently clean may it be restored to `verified`, then continue sequentially through **149–152**.
