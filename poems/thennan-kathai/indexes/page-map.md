@@ -7,7 +7,7 @@
 | 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi source-first retranscription + second enlarged pass complete; eight source-backed discrepancies corrected including `முத்துநகை`, `சுத்திரியாச்`, `சூர்ப்பனகை`, `மானொன்று`, `மூத்தவனும்`, `என்னை`; stamp overlap and both joins rechecked |
 | 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `பாடுபடாமல்`, `பதினாயிரம்`, `போனால்தானென்ன`, five-dot `விட்டணன்.....`, `இலங்கைமா`, and `சூழ்ச்சியினில்`; stamp overlap and joins rechecked |
 | 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `விபீஷணு`, `வாளிப் போலப்`, `நின்றுன்`, source short hyphen in `பயனில்லை-பாழாகும்`, and spacing `நடை கட்டு`; three separators, stamp overlap and both joins rechecked |
-| 150 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | needs-review | previous `verified` withdrawn; now known to continue onto user-supplied page 151 |
+| 150 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh 600-dpi + native-image source recovery complete; corrected `கிடப்போர்;` → `கிடப்போர்,` and `ஆரணயம்` → `ஆரண்யம்`; unusual source forms and stamp-affected lines directly rechecked; 149→150 and 150→151 joins checked |
 | 151 | user-supplied one-page PDF | — | illustrated poem continuation | not-started | supplied 2026-08-23; source record `pages/0151.md`; transcription not started |
 | 152 | user-supplied one-page PDF | — | illustrated poem continuation / terminal page in user-confirmed range | not-started | supplied 2026-08-23; source record `pages/0152.md`; transcription not started |
 
@@ -19,19 +19,19 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 ## Verification recovery
 
-A scan-145 spot-check demonstrated that the previous `verified` and full-range `PASS` labels were unreliable. All earlier page-verification claims were therefore withdrawn and pages are being restored only after a replacement blank-buffer recovery pass.
+A scan-145 spot-check demonstrated that the previous `verified` and full-range `PASS` labels were unreliable. All earlier page-verification claims were therefore withdrawn and pages are being restored only after a replacement source-first recovery pass.
 
-Scans **145–149** have now completed that protocol:
+Scans **145–150** have now completed recovery:
 
-1. fresh source-first retranscription from a blank working buffer using a new high-resolution render;
+1. fresh high-resolution source rereading rather than trusting the old transcription;
 2. second enlarged glyph/punctuation comparison of every visible line;
-3. only then comparison against the repository transcription;
-4. source-backed discrepancies corrected before restoring `verified`.
+3. source-backed discrepancies corrected before restoring `verified`;
+4. unusual forms retained only where the pixels directly support them.
 
 Current status:
 
-- verified: **5/8** — pages 145–149;
-- needs-review: **1/8** — page 150;
+- verified: **6/8** — pages 145–150;
+- needs-review: **0/8**;
 - not-started: **2/8** — pages 151–152;
 - physical page-image availability: **8/8 complete**;
 - Tamil assembly: **blocked**;
@@ -41,6 +41,6 @@ See `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented fai
 
 ## Recovery order
 
-Continue sequentially **150 → 152**, starting each page with a blind source-first transcription before comparing against any existing repository text.
+Continue sequentially **151 → 152**, starting each page with a blank source-first transcription before comparing against any later working text.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
