@@ -104,7 +104,7 @@ The pass independently reconfirmed the previously corrected readings `பாங�
 
 ## Recovery progress — scan 148
 
-Scan **148** has now completed the same blank-buffer recovery protocol and is **VERIFIED**.
+Scan **148** has completed the same blank-buffer recovery protocol and is **VERIFIED**.
 
 A fresh **600-dpi** render and the native embedded page image were read before the provisional repository transcription was consulted. A second enlarged review covered both columns, punctuation, quotation marks, compact clusters, the single `★`, the circular stamp/library-mark overlap, and the 147→148 / 148→149 joins.
 
@@ -119,7 +119,23 @@ The recovery diff exposed six source-backed errors that had survived the former 
 
 The pass independently reconfirmed `மரபினிலே`, `விறகொடித்து`, `காத்தி- / ருப்போன்`, `யொன்றின்`, and `தாப்பைகளின்` rather than inheriting them from the earlier audit.
 
-The recovered verification status therefore currently applies to scans **145–148**. Scans **149–150** remain reopened until they undergo the same blank-buffer procedure.
+## Recovery progress — scan 149
+
+Scan **149** has now completed the same blank-buffer recovery protocol and is **VERIFIED**.
+
+A fresh **600-dpi** render and the native embedded page image were read before the provisional repository transcription was consulted. A second enlarged review covered both columns, punctuation, quotation marks, compact clusters, all three `★` separators, the circular stamp/library-mark overlap, and the 148→149 / 149→150 joins.
+
+The recovery diff exposed five source-backed errors that had survived the former verification cycle:
+
+- `விபீஷண!` → **`விபீஷணு!`**;
+- `உடை வாளைப் போலப்` → **`உடை வாளிப் போலப்`**;
+- `கடைக் குட்டி தம்பியவன் எதிர்வந்து நின்றான்,` → **`கடைக் குட்டி தம்பியவன் எதிர்வந்து நின்றுன்,`**;
+- `படை திரட்டிப் பயனில்லை—பாழாகும் என்றுன்!` → **`படை திரட்டிப் பயனில்லை-பாழாகும் என்றுன்!`**;
+- `நடைகட்டு என்றே` → **`நடை கட்டு என்றே`**.
+
+The pass independently reconfirmed unusual source-visible readings already present in the provisional record, including `என்றுன்!`, `நின்றுன்—`, `சென்றுன்,`, `ஜடை கட்டி`, `அறுத் தெறியாமல்`, `பிடியே!.....`, and `இன்றிகத்`.
+
+The recovered verification status therefore currently applies to scans **145–149**. Scan **150** remains reopened until it undergoes the same blank-buffer procedure.
 
 ## Source-range correction
 
@@ -129,4 +145,4 @@ Therefore the Karuvoolam description must not be used to determine this poem's b
 
 ## Exact next activity
 
-Redo **scan 149 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 149 be marked `verified` again. Then repeat the same process sequentially for 150–152.
+Redo **scan 150 from scratch**, ignoring the current transcription while reading. Only after the fresh transcription is independently compared with every visible glyph may scan 150 be marked `verified` again. Then repeat the same process sequentially for 151–152.
