@@ -51,12 +51,17 @@ A later user review of **scan 146** exposed a second verification failure: eleve
 - `கண்ணழகித்` → `கண்மூடித்`;
 - `தாயவள்` → `தூயவளை`.
 
-This later failure changes the interpretation of the project state: **8/8 page records exist and are page-level verified, but the work is not final-cleared.** The final audit must use the stricter scan-146 rule and explicitly account for every word-final vowel/suffix rather than accepting whole-word silhouettes.
+A subsequent user-requested **scan 147** recheck, using the same stricter suffix-aware method, found two additional errors that had survived its earlier PASS:
+
+- `படர் உறவு இல்லாவிட்டதான் என்ன?` → `படர் உறவு இல்லாவிட்டான் என்ன?`;
+- `என்னுடலுக் காக்கைக்கும், கழுகிற்கும்,` → `என்னுடலைக் காக்கைக்கும், கழுகிற்கும்,`.
+
+These later failures change the interpretation of the project state: **8/8 page records exist and are page-level verified, but the work is not final-cleared.** The final audit must use the stricter scan-146/147 rule and explicitly account for every word-final vowel/suffix rather than accepting whole-word silhouettes.
 
 Other earlier recovery findings remain documented in the page records and audit, including:
 
 - scan 145: numerous user-demonstrated source corrections plus additional spacing/punctuation corrections;
-- scan 147: eight source-backed corrections including `முத்துநகை`, `சுத்திரியாச்`, `சூர்ப்பனகை`, `மானொன்று`, `மூத்தவனும்`, `என்னை`;
+- scan 147: earlier recovery corrected `முத்துநகை`, `சுத்திரியாச்`, `சூர்ப்பனகை`, `மானொன்று`, `மூத்தவனும்`, `என்னை`, followed by the stricter third-pass corrections above;
 - scan 148: corrections including `பாடுபடாமல்`, `பதினாயிரம்`, `போனால்தானென்ன`, `இலங்கைமா`, `சூழ்ச்சியினில்`;
 - scan 149: corrections including `விபீஷணு`, `வாளிப் போலப்`, `நின்றுன்`, `பயனில்லை-பாழாகும்`, `நடை கட்டு`;
 - scan 150: `கிடப்போர்,` and `ஆரண்யம்`;
@@ -74,16 +79,17 @@ Current status:
 See:
 
 - `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
-- `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the second failure pattern and revised verification rule.
+- `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the second failure pattern and revised verification rule;
+- `notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` for the dedicated scan-147 recheck.
 
 ## Governing rule
 
 Source pixels are controlling. Do not normalize Tamil, preserve a plausible earlier reading merely because it already exists in the repository, or use semantic expectation to repair faint glyphs.
 
-The completed page-level verification is not itself permission to assemble the poem. The scan-146 third re-audit demonstrates that a page can still contain false readings after a prior source-first pass if suffixes and complete glyph sequences are not independently accounted for.
+The completed page-level verification is not itself permission to assemble the poem. The scan-146 and scan-147 third re-audits demonstrate that a page can still contain false readings after a prior source-first pass if suffixes and complete glyph sequences are not independently accounted for.
 
 ## Exact next step
 
-Perform a **full continuity/transcription audit of scans 145–152** under the stricter rule established by the scan-146 third re-audit. Recheck every full line, every word-final suffix, all seven page joins, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
+Perform a **full continuity/transcription audit of scans 145–152** under the stricter rule established by the scan-146/147 third re-audits. Recheck every full line, every word-final suffix, all seven page joins, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
 
 Only after that audit passes may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
