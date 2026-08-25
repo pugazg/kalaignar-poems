@@ -35,38 +35,55 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 A user spot-check of scan 145 exposed multiple transcription errors that had survived both page verification and the later full-range audit. Therefore the earlier `verified` and `PASS` claims were withdrawn for scans 145–150 and each affected page was reprocessed source-first.
 
-Scans **145–152** have now completed page-level source-first verification. Pages 151–152 were true blank-buffer first transcriptions because no canonical text previously existed for them.
+Scans **145–152** subsequently completed page-level source-first verification. Pages 151–152 were true blank-buffer first transcriptions because no canonical text previously existed for them.
 
-Recovery findings include:
+A later user review of **scan 146** exposed a second verification failure: eleven additional errors had survived even the replacement recovery pass. Scan 146 was therefore reopened for a stricter third full-line and suffix-level audit from the source pixels. The corrected readings are:
+
+- `உருவினை` → `உருவினான்`;
+- `கொடுவாள்` → `கொடுவாளை`;
+- `தாள்` → `தாளை`;
+- `பாறை` → `பாளை`;
+- `ஆரியத்தேன்` → `ஆரியத்தேளை`;
+- `தவசிகள்` → `தவசிகளை`;
+- `சின்னவனும்` → `சின்னவனாம்`;
+- `கள்ளப்பினில்` → `களைப்பினால்`;
+- `தூங்குகின்றுள்` → `தூங்குகின்றாள்`;
+- `கண்ணழகித்` → `கண்மூடித்`;
+- `தாயவள்` → `தூயவளை`.
+
+This later failure changes the interpretation of the project state: **8/8 page records exist and are page-level verified, but the work is not final-cleared.** The final audit must use the stricter scan-146 rule and explicitly account for every word-final vowel/suffix rather than accepting whole-word silhouettes.
+
+Other earlier recovery findings remain documented in the page records and audit, including:
 
 - scan 145: numerous user-demonstrated source corrections plus additional spacing/punctuation corrections;
-- scan 146: `மண்பாளும்` → `மணையாளும்`; `கைகாரி` → `கைக்காரி`;
-- scan 147: `விலையாக` → `விலையாகக்`; both `முத்துகை` occurrences → `முத்துநகை`; `குத்திரியாச்` → `சுத்திரியாச்`; `குர்ப்பனகை` → `சூர்ப்பனகை`; `மாடொன்று` → `மானொன்று`; `முத்தவனும்` → `மூத்தவனும்`; `என்ன உனக்குத்` → `என்னை உனக்குத்`;
-- scan 148: `பாடுபட்டாமல்` → `பாடுபடாமல்`; `பதினுபிரம்` → `பதினாயிரம்`; `போனுள்தானென்ன` → `போனால்தானென்ன`; six-dot `விட்டணன்......` → source-visible five-dot `விட்டணன்.....`; `இலங்கையமா` → `இலங்கைமா`; `சூழ்ச்சியிலே` → `சூழ்ச்சியினில்`;
-- scan 149: `விபீஷண!` → `விபீஷணு!`; `உடை வாளைப் போலப்` → `உடை வாளிப் போலப்`; `நின்றான்,` → `நின்றுன்,`; long dash in `பயனில்லை—பாழாகும்` → source-visible short hyphen `பயனில்லை-பாழாகும்`; `நடைகட்டு` → `நடை கட்டு`;
-- scan 150: `அவரை நத்திக் கிடப்போர்;` → `அவரை நத்திக் கிடப்போர்,`; `ஆரணயம்` → `ஆரண்யம்`;
-- scan 151: first source-first transcription completed; difficult readings directly rechecked include `அம்புவில்லில் பெட்டா என்று`, `கரும்போ உயிரென்று`, `ஆண்டெனச்`, `சேனைதனை`, `பூண்களே`, `போர்க் கண்ணையை`, and stamp-affected `கோடையிலே அதிர்கின்ற இடிதானோ? எனப்`;
-- scan 152: first source-first transcription completed; unusual source forms directly rechecked include `கண வெடித் தள்ளி`, `இன்னலிலே`, `குறுவளி`, `வீடணன்`, `பணமரத்`, `தாலுடையான்`, source-spaced `மாந்தர் !`, and the terminal `★`.
+- scan 147: eight source-backed corrections including `முத்துநகை`, `சுத்திரியாச்`, `சூர்ப்பனகை`, `மானொன்று`, `மூத்தவனும்`, `என்னை`;
+- scan 148: corrections including `பாடுபடாமல்`, `பதினாயிரம்`, `போனால்தானென்ன`, `இலங்கைமா`, `சூழ்ச்சியினில்`;
+- scan 149: corrections including `விபீஷணு`, `வாளிப் போலப்`, `நின்றுன்`, `பயனில்லை-பாழாகும்`, `நடை கட்டு`;
+- scan 150: `கிடப்போர்,` and `ஆரண்யம்`;
+- scans 151–152: first source-first transcriptions from the separately supplied terminal-page scans.
 
 Current status:
 
-- scans **145–152**: `verified` at page level under the source-first recovery protocol;
+- scans **145–152**: page records present and page-level `verified`;
 - verified pages: **8/8**;
 - physical source availability: **COMPLETE — 8/8 page images present**;
-- page-level Tamil transcription: **COMPLETE**;
-- Tamil assembly: **BLOCKED pending one final full-range continuity/transcription audit**;
+- page-level Tamil transcription: **COMPLETE but NOT FINAL-CLEARED**;
+- Tamil assembly: **BLOCKED pending a stricter final full-range audit**;
 - English translation: **BLOCKED**.
 
-See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented failure analysis and recovery policy.
+See:
+
+- `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
+- `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the second failure pattern and revised verification rule.
 
 ## Governing rule
 
 Source pixels are controlling. Do not normalize Tamil, preserve a plausible earlier reading merely because it already exists in the repository, or use semantic expectation to repair faint glyphs.
 
-The completed page-level verification is not itself permission to assemble the poem. Because the earlier audit process failed, one final 145–152 continuity/transcription audit is required across all eight verified page records before assembly.
+The completed page-level verification is not itself permission to assemble the poem. The scan-146 third re-audit demonstrates that a page can still contain false readings after a prior source-first pass if suffixes and complete glyph sequences are not independently accounted for.
 
 ## Exact next step
 
-Perform a **full continuity/transcription audit of scans 145–152**. Recheck all seven page joins, lineation, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
+Perform a **full continuity/transcription audit of scans 145–152** under the stricter rule established by the scan-146 third re-audit. Recheck every full line, every word-final suffix, all seven page joins, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
 
 Only after that audit passes may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
