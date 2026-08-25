@@ -3,7 +3,7 @@
 | Work page | Source holding | Visible printed page | Role | Status | Notes |
 |---:|---|---:|---|---|---|
 | 145 | `TVA_PRL_0007090_முரசொலி.pdf` | — | title + poem opening | verified | fresh blank-buffer 4× source-first retranscription + second glyph/punctuation pass complete; prior errors corrected; additional `பாவைபோல்` → `பாவை போல்` spacing correction found during recovery |
-| 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi source-first retranscription + second enlarged pass complete; recovery corrected `மண்பாளும்` → `மணையாளும்` and `கைகாரி` → `கைக்காரி`; stamp-overlapped lines rechecked |
+| 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **third source-critical re-audit 2026-08-25** supersedes both earlier PASS claims; eleven user-flagged/source-confirmed corrections include `உருவினான்`, `கொடுவாளை`, `தாளை`, `பாளை`, `ஆரியத்தேளை`, `தவசிகளை`, `சின்னவனாம்`, `களைப்பினால்`, `தூங்குகின்றாள்`, `கண்மூடித்`, `தூயவளை`; complete lines and suffixes reread from source pixels |
 | 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi source-first retranscription + second enlarged pass complete; eight source-backed discrepancies corrected including `முத்துநகை`, `சுத்திரியாச்`, `சூர்ப்பனகை`, `மானொன்று`, `மூத்தவனும்`, `என்னை`; stamp overlap and both joins rechecked |
 | 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `பாடுபடாமல்`, `பதினாயிரம்`, `போனால்தானென்ன`, five-dot `விட்டணன்.....`, `இலங்கைமா`, and `சூழ்ச்சியினில்`; stamp overlap and joins rechecked |
 | 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `விபீஷணு`, `வாளிப் போலப்`, `நின்றுன்`, source short hyphen in `பயனில்லை-பாழாகும்`, and spacing `நடை கட்டு`; three separators, stamp overlap and both joins rechecked |
@@ -19,29 +19,27 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 ## Verification recovery
 
-A scan-145 spot-check demonstrated that the previous `verified` and full-range `PASS` labels were unreliable. All earlier page-verification claims were therefore withdrawn and pages were restored only after the replacement source-first process.
+A scan-145 spot-check demonstrated that the original `verified` and full-range `PASS` labels were unreliable. Pages were then restored after replacement source-first passes.
 
-Scans **145–152** have now completed page-level verification:
+A later user review of scan **146** demonstrated that even that replacement pass had remained too dependent on whole-word recognition: eleven additional errors survived. Scan 146 has therefore undergone a stricter third full-line/suffix re-audit. Its earlier two PASS claims are superseded.
 
-1. fresh high-resolution source reading, with blank-buffer first transcription for not-yet-transcribed pages;
-2. second enlarged glyph/punctuation comparison of every visible line;
-3. source-backed discrepancies corrected before assigning or restoring `verified`;
-4. unusual forms retained only where source pixels directly support them.
-
-Current status:
+Current page-level status remains:
 
 - verified: **8/8** — pages 145–152;
 - needs-review: **0/8**;
 - not-started: **0/8**;
 - physical page-image availability: **8/8 complete**;
-- page-level Tamil transcription: **COMPLETE**;
-- Tamil assembly: **blocked pending full 145–152 continuity/transcription audit**;
+- page-level Tamil transcription: **COMPLETE, but not final-cleared**;
+- Tamil assembly: **blocked pending a stricter full 145–152 continuity/transcription audit**;
 - English translation: **blocked**.
 
-See `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the documented failure analysis.
+See:
+
+- `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
+- `../notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the later scan-146 failure pattern and revised checking rule.
 
 ## Next recovery activity
 
-Perform one final **full-range continuity/transcription audit across scans 145–152** before assembling the Tamil poem. Recheck all seven page joins, lineation, punctuation, separators, quotation carry-over, and every stamp-affected reading without normalizing source forms.
+Perform one final **full-range continuity/transcription audit across scans 145–152** using the stricter scan-146 rule: account explicitly for complete lines and every suffix rather than verifying recognized word shapes. Recheck all seven page joins, lineation, punctuation, separators, quotation carry-over, and every stamp-affected reading without normalizing source forms.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
