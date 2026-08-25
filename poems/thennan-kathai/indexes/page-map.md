@@ -4,7 +4,7 @@
 |---:|---|---:|---|---|---|
 | 145 | `TVA_PRL_0007090_முரசொலி.pdf` | — | title + poem opening | verified | fresh blank-buffer 4× source-first retranscription + second glyph/punctuation pass complete; prior errors corrected; additional `பாவைபோல்` → `பாவை போல்` spacing correction found during recovery |
 | 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **third source-critical re-audit 2026-08-25** supersedes both earlier PASS claims; eleven user-flagged/source-confirmed corrections include `உருவினான்`, `கொடுவாளை`, `தாளை`, `பாளை`, `ஆரியத்தேளை`, `தவசிகளை`, `சின்னவனாம்`, `களைப்பினால்`, `தூங்குகின்றாள்`, `கண்மூடித்`, `தூயவளை`; complete lines and suffixes reread from source pixels |
-| 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi source-first retranscription + second enlarged pass complete; eight source-backed discrepancies corrected including `முத்துநகை`, `சுத்திரியாச்`, `சூர்ப்பனகை`, `மானொன்று`, `மூத்தவனும்`, `என்னை`; stamp overlap and both joins rechecked |
+| 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **third source-critical re-audit 2026-08-25** supersedes earlier PASS; corrected `இல்லாவிட்டதான்` → `இல்லாவிட்டான்` and `என்னுடலுக்` → `என்னுடலைக்`; whole page, suffixes, stamp overlap and both joins reread from source pixels |
 | 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `பாடுபடாமல்`, `பதினாயிரம்`, `போனால்தானென்ன`, five-dot `விட்டணன்.....`, `இலங்கைமா`, and `சூழ்ச்சியினில்`; stamp overlap and joins rechecked |
 | 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh blank-buffer 600-dpi + native-image recovery complete; corrected `விபீஷணு`, `வாளிப் போலப்`, `நின்றுன்`, source short hyphen in `பயனில்லை-பாழாகும்`, and spacing `நடை கட்டு`; three separators, stamp overlap and both joins rechecked |
 | 150 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | fresh 600-dpi + native-image source recovery complete; corrected `கிடப்போர்;` → `கிடப்போர்,` and `ஆரணயம்` → `ஆரண்யம்`; unusual source forms and stamp-affected lines directly rechecked; 149→150 and 150→151 joins checked |
@@ -21,7 +21,9 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 A scan-145 spot-check demonstrated that the original `verified` and full-range `PASS` labels were unreliable. Pages were then restored after replacement source-first passes.
 
-A later user review of scan **146** demonstrated that even that replacement pass had remained too dependent on whole-word recognition: eleven additional errors survived. Scan 146 has therefore undergone a stricter third full-line/suffix re-audit. Its earlier two PASS claims are superseded.
+A later user review of scan **146** demonstrated that even that replacement pass had remained too dependent on whole-word recognition: eleven additional errors survived. Scan 146 therefore underwent a stricter third full-line/suffix re-audit. Its earlier two PASS claims are superseded.
+
+A subsequent user-requested recheck of scan **147** found two more suffix/word-ending failures (`இல்லாவிட்டதான்` → `இல்லாவிட்டான்`; `என்னுடலுக்` → `என்னுடலைக்`). Scan 147 has therefore also undergone the stricter third source-critical re-audit, superseding its earlier PASS claim.
 
 Current page-level status remains:
 
@@ -36,10 +38,11 @@ Current page-level status remains:
 See:
 
 - `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
-- `../notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the later scan-146 failure pattern and revised checking rule.
+- `../notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the later scan-146 failure pattern and revised checking rule;
+- `../notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` for the dedicated scan-147 recheck.
 
 ## Next recovery activity
 
-Perform one final **full-range continuity/transcription audit across scans 145–152** using the stricter scan-146 rule: account explicitly for complete lines and every suffix rather than verifying recognized word shapes. Recheck all seven page joins, lineation, punctuation, separators, quotation carry-over, and every stamp-affected reading without normalizing source forms.
+Perform one final **full-range continuity/transcription audit across scans 145–152** using the stricter scan-146/147 rule: account explicitly for complete lines and every suffix rather than verifying recognized word shapes. Recheck all seven page joins, lineation, punctuation, separators, quotation carry-over, and every stamp-affected reading without normalizing source forms.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
