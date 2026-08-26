@@ -59,9 +59,10 @@ Workspace: `poems/thennan-kathai/translations/en/`
 - `PLAN_REVIEW.md`: **PASS**;
 - EN-01 scans 145–146: `batches/EN-01-scans-145-146.md` — **REVIEWED / PASS**;
 - Gate A: `GATE_A_REVIEW.md` — **PASS**;
-- EN-02 scans 147–148: **NOT STARTED — next permitted batch**;
-- EN-03 scans 149–151: **BLOCKED pending Gate B**;
-- EN-04 scan 152: **BLOCKED**;
+- EN-02 scans 147–148: `batches/EN-02-scans-147-148.md` — **REVIEWED / PASS**;
+- Gate B: `GATE_B_REVIEW.md` — **PASS**;
+- EN-03 scans 149–151: **NOT STARTED — next permitted batch**;
+- EN-04 scan 152: **BLOCKED pending Gate C**;
 - final assembled English poem: **NOT STARTED**.
 
 Gate A baseline includes:
@@ -75,11 +76,27 @@ Gate A baseline includes:
 - `கரும்பனைய` → `like a stalk of sugarcane`, without an unsupported colour inference;
 - `காவலுக்குக் கைக்காரி` → `an accomplice standing guard`, preserving the narrator's accusatory agency.
 
+Gate B adds:
+
+- preserve scan 147's unusual quotation punctuation rather than silently balancing it;
+- `தென்னவன்` → `the Southerner` in the reviewed local passage;
+- `ஐந்தாம்படை` → `fifth-column force`;
+- keep compressed images such as honour put aboard a ship, palmyra fruit and darbha-grass stratagems visible rather than explaining them inside the poem;
+- preserve the scan-147→148 ship/boarding narrative as continuous across the provenance boundary;
+- user-confirmed scan-148 lexical forms control the English; no superseded `நின்றுள்` / `என்றுன்`-class reading may return.
+
 ### Exact next activity for தென்னவன் காதை
 
-Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly and the final user-controlled page records. Preserve scan 147's unusual quotation structure and scan 148's user-confirmed lexical text. Use the Gate A voice/terminology baseline.
+Begin **EN-03 — scans 149–151 only** from the canonical Tamil assembly and the final user-controlled page records.
 
-After the EN-02 draft, perform **Gate B consistency review before starting EN-03**. Do not begin EN-03 in the same activity.
+Mandatory EN-03 constraints:
+
+1. keep the direct speech opened on scan 149 continuous through scan 150 and close it only where the canonical scan-151 text closes it;
+2. preserve the page-151 user-directed omission exactly as omission — do not restore, reconstruct, quote, transliterate, paraphrase, replace or indirectly supply the excluded term;
+3. use the Gate A terminology baseline and Gate B consistency decisions;
+4. do not reintroduce superseded Tamil readings from earlier scan interpretations.
+
+After the EN-03 draft, perform **Gate C omission/speech review before starting EN-04**. Do not begin EN-04 in the same activity.
 
 ---
 
