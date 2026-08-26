@@ -32,7 +32,7 @@ The earlier Kalaignar Karuvoolam page-range inference is **superseded as incorre
 
 ## Verification history
 
-This work has experienced repeated verification failures. Earlier `verified` or `PASS` labels cannot be treated as independent proof of textual accuracy.
+This work experienced repeated verification failures. Earlier `verified` or `PASS` labels cannot be treated as independent proof of textual accuracy.
 
 ### Failure 1 — scan 145
 
@@ -163,6 +163,40 @@ Representative scan-152 corrections include:
 
 The supplied short-hyphen forms are retained on scan 152. The physical terminal `★` is retained because it is directly visible page structure.
 
+## Final 145–152 continuity audit — PASS
+
+Completed on **2026-08-26**. Full record: `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
+
+All seven page joins were reviewed against the reconciled page records, with the physical scans used for page identity and directly visible structure.
+
+| Join | Result | Continuity point |
+|---|---|---|
+| 145→146 | PASS | `...பலிதேடும் வேலை, ஆகாது` → `கொடுமையென உருவினான் கொடுவாளை!` |
+| 146→147 | PASS | `...கொதித்தெழுந்தாள்....` → `கனி மரம் போல் தனியொருத்தி...` |
+| 147→148 | PASS | `...கப்பலிலே / ஏறென்றான்.` → `மானத்தைக் கப்பலிலே ஏற்றிவிட்ட...` |
+| 148→149 | PASS | `...கொன்றுவிட்ட கொடியன்.` → `சுயமரியாதையை விலை கேட்கும் சுக்ரீவன்...` |
+| 149→150 | PASS | long speech remains open after `இராவணன் நான்—` and continues on scan 150 |
+| 150→151 | PASS | the same speech continues from `கட்டி !` into `அந்த யாழ்...` and closes on scan 151 |
+| 151→152 | PASS | `...கயவர்களும் மறைந்துபோனார்` → `ஒழிந்ததடா பகையென்று,நகை முழக்கம்` |
+
+Separator structure is also cleared:
+
+- scans 145, 146, 147, 148: one `★` each;
+- scan 149: three `★` separators;
+- scans 150–151: none;
+- scan 152: one terminal `★`.
+
+Total visible `★` separators retained: **8**.
+
+Quotation review:
+
+- scan 148 contains a self-contained quotation;
+- the final scan-149 speech continues through scan 150 and closes on scan 151;
+- scan 152 contains a self-contained final quoted speech;
+- scan 147 retains unusual user/source-controlled page-internal quotation punctuation without normalization and without treating it as cross-page carry-over.
+
+The scan-151 user-directed omission remains intentionally preserved. It does not block assembly because the omission is explicit, documented, and user-authorized.
+
 ## Current interpretation of `verified`
 
 | Status | Count |
@@ -170,20 +204,18 @@ The supplied short-hyphen forms are retained on scan 152. The physical terminal 
 | page records marked `verified` | 8 |
 | physical page images available | 8 |
 | user lexical-control reconciled pages | 6 — scans 147–152 |
-| final-cleared pages for work-wide assembly | 0 |
-
-`verified` currently means that a page has a completed page-level review or user lexical-control reconciliation. It does **not** yet mean the complete work has passed final continuity clearance.
+| final-cleared pages for work-wide assembly | **8** |
 
 Current readiness:
 
 - physical source: **COMPLETE — 8/8**;
 - page records: **145–152 present**;
 - user lexical-control reconciliation: **147–152 complete**;
-- page-level transcription: **COMPLETE but NOT FINAL-CLEARED**;
+- page-level transcription: **FINAL-CLEARED FOR ASSEMBLY**;
 - scan 151: **one documented user-directed editorial omission**;
-- final 145–152 continuity audit: **PENDING**;
-- Tamil assembly: **BLOCKED**;
-- English translation: **BLOCKED**.
+- final 145–152 continuity audit: **PASS**;
+- Tamil assembly: **READY — not yet assembled**;
+- English translation: **BLOCKED pending Tamil assembly**.
 
 ## Revised failure diagnosis
 
@@ -195,19 +227,17 @@ The failures fall into three recurring classes:
 
 High-resolution enlargement alone does not solve these problems once a wrong candidate has been mentally anchored.
 
-## Mandatory final-audit safeguards
+## Assembly safeguards
 
-For every page 145–152:
+For the next activity:
 
-1. do not preserve a prior reading merely because it already exists in the repository;
-2. where the user supplies an exact corrective extraction, use it as the lexical control and do not override it with a conflicting visual guess;
-3. retain the physical scan for page identity, illustrations, unambiguous separators, column order and page joins;
-4. do not silently normalize unusual Tamil;
-5. preserve the scan-151 user-directed omission and do not restore the excluded term in later assembly or translation;
-6. recheck all seven page joins before assembly.
+1. use the current page records `0145.md` through `0152.md` as the assembly inputs;
+2. do not restore any superseded visual reading;
+3. preserve all `★` separators in physical sequence;
+4. preserve the scan-151 documented omission and do not restore the excluded term;
+5. do not normalize unusual spelling, spacing or punctuation supplied as lexical control;
+6. keep English translation blocked until Tamil assembly is complete and reviewed.
 
 ## Exact next activity
 
-Perform the final **145–152 continuity review** over the reconciled page records: all seven page joins, quotation carry-over, separators, and terminal structure. Do not reintroduce any superseded visual reading or the deliberately omitted scan-151 term.
-
-Do not assemble the Tamil poem or begin English translation until that final continuity review passes.
+Assemble the Tamil poem from pages **145–152** in physical order. Do not begin English translation in the same activity.
