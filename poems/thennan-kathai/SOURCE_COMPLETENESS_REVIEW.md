@@ -1,8 +1,8 @@
 # தென்னவன் காதை — Source Completeness Review
 
-## Corrected status — 2026-08-23
+## Corrected status — 2026-08-26
 
-The earlier version of this file used a **Kalaignar Karuvoolam description/page-range note** to infer the poem's extent. The user has explicitly stated that that description is incorrect for this work.
+The earlier version of this file used a **Kalaignar Karuvoolam description/page-range note** to infer the poem's extent. The user explicitly stated that that description is incorrect for this work.
 
 That earlier inference is therefore **SUPERSEDED and must not be used** for poem boundaries, page numbering or transcription decisions.
 
@@ -10,13 +10,13 @@ That earlier inference is therefore **SUPERSEDED and must not be used** for poem
 
 The user confirms the poem occupies **pages 145–152**.
 
-Direct source evidence now available for this project:
+Direct source evidence available for this project:
 
 - original controlling PDF `TVA_PRL_0007090_முரசொலி.pdf`: poem pages **145–150**;
 - user-supplied one-page PDF for **page 151**: `af978d0a2b6ae807620bd0167c453d1e83c95130.pdf`;
 - user-supplied one-page PDF for **page 152**: `f34bc565cd5cbae27e96a92ef704cb8f21fd1270.pdf`.
 
-The two new page images visibly continue the same illustrated poem sequence beyond page 150. Page 152 is the terminal page in the user-confirmed 145–152 range.
+The two terminal page images visibly continue the same illustrated poem sequence beyond page 150. Page 152 is the terminal page in the user-confirmed 145–152 range.
 
 ## Terminal-page provenance
 
@@ -40,24 +40,33 @@ The two new page images visibly continue the same illustrated poem sequence beyo
 
 **PHYSICAL SOURCE AVAILABILITY: COMPLETE FOR THE USER-CONFIRMED RANGE 145–152.**
 
-All eight page images required for this work are now available to the project.
+All eight page images required for this work are available.
 
-This does **not** mean the transcription is complete or reliable. A scan-145 spot-check exposed multiple errors that survived the previous verification process. Consequently:
+The transcription also progressed through the recovery/reconciliation cycle:
 
-- scans **145–150** have been reopened as `needs-review`;
-- scans **151–152** are `not-started`;
-- the former 145–150 `verified` / full-range `PASS` claims are withdrawn;
-- Tamil assembly remains blocked until all eight pages are freshly transcribed and verified;
-- English translation remains blocked.
+- scans **145–146**: corrected through source-critical/user review;
+- scans **147–152**: reconciled using user-supplied lexical control text after repeated old-typeface misreadings;
+- scan **151**: one caste-based slur is intentionally omitted without replacement at the user's explicit direction and must remain omitted in later assembly unless the user changes that instruction;
+- final seven-join continuity review: **PASS**;
+- terminal `★` on scan 152: retained.
+
+Current readiness:
+
+- page records: **8/8 present**;
+- verified/reconciled: **8/8**;
+- final 145–152 continuity audit: **PASS**;
+- Tamil transcription: **FINAL-CLEARED FOR ASSEMBLY**;
+- Tamil assembly: **READY — not yet assembled**;
+- English translation: **BLOCKED pending Tamil assembly**.
+
+See `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md` for the complete join/separator/quotation review.
 
 ## Kalaignar Karuvoolam policy
 
 The Karuvoolam description/page-range statement previously cited here is retained only as **superseded historical provenance of an erroneous inference**. It is not a source witness for this project's page boundaries.
 
-The canonical title remains **தென்னவன் காதை**, directly verified from page 145 source pixels.
+The canonical title remains **தென்னவன் காதை**, directly verified from page 145.
 
-## Exact next activity
+## Next activity
 
-Restart transcription verification at **scan 145** using a blind glyph-first pass from source pixels, without looking at the existing repository transcription until the fresh line has been independently read.
-
-Then continue sequentially through **146–152**. No page may return to `verified` until every visible glyph, suffix, punctuation mark, separator and page join has been directly rechecked.
+Assemble the Tamil poem from `pages/0145.md` through `pages/0152.md` in physical order, preserving the reconciled lexical text, the visible separator sequence, and the documented page-151 omission. Do not restore superseded visual readings and do not begin English translation in the same activity.
