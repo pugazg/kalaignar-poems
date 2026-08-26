@@ -2,7 +2,7 @@
 
 ## Status
 
-**DRAFTED — pending Gate D / full-work review.**
+**REVIEWED / PASS — Gate D cleared.**
 
 ## Source scope
 
@@ -13,6 +13,7 @@
 - Gate A baseline: `../GATE_A_REVIEW.md`
 - Gate B baseline: `../GATE_B_REVIEW.md`
 - Gate C baseline: `../GATE_C_REVIEW.md`
+- Gate D review: `../GATE_D_REVIEW.md`
 
 The canonical user-controlled Tamil text for scan 152 is the sole lexical source for this batch. No superseded old-glyph reading is used. This batch continues directly from the scan-151 ending in EN-03 and stops at the terminal `★`.
 
@@ -79,6 +80,8 @@ became as though dead!
 
 ## Gate status
 
-**EN-04: DRAFTED. Gate D / full-work review is now the next permitted activity.**
+**Gate D: CLEARED. EN-04 is REVIEWED / PASS.**
 
-Do not assemble the final English poem until Gate D has compared EN-01 through EN-04 against `SOURCE_MAP.md` and cleared the complete translation.
+The complete four-batch English draft has passed the full-work review recorded in `../GATE_D_REVIEW.md`.
+
+The next permitted activity is creation of the final assembled English poem. Do not alter reviewed batch wording during assembly; any later whole-work editorial changes must be documented in `EDITORIAL_CONSISTENCY_REVIEW.md`.
