@@ -29,8 +29,6 @@ A later Gate A source check caught one surviving scan-145 ellipsis-count error a
 
 See `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
 
-Results:
-
 - seven page joins: **7/7 PASS**;
 - separator structure: **8 visible `★` marks — PASS**;
 - scan-149 speech continues through scan 150 and closes on scan 151 — **PASS**;
@@ -49,19 +47,19 @@ Results:
 - `★` separator count: **8**;
 - scan-151 documented omission: **preserved without replacement**.
 
-## English translation — Gate D PASS
+## English translation and release — COMPLETE
 
 Translation batches:
 
-- EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
-- EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**;
-- EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**;
-- EN-04 scan 152: **REVIEWED / PASS — Gate D cleared**.
+- EN-01 scans 145–146: **REVIEWED / PASS — Gate A**;
+- EN-02 scans 147–148: **REVIEWED / PASS — Gate B**;
+- EN-03 scans 149–151: **REVIEWED / PASS — Gate C**;
+- EN-04 scan 152: **REVIEWED / PASS — Gate D**.
 
 Full-work English review:
 
 - batch coverage scans 145–152: **complete, no gap/overlap**;
-- all seven English cross-page joins: **PASS**;
+- all seven English/source joins: **PASS**;
 - all eight `★` separators: **PASS**;
 - scan-149→151 continuous speech: **PASS**;
 - terminology/rhetorical-force consistency: **PASS**;
@@ -69,18 +67,14 @@ Full-work English review:
 - scan-151 editorial omission: **preserved without replacement**;
 - EN-04 terminal speech and terminal `★`: **PASS**.
 
-See `../translations/en/GATE_D_REVIEW.md`.
+Final English assembly:
 
-## Final English assembly — CREATED
-
-- assembled poem: `../translations/en/thennan-kathai-en.md`;
-- source: reviewed poem bodies from EN-01 through EN-04 only;
+- `../translations/en/thennan-kathai-en.md`;
+- reviewed batch bodies represented: **4/4 exactly once**;
 - reviewed wording altered during assembly: **0**;
-- `★` separator count: **8**;
-- seven narrative joins: **preserved**;
-- scan-149→151 continuous speech: **preserved**;
-- scan-151 documented omission: **preserved without replacement**;
-- terminal `★`: **retained as final poem content**.
+- editorial consistency review: **PASS**;
+- release report: `../translations/en/RELEASE_REPORT.md` — **PASS**;
+- English release closure: **COMPLETE**.
 
 ## Current status
 
@@ -88,19 +82,18 @@ See `../translations/en/GATE_D_REVIEW.md`.
 - physical page-image availability: **8/8 complete**;
 - Tamil transcription: **FINAL-CLEARED**;
 - final continuity audit: **PASS**;
-- Tamil assembly: **PASS**;
+- Tamil assembly: **PASS / COMPLETE**;
 - English translation batches: **4/4 REVIEWED / PASS**;
-- Gate D full-work review: **PASS**;
-- final assembled English poem: **CREATED**;
-- editorial consistency review: **NOT STARTED — NEXT**;
-- release report: **NOT STARTED**.
+- Gates A–D: **4/4 PASS**;
+- final English assembly: **REVIEWED ASSEMBLY / PASS**;
+- editorial consistency review: **PASS**;
+- release report: **PASS**;
+- work release state: **COMPLETE**.
 
 ## Next activity
 
-Perform `../translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` against the assembled `../translations/en/thennan-kathai-en.md` and the four reviewed batch poem bodies.
+No further scheduled transcription or English translation activity is required for this work.
 
-Confirm exact assembly fidelity, all seven narrative joins, all eight `★` separators, scan-149→151 speech continuity, terminology consistency, the scan-151 editorial omission, and the terminal `★` with no poem text after it. Do not silently modify reviewed English wording during the review.
-
-After that review passes, prepare `../translations/en/RELEASE_REPORT.md`.
+Any later change must begin with a concrete documented discrepancy and reopen the relevant review stage. Do not silently alter final-cleared Tamil or reviewed English wording, and do not restore the documented scan-151 omission unless the user explicitly changes that instruction.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
