@@ -48,25 +48,34 @@ The user confirms the poem range as **145–152**, and the two separately suppli
 Therefore:
 
 - required work pages: **8**;
-- page images now available: **8/8**;
+- page images available: **8/8**;
 - physical source availability: **COMPLETE**;
-- transcription verification: **NOT COMPLETE**.
+- page records present: **8/8**;
+- page-level verified/reconciled: **8/8**;
+- user lexical-control reconciliation: **147–152 complete**;
+- final 145–152 continuity audit: **PASS**;
+- Tamil transcription: **FINAL-CLEARED FOR ASSEMBLY**;
+- Tamil assembly: **READY — not yet assembled**;
+- English translation: **BLOCKED pending Tamil assembly**.
 
 The earlier Kalaignar Karuvoolam description/page-range note is known to be incorrect for this work and is not used to establish page boundaries. See `../SOURCE_COMPLETENESS_REVIEW.md`.
 
-## Verification warning
+## Verification history warning
 
-The former 145–150 `verified` status is withdrawn. A scan-145 spot-check identified multiple errors that survived earlier verification and the later full-range audit.
+Earlier page-level PASS labels were repeatedly disproved by user review, especially on scans 145–152. The current page records supersede those old readings.
 
-- scans 145–150: **needs-review**;
-- scans 151–152: **not-started**;
-- source pixels control all wording, punctuation, lineation and historical forms;
-- earlier repository text is not a source witness.
+Key safeguards now governing this work:
 
-See `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md`.
+- user-supplied lexical controls on scans 147–152 must not be overridden by a conflicting old-glyph visual guess;
+- superseded forms such as repeated `-உன்` readings must not be restored;
+- one user-directed caste-slur omission on scan 151 remains intentionally omitted without replacement and must remain omitted in assembly unless the user explicitly changes that instruction;
+- visible `★` separator structure and physical page ordering remain part of the archival record.
+
+See `../audit.md` and `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
 
 ## Preservation notes
 
 - source PDFs themselves must not be committed to the repository;
 - no printed page number is inferred from a PDF scan index unless visibly printed;
-- no OCR or outside edition may override directly inspected page pixels.
+- no OCR or outside edition may override the reconciled user-controlled lexical record for pages where the user has supplied exact text;
+- the next activity is Tamil assembly from `../pages/0145.md` through `../pages/0152.md` in physical order.
