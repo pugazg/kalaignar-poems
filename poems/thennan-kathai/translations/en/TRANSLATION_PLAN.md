@@ -47,15 +47,15 @@ Translation policy for that location:
 
 This instruction overrides any earlier source-faithfulness rule at that single location.
 
-## 5. Names and terminology — provisional policy
+## 5. Names and terminology — Gate A baseline
 
-Use stable English forms consistently after Batch EN-01 review.
+Gate A has reviewed the initial voice/terminology choices. Use these forms consistently unless a later batch review documents a context-specific exception.
 
-| Tamil | Provisional English handling | Review note |
+| Tamil | English handling | Review note |
 |---|---|---|
 | இராவணன் | Ravana | retain name consistently |
-| இராமன் / ராமன் | Rama | do not normalize the Tamil archival layer; English may use one standard name |
-| சீதை / சீதாதேவி | Sita / Sita Devi according to local rhetorical context | review consistency after EN-01 |
+| இராமன் / ராமன் | Rama | do not normalize the Tamil archival layer; English uses one standard name |
+| சீதை / சீதாதேவி | Sita / Sita Devi according to local rhetorical context | retain local form when rhetorically useful |
 | இலக்குவன் | Lakshmana | standard readable English form |
 | கும்பகர்ணன் | Kumbhakarna | standard readable English form |
 | வீடணன் / விபீஷணா | Vibhishana | English normalization allowed only in translation layer |
@@ -63,10 +63,12 @@ Use stable English forms consistently after Batch EN-01 review.
 | அனுமன் | Hanuman | standard readable English form |
 | மண்டோதரி | Mandodari | retain name |
 | ஆரியர் / ஆரியர்கள் | Aryan / Aryans | preserve the poem's political-rhetorical use; do not replace with a neutral historical paraphrase |
-| தமிழர் / தமிழினம் | Tamils / Tamil people / Tamil race according to exact context | choose contextually without weakening rhetoric |
+| தமிழர் / தமிழினம் | Tamils / Tamil people according to exact context | do not weaken the narrator's identity rhetoric |
 | பார்ப்பனர் / பார்ப்பனர்கள் | Brahmin / Brahmins | preserve direct reference where present |
+| பூசுரர்கள் | earth-god priests | Gate A choice; do not silently collapse into `Brahmins` |
+| இருடிகள் | rishis | Gate A choice |
 
-Terms whose exact English force depends strongly on context should be decided during batch review rather than frozen prematurely.
+Gate A also established that compressed source images should remain open where possible: do not add unsupported attributes simply to make an image sound more natural in English.
 
 ## 6. Translation style
 
@@ -93,9 +95,9 @@ Scope:
 - transition into the forest episode;
 - Muthunagai episode through the end of scan 146.
 
-Purpose:
+Status: **REVIEWED / PASS — Gate A cleared**.
 
-Establish the English voice, naming policy, handling of political vocabulary, repetition, similes and punctuation before translating the rest.
+Review record: `GATE_A_REVIEW.md`.
 
 ### EN-02 — scans 147–148
 
@@ -109,7 +111,10 @@ Scope:
 Special care:
 
 - quotation boundaries on scan 147 are unusual and must not be silently repaired;
-- page 148 follows the user-confirmed lexical-control text.
+- page 148 follows the user-confirmed lexical-control text;
+- use the Gate A voice/terminology baseline.
+
+Status: **NOT STARTED — next permitted batch**.
 
 ### EN-03 — scans 149–151
 
@@ -126,6 +131,8 @@ Special care:
 - keep the cross-page speech continuous in English even though source-page provenance remains tracked;
 - preserve the user-directed omission on scan 151 without replacement.
 
+Status: **BLOCKED pending Gate B**.
+
 ### EN-04 — scan 152
 
 Scope:
@@ -136,9 +143,9 @@ Scope:
 - reaction of Lanka;
 - terminal separator.
 
-## 8. Batch file plan
+Status: **BLOCKED**.
 
-After this plan is reviewed, create:
+## 8. Batch file plan
 
 ```text
 translations/en/batches/
@@ -160,7 +167,9 @@ Each batch should contain:
 
 ### Gate A — EN-01 voice review
 
-Before EN-02 begins, review:
+**CLEARED.** See `GATE_A_REVIEW.md`.
+
+Gate A reviewed:
 
 - Ravana/Rama naming;
 - Aryan/Tamil/Brahmin terminology;
@@ -169,9 +178,11 @@ Before EN-02 begins, review:
 - punctuation and quotation style;
 - whether the English sounds literary without becoming freer than the Tamil.
 
+It also caught and corrected one surviving scan-145 source punctuation discrepancy before approval.
+
 ### Gate B — EN-02 consistency review
 
-Check continuity of terminology and direct speech before EN-03.
+After drafting EN-02, check continuity of terminology, direct speech, unusual scan-147 quotation handling and fidelity to the user-controlled scan-148 text before EN-03.
 
 ### Gate C — EN-03 omission and speech review
 
@@ -187,8 +198,6 @@ After EN-04, compare the complete English draft to `SOURCE_MAP.md`, then create 
 
 ## 10. Final deliverables — later stages
 
-Not part of the current planning activity:
-
 ```text
 translations/en/batches/*.md
 translations/en/thennan-kathai-en.md
@@ -198,7 +207,13 @@ translations/en/RELEASE_REPORT.md
 
 ## 11. Current status
 
-- plan: **COMPLETE**;
-- source map: **COMPLETE**;
-- English prose translation: **NOT STARTED**;
-- next permissible translation activity after review: **EN-01 only**.
+- plan: **REVIEWED / PASS**;
+- source map: **REVIEWED / PASS**;
+- EN-01: **REVIEWED / PASS — Gate A cleared**;
+- EN-02: **NOT STARTED — next permitted batch**;
+- EN-03: **BLOCKED pending Gate B**;
+- EN-04: **BLOCKED**;
+- final assembled English poem: **NOT STARTED**;
+- next permissible translation activity: **EN-02 scans 147–148 only**.
+
+Do not begin EN-03 in the same activity as EN-02 drafting. Gate B must be completed first.
