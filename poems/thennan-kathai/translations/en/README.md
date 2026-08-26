@@ -15,36 +15,33 @@
 - full-work English review: **PASS — Gate D cleared**
 - final assembled English poem: **REVIEWED ASSEMBLY — editorial consistency PASS**
 - editorial consistency review: **PASS**
-- release report: **NOT STARTED — next permitted activity**
+- release report: **PASS**
+- English release closure: **COMPLETE**
 
 ## Governing source
 
-English translation must be produced only from the canonical Tamil assembly:
+English translation is grounded only in the canonical Tamil assembly:
 
 `../../sections/thennan-kathai.md`
 
-The page records `../../pages/0145.md` through `../../pages/0152.md` remain the provenance layer. For scans 147–152, the user-supplied lexical-control readings already incorporated into the canonical Tamil text supersede earlier conflicting visual readings.
+The page records `../../pages/0145.md` through `../../pages/0152.md` remain the provenance layer. For scans 147–152, the user-supplied lexical-control readings incorporated into the canonical Tamil text supersede earlier conflicting old-glyph visual readings.
 
 No English line may silently restore a superseded Tamil reading.
 
-During EN-01 Gate A review, one surviving source-punctuation discrepancy on scan 145 was found and corrected before the batch was cleared: `பூசுரர்கள் கூட்டம்....` → `பூசுரர்கள் கூட்டம்...`. The canonical Tamil assembly was synchronized to that correction.
+During EN-01 Gate A review, one surviving source-punctuation discrepancy on scan 145 was corrected before the batch was cleared: `பூசுரர்கள் கூட்டம்....` → `பூசுரர்கள் கூட்டம்...`. The canonical Tamil assembly was synchronized to that correction.
 
 ## Editorial exception
 
-Scan 151 contains one user-directed omission of a caste-based slur. The omitted source word is intentionally absent from the canonical Tamil repository text and must **not** be restored, reconstructed, quoted, transliterated, paraphrased, or indirectly supplied in English unless the user explicitly changes that instruction.
+Scan 151 contains one user-directed omission of a caste-based slur. The omitted source word is intentionally absent from the canonical Tamil repository text and must **not** be restored, reconstructed, quoted, transliterated, paraphrased, indirectly supplied or replaced by another epithet in English unless the user explicitly changes that instruction.
 
-At that location, translation must follow the canonical Tamil text as it currently stands and preserve the omission without inventing a replacement epithet.
-
-Gate C confirmed that EN-03 preserves this rule: the English moves directly to `Lakshmana too` without adding an epithet. Gate D rechecked the full work and confirmed that EN-04 neither restores nor alludes to the omitted scan-151 term.
-
-The assembled English poem and the editorial consistency review preserve the same omission without replacement. A current-repository search during the editorial consistency review returned no occurrence of the deliberately excluded term.
+Gate C, Gate D, the assembled English poem, the editorial consistency review and the release report all preserve this omission without replacement.
 
 ## Translation documents
 
 - `TRANSLATION_PLAN.md` — translation method, batch structure, fidelity rules and review gates;
 - `SOURCE_MAP.md` — scan-by-scan mapping from canonical Tamil source to English batches;
-- `PLAN_REVIEW.md` — review record clearing the planning/source-map gate;
-- `GATE_A_REVIEW.md` — EN-01 voice/terminology/fidelity review and source-punctuation recovery;
+- `PLAN_REVIEW.md` — planning/source-map review;
+- `GATE_A_REVIEW.md` — EN-01 voice/terminology/fidelity review and scan-145 punctuation recovery;
 - `GATE_B_REVIEW.md` — EN-02 consistency/quotation/user-control review;
 - `GATE_C_REVIEW.md` — EN-03 omission/continuous-speech/terminology review;
 - `GATE_D_REVIEW.md` — EN-04 and full-work coverage/continuity/separator/terminology review;
@@ -52,8 +49,9 @@ The assembled English poem and the editorial consistency review preserve the sam
 - `batches/EN-02-scans-147-148.md` — reviewed second English batch;
 - `batches/EN-03-scans-149-151.md` — reviewed third English batch;
 - `batches/EN-04-scan-152.md` — reviewed terminal English batch;
-- `thennan-kathai-en.md` — final assembled English poem, created only from the reviewed batch poem bodies;
-- `EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**, confirming exact assembly fidelity and final English consistency.
+- `thennan-kathai-en.md` — final assembled English poem;
+- `EDITORIAL_CONSISTENCY_REVIEW.md` — final assembly/editorial review, **PASS**;
+- `RELEASE_REPORT.md` — final English release closure, **PASS**.
 
 ## Batch sequence
 
@@ -64,40 +62,40 @@ The assembled English poem and the editorial consistency review preserve the sam
 
 ## Gate A baseline
 
-The reviewed EN-01 establishes these working conventions:
+The reviewed EN-01 established these working conventions:
 
 - preserve the poem's openly partisan narrator and rhetorical force;
 - `ஆரியர்` → **Aryan / Aryans**;
 - `பூசுரர்கள்` → **earth-god priests** in this context, not silently `Brahmins`;
 - `இருடிகள்` → **rishis**;
 - keep source metaphors where possible rather than explaining them in-line;
-- avoid unsupported attributes such as the rejected draft phrase `dark as sugarcane`;
-- preserve accusatory agency, including the reviewed `கைக்காரி` rendering;
-- keep `Yalpanam` as the English form used in this translation layer unless a later consistency review explicitly changes it.
+- avoid unsupported attributes;
+- preserve accusatory agency;
+- keep `Yalpanam` as the reviewed English form in this translation layer.
 
 ## Gate B additions
 
-The reviewed EN-02 adds these consistency constraints:
+EN-02 confirmed that:
 
-- scan 147's unusual quotation punctuation is intentionally not repaired into a modern balanced quotation structure;
+- scan 147's unusual quotation punctuation is not repaired into a modern balanced quotation structure;
 - `தென்னவன்` is rendered **the Southerner** in that local passage;
 - `ஐந்தாம்படை` is rendered **fifth-column force**;
-- compressed images such as honour put aboard a ship, palmyra fruit and darbha-grass stratagems are retained rather than explained inside the poem;
-- scan 148 follows the user-confirmed lexical control and no superseded old-glyph reading may return;
-- the scan-147→148 ship/boarding narrative remains continuous across the provenance boundary.
+- compressed images such as honour put aboard a ship, palmyra fruit and darbha-grass stratagems remain compressed;
+- scan 148 follows the user-confirmed lexical control;
+- the scan-147→148 ship/boarding narrative remains continuous.
 
 ## Gate C additions
 
-The reviewed EN-03 establishes these additional constraints:
+EN-03 confirmed that:
 
-- the direct speech opened on scan 149 continues through all of scan 150 and closes only on scan 151;
+- the direct speech opened on scan 149 continues through scan 150 and closes only on scan 151;
 - the page-151 editorial omission remains absent without reconstruction, transliteration, paraphrase or replacement;
-- the unusual canonical `ஐடை` remains **aidai** rather than being replaced by a familiar but unsupported reading;
-- `கரும்போ உயிரென்று` remains the compact rhetorical question **“Is life sugarcane?”** rather than being explained;
+- the unusual canonical `ஐடை` remains **aidai**;
+- `கரும்போ உயிரென்று` remains **“Is life sugarcane?”**;
 - all three scan-149 `★` separators are retained; scans 150–151 add none;
-- `வழி திறவேன்` is rendered with direct future force as **`I will open the way`**;
-- the Kumbhakarna/Rama sentence is phrased so Rama is clearly the one bounding away;
-- the Lakshmana-volley sentence is reordered for grammatical English without restoring the omitted epithet.
+- `வழி திறவேன்` retains direct future force;
+- the Kumbhakarna/Rama sentence keeps Rama as the one bounding away;
+- the Lakshmana-volley sentence remains grammatical in English without restoring the omitted epithet.
 
 ## Gate D full-work findings
 
@@ -115,7 +113,7 @@ Results:
 - superseded Tamil readings: **none reintroduced**;
 - EN-04 terminal speech and terminal `★`: **PASS**.
 
-The EN-04 conservative choices accepted at Gate D include:
+Reviewed EN-04 choices include:
 
 - `ஓரம்பு` → **a single arrow**;
 - `பஞ்சாய்ப் போகும்` → **will be reduced to cotton**;
@@ -127,7 +125,7 @@ The EN-04 conservative choices accepted at Gate D include:
 
 ## Final English assembly
 
-`thennan-kathai-en.md` was created by concatenating only the reviewed English poem bodies from EN-01 through EN-04, without altering reviewed wording.
+`thennan-kathai-en.md` is assembled only from the four reviewed English batch poem bodies, with no reviewed wording altered during assembly.
 
 Assembly safeguards:
 
@@ -135,20 +133,20 @@ Assembly safeguards:
 - all seven narrative joins retained without inserted headings or reset text;
 - scan-149→150→151 direct speech remains continuous and closes at the reviewed scan-151 point;
 - the scan-151 editorial omission remains absent without replacement;
-- the EN-03→EN-04 battle continuation remains direct;
-- the terminal `★` is the final poem content; no poem text follows it.
+- EN-03→EN-04 battle continuation remains direct;
+- the terminal `★` is the final poem content.
 
 ## Editorial consistency review
 
 `EDITORIAL_CONSISTENCY_REVIEW.md` is **PASS**.
 
-The review compared the final English poem against the four reviewed batch poem bodies and confirmed:
+Confirmed:
 
 - reviewed batch bodies: **4/4 present exactly once**;
 - source scans: **145–152 complete**;
 - poem-wording discrepancies against reviewed batch bodies: **0**;
 - cross-batch joins: **3/3 PASS**;
-- underlying scan joins: **7/7 preserved from Gate D**;
+- underlying scan joins: **7/7 PASS**;
 - separators: **8/8 PASS**;
 - scan-149→151 continuous speech: **PASS**;
 - scan-151 editorial omission: **PASS**;
@@ -156,12 +154,23 @@ The review compared the final English poem against the four reviewed batch poem 
 - terminal structure: **PASS**;
 - reviewed poem wording changed during editorial review: **0**.
 
-The final assembled English poem is therefore now a **REVIEWED ASSEMBLY**.
+## Release closure
+
+`RELEASE_REPORT.md` is **PASS** and closes the English release.
+
+Release status:
+
+- Tamil archival/source layer: **COMPLETE**;
+- Tamil continuity audit and assembly: **PASS**;
+- English batches EN-01–EN-04: **4/4 REVIEWED / PASS**;
+- Gates A–D: **4/4 PASS**;
+- final English assembly: **REVIEWED ASSEMBLY / PASS**;
+- editorial consistency: **PASS**;
+- release report: **PASS**;
+- release closure: **COMPLETE**.
 
 ## Current next step
 
-Prepare `RELEASE_REPORT.md` for final English release closure.
+No further English translation activity is required for `தென்னவன் காதை`.
 
-The release report must summarize Tamil final-clearance, four-batch English coverage, Gates A–D, final assembly fidelity, editorial consistency, separator and continuity checks, and the scan-151 omission policy without reproducing the excluded term.
-
-Do not silently change reviewed English poem wording during release closure.
+Any later change must begin with a concrete documented source or translation discrepancy and reopen the relevant review gate. Do not silently alter reviewed Tamil or English wording, and do not restore the documented scan-151 omission unless the user explicitly changes that instruction.
