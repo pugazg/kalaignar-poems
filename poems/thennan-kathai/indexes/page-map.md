@@ -71,6 +71,17 @@ Full-work English review:
 
 See `../translations/en/GATE_D_REVIEW.md`.
 
+## Final English assembly — CREATED
+
+- assembled poem: `../translations/en/thennan-kathai-en.md`;
+- source: reviewed poem bodies from EN-01 through EN-04 only;
+- reviewed wording altered during assembly: **0**;
+- `★` separator count: **8**;
+- seven narrative joins: **preserved**;
+- scan-149→151 continuous speech: **preserved**;
+- scan-151 documented omission: **preserved without replacement**;
+- terminal `★`: **retained as final poem content**.
+
 ## Current status
 
 - verified/reconciled pages: **8/8**;
@@ -80,16 +91,16 @@ See `../translations/en/GATE_D_REVIEW.md`.
 - Tamil assembly: **PASS**;
 - English translation batches: **4/4 REVIEWED / PASS**;
 - Gate D full-work review: **PASS**;
-- final assembled English poem: **NOT STARTED — now permitted**;
-- editorial consistency review: **NOT STARTED**;
+- final assembled English poem: **CREATED**;
+- editorial consistency review: **NOT STARTED — NEXT**;
 - release report: **NOT STARTED**.
 
 ## Next activity
 
-Create `../translations/en/thennan-kathai-en.md` by concatenating only the reviewed English poem bodies from EN-01 through EN-04.
+Perform `../translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` against the assembled `../translations/en/thennan-kathai-en.md` and the four reviewed batch poem bodies.
 
-Preserve all seven narrative joins, all eight `★` separators, the scan-149→151 continuous speech, the scan-151 editorial omission, and the terminal `★` with no poem text after it.
+Confirm exact assembly fidelity, all seven narrative joins, all eight `★` separators, scan-149→151 speech continuity, terminology consistency, the scan-151 editorial omission, and the terminal `★` with no poem text after it. Do not silently modify reviewed English wording during the review.
 
-Then perform `EDITORIAL_CONSISTENCY_REVIEW.md` before preparing `RELEASE_REPORT.md`.
+After that review passes, prepare `../translations/en/RELEASE_REPORT.md`.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
