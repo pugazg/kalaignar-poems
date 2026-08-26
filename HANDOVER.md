@@ -15,6 +15,74 @@ Branch: `main`
 6. The supplied scan remains controlling for Tamil source wording. Do not silently normalize Tamil or poem lineation.
 7. Do not commit source PDFs.
 
+## Active work — தென்னவன் காதை
+
+Slug: `poems/thennan-kathai/`  
+Tamil title: **தென்னவன் காதை**  
+Author: **கலைஞர் மு. கருணாநிதி**  
+Publication: **முரசொலி-பொங்கல் மலர்**  
+Year: **1956**  
+Correct physical poem range: **scans 145–152**.
+
+Source holdings:
+
+- scans 145–150: `TVA_PRL_0007090_முரசொலி.pdf`;
+- scans 151–152: separately supplied one-page PDFs.
+
+The earlier Kalaignar Karuvoolam description/range inference is **superseded as incorrect**.
+
+### Tamil archival status
+
+- physical source images: **8/8 available**;
+- page records: **8/8 present**;
+- verified/reconciled: **8/8**;
+- user lexical-control reconciliation: **scans 147–152 complete**;
+- final continuity audit: **7/7 joins PASS**;
+- visible `★` separators across work: **8**;
+- canonical Tamil assembly: `poems/thennan-kathai/sections/thennan-kathai.md`;
+- assembly review: **PASS**;
+- Tamil layer: **FINAL-CLEARED**.
+
+Important recovery history:
+
+- scan 146 required a third source-critical re-audit after eleven user-detected old-glyph/suffix errors;
+- scans 147–152 were reconciled to user-supplied lexical controls after repeated old-Tamil-typeface misreadings, especially `-ஆன்` / `-உன்` confusion and whole-word substitution;
+- scan 151 contains **one explicit user-directed omission of a caste-based slur without replacement**. The excluded term must not be restored, reconstructed, quoted, transliterated, paraphrased or replaced in later assembly/translation work unless the user explicitly changes this instruction;
+- during English EN-01 Gate A review, a final scan-145 source punctuation discrepancy was caught: `பூசுரர்கள் கூட்டம்....` → `பூசுரர்கள் கூட்டம்...` (three dots). The page record, canonical assembly and EN-01 were synchronized; continuity/assembly PASS remained valid after revalidation.
+
+### English translation status
+
+Workspace: `poems/thennan-kathai/translations/en/`
+
+- `TRANSLATION_PLAN.md`: **REVIEWED / PASS**;
+- `SOURCE_MAP.md`: **REVIEWED / PASS**;
+- `PLAN_REVIEW.md`: **PASS**;
+- EN-01 scans 145–146: `batches/EN-01-scans-145-146.md` — **REVIEWED / PASS**;
+- Gate A: `GATE_A_REVIEW.md` — **PASS**;
+- EN-02 scans 147–148: **NOT STARTED — next permitted batch**;
+- EN-03 scans 149–151: **BLOCKED pending Gate B**;
+- EN-04 scan 152: **BLOCKED**;
+- final assembled English poem: **NOT STARTED**.
+
+Gate A baseline includes:
+
+- preserve the poem's openly partisan narrator and rhetorical force;
+- `ஆரியர்` → `Aryan / Aryans`;
+- `பூசுரர்கள்` → `earth-god priests` in its scan-145 context;
+- `இருடிகள்` → `rishis`;
+- `தமிழரசி` → `Tamil queen`;
+- `யாழ்ப்பாணத் திருநாட்டான்` → `a man of sacred Yalpanam`, not the over-strong draft `lord`;
+- `கரும்பனைய` → `like a stalk of sugarcane`, without an unsupported colour inference;
+- `காவலுக்குக் கைக்காரி` → `an accomplice standing guard`, preserving the narrator's accusatory agency.
+
+### Exact next activity for தென்னவன் காதை
+
+Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly and the final user-controlled page records. Preserve scan 147's unusual quotation structure and scan 148's user-confirmed lexical text. Use the Gate A voice/terminology baseline.
+
+After the EN-02 draft, perform **Gate B consistency review before starting EN-03**. Do not begin EN-03 in the same activity.
+
+---
+
 ## First completed work
 
 Slug: `poems/idhayathai-thanthidu-anna/`  
@@ -123,9 +191,9 @@ No change to the verified Tamil source layer was required during English release
 
 Do not retranscribe, normalize, retranslate or modify this released work unless a genuine source-level discrepancy is found and documented, or the user explicitly requests a separately tracked editorial revision.
 
-## Next repository activity
+## General next-repository rule
 
-For the next Kalaignar poem supplied by the user:
+For any new Kalaignar poem supplied by the user:
 
 1. inspect the actual source scan before metadata;
 2. confirm the work has not already been started;
