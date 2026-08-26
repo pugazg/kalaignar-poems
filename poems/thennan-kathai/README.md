@@ -59,9 +59,7 @@ See `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md`.
 
 ### Scan 147
 
-A subsequent user-provided **word-to-word extraction from `pasted-document.pdf`** exposed that even the third scan-147 re-audit had retained numerous whole-word substitutions. The extraction was used only as an independent lexical checklist; every difference was compared back to the controlling scan, which retained authority for punctuation, spacing, dash form, quotation marks, separator and lineation.
-
-The fourth reconciliation corrected, among other items:
+A subsequent user-provided **word-to-word extraction from `pasted-document.pdf`** exposed that even the third scan-147 re-audit had retained numerous whole-word substitutions. The fourth reconciliation corrected, among other items:
 
 - `தனிபொருத்தி` → `தனியொருத்தி`;
 - `முகமிழந்` → `மூக்கிழந்`;
@@ -72,14 +70,30 @@ The fourth reconciliation corrected, among other items:
 - `இல்லாவிட்டான்` → `இல்லாவிடில்தான்`;
 - `பழிவாங்க—கால்` → `பழிவாங்க—காலை`;
 - `சிவப்புத்தேக்கி!` → `சிவப்பு தேக்கி...`;
-- `விழியுறங்கி` → `விழியழகி`, with the previously omitted next line `சீதாதேவி,` restored;
+- `விழியுறங்கி` → `விழியழகி`, with `சீதாதேவி,` restored;
 - `பாங்கமுள்ள` → `பாந்தமுள்ள`;
 - `பார்த்த / தாவை` → `பர்த் / தாவை`;
 - `விலை / விசம்` → `வலை / வீசும்`;
 - `தம்பி?”` → `தம்பீ?`;
 - `என்னுடலைக்` → `உன்னுடலைக்`.
 
-The earlier `notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` is retained as a failure-history record but now begins with a supersession notice documenting this later reconciliation.
+### Scan 148
+
+The user supplied an exact page-148 extraction and explicitly clarified that **the extraction is correct and the repository's visual interpretation was wrong**. The page has therefore been reconciled to that supplied text. Important corrections include:
+
+- `நின்றுள்` → `நின்றாள்`;
+- `இலங்கைச் செங்கோவில்` → `இலங்கைச் செங் கோலில்`;
+- `ரோசம்` → `மோசம்`;
+- `என்றுன்` → `என்றான்`;
+- `விட்டணன்` → `வீடணன்`;
+- `காத்தி- / ருப்போன்` → `காத்தி ருப்போன்`;
+- `நகரையென்றுன்` → `நகரையென்றான்`;
+- `விட்டணனின்` → `வீடணனின்`;
+- `தமையனும்` → `தமையனாம்`;
+- `தாப்பைகளின்` → `தர்ப்பைகளின்`;
+- `சூழ்ச்சியினில்` → `சூழ்ச்சியினால்`.
+
+The user-confirmed extraction also governs the sentence-level spacing and hyphens recorded in `pages/0148.md`. The earlier scan-148 recovery PASS is superseded.
 
 ## Current status
 
@@ -92,17 +106,12 @@ The earlier `notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` is retained as a failur
 
 ## Governing rule
 
-Source pixels are controlling. Do not normalize Tamil, preserve a plausible earlier reading merely because it already exists in the repository, or use semantic expectation to repair faint glyphs.
+Do not preserve a plausible earlier reading merely because it already exists in the repository. When the user supplies an exact corrective extraction for a page and explicitly confirms it as correct, that supplied text is the lexical control for the reconciliation; do not override it with a conflicting visual guess.
 
-The scan-146 and scan-147 failures show two separate hazards:
-
-1. **suffix/ending loss** — small grammatical endings can disappear even when the larger word shape is recognized;
-2. **whole-word substitution** — plausible Tamil forms such as `சுத்திரியாச்`, `காடேறியும்`, `விழியுறங்கி`, or `விலை விசம்` can be accepted even though the printed glyph sequence says something else.
-
-Where an independent transcription witness exists, it may be used only as a checklist. Every lexical difference must still be resolved from the controlling scan, and scan typography always wins.
+The scan-146, scan-147 and scan-148 failures demonstrate three recurring hazards: suffix loss, whole-word substitution, and overconfidence in visual interpretation of degraded print.
 
 ## Exact next step
 
-Continue the **full continuity/transcription audit of scans 145–152** under this stronger rule. Recheck every full line, every word-final suffix, all seven page joins, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
+Continue the **full continuity/transcription audit of scans 145–152** under this stronger rule. Recheck the remaining pages and joins, and where an exact user-supplied extraction exists, use it as the lexical control rather than silently substituting an alternative reading.
 
 Only after that audit passes may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
