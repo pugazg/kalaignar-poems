@@ -16,17 +16,29 @@
 - Publication line visible in preliminaries: **தமிழ்க்கனி பதிப்பகம்**, முதல் பதிப்பு: ஜூன், 2006
 - Printed price: **ரூ. 120/-**
 
-## Initial physical/source observations
+## Opening physical/source observations
 
 - Scan 1: colour front cover; title and author; verified page record present.
 - Scan 2: title page with a later library stamp/handwriting over the printed page; those later marks are not edition text; verified page record present.
 - Scan 3: publication/copyright/imprint information and printed price; verified page record present.
 - Scan 4: authorial introductory note headed with the work title and signed `மு. க.`; verified page record present. The unusual source form `நிலைபோட்டி` is preserved as printed.
-- Scans 5–7: contents (`பொருளடக்கம்`), listing 58 numbered items and their printed starting pages; the final listed item begins on printed page 295. Full page records remain pending.
-- Scan 8: section/title display for `காலப் பேழையும், கவிதைச் சாவியும் — கலைஞர் மு. கருணாநிதி`; page record pending.
-- Scan 9: **resolved as blank verso**. Direct inspection shows no independently printed edition text on that side; faint reverse-side/show-through dominates. No printed page number is visibly present, so no inferred number is assigned. Verified page record present.
+- Scan 5: first contents page, items 1–19; **no printed page number is visibly present**. An earlier sequence-based inference of page 4 has been removed. Verified page record present.
+- Scan 6: second contents page, items 20–43; visible printed page number `5`; verified page record present.
+- Scan 7: third/final contents page, items 44–58; visible printed page number `6`; verified page record present. The final listed item begins on listed page 295.
+- Scan 8: unnumbered work/title display for `காலப் பேழையும், கவிதைச் சாவியும்` with author line; verified page record present.
+- Scan 9: **blank verso**. Direct inspection shows no independently printed edition text on that side; faint reverse-side/show-through dominates. No printed page number is visibly present, so no inferred number is assigned. Verified page record present.
 - Scan 10 begins item 1, headed `பொது உலகம்`, with visible printed page number 9; page record pending.
 - The PDF is image-only for the inspected pages; OCR/extracted text is not being treated as textual authority.
+
+## Contents structure
+
+The contents are completely represented in `pages/0005.md` through `pages/0007.md`:
+
+- numbered entries: **58/58**;
+- listed starting-page values: **58/58**;
+- contents-page verification: **3/3 PASS**.
+
+Long titles that physically wrap are represented as single logical contents entries while preserving their wording and punctuation. Dot leaders are navigation/layout marks and are not treated as title punctuation.
 
 ## Scan-count note
 
@@ -34,4 +46,4 @@ The controlling PDF bytes opened directly as a 306-page PDF. Any external previe
 
 ## Status
 
-Source identity/checksum is complete. Verified page records currently cover **5/306 scans (1–4 and 9)**. The next source pass is scans 5–8, after which poem/item transcription can begin at scan 10.
+Source identity/checksum is complete. Verified page records now cover **9/306 scans, consecutively scans 1–9**. Front matter is closed through the blank verso. The next source pass begins the poem/body layer with item 1, `பொது உலகம்`, at scan 10.
