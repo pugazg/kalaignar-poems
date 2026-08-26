@@ -47,14 +47,14 @@ Translation policy for that location:
 
 This instruction overrides any earlier source-faithfulness rule at that single location.
 
-## 5. Names and terminology — Gate A baseline
+Gate C and Gate D both confirmed that the omission remains preserved without replacement.
 
-Gate A reviewed the initial voice/terminology choices. Use these forms consistently unless a later batch review documents a context-specific exception.
+## 5. Names and terminology — reviewed baseline
 
 | Tamil | English handling | Review note |
 |---|---|---|
 | இராவணன் | Ravana | retain name consistently |
-| இராமன் / ராமன் | Rama | do not normalize the Tamil archival layer; English uses one standard name |
+| இராமன் / ராமன் | Rama | English uses one standard name |
 | சீதை / சீதாதேவி | Sita / Sita Devi according to local rhetorical context | retain local form when rhetorically useful |
 | இலக்குவன் | Lakshmana | standard readable English form |
 | கும்பகர்ணன் | Kumbhakarna | standard readable English form |
@@ -62,13 +62,13 @@ Gate A reviewed the initial voice/terminology choices. Use these forms consisten
 | சுக்ரீவன் | Sugriva | standard readable English form |
 | அனுமன் | Hanuman | standard readable English form |
 | மண்டோதரி | Mandodari | retain name |
-| ஆரியர் / ஆரியர்கள் | Aryan / Aryans | preserve the poem's political-rhetorical use; do not replace with a neutral historical paraphrase |
-| தமிழர் / தமிழினம் | Tamils / Tamil people according to exact context | do not weaken the narrator's identity rhetoric |
+| ஆரியர் / ஆரியர்கள் | Aryan / Aryans | preserve the poem's political-rhetorical use |
+| தமிழர் / தமிழினம் | Tamils / Tamil people according to context | do not weaken identity rhetoric |
 | பார்ப்பனர் / பார்ப்பனர்கள் | Brahmin / Brahmins | preserve direct reference where present |
-| பூசுரர்கள் | earth-god priests | Gate A choice; do not silently collapse into `Brahmins` |
+| பூசுரர்கள் | earth-god priests | Gate A choice; do not collapse into `Brahmins` |
 | இருடிகள் | rishis | Gate A choice |
 
-Gate A also established that compressed source images should remain open where possible: do not add unsupported attributes simply to make an image sound more natural in English.
+Additional reviewed choices include **the Southerner**, **fifth-column force**, and transliterated **aidai** for the unresolved canonical `ஐடை`.
 
 ## 6. Translation style
 
@@ -77,93 +77,58 @@ Target style:
 - literary but clear English;
 - energetic narrative movement;
 - preserve exclamations, commands and direct address;
-- retain rhetorical repetition such as paired or repeated cries where possible;
+- retain rhetorical repetition where possible;
 - keep metaphorical density rather than explaining metaphors in-line;
-- avoid archaic pseudo-Biblical English unless the Tamil itself specifically demands an elevated register;
+- avoid archaic pseudo-Biblical English unless demanded by the Tamil;
 - avoid academic explanatory language inside the poem.
 
-Explanatory context, if needed, belongs in translation notes/review documents rather than in the verse body.
+Explanatory context belongs in translation notes/review documents rather than in the verse body.
 
-## 7. Batch plan
+## 7. Batch plan and reviewed state
 
 ### EN-01 — scans 145–146
 
-Scope:
-
-- poem opening and Ravana/Mandodari portrait;
-- rejection of sacrificial violence;
-- transition into the forest episode;
-- Muthunagai episode through the end of scan 146.
+Scope: opening portrait; Ravana/Mandodari; rejection of sacrificial violence; forest/Muthunagai sequence through scan 146.
 
 Status: **REVIEWED / PASS — Gate A cleared**.
 
-Review record: `GATE_A_REVIEW.md`.
+Batch: `batches/EN-01-scans-145-146.md`  
+Review: `GATE_A_REVIEW.md`
 
 ### EN-02 — scans 147–148
 
-Scope:
+Scope: mutilation aftermath; Ravana/Sita encounter; boarding/abduction; Lanka/Vibhishana/Aryan-strategy sequence.
 
-- aftermath of Muthunagai's mutilation;
-- Ravana/Sita encounter;
-- abduction passage;
-- Lanka, Vibhishana and Aryan-strategy passages through the end of scan 148.
-
-Special care:
-
-- quotation boundaries on scan 147 are unusual and must not be silently repaired;
-- page 148 follows the user-confirmed lexical-control text;
-- use the Gate A voice/terminology baseline.
+Special care: preserve scan 147's unusual quotation structure and the user-controlled scan-148 lexical reading.
 
 Status: **REVIEWED / PASS — Gate B cleared**.
 
-Batch: `batches/EN-02-scans-147-148.md`.
-Review record: `GATE_B_REVIEW.md`.
-
-Gate B retained the unusual scan-147 quotation structure, confirmed Gate A terminology continuity, preserved the scan-147→148 narrative join, and verified that no superseded page-148 visual reading returned through translation.
+Batch: `batches/EN-02-scans-147-148.md`  
+Review: `GATE_B_REVIEW.md`
 
 ### EN-03 — scans 149–151
 
-Scope:
+Scope: Sugriva; Vibhishana conflict; Kumbhakarna; Ravana's long speech across scans 149–151; battle narrative through scan 151.
 
-- Sugriva passage;
-- Vibhishana conflict;
-- Kumbhakarna sequence;
-- Ravana's long speech beginning on scan 149, continuing through scan 150 and closing on scan 151;
-- battle narrative through the end of scan 151.
-
-Special care:
-
-- keep the cross-page speech continuous in English even though source-page provenance remains tracked;
-- preserve the user-directed omission on scan 151 without replacement.
+Special care: keep the cross-page speech continuous and preserve the scan-151 editorial omission without replacement.
 
 Status: **REVIEWED / PASS — Gate C cleared**.
 
-Batch: `batches/EN-03-scans-149-151.md`.  
-Review record: `GATE_C_REVIEW.md`.
-
-Gate C confirmed continuous scan-149→150→151 speech, preserved the page-151 omission without restoration or replacement, confirmed that no superseded Tamil reading returned, and retained the Gate A/B terminology baseline. It also strengthened `வழி திறவேன்` to the direct future `I will open the way`, clarified that Rama is the one bounding away in the Kumbhakarna passage, and reordered the Lakshmana-volley English syntax without inserting any omitted epithet.
+Batch: `batches/EN-03-scans-149-151.md`  
+Review: `GATE_C_REVIEW.md`
 
 ### EN-04 — scan 152
 
-Scope:
+Scope: final battle; Vibhishana's spear attack; Ravana's fall and final speech; Lanka's reaction; terminal separator.
 
-- final battle;
-- Vibhishana's spear attack;
-- Ravana's fall and final speech;
-- reaction of Lanka;
-- terminal separator.
+Special care: preserve the 151→152 continuation, user-controlled scan-152 forms, self-contained final speech and terminal `★`.
 
-Status: **NOT STARTED — next permitted batch**.
+Status: **REVIEWED / PASS — Gate D cleared**.
 
-Special care:
+Batch: `batches/EN-04-scan-152.md`  
+Full-work review: `GATE_D_REVIEW.md`
 
-- preserve the scan-151→152 narrative continuation;
-- use only the user-controlled scan-152 lexical text;
-- preserve the final self-contained quoted speech;
-- retain the terminal `★` as end-of-work structure;
-- do not import superseded readings such as the former `கண வெடித்`, `ஒடுதற்கு`, `குறுவளி`, `பணமரத்`, or `தாலுடையான்` class of visual misreadings.
-
-## 8. Batch file plan
+## 8. Batch file set
 
 ```text
 translations/en/batches/
@@ -173,13 +138,7 @@ translations/en/batches/
   EN-04-scan-152.md
 ```
 
-Each batch should contain:
-
-1. source-scan range;
-2. Tamil-source pointers;
-3. English translation only;
-4. a short translator-review section listing deliberate terminology or structural decisions;
-5. no speculative reconstruction of omitted or unclear source material.
+All four batch files are now reviewed and passed.
 
 ## 9. Review gates
 
@@ -187,54 +146,44 @@ Each batch should contain:
 
 **CLEARED.** See `GATE_A_REVIEW.md`.
 
-Gate A reviewed:
-
-- Ravana/Rama naming;
-- Aryan/Tamil/Brahmin terminology;
-- treatment of rhetorical insults;
-- line/stanza density;
-- punctuation and quotation style;
-- whether the English sounds literary without becoming freer than the Tamil.
-
-It also caught and corrected one surviving scan-145 source punctuation discrepancy before approval.
+Established the voice/terminology baseline and corrected one surviving scan-145 source-punctuation discrepancy before approval.
 
 ### Gate B — EN-02 consistency review
 
 **CLEARED.** See `GATE_B_REVIEW.md`.
 
-Gate B confirmed:
-
-- Gate A terminology remains stable;
-- scan 147's unusual quotation punctuation is not silently modernized;
-- scan 147→148 remains continuous narrative;
-- user-controlled scan-148 lexical forms govern the English;
-- compressed images including the honour/ship, palmyra-fruit and darbha-grass phrases are not over-explained;
-- exactly two `★` separators are retained in EN-02.
+Confirmed terminology continuity, scan-147 quotation handling, 147→148 narrative continuity, user-controlled scan-148 wording and two retained separators.
 
 ### Gate C — EN-03 omission and speech review
 
 **CLEARED.** See `GATE_C_REVIEW.md`.
 
-Gate C confirmed:
-
-- the scan-149→150→151 speech remains continuous;
-- the scan-151 omitted term is not restored, transliterated, paraphrased, replaced or indirectly supplied;
-- no superseded Tamil reading returned;
-- Gate A/B terminology and rhetorical-force decisions remain stable;
-- exactly three `★` separators are retained in EN-03.
+Confirmed the 149→150→151 continuous speech, preservation of the scan-151 omission without replacement, no return of superseded readings and all three scan-149 separators.
 
 ### Gate D — EN-04 + full-work review
 
-After EN-04, compare the complete English draft to `SOURCE_MAP.md`, then create the final assembled English poem only after every batch passes.
+**CLEARED.** See `GATE_D_REVIEW.md`.
 
-## 10. Final deliverables — later stages
+Gate D confirmed:
+
+- complete batch coverage for scans 145–152 with no overlap or gap;
+- all seven cross-page joins;
+- all eight `★` separators;
+- quotation/speech continuity;
+- terminology and rhetorical-force consistency;
+- no reintroduction of superseded Tamil readings;
+- continued preservation of the scan-151 editorial omission;
+- EN-04 terminal speech and terminal separator.
+
+## 10. Final deliverables — remaining stages
 
 ```text
-translations/en/batches/*.md
 translations/en/thennan-kathai-en.md
 translations/en/EDITORIAL_CONSISTENCY_REVIEW.md
 translations/en/RELEASE_REPORT.md
 ```
+
+The final assembled English poem is now permitted but has **not** been created yet.
 
 ## 11. Current status
 
@@ -243,8 +192,16 @@ translations/en/RELEASE_REPORT.md
 - EN-01: **REVIEWED / PASS — Gate A cleared**;
 - EN-02: **REVIEWED / PASS — Gate B cleared**;
 - EN-03: **REVIEWED / PASS — Gate C cleared**;
-- EN-04: **NOT STARTED — next permitted batch**;
-- final assembled English poem: **NOT STARTED**;
-- next permissible activity: **EN-04 — scan 152 only**.
+- EN-04: **REVIEWED / PASS — Gate D cleared**;
+- full-work English review: **PASS**;
+- final assembled English poem: **NOT STARTED — now permitted**;
+- editorial consistency review: **NOT STARTED**;
+- release report: **NOT STARTED**.
 
-Do not begin the final assembled English poem until EN-04 has been drafted and Gate D has passed.
+## Exact next activity
+
+Create `translations/en/thennan-kathai-en.md` by concatenating only the reviewed English poem bodies from EN-01 through EN-04.
+
+Preserve all seven narrative joins, all eight `★` separators, the scan-149→151 continuous speech, the scan-151 editorial omission, and the terminal `★` with no poem text after it.
+
+Then perform `EDITORIAL_CONSISTENCY_REVIEW.md` before preparing `RELEASE_REPORT.md`.
