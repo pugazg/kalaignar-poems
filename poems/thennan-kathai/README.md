@@ -33,11 +33,15 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 ## Verification recovery
 
-A user spot-check of scan 145 exposed multiple transcription errors that had survived both page verification and the later full-range audit. Therefore the earlier `verified` and `PASS` claims were withdrawn for scans 145–150 and each affected page was reprocessed source-first.
+The project has now had multiple verification failures, so page-level `verified` must not be interpreted as work-wide final clearance.
 
-Scans **145–152** subsequently completed page-level source-first verification. Pages 151–152 were true blank-buffer first transcriptions because no canonical text previously existed for them.
+### Scan 145
 
-A later user review of **scan 146** exposed a second verification failure: eleven additional errors had survived even the replacement recovery pass. Scan 146 was therefore reopened for a stricter third full-line and suffix-level audit from the source pixels. The corrected readings are:
+A user spot-check exposed numerous errors that had survived the first verification cycle. Those corrections and the root-cause analysis are documented in `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md`.
+
+### Scan 146
+
+A later user review showed that the replacement recovery pass had still missed eleven substantial readings. The third source-critical re-audit corrected:
 
 - `உருவினை` → `உருவினான்`;
 - `கொடுவாள்` → `கொடுவாளை`;
@@ -51,23 +55,33 @@ A later user review of **scan 146** exposed a second verification failure: eleve
 - `கண்ணழகித்` → `கண்மூடித்`;
 - `தாயவள்` → `தூயவளை`.
 
-A subsequent user-requested **scan 147** recheck, using the same stricter suffix-aware method, found two additional errors that had survived its earlier PASS:
+See `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md`.
 
-- `படர் உறவு இல்லாவிட்டதான் என்ன?` → `படர் உறவு இல்லாவிட்டான் என்ன?`;
-- `என்னுடலுக் காக்கைக்கும், கழுகிற்கும்,` → `என்னுடலைக் காக்கைக்கும், கழுகிற்கும்,`.
+### Scan 147
 
-These later failures change the interpretation of the project state: **8/8 page records exist and are page-level verified, but the work is not final-cleared.** The final audit must use the stricter scan-146/147 rule and explicitly account for every word-final vowel/suffix rather than accepting whole-word silhouettes.
+A subsequent user-provided **word-to-word extraction from `pasted-document.pdf`** exposed that even the third scan-147 re-audit had retained numerous whole-word substitutions. The extraction was used only as an independent lexical checklist; every difference was compared back to the controlling scan, which retained authority for punctuation, spacing, dash form, quotation marks, separator and lineation.
 
-Other earlier recovery findings remain documented in the page records and audit, including:
+The fourth reconciliation corrected, among other items:
 
-- scan 145: numerous user-demonstrated source corrections plus additional spacing/punctuation corrections;
-- scan 147: earlier recovery corrected `முத்துநகை`, `சுத்திரியாச்`, `சூர்ப்பனகை`, `மானொன்று`, `மூத்தவனும்`, `என்னை`, followed by the stricter third-pass corrections above;
-- scan 148: corrections including `பாடுபடாமல்`, `பதினாயிரம்`, `போனால்தானென்ன`, `இலங்கைமா`, `சூழ்ச்சியினில்`;
-- scan 149: corrections including `விபீஷணு`, `வாளிப் போலப்`, `நின்றுன்`, `பயனில்லை-பாழாகும்`, `நடை கட்டு`;
-- scan 150: `கிடப்போர்,` and `ஆரண்யம்`;
-- scans 151–152: first source-first transcriptions from the separately supplied terminal-page scans.
+- `தனிபொருத்தி` → `தனியொருத்தி`;
+- `முகமிழந்` → `மூக்கிழந்`;
+- `பல்லிழந்தாள்` → `பல்இழந்தாள்`;
+- `சுத்திரியாச்` → `சூதறியாச்`;
+- `சூர்ப்பனகை` → `சூர்ப்பநகை`;
+- `காடேறியும்` → `காதெரியும்`;
+- `இல்லாவிட்டான்` → `இல்லாவிடில்தான்`;
+- `பழிவாங்க—கால்` → `பழிவாங்க—காலை`;
+- `சிவப்புத்தேக்கி!` → `சிவப்பு தேக்கி...`;
+- `விழியுறங்கி` → `விழியழகி`, with the previously omitted next line `சீதாதேவி,` restored;
+- `பாங்கமுள்ள` → `பாந்தமுள்ள`;
+- `பார்த்த / தாவை` → `பர்த் / தாவை`;
+- `விலை / விசம்` → `வலை / வீசும்`;
+- `தம்பி?”` → `தம்பீ?`;
+- `என்னுடலைக்` → `உன்னுடலைக்`.
 
-Current status:
+The earlier `notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` is retained as a failure-history record but now begins with a supersession notice documenting this later reconciliation.
+
+## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
 - verified pages: **8/8**;
@@ -76,20 +90,19 @@ Current status:
 - Tamil assembly: **BLOCKED pending a stricter final full-range audit**;
 - English translation: **BLOCKED**.
 
-See:
-
-- `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
-- `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the second failure pattern and revised verification rule;
-- `notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` for the dedicated scan-147 recheck.
-
 ## Governing rule
 
 Source pixels are controlling. Do not normalize Tamil, preserve a plausible earlier reading merely because it already exists in the repository, or use semantic expectation to repair faint glyphs.
 
-The completed page-level verification is not itself permission to assemble the poem. The scan-146 and scan-147 third re-audits demonstrate that a page can still contain false readings after a prior source-first pass if suffixes and complete glyph sequences are not independently accounted for.
+The scan-146 and scan-147 failures show two separate hazards:
+
+1. **suffix/ending loss** — small grammatical endings can disappear even when the larger word shape is recognized;
+2. **whole-word substitution** — plausible Tamil forms such as `சுத்திரியாச்`, `காடேறியும்`, `விழியுறங்கி`, or `விலை விசம்` can be accepted even though the printed glyph sequence says something else.
+
+Where an independent transcription witness exists, it may be used only as a checklist. Every lexical difference must still be resolved from the controlling scan, and scan typography always wins.
 
 ## Exact next step
 
-Perform a **full continuity/transcription audit of scans 145–152** under the stricter rule established by the scan-146/147 third re-audits. Recheck every full line, every word-final suffix, all seven page joins, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
+Continue the **full continuity/transcription audit of scans 145–152** under this stronger rule. Recheck every full line, every word-final suffix, all seven page joins, punctuation, separators, quotation carry-over, and every stamp-affected reading against the controlling source pixels.
 
 Only after that audit passes may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
