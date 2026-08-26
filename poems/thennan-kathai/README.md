@@ -2,7 +2,7 @@
 
 ## Source-first archival record
 
-This work is being processed from the scanned **முரசொலி-பொங்கல் மலர், 1956** source under the repository `HANDOVER.md` and `POEM_PROCESSING_GUIDE.md` rules.
+This work is processed from the scanned **முரசொலி-பொங்கல் மலர், 1956** source under the repository `HANDOVER.md` and `POEM_PROCESSING_GUIDE.md` rules.
 
 ## Work identity
 
@@ -21,173 +21,170 @@ This sentence is contextual metadata only; it is not part of the poem body unles
 
 The user confirms the poem occupies **pages 145–152**.
 
-Current source availability:
+Source availability:
 
-- pages **145–150**: in `TVA_PRL_0007090_முரசொலி.pdf`;
-- page **151**: supplied separately by the user on 2026-08-23;
-- page **152**: supplied separately by the user on 2026-08-23.
+- pages **145–150**: `TVA_PRL_0007090_முரசொலி.pdf`;
+- page **151**: separately user-supplied one-page PDF;
+- page **152**: separately user-supplied one-page PDF.
 
-All **8/8 physical page images are available**.
+Physical source availability: **8/8 complete**.
 
 The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** because the user identified that description as incorrect. See `SOURCE_COMPLETENESS_REVIEW.md`.
 
 ## Verification recovery
 
-The project experienced multiple verification failures, so the final state below is based on the corrected/reconciled page records rather than the original PASS labels.
+The work underwent multiple transcription-verification failures. Earlier PASS labels are therefore retained only as process history; the canonical text is the later corrected/reconciled state.
 
 ### Scan 145
 
-A user spot-check exposed numerous errors that had survived the first verification cycle. Those corrections and the root-cause analysis are documented in `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md`.
+A user spot-check exposed numerous errors in the first verification cycle. Established corrections include `தாடியுடனே`, `பூசுரர்கள்`, `மாடுகளை, ஆடுகளை மனிதர்களை`, `மேடுகளை வேள்விக்கென`, `நின்றான்`, `கோமான்`, `பற்றுதலை`, `மலைத்`, `தோற்ப`, and `பலிதேடும் வேலை`.
 
-A later pre-translation Gate A source check found one additional punctuation-count error that had survived into the assembled Tamil text:
+A later Gate A source check corrected the surviving punctuation-count error:
 
-- `பூசுரர்கள் கூட்டம்....` → **`பூசுரர்கள் கூட்டம்...`** — the controlling scan shows three dots.
+- `பூசுரர்கள் கூட்டம்....` → **`பூசுரர்கள் கூட்டம்...`**.
 
-The page record and canonical Tamil assembly were synchronized before EN-01 was approved.
+See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md`.
 
 ### Scan 146
 
-A later user review showed that the replacement recovery pass had still missed eleven substantial readings. The third source-critical re-audit corrected:
+A later user review exposed eleven substantial errors that had survived the replacement recovery pass. The canonical corrections include:
 
-- `உருவினை` → `உருவினான்`;
-- `கொடுவாள்` → `கொடுவாளை`;
-- `தாள்` → `தாளை`;
-- `பாறை` → `பாளை`;
-- `ஆரியத்தேன்` → `ஆரியத்தேளை`;
-- `தவசிகள்` → `தவசிகளை`;
-- `சின்னவனும்` → `சின்னவனாம்`;
-- `கள்ளப்பினில்` → `களைப்பினால்`;
-- `தூங்குகின்றுள்` → `தூங்குகின்றாள்`;
-- `கண்ணழகித்` → `கண்மூடித்`;
-- `தாயவள்` → `தூயவளை`.
+- `உருவினான்`;
+- `கொடுவாளை`;
+- `தாளை`;
+- `பாளை`;
+- `ஆரியத்தேளை`;
+- `தவசிகளை`;
+- `சின்னவனாம்`;
+- `களைப்பினால்`;
+- `தூங்குகின்றாள்`;
+- `கண்மூடித்`;
+- `தூயவளை`.
 
 See `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md`.
 
-### Scan 147
+### Scans 147–150
 
-A user-provided word-to-word extraction exposed that even the third scan-147 re-audit had retained numerous whole-word substitutions. The fourth reconciliation corrected, among other items:
+User-supplied lexical controls exposed recurring whole-word substitution and old-typeface glyph failures. Those controls supersede conflicting earlier visual readings.
 
-- `தனிபொருத்தி` → `தனியொருத்தி`;
-- `முகமிழந்` → `மூக்கிழந்`;
-- `பல்லிழந்தாள்` → `பல்இழந்தாள்`;
-- `சுத்திரியாச்` → `சூதறியாச்`;
-- `சூர்ப்பனகை` → `சூர்ப்பநகை`;
-- `காடேறியும்` → `காதெரியும்`;
-- `இல்லாவிட்டான்` → `இல்லாவிடில்தான்`;
-- `பழிவாங்க—கால்` → `பழிவாங்க—காலை`;
-- `சிவப்புத்தேக்கி!` → `சிவப்பு தேக்கி...`;
-- `விழியுறங்கி` → `விழியழகி`, with `சீதாதேவி,` restored;
-- `பாங்கமுள்ள` → `பாந்தமுள்ள`;
-- `பார்த்த / தாவை` → `பர்த் / தாவை`;
-- `விலை / விசம்` → `வலை / வீசும்`;
-- `தம்பி?”` → `தம்பீ?`;
-- `என்னுடலைக்` → `உன்னுடலைக்`.
+Important recovered forms include:
 
-### Scan 148
+- scan 147: `தனியொருத்தி`, `மூக்கிழந்`, `பல்இழந்தாள்`, `சூதறியாச்`, `சூர்ப்பநகை`, `காதெரியும்`, `இல்லாவிடில்தான்`, `விழியழகி`, `பாந்தமுள்ள`, `வலை / வீசும்`, `உன்னுடலைக்`;
+- scan 148: `நின்றாள்`, `செங் கோலில்`, `மோசம்`, `என்றான்`, `வீடணன்`, `தமையனாம்`, `தர்ப்பைகளின்`, `சூழ்ச்சியினால்`;
+- scan 149: `சுக்ரீவன்`, `விபீஷணா !`, repeated `என்றான் / நின்றான் / சென்றான்`, `உத்தமனாம்`, `சிந்தனை`, `வல்லவனாம்`, `உடை வாளைப் போலப்`, `ஐடை கட்டி`, `நடைகட்டு`, `இன்றிந்தத்`;
+- scan 150: `அனைவரையும்`, `புலிநிகர் நண்பர்களே!`, `தமிழ்க்`, `மடங்களாய்ப் போன தம்போ!!`, `சுக்ரீவன்`, `எதிர்க்கின்றார் என்னை / யென்றால்`, `வேண்டு / மன்றோ?`, `போடுகின்றார்`, `பாப்புனையும்`, `கிட்டா த`, `கட்டி !`.
 
-The user supplied an exact page-148 extraction and explicitly clarified that the extraction is correct and the repository's visual interpretation was wrong. Important corrections include `நின்றாள்`, `செங் கோலில்`, `மோசம்`, `என்றான்`, `வீடணன்`, `தமையனாம்`, `தர்ப்பைகளின்`, and `சூழ்ச்சியினால்`. The earlier scan-148 recovery PASS is superseded.
-
-### Scan 149
-
-The user supplied the page-149 lexical extraction. This exposed the same old-typeface failure again, especially repeated `-ஆன்` endings that had previously been misread as `-உன்`. Important corrections include `சுக்ரீவன்`, `விபீஷணா !`, repeated `என்றான்/நின்றான்/சென்றான்`, `உத்தமனாம்`, `சிந்தனை`, `வல்லவனாம்`, `உடை வாளைப் போலப்`, `ஐடை கட்டி`, `நடைகட்டு`, and `இன்றிந்தத்`. The physical scan retains three directly visible `★` separators.
-
-### Scan 150
-
-The user supplied the page-150 lexical extraction. Important corrections include `அனைவரையும்`, `புலிநிகர் நண்பர்களே!`, `தமிழ்க்`, `மடங்களாய்ப் போன தம்போ!!`, `சுக்ரீவன்`, `எதிர்க்கின்றார் என்னை / யென்றால்`, `வேண்டு / மன்றோ?`, `போடுகின்றார்`, `பாப்புனையும்`, `கிட்டா த`, and `கட்டி !`. The physical scan shows no `★` separator on this page.
+The physical scans continue to control unambiguous structure such as page identity, column order and separator placement.
 
 ### Scans 151–152
 
-The user supplied the remaining text for both terminal pages. Those page records are reconciled to the supplied lexical control rather than the earlier visual guesses.
+The user supplied the remaining text for both terminal pages. Those lexical controls supersede the earlier source-first visual guesses.
 
 Representative page-151 corrections include `வீரர்காள்`, `முள்ளம் பன்றிகளைப்`, `கொலை மணக்கும்`, `அம்புவியில்`, `அம்புவில்லை யெடடா`, `என்றான்`, `நின்றான்`, `ஆனையெனச்`, `தழல் பறக்கப்`, `பூனைகளே`, `போர்க் கணையை`, `கணைபோல`, and `அணை கெட்ட`.
 
-At the user's explicit direction, **one caste-based slur on page 151 is omitted without replacement** because the term is not considered appropriate in contemporary usage. The excluded source word is intentionally not reproduced in this repository documentation. No other word was removed for that editorial reason.
+Representative page-152 corrections include `கணை வெட்டித் தள்ளி`, `ஓடுதற்கு`, `சிக்கிவிட்டஇராமன்`, `சூறாவளி`, `எனைக் கொன்றவன்`, `பனைமரத்`, `தாளுடையான்`, and final `இலங்கை மாந்தர்!`.
 
-Representative page-152 corrections include `கணை வெட்டித் தள்ளி`, `ஓடுதற்கு`, `சிக்கிவிட்டஇராமன்`, `சூறாவளி`, `எனைக் கொன்றவன்`, `பனைமரத்`, `தாளுடையான்`, and final `இலங்கை மாந்தர்!`. The physical terminal `★` remains retained as page structure.
+### Editorial exception on scan 151
+
+At the user's explicit direction, **one caste-based slur is omitted without replacement**. The excluded source word is intentionally not reproduced in repository documentation, Tamil assembly or English translation. No substitute epithet, transliteration, paraphrase or indirect reconstruction is permitted unless the user explicitly changes that instruction.
 
 ## Final continuity review — PASS
 
-The final work-wide continuity review is complete. See `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
+See `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
 
-The audit checked all seven physical page joins, separator placement, quotation carry-over and the terminal page structure. Results:
+Results:
 
-- **145→146:** PASS;
-- **146→147:** PASS;
-- **147→148:** PASS;
-- **148→149:** PASS;
-- **149→150:** PASS — the long speech remains open across the page break;
-- **150→151:** PASS — the same speech continues and closes on scan 151;
-- **151→152:** PASS;
-- separator structure: **PASS** — 8 visible `★` marks across the work, including the terminal mark on scan 152;
-- page-147 unusual quotation punctuation remains preserved as a page-internal user/source-controlled anomaly rather than normalized;
-- page-151 documented editorial omission remains preserved and is not restored;
-- the later scan-145 three-dot punctuation correction does not affect page joins, separator count or quotation carry-over and has been revalidated against the assembly.
+- page joins **145→146, 146→147, 147→148, 148→149, 149→150, 150→151, 151→152: 7/7 PASS**;
+- long speech opened on scan 149 remains continuous through scan 150 and closes on scan 151;
+- separator structure: **8/8 visible `★` marks retained**, including the terminal mark on scan 152;
+- page-147 unusual quotation punctuation remains preserved rather than modernized;
+- the scan-151 editorial omission remains absent without replacement;
+- no inferred joining word or punctuation is inserted at a page boundary.
 
 ## Tamil assembly — PASS
 
-Canonical assembled Tamil text:
+Canonical Tamil assembly:
 
 - [`sections/thennan-kathai.md`](sections/thennan-kathai.md)
-- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md)
+- [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md)
 
-The assembly concatenates only the final-cleared `Poem body` blocks from scans 145–152, keeps each physical scan in a separate hidden-comment/fenced-text block, retains all **8 `★` separators**, preserves the cross-page quotation carry-over, and preserves the documented page-151 omission without replacement.
+Assembly result:
 
-Assembly review result: **8/8 page blocks present, 0 missing, 0 duplicated, 0 discrepancies against the current final-cleared page records**. The scan-145 three-dot correction is synchronized.
+- **8/8** page blocks present;
+- missing: **0**;
+- duplicated: **0**;
+- discrepancies against final-cleared page records: **0**;
+- separators: **8/8 PASS**;
+- scan-145 three-dot correction synchronized;
+- scan-151 editorial omission preserved.
 
-A repository search after assembly returns no current occurrence of the deliberately excluded page-151 term.
+Tamil archival/source layer: **COMPLETE**.
 
-## English translation progress
+## English translation — COMPLETE
 
-Planning/source-map stage:
+Workspace:
 
 - [`translations/en/README.md`](translations/en/README.md)
-- [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
-- [`translations/en/SOURCE_MAP.md`](translations/en/SOURCE_MAP.md)
-- [`translations/en/PLAN_REVIEW.md`](translations/en/PLAN_REVIEW.md)
 
-EN-01 review stage:
+Planning and mapping:
 
-- [`translations/en/batches/EN-01-scans-145-146.md`](translations/en/batches/EN-01-scans-145-146.md)
-- [`translations/en/GATE_A_REVIEW.md`](translations/en/GATE_A_REVIEW.md)
+- `translations/en/TRANSLATION_PLAN.md` — **PASS**;
+- `translations/en/SOURCE_MAP.md` — **PASS**;
+- `translations/en/PLAN_REVIEW.md` — **PASS**.
 
-Gate A is **PASS**. The review corrected unsupported translation choices including `lord of sacred Yalpanam`, `Tamil princess`, `dark as sugarcane`, and the softer rendering of `கைக்காரி`, and synchronized the final scan-145 punctuation correction before approval.
+Reviewed batches and gates:
 
-EN-02 review stage:
+| Batch | Scans | Gate | Result |
+|---|---:|---|---|
+| EN-01 | 145–146 | Gate A | REVIEWED / PASS |
+| EN-02 | 147–148 | Gate B | REVIEWED / PASS |
+| EN-03 | 149–151 | Gate C | REVIEWED / PASS |
+| EN-04 | 152 | Gate D | REVIEWED / PASS |
 
-- [`translations/en/batches/EN-02-scans-147-148.md`](translations/en/batches/EN-02-scans-147-148.md)
-- [`translations/en/GATE_B_REVIEW.md`](translations/en/GATE_B_REVIEW.md)
+Gate D full-work checks:
 
-Gate B is **PASS**. EN-02 preserves scan 147's unusual quotation structure, keeps the 147→148 boarding narrative continuous, follows the user-confirmed scan-148 lexical control, and retains compressed source images rather than silently explaining them.
+- source/page joins: **7/7 PASS**;
+- separators: **8/8 PASS**;
+- scan-149→150→151 speech continuity: **PASS**;
+- scan-151 omission policy: **PASS**;
+- terminology consistency: **PASS**;
+- superseded Tamil readings reintroduced: **0**;
+- terminal scan-152 structure: **PASS**.
+
+Final English poem:
+
+- [`translations/en/thennan-kathai-en.md`](translations/en/thennan-kathai-en.md)
+
+Editorial review:
+
+- [`translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`](translations/en/EDITORIAL_CONSISTENCY_REVIEW.md) — **PASS**;
+- reviewed batch bodies represented: **4/4 exactly once**;
+- English poem-wording discrepancies against reviewed batches: **0**;
+- cross-batch joins: **3/3 PASS**;
+- reviewed wording changed during editorial review: **0**.
+
+Release closure:
+
+- [`translations/en/RELEASE_REPORT.md`](translations/en/RELEASE_REPORT.md) — **PASS**;
+- English release closure: **COMPLETE**.
 
 ## Current status
 
-- scans **145–152**: page records present and page-level `verified`;
+- physical source availability: **COMPLETE — 8/8**;
+- page records: **145–152 present**;
 - verified/reconciled pages: **8/8**;
-- physical source availability: **COMPLETE — 8/8 page images present**;
-- user lexical-control reconciliation: **pages 147–152 complete**;
-- final 145–152 continuity audit: **PASS**;
-- Tamil transcription: **FINAL-CLEARED**;
-- page 151 contains **one explicitly documented user-directed editorial omission**;
-- Tamil assembly: **PASS — canonical assembly complete**;
-- English translation plan/source map: **REVIEWED / PASS**;
-- EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
-- EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**;
-- EN-03 scans 149–151: **NOT STARTED — next permitted batch**;
-- EN-04 scan 152: **BLOCKED pending Gate C**;
-- final assembled English poem: **NOT STARTED**.
+- final continuity audit: **PASS**;
+- canonical Tamil assembly: **PASS / COMPLETE**;
+- documented scan-151 editorial omission: **preserved**;
+- English translation batches: **4/4 REVIEWED / PASS**;
+- Gates A–D: **4/4 PASS**;
+- final English assembly: **REVIEWED ASSEMBLY / PASS**;
+- editorial consistency review: **PASS**;
+- English release report: **PASS**;
+- work release state: **COMPLETE**.
 
-## Governing rule
+## Governing rule after release
 
-Do not preserve a plausible earlier reading merely because it already exists in the repository. When the user supplies an exact corrective extraction for a page and confirms it as correct, that supplied text is the lexical control for reconciliation; do not override it with a conflicting visual guess.
+Do not silently change the final-cleared Tamil or reviewed English text.
 
-The scan-146 through scan-152 corrections demonstrate recurring hazards: suffix loss, whole-word substitution, and systematic misreading of older Tamil glyph forms—especially `-ஆன்` as `-உன்`, along with other compact vowel/sign combinations.
-
-The page-151 user-directed omission is a transparent editorial exception to otherwise source-faithful archival transcription. It must not be silently restored in later assembly or translation work.
-
-## Exact next step
-
-Begin **EN-03 — scans 149–151 only** from the canonical Tamil assembly using the Gate A terminology baseline and the Gate B consistency decisions.
-
-Preserve the scan-149→150→151 direct speech as one continuous speech in English. The page-151 omitted term must remain absent without restoration, transliteration, paraphrase or replacement.
-
-After EN-03 drafting, perform **Gate C** before beginning EN-04. Do not begin EN-04 in the same activity.
+Any later change must begin with a concrete documented source or translation discrepancy and reopen the relevant review stage. The scan-151 editorial omission must not be restored unless the user explicitly changes that instruction.
