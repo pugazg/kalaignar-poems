@@ -41,6 +41,17 @@ Results:
 - terminal structure on scan 152: **PASS**;
 - documented scan-151 editorial omission: **preserved**.
 
+## Tamil assembly — PASS
+
+- canonical assembly: `../sections/thennan-kathai.md`;
+- assembly review: `../ASSEMBLY_REVIEW.md`;
+- page blocks: **8/8 present**;
+- missing blocks: **0**;
+- duplicate blocks: **0**;
+- discrepancies against final-cleared page records: **0**;
+- `★` separator count in assembly: **8**;
+- scan-151 documented omission: **preserved without replacement**.
+
 Current status:
 
 - verified/reconciled: **8/8** — pages 145–152;
@@ -49,19 +60,20 @@ Current status:
 - physical page-image availability: **8/8 complete**;
 - user lexical-control reconciliation: **147–152 complete**;
 - final continuity audit: **PASS**;
-- page-level Tamil transcription: **FINAL-CLEARED FOR ASSEMBLY**;
-- Tamil assembly: **READY — not yet assembled**;
-- English translation: **blocked pending Tamil assembly**.
+- page-level Tamil transcription: **FINAL-CLEARED**;
+- Tamil assembly: **PASS — canonical assembly complete**;
+- English translation: **READY FOR PLANNING / SOURCE-MAP STAGE — not started**.
 
 See:
 
 - `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
 - `../notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the scan-146 failure pattern and suffix-level checking rule;
 - `../notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` for the superseded third scan-147 pass and its later reconciliation;
-- `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md` for the final seven-join review.
+- `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md` for the final seven-join review;
+- `../ASSEMBLY_REVIEW.md` for the assembly verification.
 
 ## Next activity
 
-Assemble the Tamil poem from `../pages/0145.md` through `../pages/0152.md` in physical order. Preserve the reconciled lexical text, the separator structure, the page-151 documented omission, and all user-controlled historical forms. Do not restore superseded visual readings and do not begin English translation in the same activity.
+Prepare the English translation **plan and source map only** from the canonical assembly `../sections/thennan-kathai.md`. Preserve the page-151 documented omission and do not begin translation prose in the same activity.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
