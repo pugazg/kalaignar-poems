@@ -42,24 +42,40 @@ The two terminal page images visibly continue the same illustrated poem sequence
 
 All eight page images required for this work are available.
 
-The transcription also progressed through the recovery/reconciliation cycle:
+The transcription progressed through the recovery/reconciliation cycle:
 
 - scans **145–146**: corrected through source-critical/user review;
 - scans **147–152**: reconciled using user-supplied lexical control text after repeated old-typeface misreadings;
-- scan **151**: one caste-based slur is intentionally omitted without replacement at the user's explicit direction and must remain omitted in later assembly unless the user changes that instruction;
+- scan **151**: one caste-based slur is intentionally omitted without replacement at the user's explicit direction and must remain omitted in later derivative work unless the user changes that instruction;
 - final seven-join continuity review: **PASS**;
 - terminal `★` on scan 152: retained.
+
+## Assembly result
+
+Canonical Tamil assembly:
+
+- `sections/thennan-kathai.md`;
+- review: `ASSEMBLY_REVIEW.md`.
+
+Assembly review: **PASS**.
+
+- page blocks present: **8/8**;
+- missing page blocks: **0**;
+- duplicate page blocks: **0**;
+- discrepancies against final-cleared page records: **0**;
+- visible `★` separators retained: **8**;
+- scan-151 documented omission: **preserved without replacement**.
 
 Current readiness:
 
 - page records: **8/8 present**;
 - verified/reconciled: **8/8**;
 - final 145–152 continuity audit: **PASS**;
-- Tamil transcription: **FINAL-CLEARED FOR ASSEMBLY**;
-- Tamil assembly: **READY — not yet assembled**;
-- English translation: **BLOCKED pending Tamil assembly**.
+- Tamil transcription: **FINAL-CLEARED**;
+- Tamil assembly: **PASS — COMPLETE**;
+- English translation: **READY FOR PLANNING / SOURCE-MAP STAGE — not started**.
 
-See `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md` for the complete join/separator/quotation review.
+See `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md` for the complete join/separator/quotation review and `ASSEMBLY_REVIEW.md` for assembly verification.
 
 ## Kalaignar Karuvoolam policy
 
@@ -69,4 +85,4 @@ The canonical title remains **தென்னவன் காதை**, directly 
 
 ## Next activity
 
-Assemble the Tamil poem from `pages/0145.md` through `pages/0152.md` in physical order, preserving the reconciled lexical text, the visible separator sequence, and the documented page-151 omission. Do not restore superseded visual readings and do not begin English translation in the same activity.
+Prepare the English translation **plan and source map only** from `sections/thennan-kathai.md`, preserving the documented page-151 omission. Do not begin translation prose in the same activity.
