@@ -11,8 +11,8 @@
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**
 - EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**
 - EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**
-- EN-04 scan 152: **NOT STARTED — next permitted batch**
-- final assembled English poem: **NOT STARTED**
+- EN-04 scan 152: **DRAFTED — pending Gate D / full-work review**
+- final assembled English poem: **NOT STARTED — blocked until Gate D**
 
 ## Governing source
 
@@ -32,7 +32,7 @@ Scan 151 contains one user-directed omission of a caste-based slur. The omitted 
 
 At that location, translation must follow the canonical Tamil text as it currently stands and preserve the omission without inventing a replacement epithet.
 
-Gate C explicitly confirmed that EN-03 preserves this rule: the English moves directly to `Lakshmana too` without adding an epithet.
+Gate C explicitly confirmed that EN-03 preserves this rule: the English moves directly to `Lakshmana too` without adding an epithet. EN-04 contains scan 152 only and does not restore or allude to the omitted scan-151 term.
 
 ## Translation documents
 
@@ -44,14 +44,15 @@ Gate C explicitly confirmed that EN-03 preserves this rule: the English moves di
 - `GATE_C_REVIEW.md` — EN-03 omission/continuous-speech/terminology review;
 - `batches/EN-01-scans-145-146.md` — reviewed first English batch;
 - `batches/EN-02-scans-147-148.md` — reviewed second English batch;
-- `batches/EN-03-scans-149-151.md` — reviewed third English batch.
+- `batches/EN-03-scans-149-151.md` — reviewed third English batch;
+- `batches/EN-04-scan-152.md` — drafted terminal English batch, awaiting Gate D.
 
 ## Batch sequence
 
 1. **EN-01 — scans 145–146:** **REVIEWED / PASS — Gate A cleared**;
 2. **EN-02 — scans 147–148:** **REVIEWED / PASS — Gate B cleared**;
 3. **EN-03 — scans 149–151:** **REVIEWED / PASS — Gate C cleared**;
-4. **EN-04 — scan 152:** **NOT STARTED — next permitted batch**.
+4. **EN-04 — scan 152:** **DRAFTED — pending Gate D / full-work review**.
 
 ## Gate A baseline
 
@@ -88,19 +89,26 @@ The reviewed EN-03 establishes these additional constraints:
 - all three scan-149 `★` separators are retained; scans 150–151 add none;
 - `வழி திறவேன்` is rendered with direct future force as **`I will open the way`**;
 - the Kumbhakarna/Rama sentence is phrased so Rama is clearly the one bounding away;
-- the Lakshmana-volley sentence is reordered for grammatical English without restoring the omitted epithet;
-- no scan-152 text has yet been translated.
+- the Lakshmana-volley sentence is reordered for grammatical English without restoring the omitted epithet.
+
+## EN-04 draft decisions
+
+The terminal batch follows only the user-controlled scan-152 Tamil text and currently uses these conservative choices, subject to Gate D:
+
+- `ஓரம்பு` → **a single arrow**;
+- `பஞ்சாய்ப் போகும்` → **will be reduced to cotton**;
+- `கன்னலடா எந்தன் நாடு` → **My land is sugarcane, man!** — the unusual metaphor is retained rather than explained;
+- `வாள்வீச்சு மின்னலடா` → **this sweep of the sword is lightning, man!**;
+- `ஆரியக் கனி சுவைக்கும்` → **tasting the Aryan fruit**;
+- `மலைப்பாறை முதுகு` → **mountain-rock back**;
+- `பார்ப்பனரின் தாளுடையான்` retains the bodily accusation as **he bears the Brahmin's feet** rather than adding explanatory prose;
+- the final Ravana speech is self-contained;
+- the terminal `★` is retained and no English poem text follows it.
 
 ## Current next step
 
-Draft **EN-04 — scan 152 only** from the canonical user-controlled scan-152 Tamil text.
+Perform **Gate D / full-work review**.
 
-EN-04 must:
+Gate D must compare EN-01 through EN-04 against `SOURCE_MAP.md` and the canonical Tamil assembly, verify all seven cross-page joins and all eight `★` separators, recheck terminology and rhetorical force, confirm that no superseded Tamil reading has returned, and confirm that the page-151 omitted term remains absent without replacement.
 
-- continue directly from the scan-151 ending without creating a false narrative break;
-- preserve the final battle sequence and Ravana's quoted final speech;
-- use the corrected scan-152 readings already in the canonical Tamil layer;
-- retain the terminal `★` as end-of-work structure;
-- stop after scan 152.
-
-After EN-04 drafting, perform **Gate D / full-work review** before creating the final assembled English poem.
+Do **not** create the final assembled English poem until Gate D passes.
