@@ -33,7 +33,7 @@ The earlier Kalaignar Karuvoolam description/page-range inference is **supersede
 
 ## Verification recovery
 
-The project has now had multiple verification failures, so page-level `verified` must not be interpreted as work-wide final clearance.
+The project experienced multiple verification failures, so the final state below is based on the corrected/reconciled page records rather than the original PASS labels.
 
 ### Scan 145
 
@@ -91,7 +91,7 @@ The user supplied the page-150 lexical extraction. Important corrections include
 
 ### Scans 151–152
 
-The user supplied the remaining text for both terminal pages. Those page records are now reconciled to the supplied lexical control rather than the earlier visual guesses.
+The user supplied the remaining text for both terminal pages. Those page records are reconciled to the supplied lexical control rather than the earlier visual guesses.
 
 Representative page-151 corrections include `வீரர்காள்`, `முள்ளம் பன்றிகளைப்`, `கொலை மணக்கும்`, `அம்புவியில்`, `அம்புவில்லை யெடடா`, `என்றான்`, `நின்றான்`, `ஆனையெனச்`, `தழல் பறக்கப்`, `பூனைகளே`, `போர்க் கணையை`, `கணைபோல`, and `அணை கெட்ட`.
 
@@ -99,16 +99,34 @@ At the user's explicit direction, **one caste-based slur on page 151 is omitted 
 
 Representative page-152 corrections include `கணை வெட்டித் தள்ளி`, `ஓடுதற்கு`, `சிக்கிவிட்டஇராமன்`, `சூறாவளி`, `எனைக் கொன்றவன்`, `பனைமரத்`, `தாளுடையான்`, and final `இலங்கை மாந்தர்!`. The physical terminal `★` remains retained as page structure.
 
+## Final continuity review — PASS
+
+The final work-wide continuity review is complete. See `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
+
+The audit checked all seven physical page joins, separator placement, quotation carry-over and the terminal page structure. Results:
+
+- **145→146:** PASS;
+- **146→147:** PASS;
+- **147→148:** PASS;
+- **148→149:** PASS;
+- **149→150:** PASS — the long speech remains open across the page break;
+- **150→151:** PASS — the same speech continues and closes on scan 151;
+- **151→152:** PASS;
+- separator structure: **PASS** — 8 visible `★` marks across the work, including the terminal mark on scan 152;
+- page-147 unusual quotation punctuation remains preserved as a page-internal user/source-controlled anomaly rather than normalized;
+- page-151 documented editorial omission remains preserved and is not restored.
+
 ## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
-- verified pages: **8/8**;
+- verified/reconciled pages: **8/8**;
 - physical source availability: **COMPLETE — 8/8 page images present**;
 - user lexical-control reconciliation: **pages 147–152 complete**;
-- page-level Tamil transcription: **COMPLETE but NOT FINAL-CLEARED**;
+- final 145–152 continuity audit: **PASS**;
+- Tamil transcription: **FINAL-CLEARED FOR ASSEMBLY**;
 - page 151 contains **one explicitly documented user-directed editorial omission**;
-- Tamil assembly: **BLOCKED pending final continuity review**;
-- English translation: **BLOCKED**.
+- Tamil assembly: **READY — not yet assembled**;
+- English translation: **BLOCKED pending Tamil assembly**.
 
 ## Governing rule
 
@@ -120,6 +138,4 @@ The page-151 user-directed omission is a transparent editorial exception to othe
 
 ## Exact next step
 
-Perform a final **145–152 continuity review** over the reconciled page records: recheck all seven page joins, quotation carry-over, separators, and terminal structure. Do not reintroduce superseded visual readings, and do not restore the documented page-151 omitted term.
-
-Only after that review may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
+Assemble the Tamil poem from `pages/0145.md` through `pages/0152.md` in physical order. Preserve the reconciled lexical text, the page-151 documented omission, and all structural `★` separators. Do not restore superseded readings and do not begin English translation in the same activity.
