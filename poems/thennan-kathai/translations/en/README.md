@@ -8,8 +8,9 @@
 - Tamil assembly: **PASS**
 - translation plan: **REVIEWED / PASS**
 - translation source map: **REVIEWED / PASS**
-- EN-01 scans 145–146: **DRAFT COMPLETE — Gate A review pending**
-- EN-02 through EN-04: **NOT STARTED / BLOCKED**
+- EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**
+- EN-02 scans 147–148: **NOT STARTED — next permitted batch**
+- EN-03 through EN-04: **NOT STARTED / BLOCKED**
 - final assembled English poem: **NOT STARTED**
 
 ## Governing source
@@ -22,6 +23,8 @@ The page records `../../pages/0145.md` through `../../pages/0152.md` remain the 
 
 No English line may silently restore a superseded Tamil reading.
 
+During EN-01 Gate A review, one surviving source-punctuation discrepancy on scan 145 was found and corrected before the batch was cleared: `பூசுரர்கள் கூட்டம்....` → `பூசுரர்கள் கூட்டம்...`. The canonical Tamil assembly was synchronized to that correction.
+
 ## Editorial exception
 
 Scan 151 contains one user-directed omission of a caste-based slur. The omitted source word is intentionally absent from the canonical Tamil repository text and must **not** be restored, reconstructed, quoted, transliterated, paraphrased, or indirectly supplied in English unless the user explicitly changes that instruction.
@@ -33,17 +36,31 @@ At that location, translation must follow the canonical Tamil text as it current
 - `TRANSLATION_PLAN.md` — translation method, batch structure, fidelity rules and review gates;
 - `SOURCE_MAP.md` — scan-by-scan mapping from canonical Tamil source to planned English batches;
 - `PLAN_REVIEW.md` — review record clearing the planning/source-map gate;
-- `batches/EN-01-scans-145-146.md` — first English draft and Gate A translator-review notes.
+- `GATE_A_REVIEW.md` — EN-01 voice/terminology/fidelity review and source-punctuation recovery;
+- `batches/EN-01-scans-145-146.md` — reviewed first English batch.
 
 ## Batch sequence
 
-1. **EN-01 — scans 145–146:** draft complete, review required;
-2. **EN-02 — scans 147–148:** blocked until Gate A passes;
-3. **EN-03 — scans 149–151:** blocked;
+1. **EN-01 — scans 145–146:** **REVIEWED / PASS**;
+2. **EN-02 — scans 147–148:** **NEXT — not started**;
+3. **EN-03 — scans 149–151:** blocked until EN-02 consistency review passes;
 4. **EN-04 — scan 152:** blocked.
+
+## Gate A baseline
+
+The reviewed EN-01 establishes these working conventions:
+
+- preserve the poem's openly partisan narrator and rhetorical force;
+- `ஆரியர்` → **Aryan / Aryans**;
+- `பூசுரர்கள்` → **earth-god priests** in this context, not silently `Brahmins`;
+- `இருடிகள்` → **rishis**;
+- keep source metaphors where possible rather than explaining them in-line;
+- avoid unsupported attributes such as the rejected draft phrase `dark as sugarcane`;
+- preserve accusatory agency, including the reviewed `கைக்காரி` rendering;
+- keep `Yalpanam` as the English form used in this translation layer unless a later consistency review explicitly changes it.
 
 ## Current next step
 
-Review `batches/EN-01-scans-145-146.md` for voice, terminology and fidelity.
+Begin **EN-02 — scans 147–148 only** using the Gate A baseline and the canonical user-controlled Tamil text for those pages.
 
-Do **not** begin EN-02 until Gate A is explicitly cleared. The page-151 omission rule remains binding throughout all later batches and final assembly.
+Do **not** begin EN-03 in the same activity. After EN-02 is drafted, perform the Gate B consistency review before proceeding further. The page-151 omission rule remains binding throughout all later batches and final assembly.
