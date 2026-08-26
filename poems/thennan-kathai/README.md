@@ -116,6 +116,19 @@ The audit checked all seven physical page joins, separator placement, quotation 
 - page-147 unusual quotation punctuation remains preserved as a page-internal user/source-controlled anomaly rather than normalized;
 - page-151 documented editorial omission remains preserved and is not restored.
 
+## Tamil assembly — PASS
+
+Canonical assembled Tamil text:
+
+- [`sections/thennan-kathai.md`](sections/thennan-kathai.md)
+- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md)
+
+The assembly concatenates only the final-cleared `Poem body` blocks from scans 145–152, keeps each physical scan in a separate hidden-comment/fenced-text block, retains all **8 `★` separators**, preserves the cross-page quotation carry-over, and preserves the documented page-151 omission without replacement.
+
+Assembly review result: **8/8 page blocks present, 0 missing, 0 duplicated, 0 discrepancies against the final-cleared page records**.
+
+A repository search after assembly returns no current occurrence of the deliberately excluded page-151 term.
+
 ## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
@@ -123,10 +136,10 @@ The audit checked all seven physical page joins, separator placement, quotation 
 - physical source availability: **COMPLETE — 8/8 page images present**;
 - user lexical-control reconciliation: **pages 147–152 complete**;
 - final 145–152 continuity audit: **PASS**;
-- Tamil transcription: **FINAL-CLEARED FOR ASSEMBLY**;
+- Tamil transcription: **FINAL-CLEARED**;
 - page 151 contains **one explicitly documented user-directed editorial omission**;
-- Tamil assembly: **READY — not yet assembled**;
-- English translation: **BLOCKED pending Tamil assembly**.
+- Tamil assembly: **PASS — canonical assembly complete**;
+- English translation: **READY FOR PLANNING / SOURCE-MAP STAGE — not started**.
 
 ## Governing rule
 
@@ -138,4 +151,4 @@ The page-151 user-directed omission is a transparent editorial exception to othe
 
 ## Exact next step
 
-Assemble the Tamil poem from `pages/0145.md` through `pages/0152.md` in physical order. Preserve the reconciled lexical text, the page-151 documented omission, and all structural `★` separators. Do not restore superseded readings and do not begin English translation in the same activity.
+Begin the English translation **planning/source-map stage only** from the canonical Tamil assembly `sections/thennan-kathai.md`, following the repository translation workflow. Do not begin translation prose until the plan/source map is reviewed.
