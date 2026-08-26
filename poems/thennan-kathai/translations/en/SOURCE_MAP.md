@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This map locks every planned English translation unit to the canonical Tamil source before translation prose begins.
+This map locks every English translation unit to the canonical Tamil source and records the reviewed batch/gate state.
 
 Canonical Tamil assembly:
 
@@ -35,7 +35,7 @@ Assembly marker:
 
 `<!-- scan 145 / no visible printed page number -->`
 
-Translation batch: **EN-01 — REVIEWED / PASS**
+Translation batch: **EN-01 — REVIEWED / PASS, Gate A cleared**
 
 Structural notes:
 
@@ -54,7 +54,7 @@ Assembly marker:
 
 `<!-- scan 146 / no visible printed page number -->`
 
-Translation batch: **EN-01 — REVIEWED / PASS**
+Translation batch: **EN-01 — REVIEWED / PASS, Gate A cleared**
 
 Structural notes:
 
@@ -161,7 +161,7 @@ Structural notes:
 - subsequent battle narrative continues on the same scan;
 - one caste-based slur has been deliberately omitted from the canonical Tamil repository text at the user's direction;
 - the reviewed EN-03 does **not** restore, transliterate, paraphrase or replace that omitted term;
-- Gate C also confirmed that no superseded old-glyph reading returned;
+- Gate C and Gate D confirmed that no superseded old-glyph reading returned;
 - ends `கால்பட்ட பிடரியுடன் கயவர்களும் மறைந்துபோனார்` with no added terminal punctuation.
 
 ### Scan 152
@@ -174,18 +174,19 @@ Assembly marker:
 
 `<!-- scan 152 / no visible printed page number -->`
 
-Translation batch: **EN-04 — NOT STARTED / next permitted batch**
+Translation batch: **EN-04 — REVIEWED / PASS, Gate D cleared**
 
 Structural notes:
 
 - directly continues scan 151 with `ஒழிந்ததடா பகையென்று,நகை முழக்கம்`;
 - contains the final self-contained quoted speech;
+- user-controlled scan-152 lexical text governs the translation;
 - one terminal `★` appears after the final verse;
-- no translation text may be added after the terminal separator except review metadata outside the poem.
+- EN-04 retains the terminal separator and adds no poem text after it.
 
 ## Cross-page continuity lock
 
-All seven joins are translation-significant and must remain logically continuous:
+All seven joins are translation-significant and have passed Gate D:
 
 1. **145→146** — `...பலிதேடும் வேலை, ஆகாது` → `கொடுமையென உருவினான் கொடுவாளை!`
 2. **146→147** — `...கொதித்தெழுந்தாள்....` → `கனி மரம் போல் தனியொருத்தி—இருமந்தி!`
@@ -195,15 +196,13 @@ All seven joins are translation-significant and must remain logically continuous
 6. **150→151** — open speech `கட்டி !` → `அந்த யாழ் மீட்டும் பாணனுக்கு...`, later closing at `வோம்!"`
 7. **151→152** — `...கயவர்களும் மறைந்துபோனார்` → `ஒழிந்ததடா பகையென்று,நகை முழக்கம்`
 
-Translation batches may preserve provenance markers internally, but English prose must not accidentally treat a physical scan boundary as a narrative break where the Tamil continues directly.
+Translation batches preserve provenance markers internally, but English poem wording does not treat a physical scan boundary as a narrative break where the Tamil continues directly.
 
-Gate B reviewed join **147→148** and passed it without introducing a false narrative break.
-
-Gate C reviewed joins **149→150** and **150→151** and passed them as one continuous speech. The page-151 omission remained absent without replacement.
+Gate D result: **7/7 joins PASS**.
 
 ## Separator lock
 
-Visible/canonical separators to preserve as structural breaks:
+Visible/canonical separators preserved in English:
 
 - scan 145: 1
 - scan 146: 1
@@ -216,12 +215,14 @@ Visible/canonical separators to preserve as structural breaks:
 
 Total: **8 `★` separators**.
 
-English batches currently represent:
+English batches represent:
 
-- EN-01: 2 separators — reviewed / pass;
-- EN-02: 2 separators — reviewed / pass;
-- EN-03: 3 separators — reviewed / pass;
-- EN-04: not started — must retain the terminal separator.
+- EN-01: 2 — reviewed / pass;
+- EN-02: 2 — reviewed / pass;
+- EN-03: 3 — reviewed / pass;
+- EN-04: 1 — reviewed / pass.
+
+Gate D result: **8/8 separators PASS**.
 
 ## Gate status
 
@@ -229,8 +230,17 @@ English batches currently represent:
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
 - EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**;
 - EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**;
-- EN-04 scan 152: **NOT STARTED — next permitted batch**.
+- EN-04 scan 152: **REVIEWED / PASS — Gate D cleared**;
+- full-work English review: **PASS — Gate D cleared**.
 
-The next permitted activity is **EN-04 — scan 152 only**.
+See `GATE_D_REVIEW.md` for the complete full-work review.
 
-EN-04 must preserve the scan-151→152 continuity, the final quoted speech, the user-controlled scan-152 lexical forms, and the terminal `★`. After EN-04 is drafted, perform Gate D / full-work review before assembling the final English poem.
+## Exact next activity
+
+Create the final assembled English poem:
+
+`thennan-kathai-en.md`
+
+Use only the reviewed poem bodies from EN-01 through EN-04. Preserve all seven joins, all eight `★` separators, the scan-149→151 continuous speech, the scan-151 editorial omission, and the terminal `★` with no poem text after it.
+
+After assembly, perform `EDITORIAL_CONSISTENCY_REVIEW.md` before preparing `RELEASE_REPORT.md`.
