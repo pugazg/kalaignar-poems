@@ -2,47 +2,41 @@
 
 | Work page | Source holding | Visible printed page | Role | Status | Notes |
 |---:|---|---:|---|---|---|
-| 145 | `TVA_PRL_0007090_முரசொலி.pdf` | — | title + poem opening | verified | recovery corrections retained; `பாவைபோல்` → `பாவை போல்`; final pre-Gate-A source check also corrected `பூசுரர்கள் கூட்டம்....` → `பூசுரர்கள் கூட்டம்...` (three source dots) |
-| 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **third source-critical re-audit 2026-08-25** supersedes both earlier PASS claims; eleven user-flagged/source-confirmed corrections include `உருவினான்`, `கொடுவாளை`, `தாளை`, `பாளை`, `ஆரியத்தேளை`, `தவசிகளை`, `சின்னவனாம்`, `களைப்பினால்`, `தூங்குகின்றாள்`, `கண்மூடித்`, `தூயவளை`; complete lines and suffixes reread from source pixels |
-| 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **fourth control-witness reconciliation 2026-08-26** supersedes all earlier 147 PASS claims; user-provided word-to-word extraction established canonical lexical corrections including `தனியொருத்தி`, `மூக்கிழந்`, `பல்இழந்தாள்`, `சூதறியாச்`, `சூர்ப்பநகை`, `காதெரியும்`, `இல்லாவிடில்தான்`, `காலை`, `சிவப்பு தேக்கி...`, `விழியழகி / சீதாதேவி,`, `பாந்தமுள்ள`, `பர்த் / தாவை`, `வலை / வீசும்`, `தம்பீ?`, `உன்னுடலைக்` |
-| 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **user-confirmed exact-extraction reconciliation 2026-08-26** supersedes earlier scan interpretation; canonical corrections include `நின்றாள்`, `செங் கோலில்`, `மோசம்`, `என்றான்`, `வீடணன்`, `காத்தி ருப்போன்`, `நகரையென்றான்`, `தமையனாம்`, `தர்ப்பைகளின்`, `சூழ்ச்சியினால்`; user-confirmed extraction governs lexical text and shown sentence-level spacing/hyphens |
-| 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **user lexical-control reconciliation 2026-08-26** supersedes earlier recovery PASS; corrections include `சுக்ரீவன்`, `விபீஷணா`, repeated `என்றான்/நின்றான்/சென்றான்` in place of misread `-உன்` forms, `உத்தமனாம்`, `சிந்தனை`, `வல்லவனாம்`, `வாளைப்`, `ஐடை`, `நடைகட்டு`, `இன்றிந்தத்`; three visible `★` separators retained from physical scan; duplicated pasted `ஆண்டிருக்கும்` resolved to one visible occurrence |
-| 150 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | **user lexical-control reconciliation 2026-08-26** supersedes earlier recovery PASS; corrections include `அனைவரையும்`, `புலிநிகர்`, `தமிழ்க்`, `மடங்களாய்ப் போன தம்போ!!`, `சுக்ரீவன்`, `எதிர்க்கின்றார் என்னை / யென்றால்`, `வேண்டு / மன்றோ?`, `போடுகின்றார்`, `பாப்புனையும்`, `கிட்டா த`, `கட்டி !`; user-supplied hyphen/spacing forms retained; no visible `★` separator |
-| 151 | user-supplied one-page PDF | — | illustrated poem continuation | verified | **user lexical-control reconciliation 2026-08-26** supersedes earlier source-first PASS; corrections include `வீரர்காள்`, `பன்றிகளைப்`, `கொலை மணக்கும்`, `அம்புவியில்`, `யெடடா`, `என்றான்`, `நின்றான்`, `ஆனையெனச்`, `தழல் பறக்கப்`, `பூனைகளே`, `போர்க் கணையை`, `கணைபோல`, `அணை கெட்ட`; one user-directed caste-slur omission applied without replacement and documented without reproducing the omitted term |
-| 152 | user-supplied one-page PDF | — | illustrated poem continuation / terminal page in user-confirmed range | verified | **user lexical-control reconciliation 2026-08-26** supersedes earlier source-first PASS; corrections include `கணை வெட்டித்`, `ஓடுதற்கு`, `சிக்கிவிட்டஇராமன்`, `சூறாவளி`, `எனைக்`, `பனைமரத்`, `தாளுடையான்`, final `இலங்கை மாந்தர்!`; supplied short-hyphen forms retained; terminal `★` retained from physical scan |
+| 145 | `TVA_PRL_0007090_முரசொலி.pdf` | — | title + poem opening | verified | recovery corrections retained; `பாவைபோல்` → `பாவை போல்`; final pre-Gate-A source check also corrected `பூசுரர்கள் கூட்டம்....` → `பூசுரர்கள் கூட்டம்...` |
+| 146 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | third source-critical re-audit supersedes earlier PASS claims; user-confirmed corrections include `உருவினான்`, `கொடுவாளை`, `தாளை`, `பாளை`, `ஆரியத்தேளை`, `தவசிகளை`, `சின்னவனாம்`, `களைப்பினால்`, `தூங்குகின்றாள்`, `கண்மூடித்`, `தூயவளை` |
+| 147 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | user lexical-control reconciliation supersedes earlier visual readings; canonical corrections include `தனியொருத்தி`, `மூக்கிழந்`, `பல்இழந்தாள்`, `சூதறியாச்`, `சூர்ப்பநகை`, `காதெரியும்`, `இல்லாவிடில்தான்`, `விழியழகி`, `பாந்தமுள்ள`, `வலை / வீசும்`, `தம்பீ?`, `உன்னுடலைக்` |
+| 148 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | user-confirmed exact-extraction reconciliation; canonical forms include `நின்றாள்`, `செங் கோலில்`, `மோசம்`, `என்றான்`, `வீடணன்`, `காத்தி ருப்போன்`, `நகரையென்றான்`, `தமையனாம்`, `தர்ப்பைகளின்`, `சூழ்ச்சியினால்` |
+| 149 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | user lexical-control reconciliation; repeated `-ஆன்` corrections, `சுக்ரீவன்`, `விபீஷணா`, `உத்தமனாம்`, `சிந்தனை`, `வல்லவனாம்`, `வாளைப்`, `ஐடை`, `நடைகட்டு`, `இன்றிந்தத்`; three visible `★` separators retained |
+| 150 | `TVA_PRL_0007090_முரசொலி.pdf` | — | illustrated poem | verified | user lexical-control reconciliation; canonical forms include `அனைவரையும்`, `புலிநிகர்`, `தமிழ்க்`, `மடங்களாய்ப் போன தம்போ!!`, `சுக்ரீவன்`, `எதிர்க்கின்றார் என்னை / யென்றால்`, `வேண்டு / மன்றோ?`, `போடுகின்றார்`, `பாப்புனையும்`, `கிட்டா த`, `கட்டி !`; no `★` separator |
+| 151 | user-supplied one-page PDF | — | illustrated poem continuation | verified | user lexical-control reconciliation; corrected old-typeface readings retained; one user-directed caste-slur omission applied without replacement and documented without reproducing the omitted term |
+| 152 | user-supplied one-page PDF | — | illustrated poem continuation / terminal page | verified | user lexical-control reconciliation; corrected forms include `கணை வெட்டித்`, `ஓடுதற்கு`, `சூறாவளி`, `எனைக்`, `பனைமரத்`, `தாளுடையான்`, final `இலங்கை மாந்தர்!`; terminal `★` retained |
 
 ## Correct work range
 
-The user confirms **145–152** as the poem's page range. Pages 151 and 152 were supplied directly and visibly continue the same illustrated poem sequence through the terminal `★` on scan 152.
+The user confirms **145–152** as the poem's page range. Pages 151 and 152 were supplied directly and continue the same illustrated poem sequence through the terminal `★` on scan 152.
 
 The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** and is not used for page boundaries.
 
 ## Verification recovery
 
-A scan-145 spot-check demonstrated that the original `verified` and full-range `PASS` labels were unreliable. Pages were then restored after replacement source-first passes.
+The original page-level verification proved unreliable. Scans 145–146 were reopened under stricter source-critical review, and user-supplied lexical controls for scans 147–152 superseded conflicting old-glyph visual readings.
 
-A later user review of scan **146** demonstrated that even that replacement pass had remained too dependent on whole-word recognition: eleven additional errors survived. Scan 146 therefore underwent a stricter third full-line/suffix re-audit.
+The scan-151 user-directed editorial omission remains deliberately absent without replacement.
 
-User-supplied lexical controls for scans **147–150** then exposed repeated whole-word and old-typeface misreadings, including systematic `-ஆன்` / `-உன்` confusion. Each affected page was reconciled to the user-supplied text, while the physical scans remained useful for page identity and directly unambiguous structure.
-
-The user then supplied the remaining lexical text for scans **151–152**. Those two page records were reconciled to the supplied text. On scan 151, one caste-based slur was deliberately omitted at the user's explicit direction and **not replaced with another word**; the omission is documented without reproducing the excluded term. Scan 152 retains the directly visible terminal `★`.
-
-A later Gate A source check caught one remaining punctuation-count error on scan **145**: `பூசுரர்கள் கூட்டம்....` was corrected to source-visible `பூசுரர்கள் கூட்டம்...`. The canonical assembly and EN-01 were synchronized before Gate A was cleared.
+A later Gate A source check caught one surviving scan-145 ellipsis-count error and synchronized the page record, Tamil assembly and EN-01 before translation approval.
 
 ## Final continuity audit — PASS
 
-The final 145–152 continuity review is recorded in `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
+See `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
 
 Results:
 
-- seven page joins checked: **7/7 PASS**;
-- separator structure checked: **PASS** — 8 visible `★` separators across the work, including the terminal mark on scan 152;
-- page-149 speech correctly continues across scan 150 and closes on scan 151;
-- page-147 unusual quotation punctuation is retained as user/source-controlled page-internal punctuation and is not normalized into a cross-page quotation;
-- scan 151 → 152 battle narrative continuity: **PASS**;
-- terminal structure on scan 152: **PASS**;
-- documented scan-151 editorial omission: **preserved**;
-- later scan-145 three-dot punctuation correction: **revalidated with no effect on any page join or separator count**.
+- seven page joins: **7/7 PASS**;
+- separator structure: **8 visible `★` marks — PASS**;
+- scan-149 speech continues through scan 150 and closes on scan 151 — **PASS**;
+- scan-151→152 battle continuity — **PASS**;
+- terminal scan-152 structure — **PASS**;
+- scan-151 editorial omission — **preserved**.
 
 ## Tamil assembly — PASS
 
@@ -51,45 +45,51 @@ Results:
 - page blocks: **8/8 present**;
 - missing blocks: **0**;
 - duplicate blocks: **0**;
-- discrepancies against current final-cleared page records: **0**;
-- `★` separator count in assembly: **8**;
-- scan-151 documented omission: **preserved without replacement**;
-- scan-145 three-dot correction: **synchronized**.
+- discrepancies against final-cleared page records: **0**;
+- `★` separator count: **8**;
+- scan-151 documented omission: **preserved without replacement**.
 
-## English translation status
+## English translation — Gate D PASS
 
-- plan/source map: **REVIEWED / PASS**;
+Translation batches:
+
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
-- Gate A review: `../translations/en/GATE_A_REVIEW.md`;
-- EN-02 scans 147–148: **NOT STARTED — next permitted batch**;
-- EN-03 / EN-04: **BLOCKED pending later gates**;
-- final assembled English poem: **NOT STARTED**.
+- EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**;
+- EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**;
+- EN-04 scan 152: **REVIEWED / PASS — Gate D cleared**.
 
-Current status:
+Full-work English review:
 
-- verified/reconciled: **8/8** — pages 145–152;
-- needs-review: **0/8**;
-- not-started: **0/8**;
+- batch coverage scans 145–152: **complete, no gap/overlap**;
+- all seven English cross-page joins: **PASS**;
+- all eight `★` separators: **PASS**;
+- scan-149→151 continuous speech: **PASS**;
+- terminology/rhetorical-force consistency: **PASS**;
+- superseded Tamil readings reintroduced: **0**;
+- scan-151 editorial omission: **preserved without replacement**;
+- EN-04 terminal speech and terminal `★`: **PASS**.
+
+See `../translations/en/GATE_D_REVIEW.md`.
+
+## Current status
+
+- verified/reconciled pages: **8/8**;
 - physical page-image availability: **8/8 complete**;
-- user lexical-control reconciliation: **147–152 complete**;
+- Tamil transcription: **FINAL-CLEARED**;
 - final continuity audit: **PASS**;
-- page-level Tamil transcription: **FINAL-CLEARED**;
-- Tamil assembly: **PASS — canonical assembly complete**;
-- EN-01 Gate A: **PASS**.
-
-See:
-
-- `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
-- `../notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the scan-146 failure pattern and suffix-level checking rule;
-- `../notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` for the superseded third scan-147 pass and its later reconciliation;
-- `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md` for the final seven-join review;
-- `../ASSEMBLY_REVIEW.md` for the assembly verification;
-- `../translations/en/GATE_A_REVIEW.md` for the reviewed EN-01 baseline.
+- Tamil assembly: **PASS**;
+- English translation batches: **4/4 REVIEWED / PASS**;
+- Gate D full-work review: **PASS**;
+- final assembled English poem: **NOT STARTED — now permitted**;
+- editorial consistency review: **NOT STARTED**;
+- release report: **NOT STARTED**.
 
 ## Next activity
 
-Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly, using the Gate A voice/terminology baseline. After drafting EN-02, perform Gate B consistency review before starting EN-03.
+Create `../translations/en/thennan-kathai-en.md` by concatenating only the reviewed English poem bodies from EN-01 through EN-04.
 
-Do not restore the documented page-151 omitted term in any later translation stage.
+Preserve all seven narrative joins, all eight `★` separators, the scan-149→151 continuous speech, the scan-151 editorial omission, and the terminal `★` with no poem text after it.
+
+Then perform `EDITORIAL_CONSISTENCY_REVIEW.md` before preparing `RELEASE_REPORT.md`.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
