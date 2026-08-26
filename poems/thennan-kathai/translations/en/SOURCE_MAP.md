@@ -20,7 +20,7 @@ The scan numbers below are physical source identifiers. No printed-page number i
 |---|---:|---|---|---|
 | EN-01 | 145–146 | assembly blocks `scan 145`, `scan 146` | opening portrait of Lanka/Ravana/Mandodari; rejection of sacrificial violence; forest/Muthunagai episode begins | scan 145 ends `...பலிதேடும் வேலை, ஆகாது`; scan 146 continues `கொடுமையென உருவினான் கொடுவாளை!` |
 | EN-02 | 147–148 | assembly blocks `scan 147`, `scan 148` | mutilation aftermath; Ravana/Sita encounter; abduction; Lanka/Vibhishana/Aryan-strategy sequence | scan 147 ends `ஏறென்றான்.`; scan 148 begins `மானத்தைக் கப்பலிலே ஏற்றிவிட்ட...` |
-| EN-03 | 149–151 | assembly blocks `scan 149`, `scan 150`, `scan 151` | Sugriva and Vibhishana passages; Kumbhakarna; Ravana's long speech; battle sequence | speech opens on scan 149, continues through scan 150 and closes on scan 151; one user-directed omission on scan 151 remains omitted in the English draft |
+| EN-03 | 149–151 | assembly blocks `scan 149`, `scan 150`, `scan 151` | Sugriva and Vibhishana passages; Kumbhakarna; Ravana's long speech; battle sequence | speech opens on scan 149, continues through scan 150 and closes on scan 151; one user-directed omission on scan 151 remains omitted in English |
 | EN-04 | 152 | assembly block `scan 152` | final battle, Ravana's fall and final speech, Lanka's reaction | terminal `★` retained as end-of-work structure |
 
 ## Scan-by-scan source map
@@ -112,7 +112,7 @@ Assembly marker:
 
 `<!-- scan 149 / no visible printed page number -->`
 
-Translation batch: **EN-03 — DRAFTED / Gate C pending**
+Translation batch: **EN-03 — REVIEWED / PASS, Gate C cleared**
 
 Structural notes:
 
@@ -120,7 +120,7 @@ Structural notes:
 - user lexical-control reconciliation is canonical;
 - final direct speech opens at `“என்னருமை வீரர்களே!...`;
 - that speech remains open at page end: `இராவணன் நான்—`;
-- the English draft retains all three separators and leaves the speech open into scan 150.
+- the reviewed English retains all three separators and leaves the speech open into scan 150.
 
 ### Scan 150
 
@@ -132,7 +132,7 @@ Assembly marker:
 
 `<!-- scan 150 / no visible printed page number -->`
 
-Translation batch: **EN-03 — DRAFTED / Gate C pending**
+Translation batch: **EN-03 — REVIEWED / PASS, Gate C cleared**
 
 Structural notes:
 
@@ -140,7 +140,7 @@ Structural notes:
 - entire page remains inside the long speech carried from scan 149;
 - user lexical-control text is canonical;
 - ends `கட்டி !` without closing the speech;
-- the English draft preserves this as the same continuous speech rather than creating a page-boundary break.
+- the reviewed English preserves this as the same continuous speech rather than creating a page-boundary break.
 
 ### Scan 151
 
@@ -152,7 +152,7 @@ Assembly marker:
 
 `<!-- scan 151 / no visible printed page number -->`
 
-Translation batch: **EN-03 — DRAFTED / Gate C pending**
+Translation batch: **EN-03 — REVIEWED / PASS, Gate C cleared**
 
 Structural notes:
 
@@ -160,7 +160,8 @@ Structural notes:
 - continues the scan-149/150 speech at page opening and closes it at `வோம்!"`;
 - subsequent battle narrative continues on the same scan;
 - one caste-based slur has been deliberately omitted from the canonical Tamil repository text at the user's direction;
-- the EN-03 draft does **not** restore, transliterate, paraphrase or replace that omitted term;
+- the reviewed EN-03 does **not** restore, transliterate, paraphrase or replace that omitted term;
+- Gate C also confirmed that no superseded old-glyph reading returned;
 - ends `கால்பட்ட பிடரியுடன் கயவர்களும் மறைந்துபோனார்` with no added terminal punctuation.
 
 ### Scan 152
@@ -173,7 +174,7 @@ Assembly marker:
 
 `<!-- scan 152 / no visible printed page number -->`
 
-Translation batch: **EN-04 — BLOCKED pending Gate C**
+Translation batch: **EN-04 — NOT STARTED / next permitted batch**
 
 Structural notes:
 
@@ -196,9 +197,9 @@ All seven joins are translation-significant and must remain logically continuous
 
 Translation batches may preserve provenance markers internally, but English prose must not accidentally treat a physical scan boundary as a narrative break where the Tamil continues directly.
 
-Gate B specifically reviewed join **147→148** and passed it without introducing a false narrative break.
+Gate B reviewed join **147→148** and passed it without introducing a false narrative break.
 
-EN-03 has now drafted joins **149→150** and **150→151** as one continuous speech; Gate C must review that continuity before EN-04 may start.
+Gate C reviewed joins **149→150** and **150→151** and passed them as one continuous speech. The page-151 omission remained absent without replacement.
 
 ## Separator lock
 
@@ -219,17 +220,17 @@ English batches currently represent:
 
 - EN-01: 2 separators — reviewed / pass;
 - EN-02: 2 separators — reviewed / pass;
-- EN-03: 3 separators — drafted / Gate C pending;
-- EN-04: not started.
+- EN-03: 3 separators — reviewed / pass;
+- EN-04: not started — must retain the terminal separator.
 
 ## Gate status
 
 - source map: **REVIEWED / PASS**;
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
 - EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**;
-- EN-03 scans 149–151: **DRAFTED — Gate C pending**;
-- EN-04 scan 152: **BLOCKED pending Gate C**.
+- EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**;
+- EN-04 scan 152: **NOT STARTED — next permitted batch**.
 
-The next permitted activity is **Gate C review of EN-03 only**. Gate C must verify the continuous scan-149→150→151 speech, preserve the page-151 user-directed omission without restoration or replacement, and confirm that no superseded Tamil reading has returned.
+The next permitted activity is **EN-04 — scan 152 only**.
 
-Do not begin EN-04 until Gate C passes.
+EN-04 must preserve the scan-151→152 continuity, the final quoted speech, the user-controlled scan-152 lexical forms, and the terminal `★`. After EN-04 is drafted, perform Gate D / full-work review before assembling the final English poem.
