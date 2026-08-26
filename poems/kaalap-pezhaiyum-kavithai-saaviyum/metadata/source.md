@@ -18,14 +18,14 @@
 
 ## Initial physical/source observations
 
-- Scan 1: colour front cover; title and author.
-- Scan 2: title page with a later library stamp over the printed page; stamp is not edition text.
-- Scan 3: publication/copyright/imprint information and printed price.
-- Scan 4: authorial introductory note headed with the work title and signed `மு. க.`.
-- Scans 5–7: contents (`பொருளடக்கம்`), listing 58 numbered items and their printed starting pages; the final listed item begins on printed page 295.
-- Scan 8: section/title display for `காலப் பேழையும், கவிதைச் சாவியும் — கலைஞர் மு. கருணாநிதி`.
-- Scan 9: weak/show-through image; its role requires direct visual classification before verification.
-- Scan 10 begins item 1, headed `பொது உலகம்`, with visible printed page number 9.
+- Scan 1: colour front cover; title and author; verified page record present.
+- Scan 2: title page with a later library stamp/handwriting over the printed page; those later marks are not edition text; verified page record present.
+- Scan 3: publication/copyright/imprint information and printed price; verified page record present.
+- Scan 4: authorial introductory note headed with the work title and signed `மு. க.`; verified page record present. The unusual source form `நிலைபோட்டி` is preserved as printed.
+- Scans 5–7: contents (`பொருளடக்கம்`), listing 58 numbered items and their printed starting pages; the final listed item begins on printed page 295. Full page records remain pending.
+- Scan 8: section/title display for `காலப் பேழையும், கவிதைச் சாவியும் — கலைஞர் மு. கருணாநிதி`; page record pending.
+- Scan 9: **resolved as blank verso**. Direct inspection shows no independently printed edition text on that side; faint reverse-side/show-through dominates. No printed page number is visibly present, so no inferred number is assigned. Verified page record present.
+- Scan 10 begins item 1, headed `பொது உலகம்`, with visible printed page number 9; page record pending.
 - The PDF is image-only for the inspected pages; OCR/extracted text is not being treated as textual authority.
 
 ## Scan-count note
@@ -34,4 +34,4 @@ The controlling PDF bytes opened directly as a 306-page PDF. Any external previe
 
 ## Status
 
-Source identity/checksum and initial front-matter inspection are complete. Full 306-scan physical classification and page-by-page transcription/verification remain pending.
+Source identity/checksum is complete. Verified page records currently cover **5/306 scans (1–4 and 9)**. The next source pass is scans 5–8, after which poem/item transcription can begin at scan 10.
