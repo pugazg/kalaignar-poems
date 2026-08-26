@@ -136,11 +136,12 @@ Special care:
 - keep the cross-page speech continuous in English even though source-page provenance remains tracked;
 - preserve the user-directed omission on scan 151 without replacement.
 
-Status: **DRAFTED — Gate C pending**.
+Status: **REVIEWED / PASS — Gate C cleared**.
 
-Batch: `batches/EN-03-scans-149-151.md`.
+Batch: `batches/EN-03-scans-149-151.md`.  
+Review record: `GATE_C_REVIEW.md`.
 
-The draft keeps the scan-149→150→151 speech continuous, preserves all three scan-149 `★` separators, restores no omitted page-151 epithet, and stops before scan 152. Gate C must review the draft before any EN-04 work begins.
+Gate C confirmed continuous scan-149→150→151 speech, preserved the page-151 omission without restoration or replacement, confirmed that no superseded Tamil reading returned, and retained the Gate A/B terminology baseline. It also strengthened `வழி திறவேன்` to the direct future `I will open the way`, clarified that Rama is the one bounding away in the Kumbhakarna passage, and reordered the Lakshmana-volley English syntax without inserting any omitted epithet.
 
 ### EN-04 — scan 152
 
@@ -152,7 +153,15 @@ Scope:
 - reaction of Lanka;
 - terminal separator.
 
-Status: **BLOCKED pending Gate C**.
+Status: **NOT STARTED — next permitted batch**.
+
+Special care:
+
+- preserve the scan-151→152 narrative continuation;
+- use only the user-controlled scan-152 lexical text;
+- preserve the final self-contained quoted speech;
+- retain the terminal `★` as end-of-work structure;
+- do not import superseded readings such as the former `கண வெடித்`, `ஒடுதற்கு`, `குறுவளி`, `பணமரத்`, or `தாலுடையான்` class of visual misreadings.
 
 ## 8. Batch file plan
 
@@ -204,14 +213,15 @@ Gate B confirmed:
 
 ### Gate C — EN-03 omission and speech review
 
-**PENDING — next required activity.**
+**CLEARED.** See `GATE_C_REVIEW.md`.
 
-Explicitly confirm:
+Gate C confirmed:
 
-- the scan-149→150→151 speech is continuous;
-- the scan-151 omitted term has not been restored or paraphrased;
-- no superseded Tamil reading has returned;
-- Gate A/B terminology and rhetorical-force decisions remain stable.
+- the scan-149→150→151 speech remains continuous;
+- the scan-151 omitted term is not restored, transliterated, paraphrased, replaced or indirectly supplied;
+- no superseded Tamil reading returned;
+- Gate A/B terminology and rhetorical-force decisions remain stable;
+- exactly three `★` separators are retained in EN-03.
 
 ### Gate D — EN-04 + full-work review
 
@@ -232,9 +242,9 @@ translations/en/RELEASE_REPORT.md
 - source map: **REVIEWED / PASS**;
 - EN-01: **REVIEWED / PASS — Gate A cleared**;
 - EN-02: **REVIEWED / PASS — Gate B cleared**;
-- EN-03: **DRAFTED — Gate C pending**;
-- EN-04: **BLOCKED pending Gate C**;
+- EN-03: **REVIEWED / PASS — Gate C cleared**;
+- EN-04: **NOT STARTED — next permitted batch**;
 - final assembled English poem: **NOT STARTED**;
-- next permissible activity: **Gate C review of EN-03 only**.
+- next permissible activity: **EN-04 — scan 152 only**.
 
-Do not begin EN-04 until Gate C passes.
+Do not begin the final assembled English poem until EN-04 has been drafted and Gate D has passed.
