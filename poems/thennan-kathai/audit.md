@@ -80,25 +80,7 @@ See `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md`.
 
 ### Failure 3 — scan 147 after three visual passes
 
-A user-provided word-to-word extraction exposed substantial whole-word substitutions that had survived the third scan-147 re-audit. The fourth reconciliation corrected, among other items:
-
-| Previous repository reading | Correct reading |
-|---|---|
-| `தனிபொருத்தி` | `தனியொருத்தி` |
-| `முகமிழந்` | `மூக்கிழந்` |
-| `பல்லிழந்தாள்` | `பல்இழந்தாள்` |
-| `சுத்திரியாச்` | `சூதறியாச்` |
-| `சூர்ப்பனகை` | `சூர்ப்பநகை` |
-| `காடேறியும்` | `காதெரியும்` |
-| `இல்லாவிட்டான்` | `இல்லாவிடில்தான்` |
-| `பழிவாங்க—கால்` | `பழிவாங்க—காலை` |
-| `சிவப்புத்தேக்கி!` | `சிவப்பு தேக்கி...` |
-| `விழியுறங்கி` | `விழியழகி` + restored `சீதாதேவி,` |
-| `பாங்கமுள்ள` | `பாந்தமுள்ள` |
-| `பார்த்த / தாவை` | `பர்த் / தாவை` |
-| `விலை / விசம்` | `வலை / வீசும்` |
-| `தம்பி?”` | `தம்பீ?` |
-| `என்னுடலைக்` | `உன்னுடலைக்` |
+A user-provided word-to-word extraction exposed substantial whole-word substitutions that had survived the third scan-147 re-audit. Important corrections include `தனியொருத்தி`, `மூக்கிழந்`, `பல்இழந்தாள்`, `சூதறியாச்`, `சூர்ப்பநகை`, `காதெரியும்`, `இல்லாவிடில்தான்`, `சிவப்பு தேக்கி...`, `விழியழகி`, restored `சீதாதேவி,`, `பாந்தமுள்ள`, `பர்த் / தாவை`, `வலை / வீசும்`, `தம்பீ?`, and `உன்னுடலைக்`.
 
 The user extraction established the lexical reading while the scan remained useful for page identity and unambiguous page structure. The former `notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` is retained as superseded failure history.
 
@@ -124,27 +106,9 @@ Important corrections include:
 
 The earlier scan-148 recovery PASS is superseded. See `notes/SCAN_148_USER_CONFIRMED_RECONCILIATION_2026-08-26.md`.
 
-### Failure 5 — scan 149 repeated `-ஆன்` → `-உன்` misreading
+### Failure 5 — scan 149 repeated old-typeface misreading
 
-The user supplied the page-149 lexical control. This exposed the same older-typeface failure repeatedly.
-
-Important corrections include:
-
-| Previous repository reading | Correct reading |
-|---|---|
-| `சுக்கிரிவன்` | `சுக்ரீவன்` |
-| `விபீஷணு!` | `விபீஷணா !` |
-| `என்றுன்!` | `என்றான்!` |
-| `நின்றுன்—` | `நின்றான்-` |
-| `உத்தமனும்—சிந்தன்` | `உத்தமனாம் - சிந்தனை` |
-| `வல்லவனும்` | `வல்லவனாம்` |
-| `உடை வாளிப் போலப்` | `உடை வாளைப் போலப்` |
-| later `நின்றுன்,` | `நின்றான்,` |
-| `ஜடை கட்டி` | `ஐடை கட்டி` |
-| later `என்றுன்!` | `என்றான்!` |
-| `நடை கட்டு` | `நடைகட்டு` |
-| `சென்றுன்,` | `சென்றான்,` |
-| `இன்றிகத்` | `இன்றிந்தத்` |
+The user supplied the page-149 lexical control. Important corrections include `சுக்ரீவன்`, `விபீஷணா !`, repeated `என்றான்/நின்றான்/சென்றான்`, `உத்தமனாம்`, `சிந்தனை`, `வல்லவனாம்`, `உடை வாளைப் போலப்`, `ஐடை கட்டி`, `நடைகட்டு`, and `இன்றிந்தத்`.
 
 The physical page clearly contains three `★` separators. A duplicated pasted `ஆண்டிருக்கும்` was resolved to one visible occurrence without changing the surrounding lexical text.
 
@@ -152,37 +116,52 @@ See `notes/SCAN_149_USER_LEXICAL_RECONCILIATION_2026-08-26.md`.
 
 ### Failure 6 — scan 150 whole-word and old-glyph misreading
 
-The user supplied the page-150 lexical control. The earlier scan-150 recovery PASS had incorrectly treated several misread forms as source-confirmed.
-
-Important corrections include:
-
-| Previous repository reading | Correct reading |
-|---|---|
-| `அன்னவரையும்` | `அனைவரையும்` |
-| `புலிகள் நண்பர்களே!` | `புலிநிகர் நண்பர்களே!` |
-| `தமிழக்` | `தமிழ்க்` |
-| `மடங்களாய்ப் போனதம்மோ!` | `மடங்களாய்ப் போன தம்போ!!` |
-| `சுக்கிரிவன்` | `சுக்ரீவன்` |
-| `எதிர்க்கின்றூர் என்ன / பென்றால்,` | `எதிர்க்கின்றார் என்னை / யென்றால்,` |
-| `வேண்டும் / மன்றே?` | `வேண்டு / மன்றோ?` |
-| `போடுகின்றூர்` | `போடுகின்றார்` |
-| `யாப்புணையும்` | `பாப்புனையும்` |
-| `கிட்டாத` | `கிட்டா த` |
-| `கட்டி!` | `கட்டி !` |
+The user supplied the page-150 lexical control. Important corrections include `அனைவரையும்`, `புலிநிகர் நண்பர்களே!`, `தமிழ்க்`, `மடங்களாய்ப் போன தம்போ!!`, `சுக்ரீவன்`, `எதிர்க்கின்றார் என்னை / யென்றால்`, `வேண்டு / மன்றோ?`, `போடுகின்றார்`, `பாப்புனையும்`, `கிட்டா த`, and `கட்டி !`.
 
 The user-supplied hyphen forms are retained in the canonical page record. The physical page contains no `★` separator. The earlier scan-150 recovery PASS is superseded.
 
 See `notes/SCAN_150_USER_LEXICAL_RECONCILIATION_2026-08-26.md`.
 
-## Pages 151–152
+### Failure 7 — scans 151–152 after initial source-first transcription
 
-### Scan 151
+The user supplied the remaining lexical text for both terminal pages. This demonstrated that the first source-first transcriptions of scans 151 and 152 also contained old-typeface and whole-word misreadings.
 
-A first source-first transcription exists from the separately supplied page. It has not yet received the same user lexical-control review used for pages 147–150 and therefore remains subject to the final work-wide audit.
+Representative scan-151 corrections include:
 
-### Scan 152
+| Previous repository reading | Correct reading |
+|---|---|
+| `வீரர்கள்!` | `வீரர்காள்!` |
+| `முள்ளம் பன்றிக்குப்` | `முள்ளம் பன்றிகளைப்` |
+| `கொல் மணக்கும்` | `கொலை மணக்கும்` |
+| `அம்புவில்லில் கண்டதில்லை` | `அம்புவியில் கண்டதில்லை` |
+| `அம்புவில்லில் பெட்டா என்று` | `அம்புவில்லை யெடடா என்று` |
+| `என்றுன்!` | `என்றான்!` |
+| `நின்றுன்!` | `நின்றான்!` |
+| `ஆண்டெனச்` | `ஆனையெனச்` |
+| `சிந்தையெல்லாம்` | `சிந்தையெலாம்` |
+| `தமிழ் பறக்கப்` | `தழல் பறக்கப்` |
+| `பூண்களே!` | `பூனைகளே!` |
+| `போர்க் கண்ணையை!` | `போர்க் கணையை!` |
+| `விடுபட்ட கண்போல` | `விடுபட்ட கணைபோல` |
+| `ஆண் கெட்ட வெள்ளம் போல` | `அணை கெட்ட வெள்ளம் போல` |
 
-A first source-first transcription exists from the separately supplied terminal page. It has not yet received the same user lexical-control review used for pages 147–150 and therefore remains subject to the final work-wide audit.
+At the user's explicit direction, **one caste-based slur on scan 151 is omitted without replacement**. The excluded source word is intentionally not reproduced anywhere in the current repository documentation. This is a transparent editorial exception; no other lexical item was removed for that reason.
+
+Representative scan-152 corrections include:
+
+| Previous repository reading | Correct reading |
+|---|---|
+| `கண வெடித் தள்ளி` | `கணை வெட்டித் தள்ளி` |
+| `ஒடுதற்கு` | `ஓடுதற்கு` |
+| `சிக்கிவிட்ட இராமன்` | `சிக்கிவிட்டஇராமன்` |
+| `மின்னலடா எனக்கூறிச் சுழற்றிவிட்டான்` | `மின்னலடாஎனக்கூறிச்சுழற்றிவிட்டான்` |
+| `குறுவளி` | `சூறாவளி` |
+| `எனக் கொன்றவன்` | `எனைக் கொன்றவன்` |
+| `பணமரத்` | `பனைமரத்` |
+| `தாலுடையான்` | `தாளுடையான்` |
+| `இலங்கை மாந்தர் !` | `இலங்கை மாந்தர்!` |
+
+The supplied short-hyphen forms are retained on scan 152. The physical terminal `★` is retained because it is directly visible page structure.
 
 ## Current interpretation of `verified`
 
@@ -190,22 +169,25 @@ A first source-first transcription exists from the separately supplied terminal 
 |---|---:|
 | page records marked `verified` | 8 |
 | physical page images available | 8 |
+| user lexical-control reconciled pages | 6 — scans 147–152 |
 | final-cleared pages for work-wide assembly | 0 |
 
-`verified` currently means that a page has a completed page-level review. It does **not** mean the complete work has passed final textual clearance.
+`verified` currently means that a page has a completed page-level review or user lexical-control reconciliation. It does **not** yet mean the complete work has passed final continuity clearance.
 
 Current readiness:
 
 - physical source: **COMPLETE — 8/8**;
 - page records: **145–152 present**;
+- user lexical-control reconciliation: **147–152 complete**;
 - page-level transcription: **COMPLETE but NOT FINAL-CLEARED**;
-- final 145–152 continuity/transcription audit: **PENDING**;
+- scan 151: **one documented user-directed editorial omission**;
+- final 145–152 continuity audit: **PENDING**;
 - Tamil assembly: **BLOCKED**;
 - English translation: **BLOCKED**.
 
 ## Revised failure diagnosis
 
-The failures now fall into three recurring classes:
+The failures fall into three recurring classes:
 
 1. **suffix / grammatical-ending loss or substitution** — especially `-ளை`, `-ை`, `-ஆம்`, `-னால்`, `-ஆள்`, `-னான்`;
 2. **whole-word substitution** — a familiar or semantically plausible word is accepted without every glyph being accounted for;
@@ -220,12 +202,12 @@ For every page 145–152:
 1. do not preserve a prior reading merely because it already exists in the repository;
 2. where the user supplies an exact corrective extraction, use it as the lexical control and do not override it with a conflicting visual guess;
 3. retain the physical scan for page identity, illustrations, unambiguous separators, column order and page joins;
-4. explicitly account for suffixes and compact vowel/consonant signs on pages without an independent lexical control;
-5. do not normalize unusual Tamil silently;
+4. do not silently normalize unusual Tamil;
+5. preserve the scan-151 user-directed omission and do not restore the excluded term in later assembly or translation;
 6. recheck all seven page joins before assembly.
 
 ## Exact next activity
 
-Continue with **scan 151** under the stronger control-witness standard. If the user supplies a page-151 extraction, reconcile the repository page to it before any final work-wide clearance.
+Perform the final **145–152 continuity review** over the reconciled page records: all seven page joins, quotation carry-over, separators, and terminal structure. Do not reintroduce any superseded visual reading or the deliberately omitted scan-151 term.
 
-Do not assemble the Tamil poem or begin English translation until pages 145–152 have passed the final work-wide audit.
+Do not assemble the Tamil poem or begin English translation until that final continuity review passes.
