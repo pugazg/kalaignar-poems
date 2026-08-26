@@ -13,7 +13,9 @@
 - EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**
 - EN-04 scan 152: **REVIEWED / PASS — Gate D cleared**
 - full-work English review: **PASS — Gate D cleared**
-- final assembled English poem: **CREATED — pending editorial consistency review**
+- final assembled English poem: **REVIEWED ASSEMBLY — editorial consistency PASS**
+- editorial consistency review: **PASS**
+- release report: **NOT STARTED — next permitted activity**
 
 ## Governing source
 
@@ -35,7 +37,7 @@ At that location, translation must follow the canonical Tamil text as it current
 
 Gate C confirmed that EN-03 preserves this rule: the English moves directly to `Lakshmana too` without adding an epithet. Gate D rechecked the full work and confirmed that EN-04 neither restores nor alludes to the omitted scan-151 term.
 
-The assembled English poem preserves the same omission without replacement.
+The assembled English poem and the editorial consistency review preserve the same omission without replacement. A current-repository search during the editorial consistency review returned no occurrence of the deliberately excluded term.
 
 ## Translation documents
 
@@ -50,7 +52,8 @@ The assembled English poem preserves the same omission without replacement.
 - `batches/EN-02-scans-147-148.md` — reviewed second English batch;
 - `batches/EN-03-scans-149-151.md` — reviewed third English batch;
 - `batches/EN-04-scan-152.md` — reviewed terminal English batch;
-- `thennan-kathai-en.md` — final assembled English poem, created only from the reviewed batch poem bodies.
+- `thennan-kathai-en.md` — final assembled English poem, created only from the reviewed batch poem bodies;
+- `EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**, confirming exact assembly fidelity and final English consistency.
 
 ## Batch sequence
 
@@ -135,10 +138,30 @@ Assembly safeguards:
 - the EN-03→EN-04 battle continuation remains direct;
 - the terminal `★` is the final poem content; no poem text follows it.
 
+## Editorial consistency review
+
+`EDITORIAL_CONSISTENCY_REVIEW.md` is **PASS**.
+
+The review compared the final English poem against the four reviewed batch poem bodies and confirmed:
+
+- reviewed batch bodies: **4/4 present exactly once**;
+- source scans: **145–152 complete**;
+- poem-wording discrepancies against reviewed batch bodies: **0**;
+- cross-batch joins: **3/3 PASS**;
+- underlying scan joins: **7/7 preserved from Gate D**;
+- separators: **8/8 PASS**;
+- scan-149→151 continuous speech: **PASS**;
+- scan-151 editorial omission: **PASS**;
+- terminology consistency: **PASS**;
+- terminal structure: **PASS**;
+- reviewed poem wording changed during editorial review: **0**.
+
+The final assembled English poem is therefore now a **REVIEWED ASSEMBLY**.
+
 ## Current next step
 
-Perform `EDITORIAL_CONSISTENCY_REVIEW.md` against `thennan-kathai-en.md` and the four reviewed batch bodies.
+Prepare `RELEASE_REPORT.md` for final English release closure.
 
-The review must confirm exact assembly fidelity, terminology consistency, quotation/speech continuity, all eight separators, the scan-151 editorial omission, and the terminal structure. Do not silently change reviewed poem wording during that review.
+The release report must summarize Tamil final-clearance, four-batch English coverage, Gates A–D, final assembly fidelity, editorial consistency, separator and continuity checks, and the scan-151 omission policy without reproducing the excluded term.
 
-Only after the editorial consistency review passes should `RELEASE_REPORT.md` be prepared.
+Do not silently change reviewed English poem wording during release closure.
