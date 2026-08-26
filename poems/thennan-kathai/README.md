@@ -119,6 +119,26 @@ The physical scan is retained for directly unambiguous page structure: scan 149 
 
 The earlier scan-149 recovery PASS is superseded.
 
+### Scan 150
+
+The user supplied the page-150 lexical extraction as the next control text. This again exposed multiple old-typeface and whole-word substitutions in the former repository reading.
+
+Important corrections include:
+
+- `அன்னவரையும்` → `அனைவரையும்`;
+- `புலிகள் நண்பர்களே!` → `புலிநிகர் நண்பர்களே!`;
+- `தமிழக்` → `தமிழ்க்`;
+- `மடங்களாய்ப் போனதம்மோ!` → `மடங்களாய்ப் போன தம்போ!!`;
+- `சுக்கிரிவன்` → `சுக்ரீவன்`;
+- `எதிர்க்கின்றூர் என்ன / பென்றால்,` → `எதிர்க்கின்றார் என்னை / யென்றால்,`;
+- `வேண்டும் / மன்றே?` → `வேண்டு / மன்றோ?`;
+- `போடுகின்றூர்` → `போடுகின்றார்`;
+- `யாப்புணையும்` → `பாப்புனையும்`;
+- `கிட்டாத` → `கிட்டா த`;
+- `கட்டி!` → `கட்டி !`.
+
+The supplied text also governs the hyphen forms in this page record. The physical scan remains useful for page identity and shows **no `★` separator** on page 150. The earlier scan-150 recovery PASS is superseded.
+
 ## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
@@ -132,7 +152,7 @@ The earlier scan-149 recovery PASS is superseded.
 
 Do not preserve a plausible earlier reading merely because it already exists in the repository. When the user supplies an exact corrective extraction for a page and confirms it as correct, that supplied text is the lexical control for the reconciliation; do not override it with a conflicting visual guess.
 
-The scan-146 through scan-149 failures demonstrate recurring hazards: suffix loss, whole-word substitution, and systematic misreading of older Tamil glyph forms—especially `-ஆன்` as `-உன்`.
+The scan-146 through scan-150 failures demonstrate recurring hazards: suffix loss, whole-word substitution, and systematic misreading of older Tamil glyph forms—especially `-ஆன்` as `-உன்`, along with other compact vowel/sign combinations.
 
 ## Exact next step
 
