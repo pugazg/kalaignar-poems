@@ -25,27 +25,43 @@ A later user review of scan **146** demonstrated that even that replacement pass
 
 User-supplied lexical controls for scans **147–150** then exposed repeated whole-word and old-typeface misreadings, including systematic `-ஆன்` / `-உன்` confusion. Each affected page was reconciled to the user-supplied text, while the physical scans remained useful for page identity and directly unambiguous structure.
 
-The user has now supplied the remaining lexical text for scans **151–152**. Those two page records have also been reconciled to the supplied text. On scan 151, one caste-based slur was deliberately omitted at the user's explicit direction and **not replaced with another word**; the omission is documented without reproducing the excluded term. Scan 152 retains the directly visible terminal `★`.
+The user then supplied the remaining lexical text for scans **151–152**. Those two page records were reconciled to the supplied text. On scan 151, one caste-based slur was deliberately omitted at the user's explicit direction and **not replaced with another word**; the omission is documented without reproducing the excluded term. Scan 152 retains the directly visible terminal `★`.
 
-Current page-level status remains:
+## Final continuity audit — PASS
 
-- verified: **8/8** — pages 145–152;
+The final 145–152 continuity review is recorded in `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
+
+Results:
+
+- seven page joins checked: **7/7 PASS**;
+- separator structure checked: **PASS** — 8 visible `★` separators across the work, including the terminal mark on scan 152;
+- page-149 speech correctly continues across scan 150 and closes on scan 151;
+- page-147 unusual quotation punctuation is retained as user/source-controlled page-internal punctuation and is not normalized into a cross-page quotation;
+- scan 151 → 152 battle narrative continuity: **PASS**;
+- terminal structure on scan 152: **PASS**;
+- documented scan-151 editorial omission: **preserved**.
+
+Current status:
+
+- verified/reconciled: **8/8** — pages 145–152;
 - needs-review: **0/8**;
 - not-started: **0/8**;
 - physical page-image availability: **8/8 complete**;
 - user lexical-control reconciliation: **147–152 complete**;
-- page-level Tamil transcription: **COMPLETE, but not final-cleared**;
-- Tamil assembly: **blocked pending final continuity review**;
-- English translation: **blocked**.
+- final continuity audit: **PASS**;
+- page-level Tamil transcription: **FINAL-CLEARED FOR ASSEMBLY**;
+- Tamil assembly: **READY — not yet assembled**;
+- English translation: **blocked pending Tamil assembly**.
 
 See:
 
 - `../notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md` for the original failure analysis;
 - `../notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md` for the scan-146 failure pattern and suffix-level checking rule;
-- `../notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` for the superseded third scan-147 pass and its later reconciliation.
+- `../notes/SCAN_147_THIRD_REAUDIT_2026-08-25.md` for the superseded third scan-147 pass and its later reconciliation;
+- `../notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md` for the final seven-join review.
 
-## Next recovery activity
+## Next activity
 
-Perform the final **145–152 continuity review** using the reconciled page records as the current lexical text. Recheck the seven page joins, quotation carry-over, separators and terminal structure. Do not reintroduce superseded visual guesses, and do not restore the user-directed omitted term on scan 151.
+Assemble the Tamil poem from `../pages/0145.md` through `../pages/0152.md` in physical order. Preserve the reconciled lexical text, the separator structure, the page-151 documented omission, and all user-controlled historical forms. Do not restore superseded visual readings and do not begin English translation in the same activity.
 
 No PDF scan index is treated as a visible printed page number unless the printed number is directly visible in the source.
