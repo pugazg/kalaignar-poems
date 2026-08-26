@@ -41,7 +41,8 @@ Structural notes:
 
 - title appears on page record but translation batch should translate poem body only unless a final English title is separately approved;
 - one `★` separator inside the page;
-- closes without completing the thought: `கடவுளுக்குப் பலிதேடும் வேலை, ஆகாது`.
+- closes without completing the thought: `கடவுளுக்குப் பலிதேடும் வேலை, ஆகாது`;
+- a later Gate A source check corrected `பூசுரர்கள் கூட்டம்....` to source-visible `பூசுரர்கள் கூட்டம்...`; the canonical assembly and EN-01 were synchronized before approval.
 
 ### Scan 146
 
@@ -207,6 +208,12 @@ Visible/canonical separators to preserve as structural breaks:
 
 Total: **8 `★` separators**.
 
-## Translation-start gate
+## Gate status
 
-This source map is complete. Translation prose remains blocked until the plan/source map has been reviewed. After review, only **EN-01 (scans 145–146)** should be started first so its voice and terminology can be approved before the remaining batches are translated.
+- source map: **REVIEWED / PASS**;
+- EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
+- EN-02 scans 147–148: **NEXT — not started**;
+- EN-03 scans 149–151: **BLOCKED pending Gate B**;
+- EN-04 scan 152: **BLOCKED**.
+
+The next permitted activity is **EN-02 only**. Its translation must use the Gate A voice/terminology baseline while preserving the unusual scan-147 quotation structure and the user-controlled scan-148 lexical text. After EN-02, Gate B must pass before EN-03 begins.
