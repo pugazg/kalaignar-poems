@@ -3,11 +3,13 @@
 ## Current totals
 
 - physical scans in controlling PDF: **306**
-- scans initially inspected for identity/opening structure: **10**
-- verified page records: **0**
+- scans inspected for identity/opening structure: **10**
+- verified page records: **5**
 - needs-review page records: **0**
 - blocked page records: **0**
-- unprocessed physical scans: **306** (page-record layer not yet started)
+- physical scans without verified page records: **301**
+
+Verified records currently cover scans **1–4 and 9**.
 
 ## Source controls
 
@@ -17,17 +19,39 @@
 - title/author verified from scan: **PASS**
 - publication details recorded from visible preliminaries: **PASS**
 
-## Initial anomalies / cautions
+## First page-verification batch
 
-1. A later library stamp overlaps the title-page area on scan 2; it is not edition text.
-2. Scan 9 is visually weak/show-through and must be classified directly before any textual claim is made for it.
-3. Contents pagination is not a substitute for physical scan mapping.
-4. The controlling file is image-only for inspected pages; no OCR output is authoritative.
-5. The directly opened controlling PDF contains 306 physical scans. A smaller count reported by an external preview layer is treated as a preview limitation, not as source evidence.
+### Scans 1–4
+
+Direct visual verification was completed for:
+
+1. scan 1 — colour front cover;
+2. scan 2 — title page, excluding later library stamp/handwriting from edition text;
+3. scan 3 — publication details / price / printer line;
+4. scan 4 — introductory note signed `மு. க.`.
+
+The scan-4 source form `நிலைபோட்டி` is preserved exactly as printed and has not been silently normalized by semantic expectation.
+
+### Scan 9 anomaly resolution
+
+The earlier unresolved scan-9 role is now **resolved**:
+
+- no independently printed edition text is visible on that side;
+- the visible material is faint reverse-side/show-through;
+- no printed page number is visibly present;
+- scan 9 is therefore recorded as a **blank verso**, with no inferred printed-page number.
+
+## Remaining cautions
+
+1. Later library marks occur in the front matter and must remain excluded from edition text.
+2. Contents pagination is not a substitute for physical scan mapping.
+3. The controlling file is image-only for inspected pages; no OCR output is authoritative.
+4. The directly opened controlling PDF contains 306 physical scans. A smaller count reported by an external preview layer is treated as a preview limitation, not as source evidence.
+5. Scans 5–7 are dense contents pages and require full line-by-line visual transcription before they can be marked verified.
 
 ## Assembly readiness
 
-**NOT READY.** Physical classification and page verification have only begun.
+**NOT READY.** Only 5/306 physical scans currently have verified page records.
 
 ## Translation readiness
 
@@ -35,4 +59,4 @@
 
 ## Exact next activity
 
-Perform the first sequential physical-page batch: resolve scan 9, then verify/classify the opening pages and begin source-faithful page records. Update this audit and the page map after that batch.
+Process scans **5–8** sequentially. Fully transcribe and verify the three contents pages (printed pages 4–6), then verify the scan-8 work/section display. Update the page map, audit and work README. Do not begin scan 10 poem transcription until this front-matter gap has been closed.
