@@ -97,7 +97,12 @@ Because of this explicit instruction, the assembly is **canonical for this repos
 Tamil archival/source layer: **COMPLETE**.  
 Tamil continuity audit: **PASS**.  
 Tamil assembly: **PASS**.  
-English translation EN-01: **REVIEWED / PASS — Gate A cleared**.  
-English translation EN-02: **NOT STARTED — next permitted batch**.
+English translation EN-01–EN-04: **4/4 REVIEWED / PASS — Gates A–D cleared**.  
+Final English assembly: **REVIEWED ASSEMBLY / PASS**.  
+Editorial consistency review: **PASS**.  
+English release report: **PASS**.  
+English release closure: **COMPLETE**.
+
+Final English release documents are under `translations/en/`, with `translations/en/thennan-kathai-en.md` as the reviewed English poem and `translations/en/RELEASE_REPORT.md` as the release-closure record.
 
 Any later translation or derivative text must use `sections/thennan-kathai.md` as the canonical Tamil assembly and must not restore superseded readings or the deliberately omitted scan-151 term unless the user explicitly changes that instruction.
