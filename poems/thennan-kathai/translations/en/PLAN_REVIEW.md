@@ -4,7 +4,7 @@ Date: **2026-08-26**
 
 ## Result
 
-**PASS — EN-01 authorized and drafted; EN-02 remains blocked pending Gate A review.**
+**PASS — planning/source-map gate cleared. EN-01 was subsequently reviewed and passed Gate A; EN-02 is now the next permitted batch.**
 
 ## Documents reviewed
 
@@ -28,19 +28,22 @@ Date: **2026-08-26**
 | four-batch sequencing is coherent | PASS |
 | EN-01 isolated as first voice/terminology gate | PASS |
 
-No source-map correction was required during this review.
+No source-map correction was required during this planning review.
 
-## Translation start decision
+## Translation-start decision
 
-The planning/source-map gate is cleared. Per the plan, only **EN-01 — scans 145–146** may proceed before a voice/terminology review.
+The planning/source-map gate cleared **EN-01 — scans 145–146** as the first permitted translation batch.
 
-EN-01 has now been drafted at:
+That batch was subsequently drafted and reviewed at:
 
-`batches/EN-01-scans-145-146.md`
+- `batches/EN-01-scans-145-146.md`;
+- `GATE_A_REVIEW.md`.
 
-## Gate A
+## Gate A follow-up
 
-Before EN-02 begins, review the EN-01 draft for:
+**Gate A: PASS.**
+
+The EN-01 review checked:
 
 - literary voice versus source fidelity;
 - handling of `Aryan`, Tamil identity vocabulary and priestly/religious terms;
@@ -48,6 +51,22 @@ Before EN-02 begins, review the EN-01 draft for:
 - rhetorical accusations and insults;
 - metaphor/simile handling;
 - punctuation and stanza density;
-- the provisional renderings explicitly listed in the EN-01 translator-review section.
+- provisional renderings listed in the original EN-01 translator-review section.
+
+The review also found one surviving source-layer punctuation discrepancy on scan 145: the page and assembly had four dots after `பூசுரர்கள் கூட்டம்`, while the controlling scan has **three**. The Tamil page record, canonical assembly and EN-01 were synchronized before Gate A was cleared.
+
+The reviewed EN-01 baseline and exact decisions are recorded in `GATE_A_REVIEW.md`.
+
+## Current gate state
+
+- planning/source-map review: **PASS**;
+- EN-01: **REVIEWED / PASS — Gate A cleared**;
+- EN-02 scans 147–148: **NEXT — not started**;
+- EN-03: **BLOCKED pending Gate B**;
+- EN-04: **BLOCKED**.
 
 The page-151 user-directed omission remains binding for all later translation work and must not be restored, reconstructed, transliterated, paraphrased or replaced.
+
+## Next activity
+
+Begin **EN-02 — scans 147–148 only**. After drafting EN-02, perform Gate B consistency review before beginning EN-03.
