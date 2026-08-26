@@ -95,6 +95,30 @@ The user supplied an exact page-148 extraction and explicitly clarified that **t
 
 The user-confirmed extraction also governs the sentence-level spacing and hyphens recorded in `pages/0148.md`. The earlier scan-148 recovery PASS is superseded.
 
+### Scan 149
+
+The user then supplied the page-149 lexical extraction. This exposed the same old-typeface failure again, especially repeated `-ஆன்` endings that had previously been misread as `-உன்`.
+
+Important corrections include:
+
+- `சுக்கிரிவன்` → `சுக்ரீவன்`;
+- `விபீஷணு!` → `விபீஷணா !`;
+- `என்றுன்!` → `என்றான்!`;
+- `நின்றுன்—` → `நின்றான்-`;
+- `உத்தமனும்—சிந்தன்` → `உத்தமனாம் - சிந்தனை`;
+- `வல்லவனும்` → `வல்லவனாம்`;
+- `உடை வாளிப் போலப்` → `உடை வாளைப் போலப்`;
+- later `நின்றுன்,` → `நின்றான்,`;
+- `ஜடை கட்டி` → `ஐடை கட்டி` according to the supplied lexical control;
+- `என்றுன்!` → `என்றான்!` in the battle passage;
+- `நடை கட்டு` → `நடைகட்டு`;
+- `சென்றுன்,` → `சென்றான்,`;
+- `இன்றிகத்` → `இன்றிந்தத்`.
+
+The physical scan is retained for directly unambiguous page structure: scan 149 visibly contains **three `★` separators**. The pasted final line repeated `ஆண்டிருக்கும்` twice; the visible page has one occurrence, so the canonical record retains one and documents that as a paste-duplication resolution.
+
+The earlier scan-149 recovery PASS is superseded.
+
 ## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
@@ -106,9 +130,9 @@ The user-confirmed extraction also governs the sentence-level spacing and hyphen
 
 ## Governing rule
 
-Do not preserve a plausible earlier reading merely because it already exists in the repository. When the user supplies an exact corrective extraction for a page and explicitly confirms it as correct, that supplied text is the lexical control for the reconciliation; do not override it with a conflicting visual guess.
+Do not preserve a plausible earlier reading merely because it already exists in the repository. When the user supplies an exact corrective extraction for a page and confirms it as correct, that supplied text is the lexical control for the reconciliation; do not override it with a conflicting visual guess.
 
-The scan-146, scan-147 and scan-148 failures demonstrate three recurring hazards: suffix loss, whole-word substitution, and overconfidence in visual interpretation of degraded print.
+The scan-146 through scan-149 failures demonstrate recurring hazards: suffix loss, whole-word substitution, and systematic misreading of older Tamil glyph forms—especially `-ஆன்` as `-உன்`.
 
 ## Exact next step
 
