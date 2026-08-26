@@ -1,62 +1,64 @@
-# Scan 147 — third source-critical re-audit
+# Scan 147 — third re-audit (SUPERSEDED by control-witness reconciliation)
 
-Date: **2026-08-25**
+Original date: **2026-08-25**  
+Superseded: **2026-08-26**
 
-## Why scan 147 was reopened
+## Supersession notice
 
-After scan 146 was found to contain eleven additional word-ending and whole-word errors even after two earlier verification passes, the user requested scan 147 to be checked again under the stricter rule.
+This note originally concluded that scan 147 had passed a third source-critical re-audit. That conclusion is **no longer current**.
 
-The controlling authority is the source scan. The existing repository transcription was treated only as a comparison target after the page had been reread line by line.
+The user later supplied an independent word-to-word extraction from `pasted-document.pdf`. When that lexical witness was compared back against the controlling physical scan, it exposed many additional whole-word errors that had survived this third pass.
 
-## Method
+The controlling authority remains the source scan in `TVA_PRL_0007090_முரசொலி.pdf`. The pasted-document extraction is a lexical comparison witness only; source pixels continue to control punctuation, dash form, separator glyph, spacing, quotation marks and line breaks.
 
-- reread physical scan 147 from the native source image;
-- inspect enlarged left- and right-column crops;
-- account for complete words and grammatical endings rather than recognizing word silhouettes;
-- recheck the circular library/stamp-overlapped lower-left/centre region;
-- preserve source-visible unusual forms without semantic normalization;
-- do not reconstruct any obscured glyph from context.
+## Additional corrections established on 2026-08-26
 
-## Additional errors found
+| Reading retained by this superseded third pass | Correct source reading |
+|---|---|
+| `தனிபொருத்தி` | `தனியொருத்தி` |
+| `முகமிழந்` | `மூக்கிழந்` |
+| `பல்லிழந்தாள்` | `பல்இழந்தாள்` |
+| `சுத்திரியாச்` | `சூதறியாச்` |
+| `சூர்ப்பனகை` | `சூர்ப்பநகை` |
+| `காடேறியும்` | `காதெரியும்` |
+| `படர் உறவு இல்லாவிட்டான் என்ன?` | `படர் உறவு இல்லாவிடில்தான் என்ன?` |
+| `எழுந்து விட்டான் பழிவாங்க—கால்` | `எழுந்து விட்டான் பழிவாங்க—காலை` |
+| `சிவப்புத்தேக்கி!` | `சிவப்பு தேக்கி...` |
+| `வேந்தன் வரும் செய்தி கேட்டு விழியுறங்கி` | `வேந்தன் வரும் செய்தி கேட்டு விழியழகி` |
+| *(omitted)* | `சீதாதேவி,` |
+| `பாங்கமுள்ள` | `பாந்தமுள்ள` |
+| `வேண்டுமென்று பார்த்த / தாவை` | `வேண்டுமென்று பர்த் / தாவை` |
+| `அண்ணிக்கு விலை` | `அண்ணிக்கு வலை` |
+| `விசம் நினைப்போ` | `வீசும் நினைப்போ` |
+| `தம்பி?”` | `தம்பீ?` |
+| `என்னுடலைக் காக்கைக்கும், கழுகிற்கும்,` | `உன்னுடலைக் காக்கைக்கும், கழுகிற்கும்,` |
 
-| Previous repository reading | Source-backed reading | Failure type |
-|---|---|---|
-| `படர் உறவு இல்லாவிட்டதான் என்ன?` | `படர் உறவு இல்லாவிட்டான் என்ன?` | unsupported internal/final `த` inserted into the verb form |
-| `என்னுடலுக் காக்கைக்கும், கழுகிற்கும்,` | `என்னுடலைக் காக்கைக்கும், கழுகிற்கும்,` | accusative `-ஐ` lost before sandhi `க்` |
+## Source typography retained over the lexical witness
 
-These are important because they repeat the same failure pattern exposed on scan 146: the larger word shape was recognized, but a small grammatical component was not independently accounted for.
+The pasted-document extraction normalizes some printed features. The canonical page therefore follows the scan for these points:
 
-## Forms rechecked and retained
+- long dashes in `தனியொருத்தி—இருமந்தி!`, `முலையிழந்தாள்—ஆயினும்`, `கேட்டான்—`, `பழிவாங்க—காலை`, `நீயும்—எனத்`, and `அளிப்பதல்லால்—`;
+- printed `★` separator rather than plain `*`;
+- no inserted space before `!` in `தாள்!`;
+- no inserted space before `?` in `அண்ணனன்றோ?`;
+- source `தென்னவன் வருகைக்குக் காத்திருந்தாள்.` including the second `க்` and period;
+- no source-visible closing double quote after `தம்பீ?`;
+- later opening single quotation before `மூத்தவனும்...`;
+- final `ஏறென்றான்.`.
 
-The third pass directly reconfirmed the printed readings:
+## Revised failure diagnosis
 
-- `தனிபொருத்தி`;
-- `சுத்திரியாச்`;
-- `சூர்ப்பனகை`;
-- `காடேறியும்`;
-- `பாங்கமுள்ள`;
-- `தாவை`;
-- `அண்ணிக்கு விலை / விசம் நினைப்போ`;
-- `தேர்போல`;
-- `மூத்தவனும்`;
-- `என்னை உனக்குத்`;
-- `தழுவினாள்`;
-- `தடந் தோளில்`;
-- `பைந்தொடி`;
-- `என்னுயிர்த்`;
-- final `ஏறென்றான்.`
+The failure was broader than suffix loss. The third pass still accepted plausible **whole-word substitutions**, for example:
 
-## Structure checks
+- `சூதறியாச்` misread as `சுத்திரியாச்`;
+- `காதெரியும்` misread as `காடேறியும்`;
+- `விழியழகி` misread as `விழியுறங்கி`;
+- `வலை வீசும்` misread as `விலை விசம்`.
 
-- scan 146 → 147 boundary remains continuous;
-- one visible `★` separator is present;
-- left-column then right-column reading order is preserved;
-- quotation marks and long dashes were checked against the scan;
-- circular stamp overlap was inspected again without semantic reconstruction;
-- scan 147 → 148 boundary remains continuous.
+This demonstrates that high resolution and repeated visual review are insufficient if the reader first recognizes an expected word shape and only then checks the ink.
 
-## Result
+## Current result
 
-Scan **147 is VERIFIED after the third source-critical re-audit**.
+`pages/0147.md` has been rebuilt using the lexical witness as an independent checklist and the source scan as final authority.
 
-This supersedes the earlier scan-147 PASS claim. It does **not** final-clear the work. The stricter 145–152 full-range audit remains required before Tamil assembly.
+The earlier third-pass `PASS` is **superseded**. The page is now `verified` only after the later control-witness reconciliation. The complete 145–152 poem is still **not final-cleared**, and Tamil assembly remains blocked pending the work-wide final audit.
