@@ -29,7 +29,7 @@ Current source availability:
 
 All **8/8 physical page images are available**.
 
-The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** because the user identified that description as incorrect. See `SOURCE_COMPLETENESS_REVIEW.md`.
+The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** because the user identified that description as incorrect. See `SOURCE_COMPLEENESS_REVIEW.md` if present; the controlling work status is recorded here and in `audit.md`.
 
 ## Verification recovery
 
@@ -152,6 +152,13 @@ EN-01 review stage:
 
 Gate A is **PASS**. The review corrected unsupported translation choices including `lord of sacred Yalpanam`, `Tamil princess`, `dark as sugarcane`, and the softer rendering of `கைக்காரி`, and synchronized the final scan-145 punctuation correction before approval.
 
+EN-02 review stage:
+
+- [`translations/en/batches/EN-02-scans-147-148.md`](translations/en/batches/EN-02-scans-147-148.md)
+- [`translations/en/GATE_B_REVIEW.md`](translations/en/GATE_B_REVIEW.md)
+
+Gate B is **PASS**. EN-02 preserves scan 147's unusual quotation structure, keeps the 147→148 boarding narrative continuous, follows the user-confirmed scan-148 lexical control, and retains compressed source images rather than silently explaining them.
+
 ## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
@@ -164,8 +171,9 @@ Gate A is **PASS**. The review corrected unsupported translation choices includi
 - Tamil assembly: **PASS — canonical assembly complete**;
 - English translation plan/source map: **REVIEWED / PASS**;
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
-- EN-02 scans 147–148: **NOT STARTED — next**;
-- EN-03 / EN-04: **BLOCKED pending later review gates**;
+- EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**;
+- EN-03 scans 149–151: **NOT STARTED — next permitted batch**;
+- EN-04 scan 152: **BLOCKED pending Gate C**;
 - final assembled English poem: **NOT STARTED**.
 
 ## Governing rule
@@ -178,6 +186,8 @@ The page-151 user-directed omission is a transparent editorial exception to othe
 
 ## Exact next step
 
-Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly using the Gate A voice and terminology baseline. After the EN-02 draft, perform Gate B consistency review before starting EN-03.
+Begin **EN-03 — scans 149–151 only** from the canonical Tamil assembly using the Gate A terminology baseline and the Gate B consistency decisions.
 
-Do not restore the documented page-151 omitted term in any later translation stage.
+Preserve the scan-149→150→151 direct speech as one continuous speech in English. The page-151 omitted term must remain absent without restoration, transliteration, paraphrase or replacement.
+
+After EN-03 drafting, perform **Gate C** before beginning EN-04. Do not begin EN-04 in the same activity.
