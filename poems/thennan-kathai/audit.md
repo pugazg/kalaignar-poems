@@ -240,7 +240,31 @@ Important reviewed translation decisions include:
 - `கரும்பனைய` → **like a stalk of sugarcane**, rejecting the unsupported draft colour inference;
 - `காவலுக்குக் கைக்காரி` → **an accomplice standing guard**, retaining the narrator's accusatory agency.
 
-Gate A result: **PASS**. EN-02 is now the next permitted batch but has not yet been started.
+Gate A result: **PASS**.
+
+## EN-02 Gate B — PASS
+
+Reviewed batch:
+
+- `translations/en/batches/EN-02-scans-147-148.md`
+- review record: `translations/en/GATE_B_REVIEW.md`
+
+Gate B checked Gate A terminology continuity, scan-147 quotation anomalies, the scan-147→148 narrative join, user-controlled scan-148 lexical fidelity, compressed source images, political/military metaphor, rhetorical insult and separator count.
+
+Important reviewed decisions include:
+
+- `இருமந்தி` → **two monkeys**;
+- `சூதறியாச்` → **guileless**;
+- `படர் உறவு` → **wider bond of kinship**;
+- `தென்னவன்` → **the Southerner**;
+- `கரம் படவும் விடமாட்டேன்` → **I will not even allow a hand to touch you**;
+- `மானத்தைக் கப்பலிலே ஏற்றிவிட்ட` → **had put honour aboard a ship**;
+- `பன நுங்கு` → **palmyra fruit**;
+- `ஐந்தாம்படை` → **fifth-column force**;
+- `குள்ளநரி ஆரியர்கள்` → **the foxes—the Aryans**;
+- `தர்ப்பைகளின் சூழ்ச்சியினால்` → **through the stratagems of darbha grass**.
+
+Gate B result: **PASS**. EN-03 is now the next permitted batch; EN-04 remains blocked until Gate C.
 
 ## Final status
 
@@ -256,9 +280,9 @@ Gate A result: **PASS**. EN-02 is now the next permitted batch but has not yet b
 | Tamil assembly | **PASS — revalidated** |
 | English translation plan/source map | **REVIEWED / PASS** |
 | EN-01 scans 145–146 | **REVIEWED / PASS — Gate A** |
-| EN-02 scans 147–148 | **NOT STARTED — NEXT** |
-| EN-03 scans 149–151 | **BLOCKED pending Gate B** |
-| EN-04 scan 152 | **BLOCKED** |
+| EN-02 scans 147–148 | **REVIEWED / PASS — Gate B** |
+| EN-03 scans 149–151 | **NOT STARTED — NEXT** |
+| EN-04 scan 152 | **BLOCKED pending Gate C** |
 | final assembled English poem | **NOT STARTED** |
 
 Current readiness:
@@ -269,7 +293,8 @@ Current readiness:
 - scan 151: **one documented user-directed editorial omission**;
 - English translation planning/source map: **REVIEWED / PASS**;
 - EN-01: **REVIEWED / PASS**;
-- next permitted translation work: **EN-02 only**.
+- EN-02: **REVIEWED / PASS**;
+- next permitted translation work: **EN-03 only**.
 
 ## Failure diagnosis retained for future work
 
@@ -285,6 +310,8 @@ The later scan-145 ellipsis-count correction also demonstrates that **punctuatio
 
 ## Next activity
 
-Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly using the Gate A voice/terminology baseline.
+Begin **EN-03 — scans 149–151 only** from the canonical Tamil assembly using the Gate A terminology baseline and Gate B consistency decisions.
 
-After EN-02 is drafted, perform **Gate B consistency review** before starting EN-03. Any later translation must preserve the documented scan-151 omission and must not restore superseded readings unless the user explicitly changes those instructions.
+Keep the direct speech opened on scan 149 continuous through scan 150 and close it only at the canonical scan-151 closing point. Preserve the documented scan-151 omission without restoration, transliteration, paraphrase or replacement.
+
+After EN-03 is drafted, perform **Gate C omission/speech review** before beginning EN-04. Do not begin EN-04 in the same activity.
