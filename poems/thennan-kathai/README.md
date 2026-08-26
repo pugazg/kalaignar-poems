@@ -39,6 +39,12 @@ The project experienced multiple verification failures, so the final state below
 
 A user spot-check exposed numerous errors that had survived the first verification cycle. Those corrections and the root-cause analysis are documented in `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md`.
 
+A later pre-translation Gate A source check found one additional punctuation-count error that had survived into the assembled Tamil text:
+
+- `பூசுரர்கள் கூட்டம்....` → **`பூசுரர்கள் கூட்டம்...`** — the controlling scan shows three dots.
+
+The page record and canonical Tamil assembly were synchronized before EN-01 was approved.
+
 ### Scan 146
 
 A later user review showed that the replacement recovery pass had still missed eleven substantial readings. The third source-critical re-audit corrected:
@@ -114,7 +120,8 @@ The audit checked all seven physical page joins, separator placement, quotation 
 - **151→152:** PASS;
 - separator structure: **PASS** — 8 visible `★` marks across the work, including the terminal mark on scan 152;
 - page-147 unusual quotation punctuation remains preserved as a page-internal user/source-controlled anomaly rather than normalized;
-- page-151 documented editorial omission remains preserved and is not restored.
+- page-151 documented editorial omission remains preserved and is not restored;
+- the later scan-145 three-dot punctuation correction does not affect page joins, separator count or quotation carry-over and has been revalidated against the assembly.
 
 ## Tamil assembly — PASS
 
@@ -125,19 +132,25 @@ Canonical assembled Tamil text:
 
 The assembly concatenates only the final-cleared `Poem body` blocks from scans 145–152, keeps each physical scan in a separate hidden-comment/fenced-text block, retains all **8 `★` separators**, preserves the cross-page quotation carry-over, and preserves the documented page-151 omission without replacement.
 
-Assembly review result: **8/8 page blocks present, 0 missing, 0 duplicated, 0 discrepancies against the final-cleared page records**.
+Assembly review result: **8/8 page blocks present, 0 missing, 0 duplicated, 0 discrepancies against the current final-cleared page records**. The scan-145 three-dot correction is synchronized.
 
 A repository search after assembly returns no current occurrence of the deliberately excluded page-151 term.
 
-## English translation planning
+## English translation progress
 
-Planning/source-map stage is now complete:
+Planning/source-map stage:
 
 - [`translations/en/README.md`](translations/en/README.md)
 - [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
 - [`translations/en/SOURCE_MAP.md`](translations/en/SOURCE_MAP.md)
+- [`translations/en/PLAN_REVIEW.md`](translations/en/PLAN_REVIEW.md)
 
-The plan defines four translation batches: **EN-01 scans 145–146**, **EN-02 scans 147–148**, **EN-03 scans 149–151**, and **EN-04 scan 152**. The source map locks all seven cross-page joins, all eight `★` separators, the scan-149→150→151 carried speech, and the scan-151 user-directed omission before any English prose is written.
+EN-01 review stage:
+
+- [`translations/en/batches/EN-01-scans-145-146.md`](translations/en/batches/EN-01-scans-145-146.md)
+- [`translations/en/GATE_A_REVIEW.md`](translations/en/GATE_A_REVIEW.md)
+
+Gate A is **PASS**. The review corrected unsupported translation choices including `lord of sacred Yalpanam`, `Tamil princess`, `dark as sugarcane`, and the softer rendering of `கைக்காரி`, and synchronized the final scan-145 punctuation correction before approval.
 
 ## Current status
 
@@ -149,9 +162,11 @@ The plan defines four translation batches: **EN-01 scans 145–146**, **EN-02 sc
 - Tamil transcription: **FINAL-CLEARED**;
 - page 151 contains **one explicitly documented user-directed editorial omission**;
 - Tamil assembly: **PASS — canonical assembly complete**;
-- English translation plan: **COMPLETE**;
-- English translation source map: **COMPLETE**;
-- English translation prose: **NOT STARTED — blocked pending review of the plan/source map**.
+- English translation plan/source map: **REVIEWED / PASS**;
+- EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
+- EN-02 scans 147–148: **NOT STARTED — next**;
+- EN-03 / EN-04: **BLOCKED pending later review gates**;
+- final assembled English poem: **NOT STARTED**.
 
 ## Governing rule
 
@@ -163,4 +178,6 @@ The page-151 user-directed omission is a transparent editorial exception to othe
 
 ## Exact next step
 
-Review `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`. After that review, begin **EN-01 (scans 145–146) only**. Do not start EN-02 or later batches until the first English batch has been reviewed for voice, terminology and fidelity.
+Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly using the Gate A voice and terminology baseline. After the EN-02 draft, perform Gate B consistency review before starting EN-03.
+
+Do not restore the documented page-151 omitted term in any later translation stage.
