@@ -56,6 +56,12 @@ Established corrections include:
 
 Additional corrections included `போதையேறிக்`, the comma in `உருவில் சிங்கம், உள்ளம் தங்கம்!`, removal of a non-source dash in `மாடுகளை, ஆடுகளை மனிதர்களை`, and spacing `பாவை போல்`.
 
+During the later EN-01 Gate A review, a fresh source check exposed one more surviving punctuation-count error:
+
+- `பூசுரர்கள் கூட்டம்....` → **`பூசுரர்கள் கூட்டம்...`** — the controlling scan has three dots.
+
+The scan-145 page record, canonical Tamil assembly and EN-01 translation source synchronization were corrected before Gate A was cleared.
+
 See `notes/TRANSCRIPTION_FAILURE_REVIEW_2026-08-23.md`.
 
 ### Failure 2 — scan 146
@@ -138,7 +144,7 @@ The supplied short-hyphen forms are retained on scan 152. The physical terminal 
 
 Completed on **2026-08-26**. Full record: `notes/FINAL_CONTINUITY_AUDIT_2026-08-26.md`.
 
-All seven page joins were reviewed against the reconciled page records, with the physical scans used for page identity and directly visible structure.
+All seven page joins were reviewed against the reconciled page records. The later scan-145 three-dot correction is page-internal and the continuity audit has been revalidated after that correction.
 
 | Join | Result | Continuity point |
 |---|---|---|
@@ -168,7 +174,7 @@ Quotation review:
 
 The scan-151 user-directed omission remains intentionally preserved.
 
-## Tamil assembly — PASS
+## Tamil assembly — PASS / REVALIDATED
 
 Canonical assembly: `sections/thennan-kathai.md`  
 Assembly review: `ASSEMBLY_REVIEW.md`
@@ -183,42 +189,29 @@ Assembly method:
 6. preserve user-controlled spelling, spacing and punctuation without reverting to superseded visual guesses;
 7. preserve the documented scan-151 omission without replacement.
 
-Assembly result:
+Assembly result after synchronizing the scan-145 three-dot correction:
 
 | Check | Result |
 |---|---:|
 | page blocks present | **8/8** |
 | missing page blocks | **0** |
 | duplicate page blocks | **0** |
-| discrepancies against final-cleared page records | **0** |
+| discrepancies against current final-cleared page records | **0** |
 | retained `★` separators | **8** |
 | terminal `★` on scan 152 | **PASS** |
 | scan-151 documented omission | **PRESERVED** |
-
-A repository search after assembly returns no current occurrence of the deliberately excluded scan-151 term.
+| scan-145 three-dot correction | **SYNCHRONIZED** |
 
 Because of the explicit scan-151 omission, the assembled text is **canonical for this repository but not a fully diplomatic character-for-character reproduction at that single location**.
 
-## English translation planning/source map — COMPLETE
+## English translation planning/source map — REVIEWED / PASS
 
 Planning documents:
 
 - `translations/en/README.md`;
 - `translations/en/TRANSLATION_PLAN.md`;
-- `translations/en/SOURCE_MAP.md`.
-
-Planning result:
-
-| Check | Result |
-|---|---:|
-| canonical Tamil assembly locked as translation source | **PASS** |
-| scan-by-scan source map | **8/8 mapped** |
-| page joins represented | **7/7** |
-| visible `★` separator structure represented | **8 total** |
-| scan-149→150→151 carried speech mapped | **PASS** |
-| scan-151 editorial omission rule carried into translation policy | **PASS** |
-| translation batches defined | **4** |
-| English prose written in this stage | **0** |
+- `translations/en/SOURCE_MAP.md`;
+- `translations/en/PLAN_REVIEW.md`.
 
 Batch plan:
 
@@ -228,6 +221,26 @@ Batch plan:
 - **EN-04:** scan 152.
 
 The scan-151 omitted term must not be restored, transliterated, paraphrased or replaced in English unless the user explicitly changes that instruction.
+
+## EN-01 Gate A — PASS
+
+Reviewed batch:
+
+- `translations/en/batches/EN-01-scans-145-146.md`
+- review record: `translations/en/GATE_A_REVIEW.md`
+
+Gate A checked literary voice, terminology, source fidelity, rhetoric, metaphors, page continuity and separator structure. The review also triggered the scan-145 three-dot source correction before approval.
+
+Important reviewed translation decisions include:
+
+- `பூசுரர்கள்` → **earth-god priests** in this context;
+- `இருடிகள்` → **rishis**;
+- `தமிழரசி` → **Tamil queen**;
+- `யாழ்ப்பாணத் திருநாட்டான்` → **a man of sacred Yalpanam** rather than the over-strong draft `lord`;
+- `கரும்பனைய` → **like a stalk of sugarcane**, rejecting the unsupported draft colour inference;
+- `காவலுக்குக் கைக்காரி` → **an accomplice standing guard**, retaining the narrator's accusatory agency.
+
+Gate A result: **PASS**. EN-02 is now the next permitted batch but has not yet been started.
 
 ## Final status
 
@@ -239,11 +252,14 @@ The scan-151 omitted term must not be restored, transliterated, paraphrased or r
 | user lexical-control reconciled pages | **6 — scans 147–152** |
 | final-cleared pages | **8/8** |
 | page joins | **7/7 PASS** |
-| final continuity audit | **PASS** |
-| Tamil assembly | **PASS** |
-| English translation plan | **COMPLETE** |
-| English translation source map | **COMPLETE** |
-| English translation prose | **NOT STARTED** |
+| final continuity audit | **PASS — revalidated** |
+| Tamil assembly | **PASS — revalidated** |
+| English translation plan/source map | **REVIEWED / PASS** |
+| EN-01 scans 145–146 | **REVIEWED / PASS — Gate A** |
+| EN-02 scans 147–148 | **NOT STARTED — NEXT** |
+| EN-03 scans 149–151 | **BLOCKED pending Gate B** |
+| EN-04 scan 152 | **BLOCKED** |
+| final assembled English poem | **NOT STARTED** |
 
 Current readiness:
 
@@ -251,8 +267,9 @@ Current readiness:
 - Tamil page-level transcription: **FINAL-CLEARED**;
 - Tamil assembly: **COMPLETE / PASS**;
 - scan 151: **one documented user-directed editorial omission**;
-- English translation planning/source map: **COMPLETE**;
-- English translation prose: **BLOCKED pending review of the plan/source map**.
+- English translation planning/source map: **REVIEWED / PASS**;
+- EN-01: **REVIEWED / PASS**;
+- next permitted translation work: **EN-02 only**.
 
 ## Failure diagnosis retained for future work
 
@@ -264,8 +281,10 @@ The failures in this work fall into three recurring classes:
 
 High-resolution enlargement alone does not solve these problems once a wrong candidate has been mentally anchored.
 
+The later scan-145 ellipsis-count correction also demonstrates that **punctuation must remain auditable even after a page has reached an apparently final state**.
+
 ## Next activity
 
-Review `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`.
+Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly using the Gate A voice/terminology baseline.
 
-After that review, begin **EN-01 (scans 145–146) only**. Do not begin EN-02 or later batches until EN-01 has been reviewed for voice, terminology and fidelity. Any later translation must preserve the documented scan-151 omission and must not restore superseded readings unless the user explicitly changes those instructions.
+After EN-02 is drafted, perform **Gate B consistency review** before starting EN-03. Any later translation must preserve the documented scan-151 omission and must not restore superseded readings unless the user explicitly changes those instructions.
