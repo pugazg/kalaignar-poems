@@ -199,6 +199,36 @@ A repository search after assembly returns no current occurrence of the delibera
 
 Because of the explicit scan-151 omission, the assembled text is **canonical for this repository but not a fully diplomatic character-for-character reproduction at that single location**.
 
+## English translation planning/source map — COMPLETE
+
+Planning documents:
+
+- `translations/en/README.md`;
+- `translations/en/TRANSLATION_PLAN.md`;
+- `translations/en/SOURCE_MAP.md`.
+
+Planning result:
+
+| Check | Result |
+|---|---:|
+| canonical Tamil assembly locked as translation source | **PASS** |
+| scan-by-scan source map | **8/8 mapped** |
+| page joins represented | **7/7** |
+| visible `★` separator structure represented | **8 total** |
+| scan-149→150→151 carried speech mapped | **PASS** |
+| scan-151 editorial omission rule carried into translation policy | **PASS** |
+| translation batches defined | **4** |
+| English prose written in this stage | **0** |
+
+Batch plan:
+
+- **EN-01:** scans 145–146;
+- **EN-02:** scans 147–148;
+- **EN-03:** scans 149–151;
+- **EN-04:** scan 152.
+
+The scan-151 omitted term must not be restored, transliterated, paraphrased or replaced in English unless the user explicitly changes that instruction.
+
 ## Final status
 
 | Status | Count / result |
@@ -211,6 +241,9 @@ Because of the explicit scan-151 omission, the assembled text is **canonical for
 | page joins | **7/7 PASS** |
 | final continuity audit | **PASS** |
 | Tamil assembly | **PASS** |
+| English translation plan | **COMPLETE** |
+| English translation source map | **COMPLETE** |
+| English translation prose | **NOT STARTED** |
 
 Current readiness:
 
@@ -218,7 +251,8 @@ Current readiness:
 - Tamil page-level transcription: **FINAL-CLEARED**;
 - Tamil assembly: **COMPLETE / PASS**;
 - scan 151: **one documented user-directed editorial omission**;
-- English translation: **READY FOR PLANNING / SOURCE-MAP STAGE — not started**.
+- English translation planning/source map: **COMPLETE**;
+- English translation prose: **BLOCKED pending review of the plan/source map**.
 
 ## Failure diagnosis retained for future work
 
@@ -232,6 +266,6 @@ High-resolution enlargement alone does not solve these problems once a wrong can
 
 ## Next activity
 
-Prepare the English translation **plan and source map only** from the canonical Tamil assembly `sections/thennan-kathai.md` under the repository translation workflow.
+Review `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`.
 
-Do not begin translation prose until the plan/source map is reviewed. Any later translation must preserve the documented scan-151 omission and must not restore superseded readings unless the user explicitly changes those instructions.
+After that review, begin **EN-01 (scans 145–146) only**. Do not begin EN-02 or later batches until EN-01 has been reviewed for voice, terminology and fidelity. Any later translation must preserve the documented scan-151 omission and must not restore superseded readings unless the user explicitly changes those instructions.
