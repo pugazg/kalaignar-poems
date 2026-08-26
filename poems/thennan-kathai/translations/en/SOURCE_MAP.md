@@ -35,11 +35,11 @@ Assembly marker:
 
 `<!-- scan 145 / no visible printed page number -->`
 
-Translation batch: **EN-01**
+Translation batch: **EN-01 — REVIEWED / PASS**
 
 Structural notes:
 
-- title appears on page record but translation batch should translate poem body only unless a final English title is separately approved;
+- title appears on page record but translation batch translates poem body only unless a final English title is separately approved;
 - one `★` separator inside the page;
 - closes without completing the thought: `கடவுளுக்குப் பலிதேடும் வேலை, ஆகாது`;
 - a later Gate A source check corrected `பூசுரர்கள் கூட்டம்....` to source-visible `பூசுரர்கள் கூட்டம்...`; the canonical assembly and EN-01 were synchronized before approval.
@@ -54,7 +54,7 @@ Assembly marker:
 
 `<!-- scan 146 / no visible printed page number -->`
 
-Translation batch: **EN-01**
+Translation batch: **EN-01 — REVIEWED / PASS**
 
 Structural notes:
 
@@ -72,13 +72,13 @@ Assembly marker:
 
 `<!-- scan 147 / no visible printed page number -->`
 
-Translation batch: **EN-02**
+Translation batch: **EN-02 — REVIEWED / PASS, Gate B cleared**
 
 Structural notes:
 
 - one `★` separator;
 - user lexical-control reconciliation is canonical;
-- unusual quotation punctuation is intentional in the canonical Tamil record and must not be silently repaired;
+- unusual quotation punctuation is intentional in the canonical Tamil record and is deliberately not silently repaired in the reviewed English batch;
 - ends `ஏறென்றான்.`.
 
 ### Scan 148
@@ -91,7 +91,7 @@ Assembly marker:
 
 `<!-- scan 148 / no visible printed page number -->`
 
-Translation batch: **EN-02**
+Translation batch: **EN-02 — REVIEWED / PASS, Gate B cleared**
 
 Structural notes:
 
@@ -99,6 +99,7 @@ Structural notes:
 - one `★` separator;
 - quoted ideological passage is self-contained on this scan;
 - user-confirmed extraction is the canonical lexical text;
+- EN-02 preserves the user-controlled forms and does not restore superseded old-glyph readings;
 - ends `தர்ப்பைகளின் சூழ்ச்சியினால் கொன்றுவிட்ட கொடியன்.`.
 
 ### Scan 149
@@ -111,7 +112,7 @@ Assembly marker:
 
 `<!-- scan 149 / no visible printed page number -->`
 
-Translation batch: **EN-03**
+Translation batch: **EN-03 — NEXT / NOT STARTED**
 
 Structural notes:
 
@@ -130,7 +131,7 @@ Assembly marker:
 
 `<!-- scan 150 / no visible printed page number -->`
 
-Translation batch: **EN-03**
+Translation batch: **EN-03 — NEXT / NOT STARTED**
 
 Structural notes:
 
@@ -149,7 +150,7 @@ Assembly marker:
 
 `<!-- scan 151 / no visible printed page number -->`
 
-Translation batch: **EN-03**
+Translation batch: **EN-03 — NEXT / NOT STARTED**
 
 Structural notes:
 
@@ -170,7 +171,7 @@ Assembly marker:
 
 `<!-- scan 152 / no visible printed page number -->`
 
-Translation batch: **EN-04**
+Translation batch: **EN-04 — BLOCKED pending Gate C**
 
 Structural notes:
 
@@ -193,6 +194,8 @@ All seven joins are translation-significant and must remain logically continuous
 
 Translation batches may preserve provenance markers internally, but English prose must not accidentally treat a physical scan boundary as a narrative break where the Tamil continues directly.
 
+Gate B specifically reviewed join **147→148** and passed it without introducing a false narrative break.
+
 ## Separator lock
 
 Visible/canonical separators to preserve as structural breaks:
@@ -208,12 +211,18 @@ Visible/canonical separators to preserve as structural breaks:
 
 Total: **8 `★` separators**.
 
+Reviewed English batches currently represent:
+
+- EN-01: 2 separators;
+- EN-02: 2 separators;
+- later batches: not yet translated.
+
 ## Gate status
 
 - source map: **REVIEWED / PASS**;
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**;
-- EN-02 scans 147–148: **NEXT — not started**;
-- EN-03 scans 149–151: **BLOCKED pending Gate B**;
-- EN-04 scan 152: **BLOCKED**.
+- EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**;
+- EN-03 scans 149–151: **NEXT — not started**;
+- EN-04 scan 152: **BLOCKED pending Gate C**.
 
-The next permitted activity is **EN-02 only**. Its translation must use the Gate A voice/terminology baseline while preserving the unusual scan-147 quotation structure and the user-controlled scan-148 lexical text. After EN-02, Gate B must pass before EN-03 begins.
+The next permitted activity is **EN-03 only**. Its translation must preserve the scan-149→150→151 speech as one continuous speech and must preserve the page-151 user-directed omission without restoration, transliteration, paraphrase or replacement. After EN-03, Gate C must pass before EN-04 begins.
