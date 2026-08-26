@@ -49,7 +49,7 @@ This instruction overrides any earlier source-faithfulness rule at that single l
 
 ## 5. Names and terminology — Gate A baseline
 
-Gate A has reviewed the initial voice/terminology choices. Use these forms consistently unless a later batch review documents a context-specific exception.
+Gate A reviewed the initial voice/terminology choices. Use these forms consistently unless a later batch review documents a context-specific exception.
 
 | Tamil | English handling | Review note |
 |---|---|---|
@@ -114,7 +114,12 @@ Special care:
 - page 148 follows the user-confirmed lexical-control text;
 - use the Gate A voice/terminology baseline.
 
-Status: **NOT STARTED — next permitted batch**.
+Status: **REVIEWED / PASS — Gate B cleared**.
+
+Batch: `batches/EN-02-scans-147-148.md`.
+Review record: `GATE_B_REVIEW.md`.
+
+Gate B retained the unusual scan-147 quotation structure, confirmed Gate A terminology continuity, preserved the scan-147→148 narrative join, and verified that no superseded page-148 visual reading returned through translation.
 
 ### EN-03 — scans 149–151
 
@@ -131,7 +136,7 @@ Special care:
 - keep the cross-page speech continuous in English even though source-page provenance remains tracked;
 - preserve the user-directed omission on scan 151 without replacement.
 
-Status: **BLOCKED pending Gate B**.
+Status: **NOT STARTED — next permitted batch**.
 
 ### EN-04 — scan 152
 
@@ -143,7 +148,7 @@ Scope:
 - reaction of Lanka;
 - terminal separator.
 
-Status: **BLOCKED**.
+Status: **BLOCKED pending Gate C**.
 
 ## 8. Batch file plan
 
@@ -182,7 +187,16 @@ It also caught and corrected one surviving scan-145 source punctuation discrepan
 
 ### Gate B — EN-02 consistency review
 
-After drafting EN-02, check continuity of terminology, direct speech, unusual scan-147 quotation handling and fidelity to the user-controlled scan-148 text before EN-03.
+**CLEARED.** See `GATE_B_REVIEW.md`.
+
+Gate B confirmed:
+
+- Gate A terminology remains stable;
+- scan 147's unusual quotation punctuation is not silently modernized;
+- scan 147→148 remains continuous narrative;
+- user-controlled scan-148 lexical forms govern the English;
+- compressed images including the honour/ship, palmyra-fruit and darbha-grass phrases are not over-explained;
+- exactly two `★` separators are retained in EN-02.
 
 ### Gate C — EN-03 omission and speech review
 
@@ -210,10 +224,10 @@ translations/en/RELEASE_REPORT.md
 - plan: **REVIEWED / PASS**;
 - source map: **REVIEWED / PASS**;
 - EN-01: **REVIEWED / PASS — Gate A cleared**;
-- EN-02: **NOT STARTED — next permitted batch**;
-- EN-03: **BLOCKED pending Gate B**;
-- EN-04: **BLOCKED**;
+- EN-02: **REVIEWED / PASS — Gate B cleared**;
+- EN-03: **NOT STARTED — next permitted batch**;
+- EN-04: **BLOCKED pending Gate C**;
 - final assembled English poem: **NOT STARTED**;
-- next permissible translation activity: **EN-02 scans 147–148 only**.
+- next permissible translation activity: **EN-03 scans 149–151 only**.
 
-Do not begin EN-03 in the same activity as EN-02 drafting. Gate B must be completed first.
+Do not begin EN-04 in the same activity as EN-03 drafting. Gate C must be completed first.
