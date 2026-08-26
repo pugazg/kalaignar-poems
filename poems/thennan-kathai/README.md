@@ -59,7 +59,7 @@ See `notes/SCAN_146_THIRD_REAUDIT_2026-08-25.md`.
 
 ### Scan 147
 
-A subsequent user-provided **word-to-word extraction from `pasted-document.pdf`** exposed that even the third scan-147 re-audit had retained numerous whole-word substitutions. The fourth reconciliation corrected, among other items:
+A user-provided word-to-word extraction exposed that even the third scan-147 re-audit had retained numerous whole-word substitutions. The fourth reconciliation corrected, among other items:
 
 - `தனிபொருத்தி` → `தனியொருத்தி`;
 - `முகமிழந்` → `மூக்கிழந்`;
@@ -79,83 +79,47 @@ A subsequent user-provided **word-to-word extraction from `pasted-document.pdf`*
 
 ### Scan 148
 
-The user supplied an exact page-148 extraction and explicitly clarified that **the extraction is correct and the repository's visual interpretation was wrong**. The page has therefore been reconciled to that supplied text. Important corrections include:
-
-- `நின்றுள்` → `நின்றாள்`;
-- `இலங்கைச் செங்கோவில்` → `இலங்கைச் செங் கோலில்`;
-- `ரோசம்` → `மோசம்`;
-- `என்றுன்` → `என்றான்`;
-- `விட்டணன்` → `வீடணன்`;
-- `காத்தி- / ருப்போன்` → `காத்தி ருப்போன்`;
-- `நகரையென்றுன்` → `நகரையென்றான்`;
-- `விட்டணனின்` → `வீடணனின்`;
-- `தமையனும்` → `தமையனாம்`;
-- `தாப்பைகளின்` → `தர்ப்பைகளின்`;
-- `சூழ்ச்சியினில்` → `சூழ்ச்சியினால்`.
-
-The user-confirmed extraction also governs the sentence-level spacing and hyphens recorded in `pages/0148.md`. The earlier scan-148 recovery PASS is superseded.
+The user supplied an exact page-148 extraction and explicitly clarified that the extraction is correct and the repository's visual interpretation was wrong. Important corrections include `நின்றாள்`, `செங் கோலில்`, `மோசம்`, `என்றான்`, `வீடணன்`, `தமையனாம்`, `தர்ப்பைகளின்`, and `சூழ்ச்சியினால்`. The earlier scan-148 recovery PASS is superseded.
 
 ### Scan 149
 
-The user then supplied the page-149 lexical extraction. This exposed the same old-typeface failure again, especially repeated `-ஆன்` endings that had previously been misread as `-உன்`.
-
-Important corrections include:
-
-- `சுக்கிரிவன்` → `சுக்ரீவன்`;
-- `விபீஷணு!` → `விபீஷணா !`;
-- `என்றுன்!` → `என்றான்!`;
-- `நின்றுன்—` → `நின்றான்-`;
-- `உத்தமனும்—சிந்தன்` → `உத்தமனாம் - சிந்தனை`;
-- `வல்லவனும்` → `வல்லவனாம்`;
-- `உடை வாளிப் போலப்` → `உடை வாளைப் போலப்`;
-- later `நின்றுன்,` → `நின்றான்,`;
-- `ஜடை கட்டி` → `ஐடை கட்டி` according to the supplied lexical control;
-- `என்றுன்!` → `என்றான்!` in the battle passage;
-- `நடை கட்டு` → `நடைகட்டு`;
-- `சென்றுன்,` → `சென்றான்,`;
-- `இன்றிகத்` → `இன்றிந்தத்`.
-
-The physical scan is retained for directly unambiguous page structure: scan 149 visibly contains **three `★` separators**. The pasted final line repeated `ஆண்டிருக்கும்` twice; the visible page has one occurrence, so the canonical record retains one and documents that as a paste-duplication resolution.
-
-The earlier scan-149 recovery PASS is superseded.
+The user supplied the page-149 lexical extraction. This exposed the same old-typeface failure again, especially repeated `-ஆன்` endings that had previously been misread as `-உன்`. Important corrections include `சுக்ரீவன்`, `விபீஷணா !`, repeated `என்றான்/நின்றான்/சென்றான்`, `உத்தமனாம்`, `சிந்தனை`, `வல்லவனாம்`, `உடை வாளைப் போலப்`, `ஐடை கட்டி`, `நடைகட்டு`, and `இன்றிந்தத்`. The physical scan retains three directly visible `★` separators.
 
 ### Scan 150
 
-The user supplied the page-150 lexical extraction as the next control text. This again exposed multiple old-typeface and whole-word substitutions in the former repository reading.
+The user supplied the page-150 lexical extraction. Important corrections include `அனைவரையும்`, `புலிநிகர் நண்பர்களே!`, `தமிழ்க்`, `மடங்களாய்ப் போன தம்போ!!`, `சுக்ரீவன்`, `எதிர்க்கின்றார் என்னை / யென்றால்`, `வேண்டு / மன்றோ?`, `போடுகின்றார்`, `பாப்புனையும்`, `கிட்டா த`, and `கட்டி !`. The physical scan shows no `★` separator on this page.
 
-Important corrections include:
+### Scans 151–152
 
-- `அன்னவரையும்` → `அனைவரையும்`;
-- `புலிகள் நண்பர்களே!` → `புலிநிகர் நண்பர்களே!`;
-- `தமிழக்` → `தமிழ்க்`;
-- `மடங்களாய்ப் போனதம்மோ!` → `மடங்களாய்ப் போன தம்போ!!`;
-- `சுக்கிரிவன்` → `சுக்ரீவன்`;
-- `எதிர்க்கின்றூர் என்ன / பென்றால்,` → `எதிர்க்கின்றார் என்னை / யென்றால்,`;
-- `வேண்டும் / மன்றே?` → `வேண்டு / மன்றோ?`;
-- `போடுகின்றூர்` → `போடுகின்றார்`;
-- `யாப்புணையும்` → `பாப்புனையும்`;
-- `கிட்டாத` → `கிட்டா த`;
-- `கட்டி!` → `கட்டி !`.
+The user supplied the remaining text for both terminal pages. Those page records are now reconciled to the supplied lexical control rather than the earlier visual guesses.
 
-The supplied text also governs the hyphen forms in this page record. The physical scan remains useful for page identity and shows **no `★` separator** on page 150. The earlier scan-150 recovery PASS is superseded.
+Representative page-151 corrections include `வீரர்காள்`, `முள்ளம் பன்றிகளைப்`, `கொலை மணக்கும்`, `அம்புவியில்`, `அம்புவில்லை யெடடா`, `என்றான்`, `நின்றான்`, `ஆனையெனச்`, `தழல் பறக்கப்`, `பூனைகளே`, `போர்க் கணையை`, `கணைபோல`, and `அணை கெட்ட`.
+
+At the user's explicit direction, **one caste-based slur on page 151 is omitted without replacement** because the term is not considered appropriate in contemporary usage. The excluded source word is intentionally not reproduced in this repository documentation. No other word was removed for that editorial reason.
+
+Representative page-152 corrections include `கணை வெட்டித் தள்ளி`, `ஓடுதற்கு`, `சிக்கிவிட்டஇராமன்`, `சூறாவளி`, `எனைக் கொன்றவன்`, `பனைமரத்`, `தாளுடையான்`, and final `இலங்கை மாந்தர்!`. The physical terminal `★` remains retained as page structure.
 
 ## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
 - verified pages: **8/8**;
 - physical source availability: **COMPLETE — 8/8 page images present**;
+- user lexical-control reconciliation: **pages 147–152 complete**;
 - page-level Tamil transcription: **COMPLETE but NOT FINAL-CLEARED**;
-- Tamil assembly: **BLOCKED pending a stricter final full-range audit**;
+- page 151 contains **one explicitly documented user-directed editorial omission**;
+- Tamil assembly: **BLOCKED pending final continuity review**;
 - English translation: **BLOCKED**.
 
 ## Governing rule
 
-Do not preserve a plausible earlier reading merely because it already exists in the repository. When the user supplies an exact corrective extraction for a page and confirms it as correct, that supplied text is the lexical control for the reconciliation; do not override it with a conflicting visual guess.
+Do not preserve a plausible earlier reading merely because it already exists in the repository. When the user supplies an exact corrective extraction for a page and confirms it as correct, that supplied text is the lexical control for reconciliation; do not override it with a conflicting visual guess.
 
-The scan-146 through scan-150 failures demonstrate recurring hazards: suffix loss, whole-word substitution, and systematic misreading of older Tamil glyph forms—especially `-ஆன்` as `-உன்`, along with other compact vowel/sign combinations.
+The scan-146 through scan-152 corrections demonstrate recurring hazards: suffix loss, whole-word substitution, and systematic misreading of older Tamil glyph forms—especially `-ஆன்` as `-உன்`, along with other compact vowel/sign combinations.
+
+The page-151 user-directed omission is a transparent editorial exception to otherwise source-faithful archival transcription. It must not be silently restored in later assembly or translation work.
 
 ## Exact next step
 
-Continue the **full continuity/transcription audit of scans 145–152** under this stronger rule. Recheck the remaining pages and joins, and where an exact user-supplied extraction exists, use it as the lexical control rather than silently substituting an alternative reading.
+Perform a final **145–152 continuity review** over the reconciled page records: recheck all seven page joins, quotation carry-over, separators, and terminal structure. Do not reintroduce superseded visual readings, and do not restore the documented page-151 omitted term.
 
-Only after that audit passes may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
+Only after that review may Tamil assembly readiness be reconsidered. English translation remains blocked until the Tamil source text is fully cleared.
