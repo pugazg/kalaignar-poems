@@ -10,7 +10,7 @@
 - translation source map: **REVIEWED / PASS**
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**
 - EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**
-- EN-03 scans 149–151: **NOT STARTED — next permitted batch**
+- EN-03 scans 149–151: **DRAFTED — Gate C pending**
 - EN-04 scan 152: **BLOCKED pending Gate C**
 - final assembled English poem: **NOT STARTED**
 
@@ -32,6 +32,8 @@ Scan 151 contains one user-directed omission of a caste-based slur. The omitted 
 
 At that location, translation must follow the canonical Tamil text as it currently stands and preserve the omission without inventing a replacement epithet.
 
+EN-03 preserves this rule: the English moves directly from the volley into `Lakshmana too` without adding any epithet.
+
 ## Translation documents
 
 - `TRANSLATION_PLAN.md` — translation method, batch structure, fidelity rules and review gates;
@@ -40,13 +42,14 @@ At that location, translation must follow the canonical Tamil text as it current
 - `GATE_A_REVIEW.md` — EN-01 voice/terminology/fidelity review and source-punctuation recovery;
 - `GATE_B_REVIEW.md` — EN-02 consistency/quotation/user-control review;
 - `batches/EN-01-scans-145-146.md` — reviewed first English batch;
-- `batches/EN-02-scans-147-148.md` — reviewed second English batch.
+- `batches/EN-02-scans-147-148.md` — reviewed second English batch;
+- `batches/EN-03-scans-149-151.md` — drafted third English batch, pending Gate C.
 
 ## Batch sequence
 
 1. **EN-01 — scans 145–146:** **REVIEWED / PASS — Gate A cleared**;
 2. **EN-02 — scans 147–148:** **REVIEWED / PASS — Gate B cleared**;
-3. **EN-03 — scans 149–151:** **NEXT — not started**;
+3. **EN-03 — scans 149–151:** **DRAFTED — Gate C pending**;
 4. **EN-04 — scan 152:** blocked until Gate C clears EN-03.
 
 ## Gate A baseline
@@ -73,10 +76,21 @@ The reviewed EN-02 establishes these additional constraints for later consistenc
 - scan 148 follows the user-confirmed lexical control and no superseded old-glyph reading may return;
 - the scan-147→148 ship/boarding narrative remains continuous across the provenance boundary.
 
+## EN-03 draft controls
+
+The drafted EN-03 applies the previous gates and adds items for Gate C to review:
+
+- the direct speech opened on scan 149 continues through all of scan 150 and closes only on scan 151;
+- the page-151 editorial omission remains absent without reconstruction, transliteration, paraphrase or replacement;
+- the unusual canonical `ஐடை` is temporarily retained as **aidai** rather than replaced with a familiar but unsupported reading;
+- `கரும்போ உயிரென்று` is kept as the compact rhetorical question **“Is life sugarcane?”** rather than explained;
+- all three scan-149 `★` separators are retained; scans 150–151 add none;
+- no scan-152 text has been translated.
+
 ## Current next step
 
-Begin **EN-03 — scans 149–151 only** using the Gate A terminology baseline and the Gate B consistency decisions.
+Perform **Gate C — EN-03 omission / continuous-speech / terminology review** against the canonical Tamil assembly and the Gate A/B baselines.
 
-The scan-149→150→151 direct speech must remain one continuous speech in English even though source comments may mark page boundaries. The page-151 user-directed omission must remain absent without restoration, transliteration, paraphrase or replacement.
+Gate C must confirm that the scan-149→150→151 speech remains continuous, that the page-151 omission is still absent without indirect restoration, and that no superseded old-glyph reading has re-entered the English.
 
-Do **not** begin EN-04 in the same activity. After EN-03 is drafted, perform Gate C omission/speech review before proceeding further.
+Do **not** begin EN-04 in the same activity. EN-04 remains blocked until Gate C passes.
