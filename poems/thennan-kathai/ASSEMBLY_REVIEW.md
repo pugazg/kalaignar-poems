@@ -42,7 +42,7 @@ Review checks:
 **Page blocks present:** 8 / 8  
 **Missing page blocks:** 0  
 **Duplicate page blocks:** 0  
-**Assembly discrepancies against final-cleared page records:** 0
+**Assembly discrepancies against current final-cleared page records:** 0
 
 ## Page-boundary continuity checks
 
@@ -73,21 +73,31 @@ The assembled poem retains the page-record separator structure exactly:
 
 **Total:** 8 `★` separators — PASS.
 
+## Post-assembly source correction — revalidated
+
+During English EN-01 Gate A review, a fresh source check of scan 145 found one surviving punctuation-count error:
+
+- previous page/assembly reading: `பூசுரர்கள் கூட்டம்....`;
+- controlling scan reading: `பூசுரர்கள் கூட்டம்...` — **three dots**.
+
+`pages/0145.md` and `sections/thennan-kathai.md` were synchronized to the three-dot source reading. This correction affects neither page continuity nor separator structure. The assembly was rechecked after synchronization and still has **8/8 page blocks, 0 missing, 0 duplicated, 0 discrepancies, and 8 `★` separators**.
+
 ## Editorial exception on scan 151
 
 At the user's explicit direction, one caste-based slur present in the source passage is omitted from the canonical repository text without replacement. This exception was already documented in `pages/0151.md` and is preserved unchanged in the assembled poem.
 
-The omitted source word is intentionally not reproduced in this review. A repository search after assembly returns no current occurrence of that excluded term.
+The omitted source word is intentionally not reproduced in this review.
 
 Because of this explicit instruction, the assembly is **canonical for this repository but not a fully diplomatic character-for-character reproduction at that one location**.
 
 ## Completion judgement
 
-**PASS.** The canonical Tamil assembly is complete for scans **145–152** and matches the final-cleared page records exactly, including the documented scan-151 omission.
+**PASS.** The canonical Tamil assembly is complete for scans **145–152** and matches the current final-cleared page records exactly, including the scan-145 three-dot punctuation correction and the documented scan-151 omission.
 
 Tamil archival/source layer: **COMPLETE**.  
 Tamil continuity audit: **PASS**.  
 Tamil assembly: **PASS**.  
-English translation: **READY FOR PLANNING / SOURCE-MAP STAGE — not started in this activity**.
+English translation EN-01: **REVIEWED / PASS — Gate A cleared**.  
+English translation EN-02: **NOT STARTED — next permitted batch**.
 
 Any later translation or derivative text must use `sections/thennan-kathai.md` as the canonical Tamil assembly and must not restore superseded readings or the deliberately omitted scan-151 term unless the user explicitly changes that instruction.
