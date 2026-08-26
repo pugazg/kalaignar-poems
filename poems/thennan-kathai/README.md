@@ -129,6 +129,16 @@ Assembly review result: **8/8 page blocks present, 0 missing, 0 duplicated, 0 di
 
 A repository search after assembly returns no current occurrence of the deliberately excluded page-151 term.
 
+## English translation planning
+
+Planning/source-map stage is now complete:
+
+- [`translations/en/README.md`](translations/en/README.md)
+- [`translations/en/TRANSLATION_PLAN.md`](translations/en/TRANSLATION_PLAN.md)
+- [`translations/en/SOURCE_MAP.md`](translations/en/SOURCE_MAP.md)
+
+The plan defines four translation batches: **EN-01 scans 145–146**, **EN-02 scans 147–148**, **EN-03 scans 149–151**, and **EN-04 scan 152**. The source map locks all seven cross-page joins, all eight `★` separators, the scan-149→150→151 carried speech, and the scan-151 user-directed omission before any English prose is written.
+
 ## Current status
 
 - scans **145–152**: page records present and page-level `verified`;
@@ -139,7 +149,9 @@ A repository search after assembly returns no current occurrence of the delibera
 - Tamil transcription: **FINAL-CLEARED**;
 - page 151 contains **one explicitly documented user-directed editorial omission**;
 - Tamil assembly: **PASS — canonical assembly complete**;
-- English translation: **READY FOR PLANNING / SOURCE-MAP STAGE — not started**.
+- English translation plan: **COMPLETE**;
+- English translation source map: **COMPLETE**;
+- English translation prose: **NOT STARTED — blocked pending review of the plan/source map**.
 
 ## Governing rule
 
@@ -151,4 +163,4 @@ The page-151 user-directed omission is a transparent editorial exception to othe
 
 ## Exact next step
 
-Begin the English translation **planning/source-map stage only** from the canonical Tamil assembly `sections/thennan-kathai.md`, following the repository translation workflow. Do not begin translation prose until the plan/source map is reviewed.
+Review `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`. After that review, begin **EN-01 (scans 145–146) only**. Do not start EN-02 or later batches until the first English batch has been reviewed for voice, terminology and fidelity.
