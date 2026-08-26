@@ -13,7 +13,7 @@
 - EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**
 - EN-04 scan 152: **REVIEWED / PASS — Gate D cleared**
 - full-work English review: **PASS — Gate D cleared**
-- final assembled English poem: **NOT STARTED — now permitted**
+- final assembled English poem: **CREATED — pending editorial consistency review**
 
 ## Governing source
 
@@ -35,6 +35,8 @@ At that location, translation must follow the canonical Tamil text as it current
 
 Gate C confirmed that EN-03 preserves this rule: the English moves directly to `Lakshmana too` without adding an epithet. Gate D rechecked the full work and confirmed that EN-04 neither restores nor alludes to the omitted scan-151 term.
 
+The assembled English poem preserves the same omission without replacement.
+
 ## Translation documents
 
 - `TRANSLATION_PLAN.md` — translation method, batch structure, fidelity rules and review gates;
@@ -47,7 +49,8 @@ Gate C confirmed that EN-03 preserves this rule: the English moves directly to `
 - `batches/EN-01-scans-145-146.md` — reviewed first English batch;
 - `batches/EN-02-scans-147-148.md` — reviewed second English batch;
 - `batches/EN-03-scans-149-151.md` — reviewed third English batch;
-- `batches/EN-04-scan-152.md` — reviewed terminal English batch.
+- `batches/EN-04-scan-152.md` — reviewed terminal English batch;
+- `thennan-kathai-en.md` — final assembled English poem, created only from the reviewed batch poem bodies.
 
 ## Batch sequence
 
@@ -119,12 +122,23 @@ The EN-04 conservative choices accepted at Gate D include:
 - `மலைப்பாறை முதுகு` → **mountain-rock back**;
 - `பார்ப்பனரின் தாளுடையான்` → **he bears the Brahmin's feet**.
 
+## Final English assembly
+
+`thennan-kathai-en.md` was created by concatenating only the reviewed English poem bodies from EN-01 through EN-04, without altering reviewed wording.
+
+Assembly safeguards:
+
+- all **8 `★` separators** retained;
+- all seven narrative joins retained without inserted headings or reset text;
+- scan-149→150→151 direct speech remains continuous and closes at the reviewed scan-151 point;
+- the scan-151 editorial omission remains absent without replacement;
+- the EN-03→EN-04 battle continuation remains direct;
+- the terminal `★` is the final poem content; no poem text follows it.
+
 ## Current next step
 
-Create the final assembled English poem:
+Perform `EDITORIAL_CONSISTENCY_REVIEW.md` against `thennan-kathai-en.md` and the four reviewed batch bodies.
 
-`thennan-kathai-en.md`
+The review must confirm exact assembly fidelity, terminology consistency, quotation/speech continuity, all eight separators, the scan-151 editorial omission, and the terminal structure. Do not silently change reviewed poem wording during that review.
 
-The assembly must use only the reviewed poem bodies from EN-01 through EN-04, preserve all **8 `★` separators**, preserve the seven narrative joins and the scan-149→151 continuous speech, preserve the scan-151 editorial omission, and add no poem text after the terminal `★`.
-
-After the assembled poem is created, perform `EDITORIAL_CONSISTENCY_REVIEW.md` before preparing `RELEASE_REPORT.md`.
+Only after the editorial consistency review passes should `RELEASE_REPORT.md` be prepared.
