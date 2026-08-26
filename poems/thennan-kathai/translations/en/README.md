@@ -11,8 +11,9 @@
 - EN-01 scans 145–146: **REVIEWED / PASS — Gate A cleared**
 - EN-02 scans 147–148: **REVIEWED / PASS — Gate B cleared**
 - EN-03 scans 149–151: **REVIEWED / PASS — Gate C cleared**
-- EN-04 scan 152: **DRAFTED — pending Gate D / full-work review**
-- final assembled English poem: **NOT STARTED — blocked until Gate D**
+- EN-04 scan 152: **REVIEWED / PASS — Gate D cleared**
+- full-work English review: **PASS — Gate D cleared**
+- final assembled English poem: **NOT STARTED — now permitted**
 
 ## Governing source
 
@@ -32,7 +33,7 @@ Scan 151 contains one user-directed omission of a caste-based slur. The omitted 
 
 At that location, translation must follow the canonical Tamil text as it currently stands and preserve the omission without inventing a replacement epithet.
 
-Gate C explicitly confirmed that EN-03 preserves this rule: the English moves directly to `Lakshmana too` without adding an epithet. EN-04 contains scan 152 only and does not restore or allude to the omitted scan-151 term.
+Gate C confirmed that EN-03 preserves this rule: the English moves directly to `Lakshmana too` without adding an epithet. Gate D rechecked the full work and confirmed that EN-04 neither restores nor alludes to the omitted scan-151 term.
 
 ## Translation documents
 
@@ -42,17 +43,18 @@ Gate C explicitly confirmed that EN-03 preserves this rule: the English moves di
 - `GATE_A_REVIEW.md` — EN-01 voice/terminology/fidelity review and source-punctuation recovery;
 - `GATE_B_REVIEW.md` — EN-02 consistency/quotation/user-control review;
 - `GATE_C_REVIEW.md` — EN-03 omission/continuous-speech/terminology review;
+- `GATE_D_REVIEW.md` — EN-04 and full-work coverage/continuity/separator/terminology review;
 - `batches/EN-01-scans-145-146.md` — reviewed first English batch;
 - `batches/EN-02-scans-147-148.md` — reviewed second English batch;
 - `batches/EN-03-scans-149-151.md` — reviewed third English batch;
-- `batches/EN-04-scan-152.md` — drafted terminal English batch, awaiting Gate D.
+- `batches/EN-04-scan-152.md` — reviewed terminal English batch.
 
 ## Batch sequence
 
 1. **EN-01 — scans 145–146:** **REVIEWED / PASS — Gate A cleared**;
 2. **EN-02 — scans 147–148:** **REVIEWED / PASS — Gate B cleared**;
 3. **EN-03 — scans 149–151:** **REVIEWED / PASS — Gate C cleared**;
-4. **EN-04 — scan 152:** **DRAFTED — pending Gate D / full-work review**.
+4. **EN-04 — scan 152:** **REVIEWED / PASS — Gate D cleared**.
 
 ## Gate A baseline
 
@@ -91,24 +93,38 @@ The reviewed EN-03 establishes these additional constraints:
 - the Kumbhakarna/Rama sentence is phrased so Rama is clearly the one bounding away;
 - the Lakshmana-volley sentence is reordered for grammatical English without restoring the omitted epithet.
 
-## EN-04 draft decisions
+## Gate D full-work findings
 
-The terminal batch follows only the user-controlled scan-152 Tamil text and currently uses these conservative choices, subject to Gate D:
+Gate D compared all four batches against `SOURCE_MAP.md` and the canonical Tamil assembly.
+
+Results:
+
+- batch coverage: **145–152 complete with no missing or duplicated scan**;
+- all seven cross-page joins: **7/7 PASS**;
+- separator structure: **8/8 `★` preserved**;
+- scan-149→150→151 speech continuity: **PASS**;
+- scan-151 editorial omission: **PASS — remains absent without replacement**;
+- terminology consistency: **PASS**;
+- rhetorical force / compressed metaphors: **PASS**;
+- superseded Tamil readings: **none reintroduced**;
+- EN-04 terminal speech and terminal `★`: **PASS**.
+
+The EN-04 conservative choices accepted at Gate D include:
 
 - `ஓரம்பு` → **a single arrow**;
 - `பஞ்சாய்ப் போகும்` → **will be reduced to cotton**;
-- `கன்னலடா எந்தன் நாடு` → **My land is sugarcane, man!** — the unusual metaphor is retained rather than explained;
+- `கன்னலடா எந்தன் நாடு` → **My land is sugarcane, man!**;
 - `வாள்வீச்சு மின்னலடா` → **this sweep of the sword is lightning, man!**;
 - `ஆரியக் கனி சுவைக்கும்` → **tasting the Aryan fruit**;
 - `மலைப்பாறை முதுகு` → **mountain-rock back**;
-- `பார்ப்பனரின் தாளுடையான்` retains the bodily accusation as **he bears the Brahmin's feet** rather than adding explanatory prose;
-- the final Ravana speech is self-contained;
-- the terminal `★` is retained and no English poem text follows it.
+- `பார்ப்பனரின் தாளுடையான்` → **he bears the Brahmin's feet**.
 
 ## Current next step
 
-Perform **Gate D / full-work review**.
+Create the final assembled English poem:
 
-Gate D must compare EN-01 through EN-04 against `SOURCE_MAP.md` and the canonical Tamil assembly, verify all seven cross-page joins and all eight `★` separators, recheck terminology and rhetorical force, confirm that no superseded Tamil reading has returned, and confirm that the page-151 omitted term remains absent without replacement.
+`thennan-kathai-en.md`
 
-Do **not** create the final assembled English poem until Gate D passes.
+The assembly must use only the reviewed poem bodies from EN-01 through EN-04, preserve all **8 `★` separators**, preserve the seven narrative joins and the scan-149→151 continuous speech, preserve the scan-151 editorial omission, and add no poem text after the terminal `★`.
+
+After the assembled poem is created, perform `EDITORIAL_CONSISTENCY_REVIEW.md` before preparing `RELEASE_REPORT.md`.
