@@ -137,9 +137,17 @@ Page 152 is the user-confirmed terminal page. Its final narrative lines are foll
 
 Page 151 contains **one user-directed omission of a caste-based slur**, without replacement. This is deliberate, documented, and must remain omitted in the assembled Tamil text and any later derivative/translation workflow unless the user explicitly changes that instruction.
 
+## Post-audit source correction — continuity revalidation
+
+During the later EN-01 Gate A review, a fresh source check found one surviving scan-145 punctuation-count error:
+
+- `பூசுரர்கள் கூட்டம்....` → **`பூசுரர்கள் கூட்டம்...`**.
+
+The page record and canonical assembly were corrected to three dots. This is internal to scan 145 and does **not** affect any page boundary, quotation carry-over, separator, page order or terminal structure. All seven joins and the total of eight `★` separators were rechecked after the correction and remain unchanged.
+
 ## Final result
 
-**FINAL 145–152 CONTINUITY AUDIT: PASS**
+**FINAL 145–152 CONTINUITY AUDIT: PASS — REVALIDATED AFTER SCAN-145 PUNCTUATION CORRECTION**
 
 - physical source range: **8/8 available**;
 - page records: **8/8 present**;
@@ -149,10 +157,11 @@ Page 151 contains **one user-directed omission of a caste-based slur**, without 
 - separator structure: **PASS**;
 - quotation carry-over: **PASS with documented source/user-controlled punctuation anomalies retained**;
 - terminal structure: **PASS**;
-- page-151 editorial omission: **preserved**.
+- page-151 editorial omission: **preserved**;
+- scan-145 later punctuation correction: **incorporated; no continuity impact**.
 
-The Tamil transcription is now **cleared for assembly** from the eight page records. This audit does **not** itself assemble the poem and does not authorize English translation yet.
+The Tamil assembly has subsequently been completed and revalidated. EN-01 has also passed Gate A review.
 
 ## Next activity
 
-Assemble the Tamil poem from `pages/0145.md` through `pages/0152.md` in physical order, preserving the reconciled lexical text, page-boundary semantics, separator structure, and the documented page-151 omission. Do not restore superseded readings and do not begin English translation in the same activity.
+Begin **EN-02 — scans 147–148 only** from the canonical Tamil assembly, using the approved Gate A voice/terminology baseline. After drafting EN-02, perform Gate B consistency review before starting EN-03.
