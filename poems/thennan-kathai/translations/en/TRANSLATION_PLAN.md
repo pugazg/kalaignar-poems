@@ -136,7 +136,11 @@ Special care:
 - keep the cross-page speech continuous in English even though source-page provenance remains tracked;
 - preserve the user-directed omission on scan 151 without replacement.
 
-Status: **NOT STARTED — next permitted batch**.
+Status: **DRAFTED — Gate C pending**.
+
+Batch: `batches/EN-03-scans-149-151.md`.
+
+The draft keeps the scan-149→150→151 speech continuous, preserves all three scan-149 `★` separators, restores no omitted page-151 epithet, and stops before scan 152. Gate C must review the draft before any EN-04 work begins.
 
 ### EN-04 — scan 152
 
@@ -200,11 +204,14 @@ Gate B confirmed:
 
 ### Gate C — EN-03 omission and speech review
 
+**PENDING — next required activity.**
+
 Explicitly confirm:
 
 - the scan-149→150→151 speech is continuous;
 - the scan-151 omitted term has not been restored or paraphrased;
-- no superseded Tamil reading has returned.
+- no superseded Tamil reading has returned;
+- Gate A/B terminology and rhetorical-force decisions remain stable.
 
 ### Gate D — EN-04 + full-work review
 
@@ -225,9 +232,9 @@ translations/en/RELEASE_REPORT.md
 - source map: **REVIEWED / PASS**;
 - EN-01: **REVIEWED / PASS — Gate A cleared**;
 - EN-02: **REVIEWED / PASS — Gate B cleared**;
-- EN-03: **NOT STARTED — next permitted batch**;
+- EN-03: **DRAFTED — Gate C pending**;
 - EN-04: **BLOCKED pending Gate C**;
 - final assembled English poem: **NOT STARTED**;
-- next permissible translation activity: **EN-03 scans 149–151 only**.
+- next permissible activity: **Gate C review of EN-03 only**.
 
-Do not begin EN-04 in the same activity as EN-03 drafting. Gate C must be completed first.
+Do not begin EN-04 until Gate C passes.
