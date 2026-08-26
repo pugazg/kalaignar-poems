@@ -29,7 +29,7 @@ Current source availability:
 
 All **8/8 physical page images are available**.
 
-The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** because the user identified that description as incorrect. See `SOURCE_COMPLEENESS_REVIEW.md` if present; the controlling work status is recorded here and in `audit.md`.
+The earlier Kalaignar Karuvoolam description/page-range inference is **superseded** because the user identified that description as incorrect. See `SOURCE_COMPLETENESS_REVIEW.md`.
 
 ## Verification recovery
 
