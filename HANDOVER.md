@@ -8,14 +8,64 @@ Branch: `main`
 ## Mandatory startup for every continuation
 
 1. Read `POEM_PROCESSING_GUIDE.md` completely.
-2. Read root `README.md`.
-3. For an existing work, read its `README.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `ASSEMBLY_REVIEW.md`, and `SOURCE_COMPLETENESS_REVIEW.md`.
-4. For English translation work, also read `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`, completed batch files, the complete English assembly, `EDITORIAL_CONSISTENCY_REVIEW.md`, and `RELEASE_REPORT.md` when present.
-5. Inspect existing files before creating anything; continue existing work and do not duplicate records.
-6. The supplied scan remains controlling for Tamil source wording. Do not silently normalize Tamil or poem lineation.
-7. Do not commit source PDFs.
+2. Read `TRANSCRIPTION_PHASE_PLAN.md` completely.
+3. Read root `README.md`.
+4. Read `NEXT_CHAT_PROMPT.md`.
+5. For an existing work, read its `README.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `ASSEMBLY_REVIEW.md`, and `SOURCE_COMPLETENESS_REVIEW.md` when present.
+6. For English translation work, also read `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`, completed batch files, the complete English assembly, `EDITORIAL_CONSISTENCY_REVIEW.md`, and `RELEASE_REPORT.md` when present.
+7. Inspect existing files before creating anything; continue existing work and do not duplicate records.
+8. The supplied scan remains controlling for Tamil source wording. Do not silently normalize Tamil or poem lineation.
+9. Do not commit source PDFs.
+10. Determine the declared current phase before doing any work and do not perform activities belonging to a later phase.
 
-## Active work — தென்னவன் காதை
+## CURRENT ACTIVE WORK — காலப் பேழையும் கவிதைச் சாவியும்
+
+Slug: `poems/kaalap-pezhaiyum-kavithai-saaviyum/`  
+Tamil title: **காலப் பேழையும் கவிதைச் சாவியும்**  
+Author: **கலைஞர் மு. கருணாநிதி**  
+Controlling source: `TVA_BOK_0063593_காலப்_பேழையும்_கவிதைச்_சாவியும்.pdf`  
+Physical scans in directly opened PDF: **306**.
+
+### Current phase — Phase 1: TRANSCRIPTION ONLY
+
+The user explicitly changed the workflow for this book-length source: **finish transcription first; defer verification and all other archival activities to later phases**.
+
+Governing phase reference: `TRANSCRIPTION_PHASE_PLAN.md`.
+
+Current Phase-1 rules:
+
+- continue sequentially from the controlling scan;
+- transcribe visible edition text faithfully into `pages/NNNN.md`;
+- preserve spelling, punctuation, headings, lineation, quotation marks and unusual forms exactly as seen;
+- record visible printed page numbers but do not infer invisible numbers;
+- exclude later stamps/handwriting/show-through from edition text;
+- explicitly record genuine uncertainty rather than guessing;
+- new pages transcribed from scan 10 onward should normally be `partial`, or `needs-review` when a specific unresolved reading exists;
+- do **not** call a new page `verified` merely because it has been transcribed once;
+- do not perform a separate glyph-by-glyph verification pass;
+- do not perform systematic continuity/page-join audit;
+- do not perform work-wide structural/completeness audit;
+- do not assemble canonical Tamil;
+- do not start English translation;
+- avoid routine control-document updates after every small transcription batch; update them at milestones, anomalies, or phase changes.
+
+Existing work completed before this phase switch remains valid:
+
+- scans **1–9** already have genuinely verified page records and remain `verified`;
+- front matter through scan 9 is already recorded;
+- contents entries **58/58** are already represented;
+- scan 5 correctly has no visibly printed page number;
+- scan 9 is already resolved as a blank verso with show-through only.
+
+### Exact next activity
+
+Begin Phase-1 transcription at **scan 10** and continue sequentially. The immediate task is to create the transcription record for scan 10, then continue to subsequent scans without pausing for the deferred Phase-2 verification or Phase-3 structural/assembly work.
+
+Phase 1 remains active until the user explicitly advances this work to Phase 2.
+
+---
+
+## Other ongoing work — தென்னவன் காதை
 
 Slug: `poems/thennan-kathai/`  
 Tamil title: **தென்னவன் காதை**  
@@ -61,7 +111,7 @@ Workspace: `poems/thennan-kathai/translations/en/`
 - Gate A: `GATE_A_REVIEW.md` — **PASS**;
 - EN-02 scans 147–148: `batches/EN-02-scans-147-148.md` — **REVIEWED / PASS**;
 - Gate B: `GATE_B_REVIEW.md` — **PASS**;
-- EN-03 scans 149–151: **NOT STARTED — next permitted batch**;
+- EN-03 scans 149–151: **NOT STARTED — next permitted batch when this work is resumed**;
 - EN-04 scan 152: **BLOCKED pending Gate C**;
 - final assembled English poem: **NOT STARTED**.
 
@@ -85,7 +135,7 @@ Gate B adds:
 - preserve the scan-147→148 ship/boarding narrative as continuous across the provenance boundary;
 - user-confirmed scan-148 lexical forms control the English; no superseded `நின்றுள்` / `என்றுன்`-class reading may return.
 
-### Exact next activity for தென்னவன் காதை
+### Next activity when தென்னவன் காதை is explicitly resumed
 
 Begin **EN-03 — scans 149–151 only** from the canonical Tamil assembly and the final user-controlled page records.
 
@@ -215,6 +265,8 @@ For any new Kalaignar poem supplied by the user:
 1. inspect the actual source scan before metadata;
 2. confirm the work has not already been started;
 3. create source identity/checksum/page map;
-4. transcribe page-by-page under `POEM_PROCESSING_GUIDE.md`;
-5. complete Tamil source/assembly review before English translation;
-6. when translating, preserve the same **Kalaignar-language/voice fidelity** standard established here.
+4. determine whether the work will use the normal integrated workflow or an explicit phased workflow;
+5. when phased mode is declared, follow `TRANSCRIPTION_PHASE_PLAN.md` and do not cross phase boundaries without user authorization;
+6. transcribe page-by-page under `POEM_PROCESSING_GUIDE.md`;
+7. complete source-critical verification and Tamil source/assembly review before English translation;
+8. when translating, preserve the same **Kalaignar-language/voice fidelity** standard established here.
