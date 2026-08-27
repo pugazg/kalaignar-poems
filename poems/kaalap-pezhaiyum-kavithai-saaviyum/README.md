@@ -12,10 +12,10 @@ This work was initialized from the supplied controlling scan under the repositor
 - front matter through the blank verso before item 1: **VERIFIED**
 - contents transcription: **58/58 entries VERIFIED**
 - current work mode: **Phase 1 — TRANSCRIPTION ONLY**
-- Phase-1 page records now extend consecutively through **scan 108**
-- most recent 25-scan iteration completed: **scans 84–108**
-- next 25-scan iteration: **scans 109–133**
-- next page to transcribe: **scan 109**
+- Phase-1 page records now extend consecutively through **scan 133**
+- most recent 25-scan iteration completed: **scans 109–133**
+- next 25-scan iteration: **scans 134–158**
+- next page to transcribe: **scan 134**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -28,7 +28,7 @@ Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
 ### What to do now
 
-For each remaining physical scan, beginning with scan 109:
+For each remaining physical scan, beginning with scan 134:
 
 - work in **25-physical-scan iterations**;
 - read the controlling scan directly;
@@ -57,7 +57,14 @@ During the later assembly phase:
 - title spelling and punctuation must not be silently normalized;
 - physical ranges recorded during Phase 1 remain provisional until the Phase-3 page-join/boundary review.
 
-A known example is item 18: the verified contents print `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`, while the numbered title page at scan 96 visibly prints `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`. Both witnesses are preserved for later reconciliation.
+Known title-witness differences currently include:
+
+- item 18 — contents `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`; title page `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`;
+- item 22 — contents title without enclosing quotation marks; title page encloses the full title as `“பிறகேன் வினா? என்பதே என் வினா!”`;
+- item 25 — contents has a final `!`; title page at scan 124 visibly has no final exclamation mark;
+- item 26 — contents has `இதோ,`; title page at scan 128 visibly has `இதோ` without the comma.
+
+All witnesses are preserved for later reconciliation rather than silently normalized.
 
 ### Explicitly deferred until later phases
 
@@ -95,16 +102,17 @@ Important source-fidelity decisions already established:
 
 ## Current Phase-1 milestone
 
-Page records now exist consecutively through scan 108. The completed scans 84–108 iteration carried transcription across items 16–21:
+Page records now exist consecutively through scan 133. The completed scans 109–133 iteration carried transcription across items 21–27:
 
-- item 16 closes at scan 87;
-- item 17 occupies scans 88–95;
-- item 18 occupies scans 96–98;
-- item 19 occupies scans 99–102;
-- item 20 occupies scans 103–106;
-- item 21 begins at scan 107 and continues beyond the current iteration.
+- item 21 occupies scans 107–111;
+- item 22 occupies scans 112–116;
+- item 23 occupies scans 117–119;
+- item 24 occupies scans 120–123;
+- item 25 occupies scans 124–127;
+- item 26 occupies scans 128–131;
+- item 27 begins at scan 132 and continues beyond the current iteration.
 
-These are Phase-1 navigation ranges only. The currently observed title/range state and the item-18 title discrepancy are maintained in `indexes/item-title-map.md`.
+These are Phase-1 navigation ranges only. The currently observed title/range state and all known contents/title-page discrepancies are maintained in `indexes/item-title-map.md`.
 
 See:
 
@@ -112,10 +120,10 @@ See:
 - `indexes/page-map.md`
 - `indexes/item-title-map.md`
 - `audit.md`
-- `pages/0001.md` through `pages/0108.md`
+- `pages/0001.md` through `pages/0133.md`
 
 ## Exact next activity
 
-Continue **Phase-1 transcription with scans 109–133 as one 25-physical-scan iteration**, beginning at scan 109. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
+Continue **Phase-1 transcription with scans 134–158 as one 25-physical-scan iteration**, beginning at scan 134. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
 
 Phase 1 remains active until the user explicitly advances this work to Phase 2.
