@@ -1,17 +1,41 @@
 # Audit — காலப் பேழையும் கவிதைச் சாவியும்
 
-## Current totals
+## Current phase
+
+**Phase 1 — TRANSCRIPTION ONLY.**
+
+The user explicitly directed that the current phase should build the transcription layer first. Source-critical verification, systematic continuity/page-join review, structural/completeness audit, canonical Tamil assembly and translation are deferred to later phases.
+
+Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
+
+## State at the phase switch
 
 - physical scans in controlling PDF: **306**
 - scans inspected for identity/opening structure: **10**
-- verified page records: **9**
-- needs-review page records: **0**
-- blocked page records: **0**
-- physical scans without verified page records: **297**
+- genuinely verified page records completed before phase switch: **9**
+- verified range: **scans 1–9 consecutively**
+- next Phase-1 transcription page: **scan 10**
 
-Verified records now cover scans **1–9 consecutively**.
+The nine already verified records remain verified. New scan-10+ pages should normally remain `partial`, or `needs-review` for a specific unresolved reading, until Phase 2.
 
-## Source controls
+## Phase-1 rules
+
+During the current phase:
+
+1. transcribe each physical scan directly from the controlling source;
+2. preserve source spelling, punctuation, headings, lineation, quotation marks and unusual forms;
+3. record visible printed page numbers only;
+4. exclude later stamps/handwriting/show-through from edition text;
+5. record genuine uncertainty rather than guessing;
+6. create the sequential page record;
+7. do **not** run a separate glyph-by-glyph verification pass;
+8. do **not** conduct systematic page-join/continuity or item-boundary audits;
+9. do **not** conduct work-wide completeness review;
+10. do **not** assemble canonical Tamil or begin translation.
+
+Control documents are updated at milestones/anomalies/phase changes rather than after every small transcription batch.
+
+## Source controls already established
 
 - SHA-256 recorded: **PASS**
 - file size recorded: **PASS**
@@ -19,7 +43,7 @@ Verified records now cover scans **1–9 consecutively**.
 - title/author verified from scan: **PASS**
 - publication details recorded from visible preliminaries: **PASS**
 
-## Opening-page verification
+## Work completed before Phase 1 was declared
 
 ### Scans 1–4
 
@@ -30,11 +54,11 @@ Direct visual verification was completed for:
 3. scan 3 — publication details / price / printer line;
 4. scan 4 — introductory note signed `மு. க.`.
 
-The scan-4 source form `நிலைபோட்டி` is preserved exactly as printed and has not been silently normalized by semantic expectation.
+The scan-4 source form `நிலைபோட்டி` is preserved exactly as printed and has not been silently normalized.
 
-### Scans 5–7 — contents review
+### Scans 5–7 — contents
 
-All three contents pages have now been transcribed and verified directly from the controlling scan:
+All three contents pages were transcribed and verified before the phase switch:
 
 - scan 5 — items **1–19**;
 - scan 6 — items **20–43**, visible printed page `5`;
@@ -45,49 +69,40 @@ Result:
 - contents items accounted for: **58/58**;
 - listed starting-page numbers captured: **58/58**;
 - contents page records: **3/3 verified**;
-- no OCR wording imported;
-- long entries that physically wrap are represented as single logical contents entries without changing wording or punctuation;
-- dot leaders are documented as navigation/layout marks, not silently treated as title punctuation.
+- no OCR wording imported.
 
-### Scan-5 printed-page correction
+The preliminary scan-5 printed-page inference `4` was removed because no printed number is visibly present on that scan.
 
-The preliminary page map previously recorded scan 5 as printed page `4` by sequence. Full verification found **no visible printed page number on scan 5**. That inference has been removed and `printed_page` is now unset for scan 5. This correction follows the repository rule that inferred numbering must not be recorded as visibly printed evidence.
+### Scan 8
 
-### Scan 8 — work display
+Verified as an unnumbered work/display page containing the title and author line, with no poem/body text.
 
-Scan 8 is now verified as an unnumbered work/display page containing:
+### Scan 9
 
-- `காலப் பேழையும்,`
-- `கவிதைச் சாவியும்`
-- author line `- கலைஞர் மு. கருணாநிதி`;
-- decorative border motifs above and below the title block;
-- no poem/body text.
+Resolved and verified as a blank verso dominated by reverse-side/show-through, with no independently printed edition text and no visibly printed page number.
 
-### Scan 9 anomaly resolution
+## Deferred audits
 
-The earlier unresolved scan-9 role remains **resolved**:
+### Phase 2 — source-critical visual verification
 
-- no independently printed edition text is visible on that side;
-- the visible material is faint reverse-side/show-through;
-- no printed page number is visibly present;
-- scan 9 is recorded as a **blank verso**, with no inferred printed-page number.
+Deferred until Phase 1 transcription is complete. This will independently check scan-10+ transcriptions for glyphs, word endings, punctuation, lineation, old-typeface failure classes and lexical-control corrections.
 
-## Remaining cautions
+### Phase 3 — structure/completeness/assembly
 
-1. Later library marks occur in the front matter and must remain excluded from edition text.
-2. Contents pagination is navigation evidence and is not a substitute for physical scan mapping.
-3. The controlling file is image-only for inspected pages; no OCR output is authoritative.
-4. The directly opened controlling PDF contains 306 physical scans. A smaller count reported by an external preview layer is treated as a preview limitation, not as source evidence.
-5. Poem/body pages beginning at scan 10 require line-by-line transcription with lineation, punctuation and page joins checked independently of contents wording.
+Deferred until Phase 2 is complete. This will cover exact mapping reconciliation, item/work boundaries, all page joins, completeness, canonical Tamil assembly and final clearance.
+
+### Phase 4 — translation/release
+
+Blocked until Tamil final clearance.
 
 ## Assembly readiness
 
-**NOT READY.** Only 9/306 physical scans currently have verified page records.
+**DEFERRED / NOT READY.** Assembly is a Phase-3 activity and must not begin during the current transcription-only phase.
 
 ## Translation readiness
 
-**BLOCKED.** Tamil source layer has not reached final clearance.
+**BLOCKED.** Translation is a Phase-4 activity and Tamil final clearance has not been reached.
 
 ## Exact next activity
 
-Complete the first poem/body item, **`பொது உலகம்`**, beginning at scan **10**. Transcribe and verify scan 10 and its continuation on scan 11 line by line, and inspect scan 12 only as the boundary witness needed to confirm that item 1 has ended before item 2 begins. Do not transcribe item 2 in the same activity.
+Transcribe **scan 10** into `pages/0010.md` from the controlling scan, using Phase-1 status rules, then continue sequentially through subsequent scans. Do not perform the deferred verification, continuity, structural audit or assembly as part of this phase.
