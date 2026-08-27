@@ -30,20 +30,22 @@ Before making any repository change:
 
 1. Read `HANDOVER.md` **completely**.
 2. Read `POEM_PROCESSING_GUIDE.md` **completely**.
-3. Read root `README.md`.
-4. Read this file, `NEXT_CHAT_PROMPT.md`.
-5. Inspect the current repository and confirm whether this work already exists under the same title, an alternate title, another filename, or an existing `poems/<WORK-ID>/` directory.
-6. If the work already exists, **continue it; do not create a duplicate**.
-7. For an existing work, read its available control/state files completely, especially:
+3. Read `TRANSCRIPTION_PHASE_PLAN.md` **completely**.
+4. Read root `README.md`.
+5. Read this file, `NEXT_CHAT_PROMPT.md`.
+6. Inspect the current repository and confirm whether this work already exists under the same title, an alternate title, another filename, or an existing `poems/<WORK-ID>/` directory.
+7. If the work already exists, **continue it; do not create a duplicate**.
+8. For an existing work, read its available control/state files completely, especially:
    - `poems/<WORK-ID>/README.md`
    - `poems/<WORK-ID>/metadata/source.md`
    - `poems/<WORK-ID>/indexes/page-map.md`
    - `poems/<WORK-ID>/audit.md`
    - relevant files under `poems/<WORK-ID>/notes/`
    - all existing page records needed to understand the current activity.
-8. Inspect current GitHub `main` and treat it as authoritative over old SHAs, counts, summaries, or previous-chat claims.
-9. Inspect the attached controlling PDF/source before resuming transcription or verification.
-10. Do not restart completed work merely because this is a new chat.
+9. Inspect current GitHub `main` and treat it as authoritative over old SHAs, counts, summaries, or previous-chat claims.
+10. Inspect the attached controlling PDF/source before resuming work.
+11. Determine the **declared current phase** from live repository documents before acting. Do not perform work assigned to a later phase.
+12. Do not restart completed work merely because this is a new chat.
 
 ## TEXTUAL AUTHORITY
 
@@ -56,6 +58,39 @@ The archival goal is fidelity to the controlling source unless a documented user
 - Later library stamps, handwriting, bleed-through/show-through, and unrelated marks are not edition text.
 - Never invent text from missing physical pages.
 
+## PHASE GATING
+
+When a work is in explicit phased mode, follow `TRANSCRIPTION_PHASE_PLAN.md`.
+
+### Phase 1 — transcription only
+
+- transcribe the controlling scan directly into page records;
+- preserve source spelling, punctuation, lineation, headings, quotation marks and unusual forms;
+- record physical scan number and only visibly printed page numbers;
+- mark genuine uncertainty instead of guessing;
+- newly transcribed pages normally remain `partial`, or `needs-review` for a specific unresolved reading;
+- do **not** mark a page `verified` merely because it has been transcribed once;
+- existing pages genuinely verified before the phase switch remain verified;
+- do not conduct a separate glyph-by-glyph verification pass;
+- do not conduct systematic continuity/page-join or work-wide structural audits;
+- do not assemble canonical Tamil;
+- do not begin translation;
+- do not churn `README.md`, `audit.md`, or `page-map.md` after every small batch unless a milestone, anomaly, or phase change needs documentation.
+
+### Phase 2 — source-critical visual verification
+
+Independently reread and verify every transcribed page against the scan, including old-typeface/glyph endings, punctuation, lineation and documented lexical controls. Only then may pages be promoted to `verified`.
+
+### Phase 3 — structure / completeness / assembly / Tamil final clearance
+
+Complete page mapping, item/work boundaries, joins, completeness review, canonical Tamil assembly and final clearance.
+
+### Phase 4 — translation / release
+
+Begin translation or other derivative/release work only after Tamil final clearance.
+
+Do not advance phases without explicit user authorization or a live repository instruction that clearly records the user's authorization.
+
 ## OLD TAMIL TYPEFACE WARNING
 
 This repository has demonstrated that older Tamil print can be misread even after multiple visual verification passes. High-resolution enlargement alone does not guarantee correctness.
@@ -67,7 +102,9 @@ Known failure classes include:
 3. whole-word substitution caused by recognizing a plausible word silhouette instead of accounting for every printed glyph;
 4. loss or invention of punctuation, dots, hyphens/dashes, quotation marks, separators, and physical line breaks.
 
-Therefore:
+During Phase 1, produce the best source-faithful transcription possible and explicitly mark genuine uncertainty; the independent systematic old-typeface re-audit belongs to Phase 2.
+
+During Phase 2 and later verification work:
 
 - compare **complete lines**, not isolated guessed words;
 - account for every glyph and word ending;
@@ -86,55 +123,29 @@ In that situation:
 - document the reconciliation and supersede earlier incorrect PASS/verification claims;
 - preserve any explicit user-directed editorial omission or treatment and document it without silently restoring the excluded material later.
 
-## PAGE WORKFLOW
-
-For each page being processed or reopened:
-
-1. Establish the correct physical scan page and its role in the work.
-2. Check continuity from the preceding page and into the following page when available.
-3. Transcribe/reconcile the full visible text line by line.
-4. Check every word ending and compact old-type glyph explicitly.
-5. Check punctuation, quotation carry-over, separators such as `★`, lineation, column order, and page boundaries.
-6. Use crops/enlargements for ambiguous regions.
-7. Compare against the existing repository record only after establishing an independent reading/control witness; do not let the existing text anchor the reading.
-8. Correct only source-backed or user-control-backed differences.
-9. Update the page record plus all relevant tracking documents (`page-map.md`, `audit.md`, work `README.md`, and a note when the correction history warrants one).
-10. Do not mark a page/work final-cleared until the required review actually passes.
-
-## WORK-WIDE COMPLETION
-
-Before assembling a Tamil poem from page records:
-
-- every physical page in the confirmed work range must be accounted for or explicitly documented as unavailable;
-- all page records must have completed the required verification/reconciliation;
-- all page joins must be checked;
-- quotation carry-over, separators, punctuation and continuation lines must be reconciled;
-- known user corrections and lexical-control pages must be preserved;
-- any documented editorial omission must remain omitted exactly as directed;
-- `audit.md`, `indexes/page-map.md`, and the work `README.md` must agree on status.
-
-Only after this work-wide audit passes may Tamil assembly be marked ready.
-
-Do **not** begin English translation until the Tamil source text has reached the repository's required final-clearance state.
-
 ## REPOSITORY DISCIPLINE
 
 - Work on `main` unless the user explicitly instructs otherwise.
 - Do not create duplicate work directories or duplicate page records.
-- Keep correction/failure history when it is archivally useful; supersede misleading PASS claims rather than erasing the evidence of why they failed.
+- Keep correction/failure history when archivally useful.
 - Make focused commits with meaningful messages.
-- After each requested activity, report:
-  - exactly what was checked;
-  - exact corrections made;
-  - files changed;
-  - current work status;
-  - commit SHA;
-  - exact next activity.
+- Respect the current phase instead of trying to complete later-phase checks early.
+- After each requested activity, report what was transcribed/changed, files changed, current phase/status, commit SHA, and exact next activity.
 
 ## CURRENT WORK-SPECIFIC CONTINUATION
 
-After completing the mandatory startup, derive the **current exact next activity from live GitHub state** for `poems/<WORK-ID>/` and continue from there. Do not trust a copied previous-chat status if GitHub shows a newer state.
+After startup, derive the exact next activity from live GitHub state.
 
----
+### காலப் பேழையும் கவிதைச் சாவியும்
 
-For `தென்னவன் காதை` specifically, also preserve the existing documented user-directed editorial omission on page 151. Do not restore the excluded caste-based term during audit, assembly, translation, or later cleanup.
+For `poems/kaalap-pezhaiyum-kavithai-saaviyum/`, the current declared phase is **Phase 1 — transcription only**.
+
+- scans 1–9 were genuinely verified before the phase switch and remain verified;
+- scan 10 is the next page to transcribe;
+- from scan 10 onward, create source-faithful page records sequentially and normally keep them `partial` until Phase 2;
+- do not interrupt Phase 1 to perform item-wide verification, page-join audits, assembly, completeness review or translation;
+- continue transcription through the source until Phase 1 is complete or the user changes direction.
+
+### தென்னவன் காதை
+
+For `தென்னவன் காதை`, preserve the existing documented user-directed editorial omission on page 151. Do not restore the excluded caste-based term during audit, assembly, translation, or later cleanup.
