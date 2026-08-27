@@ -8,12 +8,37 @@
 
 மூல PDF repository-யில் commit செய்யப்படாது. மூல wording, punctuation, lineation, பெயர், தேதி, historical spelling ஆகியவற்றை silently normalize செய்யக்கூடாது.
 
+## Phase-separated workflow
+
+Long/book-length sources may be processed in explicit phases. See `TRANSCRIPTION_PHASE_PLAN.md` and `POEM_PROCESSING_GUIDE.md`.
+
+1. **Phase 1 — transcription only:** build page records from the controlling scan; newly transcribed pages are normally `partial` / `needs-review`, not automatically `verified`.
+2. **Phase 2 — source-critical visual verification:** independently reread and verify every transcription against the scan.
+3. **Phase 3 — structure/completeness/assembly:** complete mapping, page joins, work boundaries, canonical Tamil assembly and final clearance.
+4. **Phase 4 — translation/release:** begin only after Tamil final clearance.
+
+A work's live README/HANDOVER declares its current phase. Do not perform later-phase activities early.
+
 ## தற்போதைய படைப்புகள்
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
+| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 1 transcription only; scans 1–9 already verified; scan 10 next** |
+| தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation in progress, currently paused while another work is active** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Restarted from supplied scan; fresh source setup COMPLETE; page verification STARTED** |
+
+## காலப் பேழையும் கவிதைச் சாவியும் — தற்போதைய நிலை
+
+- controlling PDF: **306 physical scans**;
+- scans **1–9**: genuinely verified before the phase switch and remain `verified`;
+- contents: **58/58 entries represented**;
+- current phase: **Phase 1 — transcription only**;
+- next transcription page: **scan 10**;
+- new page records from scan 10 onward: normally `partial` until Phase 2;
+- Phase-2 visual verification, Phase-3 continuity/completeness/assembly, and Phase-4 translation are intentionally deferred.
+
+During this phase, continue source-faithful transcription sequentially rather than pausing after every small batch for full verification or audit work.
 
 ## அணையா விளக்கு அண்ணா — தற்போதைய நிலை
 
@@ -26,4 +51,4 @@
 - Tamil assembly: **PENDING**
 - English translation: **PENDING**
 
-Next work continues source-first under `poems/anaiya-vilakku-anna/`, beginning with the remaining front matter before scan 7 poem transcription.
+When this work is resumed, continue source-first under `poems/anaiya-vilakku-anna/` from its live work documents.
