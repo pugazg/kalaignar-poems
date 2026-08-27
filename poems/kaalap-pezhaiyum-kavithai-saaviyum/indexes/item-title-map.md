@@ -9,8 +9,8 @@ This index preserves the **exact poem/item titles** from the verified contents p
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
 - Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
 - **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 84–108**.
-- Next iteration: **scans 109–133**.
+- Current completed 25-scan iteration: **scans 109–133**.
+- Next iteration: **scans 134–158**.
 
 ## Observed item boundaries so far
 
@@ -36,26 +36,28 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 18 | தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்! | 95 | 96 | 96–98 |
 | 19 | வருந்தத்தக்க வரலாற்று நிகழ்ச்சி! | 98 | 99 | 99–102 |
 | 20 | வீழினும் அவன் வெற்றித் திருமகனே! | 102 | 103 | 103–106 |
-| 21 | பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்! | 106 | 107 | 107–… |
+| 21 | பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்! | 106 | 107 | 107–111 |
+| 22 | பிறகேன் வினா? என்பதே என் வினா! | 111 | 112 | 112–116 |
+| 23 | பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி! | 116 | 117 | 117–119 |
+| 24 | ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்! | 119 | 120 | 120–123 |
+| 25 | கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்! | 123 | 124 | 124–127 |
+| 26 | விழித்தெழுக; இதோ, செம்மொழி விடியல்! | 127 | 128 | 128–131 |
+| 27 | வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்! | 131 | 132 | 132–… |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 21 continues beyond the present iteration.
+The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 27 continues beyond the present iteration.
 
-### Title-page discrepancy to preserve
+### Title-page discrepancies to preserve
 
-- Item 18 is printed in the verified contents as `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`.
-- Its actual numbered title page at scan 96 visibly reads `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`.
-- Do not silently reconcile these witnesses. The title-filename authority for this item must be decided explicitly during the later assembly/boundary phase after source review.
+- **Item 18:** verified contents `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`; numbered title page at scan 96 `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`.
+- **Item 22:** verified contents title is recorded without enclosing quotation marks; numbered title page at scan 112 visibly encloses the full title in quotation marks: `“பிறகேன் வினா? என்பதே என் வினா!”`.
+- **Item 25:** verified contents `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!`; numbered title page at scan 124 visibly reads `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` without the final exclamation mark.
+- **Item 26:** verified contents `விழித்தெழுக; இதோ, செம்மொழி விடியல்!`; numbered title page at scan 128 visibly reads `விழித்தெழுக; இதோ செம்மொழி விடியல்!` without the comma after `இதோ`.
+- Do not silently reconcile these witnesses. Title-filename authority for discrepant items must be decided explicitly during the later assembly/boundary phase after source review.
 
 ## Remaining contents titles — title authority for later tracking
 
 | Item | Exact contents title | Listed start page | Observed title scan |
 |---:|---|---:|---:|
-| 22 | பிறகேன் வினா? என்பதே என் வினா! | 111 | — |
-| 23 | பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி! | 116 | — |
-| 24 | ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்! | 119 | — |
-| 25 | கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்! | 123 | — |
-| 26 | விழித்தெழுக; இதோ, செம்மொழி விடியல்! | 127 | — |
-| 27 | வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்! | 131 | — |
 | 28 | பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்! | 135 | — |
 | 29 | தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று! | 139 | — |
 | 30 | ஆற்றலின் அளவுகோல்; அவன் செங்கோல்! | 144 | — |
