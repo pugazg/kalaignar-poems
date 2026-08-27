@@ -12,10 +12,10 @@ This work was initialized from the supplied controlling scan under the repositor
 - front matter through the blank verso before item 1: **VERIFIED**
 - contents transcription: **58/58 entries VERIFIED**
 - current work mode: **Phase 1 — TRANSCRIPTION ONLY**
-- Phase-1 page records now extend consecutively through **scan 133**
-- most recent 25-scan iteration completed: **scans 109–133**
-- next 25-scan iteration: **scans 134–158**
-- next page to transcribe: **scan 134**
+- Phase-1 page records now extend consecutively through **scan 158**
+- most recent 25-scan iteration completed: **scans 134–158**
+- next 25-scan iteration: **scans 159–183**
+- next page to transcribe: **scan 159**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -28,7 +28,7 @@ Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
 ### What to do now
 
-For each remaining physical scan, beginning with scan 134:
+For each remaining physical scan, beginning with scan 159:
 
 - work in **25-physical-scan iterations**;
 - read the controlling scan directly;
@@ -62,7 +62,10 @@ Known title-witness differences currently include:
 - item 18 — contents `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`; title page `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`;
 - item 22 — contents title without enclosing quotation marks; title page encloses the full title as `“பிறகேன் வினா? என்பதே என் வினா!”`;
 - item 25 — contents has a final `!`; title page at scan 124 visibly has no final exclamation mark;
-- item 26 — contents has `இதோ,`; title page at scan 128 visibly has `இதோ` without the comma.
+- item 26 — contents has `இதோ,`; title page at scan 128 visibly has `இதோ` without the comma;
+- item 29 — contents has `தாயே,`; title page at scan 140 visibly omits the comma after `தாயே`;
+- item 31 — contents has `தாயும்,`; title page at scan 148 visibly omits the comma after `தாயும்`;
+- item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`.
 
 All witnesses are preserved for later reconciliation rather than silently normalized.
 
@@ -102,15 +105,15 @@ Important source-fidelity decisions already established:
 
 ## Current Phase-1 milestone
 
-Page records now exist consecutively through scan 133. The completed scans 109–133 iteration carried transcription across items 21–27:
+Page records now exist consecutively through scan 158. The completed scans 134–158 iteration carried transcription across items 27–33:
 
-- item 21 occupies scans 107–111;
-- item 22 occupies scans 112–116;
-- item 23 occupies scans 117–119;
-- item 24 occupies scans 120–123;
-- item 25 occupies scans 124–127;
-- item 26 occupies scans 128–131;
-- item 27 begins at scan 132 and continues beyond the current iteration.
+- item 27 occupies scans 132–135;
+- item 28 occupies scans 136–139;
+- item 29 occupies scans 140–144;
+- item 30 occupies scans 145–147;
+- item 31 occupies scans 148–151;
+- item 32 occupies scans 152–156;
+- item 33 begins at scan 157 and continues beyond the current iteration.
 
 These are Phase-1 navigation ranges only. The currently observed title/range state and all known contents/title-page discrepancies are maintained in `indexes/item-title-map.md`.
 
@@ -120,10 +123,10 @@ See:
 - `indexes/page-map.md`
 - `indexes/item-title-map.md`
 - `audit.md`
-- `pages/0001.md` through `pages/0133.md`
+- `pages/0001.md` through `pages/0158.md`
 
 ## Exact next activity
 
-Continue **Phase-1 transcription with scans 134–158 as one 25-physical-scan iteration**, beginning at scan 134. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
+Continue **Phase-1 transcription with scans 159–183 as one 25-physical-scan iteration**, beginning at scan 159. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
 
 Phase 1 remains active until the user explicitly advances this work to Phase 2.
