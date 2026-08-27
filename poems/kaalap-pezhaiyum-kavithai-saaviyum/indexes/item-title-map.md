@@ -9,8 +9,8 @@ This index preserves the **exact poem/item titles** from the verified contents p
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
 - Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
 - **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 34–58**.
-- Next iteration: **scans 59–83**.
+- Current completed 25-scan iteration: **scans 59–83**.
+- Next iteration: **scans 84–108**.
 
 ## Observed item boundaries so far
 
@@ -27,18 +27,18 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 9 | உரையாடல் உணர்த்திடும் உண்மை என்ன? | 43 | 44 | 44–49 |
 | 10 | பழந்தமிழர் பன்னாட்டுத் தொடர்பு! | 49 | 50 | 50–53 |
 | 11 | ஆங்காங்கு அடையாள முத்திரைகள்! | 53 | 54 | 54–57 |
-| 12 | வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்! | 57 | 58 | 58–… |
+| 12 | வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்! | 57 | 58 | 58–63 |
+| 13 | காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி! | 63 | 64 | 64–67 |
+| 14 | கனக விஜயர் கல் சுமந்த வரலாறு! | 67 | 68 | 68–77 |
+| 15 | பருகிடலாம் இந்த “ஆரிய” தேநீரை! | 77 | 78 | 78–81 |
+| 16 | சுளையில் ஒன்றியிருக்கும் சுவையாக! | 81 | 82 | 82–… |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 12 continues beyond the present iteration.
+The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 16 continues beyond the present iteration.
 
 ## Remaining contents titles — title authority for later tracking
 
 | Item | Exact contents title | Listed start page | Observed title scan |
 |---:|---|---:|---:|
-| 13 | காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி! | 63 | — |
-| 14 | கனக விஜயர் கல் சுமந்த வரலாறு! | 67 | — |
-| 15 | பருகிடலாம் இந்த “ஆரிய” தேநீரை! | 77 | — |
-| 16 | சுளையில் ஒன்றியிருக்கும் சுவையாக! | 81 | — |
 | 17 | உலக வரலாறு எங்கிருந்து வருவது? | 87 | — |
 | 18 | தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்! | 95 | — |
 | 19 | வருந்தத்தக்க வரலாற்று நிகழ்ச்சி! | 98 | — |
