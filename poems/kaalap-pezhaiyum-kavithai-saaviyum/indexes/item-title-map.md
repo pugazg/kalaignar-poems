@@ -9,12 +9,12 @@ This index preserves the **exact poem/item titles** from the verified contents p
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
 - Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
 - **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 59–83**.
-- Next iteration: **scans 84–108**.
+- Current completed 25-scan iteration: **scans 84–108**.
+- Next iteration: **scans 109–133**.
 
 ## Observed item boundaries so far
 
-| Item | Exact title | Contents start page | Observed title scan | Phase-1 physical range known so far |
+| Item | Exact contents title | Contents start page | Observed title scan | Phase-1 physical range known so far |
 |---:|---|---:|---:|---|
 | 1 | பொது உலகம் | 9 | 10 | 10–11 |
 | 2 | படிமுறை வளர்ச்சி | 11 | 12 | 12–15 |
@@ -31,19 +31,25 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 13 | காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி! | 63 | 64 | 64–67 |
 | 14 | கனக விஜயர் கல் சுமந்த வரலாறு! | 67 | 68 | 68–77 |
 | 15 | பருகிடலாம் இந்த “ஆரிய” தேநீரை! | 77 | 78 | 78–81 |
-| 16 | சுளையில் ஒன்றியிருக்கும் சுவையாக! | 81 | 82 | 82–… |
+| 16 | சுளையில் ஒன்றியிருக்கும் சுவையாக! | 81 | 82 | 82–87 |
+| 17 | உலக வரலாறு எங்கிருந்து வருவது? | 87 | 88 | 88–95 |
+| 18 | தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்! | 95 | 96 | 96–98 |
+| 19 | வருந்தத்தக்க வரலாற்று நிகழ்ச்சி! | 98 | 99 | 99–102 |
+| 20 | வீழினும் அவன் வெற்றித் திருமகனே! | 102 | 103 | 103–106 |
+| 21 | பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்! | 106 | 107 | 107–… |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 16 continues beyond the present iteration.
+The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 21 continues beyond the present iteration.
+
+### Title-page discrepancy to preserve
+
+- Item 18 is printed in the verified contents as `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`.
+- Its actual numbered title page at scan 96 visibly reads `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`.
+- Do not silently reconcile these witnesses. The title-filename authority for this item must be decided explicitly during the later assembly/boundary phase after source review.
 
 ## Remaining contents titles — title authority for later tracking
 
 | Item | Exact contents title | Listed start page | Observed title scan |
 |---:|---|---:|---:|
-| 17 | உலக வரலாறு எங்கிருந்து வருவது? | 87 | — |
-| 18 | தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்! | 95 | — |
-| 19 | வருந்தத்தக்க வரலாற்று நிகழ்ச்சி! | 98 | — |
-| 20 | வீழினும் அவன் வெற்றித் திருமகனே! | 102 | — |
-| 21 | பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்! | 106 | — |
 | 22 | பிறகேன் வினா? என்பதே என் வினா! | 111 | — |
 | 23 | பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி! | 116 | — |
 | 24 | ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்! | 119 | — |
@@ -89,5 +95,6 @@ At each 25-scan iteration:
 1. transcribe all 25 physical scans sequentially;
 2. when a numbered title page appears, copy the title exactly into the page record and update its `Observed title scan` here;
 3. close the previous item's provisional scan range at the preceding physical scan;
-4. do not create title-named assembled poem files yet;
-5. do not certify these ranges as final until Phase 3 boundary/page-join review.
+4. preserve any contents/title-page wording discrepancy explicitly rather than silently choosing one;
+5. do not create title-named assembled poem files yet;
+6. do not certify these ranges as final until Phase 3 boundary/page-join review.
