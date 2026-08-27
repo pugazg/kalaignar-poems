@@ -9,8 +9,8 @@ This index preserves the **exact poem/item titles** from the verified contents p
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
 - Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
 - **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 109–133**.
-- Next iteration: **scans 134–158**.
+- Current completed 25-scan iteration: **scans 134–158**.
+- Next iteration: **scans 159–183**.
 
 ## Observed item boundaries so far
 
@@ -42,9 +42,15 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 24 | ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்! | 119 | 120 | 120–123 |
 | 25 | கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்! | 123 | 124 | 124–127 |
 | 26 | விழித்தெழுக; இதோ, செம்மொழி விடியல்! | 127 | 128 | 128–131 |
-| 27 | வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்! | 131 | 132 | 132–… |
+| 27 | வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்! | 131 | 132 | 132–135 |
+| 28 | பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்! | 135 | 136 | 136–139 |
+| 29 | தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று! | 139 | 140 | 140–144 |
+| 30 | ஆற்றலின் அளவுகோல்; அவன் செங்கோல்! | 144 | 145 | 145–147 |
+| 31 | மாண்பு நிறை தாயும், மாசற்ற மகனும்! | 147 | 148 | 148–151 |
+| 32 | கோவூரார் கேள்வியும் குனிந்திடும் தலையும்! | 151 | 152 | 152–156 |
+| 33 | “செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா? | 156 | 157 | 157–… |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 27 continues beyond the present iteration.
+The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 33 continues beyond the present iteration.
 
 ### Title-page discrepancies to preserve
 
@@ -52,18 +58,15 @@ The ranges above are **Phase-1 navigation observations**, not Phase-3 certified 
 - **Item 22:** verified contents title is recorded without enclosing quotation marks; numbered title page at scan 112 visibly encloses the full title in quotation marks: `“பிறகேன் வினா? என்பதே என் வினா!”`.
 - **Item 25:** verified contents `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!`; numbered title page at scan 124 visibly reads `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` without the final exclamation mark.
 - **Item 26:** verified contents `விழித்தெழுக; இதோ, செம்மொழி விடியல்!`; numbered title page at scan 128 visibly reads `விழித்தெழுக; இதோ செம்மொழி விடியல்!` without the comma after `இதோ`.
+- **Item 29:** verified contents `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!`; numbered title page at scan 140 visibly omits the comma after `தாயே`.
+- **Item 31:** verified contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`; numbered title page at scan 148 visibly omits the comma after `தாயும்`.
+- **Item 32:** verified contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; numbered title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`.
 - Do not silently reconcile these witnesses. Title-filename authority for discrepant items must be decided explicitly during the later assembly/boundary phase after source review.
 
 ## Remaining contents titles — title authority for later tracking
 
 | Item | Exact contents title | Listed start page | Observed title scan |
 |---:|---|---:|---:|
-| 28 | பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்! | 135 | — |
-| 29 | தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று! | 139 | — |
-| 30 | ஆற்றலின் அளவுகோல்; அவன் செங்கோல்! | 144 | — |
-| 31 | மாண்பு நிறை தாயும், மாசற்ற மகனும்! | 147 | — |
-| 32 | கோவூரார் கேள்வியும் குனிந்திடும் தலையும்! | 151 | — |
-| 33 | “செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா? | 156 | — |
 | 34 | மறையவில்லை; மறுமலர்ச்சி பெற்றது! | 160 | — |
 | 35 | உயிரினும் மேலான உயர்ந்த நட்பு! | 166 | — |
 | 36 | இளையவன்; அவன் ஒரு தமிழ் மகன்! | 172 | — |
