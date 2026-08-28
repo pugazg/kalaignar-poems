@@ -4,32 +4,29 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Archival status
 
-This work was initialized from the supplied controlling scan under the repository's source-first policy.
+This work is processed from the supplied controlling scan under the repository's source-first policy.
 
 - controlling source identity/checksum: **COMPLETE**
 - physical scans in controlling PDF: **306**
-- verified page records completed before phase switch: **9/306** — scans **1–9 consecutively**
-- front matter through the blank verso before item 1: **VERIFIED**
 - contents transcription: **58/58 entries VERIFIED**
 - Phase-1 transcription records: **306/306 physical scans represented**
 - numbered item/title pages observed: **58/58**
-- final Phase-1 iteration completed: **scans 284–306**
-- current work mode: **PHASE 1 COMPLETE — awaiting Phase 2 source-critical verification**
+- Phase 1: **COMPLETE**
+- current work mode: **Phase 2 — independent source-critical visual verification**
+- Phase-2 verified range: **scans 1–25 consecutively (25/306)**
+- most recent Phase-2 batch completed: **scans 1–25**
+- next Phase-2 batch: **scans 26–50**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
-## Phase 1 — transcription complete
-
-The user directed Phase 1 to perform **transcription only**. Verification, continuity auditing, structural/completeness certification, assembly and translation were deliberately deferred.
-
 Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
-Page records now exist for every physical scan from `pages/0001.md` through `pages/0306.md`.
+## Phase 1 — transcription complete
 
-### Final source remainder
+Page records exist for every physical scan from `pages/0001.md` through `pages/0306.md`.
 
-The final Phase-1 iteration covered scans **284–306**:
+The final Phase-1 source remainder established these provisional navigation ranges:
 
 - item 55 closes at scan **284**;
 - item 56 `பற்று கடந்தால், பற்றி எரியும் வெறியே!` occupies scans **285–288**;
@@ -42,12 +39,26 @@ Scan 299 visibly closes the numbered work sequence with `(முதல் பா
 
 These are Phase-1 navigation observations only and are **not yet Phase-3-certified item boundaries**.
 
-## Status rule inherited from Phase 1
+## Phase 2 — source-critical visual verification
 
-- scans 1–9 remain `verified` because they were independently verified before the transcription-only phase switch;
-- later pages normally remain `partial` after a single direct visual transcription;
-- pages with specific unresolved glyph/readings remain `needs-review` for Phase 2;
-- no page from the transcription-only pass should be promoted to `verified` merely because it has a page record.
+Phase 2 independently rereads the existing page records against the controlling scan. It checks word endings, compact/old Tamil glyphs, punctuation, lineation, quotation marks, separators, figures, Latin material, proper names and unusual source forms. A page is promoted to `verified` only after this independent pass actually succeeds.
+
+### Phase-2 batch 1 — scans 1–25
+
+**COMPLETE.** Scans **1–25** have now been independently checked against the controlling source.
+
+- scans 1–9 were already verified before the Phase-1 transcription-only switch and were rechecked at the start of Phase 2;
+- scans 10–25 have now been promoted from `partial` / `needs-review` to `verified` after direct visual review;
+- no Phase-3 page-join, final-boundary or assembly work was performed.
+
+Source-backed corrections found in this batch:
+
+1. **scan 3:** `ரகீர் பிரஸ்` → `ஈகில் பிரஸ்`;
+2. **scan 14:** provisional `உரியொன்றை` → scan-proven `உளியொன்றை`;
+3. **scan 17:** `மாளிகை போன்றை` → `மாளிகை யொன்றை`;
+4. **scan 22:** `வாய்ப்பை பெனக்` → `வாய்ப்பை யெனக்`.
+
+The unusual scan-12 form `பத்தரை`, and scan-21 forms including `என்னோ டென்றேன்.` and `அணியாத தேன் ?`, were rechecked and are retained because they are visibly supported by the source.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -70,31 +81,21 @@ The contents and numbered title pages are not silently normalized. Known differe
 
 All witnesses and numbering anomalies remain preserved in `indexes/item-title-map.md` for later source review.
 
-## Source scope
-
-The source is a book-length collection containing **58 separately titled numbered items**. Contents pagination is navigation evidence only and must not be used to fabricate invisible printed numbers.
-
-The final numbered poem ends on printed page 298 / physical scan 299. The six following notes sheets and the back-cover image are also represented as physical scan records so that the source inventory is complete through scan 306.
-
 ## Important source-fidelity decisions already established
 
 - the scan-4 printed form `நிலைபோட்டி` remains exactly as visible;
 - scan 5 has **no visibly printed page number**; an earlier preliminary inference was removed;
 - scans 6 and 7 visibly print page numbers `5` and `6`;
 - contents dot leaders are navigation/layout marks, while title wording and punctuation are preserved;
-- no contents title has been normalized from later headings or outside knowledge;
-- unusual spellings, punctuation, figures, historical names and source anomalies encountered in Phase 1 were retained for later verification rather than silently corrected.
+- no contents title is normalized from later headings or outside knowledge;
+- unusual spellings, punctuation, figures, historical names and source anomalies are retained unless the controlling scan proves a transcription correction.
 
 ## Explicitly deferred phases
 
-**Phase 2:** independent source-critical visual verification, including systematic old-typeface/glyph, punctuation, figures, proper names and flagged `needs-review` readings.
-
-**Phase 3:** complete scan/page mapping reconciliation, item/work boundaries, page joins, completeness audit, separate title-based canonical Tamil poem assembly and final clearance.
+**Phase 3:** complete scan/page mapping reconciliation, item/work boundaries, all page joins, completeness audit, separate title-based canonical Tamil poem assembly and final Tamil clearance.
 
 **Phase 4:** English translation and release work after Tamil final clearance.
 
 ## Exact next activity
 
-Begin **Phase 2 — independent source-critical visual verification** from the beginning of the physical source, using the controlling scan as the highest textual authority. Verify existing Phase-1 records against the scan; do not silently normalize source wording, and do not begin Phase-3 assembly or Phase-4 translation during Phase 2.
-
-Phase 1 is complete for all **306/306 physical scans**.
+Continue **Phase 2 source-critical visual verification with scans 26–50**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
