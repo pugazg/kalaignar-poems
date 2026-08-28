@@ -12,10 +12,10 @@ This work was initialized from the supplied controlling scan under the repositor
 - front matter through the blank verso before item 1: **VERIFIED**
 - contents transcription: **58/58 entries VERIFIED**
 - current work mode: **Phase 1 — TRANSCRIPTION ONLY**
-- Phase-1 page records now extend consecutively through **scan 233**
-- most recent 25-scan iteration completed: **scans 209–233**
-- next 25-scan iteration: **scans 234–258**
-- next page to transcribe: **scan 234**
+- Phase-1 page records now extend consecutively through **scan 258**
+- most recent 25-scan iteration completed: **scans 234–258**
+- next 25-scan iteration: **scans 259–283**
+- next page to transcribe: **scan 259**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -28,7 +28,7 @@ Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
 ### What to do now
 
-For each remaining physical scan, beginning with scan 234:
+For each remaining physical scan, beginning with scan 259:
 
 - work in **25-physical-scan iterations**;
 - read the controlling scan directly;
@@ -69,7 +69,8 @@ Known title-witness differences currently include:
 - item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 visibly reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`, and that same title page visibly prints item number `36` even though it corresponds to contents item 37;
 - item 40 — contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; title page at scan 195 visibly reads `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` without the final exclamation mark;
 - item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; title page at scan 211 visibly reads `இரும்புத் தூணும் ஈக்களின் இறகும்!` without the comma after `தூணும்`;
-- item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; title page at scan 220 visibly reads `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` with a final exclamation mark.
+- item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; title page at scan 220 visibly reads `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` with a final exclamation mark;
+- item 50 — contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; title page at scan 246 visibly reads `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, differing in spacing and punctuation.
 
 All witnesses and numbering anomalies are preserved for later reconciliation rather than silently normalized.
 
@@ -109,15 +110,16 @@ Important source-fidelity decisions already established:
 
 ## Current Phase-1 milestone
 
-Page records now exist consecutively through scan 233. The completed scans 209–233 iteration carried transcription across items 43–47:
+Page records now exist consecutively through scan 258. The completed scans 234–258 iteration carried transcription across items 47–52:
 
-- item 43 occupies scans 207–210;
-- item 44 occupies scans 211–215;
-- item 45 occupies scans 216–219;
-- item 46 occupies scans 220–225;
-- item 47 begins at scan 226 and continues beyond the current iteration.
+- item 47 occupies scans 226–235;
+- item 48 occupies scans 236–240;
+- item 49 occupies scans 241–245;
+- item 50 occupies scans 246–251;
+- item 51 occupies scans 252–256;
+- item 52 begins at scan 257 and continues beyond the current iteration.
 
-Two further title-witness differences were encountered in this iteration: item 44's title page omits the contents comma after `தூணும்`, while item 46's title page adds a final exclamation mark absent from the contents title. Both witnesses are preserved in `indexes/item-title-map.md` for later review.
+A further title-witness difference was encountered in this iteration: item 50's title page reads `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, while the verified contents read `குருதிக் களமே! கொலு மண்டபம் ஆனது!`. Both witnesses are preserved in `indexes/item-title-map.md` for later review.
 
 These are Phase-1 navigation ranges only. The currently observed title/range state and all known contents/title-page discrepancies are maintained in `indexes/item-title-map.md`.
 
@@ -127,10 +129,10 @@ See:
 - `indexes/page-map.md`
 - `indexes/item-title-map.md`
 - `audit.md`
-- `pages/0001.md` through `pages/0233.md`
+- `pages/0001.md` through `pages/0258.md`
 
 ## Exact next activity
 
-Continue **Phase-1 transcription with scans 234–258 as one 25-physical-scan iteration**, beginning at scan 234. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
+Continue **Phase-1 transcription with scans 259–283 as one 25-physical-scan iteration**, beginning at scan 259. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
 
 Phase 1 remains active until the user explicitly advances this work to Phase 2.
