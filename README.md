@@ -23,7 +23,7 @@ A work's live README/HANDOVER declares its current phase. Do not perform later-p
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 1 transcription only; scans 1–9 already verified; scan 10 next** |
+| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 2 source-critical visual verification; scans 1–75 verified consecutively; scans 76–100 next** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation in progress, currently paused while another work is active** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Restarted from supplied scan; fresh source setup COMPLETE; page verification STARTED** |
@@ -31,14 +31,15 @@ A work's live README/HANDOVER declares its current phase. Do not perform later-p
 ## காலப் பேழையும் கவிதைச் சாவியும் — தற்போதைய நிலை
 
 - controlling PDF: **306 physical scans**;
-- scans **1–9**: genuinely verified before the phase switch and remain `verified`;
+- Phase 1 transcription: **306/306 physical scans represented**;
 - contents: **58/58 entries represented**;
-- current phase: **Phase 1 — transcription only**;
-- next transcription page: **scan 10**;
-- new page records from scan 10 onward: normally `partial` until Phase 2;
-- Phase-2 visual verification, Phase-3 continuity/completeness/assembly, and Phase-4 translation are intentionally deferred.
+- current phase: **Phase 2 — independent source-critical visual verification**;
+- verified range: **scans 1–75 consecutively**;
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**;
+- next verification batch: **scans 76–100**;
+- Phase-3 continuity/completeness/assembly and Phase-4 translation remain intentionally deferred.
 
-During this phase, continue source-faithful transcription sequentially rather than pausing after every small batch for full verification or audit work.
+During Phase 2, independently reread each page against the controlling scan and correct only scan-proven discrepancies. Do not promote semantic expectations over visible source evidence.
 
 ## அணையா விளக்கு அண்ணா — தற்போதைய நிலை
 
