@@ -13,9 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–75 consecutively (75/306)**
-- most recent Phase-2 batch completed: **scans 51–75**
-- next Phase-2 batch: **scans 76–100**
+- Phase-2 verified range: **scans 1–100 consecutively (100/306)**
+- most recent Phase-2 batch completed: **scans 76–100**
+- next Phase-2 batch: **scans 101–125**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -71,7 +71,7 @@ Previously flagged compact/source-sensitive readings rechecked and retained incl
 
 ### Phase-2 batch 3 — scans 51–75
 
-**COMPLETE.** Scans **51–75** were independently reread against the controlling source in two controlled sub-batches, **51–63** and **64–75**. The verified range is now consecutive through scan 75.
+**COMPLETE.** Scans **51–75** were independently reread against the controlling source in two controlled sub-batches, **51–63** and **64–75**. The verified range became consecutive through scan 75.
 
 Source-backed textual corrections found in this batch:
 
@@ -91,7 +91,26 @@ Source-backed textual corrections found in this batch:
 
 Source-sensitive forms deliberately retained after visual recheck include scan 52 `மாக்கலத்தில்`, scan 59 `பெருளான்` / `அவர் ஆராய்`, scan 65 `தொலைவடவர்` / `நேடியாட்சியாகவோ` / `ஒருசன்`, scan 66 `புனரதீர்` / `கைப்பா`, scan 71 `அறிந்திலராகிச்` / `துவேன்`, and scan 74 `பொழிவும்` / `சிலதுகள்`.
 
-No Phase-3 page-join, final-boundary or assembly work was performed in any Phase-2 batch.
+### Phase-2 batch 4 — scans 76–100
+
+**COMPLETE.** Scans **76–100** were independently reread against the controlling source. The verified range is now consecutive through scan 100.
+
+Source-backed textual corrections found in this batch:
+
+1. **scan 77:** `மணிக் குலத்தைத்` → `மணிக் குலத்தைக்`;
+2. **scan 78:** `தாற்றிக் சிலர்` → `தூற்றிச் சிலர்`;
+3. **scan 79:** `குரவுக்கோர்` → `குரலுக்கோர்`; `பிடிக்குடன்` → `மிடுக்குடன்`; `வைர வைரமே` → `வைர வைடூர்ய`;
+4. **scan 80:** `எழும்பெடுத்து` → `எலும்பெடுத்து`;
+5. **scan 82:** `தருதியெல்லாம்` → `தகுதியெல்லாம்`;
+6. **scan 83:** `என்னல்ல` → `என்றல்ல`; `வெளியந்த` → `வெளிவந்த`; `பூட்டிப்போடு` → `பூரிப்போடு`; `அந்நூல்மாயின்` → `அங்ஙனமாயின்`;
+7. **scan 84:** `அறிந்தங்கும்` → source-supported compact `அறந்தங்கும்`;
+8. **scan 95:** `சுற்று மாற்றிக்` → `சுற்றி மாற்றிக்`;
+9. **scan 97:** Bharati quotation `சுமர்` → `சமர்`; `எவாதான்` → `எவர்தான்`;
+10. **scan 98:** `இராமச்சந்திர திட்சிதர்` → `இராமச்சந்திர தீட்சிதர்`.
+
+Source-sensitive forms deliberately retained after visual recheck include scan 80 `காபியோ`, scan 82 `முறையாகத்தானிருக்கும்!`, scan 85 `பாராட்டும் பெற்றன`, scan 91 `காற்றுக் கொப்புளங்களைச்`, scan 93 `அமைக்கப்பட்ட முடியாதல்லவா?`, and scan 97 `சுமோர்` / `நிக்கிதோ சிந்தோ`.
+
+No unresolved glyphs remain in scans 76–100. No Phase-3 page-join, final-boundary or assembly work was performed in any Phase-2 batch.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -131,4 +150,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 76–100**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
+Continue **Phase 2 source-critical visual verification with scans 101–125**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
