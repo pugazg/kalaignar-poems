@@ -74,12 +74,13 @@ Current state:
 - controlling PDF: **306 physical scans**;
 - Phase 1 transcription: **306/306 physical scans represented**;
 - numbered item/title pages observed: **58/58**;
-- Phase 2 verified range: **scans 1–75 consecutively**;
-- completed Phase-2 batches: **1–25**, **26–50**, and **51–75**;
+- Phase 2 verified range: **scans 1–100 consecutively**;
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, and **76–100**;
 - scan-proven corrections in batch 1: scan 3 `ஈகில் பிரஸ்`, scan 14 `உளியொன்றை`, scan 17 `மாளிகை யொன்றை`, scan 22 `வாய்ப்பை யெனக்`;
 - scan-proven corrections in batch 2: scan 28 `பேர்`, scan 35 `மனிதக் கனம்`, scan 36 `கால்நடைப்`, scan 41 `இத்தினையையும்`;
 - scan-proven corrections in batch 3 include scan 52 `மனத்துணிவுடைய`, scan 56 `அக்குழந்தை`, scan 61 `கருவிகளை` and the source vocatives `பூவைகாள்` / `புறவங்காள்` / `மயில்காள்` / `மணிக்கிளிகாள்` / `குயில்காள்`, scan 62 `போன்றுவீழ்வது` / `என் மகளாயின்`, scan 67 `ஆயிரம் பேர்`, scan 69 `தீராதி தீர தீன தயாபர`, scan 71 `மாண்டுவிடவில்லை`, scan 72 `மண்டூகே`, scan 73 `அண்ணலே`, and scan 74 `அழும்பில்` / `தோரணங்கற்பட்டு` / `கோட்டைகளிலுள்ள`;
-- source-supported compact forms retained after independent review include scan 29 `ஏழைபாழையிடம்`, scan 31 `எனந்தப்`, scan 35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்`, scan 47 `சளித்தோமா`, scan 52 `மாக்கலத்தில்`, scan 59 `பெருளான்` / `அவர் ஆராய்`, scan 65 `தொலைவடவர்` / `நேடியாட்சியாகவோ` / `ஒருசன்`, scan 66 `புனரதீர்` / `கைப்பா`, scan 71 `அறிந்திலராகிச்` / `துவேன்`, and scan 74 `பொழிவும்` / `சிலதுகள்`;
-- next Phase-2 verification batch: **scans 76–100**.
+- scan-proven corrections in batch 4 include scan 77 `மணிக் குலத்தைக்`, scan 78 `தூற்றிச் சிலர்`, scan 79 `குரலுக்கோர்` / `மிடுக்குடன்` / `வைர வைடூர்ய`, scan 80 `எலும்பெடுத்து`, scan 82 `தகுதியெல்லாம்`, scan 83 `என்றல்ல` / `வெளிவந்த` / `பூரிப்போடு` / `அங்ஙனமாயின்`, scan 84 `அறந்தங்கும்`, scan 95 `சுற்றி மாற்றிக்`, scan 97 `சமர்` / `எவர்தான்`, and scan 98 `இராமச்சந்திர தீட்சிதர்`;
+- source-supported compact forms retained after independent review include scan 29 `ஏழைபாழையிடம்`, scan 31 `எனந்தப்`, scan 35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்`, scan 47 `சளித்தோமா`, scan 52 `மாக்கலத்தில்`, scan 59 `பெருளான்` / `அவர் ஆராய்`, scan 65 `தொலைவடவர்` / `நேடியாட்சியாகவோ` / `ஒருசன்`, scan 66 `புனரதீர்` / `கைப்பா`, scan 71 `அறிந்திலராகிச்` / `துவேன்`, scan 74 `பொழிவும்` / `சிலதுகள்`, scan 80 `காபியோ`, scan 82 `முறையாகத்தானிருக்கும்!`, scan 85 `பாராட்டும் பெற்றன`, scan 91 `காற்றுக் கொப்புளங்களைச்`, scan 93 `அமைக்கப்பட்ட முடியாதல்லவா?`, and scan 97 `சுமோர்` / `நிக்கிதோ சிந்தோ`;
+- next Phase-2 verification batch: **scans 101–125**.
 
 Phase 2 must remain independent visual verification only. Do not begin Phase-3 structure/assembly work or Phase-4 translation until the required later phase transition.
