@@ -9,8 +9,8 @@ This index preserves the **exact poem/item titles** from the verified contents p
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
 - Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
 - **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 159–183**.
-- Next iteration: **scans 184–208**.
+- Current completed 25-scan iteration: **scans 184–208**.
+- Next iteration: **scans 209–233**.
 
 ## Observed item boundaries so far
 
@@ -52,9 +52,15 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 34 | மறையவில்லை; மறுமலர்ச்சி பெற்றது! | 160 | 161 | 161–166 |
 | 35 | உயிரினும் மேலான உயர்ந்த நட்பு! | 166 | 167 | 167–172 |
 | 36 | இளையவன்; அவன் ஒரு தமிழ் மகன்! | 172 | 173 | 173–178 |
-| 37 | அன்பால் அவனை விலை கொள்ள முடியுமா? | 178 | 179 | 179–… |
+| 37 | அன்பால் அவனை விலை கொள்ள முடியுமா? | 178 | 179 | 179–185 |
+| 38 | நன்றியுடையோர் நெஞ்சில் வாழ்வோன்! | 185 | 186 | 186–190 |
+| 39 | தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்! | 190 | 191 | 191–194 |
+| 40 | காஞ்சி மண் காட்டிய கனிவும் கருணையும்! | 194 | 195 | 195–199 |
+| 41 | பாதுகாப்போம்; பல்லவர் தலைநகரம்! | 199 | 200 | 200–203 |
+| 42 | பட்டயங்கள், பறைசாற்றுகின்றன! | 203 | 204 | 204–206 |
+| 43 | திராவிட இனத்தின் தமிழர் மரபு! | 206 | 207 | 207–… |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 37 continues beyond the present iteration.
+The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 43 continues beyond the present iteration.
 
 ### Title-page discrepancies to preserve
 
@@ -66,18 +72,13 @@ The ranges above are **Phase-1 navigation observations**, not Phase-3 certified 
 - **Item 31:** verified contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`; numbered title page at scan 148 visibly omits the comma after `தாயும்`.
 - **Item 32:** verified contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; numbered title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`.
 - **Item 37:** verified contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 visibly reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`. The same title page also visibly prints item number `36`, even though it follows item 36 and corresponds to contents item 37. Preserve both the lexical title difference and the numbering anomaly for later source review.
+- **Item 40:** verified contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; numbered title page at scan 195 visibly reads `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` without the final exclamation mark.
 - Do not silently reconcile these witnesses. Title-filename authority for discrepant items must be decided explicitly during the later assembly/boundary phase after source review.
 
 ## Remaining contents titles — title authority for later tracking
 
 | Item | Exact contents title | Listed start page | Observed title scan |
 |---:|---|---:|---:|
-| 38 | நன்றியுடையோர் நெஞ்சில் வாழ்வோன்! | 185 | — |
-| 39 | தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்! | 190 | — |
-| 40 | காஞ்சி மண் காட்டிய கனிவும் கருணையும்! | 194 | — |
-| 41 | பாதுகாப்போம்; பல்லவர் தலைநகரம்! | 199 | — |
-| 42 | பட்டயங்கள், பறைசாற்றுகின்றன! | 203 | — |
-| 43 | திராவிட இனத்தின் தமிழர் மரபு! | 206 | — |
 | 44 | இரும்புத் தூணும், ஈக்களின் இறகும்! | 210 | — |
 | 45 | தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்! | 215 | — |
 | 46 | முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன் | 219 | — |
