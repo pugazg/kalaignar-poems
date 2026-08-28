@@ -13,9 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–25 consecutively (25/306)**
-- most recent Phase-2 batch completed: **scans 1–25**
-- next Phase-2 batch: **scans 26–50**
+- Phase-2 verified range: **scans 1–50 consecutively (50/306)**
+- most recent Phase-2 batch completed: **scans 26–50**
+- next Phase-2 batch: **scans 51–75**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -45,11 +45,7 @@ Phase 2 independently rereads the existing page records against the controlling 
 
 ### Phase-2 batch 1 — scans 1–25
 
-**COMPLETE.** Scans **1–25** have now been independently checked against the controlling source.
-
-- scans 1–9 were already verified before the Phase-1 transcription-only switch and were rechecked at the start of Phase 2;
-- scans 10–25 have now been promoted from `partial` / `needs-review` to `verified` after direct visual review;
-- no Phase-3 page-join, final-boundary or assembly work was performed.
+**COMPLETE.** Scans **1–25** were independently checked against the controlling source.
 
 Source-backed corrections found in this batch:
 
@@ -58,7 +54,22 @@ Source-backed corrections found in this batch:
 3. **scan 17:** `மாளிகை போன்றை` → `மாளிகை யொன்றை`;
 4. **scan 22:** `வாய்ப்பை பெனக்` → `வாய்ப்பை யெனக்`.
 
-The unusual scan-12 form `பத்தரை`, and scan-21 forms including `என்னோ டென்றேன்.` and `அணியாத தேன் ?`, were rechecked and are retained because they are visibly supported by the source.
+The unusual scan-12 form `பத்தரை`, and scan-21 forms including `என்னோ டென்றேன்.` and `அணியாத தேன் ?`, were rechecked and retained because they are visibly supported by the source.
+
+### Phase-2 batch 2 — scans 26–50
+
+**COMPLETE.** Scans **26–50** have now been independently checked and the verified range is consecutive through scan 50.
+
+Source-backed corrections found in this batch:
+
+1. **scan 28:** `பேரர்` → `பேர்`;
+2. **scan 35:** `மனிதக் கணம்` → `மனிதக் கனம்`;
+3. **scan 36:** `காட்டிடைப்` → `கால்நடைப்`;
+4. **scan 41:** `இந்தினையையும்` → `இத்தினையையும்`.
+
+Previously flagged compact/source-sensitive readings rechecked and retained include scan 29 `ஏழைபாழையிடம்`, scan 31 `எனந்தப்`, the scan-35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்` wording, and scan 47 `சளித்தோமா`.
+
+No Phase-3 page-join, final-boundary or assembly work was performed in either Phase-2 batch.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -98,4 +109,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 26–50**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
+Continue **Phase 2 source-critical visual verification with scans 51–75**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
