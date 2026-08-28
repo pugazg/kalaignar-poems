@@ -9,8 +9,8 @@ This index preserves the **exact poem/item titles** from the verified contents p
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
 - Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
 - **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 209–233**.
-- Next iteration: **scans 234–258**.
+- Current completed 25-scan iteration: **scans 234–258**.
+- Next iteration: **scans 259–283**.
 
 ## Observed item boundaries so far
 
@@ -62,9 +62,14 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 44 | இரும்புத் தூணும், ஈக்களின் இறகும்! | 210 | 211 | 211–215 |
 | 45 | தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்! | 215 | 216 | 216–219 |
 | 46 | முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன் | 219 | 220 | 220–225 |
-| 47 | அந்த வருங்காலமே; அருங்காலமாகும்! | 225 | 226 | 226–… |
+| 47 | அந்த வருங்காலமே; அருங்காலமாகும்! | 225 | 226 | 226–235 |
+| 48 | அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்! | 235 | 236 | 236–240 |
+| 49 | களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்! | 240 | 241 | 241–245 |
+| 50 | குருதிக் களமே! கொலு மண்டபம் ஆனது! | 245 | 246 | 246–251 |
+| 51 | திருமணங்களாலும் வருவதுண்டு திருப்பம்! | 251 | 252 | 252–256 |
+| 52 | படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு! | 256 | 257 | 257–… |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 47 continues beyond the present iteration.
+The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 52 continues beyond the present iteration.
 
 ### Title-page discrepancies to preserve
 
@@ -79,17 +84,13 @@ The ranges above are **Phase-1 navigation observations**, not Phase-3 certified 
 - **Item 40:** verified contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; numbered title page at scan 195 visibly reads `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` without the final exclamation mark.
 - **Item 44:** verified contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; numbered title page at scan 211 visibly reads `இரும்புத் தூணும் ஈக்களின் இறகும்!` without the comma after `தூணும்`.
 - **Item 46:** verified contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; numbered title page at scan 220 visibly reads `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` with a final exclamation mark.
+- **Item 50:** verified contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; numbered title page at scan 246 visibly reads `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, differing in both spacing and punctuation.
 - Do not silently reconcile these witnesses. Title-filename authority for discrepant items must be decided explicitly during the later assembly/boundary phase after source review.
 
 ## Remaining contents titles — title authority for later tracking
 
 | Item | Exact contents title | Listed start page | Observed title scan |
 |---:|---|---:|---:|
-| 48 | அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்! | 235 | — |
-| 49 | களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்! | 240 | — |
-| 50 | குருதிக் களமே! கொலு மண்டபம் ஆனது! | 245 | — |
-| 51 | திருமணங்களாலும் வருவதுண்டு திருப்பம்! | 251 | — |
-| 52 | படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு! | 256 | — |
 | 53 | கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது! | 262 | — |
 | 54 | தலையாலங்கானத்துச் செரு வென்றான்! | 270 | — |
 | 55 | நெடுஞ்செழியனும் நெடுநல்வாடையும்! | 276 | — |
