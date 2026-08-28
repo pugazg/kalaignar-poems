@@ -13,9 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–50 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**
-- next Phase-2 batch: **scans 51–75**
+- Phase-2 verified range: **scans 1–75 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**
+- next Phase-2 batch: **scans 76–100**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -63,6 +63,37 @@ Source-sensitive readings independently rechecked and retained include:
 - scan 35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்`;
 - scan 47 `சளித்தோமா`.
 
+## Phase-2 batch 3 — scans 51–75
+
+Result: **PASS through scan 75**.
+
+The batch was executed as two controlled visual-verification sub-batches, **51–63** and **64–75**, while preserving one consecutive Phase-2 milestone.
+
+Scan-proven corrections applied:
+
+- scan 52: `மனக்கணிவுடைய` → `மனத்துணிவுடைய`;
+- scan 56: `அகக்குழந்தை` → `அக்குழந்தை`;
+- scan 61: `கருவிதனை` → `கருவிகளை`; bird vocatives corrected to `பூவைகாள்`, `புறவங்காள்`, `மயில்காள்`, `மணிக்கிளிகாள்`, `குயில்காள்`;
+- scan 62: `போன்றுயிர்வது` → `போன்றுவீழ்வது`; `என் மகனாயின்` → `என் மகளாயின்`;
+- scan 63: source-visible spacing restored in `“யாயும் ஞாயும் யாராகியரோ ?”`;
+- scan 67: `ஆயிரம் போர்` → `ஆயிரம் பேர்`;
+- scan 69: `தீராதி தீர தீர தையபர` → `தீராதி தீர தீன தயாபர`;
+- scan 70: source-visible spaces before dialogue `?` restored;
+- scan 71: `மாணுவிடவில்லை` → `மாண்டுவிடவில்லை`; source-visible `ஏன் ?` spacing restored;
+- scan 72: `மண்டகே` → `மண்டூகே`;
+- scan 73: `அணணலே` → `அண்ணலே`;
+- scan 74: `அமும்பில்` → `அழும்பில்`; `தோரோனங் கற்றுப்` → `தோரணங்கற்பட்டு`; `கோடைகளிலுள்ள` → `கோட்டைகளிலுள்ள`;
+- scan 75: opening-parenthesis spacing restored and ellipsis counts after `கனக விஜயர்கள்` / `புதுமையல்ல` corrected to four dots.
+
+Source-sensitive readings independently rechecked and retained include:
+
+- scan 52 `மாக்கலத்தில்`;
+- scan 59 `பெருளான்` / `அவர் ஆராய்`;
+- scan 65 `தொலைவடவர்` / `நேடியாட்சியாகவோ` / `ஒருசன்`;
+- scan 66 `புனரதீர்` / `கைப்பா`;
+- scan 71 `அறிந்திலராகிச்` / `துவேன்`;
+- scan 74 `பொழிவும்` / `சிலதுகள்`.
+
 No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
@@ -94,4 +125,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 51–75** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
+Independently verify **scans 76–100** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
