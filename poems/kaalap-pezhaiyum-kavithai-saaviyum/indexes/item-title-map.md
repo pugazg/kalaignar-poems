@@ -1,20 +1,20 @@
 # Item / title map — காலப் பேழையும் கவிதைச் சாவியும்
 
-This index preserves the **exact poem/item titles** from the verified contents pages and tracks the physical title-page scans as Phase-1 transcription advances.
+This index preserves the **exact poem/item titles** from the verified contents pages and tracks the physical title-page scans observed during Phase 1.
 
 ## Governing rule
 
 - Each numbered item is a separate poem/work unit even though transcription is stored page-by-page during Phase 1.
 - During the later assembly phase, each poem must be saved separately using its **own title as the filename basis**. Do not collapse the 58 items into one undifferentiated assembled poem.
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
-- Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
-- **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 259–283**.
-- Next iteration: **scans 284–306 (final 23 physical scans)**.
+- Exact filesystem-safe filename treatment is deferred to the assembly phase; this index preserves both contents and title-page witnesses.
+- **Phase-1 iteration size:** normally 25 physical scans; the final remainder was 23 scans.
+- **Phase 1 transcription is complete through all 306 physical scans.**
+- Final Phase-1 iteration completed: **scans 284–306**.
 
-## Observed item boundaries so far
+## Observed item boundaries after Phase 1
 
-| Item | Exact contents title | Contents start page | Observed title scan | Phase-1 physical range known so far |
+| Item | Exact contents title | Contents start page | Observed title scan | Phase-1 physical range |
 |---:|---|---:|---:|---|
 | 1 | பொது உலகம் | 9 | 10 | 10–11 |
 | 2 | படிமுறை வளர்ச்சி | 11 | 12 | 12–15 |
@@ -70,42 +70,32 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 52 | படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு! | 256 | 257 | 257–262 |
 | 53 | கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது! | 262 | 263 | 263–270 |
 | 54 | தலையாலங்கானத்துச் செரு வென்றான்! | 270 | 271 | 271–276 |
-| 55 | நெடுஞ்செழியனும் நெடுநல்வாடையும்! | 276 | 277 | 277–… |
+| 55 | நெடுஞ்செழியனும் நெடுநல்வாடையும்! | 276 | 277 | 277–284 |
+| 56 | பற்று கடந்தால், பற்றி எரியும் வெறியே! | 284 | 285 | 285–288 |
+| 57 | உவமை அழகுக்கு உரிய பரிசு என்னவாம்! | 288 | 289 | 289–295 |
+| 58 | பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம் | 295 | 296 | 296–299 |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 55 continues beyond the present iteration.
+These ranges are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Scans **300–305** are blank `குறிப்புகள்` notes pages; scan **306** is the image-only back cover.
 
 ### Title-page discrepancies to preserve
 
-- **Item 18:** verified contents `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`; numbered title page at scan 96 `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`.
-- **Item 22:** verified contents title is recorded without enclosing quotation marks; numbered title page at scan 112 visibly encloses the full title in quotation marks: `“பிறகேன் வினா? என்பதே என் வினா!”`.
-- **Item 25:** verified contents `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!`; numbered title page at scan 124 visibly reads `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` without the final exclamation mark.
-- **Item 26:** verified contents `விழித்தெழுக; இதோ, செம்மொழி விடியல்!`; numbered title page at scan 128 visibly reads `விழித்தெழுக; இதோ செம்மொழி விடியல்!` without the comma after `இதோ`.
-- **Item 29:** verified contents `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!`; numbered title page at scan 140 visibly omits the comma after `தாயே`.
-- **Item 31:** verified contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`; numbered title page at scan 148 visibly omits the comma after `தாயும்`.
-- **Item 32:** verified contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; numbered title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`.
-- **Item 37:** verified contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 visibly reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`. The same title page also visibly prints item number `36`, even though it follows item 36 and corresponds to contents item 37. Preserve both the lexical title difference and the numbering anomaly for later source review.
-- **Item 40:** verified contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; numbered title page at scan 195 visibly reads `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` without the final exclamation mark.
-- **Item 44:** verified contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; numbered title page at scan 211 visibly reads `இரும்புத் தூணும் ஈக்களின் இறகும்!` without the comma after `தூணும்`.
-- **Item 46:** verified contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; numbered title page at scan 220 visibly reads `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` with a final exclamation mark.
-- **Item 50:** verified contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; numbered title page at scan 246 visibly reads `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, differing in both spacing and punctuation.
-- **Item 54:** verified contents `தலையாலங்கானத்துச் செரு வென்றான்!`; numbered title page at scan 271 visibly reads `தலையாலங்கானத்துச் செருவென்றான்!`, joining `செரு` and `வென்றான்`.
-- Do not silently reconcile these witnesses. Title-filename authority for discrepant items must be decided explicitly during the later assembly/boundary phase after source review.
+- **Item 18:** verified contents `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`; title page at scan 96 `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`.
+- **Item 22:** verified contents title has no enclosing quotation marks; title page at scan 112 encloses the full title as `“பிறகேன் வினா? என்பதே என் வினா!”`.
+- **Item 25:** verified contents `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!`; title page at scan 124 has no final `!`.
+- **Item 26:** verified contents `விழித்தெழுக; இதோ, செம்மொழி விடியல்!`; title page at scan 128 has `இதோ` without the comma.
+- **Item 29:** verified contents has `தாயே,`; title page at scan 140 omits the comma after `தாயே`.
+- **Item 31:** verified contents has `தாயும்,`; title page at scan 148 omits the comma after `தாயும்`.
+- **Item 32:** verified contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title page at scan 152 reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`.
+- **Item 37:** verified contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`. The same title page visibly prints item number `36` even though it corresponds to contents item 37.
+- **Item 40:** verified contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; title page at scan 195 omits the final `!`.
+- **Item 44:** verified contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; title page at scan 211 omits the comma after `தூணும்`.
+- **Item 46:** verified contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; title page at scan 220 adds a final `!`.
+- **Item 50:** verified contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; title page at scan 246 reads `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, differing in spacing and punctuation.
+- **Item 54:** verified contents `தலையாலங்கானத்துச் செரு வென்றான்!`; title page at scan 271 reads `தலையாலங்கானத்துச் செருவென்றான்!`, joining `செரு` and `வென்றான்`.
+- **Item 58:** verified contents `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`; title page at scan 296 reads `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!`, joining `பகை` + `வாள்` and adding a final `!`.
 
-## Remaining contents titles — title authority for later tracking
+Do not silently reconcile these witnesses. Title-filename authority for discrepant items must be decided explicitly during the later assembly/boundary phase after source review.
 
-| Item | Exact contents title | Listed start page | Observed title scan |
-|---:|---|---:|---:|
-| 56 | பற்று கடந்தால், பற்றி எரியும் வெறியே! | 284 | — |
-| 57 | உவமை அழகுக்கு உரிய பரிசு என்னவாம்! | 288 | — |
-| 58 | பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம் | 295 | — |
+## Phase transition rule
 
-## Update rule during Phase 1
-
-At each 25-scan iteration:
-
-1. transcribe all 25 physical scans sequentially;
-2. when a numbered title page appears, copy the title exactly into the page record and update its `Observed title scan` here;
-3. close the previous item's provisional scan range at the preceding physical scan;
-4. preserve any contents/title-page wording discrepancy explicitly rather than silently choosing one;
-5. do not create title-named assembled poem files yet;
-6. do not certify these ranges as final until Phase 3 boundary/page-join review.
+Phase 1 transcription is now complete. The next phase, when explicitly authorized, is **Phase 2 independent source-critical visual verification**. Do not treat these Phase-1 ranges or readings as final certification, and do not begin Phase-3 assembly or Phase-4 translation as part of Phase 2.
