@@ -12,10 +12,10 @@ This work was initialized from the supplied controlling scan under the repositor
 - front matter through the blank verso before item 1: **VERIFIED**
 - contents transcription: **58/58 entries VERIFIED**
 - current work mode: **Phase 1 — TRANSCRIPTION ONLY**
-- Phase-1 page records now extend consecutively through **scan 208**
-- most recent 25-scan iteration completed: **scans 184–208**
-- next 25-scan iteration: **scans 209–233**
-- next page to transcribe: **scan 209**
+- Phase-1 page records now extend consecutively through **scan 233**
+- most recent 25-scan iteration completed: **scans 209–233**
+- next 25-scan iteration: **scans 234–258**
+- next page to transcribe: **scan 234**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -28,7 +28,7 @@ Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
 ### What to do now
 
-For each remaining physical scan, beginning with scan 209:
+For each remaining physical scan, beginning with scan 234:
 
 - work in **25-physical-scan iterations**;
 - read the controlling scan directly;
@@ -67,7 +67,9 @@ Known title-witness differences currently include:
 - item 31 — contents has `தாயும்,`; title page at scan 148 visibly omits the comma after `தாயும்`;
 - item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`;
 - item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 visibly reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`, and that same title page visibly prints item number `36` even though it corresponds to contents item 37;
-- item 40 — contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; title page at scan 195 visibly reads `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` without the final exclamation mark.
+- item 40 — contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; title page at scan 195 visibly reads `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` without the final exclamation mark;
+- item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; title page at scan 211 visibly reads `இரும்புத் தூணும் ஈக்களின் இறகும்!` without the comma after `தூணும்`;
+- item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; title page at scan 220 visibly reads `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` with a final exclamation mark.
 
 All witnesses and numbering anomalies are preserved for later reconciliation rather than silently normalized.
 
@@ -107,17 +109,15 @@ Important source-fidelity decisions already established:
 
 ## Current Phase-1 milestone
 
-Page records now exist consecutively through scan 208. The completed scans 184–208 iteration carried transcription across items 37–43:
+Page records now exist consecutively through scan 233. The completed scans 209–233 iteration carried transcription across items 43–47:
 
-- item 37 occupies scans 179–185;
-- item 38 occupies scans 186–190;
-- item 39 occupies scans 191–194;
-- item 40 occupies scans 195–199;
-- item 41 occupies scans 200–203;
-- item 42 occupies scans 204–206;
-- item 43 begins at scan 207 and continues beyond the current iteration.
+- item 43 occupies scans 207–210;
+- item 44 occupies scans 211–215;
+- item 45 occupies scans 216–219;
+- item 46 occupies scans 220–225;
+- item 47 begins at scan 226 and continues beyond the current iteration.
 
-The scan-179 item-number anomaly remains preserved. A further title-witness difference was encountered at scan 195: the item-40 title page omits the final exclamation mark that appears in the verified contents title. Both facts are recorded in `indexes/item-title-map.md` for later review.
+Two further title-witness differences were encountered in this iteration: item 44's title page omits the contents comma after `தூணும்`, while item 46's title page adds a final exclamation mark absent from the contents title. Both witnesses are preserved in `indexes/item-title-map.md` for later review.
 
 These are Phase-1 navigation ranges only. The currently observed title/range state and all known contents/title-page discrepancies are maintained in `indexes/item-title-map.md`.
 
@@ -127,10 +127,10 @@ See:
 - `indexes/page-map.md`
 - `indexes/item-title-map.md`
 - `audit.md`
-- `pages/0001.md` through `pages/0208.md`
+- `pages/0001.md` through `pages/0233.md`
 
 ## Exact next activity
 
-Continue **Phase-1 transcription with scans 209–233 as one 25-physical-scan iteration**, beginning at scan 209. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
+Continue **Phase-1 transcription with scans 234–258 as one 25-physical-scan iteration**, beginning at scan 234. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
 
 Phase 1 remains active until the user explicitly advances this work to Phase 2.
