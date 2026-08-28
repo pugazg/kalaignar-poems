@@ -11,127 +11,90 @@ This work was initialized from the supplied controlling scan under the repositor
 - verified page records completed before phase switch: **9/306** — scans **1–9 consecutively**
 - front matter through the blank verso before item 1: **VERIFIED**
 - contents transcription: **58/58 entries VERIFIED**
-- current work mode: **Phase 1 — TRANSCRIPTION ONLY**
-- Phase-1 page records now extend consecutively through **scan 283**
-- most recent 25-scan iteration completed: **scans 259–283**
-- next and final Phase-1 iteration: **scans 284–306 (23 physical scans)**
-- next page to transcribe: **scan 284**
+- Phase-1 transcription records: **306/306 physical scans represented**
+- numbered item/title pages observed: **58/58**
+- final Phase-1 iteration completed: **scans 284–306**
+- current work mode: **PHASE 1 COMPLETE — awaiting Phase 2 source-critical verification**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
-## Current phase — Phase 1: transcription only
+## Phase 1 — transcription complete
 
-The user explicitly directed that this phase should **only transcribe the source**. Verification, continuity auditing, structural/completeness review, assembly and translation will be handled in later phases.
+The user directed Phase 1 to perform **transcription only**. Verification, continuity auditing, structural/completeness certification, assembly and translation were deliberately deferred.
 
 Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
-### What to do now
+Page records now exist for every physical scan from `pages/0001.md` through `pages/0306.md`.
 
-For each remaining physical scan, beginning with scan 284:
+### Final source remainder
 
-- work in **25-physical-scan iterations**; the final source remainder is 23 physical scans;
-- read the controlling scan directly;
-- transcribe visible edition text into `pages/NNNN.md`;
-- preserve spelling, punctuation, headings, quotation marks, lineation and unusual printed forms;
-- record the physical scan number and any visibly printed page number;
-- exclude later stamps, handwriting and show-through from edition text;
-- record genuine uncertainty explicitly instead of guessing;
-- when a numbered poem title appears, preserve it exactly and update `indexes/item-title-map.md` so the poem can later be assembled into its own title-based file.
+The final Phase-1 iteration covered scans **284–306**:
 
-### Status rule during Phase 1
+- item 55 closes at scan **284**;
+- item 56 `பற்று கடந்தால், பற்றி எரியும் வெறியே!` occupies scans **285–288**;
+- item 57 `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` occupies scans **289–295**;
+- item 58 occupies scans **296–299**;
+- scans **300–305** are blank `குறிப்புகள்` notes pages carrying only the printed heading and rule;
+- scan **306** is the image-only back cover with no independently printed textual content.
 
-- newly transcribed pages from scan 10 onward should normally use `status: partial`;
-- use `needs-review` when a specific unresolved reading requires attention;
-- do **not** assign `verified` merely because a page has been transcribed once;
-- scans 1–9 were genuinely verified before this phase switch and remain `verified`.
+Scan 299 visibly closes the numbered work sequence with `(முதல் பாகம் முற்றிற்று)`.
 
-### Poem-title / later filename rule
+These are Phase-1 navigation observations only and are **not yet Phase-3-certified item boundaries**.
 
-The book contains **58 separately titled numbered items**. During Phase 1 the text remains stored page-by-page, but every observed title page and provisional item range is tracked in `indexes/item-title-map.md`.
+## Status rule inherited from Phase 1
 
-During the later assembly phase:
+- scans 1–9 remain `verified` because they were independently verified before the transcription-only phase switch;
+- later pages normally remain `partial` after a single direct visual transcription;
+- pages with specific unresolved glyph/readings remain `needs-review` for Phase 2;
+- no page from the transcription-only pass should be promoted to `verified` merely because it has a page record.
 
-- each numbered poem/item must be assembled separately;
-- its own title witness must be resolved explicitly when contents wording and the actual title page differ;
-- title spelling and punctuation must not be silently normalized;
-- physical ranges recorded during Phase 1 remain provisional until the Phase-3 page-join/boundary review.
+## Title-witness differences preserved for later reconciliation
 
-Known title-witness differences currently include:
+The contents and numbered title pages are not silently normalized. Known differences include:
 
 - item 18 — contents `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`; title page `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`;
-- item 22 — contents title without enclosing quotation marks; title page encloses the full title as `“பிறகேன் வினா? என்பதே என் வினா!”`;
-- item 25 — contents has a final `!`; title page at scan 124 visibly has no final exclamation mark;
-- item 26 — contents has `இதோ,`; title page at scan 128 visibly has `இதோ` without the comma;
-- item 29 — contents has `தாயே,`; title page at scan 140 visibly omits the comma after `தாயே`;
-- item 31 — contents has `தாயும்,`; title page at scan 148 visibly omits the comma after `தாயும்`;
-- item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`;
-- item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 visibly reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`, and that same title page visibly prints item number `36` even though it corresponds to contents item 37;
-- item 40 — contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`; title page at scan 195 visibly reads `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` without the final exclamation mark;
-- item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; title page at scan 211 visibly reads `இரும்புத் தூணும் ஈக்களின் இறகும்!` without the comma after `தூணும்`;
-- item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; title page at scan 220 visibly reads `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` with a final exclamation mark;
-- item 50 — contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; title page at scan 246 visibly reads `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, differing in spacing and punctuation;
-- item 54 — contents `தலையாலங்கானத்துச் செரு வென்றான்!`; title page at scan 271 visibly reads `தலையாலங்கானத்துச் செருவென்றான்!`, joining `செரு` and `வென்றான்`.
+- item 22 — contents title without enclosing quotation marks; title page `“பிறகேன் வினா? என்பதே என் வினா!”`;
+- item 25 — contents has final `!`; title page at scan 124 does not;
+- item 26 — contents has `இதோ,`; title page at scan 128 has `இதோ` without comma;
+- item 29 — contents has `தாயே,`; title page at scan 140 omits the comma;
+- item 31 — contents has `தாயும்,`; title page at scan 148 omits the comma;
+- item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title page `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`;
+- item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page `அன்பால் அவனை விலைகொள்ள முடியுமோ?`; the same title page visibly prints item number `36`;
+- item 40 — contents has final `!`; title page at scan 195 omits it;
+- item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; title page omits the comma after `தூணும்`;
+- item 46 — contents has no final `!`; title page at scan 220 adds one;
+- item 50 — contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; title page `குருதிக்களமே; கொலு மண்டபம் ஆனது!`;
+- item 54 — contents `தலையாலங்கானத்துச் செரு வென்றான்!`; title page `தலையாலங்கானத்துச் செருவென்றான்!`;
+- item 58 — contents `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`; title page at scan 296 `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!`.
 
-All witnesses and numbering anomalies are preserved for later reconciliation rather than silently normalized.
-
-### Explicitly deferred until later phases
-
-**Phase 2:** independent source-critical visual verification, including systematic old-typeface/glyph and punctuation checking.
-
-**Phase 3:** complete scan/page mapping reconciliation, item/work boundaries, page joins, completeness audit, separate title-based canonical Tamil poem assembly and final clearance.
-
-**Phase 4:** English translation and release work.
-
-During Phase 1, do not pause after each small transcription batch to perform those deferred activities. Routine updates to `README.md`, `audit.md`, and `indexes/page-map.md` should be milestone-based rather than repeated after every batch unless a source anomaly or phase-status change needs documentation.
+All witnesses and numbering anomalies remain preserved in `indexes/item-title-map.md` for later source review.
 
 ## Source scope
 
-The source is a book-length collection rather than a single short poem. The contents pages visibly enumerate **58 items**, with the first item beginning on listed page 9 and the final listed item beginning on listed page 295. Contents pagination is navigation evidence only and must not be used to fabricate invisible printed numbers.
+The source is a book-length collection containing **58 separately titled numbered items**. Contents pagination is navigation evidence only and must not be used to fabricate invisible printed numbers.
 
-## Work already completed before the phase switch
+The final numbered poem ends on printed page 298 / physical scan 299. The six following notes sheets and the back-cover image are also represented as physical scan records so that the source inventory is complete through scan 306.
 
-Verified page records exist for scans 1–9:
-
-- scan 1 — front cover;
-- scan 2 — title page;
-- scan 3 — publication details;
-- scan 4 — introductory note;
-- scans 5–7 — complete 58-item contents list;
-- scan 8 — unnumbered work/title display;
-- scan 9 — blank verso / reverse-side show-through, with no independently printed edition text.
-
-Important source-fidelity decisions already established:
+## Important source-fidelity decisions already established
 
 - the scan-4 printed form `நிலைபோட்டி` remains exactly as visible;
-- scan 5 has **no visibly printed page number**; an earlier preliminary inference of printed page `4` was removed;
+- scan 5 has **no visibly printed page number**; an earlier preliminary inference was removed;
 - scans 6 and 7 visibly print page numbers `5` and `6`;
 - contents dot leaders are navigation/layout marks, while title wording and punctuation are preserved;
-- no contents title has been normalized from later headings or outside knowledge.
+- no contents title has been normalized from later headings or outside knowledge;
+- unusual spellings, punctuation, figures, historical names and source anomalies encountered in Phase 1 were retained for later verification rather than silently corrected.
 
-## Current Phase-1 milestone
+## Explicitly deferred phases
 
-Page records now exist consecutively through scan 283. The completed scans 259–283 iteration carried transcription across items 52–55:
+**Phase 2:** independent source-critical visual verification, including systematic old-typeface/glyph, punctuation, figures, proper names and flagged `needs-review` readings.
 
-- item 52 occupies scans 257–262;
-- item 53 occupies scans 263–270;
-- item 54 occupies scans 271–276;
-- item 55 begins at scan 277 and continues beyond the current iteration.
+**Phase 3:** complete scan/page mapping reconciliation, item/work boundaries, page joins, completeness audit, separate title-based canonical Tamil poem assembly and final clearance.
 
-A further title-witness difference was encountered in this iteration: item 54's title page reads `தலையாலங்கானத்துச் செருவென்றான்!`, while the verified contents read `தலையாலங்கானத்துச் செரு வென்றான்!`. Both witnesses are preserved in `indexes/item-title-map.md` for later review.
-
-These are Phase-1 navigation ranges only. The currently observed title/range state and all known contents/title-page discrepancies are maintained in `indexes/item-title-map.md`.
-
-See:
-
-- `metadata/source.md`
-- `indexes/page-map.md`
-- `indexes/item-title-map.md`
-- `audit.md`
-- `pages/0001.md` through `pages/0283.md`
+**Phase 4:** English translation and release work after Tamil final clearance.
 
 ## Exact next activity
 
-Continue **Phase-1 transcription with scans 284–306 as the final 23-physical-scan iteration**, beginning at scan 284. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
+Begin **Phase 2 — independent source-critical visual verification** from the beginning of the physical source, using the controlling scan as the highest textual authority. Verify existing Phase-1 records against the scan; do not silently normalize source wording, and do not begin Phase-3 assembly or Phase-4 translation during Phase 2.
 
-Phase 1 remains active until the user explicitly advances this work to Phase 2.
+Phase 1 is complete for all **306/306 physical scans**.
