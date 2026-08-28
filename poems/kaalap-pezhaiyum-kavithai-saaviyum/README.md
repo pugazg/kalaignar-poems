@@ -13,9 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–50 consecutively (50/306)**
-- most recent Phase-2 batch completed: **scans 26–50**
-- next Phase-2 batch: **scans 51–75**
+- Phase-2 verified range: **scans 1–75 consecutively (75/306)**
+- most recent Phase-2 batch completed: **scans 51–75**
+- next Phase-2 batch: **scans 76–100**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -58,7 +58,7 @@ The unusual scan-12 form `பத்தரை`, and scan-21 forms including `எ�
 
 ### Phase-2 batch 2 — scans 26–50
 
-**COMPLETE.** Scans **26–50** have now been independently checked and the verified range is consecutive through scan 50.
+**COMPLETE.** Scans **26–50** were independently checked and the verified range became consecutive through scan 50.
 
 Source-backed corrections found in this batch:
 
@@ -69,7 +69,29 @@ Source-backed corrections found in this batch:
 
 Previously flagged compact/source-sensitive readings rechecked and retained include scan 29 `ஏழைபாழையிடம்`, scan 31 `எனந்தப்`, the scan-35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்` wording, and scan 47 `சளித்தோமா`.
 
-No Phase-3 page-join, final-boundary or assembly work was performed in either Phase-2 batch.
+### Phase-2 batch 3 — scans 51–75
+
+**COMPLETE.** Scans **51–75** were independently reread against the controlling source in two controlled sub-batches, **51–63** and **64–75**. The verified range is now consecutive through scan 75.
+
+Source-backed textual corrections found in this batch:
+
+1. **scan 52:** `மனக்கணிவுடைய` → `மனத்துணிவுடைய`;
+2. **scan 56:** `அகக்குழந்தை` → `அக்குழந்தை`;
+3. **scan 61:** `கருவிதனை` → `கருவிகளை`; vocative bird forms corrected to source-supported `பூவைகாள்`, `புறவங்காள்`, `மயில்காள்`, `மணிக்கிளிகாள்`, `குயில்காள்`;
+4. **scan 62:** `போன்றுயிர்வது` → `போன்றுவீழ்வது`; `என் மகனாயின்` → `என் மகளாயின்`;
+5. **scan 63:** source-visible spacing restored in `“யாயும் ஞாயும் யாராகியரோ ?”`;
+6. **scan 67:** `ஆயிரம் போர்` → `ஆயிரம் பேர்`;
+7. **scan 69:** `தீராதி தீர தீர தையபர` → `தீராதி தீர தீன தயாபர`;
+8. **scan 70:** source-visible spaces before dialogue question marks restored;
+9. **scan 71:** `மாணுவிடவில்லை` → `மாண்டுவிடவில்லை`, with source-visible `ஏன் ?` spacing restored;
+10. **scan 72:** `மண்டகே` → `மண்டூகே`;
+11. **scan 73:** `அணணலே` → `அண்ணலே`;
+12. **scan 74:** `அமும்பில்` → `அழும்பில்`; `தோரோனங் கற்றுப்` → `தோரணங்கற்பட்டு`; `கோடைகளிலுள்ள` → `கோட்டைகளிலுள்ள`;
+13. **scan 75:** source-visible spacing after the opening parenthesis restored and ellipsis counts after `கனக விஜயர்கள்` / `புதுமையல்ல` corrected to four dots.
+
+Source-sensitive forms deliberately retained after visual recheck include scan 52 `மாக்கலத்தில்`, scan 59 `பெருளான்` / `அவர் ஆராய்`, scan 65 `தொலைவடவர்` / `நேடியாட்சியாகவோ` / `ஒருசன்`, scan 66 `புனரதீர்` / `கைப்பா`, scan 71 `அறிந்திலராகிச்` / `துவேன்`, and scan 74 `பொழிவும்` / `சிலதுகள்`.
+
+No Phase-3 page-join, final-boundary or assembly work was performed in any Phase-2 batch.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -109,4 +131,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 51–75**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
+Continue **Phase 2 source-critical visual verification with scans 76–100**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
