@@ -67,14 +67,18 @@ Translation/release follows the existing voice-fidelity and editorial-review rul
 
 ## Current application — காலப் பேழையும் கவிதைச் சாவியும்
 
-`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is currently in **Phase 1 — transcription only**.
+`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is currently in **Phase 2 — source-critical visual verification**.
 
-Existing state at the phase switch:
+Current state:
 
 - controlling PDF: **306 physical scans**;
-- scans **1–9** already have genuinely verified records from work completed before the phase switch and remain `verified`;
-- scan **10** is the next page to transcribe;
-- new page records from scan 10 onward should remain `partial` / `needs-review` until Phase 2;
-- the Phase 1 objective is to continue sequentially through the remaining source and build the transcription layer without performing the deferred verification, continuity, assembly or translation activities.
+- Phase 1 transcription: **306/306 physical scans represented**;
+- numbered item/title pages observed: **58/58**;
+- Phase 2 verified range: **scans 1–25 consecutively**;
+- scans 1–9 were already verified before the Phase-1 transcription-only switch and were rechecked at Phase-2 startup;
+- scans 10–25 have now passed independent source-critical verification and were promoted to `verified`;
+- scan-proven corrections in the first Phase-2 batch include scan 3 `ஈகில் பிரஸ்`, scan 14 `உளியொன்றை`, scan 17 `மாளிகை யொன்றை`, and scan 22 `வாய்ப்பை யெனக்`;
+- unusual source-supported forms such as scan 12 `பத்தரை` and scan 21 `என்னோ டென்றேன்.` / `அணியாத தேன் ?` remain preserved rather than normalized;
+- next Phase-2 verification batch: **scans 26–50**.
 
-This phase remains active until the user explicitly advances the work to Phase 2.
+Phase 2 must remain independent visual verification only. Do not begin Phase-3 structure/assembly work or Phase-4 translation until the required later phase transition.
