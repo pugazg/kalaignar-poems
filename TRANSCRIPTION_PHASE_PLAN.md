@@ -74,15 +74,16 @@ Current state:
 - controlling PDF: **306 physical scans**;
 - Phase 1 transcription: **306/306 physical scans represented**;
 - numbered item/title pages observed: **58/58**;
-- Phase 2 verified range: **scans 1–125 consecutively**;
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, and **101–125**;
+- Phase 2 verified range: **scans 1–150 consecutively**;
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, and **126–150**;
 - scan-proven corrections in batch 1: scan 3 `ஈகில் பிரஸ்`, scan 14 `உளியொன்றை`, scan 17 `மாளிகை யொன்றை`, scan 22 `வாய்ப்பை யெனக்`;
 - scan-proven corrections in batch 2: scan 28 `பேர்`, scan 35 `மனிதக் கனம்`, scan 36 `கால்நடைப்`, scan 41 `இத்தினையையும்`;
 - scan-proven corrections in batch 3 include scan 52 `மனத்துணிவுடைய`, scan 56 `அக்குழந்தை`, scan 61 `கருவிகளை` and the source vocatives `பூவைகாள்` / `புறவங்காள்` / `மயில்காள்` / `மணிக்கிளிகாள்` / `குயில்காள்`, scan 62 `போன்றுவீழ்வது` / `என் மகளாயின்`, scan 67 `ஆயிரம் பேர்`, scan 69 `தீராதி தீர தீன தயாபர`, scan 71 `மாண்டுவிடவில்லை`, scan 72 `மண்டூகே`, scan 73 `அண்ணலே`, and scan 74 `அழும்பில்` / `தோரணங்கற்பட்டு` / `கோட்டைகளிலுள்ள`;
 - scan-proven corrections in batch 4 include scan 77 `மணிக் குலத்தைக்`, scan 78 `தூற்றிச் சிலர்`, scan 79 `குரலுக்கோர்` / `மிடுக்குடன்` / `வைர வைடூர்ய`, scan 80 `எலும்பெடுத்து`, scan 82 `தகுதியெல்லாம்`, scan 83 `என்றல்ல` / `வெளிவந்த` / `பூரிப்போடு` / `அங்ஙனமாயின்`, scan 84 `அறந்தங்கும்`, scan 95 `சுற்றி மாற்றிக்`, scan 97 `சமர்` / `எவர்தான்`, and scan 98 `இராமச்சந்திர தீட்சிதர்`;
 - scan-proven corrections in batch 5 include scan 109 `அனல் வீழ்` with source-visible five-dot ellipsis, scan 113/114 numeric `எண்பது`, scan 121 `பொன்னை அனைத்தையும்`, and scan 122 `கொண்டாந்து` / `கச்சிதமாக`;
-- source-supported compact forms retained after independent review include scan 29 `ஏழைபாழையிடம்`, scan 31 `எனந்தப்`, scan 35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்`, scan 47 `சளித்தோமா`, scan 52 `மாக்கலத்தில்`, scan 59 `பெருளான்` / `அவர் ஆராய்`, scan 65 `தொலைவடவர்` / `நேடியாட்சியாகவோ` / `ஒருசன்`, scan 66 `புனரதீர்` / `கைப்பா`, scan 71 `அறிந்திலராகிச்` / `துவேன்`, scan 74 `பொழிவும்` / `சிலதுகள்`, scan 80 `காபியோ`, scan 82 `முறையாகத்தானிருக்கும்!`, scan 85 `பாராட்டும் பெற்றன`, scan 91 `காற்றுக் கொப்புளங்களைச்`, scan 93 `அமைக்கப்பட்ட முடியாதல்லவா?`, scan 97 `சுமோர்` / `நிக்கிதோ சிந்தோ`, scan 104 `வடித்தகள்`, scan 107 `கொண்ட கொண்டலாம் சோழன்`, scan 109 `துரத்தியம்` / `அவனாகக்`, scan 115 `உவைத்து`, scan 116 `கார்முற்றும்`, scan 118 `குன்றிரண்டை` / `கனதனங்கள்`, and scan 120 `குவிந்துவரை`;
-- unresolved readings through scan 125: **none**;
-- next Phase-2 verification batch: **scans 126–150**.
+- scan-proven corrections in batch 6 include scan 126 `வாணியது` / `தூமப்பணிகளாக`, scan 128 `எலும்புகளைப்`, scan 130 `அன்னையொருத்தி` / `பாட்டுமார்`, and scan 147 `எடுத்தனன்` / `முரசமொன்று` / `தணித்துக் கொள்வோம்`;
+- source-supported compact forms retained after independent review include scan 29 `ஏழைபாழையிடம்`, scan 31 `எனந்தப்`, scan 35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்`, scan 47 `சளித்தோமா`, scan 52 `மாக்கலத்தில்`, scan 59 `பெருளான்` / `அவர் ஆராய்`, scan 65 `தொலைவடவர்` / `நேடியாட்சியாகவோ` / `ஒருசன்`, scan 66 `புனரதீர்` / `கைப்பா`, scan 71 `அறிந்திலராகிச்` / `துவேன்`, scan 74 `பொழிவும்` / `சிலதுகள்`, scan 80 `காபியோ`, scan 82 `முறையாகத்தானிருக்கும்!`, scan 85 `பாராட்டும் பெற்றன`, scan 91 `காற்றுக் கொப்புளங்களைச்`, scan 93 `அமைக்கப்பட்ட முடியாதல்லவா?`, scan 97 `சுமோர்` / `நிக்கிதோ சிந்தோ`, scan 104 `வடித்தகள்`, scan 107 `கொண்ட கொண்டலாம் சோழன்`, scan 109 `துரத்தியம்` / `அவனாகக்`, scan 115 `உவைத்து`, scan 116 `கார்முற்றும்`, scan 118 `குன்றிரண்டை` / `கனதனங்கள்`, scan 120 `குவிந்துவரை`, scan 129 `தமிழ்ச்சியர்`, scan 130 `பத்தரை மாற்றுப் பொன்னெனத்`, scan 132 `அஷ்டமாசித்தி`, scan 134 `கலாம் விளைக்கும்`, scan 136 `சாகிரப்`, scan 137 `குருக்கர்` / `ஆரப்பா` / `மொகஞ்சதாரோ` / `அசுரா`, scan 138 `காந்திரதோவ்` / `ஒனசு` / `எரிது`, scan 145 `அய்வரும்` / `அழுந்தார்`, scan 146 `வணங்கி பேற்றிட`, scan 149 `வாணிக்க` / `இதயமா`, and scan 150 `தாதரவென`;
+- unresolved readings through scan 150: **none**;
+- next Phase-2 verification batch: **scans 151–175**.
 
 Phase 2 must remain independent visual verification only. Do not begin Phase-3 structure/assembly work or Phase-4 translation until the required later phase transition.
