@@ -2,38 +2,53 @@
 
 ## Current phase
 
-**Phase 1 — TRANSCRIPTION ONLY.**
+**Phase 2 — SOURCE-CRITICAL VISUAL VERIFICATION.**
 
-The user explicitly directed that the current phase should build the transcription layer first. Source-critical verification, systematic continuity/page-join review, structural/completeness audit, canonical Tamil assembly and translation are deferred to later phases.
+Phase 1 transcription is complete for all **306/306 physical scans**. The active task is now an independent reread of each page against the controlling scan. Phase 3 structure/completeness/assembly and Phase 4 translation remain deferred.
 
 Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 
-## State at the phase switch
+## Current verification state
 
 - physical scans in controlling PDF: **306**
-- scans inspected for identity/opening structure: **10**
-- genuinely verified page records completed before phase switch: **9**
-- verified range: **scans 1–9 consecutively**
-- next Phase-1 transcription page: **scan 10**
+- Phase-1 page records represented: **306/306**
+- numbered item/title pages observed: **58/58**
+- Phase-2 verified range: **scans 1–25 consecutively**
+- next Phase-2 batch: **scans 26–50**
 
-The nine already verified records remain verified. New scan-10+ pages should normally remain `partial`, or `needs-review` for a specific unresolved reading, until Phase 2.
+Scans 1–9 had already been genuinely verified before the transcription-only phase switch and were rechecked at Phase-2 startup. Scans 10–25 were independently reread against the controlling source and promoted from `partial` / `needs-review` to `verified` only after passing that review.
 
-## Phase-1 rules
+## Phase-2 verification rules
 
-During the current phase:
+For each scan:
 
-1. transcribe each physical scan directly from the controlling source;
-2. preserve source spelling, punctuation, headings, lineation, quotation marks and unusual forms;
-3. record visible printed page numbers only;
-4. exclude later stamps/handwriting/show-through from edition text;
-5. record genuine uncertainty rather than guessing;
-6. create the sequential page record;
-7. do **not** run a separate glyph-by-glyph verification pass;
-8. do **not** conduct systematic page-join/continuity or item-boundary audits;
-9. do **not** conduct work-wide completeness review;
-10. do **not** assemble canonical Tamil or begin translation.
+1. independently reread the page against the controlling scan;
+2. check every word ending and compact/old Tamil glyph;
+3. check punctuation, lineation, quotation marks, separators, English/Latin text, figures and proper names;
+4. use enlarged crops or other non-destructive image views when needed;
+5. preserve source anomalies and unusual printed forms rather than normalizing by meaning;
+6. correct only source-backed discrepancies;
+7. promote the page to `verified` only after the independent visual review actually passes;
+8. do **not** begin systematic page-join/boundary certification, canonical Tamil assembly or translation during Phase 2.
 
-Control documents are updated at milestones/anomalies/phase changes rather than after every small transcription batch.
+## First Phase-2 batch — scans 1–25
+
+Result: **PASS through scan 25**.
+
+Scan-proven corrections applied:
+
+- scan 3: `ரகீர் பிரஸ்` → `ஈகில் பிரஸ்`;
+- scan 14: `உரியொன்றை` → `உளியொன்றை`;
+- scan 17: `மாளிகை போன்றை` → `மாளிகை யொன்றை`;
+- scan 22: `வாய்ப்பை பெனக்` → `வாய்ப்பை யெனக்`.
+
+Source-supported unusual forms deliberately retained after independent recheck include:
+
+- scan 4 `நிலைபோட்டி`;
+- scan 12 `பத்தரை`;
+- scan 21 `என்னோ டென்றேன்.` and `அணியாத தேன் ?`.
+
+No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
 
@@ -42,50 +57,9 @@ Control documents are updated at milestones/anomalies/phase changes rather than 
 - source PDF excluded from repository: **PASS**
 - title/author verified from scan: **PASS**
 - publication details recorded from visible preliminaries: **PASS**
-
-## Work completed before Phase 1 was declared
-
-### Scans 1–4
-
-Direct visual verification was completed for:
-
-1. scan 1 — colour front cover;
-2. scan 2 — title page, excluding later library stamp/handwriting from edition text;
-3. scan 3 — publication details / price / printer line;
-4. scan 4 — introductory note signed `மு. க.`.
-
-The scan-4 source form `நிலைபோட்டி` is preserved exactly as printed and has not been silently normalized.
-
-### Scans 5–7 — contents
-
-All three contents pages were transcribed and verified before the phase switch:
-
-- scan 5 — items **1–19**;
-- scan 6 — items **20–43**, visible printed page `5`;
-- scan 7 — items **44–58**, visible printed page `6`.
-
-Result:
-
-- contents items accounted for: **58/58**;
-- listed starting-page numbers captured: **58/58**;
-- contents page records: **3/3 verified**;
-- no OCR wording imported.
-
-The preliminary scan-5 printed-page inference `4` was removed because no printed number is visibly present on that scan.
-
-### Scan 8
-
-Verified as an unnumbered work/display page containing the title and author line, with no poem/body text.
-
-### Scan 9
-
-Resolved and verified as a blank verso dominated by reverse-side/show-through, with no independently printed edition text and no visibly printed page number.
+- contents entries accounted for: **58/58**
 
 ## Deferred audits
-
-### Phase 2 — source-critical visual verification
-
-Deferred until Phase 1 transcription is complete. This will independently check scan-10+ transcriptions for glyphs, word endings, punctuation, lineation, old-typeface failure classes and lexical-control corrections.
 
 ### Phase 3 — structure/completeness/assembly
 
@@ -97,12 +71,12 @@ Blocked until Tamil final clearance.
 
 ## Assembly readiness
 
-**DEFERRED / NOT READY.** Assembly is a Phase-3 activity and must not begin during the current transcription-only phase.
+**DEFERRED / NOT READY.** Assembly remains a Phase-3 activity.
 
 ## Translation readiness
 
-**BLOCKED.** Translation is a Phase-4 activity and Tamil final clearance has not been reached.
+**BLOCKED.** Translation remains a Phase-4 activity and Tamil final clearance has not been reached.
 
 ## Exact next activity
 
-Transcribe **scan 10** into `pages/0010.md` from the controlling scan, using Phase-1 status rules, then continue sequentially through subsequent scans. Do not perform the deferred verification, continuity, structural audit or assembly as part of this phase.
+Independently verify **scans 26–50** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
