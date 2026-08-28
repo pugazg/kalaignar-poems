@@ -12,10 +12,10 @@ This work was initialized from the supplied controlling scan under the repositor
 - front matter through the blank verso before item 1: **VERIFIED**
 - contents transcription: **58/58 entries VERIFIED**
 - current work mode: **Phase 1 — TRANSCRIPTION ONLY**
-- Phase-1 page records now extend consecutively through **scan 158**
-- most recent 25-scan iteration completed: **scans 134–158**
-- next 25-scan iteration: **scans 159–183**
-- next page to transcribe: **scan 159**
+- Phase-1 page records now extend consecutively through **scan 183**
+- most recent 25-scan iteration completed: **scans 159–183**
+- next 25-scan iteration: **scans 184–208**
+- next page to transcribe: **scan 184**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -28,7 +28,7 @@ Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
 ### What to do now
 
-For each remaining physical scan, beginning with scan 159:
+For each remaining physical scan, beginning with scan 184:
 
 - work in **25-physical-scan iterations**;
 - read the controlling scan directly;
@@ -65,9 +65,10 @@ Known title-witness differences currently include:
 - item 26 — contents has `இதோ,`; title page at scan 128 visibly has `இதோ` without the comma;
 - item 29 — contents has `தாயே,`; title page at scan 140 visibly omits the comma after `தாயே`;
 - item 31 — contents has `தாயும்,`; title page at scan 148 visibly omits the comma after `தாயும்`;
-- item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`.
+- item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`;
+- item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 visibly reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`, and that same title page visibly prints item number `36` even though it corresponds to contents item 37.
 
-All witnesses are preserved for later reconciliation rather than silently normalized.
+All witnesses and numbering anomalies are preserved for later reconciliation rather than silently normalized.
 
 ### Explicitly deferred until later phases
 
@@ -105,15 +106,15 @@ Important source-fidelity decisions already established:
 
 ## Current Phase-1 milestone
 
-Page records now exist consecutively through scan 158. The completed scans 134–158 iteration carried transcription across items 27–33:
+Page records now exist consecutively through scan 183. The completed scans 159–183 iteration carried transcription across items 33–37:
 
-- item 27 occupies scans 132–135;
-- item 28 occupies scans 136–139;
-- item 29 occupies scans 140–144;
-- item 30 occupies scans 145–147;
-- item 31 occupies scans 148–151;
-- item 32 occupies scans 152–156;
-- item 33 begins at scan 157 and continues beyond the current iteration.
+- item 33 occupies scans 157–160;
+- item 34 occupies scans 161–166;
+- item 35 occupies scans 167–172;
+- item 36 occupies scans 173–178;
+- item 37 begins at scan 179 and continues beyond the current iteration.
+
+A source anomaly was encountered at scan 179: the title page corresponds to contents item 37 but visibly repeats item number `36`. Its title wording also differs from the contents witness. Both facts are preserved in `indexes/item-title-map.md` for later review.
 
 These are Phase-1 navigation ranges only. The currently observed title/range state and all known contents/title-page discrepancies are maintained in `indexes/item-title-map.md`.
 
@@ -123,10 +124,10 @@ See:
 - `indexes/page-map.md`
 - `indexes/item-title-map.md`
 - `audit.md`
-- `pages/0001.md` through `pages/0158.md`
+- `pages/0001.md` through `pages/0183.md`
 
 ## Exact next activity
 
-Continue **Phase-1 transcription with scans 159–183 as one 25-physical-scan iteration**, beginning at scan 159. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
+Continue **Phase-1 transcription with scans 184–208 as one 25-physical-scan iteration**, beginning at scan 184. Track every new numbered poem title encountered in `indexes/item-title-map.md`. Do not perform the deferred Phase-2 verification or Phase-3 page-join/item-boundary audit as part of the same activity.
 
 Phase 1 remains active until the user explicitly advances this work to Phase 2.
