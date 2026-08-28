@@ -13,9 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–125 consecutively (125/306)**
-- most recent Phase-2 batch completed: **scans 101–125**
-- next Phase-2 batch: **scans 126–150**
+- Phase-2 verified range: **scans 1–150 consecutively (150/306)**
+- most recent Phase-2 batch completed: **scans 126–150**
+- next Phase-2 batch: **scans 151–175**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -112,7 +112,7 @@ Source-sensitive forms deliberately retained after visual recheck include scan 8
 
 ### Phase-2 batch 5 — scans 101–125
 
-**COMPLETE.** Scans **101–125** were independently reread against the controlling source. The verified range is now consecutive through scan 125.
+**COMPLETE.** Scans **101–125** were independently reread against the controlling source. The verified range became consecutive through scan 125.
 
 Source-backed textual corrections found in this batch:
 
@@ -124,7 +124,22 @@ Source-backed textual corrections found in this batch:
 
 Source-sensitive forms independently rechecked and retained include scan 104 `வடித்தகள்`, scan 107 `கொண்ட கொண்டலாம் சோழன்`, scan 109 `துரத்தியம்` / `அவனாகக்`, scan 115 `உவைத்து`, scan 116 `கார்முற்றும்`, scan 118 `குன்றிரண்டை` / `கனதனங்கள்`, and scan 120 `குவிந்துவரை`.
 
-No unresolved glyphs remain in scans 101–125. No Phase-3 page-join, final-boundary or assembly work was performed in any Phase-2 batch.
+No unresolved glyphs remain in scans 101–125.
+
+### Phase-2 batch 6 — scans 126–150
+
+**COMPLETE.** Scans **126–150** were independently reread against the controlling source. The verified range is now consecutive through scan 150.
+
+Source-backed textual corrections found in this batch:
+
+1. **scan 126:** `வாணிப்பது` → `வாணியது`; source spacing restored in `தூமப்பணிகளாக`;
+2. **scan 128:** `எழும்புகளைப்` → `எலும்புகளைப்`;
+3. **scan 130:** source spacing restored in `அன்னையொருத்தி`; `பாட்டுமர்` → `பாட்டுமார்`;
+4. **scan 147:** `எடுத்ததன்` → `எடுத்தனன்`; `முரசொன்று` → `முரசமொன்று`; `தனித்துக் கொள்வோம்` → `தணித்துக் கொள்வோம்`.
+
+Source-sensitive forms independently rechecked and retained include scan 129 `தமிழ்ச்சியர்`, scan 130 `பத்தரை மாற்றுப் பொன்னெனத்`, scan 131 poet-name forms including `நல் வெள்ளியார்` / `ஊண்பித்தையார்`, scan 132 `அஷ்டமாசித்தி`, scan 134 `கலாம் விளைக்கும்`, scan 136 `சாகிரப்`, scan 137 `குருக்கர்` / `ஆரப்பா` / `மொகஞ்சதாரோ` / `அசுரா`, scan 138 `காந்திரதோவ்` / `ஒனசு` / `எரிது`, scan 145 `அய்வரும்` / `அழுந்தார்`, scan 146 `வணங்கி பேற்றிட`, scan 149 `வாணிக்க` / `இதயமா`, and scan 150 `தாதரவென`.
+
+No unresolved glyphs remain in scans 126–150. No Phase-3 page-join, final-boundary or assembly work was performed in any Phase-2 batch.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -164,4 +179,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 126–150**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
+Continue **Phase 2 source-critical visual verification with scans 151–175**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
