@@ -13,9 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–125 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**
-- next Phase-2 batch: **scans 126–150**
+- Phase-2 verified range: **scans 1–150 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**
+- next Phase-2 batch: **scans 151–175**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -119,6 +119,21 @@ Source-sensitive readings independently rechecked and retained include scan 104 
 
 Unresolved readings in scans 101–125: **none**.
 
+## Phase-2 batch 6 — scans 126–150
+
+Result: **PASS through scan 150**.
+
+Scan-proven corrections applied:
+
+- scan 126: `வாணிப்பது` → `வாணியது`; source spacing restored in `தூமப்பணிகளாக`;
+- scan 128: `எழும்புகளைப்` → `எலும்புகளைப்`;
+- scan 130: source spacing restored in `அன்னையொருத்தி`; `பாட்டுமர்` → `பாட்டுமார்`;
+- scan 147: `எடுத்ததன்` → `எடுத்தனன்`; `முரசொன்று` → `முரசமொன்று`; `தனித்துக் கொள்வோம்` → `தணித்துக் கொள்வோம்`.
+
+Source-sensitive readings independently rechecked and retained include scan 129 `தமிழ்ச்சியர்`, scan 130 `பத்தரை மாற்றுப் பொன்னெனத்`, scan 131 poet-name forms including `நல் வெள்ளியார்` / `ஊண்பித்தையார்`, scan 132 `அஷ்டமாசித்தி`, scan 134 `கலாம் விளைக்கும்`, scan 136 `சாகிரப்`, scan 137 `குருக்கர்` / `ஆரப்பா` / `மொகஞ்சதாரோ` / `அசுரா`, scan 138 `காந்திரதோவ்` / `ஒனசு` / `எரிது`, scan 145 `அய்வரும்` / `அழுந்தார்`, scan 146 `வணங்கி பேற்றிட`, scan 149 `வாணிக்க` / `இதயமா`, and scan 150 `தாதரவென`.
+
+Unresolved readings in scans 126–150: **none**.
+
 No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
@@ -150,4 +165,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 126–150** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
+Independently verify **scans 151–175** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
