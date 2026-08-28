@@ -74,11 +74,11 @@ Current state:
 - controlling PDF: **306 physical scans**;
 - Phase 1 transcription: **306/306 physical scans represented**;
 - numbered item/title pages observed: **58/58**;
-- Phase 2 verified range: **scans 1–25 consecutively**;
-- scans 1–9 were already verified before the Phase-1 transcription-only switch and were rechecked at Phase-2 startup;
-- scans 10–25 have now passed independent source-critical verification and were promoted to `verified`;
-- scan-proven corrections in the first Phase-2 batch include scan 3 `ஈகில் பிரஸ்`, scan 14 `உளியொன்றை`, scan 17 `மாளிகை யொன்றை`, and scan 22 `வாய்ப்பை யெனக்`;
-- unusual source-supported forms such as scan 12 `பத்தரை` and scan 21 `என்னோ டென்றேன்.` / `அணியாத தேன் ?` remain preserved rather than normalized;
-- next Phase-2 verification batch: **scans 26–50**.
+- Phase 2 verified range: **scans 1–50 consecutively**;
+- completed Phase-2 batches: **1–25** and **26–50**;
+- scan-proven corrections in batch 1: scan 3 `ஈகில் பிரஸ்`, scan 14 `உளியொன்றை`, scan 17 `மாளிகை யொன்றை`, scan 22 `வாய்ப்பை யெனக்`;
+- scan-proven corrections in batch 2: scan 28 `பேர்`, scan 35 `மனிதக் கனம்`, scan 36 `கால்நடைப்`, scan 41 `இத்தினையையும்`;
+- source-supported compact forms retained after independent review include scan 29 `ஏழைபாழையிடம்`, scan 31 `எனந்தப்`, scan 35 `மரத்தின் அழுத்தமான வேர்` / `மண்டூகே மனிதன்`, and scan 47 `சளித்தோமா`;
+- next Phase-2 verification batch: **scans 51–75**.
 
 Phase 2 must remain independent visual verification only. Do not begin Phase-3 structure/assembly work or Phase-4 translation until the required later phase transition.
