@@ -9,8 +9,8 @@ This index preserves the **exact poem/item titles** from the verified contents p
 - Do not normalize title spelling or punctuation when deriving the later title-named file.
 - Exact filesystem-safe filename treatment is deferred to the assembly phase; this index is the title authority.
 - **Phase-1 iteration size: 25 physical scans per iteration.**
-- Current completed 25-scan iteration: **scans 134–158**.
-- Next iteration: **scans 159–183**.
+- Current completed 25-scan iteration: **scans 159–183**.
+- Next iteration: **scans 184–208**.
 
 ## Observed item boundaries so far
 
@@ -48,9 +48,13 @@ This index preserves the **exact poem/item titles** from the verified contents p
 | 30 | ஆற்றலின் அளவுகோல்; அவன் செங்கோல்! | 144 | 145 | 145–147 |
 | 31 | மாண்பு நிறை தாயும், மாசற்ற மகனும்! | 147 | 148 | 148–151 |
 | 32 | கோவூரார் கேள்வியும் குனிந்திடும் தலையும்! | 151 | 152 | 152–156 |
-| 33 | “செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா? | 156 | 157 | 157–… |
+| 33 | “செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா? | 156 | 157 | 157–160 |
+| 34 | மறையவில்லை; மறுமலர்ச்சி பெற்றது! | 160 | 161 | 161–166 |
+| 35 | உயிரினும் மேலான உயர்ந்த நட்பு! | 166 | 167 | 167–172 |
+| 36 | இளையவன்; அவன் ஒரு தமிழ் மகன்! | 172 | 173 | 173–178 |
+| 37 | அன்பால் அவனை விலை கொள்ள முடியுமா? | 178 | 179 | 179–… |
 
-The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 33 continues beyond the present iteration.
+The ranges above are **Phase-1 navigation observations**, not Phase-3 certified boundary results. Item 37 continues beyond the present iteration.
 
 ### Title-page discrepancies to preserve
 
@@ -61,16 +65,13 @@ The ranges above are **Phase-1 navigation observations**, not Phase-3 certified 
 - **Item 29:** verified contents `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!`; numbered title page at scan 140 visibly omits the comma after `தாயே`.
 - **Item 31:** verified contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`; numbered title page at scan 148 visibly omits the comma after `தாயும்`.
 - **Item 32:** verified contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; numbered title page at scan 152 visibly reads `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`.
+- **Item 37:** verified contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page at scan 179 visibly reads `அன்பால் அவனை விலைகொள்ள முடியுமோ?`. The same title page also visibly prints item number `36`, even though it follows item 36 and corresponds to contents item 37. Preserve both the lexical title difference and the numbering anomaly for later source review.
 - Do not silently reconcile these witnesses. Title-filename authority for discrepant items must be decided explicitly during the later assembly/boundary phase after source review.
 
 ## Remaining contents titles — title authority for later tracking
 
 | Item | Exact contents title | Listed start page | Observed title scan |
 |---:|---|---:|---:|
-| 34 | மறையவில்லை; மறுமலர்ச்சி பெற்றது! | 160 | — |
-| 35 | உயிரினும் மேலான உயர்ந்த நட்பு! | 166 | — |
-| 36 | இளையவன்; அவன் ஒரு தமிழ் மகன்! | 172 | — |
-| 37 | அன்பால் அவனை விலை கொள்ள முடியுமா? | 178 | — |
 | 38 | நன்றியுடையோர் நெஞ்சில் வாழ்வோன்! | 185 | — |
 | 39 | தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்! | 190 | — |
 | 40 | காஞ்சி மண் காட்டிய கனிவும் கருணையும்! | 194 | — |
