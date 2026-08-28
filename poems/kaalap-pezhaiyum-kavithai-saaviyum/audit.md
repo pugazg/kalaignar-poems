@@ -13,9 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–100 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**
-- next Phase-2 batch: **scans 101–125**
+- Phase-2 verified range: **scans 1–125 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**
+- next Phase-2 batch: **scans 126–150**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -103,6 +103,22 @@ Source-sensitive readings independently rechecked and retained include scan 80 `
 
 Unresolved readings in scans 76–100: **none**.
 
+## Phase-2 batch 5 — scans 101–125
+
+Result: **PASS through scan 125**.
+
+Scan-proven corrections applied:
+
+- scan 109: `அனால் வீழ்` → `அனல் வீழ்`; source-visible five-dot ellipsis restored before `அனல்`;
+- scan 113: both numeric-context `என்பது` readings → `எண்பது`;
+- scan 114: both numeric-context `என்பது` readings → `எண்பது`;
+- scan 121: `பொன்னை அணைத்தையும்` → `பொன்னை அனைத்தையும்`;
+- scan 122: `கொண்டந்து` → `கொண்டாந்து`; `குச்சிதமாக` → `கச்சிதமாக`.
+
+Source-sensitive readings independently rechecked and retained include scan 104 `வடித்தகள்`, scan 107 `கொண்ட கொண்டலாம் சோழன்`, scan 109 `துரத்தியம்` / `அவனாகக்`, scan 115 `உவைத்து`, scan 116 `கார்முற்றும்`, scan 118 `குன்றிரண்டை` / `கனதனங்கள்`, and scan 120 `குவிந்துவரை`.
+
+Unresolved readings in scans 101–125: **none**.
+
 No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
@@ -134,4 +150,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 101–125** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
+Independently verify **scans 126–150** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
