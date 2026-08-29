@@ -13,9 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–175 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**
-- next Phase-2 batch: **scans 176–200**
+- Phase-2 verified range: **scans 1–200 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**
+- next Phase-2 batch: **scans 201–225**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -151,6 +151,30 @@ Source-sensitive readings independently rechecked and retained include scan 151 
 
 Unresolved readings in scans 151–175: **none**.
 
+## Phase-2 batch 8 — scans 176–200
+
+Result: **PASS through scan 200**.
+
+Scan-proven corrections applied:
+
+- scan 176: `புழுத்த புழும்` → `பழுத்த கிழம்`;
+- scan 177: `அந்தகாரய்` → `அந்தகாராய்`; `அறியாய்க்கார்களை` → `அறியாய்க்காரர்களை`;
+- scan 179: `காமக்கண்ணி` → `காவற்பெண்டு`;
+- scan 181: `நாத்தமும்பேறி` → `நாத்தழும்பேறி`; three source-visible spaces before dialogue question marks restored;
+- scan 182: source-visible punctuation spacing restored in `இவ்வூரில் ?`, `ஊகு !`, and `யார் அது ? யார் அது ?`;
+- scan 183: `சண்டமாருதச் சூழ்ச்சிபோல்` → `சண்டமாருதச் சுழற்சிபோல்`; `ஆணவமா ?` spacing restored;
+- scan 184: source-visible spacing inside the Purananuru citation parentheses restored;
+- scan 186: `வருகிறார்கள் வரலாற்றில்!` → `வருகின்றார் வரலாற்றில்!`;
+- scan 188: `பக்கமெல்லாம்` → `பக்கமெலாம்`;
+- scan 189: `சிறுகுடி பெனும்` → `சிறுகுடி யெனும்`;
+- scan 193: quotation `பல தான்களை` → `பல தூண்களை`; `சில தான்கள்` → `சில தூண்கள்`;
+- scan 194: classical quotation `எண் நிலகவர்ந்தே` → `எண் ணிலகவர்ந்தே`;
+- scan 195: source-visible spacing restored in `எல்லை எது ?`.
+
+Source-sensitive readings independently rechecked and retained include scan 176 `தலைவில் நின்றவள்`, scan 177 `சூளுரை பொன்றும்`, scan 178 `வீழ்ந்திறந்தார்`, scan 180 `ஆவுக்கு விழுதெனவே` / `கரணையெனக்` / `நற்கிள்ளியனித்த`, scan 184 `கையுசி`, scan 186 `சோணையும்` / `அய்நூறு`, scan 187 `பூழு`, scan 189 `விட்டான்செருக்களத்தில்`, scan 194 `புயங்கொள்ளியை`, scan 197 `தோணியொன்றில்-இந்து` / `இன்மில்லாவிடினும்` / `அகம் வினவு`, scan 198 `எஃகினைய உளம்`, and scan 199 `அவர்க்கட்டு`.
+
+The item-37 title/number anomaly at scan 179 and item-40 title punctuation difference at scan 195 were rechecked and preserved. Unresolved readings in scans 176–200: **none**.
+
 No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
@@ -182,4 +206,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 176–200** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
+Independently verify **scans 201–225** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
