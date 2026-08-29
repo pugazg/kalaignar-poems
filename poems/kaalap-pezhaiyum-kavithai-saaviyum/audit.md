@@ -13,9 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–150 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**
-- next Phase-2 batch: **scans 151–175**
+- Phase-2 verified range: **scans 1–175 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**
+- next Phase-2 batch: **scans 176–200**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -134,6 +134,23 @@ Source-sensitive readings independently rechecked and retained include scan 129 
 
 Unresolved readings in scans 126–150: **none**.
 
+## Phase-2 batch 7 — scans 151–175
+
+Result: **PASS through scan 175**.
+
+Scan-proven corrections applied:
+
+- scan 161: `மூட்ட சோழர்களின்` → `முற்பட்ட சோழர்களின்`;
+- scan 162: `அமுதாட்டி` → `அமுதூட்டி`;
+- scan 166: `சோறுவற்றதற்கும்` → `சோர்வுற்றதற்கும்`;
+- scan 168: `அவருக்கும் போத / குழந்தைகட்டும்!` → `அவருக்கும் பேரக் / குழந்தைகட்டும்!`;
+- scan 171: `வெள்ளமெனக் கருத்தாமல்` → `வெள்ளமெனக் கருதாமல்`;
+- scan 174: classical quotation `செல்லூரக் குணா அது` → `செல்லூர்க் குணா அது`.
+
+Source-sensitive readings independently rechecked and retained include scan 151 `தந்திருக்கு`, scan 154 `கன்னலாம் தமிழர்க் கென்றும்`, scan 155 `திருமலியும்`, scan 160 `ஆனந்தப் பள்ளுப்பாடி!`, scan 161 `முடியிறந்து` / `நிலமைக்கு` / `அய்ந்து`, scan 162 `பாவுராயத்` / `திருமலியும்` / `காரணத்தியவர்`, scan 164 `இஃதோர்` / `வண்ணனை`, scan 167 `கற்பனையுற்றாய்` / `மார்பகமுற்றி` / `அயிரை`, scan 169 `கவலைவென`, scan 170 `திரும்புவானார்`, scan 172 `நண்பாது`, and scan 175 `கன்னலடா` / `வஞ்சிதனைக்` / `பயற்றும்` / `மேய்ச்ச லென்றால்`.
+
+Unresolved readings in scans 151–175: **none**.
+
 No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
@@ -165,4 +182,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 151–175** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
+Independently verify **scans 176–200** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
