@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 19/58 canonical item files assembled.**
+**IN PROGRESS — 21/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -26,30 +26,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3B: items 14–15 — COMPLETE.
 - Two-poem iteration 3C: items 16–17 — COMPLETE.
 - Two-poem iteration 3D: items 18–19 — COMPLETE.
+- Two-poem iteration 3E: items 20–21 — COMPLETE.
 
-### Two-poem iteration 3D
+### Two-poem iteration 3E
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 18 | `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` | 96–98 | `sections/18.md` | ASSEMBLED |
-| 19 | `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` | 99–102 | `sections/19.md` | ASSEMBLED |
+| 20 | `வீழினும் அவன் வெற்றித் திருமகனே!` | 103–106 | `sections/20.md` | ASSEMBLED |
+| 21 | `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` | 107–111 | `sections/21.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **19/58**;
+- cumulative canonical files: **21/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Item 18 preserves the documented title-witness distinction exactly: title-page witness `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` is the canonical displayed title, while contents witness `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!` remains separately recorded in front matter. Source-sensitive verified forms including `சுமோர்`, `நிக்கிதோ சிந்தோ`, `எவர்தான்`, and `இராமச்சந்திர தீட்சிதர்` were preserved. Item 19 likewise preserves verified source wording and lineation without normalization.
+Source-sensitive verified material was preserved, including item 20's classical quotations and attributions, and item 21's unusual `கொண்ட கொண்டலாம் சோழன்`, `துரத்தியம்`, `அவனாகக்`, five-dot ellipses, Sangam quotation, separator and closing note block.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 20 — `வீழினும் அவன் வெற்றித் திருமகனே!` — scans **103–106** → `sections/20.md`;
-- item 21 — `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans **107–111** → `sections/21.md`.
+- item 22 — title-page witness `“பிறகேன் வினா? என்பதே என் வினா!”` — scans **112–116** → `sections/22.md`; preserve contents witness `பிறகேன் வினா? என்பதே என் வினா!` separately because this is a documented title-witness discrepancy;
+- item 23 — `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` — begins at scan **117** → `sections/23.md`; use the certified Phase-3 boundary/page map to determine its complete ending scan before assembly.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **21/58**. Do not begin item 22 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **23/58**. Do not begin item 24 in that iteration.
