@@ -55,24 +55,26 @@ Translation/release follows the existing voice-fidelity and editorial-review rul
 
 ## Current application — காலப் பேழையும் கவிதைச் சாவியும்
 
-`poems/kaalap-pezhaiyum-kavithai-saaviyum/` has completed **Phase 2 — source-critical visual verification** and is ready for **Phase 3 — structure, completeness, assembly and Tamil final clearance**.
+`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is now in **Phase 3 — structure, completeness, assembly and Tamil final clearance**.
 
 Current state:
 
 - controlling PDF: **306 physical scans**;
-- Phase 1 transcription: **306/306 physical scans represented**;
+- Phase 1 transcription: **306/306 physical scans represented — COMPLETE**;
 - numbered item/title pages observed: **58/58**;
-- Phase 2 verified range: **scans 1–306 consecutively (306/306)**;
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**, **276–299**, **300–306**;
+- Phase 2 source-critical verification: **306/306 scans verified — COMPLETE**;
 - unresolved readings after Phase 2: **none**;
-- scans 300–305 independently confirm six blank `குறிப்புகள்` notes pages carrying only that heading and horizontal rule;
-- scan 306 independently confirms an image-only back cover with no independently printed textual content;
-- Phase 2: **COMPLETE**;
-- next activity: **begin Phase 3 with exact physical scan ↔ printed-page mapping and structure/completeness reconciliation before canonical Tamil assembly**;
+- Phase-3 physical scan ↔ printed-page reconciliation: **COMPLETE**;
+- numbered pagination block: scans **5–299** ↔ printed pages **4–298**, continuously, with no unexplained gap or duplicate;
+- all **306 scans** structurally accounted for;
+- all **58** contents start pages align with title scans by `title scan = contents start page + 1`;
+- Phase-3 structural audit file: `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_STRUCTURE_AUDIT.md`;
+- exact next activity: **58-item boundary and within-item page-join continuity audit**;
+- canonical Tamil assembly remains blocked until that structural audit passes;
 - Phase 4 translation remains blocked until Tamil final clearance.
 
-### Final Phase-2 batch — scans 300–306
+### Completed Phase-3 activity 1
 
-All seven end-matter scans passed independent source-critical visual verification with **no textual corrections and no unresolved readings**. Page records `0300.md` through `0306.md` are now `verified`.
+The exact scan/printed-page map is now recorded in `indexes/page-map.md`. Phase 3 explicitly distinguishes a **visibly printed numeral** from a **reconciled logical printed page**; suppressed page numerals are not retroactively claimed as visible source marks.
 
-Phase 3 may now begin, but its structural reconciliation, page-join certification and canonical Tamil assembly must remain distinct from the completed Phase-2 textual verification record. Phase 4 must not begin until Phase 3 reaches Tamil final clearance.
+The next Phase-3 pass must certify every item boundary and every adjacent within-item page join, including quotation carry-over, continuation punctuation, separators and dropped/duplicated lines. Only after that pass succeeds may canonical Tamil assembly begin.
