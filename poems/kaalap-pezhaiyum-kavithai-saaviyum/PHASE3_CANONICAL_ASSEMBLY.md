@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 23/58 canonical item files assembled.**
+**IN PROGRESS — 25/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -28,30 +28,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3D: items 18–19 — COMPLETE.
 - Two-poem iteration 3E: items 20–21 — COMPLETE.
 - Two-poem iteration 3F: items 22–23 — COMPLETE.
+- Two-poem iteration 3G: items 24–25 — COMPLETE.
 
-### Two-poem iteration 3F
+### Two-poem iteration 3G
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 22 | `“பிறகேன் வினா? என்பதே என் வினா!”` | 112–116 | `sections/22.md` | ASSEMBLED |
-| 23 | `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` | 117–119 | `sections/23.md` | ASSEMBLED |
+| 24 | `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` | 120–123 | `sections/24.md` | ASSEMBLED |
+| 25 | `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` | 124–127 | `sections/25.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **23/58**;
+- cumulative canonical files: **25/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Item 22 preserves the documented title-witness distinction exactly: the title-page witness `“பிறகேன் வினா? என்பதே என் வினா!”` controls the canonical displayed title, while contents witness `பிறகேன் வினா? என்பதே என் வினா!` remains separately recorded in front matter. Source-sensitive verified forms including `எண்பது`, `உவைத்து`, and `கார்முற்றும்` were preserved. Item 23 preserves verified source forms including `குன்றிரண்டை` and `கனதனங்கள்` without normalization.
+Item 24 preserves verified source-sensitive forms and its closing separator/glossary block. Item 25 preserves the documented title-witness distinction exactly: title-page witness `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` controls the canonical displayed title, while contents witness `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!` remains separately recorded in front matter. Verified quotation, note-block, punctuation and source forms were preserved without normalization.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 24 — `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` — scans **120–123** → `sections/24.md`;
-- item 25 — title-page witness `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` — scans **124–127** → `sections/25.md`; preserve contents witness `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!` separately because this is a documented title-witness discrepancy.
+- item 26 — title-page witness `விழித்தெழுக; இதோ செம்மொழி விடியல்!` — scans **128–131** → `sections/26.md`; preserve contents witness `விழித்தெழுக; இதோ, செம்மொழி விடியல்!` separately because this is a documented title-witness discrepancy;
+- item 27 — `வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்!` — scans **132–135** → `sections/27.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **25/58**. Do not begin item 26 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **27/58**. Do not begin item 28 in that iteration.
