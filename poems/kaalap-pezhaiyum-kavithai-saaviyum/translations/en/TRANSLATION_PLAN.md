@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batch 01 reviewed PASS; 2/58 items translated and reviewed; 1/29 batches complete.**
+**PHASE 4 IN PROGRESS — Batches 01–02 reviewed PASS; 4/58 items translated and reviewed; 2/29 batches complete.**
 
 Planning began from live `main` after Tamil final clearance. No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -87,7 +87,7 @@ No global glossary choice should override the wording/context of an individual s
 | Batch | Items | Physical scans | Canonical files | Status |
 |---:|---:|---:|---|---|
 | 01 | 1–2 | 10–15 | `01.md`, `02.md` | **reviewed — PASS** |
-| 02 | 3–4 | 16–24 | `03.md`, `04.md` | planned |
+| 02 | 3–4 | 16–24 | `03.md`, `04.md` | **reviewed — PASS** |
 | 03 | 5–6 | 25–34 | `05.md`, `06.md` | planned |
 | 04 | 7–8 | 35–43 | `07.md`, `08.md` | planned |
 | 05 | 9–10 | 44–53 | `09.md`, `10.md` | planned |
@@ -118,9 +118,9 @@ No global glossary choice should override the wording/context of an individual s
 
 Current reviewed totals:
 
-- batches: **1/29**;
-- items: **2/58**;
-- numbered-item source scans covered by reviewed English batches: **6/290**;
+- batches: **2/29**;
+- items: **4/58**;
+- numbered-item source scans covered by reviewed English batches: **15/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -154,6 +154,24 @@ Reviewed file: `batches/batch-01.md`.
 - Kalaignar-language/voice review: **PASS**;
 - Tamil canonical/source files modified: **none**.
 
+## Batch 02 closure
+
+Reviewed file: `batches/batch-02.md`.
+
+- item 3 — `‘காந்தக்கல்’ கதையொன்று!` — scans **16–19** — reviewed PASS;
+- item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans **20–24** — reviewed PASS;
+- source scans represented: **9/9**;
+- omissions / duplications: **0 / 0**;
+- title witness handling: **PASS**;
+- Kumari Kandam/Indus and evolutionary argumentation retained without outside correction: **PASS**;
+- Tamil `iyal/isai/natakam/koothu` ordering retained where rhetorically active: **PASS**;
+- Item-4 dialogue, satire, sexual metaphoric register and chastity/equality argument retained: **PASS**;
+- Periyar, Anna and Bharathi references retained: **PASS**;
+- final Iron Age / `காந்தக்கல்` wordplay retained: **PASS**;
+- parenthetical Neanderthal note retained: **PASS**;
+- Kalaignar-language/voice review: **PASS**;
+- Tamil canonical/source files modified: **none**.
+
 ## Full-work gates after Batch 29
 
 After all 29 batches are reviewed:
@@ -168,9 +186,9 @@ After all 29 batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 02 — items 3–4**:
+Translate and review **Batch 03 — items 5–6**:
 
-- item 3 — `‘காந்தக்கல்’ கதையொன்று!` — scans **16–19** — `../../sections/03.md`;
-- item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans **20–24** — `../../sections/04.md`.
+- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28** — `../../sections/05.md`;
+- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34** — `../../sections/06.md`.
 
-Create `batches/batch-02.md`. Preserve both items as distinct works inside the batch. Stop after item 4; do not begin item 5.
+Create `batches/batch-03.md`. Preserve both items as distinct works inside the batch. Stop after item 6; do not begin item 7.
