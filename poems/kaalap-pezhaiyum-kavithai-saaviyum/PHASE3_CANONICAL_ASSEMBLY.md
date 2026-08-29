@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 15/58 canonical item files assembled.**
+**IN PROGRESS — 17/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -24,30 +24,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Iteration 2: items 7–11, scans 35–57 — COMPLETE; item 12 scans 58–59 carried forward.
 - Two-poem iteration 3A: items 12–13 — COMPLETE.
 - Two-poem iteration 3B: items 14–15 — COMPLETE.
+- Two-poem iteration 3C: items 16–17 — COMPLETE.
 
-### Two-poem iteration 3B
+### Two-poem iteration 3C
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 14 | `கனக விஜயர் கல் சுமந்த வரலாறு!` | 68–77 | `sections/14.md` | ASSEMBLED |
-| 15 | `பருகிடலாம் இந்த “ஆரிய” தேநீரை!` | 78–81 | `sections/15.md` | ASSEMBLED |
+| 16 | `சுளையில் ஒன்றியிருக்கும் சுவையாக!` | 82–87 | `sections/16.md` | ASSEMBLED |
+| 17 | `உலக வரலாறு எங்கிருந்து வருவது?` | 88–95 | `sections/17.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **15/58**;
+- cumulative canonical files: **17/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Source-sensitive verified forms were preserved, including item 14 `தீராதி தீர தீன தயாபர`, `மண்டூகே`, the physical split forms `கொண்ட / டோர்`, `மன்னர் / களுக்கு`, `விடுத்தார் / களாம்`, `அழும்பில்`, `தோரணங்கற்பட்டு`, `சிலதுகள்`, and item 15 `காபியோ`, `வைர வைடூர்ய`, `மண்டையோடு எலும்பெடுத்து`.
+Source-sensitive verified forms were preserved, including item 16 `முறையாகத்தானிருக்கும்!`, `அறந்தங்கும்`, `பாராட்டும் பெற்றன`, and item 17 `காற்றுக் கொப்புளங்களைச்`, `அமைக்கப்பட்ட முடியாதல்லவா?`, the English title `(The Riddles of three oceans)`, and `சுற்றி மாற்றிக் கொண்டு`.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 16 — scans **82–87** → `sections/16.md`;
-- item 17 — scans **88–95** → `sections/17.md`.
+- item 18 — scans **96–98** → `sections/18.md`;
+- item 19 — scans **99–102** → `sections/19.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **17/58**. Do not begin item 18 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **19/58**. Item 18 is a documented title-witness discrepancy case, so use the item-opening title-page witness for the canonical displayed title and preserve the differing contents witness separately in front matter; do not hybridize the two witnesses.
