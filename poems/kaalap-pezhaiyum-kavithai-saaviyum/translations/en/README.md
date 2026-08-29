@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batch 01 reviewed PASS; 2/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–02 reviewed PASS; 4/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -34,6 +34,7 @@ translations/en/
   SOURCE_MAP.md
   batches/
     batch-01.md  # reviewed PASS
+    batch-02.md  # reviewed PASS
     ...
     batch-29.md
   kaalap-pezhaiyum-kavithai-saaviyum-en.md
@@ -48,14 +49,15 @@ Each routine translation batch contains **two complete canonical items**. No ite
 | Batch | Items | Physical scans | Status |
 |---:|---:|---:|---|
 | 01 | 1–2 | 10–15 | **reviewed — PASS** |
-| 02–29 | 3–58 | 16–299 | planned |
+| 02 | 3–4 | 16–24 | **reviewed — PASS** |
+| 03–29 | 5–58 | 25–299 | planned |
 
 Current totals:
 
-- batches reviewed: **1/29**;
-- items translated and reviewed: **2/58**;
-- certified source scans represented in reviewed English batches: **6/290 numbered-item scans**;
-- unresolved Batch-01 translation issues: **0**;
+- batches reviewed: **2/29**;
+- items translated and reviewed: **4/58**;
+- certified source scans represented in reviewed English batches: **15/290 numbered-item scans**;
+- unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
 ## Title handling
@@ -84,22 +86,30 @@ A batch is not complete merely because English text exists. Before a batch is ma
 
 Only reviewed batches may enter the eventual complete English collection assembly.
 
-## Batch 01 closure
+## Batch closures
+
+### Batch 01
 
 Reviewed batch: [`batches/batch-01.md`](batches/batch-01.md)
 
-Batch 01 covers:
-
 - item 1 — `பொது உலகம்` — scans **10–11**;
-- item 2 — `படிமுறை வளர்ச்சி` — scans **12–15**.
-
-Review result:
-
-- both canonical items represented once and in order: **PASS**;
+- item 2 — `படிமுறை வளர்ச்சி` — scans **12–15**;
 - source scans represented: **6/6**;
 - omissions / duplications: **0 / 0**;
-- chronology, figures, names and source claims retained without fact-check substitution: **PASS**;
-- rhetorical questions, wordplay, cosmic/evolutionary imagery and political closing retained: **PASS**;
+- Kalaignar-language/voice review: **PASS**;
+- Tamil source altered for English: **NO**.
+
+### Batch 02
+
+Reviewed batch: [`batches/batch-02.md`](batches/batch-02.md)
+
+- item 3 — `‘காந்தக்கல்’ கதையொன்று!` — scans **16–19**;
+- item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans **20–24**;
+- source scans represented: **9/9**;
+- omissions / duplications: **0 / 0**;
+- evolutionary analogies, Kumari Kandam/Indus argument and Tamil-language ordering: **PASS**;
+- dialogue frame, satire, sexual metaphors, chastity/equality argument and magnet/iron wordplay: **PASS**;
+- parenthetical Neanderthal note represented: **PASS**;
 - Kalaignar-language/voice review: **PASS**;
 - Tamil source altered for English: **NO**.
 
@@ -108,7 +118,7 @@ Review result:
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–29** — **IN PROGRESS; 1/29 reviewed**;
+2. translate and review Batches **01–29** — **IN PROGRESS; 2/29 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -116,9 +126,9 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 02 — items 3–4**:
+Translate and review **Batch 03 — items 5–6**:
 
-- item 3 — `‘காந்தக்கல்’ கதையொன்று!` — scans **16–19** — `../../sections/03.md`;
-- item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans **20–24** — `../../sections/04.md`.
+- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28** — `../../sections/05.md`;
+- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34** — `../../sections/06.md`.
 
-Create `batches/batch-02.md`. Stop after item 4; do not begin item 5.
+Create `batches/batch-03.md`. Stop after item 6; do not begin item 7.
