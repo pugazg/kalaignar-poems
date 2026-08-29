@@ -55,7 +55,7 @@ Translation/release follows the existing voice-fidelity and editorial-review rul
 
 ## Current application — காலப் பேழையும் கவிதைச் சாவியும்
 
-`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is now in **Phase 3 — structure, completeness, assembly and Tamil final clearance**.
+`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is in **Phase 3 — structure, completeness, assembly and Tamil final clearance**.
 
 Current state:
 
@@ -68,13 +68,44 @@ Current state:
 - numbered pagination block: scans **5–299** ↔ printed pages **4–298**, continuously, with no unexplained gap or duplicate;
 - all **306 scans** structurally accounted for;
 - all **58** contents start pages align with title scans by `title scan = contents start page + 1`;
-- Phase-3 structural audit file: `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_STRUCTURE_AUDIT.md`;
-- exact next activity: **58-item boundary and within-item page-join continuity audit**;
-- canonical Tamil assembly remains blocked until that structural audit passes;
-- Phase 4 translation remains blocked until Tamil final clearance.
+- Phase-3 boundary / within-item page-join audit: **COMPLETE — 58/58 items certified**;
+- closing boundary **299→300: PASS**, separating `(முதல் பாகம் முற்றிற்று)` from the `குறிப்புகள்` end matter;
+- Phase-3 title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**;
+- governing reconciliation record: `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- canonical Tamil assembly: **UNBLOCKED — exact next activity**;
+- Phase 4 translation remains blocked until assembly review and Tamil final clearance.
 
-### Completed Phase-3 activity 1
+### Completed Phase-3 activity 1 — exact scan / printed-page mapping
 
-The exact scan/printed-page map is now recorded in `indexes/page-map.md`. Phase 3 explicitly distinguishes a **visibly printed numeral** from a **reconciled logical printed page**; suppressed page numerals are not retroactively claimed as visible source marks.
+The exact scan/printed-page map is recorded in `indexes/page-map.md`. Phase 3 explicitly distinguishes a **visibly printed numeral** from a **reconciled logical printed page**; suppressed page numerals are not retroactively claimed as visible source marks.
 
-The next Phase-3 pass must certify every item boundary and every adjacent within-item page join, including quotation carry-over, continuation punctuation, separators and dropped/duplicated lines. Only after that pass succeeds may canonical Tamil assembly begin.
+### Completed Phase-3 activity 2 — item boundaries and page joins
+
+All **58/58** numbered items have passed opening-boundary, within-item join and closing-boundary review. No unresolved structural join remains and no dropped/duplicated source passage was detected. Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+### Completed Phase-3 activity 3 — title-witness reconciliation
+
+The verified contents witness and item-opening title-page witness differ for items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58**.
+
+The reconciliation rule is:
+
+- preserve both witnesses exactly;
+- use the **title-page witness** as the displayed title and title-derived filename basis in canonical item assembly;
+- retain the **contents witness** as the contents/index witness and alternate source metadata;
+- create no hybrid or silently normalized title;
+- keep item identity/order based on the certified contents sequence **1–58**;
+- item 37 remains item **37** although its title page visibly prints item number **36**; that number is preserved only as a source anomaly.
+
+### Exact next Phase-3 activity — canonical Tamil assembly
+
+Assemble **58 separate canonical Tamil item files** from the verified `pages/NNNN.md` records in certified page order.
+
+Assembly must:
+
+- preserve verified lineation, spelling, punctuation, quotations, separators, source notes and unusual printed forms;
+- use the title-page witness for the assembled title where contents/title witnesses differ;
+- retain the contents witness as alternate source metadata for those discrepant items;
+- retain item 37's printed number `36` as a source anomaly without renumbering the sequence;
+- avoid any silent source normalization.
+
+After assembly, perform an assembly/source-completeness review. Tamil final clearance may be granted only after that review passes. Phase 4 translation remains blocked until then.
