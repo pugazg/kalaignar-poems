@@ -18,10 +18,10 @@ Canonical Tamil assembly remains blocked until all 58 items pass this audit.
 
 ## Progress
 
-- items certified: **4/58**
-- last certified item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
+- items certified: **5/58**
+- last certified item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
 - unresolved structural joins: **none**
-- next item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
+- next item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
 
 ## Item 1 — `பொது உலகம்`
 
@@ -327,6 +327,86 @@ Therefore item 4 closes at scan 24 / printed page 23 and item 5 begins cleanly a
 - title-witness issue: **none**;
 - source-sensitive forms such as scan 21 `என்னோ டென்றேன்.` / `அணியாத தேன் ?` and scan 22 `வாய்ப்பை யெனக்` remain unchanged and are not structural defects.
 
+## Item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`
+
+**Status: PASS — boundary and all within-item joins certified.**
+
+- contents start page: **24**;
+- observed title scan: **25**;
+- reconciled physical range: **scans 25–28**;
+- reconciled printed-page range: **pages 24–27**;
+- title witness: contents and title page both read **`தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**; no title-witness difference.
+
+### Opening boundary — scan 24 → scan 25
+
+- scan 24 closes item 4 with a complete explanatory parenthetical and printed ornamental closing device;
+- scan 25 visibly carries item number **5**, the title `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`, and begins `இன்றைக்கு ஏடெடுத்து / எழுதுகோலில் மை நிறைத்து`;
+- no item-5 text occurs before the title scan and no item-4 text carries beyond the ornament.
+
+**Opening boundary: CERTIFIED.**
+
+### Internal join — scan 25 → scan 26
+
+Scan 25 closes with:
+
+`மண்ணிலோர் மலை ; மலையிலோர் சிகரம் ; என / மாசு மறுவற்ற மரபிலக்கணம் தந்தவரை,`
+
+Scan 26 immediately continues:
+
+`மண்டியிட்டுத் தொழுது வணங்குவது ; மனித வரலாறு வரைதற்கு / மத்தியிலே ஆற்ற வேண்டிய மாபெருங் கடமை என்பேன்!`
+
+The syntax continues directly across the page turn: `தந்தவரை, / மண்டியிட்டுத் தொழுது வணங்குவது`. No separator, duplicate line, dropped clause or unrelated heading intervenes.
+
+**Join 25→26: CERTIFIED.**
+
+### Internal join — scan 26 → scan 27
+
+Scan 26 closes with:
+
+`இனி நீ என்பால் வெட்கப்படாதிரு, போதுமென்கிறான் ; பின்னர் / அவர்கள்`
+
+Scan 27 immediately continues:
+
+`வெள்ளத்தினோடொரு வெள்ளமுமாய் / வீணையும் நாதமும் ஆகி விட்டார் -`
+
+The subject `அவர்கள்` carries directly into the next page's predicate and imagery. The continuation is explicit, with no dropped or duplicated text and no dialogue/quotation break requiring reconciliation.
+
+**Join 26→27: CERTIFIED.**
+
+### Internal join — scan 27 → scan 28
+
+Scan 27 closes with the complete statement:
+
+`பச்சையாக இறைச்சியினைப் பசி போக்கத் தின்ற மனிதன் - / சுவைத்துண்ண / இச்சை கொண்டு சமைத்துண்ணத் தீ மூட்டக் கற்றுக் / கொண்டான்.`
+
+Scan 28 begins a new but continuous discussion:
+
+`வேட்டையாடி விலங்குகளைக் கொன்றால்தானே வயிற்றுப் / பாட்டை சமாளிக்க வழி காண முடியும் - அந்த வேட்டையிலும்`
+
+The sentence on scan 27 closes before the page turn and scan 28 advances the same subsistence/early-human theme without any missing bridge, duplicated line, quotation carry-over or separator anomaly.
+
+**Join 27→28: CERTIFIED.**
+
+### Closing boundary — scan 28 → scan 29
+
+- scan 28 closes item 5 with `அன்பைப் படைக்கும் - / அமைதியை விளைக்கும்! / அடுத்தொரு கதை கிளைக்கும் ; / அதற்கான விதை நாளை முளைக்கும்!`;
+- a printed ornamental closing device follows the final line;
+- scan 29 visibly begins item number **6** with the distinct title `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`.
+
+Therefore item 5 closes at scan 28 / printed page 27 and item 6 begins cleanly at scan 29 / printed page 28.
+
+**Closing boundary: CERTIFIED.**
+
+### Item-5 result
+
+- opening boundary: **PASS**;
+- internal joins: **3/3 PASS**;
+- closing boundary: **PASS**;
+- dropped/duplicated text detected: **none**;
+- unresolved continuation punctuation or quotation carry-over: **none**;
+- title-witness issue: **none**;
+- source-sensitive scan-28 form `பேத்தி, பேர் காலத்திலும்` remains unchanged and is not a structural defect.
+
 ## Exact next activity
 
-Audit **item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**, scans **25–28** / printed pages **24–27**, including its three internal joins and the closing boundary into item 6 at scan 29. Do not begin canonical Tamil assembly yet.
+Audit **item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**, scans **29–34** / printed pages **28–33**, including all five internal joins and the closing boundary into item 7 at scan 35. Do not begin canonical Tamil assembly yet.
