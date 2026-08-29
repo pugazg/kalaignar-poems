@@ -13,9 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–175 consecutively (175/306)**
-- most recent Phase-2 batch completed: **scans 151–175**
-- next Phase-2 batch: **scans 176–200**
+- Phase-2 verified range: **scans 1–200 consecutively (200/306)**
+- most recent Phase-2 batch completed: **scans 176–200**
+- next Phase-2 batch: **scans 201–225**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -143,7 +143,7 @@ No unresolved glyphs remain in scans 126–150.
 
 ### Phase-2 batch 7 — scans 151–175
 
-**COMPLETE.** Scans **151–175** were independently reread against the controlling source. The verified range is now consecutive through scan 175.
+**COMPLETE.** Scans **151–175** were independently reread against the controlling source. The verified range became consecutive through scan 175.
 
 Source-backed textual corrections found in this batch:
 
@@ -156,7 +156,31 @@ Source-backed textual corrections found in this batch:
 
 Source-sensitive forms independently rechecked and retained include scan 151 `தந்திருக்கு`, scan 154 `கன்னலாம் தமிழர்க் கென்றும்`, scan 155 `திருமலியும்` and its compact classical quotation, scan 160 `ஆனந்தப் பள்ளுப்பாடி!`, scan 161 `முடியிறந்து` / `நிலமைக்கு` / `அய்ந்து`, scan 162 `பாவுராயத்` / `திருமலியும்` / `காரணத்தியவர்`, scan 164 `இஃதோர்` / `வண்ணனை`, scan 167 `கற்பனையுற்றாய்` / `மார்பகமுற்றி` / `அயிரை`, scan 169 `கவலைவென`, scan 170 `திரும்புவானார்`, scan 172 `நண்பாது`, and scan 175 `கன்னலடா` / `வஞ்சிதனைக்` / `பயற்றும்` / `மேய்ச்ச லென்றால்`.
 
-No unresolved glyphs remain in scans 151–175. No Phase-3 page-join, final-boundary or assembly work was performed in any Phase-2 batch.
+No unresolved glyphs remain in scans 151–175.
+
+### Phase-2 batch 8 — scans 176–200
+
+**COMPLETE.** Scans **176–200** were independently reread against the controlling source. The verified range is now consecutive through scan 200.
+
+Source-backed textual corrections found in this batch:
+
+1. **scan 176:** `புழுத்த புழும்` → `பழுத்த கிழம்`;
+2. **scan 177:** `அந்தகாரய்` → `அந்தகாராய்`; `அறியாய்க்கார்களை` → `அறியாய்க்காரர்களை`;
+3. **scan 179:** `காமக்கண்ணி` → `காவற்பெண்டு`;
+4. **scan 181:** `நாத்தமும்பேறி` → `நாத்தழும்பேறி`; source-visible spaces before three dialogue question marks restored;
+5. **scan 182:** source-visible dialogue punctuation spacing restored in `இவ்வூரில் ?`, `ஊகு !`, and `யார் அது ? யார் அது ?`;
+6. **scan 183:** `சண்டமாருதச் சூழ்ச்சிபோல்` → `சண்டமாருதச் சுழற்சிபோல்`; source-visible `ஆணவமா ?` spacing restored;
+7. **scan 184:** source-visible spacing inside the Purananuru citation parentheses restored;
+8. **scan 186:** `வருகிறார்கள் வரலாற்றில்!` → `வருகின்றார் வரலாற்றில்!`;
+9. **scan 188:** `பக்கமெல்லாம்` → `பக்கமெலாம்`;
+10. **scan 189:** `சிறுகுடி பெனும்` → `சிறுகுடி யெனும்`;
+11. **scan 193:** quotation `பல தான்களை` → `பல தூண்களை`; `சில தான்கள்` → `சில தூண்கள்`;
+12. **scan 194:** classical quotation `எண் நிலகவர்ந்தே` → `எண் ணிலகவர்ந்தே`;
+13. **scan 195:** source-visible spacing restored in `எல்லை எது ?`.
+
+Source-sensitive forms independently rechecked and retained include scan 176 `தலைவில் நின்றவள்`, scan 177 `சூளுரை பொன்றும்`, scan 178 `வீழ்ந்திறந்தார்`, scan 180 `ஆவுக்கு விழுதெனவே` / `கரணையெனக்` / `நற்கிள்ளியனித்த`, scan 184 `கையுசி`, scan 186 `சோணையும்` / `அய்நூறு`, scan 187 `பூழு`, scan 189 `விட்டான்செருக்களத்தில்`, scan 194 `புயங்கொள்ளியை`, scan 197 `தோணியொன்றில்-இந்து` / `இன்மில்லாவிடினும்` / `அகம் வினவு`, scan 198 `எஃகினைய உளம்`, and scan 199 `அவர்க்கட்டு`.
+
+The item-37 title witness and its visibly printed item-number anomaly `36` were rechecked at scan 179 and preserved. The item-40 title page at scan 195 continues to omit the contents witness's final `!`. No unresolved glyphs remain in scans 176–200. No Phase-3 page-join, final-boundary or assembly work was performed.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -196,4 +220,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 176–200**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
+Continue **Phase 2 source-critical visual verification with scans 201–225**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
