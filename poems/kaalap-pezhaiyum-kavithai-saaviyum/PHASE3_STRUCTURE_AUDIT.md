@@ -19,13 +19,13 @@ All **306 physical scans** are structurally accounted for. All **58** contents s
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–35 / 58 fully certified; item 36 audited through scan 174.**
+**Status: IN PROGRESS — items 1–40 / 58 fully certified.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ### Iteration size
 
-Routine continuation uses **25 physical scans per iteration**. The latest completed iteration covered **scans 150–174**. An item crossing an iteration boundary remains partial until its remaining joins and closing boundary pass.
+Routine continuation uses **25 physical scans per iteration**. The latest completed iteration covered **scans 175–199**.
 
 ### Certified ranges through current boundary
 
@@ -38,64 +38,58 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 | 25–30 | 124–147 | CERTIFIED |
 | 31 | 148–151 | CERTIFIED; contents/title comma witness differs |
 | 32 | 152–156 | CERTIFIED; contents/title wording witness differs |
-| 33 | 157–160 | CERTIFIED |
-| 34 | 161–166 | CERTIFIED |
-| 35 | 167–172 | CERTIFIED |
-| 36 | 173–178 | PARTIAL — opening and 173→174 audited |
+| 33–35 | 157–172 | CERTIFIED |
+| 36 | 173–178 | CERTIFIED |
+| 37 | 179–185 | CERTIFIED; title witness differs and title page prints item number `36` |
+| 38 | 186–190 | CERTIFIED |
+| 39 | 191–194 | CERTIFIED |
+| 40 | 195–199 | CERTIFIED; title page omits contents final `!` |
 
-## Latest iteration — scans 150–174
-
-### Item 31 — contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`
-
-- pending join **149→150: PASS**;
-- join **150→151: PASS**;
-- closing boundary **151→152: PASS**;
-- cumulative internal joins **3/3 PASS**;
-- title scan 148 omits the comma after `தாயும்` found in the contents witness;
-- no dropped/duplicated text.
-
-### Item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`
-
-- title scan 152 visibly reads **`கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`**; this substantial title-page witness remains separate from the contents witness;
-- joins **152→153, 153→154, 154→155, 155→156: 4/4 PASS**;
-- closing boundary **156→157: PASS**;
-- the classical poem on scan 155 is followed directly by `இதன் பொருள் :` on scan 156;
-- no dropped/duplicated text.
-
-### Item 33 — `“செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா?`
-
-- joins **157→158, 158→159, 159→160: 3/3 PASS**;
-- closing boundary **160→161: PASS**;
-- no title-witness difference or dropped/duplicated text.
-
-### Item 34 — `மறையவில்லை; மறுமலர்ச்சி பெற்றது!`
-
-- joins **161→162, 162→163, 163→164, 164→165, 165→166: 5/5 PASS**;
-- closing boundary **166→167: PASS** after the source English footnote `★ (Vide his “History of the Tamils” - Page 80)`;
-- no title-witness difference or dropped/duplicated text.
-
-### Item 35 — `உயிரினும் மேலான உயர்ந்த நட்பு!`
-
-- joins **167→168, 168→169, 169→170, 170→171, 171→172: 5/5 PASS**;
-- closing boundary **172→173: PASS**;
-- no title-witness difference or dropped/duplicated text.
+## Latest iteration — scans 175–199
 
 ### Item 36 — `இளையவன்; அவன் ஒரு தமிழ் மகன்!`
 
-**PARTIAL.**
+- pending joins **174→175, 175→176, 176→177, 177→178: 4/4 PASS**;
+- together with the previously certified **173→174**, cumulative internal joins are **5/5 PASS**;
+- closing boundary **178→179: PASS** after the three-star separator and `குறிப்பு` block;
+- no title-witness difference or dropped/duplicated text.
 
-- opening boundary **172→173: PASS**;
-- join **173→174: PASS**;
-- scan 174 remains inside the `அன்னிமிஞிலி` / `மிஞிலி` discussion;
-- item remains open; next iteration starts with **174→175**;
-- internal joins audited so far: **1/5 PASS**.
+### Item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`
+
+- opening boundary **178→179: PASS**;
+- title scan 179 visibly reads **`அன்பால் அவனை விலைகொள்ள முடியுமோ?`** and visibly prints item number **36** rather than 37;
+- joins **179→180, 180→181, 181→182, 182→183, 183→184, 184→185: 6/6 PASS**;
+- closing boundary **185→186: PASS**;
+- the contents/title wording difference and source numbering anomaly remain preserved, not normalized;
+- no dropped/duplicated text.
+
+### Item 38 — `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!`
+
+- joins **186→187, 187→188, 188→189, 189→190: 4/4 PASS**;
+- quotation continuation **187→188** and attribution continuation **188→189** are structurally complete;
+- closing boundary **190→191: PASS**;
+- no title-witness difference or dropped/duplicated text.
+
+### Item 39 — `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!`
+
+- joins **191→192, 192→193, 193→194: 3/3 PASS**;
+- direct continuation **193→194** carries the `“நெருக்கு நேர் போருக்கு”` challenge into the Vatapi/Paranjothi episode;
+- closing boundary **194→195: PASS** after the Periyapuranam quotation/citation and ornament;
+- no title-witness difference or dropped/duplicated text.
+
+### Item 40 — contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`
+
+- title scan 195 visibly omits the final `!` present in the contents witness;
+- joins **195→196, 196→197, 197→198, 198→199: 4/4 PASS**;
+- closing boundary **199→200: PASS** after `எனினும், மமதை கொண்டானில்லை!` and the ornament; scan 200 begins item 41;
+- no dropped/duplicated text.
 
 ## Iteration result
 
-- processed: **scans 150–174 (25 scans)**;
-- newly fully certified: **items 31–35**;
-- cumulative fully certified: **35/58**;
-- current partial item: **36 through scan 174**;
+- processed: **scans 175–199 (25 scans)**;
+- newly fully certified: **items 36–40**;
+- cumulative fully certified: **40/58**;
+- current partial item: **none**;
 - Tamil transcription changes: **none**;
 - structural metadata changes: **none**;
 - dropped/duplicated text found: **none**;
@@ -105,8 +99,9 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 
 - source-level abrupt transition **31→32** remains preserved rather than editorially repaired;
 - item 12 section metadata was previously unified across scans 58–63 without changing Tamil text;
-- reached title-witness discrepancies now include items **18, 22, 25, 26, 29, 31 and 32**; all remain separate pending the designated title-witness reconciliation step;
-- source-sensitive readings in this iteration, including `தந்திருக்கு`, `கன்னலாம் தமிழர்க் கென்றும்`, `திருமலியும்`, `ஆனந்தப் பள்ளுப்பாடி!`, `முடியிறந்து`, `அய்ந்து`, `நண்பாது`, and `செல்லூர்க் குணா அது`, remain unchanged.
+- reached title-witness discrepancies now include items **18, 22, 25, 26, 29, 31, 32, 37 and 40**; all remain separate pending the designated title-witness reconciliation step;
+- item 37's title page visibly prints item number **36**; this source anomaly remains preserved;
+- source-sensitive readings in this iteration remain unchanged, including `கன்னலடா`, `பழுத்த கிழம்`, `தலைவில் நின்றவள்`, `சூளுரை பொன்றும்`, `வீழ்ந்திறந்தார்`, `காவற்பெண்டு`, `நாத்தழும்பேறி`, `கையுசி`, `பூழு`, `விட்டான்செருக்களத்தில்`, `புயங்கொள்ளியை`, `எண் ணிலகவர்ந்தே`, `தோணியொன்றில்-இந்து`, `அகம் வினவு`, `எஃகினைய உளம்`, and `அவர்க்கட்டு`.
 
 ## Remaining Phase-3 activities
 
@@ -117,4 +112,4 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 
 ## Exact next activity
 
-Process physical scans **175–199** as the next 25-scan iteration, beginning with item 36's pending join **174→175**. Canonical Tamil assembly remains blocked.
+Process physical scans **200–224** as the next 25-scan iteration. Opening boundary **199→200** has already passed; begin with item 41 join **200→201**. Canonical Tamil assembly remains blocked.
