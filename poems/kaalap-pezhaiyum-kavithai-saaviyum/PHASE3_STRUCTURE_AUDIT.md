@@ -19,9 +19,13 @@ All **306 physical scans** are structurally accounted for. All **58** contents s
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–9 / 58 certified.**
+**Status: IN PROGRESS — items 1–13 / 58 fully certified; item 14 audited through scan 74.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+### Iteration size
+
+Routine Phase-3 continuation is now performed in **25-physical-scan iterations**. The completed iteration covered **scans 50–74**. If an iteration ends inside an item, that item remains partial until the next iteration completes its remaining joins and closing boundary.
 
 | Item | Title | Range | Internal joins | Result |
 |---:|---|---|---:|---|
@@ -34,29 +38,32 @@ Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 | 7 | `வரலாற்றுக் காலத்தின் கோலம்!` | scans 35–39 / pp. 34–38 | 4/4 | PASS |
 | 8 | `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` | scans 40–43 / pp. 39–42 | 3/3 | PASS |
 | 9 | `உரையாடல் உணர்த்திடும் உண்மை என்ன?` | scans 44–49 / pp. 43–48 | 5/5 | PASS |
+| 10 | `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` | scans 50–53 / pp. 49–52 | 3/3 | PASS |
+| 11 | `ஆங்காங்கு அடையாள முத்திரைகள்!` | scans 54–57 / pp. 53–56 | 3/3 | PASS |
+| 12 | `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` | scans 58–63 / pp. 57–62 | 5/5 | PASS |
+| 13 | `காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி!` | scans 64–67 / pp. 63–66 | 3/3 | PASS |
+| 14 | `கனக விஜயர் கல் சுமந்த வரலாறு!` | scans 68–77 / pp. 67–76 | 6/9 audited through scan 74 | PARTIAL |
 
-### Item 9 structural result
+### Scans 50–74 result
 
-- opening boundary scan 43→44: **PASS**;
-- join 44→45: `அப்படியே தருகிறேன்` → `கூட்டவோ, குறைக்கவோ இன்றி...`: **PASS**;
-- join 45→46: quoted statement closes before the next quoted response begins: **PASS**;
-- join 46→47: completed exposition flows into a new paragraph on the same argument: **PASS**;
-- join 47→48: `அதில் இல்லை உடன்பாடு` → `என்றிருந்த நிலமை இன்று மாறி விட்டதா ?`: **PASS**;
-- join 48→49: `அப்பட்டமாகவே அறிவித்து -` → `அவர்கள் வடக்கில் ஒரு விதம்`: **PASS**;
-- closing boundary scan 49→50: **PASS**;
-- dropped/duplicated text: **none**;
-- unresolved structural or quotation issue: **none**;
-- title-witness difference: **none**.
+- items **10–13** passed their opening boundaries, every internal join, and closing boundaries;
+- item **14** passed its opening boundary and joins **68→69, 69→70, 70→71, 71→72, 72→73, 73→74**;
+- scan 74 ends mid-sentence at `பறி போகலாம்! ஆனால் கனல்`, so item 14 is intentionally left open for the next iteration;
+- no dropped or duplicated source text was detected;
+- no new contents/title-page witness discrepancy was found in items 10–14;
+- source-level wording, punctuation, dialogue structure and physical line splits were preserved.
 
-The source-sensitive form `சளித்தோமா` remains unchanged. The previously documented scan 31→32 abrupt transition remains preserved as a source-level feature rather than treated as a missing-page repair target.
+### Assembly-readiness metadata correction
+
+Item 12 contained one non-textual structural inconsistency: scan 58 used the title-derived section id `item-12-varalattrup-poongaavil-vallith-thirumanam`, while scans 59–63 used `item-12-valli-thirumanam`. The `section` front matter on scans **59–63** was aligned to the scan-58 id so one source item cannot be split during later assembly. **No source transcription was changed.**
 
 ## Remaining Phase-3 activities
 
-1. continue **58-item boundary certification and within-item page-join continuity audit** through items 10–58;
+1. continue the **58-item boundary certification and within-item page-join continuity audit** in 25-scan iterations;
 2. **title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them;
 3. **canonical Tamil assembly** — only after structural and join audits pass;
 4. **assembly/source-completeness review and Tamil final clearance**.
 
 ## Exact next activity
 
-Audit **item 10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!`**, scans **50–53** / printed pages **49–52**, including all three internal joins and its closing boundary into item 11 at scan 54. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
+Process physical scans **75–99** as the next 25-scan iteration, beginning with the pending item-14 join **74→75**. Canonical Tamil assembly remains blocked until the full boundary/join audit is complete.
