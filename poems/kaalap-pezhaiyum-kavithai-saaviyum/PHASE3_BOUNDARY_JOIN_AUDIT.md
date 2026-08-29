@@ -18,10 +18,10 @@ Canonical Tamil assembly remains blocked until all 58 items pass this audit.
 
 ## Progress
 
-- items certified: **3/58**
-- last certified item: **3 — `‘காந்தக்கல்’ கதையொன்று!`**
+- items certified: **4/58**
+- last certified item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
 - unresolved structural joins: **none**
-- next item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
+- next item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
 
 ## Item 1 — `பொது உலகம்`
 
@@ -233,6 +233,100 @@ Therefore item 3 closes at scan 19 / printed page 18 and item 4 begins cleanly a
 - unresolved continuation punctuation or quotation carry-over: **none**;
 - title-witness issue: **none**.
 
+## Item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`
+
+**Status: PASS — boundary and all within-item joins certified.**
+
+- contents start page: **19**;
+- observed title scan: **20**;
+- reconciled physical range: **scans 20–24**;
+- reconciled printed-page range: **pages 19–23**;
+- title witness: contents and title page both read **`அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**; no title-witness difference.
+
+### Opening boundary — scan 19 → scan 20
+
+- scan 19 closes item 3 with a complete sentence followed by a printed ornamental closing device;
+- scan 20 visibly carries item number **4**, the title `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`, and begins a quotation with `“மாந்தக் குரங்கு / குரங்கு மாந்தன் என`;
+- no item-4 text occurs before the title scan and no item-3 text carries beyond the ornament on scan 19.
+
+**Opening boundary: CERTIFIED.**
+
+### Internal join — scan 20 → scan 21
+
+Scan 20 closes with:
+
+`சொக்க வைக்கும் எழுத்துக்குச் சொந்தக்காரர் / சொன்மழை பொழிகின்றார் நனையுங்கள்!`
+
+The quoted `பேனா நாத்தனம்` passage has already closed on scan 20. Scan 21 begins a new narrative/historical passage:
+
+`காலம் கி.மு. ஆறாயிரம் என்று கணக்கிட்டுக் கொண்டு - அன்று, / ஞாலம் பெற்றிருந்த நாகரிக ஞானம் கருதிப் பார்ப்போம்!`
+
+The page turn is structurally clean. There is no unfinished quotation, duplicate line, omitted continuation marker or unrelated item boundary.
+
+**Join 20→21: CERTIFIED.**
+
+### Internal join — scan 21 → scan 22
+
+Scan 21 closes with:
+
+`வினவிடத்தான் விரைந்து சென்றேன் ; அவள் / சினமுற்று சிலையொன்று செல்வதுபோல் சென்று விட்டாள்.`
+
+Scan 22 immediately continues:
+
+`சென்றவளைப் பின்தொடர்ந்து / செங்குத்தாய் நின்ற பாறை யொன்றில்`
+
+The narrative continuation is explicit: the woman who `சென்று விட்டாள்` is immediately followed on the next page. No line is duplicated or dropped and no separator interrupts the scene.
+
+**Join 21→22: CERTIFIED.**
+
+### Internal join — scan 22 → scan 23
+
+Scan 22 closes with:
+
+`அவளையும் வேட்டையாடி விளையாடித் தீர்த்து விட்டான்..... / அத்தனையும் நண்பர் இருவரும் வேடிக்கை பார்த்திருந்தோம்...`
+
+Scan 23 begins:
+
+`காட்டுமிராண்டித்தனமான காட்சிதான் எனினும் ; / கற்புக்குப் புனித இலக்கணம் சொல்கின்ற இந்தக் காலத்திலும்`
+
+The ellipsis-marked scene on scan 22 is followed directly by the narrator's reflection on that `காட்சிதான்`. The transition is continuous and no duplicated or missing passage is visible.
+
+**Join 22→23: CERTIFIED.**
+
+### Internal join — scan 23 → scan 24
+
+Scan 23 closes with the complete rhetorical question:
+
+`கற்பைப் பற்றி இரு பாலாரும் / கவலைப்படக் கூடாதென்றா கட்டளை பிறப்பித்தார்கள் ?`
+
+Scan 24 begins:
+
+`இப்படிக் / கருத்தாய்வு நடத்திய இரு நண்பர்களும் ; / கடைசியாக ஒரு முடிவுக்கு வந்தார்கள்`
+
+`இப்படிக்` explicitly refers back to the preceding discussion and leads into the concluding exchange. No quotation or sentence is broken incorrectly at the page turn.
+
+**Join 23→24: CERTIFIED.**
+
+### Closing boundary — scan 24 → scan 25
+
+- scan 24 completes the friends' exchange, then prints the complete explanatory parenthetical `( நியாண்டர்தால் பள்ளத்தாக்கில் வாழ்ந்தவன் நியாண்டர்தால் / மாந்தன் என்று அழைக்கப்பட்டான் )`;
+- a printed ornamental closing device follows the parenthetical;
+- scan 25 visibly begins item number **5** with the distinct title `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`.
+
+Therefore item 4 closes at scan 24 / printed page 23 and item 5 begins cleanly at scan 25 / printed page 24.
+
+**Closing boundary: CERTIFIED.**
+
+### Item-4 result
+
+- opening boundary: **PASS**;
+- internal joins: **4/4 PASS**;
+- closing boundary: **PASS**;
+- dropped/duplicated text detected: **none**;
+- unresolved continuation punctuation or quotation carry-over: **none**;
+- title-witness issue: **none**;
+- source-sensitive forms such as scan 21 `என்னோ டென்றேன்.` / `அணியாத தேன் ?` and scan 22 `வாய்ப்பை யெனக்` remain unchanged and are not structural defects.
+
 ## Exact next activity
 
-Audit **item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**, scans **20–24** / printed pages **19–23**, including all four internal joins and the closing boundary into item 5 at scan 25. Do not begin canonical Tamil assembly yet.
+Audit **item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**, scans **25–28** / printed pages **24–27**, including its three internal joins and the closing boundary into item 6 at scan 29. Do not begin canonical Tamil assembly yet.
