@@ -33,7 +33,7 @@ A reconciled printed page is not the same claim as a visibly printed numeral. So
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–6 / 58 certified.**
+**Status: IN PROGRESS — items 1–7 / 58 certified.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -98,15 +98,25 @@ Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
   - unresolved structural issue: **none**;
   - source-sensitive `ஏழைபாழையிடம்` and `எனந்தப்` remain unchanged.
 
-Item 6's most explicit joins are the embedded quotation `...பறவையாய்ப் பாம்பாகிக்` → `கல்லாய் மனிதராய்”` across scan 30→31, the carried open speech from scan 32 into scan 33, and the direct dialogue `“என்னைத் தெரிகிறதா மங்கை ?”` → `“ஏன் தெரியவில்லை ? என்னவனல்லவா நீ!` across scan 33→34. The scan 31→32 transition is rhetorically abrupt in the controlling source but has continuous printed pagination and no physical/source gap, so it is preserved rather than editorially bridged.
+- **Item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
+  - range: scans **35–39** / printed pages **34–38**;
+  - opening boundary scan 34→35: **PASS**;
+  - internal joins scan 35→36, 36→37, 37→38 and 38→39: **4/4 PASS**;
+  - closing boundary scan 39→40: **PASS**;
+  - dropped/duplicated text: **none**;
+  - unresolved continuation/quotation issue: **none**;
+  - title-witness difference: **none**;
+  - source-sensitive `மரத்தின் அழுத்தமான வேர்`, `மண்டூகே மனிதன்`, `கால்நடைப்`, `புதிய வைத்த`, and `போட்டவே` remain unchanged.
+
+Item 7 contains three especially direct cross-page continuations: scan 36 `மதிய உணவு முதலைக்கறி விருந்து என - நெஞ்சில்` → scan 37 `புதிய வைத்த பாசமுடன்`; scan 37 `அரிவாளை ஓங்கிப் போட்டவே;` → scan 38 `இரு கூறாகப் பிளந்தது முதலை ;`; and scan 38 `நுழைந்து விட்டார் - அந்த வீட்டுக்குள்` → scan 39 `எதிர்க்க முடியாமல் / எல்லோரும் ஓடி விட்டார் -`. Scan 39 closes with an ornament before scan 40 begins item 8.
 
 ## Remaining Phase-3 activities
 
-1. continue **58-item boundary certification and within-item page-join continuity audit** through items 7–58;
+1. continue **58-item boundary certification and within-item page-join continuity audit** through items 8–58;
 2. **title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them;
 3. **canonical Tamil assembly** — only after structural and join audits pass;
 4. **assembly/source-completeness review and Tamil final clearance**.
 
 ## Exact next activity
 
-Audit **item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`**, scans **35–39** / printed pages **34–38**, including all four internal joins and its closing boundary into item 8 at scan 40. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
+Audit **item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`**, scans **40–43** / printed pages **39–42**, including all three internal joins and its closing boundary into item 9 at scan 44. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
