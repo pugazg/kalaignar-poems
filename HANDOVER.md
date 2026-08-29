@@ -63,7 +63,7 @@ Do not return to transcription, Phase-2 verification, scan/page reconciliation, 
 
 ### Current canonical assembly state
 
-Canonical assembly status: **6/58 item files assembled**.
+Canonical assembly status: **11/58 item files assembled**.
 
 Existing canonical files:
 
@@ -72,11 +72,19 @@ Existing canonical files:
 - `sections/03.md` — item 3 — scans 16–19;
 - `sections/04.md` — item 4 — scans 20–24;
 - `sections/05.md` — item 5 — scans 25–28;
-- `sections/06.md` — item 6 — scans 29–34.
+- `sections/06.md` — item 6 — scans 29–34;
+- `sections/07.md` — item 7 — scans 35–39;
+- `sections/08.md` — item 8 — scans 40–43;
+- `sections/09.md` — item 9 — scans 44–49;
+- `sections/10.md` — item 10 — scans 50–53;
+- `sections/11.md` — item 11 — scans 54–57.
 
-Canonical-assembly iteration 1, scans **10–34**, is complete.
+Canonical-assembly iteration 1, scans **10–34**, is complete.  
+Canonical-assembly iteration 2, scans **35–59**, is complete.
 
-The work-state checkpoint immediately before this handover refresh was commit `95d59d9c73f853ba8dbd0ab20cb9f25417784e34` (`Record Kaalap Pezhai canonical assembly batch 1`). **Do not assume that SHA is still HEAD; always fetch live `main` first.**
+Item 12 spans scans **58–63**. Scans **58–59** were intentionally carried forward; no partial `sections/12.md` exists.
+
+The work-state checkpoint recording iteration 2 is commit `4eec236ba6ec0ec2f1b436ea97348bf75e51e8dd` (`Record Kaalap Pezhai canonical assembly batch 2`). Later status-sync commits follow it. **Do not assume that SHA is still HEAD; always fetch live `main` first.**
 
 ## Canonical assembly rules
 
@@ -121,19 +129,18 @@ Read the full decision record before encountering these items:
 
 ## Exact next activity
 
-Process **physical scans 35–59** as canonical-assembly iteration 2.
+Process **physical scans 60–84** as canonical-assembly iteration 3, while completing carried item 12 from its full certified range **58–63**.
 
-Create only the complete certified items contained in that 25-scan window:
+Create only the complete certified items available at that boundary:
 
-- item 7 — scans **35–39** → `sections/07.md`;
-- item 8 — scans **40–43** → `sections/08.md`;
-- item 9 — scans **44–49** → `sections/09.md`;
-- item 10 — scans **50–53** → `sections/10.md`;
-- item 11 — scans **54–57** → `sections/11.md`.
+- item 12 — scans **58–63** → `sections/12.md`;
+- item 13 — scans **64–67** → `sections/13.md`;
+- item 14 — scans **68–77** → `sections/14.md`;
+- item 15 — scans **78–81** → `sections/15.md`.
 
-Item 12 begins at scan **58** and continues through scan **63**. Because the next iteration ends at scan 59, **do not create `sections/12.md` in this iteration**. Carry item 12 forward until its full certified range is available in the following iteration.
+Item 16 begins at scan **82** and continues through scan **87**. Because iteration 3 ends at scan 84, **do not create `sections/16.md` in that iteration**. Carry item 16 forward until its full certified range is available in the following iteration.
 
-Before creating 07–11, inspect `sections/01.md` through `sections/06.md` for the canonical front-matter/provenance pattern and read the verified page records for scans 35–59.
+Before creating 12–15, inspect the existing canonical files for the front-matter/provenance pattern and read the verified page records for scans 60–84 together with carried scans 58–59 for item 12.
 
 At iteration completion:
 
