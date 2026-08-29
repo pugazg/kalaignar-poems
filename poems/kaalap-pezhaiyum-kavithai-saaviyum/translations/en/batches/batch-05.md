@@ -216,7 +216,7 @@ testimony reached me through *sruti* — through hearing.
 
 “Of Naga Nadu, whose ruler makes it tremble,
 of victorious-spear King Valaivanan and his queen,
-from the womb of Vaasamayilai
+from the womb of that fragrant peahen-like queen
 was born the maiden called Peevalai;
 on the very day of her birth
 a diviner foretold:
@@ -682,7 +682,7 @@ and rejoiced!
 - Scan 52's source-supported compact form `மாக்கலத்தில்` is not silently altered in Tamil. The English reads it contextually as a vessel-setting; this interpretive choice is recorded here rather than used to repair the source.
 - The source-visible broken form `குறிப்பிட்-` on scan 52 is represented by a dash in English rather than silently completed as a different Tamil reading.
 - `நாவாய்கள்` / `நாய்கள்` and `நாவலந்தீவு` are kept visible through transliteration because the source itself makes a lexical/history claim about those forms.
-- Item 11 retains the classical *Manimekalai* quotation as translated verse and then preserves Kalaignar's own prose explanation, family-planning satire and Peevalai–Nedumudikilli narrative rather than collapsing the two layers.
+- Item 11 retains the classical *Manimekalai* quotation as translated verse and then preserves Kalaignar's own prose explanation, family-planning satire and Peevalai–Nedumudikilli narrative rather than collapsing the two layers. The compact classical phrasing is translated conservatively in light of the poem's immediately following explanation; no new proper name is inferred from `வாச மயிலை`.
 - `பூம்புகார்` / `வீண்புகார்` contains audible wordplay; the English keeps *Poompuhar* and explicitly marks the later *puhar* as gossip rather than erasing the play.
 - `தொண்டைக் கொடி`, `காதம்` and `அகரம்` remain culturally/source-active as *thondai* creeper, *kaadam* and `akaram`; no outside historical correction is inserted.
 - The scan-57 form `பன நுங்கு` is source-verified. English renders the contextual image as plentiful palmyra fruit, but the Tamil source is not normalized to another spelling.
