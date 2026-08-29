@@ -14,9 +14,9 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–3 / 58 certified**
-- last certified item: **3 — `‘காந்தக்கல்’ கதையொன்று!`**
-- next item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
+- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–4 / 58 certified**
+- last certified item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
+- next item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -45,7 +45,7 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 
 ## Phase 3 activity 2 — boundary / join audit
 
-**IN PROGRESS — 3/58 items certified.**
+**IN PROGRESS — 4/58 items certified.**
 
 ### Item 1 — `பொது உலகம்`
 
@@ -81,7 +81,19 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 - unresolved continuation/quotation issue: **none**;
 - title-witness difference: **none**.
 
-The item-3 joins include `நிற்கும் நிலை போலவே` → `படி முறை யெனும்`, `முத்தாரக் கதைகள் சொல்லி ;` → `அயர்ச்சியிலே உமை ஆழ்த்தாமல்`, and `தொடங்கினானென்றும்` → `இயல் என்பது இவற்றுக்கு அடுத்ததே யென்றும்`. Scan 19 then closes with a complete sentence and ornament before scan 20 begins item 4.
+### Item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`
+
+**CERTIFIED.** Range: scans **20–24** / printed pages **19–23**.
+
+- opening boundary scan 19→20: **PASS**;
+- internal joins scan 20→21, 21→22, 22→23 and 23→24: **4/4 PASS**;
+- closing boundary scan 24→25: **PASS**;
+- dropped or duplicated text: **none**;
+- unresolved continuation/quotation issue: **none**;
+- title-witness difference: **none**;
+- source-sensitive `என்னோ டென்றேன்.`, `அணியாத தேன் ?` and `வாய்ப்பை யெனக்` remain preserved.
+
+The clearest item-4 continuation is `சினமுற்று சிலையொன்று செல்வதுபோல் சென்று விட்டாள்.` → `சென்றவளைப் பின்தொடர்ந்து`. Scan 24 ends with a complete explanatory parenthetical and ornament before scan 25 begins item 5.
 
 Full evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -93,6 +105,6 @@ The contents witness and title-page witness should remain separately documented 
 
 ## Exact next activity
 
-Audit **item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**, scans **20–24** / printed pages **19–23**. Check all four internal joins and the closing boundary into item 5 at scan 25.
+Audit **item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**, scans **25–28** / printed pages **24–27**. Check all three internal joins and the closing boundary into item 6 at scan 29.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
