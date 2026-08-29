@@ -167,19 +167,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 04 / item 9 / scan 49**.
+Reviewed through **Batch 05 / item 12 / scan 63**.
 
-- batches reviewed: **4/21**;
-- items translated and reviewed: **9/58**;
-- numbered-item scans covered: **40/290**;
+- batches reviewed: **5/21**;
+- items translated and reviewed: **12/58**;
+- numbered-item scans covered: **54/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 05 — items 10–12**:
+Translate and review **Batch 06 — items 13–15**:
 
-- item 10 `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` — scans **50–53**;
-- item 11 `ஆங்காங்கு அடையாள முத்திரைகள்!` — scans **54–57**;
-- item 12 `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` — scans **58–63**.
+- item 13 `காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி!` — scans **64–67**;
+- item 14 `கனக விஜயர் கல் சுமந்த வரலாறு!` — scans **68–77**;
+- item 15 `பருகிடலாம் இந்த “ஆரிய” தேநீரை!` — scans **78–81**.
 
-Create `batches/batch-05.md`, preserving item boundaries and scan provenance. Stop after item 12.
+Create `batches/batch-06.md`, preserving item boundaries and scan provenance. Stop after item 15.
