@@ -14,14 +14,14 @@ Routine Phase-3 boundary/join work is processed in **25-physical-scan iterations
 
 ## Progress
 
-- items fully certified: **40/58**
-- last fully certified item: **40 — `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`**
-- latest 25-scan iteration completed: **scans 175–199**
-- current partial item: **none**
+- items fully certified: **45/58**
+- last fully certified item: **45 — `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!`**
+- latest 25-scan iteration completed: **scans 200–224**
+- current partial item: **46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; title scan `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!`**, audited through scan **224 / printed page 223**
 - unresolved structural joins: **none**
 - Tamil transcription changes in this iteration: **none**
 - structural metadata changes in this iteration: **none**
-- next 25-scan iteration: **scans 200–224**
+- next 25-scan iteration: **scans 225–249**, beginning with join **224→225**
 
 ## Certified-item register
 
@@ -47,92 +47,108 @@ Routine Phase-3 boundary/join work is processed in **25-physical-scan iterations
 | 38 | `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!` | 186–190 | 185–189 | 4/4 | PASS |
 | 39 | `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!` | 191–194 | 190–193 | 3/3 | PASS |
 | 40 | contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` | 195–199 | 194–198 | 4/4 | PASS; title witness omits final `!` |
+| 41 | `பாதுகாப்போம்; பல்லவர் தலைநகரம்!` | 200–203 | 199–202 | 3/3 | PASS |
+| 42 | `பட்டயங்கள், பறைசாற்றுகின்றன!` | 204–206 | 203–205 | 2/2 | PASS |
+| 43 | `திராவிட இனத்தின் தமிழர் மரபு!` | 207–210 | 206–209 | 3/3 | PASS |
+| 44 | contents `இரும்புத் தூணும், ஈக்களின் இறகும்!` | 211–215 | 210–214 | 4/4 | PASS; title witness omits comma |
+| 45 | `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` | 216–219 | 215–218 | 3/3 | PASS |
+| 46 | contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` | 220–225 | 219–224 | 4/5 audited | PARTIAL through scan 224; title witness adds `!` |
 
 ## Durable structural notes
 
 - **scan 31→32:** the abrupt rhetorical/narrative transition is source-level; continuous pagination and intact page edges show no missing physical scan. It remains unrepaired.
 - **item 12 metadata:** scans 59–63 were previously aligned to the title-scan section id `item-12-varalattrup-poongaavil-vallith-thirumanam`; no Tamil text changed.
-- contents/title witnesses remain separate and unreconciled. Reached discrepancies now include items **18, 22, 25, 26, 29, 31, 32, 37 and 40**.
+- contents/title witnesses remain separate and unreconciled. Reached discrepancies now include items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44 and 46**.
 - **item 37 source numbering anomaly:** the contents sequence makes this item 37, but scan 179 visibly prints item number **36**. The anomaly is preserved exactly and is not renumbered in the source transcription.
+- **scan 222→223:** item 46 has a source-level rhetorical transition after `பகுத்துணர்ந்து முடிவுக்கு வருவதற்கு முன்பே` into the renewed இராசராசன் narrative. Consecutive logical pagination, intact page edges and the controlling scans show no physical/source gap; no editorial bridge is supplied.
 
-## 25-scan iteration — scans 175–199
+## 25-scan iteration — scans 200–224
 
-### Item 36 — `இளையவன்; அவன் ஒரு தமிழ் மகன்!`
-
-**Status: PASS — fully certified.**
-
-The preceding iteration established opening boundary **172→173: PASS** and join **173→174: PASS**. This iteration completes the item.
-
-- join **174→175: PASS** — the `அன்னிமிஞிலி` / `மிஞிலி` discussion on scan 174 proceeds into the descriptive and narrative material on scan 175 with no intervening heading, duplicate page or missing physical scan;
-- join **175→176: PASS** — the cow/crop episode on scan 175 proceeds into the conspirators' action against the girl's father on scan 176; the source transition is intact and no material is editorially supplied;
-- join **176→177: PASS** — scan 176 ends `தலைவில் நின்றவள் பதில் சொன்னாள்.` and scan 177 begins her direct vow `“உயிர் போன்ற தந்தையினைக்...`;
-- join **177→178: PASS** — the open quotation at the end of scan 177 (`“வாளுறை விட்டு எழுந்தது பார்!...`) continues and closes on scan 178 before the battle/result and source note;
-- closing boundary **178→179: PASS** — scan 178 completes the poem, three-star separator and `குறிப்பு` block; scan 179 begins the next numbered title page;
-- internal joins: **5/5 PASS**;
-- title-witness difference: **none**;
-- dropped/duplicated text: **none**.
-
-### Item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`
+### Item 41 — `பாதுகாப்போம்; பல்லவர் தலைநகரம்!`
 
 **Status: PASS — fully certified.**
 
-- opening boundary **178→179: PASS**;
-- source title scan 179 visibly prints item number **36**, not 37, and reads **`அன்பால் அவனை விலைகொள்ள முடியுமோ?`**; this differs from the contents witness in spacing and final interrogative form (`முடியுமா?` / `முடியுமோ?`); both witnesses and the printed-number anomaly remain preserved;
-- join **179→180: PASS** — scan 179 ends `...பெருமான சாத்தந்தையார்... - சற்று`; scan 180 continues `ஆழமாய்ச் சென்று ஆய்ந்து படித்ததாலே`;
-- join **180→181: PASS** — `...நற்கிள்ளியனித்த` continues into `நல்லுரை எதனையும் ஏற்றிட மறுத்து,`;
-- join **181→182: PASS** — the prince's departure dialogue closes at `போகின்றேன்” என்று`; scan 182 continues with `பொற்கோவாம் பெருநற்கிள்ளி...`;
-- join **182→183: PASS** — `யார் அது ; உறையூர் தித்தன் மகன் பெருநற்கிள்ளியென்று` continues into the crowd reaction `கையொலி செய்து ஒரு கூட்டம்!`;
-- join **183→184: PASS** — `சொற்கவை நனி சொட்டச் சொட்ட` continues into `உயர் தமிழ்க் கவிஞர் சாத்தந்தை, / உவமை கூறி...`;
-- join **184→185: PASS** — `முக்காவல் நாட்டு மக்கள் பூமாலைக்கும்` continues into `தலை வணங்கி நன்றியினை ; நற்கிள்ளி...`;
-- closing boundary **185→186: PASS** — scan 185 closes the Narkannai episode and ornament; scan 186 begins item 38;
-- internal joins: **6/6 PASS**;
-- dropped/duplicated text: **none**.
+Opening boundary **199→200: PASS** was certified in the preceding iteration.
 
-### Item 38 — `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!`
-
-**Status: PASS — fully certified.**
-
-- opening boundary **185→186: PASS**;
-- join **186→187: PASS** — the historical setup moves directly into the literary witnesses for கிள்ளிவளவன்;
-- join **187→188: PASS** — the quoted address ending `...களத்தில் பகைவர் உயிரை` continues directly as `நினைத்தவுடன் ஒரு கணத்தில் போக்குகிறாய்!”`;
-- join **188→189: PASS** — `உழவர் குலம் போற்றி வாழ்க!” என்று` is followed by the attribution to `வெள்ளைக்குடி நாகனார்`;
-- join **189→190: PASS** — the report of the king's death and the poets' grief leads directly into ஐயூர் முடவனார்'s lament on scan 190;
-- closing boundary **190→191: PASS** — scan 190 closes the lament and ornament; scan 191 begins item 39;
-- internal joins: **4/4 PASS**;
-- title-witness difference: **none**;
-- dropped/duplicated text: **none**.
-
-### Item 39 — `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!`
-
-**Status: PASS — fully certified.**
-
-- opening boundary **190→191: PASS**;
-- join **191→192: PASS** — the overview of early dynasties and regional rule continues into the discussion of later/intermediate political history;
-- join **192→193: PASS** — the Pallava discussion continues from Mahendravarman/Narasimhavarman into the Kanchi and inscription evidence without a source gap;
-- join **193→194: PASS** — scan 193 ends with the challenge `வருகிறாயா “நெருக்கு நேர் போருக்கு” என்று ;`; scan 194 begins `அறைகூவல் விடுத்தவுடன் -` and completes the Vatapi/Paranjothi episode;
-- closing boundary **194→195: PASS** — scan 194 completes the Periyapuranam quotation/citation and ornament; scan 195 begins item 40;
+- join **200→201: PASS** — scan 200 closes the opening evidentiary setup with the Kāsākudi / Vēlūr-pālaiyam copper-plate evidence; scan 201 continues with Pullaḷūr, cave-temple and Kanchi-locality evidence. The paragraph transition is source-complete and no line or page is missing;
+- join **201→202: PASS** — scan 201 ends `மகேந்திர வர்மன் “மத்த விலாசம்” என`; scan 202 immediately continues `நகைச்சுவை நாடகம் எழுதி, நடிக்கச் செய்து...`;
+- join **202→203: PASS** — scan 202 reaches `பல்லவர் வரலாற்றுப் பகுதியின் விளக்கம் பயன்படுமாக!` and prints a three-star internal divider; scan 203 nevertheless continues the same numbered item with the final `‘காஞ்சித் தலைநகர் அல்ல’...` counter-evidence. The ornament is therefore preserved as an internal structural divider, not misclassified as an item ending;
+- closing boundary **203→204: PASS** — scan 203 completes `ஏற்ற சான்றாக அமையத் தக்கது!` and the closing ornament; scan 204 begins item 42;
 - internal joins: **3/3 PASS**;
 - title-witness difference: **none**;
 - dropped/duplicated text: **none**.
 
-### Item 40 — contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`
+### Item 42 — `பட்டயங்கள், பறைசாற்றுகின்றன!`
 
 **Status: PASS — fully certified.**
 
-- opening boundary **194→195: PASS**;
-- title scan 195 visibly reads **`காஞ்சி மண் காட்டிய கனிவும் கருணையும்`**, omitting the final `!` in the contents witness; both remain preserved;
-- join **195→196: PASS** — `ஆணவத்திற்கு முடிவு கட்ட ஆர்த்தெழுந்தான் நரசிம்மன் -` continues into the Vatapi victory account on scan 196;
-- join **196→197: PASS** — `இலங்கையில் மானவர்மன் என்றோர் சிற்றரசன் ; அவனை` continues directly as `மாற்றார் தோற்கடித்துக் குடும்பத்துடன் தோணியொன்றில்-இந்து...`;
-- join **197→198: PASS** — மானவர்மன்'s request for aid is answered immediately by நரசிம்மன்'s offer of troops and Paranjothi's support;
-- join **198→199: PASS** — scan 198 ends `உடலைக் கம்பளியால் மூடிக் கொண்டு;`; scan 199 continues `கப்பலின் வேறு வழியாகக் காஞ்சியின் / காவலன் இறங்கி விட்டான்;`;
-- closing boundary **199→200: PASS** — scan 199 closes with `எனினும், மமதை கொண்டானில்லை!` and ornament; scan 200 visibly begins item 41 `பாதுகாப்போம்; பல்லவர் தலைநகரம்!`;
+- opening boundary **203→204: PASS**;
+- join **204→205: PASS** — scan 204 closes the Nelveli/Vikramaditya opening account; scan 205 continues by dating and analysing that battle before moving to the later Kanchi attack. No physical or textual gap intervenes;
+- join **205→206: PASS** — scan 205 ends with the allied Tamil armies departing toward `பெருவளநல்லூர் போர்க்களம்`; scan 206 opens with the `எலிகள் ஏழெட்டு... / புலிகளே ஒன்று சேர்ந்து விட்டால்...` rhetorical comparison and carries the same coalition/victory argument to its documentary citations;
+- closing boundary **206→207: PASS** — scan 206 completes the parenthetical list of corroborating sources and the closing ornament; scan 207 begins item 43;
+- internal joins: **2/2 PASS**;
+- title-witness difference: **none**;
+- dropped/duplicated text: **none**.
+
+### Item 43 — `திராவிட இனத்தின் தமிழர் மரபு!`
+
+**Status: PASS — fully certified.**
+
+- opening boundary **206→207: PASS**;
+- join **207→208: PASS** — scan 207 ends `வேலைகள் அவற்றுக்குள்ளவற்றை வீர்பால் ஒப்படைத்துவிட்டு ;`; scan 208 directly continues `வியர்வை நீக்கிடவும் - அயர்வைப் போக்கிடவும் - ஓய்வு கொண்டு...`;
+- join **208→209: PASS** — scan 208 completes the introductory argument and prints a three-star internal divider; scan 209 continues the same item with the chronology beginning `அன்றந்தக் காலம் ஆலமரம் போல் தழைத்திருந்த...`. The divider is source-internal, not an item boundary;
+- join **209→210: PASS** — scan 209 ends `விண்ணும் மண்ணும் அதிர நடந்த திருப்புறம்பியப் போரில் - தன்`; scan 210 continues `திறமனைத்தும் காட்டி வெற்றி கண்டதைத் திசையெட்டும் புகழ்ந்தது.`;
+- closing boundary **210→211: PASS** — scan 210 closes the historical argument and ornament; scan 211 begins item 44;
+- internal joins: **3/3 PASS**;
+- title-witness difference: **none**;
+- dropped/duplicated text: **none**.
+
+### Item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`
+
+**Status: PASS — fully certified.**
+
+- opening boundary **210→211: PASS**;
+- title scan 211 visibly reads **`இரும்புத் தூணும் ஈக்களின் இறகும்!`**, omitting the contents comma after `தூணும்`; both witnesses remain preserved;
+- join **211→212: PASS** — scan 211 ends `இளையவனாக இவன் இருந்த போதிலும் ; போரில்`; scan 212 immediately continues `வீர பாண்டியனை எதிர்த்துச் சேவூர் எனுமிடத்தில்...`;
+- join **212→213: PASS** — scan 212 ends the open quotation `“ஈன்ற பொழுதின்`; scan 213 completes it with `பெரிதுவக்கும் தன் மகனைச் சான்றோன் எனக் கேட்ட தாய்”`;
+- join **213→214: PASS** — the succession/conspiracy discussion continues in source order from scan 213 into the alternate-account discussion on scan 214 with no missing or repeated passage;
+- join **214→215: PASS** — scan 214 ends `சூளுரைத்துப் பொறுப்பேற்ற இராசராசன் ; சிற்றப்பா மதுராந்தகன்`; scan 215 continues `எடுத்து வைக்கும் ஒவ்வொரு அடியையும் - / சற்றும் கண் அயராமல் கவனித்து வந்தான் ;`;
+- closing boundary **215→216: PASS** — scan 215 completes the item and ornament; scan 216 begins item 45;
 - internal joins: **4/4 PASS**;
 - dropped/duplicated text: **none**.
 
+### Item 45 — `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!`
+
+**Status: PASS — fully certified.**
+
+- opening boundary **215→216: PASS**;
+- join **216→217: PASS** — scan 216 closes the inscription-based suspect list; scan 217 continues by reviewing the differing scholarly interpretations and then returns to இராசராசன்'s succession. The transition is complete in the controlling source;
+- join **217→218: PASS** — scan 217's discussion of whether மதுராந்தகன்'s appointment of அருண்மொழி supports or conceals guilt continues on scan 218 with the opposing historian/scholar positions and the decision to move forward from the dispute;
+- join **218→219: PASS** — scan 218 ends `மறப்போம் பகை துறப்போம் சோழ / மண்டலத்துப் பலம் பெருக்குவோம்`; scan 219 immediately continues `எனச் சொல்லாற்றல் செயல்பட்டு / எப்பகையும் எதிர் நில்லாமல்...`;
+- closing boundary **219→220: PASS** — scan 219 closes with the joint இராசராசன் / இராசேந்திரன் territorial summary and ornament; scan 220 begins item 46;
+- internal joins: **3/3 PASS**;
+- title-witness difference: **none**;
+- dropped/duplicated text: **none**.
+
+### Item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`
+
+**Status: PARTIAL — audited through scan 224.**
+
+- opening boundary **219→220: PASS**;
+- title scan 220 visibly reads **`முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!`**, adding a final `!` absent from the contents witness; both remain preserved;
+- join **220→221: PASS** — scan 220 ends `வாய்ப்பு வந்த போது தமிழர் வாழ்வை நிலைநிறுத்திக் கொள்ள`; scan 221 continues the same critical argument with `நினையாத நெஞ்சத்தினராய் - முடியாத முடவர்களாய் - ...` and the resulting `முணுமுணுக்கும் சோகம்`;
+- join **221→222: PASS** — scan 221's discussion of the `உடன்கட்டை` custom continues on scan 222 with `பீடித்து விட்ட அந்தத் தொத்து நோய்க்கு மருந்து ; / இராஜாராம் மோகன் ராய்தானே...` and expands the same cultural critique;
+- join **222→223: PASS WITH SOURCE-LEVEL RHETORICAL TRANSITION PRESERVED** — scan 222 ends `பகுத்துணர்ந்து முடிவுக்கு வருவதற்கு முன்பே`; scan 223 opens `பட்டத்துக்கு வந்தோர் வரிசையை இராசராசன் வென்றான்.` Consecutive pagination and intact scan edges show no missing source page, so the abruptness is preserved rather than repaired;
+- join **223→224: PASS** — scan 223 ends `வந்து விட்டேன் என்று வந்து கொண்டே வந்தியத் தேவன் சிரிப்பான் -`; scan 224 continues `அக்காளின் கணவன் அரசின் மிகப் பெரிய அதிகாரி ; ...` and carries the family/court scene forward;
+- scan 224 closes at `பரபரப்பு! சுறுசுறுப்பு! என்றோ ஒருநாள் இயற்கை அளித்தால் ; / இடைவேளை!` but item 46 continues beyond this 25-scan iteration;
+- internal joins audited so far: **4/5 PASS**;
+- join **224→225** and the later closing boundary remain pending;
+- dropped/duplicated text detected so far: **none**.
+
 ## Source-sensitive readings preserved in this pass
 
-No Phase-2 source reading was normalized. Among the forms independently retained are `கன்னலடா`, `வஞ்சிதனைக்`, `பயற்றும்`, `மேய்ச்ச லென்றால்`, `பழுத்த கிழம்`, `தலைவில் நின்றவள்`, `அந்தகாராய்`, `அறியாய்க்காரர்களை`, `சூளுரை பொன்றும்`, `வீழ்ந்திறந்தார்`, `காவற்பெண்டு`, `ஆவுக்கு விழுதெனவே`, `கரணையெனக்`, `நற்கிள்ளியனித்த`, `நாத்தழும்பேறி`, `சண்டமாருதச் சுழற்சிபோல்`, `கையுசி`, `சோணையும்`, `அய்நூறு`, `பூழு`, `பக்கமெலாம்`, `சிறுகுடி யெனும்`, `விட்டான்செருக்களத்தில்`, `புயங்கொள்ளியை`, `எண் ணிலகவர்ந்தே`, `தோணியொன்றில்-இந்து`, `இன்மில்லாவிடினும்`, `அகம் வினவு`, `எஃகினைய உளம்`, and `அவர்க்கட்டு`.
+No Phase-2 source reading was normalized. Among the forms retained are `தர்மராசர் மண்டபமும்`, `சித்திர காரப் புலி`, `கட்வல் ; சோர, கேந்தூர்`, `கந்தலாடை யொன்றினால்`, `வீர்பால்`, `அன்றந்தக் காலம்`, `அகமிக`, `முடிவிழந்த`, `திறமனைத்தும்`, `அவ்வர் மகன்கள்`, `குறிப்பிடத்தக்கோர்`, `இறும்பூதெய்தினாள்`, `இற்றுப் போகும் ?`, `ஏற்றுவரே!`, `இராசராசன் கி.பி. 985 ஜூன் திங்கள்`, `பழங் குலங்கும் பஞ்சசோலைப் பூ மலராத பழங்காலத்தே`, `நெரியாத`, `அய்ந்தும் ஆறும்`, and `ஈட்டி யொன்றை`.
 
 ## Exact next activity
 
-Process **physical scans 200–224** as the next 25-page Phase-3 iteration. Opening boundary **199→200** is already certified; begin with item 41's first internal join **200→201** and continue through the iteration boundary. Do not begin canonical Tamil assembly yet.
+Process **physical scans 225–249** as the next 25-page Phase-3 iteration, beginning with item 46's pending join **224→225**. Do not begin canonical Tamil assembly yet.
