@@ -14,10 +14,10 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — boundary / within-item page-join audit: **IN PROGRESS — items 1–13 / 58 fully certified**
-- current partial item: **14 — `கனக விஜயர் கல் சுமந்த வரலாறு!`, audited through scan 74**
-- latest Phase-3 iteration: **25 physical scans, 50–74 — COMPLETE**
-- next Phase-3 iteration: **25 physical scans, 75–99**
+- Phase-3 activity 2 — boundary / within-item page-join audit: **IN PROGRESS — items 1–18 / 58 fully certified**
+- current partial item: **19 — `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!`, opened at scan 99**
+- latest Phase-3 iteration: **25 physical scans, 75–99 — COMPLETE**
+- next Phase-3 iteration: **25 physical scans, 100–124**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -38,30 +38,36 @@ All **306 scans** are structurally accounted for, and all **58** contents start 
 
 ## Phase 3 activity 2 — boundary / join audit
 
-**IN PROGRESS — 13/58 items fully certified.**
+**IN PROGRESS — 18/58 items fully certified.**
 
-The current 25-scan iteration covered **physical scans 50–74**:
+The latest 25-scan iteration covered **physical scans 75–99**:
 
-- item 10 `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` — scans 50–53 / pp. 49–52 — **CERTIFIED**;
-- item 11 `ஆங்காங்கு அடையாள முத்திரைகள்!` — scans 54–57 / pp. 53–56 — **CERTIFIED**;
-- item 12 `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` — scans 58–63 / pp. 57–62 — **CERTIFIED**;
-- item 13 `காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி!` — scans 64–67 / pp. 63–66 — **CERTIFIED**;
-- item 14 `கனக விஜயர் கல் சுமந்த வரலாறு!` — scans 68–74 audited in this iteration — **PARTIAL**.
+- item 14 `கனக விஜயர் கல் சுமந்த வரலாறு!` — scans 68–77 / pp. 67–76 — **CERTIFIED**;
+- item 15 `பருகிடலாம் இந்த “ஆரிய” தேநீரை!` — scans 78–81 / pp. 77–80 — **CERTIFIED**;
+- item 16 `சுளையில் ஒன்றியிருக்கும் சுவையாக!` — scans 82–87 / pp. 81–86 — **CERTIFIED**;
+- item 17 `உலக வரலாறு எங்கிருந்து வருவது?` — scans 88–95 / pp. 87–94 — **CERTIFIED**;
+- item 18 title-page witness `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` — scans 96–98 / pp. 95–97 — **CERTIFIED**;
+- item 19 `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` — opening boundary at scan 99 — **PARTIAL**.
 
-Item 14 has passed its opening boundary and joins **68→69 through 73→74**. Scan 74 ends mid-sentence at `பறி போகலாம்! ஆனால் கனல்`; therefore item 14 is not marked certified yet. The next iteration resumes with **74→75** and then continues through physical scan 99.
+Important cross-page continuations in this iteration include:
 
-### Structural metadata fix
+- item 14: `பறி போகலாம்! ஆனால் கனல்` → `கக்கும் கண்களோடு அவை` across **74→75**;
+- item 16: `தாழ்வாரத்தில் தத்தித் தவித்திடும்` → `தமிழக வரலாறு எனும் குழந்தையை` across **86→87**;
+- item 17: `தாக்கித் தகர்த்துத்` → `கொண்டிருப்பதும்;` across **91→92**, and the quoted தேவநேயப் பாவாணர் passage `முறையே வேளாண்மைப்` → `பெருக்கமும், வாணிபப் பெருக்கமும்...` across **94→95**.
 
-During item-12 review, scans 59–63 were found to use the abbreviated section id `item-12-valli-thirumanam`, while the title scan 58 used `item-12-varalattrup-poongaavil-vallith-thirumanam`. The section metadata on scans **59–63** was aligned to the title-scan id to keep the item structurally unified for later assembly. **No poem text, punctuation, spelling or lineation changed.**
-
-No new title-witness difference was found in items 10–14. Source-sensitive wording and physical lineation remain preserved.
+No dropped or duplicated source text was found. No new section/front-matter mismatch was found. **No Tamil source text, spelling, punctuation or lineation was changed in scans 75–99.**
 
 ## Title witnesses remain separate
 
-Phase 3 must not silently normalize contents/title-page differences. Known examples remain preserved in `indexes/item-title-map.md`, including items 18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58. The item-37 title page also retains its visibly printed item-number anomaly `36`.
+Phase 3 must not silently normalize contents/title-page differences. Item 18 was encountered in this iteration and remains explicitly preserved as:
+
+- contents witness: `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`;
+- title-page witness: `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`.
+
+Other known witness differences remain preserved in `indexes/item-title-map.md`, including items 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58. The item-37 title page also retains its visibly printed item-number anomaly `36`.
 
 ## Exact next activity
 
-Process **physical scans 75–99** as the next 25-page Phase-3 iteration, starting with item 14's pending join **74→75**.
+Process **physical scans 100–124** as the next 25-page Phase-3 iteration, beginning with item 19's pending join **99→100**.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
