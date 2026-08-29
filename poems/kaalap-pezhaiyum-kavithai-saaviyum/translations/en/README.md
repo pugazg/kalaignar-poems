@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–02 reviewed PASS; 4/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS; 6/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -35,6 +35,7 @@ translations/en/
   batches/
     batch-01.md  # reviewed PASS
     batch-02.md  # reviewed PASS
+    batch-03.md  # reviewed PASS
     ...
     batch-29.md
   kaalap-pezhaiyum-kavithai-saaviyum-en.md
@@ -50,13 +51,14 @@ Each routine translation batch contains **two complete canonical items**. No ite
 |---:|---:|---:|---|
 | 01 | 1–2 | 10–15 | **reviewed — PASS** |
 | 02 | 3–4 | 16–24 | **reviewed — PASS** |
-| 03–29 | 5–58 | 25–299 | planned |
+| 03 | 5–6 | 25–34 | **reviewed — PASS** |
+| 04–29 | 7–58 | 35–299 | planned |
 
 Current totals:
 
-- batches reviewed: **2/29**;
-- items translated and reviewed: **4/58**;
-- certified source scans represented in reviewed English batches: **15/290 numbered-item scans**;
+- batches reviewed: **3/29**;
+- items translated and reviewed: **6/58**;
+- certified source scans represented in reviewed English batches: **25/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -113,12 +115,26 @@ Reviewed batch: [`batches/batch-02.md`](batches/batch-02.md)
 - Kalaignar-language/voice review: **PASS**;
 - Tamil source altered for English: **NO**.
 
+### Batch 03
+
+Reviewed batch: [`batches/batch-03.md`](batches/batch-03.md)
+
+- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28**;
+- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34**;
+- source scans represented: **10/10**;
+- omissions / duplications: **0 / 0**;
+- Tolkappiyam, Diva–Sur, gesture/language, Kural and Aathichudi references retained: **PASS**;
+- class rhetoric, Bharathidasan reference, Nehru–Tiruvachakam passage, landlord episode and final `அறப்போர்` contrast retained: **PASS**;
+- source-sensitive compact Bharathidasan phrase documented without silent Tamil repair: **PASS**;
+- Kalaignar-language/voice review: **PASS**;
+- Tamil source altered for English: **NO**.
+
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–29** — **IN PROGRESS; 2/29 reviewed**;
+2. translate and review Batches **01–29** — **IN PROGRESS; 3/29 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -126,9 +142,9 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 03 — items 5–6**:
+Translate and review **Batch 04 — items 7–8**:
 
-- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28** — `../../sections/05.md`;
-- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34** — `../../sections/06.md`.
+- item 7 — `வரலாற்றுக் காலத்தின் கோலம்!` — scans **35–39** — `../../sections/07.md`;
+- item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` — scans **40–43** — `../../sections/08.md`.
 
-Create `batches/batch-03.md`. Stop after item 6; do not begin item 7.
+Create `batches/batch-04.md`. Stop after item 8; do not begin item 9.
