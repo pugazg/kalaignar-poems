@@ -2,9 +2,9 @@
 
 ## Status
 
-**PLANNING COMPLETE — 58 final-cleared Tamil items mapped to 29 translation batches; translation not yet started.**
+**PHASE 4 IN PROGRESS — Batch 01 reviewed PASS; 2/58 items translated and reviewed; 1/29 batches complete.**
 
-Planning began from live `main` after Tamil final clearance. No Tamil canonical file or verified page record is changed by this plan.
+Planning began from live `main` after Tamil final clearance. No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
 ## Governing objective
 
@@ -32,7 +32,7 @@ A translation difficulty is never a reason to silently change the Tamil source.
 - Routine batch size is **two complete items**.
 - Planned batches: **29**.
 - No batch may cut through an item.
-- English batch files will be `batches/batch-01.md` through `batches/batch-29.md`.
+- English batch files are `batches/batch-01.md` through `batches/batch-29.md`.
 - Each item inside a batch must retain explicit source metadata: stable item number, canonical Tamil title, canonical file, physical scan range and title-witness status.
 - The eventual collection assembly will use only reviewed batch bodies in stable item order.
 
@@ -70,7 +70,7 @@ For those items:
 
 ## Names, terms and transliteration
 
-A live terminology ledger should be maintained inside batch review notes and consolidated during the full-work editorial review.
+A live terminology ledger is maintained inside batch review notes and will be consolidated during the full-work editorial review.
 
 Default principles:
 
@@ -86,7 +86,7 @@ No global glossary choice should override the wording/context of an individual s
 
 | Batch | Items | Physical scans | Canonical files | Status |
 |---:|---:|---:|---|---|
-| 01 | 1–2 | 10–15 | `01.md`, `02.md` | planned |
+| 01 | 1–2 | 10–15 | `01.md`, `02.md` | **reviewed — PASS** |
 | 02 | 3–4 | 16–24 | `03.md`, `04.md` | planned |
 | 03 | 5–6 | 25–34 | `05.md`, `06.md` | planned |
 | 04 | 7–8 | 35–43 | `07.md`, `08.md` | planned |
@@ -116,6 +116,13 @@ No global glossary choice should override the wording/context of an individual s
 | 28 | 55–56 | 277–288 | `55.md`, `56.md` | planned |
 | 29 | 57–58 | 289–299 | `57.md`, `58.md` | planned |
 
+Current reviewed totals:
+
+- batches: **1/29**;
+- items: **2/58**;
+- numbered-item source scans covered by reviewed English batches: **6/290**;
+- unresolved translation issues: **0**.
+
 ## Batch workflow
 
 For each batch:
@@ -133,6 +140,20 @@ For each batch:
 
 A translated but unreviewed batch is not eligible for final collection assembly.
 
+## Batch 01 closure
+
+Reviewed file: `batches/batch-01.md`.
+
+- item 1 — `பொது உலகம்` — scans **10–11** — reviewed PASS;
+- item 2 — `படிமுறை வளர்ச்சி` — scans **12–15** — reviewed PASS;
+- source scans represented: **6/6**;
+- omissions / duplications: **0 / 0**;
+- title witness handling: **PASS**;
+- chronology, figures, proper names and source claims retained: **PASS**;
+- wordplay/non-literal decisions documented in translator notes: **PASS**;
+- Kalaignar-language/voice review: **PASS**;
+- Tamil canonical/source files modified: **none**.
+
 ## Full-work gates after Batch 29
 
 After all 29 batches are reviewed:
@@ -147,9 +168,9 @@ After all 29 batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 01 — items 1–2**:
+Translate and review **Batch 02 — items 3–4**:
 
-- item 1 — `பொது உலகம்` — scans **10–11** — `../../sections/01.md`;
-- item 2 — `படிமுறை வளர்ச்சி` — scans **12–15** — `../../sections/02.md`.
+- item 3 — `‘காந்தக்கல்’ கதையொன்று!` — scans **16–19** — `../../sections/03.md`;
+- item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans **20–24** — `../../sections/04.md`.
 
-Create `batches/batch-01.md`. Preserve both items as distinct works inside the batch. Stop after item 2; do not begin item 3.
+Create `batches/batch-02.md`. Preserve both items as distinct works inside the batch. Stop after item 4; do not begin item 5.
