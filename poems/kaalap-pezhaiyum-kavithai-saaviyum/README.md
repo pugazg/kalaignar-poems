@@ -14,9 +14,9 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–6 / 58 certified**
-- last certified item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
-- next item: **7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
+- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–7 / 58 certified**
+- last certified item: **7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
+- next item: **8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -45,7 +45,7 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 
 ## Phase 3 activity 2 — boundary / join audit
 
-**IN PROGRESS — 6/58 items certified.**
+**IN PROGRESS — 7/58 items certified.**
 
 ### Item 1 — `பொது உலகம்`
 
@@ -118,7 +118,19 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 - unresolved structural issue: **none**;
 - source-sensitive `ஏழைபாழையிடம்` and `எனந்தப்` remain preserved.
 
-Item 6 includes the embedded quotation continuation `...பறவையாய்ப் பாம்பாகிக்` → `கல்லாய் மனிதராய்”`, the woman's open speech carried from scan 32 into scan 33, and the direct dialogue `“என்னைத் தெரிகிறதா மங்கை ?”` → `“ஏன் தெரியவில்லை ? என்னவனல்லவா நீ!`. Scan 34 then closes with `அவளை அணைத்தவாறே / அணைந்து அவன் உயிர்!` and an ornament before scan 35 begins item 7.
+### Item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`
+
+**CERTIFIED.** Range: scans **35–39** / printed pages **34–38**.
+
+- opening boundary scan 34→35: **PASS**;
+- internal joins scan 35→36, 36→37, 37→38 and 38→39: **4/4 PASS**;
+- closing boundary scan 39→40: **PASS**;
+- dropped or duplicated text: **none**;
+- unresolved continuation/quotation issue: **none**;
+- title-witness difference: **none**;
+- source-sensitive `மரத்தின் அழுத்தமான வேர்`, `மண்டூகே மனிதன்`, `கால்நடைப்`, `புதிய வைத்த`, and `போட்டவே` remain preserved.
+
+The most explicit item-7 continuations are `மதிய உணவு முதலைக்கறி விருந்து என - நெஞ்சில்` → `புதிய வைத்த பாசமுடன்`, `அரிவாளை ஓங்கிப் போட்டவே;` → `இரு கூறாகப் பிளந்தது முதலை ;`, and `நுழைந்து விட்டார் - அந்த வீட்டுக்குள்` → `எதிர்க்க முடியாமல் / எல்லோரும் ஓடி விட்டார் -`. Scan 39 closes with `வரலாற்றுக் / காலத்தின் கோலமிது!` and an ornament before scan 40 begins item 8.
 
 Full evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -130,6 +142,6 @@ The contents witness and title-page witness should remain separately documented 
 
 ## Exact next activity
 
-Audit **item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`**, scans **35–39** / printed pages **34–38**. Check all four internal joins and the closing boundary into item 8 at scan 40.
+Audit **item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`**, scans **40–43** / printed pages **39–42**. Check all three internal joins and the closing boundary into item 9 at scan 44.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
