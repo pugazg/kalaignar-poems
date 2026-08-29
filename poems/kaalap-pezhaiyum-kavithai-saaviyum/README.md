@@ -16,9 +16,10 @@ This work is processed from the supplied controlling scan under the repository's
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
 - Phase-3 activity 2 — boundary / within-item page-join audit: **COMPLETE — 58/58 items certified**
 - Phase-3 activity 3 — title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**
-- Phase-3 activity 4 — canonical Tamil assembly: **IN PROGRESS — 6/58 item files assembled**
-- latest canonical-assembly iteration: **25 physical scans, 10–34 — COMPLETE**
-- next canonical-assembly iteration: **25 physical scans, 35–59**
+- Phase-3 activity 4 — canonical Tamil assembly: **IN PROGRESS — 11/58 item files assembled**
+- latest canonical-assembly iteration: **25 physical scans, 35–59 — COMPLETE**
+- next canonical-assembly iteration: **25 physical scans, 60–84**
+- item 12 is carried from scans **58–59** and completes at scan **63**
 - numbered-item sequence closes on scan **299 / printed page 298** with `(முதல் பாகம் முற்றிற்று)`
 - scan **300** begins the separate `குறிப்புகள்` end matter
 - assembly/source-completeness review: **BLOCKED until 58/58 canonical item files exist**
@@ -87,7 +88,7 @@ Contents sequence item **37** begins at scan **179**, but its title page visibly
 
 ## Phase 3 activity 4 — canonical Tamil assembly
 
-**IN PROGRESS — 6/58 item files assembled.**
+**IN PROGRESS — 11/58 item files assembled.**
 
 Canonical files use stable numeric filenames under `sections/` so filename mechanics cannot silently normalize Tamil titles. Each file retains the canonical title, contents-title witness, title scan, physical scan range, reconciled printed-page range and source filename in front matter, with physical-page provenance markers inside the assembled text.
 
@@ -104,7 +105,21 @@ Created:
 - `sections/05.md` — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans 25–28;
 - `sections/06.md` — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans 29–34.
 
-No verified page record was modified. No Tamil spelling, punctuation, lineation, quotation structure or source-sensitive form was normalized during assembly. No partial canonical item file was created.
+### Assembly iteration 2 — scans 35–59
+
+**COMPLETE — 25 physical scans.**
+
+Created:
+
+- `sections/07.md` — `வரலாற்றுக் காலத்தின் கோலம்!` — scans 35–39;
+- `sections/08.md` — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` — scans 40–43;
+- `sections/09.md` — `உரையாடல் உணர்த்திடும் உண்மை என்ன?` — scans 44–49;
+- `sections/10.md` — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` — scans 50–53;
+- `sections/11.md` — `ஆங்காங்கு அடையாள முத்திரைகள்!` — scans 54–57.
+
+Item 12 begins at scan **58** and runs through scan **63**. Scans **58–59** were carried forward; no partial `sections/12.md` was created.
+
+Across both completed assembly iterations, no verified page record was modified. No Tamil spelling, punctuation, lineation, quotation structure or source-sensitive form was normalized during assembly. No partial canonical item file was created.
 
 Detailed assembly progress and rules are recorded in `PHASE3_CANONICAL_ASSEMBLY.md`.
 
@@ -129,8 +144,15 @@ Both witnesses remain source evidence; the authority decision exists only to mak
 
 ## Exact next activity
 
-Process **physical scans 35–59** as the next **25-page canonical-assembly iteration**.
+Process **physical scans 60–84** as the next **25-page canonical-assembly iteration**, while completing carried item 12 from its full certified range **58–63**.
 
-Assemble only complete certified items within that range. Item 12 begins at scan **58** and extends beyond scan 59, so its canonical file must remain unpublished at that boundary and be completed from the following iteration before creation.
+Create only complete certified items available at that boundary:
+
+- `sections/12.md` — item 12 — scans **58–63**;
+- `sections/13.md` — item 13 — scans **64–67**;
+- `sections/14.md` — item 14 — scans **68–77**;
+- `sections/15.md` — item 15 — scans **78–81**.
+
+Item 16 begins at scan **82** and extends through scan **87**, so **do not publish a partial `sections/16.md` at scan 84**. Carry item 16 into the following iteration.
 
 Do **not** begin assembly/source-completeness review until all 58 canonical files exist. Do **not** begin Phase 4 translation before Tamil final clearance.
