@@ -23,7 +23,7 @@ See `TRANSCRIPTION_PHASE_PLAN.md` and `POEM_PROCESSING_GUIDE.md`.
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 3 canonical assembly; 6/58 item files assembled; next scans 35–59** |
+| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 3 canonical assembly; 11/58 item files assembled; next scans 60–84** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation in progress, currently paused while another work is active** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Existing separate work; consult its live work README before resuming** |
@@ -44,12 +44,12 @@ Work directory: `poems/kaalap-pezhaiyum-kavithai-saaviyum/`
 - all **58 contents start pages** align with title scans by `title scan = contents start page + 1`;
 - Phase 3 activity 2 — item boundary / within-item page-join audit: **COMPLETE — 58/58 certified**;
 - Phase 3 activity 3 — title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**;
-- Phase 3 activity 4 — canonical Tamil assembly: **IN PROGRESS — 6/58 canonical item files assembled**;
-- completed canonical files: `sections/01.md` through `sections/06.md`;
-- latest canonical-assembly iteration: **scans 10–34 — COMPLETE**;
-- exact next activity: **process scans 35–59 as the next 25-scan canonical-assembly iteration**;
-- create `sections/07.md` through `sections/11.md` from their full verified ranges;
-- item 12 begins at scan 58 and runs through scan 63, so **do not publish a partial `sections/12.md` at scan 59**;
+- Phase 3 activity 4 — canonical Tamil assembly: **IN PROGRESS — 11/58 canonical item files assembled**;
+- completed canonical files: `sections/01.md` through `sections/11.md`;
+- latest canonical-assembly iteration: **scans 35–59 — COMPLETE**;
+- exact next activity: **process scans 60–84 as the next 25-scan canonical-assembly iteration**, completing carried item 12 from scans 58–63;
+- create `sections/12.md` through `sections/15.md` from their full verified ranges;
+- item 16 begins at scan 82 and runs through scan 87, so **do not publish a partial `sections/16.md` at scan 84**;
 - assembly/source-completeness review: **BLOCKED until 58/58 canonical item files exist**;
 - Tamil final clearance: **PENDING assembly/source-completeness review**;
 - Phase 4 translation: **BLOCKED until Tamil final clearance**.
