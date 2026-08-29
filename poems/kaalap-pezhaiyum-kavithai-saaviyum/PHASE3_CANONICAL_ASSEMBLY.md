@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 17/58 canonical item files assembled.**
+**IN PROGRESS — 19/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -25,30 +25,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3A: items 12–13 — COMPLETE.
 - Two-poem iteration 3B: items 14–15 — COMPLETE.
 - Two-poem iteration 3C: items 16–17 — COMPLETE.
+- Two-poem iteration 3D: items 18–19 — COMPLETE.
 
-### Two-poem iteration 3C
+### Two-poem iteration 3D
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 16 | `சுளையில் ஒன்றியிருக்கும் சுவையாக!` | 82–87 | `sections/16.md` | ASSEMBLED |
-| 17 | `உலக வரலாறு எங்கிருந்து வருவது?` | 88–95 | `sections/17.md` | ASSEMBLED |
+| 18 | `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` | 96–98 | `sections/18.md` | ASSEMBLED |
+| 19 | `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` | 99–102 | `sections/19.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **17/58**;
+- cumulative canonical files: **19/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Source-sensitive verified forms were preserved, including item 16 `முறையாகத்தானிருக்கும்!`, `அறந்தங்கும்`, `பாராட்டும் பெற்றன`, and item 17 `காற்றுக் கொப்புளங்களைச்`, `அமைக்கப்பட்ட முடியாதல்லவா?`, the English title `(The Riddles of three oceans)`, and `சுற்றி மாற்றிக் கொண்டு`.
+Item 18 preserves the documented title-witness distinction exactly: title-page witness `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` is the canonical displayed title, while contents witness `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!` remains separately recorded in front matter. Source-sensitive verified forms including `சுமோர்`, `நிக்கிதோ சிந்தோ`, `எவர்தான்`, and `இராமச்சந்திர தீட்சிதர்` were preserved. Item 19 likewise preserves verified source wording and lineation without normalization.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 18 — scans **96–98** → `sections/18.md`;
-- item 19 — scans **99–102** → `sections/19.md`.
+- item 20 — `வீழினும் அவன் வெற்றித் திருமகனே!` — scans **103–106** → `sections/20.md`;
+- item 21 — `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans **107–111** → `sections/21.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **19/58**. Item 18 is a documented title-witness discrepancy case, so use the item-opening title-page witness for the canonical displayed title and preserve the differing contents witness separately in front matter; do not hybridize the two witnesses.
+After those two files are assembled, stop the iteration and update status-bearing files to **21/58**. Do not begin item 22 in that iteration.
