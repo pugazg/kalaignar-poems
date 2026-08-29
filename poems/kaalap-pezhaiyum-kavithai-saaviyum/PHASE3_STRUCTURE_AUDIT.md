@@ -31,14 +31,32 @@ This independently supports the continuous scan/printed-page alignment through t
 
 A reconciled printed page is not the same claim as a visibly printed numeral. Some pages suppress the printed numeral. Phase 3 records their logical pagination from the complete source structure while preserving Phase-1 observations about whether a numeral was actually visible.
 
-## Pending Phase-3 activities
+## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-1. **58-item boundary certification** — confirm each title scan begins the intended contents item and that the preceding item closes at the immediately preceding scan.
-2. **Within-item page-join continuity audit** — check every adjacent page join for dropped/duplicated text, quotation carry-over, continuation punctuation and separator placement.
-3. **Title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them.
-4. **Canonical Tamil assembly** — only after structural and join audits pass.
-5. **Assembly/source-completeness review and Tamil final clearance**.
+**Status: IN PROGRESS — item 1/58 certified.**
+
+Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+### Certified item
+
+- **Item 1 — `பொது உலகம்`**
+  - range: scans **10–11** / printed pages **9–10**;
+  - opening boundary scan 9→10: **PASS**;
+  - internal join scan 10→11: **PASS**;
+  - closing boundary scan 11→12: **PASS**;
+  - dropped/duplicated text: **none**;
+  - unresolved continuation/quotation issue: **none**;
+  - title-witness difference: **none**.
+
+The scan-10 ending `சிவப்புக் கோள் / நெருப்புப் பந்துகள்` continues directly on scan 11 as `சீறிப் பாய்ந்து / சிதறிப் பறந்தன.` Scan 11 then closes with a complete quotation and printed ornament before scan 12 begins item 2 `படிமுறை வளர்ச்சி`.
+
+## Remaining Phase-3 activities
+
+1. continue **58-item boundary certification and within-item page-join continuity audit** through items 2–58;
+2. **title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them;
+3. **canonical Tamil assembly** — only after structural and join audits pass;
+4. **assembly/source-completeness review and Tamil final clearance**.
 
 ## Exact next activity
 
-Begin the **58-item boundary and page-join continuity audit**, starting with item 1 and proceeding sequentially. Canonical Tamil assembly remains blocked until this audit is complete.
+Audit **item 2 — `படிமுறை வளர்ச்சி`**, scans **12–15** / printed pages **11–14**, including all three internal joins and its closing boundary into item 3 at scan 16. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
