@@ -18,10 +18,11 @@ Canonical Tamil assembly remains blocked until all 58 items pass this audit.
 
 ## Progress
 
-- items certified: **5/58**
-- last certified item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
+- items certified: **6/58**
+- last certified item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
 - unresolved structural joins: **none**
-- next item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
+- source-level abrupt transitions preserved without normalization: **scan 31→32**
+- next item: **7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
 
 ## Item 1 — `பொது உலகம்`
 
@@ -407,6 +408,115 @@ Therefore item 5 closes at scan 28 / printed page 27 and item 6 begins cleanly a
 - title-witness issue: **none**;
 - source-sensitive scan-28 form `பேத்தி, பேர் காலத்திலும்` remains unchanged and is not a structural defect.
 
+## Item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`
+
+**Status: PASS — boundary and all within-item joins certified.**
+
+- contents start page: **28**;
+- observed title scan: **29**;
+- reconciled physical range: **scans 29–34**;
+- reconciled printed-page range: **pages 28–33**;
+- title witness: contents and title page preserve the same wording and punctuation; no substantive title-witness difference.
+
+### Opening boundary — scan 28 → scan 29
+
+- scan 28 closes item 5 with its final stanza and a printed ornamental closing device;
+- scan 29 visibly carries item number **6**, the title `கத்தி பகைவுடையது ; இரத்தம் நாம் தருவது !`, and begins `கற்காலத்து மனிதன், புதிது புதிதாகப் பலவற்றைக்`;
+- no item-6 text occurs before the title scan and no item-5 text carries beyond the ornament.
+
+**Opening boundary: CERTIFIED.**
+
+### Internal join — scan 29 → scan 30
+
+Scan 29 closes with:
+
+`கடவுள் என்ற கட்டுறுத்துத் தொழிலாளரை ஏவுக எனக் / கவி மன்னாதி மன்னன் பாரதிதாசன் படை முரசு கொட்டியதால் ;`
+
+Scan 30 begins:
+
+`கனிவும் பணிவும் காணுகிறோம் கனதனவான்கள் மாளிகையில்! / கருணையும் பண்பாடும் கற்காலத் தொடக்கத்தில் காணமுடியக் / காரணத்தால் ;`
+
+The controlling source presents these as consecutive text with no ornament, heading, repeated line, missing pagination position or physical gap. The semicolon-ended construction is preserved exactly rather than editorially rewritten.
+
+**Join 29→30: CERTIFIED.**
+
+### Internal join — scan 30 → scan 31
+
+Scan 30 closes inside the quoted passage introduced as Nehru's words, with the embedded Manikkavacakar quotation:
+
+`“புல்லாகிப் பூடாய்ப் புழுவாய் மரமாகிப் / பல்விருகமாகிப் பறவையாய்ப் பாம்பாகிக்`
+
+Scan 31 immediately continues:
+
+`கல்லாய் மனிதராய்” - வளர்ந்து மாறி வருகிற / பரிணாம வளர்ச்சி முறையை அறிவலாம்”`
+
+The embedded quotation closes on scan 31 and the surrounding quotation also completes there. Quotation carry-over across the page turn is source-consistent and complete.
+
+**Join 30→31: CERTIFIED.**
+
+### Internal join — scan 31 → scan 32
+
+Scan 31 closes with:
+
+`மருந்துக் கிண்ணமுடன் மங்கை நடந்தநடை ; நிமிர்ந்த நடை - / எனந்தப் பீடு நடை பெருமித நடை என்பரேல் ;`
+
+Scan 32 begins:
+
+`பலருக்கும் பட்டா பதிவாகியிருந்த அந்தப் / பகுதி நிலம் அத்தனையும் பாவி அந்தப் பண்ணைக்காரர் ;`
+
+This is a visibly abrupt rhetorical/narrative transition in the controlling source. It is **not** repaired or semantically bridged: printed pages **30→31** are consecutive, both page edges are complete, and there is no missing physical scan, duplicate text, separator or pagination gap. The abruptness is therefore preserved as a source-level feature rather than treated as evidence for omitted repository text.
+
+**Join 31→32: CERTIFIED WITH SOURCE-LEVEL ABRUPT TRANSITION PRESERVED.**
+
+### Internal join — scan 32 → scan 33
+
+Scan 32 opens the woman's speech at `“தோழர்களே ; காது கொடுத்துக் கேளுங்கள் ;` and closes the page with:
+
+`தூண்டி விட்டு இரு தரப்பை மோத வைத்துத் / துளிக்கூட புத்திசாலித் தனம் தேவையில்லை.`
+
+Scan 33 continues the same speech:
+
+`பண்ணையார் படுத்துறங்கிக் கொண்டிருக்கிறார் - கட்டிலறையில்! / பாடுபடும் பாமரர்கள் நாமேதான் பயணம் போகிறோம் கல்லறைக்கு!`
+
+The quotation remains open across the page turn and closes later on scan 33 with `கிளம்பிடு கிளர்ச்சி நடத்த!”`. No quotation mark is fabricated or removed.
+
+**Join 32→33: CERTIFIED.**
+
+### Internal join — scan 33 → scan 34
+
+Scan 33 closes with the wounded man's direct question:
+
+`“என்னைத் தெரிகிறதா மங்கை ?”`
+
+Scan 34 immediately answers in dialogue:
+
+`“ஏன் தெரியவில்லை ? என்னவனல்லவா நீ! / எதிரியின் முகாமில் ஏன் சேர்ந்தாய் ?`
+
+The speaker-response relation and quotation boundary are explicit. No line is duplicated, dropped or silently normalized.
+
+**Join 33→34: CERTIFIED.**
+
+### Closing boundary — scan 34 → scan 35
+
+- scan 34 closes item 6 with `அவளை அணைத்தவாறே / அணைந்து அவன் உயிர்!` followed by a printed ornamental closing device;
+- no quotation, sentence or narrative unit carries beyond the ornament;
+- scan 35 visibly begins item number **7** with the distinct title `வரலாற்றுக் காலத்தின் கோலம்!`.
+
+Therefore item 6 closes at scan 34 / printed page 33 and item 7 begins cleanly at scan 35 / printed page 34.
+
+**Closing boundary: CERTIFIED.**
+
+### Item-6 result
+
+- opening boundary: **PASS**;
+- internal joins: **5/5 PASS**;
+- closing boundary: **PASS**;
+- dropped/duplicated text detected: **none**;
+- quotation carry-over scan 30→31 and 32→33: **PASS**;
+- source-level abrupt transition scan 31→32: **preserved; no repository repair warranted**;
+- unresolved structural issue: **none**;
+- source-sensitive forms `ஏழைபாழையிடம்` and `எனந்தப்` remain unchanged.
+
 ## Exact next activity
 
-Audit **item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**, scans **29–34** / printed pages **28–33**, including all five internal joins and the closing boundary into item 7 at scan 35. Do not begin canonical Tamil assembly yet.
+Audit **item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`**, scans **35–39** / printed pages **34–38**, including all four internal joins and the closing boundary into item 8 at scan 40. Do not begin canonical Tamil assembly yet.
