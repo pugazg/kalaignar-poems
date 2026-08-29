@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–05 reviewed PASS; 12/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–06 reviewed PASS; 15/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -42,13 +42,14 @@ Revised total planned batches: **21**.
 | 03 | 5–6 | 25–34 | **reviewed — PASS** |
 | 04 | 7–9 | 35–49 | **reviewed — PASS** |
 | 05 | 10–12 | 50–63 | **reviewed — PASS** |
-| 06–21 | 13–58 | 64–299 | planned |
+| 06 | 13–15 | 64–81 | **reviewed — PASS** |
+| 07–21 | 16–58 | 82–299 | planned |
 
 Current totals:
 
-- batches reviewed: **5/21**;
-- items translated and reviewed: **12/58**;
-- certified source scans represented in reviewed English batches: **54/290 numbered-item scans**;
+- batches reviewed: **6/21**;
+- items translated and reviewed: **15/58**;
+- certified source scans represented in reviewed English batches: **72/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -85,13 +86,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 03:** items 5–6, scans 25–34 — reviewed PASS.
 - **Batch 04:** items 7–9, scans 35–49 — reviewed PASS. The crocodile/raid narrative, Sankrityayan/Iyarpakai/Nehru references, class and land rhetoric, long quoted Aryan dialogue, linga/Avudaiyar argument, named deities and triple rhetorical close are retained without outside correction or Tamil-source alteration.
 - **Batch 05:** items 10–12, scans 50–63 — reviewed PASS. Maritime-contact claims, the papyrus and Naga-country narratives, *Manimekalai* quotation, Peevalai–Nedumudikilli/Ilanthiraiyan sequence, Murugan–Valli narrative, *Kuruntokai* quotation, Tamil sound-play, glossary and equal-rights close are retained; source-sensitive forms are documented rather than silently repaired.
+- **Batch 06:** items 13–15, scans 64–81 — reviewed PASS. Appathuraiyar/classical citations and the Kharavela-alliance argument are retained as source claims; the complete three-scene Kanaka–Vijaya drama preserves speaker changes, war-oratory and the eighteen-unit sequence; the “Aryan tea” metaphor, *Silappathikaram* citation and named historical-source quotations remain traceable without outside correction.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 5/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 6/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -99,10 +101,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 06 — items 13–15**:
+Translate and review **Batch 07 — items 16–18**:
 
-- item 13 — `காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி!` — scans **64–67** — `../../sections/13.md`;
-- item 14 — `கனக விஜயர் கல் சுமந்த வரலாறு!` — scans **68–77** — `../../sections/14.md`;
-- item 15 — `பருகிடலாம் இந்த “ஆரிய” தேநீரை!` — scans **78–81** — `../../sections/15.md`.
+- item 16 — `சுளையில் ஒன்றியிருக்கும் சுவையாக!` — scans **82–87** — `../../sections/16.md`;
+- item 17 — `உலக வரலாறு எங்கிருந்து வருவது?` — scans **88–95** — `../../sections/17.md`;
+- item 18 — `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` — scans **96–98** — `../../sections/18.md`.
 
-Create `batches/batch-06.md`. Stop after item 15; do not begin item 16.
+Item 18 is a documented title-witness discrepancy; translate the canonical/title-page witness and preserve the contents witness separately. Create `batches/batch-07.md`. Stop after item 18; do not begin item 19.
