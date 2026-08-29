@@ -36,16 +36,16 @@ Phase 2 is where the repository's old-typeface failure classes receive systemati
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-Only after page verification is complete:
+Only after page verification is complete, proceed through these gates in order:
 
-- finish exact physical scan ↔ printed-page mapping;
-- audit work/item boundaries and all page joins;
-- reconcile quotation carry-over, separators and continuation lines;
-- account for every physical page or explicitly document unavailable pages;
-- synchronize `README.md`, `indexes/page-map.md` and `audit.md`;
-- assemble the canonical Tamil text from verified page records;
-- perform assembly/source-completeness review;
-- mark the Tamil source layer final-cleared only when all required checks pass.
+1. **scan ↔ printed-page reconciliation**;
+2. **item/work boundary and page-join audit**;
+3. **title-witness reconciliation** where contents/title-page witnesses differ;
+4. **canonical Tamil assembly** from verified page records;
+5. **assembly/source-completeness review**;
+6. **Tamil final clearance**.
+
+Do not skip a gate or begin a later gate because its inputs appear obvious.
 
 ## Phase 4 — translation and release
 
@@ -55,57 +55,97 @@ Translation/release follows the existing voice-fidelity and editorial-review rul
 
 ## Current application — காலப் பேழையும் கவிதைச் சாவியும்
 
-`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is in **Phase 3 — structure, completeness, assembly and Tamil final clearance**.
+`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is in **Phase 3 — canonical Tamil assembly**.
 
-Current state:
+Current live work state:
 
 - controlling PDF: **306 physical scans**;
 - Phase 1 transcription: **306/306 physical scans represented — COMPLETE**;
 - numbered item/title pages observed: **58/58**;
 - Phase 2 source-critical verification: **306/306 scans verified — COMPLETE**;
 - unresolved readings after Phase 2: **none**;
-- Phase-3 physical scan ↔ printed-page reconciliation: **COMPLETE**;
+- Phase-3 scan ↔ printed-page reconciliation: **COMPLETE**;
 - numbered pagination block: scans **5–299** ↔ printed pages **4–298**, continuously, with no unexplained gap or duplicate;
 - all **306 scans** structurally accounted for;
 - all **58** contents start pages align with title scans by `title scan = contents start page + 1`;
 - Phase-3 boundary / within-item page-join audit: **COMPLETE — 58/58 items certified**;
 - closing boundary **299→300: PASS**, separating `(முதல் பாகம் முற்றிற்று)` from the `குறிப்புகள்` end matter;
 - Phase-3 title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**;
-- governing reconciliation record: `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- canonical Tamil assembly: **UNBLOCKED — exact next activity**;
-- Phase 4 translation remains blocked until assembly review and Tamil final clearance.
+- canonical Tamil assembly: **IN PROGRESS — 6/58 item files assembled**;
+- completed canonical files: `sections/01.md` through `sections/06.md`;
+- latest assembly iteration: **physical scans 10–34 — COMPLETE**;
+- next assembly iteration: **physical scans 35–59**;
+- assembly/source-completeness review: **BLOCKED until 58/58 canonical item files exist**;
+- Tamil final clearance: **PENDING assembly/source-completeness review**;
+- Phase 4 translation: **BLOCKED until Tamil final clearance**.
 
-### Completed Phase-3 activity 1 — exact scan / printed-page mapping
+### Completed Phase-3 gate 1 — exact scan / printed-page mapping
 
 The exact scan/printed-page map is recorded in `indexes/page-map.md`. Phase 3 explicitly distinguishes a **visibly printed numeral** from a **reconciled logical printed page**; suppressed page numerals are not retroactively claimed as visible source marks.
 
-### Completed Phase-3 activity 2 — item boundaries and page joins
+### Completed Phase-3 gate 2 — item boundaries and page joins
 
 All **58/58** numbered items have passed opening-boundary, within-item join and closing-boundary review. No unresolved structural join remains and no dropped/duplicated source passage was detected. Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
-### Completed Phase-3 activity 3 — title-witness reconciliation
+The numbered sequence closes on scan **299 / printed page 298** with `(முதல் பாகம் முற்றிற்று)`. Scan 300 begins the separate `குறிப்புகள்` end matter.
+
+### Completed Phase-3 gate 3 — title-witness reconciliation
 
 The verified contents witness and item-opening title-page witness differ for items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58**.
 
 The reconciliation rule is:
 
 - preserve both witnesses exactly;
-- use the **title-page witness** as the displayed title and title-derived filename basis in canonical item assembly;
+- use the **title-page witness** as the displayed title in canonical item assembly;
 - retain the **contents witness** as the contents/index witness and alternate source metadata;
 - create no hybrid or silently normalized title;
 - keep item identity/order based on the certified contents sequence **1–58**;
 - item 37 remains item **37** although its title page visibly prints item number **36**; that number is preserved only as a source anomaly.
 
-### Exact next Phase-3 activity — canonical Tamil assembly
+The governing decision record is `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-Assemble **58 separate canonical Tamil item files** from the verified `pages/NNNN.md` records in certified page order.
+### Active Phase-3 gate 4 — canonical Tamil assembly
 
-Assembly must:
+Canonical assembly uses the verified `pages/NNNN.md` records as its text layer.
 
+Rules:
+
+- create stable numeric files `sections/01.md` … `sections/58.md`;
 - preserve verified lineation, spelling, punctuation, quotations, separators, source notes and unusual printed forms;
-- use the title-page witness for the assembled title where contents/title witnesses differ;
-- retain the contents witness as alternate source metadata for those discrepant items;
-- retain item 37's printed number `36` as a source anomaly without renumbering the sequence;
-- avoid any silent source normalization.
+- preserve physical-page provenance with `<!-- scan_page: N -->` markers;
+- use the title-page witness for the displayed title where contents/title witnesses differ;
+- retain the contents witness separately in front matter;
+- retain item 37's printed number `36` as a source anomaly without renumbering the stable sequence;
+- do not normalize source-level abrupt transitions already certified in the boundary/join audit;
+- if an assembly batch ends inside an item, do **not** create an incomplete canonical file; carry that item into the following iteration;
+- if assembly exposes a real source/page-record discrepancy, reopen and correct the verified source layer with audit history before continuing assembly.
 
-After assembly, perform an assembly/source-completeness review. Tamil final clearance may be granted only after that review passes. Phase 4 translation remains blocked until then.
+### Completed canonical-assembly iteration 1 — scans 10–34
+
+Created and recorded:
+
+- `sections/01.md` — scans 10–11;
+- `sections/02.md` — scans 12–15;
+- `sections/03.md` — scans 16–19;
+- `sections/04.md` — scans 20–24;
+- `sections/05.md` — scans 25–28;
+- `sections/06.md` — scans 29–34.
+
+No verified page record was modified and no partial canonical file was created.
+
+## Exact next activity
+
+Process the next **25 physical scans: 35–59** as canonical assembly iteration 2.
+
+The certified ranges within this window are:
+
+- item 7 — scans **35–39** → create `sections/07.md`;
+- item 8 — scans **40–43** → create `sections/08.md`;
+- item 9 — scans **44–49** → create `sections/09.md`;
+- item 10 — scans **50–53** → create `sections/10.md`;
+- item 11 — scans **54–57** → create `sections/11.md`;
+- item 12 begins at scan **58** but runs through scan **63**. Because this iteration stops at scan 59, **do not create `sections/12.md` yet**. Carry item 12 forward until the following iteration includes its complete certified range.
+
+After this iteration, update `PHASE3_CANONICAL_ASSEMBLY.md` and the work `README.md` with the durable progress boundary. Do **not** begin assembly/source-completeness review until all **58/58** canonical files exist. Do **not** begin Phase 4 translation before Tamil final clearance.
+
+For every continuation, live GitHub `main` supersedes any older checkpoint SHA or copied prompt.
