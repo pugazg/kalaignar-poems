@@ -13,9 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–200 consecutively (200/306)**
-- most recent Phase-2 batch completed: **scans 176–200**
-- next Phase-2 batch: **scans 201–225**
+- Phase-2 verified range: **scans 1–225 consecutively (225/306)**
+- most recent Phase-2 batch completed: **scans 201–225**
+- next Phase-2 batch: **scans 226–250**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -160,7 +160,7 @@ No unresolved glyphs remain in scans 151–175.
 
 ### Phase-2 batch 8 — scans 176–200
 
-**COMPLETE.** Scans **176–200** were independently reread against the controlling source. The verified range is now consecutive through scan 200.
+**COMPLETE.** Scans **176–200** were independently reread against the controlling source. The verified range became consecutive through scan 200.
 
 Source-backed textual corrections found in this batch:
 
@@ -181,6 +181,26 @@ Source-backed textual corrections found in this batch:
 Source-sensitive forms independently rechecked and retained include scan 176 `தலைவில் நின்றவள்`, scan 177 `சூளுரை பொன்றும்`, scan 178 `வீழ்ந்திறந்தார்`, scan 180 `ஆவுக்கு விழுதெனவே` / `கரணையெனக்` / `நற்கிள்ளியனித்த`, scan 184 `கையுசி`, scan 186 `சோணையும்` / `அய்நூறு`, scan 187 `பூழு`, scan 189 `விட்டான்செருக்களத்தில்`, scan 194 `புயங்கொள்ளியை`, scan 197 `தோணியொன்றில்-இந்து` / `இன்மில்லாவிடினும்` / `அகம் வினவு`, scan 198 `எஃகினைய உளம்`, and scan 199 `அவர்க்கட்டு`.
 
 The item-37 title witness and its visibly printed item-number anomaly `36` were rechecked at scan 179 and preserved. The item-40 title page at scan 195 continues to omit the contents witness's final `!`. No unresolved glyphs remain in scans 176–200. No Phase-3 page-join, final-boundary or assembly work was performed.
+
+### Phase-2 batch 9 — scans 201–225
+
+**COMPLETE.** Scans **201–225** were independently reread against the controlling source. The verified range is now consecutive through scan 225.
+
+Source-backed textual corrections found in this batch:
+
+1. **scan 201:** `தார்மாரன் மண்டபமும்` → `தர்மராசர் மண்டபமும்`;
+2. **scan 205:** proper-name sequence `கட்வல் ; சோற, கேந்தூர்` → `கட்வல் ; சோர, கேந்தூர்`;
+3. **scan 206:** `கந்தலாடை போன்றினால்` → `கந்தலாடை யொன்றினால்`;
+4. **scan 210:** `திரமனைத்தும்` → `திறமனைத்தும்`;
+5. **scan 212:** `குறிப்பிட்டுக்கோர்` → `குறிப்பிடத்தக்கோர்`;
+6. **scan 214:** `இறறப் போகும் ?` → `இற்றுப் போகும் ?`;
+7. **scan 219:** missing printed month restored: `கி.பி. 985 ஆம் திங்கள்` → `கி.பி. 985 ஜூன் திங்கள்`;
+8. **scan 224:** `கிடைத்த பேரு` → `கிடைத்த பேறு`; `ஈட்டி போன்ற அவள் கையால்` → `ஈட்டி யொன்றை அவள் கையால்`;
+9. **scan 225:** `பேசிருக்காது` → `பேச்சிருக்காது`; `முன்னாதிரியாகத்` → `முன்மாதிரியாகத்`.
+
+Source-sensitive readings independently rechecked and retained include scan 202 `மாதகர் காஞ்சியின்` / `கருமுகில் தவழுமாடக் கச்சி யேகம் பன்றே` / `வியர்த்தமான வேலை`, scan 203 `நரசிங்கப் போத்தரையன்`, scan 207 `‘மாட்சி’(?)களும்` / `வீர்பால்`, scan 209 `அன்றந்தக் காலம்` / `அகமிக` / `முடிவிழந்த`, scan 210 `“இராஜதந்திரம்” ஆகாது (?)`, scan 211 `அவ்வர் மகன்கள்`, scan 213 `இறும்பூதெய்தினாள்`, scan 217 `ஏற்றுவரே!`, scan 221 `பழங் குலங்கும் பஞ்சசோலைப் பூ மலராத பழங்காலத்தே` and its source-visible question-mark/ellipsis spacing, and scan 223 `நெரியாத` / `அய்ந்தும் ஆறும்` / `பெண்ணொருத்தி ஒன்று கேட்கும்`.
+
+The item-44 title page at scan 211 continues to omit the contents witness's comma after `தூணும்`. The item-46 title page at scan 220 continues to include a final `!` absent from the contents witness. Both witnesses remain preserved. No unresolved glyphs remain in scans 201–225. No Phase-3 page-join, final-boundary or assembly work was performed.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -220,4 +240,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 201–225**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
+Continue **Phase 2 source-critical visual verification with scans 226–250**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
