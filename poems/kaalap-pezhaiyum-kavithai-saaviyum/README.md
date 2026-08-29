@@ -14,9 +14,9 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–4 / 58 certified**
-- last certified item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
-- next item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
+- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–5 / 58 certified**
+- last certified item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
+- next item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -45,7 +45,7 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 
 ## Phase 3 activity 2 — boundary / join audit
 
-**IN PROGRESS — 4/58 items certified.**
+**IN PROGRESS — 5/58 items certified.**
 
 ### Item 1 — `பொது உலகம்`
 
@@ -93,7 +93,19 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 - title-witness difference: **none**;
 - source-sensitive `என்னோ டென்றேன்.`, `அணியாத தேன் ?` and `வாய்ப்பை யெனக்` remain preserved.
 
-The clearest item-4 continuation is `சினமுற்று சிலையொன்று செல்வதுபோல் சென்று விட்டாள்.` → `சென்றவளைப் பின்தொடர்ந்து`. Scan 24 ends with a complete explanatory parenthetical and ornament before scan 25 begins item 5.
+### Item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`
+
+**CERTIFIED.** Range: scans **25–28** / printed pages **24–27**.
+
+- opening boundary scan 24→25: **PASS**;
+- internal joins scan 25→26, 26→27 and 27→28: **3/3 PASS**;
+- closing boundary scan 28→29: **PASS**;
+- dropped or duplicated text: **none**;
+- unresolved continuation/quotation issue: **none**;
+- title-witness difference: **none**;
+- source-sensitive scan-28 `பேத்தி, பேர் காலத்திலும்` remains preserved.
+
+The direct item-5 continuations include `மாசு மறுவற்ற மரபிலக்கணம் தந்தவரை,` → `மண்டியிட்டுத் தொழுது வணங்குவது ;` and `பின்னர் / அவர்கள்` → `வெள்ளத்தினோடொரு வெள்ளமுமாய்`. Scan 28 closes with a complete final stanza and ornament before scan 29 begins item 6.
 
 Full evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -105,6 +117,6 @@ The contents witness and title-page witness should remain separately documented 
 
 ## Exact next activity
 
-Audit **item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**, scans **25–28** / printed pages **24–27**. Check all three internal joins and the closing boundary into item 6 at scan 29.
+Audit **item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**, scans **29–34** / printed pages **28–33**. Check all five internal joins and the closing boundary into item 7 at scan 35.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
