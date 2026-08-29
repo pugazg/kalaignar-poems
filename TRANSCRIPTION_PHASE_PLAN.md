@@ -62,23 +62,26 @@ Current state:
 - controlling PDF: **306 physical scans**;
 - Phase 1 transcription: **306/306 physical scans represented**;
 - numbered item/title pages observed: **58/58**;
-- Phase 2 verified range: **scans 1–275 consecutively**;
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**;
-- unresolved readings through scan 275: **none**;
-- next Phase-2 verification batch: **scans 276–299**;
-- final Phase-2 remainder after the numbered work sequence: **scans 300–306**.
+- Phase 2 verified range: **scans 1–299 consecutively**;
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**, **276–299**;
+- all **58 numbered items** have now completed Phase-2 source-critical verification;
+- unresolved readings through scan 299: **none**;
+- next and final Phase-2 verification batch: **scans 300–306**.
 
-### Latest completed batch — scans 251–275
+### Latest completed batch — scans 276–299
 
 Scan-proven corrections:
 
-- scan 254: `மரபு வழிக் கலப்புப் மணவிழாவை` → `மரபு வழிக் கலப்பு மணவிழாவை`;
-- scan 255: `கி.பி. 1070 சூன் திங்கள்` → `கி.பி. 1070 ஜூன் திங்கள்`;
-- scan 266: compact continuation `பெயன்று` → `யென்று`;
-- scan 269: `முடிவரை` → `முடிவுரை`; `மூற்கத்தனமிக்க` → `மூர்க்கத்தனமிக்க`.
+- scan 278: `தடந்தோள் பழுதியிடத்` → `தடந்தோள் பழுதிபடத்`;
+- scan 281: `புள்ளியமில்` → `புள்ளிமயில்`;
+- scan 284: `பேராசி` → `பேரரசி`; `அருமையமிகு` → `அருமைமிகு`;
+- scan 287: `கையான்ட` → `கையாண்ட`;
+- scan 293: `பாண்டியருக்கு` → `பாண்டியர்க்கு`; `கூண்டவிட்ட` → `கூண்டிலிட்ட`; `இன்றுமுத்துப்` → `இன்றுமுற்றுப்`;
+- scan 294: `காலை மறட்டும்` → `காலை மலரட்டும்`;
+- scan 296: `நீர்வாகத்` → `நிர்வாகத்`.
 
-Source-sensitive forms independently rechecked and retained include scan 251 `கோல்காபூர்` / `சமணத் துறவி யொருவர்`, scan 253 `கடற்கரம் நீட்டியெழுந்த` / `ஒளவைக் கிழவி`, scan 255 `விருதராச பயங்கரன்` / `பார்த்தகன்` / `அய்ம்பது`, scan 256 `‘ஆலந்து’`, scan 259 `குறிப்பிடுழுதி`, scan 261 `ஒடிந்த கரத்துக்கு உபரிக் கரமாக`, scan 262 `விழைந்த நாண்`, scan 263 `அதுகிழ்` / `அகோரப் பசிக்கு`, scan 264 `கோரசனி` / `கெல்லி`, scan 265 `வெளியிடப்போது`, scan 267 its dense proper-name/work-title sequence, scan 268 `பைசாசம்` / `கெடுதலை`, scan 269 `எழுநூற்றுக் காவத தூரம் இவற்றின் நீர்மலிவான்`, scan 272 `அருமை அண்ணன் அண்ணால் தங்கோ` / `குக்கல்களாய்க்`, scan 273 `மண்டீது`, scan 274 `கழனியோர்த்துக்`, and scan 275 its quoted battle description.
+Source-sensitive forms independently rechecked and retained include scan 279 `சேரமான் யானைக்கட்சேய் இரும்பொறை`, scan 280 `விண்மிரட்டல்`, scan 281 `பூசின்றோ ?`, scan 282 `அணையுடைத்துப் பெருகிற்று`, scan 283 `கூதிர்காலத்தில்` / `இடக்கோளில்`, scan 286 `அகவு மேதும்`, scan 288 `தமிழ்ப் புவி`, scan 290 `சேரமான் மாரிவெண்கோவும்`, scan 292 `வண்ணனையே`, scan 297 `தீக்கு இரையாகக்கித்`, and scan 298 `சிற்றெறும்பு அரசுகளாயின்`.
 
-The item-54 title-page witness `தலையாலங்கானத்துச் செருவென்றான்!` remains distinct from the contents witness `தலையாலங்கானத்துச் செரு வென்றான்!`. Both are preserved for later Phase-3 reconciliation.
+The item-58 title-page witness `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!` remains distinct from the contents witness `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`. Both remain preserved for later Phase-3 reconciliation. Scan 299's printed `(முதல் பாகம் முற்றிற்று)` was independently confirmed.
 
-Phase 2 must remain independent visual verification only. Do not begin Phase-3 structure/assembly work or Phase-4 translation until scans 276–306 have also completed Phase 2 and the phase transition is explicitly recorded.
+Phase 2 must remain independent visual verification only. Do not begin Phase-3 structure/assembly work or Phase-4 translation until scans 300–306 have completed Phase 2 and the phase transition is explicitly recorded.
