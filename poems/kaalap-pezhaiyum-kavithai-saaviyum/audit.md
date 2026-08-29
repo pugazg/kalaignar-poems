@@ -13,10 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–275 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**
-- next Phase-2 batch: **scans 276–299**
-- final Phase-2 remainder after that: **scans 300–306**
+- Phase-2 verified range: **scans 1–299 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**, **276–299**
+- next and final Phase-2 batch: **scans 300–306**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -27,7 +26,7 @@ For each scan:
 1. independently reread the page against the controlling scan;
 2. check every word ending and compact/old Tamil glyph;
 3. check punctuation, lineation, quotation marks, separators, English/Latin text, figures and proper names;
-4. use enlarged crops or other non-destructive image views where needed;
+4. use enlarged crops or other non-destructive image views when needed;
 5. preserve source anomalies and unusual printed forms rather than normalizing by meaning;
 6. correct only source-backed discrepancies;
 7. promote the page to `verified` only after the independent visual review actually passes;
@@ -110,8 +109,6 @@ Corrections include scan 176 `பழுத்த கிழம்`, scan 177 `அ
 
 Result: **PASS through scan 275**.
 
-Scan-proven corrections applied:
-
 - scan 254: `மரபு வழிக் கலப்புப் மணவிழாவை` → `மரபு வழிக் கலப்பு மணவிழாவை`;
 - scan 255: `கி.பி. 1070 சூன் திங்கள்` → `கி.பி. 1070 ஜூன் திங்கள்`;
 - scan 266: compact continuation `பெயன்று` → `யென்று`;
@@ -122,6 +119,26 @@ Source-sensitive readings independently rechecked and retained include scan 251 
 The item-54 title-page witness `தலையாலங்கானத்துச் செருவென்றான்!` remains distinct from the contents witness `தலையாலங்கானத்துச் செரு வென்றான்!`; both are preserved.
 
 Unresolved readings in scans 251–275: **none**.
+
+### Batch 12 — scans 276–299
+
+Result: **PASS through scan 299**. All numbered-item pages have now passed Phase-2 visual verification.
+
+Scan-proven corrections applied:
+
+- scan 278: `தடந்தோள் பழுதியிடத்` → `தடந்தோள் பழுதிபடத்`;
+- scan 281: `புள்ளியமில்` → `புள்ளிமயில்`;
+- scan 284: `பேராசி` → `பேரரசி`; `அருமையமிகு` → `அருமைமிகு`;
+- scan 287: `கையான்ட` → `கையாண்ட`;
+- scan 293: `பாண்டியருக்கு` → `பாண்டியர்க்கு`; `கூண்டவிட்ட` → `கூண்டிலிட்ட`; `இன்றுமுத்துப்` → `இன்றுமுற்றுப்`;
+- scan 294: `காலை மறட்டும்` → `காலை மலரட்டும்`;
+- scan 296: `நீர்வாகத்` → `நிர்வாகத்`.
+
+Source-sensitive readings independently rechecked and retained include scan 279 `சேரமான் யானைக்கட்சேய் இரும்பொறை`, scan 280 `விண்மிரட்டல்`, scan 281 `பூசின்றோ ?`, scan 282 `அணையுடைத்துப் பெருகிற்று`, scan 283 `கூதிர்காலத்தில்` / `இடக்கோளில்`, scan 286 `அகவு மேதும்`, scan 288 `தமிழ்ப் புவி`, scan 290 `சேரமான் மாரிவெண்கோவும்`, scan 292 `வண்ணனையே`, scan 297 `தீக்கு இரையாகக்கித்`, and scan 298 `சிற்றெறும்பு அரசுகளாயின்`.
+
+The item-58 title-page witness `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!` remains distinct from the contents witness `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`; both are preserved. Scan 299's `(முதல் பாகம் முற்றிற்று)` was also independently confirmed.
+
+Unresolved readings in scans 276–299: **none**.
 
 No semantic modernization or silent normalization was applied.
 
@@ -154,4 +171,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 276–299** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Then complete the final Phase-2 source-critical pass over **scans 300–306**. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation yet.
+Independently verify the final Phase-2 remainder, **scans 300–306**, against the controlling source. These comprise the six printed `குறிப்புகள்` note pages and the image-only back cover. Promote each passing record to `verified`, document any discrepancy, and only then consider the Phase-2 → Phase-3 transition. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation yet.
