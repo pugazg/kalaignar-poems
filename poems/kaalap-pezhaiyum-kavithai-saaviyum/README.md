@@ -13,9 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–225 consecutively (225/306)**
-- most recent Phase-2 batch completed: **scans 201–225**
-- next Phase-2 batch: **scans 226–250**
+- Phase-2 verified range: **scans 1–250 consecutively (250/306)**
+- most recent Phase-2 batch completed: **scans 226–250**
+- next Phase-2 batch: **scans 251–275**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -184,7 +184,7 @@ The item-37 title witness and its visibly printed item-number anomaly `36` were 
 
 ### Phase-2 batch 9 — scans 201–225
 
-**COMPLETE.** Scans **201–225** were independently reread against the controlling source. The verified range is now consecutive through scan 225.
+**COMPLETE.** Scans **201–225** were independently reread against the controlling source. The verified range became consecutive through scan 225.
 
 Source-backed textual corrections found in this batch:
 
@@ -201,6 +201,24 @@ Source-backed textual corrections found in this batch:
 Source-sensitive readings independently rechecked and retained include scan 202 `மாதகர் காஞ்சியின்` / `கருமுகில் தவழுமாடக் கச்சி யேகம் பன்றே` / `வியர்த்தமான வேலை`, scan 203 `நரசிங்கப் போத்தரையன்`, scan 207 `‘மாட்சி’(?)களும்` / `வீர்பால்`, scan 209 `அன்றந்தக் காலம்` / `அகமிக` / `முடிவிழந்த`, scan 210 `“இராஜதந்திரம்” ஆகாது (?)`, scan 211 `அவ்வர் மகன்கள்`, scan 213 `இறும்பூதெய்தினாள்`, scan 217 `ஏற்றுவரே!`, scan 221 `பழங் குலங்கும் பஞ்சசோலைப் பூ மலராத பழங்காலத்தே` and its source-visible question-mark/ellipsis spacing, and scan 223 `நெரியாத` / `அய்ந்தும் ஆறும்` / `பெண்ணொருத்தி ஒன்று கேட்கும்`.
 
 The item-44 title page at scan 211 continues to omit the contents witness's comma after `தூணும்`. The item-46 title page at scan 220 continues to include a final `!` absent from the contents witness. Both witnesses remain preserved. No unresolved glyphs remain in scans 201–225. No Phase-3 page-join, final-boundary or assembly work was performed.
+
+### Phase-2 batch 10 — scans 226–250
+
+**COMPLETE.** Scans **226–250** were independently reread against the controlling source. The verified range is now consecutive through scan 250.
+
+Source-backed textual corrections found in this batch:
+
+1. **scan 228:** `நடத்தப்பட்டதாக கூறியது` → `நடத்தப்பட்டதாக குமுறியது`; `மாற்றாரை மண்டியிட வைத்துத் திரும்புவேன்` → `மாற்றாரை மண்டியிட வைத்தே திரும்புவேன்`;
+2. **scan 229:** `குழுங்கச் சிரித்து` → `குலுங்கச் சிரித்து`; `தவிக்கத்தாலே` → `தவித்ததாலே`;
+3. **scan 230:** `இத்திருமணம் தெரிவித்து!` → `இத்திருமணம் தெரிவித்தது!`;
+4. **scan 233:** inscription `கங்க பாடியும்` → `கங்க பாடியுந்`; `சிங்களீழ` → `சிங்கள ஈழ`; `இரட்டபாடி ஏழரை` → `இரட்டபாடி யேழரை`; `எழில்வள ருழியுள் எல்லா` → `நெழில்வள ருழியு ளெல்லா`; `சக்தியாசிரியன்` → `சத்தியாசிரியன்`;
+5. **scan 234:** `இளாடப் பேரரையன்` → `இலாடப் பேரரையன்`;
+6. **scan 240:** `கடைப்பிடித்த தமிழ் மக்கள்` → `கடைப்பிடித்து தமிழ் மக்கள்`;
+7. **scan 250:** source-visible punctuation spacing restored from `கூவிடக் கூவிட ;` to `கூவிடக் கூவிட;`.
+
+Source-sensitive readings independently rechecked and retained include scan 226 `நாற்பத்தி ஆறு` / `தெலுங்கு குல பாலன்`, scan 231 `தளகர்த்தர்களும்` / `வேளக்காரர் படை`, scan 232 `மகேசன் தொண்டு` / `சிறிது படுத்துக் கொண்டது போலும்`, scan 233 `நெழில்வள ருழியு ளெல்லா` / `பிருதிகண்ட வர்மன்` / `திருவையன் சங்கர தேவன்`, scan 234 `பணி தொடர்பவனாய்` / `புயற் காற்று`, scan 236 `சம்பந்தப்பட்டதிப்`, scan 237 `ஒடுக்கலாகிவிட்டவைகள்` / `மாதமுந்தான்`, scan 238 `உலகளவித்த திருவடிகள் சாத்தன்`, scan 239 `அரசோச்சிய` / `கலிங்கு வாரியம்`, scan 242 `கூளி முறிப்பது` / `‘மண்ணைக் கடக்க’மெனும்`, scan 243 `இடுப்பொடித்துப்`, scan 244 `நாமணைக் கோணமும்` / `இரணசூரன்` / `தெக்கண லாட`, scan 245 `ஏற்றுக் கங்கை நீர்க் குடங்களை யென்றுரைத்து`, scan 247 `ஆசிர்வாதம்` / `அய்ந்து குடுமி` / `அரவாணி`, scan 248 `துவரபாலகர்` / `அயிராவ தேசுவர்`, scan 249 `சமர்களத்தில்` and its six-dot ellipsis, and scan 250 `படைத்தனை`.
+
+The item-50 title page at scan 246 continues to read `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, distinct from the contents witness `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; both witnesses remain preserved. No unresolved glyphs remain in scans 226–250. No Phase-3 page-join, final-boundary or assembly work was performed.
 
 ## Title-witness differences preserved for later reconciliation
 
@@ -240,4 +258,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 226–250**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
+Continue **Phase 2 source-critical visual verification with scans 251–275**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation.
