@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS; 9/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
+**PHASE 4 IN PROGRESS — Batches 01–05 reviewed PASS; 12/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -89,7 +89,7 @@ Default principles:
 | 02 | 3–4 | 16–24 | `03.md`, `04.md` | **reviewed — PASS** |
 | 03 | 5–6 | 25–34 | `05.md`, `06.md` | **reviewed — PASS** |
 | 04 | 7–9 | 35–49 | `07.md`–`09.md` | **reviewed — PASS** |
-| 05 | 10–12 | 50–63 | `10.md`–`12.md` | planned |
+| 05 | 10–12 | 50–63 | `10.md`–`12.md` | **reviewed — PASS** |
 | 06 | 13–15 | 64–81 | `13.md`–`15.md` | planned |
 | 07 | 16–18 | 82–98 | `16.md`–`18.md` | planned |
 | 08 | 19–21 | 99–111 | `19.md`–`21.md` | planned |
@@ -109,9 +109,9 @@ Default principles:
 
 Current reviewed totals:
 
-- batches: **4/21**;
-- items: **9/58**;
-- numbered-item source scans covered by reviewed English batches: **40/290**;
+- batches: **5/21**;
+- items: **12/58**;
+- numbered-item source scans covered by reviewed English batches: **54/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -133,7 +133,10 @@ A translated but unreviewed batch is not eligible for final collection assembly.
 
 ## Reviewed closures
 
-Batches **01–04** are reviewed PASS. Their batch files are the durable translation/review records. Batch 04 is the first three-item batch and covers items **7–9**, scans **35–49**.
+Batches **01–05** are reviewed PASS. Their batch files are the durable translation/review records.
+
+- Batch 04 is the first three-item batch and covers items **7–9**, scans **35–49**.
+- Batch 05 covers items **10–12**, scans **50–63**. It preserves the maritime-contact and papyrus claims as source claims, the *Manimekalai* and *Kuruntokai* textual layers, Peevalai–Nedumudikilli/Ilanthiraiyan narrative, Murugan–Valli narrative, glossary and Tamil sound-play without silent source correction.
 
 ## Full-work gates after Batch 21
 
@@ -149,10 +152,10 @@ After all 21 revised batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 05 — items 10–12**:
+Translate and review **Batch 06 — items 13–15**:
 
-- item 10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` — scans **50–53** — `../../sections/10.md`;
-- item 11 — `ஆங்காங்கு அடையாள முத்திரைகள்!` — scans **54–57** — `../../sections/11.md`;
-- item 12 — `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` — scans **58–63** — `../../sections/12.md`.
+- item 13 — `காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி!` — scans **64–67** — `../../sections/13.md`;
+- item 14 — `கனக விஜயர் கல் சுமந்த வரலாறு!` — scans **68–77** — `../../sections/14.md`;
+- item 15 — `பருகிடலாம் இந்த “ஆரிய” தேநீரை!` — scans **78–81** — `../../sections/15.md`.
 
-Create `batches/batch-05.md`. Stop after item 12; do not begin item 13.
+Create `batches/batch-06.md`. Preserve all three items as distinct works inside the batch. Stop after item 15; do not begin item 16.
