@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 37/58 canonical item files assembled.**
+**IN PROGRESS — 39/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -35,30 +35,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3K: items 32–33 — COMPLETE.
 - Two-poem iteration 3L: items 34–35 — COMPLETE.
 - Two-poem iteration 3M: items 36–37 — COMPLETE.
+- Two-poem iteration 3N: items 38–39 — COMPLETE.
 
-### Two-poem iteration 3M
+### Two-poem iteration 3N
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 36 | `இளையவன்; அவன் ஒரு தமிழ் மகன்!` | 173–178 | `sections/36.md` | ASSEMBLED |
-| 37 | `அன்பால் அவனை விலைகொள்ள முடியுமோ?` | 179–185 | `sections/37.md` | ASSEMBLED |
+| 38 | `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!` | 186–190 | `sections/38.md` | ASSEMBLED |
+| 39 | `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!` | 191–194 | `sections/39.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **37/58**;
+- cumulative canonical files: **39/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Item 36 preserves verified classical quotation wording, separators, source note, punctuation and source-sensitive forms including `செல்லூர்க் குணா அது`, `கன்னலடா`, `வஞ்சிதனைக்`, `மேய்ச்ச லென்றால்`, `பழுத்த கிழம்`, `தலைவில் நின்றவள்`, `அந்தகாராய்`, `அறியாய்க்காரர்களை`, `சூளுரை பொன்றும் அறிக அன்பே!`, and `வீழ்ந்திறந்தார்` without normalization. Item 37 preserves the documented title-witness distinction exactly: title-page witness `அன்பால் அவனை விலைகொள்ள முடியுமோ?` controls the canonical displayed title, while contents witness `அன்பால் அவனை விலை கொள்ள முடியுமா?` remains separately recorded. The title page's anomalous printed item number `36` is explicitly preserved while canonical sequence identity remains item 37. Its dialogue spacing, classical quotation, citation formatting, and source-sensitive forms were preserved exactly from verified page records.
+Item 38 preserves verified quotations, separators, dialogue punctuation, and source-sensitive forms including `சோணையும்`, `அய்நூறு`, `பூழு`, `பக்கமெலாம்`, `சிறுகுடி யெனும்`, and `விட்டான்செருக்களத்தில்` without normalization. Item 39 preserves verified historical names, chronology, quotations, punctuation, source-sensitive forms including `புயங்கொள்ளியை`, and the Periya Puranam quotation form `எண் ணிலகவர்ந்தே` exactly from verified page records.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 38 — `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!` — scans **186–190** → `sections/38.md`;
-- item 39 — `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!` — scans **191–194** → `sections/39.md`.
+- item 40 — title-page witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` — scans **195–199** → `sections/40.md`; preserve contents witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` separately because the title page omits the final `!`;
+- item 41 — `பாதுகாப்போம்; பல்லவர் தலைநகரம்!` — scans **200–203** → `sections/41.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **39/58**. Do not begin item 40 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **41/58**. Do not begin item 42 in that iteration.
