@@ -13,10 +13,9 @@ This work is processed from the supplied controlling scan under the repository's
 - numbered item/title pages observed: **58/58**
 - Phase 1: **COMPLETE**
 - current work mode: **Phase 2 — independent source-critical visual verification**
-- Phase-2 verified range: **scans 1–275 consecutively (275/306)**
-- most recent Phase-2 batch completed: **scans 251–275**
-- next Phase-2 batch: **scans 276–299**
-- scans **300–306** remain for the final Phase-2 pass after the numbered work sequence
+- Phase-2 verified range: **scans 1–299 consecutively (299/306)**
+- most recent Phase-2 batch completed: **scans 276–299**
+- next and final Phase-2 batch: **scans 300–306**
 - poem/item title tracking: `indexes/item-title-map.md`
 - Tamil assembly: **DEFERRED to Phase 3**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
@@ -55,12 +54,13 @@ Completed batches:
 - **201–225**
 - **226–250**
 - **251–275**
+- **276–299**
 
 Detailed correction history is maintained in `audit.md`.
 
 ### Phase-2 batch 11 — scans 251–275
 
-**COMPLETE.** The verified range is consecutive through scan **275**.
+**COMPLETE.** The verified range became consecutive through scan **275**.
 
 Source-backed textual corrections found in this batch:
 
@@ -74,6 +74,26 @@ Source-sensitive forms independently rechecked and retained include scan 251 `�
 The item-54 title-page witness at scan 271 remains `தலையாலங்கானத்துச் செருவென்றான்!`, distinct from the contents witness `தலையாலங்கானத்துச் செரு வென்றான்!`. Both witnesses remain preserved.
 
 Unresolved readings in scans 251–275: **none**.
+
+### Phase-2 batch 12 — scans 276–299
+
+**COMPLETE.** The verified range is now consecutive through scan **299** and all 58 numbered items have passed Phase-2 source-critical verification.
+
+Source-backed textual corrections found in this batch:
+
+1. **scan 278:** `தடந்தோள் பழுதியிடத்` → `தடந்தோள் பழுதிபடத்`;
+2. **scan 281:** `புள்ளியமில்` → `புள்ளிமயில்`;
+3. **scan 284:** `பேராசி` → `பேரரசி`; `அருமையமிகு` → `அருமைமிகு`;
+4. **scan 287:** `கையான்ட` → `கையாண்ட`;
+5. **scan 293:** `பாண்டியருக்கு` → `பாண்டியர்க்கு`; `கூண்டவிட்ட` → `கூண்டிலிட்ட`; `இன்றுமுத்துப்` → `இன்றுமுற்றுப்`;
+6. **scan 294:** `காலை மறட்டும்` → `காலை மலரட்டும்`;
+7. **scan 296:** `நீர்வாகத்` → `நிர்வாகத்`.
+
+Source-sensitive forms independently rechecked and retained include scan 276 its source-note references and figures, scan 279 `சேரமான் யானைக்கட்சேய் இரும்பொறை`, scan 280 `விண்மிரட்டல்`, scan 281 `பூசின்றோ ?`, scan 282 `அணையுடைத்துப் பெருகிற்று`, scan 283 `கூதிர்காலத்தில்` / `இடக்கோளில்`, scan 286 `அகவு மேதும்`, scan 288 `தமிழ்ப் புவி`, scan 290 `சேரமான் மாரிவெண்கோவும்`, scan 292 `வண்ணனையே`, scan 297 `தீக்கு இரையாகக்கித்`, and scan 298 `சிற்றெறும்பு அரசுகளாயின்`.
+
+The item-58 title-page witness at scan 296 remains `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!`, distinct from the contents witness `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`. Both witnesses remain preserved.
+
+Scan 299's printed `(முதல் பாகம் முற்றிற்று)` was independently rechecked and retained. Unresolved readings in scans 276–299: **none**.
 
 No Phase-3 page-join, boundary-certification or assembly work was performed.
 
@@ -115,4 +135,4 @@ All witnesses and numbering anomalies remain preserved in `indexes/item-title-ma
 
 ## Exact next activity
 
-Continue **Phase 2 source-critical visual verification with scans 276–299**. Independently compare those page records against the controlling scan, correct only scan-proven discrepancies, promote only pages that pass, and record any unresolved readings. Then complete the final Phase-2 pass over scans **300–306** before any transition to Phase 3. Do **not** begin Phase-3 assembly, final boundary certification or Phase-4 translation yet.
+Complete the **final Phase-2 source-critical visual verification pass over scans 300–306**. These are the six printed `குறிப்புகள்` note pages and the image-only back cover. Verify each physical scan against its page record, promote passing records, and document any discrepancy. Do **not** begin Phase-3 structure/assembly work or Phase-4 translation until this final Phase-2 pass is complete.
