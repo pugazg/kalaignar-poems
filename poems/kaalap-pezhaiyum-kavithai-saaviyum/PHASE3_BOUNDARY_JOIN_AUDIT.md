@@ -14,14 +14,14 @@ Routine Phase-3 boundary/join work is processed in **25-physical-scan iterations
 
 ## Progress
 
-- items fully certified: **30/58**
-- last fully certified item: **30 — `ஆற்றலின் அளவுகோல்; அவன் செங்கோல்!`**
-- current partial item: **31 — contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`; title scan `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`**, audited through scan **149 / printed page 148**
-- latest 25-scan iteration completed: **scans 125–149**
+- items fully certified: **35/58**
+- last fully certified item: **35 — `உயிரினும் மேலான உயர்ந்த நட்பு!`**
+- current partial item: **36 — `இளையவன்; அவன் ஒரு தமிழ் மகன்!`**, audited through scan **174 / printed page 173**
+- latest 25-scan iteration completed: **scans 150–174**
 - unresolved structural joins: **none**
 - Tamil transcription changes in this iteration: **none**
 - structural metadata changes in this iteration: **none**
-- next 25-scan iteration: **scans 150–174**, beginning with join **149→150**
+- next 25-scan iteration: **scans 175–199**, beginning with join **174→175**
 
 ## Certified-item register
 
@@ -41,12 +41,17 @@ Routine Phase-3 boundary/join work is processed in **25-physical-scan iterations
 | 28 | `பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்!` | 136–139 | 135–138 | 3/3 | PASS |
 | 29 | `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` | 140–144 | 139–143 | 4/4 | PASS; title witness differs |
 | 30 | `ஆற்றலின் அளவுகோல்; அவன் செங்கோல்!` | 145–147 | 144–146 | 2/2 | PASS |
+| 31 | `மாண்பு நிறை தாயும், மாசற்ற மகனும்!` | 148–151 | 147–150 | 3/3 | PASS; title witness differs |
+| 32 | `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!` | 152–156 | 151–155 | 4/4 | PASS; title witness differs substantially |
+| 33 | `“செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா?` | 157–160 | 156–159 | 3/3 | PASS |
+| 34 | `மறையவில்லை; மறுமலர்ச்சி பெற்றது!` | 161–166 | 160–165 | 5/5 | PASS |
+| 35 | `உயிரினும் மேலான உயர்ந்த நட்பு!` | 167–172 | 166–171 | 5/5 | PASS |
 
 ## Durable structural notes
 
 - **scan 31→32:** the abrupt rhetorical/narrative transition is source-level; continuous pagination and intact page edges show no missing physical scan. It remains unrepaired.
 - **item 12 metadata:** scans 59–63 were previously aligned to the title-scan section id `item-12-varalattrup-poongaavil-vallith-thirumanam`; no Tamil text changed.
-- title witnesses remain separate and unreconciled. Reached discrepancies now include items **18, 22, 25, 26, 29 and 31**.
+- title witnesses remain separate and unreconciled. Reached discrepancies now include items **18, 22, 25, 26, 29, 31 and 32**.
 
 ## 25-scan iteration — scans 125–149
 
@@ -54,34 +59,26 @@ Routine Phase-3 boundary/join work is processed in **25-physical-scan iterations
 
 **Status: PASS — fully certified.**
 
-- opening boundary **123→124: PASS** was established in the preceding iteration;
-- join **124→125: PASS** — scan 124 closes with `எஞ்சியதுண்டோ கணப் பொழுதேனும் கண்ணகிக்கென்று ;`; scan 125 continues the same discussion with the `சம்பூர்ணத் தேவன்` passage;
-- join **125→126: PASS** — continuous argument; no separator, duplicate or source gap;
-- join **126→127: PASS** — `கண்ணகி நிலை கேள்வியுற்று ;` continues into `அவள் தோழி பெயருத்தி ஆரிய மாது - ... தேவந்தி ஆறுதல் கூறிட வருகிறாள்.`;
-- closing boundary **127→128: PASS** — scan 127 completes the item and source/citation note material; scan 128 begins item 26;
-- title witnesses remain distinct: contents has final `!`, title scan 124 does not;
+- joins **124→125, 125→126, 126→127: 3/3 PASS**;
+- closing boundary **127→128: PASS**;
+- contents has final `!`; title scan 124 does not;
 - dropped/duplicated text: **none**.
 
 ### Item 26 — contents `விழித்தெழுக; இதோ, செம்மொழி விடியல்!`
 
 **Status: PASS — fully certified.**
 
-- opening boundary **127→128: PASS**;
-- title scan 128 visibly reads `விழித்தெழுக; இதோ செம்மொழி விடியல்!`, omitting the contents comma after `இதோ`;
-- join **128→129: PASS** — the rhetorical question sequence continues directly from the `ஈக்களுக்குப் பல் இல்லை...` example into the next comparison;
-- join **129→130: PASS** — source-contiguous continuation with no missing or repeated lines;
-- join **130→131: PASS** — the discussion leads directly into the name/list sequence and item conclusion;
-- closing boundary **131→132: PASS** — scan 131 ends with `இதோ ‘செம்மொழி’ விடியல்!` and ornament; scan 132 begins item 27;
+- joins **128→129, 129→130, 130→131: 3/3 PASS**;
+- closing boundary **131→132: PASS**;
+- title scan 128 omits the contents comma after `இதோ`;
 - dropped/duplicated text: **none**.
 
 ### Item 27 — `வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்!`
 
 **Status: PASS — fully certified.**
 
-- opening boundary **131→132: PASS**;
 - joins **132→133, 133→134, 134→135: 3/3 PASS**;
-- the argument around `கோட்டைகளும்` continues into `வானைத் தொடும் மதில் அரண்களும்...`, and scan 134's `உலகு உள்ளிட்ட கோள்களின் / உலாவில் இருந்தே தொடங்கி` proceeds into the conclusion on scan 135;
-- closing boundary **135→136: PASS** — `கவிதைச் சாவி கொண்டு / திறக்கப்படுவது திண்ணம்!` and ornament close the item before item 28 begins;
+- closing boundary **135→136: PASS**;
 - title-witness difference: **none**;
 - dropped/duplicated text: **none**.
 
@@ -89,11 +86,8 @@ Routine Phase-3 boundary/join work is processed in **25-physical-scan iterations
 
 **Status: PASS — fully certified.**
 
-- opening boundary **135→136: PASS**;
-- join **136→137: PASS** — the English quotation ending scan 136 is followed by its `G. Zograf / Soviet Indologist...` attribution on scan 137;
-- join **137→138: PASS** — `திராவிடர்க்கும்` continues into the same argument on scan 138;
-- join **138→139: PASS** — `அப்போதே இரையாகிப் போனது -` continues as `அதன் பின்னரும் அங்கிருந்த திராவிடப் பண்பாட்டு இனம் ;`;
-- closing boundary **139→140: PASS** — ornament followed by item 29 title;
+- joins **136→137, 137→138, 138→139: 3/3 PASS**;
+- closing boundary **139→140: PASS**;
 - title-witness difference: **none**;
 - dropped/duplicated text: **none**.
 
@@ -101,40 +95,97 @@ Routine Phase-3 boundary/join work is processed in **25-physical-scan iterations
 
 **Status: PASS — fully certified.**
 
-- opening boundary **139→140: PASS**;
-- title scan 140 visibly reads `தாயே தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!`, omitting the comma after `தாயே`;
-- join **140→141: PASS** — the quotation/open construction at the foot of scan 140 continues directly on scan 141;
-- joins **141→142, 142→143, 143→144: PASS**;
-- closing boundary **144→145: PASS** — scan 144 closes with `தாயே ; தந்திடு எமக்கு அத்தகு / தன்மானச் செல்வங்களை ஈன்று!` and ornament; scan 145 begins item 30;
+- joins **140→141, 141→142, 142→143, 143→144: 4/4 PASS**;
+- closing boundary **144→145: PASS**;
+- title scan 140 omits the contents comma after `தாயே`;
 - dropped/duplicated text: **none**.
 
 ### Item 30 — `ஆற்றலின் அளவுகோல்; அவன் செங்கோல்!`
 
 **Status: PASS — fully certified.**
 
-- opening boundary **144→145: PASS**;
-- join **145→146: PASS**;
-- join **146→147: PASS** — the question concerning Karikalan's Lanka expedition is answered/continued directly on scan 147;
-- closing boundary **147→148: PASS** — scan 147 closes with `துடைத்துக் கொள்வோம் ; / முழுமை வரலாறில்லா சோகம்!` and ornament; scan 148 begins item 31;
+- joins **145→146, 146→147: 2/2 PASS**;
+- closing boundary **147→148: PASS**;
 - title-witness difference: **none**;
 - dropped/duplicated text: **none**.
 
 ### Item 31 — contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`
 
-**Status: PARTIAL — audited through scan 149.**
+The preceding iteration established opening boundary **147→148: PASS**, title-scan comma difference, and join **148→149: PASS**. This iteration completes the item.
 
-- opening boundary **147→148: PASS**;
-- title scan 148 visibly reads `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`, omitting the comma after `தாயும்` found in the contents witness;
-- join **148→149: PASS** — `அத்தனை அழகுகளும் அணி வகுத்துப் / படைத்த பெண்ணுருவே தான் ;` continues as `பைங்கிளி மாதவி என்கிற போது ; ...`;
-- scan 149 ends mid-continuation at `நேரிலே கோரிக்கை வைக்கத்தான்” என்றும்,`;
-- item 31 therefore remains open. Join **149→150** is the first check of the next 25-scan iteration;
-- internal joins audited so far: **1/3 PASS**;
+- join **149→150: PASS** — scan 149 ends `நேரிலே கோரிக்கை வைக்கத்தான்” என்றும்,`; scan 150 continues with `மேகலைக்கு மடல் தீட்டி அனுப்பினான் -`, preserving the same Udayakumaran/Manimekalai episode with no intervening source gap;
+- join **150→151: PASS** — scan 150 closes after the mistaken-identity killing and `மணிமேகலை மூர்ச்சித்தாள்!`; scan 151 continues directly with news reaching `செம்பியன் நெடுமுடிக்கிள்ளி` and the consequences of that event;
+- closing boundary **151→152: PASS** — scan 151 completes the `மாதவி, மேகலை` mother-daughter history and closes with the ornament; scan 152 begins item 32;
+- internal joins: **3/3 PASS**;
+- title witnesses remain distinct: contents has `தாயும்,`; title scan 148 has `தாயும்` without the comma;
+- dropped/duplicated text: **none**.
+
+## 25-scan iteration — scans 150–174
+
+### Item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`
+
+**Status: PASS — fully certified.**
+
+- opening boundary **151→152: PASS**;
+- title scan 152 visibly reads **`கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`**, which is a substantive wording/punctuation witness distinct from the contents entry; both remain preserved;
+- join **152→153: PASS** — scan 152 ends `அந்நாள் அவர்கள்,`; scan 153 continues `எண்ணிக்கை ; எண்ணம் இரண்டிலுமே ஏற்றம் பெற்றிருந்தனர்.`;
+- join **153→154: PASS** — the first historical example closes with a three-star separator and scan 154 begins the next Kovur Kizhar episode within the same item;
+- join **154→155: PASS** — another separator closes the Malaiyaman episode; scan 155 begins the Nalankilli/Nedunkilli siege episode;
+- join **155→156: PASS** — the classical poem quoted on scan 155 closes; scan 156 immediately begins `இதன் பொருள் :` and supplies its explanation;
+- closing boundary **156→157: PASS** — scan 156 closes the argument and ornament; scan 157 begins item 33;
+- internal joins: **4/4 PASS**;
+- dropped/duplicated text: **none**.
+
+### Item 33 — `“செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா?`
+
+**Status: PASS — fully certified.**
+
+- opening boundary **156→157: PASS**;
+- joins **157→158, 158→159, 159→160: 3/3 PASS** — the historical discussion, scholarly attribution and Mauryan/Mogur account continue in physical-page order with no separator anomaly, missing page or repeated passage;
+- closing boundary **160→161: PASS** — scan 160 completes the `“செருப்பாழி எறிந்த சென்னி”` explanation and closes with the ornament; scan 161 begins item 34;
+- title-witness difference: **none**;
+- dropped/duplicated text: **none**;
+- source-sensitive `ஆனந்தப் பள்ளுப்பாடி!` remains unchanged.
+
+### Item 34 — `மறையவில்லை; மறுமலர்ச்சி பெற்றது!`
+
+**Status: PASS — fully certified.**
+
+- opening boundary **160→161: PASS**;
+- joins **161→162, 162→163, 163→164, 164→165, 165→166: 5/5 PASS** — the chronology and territorial/political discussion remain continuous across all five page turns;
+- closing boundary **166→167: PASS** — scan 166 completes the item with `★ (Vide his “History of the Tamils” - Page 80)` and no continuing Tamil sentence; scan 167 begins item 35;
+- title-witness difference: **none**;
+- dropped/duplicated text: **none**;
+- source-sensitive forms including `முடியிறந்து`, `அய்ந்து`, the corrected `முற்பட்ட சோழர்களின்`, and `சோர்வுற்றதற்கும்` remain unchanged.
+
+### Item 35 — `உயிரினும் மேலான உயர்ந்த நட்பு!`
+
+**Status: PASS — fully certified.**
+
+- opening boundary **166→167: PASS**;
+- joins **167→168, 168→169, 169→170, 170→171, 171→172: 5/5 PASS** — the Pisiranthaiyar/Kopperuncholan narrative, quoted address, intervening separator, and final friendship episode remain continuous and correctly ordered;
+- closing boundary **172→173: PASS** — scan 172 closes with `உயிரினும் மேலான உயர்ந்த / நட்பன்றோ ; இந்த உத்தமர்கள் நட்பு!` and ornament; scan 173 begins item 36;
+- title-witness difference: **none**;
+- dropped/duplicated text: **none**;
+- source-sensitive `கற்பனையுற்றாய்`, `மார்பகமுற்றி`, `அயிரை`, and `நண்பாது` remain unchanged.
+
+### Item 36 — `இளையவன்; அவன் ஒரு தமிழ் மகன்!`
+
+**Status: PARTIAL — audited through scan 174.**
+
+- opening boundary **172→173: PASS**;
+- title scan 173 matches the contents witness;
+- join **173→174: PASS** — the introductory account of Tamil martial culture and the southern peoples continues into the Kosar passage on scan 174 with no missing or repeated material;
+- scan 174 continues the item through the `அன்னிமிஞிலி` / `மிஞிலி` discussion; the item does not close within this iteration;
+- internal joins audited so far: **1/5 PASS**;
+- join **174→175** remains pending for the next 25-scan iteration;
+- source-sensitive classical-quotation form `செல்லூர்க் குணா அது` remains unchanged;
 - dropped/duplicated text detected so far: **none**.
 
 ## Source-sensitive readings preserved
 
-No Phase-2 source reading was normalized in this pass. Among the forms retained are `வாணியது`, `தூமப்பணிகளாக`, `தமிழ்ச்சியர்`, `பத்தரை மாற்றுப் பொன்னெனத்`, `நல் வெள்ளியார்`, `ஊண்பித்தையார்`, `அஷ்டமாசித்தி`, `கலாம் விளைக்கும்`, `சாகிரப்`, `குருக்கர்`, `ஆரப்பா`, `மொகஞ்சதாரோ`, `அசுரா`, `காந்திரதோவ்`, `ஒனசு`, `எரிது`, `அய்வரும்`, `அழுந்தார்`, `வணங்கி பேற்றிட`, `எடுத்தனன்`, `முரசமொன்று`, `தணித்துக் கொள்வோம்`, `வாணிக்க`, and `இதயமா`.
+No Phase-2 source reading was normalized in this pass. Among the forms retained are `தந்திருக்கு`, `கன்னலாம் தமிழர்க் கென்றும்`, `திருமலியும்`, `ஆனந்தப் பள்ளுப்பாடி!`, `முடியிறந்து`, `அய்ந்து`, `கற்பனையுற்றாய்`, `மார்பகமுற்றி`, `அயிரை`, `நண்பாது`, and `செல்லூர்க் குணா அது`.
 
 ## Exact next activity
 
-Process **physical scans 150–174** as the next 25-page Phase-3 iteration, beginning with item 31's pending join **149→150**. Do not begin canonical Tamil assembly yet.
+Process **physical scans 175–199** as the next 25-page Phase-3 iteration, beginning with item 36's pending join **174→175**. Do not begin canonical Tamil assembly yet.
