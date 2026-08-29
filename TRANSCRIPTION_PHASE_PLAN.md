@@ -55,33 +55,24 @@ Translation/release follows the existing voice-fidelity and editorial-review rul
 
 ## Current application — காலப் பேழையும் கவிதைச் சாவியும்
 
-`poems/kaalap-pezhaiyum-kavithai-saaviyum/` is currently in **Phase 2 — source-critical visual verification**.
+`poems/kaalap-pezhaiyum-kavithai-saaviyum/` has completed **Phase 2 — source-critical visual verification** and is ready for **Phase 3 — structure, completeness, assembly and Tamil final clearance**.
 
 Current state:
 
 - controlling PDF: **306 physical scans**;
 - Phase 1 transcription: **306/306 physical scans represented**;
 - numbered item/title pages observed: **58/58**;
-- Phase 2 verified range: **scans 1–299 consecutively**;
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**, **276–299**;
-- all **58 numbered items** have now completed Phase-2 source-critical verification;
-- unresolved readings through scan 299: **none**;
-- next and final Phase-2 verification batch: **scans 300–306**.
+- Phase 2 verified range: **scans 1–306 consecutively (306/306)**;
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**, **276–299**, **300–306**;
+- unresolved readings after Phase 2: **none**;
+- scans 300–305 independently confirm six blank `குறிப்புகள்` notes pages carrying only that heading and horizontal rule;
+- scan 306 independently confirms an image-only back cover with no independently printed textual content;
+- Phase 2: **COMPLETE**;
+- next activity: **begin Phase 3 with exact physical scan ↔ printed-page mapping and structure/completeness reconciliation before canonical Tamil assembly**;
+- Phase 4 translation remains blocked until Tamil final clearance.
 
-### Latest completed batch — scans 276–299
+### Final Phase-2 batch — scans 300–306
 
-Scan-proven corrections:
+All seven end-matter scans passed independent source-critical visual verification with **no textual corrections and no unresolved readings**. Page records `0300.md` through `0306.md` are now `verified`.
 
-- scan 278: `தடந்தோள் பழுதியிடத்` → `தடந்தோள் பழுதிபடத்`;
-- scan 281: `புள்ளியமில்` → `புள்ளிமயில்`;
-- scan 284: `பேராசி` → `பேரரசி`; `அருமையமிகு` → `அருமைமிகு`;
-- scan 287: `கையான்ட` → `கையாண்ட`;
-- scan 293: `பாண்டியருக்கு` → `பாண்டியர்க்கு`; `கூண்டவிட்ட` → `கூண்டிலிட்ட`; `இன்றுமுத்துப்` → `இன்றுமுற்றுப்`;
-- scan 294: `காலை மறட்டும்` → `காலை மலரட்டும்`;
-- scan 296: `நீர்வாகத்` → `நிர்வாகத்`.
-
-Source-sensitive forms independently rechecked and retained include scan 279 `சேரமான் யானைக்கட்சேய் இரும்பொறை`, scan 280 `விண்மிரட்டல்`, scan 281 `பூசின்றோ ?`, scan 282 `அணையுடைத்துப் பெருகிற்று`, scan 283 `கூதிர்காலத்தில்` / `இடக்கோளில்`, scan 286 `அகவு மேதும்`, scan 288 `தமிழ்ப் புவி`, scan 290 `சேரமான் மாரிவெண்கோவும்`, scan 292 `வண்ணனையே`, scan 297 `தீக்கு இரையாகக்கித்`, and scan 298 `சிற்றெறும்பு அரசுகளாயின்`.
-
-The item-58 title-page witness `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!` remains distinct from the contents witness `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`. Both remain preserved for later Phase-3 reconciliation. Scan 299's printed `(முதல் பாகம் முற்றிற்று)` was independently confirmed.
-
-Phase 2 must remain independent visual verification only. Do not begin Phase-3 structure/assembly work or Phase-4 translation until scans 300–306 have completed Phase 2 and the phase transition is explicitly recorded.
+Phase 3 may now begin, but its structural reconciliation, page-join certification and canonical Tamil assembly must remain distinct from the completed Phase-2 textual verification record. Phase 4 must not begin until Phase 3 reaches Tamil final clearance.
