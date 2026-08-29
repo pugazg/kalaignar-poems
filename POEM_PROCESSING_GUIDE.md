@@ -55,7 +55,12 @@ poems/<slug>/
 பின்னர் தேவைக்கேற்ப:
 
 ```text
+  PHASE3_STRUCTURE_AUDIT.md
+  PHASE3_BOUNDARY_JOIN_AUDIT.md
+  PHASE3_TITLE_WITNESS_RECONCILIATION.md
+  PHASE3_CANONICAL_ASSEMBLY.md
   ASSEMBLY_REVIEW.md
+  SOURCE_COMPLETENESS_REVIEW.md
   HANDOVER.md
   translations/en/
     README.md
@@ -150,22 +155,33 @@ After Phase 1 transcription is complete:
 
 ### Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-After page verification:
+After page verification, Phase 3 proceeds in ordered gates. Do not skip forward merely because later work appears possible.
 
-- complete exact scan ↔ printed-page mapping;
-- audit all work/item boundaries and page joins;
-- reconcile quotation carry-over, separators and continuation lines;
-- account for every physical page or document genuine unavailability;
-- synchronize `README.md`, `indexes/page-map.md` and `audit.md`;
-- assemble canonical Tamil text from verified page records;
-- perform assembly/source-completeness review;
-- grant Tamil final clearance only after all required checks pass.
+1. **Physical scan ↔ printed-page reconciliation** — account for every physical scan and distinguish visibly printed numerals from reconciled logical pagination.
+2. **Boundary / page-join audit** — certify every item/work opening, every internal join, quotation carry-over, separator, continuation line and closing boundary.
+3. **Title-witness reconciliation** — when contents and title-page witnesses differ, preserve both exactly and record an explicit assembly authority decision; never create a hybrid title.
+4. **Canonical Tamil assembly** — assemble only from verified page records and only after all earlier structural gates pass.
+5. **Assembly/source-completeness review** — verify that every required item/page occurs once, provenance and exclusions are correct, and no source text was silently normalized.
+6. **Tamil final clearance** — grant only after the final assembly/source-completeness review passes.
 
 ### Phase 4 — translation and release
 
 Translation and derivative/release work begin only after Tamil final clearance and then follow the translation policy below.
 
 The repository-level phase reference is `TRANSCRIPTION_PHASE_PLAN.md`.
+
+## 4B. Canonical assembly discipline
+
+For book-length or multi-item works, canonical assembly is a provenance-preserving merge of the verified page layer, not a fresh transcription.
+
+- Body text must come only from `verified` page records assigned to that certified item.
+- Preserve verified spelling, punctuation, lineation, quotation marks, separators, notes and unusual source forms.
+- Preserve physical-page provenance inside canonical files, normally with `<!-- scan_page: N -->` markers or an equivalently explicit source map.
+- If contents/title witnesses differ, follow the work-specific reconciliation record. Preserve both witnesses; do not silently choose, normalize or combine them.
+- Stable numeric filenames such as `01.md` … `58.md` are preferred for multi-item works when Tamil title text must not be altered by filesystem naming.
+- If a routine batch boundary falls inside an item, **do not publish a partial canonical item file**. Carry the whole item into the next iteration and create the file only when its full certified source range is available.
+- If assembly exposes a genuine discrepancy in a `verified` page record, stop treating that reading as settled: reopen the source/page record, document the correction, revalidate affected joins/assembly, and only then continue. Never repair only the assembled file while leaving the source layer inconsistent.
+- Assembly must never be used to smooth source-level abrupt transitions or punctuation anomalies already certified during Phase 3.
 
 ## 5. கவிதை lineation policy
 
@@ -177,7 +193,7 @@ The repository-level phase reference is `TRANSCRIPTION_PHASE_PLAN.md`.
 4. stanza இடைவெளிகள் source-ல் இருப்பின் blank line-ஆகப் பாதுகாக்க வேண்டும்;
 5. quotation marks, ellipses, dashes, repeated punctuation source-supported வடிவிலேயே இருக்க வேண்டும்;
 6. verse-ஐ prose paragraph-ஆக மாற்றக்கூடாது;
-7. later assembled `sections/<slug>.md` page records-ன் verified lineation-ஐ மட்டுமே இணைக்க வேண்டும்.
+7. later assembled canonical files verified page records-ன் lineation-ஐ மட்டுமே இணைக்க வேண்டும்.
 
 ## 6. Difficult reading protocol
 
@@ -220,30 +236,26 @@ During a declared Phase 1, capture visible printed numbers as part of the page r
 
 ஒவ்வொரு work README-யும் poem body எந்த scan-ல் தொடங்கி எந்த scan-ல் முடிகிறது என்பதை source-supported முறையில் பதிவு செய்ய வேண்டும்.
 
-Assembled poem:
+Assembled text under `sections/`:
 
-```text
-sections/<slug>.md
-```
-
-இந்த file:
-
-- verified poem pages-ஐ மட்டும் சேர்க்க வேண்டும்;
-- scan-page markers அல்லது source map references வைத்திருக்கலாம்;
+- verified poem/item pages-ஐ மட்டும் சேர்க்க வேண்டும்;
+- scan-page markers அல்லது source map references வைத்திருக்க வேண்டும்;
 - front matter, publisher advertisement, printer imprint ஆகியவற்றை poem verse-க்குள் கலந்து விடக்கூடாது.
 
 If a work is still in Phase 1 or Phase 2, assembly remains deferred even when some individual page records are already verified.
 
 ## 10. Audit
 
-`audit.md`-ல் குறைந்தது:
+`audit.md` மற்றும் phase-specific audit files-ல் தேவைக்கேற்ப:
 
 - page status totals;
 - poem-body verified / needs-review / blocked counts;
 - difficult readings;
 - source marks affecting text;
 - corrections/reopens;
-- assembled-poem readiness;
+- structural/page-join status;
+- title-witness decisions;
+- assembled-poem/item readiness;
 - translation readiness
 
 பதிவு செய்ய வேண்டும்.
@@ -269,15 +281,29 @@ Translation:
 - duplicate work directories உருவாக்கக்கூடாது;
 - source PDF commit செய்யக்கூடாது;
 - ஒவ்வொரு activity-க்கும் தெளிவான archival commit message பயன்படுத்த வேண்டும்;
-- activity முடிவில் README/HANDOVER-ல் exact next step update செய்ய வேண்டும், except that a declared Phase 1 may use milestone-based status updates rather than rewriting control documents after every small transcription batch.
+- activity முடிவில் durable state documents-ல் exact next step update செய்ய வேண்டும், except that a declared Phase 1 may use milestone-based status updates rather than rewriting control documents after every small transcription batch.
 
-## 13. Completion criteria
+## 13. Continuation / handover discipline
+
+Fresh-chat continuation must be reconstructable from the repository itself.
+
+1. **Live GitHub `main` is authoritative.** A SHA or status copied into an older prompt is only a checkpoint. If live `main` has advanced, continue from the newer state and do not revert completed work.
+2. Before changing an existing work, read the repository `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, this guide, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, and all current work-level control/state files relevant to the active phase.
+3. Do not restart a completed phase or activity simply because a new chat begins.
+4. When several status-bearing documents disagree, resolve the discrepancy from the newest live work-level evidence and controlling source; then synchronize the stale documents before or as part of continuing work. Do not guess.
+5. At phase transitions and handoff points, synchronize every document that explicitly claims the current phase, progress count, or exact next activity. In particular, stale `metadata/source.md`, root README, handover or prompt text must not be allowed to send a future chat back to an already completed phase.
+6. Handover documents should record durable facts and the exact next operation, not depend on hidden chat history.
+7. If the user says **“Proceed with next activity”**, execute the exact next activity recorded in live state without asking them to choose among routine continuation steps.
+8. After each requested activity report the changed files, current phase/status, resulting live `main` SHA, and exact next activity.
+
+## 14. Completion criteria
 
 ஒரு கவிதையின் Tamil archival layer source-complete என்று கருதுவதற்கு:
 
 - எல்லா physical scan pages-க்கும் page records இருக்க வேண்டும்;
 - poem-body scan pages அனைத்தும் `verified` அல்லது documented terminal `blocked` ஆக இருக்க வேண்டும்;
-- assembled poem page records-க்கு எதிராக review செய்யப்பட்டிருக்க வேண்டும்;
+- canonical assembly verified page records-க்கு எதிராக review செய்யப்பட்டிருக்க வேண்டும்;
+- physical/source completeness review pass ஆக வேண்டும்;
 - silent normalization இருக்கக்கூடாது;
 - audit page/source counts match ஆக வேண்டும்;
 - source PDF repository-க்கு வெளியே இருக்க வேண்டும்.
