@@ -14,9 +14,9 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–2 / 58 certified**
-- last certified item: **2 — `படிமுறை வளர்ச்சி`**
-- next item: **3 — `‘காந்தக்கல்’ கதையொன்று!`**
+- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–3 / 58 certified**
+- last certified item: **3 — `‘காந்தக்கல்’ கதையொன்று!`**
+- next item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -45,7 +45,7 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 
 ## Phase 3 activity 2 — boundary / join audit
 
-**IN PROGRESS — 2/58 items certified.**
+**IN PROGRESS — 3/58 items certified.**
 
 ### Item 1 — `பொது உலகம்`
 
@@ -70,7 +70,18 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 - title-witness difference: **none**;
 - the source-supported `பத்தரை` reading on scan 12 remains preserved.
 
-The direct cross-page continuation at scan 12→13 is `நடந்தான் தரையில் நம் குரங்கு மனிதன் என்பதையும்` → `வரைந்து காட்டும் வரலாற்றுப் பேரறிஞர் குறிப்புகளை`. Scan 15 closes with `( படிமுறை வளர்ச்சி = Evolution )` and an ornament before scan 16 begins item 3.
+### Item 3 — `‘காந்தக்கல்’ கதையொன்று!`
+
+**CERTIFIED.** Range: scans **16–19** / printed pages **15–18**.
+
+- opening boundary scan 15→16: **PASS**;
+- internal joins scan 16→17, 17→18 and 18→19: **3/3 PASS**;
+- closing boundary scan 19→20: **PASS**;
+- dropped or duplicated text: **none**;
+- unresolved continuation/quotation issue: **none**;
+- title-witness difference: **none**.
+
+The item-3 joins include `நிற்கும் நிலை போலவே` → `படி முறை யெனும்`, `முத்தாரக் கதைகள் சொல்லி ;` → `அயர்ச்சியிலே உமை ஆழ்த்தாமல்`, and `தொடங்கினானென்றும்` → `இயல் என்பது இவற்றுக்கு அடுத்ததே யென்றும்`. Scan 19 then closes with a complete sentence and ornament before scan 20 begins item 4.
 
 Full evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -82,6 +93,6 @@ The contents witness and title-page witness should remain separately documented 
 
 ## Exact next activity
 
-Audit **item 3 — `‘காந்தக்கல்’ கதையொன்று!`**, scans **16–19** / printed pages **15–18**. Check all three internal joins and the closing boundary into item 4 at scan 20.
+Audit **item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**, scans **20–24** / printed pages **19–23**. Check all four internal joins and the closing boundary into item 5 at scan 25.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
