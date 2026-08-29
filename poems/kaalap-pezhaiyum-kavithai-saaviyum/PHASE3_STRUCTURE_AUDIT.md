@@ -33,7 +33,7 @@ A reconciled printed page is not the same claim as a visibly printed numeral. So
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–2 / 58 certified.**
+**Status: IN PROGRESS — items 1–3 / 58 certified.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -58,15 +58,24 @@ Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
   - title-witness difference: **none**;
   - source-sensitive `பத்தரை` on scan 12 remains unchanged and is not a structural defect.
 
-For item 2, the most explicit cross-page continuation is scan 12 ending `நடந்தான் தரையில் நம் குரங்கு மனிதன் என்பதையும்` and scan 13 continuing `வரைந்து காட்டும் வரலாற்றுப் பேரறிஞர் குறிப்புகளை`. Scan 15 then closes the item with `( படிமுறை வளர்ச்சி = Evolution )` and an ornament before scan 16 begins item 3.
+- **Item 3 — `‘காந்தக்கல்’ கதையொன்று!`**
+  - range: scans **16–19** / printed pages **15–18**;
+  - opening boundary scan 15→16: **PASS**;
+  - internal joins scan 16→17, 17→18 and 18→19: **3/3 PASS**;
+  - closing boundary scan 19→20: **PASS**;
+  - dropped/duplicated text: **none**;
+  - unresolved continuation/quotation issue: **none**;
+  - title-witness difference: **none**.
+
+Item 3 contains three direct cross-page continuations: `நிற்கும் நிலை போலவே` → `படி முறை யெனும்`, the narration ending `முத்தாரக் கதைகள் சொல்லி ;` → `அயர்ச்சியிலே உமை ஆழ்த்தாமல்`, and `தொடங்கினானென்றும்` → `இயல் என்பது இவற்றுக்கு அடுத்ததே யென்றும்`. Scan 19 closes with a complete sentence and ornament before scan 20 begins item 4.
 
 ## Remaining Phase-3 activities
 
-1. continue **58-item boundary certification and within-item page-join continuity audit** through items 3–58;
+1. continue **58-item boundary certification and within-item page-join continuity audit** through items 4–58;
 2. **title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them;
 3. **canonical Tamil assembly** — only after structural and join audits pass;
 4. **assembly/source-completeness review and Tamil final clearance**.
 
 ## Exact next activity
 
-Audit **item 3 — `‘காந்தக்கல்’ கதையொன்று!`**, scans **16–19** / printed pages **15–18**, including all three internal joins and its closing boundary into item 4 at scan 20. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
+Audit **item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**, scans **20–24** / printed pages **19–23**, including all four internal joins and its closing boundary into item 5 at scan 25. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
