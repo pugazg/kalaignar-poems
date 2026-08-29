@@ -14,11 +14,13 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — boundary / within-item page-join audit: **IN PROGRESS — items 1–53 / 58 fully certified**
-- current partial item: **54 — contents `தலையாலங்கானத்துச் செரு வென்றான்!`, audited through scan 274**
-- latest Phase-3 iteration: **25 physical scans, 250–274 — COMPLETE**
-- next Phase-3 iteration: **25 physical scans, 275–299**
-- canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
+- Phase-3 activity 2 — boundary / within-item page-join audit: **COMPLETE — 58/58 items certified**
+- current partial item: **none**
+- final Phase-3 boundary/join iteration: **25 physical scans, 275–299 — COMPLETE**
+- numbered-item sequence closes on scan **299 / printed page 298** with `(முதல் பாகம் முற்றிற்று)`
+- scan **300** begins the separate `குறிப்புகள்` end matter
+- next Phase-3 activity: **title-witness reconciliation record**
+- canonical Tamil assembly: **BLOCKED pending completion of title-witness reconciliation**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
 Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
@@ -36,46 +38,47 @@ Detailed Phase-2 correction history remains in `audit.md`. Phase-3 structural wo
 
 All **306 scans** are structurally accounted for, and all **58** contents start pages agree with the observed title scans through `title scan = contents start page + 1`.
 
-## Latest Phase-3 boundary/join iteration — scans 250–274
+## Phase 3 activity 2 — boundary / page-join audit
 
-The 25-scan iteration completed:
+**COMPLETE — 58/58 numbered items certified.**
 
-- item 50 contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!` — scans 246–251 / pp. 245–250 — **CERTIFIED, 5/5 joins PASS**;
-- item 51 `திருமணங்களாலும் வருவதுண்டு திருப்பம்!` — scans 252–256 / pp. 251–255 — **CERTIFIED, 4/4 joins PASS**;
-- item 52 `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!` — scans 257–262 / pp. 256–261 — **CERTIFIED, 5/5 joins PASS**;
-- item 53 `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!` — scans 263–270 / pp. 262–269 — **CERTIFIED, 7/7 joins PASS**;
-- item 54 contents `தலையாலங்கானத்துச் செரு வென்றான்!` — scans 271–274 audited in this iteration — **PARTIAL, 3/5 internal joins audited PASS**.
+The final 25-scan iteration covered **scans 275–299** and completed:
 
-Item 50's pending **249→250** and **250→251** joins pass, and scan 251 closes the item before item 51 begins at scan 252.
+- item 54 contents `தலையாலங்கானத்துச் செரு வென்றான்!` — scans 271–276 / pp. 270–275 — **CERTIFIED, 5/5 joins PASS**;
+- item 55 `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` — scans 277–284 / pp. 276–283 — **CERTIFIED, 7/7 joins PASS**;
+- item 56 `பற்று கடந்தால், பற்றி எரியும் வெறியே!` — scans 285–288 / pp. 284–287 — **CERTIFIED, 3/3 joins PASS**;
+- item 57 `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` — scans 289–295 / pp. 288–294 — **CERTIFIED, 6/6 joins PASS**;
+- item 58 contents `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்` — scans 296–299 / pp. 295–298 — **CERTIFIED, 3/3 joins PASS**.
 
-Item 51 closes cleanly at **256→257**. Item 52 closes cleanly at **262→263**. In item 53, scan 269's internal separator leads into the source `குறிப்பு:` on scan 270; that note remains part of the item, which then closes cleanly at **270→271**.
+The final closing boundary **299→300** also passes: scan 299 ends the numbered work with `(முதல் பாகம் முற்றிற்று)`, while scan 300 is the separate blank notes page headed `குறிப்புகள்`.
 
-Item 54's title-page witness is `தலையாலங்கானத்துச் செருவென்றான்!`, joining `செரு` and `வென்றான்`, while the contents witness keeps the words separate. Joins **271→272, 272→273 and 273→274** all pass. The item remains open at scan 274, so the next iteration begins with **274→275**.
-
-No dropped or duplicated text, unresolved structural join, Tamil transcription change, or structural metadata correction was found in this iteration.
+No dropped or duplicated text, unresolved structural join, Tamil transcription change, or structural metadata correction was found in the final iteration.
 
 ## Title witnesses remain separate
 
-Phase 3 does not silently normalize contents/title-page differences. Reached discrepancies currently include:
+Phase 3 has not silently normalized contents/title-page differences. The complete documented discrepancy set is:
 
-- item 18 — `தேய்ந்ததுபோக` / `தேய்ந்தது போக`;
-- item 22 — full-title quotation marks on the title page only;
-- item 25 — final `!` in contents but absent on title scan 124;
+- item 18 — contents `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`; title page `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`;
+- item 22 — title page adds enclosing quotation marks around the full title;
+- item 25 — contents has final `!`; title scan 124 omits it;
 - item 26 — contents has `இதோ,`; title scan 128 has `இதோ` without the comma;
-- item 29 — contents has `தாயே,`; title scan 140 omits that comma;
-- item 31 — contents has `தாயும்,`; title scan 148 omits that comma;
+- item 29 — contents has `தாயே,`; title scan 140 omits the comma;
+- item 31 — contents has `தாயும்,`; title scan 148 omits the comma;
 - item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title scan 152 `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`;
 - item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title scan 179 `அன்பால் அவனை விலைகொள்ள முடியுமோ?`; the same title page visibly prints item number **36** instead of 37;
-- item 40 — contents final `!`; title scan 195 omits it;
+- item 40 — contents has final `!`; title scan 195 omits it;
 - item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; title scan 211 omits the comma after `தூணும்`;
-- item 46 — contents has no final `!`; title scan 220 adds it;
+- item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`; title scan 220 adds final `!`;
 - item 50 — contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; title scan 246 `குருதிக்களமே; கொலு மண்டபம் ஆனது!`;
-- item 54 — contents `தலையாலங்கானத்துச் செரு வென்றான்!`; title scan 271 `தலையாலங்கானத்துச் செருவென்றான்!`.
+- item 54 — contents `தலையாலங்கானத்துச் செரு வென்றான்!`; title scan 271 `தலையாலங்கானத்துச் செருவென்றான்!`;
+- item 58 — contents `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`; title scan 296 `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!`.
 
-All witnesses and the item-37 numbering anomaly remain separately preserved pending the designated title-witness reconciliation step.
+All witnesses, including item 37's printed-number anomaly, remain independently preserved pending the next designated Phase-3 activity.
 
 ## Exact next activity
 
-Process **physical scans 275–299** as the next 25-page Phase-3 iteration, starting with item 54's pending join **274→275**. This should reach the end of item 58 if no source anomaly prevents certification.
+Create the **Phase-3 title-witness reconciliation record** for items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58**.
 
-Do **not** begin canonical Tamil assembly in that same iteration. Do **not** begin Phase 4 translation before Tamil final clearance.
+Preserve both the contents witness and the title-page witness exactly. Do **not** silently normalize one into the other, and retain item 37's visibly printed item number `36` as a source anomaly.
+
+Do **not** begin canonical Tamil assembly until this title-witness reconciliation record is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
