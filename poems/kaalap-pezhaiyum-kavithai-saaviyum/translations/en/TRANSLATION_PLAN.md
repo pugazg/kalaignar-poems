@@ -2,9 +2,9 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS; 6/58 items translated and reviewed; 3/29 batches complete.**
+**PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS; 9/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
 
-Planning began from live `main` after Tamil final clearance. No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
+No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
 ## Governing objective
 
@@ -25,15 +25,16 @@ If a Tamil reading must be questioned, use this authority chain:
 
 A translation difficulty is never a reason to silently change the Tamil source.
 
-## Stable item correspondence
+## Stable item correspondence and cadence
 
 - Tamil canonical identities remain **1–58**.
-- English translation must retain the same stable item number.
-- Routine batch size is **two complete items**.
-- Planned batches: **29**.
+- English translation retains the same stable item number.
+- Batches **01–03** are historically complete as two-item batches.
+- From **Batch 04 onward**, routine batch/iteration size is **three complete items**.
 - No batch may cut through an item.
-- English batch files are `batches/batch-01.md` through `batches/batch-29.md`.
-- Each item inside a batch must retain explicit source metadata: stable item number, canonical Tamil title, canonical file, physical scan range and title-witness status.
+- Final Batch 21 contains the single remaining item 58 after the three-item cadence exhausts items 7–57.
+- Revised planned batch count: **21**.
+- Each item inside a batch retains explicit source metadata: stable item number, canonical Tamil title, canonical file, physical scan range and title-witness status.
 - The eventual collection assembly will use only reviewed batch bodies in stable item order.
 
 ## Title-witness policy
@@ -66,11 +67,11 @@ For those items:
 11. **Source notes and separators remain structurally visible.** Internal `★` breaks, `குறிப்பு:` blocks and parenthetical source notes must be represented appropriately.
 12. **Line/stanza architecture remains visible.** English may adjust a line where grammar genuinely requires it, but must not proseify whole verse movements or silently compress content.
 13. **Claims are translated as claims.** Translation is not a fact-check layer; contextual correction, if ever requested, belongs outside the translated body.
-14. **No silent Tamil repair.** If translation exposes a plausible Tamil source defect, stop and reopen the source-backed archival workflow rather than fixing English alone.
+14. **No silent Tamil repair.** If translation exposes a plausible Tamil source defect, reopen the source-backed archival workflow rather than fixing English alone.
 
 ## Names, terms and transliteration
 
-A live terminology ledger is maintained inside batch review notes and will be consolidated during the full-work editorial review.
+A live terminology ledger is maintained inside batch translator notes and will be consolidated during the full-work editorial review.
 
 Default principles:
 
@@ -80,47 +81,37 @@ Default principles:
 - do not alternate casually between multiple spellings for the same king, place, text or political term;
 - when a source wordplay depends on Tamil form, retain enough Tamil/transliteration for the wordplay to remain visible and explain only in a clearly separated translator note if necessary.
 
-No global glossary choice should override the wording/context of an individual source passage without review.
-
-## Planned batch inventory
+## Revised batch inventory
 
 | Batch | Items | Physical scans | Canonical files | Status |
 |---:|---:|---:|---|---|
 | 01 | 1–2 | 10–15 | `01.md`, `02.md` | **reviewed — PASS** |
 | 02 | 3–4 | 16–24 | `03.md`, `04.md` | **reviewed — PASS** |
 | 03 | 5–6 | 25–34 | `05.md`, `06.md` | **reviewed — PASS** |
-| 04 | 7–8 | 35–43 | `07.md`, `08.md` | planned |
-| 05 | 9–10 | 44–53 | `09.md`, `10.md` | planned |
-| 06 | 11–12 | 54–63 | `11.md`, `12.md` | planned |
-| 07 | 13–14 | 64–77 | `13.md`, `14.md` | planned |
-| 08 | 15–16 | 78–87 | `15.md`, `16.md` | planned |
-| 09 | 17–18 | 88–98 | `17.md`, `18.md` | planned |
-| 10 | 19–20 | 99–106 | `19.md`, `20.md` | planned |
-| 11 | 21–22 | 107–116 | `21.md`, `22.md` | planned |
-| 12 | 23–24 | 117–123 | `23.md`, `24.md` | planned |
-| 13 | 25–26 | 124–131 | `25.md`, `26.md` | planned |
-| 14 | 27–28 | 132–139 | `27.md`, `28.md` | planned |
-| 15 | 29–30 | 140–147 | `29.md`, `30.md` | planned |
-| 16 | 31–32 | 148–156 | `31.md`, `32.md` | planned |
-| 17 | 33–34 | 157–166 | `33.md`, `34.md` | planned |
-| 18 | 35–36 | 167–178 | `35.md`, `36.md` | planned |
-| 19 | 37–38 | 179–190 | `37.md`, `38.md` | planned |
-| 20 | 39–40 | 191–199 | `39.md`, `40.md` | planned |
-| 21 | 41–42 | 200–206 | `41.md`, `42.md` | planned |
-| 22 | 43–44 | 207–215 | `43.md`, `44.md` | planned |
-| 23 | 45–46 | 216–225 | `45.md`, `46.md` | planned |
-| 24 | 47–48 | 226–240 | `47.md`, `48.md` | planned |
-| 25 | 49–50 | 241–251 | `49.md`, `50.md` | planned |
-| 26 | 51–52 | 252–262 | `51.md`, `52.md` | planned |
-| 27 | 53–54 | 263–276 | `53.md`, `54.md` | planned |
-| 28 | 55–56 | 277–288 | `55.md`, `56.md` | planned |
-| 29 | 57–58 | 289–299 | `57.md`, `58.md` | planned |
+| 04 | 7–9 | 35–49 | `07.md`–`09.md` | **reviewed — PASS** |
+| 05 | 10–12 | 50–63 | `10.md`–`12.md` | planned |
+| 06 | 13–15 | 64–81 | `13.md`–`15.md` | planned |
+| 07 | 16–18 | 82–98 | `16.md`–`18.md` | planned |
+| 08 | 19–21 | 99–111 | `19.md`–`21.md` | planned |
+| 09 | 22–24 | 112–123 | `22.md`–`24.md` | planned |
+| 10 | 25–27 | 124–135 | `25.md`–`27.md` | planned |
+| 11 | 28–30 | 136–147 | `28.md`–`30.md` | planned |
+| 12 | 31–33 | 148–160 | `31.md`–`33.md` | planned |
+| 13 | 34–36 | 161–178 | `34.md`–`36.md` | planned |
+| 14 | 37–39 | 179–194 | `37.md`–`39.md` | planned |
+| 15 | 40–42 | 195–206 | `40.md`–`42.md` | planned |
+| 16 | 43–45 | 207–219 | `43.md`–`45.md` | planned |
+| 17 | 46–48 | 220–240 | `46.md`–`48.md` | planned |
+| 18 | 49–51 | 241–256 | `49.md`–`51.md` | planned |
+| 19 | 52–54 | 257–276 | `52.md`–`54.md` | planned |
+| 20 | 55–57 | 277–295 | `55.md`–`57.md` | planned |
+| 21 | 58 | 296–299 | `58.md` | planned |
 
 Current reviewed totals:
 
-- batches: **3/29**;
-- items: **6/58**;
-- numbered-item source scans covered by reviewed English batches: **25/290**;
+- batches: **4/21**;
+- items: **9/58**;
+- numbered-item source scans covered by reviewed English batches: **40/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -128,7 +119,7 @@ Current reviewed totals:
 For each batch:
 
 1. fetch live `main` and confirm no source/canonical change supersedes this plan;
-2. read both canonical item files completely;
+2. read every canonical item assigned to the batch completely;
 3. consult `SOURCE_MAP.md` for exact scans, title witnesses and source-sensitive flags;
 4. reread verified page records wherever a line, note, title, quotation or boundary needs source provenance;
 5. draft the English translation without changing Tamil;
@@ -136,62 +127,17 @@ For each batch:
 7. run Kalaignar-language/voice review;
 8. verify names, dates, figures, literary works, political vocabulary and speaker distinctions;
 9. record any non-literal solution or transliteration decision in review notes;
-10. mark the batch `reviewed — PASS` only after both items pass.
+10. mark the batch `reviewed — PASS` only after every assigned item passes.
 
 A translated but unreviewed batch is not eligible for final collection assembly.
 
-## Batch 01 closure
+## Reviewed closures
 
-Reviewed file: `batches/batch-01.md`.
+Batches **01–04** are reviewed PASS. Their batch files are the durable translation/review records. Batch 04 is the first three-item batch and covers items **7–9**, scans **35–49**.
 
-- item 1 — `பொது உலகம்` — scans **10–11** — reviewed PASS;
-- item 2 — `படிமுறை வளர்ச்சி` — scans **12–15** — reviewed PASS;
-- source scans represented: **6/6**;
-- omissions / duplications: **0 / 0**;
-- title witness handling: **PASS**;
-- chronology, figures, proper names and source claims retained: **PASS**;
-- wordplay/non-literal decisions documented in translator notes: **PASS**;
-- Kalaignar-language/voice review: **PASS**;
-- Tamil canonical/source files modified: **none**.
+## Full-work gates after Batch 21
 
-## Batch 02 closure
-
-Reviewed file: `batches/batch-02.md`.
-
-- item 3 — `‘காந்தக்கல்’ கதையொன்று!` — scans **16–19** — reviewed PASS;
-- item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans **20–24** — reviewed PASS;
-- source scans represented: **9/9**;
-- omissions / duplications: **0 / 0**;
-- title witness handling: **PASS**;
-- Kumari Kandam/Indus and evolutionary argumentation retained without outside correction: **PASS**;
-- Tamil `iyal/isai/natakam/koothu` ordering retained where rhetorically active: **PASS**;
-- Item-4 dialogue, satire, sexual metaphoric register and chastity/equality argument retained: **PASS**;
-- Periyar, Anna and Bharathi references retained: **PASS**;
-- final Iron Age / `காந்தக்கல்` wordplay retained: **PASS**;
-- parenthetical Neanderthal note retained: **PASS**;
-- Kalaignar-language/voice review: **PASS**;
-- Tamil canonical/source files modified: **none**.
-
-## Batch 03 closure
-
-Reviewed file: `batches/batch-03.md`.
-
-- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28** — reviewed PASS;
-- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34** — reviewed PASS;
-- source scans represented: **10/10**;
-- omissions / duplications: **0 / 0**;
-- title witness handling: **PASS**;
-- Tolkappiyam sensory framework and named literary references retained: **PASS**;
-- Diva–Sur, gesture/sound/language sequence and Kural/Aathichudi wordplay retained: **PASS**;
-- class rhetoric, Bharathidasan, Nehru/Tiruvachakam and landlord episodes retained without outside correction: **PASS**;
-- final cultural-revolution/social-justice/`அறப்போர்` distinctions retained: **PASS**;
-- source-sensitive compact Bharathidasan phrase documented, not silently normalized: **PASS**;
-- Kalaignar-language/voice review: **PASS**;
-- Tamil canonical/source files modified: **none**.
-
-## Full-work gates after Batch 29
-
-After all 29 batches are reviewed:
+After all 21 revised batches are reviewed:
 
 1. assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from reviewed batch translation bodies only;
 2. verify items **1–58** occur exactly once and in order;
@@ -203,9 +149,10 @@ After all 29 batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 04 — items 7–8**:
+Translate and review **Batch 05 — items 10–12**:
 
-- item 7 — `வரலாற்றுக் காலத்தின் கோலம்!` — scans **35–39** — `../../sections/07.md`;
-- item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` — scans **40–43** — `../../sections/08.md`.
+- item 10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` — scans **50–53** — `../../sections/10.md`;
+- item 11 — `ஆங்காங்கு அடையாள முத்திரைகள்!` — scans **54–57** — `../../sections/11.md`;
+- item 12 — `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` — scans **58–63** — `../../sections/12.md`.
 
-Create `batches/batch-04.md`. Preserve both items as distinct works inside the batch. Stop after item 8; do not begin item 9.
+Create `batches/batch-05.md`. Stop after item 12; do not begin item 13.
