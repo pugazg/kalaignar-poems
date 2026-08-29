@@ -14,10 +14,10 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — boundary / within-item page-join audit: **IN PROGRESS — items 1–40 / 58 fully certified**
-- current partial item: **none**
-- latest Phase-3 iteration: **25 physical scans, 175–199 — COMPLETE**
-- next Phase-3 iteration: **25 physical scans, 200–224**
+- Phase-3 activity 2 — boundary / within-item page-join audit: **IN PROGRESS — items 1–45 / 58 fully certified**
+- current partial item: **46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`, audited through scan 224**
+- latest Phase-3 iteration: **25 physical scans, 200–224 — COMPLETE**
+- next Phase-3 iteration: **25 physical scans, 225–249**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -36,17 +36,20 @@ Detailed Phase-2 correction history remains in `audit.md`. Phase-3 structural wo
 
 All **306 scans** are structurally accounted for, and all **58** contents start pages agree with the observed title scans through `title scan = contents start page + 1`.
 
-## Latest Phase-3 boundary/join iteration — scans 175–199
+## Latest Phase-3 boundary/join iteration — scans 200–224
 
 The 25-scan iteration completed:
 
-- item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!` — scans 173–178 / pp. 172–177 — **CERTIFIED, 5/5 joins PASS**;
-- item 37 contents `அன்பால் அவனை விலை கொள்ள முடியுமா?` — scans 179–185 / pp. 178–184 — **CERTIFIED, 6/6 joins PASS**;
-- item 38 `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!` — scans 186–190 / pp. 185–189 — **CERTIFIED, 4/4 joins PASS**;
-- item 39 `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!` — scans 191–194 / pp. 190–193 — **CERTIFIED, 3/3 joins PASS**;
-- item 40 contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` — scans 195–199 / pp. 194–198 — **CERTIFIED, 4/4 joins PASS**.
+- item 41 `பாதுகாப்போம்; பல்லவர் தலைநகரம்!` — scans 200–203 / pp. 199–202 — **CERTIFIED, 3/3 joins PASS**;
+- item 42 `பட்டயங்கள், பறைசாற்றுகின்றன!` — scans 204–206 / pp. 203–205 — **CERTIFIED, 2/2 joins PASS**;
+- item 43 `திராவிட இனத்தின் தமிழர் மரபு!` — scans 207–210 / pp. 206–209 — **CERTIFIED, 3/3 joins PASS**;
+- item 44 contents `இரும்புத் தூணும், ஈக்களின் இறகும்!` — scans 211–215 / pp. 210–214 — **CERTIFIED, 4/4 joins PASS**;
+- item 45 `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` — scans 216–219 / pp. 215–218 — **CERTIFIED, 3/3 joins PASS**;
+- item 46 contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` — scans 220–224 audited in this iteration — **PARTIAL, 4/5 internal joins audited PASS**.
 
-Closing boundary **199→200** also passes: scan 199 completes item 40 and scan 200 begins item 41 `பாதுகாப்போம்; பல்லவர் தலைநகரம்!`.
+For item 41, the ornament on scan 202 is an internal divider: scan 203 continues the same numbered item before the true boundary at 203→204. Item 43 similarly continues after the internal ornament on scan 208.
+
+For item 46, join **222→223** is a source-level rhetorical transition. The scan sequence and logical pagination are intact, so no missing passage is invented or supplied. The item continues beyond scan 224; the next iteration begins with **224→225**.
 
 No dropped or duplicated text, unresolved structural join, Tamil transcription change, or structural metadata correction was found in this iteration.
 
@@ -62,12 +65,14 @@ Phase 3 does not silently normalize contents/title-page differences. Reached dis
 - item 31 — contents has `தாயும்,`; title scan 148 omits that comma;
 - item 32 — contents `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`; title scan 152 `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`;
 - item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title scan 179 `அன்பால் அவனை விலைகொள்ள முடியுமோ?`; the same title page visibly prints item number **36** instead of 37;
-- item 40 — contents final `!`; title scan 195 omits it.
+- item 40 — contents final `!`; title scan 195 omits it;
+- item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`; title scan 211 omits the comma after `தூணும்`;
+- item 46 — contents has no final `!`; title scan 220 adds it.
 
 All witnesses and the item-37 numbering anomaly remain separately preserved pending the designated title-witness reconciliation step.
 
 ## Exact next activity
 
-Process **physical scans 200–224** as the next 25-page Phase-3 iteration. Opening boundary **199→200** is already certified, so begin with item 41's internal join **200→201**.
+Process **physical scans 225–249** as the next 25-page Phase-3 iteration, starting with item 46's pending join **224→225**.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
