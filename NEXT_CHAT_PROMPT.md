@@ -28,15 +28,15 @@ Use the GitHub connector and work directly on `main`.
 
 First fetch live GitHub `main` and treat it as authoritative.
 
-The last work-state checkpoint before the handover-document refresh was:
+The work-state checkpoint recording canonical assembly iteration 2 is:
 
-`95d59d9c73f853ba8dbd0ab20cb9f25417784e34`
+`4eec236ba6ec0ec2f1b436ea97348bf75e51e8dd`
 
 Commit:
 
-`Record Kaalap Pezhai canonical assembly batch 1`
+`Record Kaalap Pezhai canonical assembly batch 2`
 
-That SHA is only a checkpoint. The handover/guideline refresh itself creates later commits, and other work may also advance `main`. **Never reset or revert to this SHA. If live `main` is newer, continue from the newer state.**
+That SHA is only a checkpoint. Status-sync/handover commits follow it, and other work may also advance `main`. **Never reset or revert to this SHA. If live `main` is newer, continue from the newer state.**
 
 ## MANDATORY STARTUP
 
@@ -55,7 +55,7 @@ Before making any repository change, read completely:
 11. `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_BOUNDARY_JOIN_AUDIT.md`
 12. `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
 13. `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_CANONICAL_ASSEMBLY.md`
-14. all existing canonical files under `poems/kaalap-pezhaiyum-kavithai-saaviyum/sections/`, especially `01.md` through `06.md`
+14. all existing canonical files under `poems/kaalap-pezhaiyum-kavithai-saaviyum/sections/`, especially `01.md` through `11.md`
 15. the verified `pages/NNNN.md` records needed for the next assembly range.
 
 Inspect the attached controlling source as needed. Do not rely on OCR, semantic expectation or an outside edition as textual authority.
@@ -76,8 +76,10 @@ Completed:
 - closing boundary 299→300: **PASS**;
 - title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**;
 - canonical assembly iteration 1: **scans 10–34 — COMPLETE**;
-- canonical files already created: **`sections/01.md` through `sections/06.md`**;
-- cumulative canonical assembly: **6/58 items**.
+- canonical assembly iteration 2: **scans 35–59 — COMPLETE**;
+- canonical files already created: **`sections/01.md` through `sections/11.md`**;
+- cumulative canonical assembly: **11/58 items**;
+- item 12 spans scans **58–63**; scans **58–59** are carried forward and no partial `sections/12.md` exists.
 
 Do **not** repeat transcription, Phase-2 verification, scan/page reconciliation, boundary/join auditing or title-witness reconciliation unless a genuine newly discovered source discrepancy requires a documented reopen.
 
@@ -87,7 +89,7 @@ Canonical assembly is a merge from the verified page layer, not a new transcript
 
 1. Use only `verified` page records assigned to the certified item.
 2. Preserve every verified source-supported spelling, punctuation mark, line break, quotation, separator, note and unusual form.
-3. Preserve physical provenance with `<!-- scan_page: N -->` markers, following the exact pattern already used in `sections/01.md` through `sections/06.md`.
+3. Preserve physical provenance with `<!-- scan_page: N -->` markers, following the exact pattern already used in the existing canonical files.
 4. Use stable numeric filenames `01.md` … `58.md`.
 5. Use the **title-page witness** as the canonical displayed title.
 6. If contents/title witnesses differ, retain the contents witness separately in front matter. Never create a hybrid/normalized title.
@@ -109,19 +111,18 @@ Read `PHASE3_TITLE_WITNESS_RECONCILIATION.md` before assembling any discrepant i
 
 ## EXACT NEXT ACTIVITY
 
-Process the next **25 physical scans: 35–59** as canonical-assembly iteration 2.
+Process the next **25 physical scans: 60–84** as canonical-assembly iteration 3, while completing carried item 12 from its full certified range **58–63**.
 
 Create these complete canonical files:
 
-- item 7 — scans **35–39** → `sections/07.md`
-- item 8 — scans **40–43** → `sections/08.md`
-- item 9 — scans **44–49** → `sections/09.md`
-- item 10 — scans **50–53** → `sections/10.md`
-- item 11 — scans **54–57** → `sections/11.md`
+- item 12 — scans **58–63** → `sections/12.md`
+- item 13 — scans **64–67** → `sections/13.md`
+- item 14 — scans **68–77** → `sections/14.md`
+- item 15 — scans **78–81** → `sections/15.md`
 
-Item 12 begins at scan **58** and continues through scan **63**. Because this 25-scan iteration ends at scan 59, **do not create `sections/12.md` yet**. Carry item 12 into the following iteration and publish it only once all scans 58–63 are included.
+Item 16 begins at scan **82** and continues through scan **87**. Because this 25-scan iteration ends at scan 84, **do not create `sections/16.md` yet**. Carry item 16 into the following iteration and publish it only once all scans 82–87 are included.
 
-Before creating 07–11, inspect the existing canonical files 01–06 and the verified page records for scans 35–59. Preserve their exact source text and use the established front-matter/provenance structure.
+Before creating 12–15, inspect the existing canonical files and the verified page records for scans 60–84, together with carried scans 58–59 for item 12. Preserve their exact source text and use the established front-matter/provenance structure.
 
 After completing the iteration:
 
