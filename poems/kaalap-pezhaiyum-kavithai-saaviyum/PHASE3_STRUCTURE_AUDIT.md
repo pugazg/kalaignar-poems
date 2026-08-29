@@ -19,13 +19,13 @@ All **306 physical scans** are structurally accounted for. All **58** contents s
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–49 / 58 fully certified; item 50 audited through scan 249.**
+**Status: IN PROGRESS — items 1–53 / 58 fully certified; item 54 audited through scan 274.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ### Iteration size
 
-Routine continuation uses **25 physical scans per iteration**. The latest completed iteration covered **scans 225–249**. Item 50 crosses this iteration boundary and therefore remains partial.
+Routine continuation uses **25 physical scans per iteration**. The latest completed iteration covered **scans 250–274**. Item 54 crosses this iteration boundary and therefore remains partial.
 
 ### Certified ranges through current boundary
 
@@ -38,8 +38,7 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 | 25–30 | 124–147 | CERTIFIED |
 | 31 | 148–151 | CERTIFIED; contents/title comma witness differs |
 | 32 | 152–156 | CERTIFIED; contents/title wording witness differs |
-| 33–35 | 157–172 | CERTIFIED |
-| 36 | 173–178 | CERTIFIED |
+| 33–36 | 157–178 | CERTIFIED |
 | 37 | 179–185 | CERTIFIED; title witness differs and title page prints item number `36` |
 | 38–39 | 186–194 | CERTIFIED |
 | 40 | 195–199 | CERTIFIED; title page omits contents final `!` |
@@ -50,59 +49,60 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 | 47 | 226–235 | CERTIFIED |
 | 48 | 236–240 | CERTIFIED |
 | 49 | 241–245 | CERTIFIED |
-| 50 | 246–251 | PARTIAL — opening and joins through 248→249 audited; title witness differs substantially |
+| 50 | 246–251 | CERTIFIED; title witness differs substantially |
+| 51 | 252–256 | CERTIFIED |
+| 52 | 257–262 | CERTIFIED |
+| 53 | 263–270 | CERTIFIED |
+| 54 | 271–276 | PARTIAL — opening and joins through 273→274 audited; title witness joins `செரு` + `வென்றான்` |
 
-## Latest iteration — scans 225–249
-
-### Item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`
-
-- pending join **224→225: PASS**;
-- closing boundary **225→226: PASS**;
-- cumulative internal joins **5/5 PASS**;
-- title scan 220 adds a final `!` absent from the contents witness;
-- no dropped/duplicated text.
-
-### Item 47 — `அந்த வருங்காலமே; அருங்காலமாகும்!`
-
-- joins **226→227, 227→228, 228→229, 229→230, 230→231, 231→232, 232→233, 233→234, 234→235: 9/9 PASS**;
-- direct continuations include `அவன் வீட்டுக்கும் தெரியாது.` → `நாட்டுக்கும் தெரியாது...`, `சக்தி வர்மன் என்பான் ;` → `பயந்து, சரணடைந்தான்...`, `இதோ இராசராசன் / அமைத்தளித்துள்ள` → `அந்தத் தஞ்சை ஆலயம் கூட...`, and the administrator list across **233→234**;
-- closing boundary **235→236: PASS**;
-- no title-witness difference or dropped/duplicated text.
-
-### Item 48 — `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!`
-
-- joins **236→237, 237→238, 238→239, 239→240: 4/4 PASS**;
-- direct continuation **238→239** carries `...என்கிறேன்! இந்த` into `அடித்தட்டு ஊராட்சி முறையில்...`;
-- direct continuation **239→240** carries `மூன்று சமயத்தினருக்கும்` into `நிறைவு ஏற்படும் வண்ணம் மூன்று ஆலயங்களை...`;
-- closing boundary **240→241: PASS**;
-- no title-witness difference or dropped/duplicated text.
-
-### Item 49 — `களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்!`
-
-- joins **241→242, 242→243, 243→244, 244→245: 4/4 PASS**;
-- direct continuation **241→242** carries `இணைந்தே ஆட்சி நடத்தினர் என்பது;` into `இந்திய நாட்டுச் சரித்திரத்தில் / இதுவரை காணாத புதுமை!`;
-- direct continuation **242→243** carries `அய்ந்தாம் மகிந்தன் எனும் இலங்கை வேந்தனை –` into `முற்றுகையிட்டுப் போர் தொடுத்து – முன்னேறியது!`;
-- closing boundary **245→246: PASS**;
-- no title-witness difference or dropped/duplicated text.
+## Latest iteration — scans 250–274
 
 ### Item 50 — contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`
 
-**PARTIAL through scan 249.**
+- pending joins **249→250, 250→251: 2/2 PASS**;
+- closing boundary **251→252: PASS**;
+- cumulative internal joins **5/5 PASS**;
+- title scan 246 remains `குருதிக்களமே; கொலு மண்டபம் ஆனது!` versus the contents witness;
+- no dropped/duplicated text.
 
-- opening boundary **245→246: PASS**;
-- title scan 246 visibly reads `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, differing from the contents witness in compound form and punctuation;
-- joins **246→247, 247→248, 248→249: 3/3 audited PASS**;
-- direct continuation **248→249** carries `இராசாதிராசனைப் பழி வாங்கக்` into `காத்திருந்த ஆகவமல்லனாம் சாளுக்கியன்...`;
-- item remains open at scan 249; next iteration starts with **249→250**;
+### Item 51 — `திருமணங்களாலும் வருவதுண்டு திருப்பம்!`
+
+- joins **252→253, 253→254, 254→255, 255→256: 4/4 PASS**;
+- scan 254's three-star divider is internal to the item;
+- closing boundary **256→257: PASS**;
+- no title-witness difference or dropped/duplicated text.
+
+### Item 52 — `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!`
+
+- joins **257→258, 258→259, 259→260, 260→261, 261→262: 5/5 PASS**;
+- internal three-star dividers on scans 258 and 261 remain part of the same item;
+- closing boundary **262→263: PASS**;
+- no title-witness difference or dropped/duplicated text.
+
+### Item 53 — `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!`
+
+- joins **263→264, 264→265, 265→266, 266→267, 267→268, 268→269, 269→270: 7/7 PASS**;
+- scan 269's three-star divider is followed by the source `குறிப்பு:` on scan 270; the note is structurally part of item 53;
+- closing boundary **270→271: PASS**;
+- no title-witness difference or dropped/duplicated text.
+
+### Item 54 — contents `தலையாலங்கானத்துச் செரு வென்றான்!`
+
+**PARTIAL through scan 274.**
+
+- opening boundary **270→271: PASS**;
+- title scan 271 reads `தலையாலங்கானத்துச் செருவென்றான்!`, joining the two contents words;
+- joins **271→272, 272→273, 273→274: 3/3 audited PASS**;
+- item remains open at scan 274; next iteration begins with **274→275**;
 - cumulative internal joins audited so far: **3/5 PASS**;
 - no dropped/duplicated text detected so far.
 
 ## Iteration result
 
-- processed: **scans 225–249 (25 scans)**;
-- newly fully certified: **items 46–49**;
-- cumulative fully certified: **49/58**;
-- current partial item: **50 through scan 249 / printed page 248**;
+- processed: **scans 250–274 (25 scans)**;
+- newly fully certified: **items 50–53**;
+- cumulative fully certified: **53/58**;
+- current partial item: **54 through scan 274 / printed page 273**;
 - Tamil transcription changes: **none**;
 - structural metadata changes: **none**;
 - dropped/duplicated text found: **none**;
@@ -113,17 +113,17 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 - source-level abrupt transition **31→32** remains preserved rather than editorially repaired;
 - source-level rhetorical transition **222→223** in item 46 remains preserved; there is no pagination or physical-scan gap;
 - item 12 section metadata was previously unified across scans 58–63 without changing Tamil text;
-- reached title-witness discrepancies now include items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46 and 50**; all remain separate pending the designated title-witness reconciliation step;
+- reached title-witness discrepancies now include items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50 and 54**; all remain separate pending the designated title-witness reconciliation step;
 - item 37's title page visibly prints item number **36**; this source anomaly remains preserved;
-- source-sensitive readings in this iteration remain unchanged, including `பேச்சிருக்காது`, `குமுறியது`, `வைத்தே திரும்புவேன்`, `குலுங்கச்`, `தவித்ததாலே`, `இத்திருமணம் தெரிவித்தது!`, `கங்க பாடியுந்`, `சிங்கள ஈழ`, `இரட்டபாடி யேழரை`, `நெழில்வள ருழியு ளெல்லா`, `சத்தியாசிரியன்`, `இலாடப் பேரரையன்`, `சம்பந்தப்பட்டதிப்`, `ஒடுக்கலாகிவிட்டவைகள்`, `கடைப்பிடித்து தமிழ் மக்கள்`, `இடுப்பொடித்துப்`, `நாமணைக் கோணமும்`, `தெக்கண லாட`, `அய்ந்து குடுமி`, `அரவாணி`, `துவரபாலகர்`, `அயிராவ தேசுவர்`, `சமர்களத்தில்`, and `விலா எலும்பால்......`.
+- source-sensitive readings in this iteration remain unchanged, including `படைத்தனை`, `கூவிடக் கூவிட;`, `மரபு வழிக் கலப்பு மணவிழாவை`, `கி.பி. 1070 ஜூன் திங்கள்`, `‘ஆலந்து’`, `ஒடிந்த கரத்துக்கு உபரிக் கரமாக`, `கோரசனி`, `கெல்லி`, `முடிவுரை`, `மூர்க்கத்தனமிக்க`, and `கழனியோர்த்துக்`.
 
 ## Remaining Phase-3 activities
 
-1. continue the **58-item boundary certification and within-item page-join continuity audit** in 25-scan iterations;
-2. perform the **title-witness reconciliation record** while preserving the source witnesses;
+1. complete the **58-item boundary certification and within-item page-join continuity audit** through scans 275–299;
+2. perform the **title-witness reconciliation record** while preserving all source witnesses;
 3. begin **canonical Tamil assembly** only after the full structural/join audit passes;
 4. perform assembly/source-completeness review and Tamil final clearance.
 
 ## Exact next activity
 
-Process physical scans **250–274** as the next 25-scan iteration, beginning with item 50's pending join **249→250**. Canonical Tamil assembly remains blocked.
+Process physical scans **275–299** as the next 25-scan iteration, beginning with item 54's pending join **274→275**. This range is expected to reach the end of item 58. Canonical Tamil assembly remains blocked during this iteration.
