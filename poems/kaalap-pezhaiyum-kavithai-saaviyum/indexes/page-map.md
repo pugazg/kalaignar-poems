@@ -2,55 +2,125 @@
 
 Controlling PDF: **306 physical scans**.
 
-This map records only source-supported observations. Uninspected scan ranges are not assigned inferred printed numbers.
+## Phase 3 status
 
-## Current phase note
+**Exact physical-scan ↔ printed-page reconciliation: COMPLETE.**
 
-The work is now in **Phase 1 — transcription only**. During this phase:
+This Phase-3 pass distinguishes two kinds of evidence:
 
-- physical scan numbers remain the primary sequential control;
-- any visibly printed page number encountered during transcription may be recorded in the individual page record;
-- no invisible printed number will be inferred as source evidence;
-- exhaustive scan ↔ printed-page reconciliation, item-boundary mapping and page-join auditing are **deferred to Phase 3**;
-- this document should be updated at meaningful milestones/anomalies rather than after every small transcription batch.
+- **visible number** — a page number actually printed on the scanned page;
+- **reconciled printed page** — pagination established from the verified contents starts, the uninterrupted physical sequence, and the surrounding visibly printed page numbers.
 
-Pages already genuinely verified before the phase switch remain recorded as verified below. New scan-10+ transcription records will normally remain `partial` until Phase 2.
+No source text has been normalized and no title witness has been reconciled in this step.
 
-| Scan | Printed page | Role / observation | Current state |
-|---:|---:|---|---|
-| 1 | — | front cover | **verified; page record `pages/0001.md`** |
-| 2 | — | title page; later library stamp present | **verified; page record `pages/0002.md`** |
-| 3 | — | publication/imprint/price | **verified; page record `pages/0003.md`** |
-| 4 | — | introductory note | **verified; page record `pages/0004.md`** |
-| 5 | — | contents, items 1–19 | **verified; page record `pages/0005.md`** |
-| 6 | 5 | contents, items 20–43 | **verified; page record `pages/0006.md`** |
-| 7 | 6 | contents, items 44–58 | **verified; page record `pages/0007.md`** |
-| 8 | — | work/section display | **verified; page record `pages/0008.md`** |
-| 9 | — | blank verso dominated by reverse-side/show-through text | **verified; page record `pages/0009.md`** |
-| 10 | 9 | item 1 opening: `பொது உலகம்` | **next Phase-1 transcription page; record pending** |
-| 11–306 | — | not yet transcribed in current phase | pending transcription |
+## Global pagination result
 
-## Contents evidence
+| Physical scans | Reconciled printed pagination | Role | Result |
+|---|---|---|---|
+| 1–4 | — | front cover, title/imprint/front matter | unnumbered preliminaries |
+| 5–299 | printed pages **4–298**, exactly `printed page = scan - 1` | contents, display/blank verso, items 1–58 | **continuous; no missing or duplicated physical page detected** |
+| 300–305 | — | six blank `குறிப்புகள்` pages | unnumbered end matter |
+| 306 | — | image-only back cover | unnumbered end matter |
 
-Scans 5–7 contain the complete 58-item contents list. The three page records preserve title wording, punctuation and listed starting-page numbers; printed dot leaders are documented as navigation/layout marks rather than title punctuation.
+Important evidence anchors:
 
-### Scan-5 printed-number correction
+- scan 5 has **no visibly printed number**, but Phase 3 reconciles it as logical printed page **4** because scan 6 visibly prints `5`, scan 7 visibly prints `6`, and the sequence continues without a physical gap;
+- scan 8 therefore reconciles to printed page **7**;
+- scan 9, the blank/show-through verso, reconciles to printed page **8**;
+- scan 10 is the item-1 title/opening scan and corresponds to contents start page **9**;
+- every one of the 58 contents start pages satisfies **title scan = contents start page + 1**;
+- scan 299 corresponds to printed page **298** and visibly closes the numbered sequence with `(முதல் பாகம் முற்றிற்று)`;
+- scans 300–306 are outside the numbered pagination.
 
-The earlier preliminary map assigned printed page `4` to scan 5 by sequence. Direct verification found **no printed page number visibly present on scan 5**. The inferred `4` was removed. Scans 6 and 7 visibly print `5` and `6` respectively.
+The earlier Phase-1 rule not to infer invisible page numbers remains historically correct for transcription. Phase 3 is the designated reconciliation stage, so the logical printed pagination above is now recorded separately from whether a number is visibly printed on a particular page.
 
-Contents pagination is navigation evidence only; it must not be used to fabricate scan mappings.
+## Certified item ranges
 
-## Scan-9 resolution
+The physical ranges below are reconciled against the verified contents starts and the complete 306-scan sequence. Printed ranges follow the continuous pagination established above.
 
-Direct visual inspection confirmed that scan 9 contains no independently printed edition text on that side. Faint reverse-side/show-through dominates the image. No printed page number is visibly present, so `printed_page` remains unset.
+| Item | Contents start page | Title scan | Physical scan range | Reconciled printed range |
+|---:|---:|---:|---:|---:|
+| 1 | 9 | 10 | 10–11 | 9–10 |
+| 2 | 11 | 12 | 12–15 | 11–14 |
+| 3 | 15 | 16 | 16–19 | 15–18 |
+| 4 | 19 | 20 | 20–24 | 19–23 |
+| 5 | 24 | 25 | 25–28 | 24–27 |
+| 6 | 28 | 29 | 29–34 | 28–33 |
+| 7 | 34 | 35 | 35–39 | 34–38 |
+| 8 | 39 | 40 | 40–43 | 39–42 |
+| 9 | 43 | 44 | 44–49 | 43–48 |
+| 10 | 49 | 50 | 50–53 | 49–52 |
+| 11 | 53 | 54 | 54–57 | 53–56 |
+| 12 | 57 | 58 | 58–63 | 57–62 |
+| 13 | 63 | 64 | 64–67 | 63–66 |
+| 14 | 67 | 68 | 68–77 | 67–76 |
+| 15 | 77 | 78 | 78–81 | 77–80 |
+| 16 | 81 | 82 | 82–87 | 81–86 |
+| 17 | 87 | 88 | 88–95 | 87–94 |
+| 18 | 95 | 96 | 96–98 | 95–97 |
+| 19 | 98 | 99 | 99–102 | 98–101 |
+| 20 | 102 | 103 | 103–106 | 102–105 |
+| 21 | 106 | 107 | 107–111 | 106–110 |
+| 22 | 111 | 112 | 112–116 | 111–115 |
+| 23 | 116 | 117 | 117–119 | 116–118 |
+| 24 | 119 | 120 | 120–123 | 119–122 |
+| 25 | 123 | 124 | 124–127 | 123–126 |
+| 26 | 127 | 128 | 128–131 | 127–130 |
+| 27 | 131 | 132 | 132–135 | 131–134 |
+| 28 | 135 | 136 | 136–139 | 135–138 |
+| 29 | 139 | 140 | 140–144 | 139–143 |
+| 30 | 144 | 145 | 145–147 | 144–146 |
+| 31 | 147 | 148 | 148–151 | 147–150 |
+| 32 | 151 | 152 | 152–156 | 151–155 |
+| 33 | 156 | 157 | 157–160 | 156–159 |
+| 34 | 160 | 161 | 161–166 | 160–165 |
+| 35 | 166 | 167 | 167–172 | 166–171 |
+| 36 | 172 | 173 | 173–178 | 172–177 |
+| 37 | 178 | 179 | 179–185 | 178–184 |
+| 38 | 185 | 186 | 186–190 | 185–189 |
+| 39 | 190 | 191 | 191–194 | 190–193 |
+| 40 | 194 | 195 | 195–199 | 194–198 |
+| 41 | 199 | 200 | 200–203 | 199–202 |
+| 42 | 203 | 204 | 204–206 | 203–205 |
+| 43 | 206 | 207 | 207–210 | 206–209 |
+| 44 | 210 | 211 | 211–215 | 210–214 |
+| 45 | 215 | 216 | 216–219 | 215–218 |
+| 46 | 219 | 220 | 220–225 | 219–224 |
+| 47 | 225 | 226 | 226–235 | 225–234 |
+| 48 | 235 | 236 | 236–240 | 235–239 |
+| 49 | 240 | 241 | 241–245 | 240–244 |
+| 50 | 245 | 246 | 246–251 | 245–250 |
+| 51 | 251 | 252 | 252–256 | 251–255 |
+| 52 | 256 | 257 | 257–262 | 256–261 |
+| 53 | 262 | 263 | 263–270 | 262–269 |
+| 54 | 270 | 271 | 271–276 | 270–275 |
+| 55 | 276 | 277 | 277–284 | 276–283 |
+| 56 | 284 | 285 | 285–288 | 284–287 |
+| 57 | 288 | 289 | 289–295 | 288–294 |
+| 58 | 295 | 296 | 296–299 | 295–298 |
 
-## Phase status
+## Completeness accounting
 
-- verified before phase switch: **scans 1–9**;
-- Phase 1 transcription starts: **scan 10**;
-- systematic verification of scan-10+ records: **deferred to Phase 2**;
-- full mapping/boundary/page-join reconciliation: **deferred to Phase 3**.
+All physical scans are now structurally accounted for:
+
+- preliminaries: **4 scans** (`1–4`);
+- numbered pagination block: **295 scans** (`5–299`, printed pages 4–298);
+- unnumbered notes pages: **6 scans** (`300–305`);
+- back cover: **1 scan** (`306`).
+
+Total: **4 + 295 + 6 + 1 = 306 scans**.
+
+There is no unexplained physical gap, duplicate scan, or missing pagination position in the numbered block.
+
+## Still deferred within Phase 3
+
+This mapping pass does **not** itself certify textual joins between adjacent page records. The next Phase-3 activity is therefore:
+
+1. audit and certify the **58 item boundaries** against the title scans and contents witnesses;
+2. audit every **within-item page join / continuation** for dropped or duplicated lines, quotation carry-over and separator placement;
+3. preserve all documented contents-vs-title-page witness differences rather than silently choosing one;
+4. only after those checks pass, begin canonical Tamil assembly.
 
 ## Exact next activity
 
-Transcribe scan **10** into `pages/0010.md`, then continue sequentially through the source under Phase-1 rules. Do not interrupt transcription to perform the deferred mapping or continuity audit.
+Perform the **58-item boundary and page-join continuity audit**, starting from item 1 and proceeding sequentially. Do not begin canonical Tamil assembly until the structural/page-join audit is complete.
