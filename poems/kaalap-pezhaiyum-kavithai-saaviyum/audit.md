@@ -13,9 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–200 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**
-- next Phase-2 batch: **scans 201–225**
+- Phase-2 verified range: **scans 1–225 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**
+- next Phase-2 batch: **scans 226–250**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -175,6 +175,26 @@ Source-sensitive readings independently rechecked and retained include scan 176 
 
 The item-37 title/number anomaly at scan 179 and item-40 title punctuation difference at scan 195 were rechecked and preserved. Unresolved readings in scans 176–200: **none**.
 
+## Phase-2 batch 9 — scans 201–225
+
+Result: **PASS through scan 225**.
+
+Scan-proven corrections applied:
+
+- scan 201: `தார்மாரன் மண்டபமும்` → `தர்மராசர் மண்டபமும்`;
+- scan 205: `கட்வல் ; சோற, கேந்தூர்` → `கட்வல் ; சோர, கேந்தூர்`;
+- scan 206: `கந்தலாடை போன்றினால்` → `கந்தலாடை யொன்றினால்`;
+- scan 210: `திரமனைத்தும்` → `திறமனைத்தும்`;
+- scan 212: `குறிப்பிட்டுக்கோர்` → `குறிப்பிடத்தக்கோர்`;
+- scan 214: `இறறப் போகும் ?` → `இற்றுப் போகும் ?`;
+- scan 219: `கி.பி. 985 ஆம் திங்கள்` → `கி.பி. 985 ஜூன் திங்கள்`;
+- scan 224: `கிடைத்த பேரு` → `கிடைத்த பேறு`; `ஈட்டி போன்ற அவள் கையால்` → `ஈட்டி யொன்றை அவள் கையால்`;
+- scan 225: `பேசிருக்காது` → `பேச்சிருக்காது`; `முன்னாதிரியாகத்` → `முன்மாதிரியாகத்`.
+
+Source-sensitive readings independently rechecked and retained include scan 202 `மாதகர் காஞ்சியின்` / `கருமுகில் தவழுமாடக் கச்சி யேகம் பன்றே` / `வியர்த்தமான வேலை`, scan 203 `நரசிங்கப் போத்தரையன்`, scan 207 `‘மாட்சி’(?)களும்` / `வீர்பால்`, scan 209 `அன்றந்தக் காலம்` / `அகமிக` / `முடிவிழந்த`, scan 210 `“இராஜதந்திரம்” ஆகாது (?)`, scan 211 `அவ்வர் மகன்கள்`, scan 213 `இறும்பூதெய்தினாள்`, scan 217 `ஏற்றுவரே!`, scan 221 `பழங் குலங்கும் பஞ்சசோலைப் பூ மலராத பழங்காலத்தே`, and scan 223 `நெரியாத` / `அய்ந்தும் ஆறும்` / `பெண்ணொருத்தி ஒன்று கேட்கும்`.
+
+The item-44 title punctuation witness at scan 211 and item-46 title punctuation witness at scan 220 were rechecked and preserved. Unresolved readings in scans 201–225: **none**.
+
 No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
@@ -206,4 +226,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 201–225** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
+Independently verify **scans 226–250** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
