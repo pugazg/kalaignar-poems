@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 41/58 canonical item files assembled.**
+**IN PROGRESS — 43/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -37,30 +37,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3M: items 36–37 — COMPLETE.
 - Two-poem iteration 3N: items 38–39 — COMPLETE.
 - Two-poem iteration 3O: items 40–41 — COMPLETE.
+- Two-poem iteration 3P: items 42–43 — COMPLETE.
 
-### Two-poem iteration 3O
+### Two-poem iteration 3P
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 40 | `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` | 195–199 | `sections/40.md` | ASSEMBLED |
-| 41 | `பாதுகாப்போம்; பல்லவர் தலைநகரம்!` | 200–203 | `sections/41.md` | ASSEMBLED |
+| 42 | `பட்டயங்கள், பறைசாற்றுகின்றன!` | 204–206 | `sections/42.md` | ASSEMBLED |
+| 43 | `திராவிட இனத்தின் தமிழர் மரபு!` | 207–210 | `sections/43.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **41/58**;
+- cumulative canonical files: **43/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Item 40 preserves the documented title-witness distinction exactly: title-page witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` controls the canonical displayed title, while contents witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` remains separately recorded in front matter. Its historical names, quoted dialogue, punctuation, separators, page joins and source-sensitive forms including `தோணியொன்றில்-இந்து`, `இன்மில்லாவிடினும்`, `அகம் வினவு`, `எஃகினைய உளம்`, and `அவர்க்கட்டு` were preserved without normalization. Item 41 preserves verified historical references, quoted passages, punctuation, separators, source-visible question-mark spacing, and source-sensitive wording exactly from verified page records.
+Item 42 preserves verified chronology, historical names, separators, parenthetical source notes, punctuation, and source-sensitive forms including `கட்வல் ; சோர, கேந்தூர்`, `கந்தலாடை யொன்றினால்`, and the quoted/cited பட்டயம் wording without normalization. Item 43 preserves the printed parenthetical question marks, quotations, chronology, lineation, page joins, and source-sensitive forms including `‘மாட்சி’(?)களும்`, `வீர்பால்`, `அன்றந்தக் காலம்`, `முடிவிழந்த`, `அகமிக`, and `“இராஜதந்திரம்” ஆகாது (?)` exactly from verified page records.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 42 — `பட்டயங்கள், பறைசாற்றுகின்றன!` — scans **204–206** → `sections/42.md`;
-- item 43 — `திராவிட இனத்தின் தமிழர் மரபு!` — scans **207–210** → `sections/43.md`.
+- item 44 — title-page witness `இரும்புத் தூணும் ஈக்களின் இறகும்!` — scans **211–215** → `sections/44.md`; preserve contents witness `இரும்புத் தூணும், ஈக்களின் இறகும்!` separately because the title page omits the comma after `தூணும்`;
+- item 45 — `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` — scans **216–219** → `sections/45.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **43/58**. Do not begin item 44 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **45/58**. Do not begin item 46 in that iteration.
