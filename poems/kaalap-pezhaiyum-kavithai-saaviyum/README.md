@@ -16,19 +16,23 @@ This work is processed from the supplied controlling scan under the repository's
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
 - Phase-3 activity 2 — boundary / within-item page-join audit: **COMPLETE — 58/58 items certified**
 - Phase-3 activity 3 — title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**
-- current partial item: **none**
+- Phase-3 activity 4 — canonical Tamil assembly: **IN PROGRESS — 6/58 item files assembled**
+- latest canonical-assembly iteration: **25 physical scans, 10–34 — COMPLETE**
+- next canonical-assembly iteration: **25 physical scans, 35–59**
 - numbered-item sequence closes on scan **299 / printed page 298** with `(முதல் பாகம் முற்றிற்று)`
 - scan **300** begins the separate `குறிப்புகள்` end matter
-- canonical Tamil assembly: **UNBLOCKED — exact next activity**
+- assembly/source-completeness review: **BLOCKED until 58/58 canonical item files exist**
+- Tamil final clearance: **PENDING assembly review**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
 Governing repository plan: `../../TRANSCRIPTION_PHASE_PLAN.md`.
 
-Detailed Phase-2 correction history remains in `audit.md`. Phase-3 structural work is recorded in:
+Detailed Phase-2 correction history remains in `audit.md`. Phase-3 work is recorded in:
 
 - `PHASE3_STRUCTURE_AUDIT.md`;
 - `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- `PHASE3_CANONICAL_ASSEMBLY.md`;
 - `indexes/page-map.md`.
 
 ## Phase 3 activity 1 — exact scan / printed-page mapping
@@ -73,22 +77,36 @@ The full decision record is `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 For canonical Tamil assembly:
 
 - use the **title-page witness** as the assembled item's displayed title;
-- use that same title-page witness as the textual basis for a later title-derived filename before only mechanical filesystem-safe escaping;
 - retain the **contents witness exactly** in the contents/index layer and as alternate source metadata for discrepant items;
-- never create a hybrid or editorially normalized third title.
+- never create a hybrid or editorially normalized third title;
+- maintain stable item sequence **1–58** independent of anomalous printed item numbering.
 
 ### Item 37 source anomaly
 
-Contents sequence item **37** begins at scan **179**, but its title page visibly prints item number **36**.
+Contents sequence item **37** begins at scan **179**, but its title page visibly prints item number **36**. The repository preserves stable sequence identity **37**, printed number **36** as a source anomaly, and both distinct title witnesses.
 
-The repository therefore preserves:
+## Phase 3 activity 4 — canonical Tamil assembly
 
-- stable sequence identity: **item 37**;
-- printed title-page number: **36 — source anomaly**;
-- contents title: `அன்பால் அவனை விலை கொள்ள முடியுமா?`;
-- title-page title: `அன்பால் அவனை விலைகொள்ள முடியுமோ?`.
+**IN PROGRESS — 6/58 item files assembled.**
 
-The anomaly does not renumber item 37 or shift items 38–58.
+Canonical files use stable numeric filenames under `sections/` so filename mechanics cannot silently normalize Tamil titles. Each file retains the canonical title, contents-title witness, title scan, physical scan range, reconciled printed-page range and source filename in front matter, with physical-page provenance markers inside the assembled text.
+
+### Assembly iteration 1 — scans 10–34
+
+**COMPLETE — 25 physical scans.**
+
+Created:
+
+- `sections/01.md` — `பொது உலகம்` — scans 10–11;
+- `sections/02.md` — `படிமுறை வளர்ச்சி` — scans 12–15;
+- `sections/03.md` — `‘காந்தக்கல்’ கதையொன்று!` — scans 16–19;
+- `sections/04.md` — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans 20–24;
+- `sections/05.md` — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans 25–28;
+- `sections/06.md` — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans 29–34.
+
+No verified page record was modified. No Tamil spelling, punctuation, lineation, quotation structure or source-sensitive form was normalized during assembly. No partial canonical item file was created.
+
+Detailed assembly progress and rules are recorded in `PHASE3_CANONICAL_ASSEMBLY.md`.
 
 ## Reconciled discrepancy set
 
@@ -111,17 +129,8 @@ Both witnesses remain source evidence; the authority decision exists only to mak
 
 ## Exact next activity
 
-Begin **canonical Tamil assembly** from the verified page-record layer.
+Process **physical scans 35–59** as the next **25-page canonical-assembly iteration**.
 
-Requirements:
+Assemble only complete certified items within that range. Item 12 begins at scan **58** and extends beyond scan 59, so its canonical file must remain unpublished at that boundary and be completed from the following iteration before creation.
 
-- assemble **58 separate item files** in certified item order;
-- derive each item's text only from its verified physical-page records;
-- preserve verified lineation, source punctuation, quotation carry-over, separators, notes and source-supported unusual forms;
-- for the 14 discrepant titles, use the **title-page witness** as the assembled title and retain the contents title as alternate source metadata;
-- preserve item 37's printed item number `36` as an anomaly while keeping its stable identity as item 37;
-- do not silently normalize source text during assembly.
-
-After assembly, perform an assembly/source-completeness review before granting Tamil final clearance.
-
-Do **not** begin Phase 4 translation before Tamil final clearance.
+Do **not** begin assembly/source-completeness review until all 58 canonical files exist. Do **not** begin Phase 4 translation before Tamil final clearance.
