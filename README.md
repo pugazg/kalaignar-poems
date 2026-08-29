@@ -10,20 +10,18 @@
 
 ## Phase-separated workflow
 
-Long/book-length sources may be processed in explicit phases. See `TRANSCRIPTION_PHASE_PLAN.md` and `POEM_PROCESSING_GUIDE.md`.
+See `TRANSCRIPTION_PHASE_PLAN.md` and `POEM_PROCESSING_GUIDE.md`.
 
-1. **Phase 1 — transcription only:** build page records from the controlling scan; newly transcribed pages are normally `partial` / `needs-review`, not automatically `verified`.
-2. **Phase 2 — source-critical visual verification:** independently reread and verify every transcription against the scan.
-3. **Phase 3 — structure/completeness/assembly:** complete mapping, page joins, work boundaries, canonical Tamil assembly and final clearance.
-4. **Phase 4 — translation/release:** begin only after Tamil final clearance.
-
-A work's live README/HANDOVER declares its current phase. Do not perform later-phase activities early.
+1. **Phase 1 — transcription only**
+2. **Phase 2 — source-critical visual verification**
+3. **Phase 3 — structure/completeness/assembly and Tamil final clearance**
+4. **Phase 4 — translation/release after Tamil final clearance**
 
 ## தற்போதைய படைப்புகள்
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Phase 2 COMPLETE — all 306 scans independently verified; READY FOR PHASE 3 structure/completeness/assembly** |
+| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 3; scan↔printed-page reconciliation COMPLETE; 58-item boundary/page-join audit NEXT** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation in progress, currently paused while another work is active** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Restarted from supplied scan; fresh source setup COMPLETE; page verification STARTED** |
@@ -31,28 +29,29 @@ A work's live README/HANDOVER declares its current phase. Do not perform later-p
 ## காலப் பேழையும் கவிதைச் சாவியும் — தற்போதைய நிலை
 
 - controlling PDF: **306 physical scans**;
-- Phase 1 transcription: **306/306 physical scans represented**;
-- contents: **58/58 entries represented**;
-- Phase 2: **COMPLETE**;
-- verified range: **scans 1–306 consecutively (306/306)**;
-- all **58/58 numbered items** passed Phase-2 source-critical verification;
-- scans **300–305** verified as blank `குறிப்புகள்` pages carrying only the printed heading and horizontal rule;
-- scan **306** verified as the image-only back cover with no independently printed textual content;
+- Phase 1 transcription: **306/306 — COMPLETE**;
+- contents: **58/58 entries verified**;
+- Phase 2 source-critical verification: **306/306 — COMPLETE**;
 - unresolved readings after Phase 2: **none**;
-- next phase: **Phase 3 — exact mapping, structure/completeness, page joins, canonical Tamil assembly and final clearance**;
-- Phase-4 translation remains intentionally blocked until Tamil final clearance.
+- Phase 3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**;
+- numbered pagination: scans **5–299** correspond continuously to printed pages **4–298**;
+- all **306 physical scans** are structurally accounted for;
+- all **58 contents start pages** align with title scans by `title scan = contents start page + 1`;
+- detailed Phase-3 mapping: `poems/kaalap-pezhaiyum-kavithai-saaviyum/indexes/page-map.md`;
+- Phase-3 structural audit: `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_STRUCTURE_AUDIT.md`;
+- exact next activity: **58-item boundary certification and within-item page-join continuity audit**;
+- canonical Tamil assembly remains blocked until that structural audit passes;
+- Phase 4 translation remains blocked until Tamil final clearance.
 
-Phase 3 must use the verified page records and controlling scan without silently reconciling known title-witness differences or source anomalies.
+Known contents/title-page witness differences and source anomalies remain separate witnesses and must not be silently normalized during Phase 3.
 
 ## அணையா விளக்கு அண்ணா — தற்போதைய நிலை
 
-- previous work: **DELETED at user request**
-- controlling source: newly supplied 19-scan PDF
-- fresh source identity/checksum: **COMPLETE**
-- physical page classification: **19/19 mapped preliminarily**
-- verified fresh page records: **2/19**
-- Tamil poem transcription: **NOT STARTED**
-- Tamil assembly: **PENDING**
-- English translation: **PENDING**
-
-When this work is resumed, continue source-first under `poems/anaiya-vilakku-anna/` from its live work documents.
+- previous work: **DELETED at user request**;
+- controlling source: newly supplied 19-scan PDF;
+- fresh source identity/checksum: **COMPLETE**;
+- physical page classification: **19/19 mapped preliminarily**;
+- verified fresh page records: **2/19**;
+- Tamil poem transcription: **NOT STARTED**;
+- Tamil assembly: **PENDING**;
+- English translation: **PENDING**.
