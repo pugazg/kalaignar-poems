@@ -71,10 +71,10 @@ Current live work state:
 - Phase-3 boundary / within-item page-join audit: **COMPLETE — 58/58 items certified**;
 - closing boundary **299→300: PASS**, separating `(முதல் பாகம் முற்றிற்று)` from the `குறிப்புகள்` end matter;
 - Phase-3 title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**;
-- canonical Tamil assembly: **IN PROGRESS — 6/58 item files assembled**;
-- completed canonical files: `sections/01.md` through `sections/06.md`;
-- latest assembly iteration: **physical scans 10–34 — COMPLETE**;
-- next assembly iteration: **physical scans 35–59**;
+- canonical Tamil assembly: **IN PROGRESS — 11/58 item files assembled**;
+- completed canonical files: `sections/01.md` through `sections/11.md`;
+- latest assembly iteration: **physical scans 35–59 — COMPLETE**;
+- next assembly iteration: **physical scans 60–84**, completing carried item 12 from scans **58–63**;
 - assembly/source-completeness review: **BLOCKED until 58/58 canonical item files exist**;
 - Tamil final clearance: **PENDING assembly/source-completeness review**;
 - Phase 4 translation: **BLOCKED until Tamil final clearance**.
@@ -133,18 +133,30 @@ Created and recorded:
 
 No verified page record was modified and no partial canonical file was created.
 
+### Completed canonical-assembly iteration 2 — scans 35–59
+
+Created and recorded:
+
+- `sections/07.md` — scans 35–39;
+- `sections/08.md` — scans 40–43;
+- `sections/09.md` — scans 44–49;
+- `sections/10.md` — scans 50–53;
+- `sections/11.md` — scans 54–57.
+
+Item 12 spans scans **58–63**. Scans **58–59** were carried forward, and no partial `sections/12.md` was created. No verified page record was modified.
+
 ## Exact next activity
 
-Process the next **25 physical scans: 35–59** as canonical assembly iteration 2.
+Process the next **25 physical scans: 60–84** as canonical assembly iteration 3, completing carried item 12 from its full certified range **58–63**.
 
-The certified ranges within this window are:
+The complete item files available at that boundary are:
 
-- item 7 — scans **35–39** → create `sections/07.md`;
-- item 8 — scans **40–43** → create `sections/08.md`;
-- item 9 — scans **44–49** → create `sections/09.md`;
-- item 10 — scans **50–53** → create `sections/10.md`;
-- item 11 — scans **54–57** → create `sections/11.md`;
-- item 12 begins at scan **58** but runs through scan **63**. Because this iteration stops at scan 59, **do not create `sections/12.md` yet**. Carry item 12 forward until the following iteration includes its complete certified range.
+- item 12 — scans **58–63** → create `sections/12.md`;
+- item 13 — scans **64–67** → create `sections/13.md`;
+- item 14 — scans **68–77** → create `sections/14.md`;
+- item 15 — scans **78–81** → create `sections/15.md`.
+
+Item 16 begins at scan **82** but runs through scan **87**. Because this iteration stops at scan 84, **do not create `sections/16.md` yet**. Carry item 16 forward until the following iteration includes its complete certified range.
 
 After this iteration, update `PHASE3_CANONICAL_ASSEMBLY.md` and the work `README.md` with the durable progress boundary. Do **not** begin assembly/source-completeness review until all **58/58** canonical files exist. Do **not** begin Phase 4 translation before Tamil final clearance.
 
