@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 47/58 canonical item files assembled.**
+**IN PROGRESS — 49/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -40,30 +40,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3P: items 42–43 — COMPLETE.
 - Two-poem iteration 3Q: items 44–45 — COMPLETE.
 - Two-poem iteration 3R: items 46–47 — COMPLETE.
+- Two-poem iteration 3S: items 48–49 — COMPLETE.
 
-### Two-poem iteration 3R
+### Two-poem iteration 3S
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 46 | `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` | 220–225 | `sections/46.md` | ASSEMBLED |
-| 47 | `அந்த வருங்காலமே; அருங்காலமாகும்!` | 226–235 | `sections/47.md` | ASSEMBLED |
+| 48 | `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!` | 236–240 | `sections/48.md` | ASSEMBLED |
+| 49 | `களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்!` | 241–245 | `sections/49.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **47/58**;
+- cumulative canonical files: **49/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Item 46 preserves the documented title-witness distinction exactly: title-page witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` controls the canonical displayed title, while contents witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` remains separately recorded in front matter. Its chronology, dialogue/question-mark spacing, ellipsis lengths, lineation, and source-sensitive forms including `பழங் குலங்கும் பஞ்சசோலைப் பூ மலராத பழங்காலத்தே`, `நெரியாத`, `அய்ந்தும் ஆறும்`, `பெண்ணொருத்தி ஒன்று கேட்கும்`, `ஈட்டி யொன்றை`, and `பேச்சிருக்காது` were preserved without normalization. Item 47 preserves verified titles, dates, figures, separators, question-mark spacing, dense inscription text, ruler-name lists, indentation, and source-sensitive forms including `குமுறியது`, `வைத்தே திரும்புவேன்`, `குலுங்கச்`, `இத்திருமணம் தெரிவித்தது!`, `கங்க பாடியுந்`, `சிங்கள ஈழ`, `இரட்டபாடி யேழரை`, `நெழில்வள ருழியு ளெல்லா`, `சத்தியாசிரியன்`, and `இலாடப் பேரரையன்` exactly from verified page records.
+Item 48 preserves verified dates, figures, quotations, administrative terminology, separators, indentation and source-sensitive forms including `சம்பந்தப்பட்டதிப்`, `ஒடுக்கலாகிவிட்டவைகள்`, `உத்திரமேரூர்க் கல்வெட்டு’ம்`, and the paired Tirukkural lines exactly from verified page records. Item 49 preserves verified historical place and ruler names, quoted inscription wording, figures, separators, page joins and source-sensitive forms including `அய்தராபாத்துக்கு`, `இடுப்பொடித்துப்`, `நாமணைக் கோணமும்`, `இரணசூரன்`, `தெக்கண லாட`, and `ஏற்றுக் கங்கை நீர்க் குடங்களை யென்றுரைத்து` without normalization.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 48 — `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!` — scans **236–240** → `sections/48.md`;
-- item 49 — `களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்!` — scans **241–245** → `sections/49.md`.
+- item 50 — title-page witness `குருதிக்களமே; கொலு மண்டபம் ஆனது!` — scans **246–251** → `sections/50.md`; preserve contents witness `குருதிக் களமே! கொலு மண்டபம் ஆனது!` separately because this is a documented title-witness discrepancy;
+- item 51 — `திருமணங்களாலும் வருவதுண்டு திருப்பம்!` — scans **252–256** → `sections/51.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **49/58**. Do not begin item 50 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **51/58**. Do not begin item 52 in that iteration.
