@@ -10,113 +10,50 @@ Phase 3 begins only after completion of Phase 2 across all **306/306 physical sc
 
 The exact reconciliation is recorded in `indexes/page-map.md`.
 
-### Result
-
 - scans **1–4**: unnumbered preliminaries;
-- scans **5–299**: one uninterrupted numbered-pagination block corresponding to printed pages **4–298**, with `printed page = physical scan - 1`;
+- scans **5–299**: uninterrupted numbered-pagination block corresponding to printed pages **4–298**, with `printed page = physical scan - 1`;
 - scans **300–305**: six unnumbered blank `குறிப்புகள்` pages;
 - scan **306**: unnumbered image-only back cover.
 
-All **306 physical scans** are structurally accounted for. No unexplained physical gap, duplicate scan or missing pagination position was found.
-
-### Item-start cross-check
-
-All **58** verified contents start pages match their observed title scans by the invariant:
-
-`observed title scan = contents start page + 1`
-
-This independently supports the continuous scan/printed-page alignment through the complete numbered work sequence.
-
-### Important distinction
-
-A reconciled printed page is not the same claim as a visibly printed numeral. Some pages suppress the printed numeral. Phase 3 records their logical pagination from the complete source structure while preserving Phase-1 observations about whether a numeral was actually visible.
+All **306 physical scans** are structurally accounted for. All **58** contents start pages match their observed title scans by `observed title scan = contents start page + 1`.
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–7 / 58 certified.**
+**Status: IN PROGRESS — items 1–8 / 58 certified.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
-### Certified items
+| Item | Title | Range | Internal joins | Result |
+|---:|---|---|---:|---|
+| 1 | `பொது உலகம்` | scans 10–11 / pp. 9–10 | 1/1 | PASS |
+| 2 | `படிமுறை வளர்ச்சி` | scans 12–15 / pp. 11–14 | 3/3 | PASS |
+| 3 | `‘காந்தக்கல்’ கதையொன்று!` | scans 16–19 / pp. 15–18 | 3/3 | PASS |
+| 4 | `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` | scans 20–24 / pp. 19–23 | 4/4 | PASS |
+| 5 | `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` | scans 25–28 / pp. 24–27 | 3/3 | PASS |
+| 6 | `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` | scans 29–34 / pp. 28–33 | 5/5 | PASS |
+| 7 | `வரலாற்றுக் காலத்தின் கோலம்!` | scans 35–39 / pp. 34–38 | 4/4 | PASS |
+| 8 | `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` | scans 40–43 / pp. 39–42 | 3/3 | PASS |
 
-- **Item 1 — `பொது உலகம்`**
-  - range: scans **10–11** / printed pages **9–10**;
-  - opening boundary scan 9→10: **PASS**;
-  - internal join scan 10→11: **PASS**;
-  - closing boundary scan 11→12: **PASS**;
-  - dropped/duplicated text: **none**;
-  - unresolved continuation/quotation issue: **none**;
-  - title-witness difference: **none**.
+### Item 8 structural result
 
-- **Item 2 — `படிமுறை வளர்ச்சி`**
-  - range: scans **12–15** / printed pages **11–14**;
-  - opening boundary scan 11→12: **PASS**;
-  - internal joins scan 12→13, 13→14 and 14→15: **3/3 PASS**;
-  - closing boundary scan 15→16: **PASS**;
-  - dropped/duplicated text: **none**;
-  - unresolved continuation/quotation issue: **none**;
-  - title-witness difference: **none**;
-  - source-sensitive `பத்தரை` on scan 12 remains unchanged and is not a structural defect.
+- opening boundary scan 39→40: **PASS**;
+- join 40→41: `பொறுப்பதும், பொறுத்திடாது என்னை வெறுப்பதும்` → `புத்தகம் இரண்டையும் படித்த பிறகு - நீவீர்`: **PASS**;
+- join 41→42: `முற்றுகை யிட்ட கலாச்சாரத்தினால்` → `மூண்டு விட்ட தீயின் கொடுமையைத்தான்`: **PASS**;
+- join 42→43: physical page-turn phrase `விட்டு - புகழ்` → `குன்றேறி நாம் நிற்பதற்குப்...`: **PASS**;
+- closing boundary scan 43→44: **PASS**;
+- dropped/duplicated text: **none**;
+- unresolved structural or quotation issue: **none**;
+- title-witness difference: **none**.
 
-- **Item 3 — `‘காந்தக்கல்’ கதையொன்று!`**
-  - range: scans **16–19** / printed pages **15–18**;
-  - opening boundary scan 15→16: **PASS**;
-  - internal joins scan 16→17, 17→18 and 18→19: **3/3 PASS**;
-  - closing boundary scan 19→20: **PASS**;
-  - dropped/duplicated text: **none**;
-  - unresolved continuation/quotation issue: **none**;
-  - title-witness difference: **none**.
-
-- **Item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
-  - range: scans **20–24** / printed pages **19–23**;
-  - opening boundary scan 19→20: **PASS**;
-  - internal joins scan 20→21, 21→22, 22→23 and 23→24: **4/4 PASS**;
-  - closing boundary scan 24→25: **PASS**;
-  - dropped/duplicated text: **none**;
-  - unresolved continuation/quotation issue: **none**;
-  - title-witness difference: **none**;
-  - source-sensitive forms `என்னோ டென்றேன்.`, `அணியாத தேன் ?` and `வாய்ப்பை யெனக்` remain unchanged.
-
-- **Item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
-  - range: scans **25–28** / printed pages **24–27**;
-  - opening boundary scan 24→25: **PASS**;
-  - internal joins scan 25→26, 26→27 and 27→28: **3/3 PASS**;
-  - closing boundary scan 28→29: **PASS**;
-  - dropped/duplicated text: **none**;
-  - unresolved continuation/quotation issue: **none**;
-  - title-witness difference: **none**;
-  - source-sensitive scan-28 form `பேத்தி, பேர் காலத்திலும்` remains unchanged.
-
-- **Item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
-  - range: scans **29–34** / printed pages **28–33**;
-  - opening boundary scan 28→29: **PASS**;
-  - internal joins scan 29→30, 30→31, 31→32, 32→33 and 33→34: **5/5 PASS**;
-  - closing boundary scan 34→35: **PASS**;
-  - quotation carry-over scan 30→31 and 32→33: **PASS**;
-  - source-level abrupt transition scan 31→32: **preserved; no repair warranted**;
-  - dropped/duplicated text: **none**;
-  - unresolved structural issue: **none**;
-  - source-sensitive `ஏழைபாழையிடம்` and `எனந்தப்` remain unchanged.
-
-- **Item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
-  - range: scans **35–39** / printed pages **34–38**;
-  - opening boundary scan 34→35: **PASS**;
-  - internal joins scan 35→36, 36→37, 37→38 and 38→39: **4/4 PASS**;
-  - closing boundary scan 39→40: **PASS**;
-  - dropped/duplicated text: **none**;
-  - unresolved continuation/quotation issue: **none**;
-  - title-witness difference: **none**;
-  - source-sensitive `மரத்தின் அழுத்தமான வேர்`, `மண்டூகே மனிதன்`, `கால்நடைப்`, `புதிய வைத்த`, and `போட்டவே` remain unchanged.
-
-Item 7 contains three especially direct cross-page continuations: scan 36 `மதிய உணவு முதலைக்கறி விருந்து என - நெஞ்சில்` → scan 37 `புதிய வைத்த பாசமுடன்`; scan 37 `அரிவாளை ஓங்கிப் போட்டவே;` → scan 38 `இரு கூறாகப் பிளந்தது முதலை ;`; and scan 38 `நுழைந்து விட்டார் - அந்த வீட்டுக்குள்` → scan 39 `எதிர்க்க முடியாமல் / எல்லோரும் ஓடி விட்டார் -`. Scan 39 closes with an ornament before scan 40 begins item 8.
+The source-sensitive forms `அமரர் எனும் ‘தேவர்’ கட்கும்`, `நெற்றி வியர்வை முத்து முத்தாக உதிர உதிர`, and `நெஞ்செலும்பு ஒடிய ஒடிய` remain unchanged. The earlier scan 31→32 abrupt transition also remains documented as a source-level feature, not a missing-page repair target.
 
 ## Remaining Phase-3 activities
 
-1. continue **58-item boundary certification and within-item page-join continuity audit** through items 8–58;
+1. continue **58-item boundary certification and within-item page-join continuity audit** through items 9–58;
 2. **title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them;
 3. **canonical Tamil assembly** — only after structural and join audits pass;
 4. **assembly/source-completeness review and Tamil final clearance**.
 
 ## Exact next activity
 
-Audit **item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`**, scans **40–43** / printed pages **39–42**, including all three internal joins and its closing boundary into item 9 at scan 44. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
+Audit **item 9 — `உரையாடல் உணர்த்திடும் உண்மை என்ன?`**, scans **44–49** / printed pages **43–48**, including all five internal joins and its closing boundary into item 10 at scan 50. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
