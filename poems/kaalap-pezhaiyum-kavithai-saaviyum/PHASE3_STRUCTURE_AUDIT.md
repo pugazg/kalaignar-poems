@@ -19,13 +19,13 @@ All **306 physical scans** are structurally accounted for. All **58** contents s
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–40 / 58 fully certified.**
+**Status: IN PROGRESS — items 1–45 / 58 fully certified; item 46 audited through scan 224.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ### Iteration size
 
-Routine continuation uses **25 physical scans per iteration**. The latest completed iteration covered **scans 175–199**.
+Routine continuation uses **25 physical scans per iteration**. The latest completed iteration covered **scans 200–224**. Item 46 crosses this iteration boundary and therefore remains partial.
 
 ### Certified ranges through current boundary
 
@@ -44,52 +44,69 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 | 38 | 186–190 | CERTIFIED |
 | 39 | 191–194 | CERTIFIED |
 | 40 | 195–199 | CERTIFIED; title page omits contents final `!` |
+| 41 | 200–203 | CERTIFIED |
+| 42 | 204–206 | CERTIFIED |
+| 43 | 207–210 | CERTIFIED |
+| 44 | 211–215 | CERTIFIED; title page omits contents comma after `தூணும்` |
+| 45 | 216–219 | CERTIFIED |
+| 46 | 220–225 | PARTIAL — opening and joins through 223→224 audited; title page adds final `!` |
 
-## Latest iteration — scans 175–199
+## Latest iteration — scans 200–224
 
-### Item 36 — `இளையவன்; அவன் ஒரு தமிழ் மகன்!`
+### Item 41 — `பாதுகாப்போம்; பல்லவர் தலைநகரம்!`
 
-- pending joins **174→175, 175→176, 176→177, 177→178: 4/4 PASS**;
-- together with the previously certified **173→174**, cumulative internal joins are **5/5 PASS**;
-- closing boundary **178→179: PASS** after the three-star separator and `குறிப்பு` block;
+- joins **200→201, 201→202, 202→203: 3/3 PASS**;
+- scan 202's three-star ornament is an **internal divider**, not an item boundary; scan 203 continues the same item;
+- closing boundary **203→204: PASS**;
 - no title-witness difference or dropped/duplicated text.
 
-### Item 37 — contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`
+### Item 42 — `பட்டயங்கள், பறைசாற்றுகின்றன!`
 
-- opening boundary **178→179: PASS**;
-- title scan 179 visibly reads **`அன்பால் அவனை விலைகொள்ள முடியுமோ?`** and visibly prints item number **36** rather than 37;
-- joins **179→180, 180→181, 181→182, 182→183, 183→184, 184→185: 6/6 PASS**;
-- closing boundary **185→186: PASS**;
-- the contents/title wording difference and source numbering anomaly remain preserved, not normalized;
-- no dropped/duplicated text.
-
-### Item 38 — `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!`
-
-- joins **186→187, 187→188, 188→189, 189→190: 4/4 PASS**;
-- quotation continuation **187→188** and attribution continuation **188→189** are structurally complete;
-- closing boundary **190→191: PASS**;
+- joins **204→205, 205→206: 2/2 PASS**;
+- closing boundary **206→207: PASS** after the corroborating-source parenthetical and ornament;
 - no title-witness difference or dropped/duplicated text.
 
-### Item 39 — `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!`
+### Item 43 — `திராவிட இனத்தின் தமிழர் மரபு!`
 
-- joins **191→192, 192→193, 193→194: 3/3 PASS**;
-- direct continuation **193→194** carries the `“நெருக்கு நேர் போருக்கு”` challenge into the Vatapi/Paranjothi episode;
-- closing boundary **194→195: PASS** after the Periyapuranam quotation/citation and ornament;
+- joins **207→208, 208→209, 209→210: 3/3 PASS**;
+- scan 208's three-star ornament is another source-internal divider; scan 209 continues item 43;
+- direct continuation **209→210** carries `...திருப்புறம்பியப் போரில் - தன்` into `திறமனைத்தும் காட்டி...`;
+- closing boundary **210→211: PASS**;
 - no title-witness difference or dropped/duplicated text.
 
-### Item 40 — contents `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!`
+### Item 44 — contents `இரும்புத் தூணும், ஈக்களின் இறகும்!`
 
-- title scan 195 visibly omits the final `!` present in the contents witness;
-- joins **195→196, 196→197, 197→198, 198→199: 4/4 PASS**;
-- closing boundary **199→200: PASS** after `எனினும், மமதை கொண்டானில்லை!` and the ornament; scan 200 begins item 41;
-- no dropped/duplicated text.
+- title scan 211 visibly reads `இரும்புத் தூணும் ஈக்களின் இறகும்!`, omitting the contents comma;
+- joins **211→212, 212→213, 213→214, 214→215: 4/4 PASS**;
+- quotation continuation **212→213** carries `“ஈன்ற பொழுதின்` into `பெரிதுவக்கும் தன் மகனைச் சான்றோன்...`;
+- closing boundary **215→216: PASS**;
+- both title witnesses remain separate; no dropped/duplicated text.
+
+### Item 45 — `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!`
+
+- joins **216→217, 217→218, 218→219: 3/3 PASS**;
+- direct continuation **218→219** carries `மறப்போம் பகை துறப்போம் சோழ / மண்டலத்துப் பலம் பெருக்குவோம்` into `எனச் சொல்லாற்றல் செயல்பட்டு...`;
+- closing boundary **219→220: PASS**;
+- no title-witness difference or dropped/duplicated text.
+
+### Item 46 — contents `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்`
+
+**PARTIAL through scan 224.**
+
+- opening boundary **219→220: PASS**;
+- title scan 220 adds a final `!` absent from the contents witness;
+- joins **220→221, 221→222, 222→223, 223→224: 4/4 audited PASS**;
+- **222→223** is rhetorically abrupt in the controlling source, but consecutive logical pagination and intact page edges show no missing physical page; the source-level transition is preserved without editorial repair;
+- item 46 continues beyond scan 224, so join **224→225** remains pending;
+- cumulative internal joins audited so far: **4/5 PASS**;
+- no dropped/duplicated text detected so far.
 
 ## Iteration result
 
-- processed: **scans 175–199 (25 scans)**;
-- newly fully certified: **items 36–40**;
-- cumulative fully certified: **40/58**;
-- current partial item: **none**;
+- processed: **scans 200–224 (25 scans)**;
+- newly fully certified: **items 41–45**;
+- cumulative fully certified: **45/58**;
+- current partial item: **46 through scan 224 / printed page 223**;
 - Tamil transcription changes: **none**;
 - structural metadata changes: **none**;
 - dropped/duplicated text found: **none**;
@@ -98,10 +115,11 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 ## Durable assembly-readiness notes
 
 - source-level abrupt transition **31→32** remains preserved rather than editorially repaired;
+- source-level rhetorical transition **222→223** in item 46 is likewise preserved; there is no pagination or physical-scan gap;
 - item 12 section metadata was previously unified across scans 58–63 without changing Tamil text;
-- reached title-witness discrepancies now include items **18, 22, 25, 26, 29, 31, 32, 37 and 40**; all remain separate pending the designated title-witness reconciliation step;
+- reached title-witness discrepancies now include items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44 and 46**; all remain separate pending the designated title-witness reconciliation step;
 - item 37's title page visibly prints item number **36**; this source anomaly remains preserved;
-- source-sensitive readings in this iteration remain unchanged, including `கன்னலடா`, `பழுத்த கிழம்`, `தலைவில் நின்றவள்`, `சூளுரை பொன்றும்`, `வீழ்ந்திறந்தார்`, `காவற்பெண்டு`, `நாத்தழும்பேறி`, `கையுசி`, `பூழு`, `விட்டான்செருக்களத்தில்`, `புயங்கொள்ளியை`, `எண் ணிலகவர்ந்தே`, `தோணியொன்றில்-இந்து`, `அகம் வினவு`, `எஃகினைய உளம்`, and `அவர்க்கட்டு`.
+- source-sensitive readings in this iteration remain unchanged, including `தர்மராசர் மண்டபமும்`, `கட்வல் ; சோர, கேந்தூர்`, `கந்தலாடை யொன்றினால்`, `வீர்பால்`, `அன்றந்தக் காலம்`, `அகமிக`, `திறமனைத்தும்`, `அவ்வர் மகன்கள்`, `இறும்பூதெய்தினாள்`, `இற்றுப் போகும் ?`, `ஏற்றுவரே!`, `இராசராசன் கி.பி. 985 ஜூன் திங்கள்`, `நெரியாத`, `அய்ந்தும் ஆறும்`, and `ஈட்டி யொன்றை`.
 
 ## Remaining Phase-3 activities
 
@@ -112,4 +130,4 @@ Routine continuation uses **25 physical scans per iteration**. The latest comple
 
 ## Exact next activity
 
-Process physical scans **200–224** as the next 25-scan iteration. Opening boundary **199→200** has already passed; begin with item 41 join **200→201**. Canonical Tamil assembly remains blocked.
+Process physical scans **225–249** as the next 25-scan iteration, beginning with item 46's pending join **224→225**. Canonical Tamil assembly remains blocked.
