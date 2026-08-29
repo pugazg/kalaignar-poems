@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–02 reviewed PASS; 4/58 items translated and reviewed; 2/29 batches complete.**
+**PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS; 6/58 items translated and reviewed; 3/29 batches complete.**
 
 Planning began from live `main` after Tamil final clearance. No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -88,7 +88,7 @@ No global glossary choice should override the wording/context of an individual s
 |---:|---:|---:|---|---|
 | 01 | 1–2 | 10–15 | `01.md`, `02.md` | **reviewed — PASS** |
 | 02 | 3–4 | 16–24 | `03.md`, `04.md` | **reviewed — PASS** |
-| 03 | 5–6 | 25–34 | `05.md`, `06.md` | planned |
+| 03 | 5–6 | 25–34 | `05.md`, `06.md` | **reviewed — PASS** |
 | 04 | 7–8 | 35–43 | `07.md`, `08.md` | planned |
 | 05 | 9–10 | 44–53 | `09.md`, `10.md` | planned |
 | 06 | 11–12 | 54–63 | `11.md`, `12.md` | planned |
@@ -118,9 +118,9 @@ No global glossary choice should override the wording/context of an individual s
 
 Current reviewed totals:
 
-- batches: **2/29**;
-- items: **4/58**;
-- numbered-item source scans covered by reviewed English batches: **15/290**;
+- batches: **3/29**;
+- items: **6/58**;
+- numbered-item source scans covered by reviewed English batches: **25/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -172,6 +172,23 @@ Reviewed file: `batches/batch-02.md`.
 - Kalaignar-language/voice review: **PASS**;
 - Tamil canonical/source files modified: **none**.
 
+## Batch 03 closure
+
+Reviewed file: `batches/batch-03.md`.
+
+- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28** — reviewed PASS;
+- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34** — reviewed PASS;
+- source scans represented: **10/10**;
+- omissions / duplications: **0 / 0**;
+- title witness handling: **PASS**;
+- Tolkappiyam sensory framework and named literary references retained: **PASS**;
+- Diva–Sur, gesture/sound/language sequence and Kural/Aathichudi wordplay retained: **PASS**;
+- class rhetoric, Bharathidasan, Nehru/Tiruvachakam and landlord episodes retained without outside correction: **PASS**;
+- final cultural-revolution/social-justice/`அறப்போர்` distinctions retained: **PASS**;
+- source-sensitive compact Bharathidasan phrase documented, not silently normalized: **PASS**;
+- Kalaignar-language/voice review: **PASS**;
+- Tamil canonical/source files modified: **none**.
+
 ## Full-work gates after Batch 29
 
 After all 29 batches are reviewed:
@@ -186,9 +203,9 @@ After all 29 batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 03 — items 5–6**:
+Translate and review **Batch 04 — items 7–8**:
 
-- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28** — `../../sections/05.md`;
-- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34** — `../../sections/06.md`.
+- item 7 — `வரலாற்றுக் காலத்தின் கோலம்!` — scans **35–39** — `../../sections/07.md`;
+- item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` — scans **40–43** — `../../sections/08.md`.
 
-Create `batches/batch-03.md`. Preserve both items as distinct works inside the batch. Stop after item 6; do not begin item 7.
+Create `batches/batch-04.md`. Preserve both items as distinct works inside the batch. Stop after item 8; do not begin item 9.
