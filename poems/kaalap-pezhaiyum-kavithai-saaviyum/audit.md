@@ -13,9 +13,9 @@ Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
 - physical scans in controlling PDF: **306**
 - Phase-1 page records represented: **306/306**
 - numbered item/title pages observed: **58/58**
-- Phase-2 verified range: **scans 1–225 consecutively**
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**
-- next Phase-2 batch: **scans 226–250**
+- Phase-2 verified range: **scans 1–250 consecutively**
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**
+- next Phase-2 batch: **scans 251–275**
 
 Pages are promoted to `verified` only after independent comparison against the controlling scan.
 
@@ -195,6 +195,24 @@ Source-sensitive readings independently rechecked and retained include scan 202 
 
 The item-44 title punctuation witness at scan 211 and item-46 title punctuation witness at scan 220 were rechecked and preserved. Unresolved readings in scans 201–225: **none**.
 
+## Phase-2 batch 10 — scans 226–250
+
+Result: **PASS through scan 250**.
+
+Scan-proven corrections applied:
+
+- scan 228: `நடத்தப்பட்டதாக கூறியது` → `நடத்தப்பட்டதாக குமுறியது`; `மாற்றாரை மண்டியிட வைத்துத் திரும்புவேன்` → `மாற்றாரை மண்டியிட வைத்தே திரும்புவேன்`;
+- scan 229: `குழுங்கச் சிரித்து` → `குலுங்கச் சிரித்து`; `தவிக்கத்தாலே` → `தவித்ததாலே`;
+- scan 230: `இத்திருமணம் தெரிவித்து!` → `இத்திருமணம் தெரிவித்தது!`;
+- scan 233: inscription `கங்க பாடியும்` → `கங்க பாடியுந்`; `சிங்களீழ` → `சிங்கள ஈழ`; `இரட்டபாடி ஏழரை` → `இரட்டபாடி யேழரை`; `எழில்வள ருழியுள் எல்லா` → `நெழில்வள ருழியு ளெல்லா`; ruler name `சக்தியாசிரியன்` → `சத்தியாசிரியன்`;
+- scan 234: `இளாடப் பேரரையன்` → `இலாடப் பேரரையன்`;
+- scan 240: `கடைப்பிடித்த தமிழ் மக்கள்` → `கடைப்பிடித்து தமிழ் மக்கள்`;
+- scan 250: source-visible punctuation spacing restored from `கூவிடக் கூவிட ;` to `கூவிடக் கூவிட;`.
+
+Source-sensitive readings independently rechecked and retained include scan 226 `நாற்பத்தி ஆறு` / `தெலுங்கு குல பாலன்`, scan 231 `தளகர்த்தர்களும்` / `வேளக்காரர் படை`, scan 232 `மகேசன் தொண்டு` / `சிறிது படுத்துக் கொண்டது போலும்`, scan 233 `நெழில்வள ருழியு ளெல்லா` / `பிருதிகண்ட வர்மன்` / `திருவையன் சங்கர தேவன்`, scan 234 `பணி தொடர்பவனாய்` / `புயற் காற்று`, scan 236 `சம்பந்தப்பட்டதிப்`, scan 237 `ஒடுக்கலாகிவிட்டவைகள்` / `மாதமுந்தான்`, scan 238 `உலகளவித்த திருவடிகள் சாத்தன்`, scan 239 `அரசோச்சிய` / `கலிங்கு வாரியம்`, scan 242 `கூளி முறிப்பது` / `‘மண்ணைக் கடக்க’மெனும்`, scan 243 `இடுப்பொடித்துப்`, scan 244 `நாமணைக் கோணமும்` / `இரணசூரன்` / `தெக்கண லாட`, scan 245 `ஏற்றுக் கங்கை நீர்க் குடங்களை யென்றுரைத்து`, scan 247 `ஆசிர்வாதம்` / `அய்ந்து குடுமி` / `அரவாணி`, scan 248 `துவரபாலகர்` / `அயிராவ தேசுவர்`, scan 249 `சமர்களத்தில்` and its six-dot ellipsis, and scan 250 `படைத்தனை`.
+
+The item-50 title-page witness `குருதிக்களமே; கொலு மண்டபம் ஆனது!` at scan 246 remains distinct from the contents witness `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; both are preserved. Unresolved readings in scans 226–250: **none**.
+
 No semantic modernization or silent normalization was applied.
 
 ## Source controls already established
@@ -226,4 +244,4 @@ Blocked until Tamil final clearance.
 
 ## Exact next activity
 
-Independently verify **scans 226–250** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
+Independently verify **scans 251–275** against the controlling source, correct only scan-proven discrepancies, and promote pages to `verified` only after each review passes. Do not perform Phase-3 assembly/boundary certification or Phase-4 translation.
