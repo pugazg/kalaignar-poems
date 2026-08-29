@@ -33,7 +33,7 @@ A reconciled printed page is not the same claim as a visibly printed numeral. So
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–3 / 58 certified.**
+**Status: IN PROGRESS — items 1–4 / 58 certified.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -67,15 +67,25 @@ Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
   - unresolved continuation/quotation issue: **none**;
   - title-witness difference: **none**.
 
-Item 3 contains three direct cross-page continuations: `நிற்கும் நிலை போலவே` → `படி முறை யெனும்`, the narration ending `முத்தாரக் கதைகள் சொல்லி ;` → `அயர்ச்சியிலே உமை ஆழ்த்தாமல்`, and `தொடங்கினானென்றும்` → `இயல் என்பது இவற்றுக்கு அடுத்ததே யென்றும்`. Scan 19 closes with a complete sentence and ornament before scan 20 begins item 4.
+- **Item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
+  - range: scans **20–24** / printed pages **19–23**;
+  - opening boundary scan 19→20: **PASS**;
+  - internal joins scan 20→21, 21→22, 22→23 and 23→24: **4/4 PASS**;
+  - closing boundary scan 24→25: **PASS**;
+  - dropped/duplicated text: **none**;
+  - unresolved continuation/quotation issue: **none**;
+  - title-witness difference: **none**;
+  - source-sensitive forms `என்னோ டென்றேன்.`, `அணியாத தேன் ?` and `வாய்ப்பை யெனக்` remain unchanged.
+
+Item 4's clearest direct joins are scan 21 ending `சினமுற்று சிலையொன்று செல்வதுபோல் சென்று விட்டாள்.` and scan 22 continuing `சென்றவளைப் பின்தொடர்ந்து`, followed by scan 22's ellipsis-marked scene continuing into scan 23's reflection `காட்டுமிராண்டித்தனமான காட்சிதான் எனினும் ;`. Scan 24 closes with a complete explanatory parenthetical and ornament before scan 25 begins item 5.
 
 ## Remaining Phase-3 activities
 
-1. continue **58-item boundary certification and within-item page-join continuity audit** through items 4–58;
+1. continue **58-item boundary certification and within-item page-join continuity audit** through items 5–58;
 2. **title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them;
 3. **canonical Tamil assembly** — only after structural and join audits pass;
 4. **assembly/source-completeness review and Tamil final clearance**.
 
 ## Exact next activity
 
-Audit **item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**, scans **20–24** / printed pages **19–23**, including all four internal joins and its closing boundary into item 5 at scan 25. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
+Audit **item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**, scans **25–28** / printed pages **24–27**, including all three internal joins and its closing boundary into item 6 at scan 29. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
