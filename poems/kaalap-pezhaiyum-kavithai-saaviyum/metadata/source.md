@@ -42,12 +42,14 @@ Governing repository references:
 
 ### Active source-derived work
 
-Canonical Tamil assembly is **IN PROGRESS — 6/58 item files assembled**.
+Canonical Tamil assembly is **IN PROGRESS — 11/58 item files assembled**.
 
-- completed: `sections/01.md` through `sections/06.md` from scans **10–34**;
-- next 25-scan assembly iteration: **scans 35–59**;
-- create only complete item files in that window: `sections/07.md` through `sections/11.md`;
-- item 12 begins at scan 58 and continues through scan 63, so **do not publish an incomplete `sections/12.md` at the scan-59 iteration boundary**;
+- completed: `sections/01.md` through `sections/11.md`;
+- latest 25-scan assembly iteration: **scans 35–59 — COMPLETE**;
+- next 25-scan assembly iteration: **scans 60–84**;
+- carried item 12 uses its full certified range **58–63**, with scans 58–59 carried from the completed iteration;
+- next complete files to create: `sections/12.md` through `sections/15.md`;
+- item 16 begins at scan 82 and continues through scan 87, so **do not publish an incomplete `sections/16.md` at the scan-84 iteration boundary**;
 - assembly/source-completeness review remains blocked until all 58 canonical item files exist;
 - Tamil final clearance remains pending that review;
 - Phase 4 English translation remains blocked until Tamil final clearance.
@@ -111,6 +113,6 @@ The controlling PDF bytes opened directly as a **306-page PDF**. Any external pr
 
 ## Status
 
-The source identity, complete page-record layer, source-critical visual verification, pagination structure, 58-item boundary/join audit and title-witness reconciliation are complete. Current work is canonical Tamil assembly from the verified page layer, with **6/58** item files assembled and **scans 35–59** next.
+The source identity, complete page-record layer, source-critical visual verification, pagination structure, 58-item boundary/join audit and title-witness reconciliation are complete. Current work is canonical Tamil assembly from the verified page layer, with **11/58** item files assembled and **scans 60–84** next, completing carried item 12 from scans **58–63**.
 
 The controlling scan remains the ultimate textual authority throughout assembly. No spelling, punctuation, lineation, note, source anomaly or title witness may be silently normalized.
