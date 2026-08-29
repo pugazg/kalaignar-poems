@@ -23,7 +23,7 @@ A work's live README/HANDOVER declares its current phase. Do not perform later-p
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 2 source-critical visual verification; scans 1–299 verified consecutively; scans 300–306 final Phase-2 pass next** |
+| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Phase 2 COMPLETE — all 306 scans independently verified; READY FOR PHASE 3 structure/completeness/assembly** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation in progress, currently paused while another work is active** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Restarted from supplied scan; fresh source setup COMPLETE; page verification STARTED** |
@@ -33,14 +33,16 @@ A work's live README/HANDOVER declares its current phase. Do not perform later-p
 - controlling PDF: **306 physical scans**;
 - Phase 1 transcription: **306/306 physical scans represented**;
 - contents: **58/58 entries represented**;
-- current phase: **Phase 2 — independent source-critical visual verification**;
-- verified range: **scans 1–299 consecutively**;
-- all **58 numbered items** have completed Phase-2 source-critical verification;
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**, **226–250**, **251–275**, **276–299**;
-- next and final Phase-2 verification batch: **scans 300–306**;
-- Phase-3 continuity/completeness/assembly and Phase-4 translation remain intentionally deferred.
+- Phase 2: **COMPLETE**;
+- verified range: **scans 1–306 consecutively (306/306)**;
+- all **58/58 numbered items** passed Phase-2 source-critical verification;
+- scans **300–305** verified as blank `குறிப்புகள்` pages carrying only the printed heading and horizontal rule;
+- scan **306** verified as the image-only back cover with no independently printed textual content;
+- unresolved readings after Phase 2: **none**;
+- next phase: **Phase 3 — exact mapping, structure/completeness, page joins, canonical Tamil assembly and final clearance**;
+- Phase-4 translation remains intentionally blocked until Tamil final clearance.
 
-During Phase 2, independently reread each page against the controlling scan and correct only scan-proven discrepancies. Do not promote semantic expectations over visible source evidence.
+Phase 3 must use the verified page records and controlling scan without silently reconciling known title-witness differences or source anomalies.
 
 ## அணையா விளக்கு அண்ணா — தற்போதைய நிலை
 
