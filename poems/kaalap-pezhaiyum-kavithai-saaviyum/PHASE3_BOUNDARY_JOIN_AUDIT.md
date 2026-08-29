@@ -18,10 +18,10 @@ Canonical Tamil assembly remains blocked until all 58 items pass this audit.
 
 ## Progress
 
-- items certified: **2/58**
-- last certified item: **2 — `படிமுறை வளர்ச்சி`**
+- items certified: **3/58**
+- last certified item: **3 — `‘காந்தக்கல்’ கதையொன்று!`**
 - unresolved structural joins: **none**
-- next item: **3 — `‘காந்தக்கல்’ கதையொன்று!`**
+- next item: **4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**
 
 ## Item 1 — `பொது உலகம்`
 
@@ -154,6 +154,85 @@ Therefore item 2 closes at scan 15 / printed page 14 and item 3 begins cleanly a
 - title-witness issue: **none**;
 - source-sensitive reading `பத்தரை` on scan 12 remains unchanged and is not a structural defect.
 
+## Item 3 — `‘காந்தக்கல்’ கதையொன்று!`
+
+**Status: PASS — boundary and all within-item joins certified.**
+
+- contents start page: **15**;
+- observed title scan: **16**;
+- reconciled physical range: **scans 16–19**;
+- reconciled printed-page range: **pages 15–18**;
+- title witness: contents and title page both read **`‘காந்தக்கல்’ கதையொன்று!`**; no title-witness difference.
+
+### Opening boundary — scan 15 → scan 16
+
+- scan 15 closes item 2 with the complete parenthetical `( படிமுறை வளர்ச்சி = Evolution )` followed by a printed ornamental closing device;
+- scan 16 visibly carries item number **3**, the title `‘காந்தக்கல்’ கதையொன்று!`, and begins `பழம் பெரும் நாகரிகத்தின்`;
+- no item-3 text occurs before the title scan and no item-2 text carries beyond the ornament.
+
+**Opening boundary: CERTIFIED.**
+
+### Internal join — scan 16 → scan 17
+
+Scan 16 closes with:
+
+`பக்கக் கிளைகள் நாம் பார்த்த இடத்திலேயே / நிற்கும் நிலை போலவே`
+
+Scan 17 immediately continues:
+
+`படி முறை யெனும் / பரிணாம வளர்ச்சியும்`
+
+The comparison continues directly across the page turn: the side branches remaining in place are used to explain `படி முறை யெனும் / பரிணாம வளர்ச்சியும்`. No separator, duplicated line, dropped clause or unrelated heading intervenes.
+
+**Join 16→17: CERTIFIED.**
+
+### Internal join — scan 17 → scan 18
+
+Scan 17 closes with:
+
+`இப்படிப் பலரும் எழுதிய கருத்துகள், கதைகள், / ஒப்பிலாக் கற்பனைகள் ஒன்றாகத் தொகுத்தளிக்கும் / முயற்சியிலே முனைந்து நின்று முந்தை நாள் தொட்டு ; சில / முத்தாரக் கதைகள் சொல்லி ;`
+
+Scan 18 immediately continues:
+
+`அயர்ச்சியிலே உமை ஆழ்த்தாமல் / அமைத்துச் செல்கின்றேன் என்னோடு பயணம் வாரீர்!`
+
+The first-person narration and sentence construction continue cleanly across the page turn. There is no duplicated passage, dropped line, separator or quotation break.
+
+**Join 17→18: CERTIFIED.**
+
+### Internal join — scan 18 → scan 19
+
+Scan 18 closes with:
+
+`ஆதி மனிதனின் ஆரம்ப மொழி நாடக மொழி யென்றும் / அடுத்த கட்டம் அவன் இசை மொழி பேசத் / தொடங்கினானென்றும்`
+
+Scan 19 immediately continues:
+
+`இயல் என்பது இவற்றுக்கு அடுத்ததே யென்றும் / இன்றைக்கு இயல் இசை நாடகமெனப் பட்டியலிட்டாலும் ;`
+
+The repeated `யென்றும்` construction and sequence `நாடக மொழி` → `இசை மொழி` → `இயல்` continue directly and completely. No missing or duplicated text, punctuation fault or unrelated material occurs at the page turn.
+
+**Join 18→19: CERTIFIED.**
+
+### Closing boundary — scan 19 → scan 20
+
+- scan 19 closes the item with `மாந்தர் நிலை மறைக்காமல் தொடர்ந்து / ‘காந்தக் கல்’ கதையொன்று சொல்லுகின்றேன்.` followed by a printed ornamental closing device;
+- the sentence is complete and no quotation or continuation carries beyond the ornament;
+- scan 20 visibly begins item number **4** with the distinct title `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`.
+
+Therefore item 3 closes at scan 19 / printed page 18 and item 4 begins cleanly at scan 20 / printed page 19.
+
+**Closing boundary: CERTIFIED.**
+
+### Item-3 result
+
+- opening boundary: **PASS**;
+- internal joins: **3/3 PASS**;
+- closing boundary: **PASS**;
+- dropped/duplicated text detected: **none**;
+- unresolved continuation punctuation or quotation carry-over: **none**;
+- title-witness issue: **none**.
+
 ## Exact next activity
 
-Audit **item 3 — `‘காந்தக்கல்’ கதையொன்று!`**, scans **16–19** / printed pages **15–18**, including its three internal joins and the closing boundary into item 4 at scan 20. Do not begin canonical Tamil assembly yet.
+Audit **item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!`**, scans **20–24** / printed pages **19–23**, including all four internal joins and the closing boundary into item 5 at scan 25. Do not begin canonical Tamil assembly yet.
