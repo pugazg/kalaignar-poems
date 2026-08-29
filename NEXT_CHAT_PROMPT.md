@@ -1,6 +1,6 @@
-# Next Chat Prompt — Kalaignar Poems Archival Project
+# Next Chat Prompt — காலப் பேழையும் கவிதைச் சாவியும்
 
-Use this prompt when continuing **any poem/PDF** in `pugazg/kalaignar-poems` in a fresh chat. Replace the `<...>` placeholders only where needed. Live GitHub state and the attached controlling source always take precedence over stale status text in the prompt.
+Copy the prompt below into a fresh chat and attach the controlling PDF again when possible.
 
 ---
 
@@ -12,140 +12,128 @@ Branch: `main`
 
 Active work:
 
-`poems/<WORK-ID>/`
+`poems/kaalap-pezhaiyum-kavithai-saaviyum/`
 
-Attached controlling source:
+Controlling source:
 
-`<ATTACHED-PDF-FILENAME>`
+`TVA_BOK_0063593_காலப்_பேழையும்_கவிதைச்_சாவியும்.pdf`
 
-Expected title/work identity, if known:
+Work/title:
 
-`<TITLE OR UNKNOWN — VERIFY FROM SOURCE>`
+**காலப் பேழையும் கவிதைச் சாவியும்** — கலைஞர் மு. கருணாநிதி
 
-Use the GitHub connector and work directly in the existing repository on `main`.
+Use the GitHub connector and work directly on `main`.
+
+## IMPORTANT — LIVE MAIN IS AUTHORITATIVE
+
+First fetch live GitHub `main` and treat it as authoritative.
+
+The last work-state checkpoint before the handover-document refresh was:
+
+`95d59d9c73f853ba8dbd0ab20cb9f25417784e34`
+
+Commit:
+
+`Record Kaalap Pezhai canonical assembly batch 1`
+
+That SHA is only a checkpoint. The handover/guideline refresh itself creates later commits, and other work may also advance `main`. **Never reset or revert to this SHA. If live `main` is newer, continue from the newer state.**
 
 ## MANDATORY STARTUP
 
-Before making any repository change:
+Before making any repository change, read completely:
 
-1. Read `HANDOVER.md` **completely**.
-2. Read `POEM_PROCESSING_GUIDE.md` **completely**.
-3. Read `TRANSCRIPTION_PHASE_PLAN.md` **completely**.
-4. Read root `README.md`.
-5. Read this file, `NEXT_CHAT_PROMPT.md`.
-6. Inspect the current repository and confirm whether this work already exists under the same title, an alternate title, another filename, or an existing `poems/<WORK-ID>/` directory.
-7. If the work already exists, **continue it; do not create a duplicate**.
-8. For an existing work, read its available control/state files completely, especially:
-   - `poems/<WORK-ID>/README.md`
-   - `poems/<WORK-ID>/metadata/source.md`
-   - `poems/<WORK-ID>/indexes/page-map.md`
-   - `poems/<WORK-ID>/audit.md`
-   - relevant files under `poems/<WORK-ID>/notes/`
-   - all existing page records needed to understand the current activity.
-9. Inspect current GitHub `main` and treat it as authoritative over old SHAs, counts, summaries, or previous-chat claims.
-10. Inspect the attached controlling PDF/source before resuming work.
-11. Determine the **declared current phase** from live repository documents before acting. Do not perform work assigned to a later phase.
-12. Do not restart completed work merely because this is a new chat.
+1. `HANDOVER.md`
+2. `POEM_PROCESSING_GUIDE.md`
+3. `TRANSCRIPTION_PHASE_PLAN.md`
+4. repository root `README.md`
+5. `NEXT_CHAT_PROMPT.md`
+6. `poems/kaalap-pezhaiyum-kavithai-saaviyum/README.md`
+7. `poems/kaalap-pezhaiyum-kavithai-saaviyum/metadata/source.md`
+8. `poems/kaalap-pezhaiyum-kavithai-saaviyum/indexes/page-map.md`
+9. `poems/kaalap-pezhaiyum-kavithai-saaviyum/audit.md`
+10. `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_STRUCTURE_AUDIT.md`
+11. `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_BOUNDARY_JOIN_AUDIT.md`
+12. `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
+13. `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_CANONICAL_ASSEMBLY.md`
+14. all existing canonical files under `poems/kaalap-pezhaiyum-kavithai-saaviyum/sections/`, especially `01.md` through `06.md`
+15. the verified `pages/NNNN.md` records needed for the next assembly range.
 
-## TEXTUAL AUTHORITY
+Inspect the attached controlling source as needed. Do not rely on OCR, semantic expectation or an outside edition as textual authority.
 
-The archival goal is fidelity to the controlling source unless a documented user instruction explicitly establishes a different editorial treatment.
+If any root/control document disagrees with the live work README or canonical-assembly record, use the newest live work-level evidence and source, then synchronize the stale document instead of restarting completed work.
 
-- Source scan pixels are the normal highest textual authority.
-- OCR, extracted text, catalogue text, outside editions, previous transcriptions, semantic expectation, and earlier chat answers are aids only unless the user explicitly designates supplied text as the lexical control.
-- Never silently normalize spelling, grammar, punctuation, spacing, repetitions, unusual forms, English/Latin material, page boundaries, or typographical anomalies.
-- Never substitute a plausible Tamil word merely because it makes better semantic or grammatical sense.
-- Later library stamps, handwriting, bleed-through/show-through, and unrelated marks are not edition text.
-- Never invent text from missing physical pages.
+## CURRENT DURABLE STATE
 
-## PHASE GATING
+This work is in **Phase 3 — canonical Tamil assembly**.
 
-When a work is in explicit phased mode, follow `TRANSCRIPTION_PHASE_PLAN.md`.
+Completed:
 
-### Phase 1 — transcription only
+- Phase 1 transcription: **306/306 physical scans — COMPLETE**;
+- Phase 2 source-critical visual verification: **306/306 — COMPLETE**;
+- unresolved readings: **none**;
+- exact physical scan ↔ printed-page reconciliation: **COMPLETE**;
+- item boundary / page-join audit: **COMPLETE — 58/58 items certified**;
+- closing boundary 299→300: **PASS**;
+- title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**;
+- canonical assembly iteration 1: **scans 10–34 — COMPLETE**;
+- canonical files already created: **`sections/01.md` through `sections/06.md`**;
+- cumulative canonical assembly: **6/58 items**.
 
-- transcribe the controlling scan directly into page records;
-- preserve source spelling, punctuation, lineation, headings, quotation marks and unusual forms;
-- record physical scan number and only visibly printed page numbers;
-- mark genuine uncertainty instead of guessing;
-- newly transcribed pages normally remain `partial`, or `needs-review` for a specific unresolved reading;
-- do **not** mark a page `verified` merely because it has been transcribed once;
-- existing pages genuinely verified before the phase switch remain verified;
-- do not conduct a separate glyph-by-glyph verification pass;
-- do not conduct systematic continuity/page-join or work-wide structural audits;
-- do not assemble canonical Tamil;
-- do not begin translation;
-- do not churn `README.md`, `audit.md`, or `page-map.md` after every small batch unless a milestone, anomaly, or phase change needs documentation.
+Do **not** repeat transcription, Phase-2 verification, scan/page reconciliation, boundary/join auditing or title-witness reconciliation unless a genuine newly discovered source discrepancy requires a documented reopen.
 
-### Phase 2 — source-critical visual verification
+## CANONICAL ASSEMBLY RULES
 
-Independently reread and verify every transcribed page against the scan, including old-typeface/glyph endings, punctuation, lineation and documented lexical controls. Only then may pages be promoted to `verified`.
+Canonical assembly is a merge from the verified page layer, not a new transcription.
 
-### Phase 3 — structure / completeness / assembly / Tamil final clearance
+1. Use only `verified` page records assigned to the certified item.
+2. Preserve every verified source-supported spelling, punctuation mark, line break, quotation, separator, note and unusual form.
+3. Preserve physical provenance with `<!-- scan_page: N -->` markers, following the exact pattern already used in `sections/01.md` through `sections/06.md`.
+4. Use stable numeric filenames `01.md` … `58.md`.
+5. Use the **title-page witness** as the canonical displayed title.
+6. If contents/title witnesses differ, retain the contents witness separately in front matter. Never create a hybrid/normalized title.
+7. Preserve stable item sequence 1–58 even where the source title-page number is anomalous. Item 37 remains item 37 although its title page prints number 36.
+8. Work in **25-physical-scan iterations**.
+9. If the iteration ends inside an item, **do not create a partial canonical item file**. Carry that item forward until its full certified source range is available.
+10. Never silently smooth a source-level abrupt transition already certified by the join audit.
+11. If assembly reveals a genuine problem in a verified page record, reopen and correct the source/page layer with audit history and revalidate affected assembly. Do not fix only the assembled file.
+12. Do not begin assembly/source-completeness review until all 58 canonical item files exist.
+13. Do not begin Phase 4 translation until Tamil final clearance.
 
-Complete page mapping, item/work boundaries, joins, completeness review, canonical Tamil assembly and final clearance.
+## TITLE-WITNESS DISCREPANCIES
 
-### Phase 4 — translation / release
+The completed reconciliation covers items:
 
-Begin translation or other derivative/release work only after Tamil final clearance.
+**18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58.**
 
-Do not advance phases without explicit user authorization or a live repository instruction that clearly records the user's authorization.
+Read `PHASE3_TITLE_WITNESS_RECONCILIATION.md` before assembling any discrepant item. Preserve both witnesses exactly; title-page witness controls canonical display title only.
 
-## OLD TAMIL TYPEFACE WARNING
+## EXACT NEXT ACTIVITY
 
-This repository has demonstrated that older Tamil print can be misread even after multiple visual verification passes. High-resolution enlargement alone does not guarantee correctness.
+Process the next **25 physical scans: 35–59** as canonical-assembly iteration 2.
 
-Known failure classes include:
+Create these complete canonical files:
 
-1. suffix and grammatical-ending loss/substitution, especially forms involving `-ளை`, `-ை`, `-ஆம்`, `-னால்`, `-ஆள்`, and `-னான்`;
-2. older vowel-sign/glyph confusion, including repeated `-ஆன்` versus `-உன்` misclassification;
-3. whole-word substitution caused by recognizing a plausible word silhouette instead of accounting for every printed glyph;
-4. loss or invention of punctuation, dots, hyphens/dashes, quotation marks, separators, and physical line breaks.
+- item 7 — scans **35–39** → `sections/07.md`
+- item 8 — scans **40–43** → `sections/08.md`
+- item 9 — scans **44–49** → `sections/09.md`
+- item 10 — scans **50–53** → `sections/10.md`
+- item 11 — scans **54–57** → `sections/11.md`
 
-During Phase 1, produce the best source-faithful transcription possible and explicitly mark genuine uncertainty; the independent systematic old-typeface re-audit belongs to Phase 2.
+Item 12 begins at scan **58** and continues through scan **63**. Because this 25-scan iteration ends at scan 59, **do not create `sections/12.md` yet**. Carry item 12 into the following iteration and publish it only once all scans 58–63 are included.
 
-During Phase 2 and later verification work:
+Before creating 07–11, inspect the existing canonical files 01–06 and the verified page records for scans 35–59. Preserve their exact source text and use the established front-matter/provenance structure.
 
-- compare **complete lines**, not isolated guessed words;
-- account for every glyph and word ending;
-- use enlarged crops when necessary, but do not treat interpolation as new source detail;
-- if a glyph remains genuinely unresolved, record it as unresolved rather than guessing;
-- a previous `verified` or `PASS` label is not proof when later evidence contradicts it.
+After completing the iteration:
 
-## USER-SUPPLIED LEXICAL CONTROL
+- update `PHASE3_CANONICAL_ASSEMBLY.md`;
+- update the work `README.md`;
+- synchronize any status-bearing document that becomes stale;
+- report exactly which canonical files were created, cumulative assembly count, resulting live `main` SHA, and exact next 25-scan activity.
 
-If the user supplies an exact transcription/extraction for a page and explicitly says it is correct, use that supplied text as the **lexical control** for reconciliation.
+When I say **“Proceed with next activity”**, execute this next activity directly without asking me to choose a routine step.
 
-In that situation:
+---
 
-- do not override the user's confirmed lexical reading with another visual guess;
-- use the physical scan for page identity, page/column order, illustrations, page joins, and clearly visible structural/typographic evidence where applicable;
-- document the reconciliation and supersede earlier incorrect PASS/verification claims;
-- preserve any explicit user-directed editorial omission or treatment and document it without silently restoring the excluded material later.
+## Textual authority reminder
 
-## REPOSITORY DISCIPLINE
-
-- Work on `main` unless the user explicitly instructs otherwise.
-- Do not create duplicate work directories or duplicate page records.
-- Keep correction/failure history when archivally useful.
-- Make focused commits with meaningful messages.
-- Respect the current phase instead of trying to complete later-phase checks early.
-- After each requested activity, report what was transcribed/changed, files changed, current phase/status, commit SHA, and exact next activity.
-
-## CURRENT WORK-SPECIFIC CONTINUATION
-
-After startup, derive the exact next activity from live GitHub state.
-
-### காலப் பேழையும் கவிதைச் சாவியும்
-
-For `poems/kaalap-pezhaiyum-kavithai-saaviyum/`, the current declared phase is **Phase 1 — transcription only**.
-
-- scans 1–9 were genuinely verified before the phase switch and remain verified;
-- scan 10 is the next page to transcribe;
-- from scan 10 onward, create source-faithful page records sequentially and normally keep them `partial` until Phase 2;
-- do not interrupt Phase 1 to perform item-wide verification, page-join audits, assembly, completeness review or translation;
-- continue transcription through the source until Phase 1 is complete or the user changes direction.
-
-### தென்னவன் காதை
-
-For `தென்னவன் காதை`, preserve the existing documented user-directed editorial omission on page 151. Do not restore the excluded caste-based term during audit, assembly, translation, or later cleanup.
+The controlling scan and verified page records preserve source wording. Do not silently normalize Tamil spelling, grammar, punctuation, spacing, dates, historical names, repetitions, English/Latin material, lineation, source anomalies or title witnesses. OCR and outside sources are navigation/corroboration aids only.
