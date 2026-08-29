@@ -14,9 +14,9 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–8 / 58 certified**
-- last certified item: **8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`**
-- next item: **9 — `உரையாடல் உணர்த்திடும் உண்மை என்ன?`**
+- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–9 / 58 certified**
+- last certified item: **9 — `உரையாடல் உணர்த்திடும் உண்மை என்ன?`**
+- next item: **10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!`**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -37,7 +37,7 @@ All **306 scans** are structurally accounted for, and all **58** contents start 
 
 ## Phase 3 activity 2 — boundary / join audit
 
-**IN PROGRESS — 8/58 items certified.**
+**IN PROGRESS — 9/58 items certified.**
 
 Certified ranges:
 
@@ -48,20 +48,23 @@ Certified ranges:
 - item 5 `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans 25–28 / pp. 24–27;
 - item 6 `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans 29–34 / pp. 28–33;
 - item 7 `வரலாற்றுக் காலத்தின் கோலம்!` — scans 35–39 / pp. 34–38;
-- item 8 `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` — scans 40–43 / pp. 39–42.
+- item 8 `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` — scans 40–43 / pp. 39–42;
+- item 9 `உரையாடல் உணர்த்திடும் உண்மை என்ன?` — scans 44–49 / pp. 43–48.
 
-### Latest certification — item 8
+### Latest certification — item 9
 
-- opening boundary scan 39→40: **PASS**;
-- internal join 40→41: **PASS**;
-- internal join 41→42: **PASS**;
-- internal join 42→43: **PASS**, including the source page-turn phrase `விட்டு - புகழ்` → `குன்றேறி நாம் நிற்பதற்குப்...`;
-- closing boundary scan 43→44: **PASS**;
+- opening boundary scan 43→44: **PASS**;
+- internal join 44→45: **PASS** — `அப்படியே தருகிறேன்` continues as `கூட்டவோ, குறைக்கவோ இன்றி...`;
+- internal join 45→46: **PASS** — one quoted speech closes and the next quoted response begins cleanly;
+- internal join 46→47: **PASS**;
+- internal join 47→48: **PASS** — `அதில் இல்லை உடன்பாடு` continues as `என்றிருந்த நிலமை இன்று மாறி விட்டதா ?`;
+- internal join 48→49: **PASS** — `அப்பட்டமாகவே அறிவித்து -` continues as `அவர்கள் வடக்கில் ஒரு விதம்`;
+- closing boundary scan 49→50: **PASS**;
 - dropped/duplicated text: **none**;
 - unresolved structural/quotation issue: **none**;
 - title-witness difference: **none**.
 
-Source-sensitive forms including `அமரர் எனும் ‘தேவர்’ கட்கும்`, `நெற்றி வியர்வை முத்து முத்தாக உதிர உதிர`, and `நெஞ்செலும்பு ஒடிய ஒடிய` remain preserved. Earlier certified source anomalies and witness distinctions remain governed by `PHASE3_BOUNDARY_JOIN_AUDIT.md` and `indexes/item-title-map.md`.
+The source-sensitive form `சளித்தோமா` remains preserved. Earlier certified source anomalies and title-witness distinctions remain governed by `PHASE3_BOUNDARY_JOIN_AUDIT.md` and `indexes/item-title-map.md`.
 
 ## Title witnesses remain separate
 
@@ -69,6 +72,6 @@ Phase 3 must not silently normalize contents/title-page differences. Known examp
 
 ## Exact next activity
 
-Audit **item 9 — `உரையாடல் உணர்த்திடும் உண்மை என்ன?`**, scans **44–49** / printed pages **43–48**. Check all five internal joins and the closing boundary into item 10 at scan 50.
+Audit **item 10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!`**, scans **50–53** / printed pages **49–52**. Check all three internal joins and the closing boundary into item 11 at scan 54.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
