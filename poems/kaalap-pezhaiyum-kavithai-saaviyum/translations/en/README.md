@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS; 6/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS; 9/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -25,25 +25,13 @@ English should remain readable while protecting Kalaignar's voice, cadence, rhet
 
 Voice fidelity takes priority over polishing the source into neutral modern prose.
 
-## Planned translation structure
+## Translation cadence
 
-```text
-translations/en/
-  README.md
-  TRANSLATION_PLAN.md
-  SOURCE_MAP.md
-  batches/
-    batch-01.md  # reviewed PASS
-    batch-02.md  # reviewed PASS
-    batch-03.md  # reviewed PASS
-    ...
-    batch-29.md
-  kaalap-pezhaiyum-kavithai-saaviyum-en.md
-  EDITORIAL_CONSISTENCY_REVIEW.md
-  RELEASE_REPORT.md
-```
+Batches **01–03** were completed under the original two-complete-item cadence.
 
-Each routine translation batch contains **two complete canonical items**. No item may be split merely to satisfy a batch boundary. The 58 items therefore map to **29 planned batches**.
+From **Batch 04 onward**, the working cadence is **three complete poems/items per iteration**. No item may be split merely to satisfy a batch boundary. The final batch may contain fewer than three items when the 58-item inventory is exhausted.
+
+Revised total planned batches: **21**.
 
 ## Translation progress
 
@@ -52,13 +40,14 @@ Each routine translation batch contains **two complete canonical items**. No ite
 | 01 | 1–2 | 10–15 | **reviewed — PASS** |
 | 02 | 3–4 | 16–24 | **reviewed — PASS** |
 | 03 | 5–6 | 25–34 | **reviewed — PASS** |
-| 04–29 | 7–58 | 35–299 | planned |
+| 04 | 7–9 | 35–49 | **reviewed — PASS** |
+| 05–21 | 10–58 | 50–299 | planned |
 
 Current totals:
 
-- batches reviewed: **3/29**;
-- items translated and reviewed: **6/58**;
-- certified source scans represented in reviewed English batches: **25/290 numbered-item scans**;
+- batches reviewed: **4/21**;
+- items translated and reviewed: **9/58**;
+- certified source scans represented in reviewed English batches: **40/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -77,64 +66,30 @@ For discrepant items **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58
 
 A batch is not complete merely because English text exists. Before a batch is marked reviewed, confirm:
 
-1. both complete source items are represented once and in order;
+1. all complete source items assigned to the batch are represented once and in order;
 2. no Tamil line, separator, note, quotation or dialogue unit is silently omitted or duplicated;
 3. title metadata follows the source-witness rules;
 4. direct address, repetition, rhetorical questions, slogans, satire and polemical force remain active in English;
 5. names, dates, figures, literary works and political/historical terminology remain traceable to the source;
 6. line/stanza architecture is not flattened into prose;
-7. any deliberately non-literal English solution is recorded in the batch review notes rather than used to alter Tamil;
+7. any deliberately non-literal English solution is recorded in batch translator notes rather than used to alter Tamil;
 8. the batch passes a separate Kalaignar-language/voice read.
 
 Only reviewed batches may enter the eventual complete English collection assembly.
 
-## Batch closures
+## Reviewed batch closures
 
-### Batch 01
-
-Reviewed batch: [`batches/batch-01.md`](batches/batch-01.md)
-
-- item 1 — `பொது உலகம்` — scans **10–11**;
-- item 2 — `படிமுறை வளர்ச்சி` — scans **12–15**;
-- source scans represented: **6/6**;
-- omissions / duplications: **0 / 0**;
-- Kalaignar-language/voice review: **PASS**;
-- Tamil source altered for English: **NO**.
-
-### Batch 02
-
-Reviewed batch: [`batches/batch-02.md`](batches/batch-02.md)
-
-- item 3 — `‘காந்தக்கல்’ கதையொன்று!` — scans **16–19**;
-- item 4 — `அன்றிருந்த கற்காலம் - இனி அமையாவிடின் நற்காலம்!` — scans **20–24**;
-- source scans represented: **9/9**;
-- omissions / duplications: **0 / 0**;
-- evolutionary analogies, Kumari Kandam/Indus argument and Tamil-language ordering: **PASS**;
-- dialogue frame, satire, sexual metaphors, chastity/equality argument and magnet/iron wordplay: **PASS**;
-- parenthetical Neanderthal note represented: **PASS**;
-- Kalaignar-language/voice review: **PASS**;
-- Tamil source altered for English: **NO**.
-
-### Batch 03
-
-Reviewed batch: [`batches/batch-03.md`](batches/batch-03.md)
-
-- item 5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!` — scans **25–28**;
-- item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` — scans **29–34**;
-- source scans represented: **10/10**;
-- omissions / duplications: **0 / 0**;
-- Tolkappiyam, Diva–Sur, gesture/language, Kural and Aathichudi references retained: **PASS**;
-- class rhetoric, Bharathidasan reference, Nehru–Tiruvachakam passage, landlord episode and final `அறப்போர்` contrast retained: **PASS**;
-- source-sensitive compact Bharathidasan phrase documented without silent Tamil repair: **PASS**;
-- Kalaignar-language/voice review: **PASS**;
-- Tamil source altered for English: **NO**.
+- **Batch 01:** items 1–2, scans 10–15 — reviewed PASS.
+- **Batch 02:** items 3–4, scans 16–24 — reviewed PASS.
+- **Batch 03:** items 5–6, scans 25–34 — reviewed PASS.
+- **Batch 04:** items 7–9, scans 35–49 — reviewed PASS. The crocodile/raid narrative, Sankrityayan/Iyarpakai/Nehru references, class and land rhetoric, long quoted Aryan dialogue, linga/Avudaiyar argument, named deities and triple rhetorical close are retained without outside correction or Tamil-source alteration.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–29** — **IN PROGRESS; 3/29 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 4/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -142,9 +97,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 04 — items 7–8**:
+Translate and review **Batch 05 — items 10–12**:
 
-- item 7 — `வரலாற்றுக் காலத்தின் கோலம்!` — scans **35–39** — `../../sections/07.md`;
-- item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` — scans **40–43** — `../../sections/08.md`.
+- item 10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` — scans **50–53** — `../../sections/10.md`;
+- item 11 — `ஆங்காங்கு அடையாள முத்திரைகள்!` — scans **54–57** — `../../sections/11.md`;
+- item 12 — `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` — scans **58–63** — `../../sections/12.md`.
 
-Create `batches/batch-04.md`. Stop after item 8; do not begin item 9.
+Create `batches/batch-05.md`. Stop after item 12; do not begin item 13.
