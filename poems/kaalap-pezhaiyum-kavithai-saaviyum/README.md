@@ -14,10 +14,10 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — boundary / within-item page-join audit: **IN PROGRESS — items 1–24 / 58 fully certified**
-- current partial item: **25 — `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!`, opening/title scan 124 audited**
-- latest Phase-3 iteration: **25 physical scans, 100–124 — COMPLETE**
-- next Phase-3 iteration: **25 physical scans, 125–149**
+- Phase-3 activity 2 — boundary / within-item page-join audit: **IN PROGRESS — items 1–30 / 58 fully certified**
+- current partial item: **31 — `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`, audited through scan 149**
+- latest Phase-3 iteration: **25 physical scans, 125–149 — COMPLETE**
+- next Phase-3 iteration: **25 physical scans, 150–174**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -36,46 +36,37 @@ Detailed Phase-2 correction history remains in `audit.md`. Phase-3 structural wo
 
 All **306 scans** are structurally accounted for, and all **58** contents start pages agree with the observed title scans through `title scan = contents start page + 1`.
 
-## Phase 3 activity 2 — boundary / join audit
+## Latest Phase-3 boundary/join iteration — scans 125–149
 
-**IN PROGRESS — 24/58 items fully certified.**
+The 25-scan iteration completed the following:
 
-The latest 25-scan iteration covered **physical scans 100–124** and completed:
+- item 25 `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!` — scans 124–127 / pp. 123–126 — **CERTIFIED, 3/3 joins PASS**;
+- item 26 `விழித்தெழுக; இதோ, செம்மொழி விடியல்!` — scans 128–131 / pp. 127–130 — **CERTIFIED, 3/3 joins PASS**;
+- item 27 `வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்!` — scans 132–135 / pp. 131–134 — **CERTIFIED, 3/3 joins PASS**;
+- item 28 `பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்!` — scans 136–139 / pp. 135–138 — **CERTIFIED, 3/3 joins PASS**;
+- item 29 `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` — scans 140–144 / pp. 139–143 — **CERTIFIED, 4/4 joins PASS**;
+- item 30 `ஆற்றலின் அளவுகோல்; அவன் செங்கோல்!` — scans 145–147 / pp. 144–146 — **CERTIFIED, 2/2 joins PASS**;
+- item 31 `மாண்பு நிறை தாயும், மாசற்ற மகனும்!` — scans 148–149 audited in this iteration — **PARTIAL**.
 
-- item 19 `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` — scans 99–102 / pp. 98–101 — **CERTIFIED**;
-- item 20 `வீழினும் அவன் வெற்றித் திருமகனே!` — scans 103–106 / pp. 102–105 — **CERTIFIED**;
-- item 21 `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans 107–111 / pp. 106–110 — **CERTIFIED**;
-- item 22 contents `பிறகேன் வினா? என்பதே என் வினா!` — scans 112–116 / pp. 111–115 — **CERTIFIED**, while title scan 112 preserves the full-title quotation marks `“பிறகேன் வினா? என்பதே என் வினா!”`;
-- item 23 `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` — scans 117–119 / pp. 116–118 — **CERTIFIED**;
-- item 24 `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` — scans 120–123 / pp. 119–122 — **CERTIFIED**;
-- item 25 — scan 124 / printed page 123 — **PARTIAL**, opening/title scan audited.
+For item 31, opening boundary **147→148** and internal join **148→149** pass. Scan 149 ends mid-continuation at `நேரிலே கோரிக்கை வைக்கத்தான்” என்றும்,`; the next iteration must therefore begin with **149→150** before item 31 can be certified.
 
-All within-item joins for items 19–24 passed. No dropped or duplicated text, unresolved quotation carry-over, or structural metadata inconsistency was found. **No Tamil transcription was changed in this iteration.**
-
-### Item 25 title witness
-
-The verified contents entry is:
-
-`கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!`
-
-The numbered title page at scan 124 visibly reads:
-
-`கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்`
-
-with **no final exclamation mark**. Both witnesses remain separately preserved. Item 25 is not yet certified because scans 125–127 and its closing boundary remain for the next iteration.
+No dropped or duplicated text, unresolved structural join, Tamil transcription change, or new structural metadata correction was found in this iteration.
 
 ## Title witnesses remain separate
 
-Phase 3 must not silently normalize contents/title-page differences. Known examples remain preserved in `indexes/item-title-map.md`. Certified/observed differences reached so far include:
+Phase 3 does not silently normalize contents/title-page differences. Reached discrepancies currently include:
 
-- item 18 — spacing difference in `தேய்ந்ததுபோக` / `தேய்ந்தது போக`;
+- item 18 — `தேய்ந்ததுபோக` / `தேய்ந்தது போக`;
 - item 22 — full-title quotation marks on the title page only;
-- item 25 — final `!` in contents but absent on the title page.
+- item 25 — final `!` in contents but absent on title scan 124;
+- item 26 — contents has `இதோ,`; title scan 128 has `இதோ` without the comma;
+- item 29 — contents has `தாயே,`; title scan 140 omits that comma;
+- item 31 — contents has `தாயும்,`; title scan 148 omits that comma.
 
-Later discrepant items, including the item-37 printed-number anomaly, remain deferred until their boundary passes are reached and ultimately until the designated title-witness reconciliation step.
+Later known witness differences remain recorded in `indexes/item-title-map.md` and will be handled only during the designated title-witness reconciliation step.
 
 ## Exact next activity
 
-Process **physical scans 125–149** as the next 25-page Phase-3 iteration, starting with item 25's pending join **124→125**.
+Process **physical scans 150–174** as the next 25-page Phase-3 iteration, starting with item 31's pending join **149→150**.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
