@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS; 9/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–05 reviewed PASS; 12/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -41,13 +41,14 @@ Revised total planned batches: **21**.
 | 02 | 3–4 | 16–24 | **reviewed — PASS** |
 | 03 | 5–6 | 25–34 | **reviewed — PASS** |
 | 04 | 7–9 | 35–49 | **reviewed — PASS** |
-| 05–21 | 10–58 | 50–299 | planned |
+| 05 | 10–12 | 50–63 | **reviewed — PASS** |
+| 06–21 | 13–58 | 64–299 | planned |
 
 Current totals:
 
-- batches reviewed: **4/21**;
-- items translated and reviewed: **9/58**;
-- certified source scans represented in reviewed English batches: **40/290 numbered-item scans**;
+- batches reviewed: **5/21**;
+- items translated and reviewed: **12/58**;
+- certified source scans represented in reviewed English batches: **54/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -83,13 +84,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 02:** items 3–4, scans 16–24 — reviewed PASS.
 - **Batch 03:** items 5–6, scans 25–34 — reviewed PASS.
 - **Batch 04:** items 7–9, scans 35–49 — reviewed PASS. The crocodile/raid narrative, Sankrityayan/Iyarpakai/Nehru references, class and land rhetoric, long quoted Aryan dialogue, linga/Avudaiyar argument, named deities and triple rhetorical close are retained without outside correction or Tamil-source alteration.
+- **Batch 05:** items 10–12, scans 50–63 — reviewed PASS. Maritime-contact claims, the papyrus and Naga-country narratives, *Manimekalai* quotation, Peevalai–Nedumudikilli/Ilanthiraiyan sequence, Murugan–Valli narrative, *Kuruntokai* quotation, Tamil sound-play, glossary and equal-rights close are retained; source-sensitive forms are documented rather than silently repaired.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 4/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 5/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -97,10 +99,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 05 — items 10–12**:
+Translate and review **Batch 06 — items 13–15**:
 
-- item 10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!` — scans **50–53** — `../../sections/10.md`;
-- item 11 — `ஆங்காங்கு அடையாள முத்திரைகள்!` — scans **54–57** — `../../sections/11.md`;
-- item 12 — `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` — scans **58–63** — `../../sections/12.md`.
+- item 13 — `காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி!` — scans **64–67** — `../../sections/13.md`;
+- item 14 — `கனக விஜயர் கல் சுமந்த வரலாறு!` — scans **68–77** — `../../sections/14.md`;
+- item 15 — `பருகிடலாம் இந்த “ஆரிய” தேநீரை!` — scans **78–81** — `../../sections/15.md`.
 
-Create `batches/batch-05.md`. Stop after item 12; do not begin item 13.
+Create `batches/batch-06.md`. Stop after item 15; do not begin item 16.
