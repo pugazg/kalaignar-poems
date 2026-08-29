@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 53/58 canonical item files assembled.**
+**IN PROGRESS — 55/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -43,30 +43,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3S: items 48–49 — COMPLETE.
 - Two-poem iteration 3T: items 50–51 — COMPLETE.
 - Two-poem iteration 3U: items 52–53 — COMPLETE.
+- Two-poem iteration 3V: items 54–55 — COMPLETE.
 
-### Two-poem iteration 3U
+### Two-poem iteration 3V
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 52 | `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!` | 257–262 | `sections/52.md` | ASSEMBLED |
-| 53 | `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!` | 263–270 | `sections/53.md` | ASSEMBLED |
+| 54 | `தலையாலங்கானத்துச் செருவென்றான்!` | 271–276 | `sections/54.md` | ASSEMBLED |
+| 55 | `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` | 277–284 | `sections/55.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **53/58**;
+- cumulative canonical files: **55/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Item 52 preserves quoted earlier-poem passages, their indentation, ellipsis lengths, section separators, dialogue punctuation and source-sensitive forms exactly from verified page records, including `காய் சின வழுதி`, `குறிப்பிடுழுதி`, `ஒடிந்த கரத்துக்கு உபரிக் கரமாக`, and the concluding தொல்காப்பியம் passage. Item 53 preserves dialogue and indentation, quoted forms, dates and figures in the final `குறிப்பு`, proper-name/work-title sequences, section separators, and source-sensitive forms including `கோரசனி`, `கெல்லி`, the compact continuation `யென்று`, `முடிவுரை`, and `மூர்க்கத்தனமிக்க` without normalization.
+Item 54 preserves the documented title-witness distinction exactly: title-page witness `தலையாலங்கானத்துச் செருவென்றான்!` controls the canonical displayed title, while contents witness `தலையாலங்கானத்துச் செரு வென்றான்!` remains separately recorded in front matter. Its personal names, quoted passages, historical-name sequences, section separators, source-note references and source-sensitive forms including `கழனியோர்த்துக்`, `களவாகை`, and the final parenthetical note were preserved without normalization. Item 55 preserves quoted titles and dialogue, ellipsis lengths, separators, historical names, source-note wording, page joins and scan-proven forms including `தடந்தோள் பழுதிபடத்`, `புள்ளிமயில்`, `பேரரசி`, and `அருமைமிகு` exactly from verified page records.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 54 — title-page witness `தலையாலங்கானத்துச் செருவென்றான்!` — scans **271–276** → `sections/54.md`; preserve contents witness `தலையாலங்கானத்துச் செரு வென்றான்!` separately because this is a documented word-joining title-witness discrepancy;
-- item 55 — `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` — scans **277–284** → `sections/55.md`.
+- item 56 — `பற்று கடந்தால், பற்றி எரியும் வெறியே!` — scans **285–288** → `sections/56.md`;
+- item 57 — `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` — scans **289–295** → `sections/57.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **55/58**. Do not begin item 56 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **57/58**. Do not begin item 58 in that iteration.
