@@ -19,13 +19,13 @@ All **306 physical scans** are structurally accounted for. All **58** contents s
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–13 / 58 fully certified; item 14 audited through scan 74.**
+**Status: IN PROGRESS — items 1–18 / 58 fully certified; item 19 opened at scan 99.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ### Iteration size
 
-Routine Phase-3 continuation is now performed in **25-physical-scan iterations**. The completed iteration covered **scans 50–74**. If an iteration ends inside an item, that item remains partial until the next iteration completes its remaining joins and closing boundary.
+Routine Phase-3 continuation is performed in **25-physical-scan iterations**. The latest completed iteration covered **scans 75–99**. If an iteration ends inside an item, that item remains partial until a later iteration reaches and checks its closing boundary.
 
 | Item | Title | Range | Internal joins | Result |
 |---:|---|---|---:|---|
@@ -42,20 +42,35 @@ Routine Phase-3 continuation is now performed in **25-physical-scan iterations**
 | 11 | `ஆங்காங்கு அடையாள முத்திரைகள்!` | scans 54–57 / pp. 53–56 | 3/3 | PASS |
 | 12 | `வரலாற்றுப் பூங்காவில் வள்ளித் திருமணம்!` | scans 58–63 / pp. 57–62 | 5/5 | PASS |
 | 13 | `காரவேலன் கண்டு நடுங்கிய கட்டுக்குலையாக் கூட்டணி!` | scans 64–67 / pp. 63–66 | 3/3 | PASS |
-| 14 | `கனக விஜயர் கல் சுமந்த வரலாறு!` | scans 68–77 / pp. 67–76 | 6/9 audited through scan 74 | PARTIAL |
+| 14 | `கனக விஜயர் கல் சுமந்த வரலாறு!` | scans 68–77 / pp. 67–76 | 9/9 | PASS |
+| 15 | `பருகிடலாம் இந்த “ஆரிய” தேநீரை!` | scans 78–81 / pp. 77–80 | 3/3 | PASS |
+| 16 | `சுளையில் ஒன்றியிருக்கும் சுவையாக!` | scans 82–87 / pp. 81–86 | 5/5 | PASS |
+| 17 | `உலக வரலாறு எங்கிருந்து வருவது?` | scans 88–95 / pp. 87–94 | 7/7 | PASS |
+| 18 | title page `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` | scans 96–98 / pp. 95–97 | 2/2 | PASS |
+| 19 | `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` | begins scan 99 / p. 98 | — | PARTIAL |
 
-### Scans 50–74 result
+### Scans 75–99 result
 
-- items **10–13** passed their opening boundaries, every internal join, and closing boundaries;
-- item **14** passed its opening boundary and joins **68→69, 69→70, 70→71, 71→72, 72→73, 73→74**;
-- scan 74 ends mid-sentence at `பறி போகலாம்! ஆனால் கனல்`, so item 14 is intentionally left open for the next iteration;
+- item **14** was completed from pending join **74→75** through its closing boundary **77→78** and is now fully certified;
+- items **15–18** passed their opening boundaries, every internal join and their closing boundaries;
+- item **19** passed its opening boundary **98→99** and remains open at the iteration boundary;
 - no dropped or duplicated source text was detected;
-- no new contents/title-page witness discrepancy was found in items 10–14;
-- source-level wording, punctuation, dialogue structure and physical line splits were preserved.
+- no unresolved quotation, dialogue or stage-direction carry-over remains in the completed items;
+- no new section/front-matter mismatch was found in scans **75–99**;
+- **no Tamil source transcription was changed** in this iteration.
 
-### Assembly-readiness metadata correction
+### Title-witness preservation
 
-Item 12 contained one non-textual structural inconsistency: scan 58 used the title-derived section id `item-12-varalattrup-poongaavil-vallith-thirumanam`, while scans 59–63 used `item-12-valli-thirumanam`. The `section` front matter on scans **59–63** was aligned to the scan-58 id so one source item cannot be split during later assembly. **No source transcription was changed.**
+Item 18 confirms a known witness difference:
+
+- contents: `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!`;
+- title page scan 96: `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!`.
+
+Both witnesses remain separately preserved. Phase 3 does not silently select or normalize one into the other.
+
+### Prior assembly-readiness metadata correction
+
+Item 12 contained one non-textual structural inconsistency: scan 58 used the title-derived section id `item-12-varalattrup-poongaavil-vallith-thirumanam`, while scans 59–63 used `item-12-valli-thirumanam`. The `section` front matter on scans **59–63** was aligned to the scan-58 id. **No source transcription changed.**
 
 ## Remaining Phase-3 activities
 
@@ -66,4 +81,4 @@ Item 12 contained one non-textual structural inconsistency: scan 58 used the tit
 
 ## Exact next activity
 
-Process physical scans **75–99** as the next 25-scan iteration, beginning with the pending item-14 join **74→75**. Canonical Tamil assembly remains blocked until the full boundary/join audit is complete.
+Process physical scans **100–124** as the next 25-scan iteration, beginning with item-19 join **99→100**. Canonical Tamil assembly remains blocked until the full boundary/join audit is complete.
