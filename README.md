@@ -23,7 +23,7 @@ A work's live README/HANDOVER declares its current phase. Do not perform later-p
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 2 source-critical visual verification; scans 1–200 verified consecutively; scans 201–225 next** |
+| காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **ACTIVE — Phase 2 source-critical visual verification; scans 1–225 verified consecutively; scans 226–250 next** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation in progress, currently paused while another work is active** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Restarted from supplied scan; fresh source setup COMPLETE; page verification STARTED** |
@@ -34,9 +34,9 @@ A work's live README/HANDOVER declares its current phase. Do not perform later-p
 - Phase 1 transcription: **306/306 physical scans represented**;
 - contents: **58/58 entries represented**;
 - current phase: **Phase 2 — independent source-critical visual verification**;
-- verified range: **scans 1–200 consecutively**;
-- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**;
-- next verification batch: **scans 201–225**;
+- verified range: **scans 1–225 consecutively**;
+- completed Phase-2 batches: **1–25**, **26–50**, **51–75**, **76–100**, **101–125**, **126–150**, **151–175**, **176–200**, **201–225**;
+- next verification batch: **scans 226–250**;
 - Phase-3 continuity/completeness/assembly and Phase-4 translation remain intentionally deferred.
 
 During Phase 2, independently reread each page against the controlling scan and correct only scan-proven discrepancies. Do not promote semantic expectations over visible source evidence.
