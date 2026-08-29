@@ -2,7 +2,7 @@
 
 ## Status
 
-**IN PROGRESS — 45/58 canonical item files assembled.**
+**IN PROGRESS — 47/58 canonical item files assembled.**
 
 Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
 
@@ -39,30 +39,31 @@ Canonical assembly began only after Phase-3 physical scan ↔ printed-page recon
 - Two-poem iteration 3O: items 40–41 — COMPLETE.
 - Two-poem iteration 3P: items 42–43 — COMPLETE.
 - Two-poem iteration 3Q: items 44–45 — COMPLETE.
+- Two-poem iteration 3R: items 46–47 — COMPLETE.
 
-### Two-poem iteration 3Q
+### Two-poem iteration 3R
 
 | Item | Canonical title | Physical scans | Canonical file | Result |
 |---:|---|---:|---|---|
-| 44 | `இரும்புத் தூணும் ஈக்களின் இறகும்!` | 211–215 | `sections/44.md` | ASSEMBLED |
-| 45 | `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` | 216–219 | `sections/45.md` | ASSEMBLED |
+| 46 | `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` | 220–225 | `sections/46.md` | ASSEMBLED |
+| 47 | `அந்த வருங்காலமே; அருங்காலமாகும்!` | 226–235 | `sections/47.md` | ASSEMBLED |
 
 Result:
 
 - canonical files newly created: **2**;
-- cumulative canonical files: **45/58**;
+- cumulative canonical files: **47/58**;
 - verified page records modified: **none**;
 - partial canonical files: **none**;
 - source normalization: **none**;
 - unresolved assembly issue: **none**.
 
-Item 44 preserves the documented title-witness distinction exactly: title-page witness `இரும்புத் தூணும் ஈக்களின் இறகும்!` controls the canonical displayed title, while contents witness `இரும்புத் தூணும், ஈக்களின் இறகும்!` remains separately recorded in front matter. Its chronology, quotations, question-mark spacing, page joins, and source-sensitive forms including `அவ்வர் மகன்கள்`, `இறும்பூதெய்தினாள்`, and `இற்றுப் போகும் ?` were preserved without normalization. Item 45 preserves verified historical names, dates, punctuation, question-mark spacing, page joins, and source-sensitive forms including `ஏற்றுவரே!` and the scan-proven `இராசராசன் கி.பி. 985 ஜூன் திங்கள்` exactly from verified page records.
+Item 46 preserves the documented title-witness distinction exactly: title-page witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` controls the canonical displayed title, while contents witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` remains separately recorded in front matter. Its chronology, dialogue/question-mark spacing, ellipsis lengths, lineation, and source-sensitive forms including `பழங் குலங்கும் பஞ்சசோலைப் பூ மலராத பழங்காலத்தே`, `நெரியாத`, `அய்ந்தும் ஆறும்`, `பெண்ணொருத்தி ஒன்று கேட்கும்`, `ஈட்டி யொன்றை`, and `பேச்சிருக்காது` were preserved without normalization. Item 47 preserves verified titles, dates, figures, separators, question-mark spacing, dense inscription text, ruler-name lists, indentation, and source-sensitive forms including `குமுறியது`, `வைத்தே திரும்புவேன்`, `குலுங்கச்`, `இத்திருமணம் தெரிவித்தது!`, `கங்க பாடியுந்`, `சிங்கள ஈழ`, `இரட்டபாடி யேழரை`, `நெழில்வள ருழியு ளெல்லா`, `சத்தியாசிரியன்`, and `இலாடப் பேரரையன்` exactly from verified page records.
 
 ## Exact next activity
 
 Process exactly the next **two complete poems/items**:
 
-- item 46 — title-page witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` — scans **220–225** → `sections/46.md`; preserve contents witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` separately because the title page includes the final `!`;
-- item 47 — `அந்த வருங்காலமே; அருங்காலமாகும்!` — scans **226–235** → `sections/47.md`.
+- item 48 — `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!` — scans **236–240** → `sections/48.md`;
+- item 49 — `களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்!` — scans **241–245** → `sections/49.md`.
 
-After those two files are assembled, stop the iteration and update status-bearing files to **47/58**. Do not begin item 48 in that iteration.
+After those two files are assembled, stop the iteration and update status-bearing files to **49/58**. Do not begin item 50 in that iteration.
