@@ -19,7 +19,7 @@ All **306 physical scans** are structurally accounted for. All **58** contents s
 
 ## Activity 2 — 58-item boundary and within-item page-join continuity audit
 
-**Status: IN PROGRESS — items 1–8 / 58 certified.**
+**Status: IN PROGRESS — items 1–9 / 58 certified.**
 
 Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -33,27 +33,30 @@ Detailed evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 | 6 | `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!` | scans 29–34 / pp. 28–33 | 5/5 | PASS |
 | 7 | `வரலாற்றுக் காலத்தின் கோலம்!` | scans 35–39 / pp. 34–38 | 4/4 | PASS |
 | 8 | `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!` | scans 40–43 / pp. 39–42 | 3/3 | PASS |
+| 9 | `உரையாடல் உணர்த்திடும் உண்மை என்ன?` | scans 44–49 / pp. 43–48 | 5/5 | PASS |
 
-### Item 8 structural result
+### Item 9 structural result
 
-- opening boundary scan 39→40: **PASS**;
-- join 40→41: `பொறுப்பதும், பொறுத்திடாது என்னை வெறுப்பதும்` → `புத்தகம் இரண்டையும் படித்த பிறகு - நீவீர்`: **PASS**;
-- join 41→42: `முற்றுகை யிட்ட கலாச்சாரத்தினால்` → `மூண்டு விட்ட தீயின் கொடுமையைத்தான்`: **PASS**;
-- join 42→43: physical page-turn phrase `விட்டு - புகழ்` → `குன்றேறி நாம் நிற்பதற்குப்...`: **PASS**;
-- closing boundary scan 43→44: **PASS**;
+- opening boundary scan 43→44: **PASS**;
+- join 44→45: `அப்படியே தருகிறேன்` → `கூட்டவோ, குறைக்கவோ இன்றி...`: **PASS**;
+- join 45→46: quoted statement closes before the next quoted response begins: **PASS**;
+- join 46→47: completed exposition flows into a new paragraph on the same argument: **PASS**;
+- join 47→48: `அதில் இல்லை உடன்பாடு` → `என்றிருந்த நிலமை இன்று மாறி விட்டதா ?`: **PASS**;
+- join 48→49: `அப்பட்டமாகவே அறிவித்து -` → `அவர்கள் வடக்கில் ஒரு விதம்`: **PASS**;
+- closing boundary scan 49→50: **PASS**;
 - dropped/duplicated text: **none**;
 - unresolved structural or quotation issue: **none**;
 - title-witness difference: **none**.
 
-The source-sensitive forms `அமரர் எனும் ‘தேவர்’ கட்கும்`, `நெற்றி வியர்வை முத்து முத்தாக உதிர உதிர`, and `நெஞ்செலும்பு ஒடிய ஒடிய` remain unchanged. The earlier scan 31→32 abrupt transition also remains documented as a source-level feature, not a missing-page repair target.
+The source-sensitive form `சளித்தோமா` remains unchanged. The previously documented scan 31→32 abrupt transition remains preserved as a source-level feature rather than treated as a missing-page repair target.
 
 ## Remaining Phase-3 activities
 
-1. continue **58-item boundary certification and within-item page-join continuity audit** through items 9–58;
+1. continue **58-item boundary certification and within-item page-join continuity audit** through items 10–58;
 2. **title-witness reconciliation record** — preserve contents and title-page variants as witnesses; do not silently normalize them;
 3. **canonical Tamil assembly** — only after structural and join audits pass;
 4. **assembly/source-completeness review and Tamil final clearance**.
 
 ## Exact next activity
 
-Audit **item 9 — `உரையாடல் உணர்த்திடும் உண்மை என்ன?`**, scans **44–49** / printed pages **43–48**, including all five internal joins and its closing boundary into item 10 at scan 50. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
+Audit **item 10 — `பழந்தமிழர் பன்னாட்டுத் தொடர்பு!`**, scans **50–53** / printed pages **49–52**, including all three internal joins and its closing boundary into item 11 at scan 54. Canonical Tamil assembly remains blocked until the full 58-item boundary/join audit is complete.
