@@ -14,9 +14,9 @@ This work is processed from the supplied controlling scan under the repository's
 - unresolved readings after Phase 2: **none**
 - current work mode: **Phase 3 — structure, completeness, assembly and Tamil final clearance**
 - Phase-3 activity 1 — exact physical scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–5 / 58 certified**
-- last certified item: **5 — `தங்க மனம் வேண்டும்; அது தந்திடும் அன்பு வேண்டும்!`**
-- next item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
+- Phase-3 activity 2 — 58-item boundary and within-item page-join continuity audit: **IN PROGRESS — items 1–6 / 58 certified**
+- last certified item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
+- next item: **7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
 - canonical Tamil assembly: **BLOCKED until structural/page-join audit passes**
 - English translation: **DEFERRED to Phase 4 after Tamil final clearance**
 
@@ -45,7 +45,7 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 
 ## Phase 3 activity 2 — boundary / join audit
 
-**IN PROGRESS — 5/58 items certified.**
+**IN PROGRESS — 6/58 items certified.**
 
 ### Item 1 — `பொது உலகம்`
 
@@ -105,7 +105,20 @@ The full item-by-item physical and printed ranges are recorded in `indexes/page-
 - title-witness difference: **none**;
 - source-sensitive scan-28 `பேத்தி, பேர் காலத்திலும்` remains preserved.
 
-The direct item-5 continuations include `மாசு மறுவற்ற மரபிலக்கணம் தந்தவரை,` → `மண்டியிட்டுத் தொழுது வணங்குவது ;` and `பின்னர் / அவர்கள்` → `வெள்ளத்தினோடொரு வெள்ளமுமாய்`. Scan 28 closes with a complete final stanza and ornament before scan 29 begins item 6.
+### Item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`
+
+**CERTIFIED.** Range: scans **29–34** / printed pages **28–33**.
+
+- opening boundary scan 28→29: **PASS**;
+- internal joins scan 29→30, 30→31, 31→32, 32→33 and 33→34: **5/5 PASS**;
+- closing boundary scan 34→35: **PASS**;
+- quotation carry-over scan 30→31 and 32→33: **PASS**;
+- scan 31→32 is a source-level abrupt rhetorical/narrative transition with continuous pagination and no physical gap; it is preserved without editorial repair;
+- dropped or duplicated text: **none**;
+- unresolved structural issue: **none**;
+- source-sensitive `ஏழைபாழையிடம்` and `எனந்தப்` remain preserved.
+
+Item 6 includes the embedded quotation continuation `...பறவையாய்ப் பாம்பாகிக்` → `கல்லாய் மனிதராய்”`, the woman's open speech carried from scan 32 into scan 33, and the direct dialogue `“என்னைத் தெரிகிறதா மங்கை ?”` → `“ஏன் தெரியவில்லை ? என்னவனல்லவா நீ!`. Scan 34 then closes with `அவளை அணைத்தவாறே / அணைந்து அவன் உயிர்!` and an ornament before scan 35 begins item 7.
 
 Full evidence is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
@@ -117,6 +130,6 @@ The contents witness and title-page witness should remain separately documented 
 
 ## Exact next activity
 
-Audit **item 6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**, scans **29–34** / printed pages **28–33**. Check all five internal joins and the closing boundary into item 7 at scan 35.
+Audit **item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`**, scans **35–39** / printed pages **34–38**. Check all four internal joins and the closing boundary into item 8 at scan 40.
 
 Do **not** begin canonical Tamil assembly until the 58-item boundary/join audit is complete. Do **not** begin Phase 4 translation before Tamil final clearance.
