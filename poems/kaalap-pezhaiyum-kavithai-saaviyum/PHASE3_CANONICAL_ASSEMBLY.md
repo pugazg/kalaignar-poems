@@ -2,11 +2,11 @@
 
 ## Status
 
-**CANONICAL ASSEMBLY + SOURCE-COMPLETENESS REVIEW COMPLETE — PASS; 58/58 canonical item files assembled.**
+**PHASE 3 COMPLETE — CANONICAL ASSEMBLY 58/58, SOURCE-COMPLETENESS REVIEW PASS, TAMIL FINAL CLEARANCE PASS.**
 
-Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization is introduced during assembly.
+Canonical assembly began only after Phase-3 physical scan ↔ printed-page reconciliation, the 58/58 boundary/page-join audit, and the 14/14 title-witness reconciliation were complete. The verified `pages/NNNN.md` records are the assembly text layer; no OCR, outside text or semantic normalization was introduced during assembly.
 
-The completed assembly/source-completeness review is recorded in `PHASE3_CANONICAL_SOURCE_REVIEW.md`. No source-completeness defect requiring a verified page-record or canonical-item correction was found.
+The completed assembly/source-completeness review is recorded in `PHASE3_CANONICAL_SOURCE_REVIEW.md`. Tamil final clearance is recorded in `PHASE3_TAMIL_FINAL_CLEARANCE.md`. No source-completeness defect requiring a verified page-record or canonical-item correction was found.
 
 ## Assembly rules
 
@@ -18,7 +18,7 @@ The completed assembly/source-completeness review is recorded in `PHASE3_CANONIC
 6. Stable filenames are `01.md` … `58.md`.
 7. Never create a partial canonical item file.
 8. Routine canonical assembly proceeded two complete poems/items per iteration after the user set that cadence; the final iteration processed all three remaining items 56–58 together by explicit user instruction.
-9. Phase 4 translation remains blocked until **Tamil final clearance**. The assembly/source-completeness gate has now passed.
+9. Phase 4 remained blocked until Tamil final clearance; that clearance has now passed. The final-cleared Tamil canonical layer must not be silently changed during translation work.
 
 ## Completed assembly
 
@@ -85,12 +85,32 @@ Review result:
 - unresolved source-completeness defects: **0**;
 - verified page records modified by review: **none**;
 - canonical item files modified by review: **none**;
-- Phase 4 translation started: **no**.
+- Phase 4 translation started during review: **no**.
+
+## Phase-3 activity 6 — Tamil final clearance
+
+**COMPLETE — PASS.**
+
+Durable clearance record: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+Final-clearance result:
+
+- Phase-3 activity 1, scan ↔ printed-page reconciliation: **PASS**;
+- Phase-3 activity 2, boundary / within-item page-join audit: **PASS — 58/58**;
+- Phase-3 activity 3, title-witness reconciliation: **PASS — 14/14**;
+- Phase-3 activity 4, canonical Tamil assembly: **PASS — 58/58**;
+- Phase-3 activity 5, canonical assembly/source-completeness review: **PASS**;
+- unresolved Tamil source/completeness defects: **0**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 3: **COMPLETE**;
+- Phase 4: **UNBLOCKED, NOT YET STARTED by the clearance activity**.
+
+The controlling scan remains the highest textual authority. A future genuine source-backed correction must reopen the affected source/page/audit/canonical records; final clearance is not permission to silently normalize or rewrite Tamil text in a derivative layer.
 
 ## Exact next activity
 
-Perform **Phase-3 activity 6 — Tamil final clearance**.
+Begin **Phase 4 translation planning** for all **58 final-cleared canonical Tamil items**.
 
-Tamil final clearance must formally confirm that Phase-3 activities 1–5 are all PASS, mark the Tamil source/canonical layer as final-cleared, and only then unblock Phase 4 planning/translation work.
+Before translating content, establish the English translation inventory/source map, stable item correspondence, title-witness treatment in English-facing metadata, batching/review policy, and Kalaignar voice-fidelity constraints under `POEM_PROCESSING_GUIDE.md`.
 
-**Do not begin Phase 4 translation until the Tamil final-clearance record is complete.**
+Do not alter the final-cleared Tamil canonical files during Phase 4 planning.
