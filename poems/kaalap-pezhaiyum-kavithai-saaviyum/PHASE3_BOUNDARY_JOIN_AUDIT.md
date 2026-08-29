@@ -18,11 +18,11 @@ Canonical Tamil assembly remains blocked until all 58 items pass this audit.
 
 ## Progress
 
-- items certified: **6/58**
-- last certified item: **6 — `கத்தி பகைவுடையது; இரத்தம் நாம் தருவது!`**
+- items certified: **7/58**
+- last certified item: **7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
 - unresolved structural joins: **none**
 - source-level abrupt transitions preserved without normalization: **scan 31→32**
-- next item: **7 — `வரலாற்றுக் காலத்தின் கோலம்!`**
+- next item: **8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`**
 
 ## Item 1 — `பொது உலகம்`
 
@@ -517,6 +517,100 @@ Therefore item 6 closes at scan 34 / printed page 33 and item 7 begins cleanly a
 - unresolved structural issue: **none**;
 - source-sensitive forms `ஏழைபாழையிடம்` and `எனந்தப்` remain unchanged.
 
+## Item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`
+
+**Status: PASS — boundary and all within-item joins certified.**
+
+- contents start page: **34**;
+- observed title scan: **35**;
+- reconciled physical range: **scans 35–39**;
+- reconciled printed-page range: **pages 34–38**;
+- title witness: contents and title page both read **`வரலாற்றுக் காலத்தின் கோலம்!`**; no title-witness difference.
+
+### Opening boundary — scan 34 → scan 35
+
+- scan 34 closes item 6 with `அவளை அணைத்தவாறே / அணைந்து அவன் உயிர்!` followed by a printed ornamental closing device;
+- scan 35 visibly carries item number **7**, the title `வரலாற்றுக் காலத்தின் கோலம்!`, and begins `பண்ணையார் கூலிப்படை திரட்டிப் போர் நடத்தி`;
+- no item-7 text occurs before the title scan and no item-6 text carries beyond the ornament.
+
+**Opening boundary: CERTIFIED.**
+
+### Internal join — scan 35 → scan 36
+
+Scan 35 closes with:
+
+`அழுது தொலைத்தார்கள் ; அப்படியொரு “பகாசூரப் / பயந்தாங்குளி!” / அது போல ஒன்றா இரண்டா ; அன்றாடம் தொடர்கதைதான்!`
+
+Scan 36 begins the next example:
+
+`காளியாத்தாவுக்குப் படையல் போட்டுக் காட்டு வழி ஆட்டுக்குட்டி / காவு கொடுக்க வேண்டுமெனக் கால்நடைப் பயணம் போனவனை ;`
+
+The previous anecdote closes completely and `அன்றாடம் தொடர்கதைதான்!` explicitly frames the following anecdotal continuation. There is no ornament or item break between the pages, and no repeated or missing passage.
+
+**Join 35→36: CERTIFIED.**
+
+### Internal join — scan 36 → scan 37
+
+Scan 36 closes with:
+
+`புதிய தம்பதியாய் ஆனவர்க்கு / மதிய உணவு முதலைக்கறி விருந்து என - நெஞ்சில்`
+
+Scan 37 immediately continues:
+
+`புதிய வைத்த பாசமுடன் / மனைவியும் சொன்னாள் மற்றவரும் சொன்னார்கள்.`
+
+The phrase carries directly across the page turn as `நெஞ்சில் / புதிய வைத்த பாசமுடன்`. The unusual source form `புதிய வைத்த` is preserved exactly; no editorial normalization is made.
+
+**Join 36→37: CERTIFIED.**
+
+### Internal join — scan 37 → scan 38
+
+Scan 37 closes with:
+
+`அண்ணன் தம்பிகள் ஆளுக்கொரு பக்கமாகப் பிடித்து / அந்த முதலையை வெட்ட அரிவாளை ஓங்கிப் போட்டவே;`
+
+Scan 38 immediately continues:
+
+`இரு கூறாகப் பிளந்தது முதலை ; / இமாலய ஆச்சரியம் எல்லோரும் அதிர்ந்து விட்டார்!`
+
+The action and consequence are direct across the page turn. No duplicate line, omitted clause, separator or quotation interruption occurs.
+
+**Join 37→38: CERTIFIED.**
+
+### Internal join — scan 38 → scan 39
+
+Scan 38 closes with:
+
+`என்ற பிளிறலுடன் / நுழைந்து விட்டார் - அந்த வீட்டுக்குள்`
+
+Scan 39 immediately continues:
+
+`எதிர்க்க முடியாமல் / எல்லோரும் ஓடி விட்டார் -`
+
+The invasion scene continues without interruption: the group enters the house and the occupants flee. No dropped or duplicated text, separator or boundary anomaly is visible.
+
+**Join 38→39: CERTIFIED.**
+
+### Closing boundary — scan 39 → scan 40
+
+- scan 39 closes item 7 with `நாகரிகப் பண்பாடு ஒரு புறம் ஒளிரவும் / நாசகாலத்தின் வெளிப்பாடு மறுபுறம் வளர்வுமான / வரலாற்றுக் / காலத்தின் கோலமிது!`;
+- a printed ornamental closing device follows the final line;
+- scan 40 visibly begins item number **8** with the distinct title `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`.
+
+Therefore item 7 closes at scan 39 / printed page 38 and item 8 begins cleanly at scan 40 / printed page 39.
+
+**Closing boundary: CERTIFIED.**
+
+### Item-7 result
+
+- opening boundary: **PASS**;
+- internal joins: **4/4 PASS**;
+- closing boundary: **PASS**;
+- dropped/duplicated text detected: **none**;
+- unresolved continuation or quotation issue: **none**;
+- title-witness issue: **none**;
+- source-sensitive forms `மரத்தின் அழுத்தமான வேர்`, `மண்டூகே மனிதன்`, `கால்நடைப்`, `புதிய வைத்த`, and `போட்டவே` remain unchanged.
+
 ## Exact next activity
 
-Audit **item 7 — `வரலாற்றுக் காலத்தின் கோலம்!`**, scans **35–39** / printed pages **34–38**, including all four internal joins and the closing boundary into item 8 at scan 40. Do not begin canonical Tamil assembly yet.
+Audit **item 8 — `நெற்றி வியர்வை உதிர; நெஞ்செலும்பு ஒடிய!`**, scans **40–43** / printed pages **39–42**, including all three internal joins and the closing boundary into item 9 at scan 44. Do not begin canonical Tamil assembly yet.
