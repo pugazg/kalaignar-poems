@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–19 reviewed PASS; 54/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; 58/58 items translated and reviewed; translation batching COMPLETE**
 
 ## Scope and source authority
 
@@ -29,9 +29,9 @@ Voice fidelity takes priority over polishing the source into neutral modern pros
 
 Batches **01–03** were completed under the original two-complete-item cadence.
 
-From **Batch 04 onward**, the working cadence is **three complete poems/items per iteration**. No item may be split merely to satisfy a batch boundary. The final batch may contain fewer than three items when the 58-item inventory is exhausted.
+From **Batch 04 onward**, the working cadence was **three complete poems/items per iteration**. No item was split merely to satisfy a batch boundary. Final Batch 21 contains the single remaining item 58.
 
-Revised total planned batches: **21**.
+Final reviewed batch count: **21**.
 
 ## Translation progress
 
@@ -56,13 +56,14 @@ Revised total planned batches: **21**.
 | 17 | 46–48 | 220–240 | **reviewed — PASS** |
 | 18 | 49–51 | 241–256 | **reviewed — PASS** |
 | 19 | 52–54 | 257–276 | **reviewed — PASS** |
-| 20–21 | 55–58 | 277–299 | planned |
+| 20 | 55–57 | 277–295 | **reviewed — PASS** |
+| 21 | 58 | 296–299 | **reviewed — PASS** |
 
 Current totals:
 
-- batches reviewed: **19/21**;
-- items translated and reviewed: **54/58**;
-- certified source scans represented in reviewed English batches: **267/290 numbered-item scans**;
+- batches reviewed: **21/21**;
+- items translated and reviewed: **58/58**;
+- certified source scans represented in reviewed English batches: **290/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -90,7 +91,7 @@ A batch is not complete merely because English text exists. Before a batch is ma
 7. any deliberately non-literal English solution is recorded in batch translator notes rather than used to alter Tamil;
 8. the batch passes a separate Kalaignar-language/voice read.
 
-Only reviewed batches may enter the eventual complete English collection assembly.
+Only reviewed batches may enter the complete English collection assembly.
 
 ## Reviewed batch closures
 
@@ -113,24 +114,29 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 17:** items 46–48, scans 220–240 — reviewed PASS. Item 46 preserves its final-exclamation title discrepancy, the political-achievement/social-critique contrast, funeral-pyre/caste/Chaturvedi-Mangalam/Jain-Buddhist polemic and complete court/family sequence; Item 47 preserves every campaign separator, Velakkara-force passage, temple/fort question, Tamil/Sanskrit and people-service critique, long inscriptional quotation, ruler list and visibly indented future-age close; Item 48 preserves the date/star uncertainty, administrative and local-government terminology, caste critique, religious-inclusiveness passage, two Tirukkural layers and Rajarajeswaram/Gangaikonda Cholapuram close without outside reconciliation.
 - **Batch 18:** items 49–51, scans 241–256 — reviewed PASS. Item 49 preserves the source's Rajadhiraja/Rajendra succession wording without silent chronology repair, the northern and Eelam campaigns, Ganga expedition, elephant-bridge claim, Ganga Vinayakar and Kadaram sequence; Item 50 preserves its title-witness spacing/punctuation discrepancy, Agavamallan envoy episode, Kalaignar's explicit condemnation of the humiliation as a stain, Koppam death/retaliation, onomatopoeic battle movement, battlefield coronation and Jain ascetic's thirty-thousand-lives question; Item 51 preserves the violent Koppam aftermath, Chalukya-Chola/marriage genealogy argument, anti-*shastra* polemic, Kulothunga title/date sequence, *Kalingattu Parani*, Lanka-retreat and Leiden copper-plate claims without outside reconciliation.
 - **Batch 19:** items 52–54, scans 257–276 — reviewed PASS. Item 52 preserves the 1945 autobiographical/Pandya-history appeal, two earlier poem excerpts, Sangam-source uncertainty, Mudukudumi Peruvazhuthi advance-warning war custom, Golden-Handed Pandyan narrative and *Tolkappiyam* transition; Item 53 preserves the complete Pandyan/Tamil-Queen dialogue, Middle Sangam poet list, Kavatapuram sea-deluge sequence, Adiyarkku Nallar forty-nine-country passage, Tamil Queen/Tamil survival contrast and full scan-270 note; Item 54 preserves the canonical joined-form title witness, autobiographical Nedunchezhiyan preface, seven-opponent battle sequence, attributed Sangam-poet voices, battlefield imagery, *Maduraikanchi* anti-war turn, *Nedunalvadai* close and full scan-276 Sangam-reference note without outside reconciliation.
+- **Batch 20:** items 55–57, scans 277–295 — reviewed PASS. Item 55 preserves the *agam/puram* and *Nedunalvadai* frame, queen/cold-wind and palace-bed imagery, `அணை` wordplay, wounded-warrior camp circuit and concluding parenthetical source note; Item 56 preserves the Sangam-count claims, Mudathirumaran explanation, Mudukudumi/Palyagasalai and Vedic/Aryan polemic, Nettimaiyar war-destruction critique and Madivanan dramatic-Tamil close; Item 57 preserves the *uzhinjai/nochchi/thumbai/vaagai* terminology, erotic dialogue, Kaanapper fortress/siege architecture, victory narrative and Aiyur Moolankizhar's forge-water simile.
+- **Batch 21:** item 58, scans 296–299 — reviewed PASS. It preserves the canonical `பகைவாள்` title witness separately from contents `பகை வாள்`, the Kulothunga/China and administrative claims, Chola decline/Pandyan resurgence sequence, Rajaraja III–Sundara Pandyan self-respect rhetoric, unity appeal, enemy-sword close and printed `(முதல் பாகம் முற்றிற்று)` boundary. Separate scan-300 end matter is not imported into the numbered-poem translation.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 19/21 reviewed**;
-3. assemble the complete English collection from reviewed batches only;
+2. translate and review Batches **01–21** — **COMPLETE; 21/21 reviewed PASS**;
+3. assemble the complete English collection from reviewed batches only — **NEXT**;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
 6. mark English release complete only if all gates pass.
 
 ## Exact next activity
 
-Translate and review **Batch 20 — items 55–57**:
+Assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from the **reviewed translation bodies only** in `batches/batch-01.md` through `batches/batch-21.md`.
 
-- item 55 — `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` — scans **277–284** — `../../sections/55.md`;
-- item 56 — `பற்று கடந்தால், பற்றி எரியும் வெறியே!` — scans **285–288** — `../../sections/56.md`;
-- item 57 — `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` — scans **289–295** — `../../sections/57.md`.
+Assembly requirements:
 
-Item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`; preserve it as part of the item. Create `batches/batch-20.md`. Stop after item 57; do not begin item 58.
+- include stable items **1–58 exactly once and in order**;
+- include translated item title/body/source-visible separators and item-internal source notes;
+- exclude batch front matter, source-metadata blocks, `Translator notes`, and `Batch review` prose from the reader-facing collection body;
+- preserve title-witness decisions already recorded in the batch files;
+- preserve item 58's `(First Part Complete)` ending and stop before separate scan-300 end matter;
+- do not alter the Tamil canonical/page layer during assembly.
