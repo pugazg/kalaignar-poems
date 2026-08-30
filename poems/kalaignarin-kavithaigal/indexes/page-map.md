@@ -4,13 +4,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Source extent
 
-**The PDF contains more than 450 physical pages — user-confirmed. Exact physical page count is pending direct full-file metadata verification.**
+- physical PDF pages: **465**;
+- file size: **486,369,088 bytes**;
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**.
 
-The current ChatGPT Files renderer exposes page images only through physical page **150**. That renderer limit is not the source-file page count.
+An earlier 150-page assumption came from a renderer-window limitation and has been withdrawn. Direct source-byte access confirms all 465 physical pages.
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–150 created.**
+**PHASE 1 MAP IN PROGRESS — page records 1–150 created of 465.**
 
 This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
@@ -33,7 +35,7 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 116–127 | `அருமறையில் அறுவர்` | closes 127 |
 | 128–137 | `புதிய பாதை` | closes 137 |
 | 138–143 | `உடைமைகள் பத்து` | closes 143 |
-| 144–150 | `நீர்க் குடும்பம்` | continues beyond present renderer boundary into scan 151 |
+| 144–150 | `நீர்க் குடும்பம்` | open; continues into 151 |
 
 ## Phase-1 map — scans 126–150
 
@@ -43,13 +45,13 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 127 | `அருமறையில் அறுவர்` conclusion | 110 | `needs-review` | `வணக்கம் / வாழ்க`; decorative illustration |
 | 128 | `புதிய பாதை` opening | — | `needs-review` | title clear; date `13.8.1968`; page numeral not positively visible |
 | 129 | continuation | 112 | `needs-review` | agricultural / river wordplay |
-| 130 | continuation | 113 | `needs-review` | காவிரி / காதல் movement; dense compounds |
-| 131 | continuation | 114 | `needs-review` | உழவன் imagery / agricultural vocabulary |
+| 130 | continuation | 113 | `needs-review` | காவிரி / காதல் movement |
+| 131 | continuation | 114 | `needs-review` | உழவன் imagery |
 | 132 | continuation | 115 | `needs-review` | quoted / agricultural passages |
-| 133 | continuation | 116 | `needs-review` | compact list; performance note partly blurred |
+| 133 | continuation | 116 | `needs-review` | compact list / performance note |
 | 134 | speaker/performance continuation | 117 | `needs-review` | poet introductions / crop topics |
 | 135 | speaker/performance continuation | 118 | `needs-review` | `மக்காச் சோளம்`, `கம்பு`, `ராகி` notes visible |
-| 136 | chair's conclusion | 119 | `needs-review` | agricultural-policy / address movement |
+| 136 | chair's conclusion | 119 | `needs-review` | agricultural-policy/address movement |
 | 137 | `புதிய பாதை` conclusion | 120 | `needs-review` | `வணக்கம் / வாழ்க`; decorative illustration |
 | 138 | `உடைமைகள் பத்து` opening | — | `needs-review` | title clear; date `16.9.68`; page numeral not positively visible |
 | 139 | continuation | 122 | `needs-review` | rhetorical `உடைமை` movement |
@@ -63,7 +65,9 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 147 | continuation | 130 | `needs-review` | rain / women / Tamil rhetoric |
 | 148 | continuation | 131 | `needs-review` | well/water movement |
 | 149 | continuation | 132 | `needs-review` | water-body / rain imagery |
-| 150 | `நீர்க் குடும்பம்` continuation | 133 | `needs-review` | chair introduces `மழை`; item continues into scan 151 |
+| 150 | `நீர்க் குடும்பம்` continuation | 133 | `needs-review` | chair introduces `மழை`; continues to scan 151 |
+
+Source-access check beyond the completed batch: scan **151** exists, visibly prints page **134**, and continues `நீர்க் குடும்பம்`. Its page record is intentionally deferred to Batch 07.
 
 ## Printed-page evidence rule
 
@@ -75,19 +79,13 @@ Page records: `pages/0001.md` through `pages/0150.md`.
 
 Current cumulative status:
 
-- records created: **150**;
+- records created: **150/465**;
 - `partial`: **10**;
 - `needs-review`: **140**;
 - `verified`: **0**.
 
-The denominator is **not 150**. The user confirms the PDF has **more than 450 pages**; exact total remains pending direct full-file metadata access.
-
-## Renderer-access note
-
-The current Files page-image interface reports/exposes only pages 1–150. Scan 150 is therefore only the present **tool-access boundary**, not a source or item boundary.
-
 ## Exact next activity
 
-Continue **Phase 1 with scan 151 onward from this same PDF** when those page images become directly accessible.
+Phase 1 Batch 07: transcribe physical scans **151–175** into `pages/0151.md` through `pages/0175.md`, continuing directly from `நீர்க் குடும்பம்`.
 
-Planned next batch: **scans 151–175**, continuing directly from `நீர்க் குடும்பம்`. Do not begin Phase 2 and do not bridge the access gap from another witness.
+Do not begin Phase 2 in the same activity.
