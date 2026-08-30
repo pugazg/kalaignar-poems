@@ -539,7 +539,7 @@ I too savour them together with you!
 Kannagi's chastity,
 Madhavi's dignity,
 and, through the words
-of the great poet Karikkannar,
+of the great poet Karikkannanar,
 
 the attachment, affection,
 friendship and relations between states

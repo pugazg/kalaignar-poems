@@ -89,15 +89,15 @@ a shortened name drawn from the heroic phrase
 It was in that period, historians have determined,
 that victory flourished in our ancient Tamil land
 beneath the flags of the three great kingdoms,
-and in the Chola realm Thirumavalavan,
-the second Karikal Peruvalathan, was ruling.
+and in the Chola realm Tirumavalavan,
+the second Karikal Peruvalattan, was ruling.
 Tamil scholars place this Karikalan's period
-between 60 B.C. and 10 B.C.
+between 60 BCE and 10 BCE
 
 Records are also found saying
 that a Pandyan king sent his envoy
 to Augustus Caesar, who ruled in Rome,
-and that this was in 20 B.C.
+and that this was in 20 BCE
 
 If so, who was the Pandyan king
 who sent that envoy
@@ -106,7 +106,7 @@ to Augustus, king of Rome?
 The poet Karikkannanar of Kaveripoompattinam,
 who sang a *Puram* poem about Karikala Chola,
 joined a Pandyan king with him in that poem.
-That king's name was Peruvaluthi.
+That king's name was Peruvazhuthi.
 
 <!-- scan 84 -->
 
@@ -130,22 +130,22 @@ upon the hills of other lands!’
 In the fifty-eighth poem of *Purananuru*,
 Karikkannanar gives this beautiful thought
 and blesses together
-Chola Karikalan and Pandyan Peruvaluthi.
+Chola Karikalan and Pandyan Peruvazhuthi.
 
 From this we conclude
 that the Pandyan of Karikalan's period
-was Peruvaluthi.
-Karikalan's period was from 60 B.C. to 10 B.C.
+was Peruvazhuthi.
+Karikalan's period was from 60 BCE to 10 BCE
 
 It was in that same span
 that Augustus Caesar exercised authority in Rome —
-that is, from 39 B.C. to A.D. 14.
+that is, from 39 BCE to CE 14.
 
 By examining this chronology,
 we are led to the conclusion
 that the Pandyan who maintained friendship with Augustus Caesar
 and sent him an envoy
-could only have been Peruvaluthi.
+could only have been Peruvazhuthi.
 
 Literature bears witness
 that Tamil kings called Greeks and Romans ‘Yavanas’
@@ -579,7 +579,7 @@ it is needed for world history too!
 ‘The human who arose in Lemuria,
 the great continent embracing India,
 South-East Asia, Africa and Australia,
-was the first civilized human,’
+was the first civilised human,’
 
 so, in 1974,
 the Soviet scholar Kondra Rao is said to have written
@@ -598,7 +598,7 @@ south of Kanyakumari before the sea took it —
 Kumari Kandam —
 is more suitably regarded
 as the birthplace of humankind,
-or the birthplace of human language and civilization.
+or the birthplace of human language and civilisation.
 
 Therefore,
 against nature itself —
@@ -615,7 +615,7 @@ against that nature
 human beings have stood and lived
 for all these ages.
 
-The growth of human civilization
+The growth of human civilisation
 could not have taken shape evenly,
 at the same moment,
 in every place in the world.
@@ -637,7 +637,7 @@ and also:
 
 ‘At this frontier of time,
 when language was spoken in refined form
-and civilization was developing,
+and civilisation was developing,
 the ancestors of the Scythians
 and the ancestors of the Sumerians
 may have separated and departed
@@ -647,7 +647,7 @@ Thus Kumari Kandam is shown
 not merely as the place
 where human beings first appeared,
 but also as the cradle
-of human civilization.
+of human civilisation.
 
 It was on this basis
 that scholars such as Vincent Smith
@@ -699,7 +699,7 @@ from that day down to this?
 The rising Pandyan king Nediyon,
 who stood before all others;
 
-Chola Karikal Peruvalathan,
+Chola Karikal Peruvalattan,
 who strode as far as the summit of Mount Meru;
 
 and Cheran Senguttuvan,
@@ -765,14 +765,14 @@ and exercised influence beyond them!
 In England, France, Spain,
 and even in parts of America,
 with Elam, Sumer and the Egyptians,
-our Dravidians had civilizational contact —
+our Dravidians had civilisational contact —
 who has ever denied it and prevailed?
 
 Just as here we gladly praise iron
 as the ‘black diamond’,
 so, among the people who lived in Mexico,
-they praise Maya civilization
-as Dravidian civilization,
+they praise Maya civilisation
+as Dravidian civilisation,
 and say that their own firm blackness
 is the colour in which beauty shines.
 
@@ -782,17 +782,17 @@ is said to mean
 
 <!-- scan 98 -->
 
-Writing and civilization,
+Writing and civilisation,
 the Egyptians learned,
 were gifts bestowed
 by the Tamils of Kumari Kandam.
 
-That Mesopotamian civilization rose to greatness,
+That Mesopotamian civilisation rose to greatness,
 that the people called Elamites rose in stature —
 learned and impartial researchers of history,
 men of good knowledge without deceit,
 say the cause was the great fragrant rain
-of civilization that Kumari Kandam poured forth
+of civilisation that Kumari Kandam poured forth
 before that lost continent was destroyed.
 
 ‘Across the Mediterranean,
@@ -800,14 +800,14 @@ Kumari Kandam,
 the Indus region,
 Egypt,
 Sumeria — everywhere it spread;
-it was Tamil civilization,’
+it was Tamil civilisation,’
 
 says the worthy Ramachandra Dikshitar,
 offering what he presents as fitting evidence
 in his book *The Origin and Spread of the Tamils*.
 
 Even when clear evidence exists
-that the civilization and culture
+that the civilisation and culture
 of the Dravidian Tamil people
 had spread in every direction,
 and that their capacities
@@ -848,9 +848,9 @@ Checks:
 - source scans represented: **17/17 — scans 82–98**;
 - source order: **PASS**;
 - omissions / duplications detected in batch: **0 / 0**;
-- Item 16 Augustus/Peruvaluthi chronology, Yavana literary citations, Korkai/Muziris/Puhar trade movement, Arikamedu/coin argument and final world-history fruit metaphor retained: **PASS**;
+- Item 16 Augustus/Peruvazhuthi chronology, Yavana literary citations, Korkai/Muziris/Puhar trade movement, Arikamedu/coin argument and final world-history fruit metaphor retained: **PASS**;
 - Item 17 darkness/explosion/basket imagery, repeated rhetoric, egg–hen/evolution passage, Kumari Kandam argument and named-source quotations retained: **PASS**;
-- Item 18 Bharathi quotations, civilizational-contact claims, named-source claims, sandalwood remainder metaphor and final Casket-of-Time close retained: **PASS**;
+- Item 18 Bharathi quotations, civilisational-contact claims, named-source claims, sandalwood remainder metaphor and final Casket-of-Time close retained: **PASS**;
 - Item 18 canonical-title/contents-title distinction preserved: **PASS**;
 - source claims corrected or replaced through outside knowledge: **NO**;
 - Tamil canonical text altered for English: **NO**;

@@ -860,7 +860,7 @@ Tamil's fame is fragrant!
 A lovely moon appears
 among the clouds —
 in it appears
-the treasure of a Muthamil epic!
+the treasure of a Muttamil epic!
 
 Even King Ashoka,
 who ruled the great land

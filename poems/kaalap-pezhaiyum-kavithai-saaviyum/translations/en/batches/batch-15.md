@@ -342,7 +342,7 @@ on reading the sweet letter;
 
 yet he did not grow arrogant.
 
-## Item 41 — Let Us Protect It: the Pallava Capital!
+## Item 41 — Let Us Protect It: The Pallava Capital!
 
 Source metadata:
 

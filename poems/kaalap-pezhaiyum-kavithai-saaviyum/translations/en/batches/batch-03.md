@@ -158,7 +158,7 @@ it seems a rapid-action guard was set
 for the kingdom of the tongue!
 
 For the tongue that opened the road
-to the heights of civilization to begin speaking,
+to the heights of civilisation to begin speaking,
 the advance that arose forty thousand years ago
 was, they say, the cause.
 
@@ -188,7 +188,7 @@ Rather than the people of this age,
 who have grown accustomed to a life of enmity,
 
 the people of that age,
-who moved uncivilized through cave-life,
+who moved uncivilised through cave-life,
 seem in many ways better —
 
 so that such a thought

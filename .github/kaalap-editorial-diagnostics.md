@@ -1,19 +1,18 @@
 # Temporary full-work English editorial diagnostics
 
 - assembled file: `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md`
-- bytes: **321115**
+- bytes: **321102**
 - lines: **16308**
-- SHA-256: `ecce36a5a394964a24f421c0865cfcc5625fe52cd2ee72753d65d2148756646e`
+- SHA-256: `902cbb83d3746e42947ed0639652623907a544b40fdabee748878e432f5ec87e`
 
 ## Structural and provenance checks
 
 - **PASS** — Reviewed batches parse to items 1–58 exactly once and in order — [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
 - **PASS** — Assembled collection contains items 1–58 exactly once and in order — [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
 - **PASS** — Every assembled title/body is byte-for-byte identical to its reviewed batch title/body — mismatched items: []
-- **PASS** — Scan provenance markers cover 10–299 exactly once and in order — count=290 first=[10, 11, 12] last=[297, 298, 299]
+- **PASS** — Scan provenance markers cover 10–299 exactly once and in order — count=290
 - **PASS** — Batch metadata/review prose does not leak into reader-facing collection — leaked markers: []
-- **PASS** — Collection closes exactly at verified Item 58 boundary —  labour
-all our days —
+- **PASS** — Collection closes exactly at verified Item 58 boundary —  —
 
 and let us heap up victory
 until every enemy sword
@@ -23,28 +22,55 @@ has its point blunted!
 - **PASS** — First Part Complete occurs exactly once — count=1
 - **PASS** — All 14 title-witness discrepancy items retain canonical/contents/status metadata in reviewed batches — missing: []
 - **PASS** — Item 37 stable identity / printed-number anomaly remains documented
+- **PASS** — Targeted editorial inconsistency forms are absent from reader-facing collection — {}
+
+## Applied editorial consistency corrections
+
+- `## Item 41 — Let Us Protect It: the Pallava Capital! -> ## Item 41 — Let Us Protect It: The Pallava Capital!`: **1** replacement(s) in reviewed batch records
+- `A.D. -> CE`: **1** replacement(s) in reviewed batch records
+- `B.C. -> BCE`: **16** replacement(s) in reviewed batch records
+- `Karikkannar -> Karikkannanar`: **1** replacement(s) in reviewed batch records
+- `Muthamil -> Muttamil`: **1** replacement(s) in reviewed batch records
+- `Muthamizh -> Muttamil`: **1** replacement(s) in reviewed batch records
+- `Ottakoothar -> Ottakkoothar`: **1** replacement(s) in reviewed batch records
+- `Peruvalathan -> Peruvalattan`: **2** replacement(s) in reviewed batch records
+- `Peruvaluthi -> Peruvazhuthi`: **5** replacement(s) in reviewed batch records
+- `Thirumavalavan -> Tirumavalavan`: **1** replacement(s) in reviewed batch records
+- `civilization -> civilisation`: **34** replacement(s) in reviewed batch records
+- `civilizational -> civilisational`: **4** replacement(s) in reviewed batch records
+- `civilized -> civilised`: **2** replacement(s) in reviewed batch records
+- `uncivilized -> uncivilised`: **5** replacement(s) in reviewed batch records
+
+## Canonical English-layer convention inventory
+
+- `civilisation`: **60**
+- `civilisational`: **6**
+- `civilised`: **7**
+- `Muttamil`: **4**
+- `Tirumavalavan`: **4**
+- `Peruvalattan`: **3**
+- `Peruvazhuthi`: **14**
+- `Karikkannanar`: **3**
+- `Ottakkoothar`: **2**
+- `BCE`: **28**
+- `CE`: **25**
+
+## Deliberately retained source-controlled variants
+
+- `Kapatapuram`: **1**
+- `Kavatapuram`: **4**
+- `Mudat Tirumaran`: **1**
+- `Mudathirumaran`: **12**
+
+These pairs are not treated as editorial errors because the final-cleared Tamil itself carries distinct source forms/segmentations in the relevant items; the English keeps that source traceability rather than silently normalising the Tamil evidence.
 
 ## Source-visible structure inventory
 
 - scan comments: **290**
 - `**Note:**` blocks: **4**
-- selected parenthetical source-note openings: **2**
 - separator `★`: **2**
 - separator `★     ★     ★`: **6**
 - separator `★ ★ ★`: **53**
-
-## Recurring-term variant inventory
-
-- Muttamil family: `Muttamil`=2; `Muthamil`=1; `Muthamizh`=1; `Muttamizh`=0
-- Kaveri/Cauvery: `Kaveri`=23; `Cauvery`=0
-- Tolkappiyam variants: `Tolkappiyam`=8; `Tolkāppiyam`=0; `Tholkappiyam`=0
-- Silappathikaram variants: `Silappathikaram`=12; `Silappadikaram`=0; `Silapathikaram`=0
-- Purananuru variants: `Purananuru`=11; `Purananūru`=0
-- Akananuru variants: `Akananuru`=8; `Akananūru`=0
-- Nedunalvadai variants: `Nedunalvadai`=9; `Nedunalvaadai`=0
-- Maduraikanchi variants: `Maduraikanchi`=2; `Madurai Kanchi`=0
-- vadakkiruthal variants: `vadakkiruthal`=5; `vadakiruthal`=0
-- kudavolai variants: `kudavolai`=2; `kudavolai`=2
 
 ## Reader-facing item headings
 
@@ -88,7 +114,7 @@ has its point blunted!
 38. He Who Lives in the Hearts of the Grateful!
 39. Not One Who Came on His Own; One Brought by the Commander!
 40. The Tenderness and Compassion Shown by the Soil of Kanchi
-41. Let Us Protect It: the Pallava Capital!
+41. Let Us Protect It: The Pallava Capital!
 42. The Charters Proclaim It!
 43. The Tamil Tradition of the Dravidian Race!
 44. The Iron Pillar and the Wings of Flies!

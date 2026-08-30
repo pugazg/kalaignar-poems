@@ -43,7 +43,7 @@ with those words he closed his eyes.
 If one is to tell that story —
 
 even before then,
-that region had stood as a dwelling-place of uncivilized life;
+that region had stood as a dwelling-place of uncivilised life;
 without the vigour and hunting power
 that animals possessed,
 
@@ -473,7 +473,7 @@ in Sankrityayan's stories
 with historical backgrounds,
 I fold my hands and invite you:
 come see the portrait called “Purudhanan,”
-painted against the screen of the year 2000 B.C.
+painted against the screen of the year 2000 BCE
 
 Show me your kindness;
 after seeing it,
@@ -564,12 +564,12 @@ anywhere in our Aryan land.”
 
 What you are seeing is the casket of time
 from roughly four thousand years ago —
-from 2000 B.C.!
+from 2000 BCE!
 Rahul's *From the Volga to the Ganga*
 photographs, as it were, the Aryans of that day
 regarding the philosophy of the linga-form
 worshipped by the Asuras
-as the summit of uncivilized life,
+as the summit of uncivilised life,
 as utter foolishness!
 
 <!-- scan 47 -->
@@ -626,7 +626,7 @@ that the linga-form belonged to the Asuras,
 that the Aryans did not accept it —
 
 yet those who four thousand years ago
-said it was uncivilized,
+said it was uncivilised,
 why do they today, across the whole country,
 sing namavali to that very form?
 
@@ -713,7 +713,7 @@ Certain! Certain! Certain!
 - From this batch onward, the iteration cadence is **three complete items**. Batches 01–03 remain historically intact as two-item reviewed batches.
 - Item 7 `காவூர்` is source-sensitive and was not silently normalized. It is retained as **Kaavur** in the English line and should be revisited only through source-backed lexical review if a later editorial pass requires it.
 - `பகாசூரப் பயந்தாங்குளி` is rendered **Bakasura-sized coward**, preserving the comic exaggeration and mythic scale rather than reducing it to plain “coward.”
-- The crocodile episode retains the source's escalation from domestic feast to discovery, invasion, cannibal violence and the closing civilization/destruction contrast.
+- The crocodile episode retains the source's escalation from domestic feast to discovery, invasion, cannibal violence and the closing civilisation/destruction contrast.
 - Item 8 retains the Iyarpakai Nayanar comparison and the Aryan/Dravidian historical framing as claims made by the source; translation does not fact-check or soften them.
 - `ஆதீனம்` is retained as **Aadheenam** because it is a culturally specific institutional term in the landholding passage.
 - The working peasant imagery — sweat as pearls, ribcage breaking, stomach burning — is preserved rather than replaced by abstract economic description.
@@ -733,7 +733,7 @@ Checks:
 - source order: **PASS**;
 - omissions / duplications detected in batch: **0 / 0**;
 - title witnesses for all three items match and remain unnormalized: **PASS**;
-- Item 7 narrative sequence, crocodile revelation, raid/cannibal imagery and civilization/destruction ending retained: **PASS**;
+- Item 7 narrative sequence, crocodile revelation, raid/cannibal imagery and civilisation/destruction ending retained: **PASS**;
 - Item 8 Sankrityayan/Iyarpakai/Nehru references, Aryan–Dravidian framing, class/land rhetoric and history-as-sword-and-shield argument retained: **PASS**;
 - Item 9 book/page citation, extended dialogue, linga/Avudaiyar argument, named deities, north/south contrast and triple closing retained: **PASS**;
 - source claims corrected or replaced through outside knowledge: **NO**;

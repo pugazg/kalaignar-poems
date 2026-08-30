@@ -28,11 +28,11 @@ Source metadata:
 
 Egypt, Maya, Mesopotamia —
 pointed to as the beginnings
-of ancient civilization —
+of ancient civilisation —
 
 are pushed behind,
 for at the very first glance
-Indus Valley civilization
+Indus Valley civilisation
 
 winks and captivates;
 and so, asking where its embryonic state lay,
@@ -119,7 +119,7 @@ drink deep and dance” —
 only to droop in disappointment afterwards!
 
 There is much evidence
-that the threshold where civilization first learned to walk
+that the threshold where civilisation first learned to walk
 was our Kumari Kandam!
 
 That is why Anna, explaining Vincent Smith's statement
@@ -215,8 +215,8 @@ pours down a rain of words — be drenched!
 
 <!-- scan 21 -->
 
-Let us reckon the time as 6000 B.C.
-and consider the civilizational knowledge
+Let us reckon the time as 6000 BCE
+and consider the civilisational knowledge
 the world possessed then!
 
 In the first story set against the history of the “Volga,”
@@ -312,7 +312,7 @@ A savage scene indeed;
 yet even in this age that speaks
 of a sacred grammar for chastity,
 
-there are those who practise Stone Age civilization;
+there are those who practise Stone Age civilisation;
 they accomplish their business in hiding,
 like the molars at the back of the mouth.
 

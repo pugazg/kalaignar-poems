@@ -122,22 +122,22 @@ Source metadata:
 The age of this world in which we live,
 they say, is five hundred crore years.
 
-On the basis of the growth of civilization,
+On the basis of the growth of civilisation,
 and in the stage-by-stage reckoning of living species upon the earth,
 
 from five lakh years ago
 down to roughly ten thousand years,
 
 our old-tiger forebears divided and viewed it
-as the B.C. age;
+as the BCE age;
 
 they called precisely this the Lemurian age...
-The time that remained became the glorious age of civilization
+The time that remained became the glorious age of civilisation
 
-when, with the civilization brought forth by Kumari Kandam,
+when, with the civilisation brought forth by Kumari Kandam,
 people of the Indus expanse
 
-had risen to a distinguished civilization.
+had risen to a distinguished civilisation.
 Since there is no opposing view — if this is taken as
 
 the ten-and-a-half-touch view,
@@ -161,9 +161,9 @@ The age that appeared
 five lakh years ago was the first Stone Age!
 
 As far back as fifty thousand years ago,
-the beautiful civilization of Kumari Kandam —
+the beautiful civilisation of Kumari Kandam —
 
-yes, that Kumari Kandam civilization —
+yes, that Kumari Kandam civilisation —
 budded there; and yet,
 
 until five thousand years ago,

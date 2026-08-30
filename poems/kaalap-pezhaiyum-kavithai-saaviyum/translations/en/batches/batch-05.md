@@ -50,7 +50,7 @@ displayed many skills,
 crossed the rolling seas,
 and gathered wealth.
 
-For the growth of world civilization,
+For the growth of world civilisation,
 and for contact among countries bound in relationship,
 the great endeavour
 of sending vessels over the ocean —
@@ -70,7 +70,7 @@ from all four directions;
 
 but not for that alone —
 for the worthy exchange of goods and values
-that we practised as civilization,
+that we practised as civilisation,
 there was good use too
 in those world-renowned voyages of commerce
 carried on through sea-going *naavaay* vessels!
@@ -82,13 +82,13 @@ and likewise the peoples of the Maya,
 and the people of the great lands living there —
 
 long before the age of the white man,
-had they not gained civilization
+had they not gained civilisation
 and lived a good life,
 with affection in their hearts toward us?
 
-And is not Dravidian civilization
+And is not Dravidian civilisation
 the mother from which
-Maya–Mexican civilization arose?
+Maya–Mexican civilisation arose?
 
 Accomplished researchers of history
 state this firmly;
@@ -148,12 +148,12 @@ when we learn that history itself is there,
 can there be any boundary to our joy?
 
 Because a papyrus scroll
-is evidence of the ancient civilization of Egypt,
+is evidence of the ancient civilisation of Egypt,
 history, they say, explains
 that the Tamils had commercial relations
-with Sumeria from before 4000 B.C.,
-with Egypt from before 3000 B.C.,
-and with China from before 1200 B.C.!
+with Sumeria from before 4000 BCE,
+with Egypt from before 3000 BCE,
+and with China from before 1200 BCE!
 
 They also say that the word `naavaaygal`
 itself later changed into `naaygal` —
@@ -167,7 +167,7 @@ and even beyond them —
 
 and that this was as far back
 as five thousand years ago —
-is that not the pride of our civilization,
+is that not the pride of our civilisation,
 known even then to many lands?
 
 Papyrus = a written sheet made from paper
@@ -333,7 +333,7 @@ and the vast lands belonging by lineage
 to the Naga people,
 which vanished as victims of nature's fury —
 all these had been dwelling-places
-of civilized culture.
+of civilised culture.
 
 <!-- scan 57 -->
 
@@ -345,11 +345,11 @@ Thirunageswaram,
 and Nagavur.
 
 When the dating is fixed
-as earlier than 4000 B.C.,
+as earlier than 4000 BCE,
 and when we add to that
 the two thousand years of the Common Era,
 
-we see a civilization from six thousand years ago —
+we see a civilisation from six thousand years ago —
 contact with foreign lands,
 relations of sea trade,
 love that crossed the sea
@@ -422,7 +422,7 @@ according to Aryan procedure
 by those same men of affairs!
 
 Those who mocked that linga-form
-as uncivilized —
+as uncivilised —
 
 <!-- scan 59 -->
 

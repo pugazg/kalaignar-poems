@@ -92,22 +92,22 @@ to call the world private property is wrong!”
 The age of this world in which we live,
 they say, is five hundred crore years.
 
-On the basis of the growth of civilization,
+On the basis of the growth of civilisation,
 and in the stage-by-stage reckoning of living species upon the earth,
 
 from five lakh years ago
 down to roughly ten thousand years,
 
 our old-tiger forebears divided and viewed it
-as the B.C. age;
+as the BCE age;
 
 they called precisely this the Lemurian age...
-The time that remained became the glorious age of civilization
+The time that remained became the glorious age of civilisation
 
-when, with the civilization brought forth by Kumari Kandam,
+when, with the civilisation brought forth by Kumari Kandam,
 people of the Indus expanse
 
-had risen to a distinguished civilization.
+had risen to a distinguished civilisation.
 Since there is no opposing view — if this is taken as
 
 the ten-and-a-half-touch view,
@@ -131,9 +131,9 @@ The age that appeared
 five lakh years ago was the first Stone Age!
 
 As far back as fifty thousand years ago,
-the beautiful civilization of Kumari Kandam —
+the beautiful civilisation of Kumari Kandam —
 
-yes, that Kumari Kandam civilization —
+yes, that Kumari Kandam civilisation —
 budded there; and yet,
 
 until five thousand years ago,
@@ -223,11 +223,11 @@ and “evolutionary development”?
 
 Egypt, Maya, Mesopotamia —
 pointed to as the beginnings
-of ancient civilization —
+of ancient civilisation —
 
 are pushed behind,
 for at the very first glance
-Indus Valley civilization
+Indus Valley civilisation
 
 winks and captivates;
 and so, asking where its embryonic state lay,
@@ -314,7 +314,7 @@ drink deep and dance” —
 only to droop in disappointment afterwards!
 
 There is much evidence
-that the threshold where civilization first learned to walk
+that the threshold where civilisation first learned to walk
 was our Kumari Kandam!
 
 That is why Anna, explaining Vincent Smith's statement
@@ -398,8 +398,8 @@ pours down a rain of words — be drenched!
 
 <!-- scan 21 -->
 
-Let us reckon the time as 6000 B.C.
-and consider the civilizational knowledge
+Let us reckon the time as 6000 BCE
+and consider the civilisational knowledge
 the world possessed then!
 
 In the first story set against the history of the “Volga,”
@@ -495,7 +495,7 @@ A savage scene indeed;
 yet even in this age that speaks
 of a sacred grammar for chastity,
 
-there are those who practise Stone Age civilization;
+there are those who practise Stone Age civilisation;
 they accomplish their business in hiding,
 like the molars at the back of the mouth.
 
@@ -713,7 +713,7 @@ it seems a rapid-action guard was set
 for the kingdom of the tongue!
 
 For the tongue that opened the road
-to the heights of civilization to begin speaking,
+to the heights of civilisation to begin speaking,
 the advance that arose forty thousand years ago
 was, they say, the cause.
 
@@ -743,7 +743,7 @@ Rather than the people of this age,
 who have grown accustomed to a life of enmity,
 
 the people of that age,
-who moved uncivilized through cave-life,
+who moved uncivilised through cave-life,
 seem in many ways better —
 
 so that such a thought
@@ -1081,7 +1081,7 @@ with those words he closed his eyes.
 If one is to tell that story —
 
 even before then,
-that region had stood as a dwelling-place of uncivilized life;
+that region had stood as a dwelling-place of uncivilised life;
 without the vigour and hunting power
 that animals possessed,
 
@@ -1487,7 +1487,7 @@ in Sankrityayan's stories
 with historical backgrounds,
 I fold my hands and invite you:
 come see the portrait called “Purudhanan,”
-painted against the screen of the year 2000 B.C.
+painted against the screen of the year 2000 BCE
 
 Show me your kindness;
 after seeing it,
@@ -1578,12 +1578,12 @@ anywhere in our Aryan land.”
 
 What you are seeing is the casket of time
 from roughly four thousand years ago —
-from 2000 B.C.!
+from 2000 BCE!
 Rahul's *From the Volga to the Ganga*
 photographs, as it were, the Aryans of that day
 regarding the philosophy of the linga-form
 worshipped by the Asuras
-as the summit of uncivilized life,
+as the summit of uncivilised life,
 as utter foolishness!
 
 <!-- scan 47 -->
@@ -1640,7 +1640,7 @@ that the linga-form belonged to the Asuras,
 that the Aryans did not accept it —
 
 yet those who four thousand years ago
-said it was uncivilized,
+said it was uncivilised,
 why do they today, across the whole country,
 sing namavali to that very form?
 
@@ -1750,7 +1750,7 @@ displayed many skills,
 crossed the rolling seas,
 and gathered wealth.
 
-For the growth of world civilization,
+For the growth of world civilisation,
 and for contact among countries bound in relationship,
 the great endeavour
 of sending vessels over the ocean —
@@ -1770,7 +1770,7 @@ from all four directions;
 
 but not for that alone —
 for the worthy exchange of goods and values
-that we practised as civilization,
+that we practised as civilisation,
 there was good use too
 in those world-renowned voyages of commerce
 carried on through sea-going *naavaay* vessels!
@@ -1782,13 +1782,13 @@ and likewise the peoples of the Maya,
 and the people of the great lands living there —
 
 long before the age of the white man,
-had they not gained civilization
+had they not gained civilisation
 and lived a good life,
 with affection in their hearts toward us?
 
-And is not Dravidian civilization
+And is not Dravidian civilisation
 the mother from which
-Maya–Mexican civilization arose?
+Maya–Mexican civilisation arose?
 
 Accomplished researchers of history
 state this firmly;
@@ -1848,12 +1848,12 @@ when we learn that history itself is there,
 can there be any boundary to our joy?
 
 Because a papyrus scroll
-is evidence of the ancient civilization of Egypt,
+is evidence of the ancient civilisation of Egypt,
 history, they say, explains
 that the Tamils had commercial relations
-with Sumeria from before 4000 B.C.,
-with Egypt from before 3000 B.C.,
-and with China from before 1200 B.C.!
+with Sumeria from before 4000 BCE,
+with Egypt from before 3000 BCE,
+and with China from before 1200 BCE!
 
 They also say that the word `naavaaygal`
 itself later changed into `naaygal` —
@@ -1867,7 +1867,7 @@ and even beyond them —
 
 and that this was as far back
 as five thousand years ago —
-is that not the pride of our civilization,
+is that not the pride of our civilisation,
 known even then to many lands?
 
 Papyrus = a written sheet made from paper
@@ -2021,7 +2021,7 @@ and the vast lands belonging by lineage
 to the Naga people,
 which vanished as victims of nature's fury —
 all these had been dwelling-places
-of civilized culture.
+of civilised culture.
 
 <!-- scan 57 -->
 
@@ -2033,11 +2033,11 @@ Thirunageswaram,
 and Nagavur.
 
 When the dating is fixed
-as earlier than 4000 B.C.,
+as earlier than 4000 BCE,
 and when we add to that
 the two thousand years of the Common Era,
 
-we see a civilization from six thousand years ago —
+we see a civilisation from six thousand years ago —
 contact with foreign lands,
 relations of sea trade,
 love that crossed the sea
@@ -2098,7 +2098,7 @@ according to Aryan procedure
 by those same men of affairs!
 
 Those who mocked that linga-form
-as uncivilized —
+as uncivilised —
 
 <!-- scan 59 -->
 
@@ -2359,7 +2359,7 @@ and rejoiced!
 A Stone Age, a Golden Age —
 ages have been classified so;
 and within those ages history has been drawn,
-showing how civilizational growth,
+showing how civilisational growth,
 culture and custom differed
 from country to country,
 from people to people.
@@ -2471,7 +2471,7 @@ and extend the reach of his rule,
 tried every political stratagem required for it.
 
 The period in which he gained fame
-is placed between 163 B.C. and 153 B.C. —
+is placed between 163 BCE and 153 BCE —
 that is, 2,158 years before the time of this writing;
 yet he was a king of kings
 well practised in setting up inscriptions
@@ -3065,8 +3065,8 @@ I tell you that this was stated
 by P. T. Srinivasa Iyengar
 in his book *History of the Tamils*.
 
-“Tamil civilization is far more ancient
-than Aryan civilization,”
+“Tamil civilisation is far more ancient
+than Aryan civilisation,”
 says Sesha Iyengar
 in *Dravidian India*.
 
@@ -3162,15 +3162,15 @@ a shortened name drawn from the heroic phrase
 It was in that period, historians have determined,
 that victory flourished in our ancient Tamil land
 beneath the flags of the three great kingdoms,
-and in the Chola realm Thirumavalavan,
-the second Karikal Peruvalathan, was ruling.
+and in the Chola realm Tirumavalavan,
+the second Karikal Peruvalattan, was ruling.
 Tamil scholars place this Karikalan's period
-between 60 B.C. and 10 B.C.
+between 60 BCE and 10 BCE
 
 Records are also found saying
 that a Pandyan king sent his envoy
 to Augustus Caesar, who ruled in Rome,
-and that this was in 20 B.C.
+and that this was in 20 BCE
 
 If so, who was the Pandyan king
 who sent that envoy
@@ -3179,7 +3179,7 @@ to Augustus, king of Rome?
 The poet Karikkannanar of Kaveripoompattinam,
 who sang a *Puram* poem about Karikala Chola,
 joined a Pandyan king with him in that poem.
-That king's name was Peruvaluthi.
+That king's name was Peruvazhuthi.
 
 <!-- scan 84 -->
 
@@ -3203,22 +3203,22 @@ upon the hills of other lands!’
 In the fifty-eighth poem of *Purananuru*,
 Karikkannanar gives this beautiful thought
 and blesses together
-Chola Karikalan and Pandyan Peruvaluthi.
+Chola Karikalan and Pandyan Peruvazhuthi.
 
 From this we conclude
 that the Pandyan of Karikalan's period
-was Peruvaluthi.
-Karikalan's period was from 60 B.C. to 10 B.C.
+was Peruvazhuthi.
+Karikalan's period was from 60 BCE to 10 BCE
 
 It was in that same span
 that Augustus Caesar exercised authority in Rome —
-that is, from 39 B.C. to A.D. 14.
+that is, from 39 BCE to CE 14.
 
 By examining this chronology,
 we are led to the conclusion
 that the Pandyan who maintained friendship with Augustus Caesar
 and sent him an envoy
-could only have been Peruvaluthi.
+could only have been Peruvazhuthi.
 
 Literature bears witness
 that Tamil kings called Greeks and Romans ‘Yavanas’
@@ -3640,7 +3640,7 @@ it is needed for world history too!
 ‘The human who arose in Lemuria,
 the great continent embracing India,
 South-East Asia, Africa and Australia,
-was the first civilized human,’
+was the first civilised human,’
 
 so, in 1974,
 the Soviet scholar Kondra Rao is said to have written
@@ -3659,7 +3659,7 @@ south of Kanyakumari before the sea took it —
 Kumari Kandam —
 is more suitably regarded
 as the birthplace of humankind,
-or the birthplace of human language and civilization.
+or the birthplace of human language and civilisation.
 
 Therefore,
 against nature itself —
@@ -3676,7 +3676,7 @@ against that nature
 human beings have stood and lived
 for all these ages.
 
-The growth of human civilization
+The growth of human civilisation
 could not have taken shape evenly,
 at the same moment,
 in every place in the world.
@@ -3698,7 +3698,7 @@ and also:
 
 ‘At this frontier of time,
 when language was spoken in refined form
-and civilization was developing,
+and civilisation was developing,
 the ancestors of the Scythians
 and the ancestors of the Sumerians
 may have separated and departed
@@ -3708,7 +3708,7 @@ Thus Kumari Kandam is shown
 not merely as the place
 where human beings first appeared,
 but also as the cradle
-of human civilization.
+of human civilisation.
 
 It was on this basis
 that scholars such as Vincent Smith
@@ -3748,7 +3748,7 @@ from that day down to this?
 The rising Pandyan king Nediyon,
 who stood before all others;
 
-Chola Karikal Peruvalathan,
+Chola Karikal Peruvalattan,
 who strode as far as the summit of Mount Meru;
 
 and Cheran Senguttuvan,
@@ -3814,14 +3814,14 @@ and exercised influence beyond them!
 In England, France, Spain,
 and even in parts of America,
 with Elam, Sumer and the Egyptians,
-our Dravidians had civilizational contact —
+our Dravidians had civilisational contact —
 who has ever denied it and prevailed?
 
 Just as here we gladly praise iron
 as the ‘black diamond’,
 so, among the people who lived in Mexico,
-they praise Maya civilization
-as Dravidian civilization,
+they praise Maya civilisation
+as Dravidian civilisation,
 and say that their own firm blackness
 is the colour in which beauty shines.
 
@@ -3831,17 +3831,17 @@ is said to mean
 
 <!-- scan 98 -->
 
-Writing and civilization,
+Writing and civilisation,
 the Egyptians learned,
 were gifts bestowed
 by the Tamils of Kumari Kandam.
 
-That Mesopotamian civilization rose to greatness,
+That Mesopotamian civilisation rose to greatness,
 that the people called Elamites rose in stature —
 learned and impartial researchers of history,
 men of good knowledge without deceit,
 say the cause was the great fragrant rain
-of civilization that Kumari Kandam poured forth
+of civilisation that Kumari Kandam poured forth
 before that lost continent was destroyed.
 
 ‘Across the Mediterranean,
@@ -3849,14 +3849,14 @@ Kumari Kandam,
 the Indus region,
 Egypt,
 Sumeria — everywhere it spread;
-it was Tamil civilization,’
+it was Tamil civilisation,’
 
 says the worthy Ramachandra Dikshitar,
 offering what he presents as fitting evidence
 in his book *The Origin and Spread of the Tamils*.
 
 Even when clear evidence exists
-that the civilization and culture
+that the civilisation and culture
 of the Dravidian Tamil people
 had spread in every direction,
 and that their capacities
@@ -4984,7 +4984,7 @@ I too savour them together with you!
 Kannagi's chastity,
 Madhavi's dignity,
 and, through the words
-of the great poet Karikkannar,
+of the great poet Karikkannanar,
 
 the attachment, affection,
 friendship and relations between states
@@ -8181,7 +8181,7 @@ Tamil's fame is fragrant!
 A lovely moon appears
 among the clouds —
 in it appears
-the treasure of a Muthamil epic!
+the treasure of a Muttamil epic!
 
 Even King Ashoka,
 who ruled the great land
@@ -9770,7 +9770,7 @@ on reading the sweet letter;
 
 yet he did not grow arrogant.
 
-## Item 41 — Let Us Protect It: the Pallava Capital!
+## Item 41 — Let Us Protect It: The Pallava Capital!
 
 <!-- scan 200 -->
 
@@ -13261,7 +13261,7 @@ At the summit of the tiger's life
 
 How could one
 who wrote poems like these
-forget the Muthamizh Pandya,
+forget the Muttamil Pandya,
 one among the Three Crowned Kings?
 
 ★ ★ ★
@@ -13572,7 +13572,7 @@ and the Pahruli river,
 
 protecting it firmly
 like the double bolt
-on an Ottakoothar song;
+on an Ottakkoothar song;
 
 from the Santha Islands
 in the southeast,

@@ -29,7 +29,7 @@ Source metadata:
 A Stone Age, a Golden Age —
 ages have been classified so;
 and within those ages history has been drawn,
-showing how civilizational growth,
+showing how civilisational growth,
 culture and custom differed
 from country to country,
 from people to people.
@@ -141,7 +141,7 @@ and extend the reach of his rule,
 tried every political stratagem required for it.
 
 The period in which he gained fame
-is placed between 163 B.C. and 153 B.C. —
+is placed between 163 BCE and 153 BCE —
 that is, 2,158 years before the time of this writing;
 yet he was a king of kings
 well practised in setting up inscriptions
@@ -759,8 +759,8 @@ I tell you that this was stated
 by P. T. Srinivasa Iyengar
 in his book *History of the Tamils*.
 
-“Tamil civilization is far more ancient
-than Aryan civilization,”
+“Tamil civilisation is far more ancient
+than Aryan civilisation,”
 says Sesha Iyengar
 in *Dravidian India*.
 

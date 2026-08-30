@@ -101,7 +101,7 @@ At the summit of the tiger's life
 
 How could one
 who wrote poems like these
-forget the Muthamizh Pandya,
+forget the Muttamil Pandya,
 one among the Three Crowned Kings?
 
 ★ ★ ★
@@ -424,7 +424,7 @@ and the Pahruli river,
 
 protecting it firmly
 like the double bolt
-on an Ottakoothar song;
+on an Ottakkoothar song;
 
 from the Santha Islands
 in the southeast,
