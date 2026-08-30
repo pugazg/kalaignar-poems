@@ -37,9 +37,9 @@ Tamil title: **கலைஞரின் கவிதைகள்**
 Author: **கலைஞர் மு. கருணாநிதி**  
 Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
-## Durable intake state
+## Durable Phase-1 state
 
-**SOURCE INTAKE REGISTERED — PHASE 1 TRANSCRIPTION NEXT.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — 50/150 AVAILABLE SCANS RECORDED.**
 
 - available physical scans: **150**;
 - file size: **486,369,088 bytes**;
@@ -47,10 +47,35 @@ Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்
 - source type: image-based scanned PDF with no usable parsed text layer;
 - publisher visible: **பாரதி பதிப்பகம்**;
 - English imprint: **fourth edition, March 1995**;
-- Phase 1 page records created: **0/150**;
+- Phase 1 page records created: **50/150**;
+- cumulative status: **8 `partial`, 42 `needs-review`, 0 `verified`**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - translation: **blocked until Tamil final clearance**.
+
+Completed Phase-1 batches:
+
+- Batch 01 — scans **1–25**;
+- Batch 02 — scans **26–50**.
+
+Current work boundaries:
+
+- scans 1–17 — cover/title/imprint/front matter/contents;
+- scans 18–31 — `இதயத்தைத் தந்திடு அண்ணா`, closed on scan 31;
+- scans 32–33 — `இனமான எந்தல்கள்` divider/verso;
+- scans 34–42 — `தென்னவன் காதை`, closed on scan 42;
+- scans 43–50 — `இந்திரஜித்`, still continuing after scan 50.
+
+## Durable blur-control rule
+
+The user explicitly warned that this PDF contains blurred text. Therefore:
+
+- uncertain text must remain explicitly unresolved rather than guessed;
+- `⟦…⟧` in Phase-1 page files is an editorial uncertainty marker, not source punctuation;
+- do not fill blur from OCR, memory, grammar, metre, historical expectation or another edition;
+- do not copy the separate `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` transcriptions into this anthology witness;
+- the existing user-directed caste-slur exclusion applicable to `தென்னவன் காதை` must not be reintroduced through this anthology;
+- `needs-review` is expected and is not a failure: those pages wait for the independent Phase-2 visual/glyph pass.
 
 ## Critical source-completeness boundary
 
@@ -59,7 +84,7 @@ The supplied 150-scan PDF is **not the complete printed edition**.
 Direct source evidence:
 
 - physical scans **15–17** contain the printed contents;
-- those contents list entries beginning through at least printed page **444**;
+- those contents list entries through at least printed page **444**;
 - physical scan **150** visibly carries printed page **133** and still contains continuing body text.
 
 Therefore:
@@ -68,44 +93,25 @@ Therefore:
 - 150/150 must **never** be described as whole-book completion;
 - whole-book source completeness, Tamil final clearance and release remain blocked until continuation source is supplied and reconciled.
 
-## Intake navigation anchors
-
-- scans 1–14: cover/title/imprint and introductory matter;
-- scans 15–17: contents;
-- scans 18–19: divider / verso;
-- scan 20: `இதயத்தைத் தந்திடு அண்ணா` opening, visibly printed page 3;
-- scan 150: visibly printed page 133, source ends mid-collection.
-
-Do not infer invisible printed page numbers during Phase 1. Exhaustive scan ↔ printed-page reconciliation belongs to Phase 3.
-
-## Cross-witness safeguard
-
-The anthology includes works already represented elsewhere in the repository from different controlling sources, including at least:
-
-- `இதயத்தைத் தந்திடு அண்ணா!`;
-- `தென்னவன் காதை`.
-
-Do **not** copy their existing transcriptions into this anthology. Treat the 1995 anthology as an independent source witness and transcribe every line directly from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`.
-
 ## Exact next activity
 
-Begin **Phase 1 transcription batch 01 — physical scans 1–25**.
+Begin **Phase 1 transcription batch 03 — physical scans 51–75**.
 
 Create:
 
-`pages/0001.md` through `pages/0025.md`
+`pages/0051.md` through `pages/0075.md`
 
 Rules:
 
 - direct visual transcription only;
-- preserve spelling, punctuation, lineation, headings, quotation marks and unusual forms;
+- preserve spelling, punctuation, lineation, headings, quotation marks and unusual forms where legible;
 - distinguish later physical marks/labels from edition text;
 - record only visibly printed page numbers;
-- first-pass records should normally be `partial`, not `verified`;
-- include cover, blank/divider, contents and other non-poem pages as page records;
+- uncertain blurred spans remain explicit `⟦…⟧` markers;
+- do not use another source witness to complete them;
 - do not begin Phase 2 in the same activity.
 
-At batch completion update `audit.md` and `indexes/page-map.md` with the durable Phase-1 boundary and exact next batch.
+At batch completion update `audit.md`, `indexes/page-map.md`, and milestone status files if needed.
 
 Governing active-work records:
 
