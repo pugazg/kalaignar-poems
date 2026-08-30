@@ -30,18 +30,21 @@ Work directory: `poems/kalaignarin-kavithaigal/`
 Author: **கலைஞர் மு. கருணாநிதி**  
 Source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
+## Exact controlling-source identity
+
+- physical PDF pages: **465**;
+- file size: **486,369,088 bytes**;
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
+- edition: **fourth edition, March 1995**.
+
+The earlier `150-page PDF` interpretation was wrong. It arose from a page-rendering-window limit. Direct access to the exact mounted PDF now confirms all **465** physical pages, and scan 151 has also been directly rendered successfully.
+
 ## Durable Phase-1 state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–125 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–150 / 465 recorded.**
 
-- file size: **486,369,088 bytes**;
-- source PDF length: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
-- current ChatGPT Files page renderer exposes only scans **1–150**;
-- **important correction:** the old `150-page PDF / 150-scan tranche` interpretation was wrong; 150 is only the current renderer-access limit;
-- SHA-256: **PENDING exact-byte computation; do not guess**;
-- edition: **fourth edition, March 1995**;
-- Phase 1 records: **125**;
-- cumulative status: **10 `partial`, 115 `needs-review`, 0 `verified`**;
+- Phase 1 records: **150/465**;
+- cumulative status: **10 `partial`, 140 `needs-review`, 0 `verified`**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - translation: **blocked until Tamil final clearance**.
@@ -52,7 +55,8 @@ Completed batches:
 - Batch 02 — scans **26–50**;
 - Batch 03 — scans **51–75**;
 - Batch 04 — scans **76–100**;
-- Batch 05 — scans **101–125**.
+- Batch 05 — scans **101–125**;
+- Batch 06 — scans **126–150**.
 
 Current source boundaries:
 
@@ -64,14 +68,13 @@ Current source boundaries:
 - `விடுதலை வீரர்கள்` 72–79;
 - `ஐம்புலன்` 80–89;
 - `பிலவங்க ஆண்டு` 90–100;
-- `காதலா - வீரமா?` 101–115, closes on 115;
-- `அருமறையில் அறுவர்` opens on 116 and continues beyond 125.
+- `காதலா - வீரமா?` 101–115;
+- `அருமறையில் அறுவர்` 116–127;
+- `புதிய பாதை` 128–137;
+- `உடைமைகள் பத்து` 138–143;
+- `நீர்க் குடும்பம்` opens 144 and **continues beyond scan 150**.
 
-Title evidence newly clarified in Batch 05:
-
-- scan 101 clearly reads **`காதலா - வீரமா?`**;
-- scan 116 clearly reads **`அருமறையில் அறுவர்`**;
-- earlier blurred contents-page readings remain for Phase-2 reconciliation rather than silent rewriting.
+Scan 150 / printed page 133 ends after the chair introduces the `மழை` movement. Source-access checking confirms scan 151 / printed page 134 continues the same item.
 
 ## Durable blur-control rule
 
@@ -84,26 +87,15 @@ Title evidence newly clarified in Batch 05:
 
 The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and must not be reintroduced.
 
-## Source-access correction / blocker
-
-The full user-supplied PDF has **more than 450 pages**, but the current Files renderer exposes only through physical page 150. A page-151 image request did not yield a rendered page.
-
-Therefore:
-
-- scan 150 is **not** the end of the PDF;
-- Batch 06 may process scans 126–150 now;
-- after that, Phase 1 must continue with scan 151 onward from the same PDF as soon as tooling exposes the remainder;
-- do **not** begin Phase 2 merely because the present renderer reaches scan 150.
-
 ## Exact next activity
 
-Execute **Phase 1 Batch 06 — physical scans 126–150**.
+Execute **Phase 1 Batch 07 — physical scans 151–175**.
 
 Create:
 
-`pages/0126.md` through `pages/0150.md`
+`pages/0151.md` through `pages/0175.md`
 
-Continue directly from unfinished `அருமறையில் அறுவர்` at scan 125. Maintain the conservative blur policy. At batch completion, update `audit.md`, `indexes/page-map.md`, README/handover state, and record the tooling-access requirement for scan 151 onward.
+Continue directly from unfinished `நீர்க் குடும்பம்` at scan 150. Use the same controlling PDF and conservative blur policy. Do not begin Phase 2 in the same activity.
 
 ---
 
