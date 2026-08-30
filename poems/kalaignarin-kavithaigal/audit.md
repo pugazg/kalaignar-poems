@@ -2,166 +2,85 @@
 
 ## Current state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–04, scans 1–100 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–05, scans 1–125 recorded.**
 
-- controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
-- available physical scans: **150**;
+- controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - file size: **486,369,088 bytes**;
+- actual PDF extent: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
+- current ChatGPT Files renderer exposes pages **1–150** only; this renderer limit is not the source-file page count;
 - SHA-256: **pending exact-byte computation**;
-- Phase 1 page records: **100/150**;
-- cumulative Phase 1 status: **10 `partial`, 90 `needs-review`, 0 `verified`**;
-- Phase 2 verification: **not started**;
+- Phase 1 page records: **125**;
+- cumulative Phase 1 status: **10 `partial`, 115 `needs-review`, 0 `verified`**;
+- Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-## Phase 1 batch 01 — scans 1–25
+## Important source-extent correction
 
-Result: **PAGE-RECORD BATCH CREATED — SOURCE BLUR PRESERVED AS EXPLICIT UNCERTAINTY; NO SILENT RECONSTRUCTION.**
+Earlier status incorrectly interpreted the Files renderer's `150`-page exposure as the PDF's actual physical page count and described the source as a 150-page tranche. The user corrected this: **the PDF itself has more than 450 pages**.
 
-Created:
+Durable interpretation:
 
-- `pages/0001.md` through `pages/0025.md`;
-- cover/title/imprint/introduction/contents/divider/verso represented;
-- poem opening through printed page 8 represented as the present anthology witness;
-- scan 25 remains an in-poem continuation boundary into scan 26.
+- pages 1–150 are only the portion currently exposed by the page-image interface;
+- pages beyond 150 remain part of the same supplied PDF;
+- exact page count must be read from the full PDF when a byte/metadata-capable tool is available;
+- scan 150 must not be described as the end of the supplied PDF merely because the current renderer stops there.
 
-Pages needing Phase-2 attention from Batch 01:
+## Phase 1 batch history
 
-`0002`, `0004`, `0006`–`0017`, `0021`–`0025`.
+- **Batch 01 — scans 1–25:** front matter / contents / opening of `இதயத்தைத் தந்திடு அண்ணா`.
+- **Batch 02 — scans 26–50:** `இதயத்தைத் தந்திடு அண்ணா` closes on 31; `தென்னவன் காதை` spans 34–42; `இந்திரஜித்` begins on 43.
+- **Batch 03 — scans 51–75:** `இந்திரஜித்` closes on 54; `இரணியன்` 55–61; `வாளி மன்னன்` 62–69; `கவியரங்கக் கவிதைகள்` divider/verso 70–71; `விடுதலை வீரர்கள்` begins on 72.
+- **Batch 04 — scans 76–100:** `விடுதலை வீரர்கள்` closes on 79; `ஐம்புலன்` 80–89; `பிலவங்க ஆண்டு` 90–100.
 
-## Phase 1 batch 02 — scans 26–50
+## Phase 1 batch 05 — scans 101–125
 
-Result: **PAGE-RECORD BATCH CREATED — BLURRED WORDING LEFT UNRESOLVED; CROSS-WITNESS TEXT NOT IMPORTED.**
-
-Created:
-
-- `pages/0026.md` through `pages/0050.md`;
-- `இதயத்தைத் தந்திடு அண்ணா` continued through scan 31 / visible printed page 14 and closes there;
-- scan 32 records the `இனமான எந்தல்கள்` section divider;
-- scan 33 records the divider verso/show-through separately;
-- `தென்னவன் காதை` is represented from scan 34 through scan 42 / visible printed page 25 and closes before the next item;
-- `இந்திரஜித்` opens on scan 43 and continues through scan 50 / visible printed page 33;
-- scan 50 remains an in-item continuation boundary into scan 51.
-
-Batch-02 status:
-
-- `partial`: **2** — scans 32–33;
-- `needs-review`: **23** — scans 26–31 and 34–50;
-- `verified`: **0**.
-
-## Phase 1 batch 03 — scans 51–75
-
-Result: **PAGE-RECORD BATCH CREATED — SAME CONSERVATIVE BLUR POLICY RETAINED.**
+Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED.**
 
 Created:
 
-- `pages/0051.md` through `pages/0075.md`;
-- `இந்திரஜித்` continues through scan **54** / visible printed page **37** and closes there with a floral ornament;
-- `இரணியன்` opens on scan **55** / printed page **38** and closes on scan **61** / printed page **44** with a floral ornament;
-- `வாளி மன்னன்` opens on scan **62** / printed page **45** and closes on scan **69** / printed page **52** with a floral ornament;
-- scan **70** records the `கவியரங்கக் கவிதைகள்` section divider;
-- scan **71** records the divider verso/show-through separately;
-- `விடுதலை வீரர்கள்` opens on scan **72** / printed page **55** and continues through scan **75** / printed page **58**;
-- scan **75** remains an in-item continuation boundary into scan 76.
+- `pages/0101.md` through `pages/0125.md`;
+- scan **101** clearly opens `காதலா - வீரமா?` and gives the visible event date **4-8-68**;
+- the clearer opening-title witness resolves the Phase-1 uncertainty around this title, while the blurred contents-page record itself is left for later Phase-2 verification rather than silently rewritten;
+- `காதலா - வீரமா?` continues through scan **115** / printed page **98** and closes there with `வணக்கம்.` plus a floral ornament;
+- scan **116** clearly opens `அருமறையில் அறுவர்` with visible event date **10.8.68**;
+- this opening-title witness supplies a clearer title than the earlier blurred contents first pass;
+- `அருமறையில் அறுவர்` continues through scan **125** / printed page **108** and remains open into scan 126;
+- scans **101** and **116** do not receive inferred printed-page numbers because their numerals are not positively visible in the supplied page view.
 
-Batch-03 status:
-
-- `partial`: **2** — scans 70–71;
-- `needs-review`: **23** — scans 51–69 and 72–75;
-- `verified`: **0**.
-
-Pages needing Phase-2 attention from Batch 03:
-
-`0051`–`0069`, `0072`–`0075`.
-
-## Phase 1 batch 04 — scans 76–100
-
-Result: **PAGE-RECORD BATCH CREATED — SAME CONSERVATIVE BLUR POLICY RETAINED; NO CROSS-WITNESS FILLING.**
-
-Created:
-
-- `pages/0076.md` through `pages/0100.md`;
-- `விடுதலை வீரர்கள்` continues through scan **79** / visible printed page **62** and closes there with `வணக்கம்! / வாழ்க!` and a floral ornament;
-- `ஐம்புலன்` opens on scan **80** with the visible date/context `24.3.68` and closes on scan **89** / printed page **72** with `வணக்கம்!` and a floral ornament;
-- `ஐம்புலன்` preserves source-visible speaker/performance structure for the sense-themed segments where legible, including transitions involving `மெய்`, `வாய்`, `கண்`, `மூக்கு`, `செவி` and the chair's final summation;
-- `பிலவங்க ஆண்டு` opens on scan **90** with the visible radio/event context dated `13.4.68` and closes on scan **100** / printed page **83** with `வணக்கம்.` and a floral ornament;
-- its source-visible ethical/topic transitions are retained where legible, including `இனியவை கூறல்`, `அடக்கம்`, `பொறை`, `வெகுளாமை`, `இன்னா செய்யாமை` and `அருளுடைமை`;
-- scans **80** and **90** do not receive inferred printed-page numbers in page metadata because the numeral is not positively visible in the supplied view; the apparent sequence remains navigation-only until Phase 3.
-
-Batch-04 status:
+Batch-05 status:
 
 - `partial`: **0**;
-- `needs-review`: **25** — scans 76–100;
+- `needs-review`: **25**;
 - `verified`: **0**.
 
-Pages needing Phase-2 attention from Batch 04:
+Pages needing Phase-2 attention from Batch 05:
 
-`0076`–`0100`.
+`0101`–`0125`.
 
-### Blur / uncertainty handling
+## Blur / uncertainty control
 
-The user's warning that the PDF contains blurred text remains an active control.
-
-Across Batches 01–04:
-
-- `⟦…⟧` marks an editorial first-pass uncertainty span and is **not** source punctuation or source wording;
+- `⟦…⟧` is an editorial Phase-1 uncertainty marker, not source punctuation;
 - only confidently legible wording is transcribed;
-- blurred text is not reconstructed from OCR, metre, grammar, remembered wording, historical expectation or another edition;
-- the separately archived `இதயத்தைத் தந்திடு அண்ணா` and `தென்னவன் காதை` files are not used to fill this anthology witness;
-- page boundaries, title/divider roles, artwork and visible printed numbers are preserved independently;
-- source-visible speaker labels, poet-introduction blocks and performance notes are preserved as structural matter where legible;
-- names or compounds that are not safely readable remain incomplete/unresolved instead of being normalized.
+- blur is not reconstructed from OCR, grammar, metre, memory, historical expectation or another edition;
+- separate source witnesses of overlapping poems are not copied into this anthology;
+- source-visible speaker labels, performance notes, title/date blocks and structural transitions are retained where legible;
+- pages with specific unresolved readings remain `needs-review`, never falsely `verified`.
 
-### User-directed exclusion safeguard
+## User-directed exclusion safeguard
 
-The repository already contains a durable user instruction excluding one caste-slur term from `தென்னவன் காதை`. This anthology pass does **not** reintroduce that excluded term. The instruction remains in force unless the user explicitly changes it.
+The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and has not been reintroduced through this anthology transcription.
 
-## Source-completeness finding
+## Open metadata items
 
-The supplied PDF is not the complete printed edition.
-
-Intake evidence:
-
-- contents scans **15–17** list entries through at least printed page **444**;
-- scan **150** visibly carries printed page **133** and ends with continuing body text;
-- therefore the available source terminates mid-collection.
-
-This is a source-availability limitation, not a transcription uncertainty. The repository may faithfully process all 150 supplied scans while preserving the explicit whole-book completeness blocker.
-
-## Cross-witness safeguard
-
-This anthology visibly includes material also represented by separate existing source witnesses in the repository, including `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`.
-
-Rules:
-
-1. do not copy those existing Tamil transcriptions into this work;
-2. do not use their punctuation, lineation or spelling to silently repair this anthology witness;
-3. when an apparent difference is found, preserve the present scan reading and document later cross-edition comparison separately;
-4. no English reuse is permitted before this anthology reaches Tamil final clearance.
-
-## Phase-1 rules for this work
-
-- direct visual transcription only;
-- source lineation and punctuation preserved where legible;
-- page records remain `partial` after first pass unless a specific unresolved reading requires `needs-review`;
-- only visibly printed page numbers are recorded as printed numbers;
-- OCR/extracted text is not controlling authority;
-- later-looking labels/stamps/donation marks are distinguished from edition text;
-- blank/graphic/divider pages receive page records too;
-- systematic continuity and title-witness reconciliation are deferred to Phase 3.
-
-## Open metadata item
-
-SHA-256 of the exact uploaded 486,369,088-byte file remains pending because the current repository-writing interface has not exposed direct source-byte hashing. This value must be computed from the exact source bytes and filled without guesswork.
+- exact physical PDF page count: **>450 user-confirmed; exact integer pending**;
+- SHA-256: **pending exact-byte computation**;
+- renderer access beyond physical page 150: **not presently available in the Files page-image interface**.
 
 ## Exact next activity
 
-Transcribe **physical scans 101–125** as Phase 1 batch 05 and create `pages/0101.md` through `pages/0125.md`.
+Transcribe **physical scans 126–150** as Phase 1 batch 06 and create `pages/0126.md` through `pages/0150.md`.
 
-Continue the same conservative blur protocol. If a word or line cannot be read safely from the controlling scan, preserve an explicit unresolved marker instead of reconstructing it from another witness or contextual expectation.
+This is **not** the final source batch. Scan 150 is only the present renderer-access boundary. After Batch 06, continue with scans **151 onward** from the same PDF as soon as a tool/interface can expose those pages.
 
-At the end of that batch:
-
-- update this audit with cumulative page-record/status counts;
-- extend `indexes/page-map.md` with visible printed-page evidence;
-- do not begin Phase 2 in the same activity.
+Do not begin Phase 2 in the same activity.
