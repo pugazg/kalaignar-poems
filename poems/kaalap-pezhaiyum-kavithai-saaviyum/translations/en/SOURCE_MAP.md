@@ -120,6 +120,8 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 24 includes a concluding star separator followed by a six-entry glossary that belongs to the item;
 - item 25 contains a concluding `குறிப்பு:` after a *Silappathikaram* quotation and preserves the Adiyarkku Nallar/U. Ve. Swaminatha Iyer attribution;
 - item 26 contains multiple star separators and a complete women-poet name list that must remain in source order;
+- item 29 contains a star separator plus attributed *Purananuru* 77 and 72 passages followed by Kalaignar's source explanations; preserve both textual layers;
+- item 30 closes by explicitly retaining uncertainty over which of two Karikalans is intended; do not resolve that uncertainty through outside knowledge;
 - item 32 contains quoted Sangam verse followed by source explanation and has a substantively different title-page witness;
 - item 37 contains a printed-number anomaly and extended narrative/dialogue movement;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
@@ -171,19 +173,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 10 / item 27 / scan 135**.
+Reviewed through **Batch 11 / item 30 / scan 147**.
 
-- batches reviewed: **10/21**;
-- items translated and reviewed: **27/58**;
-- numbered-item scans covered: **126/290**;
+- batches reviewed: **11/21**;
+- items translated and reviewed: **30/58**;
+- numbered-item scans covered: **138/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 11 — items 28–30**:
+Translate and review **Batch 12 — items 31–33**:
 
-- item 28 `பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்!` — scans **136–139**;
-- item 29 `தாயே தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` — scans **140–144**;
-- item 30 `ஆற்றலின் அளவுகோல்; அவன் செங்கோல்!` — scans **145–147**.
+- item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` — scans **148–151**;
+- item 32 `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்` — scans **152–156**;
+- item 33 `“செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா?` — scans **157–160**.
 
-Item 29 is a documented title-witness discrepancy: displayed English title from the canonical/title-page witness, while contents witness `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` remains separately traceable. Create `batches/batch-11.md`, preserving item boundaries and scan provenance. Stop after item 30.
+Items 31 and 32 are documented title-witness discrepancies. Item 31's contents witness adds a comma after `தாயும்`; Item 32's contents witness `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!` is substantively different from the canonical/title-page witness. Preserve both witness pairs separately. Create `batches/batch-12.md`, preserving item boundaries and scan provenance. Stop after item 33.
