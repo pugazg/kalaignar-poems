@@ -117,6 +117,7 @@ The translator must inspect the complete canonical item rather than infer conten
 
 - item 14 contains extended dramatic dialogue and scene structure;
 - item 21 includes a concluding `குறிப்பு:` block as part of the item;
+- item 24 includes a concluding star separator followed by a six-entry glossary that belongs to the item;
 - item 32 contains quoted Sangam verse followed by source explanation and has a substantively different title-page witness;
 - item 37 contains a printed-number anomaly and extended narrative/dialogue movement;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
@@ -168,19 +169,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 08 / item 21 / scan 111**.
+Reviewed through **Batch 09 / item 24 / scan 123**.
 
-- batches reviewed: **8/21**;
-- items translated and reviewed: **21/58**;
-- numbered-item scans covered: **102/290**;
+- batches reviewed: **9/21**;
+- items translated and reviewed: **24/58**;
+- numbered-item scans covered: **114/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 09 — items 22–24**:
+Translate and review **Batch 10 — items 25–27**:
 
-- item 22 `“பிறகேன் வினா? என்பதே என் வினா!”` — scans **112–116**;
-- item 23 `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` — scans **117–119**;
-- item 24 `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` — scans **120–123**.
+- item 25 `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` — scans **124–127**;
+- item 26 `விழித்தெழுக; இதோ செம்மொழி விடியல்!` — scans **128–131**;
+- item 27 `வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்!` — scans **132–135**.
 
-Item 22 is a documented title-witness discrepancy: displayed English title from the canonical/title-page witness, while contents witness `பிறகேன் வினா? என்பதே என் வினா!` remains separately traceable. Create `batches/batch-09.md`, preserving item boundaries and scan provenance. Stop after item 24.
+Items 25 and 26 are documented title-witness discrepancies. Item 25's canonical/title-page witness has no final exclamation mark while the contents witness does; Item 26's contents witness contains a comma after `இதோ` that the canonical/title-page witness omits. Preserve those witnesses separately. Create `batches/batch-10.md`, preserving item boundaries and scan provenance. Stop after item 27.
