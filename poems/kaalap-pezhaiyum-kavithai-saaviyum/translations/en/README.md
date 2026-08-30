@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–07 reviewed PASS; 18/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–08 reviewed PASS; 21/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -44,13 +44,14 @@ Revised total planned batches: **21**.
 | 05 | 10–12 | 50–63 | **reviewed — PASS** |
 | 06 | 13–15 | 64–81 | **reviewed — PASS** |
 | 07 | 16–18 | 82–98 | **reviewed — PASS** |
-| 08–21 | 19–58 | 99–299 | planned |
+| 08 | 19–21 | 99–111 | **reviewed — PASS** |
+| 09–21 | 22–58 | 112–299 | planned |
 
 Current totals:
 
-- batches reviewed: **7/21**;
-- items translated and reviewed: **18/58**;
-- certified source scans represented in reviewed English batches: **89/290 numbered-item scans**;
+- batches reviewed: **8/21**;
+- items translated and reviewed: **21/58**;
+- certified source scans represented in reviewed English batches: **102/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -89,13 +90,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 05:** items 10–12, scans 50–63 — reviewed PASS. Maritime-contact claims, the papyrus and Naga-country narratives, *Manimekalai* quotation, Peevalai–Nedumudikilli/Ilanthiraiyan sequence, Murugan–Valli narrative, *Kuruntokai* quotation, Tamil sound-play, glossary and equal-rights close are retained; source-sensitive forms are documented rather than silently repaired.
 - **Batch 06:** items 13–15, scans 64–81 — reviewed PASS. Appathuraiyar/classical citations and the Kharavela-alliance argument are retained as source claims; the complete three-scene Kanaka–Vijaya drama preserves speaker changes, war-oratory and the eighteen-unit sequence; the “Aryan tea” metaphor, *Silappathikaram* citation and named historical-source quotations remain traceable without outside correction.
 - **Batch 07:** items 16–18, scans 82–98 — reviewed PASS. The Augustus/Peruvaluthi and Yavana-trade source layers, world-history/evolution/Kumari Kandam argument, Bharathi and named-source quotations, and Item 18's sandalwood-remainder metaphor are retained; Item 18's title-page/contents-title discrepancy is explicitly preserved without hybridization.
+- **Batch 08:** items 19–21, scans 99–111 — reviewed PASS. The Senguttuvan–Palaiyan–Arugan episode and its condemnation of retaliatory humiliation, the Venni battle and *vadakkiruthal* passages with three classical poem citations, and the Aathimandhi–Aattanathi love/dance/river-rescue narrative including the final source note are retained without outside correction.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 7/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 8/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -103,10 +105,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 08 — items 19–21**:
+Translate and review **Batch 09 — items 22–24**:
 
-- item 19 — `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` — scans **99–102** — `../../sections/19.md`;
-- item 20 — `வீழினும் அவன் வெற்றித் திருமகனே!` — scans **103–106** — `../../sections/20.md`;
-- item 21 — `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans **107–111** — `../../sections/21.md`.
+- item 22 — `“பிறகேன் வினா? என்பதே என் வினா!”` — scans **112–116** — `../../sections/22.md`;
+- item 23 — `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` — scans **117–119** — `../../sections/23.md`;
+- item 24 — `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` — scans **120–123** — `../../sections/24.md`.
 
-Create `batches/batch-08.md`. Stop after item 21; do not begin item 22.
+Item 22 is a documented title-witness discrepancy; translate the canonical quoted title-page witness and preserve the unquoted contents witness separately. Create `batches/batch-09.md`. Stop after item 24; do not begin item 25.
