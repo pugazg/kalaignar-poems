@@ -75,7 +75,6 @@ jobs:
                   }
               return ms, out
 
-          # 1. Reader-facing collection checkpoint must be exactly the editorial-reviewed text.
           assembled = assembled_path.read_text(encoding='utf-8')
           raw = assembled_path.read_bytes()
           digest = hashlib.sha256(raw).hexdigest()
@@ -91,7 +90,6 @@ jobs:
           if nums != list(range(1,59)):
               fail(f'assembled item order/uniqueness failed: {nums}')
 
-          # 2. Canonical metadata + exact per-item scan coverage.
           expected_all_scans = []
           titles_ta = {}
           contents_titles = {}
@@ -111,7 +109,6 @@ jobs:
               contents_titles[n] = ct
               expected_ranges[n] = rng
               expected_all_scans.extend(rng)
-
               body_scans = [int(x) for x in re.findall(r'<!-- scan (\d+) -->', assembled_items[n]['section'])]
               if body_scans != rng:
                   fail(f'item {n} scan coverage mismatch: expected {rng}, got {body_scans}')
@@ -124,7 +121,6 @@ jobs:
           if '<!-- scan 300 -->' in assembled:
               fail('scan-300 end matter leaked into reader-facing collection')
 
-          # 3. Reviewed batch records must still be complete and byte-aligned with assembly.
           batch_files = sorted(batches_dir.glob('batch-*.md'))
           if len(batch_files) != 21:
               fail(f'expected 21 batch files, found {len(batch_files)}')
@@ -153,7 +149,6 @@ jobs:
               if batch_items[n] != assembled_items[n]['section']:
                   fail(f'assembled item {n} is not byte-aligned with reviewed batch record')
 
-          # 4. Standalone per-poem files: 58/58, metadata/title witness/scan provenance/body sync.
           standalone_files = sorted(p for p in items_dir.glob('*.md') if p.name != 'README.md')
           if len(standalone_files) != 58:
               fail(f'expected 58 standalone files, found {len(standalone_files)}')
@@ -195,7 +190,6 @@ jobs:
           if seen != set(range(1,59)):
               fail('standalone item identity set is not exactly 1–58')
 
-          # 5. Title-witness register and item-37 anomaly.
           actual_disc = {n for n in range(1,59) if titles_ta[n] != contents_titles[n]}
           if actual_disc != DISCREPANCIES:
               fail(f'title discrepancy set mismatch: {sorted(actual_disc)}')
@@ -203,7 +197,6 @@ jobs:
           if intfield(c37, 'printed_item_number') != 36:
               fail('item 37 printed-number anomaly is not preserved')
 
-          # 6. Source-visible structural inventory must remain at editorial-PASS checkpoint.
           lines = assembled.splitlines()
           if sum(1 for x in lines if x == '★ ★ ★') != EXPECTED_COMPACT_STARS:
               fail('compact star-separator count changed')
@@ -222,7 +215,6 @@ jobs:
           if leaked:
               fail(f'editorial/batch apparatus leaked into reader-facing collection: {leaked}')
 
-          # 7. Closing boundary: item 58 ends exactly at scan 299 / First Part Complete.
           if assembled.count('(First Part Complete)') != 1:
               fail('First Part Complete count is not exactly one')
           if assembled.rstrip().splitlines()[-1] != '(First Part Complete)':
@@ -230,185 +222,164 @@ jobs:
           if [int(x) for x in re.findall(r'<!-- scan (\d+) -->', assembled_items[58]['section'])] != [296,297,298,299]:
               fail('item 58 scan boundary mismatch')
 
-          # 8. Protect the final-cleared Tamil layer by checking all changes since its durable checkpoint.
-          cmd = [
-              'git','diff','--name-only',f'{TAMIL_CLEARANCE}..HEAD','--',
-              str(sections_dir), str(pages_dir)
-          ]
-          changed = subprocess.check_output(cmd, text=True).strip().splitlines()
-          changed = [x for x in changed if x.strip()]
+          cmd = ['git','diff','--name-only',f'{TAMIL_CLEARANCE}..HEAD','--',str(sections_dir),str(pages_dir)]
+          changed = [x for x in subprocess.check_output(cmd, text=True).strip().splitlines() if x.strip()]
           if changed:
               fail(f'Tamil canonical/page layer changed since final clearance: {changed}')
 
-          # 9. items/README must index all 58 stable items.
           item_index = (items_dir / 'README.md').read_text(encoding='utf-8')
           index_nums = [int(x) for x in re.findall(r'^\| (\d+) \|', item_index, re.M)]
           if index_nums != list(range(1,59)):
               fail('items/README index is not exactly items 1–58 in order')
 
           review_input = subprocess.check_output(['git','rev-parse','HEAD'], text=True).strip()
+          report_lines = [
+              '# English Release Report — காலப் பேழையும் கவிதைச் சாவியும்',
+              '',
+              'Status: **FINAL SOURCE-COVERAGE / RELEASE REVIEW COMPLETE — PASS**',
+              '',
+              'Release gate date: **2026-08-30**',
+              '',
+              '## Scope',
+              '',
+              'This is the final Phase-4 release gate for the English translation of the 58-item numbered collection **காலப் பேழையும் கவிதைச் சாவியும்**.',
+              '',
+              'Reader-facing collection: `kaalap-pezhaiyum-kavithai-saaviyum-en.md`.',
+              '',
+              'Standalone distribution: `items/` — **58/58** separate English item files plus `items/README.md`.',
+              '',
+              'This gate is a source-coverage, synchronization, provenance and release-integrity review. It is **not** a fresh pixel-level rereading of all 290 numbered-item scans. Tamil textual authority remains the final-cleared canonical/page layer and, if any Tamil reading is reopened, the controlling scan.',
+              '',
+              '## Release checkpoints',
+              '',
+              f'- Tamil final-clearance durable checkpoint: `{TAMIL_CLEARANCE}`;',
+              f'- release-review input commit: `{review_input}`;',
+              f'- editorial-reviewed assembled SHA-256: `{digest}`;',
+              f'- reader-facing size: **{len(raw):,} bytes**;',
+              f'- reader-facing line count: **{len(assembled.splitlines()):,}**.',
+              '',
+              '## 1. Item and scan source coverage',
+              '',
+              'Result: **PASS**',
+              '',
+              '- stable numbered items represented: **58/58**, exactly once and in order;',
+              '- numbered-item source scans represented: **290/290**, exactly scans **10–299**, once each and in order;',
+              '- every item\'s scan markers match its final-cleared canonical `physical_scans` range;',
+              '- no scan-300 end matter is present in the reader-facing collection.',
+              '',
+              '## 2. Reviewed-batch synchronization',
+              '',
+              'Result: **PASS**',
+              '',
+              '- reviewed translation batches present: **21/21**;',
+              '- reviewed batch item inventory: **1–58 exactly once**;',
+              '- every assembled English item heading/body is byte-for-byte aligned with its durable reviewed batch heading/body;',
+              '- no translated item was omitted, duplicated or reordered during complete-work assembly.',
+              '',
+              '## 3. Standalone per-poem synchronization',
+              '',
+              'Result: **PASS**',
+              '',
+              '- standalone English files: **58/58**;',
+              '- stable standalone item identities: **1–58 exactly once**;',
+              '- every standalone file\'s translated body is byte-for-byte aligned with the corresponding editorial-reviewed assembled item body;',
+              '- each standalone file carries the matching Tamil canonical title, contents-title witness, English title and source-scan range;',
+              '- all standalone scan markers match the corresponding canonical item range;',
+              '- `items/README.md` indexes items **1–58** exactly once and in order.',
+              '',
+              '## 4. Title-witness integrity',
+              '',
+              'Result: **PASS**',
+              '',
+              'The documented discrepancy register remains exactly **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58**.',
+              '',
+              'For every one of these items, canonical/title-page and contents witnesses remain separate; standalone metadata marks the difference as `documented-discrepancy`. Non-discrepant items remain marked `match`.',
+              '',
+              'Item **37** remains stable item 37 while preserving printed item number **36** only as a documented source anomaly.',
+              '',
+              '## 5. Source-visible notes, quotations and separators',
+              '',
+              'Result: **PASS**',
+              '',
+              'The reader-facing collection remains byte-identical to the full-work editorial-PASS checkpoint. Its source-visible structural inventory remains:',
+              '',
+              f'- `★ ★ ★`: **{EXPECTED_COMPACT_STARS}** separators;',
+              f'- `★     ★     ★`: **{EXPECTED_WIDE_STARS}** separators;',
+              f'- single `★`: **{EXPECTED_SINGLE_STARS}** separators;',
+              f'- `**Note:**` blocks: **{EXPECTED_NOTE_BLOCKS}**;',
+              '- scan provenance comments: **290**.',
+              '',
+              'Because the final collection is byte-identical to the editorial-reviewed checkpoint and every item remains byte-aligned with its reviewed batch record, the item-internal quotations, dialogue, notes, glossary material, parenthetical source material and high-risk structural movements cleared during batch/editorial review remain intact.',
+              '',
+              '## 6. Reader-facing cleanliness',
+              '',
+              'Result: **PASS**',
+              '',
+              'No batch/editorial apparatus was found in the reader-facing collection, including translator-note sections, batch-review sections, source-metadata blocks or title-witness front matter.',
+              '',
+              '## 7. Tamil-source protection',
+              '',
+              'Result: **PASS**',
+              '',
+              'A Git comparison from the durable Tamil final-clearance checkpoint through the release-review input commit found **0 changed files** under the canonical `sections/` and verified `pages/` directories.',
+              '',
+              'Therefore the Phase-4 translation, assembly, editorial review, standalone-file distribution and release review did not modify the final-cleared Tamil canonical/page layer.',
+              '',
+              '## 8. Final boundary',
+              '',
+              'Result: **PASS**',
+              '',
+              'Item 58 contains scans **296–299** and the reader-facing collection ends exactly with `(First Part Complete)`. It occurs exactly once. Separate scan-300 end matter remains outside the numbered-poem English collection and outside item 58.',
+              '',
+              '## Final decision',
+              '',
+              '**ENGLISH PHASE 4 RELEASE: PASS — RELEASE-CLEARED**',
+              '',
+              '- translation batches: **21/21 reviewed PASS**;',
+              '- stable items: **58/58**;',
+              '- numbered-item scans: **290/290**;',
+              '- complete English collection: **release-cleared**;',
+              '- standalone English item files: **58/58 release-cleared as synchronized distribution copies**;',
+              '- unresolved release issues: **0**;',
+              '- Tamil canonical/page files changed during Phase 4: **0**.',
+              '',
+              'The English translation phase for this numbered first-part collection is complete. No further Phase-4 release gate remains.',
+              ''
+          ]
+          (en / 'RELEASE_REPORT.md').write_text('\n'.join(report_lines), encoding='utf-8')
 
-          report = f'''# English Release Report — காலப் பேழையும் கவிதைச் சாவியும்
-
-Status: **FINAL SOURCE-COVERAGE / RELEASE REVIEW COMPLETE — PASS**
-
-Release gate date: **2026-08-30**
-
-## Scope
-
-This is the final Phase-4 release gate for the English translation of the 58-item numbered collection **காலப் பேழையும் கவிதைச் சாவியும்**.
-
-Reader-facing collection:
-
-`kaalap-pezhaiyum-kavithai-saaviyum-en.md`
-
-Standalone distribution:
-
-`items/` — **58/58** separate English item files plus `items/README.md`.
-
-This gate is a source-coverage, synchronization, provenance and release-integrity review. It is **not** a fresh pixel-level rereading of all 290 numbered-item scans. Tamil textual authority remains the final-cleared canonical/page layer and, if any Tamil reading is reopened, the controlling scan.
-
-## Release checkpoints
-
-- Tamil final-clearance durable checkpoint: `{TAMIL_CLEARANCE}`;
-- release-review input commit: `{review_input}`;
-- editorial-reviewed assembled SHA-256: `{digest}`;
-- reader-facing size: **{len(raw):,} bytes**;
-- reader-facing line count: **{len(assembled.splitlines()):,}**.
-
-## 1. Item and scan source coverage
-
-Result: **PASS**
-
-- stable numbered items represented: **58/58**, exactly once and in order;
-- numbered-item source scans represented: **290/290**, exactly scans **10–299**, once each and in order;
-- every item's scan markers match its final-cleared canonical `physical_scans` range;
-- no scan-300 end matter is present in the reader-facing collection.
-
-## 2. Reviewed-batch synchronization
-
-Result: **PASS**
-
-- reviewed translation batches present: **21/21**;
-- reviewed batch item inventory: **1–58 exactly once**;
-- every assembled English item heading/body is byte-for-byte aligned with its durable reviewed batch heading/body;
-- no translated item was omitted, duplicated or reordered during complete-work assembly.
-
-## 3. Standalone per-poem synchronization
-
-Result: **PASS**
-
-- standalone English files: **58/58**;
-- stable standalone item identities: **1–58 exactly once**;
-- every standalone file's translated body is byte-for-byte aligned with the corresponding editorial-reviewed assembled item body;
-- each standalone file carries the matching Tamil canonical title, contents-title witness, English title and source-scan range;
-- all standalone scan markers match the corresponding canonical item range;
-- `items/README.md` indexes items **1–58** exactly once and in order.
-
-## 4. Title-witness integrity
-
-Result: **PASS**
-
-The documented discrepancy register remains exactly:
-
-**18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58**.
-
-For every one of these items, canonical/title-page and contents witnesses remain separate; standalone metadata marks the difference as `documented-discrepancy`. Non-discrepant items remain marked `match`.
-
-Item **37** remains stable item 37 while preserving printed item number **36** only as a documented source anomaly.
-
-## 5. Source-visible notes, quotations and separators
-
-Result: **PASS**
-
-The reader-facing collection remains byte-identical to the full-work editorial-PASS checkpoint. Its source-visible structural inventory remains:
-
-- `★ ★ ★`: **{EXPECTED_COMPACT_STARS}** separators;
-- `★     ★     ★`: **{EXPECTED_WIDE_STARS}** separators;
-- single `★`: **{EXPECTED_SINGLE_STARS}** separators;
-- `**Note:**` blocks: **{EXPECTED_NOTE_BLOCKS}**;
-- scan provenance comments: **290**.
-
-Because the final collection is byte-identical to the editorial-reviewed checkpoint and every item remains byte-aligned with its reviewed batch record, the item-internal quotations, dialogue, notes, glossary material, parenthetical source material and high-risk structural movements cleared during batch/editorial review remain intact.
-
-## 6. Reader-facing cleanliness
-
-Result: **PASS**
-
-No batch/editorial apparatus was found in the reader-facing collection, including translator-note sections, batch-review sections, source-metadata blocks or title-witness front matter.
-
-## 7. Tamil-source protection
-
-Result: **PASS**
-
-A Git comparison from the durable Tamil final-clearance checkpoint through the release-review input commit found **0 changed files** under:
-
-- `poems/kaalap-pezhaiyum-kavithai-saaviyum/sections/`;
-- `poems/kaalap-pezhaiyum-kavithai-saaviyum/pages/`.
-
-Therefore the Phase-4 translation, assembly, editorial review, standalone-file distribution and release review did not modify the final-cleared Tamil canonical/page layer.
-
-## 8. Final boundary
-
-Result: **PASS**
-
-Item 58 contains scans **296–299** and the reader-facing collection ends exactly with:
-
-`(First Part Complete)`
-
-It occurs exactly once. Separate scan-300 end matter remains outside the numbered-poem English collection and outside item 58.
-
-## Final decision
-
-**ENGLISH PHASE 4 RELEASE: PASS — RELEASE-CLEARED**
-
-- translation batches: **21/21 reviewed PASS**;
-- stable items: **58/58**;
-- numbered-item scans: **290/290**;
-- complete English collection: **release-cleared**;
-- standalone English item files: **58/58 release-cleared as synchronized distribution copies**;
-- unresolved release issues: **0**;
-- Tamil canonical/page files changed during Phase 4: **0**.
-
-The English translation phase for this numbered first-part collection is complete. No further Phase-4 release gate remains.
-'''
-          (en / 'RELEASE_REPORT.md').write_text(report, encoding='utf-8')
-
-          # 10. Synchronize durable status files only after every release assertion has passed.
           readme_path = en / 'README.md'
           s = readme_path.read_text(encoding='utf-8')
-          s = re.sub(
-              r'^Status: \*\*.*\*\*$',
-              'Status: **PHASE 4 COMPLETE — ENGLISH RELEASE CLEARED — PASS; 58/58 items; 290/290 numbered-item scans; 58/58 standalone per-poem files**',
-              s, count=1, flags=re.M
-          )
+          s = re.sub(r'^Status: \*\*.*\*\*$', 'Status: **PHASE 4 COMPLETE — ENGLISH RELEASE CLEARED — PASS; 58/58 items; 290/290 numbered-item scans; 58/58 standalone per-poem files**', s, count=1, flags=re.M)
           s = s.replace('5. perform source-coverage/release review — **NEXT**;', '5. perform source-coverage/release review — **COMPLETE — PASS**;')
           s = s.replace('6. mark English release complete only if all gates pass.', '6. mark English release complete only if all gates pass — **COMPLETE — RELEASE-CLEARED**.')
           start = s.find('## Exact next activity\n')
           if start != -1:
-              s = s[:start] + '''## Completion boundary
-
-The final source-coverage/release gate is **COMPLETE — PASS**. See `RELEASE_REPORT.md` for the durable release record.
-
-No further Phase-4 English release activity remains for this numbered first-part collection. Any subsequent activity should begin from this release-cleared state and requires a new explicit scope.
-'''
+              completion = '\n'.join([
+                  '## Completion boundary',
+                  '',
+                  'The final source-coverage/release gate is **COMPLETE — PASS**. See `RELEASE_REPORT.md` for the durable release record.',
+                  '',
+                  'No further Phase-4 English release activity remains for this numbered first-part collection. Any subsequent activity should begin from this release-cleared state and requires a new explicit scope.',
+                  ''
+              ])
+              s = s[:start] + completion
           readme_path.write_text(s, encoding='utf-8')
 
           plan_path = en / 'TRANSLATION_PLAN.md'
           s = plan_path.read_text(encoding='utf-8')
-          s = re.sub(
-              r'^\*\*PHASE 4 IN PROGRESS —.*\*\*$',
-              '**PHASE 4 COMPLETE — English release CLEARED — PASS; 21/21 reviewed batches, 58/58 items, 290/290 scans, complete assembly, editorial review and final release review complete.**',
-              s, count=1, flags=re.M
-          )
+          s = re.sub(r'^\*\*PHASE 4 IN PROGRESS —.*\*\*$', '**PHASE 4 COMPLETE — English release CLEARED — PASS; 21/21 reviewed batches, 58/58 items, 290/290 scans, complete assembly, editorial review and final release review complete.**', s, count=1, flags=re.M)
           start = s.find('## Exact next activity\n')
           if start != -1:
-              s = s[:start] + '''## Completion boundary
-
-Final source-coverage/release review: **COMPLETE — PASS**. Durable record: `RELEASE_REPORT.md`.
-
-Phase 4 is complete. No further English release gate remains for this collection.
-'''
+              completion = '\n'.join([
+                  '## Completion boundary',
+                  '',
+                  'Final source-coverage/release review: **COMPLETE — PASS**. Durable record: `RELEASE_REPORT.md`.',
+                  '',
+                  'Phase 4 is complete. No further English release gate remains for this collection.',
+                  ''
+              ])
+              s = s[:start] + completion
           plan_path.write_text(s, encoding='utf-8')
 
           map_path = en / 'SOURCE_MAP.md'
@@ -416,27 +387,28 @@ Phase 4 is complete. No further English release gate remains for this collection
           s = s.replace('final full-work source-coverage / release review: **NEXT**', 'final full-work source-coverage / release review: **COMPLETE — PASS**')
           start = s.find('## Exact next activity\n')
           if start != -1:
-              s = s[:start] + '''## Completion boundary
-
-Final source-coverage/release review: **COMPLETE — PASS**. See `RELEASE_REPORT.md`.
-
-All 58 stable items, scans 10–299, reviewed batches, reader-facing assembly and standalone per-poem files are release-cleared and synchronized.
-'''
+              completion = '\n'.join([
+                  '## Completion boundary',
+                  '',
+                  'Final source-coverage/release review: **COMPLETE — PASS**. See `RELEASE_REPORT.md`.',
+                  '',
+                  'All 58 stable items, scans 10–299, reviewed batches, reader-facing assembly and standalone per-poem files are release-cleared and synchronized.',
+                  ''
+              ])
+              s = s[:start] + completion
           map_path.write_text(s, encoding='utf-8')
 
           item_index_path = items_dir / 'README.md'
           s = item_index_path.read_text(encoding='utf-8')
-          s = s.replace(
-              'Status: **COMPLETE — 58/58 standalone item files generated from the editorial-reviewed English collection**',
-              'Status: **RELEASE-CLEARED — 58/58 standalone item files synchronized with the final English release**'
-          )
-          s += '\nRelease gate: **PASS** — see `../RELEASE_REPORT.md`.\n'
+          s = s.replace('Status: **COMPLETE — 58/58 standalone item files generated from the editorial-reviewed English collection**', 'Status: **RELEASE-CLEARED — 58/58 standalone item files synchronized with the final English release**')
+          if 'Release gate: **PASS**' not in s:
+              s += '\nRelease gate: **PASS** — see `../RELEASE_REPORT.md`.\n'
           item_index_path.write_text(s, encoding='utf-8')
 
           editorial_path = en / 'EDITORIAL_CONSISTENCY_REVIEW.md'
           s = editorial_path.read_text(encoding='utf-8')
           if '## Subsequent release outcome' not in s:
-              s += '''\n## Subsequent release outcome\n\nThe final source-coverage/release review subsequently completed **PASS**. See `RELEASE_REPORT.md`. The editorial-reviewed reader-facing SHA-256 remained unchanged through that final gate.\n'''
+              s += '\n## Subsequent release outcome\n\nThe final source-coverage/release review subsequently completed **PASS**. See `RELEASE_REPORT.md`. The editorial-reviewed reader-facing SHA-256 remained unchanged through that final gate.\n'
           editorial_path.write_text(s, encoding='utf-8')
 
           print('FINAL RELEASE REVIEW: PASS')
