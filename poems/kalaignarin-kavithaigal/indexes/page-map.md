@@ -6,7 +6,7 @@ Available physical scans: **150**.
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–50 created.**
+**PHASE 1 MAP IN PROGRESS — page records 1–75 created.**
 
 This file records visible first-pass navigation evidence. It is **not** a completed physical-scan ↔ printed-page reconciliation and must not be treated as Phase-3 evidence.
 
@@ -80,6 +80,36 @@ Whole-book mapping, completeness certification and final clearance are blocked u
 | 49 | poem continuation | 32 | `needs-review` | large mounted-warrior illustration; small text below |
 | 50 | poem continuation | 33 | `needs-review` | dense dialogue/battle rhetoric; continues into scan 51 |
 
+## Phase-1 map — scans 51–75
+
+| Physical scan | Visible role / section | Visibly printed page | Phase-1 status | Notes |
+|---:|---|---|---|---|
+| 51 | `இந்திரஜித்` continuation | 34 | `needs-review` | dense verse/dialogue; blur-sensitive compounds |
+| 52 | poem continuation | 35 | `needs-review` | quotation-heavy verse; several uncertain forms |
+| 53 | poem continuation | 36 | `needs-review` | battle/action passage; dense blurred compounds |
+| 54 | `இந்திரஜித்` conclusion | 37 | `needs-review` | closes with floral ornament |
+| 55 | `இரணியன்` opening | 38 | `needs-review` | title clear; verse blur-sensitive |
+| 56 | poem continuation | 39 | `needs-review` | narrative/quoted material requires Phase 2 |
+| 57 | poem continuation | 40 | `needs-review` | quoted terms and polemical verse; blurred compounds |
+| 58 | poem continuation | 41 | `needs-review` | dialogue/action; several unresolved spans |
+| 59 | poem continuation | 42 | `needs-review` | dialogue; multiple provisional readings |
+| 60 | poem continuation | 43 | `needs-review` | dense confrontation passage; blurred compounds |
+| 61 | `இரணியன்` conclusion | 44 | `needs-review` | short close with floral ornament |
+| 62 | `வாளி மன்னன்` opening | 45 | `needs-review` | title clear; verse blur-sensitive |
+| 63 | poem continuation | 46 | `needs-review` | narrative/argument passage |
+| 64 | poem continuation | 47 | `needs-review` | dialogue and political/rhetorical material |
+| 65 | poem continuation | 48 | `needs-review` | dialogue; several provisional compounds |
+| 66 | poem continuation | 49 | `needs-review` | dense quoted speech/action |
+| 67 | poem continuation | 50 | `needs-review` | dialogue and battle framing |
+| 68 | poem continuation | 51 | `needs-review` | combat narrative; blurred line endings |
+| 69 | `வாளி மன்னன்` conclusion | 52 | `needs-review` | closes with floral ornament |
+| 70 | `கவியரங்கக் கவிதைகள்` section divider | — | `partial` | bordered divider |
+| 71 | divider verso | — | `partial` | show-through excluded from edition text |
+| 72 | `விடுதலை வீரர்கள்` opening | 55 | `needs-review` | event-note block and title visible |
+| 73 | poem continuation | 56 | `needs-review` | dense patriotic verse |
+| 74 | poem/speaker continuation | 57 | `needs-review` | speaker labels and performance notes preserved |
+| 75 | poem/speaker continuation | 58 | `needs-review` | quoted praise; continues into scan 76 |
+
 ## Printed-page evidence rule
 
 Only numbers visibly printed on the source are entered above. In particular, no Roman or Arabic number is inferred for scans whose numeral is not visibly present.
@@ -88,18 +118,18 @@ The apparent relationship `printed page = physical scan - 17` across much of the
 
 ## Phase-1 page-record inventory
 
-Existing page records: `pages/0001.md` through `pages/0050.md`.
+Existing page records: `pages/0001.md` through `pages/0075.md`.
 
-Current count: **50 / 150 available physical scans**.
+Current count: **75 / 150 available physical scans**.
 
 Cumulative status:
 
-- `partial`: **8**;
-- `needs-review`: **42**;
+- `partial`: **10**;
+- `needs-review`: **65**;
 - `verified`: **0**.
 
 The high `needs-review` count is intentional. The PDF contains visibly blurred text, and uncertain readings are being preserved rather than silently reconstructed.
 
 ## Exact next activity
 
-Phase 1 batch 03: transcribe physical scans **51–75** into `pages/0051.md` through `pages/0075.md`, preserving the same conservative blur protocol and recording only visible printed-page evidence.
+Phase 1 batch 04: transcribe physical scans **76–100** into `pages/0076.md` through `pages/0100.md`, preserving the same conservative blur protocol and recording only visible printed-page evidence.
