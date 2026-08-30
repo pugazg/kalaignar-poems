@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–15 reviewed PASS; 42/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–16 reviewed PASS; 45/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -52,13 +52,14 @@ Revised total planned batches: **21**.
 | 13 | 34–36 | 161–178 | **reviewed — PASS** |
 | 14 | 37–39 | 179–194 | **reviewed — PASS** |
 | 15 | 40–42 | 195–206 | **reviewed — PASS** |
-| 16–21 | 43–58 | 207–299 | planned |
+| 16 | 43–45 | 207–219 | **reviewed — PASS** |
+| 17–21 | 46–58 | 220–299 | planned |
 
 Current totals:
 
-- batches reviewed: **15/21**;
-- items translated and reviewed: **42/58**;
-- certified source scans represented in reviewed English batches: **197/290 numbered-item scans**;
+- batches reviewed: **16/21**;
+- items translated and reviewed: **45/58**;
+- certified source scans represented in reviewed English batches: **210/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -105,13 +106,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 13:** items 34–36, scans 161–178 — reviewed PASS. Item 34 preserves the Chola decline/revival chronology, source-form administrative bodies and titles, marriage passage, Poompuhar framing, Pallava/Vijayalaya transition and the printed English footnote; Item 35 preserves the Pisiranthaiyar–Kopperuncholan friendship narrative, swan-cock address, domestic comic interlude, war crisis and *vadakkiruthal*/*nadukal* close; Item 36 preserves the Kosar/*Akananuru* layer, Anni Minjili narrative, class simile, eye-gouging episode, reciprocal vows, battle ending and complete source note without outside correction.
 - **Batch 14:** items 37–39, scans 179–194 — reviewed PASS. Item 37 preserves stable identity 37 despite the printed `36`, keeps both title witnesses separate, retains the Narkannai/Perunarkilli narrative and *Purananuru* 82 plus Kalaignar's own cot-weaver explanation; Item 38 preserves the attributed poet sequence, Karur counsel, plough-front/battlefront argument, Pannan episode and burial-urn elegy; Item 39 preserves the source's Pallava chronology and Kanchi uncertainty, Chinese-traveller/Dravida passage, Pulikesi–Narasimha framing, Paranjothi/Vatapi Ganapati argument and closing *Periya Puranam* quotation without outside correction.
 - **Batch 15:** items 40–42, scans 195–206 — reviewed PASS. Item 40 preserves the no-exclamation canonical title witness, Hijra/Appar/Mahendravarman comparison, Narasimha–Pulikesi material and complete Manavarman friendship/restoration narrative; Item 41 preserves the Kanchi-capital evidence argument, Anbazhagan retort, Pallava site list, *Matta Vilasam*/Appar and inscriptional evidence; Item 42 preserves the Nelveli and Kanchi/Peruvalanallur battle movements, charter perspectives, united-tigers analogy, `அரிவாரணம்` passage and concluding charter/*Tevaram* source notes without outside adjudication.
+- **Batch 16:** items 43–45, scans 207–219 — reviewed PASS. Item 43 preserves the Dravidian/Tamil-lineage argument, political unity/decline rhetoric, CE 350/575/850/875 chronology, Vijayalaya–Aparajita relationship, Tiruppurambiyam narrative and inscriptional close; Item 44 preserves its comma-only title discrepancy, dynastic succession, explicit rationalist rejection of the funeral-pyre custom, accusation/counter-accusation over Aditya Karikalan's murder, the iron-pillar/fly-wing image and Murugan/peacock analogy; Item 45 preserves the Kattumannarkudi-inscription list, competing Madhurantakan arguments, benefit-of-doubt turn, Rajaraja's crown-prince training and the source's dates/ages through Rajendra without outside reconciliation.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 15/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 16/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -119,10 +121,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 16 — items 43–45**:
+Translate and review **Batch 17 — items 46–48**:
 
-- item 43 — `திராவிட இனத்தின் தமிழர் மரபு!` — scans **207–210** — `../../sections/43.md`;
-- item 44 — `இரும்புத் தூணும் ஈக்களின் இறகும்!` — scans **211–215** — `../../sections/44.md`;
-- item 45 — `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` — scans **216–219** — `../../sections/45.md`.
+- item 46 — `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` — scans **220–225** — `../../sections/46.md`;
+- item 47 — `அந்த வருங்காலமே; அருங்காலமாகும்!` — scans **226–235** — `../../sections/47.md`;
+- item 48 — `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!` — scans **236–240** — `../../sections/48.md`.
 
-Item 44 is a documented title-witness discrepancy: canonical/title-page witness is `இரும்புத் தூணும் ஈக்களின் இறகும்!`, while contents witness is `இரும்புத் தூணும், ஈக்களின் இறகும்!`. Preserve both separately. Create `batches/batch-16.md`. Stop after item 45; do not begin item 46.
+Item 46 is a documented title-witness discrepancy: canonical/title-page witness is `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!`, while contents witness omits the final `!`. Item 47 is a long multi-scan historical/rhetorical item; preserve its indentation, accumulative architecture and every source movement. Create `batches/batch-17.md`. Stop after item 48; do not begin item 49.
