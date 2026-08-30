@@ -137,7 +137,9 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 43 carries a dense political/historical chronology and the concluding Dravidian/Tamil-lineage argument; preserve the CE 350/575/850/875 sequence, `மாட்சி` (?) irony, `கண்ணியம், கடமை, கட்டுப்பாடு` triad and inscriptional close without outside reconciliation;
 - item 44 contains a comma-only title discrepancy, succession genealogy, explicit rationalist rejection of the funeral-pyre custom, accusation and counter-accusation around Aditya Karikalan's murder, and the iron-pillar/fly-wing plus Murugan/peacock images; translate suspicions as suspicions rather than settled history;
 - item 45 contains the Kattumannarkudi-inscription name list, competing Madhurantakan interpretations, a benefit-of-doubt turn, Rajaraja's crown-prince training and a dense closing date/age sequence; preserve all figures as source claims;
-- item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
+- item 46 has a final-exclamation title discrepancy and combines imperial praise with explicit social-cultural criticism; preserve the funeral-pyre/caste/Chaturvedi-Mangalam/Jain-Buddhist polemic and the complete family/court sequence without flattening either movement;
+- item 47 is a long multi-scan historical/rhetorical item with repeated star separators, a campaign sequence, Velakkara-force passage, temple/fort question, social-language critique, long inscriptional quotation, extended ruler list and visibly indented close; preserve all accumulation and indentation;
+- item 48 combines date/star uncertainty, administrative terminology, local-government/caste argument, religious-inclusiveness material, two Tirukkural quotations and the final Rajarajeswaram/Gangaikonda Cholapuram pairing; keep all source layers distinct;
 - item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
 - item 54 includes a concluding `குறிப்பு:` with Sangam poem references;
 - item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`;
@@ -186,19 +188,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 16 / item 45 / scan 219**.
+Reviewed through **Batch 17 / item 48 / scan 240**.
 
-- batches reviewed: **16/21**;
-- items translated and reviewed: **45/58**;
-- numbered-item scans covered: **210/290**;
+- batches reviewed: **17/21**;
+- items translated and reviewed: **48/58**;
+- numbered-item scans covered: **231/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 17 — items 46–48**:
+Translate and review **Batch 18 — items 49–51**:
 
-- item 46 `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` — scans **220–225**;
-- item 47 `அந்த வருங்காலமே; அருங்காலமாகும்!` — scans **226–235**;
-- item 48 `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!` — scans **236–240**.
+- item 49 `களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்!` — scans **241–245**;
+- item 50 `குருதிக்களமே; கொலு மண்டபம் ஆனது!` — scans **246–251**;
+- item 51 `திருமணங்களாலும் வருவதுண்டு திருப்பம்!` — scans **252–256**.
 
-Item 46 is a documented title-witness discrepancy: use canonical/title-page witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` for the displayed English title and retain contents witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` separately. Item 47 is a long multi-scan historical/rhetorical item; preserve its indentation, accumulative structure and every source movement. Create `batches/batch-17.md`, preserving item boundaries and scan provenance. Stop after item 48; do not begin item 49.
+Item 50 is a documented title-witness discrepancy: use canonical/title-page witness `குருதிக்களமே; கொலு மண்டபம் ஆனது!` for the displayed English title and retain contents witness `குருதிக் களமே! கொலு மண்டபம் ஆனது!` separately. Create `batches/batch-18.md`, preserving item boundaries and scan provenance. Stop after item 51; do not begin item 52.
