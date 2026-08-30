@@ -1,0 +1,98 @@
+name: Assemble Kaalap English Collection
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/assemble-kaalap-english.yml
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Assemble reviewed translation bodies
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          root = Path('poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en')
+          batches = root / 'batches'
+          output = root / 'kaalap-pezhaiyum-kavithai-saaviyum-en.md'
+
+          item_re = re.compile(
+              r'^## Item (\d+) — (.*?)\n\n'
+              r'Source metadata:\n.*?'
+              r'^### English translation\n\n'
+              r'(.*?)'
+              r'(?=^## Item \d+ — |^## Translator notes)',
+              re.MULTILINE | re.DOTALL,
+          )
+
+          items = []
+          for batch_no in range(1, 22):
+              path = batches / f'batch-{batch_no:02d}.md'
+              text = path.read_text(encoding='utf-8')
+              matches = item_re.findall(text)
+              if not matches:
+                  raise SystemExit(f'No translated items parsed from {path}')
+              for num, title, body in matches:
+                  body = body.rstrip()
+                  items.append((int(num), title.strip(), body))
+
+          numbers = [n for n, _, _ in items]
+          expected = list(range(1, 59))
+          if numbers != expected:
+              raise SystemExit(f'Item sequence mismatch: {numbers}')
+
+          parts = [
+              '# The Casket of Time and the Key of Poetry',
+              '',
+              '## காலப் பேழையும் கவிதைச் சாவியும் — English Translation',
+              '',
+              '<!-- Reader-facing assembly from reviewed Phase 4 translation batches 01–21. -->',
+              '',
+          ]
+          for num, title, body in items:
+              parts.append(f'## Item {num} — {title}')
+              parts.append('')
+              parts.append(body)
+              parts.append('')
+
+          assembled = '\n'.join(parts).rstrip() + '\n'
+
+          forbidden = ['Source metadata:', '## Translator notes', '## Batch review', 'translation_basis:']
+          for marker in forbidden:
+              if marker in assembled:
+                  raise SystemExit(f'Forbidden batch/review material leaked into collection: {marker}')
+
+          if assembled.count('\n## Item ') != 58:
+              raise SystemExit('Reader-facing collection does not contain exactly 58 item headings')
+          if not assembled.rstrip().endswith('(First Part Complete)'):
+              raise SystemExit('Collection does not end at the verified item-58 closing line')
+
+          output.write_text(assembled, encoding='utf-8')
+          print(f'assembled {len(items)} items -> {output} ({output.stat().st_size} bytes)')
+          PY
+
+      - name: Commit assembled collection
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md
+          if git diff --cached --quiet; then
+            echo "No assembly change"
+            exit 0
+          fi
+          git commit -m "Assemble complete English collection"
+          git push origin HEAD:main
