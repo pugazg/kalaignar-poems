@@ -113,33 +113,36 @@ Item 37 additionally preserves `printed_item_number: 36`; this must never alter 
 
 ## Source-sensitive item flags
 
-The translator must inspect the complete canonical item rather than infer content from the title. Particular structural/source features already established by Phase 3 include:
+The translator must inspect the complete canonical item rather than infer content from the title. Particular structural/source features already established or reinforced by reviewed batches include:
 
 - item 14 contains extended dramatic dialogue and scene structure;
 - item 21 includes a concluding `குறிப்பு:` block as part of the item;
-- item 24 includes a concluding star separator followed by a six-entry glossary that belongs to the item;
-- item 25 contains a concluding `குறிப்பு:` after a *Silappathikaram* quotation and preserves the Adiyarkku Nallar/U. Ve. Swaminatha Iyer attribution;
-- item 26 contains multiple star separators and a complete women-poet name list that must remain in source order;
-- item 29 contains a star separator plus attributed *Purananuru* 77 and 72 passages followed by Kalaignar's source explanations; preserve both textual layers;
-- item 30 closes by explicitly retaining uncertainty over which of two Karikalans is intended; do not resolve that uncertainty through outside knowledge;
-- item 31 has a visually verified canonical title reading `மகனும்` even though the body and closing movement concern Madhavi and Manimekalai as mother and daughter; preserve the title as printed and do not silently substitute `மகளும்`;
-- item 32 has a substantively different title-page witness, multiple internal star separators, a compact Sangam quotation on scan 155, and a source-supplied `இதன் பொருள்` explanation on scan 156; preserve both quoted and explanatory layers;
-- item 33 depends on the Tamil sound/segmentation distinction between false `செருப்பு + ஆழி` and source-preferred `செரு + பாழி + எறிந்த`; preserve enough Tamil/transliteration for that argument to remain intelligible;
-- item 34 contains source-form administrative vocabulary, a marriage quotation with an inline star, and the scan-166 English footnote `(Vide his “History of the Tamils” - Page 80)`; keep the note visibly attached to the source argument;
-- item 35 contains multiple internal star separators, the swan-cock poem, a domestic comic interlude, and a closing *vadakkiruthal* / *nadukal* friendship sequence; retain each movement distinctly;
-- item 36 contains a compact *Akananuru* quotation, a class-political belly simile, a violent eye-gouging narrative, reciprocal vows, a closing star separator and a full `குறிப்பு:` based on *Akananuru* 262; preserve the note as a source claim rather than external historical adjudication;
-- item 37 contains both the printed-number anomaly and title-witness discrepancy, extended dialogue, a wrestling narrative, *Purananuru* 82 and Kalaignar's separate explanation of its cot-weaver simile; retain all layers under stable item identity 37;
-- item 38 is structured as a sequence of attributed poet voices around Killivalavan, including the Karur counsel, agricultural/plough-front argument, Pannan episode and Aiyur Mudavanar's burial-urn elegy; keep attribution and sequence visible;
-- item 39 closes with the Paranjothi/Vatapi Ganapati source argument and a distinct *Periya Puranam* quotation; do not use outside history to reconcile the Kanchi, traveller, inscription or Vatapi claims inside the translation;
-- item 40 contains a title-witness punctuation discrepancy and a long Manavarman–Narasimhavarman friendship/restoration narrative; retain the ship stratagem and closing letter distinctly;
-- item 41 is an evidence-argument item about Kanchi as Pallava capital; preserve named scholars, site sequence, quotations and rhetorical questions as the source presents them;
-- item 42 contains two linked battle movements, multiple charter/source layers, the united-mice/united-tigers analogy, repeated `ஓடினான் ; ஓடினான்`, and concluding parenthetical evidence blocks; keep all source voices distinct;
-- item 43 carries a dense political/historical chronology and the concluding Dravidian/Tamil-lineage argument; preserve the CE 350/575/850/875 sequence, `மாட்சி` (?) irony, `கண்ணியம், கடமை, கட்டுப்பாடு` triad and inscriptional close without outside reconciliation;
-- item 44 contains a comma-only title discrepancy, succession genealogy, explicit rationalist rejection of the funeral-pyre custom, accusation and counter-accusation around Aditya Karikalan's murder, and the iron-pillar/fly-wing plus Murugan/peacock images; translate suspicions as suspicions rather than settled history;
-- item 45 contains the Kattumannarkudi-inscription name list, competing Madhurantakan interpretations, a benefit-of-doubt turn, Rajaraja's crown-prince training and a dense closing date/age sequence; preserve all figures as source claims;
-- item 46 has a final-exclamation title discrepancy and combines imperial praise with explicit social-cultural criticism; preserve the funeral-pyre/caste/Chaturvedi-Mangalam/Jain-Buddhist polemic and the complete family/court sequence without flattening either movement;
-- item 47 is a long multi-scan historical/rhetorical item with repeated star separators, a campaign sequence, Velakkara-force passage, temple/fort question, social-language critique, long inscriptional quotation, extended ruler list and visibly indented close; preserve all accumulation and indentation;
-- item 48 combines date/star uncertainty, administrative terminology, local-government/caste argument, religious-inclusiveness material, two Tirukkural quotations and the final Rajarajeswaram/Gangaikonda Cholapuram pairing; keep all source layers distinct;
+- item 24 includes a concluding star separator followed by a six-entry glossary;
+- item 25 contains a concluding `குறிப்பு:` after a *Silappathikaram* quotation;
+- item 26 contains multiple star separators and a complete women-poet name list;
+- item 29 contains a star separator plus attributed *Purananuru* 77 and 72 passages followed by Kalaignar's explanations;
+- item 30 closes by explicitly retaining uncertainty over which of two Karikalans is intended;
+- item 31 has visually verified canonical `மகனும்` despite the body concerning Madhavi and Manimekalai as mother and daughter;
+- item 32 has substantively different title witnesses, multiple star separators, a Sangam quotation and source-supplied `இதன் பொருள்` explanation;
+- item 33 depends on the Tamil segmentation distinction between false `செருப்பு + ஆழி` and source-preferred `செரு + பாழி + எறிந்த`;
+- item 34 contains source-form administrative vocabulary, a marriage quotation and the printed English footnote `(Vide his “History of the Tamils” - Page 80)`;
+- item 35 contains multiple internal star separators, the swan-cock poem, domestic comic interlude and *vadakkiruthal* / *nadukal* close;
+- item 36 contains an *Akananuru* quotation, class-political simile, violent eye-gouging narrative, reciprocal vows and a full `குறிப்பு:`;
+- item 37 contains the printed-number anomaly, title discrepancy, extended dialogue, wrestling narrative, *Purananuru* 82 and Kalaignar's cot-weaver explanation;
+- item 38 is structured as a sequence of attributed poet voices around Killivalavan;
+- item 39 closes with the Paranjothi/Vatapi Ganapati source argument and a distinct *Periya Puranam* quotation;
+- item 40 contains a title-witness punctuation discrepancy and long Manavarman–Narasimhavarman friendship/restoration narrative;
+- item 41 is an evidence-argument item about Kanchi as Pallava capital;
+- item 42 contains two linked battle movements, multiple charter/source layers, analogy, repeated `ஓடினான் ; ஓடினான்`, and concluding evidence blocks;
+- item 43 carries dense political/historical chronology and the concluding Dravidian/Tamil-lineage argument;
+- item 44 contains a comma-only title discrepancy, succession genealogy, rationalist rejection of funeral-pyre custom, competing Aditya Karikalan murder claims and two major metaphors;
+- item 45 contains the Kattumannarkudi-inscription list, competing Madhurantakan interpretations, benefit-of-doubt turn and dense date/age sequence;
+- item 46 has a final-exclamation title discrepancy and a political-achievement/social-cultural critique contrast;
+- item 47 is a long multi-scan historical/rhetorical item with repeated `★` transitions, long inscriptional quotation, ruler list and visibly indented close;
+- item 48 contains date/star uncertainty, administrative/local-government vocabulary, religious-inclusiveness claim and two Tirukkural layers;
+- item 49 contains source-internal succession wording that must not be silently reconciled, plus northern/Eelam/Ganga/Kadaram campaign chains and the `Mannaik Kadakkam / Mannai Konda Cholan` word relationship;
+- item 50 contains a spacing/punctuation title discrepancy, the Agavamallan envoy-humiliation episode, Kalaignar's explicit `கறை` condemnation, Koppam battle, onomatopoeic combat sequence, battlefield coronation and Jain ascetic's human-cost question;
+- item 51 contains the Koppam aftermath, Chalukya-Chola marriage genealogy, anti-*shastra* polemic, Kulothunga title/date list, *Kalingattu Parani*, Lanka-retreat and Leiden copper-plate claims;
 - item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
 - item 54 includes a concluding `குறிப்பு:` with Sangam poem references;
 - item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`;
@@ -188,19 +191,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 17 / item 48 / scan 240**.
+Reviewed through **Batch 18 / item 51 / scan 256**.
 
-- batches reviewed: **17/21**;
-- items translated and reviewed: **48/58**;
-- numbered-item scans covered: **231/290**;
+- batches reviewed: **18/21**;
+- items translated and reviewed: **51/58**;
+- numbered-item scans covered: **247/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 18 — items 49–51**:
+Translate and review **Batch 19 — items 52–54**:
 
-- item 49 `களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்!` — scans **241–245**;
-- item 50 `குருதிக்களமே; கொலு மண்டபம் ஆனது!` — scans **246–251**;
-- item 51 `திருமணங்களாலும் வருவதுண்டு திருப்பம்!` — scans **252–256**.
+- item 52 `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!` — scans **257–262**;
+- item 53 `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!` — scans **263–270**;
+- item 54 `தலையாலங்கானத்துச் செருவென்றான்!` — scans **271–276**.
 
-Item 50 is a documented title-witness discrepancy: use canonical/title-page witness `குருதிக்களமே; கொலு மண்டபம் ஆனது!` for the displayed English title and retain contents witness `குருதிக் களமே! கொலு மண்டபம் ஆனது!` separately. Create `batches/batch-18.md`, preserving item boundaries and scan provenance. Stop after item 51; do not begin item 52.
+Item 53 includes the scan-270 `குறிப்பு:` block as part of the canonical item. Item 54 is a documented title-witness discrepancy: use canonical/title-page witness `தலையாலங்கானத்துச் செருவென்றான்!` for the displayed English title and retain contents witness `தலையாலங்கானத்துச் செரு வென்றான்!` separately. Item 54 also includes a concluding `குறிப்பு:` with Sangam poem references. Create `batches/batch-19.md`, preserving item boundaries and scan provenance. Stop after item 54; do not begin item 55.
