@@ -125,6 +125,9 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 31 has a visually verified canonical title reading `மகனும்` even though the body and closing movement concern Madhavi and Manimekalai as mother and daughter; preserve the title as printed and do not silently substitute `மகளும்`;
 - item 32 has a substantively different title-page witness, multiple internal star separators, a compact Sangam quotation on scan 155, and a source-supplied `இதன் பொருள்` explanation on scan 156; preserve both quoted and explanatory layers;
 - item 33 depends on the Tamil sound/segmentation distinction between false `செருப்பு + ஆழி` and source-preferred `செரு + பாழி + எறிந்த`; preserve enough Tamil/transliteration for that argument to remain intelligible;
+- item 34 contains source-form administrative vocabulary, a marriage quotation with an inline star, and the scan-166 English footnote `(Vide his “History of the Tamils” - Page 80)`; keep the note visibly attached to the source argument;
+- item 35 contains multiple internal star separators, the swan-cock poem, a domestic comic interlude, and a closing *vadakkiruthal* / *nadukal* friendship sequence; retain each movement distinctly;
+- item 36 contains a compact *Akananuru* quotation, a class-political belly simile, a violent eye-gouging narrative, reciprocal vows, a closing star separator and a full `குறிப்பு:` based on *Akananuru* 262; preserve the note as a source claim rather than external historical adjudication;
 - item 37 contains a printed-number anomaly and extended narrative/dialogue movement;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
 - item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
@@ -175,19 +178,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 12 / item 33 / scan 160**.
+Reviewed through **Batch 13 / item 36 / scan 178**.
 
-- batches reviewed: **12/21**;
-- items translated and reviewed: **33/58**;
-- numbered-item scans covered: **151/290**;
+- batches reviewed: **13/21**;
+- items translated and reviewed: **36/58**;
+- numbered-item scans covered: **169/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 13 — items 34–36**:
+Translate and review **Batch 14 — items 37–39**:
 
-- item 34 `மறையவில்லை; மறுமலர்ச்சி பெற்றது!` — scans **161–166**;
-- item 35 `உயிரினும் மேலான உயர்ந்த நட்பு!` — scans **167–172**;
-- item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!` — scans **173–178**.
+- item 37 `அன்பால் அவனை விலைகொள்ள முடியுமோ?` — scans **179–185**;
+- item 38 `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!` — scans **186–190**;
+- item 39 `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!` — scans **191–194**.
 
-Create `batches/batch-13.md`, preserving item boundaries, scan provenance, quoted material and all internal structural devices. Stop after item 36; do not begin item 37.
+Item 37 is both a documented title-witness discrepancy and a printed-number anomaly. Preserve stable item **37**, retain `printed_item_number: 36` only as source metadata, use canonical/title-page witness `அன்பால் அவனை விலைகொள்ள முடியுமோ?` for the displayed English title, and keep contents witness `அன்பால் அவனை விலை கொள்ள முடியுமா?` separately traceable. Create `batches/batch-14.md`, preserving item boundaries and scan provenance. Stop after item 39; do not begin item 40.
