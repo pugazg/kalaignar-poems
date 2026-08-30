@@ -9,181 +9,133 @@ Branch: `main`
 
 **Treat live GitHub `main` as authoritative.**
 
-A SHA, count, phase label or next-step instruction copied into an older chat/prompt is only a checkpoint. If live `main` has advanced, use the newer repository state and do not revert completed work.
-
-The controlling source scan remains the highest textual authority for Tamil source wording unless a documented user instruction explicitly establishes another lexical/editorial control.
+The controlling source scan remains the highest textual authority for Tamil wording unless a documented user instruction establishes another lexical/editorial control.
 
 ## Mandatory startup for every continuation
 
-Before changing an existing work:
-
 1. fetch live `main` and note the current HEAD;
-2. read `POEM_PROCESSING_GUIDE.md` completely;
-3. read `TRANSCRIPTION_PHASE_PLAN.md` completely;
-4. read root `README.md` and `NEXT_CHAT_PROMPT.md` completely;
-5. read the target work's current README, source metadata, page map, audit/control records and relevant phase/release files;
-6. inspect existing outputs before creating anything;
-7. use the controlling source directly whenever the requested activity requires source verification;
-8. never commit source PDFs;
-9. if status-bearing documents disagree, reconcile them to the newest live work-level evidence instead of restarting an older phase;
-10. when the user says **“Proceed with next activity”**, execute the exact next operation recorded in live state.
+2. read `POEM_PROCESSING_GUIDE.md` and `TRANSCRIPTION_PHASE_PLAN.md`;
+3. read root `README.md` and `NEXT_CHAT_PROMPT.md`;
+4. read the target work's README, source metadata, page map and audit;
+5. inspect existing boundary page records before continuing;
+6. never commit source PDFs;
+7. when status documents disagree, reconcile to the newest live work-level evidence;
+8. when the user says **“Proceed with next activity”**, execute the exact next operation recorded in live state.
 
 ---
 
 # CURRENT ACTIVE WORK — கலைஞரின் கவிதைகள்
 
 Work directory: `poems/kalaignarin-kavithaigal/`  
-Tamil title: **கலைஞரின் கவிதைகள்**  
 Author: **கலைஞர் மு. கருணாநிதி**  
-Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
+Source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
 ## Durable Phase-1 state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — 100/150 AVAILABLE SCANS RECORDED.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–125 recorded.**
 
-- available physical scans: **150**;
 - file size: **486,369,088 bytes**;
+- source PDF length: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
+- current ChatGPT Files page renderer exposes only scans **1–150**;
+- **important correction:** the old `150-page PDF / 150-scan tranche` interpretation was wrong; 150 is only the current renderer-access limit;
 - SHA-256: **PENDING exact-byte computation; do not guess**;
-- source type: image-based scanned PDF with no usable parsed text layer;
-- publisher visible: **பாரதி பதிப்பகம்**;
-- English imprint: **fourth edition, March 1995**;
-- Phase 1 page records created: **100/150**;
-- cumulative status: **10 `partial`, 90 `needs-review`, 0 `verified`**;
+- edition: **fourth edition, March 1995**;
+- Phase 1 records: **125**;
+- cumulative status: **10 `partial`, 115 `needs-review`, 0 `verified`**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - translation: **blocked until Tamil final clearance**.
 
-Completed Phase-1 batches:
+Completed batches:
 
 - Batch 01 — scans **1–25**;
 - Batch 02 — scans **26–50**;
 - Batch 03 — scans **51–75**;
-- Batch 04 — scans **76–100**.
+- Batch 04 — scans **76–100**;
+- Batch 05 — scans **101–125**.
 
-Current work boundaries:
+Current source boundaries:
 
-- scans 1–17 — cover/title/imprint/front matter/contents;
-- scans 18–31 — `இதயத்தைத் தந்திடு அண்ணா`, closed on scan 31;
-- scans 32–33 — `இனமான எந்தல்கள்` divider/verso;
-- scans 34–42 — `தென்னவன் காதை`, closed on scan 42;
-- scans 43–54 — `இந்திரஜித்`, closed on scan 54;
-- scans 55–61 — `இரணியன்`, closed on scan 61;
-- scans 62–69 — `வாளி மன்னன்`, closed on scan 69;
-- scans 70–71 — `கவியரங்கக் கவிதைகள்` divider/verso;
-- scans 72–79 — `விடுதலை வீரர்கள்`, closed on scan 79;
-- scans 80–89 — `ஐம்புலன்`, closed on scan 89;
-- scans 90–100 — `பிலவங்க ஆண்டு`, closed on scan 100.
+- `இதயத்தைத் தந்திடு அண்ணா` closes 31;
+- `தென்னவன் காதை` 34–42;
+- `இந்திரஜித்` 43–54;
+- `இரணியன்` 55–61;
+- `வாளி மன்னன்` 62–69;
+- `விடுதலை வீரர்கள்` 72–79;
+- `ஐம்புலன்` 80–89;
+- `பிலவங்க ஆண்டு` 90–100;
+- `காதலா - வீரமா?` 101–115, closes on 115;
+- `அருமறையில் அறுவர்` opens on 116 and continues beyond 125.
+
+Title evidence newly clarified in Batch 05:
+
+- scan 101 clearly reads **`காதலா - வீரமா?`**;
+- scan 116 clearly reads **`அருமறையில் அறுவர்`**;
+- earlier blurred contents-page readings remain for Phase-2 reconciliation rather than silent rewriting.
 
 ## Durable blur-control rule
 
-The user explicitly warned that this PDF contains blurred text. Therefore:
-
-- uncertain text must remain explicitly unresolved rather than guessed;
-- `⟦…⟧` in Phase-1 page files is an editorial uncertainty marker, not source punctuation;
+- uncertain text remains explicit `⟦…⟧`, never guessed;
 - do not fill blur from OCR, memory, grammar, metre, historical expectation or another edition;
-- do not copy the separate `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` transcriptions into this anthology witness;
-- the existing user-directed caste-slur exclusion applicable to `தென்னவன் காதை` must not be reintroduced through this anthology;
-- source-visible speaker labels/performance notes are retained where legible;
-- do not infer printed page numbers where the numeral is not positively visible; scans 80 and 90 are current examples;
-- `needs-review` is expected and is not a failure: those pages wait for the independent Phase-2 visual/glyph pass.
+- do not copy the separate `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` source witnesses into this anthology;
+- preserve source-visible speaker labels/performance notes where legible;
+- record only visibly printed page numbers;
+- `needs-review` is expected and waits for independent Phase-2 visual/glyph review.
 
-## Critical source-completeness boundary
+The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and must not be reintroduced.
 
-The supplied 150-scan PDF is **not the complete printed edition**.
+## Source-access correction / blocker
 
-Direct source evidence:
-
-- physical scans **15–17** contain the printed contents;
-- those contents list entries through at least printed page **444**;
-- physical scan **150** visibly carries printed page **133** and still contains continuing body text.
+The full user-supplied PDF has **more than 450 pages**, but the current Files renderer exposes only through physical page 150. A page-151 image request did not yield a rendered page.
 
 Therefore:
 
-- the available PDF tranche can be fully transcribed as 150/150 scans;
-- 150/150 must **never** be described as whole-book completion;
-- whole-book source completeness, Tamil final clearance and release remain blocked until continuation source is supplied and reconciled.
+- scan 150 is **not** the end of the PDF;
+- Batch 06 may process scans 126–150 now;
+- after that, Phase 1 must continue with scan 151 onward from the same PDF as soon as tooling exposes the remainder;
+- do **not** begin Phase 2 merely because the present renderer reaches scan 150.
 
 ## Exact next activity
 
-Begin **Phase 1 transcription batch 05 — physical scans 101–125**.
+Execute **Phase 1 Batch 06 — physical scans 126–150**.
 
 Create:
 
-`pages/0101.md` through `pages/0125.md`
+`pages/0126.md` through `pages/0150.md`
 
-Rules:
-
-- direct visual transcription only;
-- preserve spelling, punctuation, lineation, headings, quotation marks and unusual forms where legible;
-- distinguish later physical marks/labels from edition text;
-- record only visibly printed page numbers;
-- uncertain blurred spans remain explicit `⟦…⟧` markers;
-- do not use another source witness to complete them;
-- do not begin Phase 2 in the same activity.
-
-At batch completion update `audit.md`, `indexes/page-map.md`, and milestone status files if needed.
-
-Governing active-work records:
-
-- `poems/kalaignarin-kavithaigal/README.md`;
-- `poems/kalaignarin-kavithaigal/SOURCE_INTAKE.md`;
-- `poems/kalaignarin-kavithaigal/metadata/source.md`;
-- `poems/kalaignarin-kavithaigal/indexes/page-map.md`;
-- `poems/kalaignarin-kavithaigal/audit.md`.
+Continue directly from unfinished `அருமறையில் அறுவர்` at scan 125. Maintain the conservative blur policy. At batch completion, update `audit.md`, `indexes/page-map.md`, README/handover state, and record the tooling-access requirement for scan 151 onward.
 
 ---
 
 # Completed work — காலப் பேழையும் கவிதைச் சாவியும்
 
-Work directory: `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
-
 - Tamil archival/source layer: **FINAL-CLEARED**;
 - English Phase 4: **COMPLETE — RELEASE-CLEARED — PASS**;
-- canonical Tamil items: **58/58**;
-- English items: **58/58**;
+- canonical/English items: **58/58**;
 - standalone English poem files: **58/58**;
-- final source-coverage/release review: **PASS**;
 - unresolved release issues: **0**.
-
-There is no remaining routine activity for this released work. Reopen only for an explicit new scope or a genuine source-backed discrepancy.
 
 ---
 
 # Paused work — தென்னவன் காதை
 
-Work directory: `poems/thennan-kathai/`.
-
-Tamil archival/source layer: **FINAL-CLEARED**. English translation is partially complete and paused.
+Tamil archival/source layer: **FINAL-CLEARED**; English translation partially complete and paused.
 
 When explicitly resumed:
 
 - next permitted batch: **EN-03 — scans 149–151 only**;
-- then perform **Gate C omission/speech review** before EN-04;
-- preserve the documented scan-151 user-directed omission exactly; do not restore, reconstruct, quote, transliterate, paraphrase, replace or indirectly supply the excluded term unless the user explicitly changes that instruction.
-
-The fact that `தென்னவன் காதை` also appears in the active 1995 anthology does not merge these source witnesses.
+- then Gate C omission/speech review;
+- preserve the documented user-directed omission exactly unless the user explicitly changes it.
 
 ---
 
 # Completed work — இதயத்தைத் தந்திடு அண்ணா
 
-Work directory: `poems/idhayathai-thanthidu-anna/`.
-
 - Tamil archival/source layer: **COMPLETE**;
 - English translation: **RELEASE-COMPLETE**.
-
-The fact that `இதயத்தைத் தந்திடு அண்ணா` also appears in the active 1995 anthology does not authorize copying the released standalone transcription into the new source witness.
 
 ---
 
 # General continuation rule
 
-For every work:
-
-- live `main` is authoritative;
-- continue, do not duplicate;
-- preserve controlling-source evidence;
-- respect declared phase/gate/completion boundaries;
-- keep user lexical/editorial controls durable;
-- synchronize stale phase/progress/next-activity claims at milestones and handoffs;
-- do not merge distinct printed witnesses merely because they contain the same titled work.
+Live `main` is authoritative. Continue, do not duplicate; preserve controlling-source evidence and declared phase/gate boundaries; keep user editorial controls durable; never merge distinct printed witnesses merely because they contain the same titled work.
