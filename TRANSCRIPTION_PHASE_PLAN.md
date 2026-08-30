@@ -53,41 +53,63 @@ English translation or other derivative/release work begins only after the Tamil
 
 Translation/release follows the existing voice-fidelity and editorial-review rules in `POEM_PROCESSING_GUIDE.md` and the relevant work-specific documents.
 
-## Current application — காலப் பேழையும் கவிதைச் சாவியும்
+## Current application — கலைஞரின் கவிதைகள்
 
-`poems/kaalap-pezhaiyum-kavithai-saaviyum/` has completed the full phase-separated workflow.
+Active work: `poems/kalaignarin-kavithaigal/`.
 
-Final status:
+Controlling source currently supplied:
 
-- controlling PDF: **306 physical scans**;
-- Phase 1 transcription: **306/306 — COMPLETE**;
-- Phase 2 source-critical verification: **306/306 — COMPLETE**;
-- unresolved Tamil readings: **0**;
-- Phase 3 scan/page reconciliation: **COMPLETE**;
-- Phase 3 boundary/page-join audit: **58/58 — PASS**;
-- Phase 3 title-witness reconciliation: **14/14 — PASS**;
-- canonical Tamil assembly: **58/58 — COMPLETE**;
-- assembly/source-completeness review: **PASS**;
-- Tamil final clearance: **PASS — FINAL-CLEARED**;
-- Phase 4 translation batches: **21/21 reviewed PASS**;
-- English items: **58/58**;
-- English numbered-item scan coverage: **290/290**, scans **10–299**;
-- complete English collection assembly: **COMPLETE**;
-- standalone English item files: **58/58**;
-- editorial/terminology/Kalaignar-voice review: **PASS**;
-- final source-coverage/release review: **PASS — RELEASE-CLEARED**;
-- unresolved release issues: **0**;
-- Tamil `sections/` or `pages/` files changed during Phase 4: **0**.
+`TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
-Durable records:
+### Source intake state
 
-- `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_CANONICAL_SOURCE_REVIEW.md`;
-- `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-- `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
-- `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/RELEASE_REPORT.md`.
+- available physical scans: **150**;
+- file size: **486,369,088 bytes**;
+- SHA-256: **pending exact-byte computation; never guess**;
+- source title: **கலைஞரின் கவிதைகள்**;
+- author: **கலைஞர் மு. கருணாநிதி**;
+- publisher visible: **பாரதி பதிப்பகம்**;
+- edition visible in English imprint: **fourth edition, March 1995**;
+- Phase 1 page records: **0/150**;
+- Phase 2: **not started**;
+- Phase 3: **not started**;
+- Phase 4: **blocked**.
 
-The numbered first-part range closes on scan **299**; scan **300** begins separate end matter.
+### Critical partial-source boundary
 
-**No further routine phase activity remains for this work.** A later change requires explicit user scope or a documented source-backed reopen.
+The supplied PDF is not the complete printed edition.
+
+Source-supported evidence:
+
+- physical scans **15–17** are contents pages;
+- those contents list entries beginning through at least printed page **444**;
+- physical scan **150** visibly carries printed page **133** and ends with continuing body text.
+
+Accordingly, the phase framework applies in two distinct senses:
+
+1. the **available 150-scan source tranche** can complete Phase 1 and later source-critical verification for the pages actually supplied;
+2. the **printed book as a whole** cannot reach source-completeness review, Tamil final clearance or release until continuation source is supplied and reconciled.
+
+No status document may collapse `150/150 available scans` into a whole-book completion claim.
+
+### Cross-witness rule
+
+This anthology contains works also represented by other controlling sources in the repository, including at least `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`.
+
+Those existing texts are not transcription authority for this edition. Every page of the 1995 anthology must be read independently from its own controlling scan. Differences in spelling, punctuation, lineation, wording or paratext must be preserved rather than harmonized.
+
+### Exact next activity
+
+Execute **Phase 1 batch 01 — physical scans 1–25**.
+
+Create `pages/0001.md` through `pages/0025.md` from direct visual inspection. This batch includes cover/title/imprint/introduction, all contents scans, the divider/verso, and the opening pages of `இதயத்தைத் தந்திடு அண்ணா!`.
+
+First-pass page records should normally be `partial`. Record only visibly printed page numbers. Do not begin Phase 2, Phase 3 or translation during this activity.
+
+At batch completion update `audit.md` and `indexes/page-map.md` with the durable boundary and exact next Phase-1 batch.
+
+## Completed prior application — காலப் பேழையும் கவிதைச் சாவியும்
+
+`poems/kaalap-pezhaiyum-kavithai-saaviyum/` completed the full phase-separated workflow and is **Tamil FINAL-CLEARED / English RELEASE-CLEARED**. Do not reopen its completed gates merely because another source has become active.
 
 For every continuation, live GitHub `main` supersedes older checkpoint SHAs or copied prompts.
