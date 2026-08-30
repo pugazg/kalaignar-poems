@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; 58/58 items translated and reviewed; translation batching COMPLETE.**
+**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review NEXT.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -130,7 +130,7 @@ The completed batch workflow was:
 9. record non-literal solutions or transliteration decisions in review notes;
 10. mark a batch `reviewed — PASS` only after every assigned item passes.
 
-Only reviewed batches are eligible for final collection assembly.
+Only reviewed batches were eligible for final collection assembly; that assembly is now complete.
 
 ## Reviewed closures
 
@@ -159,9 +159,9 @@ Batches **01–21** are reviewed PASS. Their batch files are the durable transla
 
 With all 21 batches reviewed:
 
-1. assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from reviewed batch translation bodies only — **NEXT**;
-2. verify items **1–58** occur exactly once and in order;
-3. run `EDITORIAL_CONSISTENCY_REVIEW.md` across names, titles, terminology, punctuation, dialogue, literary references and recurring rhetorical patterns;
+1. assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from reviewed batch translation bodies only — **COMPLETE**;
+2. verify items **1–58** occur exactly once and in order — **PASS at assembly gate**;
+3. run `EDITORIAL_CONSISTENCY_REVIEW.md` across names, titles, terminology, punctuation, dialogue, literary references and recurring rhetorical patterns — **NEXT**;
 4. verify all title-witness metadata remains traceable;
 5. ensure translator notes/review prose do not leak into verse unless deliberately designated;
 6. run complete source-coverage and Kalaignar-voice review;
@@ -169,6 +169,6 @@ With all 21 batches reviewed:
 
 ## Exact next activity
 
-Assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from `batches/batch-01.md` through `batches/batch-21.md`.
+Create `EDITORIAL_CONSISTENCY_REVIEW.md` and perform a full-work review of `kaalap-pezhaiyum-kavithai-saaviyum-en.md`.
 
-Assembly must use only the reviewed reader-facing item bodies. Exclude batch front matter, source metadata, translator notes and batch-review prose. Include items **1–58 exactly once and in order**, preserve all source-visible separators and item-internal notes, preserve the established title-witness decisions, keep item 58's `(First Part Complete)` ending, and stop before separate scan-300 end matter. Do not alter Tamil canonical/page files.
+The review must cover stable item order/completeness, recurring proper names and transliterations, literary and administrative terminology, punctuation and quotation conventions, dialogue/speaker distinction, repeated rhetoric, direct address, satire/polemic, source-visible separators and item-internal notes, all 14 title-witness decisions, and the item-58 closing boundary. Compare against the reviewed batch records when a consistency question arises. Do not silently repair source claims through outside knowledge and do not alter the Tamil canonical/page layer. Mark this gate PASS only after the complete 58-item assembled collection has been reviewed; `RELEASE_REPORT.md` remains blocked until then.

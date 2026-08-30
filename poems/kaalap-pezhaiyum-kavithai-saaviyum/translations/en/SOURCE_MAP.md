@@ -201,9 +201,10 @@ Reviewed through **Batch 21 / item 58 / scan 299**.
 - numbered-item scans covered: **290/290**;
 - unresolved reviewed-batch issues: **0**;
 - Tamil canonical/page files modified during translation: **0**.
+- reader-facing collection assembly: **COMPLETE — 58/58 items exactly once and in order**.
 
 ## Exact next activity
 
-Assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from the reader-facing translation bodies in `batches/batch-01.md` through `batches/batch-21.md`.
+Perform the full-work editorial/terminology/Kalaignar-voice consistency review of `kaalap-pezhaiyum-kavithai-saaviyum-en.md` and record the result in `EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-Include items **1–58 exactly once and in order**. Preserve translated titles, line/stanza architecture, source-visible separators and item-internal source notes. Exclude batch front matter, source-metadata blocks, translator notes and batch-review prose. Preserve all established title-witness decisions and item 58's `(First Part Complete)` ending. Stop before separate scan-300 end matter. Do not alter Tamil canonical/page files.
+Use the reviewed batch records and this source map to check all **58 items** for internal consistency while preserving source fidelity: recurring names and transliterations, literary works and administrative terms, title-witness decisions, punctuation and dialogue treatment, rhetorical repetition, source-visible separators, item-internal notes and the verified item-58 boundary. Do not alter Tamil canonical/page files and do not begin the release report until this review gate passes.
