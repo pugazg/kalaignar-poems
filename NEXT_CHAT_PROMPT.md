@@ -6,13 +6,9 @@ Continue the **Kalaignar Poems archival project** directly in:
 
 Branch: `main`
 
-Active work:
+Active work: `poems/kalaignarin-kavithaigal/`
 
-`poems/kalaignarin-kavithaigal/`
-
-Controlling source:
-
-`TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
+Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
 Use the GitHub connector and work directly on `main`.
 
@@ -22,67 +18,59 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 
 ## CURRENT DURABLE STATE
 
-**Phase 1 transcription is complete through physical scan 125.**
+**Phase 1 transcription is complete through physical scan 150 of 465.**
 
+Exact source identity:
+
+- physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
-- PDF length: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
-- current Files page renderer exposes pages **1–150 only**;
-- old `150-page PDF` / `150-scan tranche` statements were incorrect and have been corrected;
-- Phase 1 records: **125**;
-- cumulative status: **10 `partial`, 115 `needs-review`, 0 `verified`**;
-- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125**;
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
+- edition: **fourth edition, March 1995**.
+
+The old `150-page PDF` interpretation was incorrect and has been withdrawn. Direct source-byte access confirms the full 465-page PDF, and scan 151 can be rendered directly from the same source.
+
+Phase state:
+
+- Phase 1 records: **150/465**;
+- cumulative status: **10 `partial`, 140 `needs-review`, 0 `verified`**;
+- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-Current source boundary:
+Current boundary:
 
-- `காதலா - வீரமா?` opens scan 101 and closes scan 115;
-- `அருமறையில் அறுவர்` opens scan 116 and **continues beyond scan 125**.
-
-Batch-05 clearer title witnesses:
-
-- scan 101: `காதலா - வீரமா?`;
-- scan 116: `அருமறையில் அறுவர்`.
-
-Do not silently rewrite the earlier blurred contents records; reconcile them in the later verification/title-witness phase.
+- `அருமறையில் அறுவர்` closes scan 127;
+- `புதிய பாதை` spans 128–137;
+- `உடைமைகள் பத்து` spans 138–143;
+- `நீர்க் குடும்பம்` opens scan 144 and **continues beyond scan 150**;
+- scan 151 visibly prints page 134 and continues that same item.
 
 ## CRITICAL — BLURRED TEXT
 
 - use `⟦…⟧` for unresolved Phase-1 spans;
 - do not reconstruct from OCR, memory, metre, grammar, historical context or another edition;
-- do not copy the separate source witnesses of `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` into this anthology;
+- do not copy separate source witnesses of `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` into this anthology;
 - preserve source-visible speaker labels/performance notes where legible;
 - pages with unresolved wording remain `needs-review`.
 
 The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
-## CRITICAL — SOURCE EXTENT / TOOLING LIMIT
-
-The PDF itself has **more than 450 pages**. The current page-image renderer stopping at 150 is a tooling limit, not the source end.
-
-A page-151 image request through the current Files renderer did not return a rendered image. Therefore:
-
-- process scans 126–150 now;
-- do not call scan 150 the end of the PDF;
-- after scan 150, continue with 151 onward from the same PDF when tooling exposes those pages;
-- do not start Phase 2 just because the current renderer reaches 150.
-
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 06 — physical scans 126–150**.
+Execute **Phase 1 Batch 07 — physical scans 151–175**.
 
 Create:
 
-`poems/kalaignarin-kavithaigal/pages/0126.md` through `pages/0150.md`
+`poems/kalaignarin-kavithaigal/pages/0151.md` through `pages/0175.md`
 
-Continue directly from `அருமறையில் அறுவர்` at scan 125. Use direct visual transcription only and retain the conservative blur policy.
+Continue directly from the unfinished `நீர்க் குடும்பம்` item at scan 150. Use direct visual transcription from the same controlling PDF, retaining the conservative blur protocol.
 
 At completion:
 
 - update `audit.md` and `indexes/page-map.md`;
 - synchronize README/HANDOVER/NEXT prompt;
-- record the access blocker for scan 151 onward if the renderer still cannot expose it;
+- record the exact next Phase-1 batch;
 - **do not begin Phase 2**.
 
 If live `main` has advanced beyond this checkpoint, continue from the newer boundary.
