@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Audit assembled English collection against reviewed batches
+      - name: Apply editorial consistency corrections and rebuild collection
         shell: bash
         run: |
           python3 - <<'PY'
@@ -28,68 +28,120 @@ jobs:
           import re
 
           root = Path('poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en')
+          batches = root / 'batches'
           assembled_path = root / 'kaalap-pezhaiyum-kavithai-saaviyum-en.md'
-          assembled = assembled_path.read_text(encoding='utf-8')
 
-          batch_item_re = re.compile(
+          # These are English-layer consistency edits only. They do not touch Tamil
+          # canonical/page files or rewrite source-controlled Tamil spelling variants.
+          replacements = [
+              ('civilizational', 'civilisational'),
+              ('civilization', 'civilisation'),
+              ('uncivilized', 'uncivilised'),
+              ('civilized', 'civilised'),
+              ('Muthamil', 'Muttamil'),
+              ('Muthamizh', 'Muttamil'),
+              ('Thirumavalavan', 'Tirumavalavan'),
+              ('Peruvalathan', 'Peruvalattan'),
+              ('Peruvaluthi', 'Peruvazhuthi'),
+              ('Karikkannar', 'Karikkannanar'),
+              ('Ottakoothar', 'Ottakkoothar'),
+              ('B.C.', 'BCE'),
+              ('A.D.', 'CE'),
+              ('## Item 41 — Let Us Protect It: the Pallava Capital!',
+               '## Item 41 — Let Us Protect It: The Pallava Capital!'),
+          ]
+
+          applied = Counter()
+          for batch_no in range(1, 22):
+              path = batches / f'batch-{batch_no:02d}.md'
+              text = path.read_text(encoding='utf-8')
+              original = text
+              for old, new in replacements:
+                  c = text.count(old)
+                  if c:
+                      applied[f'{old} -> {new}'] += c
+                      text = text.replace(old, new)
+              if text != original:
+                  path.write_text(text, encoding='utf-8')
+
+          # Reassemble strictly from the reviewed batch translation bodies after the
+          # editorial corrections, preserving the same reader-facing assembly rules.
+          item_re = re.compile(
               r'^## Item (\d+) — (.*?)\n\n'
-              r'Source metadata:\n\n'
-              r'(.*?)\n\n'
+              r'Source metadata:\n.*?'
               r'^### English translation\n\n'
               r'(.*?)'
               r'(?=^## Item \d+ — |^## Translator notes)',
               re.MULTILINE | re.DOTALL,
           )
-          assembled_item_re = re.compile(
-              r'^## Item (\d+) — (.*?)\n\n'
-              r'(.*?)'
-              r'(?=^## Item \d+ — |\Z)',
-              re.MULTILINE | re.DOTALL,
-          )
 
-          batch_items = []
+          items = []
           batch_meta = {}
           for batch_no in range(1, 22):
-              path = root / 'batches' / f'batch-{batch_no:02d}.md'
+              path = batches / f'batch-{batch_no:02d}.md'
               text = path.read_text(encoding='utf-8')
-              for num, title, meta, body in batch_item_re.findall(text):
-                  n = int(num)
-                  batch_items.append((n, title.strip(), body.rstrip()))
-                  batch_meta[n] = meta
-
-          assembled_items = [
-              (int(num), title.strip(), body.rstrip())
-              for num, title, body in assembled_item_re.findall(assembled)
-          ]
+              matches = item_re.findall(text)
+              if not matches:
+                  raise SystemExit(f'No translated items parsed from {path}')
+              # Capture metadata separately for title-witness verification.
+              meta_re = re.compile(
+                  r'^## Item (\d+) — .*?\n\nSource metadata:\n\n(.*?)\n\n### English translation',
+                  re.MULTILINE | re.DOTALL,
+              )
+              for num, meta in meta_re.findall(text):
+                  batch_meta[int(num)] = meta
+              for num, title, body in matches:
+                  items.append((int(num), title.strip(), body.rstrip()))
 
           expected_numbers = list(range(1, 59))
-          batch_numbers = [n for n, _, _ in batch_items]
-          assembled_numbers = [n for n, _, _ in assembled_items]
+          numbers = [n for n, _, _ in items]
+          if numbers != expected_numbers:
+              raise SystemExit(f'Item sequence mismatch after editorial corrections: {numbers}')
 
+          parts = [
+              '# The Casket of Time and the Key of Poetry',
+              '',
+              '## காலப் பேழையும் கவிதைச் சாவியும் — English Translation',
+              '',
+              '<!-- Reader-facing assembly from reviewed Phase 4 translation batches 01–21. -->',
+              '',
+          ]
+          for num, title, body in items:
+              parts.extend([f'## Item {num} — {title}', '', body, ''])
+          assembled = '\n'.join(parts).rstrip() + '\n'
+          assembled_path.write_text(assembled, encoding='utf-8')
+
+          # Full structural/provenance recheck after corrections.
           checks = []
           def check(label, ok, detail=''):
               checks.append((label, bool(ok), detail))
 
-          check('Reviewed batches parse to items 1–58 exactly once and in order', batch_numbers == expected_numbers, str(batch_numbers))
+          check('Reviewed batches parse to items 1–58 exactly once and in order', numbers == expected_numbers, str(numbers))
+
+          assembled_item_re = re.compile(
+              r'^## Item (\d+) — (.*?)\n\n(.*?)(?=^## Item \d+ — |\Z)',
+              re.MULTILINE | re.DOTALL,
+          )
+          assembled_items = [
+              (int(num), title.strip(), body.rstrip())
+              for num, title, body in assembled_item_re.findall(assembled)
+          ]
+          assembled_numbers = [n for n, _, _ in assembled_items]
           check('Assembled collection contains items 1–58 exactly once and in order', assembled_numbers == expected_numbers, str(assembled_numbers))
 
-          batch_by_num = {n: (title, body) for n, title, body in batch_items}
+          batch_by_num = {n: (title, body) for n, title, body in items}
           assembled_by_num = {n: (title, body) for n, title, body in assembled_items}
-          mismatches = []
-          for n in expected_numbers:
-              if batch_by_num.get(n) != assembled_by_num.get(n):
-                  mismatches.append(n)
+          mismatches = [n for n in expected_numbers if batch_by_num.get(n) != assembled_by_num.get(n)]
           check('Every assembled title/body is byte-for-byte identical to its reviewed batch title/body', not mismatches, f'mismatched items: {mismatches}')
 
           scan_markers = [int(x) for x in re.findall(r'<!-- scan (\d+) -->', assembled)]
           expected_scans = list(range(10, 300))
-          check('Scan provenance markers cover 10–299 exactly once and in order', scan_markers == expected_scans, f'count={len(scan_markers)} first={scan_markers[:3]} last={scan_markers[-3:]}')
+          check('Scan provenance markers cover 10–299 exactly once and in order', scan_markers == expected_scans, f'count={len(scan_markers)}')
 
           forbidden = ['Source metadata:', '## Translator notes', '## Batch review', 'translation_basis:', 'title-witness status:']
           leaked = [x for x in forbidden if x in assembled]
           check('Batch metadata/review prose does not leak into reader-facing collection', not leaked, f'leaked markers: {leaked}')
-
-          check('Collection closes exactly at verified Item 58 boundary', assembled.rstrip().endswith('(First Part Complete)'), assembled.rstrip()[-120:])
+          check('Collection closes exactly at verified Item 58 boundary', assembled.rstrip().endswith('(First Part Complete)'), assembled.rstrip()[-100:])
           check('First Part Complete occurs exactly once', assembled.count('(First Part Complete)') == 1, f"count={assembled.count('(First Part Complete)')}")
 
           discrepancy_items = [18,22,25,26,29,31,32,37,40,44,46,50,54,58]
@@ -100,31 +152,42 @@ jobs:
               if not all(x in meta for x in needed):
                   missing_discrepancy_metadata.append(n)
           check('All 14 title-witness discrepancy items retain canonical/contents/status metadata in reviewed batches', not missing_discrepancy_metadata, f'missing: {missing_discrepancy_metadata}')
-
           item37_meta = batch_meta.get(37, '')
           check('Item 37 stable identity / printed-number anomaly remains documented', 'printed item number on title page: **36**' in item37_meta and 'stable item: **37**' in item37_meta, '')
 
-          star_forms = Counter(re.findall(r'(?m)^(★(?:\s+★){0,2})$', assembled))
-          note_count = assembled.count('**Note:**')
-          parenthetical_note_markers = sum(1 for line in assembled.splitlines() if line.startswith('(Based upon ') or line.startswith('(The collection of ideas') or line.startswith('(Vide his '))
+          # Explicitly verify corrected cross-work editorial conventions.
+          old_forms = [
+              'civilization', 'civilizational', 'civilized', 'uncivilized',
+              'Muthamil', 'Muthamizh', 'Thirumavalavan', 'Peruvalathan',
+              'Peruvaluthi', 'Karikkannar', 'Ottakoothar', 'B.C.', 'A.D.',
+              '## Item 41 — Let Us Protect It: the Pallava Capital!'
+          ]
+          leftovers = {x: assembled.count(x) for x in old_forms if assembled.count(x)}
+          check('Targeted editorial inconsistency forms are absent from reader-facing collection', not leftovers, str(leftovers))
 
-          variant_groups = {
-              'Muttamil family': ['Muttamil', 'Muthamil', 'Muthamizh', 'Muttamizh'],
-              'Kaveri/Cauvery': ['Kaveri', 'Cauvery'],
-              'Tolkappiyam variants': ['Tolkappiyam', 'Tolkāppiyam', 'Tholkappiyam'],
-              'Silappathikaram variants': ['Silappathikaram', 'Silappadikaram', 'Silapathikaram'],
-              'Purananuru variants': ['Purananuru', 'Purananūru'],
-              'Akananuru variants': ['Akananuru', 'Akananūru'],
-              'Nedunalvadai variants': ['Nedunalvadai', 'Nedunalvaadai'],
-              'Maduraikanchi variants': ['Maduraikanchi', 'Madurai Kanchi'],
-              'vadakkiruthal variants': ['vadakkiruthal', 'vadakiruthal'],
-              'kudavolai variants': ['kudavolai', 'kudavolai'],
+          canonical_forms = {
+              'civilisation': assembled.lower().count('civilisation'),
+              'civilisational': assembled.lower().count('civilisational'),
+              'civilised': assembled.lower().count('civilised'),
+              'Muttamil': assembled.count('Muttamil'),
+              'Tirumavalavan': assembled.count('Tirumavalavan'),
+              'Peruvalattan': assembled.count('Peruvalattan'),
+              'Peruvazhuthi': assembled.count('Peruvazhuthi'),
+              'Karikkannanar': assembled.count('Karikkannanar'),
+              'Ottakkoothar': assembled.count('Ottakkoothar'),
+              'BCE': len(re.findall(r'\bBCE\b', assembled)),
+              'CE': len(re.findall(r'\bCE\b', assembled)),
           }
-          variant_rows = []
-          for label, variants in variant_groups.items():
-              counts = [(v, len(re.findall(re.escape(v), assembled, flags=re.IGNORECASE))) for v in variants]
-              variant_rows.append((label, counts))
 
+          # Preserve source-controlled variants rather than normalising them away.
+          source_controlled = {
+              'Kapatapuram': assembled.count('Kapatapuram'),
+              'Kavatapuram': assembled.count('Kavatapuram'),
+              'Mudat Tirumaran': assembled.count('Mudat Tirumaran'),
+              'Mudathirumaran': assembled.count('Mudathirumaran'),
+          }
+
+          star_forms = Counter(re.findall(r'(?m)^(★(?:\s+★){0,2})$', assembled))
           headings = [(n, title) for n, title, _ in assembled_items]
           sha256 = hashlib.sha256(assembled.encode('utf-8')).hexdigest()
 
@@ -141,19 +204,32 @@ jobs:
           for label, ok, detail in checks:
               lines.append(f'- **{"PASS" if ok else "FAIL"}** — {label}' + (f' — {detail}' if detail else ''))
           lines.append('')
+          lines.append('## Applied editorial consistency corrections')
+          lines.append('')
+          if applied:
+              for label, count in sorted(applied.items()):
+                  lines.append(f'- `{label}`: **{count}** replacement(s) in reviewed batch records')
+          else:
+              lines.append('- no replacements were needed')
+          lines.append('')
+          lines.append('## Canonical English-layer convention inventory')
+          lines.append('')
+          for term, count in canonical_forms.items():
+              lines.append(f'- `{term}`: **{count}**')
+          lines.append('')
+          lines.append('## Deliberately retained source-controlled variants')
+          lines.append('')
+          for term, count in source_controlled.items():
+              lines.append(f'- `{term}`: **{count}**')
+          lines.append('')
+          lines.append('These pairs are not treated as editorial errors because the final-cleared Tamil itself carries distinct source forms/segmentations in the relevant items; the English keeps that source traceability rather than silently normalising the Tamil evidence.')
+          lines.append('')
           lines.append('## Source-visible structure inventory')
           lines.append('')
           lines.append(f'- scan comments: **{len(scan_markers)}**')
-          lines.append(f'- `**Note:**` blocks: **{note_count}**')
-          lines.append(f'- selected parenthetical source-note openings: **{parenthetical_note_markers}**')
+          lines.append(f'- `**Note:**` blocks: **{assembled.count("**Note:**")}**')
           for form, count in sorted(star_forms.items()):
               lines.append(f'- separator `{form}`: **{count}**')
-          lines.append('')
-          lines.append('## Recurring-term variant inventory')
-          lines.append('')
-          for label, counts in variant_rows:
-              rendered = '; '.join(f'`{v}`={c}' for v, c in counts)
-              lines.append(f'- {label}: {rendered}')
           lines.append('')
           lines.append('## Reader-facing item headings')
           lines.append('')
@@ -161,20 +237,26 @@ jobs:
               lines.append(f'{n}. {title}')
           lines.append('')
 
-          out = Path('.github/kaalap-editorial-diagnostics.md')
-          out.write_text('\n'.join(lines), encoding='utf-8')
-          print(out.read_text(encoding='utf-8'))
+          diagnostics = Path('.github/kaalap-editorial-diagnostics.md')
+          diagnostics.write_text('\n'.join(lines), encoding='utf-8')
+          print(diagnostics.read_text(encoding='utf-8'))
 
           failures = [label for label, ok, _ in checks if not ok]
           if failures:
               raise SystemExit('Audit failures: ' + '; '.join(failures))
           PY
 
-      - name: Commit diagnostics
+      - name: Commit corrected batches, rebuilt collection and diagnostics
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/batches/*.md
+          git add poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md
           git add .github/kaalap-editorial-diagnostics.md
-          git commit -m "Generate full-work English editorial diagnostics"
+          if git diff --cached --quiet; then
+            echo "No editorial corrections needed"
+            exit 0
+          fi
+          git commit -m "Apply full-work English consistency corrections"
           git push origin HEAD:main
