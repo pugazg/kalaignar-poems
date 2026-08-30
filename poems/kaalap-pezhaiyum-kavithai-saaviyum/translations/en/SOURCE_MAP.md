@@ -122,7 +122,9 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 26 contains multiple star separators and a complete women-poet name list that must remain in source order;
 - item 29 contains a star separator plus attributed *Purananuru* 77 and 72 passages followed by Kalaignar's source explanations; preserve both textual layers;
 - item 30 closes by explicitly retaining uncertainty over which of two Karikalans is intended; do not resolve that uncertainty through outside knowledge;
-- item 32 contains quoted Sangam verse followed by source explanation and has a substantively different title-page witness;
+- item 31 has a visually verified canonical title reading `மகனும்` even though the body and closing movement concern Madhavi and Manimekalai as mother and daughter; preserve the title as printed and do not silently substitute `மகளும்`;
+- item 32 has a substantively different title-page witness, multiple internal star separators, a compact Sangam quotation on scan 155, and a source-supplied `இதன் பொருள்` explanation on scan 156; preserve both quoted and explanatory layers;
+- item 33 depends on the Tamil sound/segmentation distinction between false `செருப்பு + ஆழி` and source-preferred `செரு + பாழி + எறிந்த`; preserve enough Tamil/transliteration for that argument to remain intelligible;
 - item 37 contains a printed-number anomaly and extended narrative/dialogue movement;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
 - item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
@@ -173,19 +175,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 11 / item 30 / scan 147**.
+Reviewed through **Batch 12 / item 33 / scan 160**.
 
-- batches reviewed: **11/21**;
-- items translated and reviewed: **30/58**;
-- numbered-item scans covered: **138/290**;
+- batches reviewed: **12/21**;
+- items translated and reviewed: **33/58**;
+- numbered-item scans covered: **151/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 12 — items 31–33**:
+Translate and review **Batch 13 — items 34–36**:
 
-- item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` — scans **148–151**;
-- item 32 `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்` — scans **152–156**;
-- item 33 `“செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா?` — scans **157–160**.
+- item 34 `மறையவில்லை; மறுமலர்ச்சி பெற்றது!` — scans **161–166**;
+- item 35 `உயிரினும் மேலான உயர்ந்த நட்பு!` — scans **167–172**;
+- item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!` — scans **173–178**.
 
-Items 31 and 32 are documented title-witness discrepancies. Item 31's contents witness adds a comma after `தாயும்`; Item 32's contents witness `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!` is substantively different from the canonical/title-page witness. Preserve both witness pairs separately. Create `batches/batch-12.md`, preserving item boundaries and scan provenance. Stop after item 33.
+Create `batches/batch-13.md`, preserving item boundaries, scan provenance, quoted material and all internal structural devices. Stop after item 36; do not begin item 37.
