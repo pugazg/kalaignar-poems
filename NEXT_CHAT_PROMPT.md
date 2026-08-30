@@ -28,7 +28,7 @@ Before making any repository change, read completely:
 8. `poems/kalaignarin-kavithaigal/metadata/source.md`
 9. `poems/kalaignarin-kavithaigal/indexes/page-map.md`
 10. `poems/kalaignarin-kavithaigal/audit.md`
-11. boundary record `poems/kalaignarin-kavithaigal/pages/0300.md`
+11. boundary record `poems/kalaignarin-kavithaigal/pages/0325.md`
 
 When I say **“Proceed with next activity”**, execute the exact next routine activity recorded in live GitHub without asking me to choose among normal continuation steps.
 
@@ -44,64 +44,47 @@ When I say **“Proceed with next activity”**, execute the exact next routine 
 
 ### Important page-renderer warning
 
-A previous high-level renderer exposed only pages 1–150. That is an interface/window limit, not the source length. The exact PDF contains 465 physical pages; scans through **300** have now been directly processed from the same source. Never treat 150 as the PDF extent.
+A previous high-level renderer exposed only pages 1–150. That is an interface/window limit, not the source length. The exact PDF contains 465 physical pages; scans through **325** have now been directly processed from the same source.
 
 ## CURRENT DURABLE PHASE-1 STATE
 
-**Phase 1 transcription is complete through physical scan 300 / 465.**
+**Phase 1 transcription is complete through physical scan 325 / 465.**
 
-- page records: **300/465**;
-- existing files: `pages/0001.md` through `pages/0300.md`;
-- cumulative status: **10 `partial`, 290 `needs-review`, 0 `verified`**;
-- completed batches: **01–12**;
+- page records: **325/465**;
+- existing files: `pages/0001.md` through `pages/0325.md`;
+- cumulative status: **10 `partial`, 315 `needs-review`, 0 `verified`**;
+- completed batches: **01–13**;
 - Phase 2 verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation: **blocked until Tamil final clearance**.
 
 Recent source boundaries:
 
-- `வையம் தழைக்க` — closes scan 253 / printed page 236;
-- `தந்தை பெரியார்` — scans 254–260, closes printed page 243;
-- `அகத்துறைப் படைப்புகள்` — scans 261–266, closes printed page 249;
-- `பொங்கல் விழா` — scans 267–272, closes printed page 255;
-- `சிலப்பதிகார விருந்து` — scans **273–285**, closes scan **285 / printed page 268**;
-- `அண்ணா வழியில்` — scans **286–292**, closes scan **292 / printed page 275**;
-- `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` — scans **293–296**, closes scan **296 / printed page 279**;
-- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` — opens scan **297 / printed page 280** and remains open through scan **300 / printed page 283**.
+- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` — closes **310 / printed 293**;
+- `மாறி வரும் ஊரினிலே` — scans **311–317**, closes **317 / printed 300**;
+- `சமுதாயப் பார்வைகள்...!` — opens **318** and remains open through **325 / printed 308**.
 
 ## CRITICAL — BLURRED TEXT
 
-The PDF contains blurred text in places. During Phase 1:
-
-- transcribe only what the controlling scan safely supports;
-- use explicit `⟦…⟧` markers for genuinely unresolved spans;
-- `⟦…⟧` is editorial notation, not source punctuation/text;
-- do not reconstruct unclear text from OCR, remembered wording, grammar, metre, rhyme, historical context, probable wording, or another edition;
-- OCR may be used only as navigation/typing assistance and never as textual authority;
-- do not silently normalize spelling, punctuation, sandhi, names, dates, figures or lineation;
-- preserve source-visible speaker labels, poet introductions, performance notes, quotations and separators where legible;
-- record only visibly printed page numerals in `printed_page`;
-- leave Phase-1 pages `needs-review`; do not mark them `verified` merely because they were transcribed once.
-
-Independent glyph-by-glyph resolution belongs to Phase 2, not this pass.
+During Phase 1, transcribe only what the controlling scan safely supports; use explicit `⟦…⟧` markers for genuinely unresolved spans; do not reconstruct from OCR, memory, grammar, metre, rhyme, historical context, probable wording, or another edition; preserve source-visible structure; record only visibly printed page numerals; and leave Phase-1 pages `needs-review`.
 
 ## CROSS-WITNESS SAFEGUARD
 
-This anthology contains poems also archived from other controlling sources, including `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`. Do not copy those separate transcriptions into this anthology. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
+Do not copy separate source-witness transcriptions into this anthology. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 13 — physical scans 301–325**.
+Execute **Phase 1 Batch 14 — physical scans 326–350**.
 
-Create `poems/kalaignarin-kavithaigal/pages/0301.md` through `pages/0325.md`.
+Create `poems/kalaignarin-kavithaigal/pages/0326.md` through `pages/0350.md`.
 
 Requirements:
 
-- continue directly from unfinished `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` at scan 300;
-- inspect scans 301–325 directly from the exact 465-page controlling PDF;
+- continue directly from unfinished `சமுதாயப் பார்வைகள்...!` at scan 325;
+- inspect scans 326–350 directly from the exact 465-page controlling PDF;
 - preserve physical page boundaries and visible title/speaker/performance structure;
 - do not infer item endings or starts before the scan establishes them;
 - maintain the conservative blur policy;
 - do not begin Phase 2, Phase 3, canonical assembly or translation in this activity.
 
-At Batch-13 completion synchronize `audit.md`, `indexes/page-map.md`, active/root READMEs, `SOURCE_INTAKE.md`, `metadata/source.md`, `TRANSCRIPTION_PHASE_PLAN.md`, `HANDOVER.md`, and `NEXT_CHAT_PROMPT.md` to the exact next Phase-1 batch.
+At Batch-14 completion synchronize all status-bearing files to the exact next Phase-1 batch.

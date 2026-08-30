@@ -13,35 +13,31 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- cover/title: **கலைஞரின் கவிதைகள்**;
+- printed title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
-- English imprint: fourth edition, **March 1995**, price **Rs. 65.00**;
+- edition: **fourth edition, March 1995**.
+
 - contents occupy physical scans **15–17**;
 - first numbered poem section begins at scan **20**, visibly printed page **3**;
 - contents list entries through at least printed page **444**.
 
 ## Source-extent correction
 
-The original intake mistakenly recorded 150 as the PDF's physical page count because an interface renderer exposed only pages 1–150. Direct access to the exact source bytes confirms **465 physical pages**. Physical scan 150 is only an earlier rendering-window boundary, not a source boundary.
+The original intake mistakenly recorded 150 as the PDF's physical page count because an interface renderer exposed only pages 1–150. Direct access to the exact source bytes confirms **465 physical pages**.
 
 ## Current processing state
 
-- Phase 1 first-pass records: **300/465**;
-- completed batches: **01–12, scans 1–300**;
-- cumulative status: **10 `partial`, 290 `needs-review`, 0 `verified`**;
-- current item: `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, opened scan **297 / printed page 280** and continuing beyond scan **300 / printed page 283**;
-- next batch: **Batch 13 — scans 301–325**;
+- Phase 1 first-pass records: **325/465**;
+- completed batches: **01–13, scans 1–325**;
+- cumulative status: **10 `partial`, 315 `needs-review`, 0 `verified`**;
+- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` closes scan **310 / printed page 293**;
+- `மாறி வரும் ஊரினிலே` closes scan **317 / printed page 300**;
+- current item: `சமுதாயப் பார்வைகள்...!`, opened scan **318** and continuing beyond scan **325 / printed page 308**;
+- next batch: **Batch 14 — scans 326–350**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
-
-Batch-12 source boundaries:
-
-- `சிலப்பதிகார விருந்து` closes scan **285 / printed page 268**;
-- `அண்ணா வழியில்` spans scans **286–292**, closes printed page **275**;
-- `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` spans scans **293–296**, closes printed page **279**;
-- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` opens scan **297 / printed page 280** and remains open at scan **300 / printed page 283**.
 
 ## Existing source witnesses
 
@@ -49,8 +45,8 @@ The anthology contains works already archived from different controlling sources
 
 ## Blur-control rule
 
-Because the PDF contains blurred text, only confidently legible text is transcribed in Phase 1. Uncertain spans remain explicit `⟦…⟧` markers. OCR, memory, metre, grammar, historical expectation or another edition may not silently fill blur. Exact resolution belongs to the later independent Phase-2 visual/glyph pass.
+Only confidently legible text is transcribed in Phase 1. Uncertain spans remain explicit `⟦…⟧` markers. OCR, memory, metre, grammar, historical expectation or another edition may not silently fill blur.
 
 ## Current next activity
 
-**Phase 1 Batch 13 — physical scans 301–325**, continuing directly from the unfinished `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` item at scan 300.
+**Phase 1 Batch 14 — physical scans 326–350**, continuing directly from the unfinished `சமுதாயப் பார்வைகள்...!` item at scan 325.
