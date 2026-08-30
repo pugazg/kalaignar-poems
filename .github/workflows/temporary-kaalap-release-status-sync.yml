@@ -1,0 +1,632 @@
+name: Temporary Kaalap Release Status Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/temporary-kaalap-release-status-sync.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Synchronize release-complete status documents
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+          import textwrap
+
+          repo = Path('.')
+          work = repo / 'poems/kaalap-pezhaiyum-kavithai-saaviyum'
+          en = work / 'translations/en'
+
+          release_report = en / 'RELEASE_REPORT.md'
+          assert release_report.exists()
+          rr = release_report.read_text(encoding='utf-8')
+          assert 'FINAL SOURCE-COVERAGE / RELEASE REVIEW COMPLETE — PASS' in rr
+          assert 'ENGLISH PHASE 4 RELEASE: PASS — RELEASE-CLEARED' in rr
+
+          # Root handover: replace stale active Phase-3 state with the live release-complete boundary.
+          (repo / 'HANDOVER.md').write_text(textwrap.dedent('''\
+          # HANDOVER — Kalaignar Poems Archive
+
+          ## Repository
+
+          `pugazg/kalaignar-poems`  
+          Branch: `main`
+
+          ## Authority rule
+
+          **Treat live GitHub `main` as authoritative.**
+
+          A SHA, count, phase label or next-step instruction copied into an older chat/prompt is only a checkpoint. If live `main` has advanced, use the newer repository state and do not revert completed work.
+
+          The controlling source scan remains the highest textual authority for Tamil source wording unless a documented user instruction explicitly establishes another lexical/editorial control.
+
+          ## Mandatory startup for every continuation
+
+          Before changing an existing work:
+
+          1. fetch live `main` and note the current HEAD;
+          2. read `POEM_PROCESSING_GUIDE.md` completely;
+          3. read `TRANSCRIPTION_PHASE_PLAN.md` completely;
+          4. read root `README.md` and `NEXT_CHAT_PROMPT.md` completely;
+          5. read the target work's current README, source metadata, page map, audit/control records and relevant phase/release files;
+          6. inspect existing outputs before creating anything;
+          7. use the controlling source directly whenever the requested activity requires source verification;
+          8. never commit source PDFs;
+          9. if status-bearing documents disagree, reconcile them to the newest live work-level evidence instead of restarting an older phase;
+          10. when the user says **“Proceed with next activity”**, execute the exact next operation recorded in live state. If a completed work explicitly records that no routine next activity remains, do not invent a new project scope.
+
+          ---
+
+          # Completed work — காலப் பேழையும் கவிதைச் சாவியும்
+
+          Work directory: `poems/kaalap-pezhaiyum-kavithai-saaviyum/`  
+          Tamil title: **காலப் பேழையும் கவிதைச் சாவியும்**  
+          Author: **கலைஞர் மு. கருணாநிதி**  
+          Controlling source: `TVA_BOK_0063593_காலப்_பேழையும்_கவிதைச்_சாவியும்.pdf`  
+          SHA-256: `ad5a6a4b4d2b111120f99baa4aff4ab639cf1a9f9c71a6899e0c3d2c4a08bcc3`  
+          Physical scans: **306**.
+
+          ## Final durable state
+
+          **Tamil archival/source layer: FINAL-CLEARED.**  
+          **English Phase 4: COMPLETE — RELEASE-CLEARED — PASS.**
+
+          Durable release record: `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/RELEASE_REPORT.md`.
+
+          Final counts and gates:
+
+          - Phase 1 page-record transcription: **306/306 — COMPLETE**;
+          - Phase 2 source-critical visual verification: **306/306 — COMPLETE**;
+          - unresolved Tamil readings: **0**;
+          - scan ↔ printed-page reconciliation: **COMPLETE**;
+          - boundary / page-join audit: **58/58 items — PASS**;
+          - title-witness reconciliation: **14/14 discrepancy cases — PASS**;
+          - canonical Tamil assembly: **58/58** (`sections/01.md` … `sections/58.md`);
+          - assembly/source-completeness review: **PASS**;
+          - Tamil final clearance: **PASS**;
+          - English translation batches: **21/21 reviewed PASS**;
+          - English stable items: **58/58**;
+          - numbered-item English scan coverage: **290/290**, scans **10–299**;
+          - complete reader-facing English assembly: **RELEASE-CLEARED**;
+          - standalone English poem files: **58/58**, indexed under `translations/en/items/`;
+          - full-work editorial/terminology/Kalaignar-voice review: **PASS**;
+          - final source-coverage/release review: **PASS**;
+          - unresolved release issues: **0**;
+          - Tamil canonical/page files changed during Phase 4: **0**.
+
+          The numbered first-part collection ends at scan **299** with `(முதல் பாகம் முற்றிற்று)` / `(First Part Complete)`. Scan **300** begins separate `குறிப்புகள்` end matter and is not part of item 58's English translation.
+
+          The 14 title-witness discrepancy items remain:
+
+          **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58.**
+
+          Item 37 remains stable item **37** while preserving printed item number **36** only as a source anomaly.
+
+          ## Completion boundary
+
+          There is **no remaining routine Phase-4 activity** for `காலப் பேழையும் கவிதைச் சாவியும்`.
+
+          Do not retranscribe, reassemble, retranslate, normalize or reopen this released work merely because a fresh chat begins. A future change requires either:
+
+          - a genuine source-backed discrepancy with a documented reopen of the affected source/audit/canonical/release layers; or
+          - an explicit new editorial/derivative scope from the user.
+
+          ---
+
+          # Paused work — தென்னவன் காதை
+
+          Work directory: `poems/thennan-kathai/`.
+
+          Tamil archival/source layer: **FINAL-CLEARED**.
+
+          English translation is partially complete and paused. It is **not automatically selected merely because the Kaalap work is complete**. Resume it only when the user explicitly selects that work or gives a clearly equivalent instruction.
+
+          When explicitly resumed:
+
+          - read all live translation control files first;
+          - next permitted batch: **EN-03 — scans 149–151 only**;
+          - then perform **Gate C omission/speech review** before beginning EN-04;
+          - do not start EN-04 in the same activity as the EN-03 draft.
+
+          A scan-151 user-directed editorial omission is durable control. The excluded caste-based term must **not** be restored, reconstructed, quoted, transliterated, paraphrased, replaced or indirectly supplied unless the user explicitly changes that instruction.
+
+          ---
+
+          # Completed work — இதயத்தைத் தந்திடு அண்ணா
+
+          Work directory: `poems/idhayathai-thanthidu-anna/`.
+
+          - Tamil archival/source layer: **COMPLETE**;
+          - English translation: **RELEASE-COMPLETE**.
+
+          Do not modify this released work unless a genuine source-level discrepancy is documented or the user explicitly requests a separately tracked revision.
+
+          ---
+
+          # General continuation rule
+
+          For every work:
+
+          - live `main` is authoritative;
+          - continue, do not duplicate;
+          - preserve controlling-source evidence;
+          - respect declared phase/gate/completion boundaries;
+          - keep user lexical/editorial controls durable;
+          - synchronize stale phase/progress/next-activity claims at milestones and handoffs;
+          - never infer that completion of one work authorizes starting another work without user scope.
+          '''), encoding='utf-8')
+
+          # Fresh-chat prompt now records release completion rather than a long-obsolete assembly iteration.
+          (repo / 'NEXT_CHAT_PROMPT.md').write_text(textwrap.dedent('''\
+          # Next Chat Prompt — Kalaignar Poems Archive
+
+          Copy the prompt below into a fresh chat when continuing this repository.
+
+          ---
+
+          Continue work directly in:
+
+          `https://github.com/pugazg/kalaignar-poems`
+
+          Branch: `main`
+
+          Use the GitHub connector and work directly on `main`.
+
+          ## IMPORTANT — LIVE MAIN IS AUTHORITATIVE
+
+          Fetch live `main` first. Older prompt SHAs and phase labels are checkpoints only; never use them to roll back newer completed work.
+
+          Before making any repository change, read completely:
+
+          1. `HANDOVER.md`
+          2. `POEM_PROCESSING_GUIDE.md`
+          3. `TRANSCRIPTION_PHASE_PLAN.md`
+          4. root `README.md`
+          5. `NEXT_CHAT_PROMPT.md`
+          6. the selected work's current control/state files.
+
+          ## RELEASE-COMPLETE WORK — காலப் பேழையும் கவிதைச் சாவியும்
+
+          `poems/kaalap-pezhaiyum-kavithai-saaviyum/`
+
+          Controlling source:
+
+          `TVA_BOK_0063593_காலப்_பேழையும்_கவிதைச்_சாவியும்.pdf`
+
+          Durable state:
+
+          - Tamil source/canonical layer: **FINAL-CLEARED**;
+          - canonical Tamil items: **58/58**;
+          - English batches: **21/21 reviewed PASS**;
+          - English items: **58/58**;
+          - English numbered-item source scans: **290/290**, scans **10–299**;
+          - reader-facing English collection: **RELEASE-CLEARED**;
+          - standalone English poem files: **58/58**;
+          - editorial consistency review: **PASS**;
+          - final source-coverage/release review: **PASS**;
+          - unresolved release issues: **0**;
+          - Tamil canonical/page files changed during Phase 4: **0**.
+
+          Final release record:
+
+          `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/RELEASE_REPORT.md`
+
+          Standalone poem index:
+
+          `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/items/README.md`
+
+          The numbered collection stops at scan 299 with `(முதல் பாகம் முற்றிற்று)` / `(First Part Complete)`. Scan 300 begins separate end matter and remains outside item 58.
+
+          **No routine next activity remains for this work.** Do not restart Phase 3 or Phase 4, retranslate released items, or infer another derivative task. A new activity requires an explicit user scope or a documented source-backed reopen.
+
+          ## OTHER REPOSITORY WORK
+
+          `poems/thennan-kathai/` is Tamil FINAL-CLEARED with English translation paused. Resume it only when the user explicitly selects it. Its next permitted translation activity is EN-03, scans 149–151, followed by Gate C before EN-04. Preserve its durable scan-151 omission control.
+
+          `poems/idhayathai-thanthidu-anna/` is fully released and must not be reopened without explicit scope/source evidence.
+
+          ## CONTINUATION BEHAVIOUR
+
+          If the user says **“Proceed with next activity”** while the selected work is `காலப் பேழையும் கவிதைச் சாவியும்`, first confirm from live repository state that the work is still release-complete. If no new explicit scope has been recorded, do not invent another project activity; report that this work has no remaining routine activity and wait for the user's next scope.
+
+          ---
+          '''), encoding='utf-8')
+
+          # Root README: update the work table and current state from the release record.
+          (repo / 'README.md').write_text(textwrap.dedent('''\
+          # கலைஞர் கவிதைகள் — மின்னாக்கக் களஞ்சியம்
+
+          கலைஞர் மு. கருணாநிதியின் கவிதைகள், கவியரங்கப் பாடல்கள், தனிநூல்களாக வெளியான கவிதைப் பதிப்புகள் மற்றும் அவற்றைச் சூழ்ந்த source-supported பதிப்பு அடுக்குகளை source-first முறையில் பாதுகாக்கும் repository.
+
+          ## மூலக் கொள்கை
+
+          > **மூல ஸ்கேன் தான் controlling source. Markdown ஒரு பாதுகாப்பு அடுக்கு; திருத்தப்பட்ட புதிய பதிப்பு அல்ல.**
+
+          Source PDF repository-யில் commit செய்யப்படாது. Source wording, punctuation, lineation, பெயர்கள், தேதிகள், historical spelling மற்றும் source anomalies silently normalize செய்யப்படக் கூடாது.
+
+          Live GitHub `main` is authoritative. Old prompt text or checkpoint SHAs must never roll back newer completed work.
+
+          ## Phase-separated workflow
+
+          See `TRANSCRIPTION_PHASE_PLAN.md` and `POEM_PROCESSING_GUIDE.md`.
+
+          1. **Phase 1 — transcription only**
+          2. **Phase 2 — source-critical visual verification**
+          3. **Phase 3 — structure/completeness/assembly and Tamil final clearance**
+          4. **Phase 4 — translation/release after Tamil final clearance**
+
+          ## தற்போதைய படைப்புகள்
+
+          | படைப்பு | ஆசிரியர் | நிலை |
+          |---|---|---|
+          | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English Phase 4 COMPLETE — RELEASE-CLEARED; 58/58 items; 58/58 standalone English files** |
+          | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused; resume only by explicit user scope** |
+          | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
+          | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Existing separate work; consult its live work README before resuming** |
+
+          ## காலப் பேழையும் கவிதைச் சாவியும் — final state
+
+          Work directory: `poems/kaalap-pezhaiyum-kavithai-saaviyum/`
+
+          - controlling PDF: `TVA_BOK_0063593_காலப்_பேழையும்_கவிதைச்_சாவியும்.pdf`;
+          - physical scans: **306**;
+          - Phase 1 transcription: **306/306 — COMPLETE**;
+          - Phase 2 source-critical verification: **306/306 — COMPLETE**;
+          - Phase 3 structural gates: **COMPLETE — PASS**;
+          - canonical Tamil items: **58/58**;
+          - Tamil final clearance: **PASS**;
+          - English translation batches: **21/21 reviewed PASS**;
+          - English stable items: **58/58**;
+          - numbered-item English scan coverage: **290/290**, scans **10–299**;
+          - editorial consistency/Kalaignar-voice review: **PASS**;
+          - final source-coverage/release review: **PASS**;
+          - complete English collection: `translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md` — **RELEASE-CLEARED**;
+          - standalone English item files: `translations/en/items/` — **58/58 release-cleared synchronized copies**;
+          - durable release report: `translations/en/RELEASE_REPORT.md`;
+          - unresolved release issues: **0**;
+          - Tamil canonical/page files changed during Phase 4: **0**.
+
+          The numbered item range is scans **10–299**. Scan 299 closes with `(முதல் பாகம் முற்றிற்று)`; scan 300 begins separate `குறிப்புகள்` end matter and is outside the numbered-poem English release.
+
+          No routine Phase-4 activity remains for this work. Do not reopen it without explicit user scope or a genuine source-backed discrepancy.
+
+          ## தென்னவன் காதை — continuation guardrail
+
+          Tamil source/assembly layer is **FINAL-CLEARED**. English translation is partially complete and paused. Resume only when explicitly selected. Its next permitted translation batch is **EN-03 — scans 149–151**, followed by Gate C before EN-04.
+
+          A documented user-directed omission on scan 151 is durable editorial control: do not restore, reconstruct, quote, transliterate, paraphrase, replace or indirectly supply the excluded term unless the user explicitly changes that instruction.
+
+          ## இதயத்தைத் தந்திடு அண்ணா
+
+          Tamil archival/source layer is complete and English translation is **RELEASE-COMPLETE**. Do not retranscribe, normalize, retranslate or alter this released work unless a genuine source-level discrepancy is documented or the user explicitly requests a separately tracked revision.
+
+          ## Continuation rule
+
+          A fresh chat must reconstruct state from live GitHub before doing work. Read `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, this README and the selected work's live state/control files completely. Completion of one work does not authorize silently selecting another project.
+          '''), encoding='utf-8')
+
+          # Repository phase plan: keep generic phase guidance, replace obsolete current-application tail.
+          p = repo / 'TRANSCRIPTION_PHASE_PLAN.md'
+          s = p.read_text(encoding='utf-8')
+          marker = '## Current application — காலப் பேழையும் கவிதைச் சாவியும்\n'
+          assert marker in s
+          prefix = s.split(marker, 1)[0]
+          current = textwrap.dedent('''\
+          ## Current application — காலப் பேழையும் கவிதைச் சாவியும்
+
+          `poems/kaalap-pezhaiyum-kavithai-saaviyum/` has completed the full phase-separated workflow.
+
+          Final status:
+
+          - controlling PDF: **306 physical scans**;
+          - Phase 1 transcription: **306/306 — COMPLETE**;
+          - Phase 2 source-critical verification: **306/306 — COMPLETE**;
+          - unresolved Tamil readings: **0**;
+          - Phase 3 scan/page reconciliation: **COMPLETE**;
+          - Phase 3 boundary/page-join audit: **58/58 — PASS**;
+          - Phase 3 title-witness reconciliation: **14/14 — PASS**;
+          - canonical Tamil assembly: **58/58 — COMPLETE**;
+          - assembly/source-completeness review: **PASS**;
+          - Tamil final clearance: **PASS — FINAL-CLEARED**;
+          - Phase 4 translation batches: **21/21 reviewed PASS**;
+          - English items: **58/58**;
+          - English numbered-item scan coverage: **290/290**, scans **10–299**;
+          - complete English collection assembly: **COMPLETE**;
+          - standalone English item files: **58/58**;
+          - editorial/terminology/Kalaignar-voice review: **PASS**;
+          - final source-coverage/release review: **PASS — RELEASE-CLEARED**;
+          - unresolved release issues: **0**;
+          - Tamil `sections/` or `pages/` files changed during Phase 4: **0**.
+
+          Durable records:
+
+          - `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+          - `poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+          - `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+          - `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/RELEASE_REPORT.md`.
+
+          The numbered first-part range closes on scan **299**; scan **300** begins separate end matter.
+
+          **No further routine phase activity remains for this work.** A later change requires explicit user scope or a documented source-backed reopen.
+
+          For every continuation, live GitHub `main` supersedes older checkpoint SHAs or copied prompts.
+          ''')
+          p.write_text(prefix + current, encoding='utf-8')
+
+          # Work README: replace obsolete 11/58 assembly state with the completed release state.
+          (work / 'README.md').write_text(textwrap.dedent('''\
+          # காலப் பேழையும் கவிதைச் சாவியும்
+
+          Author: **கலைஞர் மு. கருணாநிதி**
+
+          ## Final archival / translation status
+
+          **TAMIL SOURCE/CANONICAL LAYER: FINAL-CLEARED.**  
+          **ENGLISH PHASE 4: COMPLETE — RELEASE-CLEARED — PASS.**
+
+          Controlling source:
+
+          - file: `TVA_BOK_0063593_காலப்_பேழையும்_கவிதைச்_சாவியும்.pdf`;
+          - SHA-256: `ad5a6a4b4d2b111120f99baa4aff4ab639cf1a9f9c71a6899e0c3d2c4a08bcc3`;
+          - physical scans: **306**;
+          - source PDF: **not committed**.
+
+          Source/Tamil gates:
+
+          - Phase 1 page records: **306/306 — COMPLETE**;
+          - contents: **58/58 VERIFIED**;
+          - Phase 2 source-critical verification: **306/306 — COMPLETE**;
+          - unresolved readings after Phase 2: **none**;
+          - scan ↔ printed-page reconciliation: **COMPLETE**;
+          - boundary / page-join audit: **58/58 items — PASS**;
+          - title-witness reconciliation: **14/14 cases — PASS**;
+          - canonical Tamil assembly: **58/58**, `sections/01.md` through `sections/58.md`;
+          - assembly/source-completeness review: **PASS**;
+          - Tamil final clearance: **PASS**.
+
+          English/release gates:
+
+          - translation planning/source map: **COMPLETE**;
+          - translation batches: **21/21 reviewed PASS**;
+          - stable English items: **58/58**;
+          - numbered-item source scans represented: **290/290**, scans **10–299**;
+          - reader-facing complete English collection: **COMPLETE — RELEASE-CLEARED**;
+          - standalone English poem files: **58/58 — RELEASE-CLEARED**;
+          - editorial/terminology/Kalaignar-voice consistency review: **PASS**;
+          - final source-coverage/release review: **PASS**;
+          - unresolved release issues: **0**;
+          - Tamil canonical/page files modified during Phase 4: **0**.
+
+          Reader-facing English collection:
+
+          `translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md`
+
+          Standalone item index:
+
+          `translations/en/items/README.md`
+
+          Durable release record:
+
+          `translations/en/RELEASE_REPORT.md`
+
+          ## Source boundaries
+
+          - scans **1–4**: unnumbered preliminaries;
+          - scans **5–299**: reconciled numbered-pagination block, printed pages **4–298**;
+          - numbered item sequence: scans **10–299**, stable items **1–58**;
+          - scan **299** closes item 58 with `(முதல் பாகம் முற்றிற்று)`;
+          - scans **300–305**: separate unnumbered `குறிப்புகள்` end matter;
+          - scan **306**: image-only back cover.
+
+          Scan 300 and later end matter are not part of the numbered-poem English release.
+
+          ## Title-witness policy
+
+          Contents/title-page witnesses differ for items:
+
+          **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58.**
+
+          The title-page witness controls canonical/displayed title; the contents witness remains separate source metadata. No hybrid normalization is permitted. Item 37 remains stable item 37 while preserving printed item number 36 only as a source anomaly.
+
+          ## Governing records
+
+          Tamil/source:
+
+          - `metadata/source.md`;
+          - `indexes/page-map.md`;
+          - `audit.md`;
+          - `PHASE3_STRUCTURE_AUDIT.md`;
+          - `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+          - `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+          - `PHASE3_CANONICAL_ASSEMBLY.md`;
+          - `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+          - `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+          English:
+
+          - `translations/en/README.md`;
+          - `translations/en/TRANSLATION_PLAN.md`;
+          - `translations/en/SOURCE_MAP.md`;
+          - `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+          - `translations/en/RELEASE_REPORT.md`;
+          - `translations/en/items/README.md`.
+
+          ## Completion boundary
+
+          This numbered first-part work is **release-complete**. There is no routine next Phase-3 or Phase-4 activity.
+
+          Do not retranscribe, reassemble, normalize, retranslate or restart review gates on a fresh chat. Reopen only for a genuine source-backed discrepancy or an explicit new user scope.
+          '''), encoding='utf-8')
+
+          # Source metadata: preserve physical/source observations, replace stale processing-state blocks.
+          p = work / 'metadata/source.md'
+          s = p.read_text(encoding='utf-8')
+          start = s.index('## Current processing phase\n')
+          end = s.index('## Physical / pagination structure\n')
+          phase_block = textwrap.dedent('''\
+          ## Current processing phase
+
+          **Processing complete for the numbered first-part collection.**
+
+          - Tamil source/canonical layer: **FINAL-CLEARED**;
+          - canonical items: **58/58**;
+          - English Phase 4: **COMPLETE — RELEASE-CLEARED — PASS**;
+          - English items: **58/58**;
+          - standalone English files: **58/58**;
+          - final source-coverage/release review: **PASS**;
+          - unresolved release issues: **0**.
+
+          Governing completion records:
+
+          - `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+          - `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+          - `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+          - `translations/en/RELEASE_REPORT.md`.
+
+          No routine phase activity remains. The controlling scan remains the ultimate authority if a genuine future source-backed correction is opened.
+
+          ''')
+          s = s[:start] + phase_block + s[end:]
+          status_marker = '## Status\n'
+          if status_marker in s:
+              s = s.split(status_marker, 1)[0] + textwrap.dedent('''\
+              ## Status
+
+              Source identity, page-record transcription, source-critical visual verification, pagination reconciliation, 58-item boundary/join audit, 14-case title-witness reconciliation, 58/58 canonical Tamil assembly, assembly/source-completeness review and Tamil final clearance are complete.
+
+              English Phase 4 is also complete and release-cleared: 21/21 reviewed batches, 58/58 English items, 290/290 numbered-item source scans, complete reader-facing assembly, 58/58 standalone English files, editorial consistency PASS and final source-coverage/release PASS.
+
+              The controlling scan remains the highest textual authority. Future source corrections must be explicitly reopened and propagated through affected source/audit/canonical/release records; released Tamil or English text must not be silently normalized.
+              ''')
+          p.write_text(s, encoding='utf-8')
+
+          # Audit is a historical correction ledger. Only its live-state preamble is replaced.
+          p = work / 'audit.md'
+          s = p.read_text(encoding='utf-8')
+          marker = '## Phase-2 verification rules\n'
+          assert marker in s
+          historical = marker + s.split(marker, 1)[1]
+          preamble = textwrap.dedent('''\
+          # Audit — காலப் பேழையும் கவிதைச் சாவியும்
+
+          ## Current phase
+
+          **ALL DECLARED PHASES COMPLETE — ENGLISH RELEASE CLEARED.**
+
+          Phase 1 transcription, Phase 2 source-critical verification, every Phase-3 Tamil/source gate and Phase-4 translation/release gate are complete. This file's correction ledger below remains historical evidence of Phase-2 verification and later source-control work; it is not an instruction to resume an older phase.
+
+          ## Current verification / release state
+
+          - physical scans in controlling PDF: **306**;
+          - Phase-1 page records: **306/306 — COMPLETE**;
+          - Phase-2 source-critical verification: **306/306 — COMPLETE**;
+          - unresolved Tamil readings: **0**;
+          - Phase-3 structural/title/assembly/source-completeness gates: **COMPLETE — PASS**;
+          - canonical Tamil items: **58/58**;
+          - Tamil final clearance: **PASS — FINAL-CLEARED**;
+          - Phase-4 translation batches: **21/21 reviewed PASS**;
+          - English items: **58/58**;
+          - numbered-item English source scans: **290/290**, scans **10–299**;
+          - standalone English item files: **58/58**;
+          - editorial review: **PASS**;
+          - final release review: **PASS — RELEASE-CLEARED**;
+          - unresolved release issues: **0**;
+          - Tamil canonical/page files modified during Phase 4: **0**.
+
+          Durable final release record: `translations/en/RELEASE_REPORT.md`.
+
+          No routine next activity remains for this released work.
+
+          ''')
+          p.write_text(preamble + historical, encoding='utf-8')
+
+          # Page-map is a historical Phase-3 mapping record; remove its stale "next activity" tail.
+          p = work / 'indexes/page-map.md'
+          s = p.read_text(encoding='utf-8')
+          marker = '## Still deferred within Phase 3\n'
+          assert marker in s
+          s = s.split(marker, 1)[0] + textwrap.dedent('''\
+          ## Subsequent phase outcome
+
+          The later Phase-3 boundary/page-join audit, title-witness reconciliation, canonical assembly, source-completeness review and Tamil final-clearance gates all completed **PASS**.
+
+          Phase 4 English translation/release subsequently also completed **PASS — RELEASE-CLEARED**.
+
+          Current durable release record: `../translations/en/RELEASE_REPORT.md`.
+
+          This page map remains the authoritative structural mapping record; its completed pagination results are unchanged. There is no remaining mapping-phase next activity.
+          ''')
+          p.write_text(s, encoding='utf-8')
+
+          # Historical Phase-3 records: keep their evidence, replace obsolete forward-looking next-step tails.
+          for rel in ['PHASE3_CANONICAL_ASSEMBLY.md', 'PHASE3_TAMIL_FINAL_CLEARANCE.md']:
+              p = work / rel
+              s = p.read_text(encoding='utf-8')
+              marker = '## Exact next activity\n'
+              if marker in s:
+                  s = s.split(marker, 1)[0] + textwrap.dedent('''\
+                  ## Subsequent Phase 4 outcome
+
+                  Phase 4 translation/release subsequently completed **PASS — RELEASE-CLEARED**.
+
+                  Final release record: `translations/en/RELEASE_REPORT.md`.
+
+                  The Tamil final-cleared source/canonical layer remained unchanged during Phase 4. No routine next activity remains for this numbered first-part collection.
+                  ''')
+                  p.write_text(s, encoding='utf-8')
+
+          # Safety: this activity is status/handover synchronization only.
+          changed_source = subprocess.check_output([
+              'git', 'diff', '--name-only', '--',
+              str(work / 'pages'), str(work / 'sections')
+          ], text=True).strip()
+          assert not changed_source, changed_source
+
+          # Detect key obsolete live-state phrases in the documents intentionally synchronized here.
+          sync_files = [
+              repo / 'HANDOVER.md', repo / 'NEXT_CHAT_PROMPT.md', repo / 'README.md',
+              repo / 'TRANSCRIPTION_PHASE_PLAN.md', work / 'README.md',
+              work / 'metadata/source.md', work / 'audit.md', work / 'indexes/page-map.md',
+              work / 'PHASE3_CANONICAL_ASSEMBLY.md', work / 'PHASE3_TAMIL_FINAL_CLEARANCE.md'
+          ]
+          stale_patterns = [
+              '11/58 item files assembled',
+              '11/58 canonical item files assembled',
+              'next assembly iteration: **physical scans 60–84**',
+              'Process **physical scans 60–84**',
+              'Phase 4 translation: **BLOCKED until Tamil final clearance**',
+              'Begin **Phase 4 translation planning**'
+          ]
+          for path in sync_files:
+              txt = path.read_text(encoding='utf-8')
+              for pat in stale_patterns:
+                  assert pat not in txt, (path, pat)
+
+          print('Kaalap release-status synchronization complete')
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add HANDOVER.md NEXT_CHAT_PROMPT.md README.md TRANSCRIPTION_PHASE_PLAN.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/README.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/metadata/source.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/audit.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/indexes/page-map.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_CANONICAL_ASSEMBLY.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_TAMIL_FINAL_CLEARANCE.md
+          git diff --cached --quiet || git commit -m "Synchronize Kaalap release-complete handover state"
+          git push
