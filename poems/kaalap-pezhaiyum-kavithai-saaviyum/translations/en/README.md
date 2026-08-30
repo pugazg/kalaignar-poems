@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–12 reviewed PASS; 33/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–13 reviewed PASS; 36/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -49,13 +49,14 @@ Revised total planned batches: **21**.
 | 10 | 25–27 | 124–135 | **reviewed — PASS** |
 | 11 | 28–30 | 136–147 | **reviewed — PASS** |
 | 12 | 31–33 | 148–160 | **reviewed — PASS** |
-| 13–21 | 34–58 | 161–299 | planned |
+| 13 | 34–36 | 161–178 | **reviewed — PASS** |
+| 14–21 | 37–58 | 179–299 | planned |
 
 Current totals:
 
-- batches reviewed: **12/21**;
-- items translated and reviewed: **33/58**;
-- certified source scans represented in reviewed English batches: **151/290 numbered-item scans**;
+- batches reviewed: **13/21**;
+- items translated and reviewed: **36/58**;
+- certified source scans represented in reviewed English batches: **169/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -99,13 +100,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 10:** items 25–27, scans 124–135 — reviewed PASS. Items 25 and 26 preserve their title-witness punctuation differences; Kannagi's culture/ritual argument, the women-poet/warrior sequence and complete poet list, and the Mathivanan/evidence-method and Dravidian-history framing are retained without outside correction or Tamil-source alteration.
 - **Batch 11:** items 28–30, scans 136–147 — reviewed PASS. Item 28 preserves its global-Dravidian-civilisation argument, named authorities and source English quotation without outside adjudication; Item 29 preserves its title-witness comma difference, Talaiyalanganam battle rhetoric and both attributed *Purananuru* passages; Item 30 preserves the Sangam/early-Chola frame, northern-gift sequence, Lanka/Kaveri and Mukari narratives, and the source's closing uncertainty between the two Karikalans.
 - **Batch 12:** items 31–33, scans 148–160 — reviewed PASS. Item 31 preserves the verified canonical `மகனும்` title reading despite the mother-daughter narrative and keeps its title-witness comma difference; Item 32 preserves its substantively different title witnesses, repeated star separators, Kovoor Kizhar intervention sequence, compact classical quotation plus source-supplied meaning and humanitarian ceasefire close; Item 33 preserves the `செருப்பாழி` segmentation argument, source chronology and Maurya–Mogur narrative without outside correction.
+- **Batch 13:** items 34–36, scans 161–178 — reviewed PASS. Item 34 preserves the Chola decline/revival chronology, source-form administrative bodies and titles, marriage passage, Poompuhar framing, Pallava/Vijayalaya transition and the printed English footnote; Item 35 preserves the Pisiranthaiyar–Kopperuncholan friendship narrative, swan-cock address, domestic comic interlude, war crisis and *vadakkiruthal*/*nadukal* close; Item 36 preserves the Kosar/*Akananuru* layer, Anni Minjili narrative, class simile, eye-gouging episode, reciprocal vows, battle ending and complete source note without outside correction.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 12/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 13/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -113,10 +115,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 13 — items 34–36**:
+Translate and review **Batch 14 — items 37–39**:
 
-- item 34 — `மறையவில்லை; மறுமலர்ச்சி பெற்றது!` — scans **161–166** — `../../sections/34.md`;
-- item 35 — `உயிரினும் மேலான உயர்ந்த நட்பு!` — scans **167–172** — `../../sections/35.md`;
-- item 36 — `இளையவன்; அவன் ஒரு தமிழ் மகன்!` — scans **173–178** — `../../sections/36.md`.
+- item 37 — `அன்பால் அவனை விலைகொள்ள முடியுமோ?` — scans **179–185** — `../../sections/37.md`;
+- item 38 — `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!` — scans **186–190** — `../../sections/38.md`;
+- item 39 — `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!` — scans **191–194** — `../../sections/39.md`.
 
-Create `batches/batch-13.md`. Preserve all three items as distinct works and retain their complete source architecture. Stop after item 36; do not begin item 37.
+Item 37 is a documented title-witness discrepancy and also preserves `printed_item_number: 36`; keep stable translation identity **37**, preserve the printed-number anomaly only as source metadata, and do not hybridize canonical `அன்பால் அவனை விலைகொள்ள முடியுமோ?` with contents witness `அன்பால் அவனை விலை கொள்ள முடியுமா?`. Create `batches/batch-14.md`. Stop after item 39; do not begin item 40.
