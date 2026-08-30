@@ -131,9 +131,12 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 37 contains both the printed-number anomaly and title-witness discrepancy, extended dialogue, a wrestling narrative, *Purananuru* 82 and Kalaignar's separate explanation of its cot-weaver simile; retain all layers under stable item identity 37;
 - item 38 is structured as a sequence of attributed poet voices around Killivalavan, including the Karur counsel, agricultural/plough-front argument, Pannan episode and Aiyur Mudavanar's burial-urn elegy; keep attribution and sequence visible;
 - item 39 closes with the Paranjothi/Vatapi Ganapati source argument and a distinct *Periya Puranam* quotation; do not use outside history to reconcile the Kanchi, traveller, inscription or Vatapi claims inside the translation;
-- item 40 has a title-witness punctuation discrepancy and a long Manavarman–Narasimhavarman friendship/restoration narrative with two expeditions to Lanka and the king's concealed departure from the ship; retain every movement and the concluding letter;
-- item 41 is an evidence-driven polemic about Kanchi as Pallava capital, preserving Professor Anbazhagan's retort, the site list, *Matta Vilasam*/Appar material, `சித்திர காரப் புலி` inscription and Tirukazhukundram close as distinct evidentiary moves;
-- item 42 contains two linked battle movements, a star separator, hostile and Pallava charter perspectives, the united-mice/tigers analogy, repeated `ஓடினான் ; ஓடினான்`, and two closing parenthetical source blocks; keep all layers structurally visible;
+- item 40 contains a title-witness punctuation discrepancy and a long Manavarman–Narasimhavarman friendship/restoration narrative; retain the ship stratagem and closing letter distinctly;
+- item 41 is an evidence-argument item about Kanchi as Pallava capital; preserve named scholars, site sequence, quotations and rhetorical questions as the source presents them;
+- item 42 contains two linked battle movements, multiple charter/source layers, the united-mice/united-tigers analogy, repeated `ஓடினான் ; ஓடினான்`, and concluding parenthetical evidence blocks; keep all source voices distinct;
+- item 43 carries a dense political/historical chronology and the concluding Dravidian/Tamil-lineage argument; preserve the CE 350/575/850/875 sequence, `மாட்சி` (?) irony, `கண்ணியம், கடமை, கட்டுப்பாடு` triad and inscriptional close without outside reconciliation;
+- item 44 contains a comma-only title discrepancy, succession genealogy, explicit rationalist rejection of the funeral-pyre custom, accusation and counter-accusation around Aditya Karikalan's murder, and the iron-pillar/fly-wing plus Murugan/peacock images; translate suspicions as suspicions rather than settled history;
+- item 45 contains the Kattumannarkudi-inscription name list, competing Madhurantakan interpretations, a benefit-of-doubt turn, Rajaraja's crown-prince training and a dense closing date/age sequence; preserve all figures as source claims;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
 - item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
 - item 54 includes a concluding `குறிப்பு:` with Sangam poem references;
@@ -183,19 +186,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 15 / item 42 / scan 206**.
+Reviewed through **Batch 16 / item 45 / scan 219**.
 
-- batches reviewed: **15/21**;
-- items translated and reviewed: **42/58**;
-- numbered-item scans covered: **197/290**;
+- batches reviewed: **16/21**;
+- items translated and reviewed: **45/58**;
+- numbered-item scans covered: **210/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 16 — items 43–45**:
+Translate and review **Batch 17 — items 46–48**:
 
-- item 43 `திராவிட இனத்தின் தமிழர் மரபு!` — scans **207–210**;
-- item 44 `இரும்புத் தூணும் ஈக்களின் இறகும்!` — scans **211–215**;
-- item 45 `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` — scans **216–219**.
+- item 46 `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` — scans **220–225**;
+- item 47 `அந்த வருங்காலமே; அருங்காலமாகும்!` — scans **226–235**;
+- item 48 `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!` — scans **236–240**.
 
-Item 44 is a documented title-witness discrepancy: use canonical/title-page witness `இரும்புத் தூணும் ஈக்களின் இறகும்!` for the displayed English title and retain contents witness `இரும்புத் தூணும், ஈக்களின் இறகும்!` separately. Create `batches/batch-16.md`, preserving item boundaries and scan provenance. Stop after item 45; do not begin item 46.
+Item 46 is a documented title-witness discrepancy: use canonical/title-page witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` for the displayed English title and retain contents witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` separately. Item 47 is a long multi-scan historical/rhetorical item; preserve its indentation, accumulative structure and every source movement. Create `batches/batch-17.md`, preserving item boundaries and scan provenance. Stop after item 48; do not begin item 49.
