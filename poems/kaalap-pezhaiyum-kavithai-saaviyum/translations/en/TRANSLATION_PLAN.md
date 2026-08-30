@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–08 reviewed PASS; 21/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
+**PHASE 4 IN PROGRESS — Batches 01–09 reviewed PASS; 24/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -93,7 +93,7 @@ Default principles:
 | 06 | 13–15 | 64–81 | `13.md`–`15.md` | **reviewed — PASS** |
 | 07 | 16–18 | 82–98 | `16.md`–`18.md` | **reviewed — PASS** |
 | 08 | 19–21 | 99–111 | `19.md`–`21.md` | **reviewed — PASS** |
-| 09 | 22–24 | 112–123 | `22.md`–`24.md` | planned |
+| 09 | 22–24 | 112–123 | `22.md`–`24.md` | **reviewed — PASS** |
 | 10 | 25–27 | 124–135 | `25.md`–`27.md` | planned |
 | 11 | 28–30 | 136–147 | `28.md`–`30.md` | planned |
 | 12 | 31–33 | 148–160 | `31.md`–`33.md` | planned |
@@ -109,9 +109,9 @@ Default principles:
 
 Current reviewed totals:
 
-- batches: **8/21**;
-- items: **21/58**;
-- numbered-item source scans covered by reviewed English batches: **102/290**;
+- batches: **9/21**;
+- items: **24/58**;
+- numbered-item source scans covered by reviewed English batches: **114/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -133,13 +133,14 @@ A translated but unreviewed batch is not eligible for final collection assembly.
 
 ## Reviewed closures
 
-Batches **01–08** are reviewed PASS. Their batch files are the durable translation/review records.
+Batches **01–09** are reviewed PASS. Their batch files are the durable translation/review records.
 
 - Batch 04 is the first three-item batch and covers items **7–9**, scans **35–49**.
 - Batch 05 covers items **10–12**, scans **50–63**. It preserves the maritime-contact and papyrus claims as source claims, the *Manimekalai* and *Kuruntokai* textual layers, Peevalai–Nedumudikilli/Ilanthiraiyan narrative, Murugan–Valli narrative, glossary and Tamil sound-play without silent source correction.
 - Batch 06 covers items **13–15**, scans **64–81**. It preserves Appathuraiyar/classical citations and the Kharavela inscription/alliance argument, the complete three-scene Kanaka–Vijaya drama with its speaker architecture and eighteen-unit rhetoric, and the “Aryan tea” argument with its named-source quotations without converting translation into historical adjudication.
 - Batch 07 covers items **16–18**, scans **82–98**. It preserves the long *Uromapuri Pandiyan* historical-source passage, Yavana/Roman trade evidence as presented, the world-history/evolution/Kumari Kandam argument and citations, Bharathi/source quotations, and Item 18's canonical-title/contents-title distinction.
 - Batch 08 covers items **19–21**, scans **99–111**. It preserves the Senguttuvan–Palaiyan–Arugan sequence and ethical condemnation, the Venni battle with *vadakkiruthal* and three attributed classical poems, and the Aathimandhi–Aattanathi dance/love/river-rescue narrative including the scan-111 source note.
+- Batch 09 covers items **22–24**, scans **112–123**. It preserves Item 22's quoted title witness, repeated first-person/question-answer structure, cosmic/evolution argument and `அரிமா நோக்கு` / `அரியா நோக்கு` wordplay; Item 23's Kundalakesi feminism/patriarchy narrative and source-visible sensual imagery; and Item 24's full Madhavi ornament/stage inventory, star separator and glossary.
 
 ## Full-work gates after Batch 21
 
@@ -155,10 +156,10 @@ After all 21 revised batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 09 — items 22–24**:
+Translate and review **Batch 10 — items 25–27**:
 
-- item 22 — `“பிறகேன் வினா? என்பதே என் வினா!”` — scans **112–116** — `../../sections/22.md`;
-- item 23 — `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` — scans **117–119** — `../../sections/23.md`;
-- item 24 — `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` — scans **120–123** — `../../sections/24.md`.
+- item 25 — `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` — scans **124–127** — `../../sections/25.md`;
+- item 26 — `விழித்தெழுக; இதோ செம்மொழி விடியல்!` — scans **128–131** — `../../sections/26.md`;
+- item 27 — `வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்!` — scans **132–135** — `../../sections/27.md`.
 
-Item 22 is a documented title-witness discrepancy; its displayed English title must derive from the canonical quoted title-page witness, while the unquoted contents witness remains separately traceable. Create `batches/batch-09.md`. Preserve all three items as distinct works inside the batch. Stop after item 24; do not begin item 25.
+Items 25 and 26 are documented title-witness discrepancies. Item 25's canonical/title-page witness has no final exclamation mark while the contents witness does; Item 26's contents witness has a comma after `இதோ` while the canonical/title-page witness does not. Preserve both witness pairs explicitly. Create `batches/batch-10.md`. Preserve all three items as distinct works inside the batch. Stop after item 27; do not begin item 28.
