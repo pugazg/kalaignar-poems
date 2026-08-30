@@ -2,85 +2,90 @@
 
 ## Current state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–05, scans 1–125 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–06, scans 1–150 recorded.**
 
 - controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - file size: **486,369,088 bytes**;
 - actual PDF extent: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
-- current ChatGPT Files renderer exposes pages **1–150** only; this renderer limit is not the source-file page count;
+- current ChatGPT Files renderer exposes page images **1–150 only**; this is a renderer-access limit, not the PDF length;
 - SHA-256: **pending exact-byte computation**;
-- Phase 1 page records: **125**;
-- cumulative Phase 1 status: **10 `partial`, 115 `needs-review`, 0 `verified`**;
+- Phase 1 page records: **150**;
+- cumulative Phase 1 status: **10 `partial`, 140 `needs-review`, 0 `verified`**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-## Important source-extent correction
+## Source-extent correction
 
-Earlier status incorrectly interpreted the Files renderer's `150`-page exposure as the PDF's actual physical page count and described the source as a 150-page tranche. The user corrected this: **the PDF itself has more than 450 pages**.
+An earlier repository state incorrectly interpreted the renderer's 150-page exposure as the supplied PDF's full physical length. The user corrected this: the PDF itself contains **more than 450 pages**.
 
-Durable interpretation:
+Therefore:
 
-- pages 1–150 are only the portion currently exposed by the page-image interface;
-- pages beyond 150 remain part of the same supplied PDF;
-- exact page count must be read from the full PDF when a byte/metadata-capable tool is available;
-- scan 150 must not be described as the end of the supplied PDF merely because the current renderer stops there.
+- scans 1–150 are only the portion presently exposed to the page-image interface;
+- scan 150 is **not** the end of the supplied PDF;
+- scans 151 onward remain part of the same controlling source;
+- the exact total must be read from full-file metadata when a capable interface becomes available.
 
 ## Phase 1 batch history
 
-- **Batch 01 — scans 1–25:** front matter / contents / opening of `இதயத்தைத் தந்திடு அண்ணா`.
-- **Batch 02 — scans 26–50:** `இதயத்தைத் தந்திடு அண்ணா` closes on 31; `தென்னவன் காதை` spans 34–42; `இந்திரஜித்` begins on 43.
-- **Batch 03 — scans 51–75:** `இந்திரஜித்` closes on 54; `இரணியன்` 55–61; `வாளி மன்னன்` 62–69; `கவியரங்கக் கவிதைகள்` divider/verso 70–71; `விடுதலை வீரர்கள்` begins on 72.
-- **Batch 04 — scans 76–100:** `விடுதலை வீரர்கள்` closes on 79; `ஐம்புலன்` 80–89; `பிலவங்க ஆண்டு` 90–100.
+- Batch 01 — scans **1–25**;
+- Batch 02 — scans **26–50**;
+- Batch 03 — scans **51–75**;
+- Batch 04 — scans **76–100**;
+- Batch 05 — scans **101–125**;
+- Batch 06 — scans **126–150**.
 
-## Phase 1 batch 05 — scans 101–125
+## Phase 1 batch 06 — scans 126–150
 
-Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED.**
+Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED; RENDERER BOUNDARY NOT MISLABELLED AS SOURCE END.**
 
 Created:
 
-- `pages/0101.md` through `pages/0125.md`;
-- scan **101** clearly opens `காதலா - வீரமா?` and gives the visible event date **4-8-68**;
-- the clearer opening-title witness resolves the Phase-1 uncertainty around this title, while the blurred contents-page record itself is left for later Phase-2 verification rather than silently rewritten;
-- `காதலா - வீரமா?` continues through scan **115** / printed page **98** and closes there with `வணக்கம்.` plus a floral ornament;
-- scan **116** clearly opens `அருமறையில் அறுவர்` with visible event date **10.8.68**;
-- this opening-title witness supplies a clearer title than the earlier blurred contents first pass;
-- `அருமறையில் அறுவர்` continues through scan **125** / printed page **108** and remains open into scan 126;
-- scans **101** and **116** do not receive inferred printed-page numbers because their numerals are not positively visible in the supplied page view.
+- `pages/0126.md` through `pages/0150.md`;
+- `அருமறையில் அறுவர்` continues from scan 125 and closes on scan **127** / printed page **110**, followed by a decorative illustration;
+- `புதிய பாதை` opens on scan **128** with visible date **13.8.1968**, continues through scan **137** / printed page **120**, and closes with `வணக்கம் / வாழ்க` plus a decorative illustration;
+- `உடைமைகள் பத்து` opens on scan **138** with visible date **16.9.68**, continues through scan **143** / printed page **126**, and closes with `வணக்கம் / வாழ்க` plus a parenthetical participant/topic note;
+- `நீர்க் குடும்பம்` opens on scan **144** with visible date **28.9.68** and continues through scan **150** / printed page **133**;
+- scan **150** ends mid-item after the chair introduces the next `மழை` movement; the item explicitly remains open into scan **151**;
+- scans **128**, **138** and **144** do not receive inferred printed-page numbers because their numerals are not positively visible in the rendered source view.
 
-Batch-05 status:
+Batch-06 status:
 
 - `partial`: **0**;
 - `needs-review`: **25**;
 - `verified`: **0**.
 
-Pages needing Phase-2 attention from Batch 05:
+Pages needing Phase-2 attention from Batch 06:
 
-`0101`–`0125`.
+`0126`–`0150`.
 
 ## Blur / uncertainty control
 
-- `⟦…⟧` is an editorial Phase-1 uncertainty marker, not source punctuation;
+The user's warning about blurred text remains a controlling rule:
+
+- `⟦…⟧` is an editorial first-pass uncertainty marker, not source punctuation;
 - only confidently legible wording is transcribed;
 - blur is not reconstructed from OCR, grammar, metre, memory, historical expectation or another edition;
-- separate source witnesses of overlapping poems are not copied into this anthology;
-- source-visible speaker labels, performance notes, title/date blocks and structural transitions are retained where legible;
-- pages with specific unresolved readings remain `needs-review`, never falsely `verified`.
+- overlapping standalone witnesses are not copied into this anthology;
+- source-visible speaker labels, performance notes, title/date blocks and page boundaries are retained where legible;
+- pages with unresolved wording remain `needs-review`, never falsely `verified`.
 
 ## User-directed exclusion safeguard
 
-The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and has not been reintroduced through this anthology transcription.
+The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and was not reintroduced through this anthology transcription.
 
-## Open metadata items
+## Open metadata / tooling items
 
-- exact physical PDF page count: **>450 user-confirmed; exact integer pending**;
+- exact PDF physical-page count: **>450 user-confirmed; exact integer pending**;
 - SHA-256: **pending exact-byte computation**;
-- renderer access beyond physical page 150: **not presently available in the Files page-image interface**.
+- direct page-image access beyond scan 150: **not presently exposed by the Files renderer in this session**.
 
 ## Exact next activity
 
-Transcribe **physical scans 126–150** as Phase 1 batch 06 and create `pages/0126.md` through `pages/0150.md`.
+**Continue Phase 1 from physical scan 151 onward from this same PDF.**
 
-This is **not** the final source batch. Scan 150 is only the present renderer-access boundary. After Batch 06, continue with scans **151 onward** from the same PDF as soon as a tool/interface can expose those pages.
+Do **not** begin Phase 2 merely because scans 1–150 are recorded. The source continues beyond scan 150.
 
-Do not begin Phase 2 in the same activity.
+When scan images beyond 150 become accessible, begin **Phase 1 Batch 07 — scans 151–175** (or the largest contiguous accessible range up to that boundary), continuing directly from the unfinished `நீர்க் குடும்பம்` item.
+
+Do not invent page content or use another edition to bridge the present renderer-access gap.
