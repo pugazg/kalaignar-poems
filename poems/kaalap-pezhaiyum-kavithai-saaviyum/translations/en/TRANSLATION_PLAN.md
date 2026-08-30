@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–18 reviewed PASS; 51/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
+**PHASE 4 IN PROGRESS — Batches 01–19 reviewed PASS; 54/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -103,15 +103,15 @@ Default principles:
 | 16 | 43–45 | 207–219 | `43.md`–`45.md` | **reviewed — PASS** |
 | 17 | 46–48 | 220–240 | `46.md`–`48.md` | **reviewed — PASS** |
 | 18 | 49–51 | 241–256 | `49.md`–`51.md` | **reviewed — PASS** |
-| 19 | 52–54 | 257–276 | `52.md`–`54.md` | planned |
+| 19 | 52–54 | 257–276 | `52.md`–`54.md` | **reviewed — PASS** |
 | 20 | 55–57 | 277–295 | `55.md`–`57.md` | planned |
 | 21 | 58 | 296–299 | `58.md` | planned |
 
 Current reviewed totals:
 
-- batches: **18/21**;
-- items: **51/58**;
-- numbered-item source scans covered by reviewed English batches: **247/290**;
+- batches: **19/21**;
+- items: **54/58**;
+- numbered-item source scans covered by reviewed English batches: **267/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -133,7 +133,7 @@ A translated but unreviewed batch is not eligible for final collection assembly.
 
 ## Reviewed closures
 
-Batches **01–18** are reviewed PASS. Their batch files are the durable translation/review records.
+Batches **01–19** are reviewed PASS. Their batch files are the durable translation/review records.
 
 - Batch 04 is the first three-item batch and covers items **7–9**, scans **35–49**.
 - Batch 05 covers items **10–12**, scans **50–63**. It preserves the maritime-contact and papyrus claims as source claims, the *Manimekalai* and *Kuruntokai* textual layers, Peevalai–Nedumudikilli/Ilanthiraiyan narrative, Murugan–Valli narrative, glossary and Tamil sound-play without silent source correction.
@@ -150,6 +150,7 @@ Batches **01–18** are reviewed PASS. Their batch files are the durable transla
 - Batch 16 covers items **43–45**, scans **207–219**. It preserves Item 43's Dravidian/Tamil-lineage argument, decline/revival rhetoric, CE 350/575/850/875 sequence, Vijayalaya–Aparajita relationship, Tiruppurambiyam movement and inscriptional close; Item 44's comma-only title discrepancy, succession narrative, explicit rationalist rejection of the funeral-pyre custom, accusation/counter-accusation over Aditya Karikalan's murder, iron-pillar/fly-wing image and Murugan/peacock analogy; and Item 45's Kattumannarkudi list, competing Madhurantakan interpretations, benefit-of-doubt turn, Rajaraja crown-prince training and source dates/ages through Rajendra without external reconciliation.
 - Batch 17 covers items **46–48**, scans **220–240**. It preserves Item 46's final-exclamation title discrepancy, political-achievement/social-critique contrast, funeral-pyre/caste/Chaturvedi-Mangalam/Jain-Buddhist polemic and complete court/family sequence; Item 47's long accumulative architecture, campaign separators, Velakkara-force passage, temple/fort question, Tamil/Sanskrit and people-service critique, inscriptional quotation, ruler list and indented future-age close; and Item 48's date/star uncertainty, administrative/local-government terms, caste critique, religious-inclusiveness claim, Tirukkural pair and Rajarajeswaram/Gangaikonda Cholapuram close without external reconciliation.
 - Batch 18 covers items **49–51**, scans **241–256**. It preserves Item 49's source succession wording, northern/Eelam/Ganga/Kadaram campaign chain and inscriptional layers without outside repair; Item 50's spacing/punctuation title discrepancy, envoy-humiliation episode plus Kalaignar's explicit `கறை` condemnation, Koppam death and retaliation, sound-rich battle movement, battlefield coronation and Jain ascetic's human-cost question; and Item 51's Koppam aftermath, Chalukya-Chola marriage genealogy, anti-*shastra* polemic, Kulothunga title/date sequence, *Kalingattu Parani*, Lanka-retreat and Leiden copper-plate material without external reconciliation.
+- Batch 19 covers items **52–54**, scans **257–276**. It preserves Item 52's 1945/Pandya-history preface, two earlier poem excerpts, Sangam-source uncertainty, advance-warning war custom, Golden-Handed Pandyan narrative and *Tolkappiyam* transition; Item 53's full Pandyan/Tamil-Queen dialogue, Middle Sangam poet list, Kavatapuram sea-deluge sequence, Adiyarkku Nallar forty-nine-country layer, Tamil Queen/Tamil survival contrast and complete scan-270 note; and Item 54's joined-form canonical title, autobiographical Nedunchezhiyan preface, seven-opponent battle chain, attributed Sangam-poet voices, battlefield imagery, *Maduraikanchi* anti-war turn, *Nedunalvadai* close and complete scan-276 Sangam-reference note without outside reconciliation.
 
 ## Full-work gates after Batch 21
 
@@ -165,10 +166,10 @@ After all 21 revised batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 19 — items 52–54**:
+Translate and review **Batch 20 — items 55–57**:
 
-- item 52 — `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!` — scans **257–262** — `../../sections/52.md`;
-- item 53 — `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!` — scans **263–270** — `../../sections/53.md`;
-- item 54 — `தலையாலங்கானத்துச் செருவென்றான்!` — scans **271–276** — `../../sections/54.md`.
+- item 55 — `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` — scans **277–284** — `../../sections/55.md`;
+- item 56 — `பற்று கடந்தால், பற்றி எரியும் வெறியே!` — scans **285–288** — `../../sections/56.md`;
+- item 57 — `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` — scans **289–295** — `../../sections/57.md`.
 
-Item 53 includes its scan-270 `குறிப்பு:` block as part of the item. Item 54 is a documented title-witness discrepancy: the canonical/title-page witness is `தலையாலங்கானத்துச் செருவென்றான்!`, while the contents witness is `தலையாலங்கானத்துச் செரு வென்றான்!`; Item 54 also contains a concluding `குறிப்பு:` with Sangam poem references. Preserve every source layer. Create `batches/batch-19.md`. Stop after item 54; do not begin item 55.
+Item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`; preserve it as part of the item. Create `batches/batch-20.md`. Stop after item 57; do not begin item 58.
