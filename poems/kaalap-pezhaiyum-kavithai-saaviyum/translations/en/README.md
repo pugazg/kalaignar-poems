@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–17 reviewed PASS; 48/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–18 reviewed PASS; 51/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -54,13 +54,14 @@ Revised total planned batches: **21**.
 | 15 | 40–42 | 195–206 | **reviewed — PASS** |
 | 16 | 43–45 | 207–219 | **reviewed — PASS** |
 | 17 | 46–48 | 220–240 | **reviewed — PASS** |
-| 18–21 | 49–58 | 241–299 | planned |
+| 18 | 49–51 | 241–256 | **reviewed — PASS** |
+| 19–21 | 52–58 | 257–299 | planned |
 
 Current totals:
 
-- batches reviewed: **17/21**;
-- items translated and reviewed: **48/58**;
-- certified source scans represented in reviewed English batches: **231/290 numbered-item scans**;
+- batches reviewed: **18/21**;
+- items translated and reviewed: **51/58**;
+- certified source scans represented in reviewed English batches: **247/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -109,13 +110,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 15:** items 40–42, scans 195–206 — reviewed PASS. Item 40 preserves the no-exclamation canonical title witness, Hijra/Appar/Mahendravarman comparison, Narasimha–Pulikesi material and complete Manavarman friendship/restoration narrative; Item 41 preserves the Kanchi-capital evidence argument, Anbazhagan retort, Pallava site list, *Matta Vilasam*/Appar and inscriptional evidence; Item 42 preserves the Nelveli and Kanchi/Peruvalanallur battle movements, charter perspectives, united-tigers analogy, `அரிவாரணம்` passage and concluding charter/*Tevaram* source notes without outside adjudication.
 - **Batch 16:** items 43–45, scans 207–219 — reviewed PASS. Item 43 preserves the Dravidian/Tamil-lineage argument, political unity/decline rhetoric, CE 350/575/850/875 chronology, Vijayalaya–Aparajita relationship, Tiruppurambiyam narrative and inscriptional close; Item 44 preserves its comma-only title discrepancy, dynastic succession, explicit rationalist rejection of the funeral-pyre custom, accusation/counter-accusation over Aditya Karikalan's murder, the iron-pillar/fly-wing image and Murugan/peacock analogy; Item 45 preserves the Kattumannarkudi-inscription list, competing Madhurantakan arguments, benefit-of-doubt turn, Rajaraja's crown-prince training and the source's dates/ages through Rajendra without outside reconciliation.
 - **Batch 17:** items 46–48, scans 220–240 — reviewed PASS. Item 46 preserves its final-exclamation title discrepancy, the political-achievement/social-critique contrast, funeral-pyre/caste/Chaturvedi-Mangalam/Jain-Buddhist polemic and complete court/family sequence; Item 47 preserves every campaign separator, Velakkara-force passage, temple/fort question, Tamil/Sanskrit and people-service critique, long inscriptional quotation, ruler list and visibly indented future-age close; Item 48 preserves the date/star uncertainty, administrative and local-government terminology, caste critique, religious-inclusiveness passage, two Tirukkural layers and Rajarajeswaram/Gangaikonda Cholapuram close without outside reconciliation.
+- **Batch 18:** items 49–51, scans 241–256 — reviewed PASS. Item 49 preserves the source's Rajadhiraja/Rajendra succession wording without silent chronology repair, the northern and Eelam campaigns, Ganga expedition, elephant-bridge claim, Ganga Vinayakar and Kadaram sequence; Item 50 preserves its title-witness spacing/punctuation discrepancy, Agavamallan envoy episode, Kalaignar's explicit condemnation of the humiliation as a stain, Koppam death/retaliation, onomatopoeic battle movement, battlefield coronation and Jain ascetic's thirty-thousand-lives question; Item 51 preserves the violent Koppam aftermath, Chalukya-Chola/marriage genealogy argument, anti-*shastra* polemic, Kulothunga title/date sequence, *Kalingattu Parani*, Lanka-retreat and Leiden copper-plate claims without outside reconciliation.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 17/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 18/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -123,10 +125,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 18 — items 49–51**:
+Translate and review **Batch 19 — items 52–54**:
 
-- item 49 — `களம் பல கண்டனர்; கடற்போரிலும் வென்றனர்!` — scans **241–245** — `../../sections/49.md`;
-- item 50 — `குருதிக்களமே; கொலு மண்டபம் ஆனது!` — scans **246–251** — `../../sections/50.md`;
-- item 51 — `திருமணங்களாலும் வருவதுண்டு திருப்பம்!` — scans **252–256** — `../../sections/51.md`.
+- item 52 — `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!` — scans **257–262** — `../../sections/52.md`;
+- item 53 — `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!` — scans **263–270** — `../../sections/53.md`;
+- item 54 — `தலையாலங்கானத்துச் செருவென்றான்!` — scans **271–276** — `../../sections/54.md`.
 
-Item 50 is a documented title-witness discrepancy: canonical/title-page witness is `குருதிக்களமே; கொலு மண்டபம் ஆனது!`, while contents witness is `குருதிக் களமே! கொலு மண்டபம் ஆனது!`. Preserve both witnesses separately. Create `batches/batch-18.md`. Stop after item 51; do not begin item 52.
+Item 53 includes its scan-270 `குறிப்பு:` block as part of the item. Item 54 is a documented title-witness discrepancy: canonical/title-page witness is `தலையாலங்கானத்துச் செருவென்றான்!`, while contents witness is `தலையாலங்கானத்துச் செரு வென்றான்!`; it also contains a concluding `குறிப்பு:` with Sangam poem references. Preserve all source layers. Create `batches/batch-19.md`. Stop after item 54; do not begin item 55.
