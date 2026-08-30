@@ -1,165 +1,90 @@
 # Page map — கலைஞரின் கவிதைகள்
 
-Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
+Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
-Available physical scans: **150**.
+## Source extent
+
+**The PDF contains more than 450 physical pages — user-confirmed. Exact physical page count is pending direct full-file metadata verification.**
+
+The present ChatGPT Files renderer exposes page images only through physical page **150**. Earlier records incorrectly treated that renderer limit as the PDF's actual length. That interpretation is withdrawn.
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–100 created.**
+**PHASE 1 MAP IN PROGRESS — page records 1–125 created.**
 
-This file records visible first-pass navigation evidence. It is **not** a completed physical-scan ↔ printed-page reconciliation and must not be treated as Phase-3 evidence.
+This file is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
-## Source-completeness boundary
+## Batch-level source map
 
-The supplied PDF is only a prefix/tranche of the printed book:
+| Physical scans | Visible source movement | Status / boundary |
+|---:|---|---|
+| 1–17 | cover, title/imprint, introductory matter, contents | first-pass complete; several blurred prelim/contents readings need Phase 2 |
+| 18–31 | `இதயத்தைத் தந்திடு அண்ணா` | closes on 31 |
+| 32–33 | `இனமான எந்தல்கள்` divider / verso | divider matter |
+| 34–42 | `தென்னவன் காதை` | closes on 42 |
+| 43–54 | `இந்திரஜித்` | closes on 54 |
+| 55–61 | `இரணியன்` | closes on 61 |
+| 62–69 | `வாளி மன்னன்` | closes on 69 |
+| 70–71 | `கவியரங்கக் கவிதைகள்` divider / verso | divider matter |
+| 72–79 | `விடுதலை வீரர்கள்` | closes on 79 |
+| 80–89 | `ஐம்புலன்` | closes on 89 |
+| 90–100 | `பிலவங்க ஆண்டு` | closes on 100 |
+| 101–115 | `காதலா - வீரமா?` | closes on 115 |
+| 116–125 | `அருமறையில் அறுவர்` | continues beyond 125 |
 
-- contents scans **15–17** list entries through at least printed page **444**;
-- supplied physical scan **150** visibly carries printed page **133** and the text continues;
-- therefore the printed edition continues beyond the supplied file.
+## Phase-1 map — scans 101–125
 
-Whole-book mapping, completeness certification and final clearance are blocked until the continuation source is available.
-
-## Phase-1 map — scans 1–25
-
-| Physical scan | Visible role / section | Visibly printed page | Phase-1 status | Notes |
-|---:|---|---|---|---|
-| 1 | front cover | — | `partial` | title and cover graphics |
-| 2 | title page / publisher block | — | `needs-review` | small telephone/imprint line blurred; later `அன்பளிப்பு` label separated |
-| 3 | English imprint / price | — | `partial` | fourth edition / March 1995 / Rs.65.00 visible |
-| 4 | `என்னுரை` | — | `needs-review` | blurred prose spans left unresolved |
-| 5 | `என்னுரை` continuation | IV | `partial` | signature `மு. கருணாநிதி` visible |
-| 6 | `அணிந்துரை` | — | `needs-review` | dense blurred prose |
-| 7 | `அணிந்துரை` continuation | VI | `needs-review` | dense blurred prose |
-| 8 | `அணிந்துரை` continuation | VII | `needs-review` | dense blurred prose |
-| 9 | `அணிந்துரை` continuation | VIII | `needs-review` | quoted `தமிழே! தேனே!` lines comparatively clear |
-| 10 | `அணிந்துரை` conclusion | IX | `needs-review` | date `15.5.82`, `மா.நன்னன்` visible |
-| 11 | `புறவுரை` | — | `needs-review` | repeated `படிக்கலாம்` sequence; surrounding prose blurred |
-| 12 | `புறவுரை` continuation | XI | `needs-review` | dense blurred prose |
-| 13 | `புறவுரை` conclusion | XII | `needs-review` | page-reference clusters; date `1.2.95`, `மா.நன்னன்` |
-| 14 | `பதிப்புரை` | — | `needs-review` | one phrase after `காலத்தை` unresolved; `7.2.95` visible |
-| 15 | `இதனுள்` contents | — | `needs-review` | small type; uncertain titles explicitly marked |
-| 16 | contents continuation | XV | `needs-review` | small type; uncertain titles explicitly marked |
-| 17 | contents continuation | XVI | `needs-review` | small type; final visible entry page number 444 |
-| 18 | `இதயத்தைத் தந்திடு அண்ணா` divider | — | `partial` | bordered divider page |
-| 19 | divider verso | — | `partial` | show-through/reversed text excluded from edition transcription |
-| 20 | `இதயத்தைத் தந்திடு அண்ணா` opening | 3 | `partial` | independent anthology-witness transcription begins |
-| 21 | poem continuation | 4 | `needs-review` | several blurred verse blocks |
-| 22 | poem continuation | 5 | `needs-review` | several blurred verse blocks |
-| 23 | poem continuation | 6 | `needs-review` | several blurred verse blocks / slogans |
-| 24 | poem continuation | 7 | `needs-review` | lower half substantially blurred |
-| 25 | poem continuation | 8 | `needs-review` | continues into scan 26 |
-
-## Phase-1 map — scans 26–50
-
-| Physical scan | Visible role / section | Visibly printed page | Phase-1 status | Notes |
-|---:|---|---|---|---|
-| 26 | `இதயத்தைத் தந்திடு அண்ணா` continuation | 9 | `needs-review` | several blurred verse blocks |
-| 27 | poem continuation | 10 | `needs-review` | several blurred names/compounds |
-| 28 | poem continuation | 11 | `needs-review` | dialogue-like passage; blur retained as unresolved |
-| 29 | poem continuation | 12 | `needs-review` | dense verse; several unresolved clusters |
-| 30 | poem continuation | 13 | `needs-review` | quotation/statue passage requires Phase 2 |
-| 31 | `இதயத்தைத் தந்திடு அண்ணா` conclusion | 14 | `needs-review` | final farewell/refrain visible; decorative ornament below |
-| 32 | `இனமான எந்தல்கள்` section divider | — | `partial` | bordered divider |
-| 33 | divider verso | — | `partial` | show-through excluded from edition text |
-| 34 | `தென்னவன் காதை` opening | — | `needs-review` | title clear; no printed numeral positively visible |
-| 35 | `தென்னவன் காதை` continuation | 18 | `needs-review` | blurred verse clusters |
-| 36 | poem continuation | 19 | `needs-review` | blurred verse/dialogue |
-| 37 | poem continuation | 20 | `needs-review` | blurred dialogue/speaker transitions |
-| 38 | poem continuation | 21 | `needs-review` | line illustration in lower portion; text partly blurred |
-| 39 | poem continuation | 22 | `needs-review` | narrative compounds heavily blur-sensitive |
-| 40 | poem continuation | 23 | `needs-review` | user exclusion safeguard retained; several unresolved spans |
-| 41 | poem continuation | 24 | `needs-review` | battle narrative; blurred central lines |
-| 42 | `தென்னவன் காதை` conclusion | 25 | `needs-review` | decorative ornament below closing verse |
-| 43 | `இந்திரஜித்` opening | — | `needs-review` | title clear; no printed numeral positively visible |
-| 44 | `இந்திரஜித்` continuation | 27 | `needs-review` | family/dialogue material; blurred compounds |
-| 45 | poem continuation | 28 | `needs-review` | dialogue and narrative blur |
-| 46 | poem continuation | 29 | `needs-review` | dialogue/proper-name-like forms require Phase 2 |
-| 47 | poem continuation | 30 | `needs-review` | large reclining-figure illustration; verse above/below |
-| 48 | poem continuation | 31 | `needs-review` | dialogue and names partly blurred |
-| 49 | poem continuation | 32 | `needs-review` | large mounted-warrior illustration; small text below |
-| 50 | poem continuation | 33 | `needs-review` | dense dialogue/battle rhetoric; continues into scan 51 |
-
-## Phase-1 map — scans 51–75
-
-| Physical scan | Visible role / section | Visibly printed page | Phase-1 status | Notes |
-|---:|---|---|---|---|
-| 51 | `இந்திரஜித்` continuation | 34 | `needs-review` | dense verse/dialogue; blur-sensitive compounds |
-| 52 | poem continuation | 35 | `needs-review` | quotation-heavy verse; several uncertain forms |
-| 53 | poem continuation | 36 | `needs-review` | battle/action passage; dense blurred compounds |
-| 54 | `இந்திரஜித்` conclusion | 37 | `needs-review` | closes with floral ornament |
-| 55 | `இரணியன்` opening | 38 | `needs-review` | title clear; verse blur-sensitive |
-| 56 | poem continuation | 39 | `needs-review` | narrative/quoted material requires Phase 2 |
-| 57 | poem continuation | 40 | `needs-review` | quoted terms and polemical verse; blurred compounds |
-| 58 | poem continuation | 41 | `needs-review` | dialogue/action; several unresolved spans |
-| 59 | poem continuation | 42 | `needs-review` | dialogue; multiple provisional readings |
-| 60 | poem continuation | 43 | `needs-review` | dense confrontation passage; blurred compounds |
-| 61 | `இரணியன்` conclusion | 44 | `needs-review` | short close with floral ornament |
-| 62 | `வாளி மன்னன்` opening | 45 | `needs-review` | title clear; verse blur-sensitive |
-| 63 | poem continuation | 46 | `needs-review` | narrative/argument passage |
-| 64 | poem continuation | 47 | `needs-review` | dialogue and political/rhetorical material |
-| 65 | poem continuation | 48 | `needs-review` | dialogue; several provisional compounds |
-| 66 | poem continuation | 49 | `needs-review` | dense quoted speech/action |
-| 67 | poem continuation | 50 | `needs-review` | dialogue and battle framing |
-| 68 | poem continuation | 51 | `needs-review` | combat narrative; blurred line endings |
-| 69 | `வாளி மன்னன்` conclusion | 52 | `needs-review` | closes with floral ornament |
-| 70 | `கவியரங்கக் கவிதைகள்` section divider | — | `partial` | bordered divider |
-| 71 | divider verso | — | `partial` | show-through excluded from edition text |
-| 72 | `விடுதலை வீரர்கள்` opening | 55 | `needs-review` | event-note block and title visible |
-| 73 | poem continuation | 56 | `needs-review` | dense patriotic verse |
-| 74 | poem/speaker continuation | 57 | `needs-review` | speaker labels and performance notes preserved |
-| 75 | poem/speaker continuation | 58 | `needs-review` | quoted praise; continues into scan 76 |
-
-## Phase-1 map — scans 76–100
-
-| Physical scan | Visible role / section | Visibly printed page | Phase-1 status | Notes |
-|---:|---|---|---|---|
-| 76 | `விடுதலை வீரர்கள்` continuation | 59 | `needs-review` | speaker transition / patriotic verse; blurred compounds |
-| 77 | poem/speaker continuation | 60 | `needs-review` | V.O.C. reference and chair's concluding poem transition |
-| 78 | chair's conclusion | 61 | `needs-review` | freedom/war argument; several unresolved lines |
-| 79 | `விடுதலை வீரர்கள்` conclusion | 62 | `needs-review` | `வணக்கம்! / வாழ்க!`; floral ornament |
-| 80 | `ஐம்புலன்` opening | — | `needs-review` | title; visible `24.3.68` event context; printed numeral not positively visible |
-| 81 | poem continuation | 64 | `needs-review` | sense-wordplay; blurred compounds |
-| 82 | poem continuation | 65 | `needs-review` | five-senses list / Viswamitra-Menaka movement |
-| 83 | poem continuation | 66 | `needs-review` | extended wordplay on senses/organs |
-| 84 | speaker/performance continuation | 67 | `needs-review` | `மெய்` segment closes; next introduction begins |
-| 85 | speaker/performance continuation | 68 | `needs-review` | `வாய்` segment closes; `கண்` introduced |
-| 86 | speaker/performance continuation | 69 | `needs-review` | `கண்` closes; `மூக்கு` movement and performance note |
-| 87 | speaker/performance continuation | 70 | `needs-review` | `செவி` movement; chair's final poem begins |
-| 88 | chair's conclusion | 71 | `needs-review` | cumulative five-senses conclusion |
-| 89 | `ஐம்புலன்` conclusion | 72 | `needs-review` | `வணக்கம்!`; floral ornament |
-| 90 | `பிலவங்க ஆண்டு` opening | — | `needs-review` | title; visible `13.4.68` radio/event context; printed numeral not positively visible |
-| 91 | poem/dialogue continuation | 74 | `needs-review` | year-theme / dream transition; dense wordplay |
-| 92 | dream/dialogue continuation | 75 | `needs-review` | dialogue and colloquial/proper-name-like forms blurred |
-| 93 | poem/dialogue continuation | 76 | `needs-review` | personified ethical headings become visible |
-| 94 | speaker/performance continuation | 77 | `needs-review` | `இனியவை கூறல்` note; `அடக்கம்` introduced |
-| 95 | speaker/performance continuation | 78 | `needs-review` | `அடக்கம்` movement and performance note |
-| 96 | speaker/performance continuation | 79 | `needs-review` | `பொறை/பொறுமை` movement; poet name partly unreadable |
-| 97 | speaker/performance continuation | 80 | `needs-review` | `வெகுளாமை` closes; `இன்னா செய்யாமை` introduced |
-| 98 | speaker/performance continuation | 81 | `needs-review` | `இன்னா செய்யாமை` closes; `அருளுடைமை` movement |
-| 99 | chair's conclusion | 82 | `needs-review` | cumulative ethical/year close; blurred compounds |
-| 100 | `பிலவங்க ஆண்டு` conclusion | 83 | `needs-review` | `வணக்கம்.`; floral ornament |
+| Scan | Visible role / section | Visibly printed page | Status | Notes |
+|---:|---|---:|---|---|
+| 101 | `காதலா - வீரமா?` opening | — | `needs-review` | title clear; event date `4-8-68`; no page numeral positively visible |
+| 102 | continuation | 85 | `needs-review` | dense argument/verse |
+| 103 | continuation | 86 | `needs-review` | speaker/argument transitions |
+| 104 | continuation | 87 | `needs-review` | quotation-heavy verse |
+| 105 | continuation | 88 | `needs-review` | poet/speaker transition |
+| 106 | continuation | 89 | `needs-review` | love/valour wordplay; blur-sensitive |
+| 107 | continuation | 90 | `needs-review` | quoted `புலி...` movement |
+| 108 | speaker/performance continuation | 91 | `needs-review` | chair transition; poet name partly uncertain |
+| 109 | speaker/performance continuation | 92 | `needs-review` | `வீரம்` performance note visible |
+| 110 | speaker/performance continuation | 93 | `needs-review` | Rajendran / Abdul Rahman introductions visible in part |
+| 111 | chair / தீர்ப்புக் கவிதை opening | 94 | `needs-review` | `தமிழன்பன்` முடிவுரை note; chair verdict begins |
+| 112 | தீர்ப்புக் கவிதை | 95 | `needs-review` | dense argument/quotation |
+| 113 | தீர்ப்புக் கவிதை | 96 | `needs-review` | literary/historical references |
+| 114 | தீர்ப்புக் கவிதை | 97 | `needs-review` | `அம்பிகாபதி - அமராவதி` reference visible |
+| 115 | `காதலா - வீரமா?` conclusion | 98 | `needs-review` | `வணக்கம்.` + floral ornament |
+| 116 | `அருமறையில் அறுவர்` opening | — | `needs-review` | title clear; event date `10.8.68`; no page numeral positively visible |
+| 117 | continuation / illustration | 100 | `needs-review` | large lower-page illustration |
+| 118 | continuation | 101 | `needs-review` | dense verse |
+| 119 | continuation | 102 | `needs-review` | repeated `வட்டம்` imagery |
+| 120 | speaker/performance continuation | 103 | `needs-review` | `வீரன்` segment / Kural quotation |
+| 121 | speaker/performance continuation | 104 | `needs-review` | `உழவன்` segment; நா. பார்த்தசாரதி note visible |
+| 122 | speaker/performance continuation | 105 | `needs-review` | `நண்பன்` segment; பேராசிரியர் எழில் முதல்வன் note visible |
+| 123 | speaker/performance continuation | 106 | `needs-review` | `பெண்` segment / தமிழழகன் note visible |
+| 124 | speaker/performance continuation | 107 | `needs-review` | `துறவு` segment / பெரியசாமித்தூரன் note visible |
+| 125 | speaker/performance continuation | 108 | `needs-review` | `கயவர்` note; chair summation begins; continues into 126 |
 
 ## Printed-page evidence rule
 
-Only numbers visibly printed on the source are entered above. In particular, no Roman or Arabic number is inferred for scans whose numeral is not visibly present.
+Only a numeral visibly printed on the source is entered as `printed_page`. The apparent body relationship between physical and printed pages is navigation assistance only; Phase 1 does not infer missing numerals.
 
-The apparent relationship `printed page = physical scan - 17` across much of the numbered body is a navigation clue only. Phase 1 must not write an inferred number as if visibly printed. Exhaustive reconciliation belongs to Phase 3.
+## Phase-1 inventory
 
-## Phase-1 page-record inventory
+Page records: `pages/0001.md` through `pages/0125.md`.
 
-Existing page records: `pages/0001.md` through `pages/0100.md`.
+Current cumulative status:
 
-Current count: **100 / 150 available physical scans**.
-
-Cumulative status:
-
+- records created: **125**;
 - `partial`: **10**;
-- `needs-review`: **90**;
+- `needs-review`: **115**;
 - `verified`: **0**.
 
-The high `needs-review` count is intentional. The PDF contains visibly blurred text, and uncertain readings are being preserved rather than silently reconstructed.
+The denominator is no longer `150`: the user confirms the PDF has **more than 450 pages**. Exact total remains pending direct full-file metadata access.
+
+## Renderer-access note
+
+The current Files page-image interface reports/exposes only pages 1–150. A request for page 151 did not return a page image, so the current tooling cannot yet be used to transcribe beyond 150 even though those pages are present in the supplied PDF.
 
 ## Exact next activity
 
-Phase 1 batch 05: transcribe physical scans **101–125** into `pages/0101.md` through `pages/0125.md`, preserving the same conservative blur protocol and recording only visible printed-page evidence.
+Phase 1 batch 06: transcribe physical scans **126–150** into `pages/0126.md` through `pages/0150.md`.
+
+After that, continue with **151 onward** from the same PDF when full-page access becomes available. Do not mislabel scan 150 as the end of the source PDF.
