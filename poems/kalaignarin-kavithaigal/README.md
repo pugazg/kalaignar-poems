@@ -4,34 +4,34 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 150 physical pages recorded; source continues beyond renderer boundary.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 150/465 physical pages recorded.**
 
 Controlling source:
 
 `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
-## Source facts
+## Exact source facts
 
+- physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
-- PDF length: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
-- current ChatGPT Files renderer exposes page images only through page **150**;
-- page 150 is **not** the source end;
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - printed title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
 - fourth edition: **March 1995**;
-- printed contents list works through at least printed page **444**;
-- SHA-256: **pending exact-byte computation**.
+- printed contents list works through at least printed page **444**.
+
+An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; scan 151 is also directly renderable and continues the source.
 
 ## Phase-1 progress
 
-Page records now exist as:
+Page records:
 
 `pages/0001.md` through `pages/0150.md`
 
 Current cumulative status:
 
-- page records: **150**;
+- page records: **150/465**;
 - `partial`: **10**;
 - `needs-review`: **140**;
 - `verified`: **0**;
@@ -60,7 +60,7 @@ Completed Phase-1 batches:
 - `அருமறையில் அறுவர்` — 116–127;
 - `புதிய பாதை` — 128–137;
 - `உடைமைகள் பத்து` — 138–143;
-- `நீர்க் குடும்பம்` — opens 144 and **continues beyond scan 150**.
+- `நீர்க் குடும்பம்` — opens 144 and continues beyond 150.
 
 ## Blur / difficult-reading control
 
@@ -78,16 +78,10 @@ Works already archived from separate witnesses, including `இதயத்தை
 
 The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and must not be reintroduced.
 
-## Tooling access beyond scan 150
-
-The current Files page-image renderer exposes only pages **1–150**, even though the uploaded PDF contains **more than 450 pages**. This is a tooling/access limitation only.
-
-Do not reinterpret 150/150 renderer-exposed pages as Phase-1 completion of the supplied PDF.
-
 ## Exact next activity
 
-Continue **Phase 1 from scan 151 onward** from this same controlling PDF when page images beyond 150 become directly accessible.
+Begin **Phase 1 Batch 07 — scans 151–175**.
 
-Planned next batch: **Batch 07 — scans 151–175**, continuing directly from the unfinished `நீர்க் குடும்பம்` item.
+Create `pages/0151.md` through `pages/0175.md`, continuing directly from the unfinished `நீர்க் குடும்பம்` item at scan 150.
 
-Do not begin Phase 2 and do not use another edition to fill the present renderer-access gap.
+Do not begin Phase 2 in the same activity.
