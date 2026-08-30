@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**NEW ACTIVE WORK — SOURCE INTAKE REGISTERED; PHASE 1 TRANSCRIPTION NEXT.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 50/150 available scans recorded.**
 
 Controlling source currently supplied:
 
@@ -27,21 +27,56 @@ The supplied 150-scan PDF is **not the complete printed book**.
 
 Evidence from the controlling scan itself:
 
-- the contents on physical scans **15–17** list entries beginning as late as printed page **444**;
+- the contents on physical scans **15–17** list entries through at least printed page **444**;
 - physical scan **150** visibly carries printed page **133** and still contains continuing body text;
 - therefore the supplied file ends in the middle of the printed collection and must be treated as an **available source tranche**, not as a complete-edition scan.
 
 This does **not** prevent faithful Phase-1 transcription of the 150 available scans. It does block any future claim of whole-book source completeness, Tamil final clearance or release until continuation source material is supplied and reconciled.
 
-## Source structure observed during intake
+## Current Phase-1 progress
 
-Preliminary/source-navigation observations only; exhaustive page mapping belongs to later phases.
+Page records now exist as:
 
-- scans **1–14**: cover/title/imprint and introductory matter;
-- scans **15–17**: printed contents;
-- scans **18–19**: divider / verso before the first numbered poem section;
-- scan **20**: first poem opening, visibly printed page **3**;
-- scan **150**: visibly printed page **133**, with text continuing beyond the available file.
+`pages/0001.md` through `pages/0050.md`
+
+Cumulative status:
+
+- page records: **50/150**;
+- `partial`: **8**;
+- `needs-review`: **42**;
+- `verified`: **0**;
+- Phase 2 verification: **not started**.
+
+Completed Phase-1 batches:
+
+- Batch 01 — scans **1–25**;
+- Batch 02 — scans **26–50**.
+
+Source/work boundaries encountered so far:
+
+- scans 1–17 — cover/title/imprint/front matter/contents;
+- scans 18–31 — `இதயத்தைத் தந்திடு அண்ணா` divider + poem witness, closing on scan 31;
+- scans 32–33 — `இனமான எந்தல்கள்` divider/verso;
+- scans 34–42 — `தென்னவன் காதை`, closing on scan 42;
+- scans 43–50 — `இந்திரஜித்`, still continuing after scan 50.
+
+## Blur / difficult-reading control
+
+The user has explicitly warned that this PDF contains blurred text. This is now a durable work-level control.
+
+During Phase 1:
+
+- only confidently legible source text is transcribed;
+- uncertain spans are marked explicitly with `⟦…⟧` rather than guessed;
+- `⟦…⟧` is an editorial uncertainty marker, not printed source punctuation;
+- no OCR, remembered wording, metre, grammar or historical expectation may silently fill a blurred span;
+- the already archived standalone `இதயத்தைத் தந்திடு அண்ணா` and `தென்னவன் காதை` witnesses must not be copied into this anthology transcription;
+- source-visible lineation/page boundaries and only visibly printed page numbers are preserved;
+- the existing user-directed exclusion applicable to `தென்னவன் காதை` must not be reintroduced through this anthology witness.
+
+The high `needs-review` count is intentional. Those readings belong to the independent Phase-2 visual/glyph review and are **not** falsely promoted to `verified` during first-pass transcription.
+
+## Source structure / contents evidence
 
 The contents visibly organize the collection under multiple groups, including:
 
@@ -51,7 +86,7 @@ The contents visibly organize the collection under multiple groups, including:
 4. `கண்ணீர்க் கவிதை`;
 5. `மலர்த் தோட்டம்`.
 
-Full contents transcription will be performed from scans 15–17 during Phase 1 rather than reconstructed from this intake summary.
+Scans 15–17 have first-pass contents records but several small blurred title strings remain `needs-review` and must not yet be treated as final title witnesses.
 
 ## Existing-source overlap rule
 
@@ -60,24 +95,13 @@ This anthology includes works that also exist elsewhere in this repository as se
 - `இதயத்தைத் தந்திடு அண்ணா!`;
 - `தென்னவன் காதை`.
 
-Those existing repositories/files must **not** be copied into this anthology transcription. This 1995 anthology is a distinct printed witness and must be transcribed independently from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`. Cross-edition comparison may occur only later as an explicit provenance-aware activity.
+Those existing files must **not** be copied into this anthology transcription. This 1995 anthology is a distinct printed witness and must be transcribed independently from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`. Cross-edition comparison may occur only later as an explicit provenance-aware activity.
 
 ## Phase discipline
 
 This work follows `POEM_PROCESSING_GUIDE.md` and `TRANSCRIPTION_PHASE_PLAN.md`.
 
-### Phase 1 — transcription only
-
-Status: **READY — 0/150 available scans transcribed in this work directory.**
-
-During Phase 1:
-
-- transcribe directly from the supplied scan;
-- preserve source spelling, punctuation, lineation, headings, quotation marks and unusual forms;
-- record only visibly printed page numbers as printed-page evidence;
-- use `partial` for first-pass page records unless a page has genuinely undergone the later independent verification pass;
-- do not silently import wording from the already released standalone `இதயத்தைத் தந்திடு அண்ணா` work, the separate `தென்னவன் காதை` witness, OCR, web text or another edition;
-- do not begin systematic Phase-2 verification, Phase-3 reconciliation/assembly or English translation.
+Phase 1 remains transcription-only. Do not begin systematic Phase-2 verification, Phase-3 reconciliation/assembly, or English translation while the available 150-scan first-pass layer is incomplete.
 
 ## Open intake metadata item
 
@@ -85,8 +109,6 @@ The supplied source checksum is not yet recorded because the current attachment 
 
 ## Exact next activity
 
-Begin **Phase 1 transcription batch 01 — physical scans 1–25**.
+Begin **Phase 1 transcription batch 03 — physical scans 51–75**.
 
-Create `pages/0001.md` through `pages/0025.md` from direct visual inspection of the controlling PDF. This first batch includes the cover/title/imprint/introduction, all three contents scans, the divider/verso, and the opening portion of `இதயத்தைத் தந்திடு அண்ணா!`.
-
-Do not use existing standalone poem text as the transcription source. At batch completion, record progress in `audit.md` and `indexes/page-map.md`; routine Phase-1 status churn elsewhere may remain milestone-based.
+Create `pages/0051.md` through `pages/0075.md` from direct visual inspection of the controlling PDF. Preserve the same conservative blur protocol. At batch completion, update `audit.md` and `indexes/page-map.md`; do not begin Phase 2 in the same activity.
