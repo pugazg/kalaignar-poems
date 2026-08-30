@@ -39,7 +39,7 @@ Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்
 
 ## Durable Phase-1 state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — 50/150 AVAILABLE SCANS RECORDED.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — 75/150 AVAILABLE SCANS RECORDED.**
 
 - available physical scans: **150**;
 - file size: **486,369,088 bytes**;
@@ -47,8 +47,8 @@ Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்
 - source type: image-based scanned PDF with no usable parsed text layer;
 - publisher visible: **பாரதி பதிப்பகம்**;
 - English imprint: **fourth edition, March 1995**;
-- Phase 1 page records created: **50/150**;
-- cumulative status: **8 `partial`, 42 `needs-review`, 0 `verified`**;
+- Phase 1 page records created: **75/150**;
+- cumulative status: **10 `partial`, 65 `needs-review`, 0 `verified`**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - translation: **blocked until Tamil final clearance**.
@@ -56,7 +56,8 @@ Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்
 Completed Phase-1 batches:
 
 - Batch 01 — scans **1–25**;
-- Batch 02 — scans **26–50**.
+- Batch 02 — scans **26–50**;
+- Batch 03 — scans **51–75**.
 
 Current work boundaries:
 
@@ -64,7 +65,11 @@ Current work boundaries:
 - scans 18–31 — `இதயத்தைத் தந்திடு அண்ணா`, closed on scan 31;
 - scans 32–33 — `இனமான எந்தல்கள்` divider/verso;
 - scans 34–42 — `தென்னவன் காதை`, closed on scan 42;
-- scans 43–50 — `இந்திரஜித்`, still continuing after scan 50.
+- scans 43–54 — `இந்திரஜித்`, closed on scan 54;
+- scans 55–61 — `இரணியன்`, closed on scan 61;
+- scans 62–69 — `வாளி மன்னன்`, closed on scan 69;
+- scans 70–71 — `கவியரங்கக் கவிதைகள்` divider/verso;
+- scans 72–75 — `விடுதலை வீரர்கள்`, continuing beyond scan 75.
 
 ## Durable blur-control rule
 
@@ -75,6 +80,7 @@ The user explicitly warned that this PDF contains blurred text. Therefore:
 - do not fill blur from OCR, memory, grammar, metre, historical expectation or another edition;
 - do not copy the separate `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` transcriptions into this anthology witness;
 - the existing user-directed caste-slur exclusion applicable to `தென்னவன் காதை` must not be reintroduced through this anthology;
+- source-visible speaker labels/performance notes are retained where legible;
 - `needs-review` is expected and is not a failure: those pages wait for the independent Phase-2 visual/glyph pass.
 
 ## Critical source-completeness boundary
@@ -95,14 +101,15 @@ Therefore:
 
 ## Exact next activity
 
-Begin **Phase 1 transcription batch 03 — physical scans 51–75**.
+Begin **Phase 1 transcription batch 04 — physical scans 76–100**.
 
 Create:
 
-`pages/0051.md` through `pages/0075.md`
+`pages/0076.md` through `pages/0100.md`
 
 Rules:
 
+- continue directly from unfinished `விடுதலை வீரர்கள்` at scan 75;
 - direct visual transcription only;
 - preserve spelling, punctuation, lineation, headings, quotation marks and unusual forms where legible;
 - distinguish later physical marks/labels from edition text;
