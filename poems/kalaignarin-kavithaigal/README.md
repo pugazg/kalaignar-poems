@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 75/150 available scans recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 100/150 available scans recorded.**
 
 Controlling source currently supplied:
 
@@ -37,13 +37,13 @@ This does **not** prevent faithful Phase-1 transcription of the 150 available sc
 
 Page records now exist as:
 
-`pages/0001.md` through `pages/0075.md`
+`pages/0001.md` through `pages/0100.md`
 
 Cumulative status:
 
-- page records: **75/150**;
+- page records: **100/150**;
 - `partial`: **10**;
-- `needs-review`: **65**;
+- `needs-review`: **90**;
 - `verified`: **0**;
 - Phase 2 verification: **not started**.
 
@@ -51,7 +51,8 @@ Completed Phase-1 batches:
 
 - Batch 01 — scans **1–25**;
 - Batch 02 — scans **26–50**;
-- Batch 03 — scans **51–75**.
+- Batch 03 — scans **51–75**;
+- Batch 04 — scans **76–100**.
 
 Source/work boundaries encountered so far:
 
@@ -63,7 +64,9 @@ Source/work boundaries encountered so far:
 - scans 55–61 — `இரணியன்`, closing on scan 61;
 - scans 62–69 — `வாளி மன்னன்`, closing on scan 69;
 - scans 70–71 — `கவியரங்கக் கவிதைகள்` divider/verso;
-- scans 72–75 — `விடுதலை வீரர்கள்`, still continuing after scan 75.
+- scans 72–79 — `விடுதலை வீரர்கள்`, closing on scan 79;
+- scans 80–89 — `ஐம்புலன்`, closing on scan 89;
+- scans 90–100 — `பிலவங்க ஆண்டு`, closing on scan 100.
 
 ## Blur / difficult-reading control
 
@@ -77,7 +80,8 @@ During Phase 1:
 - no OCR, remembered wording, metre, grammar or historical expectation may silently fill a blurred span;
 - the already archived standalone `இதயத்தைத் தந்திடு அண்ணா` and `தென்னவன் காதை` witnesses must not be copied into this anthology transcription;
 - source-visible lineation/page boundaries and only visibly printed page numbers are preserved;
-- source-visible speaker labels and performance notes in `விடுதலை வீரர்கள்` are retained where legible;
+- source-visible speaker labels, poet introductions and performance notes are retained where legible;
+- scans 80 and 90 do not receive inferred printed-page numbers because no numeral is positively visible in the supplied view;
 - the existing user-directed exclusion applicable to `தென்னவன் காதை` must not be reintroduced through this anthology witness.
 
 The high `needs-review` count is intentional. Those readings belong to the independent Phase-2 visual/glyph review and are **not** falsely promoted to `verified` during first-pass transcription.
@@ -115,6 +119,6 @@ The supplied source checksum is not yet recorded because the current attachment 
 
 ## Exact next activity
 
-Begin **Phase 1 transcription batch 04 — physical scans 76–100**.
+Begin **Phase 1 transcription batch 05 — physical scans 101–125**.
 
-Create `pages/0076.md` through `pages/0100.md` from direct visual inspection of the controlling PDF. Preserve the same conservative blur protocol. Continue directly from the unfinished `விடுதலை வீரர்கள்` item at scan 75. At batch completion, update `audit.md` and `indexes/page-map.md`; do not begin Phase 2 in the same activity.
+Create `pages/0101.md` through `pages/0125.md` from direct visual inspection of the controlling PDF. Preserve the same conservative blur protocol. At batch completion, update `audit.md` and `indexes/page-map.md`; do not begin Phase 2 in the same activity.
