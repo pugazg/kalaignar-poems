@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This map ties every English translation item and revised batch to the **final-cleared Tamil canonical layer** and its certified physical-source range.
+This map ties every English translation item and reviewed batch to the **final-cleared Tamil canonical layer** and its certified physical-source range.
 
 It is navigational. It does not replace the controlling scan, verified `pages/NNNN.md` records, canonical `sections/NN.md` files, or Phase-3 audits.
 
@@ -19,9 +19,9 @@ If a Tamil reading is reopened:
 
 No English choice may silently modify the final-cleared Tamil source.
 
-## Cadence revision
+## Cadence record
 
-Batches **01–03** remain the reviewed two-item batches created under the original plan. From **Batch 04 onward**, the translation cadence is **three complete poems/items per iteration**. Item 58 forms the final one-item Batch 21 after the three-item sequence exhausts items 7–57.
+Batches **01–03** remain the reviewed two-item batches created under the original plan. From **Batch 04 onward**, the translation cadence was **three complete poems/items per iteration**. Item 58 forms the final one-item Batch 21. All **21/21** batches are now reviewed PASS.
 
 ## Complete 58-item inventory
 
@@ -90,7 +90,7 @@ The item ranges form one continuous non-overlapping canonical source block from 
 
 ## Title-witness discrepancy register for translation
 
-The following 14 items require explicit dual-witness metadata. English displayed titles must be translated from the **canonical/title-page witness**, not from the contents witness.
+The following 14 items require explicit dual-witness metadata. English displayed titles are translated from the **canonical/title-page witness**, not from the contents witness.
 
 | Item | Canonical/title-page witness | Contents witness |
 |---:|---|---|
@@ -109,11 +109,11 @@ The following 14 items require explicit dual-witness metadata. English displayed
 | 54 | `தலையாலங்கானத்துச் செருவென்றான்!` | `தலையாலங்கானத்துச் செரு வென்றான்!` |
 | 58 | `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!` | `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்` |
 
-Item 37 additionally preserves `printed_item_number: 36`; this must never alter its stable translation identity as item 37.
+Item 37 additionally preserves `printed_item_number: 36`; this never alters its stable translation identity as item 37.
 
 ## Source-sensitive item flags
 
-The translator must inspect the complete canonical item rather than infer content from the title. Particular structural/source features already established or reinforced by reviewed batches include:
+The translator and later collection editor must inspect the complete reviewed item rather than infer content from the title. Particular structural/source features established or reinforced by reviewed batches include:
 
 - item 14 contains extended dramatic dialogue and scene structure;
 - item 21 includes a concluding `குறிப்பு:` block as part of the item;
@@ -146,14 +146,16 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 52 opens with two earlier Kalaignar poem excerpts, moves through Sangam-source uncertainty, the advance-warning war custom and Golden-Handed Pandyan narrative, then closes by returning to *Tolkappiyam* and the Pandya-history series;
 - item 53 contains extensive king/queen dialogue, Middle Sangam poet inventory, Kavatapuram sea-deluge sequence, Adiyarkku Nallar forty-nine-country passage and the scan-270 `குறிப்பு:` block as part of the canonical item;
 - item 54 contains the autobiographical/political Nedunchezhiyan preface, a joined-form canonical title distinct from the contents witness, multiple attributed Sangam-poet layers, battlefield imagery, *Maduraikanchi* anti-war movement, *Nedunalvadai* close and concluding `குறிப்பு:` with exact Sangam poem references;
-- item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`;
-- item 58 includes the collection closing `(முதல் பாகம் முற்றிற்று)` and ends immediately before separate scan-300 `குறிப்புகள்` end matter.
+- item 55 contains the *Nedunalvadai* literary retelling, `அணை` embrace/dam wordplay, repeated internal separators and a concluding parenthetical source note that belongs to the item;
+- item 56 carries the `பற்று / பற்றி எரியும்` title wordplay, Sangam-count and Mudathirumaran claims, Mudukudumi/Palyagasalai/Vedic-Aryan polemic, Nettimaiyar war critique and a Madivanan dramatic-Tamil closing movement;
+- item 57 contains the *uzhinjai / nochchi / thumbai / vaagai* war vocabulary, extended erotic dialogue, technical Kaanapper-fortress/siege sequence, battle victory and Aiyur Moolankizhar's final forge-water simile;
+- item 58 contains the final title discrepancy, the unity/self-respect closing argument and the collection closing `(முதல் பாகம் முற்றிற்று)`; it ends on verified scan 299 immediately before separate scan-300 `குறிப்புகள்` end matter.
 
-Internal star separators, quotations, dialogue labels, parenthetical source material, dates, figures, names and source-sensitive spelling must be understood before drafting English. Their presence must not be silently erased simply because English syntax differs.
+Internal star separators, quotations, dialogue labels, parenthetical source material, dates, figures, names and source-sensitive spelling remain part of the reviewed translation architecture and must not be silently erased during collection assembly.
 
 ## Revised batch map
 
-| Batch | Items | Scans | Planned file |
+| Batch | Items | Scans | Reviewed file |
 |---:|---:|---:|---|
 | 01 | 1–2 | 10–15 | `batches/batch-01.md` |
 | 02 | 3–4 | 16–24 | `batches/batch-02.md` |
@@ -179,32 +181,29 @@ Internal star separators, quotations, dialogue labels, parenthetical source mate
 
 ## Batch review rule
 
-Before a batch receives `reviewed — PASS`:
+Before a batch received `reviewed — PASS`:
 
-- every complete canonical item assigned to that batch must be represented once and in order;
-- every source movement, line, quotation, dialogue unit, separator and item-internal note must be accounted for;
-- no adjacent item text may leak across the item boundary;
-- any non-literal solution must be documented separately;
-- canonical-title/contents-title distinctions must remain traceable;
-- names, dates, figures and references must be checked against the Tamil working source;
-- Kalaignar's repetition, direct address, satire, rhetorical questions, political/historical specificity and argumentative movement must remain visible;
-- no translation choice may silently rewrite Tamil.
+- every complete canonical item assigned to that batch had to be represented once and in order;
+- every source movement, line, quotation, dialogue unit, separator and item-internal note had to be accounted for;
+- no adjacent item text could leak across the item boundary;
+- any non-literal solution had to be documented separately;
+- canonical-title/contents-title distinctions had to remain traceable;
+- names, dates, figures and references had to be checked against the Tamil working source;
+- Kalaignar's repetition, direct address, satire, rhetorical questions, political/historical specificity and argumentative movement had to remain visible;
+- no translation choice could silently rewrite Tamil.
 
 ## Progress
 
-Reviewed through **Batch 19 / item 54 / scan 276**.
+Reviewed through **Batch 21 / item 58 / scan 299**.
 
-- batches reviewed: **19/21**;
-- items translated and reviewed: **54/58**;
-- numbered-item scans covered: **267/290**;
-- unresolved reviewed-batch issues: **0**.
+- batches reviewed: **21/21**;
+- items translated and reviewed: **58/58**;
+- numbered-item scans covered: **290/290**;
+- unresolved reviewed-batch issues: **0**;
+- Tamil canonical/page files modified during translation: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 20 — items 55–57**:
+Assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from the reader-facing translation bodies in `batches/batch-01.md` through `batches/batch-21.md`.
 
-- item 55 `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` — scans **277–284**;
-- item 56 `பற்று கடந்தால், பற்றி எரியும் வெறியே!` — scans **285–288**;
-- item 57 `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` — scans **289–295**.
-
-Item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`; preserve it as part of the item. Create `batches/batch-20.md`, preserving item boundaries and scan provenance. Stop after item 57; do not begin item 58.
+Include items **1–58 exactly once and in order**. Preserve translated titles, line/stanza architecture, source-visible separators and item-internal source notes. Exclude batch front matter, source-metadata blocks, translator notes and batch-review prose. Preserve all established title-witness decisions and item 58's `(First Part Complete)` ending. Stop before separate scan-300 end matter. Do not alter Tamil canonical/page files.
