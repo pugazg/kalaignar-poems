@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–11 reviewed PASS; 30/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–12 reviewed PASS; 33/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -48,13 +48,14 @@ Revised total planned batches: **21**.
 | 09 | 22–24 | 112–123 | **reviewed — PASS** |
 | 10 | 25–27 | 124–135 | **reviewed — PASS** |
 | 11 | 28–30 | 136–147 | **reviewed — PASS** |
-| 12–21 | 31–58 | 148–299 | planned |
+| 12 | 31–33 | 148–160 | **reviewed — PASS** |
+| 13–21 | 34–58 | 161–299 | planned |
 
 Current totals:
 
-- batches reviewed: **11/21**;
-- items translated and reviewed: **30/58**;
-- certified source scans represented in reviewed English batches: **138/290 numbered-item scans**;
+- batches reviewed: **12/21**;
+- items translated and reviewed: **33/58**;
+- certified source scans represented in reviewed English batches: **151/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -97,13 +98,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 09:** items 22–24, scans 112–123 — reviewed PASS. Item 22 preserves its quoted canonical-title witness, repeated “I”, question/answer structure, evolution/cosmic journey and `அரிமா நோக்கு` / `அரியா நோக்கு` wordplay; Item 23 preserves the Kundalakesi feminism/patriarchy narrative and sensual imagery; Item 24 retains the full Madhavi ornament inventory, stage measurements, star separator and source glossary without outside correction.
 - **Batch 10:** items 25–27, scans 124–135 — reviewed PASS. Items 25 and 26 preserve their title-witness punctuation differences; Kannagi's culture/ritual argument, the women-poet/warrior sequence and complete poet list, and the Mathivanan/evidence-method and Dravidian-history framing are retained without outside correction or Tamil-source alteration.
 - **Batch 11:** items 28–30, scans 136–147 — reviewed PASS. Item 28 preserves its global-Dravidian-civilisation argument, named authorities and source English quotation without outside adjudication; Item 29 preserves its title-witness comma difference, Talaiyalanganam battle rhetoric and both attributed *Purananuru* passages; Item 30 preserves the Sangam/early-Chola frame, northern-gift sequence, Lanka/Kaveri and Mukari narratives, and the source's closing uncertainty between the two Karikalans.
+- **Batch 12:** items 31–33, scans 148–160 — reviewed PASS. Item 31 preserves the verified canonical `மகனும்` title reading despite the mother-daughter narrative and keeps its title-witness comma difference; Item 32 preserves its substantively different title witnesses, repeated star separators, Kovoor Kizhar intervention sequence, compact classical quotation plus source-supplied meaning and humanitarian ceasefire close; Item 33 preserves the `செருப்பாழி` segmentation argument, source chronology and Maurya–Mogur narrative without outside correction.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 11/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 12/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -111,10 +113,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 12 — items 31–33**:
+Translate and review **Batch 13 — items 34–36**:
 
-- item 31 — `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` — scans **148–151** — `../../sections/31.md`;
-- item 32 — `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்` — scans **152–156** — `../../sections/32.md`;
-- item 33 — `“செருப்பாழி எறிந்த” என்பது சிறப்புப் பட்டமா?` — scans **157–160** — `../../sections/33.md`.
+- item 34 — `மறையவில்லை; மறுமலர்ச்சி பெற்றது!` — scans **161–166** — `../../sections/34.md`;
+- item 35 — `உயிரினும் மேலான உயர்ந்த நட்பு!` — scans **167–172** — `../../sections/35.md`;
+- item 36 — `இளையவன்; அவன் ஒரு தமிழ் மகன்!` — scans **173–178** — `../../sections/36.md`.
 
-Items 31 and 32 are documented title-witness discrepancies. Item 31's contents witness adds a comma after `தாயும்`; Item 32's contents witness is substantively different (`கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`) from the canonical/title-page witness. Preserve both witness pairs separately. Create `batches/batch-12.md`. Stop after item 33; do not begin item 34.
+Create `batches/batch-13.md`. Preserve all three items as distinct works and retain their complete source architecture. Stop after item 36; do not begin item 37.
