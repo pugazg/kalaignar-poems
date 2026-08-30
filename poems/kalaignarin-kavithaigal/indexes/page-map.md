@@ -6,7 +6,7 @@ Available physical scans: **150**.
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–25 created.**
+**PHASE 1 MAP IN PROGRESS — page records 1–50 created.**
 
 This file records visible first-pass navigation evidence. It is **not** a completed physical-scan ↔ printed-page reconciliation and must not be treated as Phase-3 evidence.
 
@@ -50,26 +50,56 @@ Whole-book mapping, completeness certification and final clearance are blocked u
 | 24 | poem continuation | 7 | `needs-review` | lower half substantially blurred |
 | 25 | poem continuation | 8 | `needs-review` | continues into scan 26 |
 
+## Phase-1 map — scans 26–50
+
+| Physical scan | Visible role / section | Visibly printed page | Phase-1 status | Notes |
+|---:|---|---|---|---|
+| 26 | `இதயத்தைத் தந்திடு அண்ணா` continuation | 9 | `needs-review` | several blurred verse blocks |
+| 27 | poem continuation | 10 | `needs-review` | several blurred names/compounds |
+| 28 | poem continuation | 11 | `needs-review` | dialogue-like passage; blur retained as unresolved |
+| 29 | poem continuation | 12 | `needs-review` | dense verse; several unresolved clusters |
+| 30 | poem continuation | 13 | `needs-review` | quotation/statue passage requires Phase 2 |
+| 31 | `இதயத்தைத் தந்திடு அண்ணா` conclusion | 14 | `needs-review` | final farewell/refrain visible; decorative ornament below |
+| 32 | `இனமான எந்தல்கள்` section divider | — | `partial` | bordered divider |
+| 33 | divider verso | — | `partial` | show-through excluded from edition text |
+| 34 | `தென்னவன் காதை` opening | — | `needs-review` | title clear; no printed numeral positively visible |
+| 35 | `தென்னவன் காதை` continuation | 18 | `needs-review` | blurred verse clusters |
+| 36 | poem continuation | 19 | `needs-review` | blurred verse/dialogue |
+| 37 | poem continuation | 20 | `needs-review` | blurred dialogue/speaker transitions |
+| 38 | poem continuation | 21 | `needs-review` | line illustration in lower portion; text partly blurred |
+| 39 | poem continuation | 22 | `needs-review` | narrative compounds heavily blur-sensitive |
+| 40 | poem continuation | 23 | `needs-review` | user exclusion safeguard retained; several unresolved spans |
+| 41 | poem continuation | 24 | `needs-review` | battle narrative; blurred central lines |
+| 42 | `தென்னவன் காதை` conclusion | 25 | `needs-review` | decorative ornament below closing verse |
+| 43 | `இந்திரஜித்` opening | — | `needs-review` | title clear; no printed numeral positively visible |
+| 44 | `இந்திரஜித்` continuation | 27 | `needs-review` | family/dialogue material; blurred compounds |
+| 45 | poem continuation | 28 | `needs-review` | dialogue and narrative blur |
+| 46 | poem continuation | 29 | `needs-review` | dialogue/proper-name-like forms require Phase 2 |
+| 47 | poem continuation | 30 | `needs-review` | large reclining-figure illustration; verse above/below |
+| 48 | poem continuation | 31 | `needs-review` | dialogue and names partly blurred |
+| 49 | poem continuation | 32 | `needs-review` | large mounted-warrior illustration; small text below |
+| 50 | poem continuation | 33 | `needs-review` | dense dialogue/battle rhetoric; continues into scan 51 |
+
 ## Printed-page evidence rule
 
 Only numbers visibly printed on the source are entered above. In particular, no Roman or Arabic number is inferred for scans whose numeral is not visibly present.
 
-The apparent relationship `printed page = physical scan - 17` across the numbered body is a useful navigation clue only. Phase 1 must not write an inferred number as if visibly printed. Exhaustive reconciliation belongs to Phase 3.
+The apparent relationship `printed page = physical scan - 17` across much of the numbered body is a navigation clue only. Phase 1 must not write an inferred number as if visibly printed. Exhaustive reconciliation belongs to Phase 3.
 
 ## Phase-1 page-record inventory
 
-Existing page records: `pages/0001.md` through `pages/0025.md`.
+Existing page records: `pages/0001.md` through `pages/0050.md`.
 
-Current count: **25 / 150 available physical scans**.
+Current count: **50 / 150 available physical scans**.
 
-Status within scans 1–25:
+Cumulative status:
 
-- `partial`: **6**;
-- `needs-review`: **19**;
+- `partial`: **8**;
+- `needs-review`: **42**;
 - `verified`: **0**.
 
-The high `needs-review` count is intentional: the scan contains visibly blurred text, and uncertain readings are being preserved rather than silently reconstructed.
+The high `needs-review` count is intentional. The PDF contains visibly blurred text, and uncertain readings are being preserved rather than silently reconstructed.
 
 ## Exact next activity
 
-Phase 1 batch 02: transcribe physical scans **26–50** into `pages/0026.md` through `pages/0050.md`, preserving the same conservative blur protocol and recording only visible printed-page evidence.
+Phase 1 batch 03: transcribe physical scans **51–75** into `pages/0051.md` through `pages/0075.md`, preserving the same conservative blur protocol and recording only visible printed-page evidence.
