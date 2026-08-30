@@ -2,14 +2,14 @@
 
 ## Current state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–02, scans 1–50 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–03, scans 1–75 recorded.**
 
 - controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - available physical scans: **150**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **pending exact-byte computation**;
-- Phase 1 page records: **50/150**;
-- cumulative Phase 1 status: **8 `partial`, 42 `needs-review`, 0 `verified`**;
+- Phase 1 page records: **75/150**;
+- cumulative Phase 1 status: **10 `partial`, 65 `needs-review`, 0 `verified`**;
 - Phase 2 verification: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
@@ -49,28 +49,47 @@ Batch-02 status:
 - `needs-review`: **23** — scans 26–31 and 34–50;
 - `verified`: **0**.
 
+## Phase 1 batch 03 — scans 51–75
+
+Result: **PAGE-RECORD BATCH CREATED — SAME CONSERVATIVE BLUR POLICY RETAINED.**
+
+Created:
+
+- `pages/0051.md` through `pages/0075.md`;
+- `இந்திரஜித்` continues through scan **54** / visible printed page **37** and closes there with a floral ornament;
+- `இரணியன்` opens on scan **55** / printed page **38** and closes on scan **61** / printed page **44** with a floral ornament;
+- `வாளி மன்னன்` opens on scan **62** / printed page **45** and closes on scan **69** / printed page **52** with a floral ornament;
+- scan **70** records the `கவியரங்கக் கவிதைகள்` section divider;
+- scan **71** records the divider verso/show-through separately;
+- `விடுதலை வீரர்கள்` opens on scan **72** / printed page **55** and continues through scan **75** / printed page **58**;
+- scan **75** remains an in-item continuation boundary into scan 76.
+
+Batch-03 status:
+
+- `partial`: **2** — scans 70–71;
+- `needs-review`: **23** — scans 51–69 and 72–75;
+- `verified`: **0**.
+
+Pages needing Phase-2 attention from Batch 03:
+
+`0051`–`0069`, `0072`–`0075`.
+
 ### Blur / uncertainty handling
 
 The user's warning that the PDF contains blurred text remains an active control.
 
-For Batches 01–02:
+Across Batches 01–03:
 
 - `⟦…⟧` marks an editorial first-pass uncertainty span and is **not** source punctuation or source wording;
 - only confidently legible wording is transcribed;
 - blurred text is not reconstructed from OCR, metre, grammar, remembered wording, historical expectation or another edition;
 - the separately archived `இதயத்தைத் தந்திடு அண்ணா` and `தென்னவன் காதை` files are not used to fill this anthology witness;
-- page boundaries and visible printed numbers are preserved independently;
-- source-visible artwork/divider/show-through roles are recorded separately from edition text.
+- page boundaries, title/divider roles, artwork and visible printed numbers are preserved independently;
+- source-visible speaker labels and performance notes in `விடுதலை வீரர்கள்` are preserved as structural matter where legible.
 
 ### User-directed exclusion safeguard
 
 The repository already contains a durable user instruction excluding one caste-slur term from `தென்னவன் காதை`. This anthology pass does **not** reintroduce that excluded term. The instruction remains in force unless the user explicitly changes it.
-
-### Pages needing Phase-2 attention from Batch 02
-
-`0026`–`0031`, `0034`–`0050`.
-
-These records are intentionally **not** promoted to `verified`.
 
 ## Source-completeness finding
 
@@ -112,7 +131,7 @@ SHA-256 of the exact uploaded 486,369,088-byte file remains pending because the 
 
 ## Exact next activity
 
-Transcribe **physical scans 51–75** as Phase 1 batch 03 and create `pages/0051.md` through `pages/0075.md`.
+Transcribe **physical scans 76–100** as Phase 1 batch 04 and create `pages/0076.md` through `pages/0100.md`.
 
 Continue the same conservative blur protocol. If a word or line cannot be read safely from the controlling scan, preserve an explicit unresolved marker instead of reconstructing it from another witness or contextual expectation.
 
