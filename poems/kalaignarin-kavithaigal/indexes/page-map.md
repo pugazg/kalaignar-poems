@@ -12,7 +12,7 @@ An earlier 150-page assumption came from a renderer-window limitation and has be
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–175 created of 465.**
+**PHASE 1 MAP IN PROGRESS — page records 1–200 created of 465.**
 
 This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
@@ -38,7 +38,9 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 144–154 | `நீர்க் குடும்பம்` | closes 154 |
 | 155–169 | `பாரதிதாசன்` | closes 169 |
 | 170–174 | `பாரதியார்` | closes 174 |
-| 175 | `பொங்கல் திருநாள்` | opens; continues beyond 175 |
+| 175–184 | `பொங்கல் திருநாள்` | closes 184 |
+| 185–196 | `வாழ்வெனும் பாதையில்` | closes 196 |
+| 197–200 | `கணக்கு` | open; continues beyond 200 |
 
 ## Phase-1 map — scans 126–150
 
@@ -100,23 +102,53 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 174 | `பாரதியார்` conclusion | 157 | `needs-review` | `வணக்கம் / வாழ்க`; decorative illustration; item closes |
 | 175 | `பொங்கல் திருநாள்` opening | — | `needs-review` | title clear; date `12.1.1970`; item visibly continues beyond page |
 
+## Phase-1 map — scans 176–200
+
+| Scan | Visible role / section | Visibly printed page | Status | Notes |
+|---:|---|---:|---|---|
+| 176 | `பொங்கல் திருநாள்` continuation | 159 | `needs-review` | opening address continues; Pongal / agriculture / Tamil movement |
+| 177 | continuation | 160 | `needs-review` | Pongal domestic/agricultural imagery; government support movement |
+| 178 | continuation | 161 | `needs-review` | cooperative / common-ownership / agricultural movement |
+| 179 | continuation | 162 | `needs-review` | `தை` wordplay; development / electrification movement |
+| 180 | speaker-introduction movement | 163 | `needs-review` | violence / poverty / internal-enmity topics introduced |
+| 181 | speaker / `வறுமை` movement | 164 | `needs-review` | K. Va. Jagannathan introduction; several blurred spans retained unresolved |
+| 182 | speaker / `உட்பகை` movement | 165 | `needs-review` | Periyasami Thooran introduction; internal-enmity imagery |
+| 183 | speaker introductions | 166 | `needs-review` | Kothamangalam Subbu / unity; Thangarasan / inequality; violence movement begins |
+| 184 | `பொங்கல் திருநாள்` conclusion | 167 | `needs-review` | `வணக்கம் / வாழ்க!`; decorative illustration; item closes |
+| 185 | `வாழ்வெனும் பாதையில்` opening | — | `needs-review` | title clear; date `14.4.70`; Chennai Radio context; page numeral not visibly printed |
+| 186 | continuation | 169 | `needs-review` | ordinary-man / social-change movement |
+| 187 | continuation | 170 | `needs-review` | nonviolence / life-path reflection |
+| 188 | speaker-introduction movement | 171 | `needs-review` | life / companionship movement |
+| 189 | speaker-introduction movement | 172 | `needs-review` | education movement begins |
+| 190 | `கல்வி` movement / next introduction | 173 | `needs-review` | Puviyarasu / education closes; `பதவி` begins |
+| 191 | `பதவி` continuation | 174 | `needs-review` | office/power imagery; Abdul Rahman introduction approaches |
+| 192 | `பதவி` closes; `செல்வம்` begins | 175 | `needs-review` | Abdul Rahman / office; Tamilannal / wealth movement |
+| 193 | `செல்வம்` closes; `கலை` begins | 176 | `needs-review` | Tamilannal / wealth; art movement begins |
+| 194 | `கலை` movement; `புகழ்` begins | 177 | `needs-review` | Vaali / art; fame movement begins |
+| 195 | `புகழ்` closes; `பக்தி` begins | 178 | `needs-review` | Mariyadas / fame; devotion movement begins |
+| 196 | `வாழ்வெனும் பாதையில்` conclusion | 179 | `needs-review` | Mudiyarasu / devotion; chair conclusion; `வணக்கம் / வாழ்க!`; item closes |
+| 197 | `கணக்கு` opening | 180 | `needs-review` | title clear; date `2.9.1970`; Salem Tamil Sangam context |
+| 198 | continuation | 181 | `needs-review` | kinds of accounts / wordplay |
+| 199 | continuation | 182 | `needs-review` | family / world / body / hand arithmetic imagery |
+| 200 | `கணக்கு` continuation | 183 | `needs-review` | scientific / domestic counting movement; item remains open |
+
 ## Printed-page evidence rule
 
 Only a numeral visibly printed on the source is entered as `printed_page`. Apparent body pagination is navigation assistance only; Phase 1 does not infer missing numerals.
 
 ## Phase-1 inventory
 
-Page records: `pages/0001.md` through `pages/0175.md`.
+Page records: `pages/0001.md` through `pages/0200.md`.
 
 Current cumulative status:
 
-- records created: **175/465**;
+- records created: **200/465**;
 - `partial`: **10**;
-- `needs-review`: **165**;
+- `needs-review`: **190**;
 - `verified`: **0**.
 
 ## Exact next activity
 
-Phase 1 Batch 08: transcribe physical scans **176–200** into `pages/0176.md` through `pages/0200.md`, continuing directly from `பொங்கல் திருநாள்`.
+Phase 1 Batch 09: transcribe physical scans **201–225** into `pages/0201.md` through `pages/0225.md`, continuing directly from `கணக்கு`.
 
 Do not begin Phase 2 in the same activity.

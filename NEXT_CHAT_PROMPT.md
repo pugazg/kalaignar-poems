@@ -34,7 +34,7 @@ Before making any repository change, read completely:
 8. `poems/kalaignarin-kavithaigal/metadata/source.md`
 9. `poems/kalaignarin-kavithaigal/indexes/page-map.md`
 10. `poems/kalaignarin-kavithaigal/audit.md`
-11. the boundary record `poems/kalaignarin-kavithaigal/pages/0175.md`
+11. the boundary record `poems/kalaignarin-kavithaigal/pages/0200.md`
 
 When I say **“Proceed with next activity”**, execute the exact next routine activity recorded in live GitHub without asking me to choose among normal continuation steps.
 
@@ -52,7 +52,7 @@ These values were verified from the exact supplied PDF bytes:
 
 ### Important page-renderer warning
 
-A previous high-level Files renderer exposed only pages 1–150 and reported `total_pages: 150`. That is an interface/window limit, **not** the source length. The exact PDF contains **465 physical pages**; scans 151–175 have now been directly processed from the same source.
+A previous high-level Files renderer exposed only pages 1–150 and reported `total_pages: 150`. That is an interface/window limit, **not** the source length. The exact PDF contains **465 physical pages**; scans through **200** have now been directly processed from the same source.
 
 Therefore:
 
@@ -63,11 +63,11 @@ Therefore:
 
 ## CURRENT DURABLE PHASE-1 STATE
 
-**Phase 1 transcription is complete through physical scan 175 / 465.**
+**Phase 1 transcription is complete through physical scan 200 / 465.**
 
-- page records: **175/465**;
-- existing files: `pages/0001.md` through `pages/0175.md`;
-- cumulative status: **10 `partial`, 165 `needs-review`, 0 `verified`**;
+- page records: **200/465**;
+- existing files: `pages/0001.md` through `pages/0200.md`;
+- cumulative status: **10 `partial`, 190 `needs-review`, 0 `verified`**;
 - completed batches:
   - Batch 01 — scans 1–25;
   - Batch 02 — scans 26–50;
@@ -76,25 +76,27 @@ Therefore:
   - Batch 05 — scans 101–125;
   - Batch 06 — scans 126–150;
   - Batch 07 — scans 151–175;
+  - Batch 08 — scans 176–200;
 - Phase 2 verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation: **blocked until Tamil final clearance**.
 
 Recent item boundaries:
 
-- `புதிய பாதை` — scans **128–137**, closes 137;
-- `உடைமைகள் பத்து` — scans **138–143**, closes 143;
 - `நீர்க் குடும்பம்` — scans **144–154**, closes 154 / printed page 137;
 - `பாரதிதாசன்` — scans **155–169**, closes 169 / printed page 152;
 - `பாரதியார்` — scans **170–174**, closes 174 / printed page 157;
-- `பொங்கல் திருநாள்` — opens scan **175** and continues beyond the current boundary.
+- `பொங்கல் திருநாள்` — scans **175–184**, closes 184 / printed page 167;
+- `வாழ்வெனும் பாதையில்` — scans **185–196**, closes 196 / printed page 179;
+- `கணக்கு` — opens scan **197** and continues beyond scan 200.
 
 Boundary detail:
 
-- scan **154** closes `நீர்க் குடும்பம்`;
-- scan **169** closes `பாரதிதாசன்`;
-- scan **174** closes `பாரதியார்`;
-- scan **175** opens `பொங்கல் திருநாள்`, dated **12.1.1970**, and the item continues to scan 176.
+- scan **184** closes `பொங்கல் திருநாள்`;
+- scan **185** opens `வாழ்வெனும் பாதையில்`, dated **14.4.70**;
+- scan **196** closes `வாழ்வெனும் பாதையில்`;
+- scan **197** opens `கணக்கு`, dated **2.9.1970**;
+- scan **200** visibly prints page **183** and ends mid-item, so `கணக்கு` continues to scan 201.
 
 ## CRITICAL — BLURRED TEXT
 
@@ -106,6 +108,7 @@ During Phase 1:
 - use explicit `⟦…⟧` markers for genuinely unresolved spans;
 - `⟦…⟧` is editorial notation, not source punctuation/text;
 - do **not** reconstruct unclear text from OCR, remembered wording, grammar, metre, rhyme, historical context, probable wording, or another edition;
+- OCR may be used only as navigation/typing assistance and never as textual authority;
 - do not silently normalize spelling, punctuation, sandhi, names, dates, figures or lineation;
 - preserve source-visible speaker labels, poet introductions, performance notes, quotations and separators where legible;
 - record only **visibly printed** page numerals in `printed_page`;
@@ -126,26 +129,26 @@ The existing user-directed exclusion applicable to `தென்னவன் க
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 08 — physical scans 176–200**.
+Execute **Phase 1 Batch 09 — physical scans 201–225**.
 
 Create:
 
-`poems/kalaignarin-kavithaigal/pages/0176.md` through `pages/0200.md`
+`poems/kalaignarin-kavithaigal/pages/0201.md` through `pages/0225.md`
 
 Requirements:
 
-- continue directly from unfinished `பொங்கல் திருநாள்` at scan 175;
-- inspect scans 176–200 directly from the exact 465-page controlling PDF;
+- continue directly from unfinished `கணக்கு` at scan 200;
+- inspect scans 201–225 directly from the exact 465-page controlling PDF;
 - preserve physical page boundaries;
 - preserve visible title/speaker/performance structure;
 - do not infer item endings or starts before the scan establishes them;
 - maintain the conservative blur policy;
 - do **not** begin Phase 2, Phase 3, canonical assembly, or translation in this activity.
 
-At Batch-08 completion:
+At Batch-09 completion:
 
 - update `audit.md` with cumulative totals and exact discovered boundaries;
-- extend `indexes/page-map.md` through scan 200;
+- extend `indexes/page-map.md` through scan 225;
 - update the active work README;
 - synchronize `HANDOVER.md` and `NEXT_CHAT_PROMPT.md` to the exact next 25-page Phase-1 batch;
 - leave exact source metadata unchanged unless a genuine source-identity discrepancy is found.
