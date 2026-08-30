@@ -18,7 +18,7 @@ Before changing this repository in a fresh chat:
 3. read `TRANSCRIPTION_PHASE_PLAN.md` completely;
 4. read root `README.md` and `NEXT_CHAT_PROMPT.md` completely;
 5. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md` completely;
-6. inspect boundary record `poems/kalaignarin-kavithaigal/pages/0325.md`;
+6. inspect boundary record `poems/kalaignarin-kavithaigal/pages/0350.md`;
 7. use the controlling PDF directly whenever transcription/verification requires source evidence;
 8. never commit the source PDF;
 9. synchronize status-bearing files at each completed batch;
@@ -42,28 +42,28 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ### Critical renderer warning
 
-An earlier interface exposed only pages 1–150. That was not the PDF's actual length. Exact-byte inspection established **465 physical pages**, and direct source processing has now reached scan **325**.
+An earlier interface exposed only pages 1–150. That was not the PDF's actual length. Exact-byte inspection established **465 physical pages**, and direct source processing has now reached scan **350**.
 
 ## Durable Phase-1 state at handoff
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–325 / 465 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–350 / 465 recorded.**
 
-- Phase 1 page records: **325/465**;
-- files created: `pages/0001.md` through `pages/0325.md`;
-- cumulative status: **10 `partial`, 315 `needs-review`, 0 `verified`**;
-- completed batches: **01–13**;
+- Phase 1 page records: **350/465**;
+- files created: `pages/0001.md` through `pages/0350.md`;
+- cumulative status: **10 `partial`, 340 `needs-review`, 0 `verified`**;
+- completed batches: **01–14**;
 - Phase 2 source-critical verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation/release: **blocked until Tamil final clearance**.
 
 ## Recent durable source/item boundaries
 
-- `சிலப்பதிகார விருந்து` — 273–285, closes 285 / printed 268;
-- `அண்ணா வழியில்` — 286–292, closes 292 / printed 275;
-- `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` — 293–296, closes 296 / printed 279;
 - `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` — 297–310, closes **310 / printed 293**;
-- `மாறி வரும் ஊரினிலே` — **311–317**, closes **317 / printed 300**;
-- `சமுதாயப் பார்வைகள்...!` — opens **318** and remains open beyond **325 / printed 308**.
+- `மாறி வரும் ஊரினிலே` — 311–317, closes **317 / printed 300**;
+- `சமுதாயப் பார்வைகள்...!` — 318–328, closes **328 / printed 311**;
+- `கலைவாணர் அரங்கக் கவியரங்கம்` — 329–332, closes **332 / printed 315**; scan 329 has no safely visible printed numeral;
+- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` — 333–345, closes **345 / printed 328**; scan 333 has no safely visible printed numeral;
+- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` — opens **346 / printed 329** and remains open beyond **350 / printed 333**.
 
 ## Durable blur / difficult-reading rule
 
@@ -81,8 +81,8 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 14 — physical scans 326–350**.
+Execute **Phase 1 Batch 15 — physical scans 351–375**.
 
-Create `poems/kalaignarin-kavithaigal/pages/0326.md` through `pages/0350.md`, continuing directly from the unfinished `சமுதாயப் பார்வைகள்...!` at scan 325. Inspect every scan directly from the exact 465-page controlling PDF, preserve physical boundaries and visible structure, and retain the conservative blur policy.
+Create `poems/kalaignarin-kavithaigal/pages/0351.md` through `pages/0375.md`, continuing directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` at scan 350. Inspect every scan directly from the exact 465-page controlling PDF, preserve physical boundaries and visible structure, and retain the conservative blur policy.
 
-At Batch-14 completion synchronize `audit.md`, `indexes/page-map.md`, active/root READMEs, `SOURCE_INTAKE.md`, `metadata/source.md`, `TRANSCRIPTION_PHASE_PLAN.md`, `HANDOVER.md`, and `NEXT_CHAT_PROMPT.md`. Do **not** begin Phase 2, Phase 3, canonical assembly or translation in the same activity.
+At Batch-15 completion synchronize `audit.md`, `indexes/page-map.md`, active/root READMEs, `SOURCE_INTAKE.md`, `metadata/source.md`, `TRANSCRIPTION_PHASE_PLAN.md`, `HANDOVER.md`, and `NEXT_CHAT_PROMPT.md`. Do **not** begin Phase 2, Phase 3, canonical assembly or translation in the same activity.

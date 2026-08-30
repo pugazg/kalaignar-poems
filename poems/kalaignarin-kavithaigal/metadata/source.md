@@ -22,22 +22,24 @@
 
 ## Recent source anchors
 
-- scan **310** visibly prints page **293** and closes `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`;
-- scan **311** opens `மாறி வரும் ஊரினிலே` with no safely visible printed numeral;
-- scan **317** visibly prints page **300** and closes `மாறி வரும் ஊரினிலே`;
-- scan **318** opens `சமுதாயப் பார்வைகள்...!` with no safely visible printed numeral;
-- scan **325** visibly prints page **308** and the same item continues beyond that scan.
+- scan **328** visibly prints page **311** and closes `சமுதாயப் பார்வைகள்...!`;
+- scan **329** opens `கலைவாணர் அரங்கக் கவியரங்கம்` with no safely visible printed numeral;
+- scan **332** visibly prints page **315** and closes `கலைவாணர் அரங்கக் கவியரங்கம்`;
+- scan **333** opens `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` with no safely visible printed numeral;
+- scan **345** visibly prints page **328** and closes that item;
+- scan **346** visibly prints page **329** and opens `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`;
+- scan **350** visibly prints page **333** and the same item continues beyond that scan.
 
 ## Processing state
 
-- Phase 1 page records: **325/465**;
-- cumulative status: **10 `partial`, 315 `needs-review`, 0 `verified`**;
-- completed Phase-1 batches: **01–13**;
+- Phase 1 page records: **350/465**;
+- cumulative status: **10 `partial`, 340 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01–14**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Tamil final clearance: **blocked until Phase 1/2/3 gates complete across the full source**;
 - English translation/release: **blocked until Tamil final clearance**;
-- exact next activity: **Phase 1 Batch 14 — scans 326–350**, continuing the open item from scan 325.
+- exact next activity: **Phase 1 Batch 15 — scans 351–375**, continuing the open item from scan 350.
 
 ## Cross-witness warning
 

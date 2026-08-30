@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 325/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 350/465 physical pages recorded.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -18,27 +18,27 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **325** from that same source.
+An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **350** from that same source.
 
 ## Phase-1 progress
 
-Page records: `pages/0001.md` through `pages/0325.md`
+Page records: `pages/0001.md` through `pages/0350.md`
 
-- page records: **325/465**;
+- page records: **350/465**;
 - `partial`: **10**;
-- `needs-review`: **315**;
+- `needs-review`: **340**;
 - `verified`: **0**;
-- completed batches: **01–13**;
+- completed batches: **01–14**;
 - Phase 2: **not started**.
 
 ## Recent source boundaries
 
-- `சிலப்பதிகார விருந்து` — 273–285, closes 285 / printed 268;
-- `அண்ணா வழியில்` — 286–292, closes 292 / printed 275;
-- `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` — 293–296, closes 296 / printed 279;
-- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` — 297–310, closes **310 / printed 293**;
-- `மாறி வரும் ஊரினிலே` — **311–317**, closes **317 / printed 300**;
-- `சமுதாயப் பார்வைகள்...!` — opens **318** and remains open through **325 / printed 308**.
+- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` — 297–310, closes 310 / printed 293;
+- `மாறி வரும் ஊரினிலே` — 311–317, closes 317 / printed 300;
+- `சமுதாயப் பார்வைகள்...!` — 318–328, closes **328 / printed 311**;
+- `கலைவாணர் அரங்கக் கவியரங்கம்` — **329–332**, closes **332 / printed 315**;
+- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` — **333–345**, closes **345 / printed 328**;
+- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` — opens **346 / printed 329**, remains open through **350 / printed 333**.
 
 ## Blur / difficult-reading control
 
@@ -50,4 +50,4 @@ Works already archived from separate witnesses, including `இதயத்தை
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 14 — scans 326–350**. Create `pages/0326.md` through `pages/0350.md`, continuing directly from the unfinished `சமுதாயப் பார்வைகள்...!` at scan 325. Do not begin Phase 2 in the same activity.
+Begin **Phase 1 Batch 15 — scans 351–375**. Create `pages/0351.md` through `pages/0375.md`, continuing directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` at scan 350. Do not begin Phase 2 in the same activity.

@@ -16,8 +16,7 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 - printed title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
-- edition: **fourth edition, March 1995**.
-
+- edition: **fourth edition, March 1995**;
 - contents occupy physical scans **15–17**;
 - first numbered poem section begins at scan **20**, visibly printed page **3**;
 - contents list entries through at least printed page **444**.
@@ -28,13 +27,14 @@ The original intake mistakenly recorded 150 as the PDF's physical page count bec
 
 ## Current processing state
 
-- Phase 1 first-pass records: **325/465**;
-- completed batches: **01–13, scans 1–325**;
-- cumulative status: **10 `partial`, 315 `needs-review`, 0 `verified`**;
-- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` closes scan **310 / printed page 293**;
-- `மாறி வரும் ஊரினிலே` closes scan **317 / printed page 300**;
-- current item: `சமுதாயப் பார்வைகள்...!`, opened scan **318** and continuing beyond scan **325 / printed page 308**;
-- next batch: **Batch 14 — scans 326–350**;
+- Phase 1 first-pass records: **350/465**;
+- completed batches: **01–14, scans 1–350**;
+- cumulative status: **10 `partial`, 340 `needs-review`, 0 `verified`**;
+- `சமுதாயப் பார்வைகள்...!` closes scan **328 / printed page 311**;
+- `கலைவாணர் அரங்கக் கவியரங்கம்` closes scan **332 / printed page 315**;
+- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` closes scan **345 / printed page 328**;
+- current item: `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`, opened scan **346 / printed page 329** and continuing beyond scan **350 / printed page 333**;
+- next batch: **Batch 15 — scans 351–375**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
@@ -49,4 +49,4 @@ Only confidently legible text is transcribed in Phase 1. Uncertain spans remain 
 
 ## Current next activity
 
-**Phase 1 Batch 14 — physical scans 326–350**, continuing directly from the unfinished `சமுதாயப் பார்வைகள்...!` item at scan 325.
+**Phase 1 Batch 15 — physical scans 351–375**, continuing directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` item at scan 350.

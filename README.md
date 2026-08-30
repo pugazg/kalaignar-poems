@@ -17,7 +17,7 @@ Live GitHub `main` is authoritative. Source wording, punctuation, lineation, ப
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 325/465; Batch 14 scans 326–350 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 350/465; Batch 15 scans 351–375 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -34,14 +34,18 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - printed title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
-- edition: **fourth edition, March 1995**.
+- edition: **fourth edition, March 1995**;
+- Phase 1 page records: **350/465**;
+- cumulative status: **10 partial, 340 needs-review, 0 verified**;
+- current item: **`எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`**, opened scan 346 / printed page 329 and continuing beyond scan 350 / printed page 333;
+- exact next activity: **Phase 1 Batch 15 — scans 351–375**.
 
-- Phase 1 page records: **325/465**;
-- cumulative status: **10 partial, 315 needs-review, 0 verified**;
-- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` closes scan **310 / printed page 293**;
-- `மாறி வரும் ஊரினிலே` spans scans **311–317**, closes scan **317 / printed page 300**;
-- current item `சமுதாயப் பார்வைகள்...!` opens scan **318** and remains open through scan **325 / printed page 308**;
-- exact next activity: **Phase 1 Batch 14 — scans 326–350**.
+Batch-14 boundaries established from the controlling scan:
+
+- `சமுதாயப் பார்வைகள்...!` closes **328 / printed 311**;
+- `கலைவாணர் அரங்கக் கவியரங்கம்` spans **329–332**, closes **332 / printed 315**;
+- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` spans **333–345**, closes **345 / printed 328**;
+- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` opens **346 / printed 329** and remains open through **350 / printed 333**.
 
 The earlier 150-page source-length assumption came from a renderer-window limitation and is withdrawn. Direct source-byte access confirms the full **465-page** PDF.
 

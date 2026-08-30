@@ -38,13 +38,14 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Phase-1 state
 
-- page records created: **325/465** — `pages/0001.md` through `pages/0325.md`;
-- cumulative status: **10 `partial`, 315 `needs-review`, 0 `verified`**;
-- completed batches: **01–13**;
-- Batch 13: scans **301–325**;
-- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` closes scan **310 / printed page 293**;
-- `மாறி வரும் ஊரினிலே` spans scans **311–317**, closes scan **317 / printed page 300**;
-- `சமுதாயப் பார்வைகள்...!` opens scan **318** and remains open after scan **325 / printed page 308**;
+- page records created: **350/465** — `pages/0001.md` through `pages/0350.md`;
+- cumulative status: **10 `partial`, 340 `needs-review`, 0 `verified`**;
+- completed batches: **01–14**;
+- Batch 14: scans **326–350**;
+- `சமுதாயப் பார்வைகள்...!` closes **328 / printed 311**;
+- `கலைவாணர் அரங்கக் கவியரங்கம்` spans **329–332**, closes **332 / printed 315**;
+- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` spans **333–345**, closes **345 / printed 328**;
+- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` opens **346 / printed 329** and remains open after **350 / printed 333**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Phase 4: **blocked**.
@@ -60,4 +61,4 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 14 — physical scans 326–350**. Create `pages/0326.md` through `pages/0350.md`, continuing directly from the unfinished `சமுதாயப் பார்வைகள்...!` at scan 325. Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.
+Execute **Phase 1 Batch 15 — physical scans 351–375**. Create `pages/0351.md` through `pages/0375.md`, continuing directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` at scan 350. Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.
