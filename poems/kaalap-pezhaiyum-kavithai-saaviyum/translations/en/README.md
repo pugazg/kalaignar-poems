@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–06 reviewed PASS; 15/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–07 reviewed PASS; 18/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -43,13 +43,14 @@ Revised total planned batches: **21**.
 | 04 | 7–9 | 35–49 | **reviewed — PASS** |
 | 05 | 10–12 | 50–63 | **reviewed — PASS** |
 | 06 | 13–15 | 64–81 | **reviewed — PASS** |
-| 07–21 | 16–58 | 82–299 | planned |
+| 07 | 16–18 | 82–98 | **reviewed — PASS** |
+| 08–21 | 19–58 | 99–299 | planned |
 
 Current totals:
 
-- batches reviewed: **6/21**;
-- items translated and reviewed: **15/58**;
-- certified source scans represented in reviewed English batches: **72/290 numbered-item scans**;
+- batches reviewed: **7/21**;
+- items translated and reviewed: **18/58**;
+- certified source scans represented in reviewed English batches: **89/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -87,13 +88,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 04:** items 7–9, scans 35–49 — reviewed PASS. The crocodile/raid narrative, Sankrityayan/Iyarpakai/Nehru references, class and land rhetoric, long quoted Aryan dialogue, linga/Avudaiyar argument, named deities and triple rhetorical close are retained without outside correction or Tamil-source alteration.
 - **Batch 05:** items 10–12, scans 50–63 — reviewed PASS. Maritime-contact claims, the papyrus and Naga-country narratives, *Manimekalai* quotation, Peevalai–Nedumudikilli/Ilanthiraiyan sequence, Murugan–Valli narrative, *Kuruntokai* quotation, Tamil sound-play, glossary and equal-rights close are retained; source-sensitive forms are documented rather than silently repaired.
 - **Batch 06:** items 13–15, scans 64–81 — reviewed PASS. Appathuraiyar/classical citations and the Kharavela-alliance argument are retained as source claims; the complete three-scene Kanaka–Vijaya drama preserves speaker changes, war-oratory and the eighteen-unit sequence; the “Aryan tea” metaphor, *Silappathikaram* citation and named historical-source quotations remain traceable without outside correction.
+- **Batch 07:** items 16–18, scans 82–98 — reviewed PASS. The Augustus/Peruvaluthi and Yavana-trade source layers, world-history/evolution/Kumari Kandam argument, Bharathi and named-source quotations, and Item 18's sandalwood-remainder metaphor are retained; Item 18's title-page/contents-title discrepancy is explicitly preserved without hybridization.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 6/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 7/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -101,10 +103,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 07 — items 16–18**:
+Translate and review **Batch 08 — items 19–21**:
 
-- item 16 — `சுளையில் ஒன்றியிருக்கும் சுவையாக!` — scans **82–87** — `../../sections/16.md`;
-- item 17 — `உலக வரலாறு எங்கிருந்து வருவது?` — scans **88–95** — `../../sections/17.md`;
-- item 18 — `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` — scans **96–98** — `../../sections/18.md`.
+- item 19 — `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` — scans **99–102** — `../../sections/19.md`;
+- item 20 — `வீழினும் அவன் வெற்றித் திருமகனே!` — scans **103–106** — `../../sections/20.md`;
+- item 21 — `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans **107–111** — `../../sections/21.md`.
 
-Item 18 is a documented title-witness discrepancy; translate the canonical/title-page witness and preserve the contents witness separately. Create `batches/batch-07.md`. Stop after item 18; do not begin item 19.
+Create `batches/batch-08.md`. Stop after item 21; do not begin item 22.
