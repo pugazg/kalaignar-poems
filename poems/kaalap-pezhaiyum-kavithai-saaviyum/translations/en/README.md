@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–09 reviewed PASS; 24/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–10 reviewed PASS; 27/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -46,13 +46,14 @@ Revised total planned batches: **21**.
 | 07 | 16–18 | 82–98 | **reviewed — PASS** |
 | 08 | 19–21 | 99–111 | **reviewed — PASS** |
 | 09 | 22–24 | 112–123 | **reviewed — PASS** |
-| 10–21 | 25–58 | 124–299 | planned |
+| 10 | 25–27 | 124–135 | **reviewed — PASS** |
+| 11–21 | 28–58 | 136–299 | planned |
 
 Current totals:
 
-- batches reviewed: **9/21**;
-- items translated and reviewed: **24/58**;
-- certified source scans represented in reviewed English batches: **114/290 numbered-item scans**;
+- batches reviewed: **10/21**;
+- items translated and reviewed: **27/58**;
+- certified source scans represented in reviewed English batches: **126/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -93,13 +94,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 07:** items 16–18, scans 82–98 — reviewed PASS. The Augustus/Peruvaluthi and Yavana-trade source layers, world-history/evolution/Kumari Kandam argument, Bharathi and named-source quotations, and Item 18's sandalwood-remainder metaphor are retained; Item 18's title-page/contents-title discrepancy is explicitly preserved without hybridization.
 - **Batch 08:** items 19–21, scans 99–111 — reviewed PASS. The Senguttuvan–Palaiyan–Arugan episode and its condemnation of retaliatory humiliation, the Venni battle and *vadakkiruthal* passages with three classical poem citations, and the Aathimandhi–Aattanathi love/dance/river-rescue narrative including the final source note are retained without outside correction.
 - **Batch 09:** items 22–24, scans 112–123 — reviewed PASS. Item 22 preserves its quoted canonical-title witness, repeated “I”, question/answer structure, evolution/cosmic journey and `அரிமா நோக்கு` / `அரியா நோக்கு` wordplay; Item 23 preserves the Kundalakesi feminism/patriarchy narrative and sensual imagery; Item 24 retains the full Madhavi ornament inventory, stage measurements, star separator and source glossary without outside correction.
+- **Batch 10:** items 25–27, scans 124–135 — reviewed PASS. Items 25 and 26 preserve their title-witness punctuation differences; Kannagi's culture/ritual argument, the women-poet/warrior sequence and complete poet list, and the Mathivanan/evidence-method and Dravidian-history framing are retained without outside correction or Tamil-source alteration.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 9/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 10/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -107,10 +109,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 10 — items 25–27**:
+Translate and review **Batch 11 — items 28–30**:
 
-- item 25 — `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` — scans **124–127** — `../../sections/25.md`;
-- item 26 — `விழித்தெழுக; இதோ செம்மொழி விடியல்!` — scans **128–131** — `../../sections/26.md`;
-- item 27 — `வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்!` — scans **132–135** — `../../sections/27.md`.
+- item 28 — `பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்!` — scans **136–139** — `../../sections/28.md`;
+- item 29 — `தாயே தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` — scans **140–144** — `../../sections/29.md`;
+- item 30 — `ஆற்றலின் அளவுகோல்; அவன் செங்கோல்!` — scans **145–147** — `../../sections/30.md`.
 
-Items 25 and 26 are documented title-witness discrepancies. For item 25, the canonical/title-page witness has no final exclamation mark while the contents witness does; for item 26, the contents witness contains a comma after `இதோ` that the canonical/title-page witness does not. Preserve those witnesses separately. Create `batches/batch-10.md`. Stop after item 27; do not begin item 28.
+Item 29 is a documented title-witness discrepancy: the contents witness adds a comma after `தாயே` that the canonical/title-page witness does not. Preserve both witnesses separately. Create `batches/batch-11.md`. Stop after item 30; do not begin item 31.
