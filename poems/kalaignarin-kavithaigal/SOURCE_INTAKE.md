@@ -2,7 +2,7 @@
 
 ## Intake result
 
-**REGISTERED AS A NEW SOURCE-SPECIFIC WORK — EXACT PDF EXTENT NOW CONFIRMED.**
+**REGISTERED AS A NEW SOURCE-SPECIFIC WORK — EXACT PDF EXTENT CONFIRMED.**
 
 Work directory: `poems/kalaignarin-kavithaigal/`
 
@@ -23,37 +23,26 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 ## Source-extent correction
 
-The original intake mistakenly recorded 150 as the PDF's physical page count because the Files renderer exposed only pages 1–150. The user corrected that assumption. Direct access to the exact mounted PDF bytes now confirms **465 physical pages**.
-
-Physical scan 150 is therefore only an earlier rendering-window boundary, not a source boundary. Direct rendering from the same PDF confirms scan 151 exists and continues the collection.
+The original intake mistakenly recorded 150 as the PDF's physical page count because a renderer exposed only pages 1–150. Exact source-byte inspection confirms **465 physical pages**. Batch 07 has now been processed through scan 175 from that same controlling PDF.
 
 ## Current processing state
 
-- Phase 1 first-pass records: **150/465**;
-- completed batches: scans **1–150**;
-- next batch: scans **151–175**;
+- Phase 1 first-pass records: **175/465**;
+- completed batches: scans **1–175**;
+- next batch: scans **176–200**;
+- current item: `பொங்கல் திருநாள்`, opened scan **175** and continuing;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
 
 ## Existing source witnesses
 
-The anthology contains at least two works already archived from different controlling sources:
-
-- `இதயத்தைத் தந்திடு அண்ணா!`;
-- `தென்னவன் காதை`.
-
-Those earlier source-specific transcriptions are provenance references only and must not be copied into this anthology witness.
+The anthology contains at least two works already archived from different controlling sources: `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`. Those earlier source-specific transcriptions are provenance references only and must not be copied into this anthology witness.
 
 ## Blur-control rule
 
-Because the PDF contains blurred text:
-
-- only confidently legible text is transcribed in Phase 1;
-- uncertain spans remain explicit `⟦…⟧` markers;
-- no OCR, memory, metre, grammar, historical expectation or other edition may silently fill blur;
-- exact resolution belongs to the later independent Phase-2 visual/glyph pass.
+Because the PDF contains blurred text, only confidently legible text is transcribed in Phase 1. Uncertain spans remain explicit `⟦…⟧` markers; no OCR, memory, metre, grammar, historical expectation or other edition may silently fill blur.
 
 ## Current next activity
 
-**Phase 1 Batch 07 — physical scans 151–175**, continuing directly from the unfinished `நீர்க் குடும்பம்` item at scan 150.
+**Phase 1 Batch 08 — physical scans 176–200**, continuing directly from the unfinished `பொங்கல் திருநாள்` item at scan 175.

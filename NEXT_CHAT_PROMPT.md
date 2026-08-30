@@ -6,21 +6,15 @@ Continue the **Kalaignar Poems archival project** directly in:
 
 Branch: `main`
 
-Active work:
+Active work: `poems/kalaignarin-kavithaigal/`
 
-`poems/kalaignarin-kavithaigal/`
-
-Controlling source:
-
-`TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
-
-I will attach the controlling PDF again in the fresh chat if it is not already surfaced there.
+Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
 Use the GitHub connector and work directly on `main`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` **first** and treat it as authoritative. Do not rely only on this prompt or on the checkpoint SHA from the previous chat. If `main` has advanced, preserve the newer state and continue from it.
+Fetch live `main` first. If it has advanced, preserve the newer state and continue from it.
 
 Before making any repository change, read completely:
 
@@ -34,13 +28,11 @@ Before making any repository change, read completely:
 8. `poems/kalaignarin-kavithaigal/metadata/source.md`
 9. `poems/kalaignarin-kavithaigal/indexes/page-map.md`
 10. `poems/kalaignarin-kavithaigal/audit.md`
-11. the boundary record `poems/kalaignarin-kavithaigal/pages/0150.md`
+11. `poems/kalaignarin-kavithaigal/pages/0175.md`
 
-When I say **“Proceed with next activity”**, execute the exact next routine activity recorded in live GitHub without asking me to choose among normal continuation steps.
+When I say **“Proceed with next activity”**, execute the exact routine activity recorded in live GitHub without asking me to choose among normal continuation steps.
 
 ## EXACT CONTROLLING-SOURCE IDENTITY
-
-These values were verified from the exact supplied PDF bytes:
 
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
@@ -50,101 +42,48 @@ These values were verified from the exact supplied PDF bytes:
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-### Important page-renderer warning
-
-A previous high-level Files renderer exposed only pages 1–150 and reported `total_pages: 150`. That is an interface/window limit, **not** the source length. The exact PDF contains **465 physical pages**, and scan 151 has already been directly rendered from the same source.
-
-Therefore:
-
-- do not treat 150 as the PDF page count;
-- do not call scan 150 the end of the source;
-- if the high-level renderer stops at 150, use the exact mounted/source PDF bytes with a source-byte-capable PDF renderer to inspect scans 151 onward;
-- keep all scan numbering 1-indexed against this same 465-page PDF and hash.
+A high-level renderer may expose only pages 1–150. That is an interface/window limit, not source length. Use exact source bytes with a source-byte-capable renderer for later scans.
 
 ## CURRENT DURABLE PHASE-1 STATE
 
-**Phase 1 transcription is complete through physical scan 150 / 465.**
+**Phase 1 transcription is complete through physical scan 175 / 465.**
 
-- page records: **150/465**;
-- existing files: `pages/0001.md` through `pages/0150.md`;
-- cumulative status: **10 `partial`, 140 `needs-review`, 0 `verified`**;
-- completed batches:
-  - Batch 01 — scans 1–25;
-  - Batch 02 — scans 26–50;
-  - Batch 03 — scans 51–75;
-  - Batch 04 — scans 76–100;
-  - Batch 05 — scans 101–125;
-  - Batch 06 — scans 126–150;
+- page records: **175/465**;
+- existing files: `pages/0001.md` through `pages/0175.md`;
+- cumulative status: **10 `partial`, 165 `needs-review`, 0 `verified`**;
+- completed batches: Batch 01 1–25; 02 26–50; 03 51–75; 04 76–100; 05 101–125; 06 126–150; 07 151–175;
 - Phase 2 verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation: **blocked until Tamil final clearance**.
 
 Recent item boundaries:
 
-- `காதலா - வீரமா?` — scans **101–115**, closes 115;
-- `அருமறையில் அறுவர்` — scans **116–127**, closes 127;
-- `புதிய பாதை` — scans **128–137**, closes 137;
-- `உடைமைகள் பத்து` — scans **138–143**, closes 143;
-- `நீர்க் குடும்பம்` — opens scan **144** and continues beyond scan 150.
-
-Boundary detail:
-
-- scan **150** visibly prints page **133** and ends mid-item after the chair introduces the `மழை` movement;
-- scan **151** has already been source-access checked, visibly prints page **134**, and continues `நீர்க் குடும்பம்`;
-- `pages/0151.md` does **not** yet exist and belongs to the next batch.
+- `நீர்க் குடும்பம்` — scans **144–154**, closes 154 / printed 137;
+- `பாரதிதாசன்` — scans **155–169**, closes 169 / printed 152;
+- `பாரதியார்` — scans **170–174**, closes 174 / printed 157;
+- `பொங்கல் திருநாள்` — opens scan **175** and continues beyond the boundary.
 
 ## CRITICAL — BLURRED TEXT
 
-The PDF contains blurred text in places. Be conservative.
-
-During Phase 1:
-
-- transcribe only what the controlling scan safely supports;
-- use explicit `⟦…⟧` markers for genuinely unresolved spans;
-- `⟦…⟧` is editorial notation, not source punctuation/text;
-- do **not** reconstruct unclear text from OCR, remembered wording, grammar, metre, rhyme, historical context, probable wording, or another edition;
-- do not silently normalize spelling, punctuation, sandhi, names, dates, figures or lineation;
-- preserve source-visible speaker labels, poet introductions, performance notes, quotations and separators where legible;
-- record only **visibly printed** page numerals in `printed_page`;
-- leave unresolved pages as `needs-review`; do not mark Phase-1 pages `verified` merely because they were transcribed once.
-
-Independent glyph-by-glyph resolution belongs to **Phase 2**, not this pass.
+During Phase 1 transcribe only what the controlling scan safely supports. Use `⟦…⟧` for genuinely unresolved spans. Do not reconstruct unclear text from OCR, remembered wording, grammar, metre, rhyme, historical context, probable wording or another edition. Do not silently normalize spelling, punctuation, sandhi, names, dates, figures or lineation. Preserve source-visible speaker labels, poet introductions, performance notes, quotations and separators. Record only visibly printed page numerals. Leave unresolved pages `needs-review`; do not mark Phase-1 pages verified.
 
 ## CROSS-WITNESS SAFEGUARD
 
-This anthology contains poems also archived from other controlling sources, including:
-
-- `இதயத்தைத் தந்திடு அண்ணா!`;
-- `தென்னவன் காதை`.
-
-Do **not** copy those separate transcriptions into this anthology. They are not authority for this edition's wording, punctuation or lineation. Cross-edition comparison, if needed later, must remain explicit and provenance-preserving.
-
-The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and must not be reintroduced.
+Do not copy separate transcriptions of `இதயத்தைத் தந்திடு அண்ணா!` or `தென்னவன் காதை` into this anthology. The user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 07 — physical scans 151–175**.
+Execute **Phase 1 Batch 08 — physical scans 176–200**.
 
-Create:
-
-`poems/kalaignarin-kavithaigal/pages/0151.md` through `pages/0175.md`
+Create `poems/kalaignarin-kavithaigal/pages/0176.md` through `pages/0200.md`.
 
 Requirements:
 
-- continue directly from unfinished `நீர்க் குடும்பம்` at scan 150;
-- inspect scans 151–175 directly from the exact 465-page controlling PDF;
-- preserve physical page boundaries;
-- preserve visible title/speaker/performance structure;
+- continue directly from unfinished `பொங்கல் திருநாள்` at scan 175;
+- inspect scans 176–200 directly from the exact 465-page controlling PDF;
+- preserve physical page boundaries and source-visible title/speaker/performance structure;
 - do not infer item endings or starts before the scan establishes them;
 - maintain the conservative blur policy;
-- do **not** begin Phase 2, Phase 3, canonical assembly, or translation in this activity.
+- do **not** begin Phase 2, Phase 3, canonical assembly, or translation.
 
-At Batch-07 completion:
-
-- update `audit.md` with cumulative totals and exact discovered boundaries;
-- extend `indexes/page-map.md` through scan 175;
-- update the active work README;
-- synchronize `HANDOVER.md` and `NEXT_CHAT_PROMPT.md` to the exact next 25-page Phase-1 batch;
-- leave exact source metadata unchanged unless a genuine source-identity discrepancy is found.
-
-If live `main` has moved beyond this checkpoint, use the newer boundary instead of reverting it.
+At Batch-08 completion update `audit.md`, `indexes/page-map.md`, the active work README and status-bearing handover files with the next exact 25-page Phase-1 batch.

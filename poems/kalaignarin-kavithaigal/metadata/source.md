@@ -14,13 +14,7 @@
 
 ## Source-extent correction
 
-Earlier repository records treated the ChatGPT Files renderer's 150-page exposure as though it were the PDF's full page count. The user corrected this, and direct access to the mounted source bytes now confirms the exact extent:
-
-- **465 physical PDF pages**;
-- **486,369,088 bytes**;
-- SHA-256 as recorded above.
-
-Therefore physical scan 150 is not a source boundary. The same controlling PDF continues through scan **465**.
+Earlier repository records treated a 150-page renderer exposure as the PDF's full page count. Exact source-byte inspection confirms **465 physical PDF pages**, **486,369,088 bytes**, and the SHA-256 above. Physical scan numbering remains 1-indexed against this same source.
 
 ## Printed source identity visible in scans 1–3
 
@@ -34,7 +28,7 @@ Therefore physical scan 150 is not a source boundary. The same controlling PDF c
 
 The title-page image also carries a later-looking rectangular `அன்பளிப்பு` label; it remains physically documented separately from edition text.
 
-## Introductory matter / contents anchors
+## Introductory matter / pagination anchors
 
 - scans **4–5**: `என்னுரை`;
 - scans **6–10**: `அணிந்துரை`;
@@ -44,12 +38,17 @@ The title-page image also carries a later-looking rectangular `அன்பள�
 - contents list works through at least printed page **444**;
 - scan **20** visibly prints page **3**;
 - scan **150** visibly prints page **133**;
-- direct source rendering confirms scan **151** exists and visibly prints page **134**, continuing the same item/source.
+- scan **154** visibly prints page **137** and closes `நீர்க் குடும்பம்`;
+- scan **169** visibly prints page **152** and closes `பாரதிதாசன்`;
+- scan **174** visibly prints page **157** and closes `பாரதியார்`;
+- scan **175** opens `பொங்கல் திருநாள்` and visibly continues beyond that physical page.
 
 ## Processing state
 
-- source intake: **REGISTERED — exact extent and checksum now recorded**;
-- Phase 1 page records: **150/465**;
+- source intake: **REGISTERED — exact extent and checksum recorded**;
+- Phase 1 page records: **175/465**;
+- current Phase-1 boundary: **scan 175**;
+- next batch: **176–200**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Tamil final clearance: **blocked until Phase 1/2/3 gates complete across the full source**;
