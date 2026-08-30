@@ -17,7 +17,7 @@ Live GitHub `main` is authoritative. Source wording, punctuation, lineation, ப
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 125; PDF >450 pages user-confirmed; exact total pending** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 150/465; Batch 07 scans 151–175 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -28,18 +28,17 @@ Work directory: `poems/kalaignarin-kavithaigal/`
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
+- physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
-- actual PDF length: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
-- current Files renderer exposes pages **1–150 only**;
-- earlier repository statements treating 150 as the PDF's actual page count were incorrect and have been corrected;
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - printed source: **கலைஞரின் கவிதைகள்**, **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**;
-- Phase 1 page records: **125**;
-- cumulative status: **10 partial, 115 needs-review, 0 verified**;
-- exact next activity: **Phase 1 scans 126–150**.
+- Phase 1 page records: **150/465**;
+- cumulative status: **10 partial, 140 needs-review, 0 verified**;
+- exact next activity: **Phase 1 Batch 07 — scans 151–175**.
 
-Scan 150 is **not** the end of the PDF. It is only the current renderer-access boundary. Phase 1 must continue with scan 151 onward from the same PDF when tooling exposes those pages.
+The earlier 150-page source-length assumption came from a rendering-window limitation and has been withdrawn. Direct source-byte access confirms the full **465-page** PDF.
 
 The anthology overlaps with separately archived source witnesses such as `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`; those existing texts are not transcription authority for this edition and must not be copied into blurred spans.
 
