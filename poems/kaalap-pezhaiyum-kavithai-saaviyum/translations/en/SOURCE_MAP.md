@@ -128,7 +128,9 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 34 contains source-form administrative vocabulary, a marriage quotation with an inline star, and the scan-166 English footnote `(Vide his “History of the Tamils” - Page 80)`; keep the note visibly attached to the source argument;
 - item 35 contains multiple internal star separators, the swan-cock poem, a domestic comic interlude, and a closing *vadakkiruthal* / *nadukal* friendship sequence; retain each movement distinctly;
 - item 36 contains a compact *Akananuru* quotation, a class-political belly simile, a violent eye-gouging narrative, reciprocal vows, a closing star separator and a full `குறிப்பு:` based on *Akananuru* 262; preserve the note as a source claim rather than external historical adjudication;
-- item 37 contains a printed-number anomaly and extended narrative/dialogue movement;
+- item 37 contains both the printed-number anomaly and title-witness discrepancy, extended dialogue, a wrestling narrative, *Purananuru* 82 and Kalaignar's separate explanation of its cot-weaver simile; retain all layers under stable item identity 37;
+- item 38 is structured as a sequence of attributed poet voices around Killivalavan, including the Karur counsel, agricultural/plough-front argument, Pannan episode and Aiyur Mudavanar's burial-urn elegy; keep attribution and sequence visible;
+- item 39 closes with the Paranjothi/Vatapi Ganapati source argument and a distinct *Periya Puranam* quotation; do not use outside history to reconcile the Kanchi, traveller, inscription or Vatapi claims inside the translation;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
 - item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
 - item 54 includes a concluding `குறிப்பு:` with Sangam poem references;
@@ -178,19 +180,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 13 / item 36 / scan 178**.
+Reviewed through **Batch 14 / item 39 / scan 194**.
 
-- batches reviewed: **13/21**;
-- items translated and reviewed: **36/58**;
-- numbered-item scans covered: **169/290**;
+- batches reviewed: **14/21**;
+- items translated and reviewed: **39/58**;
+- numbered-item scans covered: **185/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 14 — items 37–39**:
+Translate and review **Batch 15 — items 40–42**:
 
-- item 37 `அன்பால் அவனை விலைகொள்ள முடியுமோ?` — scans **179–185**;
-- item 38 `நன்றியுடையோர் நெஞ்சில் வாழ்வோன்!` — scans **186–190**;
-- item 39 `தானாக வந்தவரல்ல; தளபதியால் கொண்டுவரப்பட்டவர்!` — scans **191–194**.
+- item 40 `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` — scans **195–199**;
+- item 41 `பாதுகாப்போம்; பல்லவர் தலைநகரம்!` — scans **200–203**;
+- item 42 `பட்டயங்கள், பறைசாற்றுகின்றன!` — scans **204–206**.
 
-Item 37 is both a documented title-witness discrepancy and a printed-number anomaly. Preserve stable item **37**, retain `printed_item_number: 36` only as source metadata, use canonical/title-page witness `அன்பால் அவனை விலைகொள்ள முடியுமோ?` for the displayed English title, and keep contents witness `அன்பால் அவனை விலை கொள்ள முடியுமா?` separately traceable. Create `batches/batch-14.md`, preserving item boundaries and scan provenance. Stop after item 39; do not begin item 40.
+Item 40 is a documented title-witness discrepancy: use canonical/title-page witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` for the displayed English title and retain contents witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` separately. Create `batches/batch-15.md`, preserving item boundaries and scan provenance. Stop after item 42; do not begin item 43.
