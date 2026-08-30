@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–18 reviewed PASS; 51/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–19 reviewed PASS; 54/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -55,13 +55,14 @@ Revised total planned batches: **21**.
 | 16 | 43–45 | 207–219 | **reviewed — PASS** |
 | 17 | 46–48 | 220–240 | **reviewed — PASS** |
 | 18 | 49–51 | 241–256 | **reviewed — PASS** |
-| 19–21 | 52–58 | 257–299 | planned |
+| 19 | 52–54 | 257–276 | **reviewed — PASS** |
+| 20–21 | 55–58 | 277–299 | planned |
 
 Current totals:
 
-- batches reviewed: **18/21**;
-- items translated and reviewed: **51/58**;
-- certified source scans represented in reviewed English batches: **247/290 numbered-item scans**;
+- batches reviewed: **19/21**;
+- items translated and reviewed: **54/58**;
+- certified source scans represented in reviewed English batches: **267/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -111,13 +112,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 16:** items 43–45, scans 207–219 — reviewed PASS. Item 43 preserves the Dravidian/Tamil-lineage argument, political unity/decline rhetoric, CE 350/575/850/875 chronology, Vijayalaya–Aparajita relationship, Tiruppurambiyam narrative and inscriptional close; Item 44 preserves its comma-only title discrepancy, dynastic succession, explicit rationalist rejection of the funeral-pyre custom, accusation/counter-accusation over Aditya Karikalan's murder, the iron-pillar/fly-wing image and Murugan/peacock analogy; Item 45 preserves the Kattumannarkudi-inscription list, competing Madhurantakan arguments, benefit-of-doubt turn, Rajaraja's crown-prince training and the source's dates/ages through Rajendra without outside reconciliation.
 - **Batch 17:** items 46–48, scans 220–240 — reviewed PASS. Item 46 preserves its final-exclamation title discrepancy, the political-achievement/social-critique contrast, funeral-pyre/caste/Chaturvedi-Mangalam/Jain-Buddhist polemic and complete court/family sequence; Item 47 preserves every campaign separator, Velakkara-force passage, temple/fort question, Tamil/Sanskrit and people-service critique, long inscriptional quotation, ruler list and visibly indented future-age close; Item 48 preserves the date/star uncertainty, administrative and local-government terminology, caste critique, religious-inclusiveness passage, two Tirukkural layers and Rajarajeswaram/Gangaikonda Cholapuram close without outside reconciliation.
 - **Batch 18:** items 49–51, scans 241–256 — reviewed PASS. Item 49 preserves the source's Rajadhiraja/Rajendra succession wording without silent chronology repair, the northern and Eelam campaigns, Ganga expedition, elephant-bridge claim, Ganga Vinayakar and Kadaram sequence; Item 50 preserves its title-witness spacing/punctuation discrepancy, Agavamallan envoy episode, Kalaignar's explicit condemnation of the humiliation as a stain, Koppam death/retaliation, onomatopoeic battle movement, battlefield coronation and Jain ascetic's thirty-thousand-lives question; Item 51 preserves the violent Koppam aftermath, Chalukya-Chola/marriage genealogy argument, anti-*shastra* polemic, Kulothunga title/date sequence, *Kalingattu Parani*, Lanka-retreat and Leiden copper-plate claims without outside reconciliation.
+- **Batch 19:** items 52–54, scans 257–276 — reviewed PASS. Item 52 preserves the 1945 autobiographical/Pandya-history appeal, two earlier poem excerpts, Sangam-source uncertainty, Mudukudumi Peruvazhuthi advance-warning war custom, Golden-Handed Pandyan narrative and *Tolkappiyam* transition; Item 53 preserves the complete Pandyan/Tamil-Queen dialogue, Middle Sangam poet list, Kavatapuram sea-deluge sequence, Adiyarkku Nallar forty-nine-country passage, Tamil Queen/Tamil survival contrast and full scan-270 note; Item 54 preserves the canonical joined-form title witness, autobiographical Nedunchezhiyan preface, seven-opponent battle sequence, attributed Sangam-poet voices, battlefield imagery, *Maduraikanchi* anti-war turn, *Nedunalvadai* close and full scan-276 Sangam-reference note without outside reconciliation.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 18/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 19/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -125,10 +127,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 19 — items 52–54**:
+Translate and review **Batch 20 — items 55–57**:
 
-- item 52 — `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!` — scans **257–262** — `../../sections/52.md`;
-- item 53 — `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!` — scans **263–270** — `../../sections/53.md`;
-- item 54 — `தலையாலங்கானத்துச் செருவென்றான்!` — scans **271–276** — `../../sections/54.md`.
+- item 55 — `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` — scans **277–284** — `../../sections/55.md`;
+- item 56 — `பற்று கடந்தால், பற்றி எரியும் வெறியே!` — scans **285–288** — `../../sections/56.md`;
+- item 57 — `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` — scans **289–295** — `../../sections/57.md`.
 
-Item 53 includes its scan-270 `குறிப்பு:` block as part of the item. Item 54 is a documented title-witness discrepancy: canonical/title-page witness is `தலையாலங்கானத்துச் செருவென்றான்!`, while contents witness is `தலையாலங்கானத்துச் செரு வென்றான்!`; it also contains a concluding `குறிப்பு:` with Sangam poem references. Preserve all source layers. Create `batches/batch-19.md`. Stop after item 54; do not begin item 55.
+Item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`; preserve it as part of the item. Create `batches/batch-20.md`. Stop after item 57; do not begin item 58.
