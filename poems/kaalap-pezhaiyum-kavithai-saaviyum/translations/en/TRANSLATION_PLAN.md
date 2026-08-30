@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–15 reviewed PASS; 42/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
+**PHASE 4 IN PROGRESS — Batches 01–16 reviewed PASS; 45/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -100,7 +100,7 @@ Default principles:
 | 13 | 34–36 | 161–178 | `34.md`–`36.md` | **reviewed — PASS** |
 | 14 | 37–39 | 179–194 | `37.md`–`39.md` | **reviewed — PASS** |
 | 15 | 40–42 | 195–206 | `40.md`–`42.md` | **reviewed — PASS** |
-| 16 | 43–45 | 207–219 | `43.md`–`45.md` | planned |
+| 16 | 43–45 | 207–219 | `43.md`–`45.md` | **reviewed — PASS** |
 | 17 | 46–48 | 220–240 | `46.md`–`48.md` | planned |
 | 18 | 49–51 | 241–256 | `49.md`–`51.md` | planned |
 | 19 | 52–54 | 257–276 | `52.md`–`54.md` | planned |
@@ -109,9 +109,9 @@ Default principles:
 
 Current reviewed totals:
 
-- batches: **15/21**;
-- items: **42/58**;
-- numbered-item source scans covered by reviewed English batches: **197/290**;
+- batches: **16/21**;
+- items: **45/58**;
+- numbered-item source scans covered by reviewed English batches: **210/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -133,7 +133,7 @@ A translated but unreviewed batch is not eligible for final collection assembly.
 
 ## Reviewed closures
 
-Batches **01–15** are reviewed PASS. Their batch files are the durable translation/review records.
+Batches **01–16** are reviewed PASS. Their batch files are the durable translation/review records.
 
 - Batch 04 is the first three-item batch and covers items **7–9**, scans **35–49**.
 - Batch 05 covers items **10–12**, scans **50–63**. It preserves the maritime-contact and papyrus claims as source claims, the *Manimekalai* and *Kuruntokai* textual layers, Peevalai–Nedumudikilli/Ilanthiraiyan narrative, Murugan–Valli narrative, glossary and Tamil sound-play without silent source correction.
@@ -147,6 +147,7 @@ Batches **01–15** are reviewed PASS. Their batch files are the durable transla
 - Batch 13 covers items **34–36**, scans **161–178**. It preserves Item 34's Chola decline/revival chronology, source-form administrative vocabulary, marriage quotation and footnote, Poompuhar frame and Pallava/Vijayalaya transition; Item 35's Pisiranthaiyar–Kopperuncholan friendship, swan-cock poem, domestic interlude, war crisis and *vadakkiruthal*/*nadukal* close; and Item 36's martial opening, Kosar/*Akananuru* layer, Anni Minjili narrative, class simile, eye-gouging episode, reciprocal vows, battle ending and complete source note.
 - Batch 14 covers items **37–39**, scans **179–194**. It preserves Item 37's stable identity 37 despite printed number 36, dual title witnesses, Narkannai/Perunarkilli narrative and *Purananuru* 82 plus the source's own explanation; Item 38's attributed poet sequence, Karur counsel, plough-front/battlefront rhetoric, Pannan episode and burial-urn elegy; and Item 39's Pallava/Kanchi framing, Chinese-traveller passage, Pulikesi–Narasimha episode, Paranjothi/Vatapi Ganapati argument and closing *Periya Puranam* quotation without outside adjudication.
 - Batch 15 covers items **40–42**, scans **195–206**. It preserves Item 40's canonical no-exclamation title witness, Hijra/Appar/Mahendravarman chronology, Pallava victory material and complete Manavarman–Narasimhavarman friendship/restoration narrative; Item 41's Kanchi-capital evidence argument, Professor Anbazhagan retort, Pallava-site sequence, *Matta Vilasam*/Appar and inscriptional evidence; and Item 42's Nelveli plus Kanchi/Peruvalanallur battle movements, opposing charter perspectives, united-tigers rhetoric, `அரிவாரணம்` passage and closing Kuram/Kendur/Chinnamanur/*Tevaram* source layers without outside adjudication.
+- Batch 16 covers items **43–45**, scans **207–219**. It preserves Item 43's Dravidian/Tamil-lineage argument, decline/revival rhetoric, CE 350/575/850/875 sequence, Vijayalaya–Aparajita relationship, Tiruppurambiyam movement and inscriptional close; Item 44's comma-only title discrepancy, succession narrative, explicit rationalist rejection of the funeral-pyre custom, accusation/counter-accusation over Aditya Karikalan's murder, iron-pillar/fly-wing image and Murugan/peacock analogy; and Item 45's Kattumannarkudi list, competing Madhurantakan interpretations, benefit-of-doubt turn, Rajaraja crown-prince training and source dates/ages through Rajendra without external reconciliation.
 
 ## Full-work gates after Batch 21
 
@@ -162,10 +163,10 @@ After all 21 revised batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 16 — items 43–45**:
+Translate and review **Batch 17 — items 46–48**:
 
-- item 43 — `திராவிட இனத்தின் தமிழர் மரபு!` — scans **207–210** — `../../sections/43.md`;
-- item 44 — `இரும்புத் தூணும் ஈக்களின் இறகும்!` — scans **211–215** — `../../sections/44.md`;
-- item 45 — `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` — scans **216–219** — `../../sections/45.md`.
+- item 46 — `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்!` — scans **220–225** — `../../sections/46.md`;
+- item 47 — `அந்த வருங்காலமே; அருங்காலமாகும்!` — scans **226–235** — `../../sections/47.md`;
+- item 48 — `அழியாத சிற்பக் கலையும், அழகிய ஓவியக் கலையும்!` — scans **236–240** — `../../sections/48.md`.
 
-Item 44 is a documented title-witness discrepancy. The canonical/title-page witness is `இரும்புத் தூணும் ஈக்களின் இறகும்!`; the contents witness is `இரும்புத் தூணும், ஈக்களின் இறகும்!`. Preserve both separately. Create `batches/batch-16.md`. Stop after item 45; do not begin item 46.
+Item 46 is a documented title-witness discrepancy: the canonical/title-page witness includes the final `!`, while the contents witness `முன்மாதிரியாகத் திகழ்ந்த மும்முடிச் சோழன்` does not. Item 47 is a long multi-scan historical/rhetorical item; preserve its indentation, accumulation, quotations and every source movement. Create `batches/batch-17.md`. Stop after item 48; do not begin item 49.
