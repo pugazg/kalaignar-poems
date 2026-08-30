@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–07 reviewed PASS; 18/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
+**PHASE 4 IN PROGRESS — Batches 01–08 reviewed PASS; 21/58 items translated and reviewed; revised three-item cadence active from Batch 04.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -92,7 +92,7 @@ Default principles:
 | 05 | 10–12 | 50–63 | `10.md`–`12.md` | **reviewed — PASS** |
 | 06 | 13–15 | 64–81 | `13.md`–`15.md` | **reviewed — PASS** |
 | 07 | 16–18 | 82–98 | `16.md`–`18.md` | **reviewed — PASS** |
-| 08 | 19–21 | 99–111 | `19.md`–`21.md` | planned |
+| 08 | 19–21 | 99–111 | `19.md`–`21.md` | **reviewed — PASS** |
 | 09 | 22–24 | 112–123 | `22.md`–`24.md` | planned |
 | 10 | 25–27 | 124–135 | `25.md`–`27.md` | planned |
 | 11 | 28–30 | 136–147 | `28.md`–`30.md` | planned |
@@ -109,9 +109,9 @@ Default principles:
 
 Current reviewed totals:
 
-- batches: **7/21**;
-- items: **18/58**;
-- numbered-item source scans covered by reviewed English batches: **89/290**;
+- batches: **8/21**;
+- items: **21/58**;
+- numbered-item source scans covered by reviewed English batches: **102/290**;
 - unresolved translation issues: **0**.
 
 ## Batch workflow
@@ -133,12 +133,13 @@ A translated but unreviewed batch is not eligible for final collection assembly.
 
 ## Reviewed closures
 
-Batches **01–07** are reviewed PASS. Their batch files are the durable translation/review records.
+Batches **01–08** are reviewed PASS. Their batch files are the durable translation/review records.
 
 - Batch 04 is the first three-item batch and covers items **7–9**, scans **35–49**.
 - Batch 05 covers items **10–12**, scans **50–63**. It preserves the maritime-contact and papyrus claims as source claims, the *Manimekalai* and *Kuruntokai* textual layers, Peevalai–Nedumudikilli/Ilanthiraiyan narrative, Murugan–Valli narrative, glossary and Tamil sound-play without silent source correction.
 - Batch 06 covers items **13–15**, scans **64–81**. It preserves Appathuraiyar/classical citations and the Kharavela inscription/alliance argument, the complete three-scene Kanaka–Vijaya drama with its speaker architecture and eighteen-unit rhetoric, and the “Aryan tea” argument with its named-source quotations without converting translation into historical adjudication.
 - Batch 07 covers items **16–18**, scans **82–98**. It preserves the long *Uromapuri Pandiyan* historical-source passage, Yavana/Roman trade evidence as presented, the world-history/evolution/Kumari Kandam argument and citations, Bharathi/source quotations, and Item 18's canonical-title/contents-title distinction.
+- Batch 08 covers items **19–21**, scans **99–111**. It preserves the Senguttuvan–Palaiyan–Arugan sequence and ethical condemnation, the Venni battle with *vadakkiruthal* and three attributed classical poems, and the Aathimandhi–Aattanathi dance/love/river-rescue narrative including the scan-111 source note.
 
 ## Full-work gates after Batch 21
 
@@ -154,10 +155,10 @@ After all 21 revised batches are reviewed:
 
 ## Exact next activity
 
-Translate and review **Batch 08 — items 19–21**:
+Translate and review **Batch 09 — items 22–24**:
 
-- item 19 — `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` — scans **99–102** — `../../sections/19.md`;
-- item 20 — `வீழினும் அவன் வெற்றித் திருமகனே!` — scans **103–106** — `../../sections/20.md`;
-- item 21 — `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans **107–111** — `../../sections/21.md`.
+- item 22 — `“பிறகேன் வினா? என்பதே என் வினா!”` — scans **112–116** — `../../sections/22.md`;
+- item 23 — `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` — scans **117–119** — `../../sections/23.md`;
+- item 24 — `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` — scans **120–123** — `../../sections/24.md`.
 
-Create `batches/batch-08.md`. Preserve all three items as distinct works inside the batch. Stop after item 21; do not begin item 22.
+Item 22 is a documented title-witness discrepancy; its displayed English title must derive from the canonical quoted title-page witness, while the unquoted contents witness remains separately traceable. Create `batches/batch-09.md`. Preserve all three items as distinct works inside the batch. Stop after item 24; do not begin item 25.
