@@ -35,6 +35,30 @@ Source PDF repository-க்குள் commit செய்யப்படா�
 - scan condition;
 - photographs, captions, advertisements, library marks, handwriting, bleed-through போன்ற anomalies.
 
+## 2A. Exact-source identity / renderer-limit rule
+
+A page-viewer or connector's reported `total_pages` must **not** automatically be treated as the PDF's physical page count. Some interfaces expose only a rendering window or truncated page range.
+
+For book-length sources:
+
+1. whenever exact source bytes are available, establish and durably record **physical PDF page count, file size and SHA-256 from those exact bytes**;
+2. exact-byte source identity outranks a renderer/window count;
+3. if a renderer stops at page N but the exact PDF metadata says the file is longer, page N is only a tooling boundary, not a source boundary;
+4. continue by rendering the same exact PDF through a source-byte-capable PDF tool; do not split, substitute or silently switch editions;
+5. physical `scan_page` numbering remains 1-indexed against the same controlling PDF identified by its checksum;
+6. never claim source completion from a truncated renderer window;
+7. when an earlier page-count assumption is disproved, correct all status/handover documents that could send a later chat to the wrong boundary.
+
+### Current active-source guardrail — `கலைஞரின் கவிதைகள்`
+
+For `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`, exact-byte inspection has established:
+
+- physical PDF pages: **465**;
+- file size: **486,369,088 bytes**;
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**.
+
+An older renderer exposed only pages 1–150 and reported `total_pages: 150`; that value is **not** source-file length. Direct rendering from the same exact PDF confirms page 151 and later pages exist. Future work on this source must preserve the 465-page identity and continue beyond scan 150 from the same PDF.
+
 ## 3. ஒவ்வொரு படைப்பிற்குமான அமைப்பு
 
 ```text
@@ -214,6 +238,8 @@ Secondary witness wording controlling scan-க்கு silently import செ�
 
 Phase 1 transcription-only work is an exception to performing the **full** difficult-reading verification protocol immediately: do enough source inspection to produce the best faithful transcription possible, mark genuine uncertainty, and defer the independent source-critical re-audit to Phase 2.
 
+For visibly blurred Phase-1 sources, prefer an explicit unresolved marker such as `⟦…⟧` over a plausible reconstruction. The purpose of Phase 1 is to preserve what can safely be read and make uncertainty reviewable; it is not to maximize apparent completeness by guessing.
+
 ## 7. Printed-page mapping
 
 `indexes/page-map.md`-ல் scan number மற்றும் **visible** printed page number தனித்தனியாகப் பதிவு செய்ய வேண்டும்.
@@ -295,6 +321,8 @@ Fresh-chat continuation must be reconstructable from the repository itself.
 6. Handover documents should record durable facts and the exact next operation, not depend on hidden chat history.
 7. If the user says **“Proceed with next activity”**, execute the exact next activity recorded in live state without asking them to choose among routine continuation steps.
 8. After each requested activity report the changed files, current phase/status, resulting live `main` SHA, and exact next activity.
+9. For long PDFs, handover must preserve the **exact-byte source identity** (page count, file size, SHA-256) whenever established, and must distinguish it from any renderer/access-window count.
+10. If the controlling source must be reattached in a fresh chat, verify that it is the same source by durable identity before using it to supersede or continue existing page records.
 
 ## 14. Completion criteria
 
