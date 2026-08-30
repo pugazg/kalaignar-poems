@@ -167,19 +167,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 06 / item 15 / scan 81**.
+Reviewed through **Batch 07 / item 18 / scan 98**.
 
-- batches reviewed: **6/21**;
-- items translated and reviewed: **15/58**;
-- numbered-item scans covered: **72/290**;
+- batches reviewed: **7/21**;
+- items translated and reviewed: **18/58**;
+- numbered-item scans covered: **89/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 07 — items 16–18**:
+Translate and review **Batch 08 — items 19–21**:
 
-- item 16 `சுளையில் ஒன்றியிருக்கும் சுவையாக!` — scans **82–87**;
-- item 17 `உலக வரலாறு எங்கிருந்து வருவது?` — scans **88–95**;
-- item 18 `தேய்ந்தது போக மிச்சத்தைத் தேடுகின்றோம்!` — scans **96–98**.
+- item 19 `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` — scans **99–102**;
+- item 20 `வீழினும் அவன் வெற்றித் திருமகனே!` — scans **103–106**;
+- item 21 `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans **107–111**.
 
-Item 18 is a documented title-witness discrepancy: displayed English title from the canonical/title-page witness; preserve contents witness `தேய்ந்ததுபோக மிச்சத்தைத் தேடுகின்றோம்!` separately. Create `batches/batch-07.md`, preserving item boundaries and scan provenance. Stop after item 18.
+Create `batches/batch-08.md`, preserving item boundaries and scan provenance. Stop after item 21; do not begin item 22.
