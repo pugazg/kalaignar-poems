@@ -1,9 +1,5 @@
 # Next Chat Prompt — கலைஞரின் கவிதைகள்
 
-Copy the prompt below into a fresh chat when continuing this active work, and attach the controlling source PDF again when possible.
-
----
-
 Continue the **Kalaignar Poems archival project** directly in:
 
 `https://github.com/pugazg/kalaignar-poems`
@@ -14,124 +10,79 @@ Active work:
 
 `poems/kalaignarin-kavithaigal/`
 
-Controlling source currently supplied:
+Controlling source:
 
 `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
 Use the GitHub connector and work directly on `main`.
 
-## IMPORTANT — LIVE MAIN IS AUTHORITATIVE
+## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Older prompt SHAs and copied phase labels are checkpoints only; never use them to roll back newer completed work.
-
-Before making any repository change, read completely:
-
-1. `HANDOVER.md`
-2. `POEM_PROCESSING_GUIDE.md`
-3. `TRANSCRIPTION_PHASE_PLAN.md`
-4. root `README.md`
-5. `NEXT_CHAT_PROMPT.md`
-6. `poems/kalaignarin-kavithaigal/README.md`
-7. `poems/kalaignarin-kavithaigal/SOURCE_INTAKE.md`
-8. `poems/kalaignarin-kavithaigal/metadata/source.md`
-9. `poems/kalaignarin-kavithaigal/indexes/page-map.md`
-10. `poems/kalaignarin-kavithaigal/audit.md`
-11. existing page records around the current boundary, especially `pages/0096.md` through `pages/0100.md` before continuing.
-
-Treat the attached scan as the controlling textual authority. OCR, semantic expectation, web text and existing transcriptions from other source witnesses are not allowed to silently fill blurred wording.
+Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this prompt, and the active work's README/source metadata/page map/audit before changing anything.
 
 ## CURRENT DURABLE STATE
 
-**Phase 1 transcription is in progress through physical scan 100.**
+**Phase 1 transcription is complete through physical scan 125.**
 
-- work/title: **கலைஞரின் கவிதைகள்**;
-- author: **கலைஞர் மு. கருணாநிதி**;
-- source filename: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
-- available physical scans: **150**;
 - file size: **486,369,088 bytes**;
-- source SHA-256: **pending exact-byte computation; never guess it**;
-- publisher visible: **பாரதி பதிப்பகம்**;
-- edition visible in English imprint: **fourth edition, March 1995**;
-- Phase 1 page records: **100/150**;
-- cumulative status: **10 `partial`, 90 `needs-review`, 0 `verified`**;
-- completed Phase-1 batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100**;
+- PDF length: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
+- current Files page renderer exposes pages **1–150 only**;
+- old `150-page PDF` / `150-scan tranche` statements were incorrect and have been corrected;
+- Phase 1 records: **125**;
+- cumulative status: **10 `partial`, 115 `needs-review`, 0 `verified`**;
+- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-Current source/work boundaries:
+Current source boundary:
 
-- `இதயத்தைத் தந்திடு அண்ணா` closes on scan 31;
-- `தென்னவன் காதை` closes on scan 42;
-- `இந்திரஜித்` closes on scan 54;
-- `இரணியன்` closes on scan 61;
-- `வாளி மன்னன்` closes on scan 69;
-- `கவியரங்கக் கவிதைகள்` divider/verso occupy scans 70–71;
-- `விடுதலை வீரர்கள்` closes on scan 79;
-- `ஐம்புலன்` runs scans 80–89 and closes on scan 89;
-- `பிலவங்க ஆண்டு` runs scans 90–100 and closes on scan 100.
+- `காதலா - வீரமா?` opens scan 101 and closes scan 115;
+- `அருமறையில் அறுவர்` opens scan 116 and **continues beyond scan 125**.
+
+Batch-05 clearer title witnesses:
+
+- scan 101: `காதலா - வீரமா?`;
+- scan 116: `அருமறையில் அறுவர்`.
+
+Do not silently rewrite the earlier blurred contents records; reconcile them in the later verification/title-witness phase.
 
 ## CRITICAL — BLURRED TEXT
 
-The user explicitly warned that this PDF has blurred text in places. Preserve that uncertainty instead of guessing.
-
 - use `⟦…⟧` for unresolved Phase-1 spans;
-- `⟦…⟧` is editorial marking, not source punctuation;
 - do not reconstruct from OCR, memory, metre, grammar, historical context or another edition;
-- do not copy the separate repository witnesses of `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` into this anthology;
-- the existing user-directed caste-slur exclusion applicable to `தென்னவன் காதை` must not be reintroduced;
-- preserve source-visible speaker labels, poet introductions and performance notes where legible;
-- do not infer a printed page number where the numeral is not positively visible; scans 80 and 90 are current examples;
-- pages with unresolved wording should remain `needs-review`, not `verified`.
+- do not copy the separate source witnesses of `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` into this anthology;
+- preserve source-visible speaker labels/performance notes where legible;
+- pages with unresolved wording remain `needs-review`.
 
-## CRITICAL — THE SUPPLIED PDF IS NOT THE COMPLETE BOOK
+The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
-Do not mistake 150 physical scans for complete-edition coverage.
+## CRITICAL — SOURCE EXTENT / TOOLING LIMIT
 
-Direct source evidence:
+The PDF itself has **more than 450 pages**. The current page-image renderer stopping at 150 is a tooling limit, not the source end.
 
-- physical scans **15–17** contain the printed contents;
-- the contents list entries through at least printed page **444**;
-- physical scan **150** visibly carries printed page **133** and still contains continuing body text.
+A page-151 image request through the current Files renderer did not return a rendered image. Therefore:
 
-Therefore:
-
-- faithfully transcribe all supplied scans;
-- `150/150 available scans` will mean only the supplied source tranche is transcribed;
-- whole-book source completeness, Tamil final clearance and release remain blocked until continuation source is supplied and reconciled.
-
-## PHASE 1 RULES
-
-Phase 1 is transcription only.
-
-For every supplied physical scan:
-
-- create a page record, including divider/graphic pages;
-- transcribe visible edition text directly from the scan;
-- preserve spelling, punctuation, headings, quotations, lineation and unusual source forms where legible;
-- record only visibly printed page numbers as printed-page evidence;
-- distinguish show-through/later marks from edition text;
-- use `partial` only where the first-pass page has no specific unresolved reading; otherwise use `needs-review`;
-- do not begin systematic Phase-2 verification, Phase-3 reconciliation/assembly or English translation during Phase 1.
+- process scans 126–150 now;
+- do not call scan 150 the end of the PDF;
+- after scan 150, continue with 151 onward from the same PDF when tooling exposes those pages;
+- do not start Phase 2 just because the current renderer reaches 150.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 batch 05 — physical scans 101–125**.
+Execute **Phase 1 Batch 06 — physical scans 126–150**.
 
 Create:
 
-`poems/kalaignarin-kavithaigal/pages/0101.md` through `pages/0125.md`
+`poems/kalaignarin-kavithaigal/pages/0126.md` through `pages/0150.md`
 
-Continue from the source movement immediately following the scan-100 close of `பிலவங்க ஆண்டு`. Do not repeat or rewrite scans 1–100 unless a genuine source-backed correction is discovered.
+Continue directly from `அருமறையில் அறுவர்` at scan 125. Use direct visual transcription only and retain the conservative blur policy.
 
 At completion:
 
-- update `audit.md` with cumulative Phase-1/status counts and genuine unresolved readings;
-- update `indexes/page-map.md` with visible printed-page evidence;
-- synchronize milestone status if needed;
-- record the exact next Phase-1 batch;
-- do not begin Phase 2 in the same activity.
+- update `audit.md` and `indexes/page-map.md`;
+- synchronize README/HANDOVER/NEXT prompt;
+- record the access blocker for scan 151 onward if the renderer still cannot expose it;
+- **do not begin Phase 2**.
 
-If live `main` has already advanced beyond this checkpoint, continue from the newer live Phase-1 boundary instead of repeating completed scans.
-
----
+If live `main` has advanced beyond this checkpoint, continue from the newer boundary.
