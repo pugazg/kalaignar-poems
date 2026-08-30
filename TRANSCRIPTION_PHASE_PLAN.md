@@ -61,15 +61,18 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Phase-1 state
 
-- page records created: **200/465** — `pages/0001.md` through `pages/0200.md`;
-- cumulative status: **10 `partial`, 190 `needs-review`, 0 `verified`**;
-- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200**;
+- page records created: **225/465** — `pages/0001.md` through `pages/0225.md`;
+- cumulative status: **10 `partial`, 215 `needs-review`, 0 `verified`**;
+- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200; 09 scans 201–225**;
 - `நீர்க் குடும்பம்` closes scan **154** / printed page **137**;
 - `பாரதிதாசன்` spans scans **155–169**;
 - `பாரதியார்` spans scans **170–174**;
 - `பொங்கல் திருநாள்` spans scans **175–184**;
 - `வாழ்வெனும் பாதையில்` spans scans **185–196**;
-- current item: `கணக்கு`, opened scan **197** and continuing beyond scan **200**;
+- `கணக்கு` spans scans **197–204**;
+- `நேரு கண்ட ஜனநாயகம்` spans scans **205–215**;
+- `நன்றி, நன்றி!` spans scans **216–217**;
+- current item: `வெள்ளி விழா`, opened scan **218** and continuing beyond scan **225**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Phase 4: **blocked**.
@@ -84,9 +87,9 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 09 — physical scans 201–225**.
+Execute **Phase 1 Batch 10 — physical scans 226–250**.
 
-Create `pages/0201.md` through `pages/0225.md`, continuing directly from `கணக்கு`.
+Create `pages/0226.md` through `pages/0250.md`, continuing directly from `வெள்ளி விழா`.
 
 Do not begin Phase 2 in the same activity.
 

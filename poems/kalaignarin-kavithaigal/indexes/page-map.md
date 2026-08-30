@@ -12,7 +12,7 @@ An earlier 150-page assumption came from a renderer-window limitation and has be
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–200 created of 465.**
+**PHASE 1 MAP IN PROGRESS — page records 1–225 created of 465.**
 
 This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
@@ -40,7 +40,10 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 170–174 | `பாரதியார்` | closes 174 |
 | 175–184 | `பொங்கல் திருநாள்` | closes 184 |
 | 185–196 | `வாழ்வெனும் பாதையில்` | closes 196 |
-| 197–200 | `கணக்கு` | open; continues beyond 200 |
+| 197–204 | `கணக்கு` | closes 204 |
+| 205–215 | `நேரு கண்ட ஜனநாயகம்` | closes 215 |
+| 216–217 | `நன்றி, நன்றி!` | closes 217 |
+| 218–225 | `வெள்ளி விழா` | open; continues beyond 225 |
 
 ## Phase-1 map — scans 126–150
 
@@ -132,23 +135,53 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 199 | continuation | 182 | `needs-review` | family / world / body / hand arithmetic imagery |
 | 200 | `கணக்கு` continuation | 183 | `needs-review` | scientific / domestic counting movement; item remains open |
 
+## Phase-1 map — scans 201–225
+
+| Scan | Visible role / section | Visibly printed page | Status | Notes |
+|---:|---|---:|---|---|
+| 201 | `கணக்கு` speaker introduction | 184 | `needs-review` | `பெருக்கல்`; Murugu Sundaram participant note |
+| 202 | speaker introductions | 185 | `needs-review` | `கழித்தல்`, `வகுத்தல்`; Tamilannal and Abdul Rahman |
+| 203 | speaker introduction / conclusion begins | 186 | `needs-review` | `கூட்டல்`; Kannadasan; chair conclusion begins |
+| 204 | `கணக்கு` conclusion | 187 | `needs-review` | `வணக்கம்; / வாழ்க!`; decorative illustration; item closes |
+| 205 | `நேரு கண்ட ஜனநாயகம்` opening | — | `needs-review` | title clear; date `14.11.1970`; page numeral not positively visible |
+| 206 | continuation | 189 | `needs-review` | flower / rose allegory begins; one phrase unresolved |
+| 207 | continuation | 190 | `needs-review` | rose lament / Nehru elegiac movement |
+| 208 | continuation | 191 | `needs-review` | rose lament turns to Nehru praise |
+| 209 | continuation | 192 | `needs-review` | Nehru character / policy movement |
+| 210 | continuation | 193 | `needs-review` | Nehru / Anna / political imagery |
+| 211 | continuation / speaker introductions begin | 194 | `needs-review` | democracy movement; women's-rights topic introduced |
+| 212 | speaker introductions | 195 | `needs-review` | `பெண்ணுரிமை` closes; `பேச்சுரிமை` movement |
+| 213 | speaker introductions | 196 | `needs-review` | `எழுத்துரிமை`; `வாக்குரிமை` begins |
+| 214 | speaker introductions / conclusion begins | 197 | `needs-review` | `வாக்குரிமை` closes; `சொத்துரிமை`; chair conclusion begins |
+| 215 | `நேரு கண்ட ஜனநாயகம்` conclusion | 198 | `needs-review` | `வாழ்க!`; decorative illustration; item closes |
+| 216 | `நன்றி, நன்றி!` opening | 199 | `needs-review` | title clear; Salem exhibition context; date `1.8.71` |
+| 217 | `நன்றி, நன்றி!` conclusion | 200 | `needs-review` | repeated `நன்றி!`; decorative separator; item closes |
+| 218 | `வெள்ளி விழா` opening | — | `needs-review` | title clear; date `15.8.72`; AIR Chennai / Rajaji Mandapam context |
+| 219 | continuation / speaker introduction | 202 | `needs-review` | independence silver-jubilee movement; Bharathi introduction begins |
+| 220 | speaker introductions | 203 | `needs-review` | Bharathi / Yogi Suddhananda Bharathi; V.O.C. / S. T. Sundaram; one phrase unresolved |
+| 221 | speaker introductions | 204 | `needs-review` | V.V.S. Aiyar; Subramania Siva introduction |
+| 222 | speaker introductions | 205 | `needs-review` | Subramania Siva closes; Champakaraman Pillai introduction |
+| 223 | speaker introductions | 206 | `needs-review` | Champakaraman Pillai closes; Vanchinathan introduction |
+| 224 | speaker introductions | 207 | `needs-review` | Vanchinathan closes; Tiruppur Kumaran / Raghunathan; unnamed martyrs introduced |
+| 225 | continuation | 208 | `needs-review` | unnamed martyrs / Kannadasan; Bharathidasan quotation; item remains open |
+
 ## Printed-page evidence rule
 
 Only a numeral visibly printed on the source is entered as `printed_page`. Apparent body pagination is navigation assistance only; Phase 1 does not infer missing numerals.
 
 ## Phase-1 inventory
 
-Page records: `pages/0001.md` through `pages/0200.md`.
+Page records: `pages/0001.md` through `pages/0225.md`.
 
 Current cumulative status:
 
-- records created: **200/465**;
+- records created: **225/465**;
 - `partial`: **10**;
-- `needs-review`: **190**;
+- `needs-review`: **215**;
 - `verified`: **0**.
 
 ## Exact next activity
 
-Phase 1 Batch 09: transcribe physical scans **201–225** into `pages/0201.md` through `pages/0225.md`, continuing directly from `கணக்கு`.
+Phase 1 Batch 10: transcribe physical scans **226–250** into `pages/0226.md` through `pages/0250.md`, continuing directly from `வெள்ளி விழா`.
 
 Do not begin Phase 2 in the same activity.

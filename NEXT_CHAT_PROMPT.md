@@ -34,7 +34,7 @@ Before making any repository change, read completely:
 8. `poems/kalaignarin-kavithaigal/metadata/source.md`
 9. `poems/kalaignarin-kavithaigal/indexes/page-map.md`
 10. `poems/kalaignarin-kavithaigal/audit.md`
-11. the boundary record `poems/kalaignarin-kavithaigal/pages/0200.md`
+11. the boundary record `poems/kalaignarin-kavithaigal/pages/0225.md`
 
 When I say **“Proceed with next activity”**, execute the exact next routine activity recorded in live GitHub without asking me to choose among normal continuation steps.
 
@@ -52,7 +52,7 @@ These values were verified from the exact supplied PDF bytes:
 
 ### Important page-renderer warning
 
-A previous high-level Files renderer exposed only pages 1–150 and reported `total_pages: 150`. That is an interface/window limit, **not** the source length. The exact PDF contains **465 physical pages**; scans through **200** have now been directly processed from the same source.
+A previous high-level Files renderer exposed only pages 1–150 and reported `total_pages: 150`. That is an interface/window limit, **not** the source length. The exact PDF contains **465 physical pages**; scans through **225** have now been directly processed from the same source.
 
 Therefore:
 
@@ -63,11 +63,11 @@ Therefore:
 
 ## CURRENT DURABLE PHASE-1 STATE
 
-**Phase 1 transcription is complete through physical scan 200 / 465.**
+**Phase 1 transcription is complete through physical scan 225 / 465.**
 
-- page records: **200/465**;
-- existing files: `pages/0001.md` through `pages/0200.md`;
-- cumulative status: **10 `partial`, 190 `needs-review`, 0 `verified`**;
+- page records: **225/465**;
+- existing files: `pages/0001.md` through `pages/0225.md`;
+- cumulative status: **10 `partial`, 215 `needs-review`, 0 `verified`**;
 - completed batches:
   - Batch 01 — scans 1–25;
   - Batch 02 — scans 26–50;
@@ -77,6 +77,7 @@ Therefore:
   - Batch 06 — scans 126–150;
   - Batch 07 — scans 151–175;
   - Batch 08 — scans 176–200;
+  - Batch 09 — scans 201–225;
 - Phase 2 verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation: **blocked until Tamil final clearance**.
@@ -88,15 +89,19 @@ Recent item boundaries:
 - `பாரதியார்` — scans **170–174**, closes 174 / printed page 157;
 - `பொங்கல் திருநாள்` — scans **175–184**, closes 184 / printed page 167;
 - `வாழ்வெனும் பாதையில்` — scans **185–196**, closes 196 / printed page 179;
-- `கணக்கு` — opens scan **197** and continues beyond scan 200.
+- `கணக்கு` — scans **197–204**, closes 204 / printed page 187;
+- `நேரு கண்ட ஜனநாயகம்` — scans **205–215**, closes 215 / printed page 198;
+- `நன்றி, நன்றி!` — scans **216–217**, closes 217 / printed page 200;
+- `வெள்ளி விழா` — opens scan **218** and continues beyond scan 225.
 
 Boundary detail:
 
-- scan **184** closes `பொங்கல் திருநாள்`;
-- scan **185** opens `வாழ்வெனும் பாதையில்`, dated **14.4.70**;
-- scan **196** closes `வாழ்வெனும் பாதையில்`;
-- scan **197** opens `கணக்கு`, dated **2.9.1970**;
-- scan **200** visibly prints page **183** and ends mid-item, so `கணக்கு` continues to scan 201.
+- scan **204** closes `கணக்கு` / printed page **187**;
+- scan **205** opens `நேரு கண்ட ஜனநாயகம்`, dated **14.11.1970**;
+- scan **215** closes `நேரு கண்ட ஜனநாயகம்` / printed page **198**;
+- scan **216** opens `நன்றி, நன்றி!`, dated **1.8.71**, and scan **217** closes it / printed page **200**;
+- scan **218** opens `வெள்ளி விழா`, dated **15.8.72**;
+- scan **225** visibly prints page **208** and ends mid-item, so `வெள்ளி விழா` continues to scan 226.
 
 ## CRITICAL — BLURRED TEXT
 
@@ -129,26 +134,26 @@ The existing user-directed exclusion applicable to `தென்னவன் க
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 09 — physical scans 201–225**.
+Execute **Phase 1 Batch 10 — physical scans 226–250**.
 
 Create:
 
-`poems/kalaignarin-kavithaigal/pages/0201.md` through `pages/0225.md`
+`poems/kalaignarin-kavithaigal/pages/0226.md` through `pages/0250.md`
 
 Requirements:
 
-- continue directly from unfinished `கணக்கு` at scan 200;
-- inspect scans 201–225 directly from the exact 465-page controlling PDF;
+- continue directly from unfinished `வெள்ளி விழா` at scan 225;
+- inspect scans 226–250 directly from the exact 465-page controlling PDF;
 - preserve physical page boundaries;
 - preserve visible title/speaker/performance structure;
 - do not infer item endings or starts before the scan establishes them;
 - maintain the conservative blur policy;
 - do **not** begin Phase 2, Phase 3, canonical assembly, or translation in this activity.
 
-At Batch-09 completion:
+At Batch-10 completion:
 
 - update `audit.md` with cumulative totals and exact discovered boundaries;
-- extend `indexes/page-map.md` through scan 225;
+- extend `indexes/page-map.md` through scan 250;
 - update the active work README;
 - synchronize `HANDOVER.md` and `NEXT_CHAT_PROMPT.md` to the exact next 25-page Phase-1 batch;
 - leave exact source metadata unchanged unless a genuine source-identity discrepancy is found.

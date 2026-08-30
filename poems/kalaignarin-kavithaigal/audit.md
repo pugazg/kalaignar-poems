@@ -2,21 +2,21 @@
 
 ## Current state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–08, scans 1–200 recorded out of 465 physical PDF pages.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–09, scans 1–225 recorded out of 465 physical PDF pages.**
 
 - controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 1 page records: **200/465**;
-- cumulative Phase 1 status: **10 `partial`, 190 `needs-review`, 0 `verified`**;
+- Phase 1 page records: **225/465**;
+- cumulative Phase 1 status: **10 `partial`, 215 `needs-review`, 0 `verified`**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
 ## Source-extent correction and resolution
 
-Earlier status incorrectly interpreted a 150-page renderer exposure as the PDF's physical page count. Exact-byte inspection established the durable source identity above: **465 physical pages**. Direct source rendering has now been used through physical scan **200**. Scan 150 was only a renderer-window boundary, never a source boundary.
+Earlier status incorrectly interpreted a 150-page renderer exposure as the PDF's physical page count. Exact-byte inspection established the durable source identity above: **465 physical pages**. Direct source rendering has now been used through physical scan **225**. Scan 150 was only a renderer-window boundary, never a source boundary.
 
 ## Phase 1 batch history
 
@@ -27,7 +27,8 @@ Earlier status incorrectly interpreted a 150-page renderer exposure as the PDF's
 - Batch 05 — scans **101–125**;
 - Batch 06 — scans **126–150**;
 - Batch 07 — scans **151–175**;
-- Batch 08 — scans **176–200**.
+- Batch 08 — scans **176–200**;
+- Batch 09 — scans **201–225**.
 
 ## Phase 1 batch 06 — scans 126–150
 
@@ -77,6 +78,27 @@ Batch-08 status:
 
 Pages needing the later independent Phase-2 review from Batch 08: `0176`–`0200`.
 
+## Phase 1 batch 09 — scans 201–225
+
+Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED.**
+
+Created:
+
+- `pages/0201.md` through `pages/0225.md`;
+- `கணக்கு` continues from scan 200 and **closes scan 204 / printed page 187** with `வணக்கம்; / வாழ்க!` and a decorative illustration;
+- `நேரு கண்ட ஜனநாயகம்` **opens scan 205**, event date **14.11.1970**, and **closes scan 215 / printed page 198** with `வாழ்க!` and a decorative illustration;
+- `நன்றி, நன்றி!` **opens scan 216 / printed page 199**, event date **1.8.71**, and **closes scan 217 / printed page 200** with repeated `நன்றி!` lines and a decorative separator;
+- `வெள்ளி விழா` **opens scan 218**, event date **15.8.72**, and continues beyond scan **225 / printed page 208**;
+- scan **225** ends mid-item; no artificial closing boundary was inferred.
+
+Batch-09 status:
+
+- `partial`: **0**;
+- `needs-review`: **25**;
+- `verified`: **0**.
+
+Pages needing the later independent Phase-2 review from Batch 09: `0201`–`0225`.
+
 ## Blur / uncertainty control
 
 - `⟦…⟧` is an editorial Phase-1 uncertainty marker, not source punctuation;
@@ -93,6 +115,6 @@ The existing user-directed exclusion applicable to `தென்னவன் க
 
 ## Exact next activity
 
-Execute **Phase 1 Batch 09 — physical scans 201–225** from the same 465-page controlling PDF, creating `pages/0201.md` through `pages/0225.md` and continuing directly from the unfinished `கணக்கு` item at scan 200.
+Execute **Phase 1 Batch 10 — physical scans 226–250** from the same 465-page controlling PDF, creating `pages/0226.md` through `pages/0250.md` and continuing directly from the unfinished `வெள்ளி விழா` item at scan 225.
 
 Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.

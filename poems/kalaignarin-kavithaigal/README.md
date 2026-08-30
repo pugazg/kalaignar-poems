@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 200/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 225/465 physical pages recorded.**
 
 Controlling source:
 
@@ -21,19 +21,19 @@ Controlling source:
 - fourth edition: **March 1995**;
 - printed contents list works through at least printed page **444**.
 
-An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **200** from that same source.
+An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **225** from that same source.
 
 ## Phase-1 progress
 
 Page records:
 
-`pages/0001.md` through `pages/0200.md`
+`pages/0001.md` through `pages/0225.md`
 
 Current cumulative status:
 
-- page records: **200/465**;
+- page records: **225/465**;
 - `partial`: **10**;
-- `needs-review`: **190**;
+- `needs-review`: **215**;
 - `verified`: **0**;
 - Phase 2: **not started**.
 
@@ -46,9 +46,10 @@ Completed Phase-1 batches:
 - Batch 05 — scans **101–125**;
 - Batch 06 — scans **126–150**;
 - Batch 07 — scans **151–175**;
-- Batch 08 — scans **176–200**.
+- Batch 08 — scans **176–200**;
+- Batch 09 — scans **201–225**.
 
-## Source boundaries through scan 200
+## Source boundaries through scan 225
 
 - `இதயத்தைத் தந்திடு அண்ணா` — closes 31;
 - `தென்னவன் காதை` — 34–42;
@@ -67,7 +68,10 @@ Completed Phase-1 batches:
 - `பாரதியார்` — **170–174**, closes 174;
 - `பொங்கல் திருநாள்` — **175–184**, closes 184 / printed page 167;
 - `வாழ்வெனும் பாதையில்` — **185–196**, closes 196 / printed page 179;
-- `கணக்கு` — opens **197** and continues beyond scan 200.
+- `கணக்கு` — **197–204**, closes 204 / printed page 187;
+- `நேரு கண்ட ஜனநாயகம்` — **205–215**, closes 215 / printed page 198;
+- `நன்றி, நன்றி!` — **216–217**, closes 217 / printed page 200;
+- `வெள்ளி விழா` — opens **218** and continues beyond scan 225.
 
 ## Blur / difficult-reading control
 
@@ -87,8 +91,8 @@ The existing user-directed exclusion applicable to `தென்னவன் க
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 09 — scans 201–225**.
+Begin **Phase 1 Batch 10 — scans 226–250**.
 
-Create `pages/0201.md` through `pages/0225.md`, continuing directly from the unfinished `கணக்கு` item at scan 200.
+Create `pages/0226.md` through `pages/0250.md`, continuing directly from the unfinished `வெள்ளி விழா` item at scan 225.
 
 Do not begin Phase 2 in the same activity.
