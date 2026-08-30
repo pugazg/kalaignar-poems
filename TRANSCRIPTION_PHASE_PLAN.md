@@ -61,9 +61,9 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Phase-1 state
 
-- page records created: **225/465** — `pages/0001.md` through `pages/0225.md`;
-- cumulative status: **10 `partial`, 215 `needs-review`, 0 `verified`**;
-- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200; 09 scans 201–225**;
+- page records created: **250/465** — `pages/0001.md` through `pages/0250.md`;
+- cumulative status: **10 `partial`, 240 `needs-review`, 0 `verified`**;
+- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200; 09 scans 201–225; 10 scans 226–250**;
 - `நீர்க் குடும்பம்` closes scan **154** / printed page **137**;
 - `பாரதிதாசன்` spans scans **155–169**;
 - `பாரதியார்` spans scans **170–174**;
@@ -72,7 +72,11 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 - `கணக்கு` spans scans **197–204**;
 - `நேரு கண்ட ஜனநாயகம்` spans scans **205–215**;
 - `நன்றி, நன்றி!` spans scans **216–217**;
-- current item: `வெள்ளி விழா`, opened scan **218** and continuing beyond scan **225**;
+- `வெள்ளி விழா` closes scan **226** / printed page **209**;
+- `அண்ணன் இருக்கின்றார்` spans scans **227–229**;
+- `அண்ணன் ஒரு கவியரங்கம்` spans scans **230–236 + 238**, with scan **237** physically interposed as the next item’s title leaf;
+- `தமிழ் வளர வழிநடைப் பயணம்` has title leaf scan **237**, body scans **239–244**, and closes scan **244**;
+- current item: `வையம் தழைக்க`, opened scan **245** and continuing beyond scan **250**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Phase 4: **blocked**.
@@ -87,9 +91,9 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 10 — physical scans 226–250**.
+Execute **Phase 1 Batch 11 — physical scans 251–275**.
 
-Create `pages/0226.md` through `pages/0250.md`, continuing directly from `வெள்ளி விழா`.
+Create `pages/0251.md` through `pages/0275.md`, continuing directly from `வையம் தழைக்க`.
 
 Do not begin Phase 2 in the same activity.
 

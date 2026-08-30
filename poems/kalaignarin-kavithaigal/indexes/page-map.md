@@ -12,7 +12,7 @@ An earlier 150-page assumption came from a renderer-window limitation and has be
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–225 created of 465.**
+**PHASE 1 MAP IN PROGRESS — page records 1–250 created of 465.**
 
 This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
@@ -43,7 +43,11 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 197–204 | `கணக்கு` | closes 204 |
 | 205–215 | `நேரு கண்ட ஜனநாயகம்` | closes 215 |
 | 216–217 | `நன்றி, நன்றி!` | closes 217 |
-| 218–225 | `வெள்ளி விழா` | open; continues beyond 225 |
+| 218–226 | `வெள்ளி விழா` | closes 226 |
+| 227–229 | `அண்ணன் இருக்கின்றார்` | closes 229 |
+| 230–236 + 238 | `அண்ணன் ஒரு கவியரங்கம்` | closes 238; scan 237 is physically interposed next-item title leaf |
+| 237 + 239–244 | `தமிழ் வளர வழிநடைப் பயணம்` | title leaf 237; body 239–244; closes 244 |
+| 245–250 | `வையம் தழைக்க` | open; continues beyond 250 |
 
 ## Phase-1 map — scans 126–150
 
@@ -165,23 +169,53 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 224 | speaker introductions | 207 | `needs-review` | Vanchinathan closes; Tiruppur Kumaran / Raghunathan; unnamed martyrs introduced |
 | 225 | continuation | 208 | `needs-review` | unnamed martyrs / Kannadasan; Bharathidasan quotation; item remains open |
 
+## Phase-1 map — scans 226–250
+
+| Scan | Visible role / section | Visibly printed page | Status | Notes |
+|---:|---|---:|---|---|
+| 226 | `வெள்ளி விழா` conclusion | 209 | `needs-review` | closing greeting / thanks; decorative illustration; item closes |
+| 227 | `அண்ணன் இருக்கின்றார்` opening | — | `needs-review` | title clear; date `2.9.1972`; Kalaivanar Arangam context |
+| 228 | continuation | 211 | `needs-review` | Anna-presence / mother / poor-person imagery |
+| 229 | `அண்ணன் இருக்கின்றார்` conclusion | 212 | `needs-review` | Anna-presence movement closes; DMK lamp / victory lines |
+| 230 | `அண்ணன் ஒரு கவியரங்கம்` opening | — | `needs-review` | title clear; date `4.2.1973`; Rajaji Mandapam / Anna memorial context |
+| 231 | continuation | 214 | `needs-review` | public-service offerings / Anna-shrine imagery |
+| 232 | continuation | 215 | `needs-review` | welfare / memorial movement; one span retained unresolved |
+| 233 | continuation | 216 | `needs-review` | Anna’s language / historical-king imagery |
+| 234 | continuation | 217 | `needs-review` | language reform / Annamalai speech movement |
+| 235 | continuation | 218 | `needs-review` | movement / Periyar / political imagery |
+| 236 | participant/topic list begins | 219 | `needs-review` | `அண்ணன் ஒரு கவியரங்கம்` remains open; source next interposes scan 237 title leaf |
+| 237 | `தமிழ் வளர வழிநடைப் பயணம்` title leaf / opening | — | `needs-review` | date `12.4.73`; physically interposed before preceding item’s final page |
+| 238 | `அண்ணன் ஒரு கவியரங்கம்` resumes and concludes | 221 | `needs-review` | participant list resumes from 236; chair conclusion; decorative separator; item closes |
+| 239 | `தமிழ் வளர வழிநடைப் பயணம்` body | 222 | `needs-review` | body proceeds after interposed preceding-item close |
+| 240 | continuation | 223 | `needs-review` | martial / route (`வழி`) movement |
+| 241 | speaker-introduction movement | 224 | `needs-review` | Kapilar / Avvai / Ilango / Anna routes; Subramaniam introduction |
+| 242 | speaker introductions | 225 | `needs-review` | Abdul Rahman / Avvai route; Ilancheran / Vazhuthi route; Muthu Sambandam begins |
+| 243 | speaker introductions | 226 | `needs-review` | Valluvar / Ilango / Appar routes |
+| 244 | `தமிழ் வளர வழிநடைப் பயணம்` conclusion | 227 | `needs-review` | Vallalar / Anna routes; `வணக்கம்.`; decorative separator; item closes |
+| 245 | `வையம் தழைக்க` opening | — | `needs-review` | title clear; date `13.4.73`; Chennai Radio New Year poetry event |
+| 246 | continuation | 229 | `needs-review` | New Year / radio / Tamil-poetry movement |
+| 247 | `அன்பால்` movement | 230 | `needs-review` | love / mother-love story begins |
+| 248 | `அன்பால்` closes; `அறநெறியால்` begins | 231 | `needs-review` | mother-love / charity / ethics movement; one phrase conservative |
+| 249 | `அறநெறியால்`; `கல்வியால்`; `உழவால்` | 232 | `needs-review` | social justice / education / agriculture movements |
+| 250 | `தொழிலால்`; `கலைப்பெருக்கால்` | 233 | `needs-review` | industry / art movement; item remains open |
+
 ## Printed-page evidence rule
 
 Only a numeral visibly printed on the source is entered as `printed_page`. Apparent body pagination is navigation assistance only; Phase 1 does not infer missing numerals.
 
 ## Phase-1 inventory
 
-Page records: `pages/0001.md` through `pages/0225.md`.
+Page records: `pages/0001.md` through `pages/0250.md`.
 
 Current cumulative status:
 
-- records created: **225/465**;
+- records created: **250/465**;
 - `partial`: **10**;
-- `needs-review`: **215**;
+- `needs-review`: **240**;
 - `verified`: **0**.
 
 ## Exact next activity
 
-Phase 1 Batch 10: transcribe physical scans **226–250** into `pages/0226.md` through `pages/0250.md`, continuing directly from `வெள்ளி விழா`.
+Phase 1 Batch 11: transcribe physical scans **251–275** into `pages/0251.md` through `pages/0275.md`, continuing directly from `வையம் தழைக்க`.
 
 Do not begin Phase 2 in the same activity.
