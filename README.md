@@ -23,10 +23,30 @@ See `TRANSCRIPTION_PHASE_PLAN.md` and `POEM_PROCESSING_GUIDE.md`.
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — new source intake registered; 150-scan partial source tranche; Phase 1 batch 01 scans 1–25 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English Phase 4 COMPLETE — RELEASE-CLEARED; 58/58 items; 58/58 standalone English files** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused; resume only by explicit user scope** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil source COMPLETE; English translation RELEASE-COMPLETE** |
 | அணையா விளக்கு அண்ணா | மு. கருணாநிதி | **Existing separate work; consult its live work README before resuming** |
+
+## கலைஞரின் கவிதைகள் — active source
+
+Work directory: `poems/kalaignarin-kavithaigal/`
+
+Controlling source currently supplied: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`.
+
+- physical scans available: **150**;
+- file size: **486,369,088 bytes**;
+- source checksum: **pending exact-byte computation**;
+- printed source: **கலைஞரின் கவிதைகள்**, **கலைஞர் மு. கருணாநிதி**;
+- publisher: **பாரதி பதிப்பகம்**;
+- edition: **fourth edition, March 1995**;
+- Phase 1 page records: **0/150**;
+- exact next activity: **Phase 1 scans 1–25**.
+
+Critical completeness boundary: this 150-scan PDF is only a partial scan of the printed edition. Contents scans 15–17 list entries beginning through at least printed page 444, while scan 150 visibly carries printed page 133 and still contains continuing body text. Therefore 150/150 available-scan transcription must never be described as whole-book completion. Continuation source is required before whole-book Tamil final clearance.
+
+The anthology also contains works already represented by other controlling sources in this repository, including `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`. Those existing texts are not transcription authority for this edition witness and must not be copied into the new work.
 
 ## காலப் பேழையும் கவிதைச் சாவியும் — final state
 
