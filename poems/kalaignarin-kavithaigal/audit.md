@@ -2,29 +2,27 @@
 
 ## Current state
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–06, scans 1–150 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — batches 01–06, scans 1–150 recorded out of 465 physical PDF pages.**
 
 - controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
+- physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
-- actual PDF extent: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
-- current ChatGPT Files renderer exposes page images **1–150 only**; this is a renderer-access limit, not the PDF length;
-- SHA-256: **pending exact-byte computation**;
-- Phase 1 page records: **150**;
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
+- Phase 1 page records: **150/465**;
 - cumulative Phase 1 status: **10 `partial`, 140 `needs-review`, 0 `verified`**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-## Source-extent correction
+## Source-extent correction and resolution
 
-An earlier repository state incorrectly interpreted the renderer's 150-page exposure as the supplied PDF's full physical length. The user corrected this: the PDF itself contains **more than 450 pages**.
+Earlier status incorrectly interpreted the Files renderer's 150-page exposure as the PDF's actual physical page count. The user corrected this. Direct inspection of the exact mounted source bytes now confirms:
 
-Therefore:
+- **465 physical pages**;
+- **486,369,088 bytes**;
+- SHA-256 recorded above.
 
-- scans 1–150 are only the portion presently exposed to the page-image interface;
-- scan 150 is **not** the end of the supplied PDF;
-- scans 151 onward remain part of the same controlling source;
-- the exact total must be read from full-file metadata when a capable interface becomes available.
+Direct rendering from the same PDF also confirms physical scan **151** exists, visibly prints page **134**, and continues the open source movement from scan 150. There is therefore no source boundary at scan 150.
 
 ## Phase 1 batch history
 
@@ -37,17 +35,17 @@ Therefore:
 
 ## Phase 1 batch 06 — scans 126–150
 
-Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED; RENDERER BOUNDARY NOT MISLABELLED AS SOURCE END.**
+Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED.**
 
 Created:
 
 - `pages/0126.md` through `pages/0150.md`;
-- `அருமறையில் அறுவர்` continues from scan 125 and closes on scan **127** / printed page **110**, followed by a decorative illustration;
-- `புதிய பாதை` opens on scan **128** with visible date **13.8.1968**, continues through scan **137** / printed page **120**, and closes with `வணக்கம் / வாழ்க` plus a decorative illustration;
-- `உடைமைகள் பத்து` opens on scan **138** with visible date **16.9.68**, continues through scan **143** / printed page **126**, and closes with `வணக்கம் / வாழ்க` plus a parenthetical participant/topic note;
-- `நீர்க் குடும்பம்` opens on scan **144** with visible date **28.9.68** and continues through scan **150** / printed page **133**;
-- scan **150** ends mid-item after the chair introduces the next `மழை` movement; the item explicitly remains open into scan **151**;
-- scans **128**, **138** and **144** do not receive inferred printed-page numbers because their numerals are not positively visible in the rendered source view.
+- `அருமறையில் அறுவர்` closes on scan **127** / printed page **110**;
+- `புதிய பாதை` opens scan **128** with date **13.8.1968**, closes scan **137** / printed page **120**;
+- `உடைமைகள் பத்து` opens scan **138** with date **16.9.68**, closes scan **143** / printed page **126**;
+- `நீர்க் குடும்பம்` opens scan **144** with date **28.9.68** and continues beyond scan **150**;
+- scan **150** / printed page **133** ends mid-item after the chair introduces the next `மழை` movement;
+- scan **151** / printed page **134** has been source-access checked and continues that same item, but its page record belongs to Batch 07 and has not been created in Batch 06.
 
 Batch-06 status:
 
@@ -55,15 +53,11 @@ Batch-06 status:
 - `needs-review`: **25**;
 - `verified`: **0**.
 
-Pages needing Phase-2 attention from Batch 06:
-
-`0126`–`0150`.
+Pages needing Phase-2 attention from Batch 06: `0126`–`0150`.
 
 ## Blur / uncertainty control
 
-The user's warning about blurred text remains a controlling rule:
-
-- `⟦…⟧` is an editorial first-pass uncertainty marker, not source punctuation;
+- `⟦…⟧` is an editorial Phase-1 uncertainty marker, not source punctuation;
 - only confidently legible wording is transcribed;
 - blur is not reconstructed from OCR, grammar, metre, memory, historical expectation or another edition;
 - overlapping standalone witnesses are not copied into this anthology;
@@ -74,18 +68,8 @@ The user's warning about blurred text remains a controlling rule:
 
 The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and was not reintroduced through this anthology transcription.
 
-## Open metadata / tooling items
-
-- exact PDF physical-page count: **>450 user-confirmed; exact integer pending**;
-- SHA-256: **pending exact-byte computation**;
-- direct page-image access beyond scan 150: **not presently exposed by the Files renderer in this session**.
-
 ## Exact next activity
 
-**Continue Phase 1 from physical scan 151 onward from this same PDF.**
+Execute **Phase 1 Batch 07 — physical scans 151–175** from the same 465-page controlling PDF, creating `pages/0151.md` through `pages/0175.md` and continuing directly from `நீர்க் குடும்பம்`.
 
-Do **not** begin Phase 2 merely because scans 1–150 are recorded. The source continues beyond scan 150.
-
-When scan images beyond 150 become accessible, begin **Phase 1 Batch 07 — scans 151–175** (or the largest contiguous accessible range up to that boundary), continuing directly from the unfinished `நீர்க் குடும்பம்` item.
-
-Do not invent page content or use another edition to bridge the present renderer-access gap.
+Do not begin Phase 2 in the same activity.
