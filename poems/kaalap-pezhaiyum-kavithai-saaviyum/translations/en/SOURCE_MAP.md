@@ -143,8 +143,9 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 49 contains source-internal succession wording that must not be silently reconciled, plus northern/Eelam/Ganga/Kadaram campaign chains and the `Mannaik Kadakkam / Mannai Konda Cholan` word relationship;
 - item 50 contains a spacing/punctuation title discrepancy, the Agavamallan envoy-humiliation episode, Kalaignar's explicit `கறை` condemnation, Koppam battle, onomatopoeic combat sequence, battlefield coronation and Jain ascetic's human-cost question;
 - item 51 contains the Koppam aftermath, Chalukya-Chola marriage genealogy, anti-*shastra* polemic, Kulothunga title/date list, *Kalingattu Parani*, Lanka-retreat and Leiden copper-plate claims;
-- item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
-- item 54 includes a concluding `குறிப்பு:` with Sangam poem references;
+- item 52 opens with two earlier Kalaignar poem excerpts, moves through Sangam-source uncertainty, the advance-warning war custom and Golden-Handed Pandyan narrative, then closes by returning to *Tolkappiyam* and the Pandya-history series;
+- item 53 contains extensive king/queen dialogue, Middle Sangam poet inventory, Kavatapuram sea-deluge sequence, Adiyarkku Nallar forty-nine-country passage and the scan-270 `குறிப்பு:` block as part of the canonical item;
+- item 54 contains the autobiographical/political Nedunchezhiyan preface, a joined-form canonical title distinct from the contents witness, multiple attributed Sangam-poet layers, battlefield imagery, *Maduraikanchi* anti-war movement, *Nedunalvadai* close and concluding `குறிப்பு:` with exact Sangam poem references;
 - item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`;
 - item 58 includes the collection closing `(முதல் பாகம் முற்றிற்று)` and ends immediately before separate scan-300 `குறிப்புகள்` end matter.
 
@@ -191,19 +192,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 18 / item 51 / scan 256**.
+Reviewed through **Batch 19 / item 54 / scan 276**.
 
-- batches reviewed: **18/21**;
-- items translated and reviewed: **51/58**;
-- numbered-item scans covered: **247/290**;
+- batches reviewed: **19/21**;
+- items translated and reviewed: **54/58**;
+- numbered-item scans covered: **267/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 19 — items 52–54**:
+Translate and review **Batch 20 — items 55–57**:
 
-- item 52 `படையெடுப்பை முன்கூட்டியே அறிவிக்கும் பண்பாடு!` — scans **257–262**;
-- item 53 `கடற்கோளில் தப்பிய தமிழ்; கடைச் சங்கம் கண்டது!` — scans **263–270**;
-- item 54 `தலையாலங்கானத்துச் செருவென்றான்!` — scans **271–276**.
+- item 55 `நெடுஞ்செழியனும் நெடுநல்வாடையும்!` — scans **277–284**;
+- item 56 `பற்று கடந்தால், பற்றி எரியும் வெறியே!` — scans **285–288**;
+- item 57 `உவமை அழகுக்கு உரிய பரிசு என்னவாம்!` — scans **289–295**.
 
-Item 53 includes the scan-270 `குறிப்பு:` block as part of the canonical item. Item 54 is a documented title-witness discrepancy: use canonical/title-page witness `தலையாலங்கானத்துச் செருவென்றான்!` for the displayed English title and retain contents witness `தலையாலங்கானத்துச் செரு வென்றான்!` separately. Item 54 also includes a concluding `குறிப்பு:` with Sangam poem references. Create `batches/batch-19.md`, preserving item boundaries and scan provenance. Stop after item 54; do not begin item 55.
+Item 55 includes a concluding parenthetical source note based on `நெடுநல்வாடை`; preserve it as part of the item. Create `batches/batch-20.md`, preserving item boundaries and scan provenance. Stop after item 57; do not begin item 58.
