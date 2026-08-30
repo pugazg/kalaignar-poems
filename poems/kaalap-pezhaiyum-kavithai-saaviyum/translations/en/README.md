@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review COMPLETE — PASS; standalone per-poem English files COMPLETE — 58/58; source-coverage/release review NEXT**
+Status: **PHASE 4 COMPLETE — ENGLISH RELEASE CLEARED — PASS; 58/58 items; 290/290 numbered-item scans; 58/58 standalone per-poem files**
 
 ## Scope and source authority
 
@@ -133,13 +133,9 @@ Phase 4 proceeds in this order:
 2. translate and review Batches **01–21** — **COMPLETE; 21/21 reviewed PASS**;
 3. assemble the complete English collection from reviewed batches only — **COMPLETE; 58/58 items assembled exactly once and in order**;
 4. perform full-work editorial/terminology/voice consistency review — **COMPLETE — PASS**;
-5. perform source-coverage/release review — **NEXT**;
-6. mark English release complete only if all gates pass.
+5. perform source-coverage/release review — **COMPLETE — PASS**;
+6. mark English release complete only if all gates pass — **COMPLETE — RELEASE-CLEARED**.
 
-## Exact next activity
+## Completion boundary
 
-Perform the final **source-coverage / release review** of `kaalap-pezhaiyum-kavithai-saaviyum-en.md` against the reviewed batches and `SOURCE_MAP.md`.
-
-Verify complete items **1–58** / scans **10–299**, title-witness traceability, all required source-visible notes/quotations/separators, absence of batch/editorial apparatus, synchronization of the editorial corrections recorded in `EDITORIAL_CONSISTENCY_REVIEW.md`, protection of the Tamil canonical/page layer, and the verified item-58 stop before scan-300 end matter.
-
-Create `RELEASE_REPORT.md` only if this final release gate passes.
+The final source-coverage/release gate is **COMPLETE — PASS**. See `RELEASE_REPORT.md`. No further Phase-4 English release activity remains for this numbered first-part collection.

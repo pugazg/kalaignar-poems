@@ -211,10 +211,8 @@ Reviewed through **Batch 21 / item 58 / scan 299**.
 - standalone per-poem English distribution: **COMPLETE — 58/58 item files indexed under `items/`**.
 - full-work editorial consistency review: **COMPLETE — PASS**; unresolved editorial issues: **0**.
 
-## Exact next activity
+## Completion boundary
 
-Perform the final **source-coverage / release review** of `kaalap-pezhaiyum-kavithai-saaviyum-en.md` against this source map and the reviewed batch records.
+Final source-coverage/release review: **COMPLETE — PASS**. See `RELEASE_REPORT.md`. All 58 items, scans 10–299, reviewed batches, assembled collection and standalone files are release-cleared and synchronized.
 
-Confirm complete items **1–58** / scans **10–299**, all source-sensitive flags and item-internal notes, all 14 title-witness decisions, the absence of batch/editorial apparatus, synchronization with `EDITORIAL_CONSISTENCY_REVIEW.md`, no Tamil-layer modification, and the verified item-58 end before scan-300 material.
-
-Create `RELEASE_REPORT.md` only after this final gate passes.
+- final full-work source-coverage / release review: **COMPLETE — PASS**

@@ -1,6 +1,6 @@
 # Standalone English translations — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **COMPLETE — 58/58 standalone item files generated from the editorial-reviewed English collection**
+Status: **RELEASE-CLEARED — 58/58 standalone item files synchronized with the final English release**
 
 Each file contains one stable numbered item. Its verse/dialogue/source-visible structure is byte-for-byte aligned with the corresponding item body in `../kaalap-pezhaiyum-kavithai-saaviyum-en.md`; the standalone file adds only provenance front matter and an H1 English title.
 
@@ -66,3 +66,5 @@ The final-cleared Tamil canonical/page layer is not modified by this distributio
 | 56 | When Attachment Goes Beyond Its Bounds, It Burns as Frenzy! | [56-when-attachment-goes-beyond-its-bounds-it-burns-as-frenzy-en.md](56-when-attachment-goes-beyond-its-bounds-it-burns-as-frenzy-en.md) | 285–288 |
 | 57 | What Prize Is Fitting for the Beauty of a Simile! | [57-what-prize-is-fitting-for-the-beauty-of-a-simile-en.md](57-what-prize-is-fitting-for-the-beauty-of-a-simile-en.md) | 289–295 |
 | 58 | Beside the Enemy Sword's Edge; Let Us Labour All Our Days! | [58-beside-the-enemy-sword-s-edge-let-us-labour-all-our-days-en.md](58-beside-the-enemy-sword-s-edge-let-us-labour-all-our-days-en.md) | 296–299 |
+
+Release gate: **PASS** — see `../RELEASE_REPORT.md`.

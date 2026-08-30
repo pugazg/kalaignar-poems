@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review COMPLETE — PASS; standalone per-poem English files COMPLETE — 58/58; source-coverage/release review NEXT.**
+**PHASE 4 COMPLETE — English release CLEARED — PASS; 21/21 reviewed batches, 58/58 items, 290/290 scans, complete assembly, editorial review and final release review complete.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -173,10 +173,6 @@ With all 21 batches reviewed:
 6. run complete source-coverage / final release review — **NEXT**;
 7. create `RELEASE_REPORT.md` only if all release gates pass.
 
-## Exact next activity
+## Completion boundary
 
-Perform the final **source-coverage / release review** of the complete assembled English work.
-
-Use the reviewed batches, `SOURCE_MAP.md` and `EDITORIAL_CONSISTENCY_REVIEW.md` to verify items **1–58**, scans **10–299**, title-witness traceability, item-internal notes and source-visible structure, final English/batch synchronization, and the scan-299 closing boundary. Do not alter the Tamil canonical/page layer and do not use outside knowledge to repair source claims.
-
-Create `RELEASE_REPORT.md` only if every final release check passes.
+Final source-coverage/release review: **COMPLETE — PASS**. Durable record: `RELEASE_REPORT.md`. Phase 4 is complete.

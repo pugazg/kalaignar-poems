@@ -181,3 +181,7 @@ The next gate must confirm, at minimum:
 - the final item-58 / scan-299 boundary is intact and scan-300 end matter remains excluded.
 
 Create `RELEASE_REPORT.md` only if that final release gate passes.
+
+## Subsequent release outcome
+
+The final source-coverage/release review subsequently completed **PASS**. See `RELEASE_REPORT.md`. The editorial-reviewed reader-facing SHA-256 remained unchanged through that final gate.
