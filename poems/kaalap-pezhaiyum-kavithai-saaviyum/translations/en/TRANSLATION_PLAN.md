@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review COMPLETE — PASS; source-coverage/release review NEXT.**
+**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review COMPLETE — PASS; standalone per-poem English files COMPLETE — 58/58; source-coverage/release review NEXT.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -154,6 +154,12 @@ Batches **01–21** are reviewed PASS. Their batch files are the durable transla
 - Batch 19 covers items **52–54**, scans **257–276**. It preserves Item 52's 1945/Pandya-history preface, two earlier poem excerpts, Sangam-source uncertainty, advance-warning war custom, Golden-Handed Pandyan narrative and *Tolkappiyam* transition; Item 53's full Pandyan/Tamil-Queen dialogue, Middle Sangam poet list, Kavatapuram sea-deluge sequence, Adiyarkku Nallar forty-nine-country layer, Tamil Queen/Tamil survival contrast and complete scan-270 note; and Item 54's joined-form canonical title, autobiographical Nedunchezhiyan preface, seven-opponent battle chain, attributed Sangam-poet voices, battlefield imagery, *Maduraikanchi* anti-war turn, *Nedunalvadai* close and complete scan-276 Sangam-reference note without outside reconciliation.
 - Batch 20 covers items **55–57**, scans **277–295**. It preserves Item 55's *agam/puram* and *Nedunalvadai* framework, cold-wind/queen and palace-bed imagery, `அணை` wordplay, midnight wounded-warrior circuit and concluding parenthetical note; Item 56's Sangam-count claims, Mudathirumaran and Mudukudumi/Palyagasalai material, Vedic/Aryan polemic, Nettimaiyar war critique and Madivanan dramatic-Tamil close; and Item 57's war-category terminology, erotic dialogue, Kaanapper fortress/siege sequence, victory narrative and Aiyur Moolankizhar's forge-water simile.
 - Batch 21 covers item **58**, scans **296–299**. It preserves the final title discrepancy, Kulothunga/China and administrative claims, Chola-decline/Pandyan-resurgence argument, Rajaraja III–Sundara Pandyan self-respect rhetoric, Tamil-unity appeal, enemy-sword conclusion and the printed `(முதல் பாகம் முற்றிற்று)` close. Scan-300 end matter remains outside item 58.
+
+## Standalone per-poem English files
+
+Status: **COMPLETE — 58/58**
+
+The editorial-reviewed complete collection has been split into 58 stable standalone English item files under `items/`, indexed by `items/README.md`. Each standalone translated body remains byte-for-byte aligned with the corresponding reader-facing item body; only standalone provenance front matter and the H1 title are added.
 
 ## Post-batch full-work gates
 

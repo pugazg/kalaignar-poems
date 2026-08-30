@@ -192,6 +192,12 @@ Before a batch received `reviewed — PASS`:
 - Kalaignar's repetition, direct address, satire, rhetorical questions, political/historical specificity and argumentative movement had to remain visible;
 - no translation choice could silently rewrite Tamil.
 
+## Standalone per-poem English files
+
+Status: **COMPLETE — 58/58**
+
+Every stable item now has a standalone English distribution file under `items/`; see `items/README.md` for the item/title/scan/file index. The standalone translated body is derived directly from the editorial-reviewed assembled item and is not an independent retranslation.
+
 ## Progress
 
 Reviewed through **Batch 21 / item 58 / scan 299**.
@@ -202,6 +208,7 @@ Reviewed through **Batch 21 / item 58 / scan 299**.
 - unresolved reviewed-batch issues: **0**;
 - Tamil canonical/page files modified during translation: **0**.
 - reader-facing collection assembly: **COMPLETE — 58/58 items exactly once and in order**.
+- standalone per-poem English distribution: **COMPLETE — 58/58 item files indexed under `items/`**.
 - full-work editorial consistency review: **COMPLETE — PASS**; unresolved editorial issues: **0**.
 
 ## Exact next activity

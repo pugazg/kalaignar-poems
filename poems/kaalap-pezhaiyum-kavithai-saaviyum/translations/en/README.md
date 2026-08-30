@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review COMPLETE — PASS; source-coverage/release review NEXT**
+Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review COMPLETE — PASS; standalone per-poem English files COMPLETE — 58/58; source-coverage/release review NEXT**
 
 ## Scope and source authority
 
@@ -116,6 +116,14 @@ Only reviewed batches entered the complete English collection assembly. The read
 - **Batch 19:** items 52–54, scans 257–276 — reviewed PASS. Item 52 preserves the 1945 autobiographical/Pandya-history appeal, two earlier poem excerpts, Sangam-source uncertainty, Mudukudumi Peruvazhuthi advance-warning war custom, Golden-Handed Pandyan narrative and *Tolkappiyam* transition; Item 53 preserves the complete Pandyan/Tamil-Queen dialogue, Middle Sangam poet list, Kavatapuram sea-deluge sequence, Adiyarkku Nallar forty-nine-country passage, Tamil Queen/Tamil survival contrast and full scan-270 note; Item 54 preserves the canonical joined-form title witness, autobiographical Nedunchezhiyan preface, seven-opponent battle sequence, attributed Sangam-poet voices, battlefield imagery, *Maduraikanchi* anti-war turn, *Nedunalvadai* close and full scan-276 Sangam-reference note without outside reconciliation.
 - **Batch 20:** items 55–57, scans 277–295 — reviewed PASS. Item 55 preserves the *agam/puram* and *Nedunalvadai* frame, queen/cold-wind and palace-bed imagery, `அணை` wordplay, wounded-warrior camp circuit and concluding parenthetical source note; Item 56 preserves the Sangam-count claims, Mudathirumaran explanation, Mudukudumi/Palyagasalai and Vedic/Aryan polemic, Nettimaiyar war-destruction critique and Madivanan dramatic-Tamil close; Item 57 preserves the *uzhinjai/nochchi/thumbai/vaagai* terminology, erotic dialogue, Kaanapper fortress/siege architecture, victory narrative and Aiyur Moolankizhar's forge-water simile.
 - **Batch 21:** item 58, scans 296–299 — reviewed PASS. It preserves the canonical `பகைவாள்` title witness separately from contents `பகை வாள்`, the Kulothunga/China and administrative claims, Chola decline/Pandyan resurgence sequence, Rajaraja III–Sundara Pandyan self-respect rhetoric, unity appeal, enemy-sword close and printed `(முதல் பாகம் முற்றிற்று)` boundary. Separate scan-300 end matter is not imported into the numbered-poem translation.
+
+## Standalone per-poem English files
+
+Status: **COMPLETE — 58/58**
+
+For convenient poem-by-poem reading and reuse, every stable item now also has a separate English file under `items/`. The index is `items/README.md`.
+
+Each standalone file includes provenance front matter plus an English H1 title. The actual translated poem/dialogue body is copied byte-for-byte from the already editorial-reviewed corresponding item in `kaalap-pezhaiyum-kavithai-saaviyum-en.md`; no retranslation or Tamil-source change occurs in this split.
 
 ## Release gates
 
