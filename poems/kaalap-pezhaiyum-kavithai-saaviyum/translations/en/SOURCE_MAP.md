@@ -131,6 +131,9 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 37 contains both the printed-number anomaly and title-witness discrepancy, extended dialogue, a wrestling narrative, *Purananuru* 82 and Kalaignar's separate explanation of its cot-weaver simile; retain all layers under stable item identity 37;
 - item 38 is structured as a sequence of attributed poet voices around Killivalavan, including the Karur counsel, agricultural/plough-front argument, Pannan episode and Aiyur Mudavanar's burial-urn elegy; keep attribution and sequence visible;
 - item 39 closes with the Paranjothi/Vatapi Ganapati source argument and a distinct *Periya Puranam* quotation; do not use outside history to reconcile the Kanchi, traveller, inscription or Vatapi claims inside the translation;
+- item 40 has a title-witness punctuation discrepancy and a long Manavarman–Narasimhavarman friendship/restoration narrative with two expeditions to Lanka and the king's concealed departure from the ship; retain every movement and the concluding letter;
+- item 41 is an evidence-driven polemic about Kanchi as Pallava capital, preserving Professor Anbazhagan's retort, the site list, *Matta Vilasam*/Appar material, `சித்திர காரப் புலி` inscription and Tirukazhukundram close as distinct evidentiary moves;
+- item 42 contains two linked battle movements, a star separator, hostile and Pallava charter perspectives, the united-mice/tigers analogy, repeated `ஓடினான் ; ஓடினான்`, and two closing parenthetical source blocks; keep all layers structurally visible;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
 - item 53 includes the scan-270 `குறிப்பு:` block as part of the item;
 - item 54 includes a concluding `குறிப்பு:` with Sangam poem references;
@@ -180,19 +183,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 14 / item 39 / scan 194**.
+Reviewed through **Batch 15 / item 42 / scan 206**.
 
-- batches reviewed: **14/21**;
-- items translated and reviewed: **39/58**;
-- numbered-item scans covered: **185/290**;
+- batches reviewed: **15/21**;
+- items translated and reviewed: **42/58**;
+- numbered-item scans covered: **197/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 15 — items 40–42**:
+Translate and review **Batch 16 — items 43–45**:
 
-- item 40 `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` — scans **195–199**;
-- item 41 `பாதுகாப்போம்; பல்லவர் தலைநகரம்!` — scans **200–203**;
-- item 42 `பட்டயங்கள், பறைசாற்றுகின்றன!` — scans **204–206**.
+- item 43 `திராவிட இனத்தின் தமிழர் மரபு!` — scans **207–210**;
+- item 44 `இரும்புத் தூணும் ஈக்களின் இறகும்!` — scans **211–215**;
+- item 45 `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` — scans **216–219**.
 
-Item 40 is a documented title-witness discrepancy: use canonical/title-page witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` for the displayed English title and retain contents witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` separately. Create `batches/batch-15.md`, preserving item boundaries and scan provenance. Stop after item 42; do not begin item 43.
+Item 44 is a documented title-witness discrepancy: use canonical/title-page witness `இரும்புத் தூணும் ஈக்களின் இறகும்!` for the displayed English title and retain contents witness `இரும்புத் தூணும், ஈக்களின் இறகும்!` separately. Create `batches/batch-16.md`, preserving item boundaries and scan provenance. Stop after item 45; do not begin item 46.
