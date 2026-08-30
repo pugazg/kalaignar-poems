@@ -116,6 +116,7 @@ Item 37 additionally preserves `printed_item_number: 36`; this must never alter 
 The translator must inspect the complete canonical item rather than infer content from the title. Particular structural/source features already established by Phase 3 include:
 
 - item 14 contains extended dramatic dialogue and scene structure;
+- item 21 includes a concluding `குறிப்பு:` block as part of the item;
 - item 32 contains quoted Sangam verse followed by source explanation and has a substantively different title-page witness;
 - item 37 contains a printed-number anomaly and extended narrative/dialogue movement;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
@@ -167,19 +168,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 07 / item 18 / scan 98**.
+Reviewed through **Batch 08 / item 21 / scan 111**.
 
-- batches reviewed: **7/21**;
-- items translated and reviewed: **18/58**;
-- numbered-item scans covered: **89/290**;
+- batches reviewed: **8/21**;
+- items translated and reviewed: **21/58**;
+- numbered-item scans covered: **102/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 08 — items 19–21**:
+Translate and review **Batch 09 — items 22–24**:
 
-- item 19 `வருந்தத்தக்க வரலாற்று நிகழ்ச்சி!` — scans **99–102**;
-- item 20 `வீழினும் அவன் வெற்றித் திருமகனே!` — scans **103–106**;
-- item 21 `பண்பாட்டுக்கு ஊனம் எனில் பார்க்கவும் விரும்பார்!` — scans **107–111**.
+- item 22 `“பிறகேன் வினா? என்பதே என் வினா!”` — scans **112–116**;
+- item 23 `பெண்ணியத்தின் திண்மை கூறும் குண்டலகேசி!` — scans **117–119**;
+- item 24 `ஈராயிரம் ஆண்டின் முன்னே இந்தத் தமிழ் நிலம்!` — scans **120–123**.
 
-Create `batches/batch-08.md`, preserving item boundaries and scan provenance. Stop after item 21; do not begin item 22.
+Item 22 is a documented title-witness discrepancy: displayed English title from the canonical/title-page witness, while contents witness `பிறகேன் வினா? என்பதே என் வினா!` remains separately traceable. Create `batches/batch-09.md`, preserving item boundaries and scan provenance. Stop after item 24.
