@@ -118,6 +118,8 @@ The translator must inspect the complete canonical item rather than infer conten
 - item 14 contains extended dramatic dialogue and scene structure;
 - item 21 includes a concluding `குறிப்பு:` block as part of the item;
 - item 24 includes a concluding star separator followed by a six-entry glossary that belongs to the item;
+- item 25 contains a concluding `குறிப்பு:` after a *Silappathikaram* quotation and preserves the Adiyarkku Nallar/U. Ve. Swaminatha Iyer attribution;
+- item 26 contains multiple star separators and a complete women-poet name list that must remain in source order;
 - item 32 contains quoted Sangam verse followed by source explanation and has a substantively different title-page witness;
 - item 37 contains a printed-number anomaly and extended narrative/dialogue movement;
 - item 47 is a long multi-scan historical/rhetorical item; preserve its indentation and accumulative structure;
@@ -169,19 +171,19 @@ Before a batch receives `reviewed — PASS`:
 
 ## Progress
 
-Reviewed through **Batch 09 / item 24 / scan 123**.
+Reviewed through **Batch 10 / item 27 / scan 135**.
 
-- batches reviewed: **9/21**;
-- items translated and reviewed: **24/58**;
-- numbered-item scans covered: **114/290**;
+- batches reviewed: **10/21**;
+- items translated and reviewed: **27/58**;
+- numbered-item scans covered: **126/290**;
 - unresolved reviewed-batch issues: **0**.
 
 ## Exact next activity
 
-Translate and review **Batch 10 — items 25–27**:
+Translate and review **Batch 11 — items 28–30**:
 
-- item 25 `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` — scans **124–127**;
-- item 26 `விழித்தெழுக; இதோ செம்மொழி விடியல்!` — scans **128–131**;
-- item 27 `வழிகாட்டும் வண்ணம்; திறக்கப்படுவது திண்ணம்!` — scans **132–135**.
+- item 28 `பார் முழுதும் பரவிய பழம்பெரும் நாகரிகம்!` — scans **136–139**;
+- item 29 `தாயே தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` — scans **140–144**;
+- item 30 `ஆற்றலின் அளவுகோல்; அவன் செங்கோல்!` — scans **145–147**.
 
-Items 25 and 26 are documented title-witness discrepancies. Item 25's canonical/title-page witness has no final exclamation mark while the contents witness does; Item 26's contents witness contains a comma after `இதோ` that the canonical/title-page witness omits. Preserve those witnesses separately. Create `batches/batch-10.md`, preserving item boundaries and scan provenance. Stop after item 27.
+Item 29 is a documented title-witness discrepancy: displayed English title from the canonical/title-page witness, while contents witness `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` remains separately traceable. Create `batches/batch-11.md`, preserving item boundaries and scan provenance. Stop after item 30.
