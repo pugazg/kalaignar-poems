@@ -20,7 +20,7 @@ Before changing this repository in a fresh chat:
 3. read `TRANSCRIPTION_PHASE_PLAN.md` completely;
 4. read root `README.md` and `NEXT_CHAT_PROMPT.md` completely;
 5. read the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md` completely;
-6. inspect the current boundary page record(s), especially `pages/0250.md`, before creating the next record;
+6. inspect the current boundary page record(s), especially `pages/0275.md`, before creating the next record;
 7. use the controlling PDF directly whenever transcription/verification requires source evidence;
 8. never commit the source PDF;
 9. when status-bearing files disagree, resolve from the newest live work-level evidence and the controlling source, then synchronize stale records;
@@ -48,7 +48,7 @@ These values were established from the exact supplied PDF bytes and are durable:
 
 ### Critical renderer warning
 
-An earlier chat/file renderer exposed only pages 1–150 and reported `total_pages: 150`. That was **not** the PDF's actual length. Exact-byte inspection established **465 physical pages**, and direct rendering from the same PDF has now been used through scan **250**.
+An earlier chat/file renderer exposed only pages 1–150 and reported `total_pages: 150`. That was **not** the PDF's actual length. Exact-byte inspection established **465 physical pages**, and direct rendering from the same PDF has now been used through scan **275**.
 
 Therefore:
 
@@ -59,11 +59,11 @@ Therefore:
 
 ## Durable Phase-1 state at handoff
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–250 / 465 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–275 / 465 recorded.**
 
-- Phase 1 page records: **250/465**;
-- files created: `pages/0001.md` through `pages/0250.md`;
-- cumulative status: **10 `partial`, 240 `needs-review`, 0 `verified`**;
+- Phase 1 page records: **275/465**;
+- files created: `pages/0001.md` through `pages/0275.md`;
+- cumulative status: **10 `partial`, 265 `needs-review`, 0 `verified`**;
 - Phase 2 source-critical verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation/release: **blocked until Tamil final clearance**.
@@ -79,7 +79,8 @@ Completed Phase-1 batches:
 - Batch 07 — scans **151–175**;
 - Batch 08 — scans **176–200**;
 - Batch 09 — scans **201–225**;
-- Batch 10 — scans **226–250**.
+- Batch 10 — scans **226–250**;
+- Batch 11 — scans **251–275**.
 
 ## Durable source/item boundaries established so far
 
@@ -110,7 +111,11 @@ Completed Phase-1 batches:
 - `அண்ணன் இருக்கின்றார்` — scans **227–229**, closes scan 229 / printed page 212;
 - `அண்ணன் ஒரு கவியரங்கம்` — scans **230–236 + 238**, closes scan 238 / printed page 221; scan 237 is physically interposed as the next-item title leaf;
 - `தமிழ் வளர வழிநடைப் பயணம்` — title leaf **237**, body **239–244**, closes scan 244 / printed page 227;
-- `வையம் தழைக்க` — opens scan **245** and continues beyond scan **250**.
+- `வையம் தழைக்க` — scans **245–253**, closes scan 253 / printed page 236;
+- `தந்தை பெரியார்` — scans **254–260**, closes scan 260 / printed page 243;
+- `அகத்துறைப் படைப்புகள்` — scans **261–266**, closes scan 266 / printed page 249;
+- `பொங்கல் விழா` — scans **267–272**, closes scan 272 / printed page 255;
+- `சிலப்பதிகார விருந்து` — opens scan **273** and continues beyond scan **275 / printed page 258**.
 
 Boundary evidence from Batch 08:
 
@@ -128,6 +133,24 @@ Boundary evidence from Batch 09:
 - scan **216** visibly prints page **199** and opens `நன்றி, நன்றி!`, dated **1.8.71**; scan **217** / printed page **200** closes it;
 - scan **218** visibly opens `வெள்ளி விழா`, dated **15.8.72**; no printed page numeral is positively visible on that opening scan;
 - scan **225** visibly prints page **208** and ends mid-item; `வெள்ளி விழா` continues beyond the current boundary.
+
+Boundary evidence from Batch 10:
+
+- scan **226** visibly prints page **209** and closes `வெள்ளி விழா`;
+- scan **227** opens `அண்ணன் இருக்கின்றார்`, dated **2.9.1972**, and scan **229 / printed page 212** closes it;
+- scan **237** is the title leaf for `தமிழ் வளர வழிநடைப் பயணம்`, dated **12.4.73**, physically interposed before scan **238**, which resumes and closes `அண்ணன் ஒரு கவியரங்கம்`;
+- scan **244 / printed page 227** closes `தமிழ் வளர வழிநடைப் பயணம்`;
+- scan **245** opens `வையம் தழைக்க`, dated **13.4.73**; scan **250 / printed page 233** ends mid-item.
+
+Boundary evidence from Batch 11:
+
+- scan **253** visibly prints page **236** and closes `வையம் தழைக்க` with `வணக்கம்.`;
+- scan **254** opens `தந்தை பெரியார்`, dated **11.1.74**; no printed page numeral is positively visible on that opening scan;
+- scan **260** visibly prints page **243** and closes `தந்தை பெரியார்` before a decorative illustration;
+- scan **261 / printed page 244** opens `அகத்துறைப் படைப்புகள்`, dated **13.7.74**, and scan **266 / printed page 249** closes it;
+- scan **267** opens `பொங்கல் விழா`, dated **14.1.75**; no printed page numeral is positively visible on that opening scan; scan **272 / printed page 255** closes it;
+- scan **273** opens `சிலப்பதிகார விருந்து`, dated **25.4.1975**; no printed page numeral is positively visible on that opening scan;
+- scan **275** visibly prints page **258** and ends mid-item, so `சிலப்பதிகார விருந்து` continues to scan 276.
 
 ## Durable blur / difficult-reading rule
 
@@ -160,25 +183,25 @@ The existing user-directed exclusion applicable to `தென்னவன் க
 
 ## Exact next activity
 
-Execute **Phase 1 Batch 11 — physical scans 251–275**.
+Execute **Phase 1 Batch 12 — physical scans 276–300**.
 
 Create:
 
-`poems/kalaignarin-kavithaigal/pages/0251.md` through `pages/0275.md`
+`poems/kalaignarin-kavithaigal/pages/0276.md` through `pages/0300.md`
 
 Execution requirements:
 
-- continue directly from unfinished `வையம் தழைக்க` at scan 250;
+- continue directly from unfinished `சிலப்பதிகார விருந்து` at scan 275;
 - use the exact same 465-page controlling PDF identified by the SHA-256 above;
-- render/inspect scans 251–275 directly from the source; do not depend on the old 150-page renderer window;
+- render/inspect scans 276–300 directly from the source; do not depend on the old 150-page renderer window;
 - preserve the conservative blur protocol;
 - do not infer item boundaries—record only what the scans establish;
 - do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.
 
-At Batch-11 completion:
+At Batch-12 completion:
 
 - update `audit.md` with the new cumulative counts and discovered boundaries;
-- extend `indexes/page-map.md` through scan 275;
+- extend `indexes/page-map.md` through scan 300;
 - update the active work README;
 - synchronize `HANDOVER.md` and `NEXT_CHAT_PROMPT.md` with the exact next 25-page Phase-1 batch;
 - keep exact source metadata stable unless a genuine source-identity correction is discovered.

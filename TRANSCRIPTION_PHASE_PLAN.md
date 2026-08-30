@@ -61,9 +61,9 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Phase-1 state
 
-- page records created: **250/465** — `pages/0001.md` through `pages/0250.md`;
-- cumulative status: **10 `partial`, 240 `needs-review`, 0 `verified`**;
-- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200; 09 scans 201–225; 10 scans 226–250**;
+- page records created: **275/465** — `pages/0001.md` through `pages/0275.md`;
+- cumulative status: **10 `partial`, 265 `needs-review`, 0 `verified`**;
+- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200; 09 scans 201–225; 10 scans 226–250; 11 scans 251–275**;
 - `நீர்க் குடும்பம்` closes scan **154** / printed page **137**;
 - `பாரதிதாசன்` spans scans **155–169**;
 - `பாரதியார்` spans scans **170–174**;
@@ -76,7 +76,11 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 - `அண்ணன் இருக்கின்றார்` spans scans **227–229**;
 - `அண்ணன் ஒரு கவியரங்கம்` spans scans **230–236 + 238**, with scan **237** physically interposed as the next item’s title leaf;
 - `தமிழ் வளர வழிநடைப் பயணம்` has title leaf scan **237**, body scans **239–244**, and closes scan **244**;
-- current item: `வையம் தழைக்க`, opened scan **245** and continuing beyond scan **250**;
+- `வையம் தழைக்க` closes scan **253** / printed page **236**;
+- `தந்தை பெரியார்` spans scans **254–260**;
+- `அகத்துறைப் படைப்புகள்` spans scans **261–266**;
+- `பொங்கல் விழா` spans scans **267–272**;
+- current item: `சிலப்பதிகார விருந்து`, opened scan **273** and continuing beyond scan **275**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Phase 4: **blocked**.
@@ -91,9 +95,9 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 11 — physical scans 251–275**.
+Execute **Phase 1 Batch 12 — physical scans 276–300**.
 
-Create `pages/0251.md` through `pages/0275.md`, continuing directly from `வையம் தழைக்க`.
+Create `pages/0276.md` through `pages/0300.md`, continuing directly from `சிலப்பதிகார விருந்து`.
 
 Do not begin Phase 2 in the same activity.
 

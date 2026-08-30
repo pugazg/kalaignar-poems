@@ -17,7 +17,7 @@ Live GitHub `main` is authoritative. Source wording, punctuation, lineation, ப
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 250/465; Batch 11 scans 251–275 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 275/465; Batch 12 scans 276–300 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -34,10 +34,10 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - printed source: **கலைஞரின் கவிதைகள்**, **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**;
-- Phase 1 page records: **250/465**;
-- cumulative status: **10 partial, 240 needs-review, 0 verified**;
-- current item: **`வையம் தழைக்க`**, opened scan 245 and continuing beyond scan 250;
-- exact next activity: **Phase 1 Batch 11 — scans 251–275**.
+- Phase 1 page records: **275/465**;
+- cumulative status: **10 partial, 265 needs-review, 0 verified**;
+- current item: **`சிலப்பதிகார விருந்து`**, opened scan 273 and continuing beyond scan 275;
+- exact next activity: **Phase 1 Batch 12 — scans 276–300**.
 
 The earlier 150-page source-length assumption came from a rendering-window limitation and has been withdrawn. Direct source-byte access confirms the full **465-page** PDF.
 

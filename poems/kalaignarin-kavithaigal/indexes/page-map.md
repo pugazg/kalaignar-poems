@@ -12,7 +12,7 @@ An earlier 150-page assumption came from a renderer-window limitation and has be
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–250 created of 465.**
+**PHASE 1 MAP IN PROGRESS — page records 1–275 created of 465.**
 
 This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
@@ -47,7 +47,11 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 227–229 | `அண்ணன் இருக்கின்றார்` | closes 229 |
 | 230–236 + 238 | `அண்ணன் ஒரு கவியரங்கம்` | closes 238; scan 237 is physically interposed next-item title leaf |
 | 237 + 239–244 | `தமிழ் வளர வழிநடைப் பயணம்` | title leaf 237; body 239–244; closes 244 |
-| 245–250 | `வையம் தழைக்க` | open; continues beyond 250 |
+| 245–253 | `வையம் தழைக்க` | closes 253 |
+| 254–260 | `தந்தை பெரியார்` | closes 260 |
+| 261–266 | `அகத்துறைப் படைப்புகள்` | closes 266 |
+| 267–272 | `பொங்கல் விழா` | closes 272 |
+| 273–275 | `சிலப்பதிகார விருந்து` | open; continues beyond 275 |
 
 ## Phase-1 map — scans 126–150
 
@@ -199,23 +203,53 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 | 249 | `அறநெறியால்`; `கல்வியால்`; `உழவால்` | 232 | `needs-review` | social justice / education / agriculture movements |
 | 250 | `தொழிலால்`; `கலைப்பெருக்கால்` | 233 | `needs-review` | industry / art movement; item remains open |
 
+## Phase-1 map — scans 251–275
+
+| Scan | Visible role / section | Visibly printed page | Status | Notes |
+|---:|---|---:|---|---|
+| 251 | `வையம் தழைக்க` continuation | 234 | `needs-review` | art/culture movement; speaker-introduction sequence begins |
+| 252 | speaker introductions | 235 | `needs-review` | `அறநெறியால்`, `கல்வியால்`, `உழவால்`, `தொழிலால்` movements |
+| 253 | `வையம் தழைக்க` conclusion | 236 | `needs-review` | `கலைப்பெருக்கால்`; `முடிவுரை`; `வணக்கம்.`; item closes |
+| 254 | `தந்தை பெரியார்` opening | — | `needs-review` | title clear; date `11.1.74`; Salem event context |
+| 255 | continuation | 238 | `needs-review` | Periyar praise; Bharathidasan quotation |
+| 256 | continuation | 239 | `needs-review` | rationalist / revolutionary portrait |
+| 257 | continuation | 240 | `needs-review` | anti-caste / Vaikom / Cheranmadevi movement |
+| 258 | continuation | 241 | `needs-review` | Justice Party / rationalist-speech movement |
+| 259 | continuation | 242 | `needs-review` | Erode gurukulam / memory of Periyar |
+| 260 | `தந்தை பெரியார்` conclusion | 243 | `needs-review` | final praise; decorative illustration; item closes |
+| 261 | `அகத்துறைப் படைப்புகள்` opening | 244 | `needs-review` | date `13.7.74`; medical-college students’ Muthamizh event |
+| 262 | continuation | 245 | `needs-review` | student / Tamil movement; Bharathidasan greeting begins |
+| 263 | continuation | 246 | `needs-review` | Bharathidasan greeting; akam/puram setup |
+| 264 | continuation | 247 | `needs-review` | Tolkappiyam / akam-puram explanation |
+| 265 | continuation | 248 | `needs-review` | akam roles / காதல் movement |
+| 266 | `அகத்துறைப் படைப்புகள்` conclusion | 249 | `needs-review` | discipline / family-planning wordplay; decorative separator; item closes |
+| 267 | `பொங்கல் விழா` opening | — | `needs-review` | title clear; date `14.1.75`; Kalaivanar Arangam context |
+| 268 | continuation | 251 | `needs-review` | Pongal / Tamil agricultural imagery |
+| 269 | continuation | 252 | `needs-review` | grammar / literary heritage; dream setup |
+| 270 | continuation | 253 | `needs-review` | Ettuthokai / Pattuppaattu wordplay |
+| 271 | continuation | 254 | `needs-review` | literature / inner-cleanliness / Periyar setup |
+| 272 | `பொங்கல் விழா` conclusion | 255 | `needs-review` | Periyar / Anna / Pongal; floral separator; item closes |
+| 273 | `சிலப்பதிகார விருந்து` opening | — | `needs-review` | title clear; date `25.4.1975`; Poombuhar Kotrappandal context |
+| 274 | continuation | 257 | `needs-review` | Kaveri / Poombuhar wordplay |
+| 275 | continuation | 258 | `needs-review` | ancient Puhar cityscape; item remains open beyond batch |
+
 ## Printed-page evidence rule
 
 Only a numeral visibly printed on the source is entered as `printed_page`. Apparent body pagination is navigation assistance only; Phase 1 does not infer missing numerals.
 
 ## Phase-1 inventory
 
-Page records: `pages/0001.md` through `pages/0250.md`.
+Page records: `pages/0001.md` through `pages/0275.md`.
 
 Current cumulative status:
 
-- records created: **250/465**;
+- records created: **275/465**;
 - `partial`: **10**;
-- `needs-review`: **240**;
+- `needs-review`: **265**;
 - `verified`: **0**.
 
 ## Exact next activity
 
-Phase 1 Batch 11: transcribe physical scans **251–275** into `pages/0251.md` through `pages/0275.md`, continuing directly from `வையம் தழைக்க`.
+Phase 1 Batch 12: transcribe physical scans **276–300** into `pages/0276.md` through `pages/0300.md`, continuing directly from `சிலப்பதிகார விருந்து`.
 
 Do not begin Phase 2 in the same activity.

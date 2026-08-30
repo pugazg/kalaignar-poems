@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 250/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 275/465 physical pages recorded.**
 
 Controlling source:
 
@@ -21,19 +21,19 @@ Controlling source:
 - fourth edition: **March 1995**;
 - printed contents list works through at least printed page **444**.
 
-An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **250** from that same source.
+An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **275** from that same source.
 
 ## Phase-1 progress
 
 Page records:
 
-`pages/0001.md` through `pages/0250.md`
+`pages/0001.md` through `pages/0275.md`
 
 Current cumulative status:
 
-- page records: **250/465**;
+- page records: **275/465**;
 - `partial`: **10**;
-- `needs-review`: **240**;
+- `needs-review`: **265**;
 - `verified`: **0**;
 - Phase 2: **not started**.
 
@@ -48,9 +48,10 @@ Completed Phase-1 batches:
 - Batch 07 — scans **151–175**;
 - Batch 08 — scans **176–200**;
 - Batch 09 — scans **201–225**;
-- Batch 10 — scans **226–250**.
+- Batch 10 — scans **226–250**;
+- Batch 11 — scans **251–275**.
 
-## Source boundaries through scan 250
+## Source boundaries through scan 275
 
 - `இதயத்தைத் தந்திடு அண்ணா` — closes 31;
 - `தென்னவன் காதை` — 34–42;
@@ -76,7 +77,11 @@ Completed Phase-1 batches:
 - `அண்ணன் இருக்கின்றார்` — **227–229**, closes 229 / printed page 212;
 - `அண்ணன் ஒரு கவியரங்கம்` — **230–236 + 238**, closes 238 / printed page 221; scan 237 is an interposed title leaf for the next item;
 - `தமிழ் வளர வழிநடைப் பயணம்` — title leaf **237**, body **239–244**, closes 244 / printed page 227;
-- `வையம் தழைக்க` — opens **245** and continues beyond scan 250 / printed page 233.
+- `வையம் தழைக்க` — **245–253**, closes 253 / printed page 236;
+- `தந்தை பெரியார்` — **254–260**, closes 260 / printed page 243;
+- `அகத்துறைப் படைப்புகள்` — **261–266**, closes 266 / printed page 249;
+- `பொங்கல் விழா` — **267–272**, closes 272 / printed page 255;
+- `சிலப்பதிகார விருந்து` — opens **273** and continues beyond scan 275 / printed page 258.
 
 ## Blur / difficult-reading control
 
@@ -96,8 +101,8 @@ The existing user-directed exclusion applicable to `தென்னவன் க
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 11 — scans 251–275**.
+Begin **Phase 1 Batch 12 — scans 276–300**.
 
-Create `pages/0251.md` through `pages/0275.md`, continuing directly from the unfinished `வையம் தழைக்க` item at scan 250.
+Create `pages/0276.md` through `pages/0300.md`, continuing directly from the unfinished `சிலப்பதிகார விருந்து` item at scan 275.
 
 Do not begin Phase 2 in the same activity.
