@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review NEXT**
+Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review COMPLETE — PASS; source-coverage/release review NEXT**
 
 ## Scope and source authority
 
@@ -101,7 +101,7 @@ Only reviewed batches entered the complete English collection assembly. The read
 - **Batch 04:** items 7–9, scans 35–49 — reviewed PASS. The crocodile/raid narrative, Sankrityayan/Iyarpakai/Nehru references, class and land rhetoric, long quoted Aryan dialogue, linga/Avudaiyar argument, named deities and triple rhetorical close are retained without outside correction or Tamil-source alteration.
 - **Batch 05:** items 10–12, scans 50–63 — reviewed PASS. Maritime-contact claims, the papyrus and Naga-country narratives, *Manimekalai* quotation, Peevalai–Nedumudikilli/Ilanthiraiyan sequence, Murugan–Valli narrative, *Kuruntokai* quotation, Tamil sound-play, glossary and equal-rights close are retained; source-sensitive forms are documented rather than silently repaired.
 - **Batch 06:** items 13–15, scans 64–81 — reviewed PASS. Appathuraiyar/classical citations and the Kharavela-alliance argument are retained as source claims; the complete three-scene Kanaka–Vijaya drama preserves speaker changes, war-oratory and the eighteen-unit sequence; the “Aryan tea” metaphor, *Silappathikaram* citation and named historical-source quotations remain traceable without outside correction.
-- **Batch 07:** items 16–18, scans 82–98 — reviewed PASS. The Augustus/Peruvaluthi and Yavana-trade source layers, world-history/evolution/Kumari Kandam argument, Bharathi and named-source quotations, and Item 18's sandalwood-remainder metaphor are retained; Item 18's title-page/contents-title discrepancy is explicitly preserved without hybridization.
+- **Batch 07:** items 16–18, scans 82–98 — reviewed PASS. The Augustus/Peruvazhuthi and Yavana-trade source layers, world-history/evolution/Kumari Kandam argument, Bharathi and named-source quotations, and Item 18's sandalwood-remainder metaphor are retained; Item 18's title-page/contents-title discrepancy is explicitly preserved without hybridization.
 - **Batch 08:** items 19–21, scans 99–111 — reviewed PASS. The Senguttuvan–Palaiyan–Arugan episode and its condemnation of retaliatory humiliation, the Venni battle and *vadakkiruthal* passages with three classical poem citations, and the Aathimandhi–Aattanathi love/dance/river-rescue narrative including the final source note are retained without outside correction.
 - **Batch 09:** items 22–24, scans 112–123 — reviewed PASS. Item 22 preserves its quoted canonical-title witness, repeated “I”, question/answer structure, evolution/cosmic journey and `அரிமா நோக்கு` / `அரியா நோக்கு` wordplay; Item 23 preserves the Kundalakesi feminism/patriarchy narrative and sensual imagery; Item 24 retains the full Madhavi ornament inventory, stage measurements, star separator and source glossary without outside correction.
 - **Batch 10:** items 25–27, scans 124–135 — reviewed PASS. Items 25 and 26 preserve their title-witness punctuation differences; Kannagi's culture/ritual argument, the women-poet/warrior sequence and complete poet list, and the Mathivanan/evidence-method and Dravidian-history framing are retained without outside correction or Tamil-source alteration.
@@ -124,21 +124,14 @@ Phase 4 proceeds in this order:
 1. translation planning/source map — **COMPLETE**;
 2. translate and review Batches **01–21** — **COMPLETE; 21/21 reviewed PASS**;
 3. assemble the complete English collection from reviewed batches only — **COMPLETE; 58/58 items assembled exactly once and in order**;
-4. perform full-work editorial/terminology/voice consistency review — **NEXT**;
-5. perform source-coverage/release review;
+4. perform full-work editorial/terminology/voice consistency review — **COMPLETE — PASS**;
+5. perform source-coverage/release review — **NEXT**;
 6. mark English release complete only if all gates pass.
 
 ## Exact next activity
 
-Perform the **full-work editorial / terminology / Kalaignar-voice consistency review** of `kaalap-pezhaiyum-kavithai-saaviyum-en.md` and record it in `EDITORIAL_CONSISTENCY_REVIEW.md`.
+Perform the final **source-coverage / release review** of `kaalap-pezhaiyum-kavithai-saaviyum-en.md` against the reviewed batches and `SOURCE_MAP.md`.
 
-Review requirements:
+Verify complete items **1–58** / scans **10–299**, title-witness traceability, all required source-visible notes/quotations/separators, absence of batch/editorial apparatus, synchronization of the editorial corrections recorded in `EDITORIAL_CONSISTENCY_REVIEW.md`, protection of the Tamil canonical/page layer, and the verified item-58 stop before scan-300 end matter.
 
-- verify stable items **1–58** remain exactly once and in order in the assembled reader-facing collection;
-- review recurring names, titles, transliterations, literary works, administrative terms and political/historical vocabulary for internal consistency without using outside knowledge to rewrite source claims;
-- review punctuation, quotation handling, dialogue, repeated rhetoric, direct address, satire, slogans, questions, line/stanza architecture and source-visible separators for consistent treatment;
-- verify all 14 title-witness decisions remain reflected in the displayed English titles and traceable to the reviewed batch records;
-- confirm item-internal source notes and parenthetical source material remain present while batch front matter, source metadata, translator notes and batch-review prose remain excluded;
-- preserve item 58's `(First Part Complete)` ending and the verified stop before separate scan-300 end matter;
-- do not alter the final-cleared Tamil canonical/page layer during editorial review;
-- do not create `RELEASE_REPORT.md` until this full-work consistency gate passes.
+Create `RELEASE_REPORT.md` only if this final release gate passes.

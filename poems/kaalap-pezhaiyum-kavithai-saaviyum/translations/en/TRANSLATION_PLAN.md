@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review NEXT.**
+**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review COMPLETE — PASS; source-coverage/release review NEXT.**
 
 No Tamil canonical file or verified page record is changed by this plan or by reviewed English translation work.
 
@@ -161,14 +161,16 @@ With all 21 batches reviewed:
 
 1. assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from reviewed batch translation bodies only — **COMPLETE**;
 2. verify items **1–58** occur exactly once and in order — **PASS at assembly gate**;
-3. run `EDITORIAL_CONSISTENCY_REVIEW.md` across names, titles, terminology, punctuation, dialogue, literary references and recurring rhetorical patterns — **NEXT**;
-4. verify all title-witness metadata remains traceable;
-5. ensure translator notes/review prose do not leak into verse unless deliberately designated;
-6. run complete source-coverage and Kalaignar-voice review;
+3. run `EDITORIAL_CONSISTENCY_REVIEW.md` across names, titles, terminology, punctuation, dialogue, literary references and recurring rhetorical patterns — **COMPLETE — PASS**;
+4. verify all title-witness metadata remains traceable — **PASS at editorial gate**;
+5. ensure translator notes/review prose do not leak into verse unless deliberately designated — **PASS at editorial gate**;
+6. run complete source-coverage / final release review — **NEXT**;
 7. create `RELEASE_REPORT.md` only if all release gates pass.
 
 ## Exact next activity
 
-Create `EDITORIAL_CONSISTENCY_REVIEW.md` and perform a full-work review of `kaalap-pezhaiyum-kavithai-saaviyum-en.md`.
+Perform the final **source-coverage / release review** of the complete assembled English work.
 
-The review must cover stable item order/completeness, recurring proper names and transliterations, literary and administrative terminology, punctuation and quotation conventions, dialogue/speaker distinction, repeated rhetoric, direct address, satire/polemic, source-visible separators and item-internal notes, all 14 title-witness decisions, and the item-58 closing boundary. Compare against the reviewed batch records when a consistency question arises. Do not silently repair source claims through outside knowledge and do not alter the Tamil canonical/page layer. Mark this gate PASS only after the complete 58-item assembled collection has been reviewed; `RELEASE_REPORT.md` remains blocked until then.
+Use the reviewed batches, `SOURCE_MAP.md` and `EDITORIAL_CONSISTENCY_REVIEW.md` to verify items **1–58**, scans **10–299**, title-witness traceability, item-internal notes and source-visible structure, final English/batch synchronization, and the scan-299 closing boundary. Do not alter the Tamil canonical/page layer and do not use outside knowledge to repair source claims.
+
+Create `RELEASE_REPORT.md` only if every final release check passes.
