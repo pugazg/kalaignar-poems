@@ -6,7 +6,7 @@ Available physical scans: **150**.
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–75 created.**
+**PHASE 1 MAP IN PROGRESS — page records 1–100 created.**
 
 This file records visible first-pass navigation evidence. It is **not** a completed physical-scan ↔ printed-page reconciliation and must not be treated as Phase-3 evidence.
 
@@ -110,6 +110,36 @@ Whole-book mapping, completeness certification and final clearance are blocked u
 | 74 | poem/speaker continuation | 57 | `needs-review` | speaker labels and performance notes preserved |
 | 75 | poem/speaker continuation | 58 | `needs-review` | quoted praise; continues into scan 76 |
 
+## Phase-1 map — scans 76–100
+
+| Physical scan | Visible role / section | Visibly printed page | Phase-1 status | Notes |
+|---:|---|---|---|---|
+| 76 | `விடுதலை வீரர்கள்` continuation | 59 | `needs-review` | speaker transition / patriotic verse; blurred compounds |
+| 77 | poem/speaker continuation | 60 | `needs-review` | V.O.C. reference and chair's concluding poem transition |
+| 78 | chair's conclusion | 61 | `needs-review` | freedom/war argument; several unresolved lines |
+| 79 | `விடுதலை வீரர்கள்` conclusion | 62 | `needs-review` | `வணக்கம்! / வாழ்க!`; floral ornament |
+| 80 | `ஐம்புலன்` opening | — | `needs-review` | title; visible `24.3.68` event context; printed numeral not positively visible |
+| 81 | poem continuation | 64 | `needs-review` | sense-wordplay; blurred compounds |
+| 82 | poem continuation | 65 | `needs-review` | five-senses list / Viswamitra-Menaka movement |
+| 83 | poem continuation | 66 | `needs-review` | extended wordplay on senses/organs |
+| 84 | speaker/performance continuation | 67 | `needs-review` | `மெய்` segment closes; next introduction begins |
+| 85 | speaker/performance continuation | 68 | `needs-review` | `வாய்` segment closes; `கண்` introduced |
+| 86 | speaker/performance continuation | 69 | `needs-review` | `கண்` closes; `மூக்கு` movement and performance note |
+| 87 | speaker/performance continuation | 70 | `needs-review` | `செவி` movement; chair's final poem begins |
+| 88 | chair's conclusion | 71 | `needs-review` | cumulative five-senses conclusion |
+| 89 | `ஐம்புலன்` conclusion | 72 | `needs-review` | `வணக்கம்!`; floral ornament |
+| 90 | `பிலவங்க ஆண்டு` opening | — | `needs-review` | title; visible `13.4.68` radio/event context; printed numeral not positively visible |
+| 91 | poem/dialogue continuation | 74 | `needs-review` | year-theme / dream transition; dense wordplay |
+| 92 | dream/dialogue continuation | 75 | `needs-review` | dialogue and colloquial/proper-name-like forms blurred |
+| 93 | poem/dialogue continuation | 76 | `needs-review` | personified ethical headings become visible |
+| 94 | speaker/performance continuation | 77 | `needs-review` | `இனியவை கூறல்` note; `அடக்கம்` introduced |
+| 95 | speaker/performance continuation | 78 | `needs-review` | `அடக்கம்` movement and performance note |
+| 96 | speaker/performance continuation | 79 | `needs-review` | `பொறை/பொறுமை` movement; poet name partly unreadable |
+| 97 | speaker/performance continuation | 80 | `needs-review` | `வெகுளாமை` closes; `இன்னா செய்யாமை` introduced |
+| 98 | speaker/performance continuation | 81 | `needs-review` | `இன்னா செய்யாமை` closes; `அருளுடைமை` movement |
+| 99 | chair's conclusion | 82 | `needs-review` | cumulative ethical/year close; blurred compounds |
+| 100 | `பிலவங்க ஆண்டு` conclusion | 83 | `needs-review` | `வணக்கம்.`; floral ornament |
+
 ## Printed-page evidence rule
 
 Only numbers visibly printed on the source are entered above. In particular, no Roman or Arabic number is inferred for scans whose numeral is not visibly present.
@@ -118,18 +148,18 @@ The apparent relationship `printed page = physical scan - 17` across much of the
 
 ## Phase-1 page-record inventory
 
-Existing page records: `pages/0001.md` through `pages/0075.md`.
+Existing page records: `pages/0001.md` through `pages/0100.md`.
 
-Current count: **75 / 150 available physical scans**.
+Current count: **100 / 150 available physical scans**.
 
 Cumulative status:
 
 - `partial`: **10**;
-- `needs-review`: **65**;
+- `needs-review`: **90**;
 - `verified`: **0**.
 
 The high `needs-review` count is intentional. The PDF contains visibly blurred text, and uncertain readings are being preserved rather than silently reconstructed.
 
 ## Exact next activity
 
-Phase 1 batch 04: transcribe physical scans **76–100** into `pages/0076.md` through `pages/0100.md`, preserving the same conservative blur protocol and recording only visible printed-page evidence.
+Phase 1 batch 05: transcribe physical scans **101–125** into `pages/0101.md` through `pages/0125.md`, preserving the same conservative blur protocol and recording only visible printed-page evidence.
