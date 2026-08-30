@@ -1,0 +1,199 @@
+name: Temporary Kaalap Per-Poem English Split
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/temporary-kaalap-per-poem-split.yml
+
+permissions:
+  contents: write
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create standalone English translation file for each item
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import shutil
+          import unicodedata
+
+          root = Path('poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en')
+          assembled = root / 'kaalap-pezhaiyum-kavithai-saaviyum-en.md'
+          items_dir = root / 'items'
+          text = assembled.read_text(encoding='utf-8')
+
+          heading_re = re.compile(r'^## Item (\d+) — (.+)$', re.M)
+          matches = list(heading_re.finditer(text))
+          nums = [int(m.group(1)) for m in matches]
+          assert nums == list(range(1, 59)), nums
+
+          def slugify(title: str) -> str:
+              s = unicodedata.normalize('NFKD', title)
+              s = s.encode('ascii', 'ignore').decode('ascii').lower()
+              s = s.replace('&', ' and ')
+              s = re.sub(r"[^a-z0-9]+", '-', s).strip('-')
+              return s[:110].rstrip('-') or 'item'
+
+          def yaml_quote(value: str) -> str:
+              return '"' + value.replace('\\', '\\\\').replace('"', '\\"') + '"'
+
+          if items_dir.exists():
+              shutil.rmtree(items_dir)
+          items_dir.mkdir(parents=True)
+
+          index_rows = []
+          written = []
+
+          for i, m in enumerate(matches):
+              n = int(m.group(1))
+              title_en = m.group(2).strip()
+              end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+              section = text[m.start():end].rstrip() + '\n'
+
+              section_path = Path(f'poems/kaalap-pezhaiyum-kavithai-saaviyum/sections/{n:02d}.md')
+              canonical = section_path.read_text(encoding='utf-8')
+              mt = re.search(r'^title: "(.*)"$', canonical, re.M)
+              mc = re.search(r'^contents_title: "(.*)"$', canonical, re.M)
+              ms = re.search(r'^physical_scans: "(.*)"$', canonical, re.M)
+              assert mt and mc and ms, section_path
+              title_ta = mt.group(1)
+              contents_title_ta = mc.group(1)
+              source_scans = ms.group(1)
+              witness_status = 'match' if title_ta == contents_title_ta else 'documented-discrepancy'
+
+              slug = slugify(title_en)
+              filename = f'{n:02d}-{slug}-en.md'
+
+              # Preserve the reviewed reader-facing poem body exactly. Only the standalone
+              # front matter and H1 wrapper are added around that body.
+              body = section
+              first_line, remainder = body.split('\n', 1)
+              assert first_line == f'## Item {n} — {title_en}'
+              remainder = remainder.lstrip('\n')
+
+              standalone = (
+                  '---\n'
+                  'work: "kaalap-pezhaiyum-kavithai-saaviyum"\n'
+                  f'item: {n}\n'
+                  f'title_ta: {yaml_quote(title_ta)}\n'
+                  f'contents_title_ta: {yaml_quote(contents_title_ta)}\n'
+                  f'title_en: {yaml_quote(title_en)}\n'
+                  'language: "en"\n'
+                  f'source_scans: {yaml_quote(source_scans)}\n'
+                  f'title_witness_status: "{witness_status}"\n'
+                  'status: "editorial-reviewed"\n'
+                  'assembly_basis: "editorially reviewed complete English collection and reviewed Phase 4 batch record"\n'
+                  'voice_policy: "retain Kalaignar\'s language, rhetoric, cadence, imagery, repetition, political-historical specificity and source-visible structure"\n'
+                  '---\n\n'
+                  f'# {title_en}\n\n'
+                  + remainder
+              )
+
+              (items_dir / filename).write_text(standalone, encoding='utf-8')
+              written.append((n, filename, title_en, source_scans, remainder))
+              index_rows.append(f'| {n} | {title_en.replace("|", "\\|")} | [{filename}]({filename}) | {source_scans} |')
+
+          assert len(written) == 58
+          assert len({f for _, f, *_ in written}) == 58
+
+          # Verify each standalone verse body is byte-for-byte the same as the
+          # corresponding body in the assembled reader-facing collection.
+          for n, filename, title_en, source_scans, expected_body in written:
+              standalone = (items_dir / filename).read_text(encoding='utf-8')
+              parts = standalone.split('---\n', 2)
+              assert len(parts) == 3
+              after_frontmatter = parts[2].lstrip('\n')
+              h1 = f'# {title_en}\n\n'
+              assert after_frontmatter.startswith(h1)
+              actual_body = after_frontmatter[len(h1):]
+              assert actual_body == expected_body, (n, filename)
+
+          index = (
+              '# Standalone English translations — காலப் பேழையும் கவிதைச் சாவியும்\n\n'
+              'Status: **COMPLETE — 58/58 standalone item files generated from the editorial-reviewed English collection**\n\n'
+              'Each file contains one stable numbered item. Its verse/dialogue/source-visible structure is byte-for-byte aligned with the corresponding item body in `../kaalap-pezhaiyum-kavithai-saaviyum-en.md`; the standalone file adds only provenance front matter and an H1 English title.\n\n'
+              'The final-cleared Tamil canonical/page layer is not modified by this distribution step.\n\n'
+              '| Item | English title | Standalone file | Source scans |\n'
+              '|---:|---|---|---:|\n'
+              + '\n'.join(index_rows)
+              + '\n'
+          )
+          (items_dir / 'README.md').write_text(index, encoding='utf-8')
+
+          # Update durable status files without changing the already-passed editorial gate.
+          readme = root / 'README.md'
+          s = readme.read_text(encoding='utf-8')
+          s = s.replace(
+              'Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review COMPLETE — PASS; source-coverage/release review NEXT**',
+              'Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review COMPLETE — PASS; standalone per-poem English files COMPLETE — 58/58; source-coverage/release review NEXT**'
+          )
+          marker = '## Standalone per-poem English files\n'
+          block = (
+              '## Standalone per-poem English files\n\n'
+              'Status: **COMPLETE — 58/58**\n\n'
+              'For convenient poem-by-poem reading and reuse, every stable item now also has a separate English file under `items/`. The index is `items/README.md`.\n\n'
+              'Each standalone file includes provenance front matter plus an English H1 title. The actual translated poem/dialogue body is copied byte-for-byte from the already editorial-reviewed corresponding item in `kaalap-pezhaiyum-kavithai-saaviyum-en.md`; no retranslation or Tamil-source change occurs in this split.\n\n'
+          )
+          if marker not in s:
+              s = s.replace('## Release gates\n', block + '## Release gates\n')
+          s = s.replace(
+              '- the editorial corrections recorded above remain synchronized between batch records and the assembled collection;',
+              '- the editorial corrections recorded above remain synchronized between batch records, the assembled collection and all 58 standalone per-poem files;'
+          )
+          readme.write_text(s, encoding='utf-8')
+
+          plan = root / 'TRANSLATION_PLAN.md'
+          s = plan.read_text(encoding='utf-8')
+          s = s.replace(
+              '**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review COMPLETE — PASS; source-coverage/release review NEXT.**',
+              '**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review COMPLETE — PASS; standalone per-poem English files COMPLETE — 58/58; source-coverage/release review NEXT.**'
+          )
+          if marker not in s:
+              block2 = (
+                  '## Standalone per-poem English files\n\n'
+                  'Status: **COMPLETE — 58/58**\n\n'
+                  'The editorial-reviewed complete collection has been split into 58 stable standalone English item files under `items/`, indexed by `items/README.md`. Each standalone translated body remains byte-for-byte aligned with the corresponding reader-facing item body; only standalone provenance front matter and the H1 title are added.\n\n'
+              )
+              s = s.replace('## Post-batch full-work gates\n', block2 + '## Post-batch full-work gates\n')
+          s = s.replace(
+              'run complete source-coverage and Kalaignar-voice review;',
+              'run complete source-coverage and Kalaignar-voice review, including 58/58 standalone per-poem file synchronization;'
+          )
+          plan.write_text(s, encoding='utf-8')
+
+          smap = root / 'SOURCE_MAP.md'
+          s = smap.read_text(encoding='utf-8')
+          if marker not in s:
+              block3 = (
+                  '## Standalone per-poem English files\n\n'
+                  'Status: **COMPLETE — 58/58**\n\n'
+                  'Every stable item now has a standalone English distribution file under `items/`; see `items/README.md` for the item/title/scan/file index. The standalone translated body is derived directly from the editorial-reviewed assembled item and is not an independent retranslation.\n\n'
+              )
+              s = s.replace('## Progress\n', block3 + '## Progress\n')
+          s = s.replace(
+              '- reader-facing collection assembly: **COMPLETE — 58/58 items exactly once and in order**.',
+              '- reader-facing collection assembly: **COMPLETE — 58/58 items exactly once and in order**.\n- standalone per-poem English distribution: **COMPLETE — 58/58 item files indexed under `items/`**.'
+          )
+          smap.write_text(s, encoding='utf-8')
+
+          print(f'Created {len(written)} standalone item files plus items/README.md')
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/items \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/README.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/TRANSLATION_PLAN.md \
+                  poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/SOURCE_MAP.md
+          git diff --cached --quiet || git commit -m "Add standalone English file for each Kaalap item"
+          git push
