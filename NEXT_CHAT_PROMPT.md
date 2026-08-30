@@ -36,13 +36,13 @@ Before making any repository change, read completely:
 8. `poems/kalaignarin-kavithaigal/metadata/source.md`
 9. `poems/kalaignarin-kavithaigal/indexes/page-map.md`
 10. `poems/kalaignarin-kavithaigal/audit.md`
-11. existing page records around the current boundary, especially `pages/0046.md` through `pages/0050.md` before continuing.
+11. existing page records around the current boundary, especially `pages/0072.md` through `pages/0075.md` before continuing.
 
 Treat the attached scan as the controlling textual authority. OCR, semantic expectation, web text and existing transcriptions from other source witnesses are not allowed to silently fill blurred wording.
 
 ## CURRENT DURABLE STATE
 
-**Phase 1 transcription is in progress through physical scan 50.**
+**Phase 1 transcription is in progress through physical scan 75.**
 
 - work/title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
@@ -52,9 +52,9 @@ Treat the attached scan as the controlling textual authority. OCR, semantic expe
 - source SHA-256: **pending exact-byte computation; never guess it**;
 - publisher visible: **பாரதி பதிப்பகம்**;
 - edition visible in English imprint: **fourth edition, March 1995**;
-- Phase 1 page records: **50/150**;
-- cumulative status: **8 `partial`, 42 `needs-review`, 0 `verified`**;
-- completed Phase-1 batches: **01 scans 1–25; 02 scans 26–50**;
+- Phase 1 page records: **75/150**;
+- cumulative status: **10 `partial`, 65 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
@@ -63,7 +63,11 @@ Current source/work boundary:
 
 - `இதயத்தைத் தந்திடு அண்ணா` closes on scan 31;
 - `தென்னவன் காதை` closes on scan 42;
-- `இந்திரஜித்` opens on scan 43 and **continues beyond scan 50**.
+- `இந்திரஜித்` closes on scan 54;
+- `இரணியன்` closes on scan 61;
+- `வாளி மன்னன்` closes on scan 69;
+- `கவியரங்கக் கவிதைகள்` divider/verso occupy scans 70–71;
+- `விடுதலை வீரர்கள்` opens on scan 72 and **continues beyond scan 75**.
 
 ## CRITICAL — BLURRED TEXT
 
@@ -74,6 +78,7 @@ The user explicitly warned that this PDF has blurred text in places. Preserve th
 - do not reconstruct from OCR, memory, metre, grammar, historical context or another edition;
 - do not copy the separate repository witnesses of `இதயத்தைத் தந்திடு அண்ணா` or `தென்னவன் காதை` into this anthology;
 - the existing user-directed caste-slur exclusion applicable to `தென்னவன் காதை` must not be reintroduced;
+- preserve source-visible speaker labels and performance notes where legible;
 - pages with unresolved wording should remain `needs-review`, not `verified`.
 
 ## CRITICAL — THE SUPPLIED PDF IS NOT THE COMPLETE BOOK
@@ -108,13 +113,13 @@ For every supplied physical scan:
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 batch 03 — physical scans 51–75**.
+Execute **Phase 1 batch 04 — physical scans 76–100**.
 
 Create:
 
-`poems/kalaignarin-kavithaigal/pages/0051.md` through `pages/0075.md`
+`poems/kalaignarin-kavithaigal/pages/0076.md` through `pages/0100.md`
 
-Continue directly from the unfinished `இந்திரஜித்` item at scan 50. Do not repeat or rewrite scans 1–50 unless a genuine source-backed correction is discovered.
+Continue directly from the unfinished `விடுதலை வீரர்கள்` item at scan 75. Do not repeat or rewrite scans 1–75 unless a genuine source-backed correction is discovered.
 
 At completion:
 
