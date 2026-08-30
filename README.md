@@ -39,7 +39,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - current item: **`பொங்கல் திருநாள்`**, opened scan 175 and continuing;
 - exact next activity: **Phase 1 Batch 08 — scans 176–200**.
 
-The earlier 150-page source-length assumption came from a renderer-window limitation and has been withdrawn. Direct source-byte access confirms the full **465-page** PDF.
+The earlier 150-page source-length assumption came from a rendering-window limitation and has been withdrawn. Direct source-byte access confirms the full **465-page** PDF.
 
 The anthology overlaps with separately archived source witnesses such as `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`; those existing texts are not transcription authority for this edition and must not be copied into blurred spans.
 

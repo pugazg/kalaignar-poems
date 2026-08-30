@@ -14,7 +14,13 @@
 
 ## Source-extent correction
 
-Earlier repository records treated a 150-page renderer exposure as the PDF's full page count. Exact source-byte inspection confirms **465 physical PDF pages**, **486,369,088 bytes**, and the SHA-256 above. Physical scan numbering remains 1-indexed against this same source.
+Earlier repository records treated the ChatGPT Files renderer's 150-page exposure as though it were the PDF's full page count. The user corrected this, and direct access to the mounted source bytes now confirms the exact extent:
+
+- **465 physical PDF pages**;
+- **486,369,088 bytes**;
+- SHA-256 as recorded above.
+
+Therefore physical scan 150 is not a source boundary. The same controlling PDF continues through scan **465**.
 
 ## Printed source identity visible in scans 1–3
 
@@ -28,7 +34,7 @@ Earlier repository records treated a 150-page renderer exposure as the PDF's ful
 
 The title-page image also carries a later-looking rectangular `அன்பளிப்பு` label; it remains physically documented separately from edition text.
 
-## Introductory matter / pagination anchors
+## Introductory matter / contents anchors
 
 - scans **4–5**: `என்னுரை`;
 - scans **6–10**: `அணிந்துரை`;
@@ -45,10 +51,8 @@ The title-page image also carries a later-looking rectangular `அன்பள�
 
 ## Processing state
 
-- source intake: **REGISTERED — exact extent and checksum recorded**;
+- source intake: **REGISTERED — exact extent and checksum now recorded**;
 - Phase 1 page records: **175/465**;
-- current Phase-1 boundary: **scan 175**;
-- next batch: **176–200**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Tamil final clearance: **blocked until Phase 1/2/3 gates complete across the full source**;

@@ -14,9 +14,15 @@
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-## Source-extent control
+## Source-extent correction and resolution
 
-The earlier 150-page renderer exposure is not the source extent. Exact-byte inspection confirms **465 physical pages**. Batch 07 was read directly from the same controlling source beyond that renderer boundary.
+Earlier status incorrectly interpreted the Files renderer's 150-page exposure as the PDF's actual physical page count. The user corrected this. Direct inspection of the exact mounted source bytes confirms:
+
+- **465 physical pages**;
+- **486,369,088 bytes**;
+- SHA-256 recorded above.
+
+Direct rendering from the same PDF confirms work continues beyond physical scan 150; Batch 07 has now been processed through scan 175. There is no source boundary at scan 150.
 
 ## Phase 1 batch history
 
@@ -28,18 +34,39 @@ The earlier 150-page renderer exposure is not the source extent. Exact-byte insp
 - Batch 06 — scans **126–150**;
 - Batch 07 — scans **151–175**.
 
-## Phase 1 Batch 07 — scans 151–175
+## Phase 1 batch 06 — scans 126–150
 
 Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED.**
 
-Created `pages/0151.md` through `pages/0175.md`.
+Created:
 
-Source-established boundaries:
+- `pages/0126.md` through `pages/0150.md`;
+- `அருமறையில் அறுவர்` closes on scan **127** / printed page **110**;
+- `புதிய பாதை` opens scan **128** with date **13.8.1968**, closes scan **137** / printed page **120**;
+- `உடைமைகள் பத்து` opens scan **138** with date **16.9.68**, closes scan **143** / printed page **126**;
+- `நீர்க் குடும்பம்` opens scan **144** with date **28.9.68** and continues beyond scan **150**;
+- scan **150** / printed page **133** ends mid-item after the chair introduces the next `மழை` movement;
+- scan **151** / printed page **134** was source-access checked as the next continuation boundary.
 
-- `நீர்க் குடும்பம்` continues from scan 150 and **closes scan 154 / printed page 137** with `வணக்கம் / வாழ்க` and a decorative illustration;
-- `பாரதிதாசன்` **opens scan 155**, event date **8.12.68**, and **closes scan 169 / printed page 152**;
-- `பாரதியார்` **opens scan 170**, event date **12.9.69**, and **closes scan 174 / printed page 157** with `வணக்கம் / வாழ்க` and a decorative illustration;
-- `பொங்கல் திருநாள்` **opens scan 175**, event date **12.1.1970**, and visibly continues beyond the batch.
+Batch-06 status:
+
+- `partial`: **0**;
+- `needs-review`: **25**;
+- `verified`: **0**.
+
+Pages needing Phase-2 attention from Batch 06: `0126`–`0150`.
+
+## Phase 1 batch 07 — scans 151–175
+
+Result: **PAGE-RECORD BATCH CREATED — CONSERVATIVE BLUR POLICY RETAINED.**
+
+Created:
+
+- `pages/0151.md` through `pages/0175.md`;
+- `நீர்க் குடும்பம்` continues from scan 150 and closes on scan **154** / printed page **137**;
+- `பாரதிதாசன்` opens scan **155** with date **8.12.68**, closes scan **169** / printed page **152**;
+- `பாரதியார்` opens scan **170** with date **12.9.69**, closes scan **174** / printed page **157**;
+- `பொங்கல் திருநாள்` opens scan **175** with date **12.1.1970** and continues beyond the batch.
 
 Batch-07 status:
 
@@ -47,15 +74,16 @@ Batch-07 status:
 - `needs-review`: **25**;
 - `verified`: **0**.
 
-Pages needing the later independent Phase-2 review from this batch: `0151`–`0175`.
+Pages needing Phase-2 attention from Batch 07: `0151`–`0175`.
 
 ## Blur / uncertainty control
 
-- `⟦…⟧` remains editorial Phase-1 uncertainty notation, not source text;
-- no unresolved wording was reconstructed from OCR, memory, grammar, metre, historical expectation or another edition;
-- separate source witnesses were not imported into this anthology;
-- visible speaker labels, poet introductions, performance notes, quotations, separators and physical-page boundaries were retained where legible;
-- no Batch-07 page was promoted to `verified`.
+- `⟦…⟧` is an editorial Phase-1 uncertainty marker, not source punctuation;
+- only confidently legible wording is transcribed;
+- blur is not reconstructed from OCR, grammar, metre, memory, historical expectation or another edition;
+- overlapping standalone witnesses are not copied into this anthology;
+- source-visible speaker labels, performance notes, title/date blocks and page boundaries are retained where legible;
+- pages with unresolved wording remain `needs-review`, never falsely `verified`.
 
 ## User-directed exclusion safeguard
 
@@ -63,6 +91,6 @@ The existing user-directed exclusion applicable to `தென்னவன் க
 
 ## Exact next activity
 
-Execute **Phase 1 Batch 08 — physical scans 176–200** from the same 465-page controlling PDF, creating `pages/0176.md` through `pages/0200.md` and continuing directly from the unfinished `பொங்கல் திருநாள்` item at scan 175.
+Execute **Phase 1 Batch 08 — physical scans 176–200** from the same 465-page controlling PDF, creating `pages/0176.md` through `pages/0200.md` and continuing directly from `பொங்கல் திருநாள்`.
 
-Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.
+Do not begin Phase 2 in the same activity.

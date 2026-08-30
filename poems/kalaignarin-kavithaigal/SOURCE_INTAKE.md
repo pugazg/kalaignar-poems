@@ -2,7 +2,7 @@
 
 ## Intake result
 
-**REGISTERED AS A NEW SOURCE-SPECIFIC WORK — EXACT PDF EXTENT CONFIRMED.**
+**REGISTERED AS A NEW SOURCE-SPECIFIC WORK — EXACT PDF EXTENT NOW CONFIRMED.**
 
 Work directory: `poems/kalaignarin-kavithaigal/`
 
@@ -23,7 +23,9 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 ## Source-extent correction
 
-The original intake mistakenly recorded 150 as the PDF's physical page count because a renderer exposed only pages 1–150. Exact source-byte inspection confirms **465 physical pages**. Batch 07 has now been processed through scan 175 from that same controlling PDF.
+The original intake mistakenly recorded 150 as the PDF's physical page count because the Files renderer exposed only pages 1–150. The user corrected that assumption. Direct access to the exact mounted PDF bytes confirms **465 physical pages**.
+
+Physical scan 150 is therefore only an earlier rendering-window boundary, not a source boundary. Batch 07 has now been processed directly from the same exact PDF through scan **175**.
 
 ## Current processing state
 
@@ -37,11 +39,21 @@ The original intake mistakenly recorded 150 as the PDF's physical page count bec
 
 ## Existing source witnesses
 
-The anthology contains at least two works already archived from different controlling sources: `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`. Those earlier source-specific transcriptions are provenance references only and must not be copied into this anthology witness.
+The anthology contains at least two works already archived from different controlling sources:
+
+- `இதயத்தைத் தந்திடு அண்ணா!`;
+- `தென்னவன் காதை`.
+
+Those earlier source-specific transcriptions are provenance references only and must not be copied into this anthology witness.
 
 ## Blur-control rule
 
-Because the PDF contains blurred text, only confidently legible text is transcribed in Phase 1. Uncertain spans remain explicit `⟦…⟧` markers; no OCR, memory, metre, grammar, historical expectation or other edition may silently fill blur.
+Because the PDF contains blurred text:
+
+- only confidently legible text is transcribed in Phase 1;
+- uncertain spans remain explicit `⟦…⟧` markers;
+- no OCR, memory, metre, grammar, historical expectation or other edition may silently fill blur;
+- exact resolution belongs to the later independent Phase-2 visual/glyph pass.
 
 ## Current next activity
 
