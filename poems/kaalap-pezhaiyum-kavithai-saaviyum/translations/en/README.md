@@ -1,6 +1,6 @@
 # English translation — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **PHASE 4 IN PROGRESS — Batches 01–14 reviewed PASS; 39/58 items translated and reviewed**
+Status: **PHASE 4 IN PROGRESS — Batches 01–15 reviewed PASS; 42/58 items translated and reviewed**
 
 ## Scope and source authority
 
@@ -51,13 +51,14 @@ Revised total planned batches: **21**.
 | 12 | 31–33 | 148–160 | **reviewed — PASS** |
 | 13 | 34–36 | 161–178 | **reviewed — PASS** |
 | 14 | 37–39 | 179–194 | **reviewed — PASS** |
-| 15–21 | 40–58 | 195–299 | planned |
+| 15 | 40–42 | 195–206 | **reviewed — PASS** |
+| 16–21 | 43–58 | 207–299 | planned |
 
 Current totals:
 
-- batches reviewed: **14/21**;
-- items translated and reviewed: **39/58**;
-- certified source scans represented in reviewed English batches: **185/290 numbered-item scans**;
+- batches reviewed: **15/21**;
+- items translated and reviewed: **42/58**;
+- certified source scans represented in reviewed English batches: **197/290 numbered-item scans**;
 - unresolved translation issues in reviewed batches: **0**;
 - Tamil canonical files modified during translation: **0**.
 
@@ -103,13 +104,14 @@ Only reviewed batches may enter the eventual complete English collection assembl
 - **Batch 12:** items 31–33, scans 148–160 — reviewed PASS. Item 31 preserves the verified canonical `மகனும்` title reading despite the mother-daughter narrative and keeps its title-witness comma difference; Item 32 preserves its substantively different title witnesses, repeated star separators, Kovoor Kizhar intervention sequence, compact classical quotation plus source-supplied meaning and humanitarian ceasefire close; Item 33 preserves the `செருப்பாழி` segmentation argument, source chronology and Maurya–Mogur narrative without outside correction.
 - **Batch 13:** items 34–36, scans 161–178 — reviewed PASS. Item 34 preserves the Chola decline/revival chronology, source-form administrative bodies and titles, marriage passage, Poompuhar framing, Pallava/Vijayalaya transition and the printed English footnote; Item 35 preserves the Pisiranthaiyar–Kopperuncholan friendship narrative, swan-cock address, domestic comic interlude, war crisis and *vadakkiruthal*/*nadukal* close; Item 36 preserves the Kosar/*Akananuru* layer, Anni Minjili narrative, class simile, eye-gouging episode, reciprocal vows, battle ending and complete source note without outside correction.
 - **Batch 14:** items 37–39, scans 179–194 — reviewed PASS. Item 37 preserves stable identity 37 despite the printed `36`, keeps both title witnesses separate, retains the Narkannai/Perunarkilli narrative and *Purananuru* 82 plus Kalaignar's own cot-weaver explanation; Item 38 preserves the attributed poet sequence, Karur counsel, plough-front/battlefront argument, Pannan episode and burial-urn elegy; Item 39 preserves the source's Pallava chronology and Kanchi uncertainty, Chinese-traveller/Dravida passage, Pulikesi–Narasimha framing, Paranjothi/Vatapi Ganapati argument and closing *Periya Puranam* quotation without outside correction.
+- **Batch 15:** items 40–42, scans 195–206 — reviewed PASS. Item 40 preserves the no-exclamation canonical title witness, Hijra/Appar/Mahendravarman comparison, Narasimha–Pulikesi material and complete Manavarman friendship/restoration narrative; Item 41 preserves the Kanchi-capital evidence argument, Anbazhagan retort, Pallava site list, *Matta Vilasam*/Appar and inscriptional evidence; Item 42 preserves the Nelveli and Kanchi/Peruvalanallur battle movements, charter perspectives, united-tigers analogy, `அரிவாரணம்` passage and concluding charter/*Tevaram* source notes without outside adjudication.
 
 ## Release gates
 
 Phase 4 proceeds in this order:
 
 1. translation planning/source map — **COMPLETE**;
-2. translate and review Batches **01–21** — **IN PROGRESS; 14/21 reviewed**;
+2. translate and review Batches **01–21** — **IN PROGRESS; 15/21 reviewed**;
 3. assemble the complete English collection from reviewed batches only;
 4. perform full-work editorial/terminology/voice consistency review;
 5. perform source-coverage/release review;
@@ -117,10 +119,10 @@ Phase 4 proceeds in this order:
 
 ## Exact next activity
 
-Translate and review **Batch 15 — items 40–42**:
+Translate and review **Batch 16 — items 43–45**:
 
-- item 40 — `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` — scans **195–199** — `../../sections/40.md`;
-- item 41 — `பாதுகாப்போம்; பல்லவர் தலைநகரம்!` — scans **200–203** — `../../sections/41.md`;
-- item 42 — `பட்டயங்கள், பறைசாற்றுகின்றன!` — scans **204–206** — `../../sections/42.md`.
+- item 43 — `திராவிட இனத்தின் தமிழர் மரபு!` — scans **207–210** — `../../sections/43.md`;
+- item 44 — `இரும்புத் தூணும் ஈக்களின் இறகும்!` — scans **211–215** — `../../sections/44.md`;
+- item 45 — `தந்தை இராசராசனும், சிந்தை கவர்ந்த செல்வனும்!` — scans **216–219** — `../../sections/45.md`.
 
-Item 40 is a documented title-witness discrepancy: the canonical/title-page witness has no final exclamation mark, while the contents witness `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` does. Preserve both witnesses separately. Create `batches/batch-15.md`. Stop after item 42; do not begin item 43.
+Item 44 is a documented title-witness discrepancy: canonical/title-page witness is `இரும்புத் தூணும் ஈக்களின் இறகும்!`, while contents witness is `இரும்புத் தூணும், ஈக்களின் இறகும்!`. Preserve both separately. Create `batches/batch-16.md`. Stop after item 45; do not begin item 46.
