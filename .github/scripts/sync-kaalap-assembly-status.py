@@ -1,0 +1,152 @@
+from pathlib import Path
+import re
+
+root = Path('poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en')
+batches = root / 'batches'
+output = root / 'kaalap-pezhaiyum-kavithai-saaviyum-en.md'
+
+item_re = re.compile(
+    r'^## Item (\d+) — (.*?)\n\n'
+    r'Source metadata:\n.*?'
+    r'^### English translation\n\n'
+    r'(.*?)'
+    r'(?=^## Item \d+ — |^## Translator notes)',
+    re.MULTILINE | re.DOTALL,
+)
+
+items = []
+for batch_no in range(1, 22):
+    text = (batches / f'batch-{batch_no:02d}.md').read_text(encoding='utf-8')
+    for num, title, body in item_re.findall(text):
+        items.append((int(num), title.strip(), body.rstrip()))
+
+if [n for n, _, _ in items] != list(range(1, 59)):
+    raise SystemExit('Item sequence mismatch')
+
+parts = [
+    '# The Casket of Time and the Key of Poetry',
+    '',
+    '## காலப் பேழையும் கவிதைச் சாவியும் — English Translation',
+    '',
+    '<!-- Reader-facing assembly from reviewed Phase 4 translation batches 01–21. -->',
+    '',
+]
+for num, title, body in items:
+    parts.extend([f'## Item {num} — {title}', '', body, ''])
+assembled = '\n'.join(parts).rstrip() + '\n'
+
+for marker in ['Source metadata:', '## Translator notes', '## Batch review', 'translation_basis:']:
+    if marker in assembled:
+        raise SystemExit(f'Forbidden material in collection: {marker}')
+if assembled.count('\n## Item ') != 58:
+    raise SystemExit('Collection item-heading count is not 58')
+if not assembled.rstrip().endswith('(First Part Complete)'):
+    raise SystemExit('Collection does not end at verified item-58 boundary')
+output.write_text(assembled, encoding='utf-8')
+
+
+def replace_once(text, old, new, label):
+    if old not in text:
+        raise SystemExit(f'Missing expected text in {label}: {old[:80]!r}')
+    return text.replace(old, new, 1)
+
+# README
+p = root / 'README.md'
+text = p.read_text(encoding='utf-8')
+text = replace_once(
+    text,
+    'Status: **PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; 58/58 items translated and reviewed; translation batching COMPLETE**',
+    'Status: **PHASE 4 IN PROGRESS — translation batching COMPLETE; complete English collection assembly COMPLETE; full-work editorial consistency review NEXT**',
+    'README.md',
+)
+text = replace_once(
+    text,
+    'Only reviewed batches may enter the complete English collection assembly.',
+    'Only reviewed batches entered the complete English collection assembly. The reader-facing collection now contains stable items **1–58 exactly once and in order**.',
+    'README.md',
+)
+text = replace_once(
+    text,
+    '3. assemble the complete English collection from reviewed batches only — **NEXT**;\n4. perform full-work editorial/terminology/voice consistency review;\n5. perform source-coverage/release review;\n6. mark English release complete only if all gates pass.',
+    '3. assemble the complete English collection from reviewed batches only — **COMPLETE; 58/58 items assembled exactly once and in order**;\n4. perform full-work editorial/terminology/voice consistency review — **NEXT**;\n5. perform source-coverage/release review;\n6. mark English release complete only if all gates pass.',
+    'README.md',
+)
+text = re.sub(
+    r'## Exact next activity\n.*\Z',
+    '''## Exact next activity
+
+Perform the **full-work editorial / terminology / Kalaignar-voice consistency review** of `kaalap-pezhaiyum-kavithai-saaviyum-en.md` and record it in `EDITORIAL_CONSISTENCY_REVIEW.md`.
+
+Review requirements:
+
+- verify stable items **1–58** remain exactly once and in order in the assembled reader-facing collection;
+- review recurring names, titles, transliterations, literary works, administrative terms and political/historical vocabulary for internal consistency without using outside knowledge to rewrite source claims;
+- review punctuation, quotation handling, dialogue, repeated rhetoric, direct address, satire, slogans, questions, line/stanza architecture and source-visible separators for consistent treatment;
+- verify all 14 title-witness decisions remain reflected in the displayed English titles and traceable to the reviewed batch records;
+- confirm item-internal source notes and parenthetical source material remain present while batch front matter, source metadata, translator notes and batch-review prose remain excluded;
+- preserve item 58's `(First Part Complete)` ending and the verified stop before separate scan-300 end matter;
+- do not alter the final-cleared Tamil canonical/page layer during editorial review;
+- do not create `RELEASE_REPORT.md` until this full-work consistency gate passes.
+''',
+    text,
+    flags=re.DOTALL,
+)
+p.write_text(text, encoding='utf-8')
+
+# TRANSLATION_PLAN
+p = root / 'TRANSLATION_PLAN.md'
+text = p.read_text(encoding='utf-8')
+text = replace_once(
+    text,
+    '**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; 58/58 items translated and reviewed; translation batching COMPLETE.**',
+    '**PHASE 4 IN PROGRESS — Batches 01–21 reviewed PASS; translation batching COMPLETE; complete English collection assembly COMPLETE; editorial consistency review NEXT.**',
+    'TRANSLATION_PLAN.md',
+)
+text = replace_once(
+    text,
+    'Only reviewed batches are eligible for final collection assembly.',
+    'Only reviewed batches were eligible for final collection assembly; that assembly is now complete.',
+    'TRANSLATION_PLAN.md',
+)
+text = replace_once(
+    text,
+    '1. assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from reviewed batch translation bodies only — **NEXT**;\n2. verify items **1–58** occur exactly once and in order;\n3. run `EDITORIAL_CONSISTENCY_REVIEW.md` across names, titles, terminology, punctuation, dialogue, literary references and recurring rhetorical patterns;\n4. verify all title-witness metadata remains traceable;\n5. ensure translator notes/review prose do not leak into verse unless deliberately designated;\n6. run complete source-coverage and Kalaignar-voice review;\n7. create `RELEASE_REPORT.md` only if all release gates pass.',
+    '1. assemble `kaalap-pezhaiyum-kavithai-saaviyum-en.md` from reviewed batch translation bodies only — **COMPLETE**;\n2. verify items **1–58** occur exactly once and in order — **PASS at assembly gate**;\n3. run `EDITORIAL_CONSISTENCY_REVIEW.md` across names, titles, terminology, punctuation, dialogue, literary references and recurring rhetorical patterns — **NEXT**;\n4. verify all title-witness metadata remains traceable;\n5. ensure translator notes/review prose do not leak into verse unless deliberately designated;\n6. run complete source-coverage and Kalaignar-voice review;\n7. create `RELEASE_REPORT.md` only if all release gates pass.',
+    'TRANSLATION_PLAN.md',
+)
+text = re.sub(
+    r'## Exact next activity\n.*\Z',
+    '''## Exact next activity
+
+Create `EDITORIAL_CONSISTENCY_REVIEW.md` and perform a full-work review of `kaalap-pezhaiyum-kavithai-saaviyum-en.md`.
+
+The review must cover stable item order/completeness, recurring proper names and transliterations, literary and administrative terminology, punctuation and quotation conventions, dialogue/speaker distinction, repeated rhetoric, direct address, satire/polemic, source-visible separators and item-internal notes, all 14 title-witness decisions, and the item-58 closing boundary. Compare against the reviewed batch records when a consistency question arises. Do not silently repair source claims through outside knowledge and do not alter the Tamil canonical/page layer. Mark this gate PASS only after the complete 58-item assembled collection has been reviewed; `RELEASE_REPORT.md` remains blocked until then.
+''',
+    text,
+    flags=re.DOTALL,
+)
+p.write_text(text, encoding='utf-8')
+
+# SOURCE_MAP
+p = root / 'SOURCE_MAP.md'
+text = p.read_text(encoding='utf-8')
+text = replace_once(
+    text,
+    '- Tamil canonical/page files modified during translation: **0**.',
+    '- Tamil canonical/page files modified during translation: **0**.\n- reader-facing collection assembly: **COMPLETE — 58/58 items exactly once and in order**.',
+    'SOURCE_MAP.md',
+)
+text = re.sub(
+    r'## Exact next activity\n.*\Z',
+    '''## Exact next activity
+
+Perform the full-work editorial/terminology/Kalaignar-voice consistency review of `kaalap-pezhaiyum-kavithai-saaviyum-en.md` and record the result in `EDITORIAL_CONSISTENCY_REVIEW.md`.
+
+Use the reviewed batch records and this source map to check all **58 items** for internal consistency while preserving source fidelity: recurring names and transliterations, literary works and administrative terms, title-witness decisions, punctuation and dialogue treatment, rhetorical repetition, source-visible separators, item-internal notes and the verified item-58 boundary. Do not alter Tamil canonical/page files and do not begin the release report until this review gate passes.
+''',
+    text,
+    flags=re.DOTALL,
+)
+p.write_text(text, encoding='utf-8')
+
+print('Assembly verified and status documents synchronized.')
