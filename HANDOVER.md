@@ -9,30 +9,28 @@ Branch: `main`
 
 **Treat live GitHub `main` as authoritative.**
 
-A SHA, count, phase label or next-step instruction copied into an older chat/prompt is only a checkpoint. If live `main` has advanced, continue from the newer repository state and do not revert completed work.
+A SHA, count, phase label or next-step instruction copied into an older chat/prompt is only a checkpoint. If live `main` has advanced, use the newer repository state and do not revert completed work.
 
 The controlling source scan remains the highest textual authority for Tamil source wording unless a documented user instruction explicitly establishes another lexical/editorial control.
 
 ## Mandatory startup for every continuation
 
-Before making any repository change:
+Before changing an existing work:
 
-1. inspect live `main` and note its current HEAD;
-2. read `POEM_PROCESSING_GUIDE.md` **completely**;
-3. read `TRANSCRIPTION_PHASE_PLAN.md` **completely**;
-4. read root `README.md` **completely**;
-5. read `NEXT_CHAT_PROMPT.md` **completely**;
-6. for the active work, read its `README.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md` and every phase-specific control/audit file relevant to the current activity;
-7. inspect existing output files before creating anything; continue them and do not duplicate records;
-8. inspect the controlling source when the current activity requires direct source verification;
-9. do not commit source PDFs;
-10. determine the declared current phase/gate from live work-level evidence before acting;
-11. if status-bearing documents disagree, reconcile stale documents to the newest live work state rather than restarting an older phase;
-12. do not restart completed work merely because this is a fresh chat.
+1. fetch live `main` and note the current HEAD;
+2. read `POEM_PROCESSING_GUIDE.md` completely;
+3. read `TRANSCRIPTION_PHASE_PLAN.md` completely;
+4. read root `README.md` and `NEXT_CHAT_PROMPT.md` completely;
+5. read the target work's current README, source metadata, page map, audit/control records and relevant phase/release files;
+6. inspect existing outputs before creating anything;
+7. use the controlling source directly whenever the requested activity requires source verification;
+8. never commit source PDFs;
+9. if status-bearing documents disagree, reconcile them to the newest live work-level evidence instead of restarting an older phase;
+10. when the user says **“Proceed with next activity”**, execute the exact next operation recorded in live state. If a completed work explicitly records that no routine next activity remains, do not invent a new project scope.
 
 ---
 
-# CURRENT ACTIVE WORK — காலப் பேழையும் கவிதைச் சாவியும்
+# Completed work — காலப் பேழையும் கவிதைச் சாவியும்
 
 Work directory: `poems/kaalap-pezhaiyum-kavithai-saaviyum/`  
 Tamil title: **காலப் பேழையும் கவிதைச் சாவியும்**  
@@ -41,123 +39,62 @@ Controlling source: `TVA_BOK_0063593_காலப்_பேழையும்_�
 SHA-256: `ad5a6a4b4d2b111120f99baa4aff4ab639cf1a9f9c71a6899e0c3d2c4a08bcc3`  
 Physical scans: **306**.
 
-## Current phase
+## Final durable state
 
-**Phase 3 — canonical Tamil assembly is active.**
+**Tamil archival/source layer: FINAL-CLEARED.**  
+**English Phase 4: COMPLETE — RELEASE-CLEARED — PASS.**
 
-Do not return to transcription, Phase-2 verification, scan/page reconciliation, boundary auditing or title-witness reconciliation unless a genuine newly discovered source discrepancy requires a documented reopen.
+Durable release record: `poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/RELEASE_REPORT.md`.
 
-### Completed gates
+Final counts and gates:
 
 - Phase 1 page-record transcription: **306/306 — COMPLETE**;
-- contents: **58/58 verified**;
-- Phase 2 independent source-critical visual verification: **306/306 — COMPLETE**;
-- unresolved readings after Phase 2: **none**;
-- Phase 3 scan ↔ printed-page reconciliation: **COMPLETE**;
-- all **306 scans** structurally accounted for;
-- scans **5–299** correspond to logical printed pages **4–298** continuously;
-- all **58** contents start pages align with title scans by `title scan = contents start page + 1`;
-- Phase 3 boundary / within-item page-join audit: **COMPLETE — 58/58 items certified**;
-- closing boundary **299→300: PASS**; scan 299 closes the numbered sequence with `(முதல் பாகம் முற்றிற்று)`, scan 300 begins separate `குறிப்புகள்` end matter;
-- Phase 3 title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**.
+- Phase 2 source-critical visual verification: **306/306 — COMPLETE**;
+- unresolved Tamil readings: **0**;
+- scan ↔ printed-page reconciliation: **COMPLETE**;
+- boundary / page-join audit: **58/58 items — PASS**;
+- title-witness reconciliation: **14/14 discrepancy cases — PASS**;
+- canonical Tamil assembly: **58/58** (`sections/01.md` … `sections/58.md`);
+- assembly/source-completeness review: **PASS**;
+- Tamil final clearance: **PASS**;
+- English translation batches: **21/21 reviewed PASS**;
+- English stable items: **58/58**;
+- numbered-item English scan coverage: **290/290**, scans **10–299**;
+- complete reader-facing English assembly: **RELEASE-CLEARED**;
+- standalone English poem files: **58/58**, indexed under `translations/en/items/`;
+- full-work editorial/terminology/Kalaignar-voice review: **PASS**;
+- final source-coverage/release review: **PASS**;
+- unresolved release issues: **0**;
+- Tamil canonical/page files changed during Phase 4: **0**.
 
-### Current canonical assembly state
+The numbered first-part collection ends at scan **299** with `(முதல் பாகம் முற்றிற்று)` / `(First Part Complete)`. Scan **300** begins separate `குறிப்புகள்` end matter and is not part of item 58's English translation.
 
-Canonical assembly status: **11/58 item files assembled**.
-
-Existing canonical files:
-
-- `sections/01.md` — item 1 — scans 10–11;
-- `sections/02.md` — item 2 — scans 12–15;
-- `sections/03.md` — item 3 — scans 16–19;
-- `sections/04.md` — item 4 — scans 20–24;
-- `sections/05.md` — item 5 — scans 25–28;
-- `sections/06.md` — item 6 — scans 29–34;
-- `sections/07.md` — item 7 — scans 35–39;
-- `sections/08.md` — item 8 — scans 40–43;
-- `sections/09.md` — item 9 — scans 44–49;
-- `sections/10.md` — item 10 — scans 50–53;
-- `sections/11.md` — item 11 — scans 54–57.
-
-Canonical-assembly iteration 1, scans **10–34**, is complete.  
-Canonical-assembly iteration 2, scans **35–59**, is complete.
-
-Item 12 spans scans **58–63**. Scans **58–59** were intentionally carried forward; no partial `sections/12.md` exists.
-
-The work-state checkpoint recording iteration 2 is commit `4eec236ba6ec0ec2f1b436ea97348bf75e51e8dd` (`Record Kaalap Pezhai canonical assembly batch 2`). Later status-sync commits follow it. **Do not assume that SHA is still HEAD; always fetch live `main` first.**
-
-## Canonical assembly rules
-
-The governing record is:
-
-`poems/kaalap-pezhaiyum-kavithai-saaviyum/PHASE3_CANONICAL_ASSEMBLY.md`
-
-Mandatory rules:
-
-1. assemble stable item sequence **1–58**;
-2. derive body text only from the item's `verified` `pages/NNNN.md` records;
-3. preserve verified spelling, punctuation, lineation, quotation structure, separators, notes and unusual source forms;
-4. preserve physical-page provenance with `<!-- scan_page: N -->` markers;
-5. use stable numeric filenames `01.md` … `58.md`;
-6. use the **item-opening title-page witness** as the canonical displayed title;
-7. when the contents title differs, preserve the contents witness separately in front matter / source metadata — never create a hybrid title;
-8. preserve item 37's title-page printed number **36** as a source anomaly while keeping stable sequence identity **37**;
-9. routine assembly proceeds in **25-physical-scan iterations**;
-10. if an iteration ends inside an item, **do not create a partial canonical item file**; carry the whole item forward until its complete certified range is available;
-11. if assembly uncovers a genuine discrepancy in a verified source record, reopen/document/correct the source layer and revalidate affected assembly rather than silently fixing only `sections/`;
-12. do not begin assembly/source-completeness review before all **58/58** canonical item files exist;
-13. do not begin Phase 4 translation before Tamil final clearance.
-
-## Title-witness discrepancy set
-
-The contents and title-page witnesses differ for items:
+The 14 title-witness discrepancy items remain:
 
 **18, 22, 25, 26, 29, 31, 32, 37, 40, 44, 46, 50, 54 and 58.**
 
-The completed reconciliation rule is: title-page witness for canonical display title; contents witness preserved separately; no hybrid normalization.
+Item 37 remains stable item **37** while preserving printed item number **36** only as a source anomaly.
 
-Important source anomalies include:
+## Completion boundary
 
-- item 37: contents `அன்பால் அவனை விலை கொள்ள முடியுமா?`; title page `அன்பால் அவனை விலைகொள்ள முடியுமோ?`; title page visibly prints item number **36**;
-- item 50: contents `குருதிக் களமே! கொலு மண்டபம் ஆனது!`; title page `குருதிக்களமே; கொலு மண்டபம் ஆனது!`;
-- item 54: contents `தலையாலங்கானத்துச் செரு வென்றான்!`; title page `தலையாலங்கானத்துச் செருவென்றான்!`;
-- item 58: contents `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்`; title page `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!`.
+There is **no remaining routine Phase-4 activity** for `காலப் பேழையும் கவிதைச் சாவியும்`.
 
-Read the full decision record before encountering these items:
+Do not retranscribe, reassemble, retranslate, normalize or reopen this released work merely because a fresh chat begins. A future change requires either:
 
-`PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-## Exact next activity
-
-Process **physical scans 60–84** as canonical-assembly iteration 3, while completing carried item 12 from its full certified range **58–63**.
-
-Create only the complete certified items available at that boundary:
-
-- item 12 — scans **58–63** → `sections/12.md`;
-- item 13 — scans **64–67** → `sections/13.md`;
-- item 14 — scans **68–77** → `sections/14.md`;
-- item 15 — scans **78–81** → `sections/15.md`.
-
-Item 16 begins at scan **82** and continues through scan **87**. Because iteration 3 ends at scan 84, **do not create `sections/16.md` in that iteration**. Carry item 16 forward until its full certified range is available in the following iteration.
-
-Before creating 12–15, inspect the existing canonical files for the front-matter/provenance pattern and read the verified page records for scans 60–84 together with carried scans 58–59 for item 12.
-
-At iteration completion:
-
-- update `PHASE3_CANONICAL_ASSEMBLY.md`;
-- update the work `README.md`;
-- synchronize any other status-bearing file whose progress claim becomes stale;
-- report files created/changed, cumulative canonical count, resulting live `main` SHA and exact next 25-scan activity.
+- a genuine source-backed discrepancy with a documented reopen of the affected source/audit/canonical/release layers; or
+- an explicit new editorial/derivative scope from the user.
 
 ---
 
-# Other work — தென்னவன் காதை
+# Paused work — தென்னவன் காதை
 
 Work directory: `poems/thennan-kathai/`.
 
 Tamil archival/source layer: **FINAL-CLEARED**.
 
-English translation is partially complete and currently paused while another work is active. When this work is explicitly resumed:
+English translation is partially complete and paused. It is **not automatically selected merely because the Kaalap work is complete**. Resume it only when the user explicitly selects that work or gives a clearly equivalent instruction.
+
+When explicitly resumed:
 
 - read all live translation control files first;
 - next permitted batch: **EN-03 — scans 149–151 only**;
@@ -175,24 +112,18 @@ Work directory: `poems/idhayathai-thanthidu-anna/`.
 - Tamil archival/source layer: **COMPLETE**;
 - English translation: **RELEASE-COMPLETE**.
 
-Do not retranscribe, normalize, retranslate or modify this released work unless a genuine source-level discrepancy is found and documented or the user explicitly requests a separately tracked editorial revision.
-
-The established translation principle remains:
-
-> **Retain Kalaignar's language while translating.**
-
-Voice fidelity takes priority over generic elegance: preserve direct address, public cadence, repetition, political specificity, literary/classical references, imagery and emotional escalation.
+Do not modify this released work unless a genuine source-level discrepancy is documented or the user explicitly requests a separately tracked revision.
 
 ---
 
 # General continuation rule
 
-For any work in this repository:
+For every work:
 
-- inspect live source/work state first;
+- live `main` is authoritative;
 - continue, do not duplicate;
 - preserve controlling-source evidence;
-- respect the declared phase/gate;
+- respect declared phase/gate/completion boundaries;
 - keep user lexical/editorial controls durable;
-- synchronize stale status documents at phase/handoff boundaries;
-- when the user says **“Proceed with next activity”**, execute the exact next operation recorded in live state without asking them to choose a routine step.
+- synchronize stale phase/progress/next-activity claims at milestones and handoffs;
+- never infer that completion of one work authorizes starting another work without user scope.

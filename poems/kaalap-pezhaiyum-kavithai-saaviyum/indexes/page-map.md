@@ -112,15 +112,12 @@ Total: **4 + 295 + 6 + 1 = 306 scans**.
 
 There is no unexplained physical gap, duplicate scan, or missing pagination position in the numbered block.
 
-## Still deferred within Phase 3
+## Subsequent phase outcome
 
-This mapping pass does **not** itself certify textual joins between adjacent page records. The next Phase-3 activity is therefore:
+The later Phase-3 boundary/page-join audit, title-witness reconciliation, canonical assembly, source-completeness review and Tamil final-clearance gates all completed **PASS**.
 
-1. audit and certify the **58 item boundaries** against the title scans and contents witnesses;
-2. audit every **within-item page join / continuation** for dropped or duplicated lines, quotation carry-over and separator placement;
-3. preserve all documented contents-vs-title-page witness differences rather than silently choosing one;
-4. only after those checks pass, begin canonical Tamil assembly.
+Phase 4 English translation/release subsequently also completed **PASS — RELEASE-CLEARED**.
 
-## Exact next activity
+Current durable release record: `../translations/en/RELEASE_REPORT.md`.
 
-Perform the **58-item boundary and page-join continuity audit**, starting from item 1 and proceeding sequentially. Do not begin canonical Tamil assembly until the structural/page-join audit is complete.
+This page map remains the authoritative structural mapping record; its completed pagination results are unchanged. There is no remaining mapping-phase next activity.

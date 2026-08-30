@@ -18,41 +18,24 @@
 
 ## Current processing phase
 
-This work is currently in **Phase 3 — structure, completeness, canonical assembly and Tamil final clearance**.
+**Processing complete for the numbered first-part collection.**
 
-Governing repository references:
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- canonical items: **58/58**;
+- English Phase 4: **COMPLETE — RELEASE-CLEARED — PASS**;
+- English items: **58/58**;
+- standalone English files: **58/58**;
+- final source-coverage/release review: **PASS**;
+- unresolved release issues: **0**.
 
-- `TRANSCRIPTION_PHASE_PLAN.md`;
-- `POEM_PROCESSING_GUIDE.md`;
-- work `README.md`;
-- `PHASE3_STRUCTURE_AUDIT.md`;
-- `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- `PHASE3_CANONICAL_ASSEMBLY.md`.
+Governing completion records:
 
-### Completed source layers
+- `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+- `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+- `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+- `translations/en/RELEASE_REPORT.md`.
 
-- Phase 1 page-record transcription: **306/306 — COMPLETE**;
-- contents entries: **58/58 VERIFIED**;
-- Phase 2 independent source-critical visual verification: **306/306 — COMPLETE**;
-- unresolved readings after Phase 2: **none**;
-- Phase-3 physical scan ↔ printed-page reconciliation: **COMPLETE**;
-- Phase-3 item-boundary / within-item join audit: **COMPLETE — 58/58 items certified**;
-- Phase-3 title-witness reconciliation: **COMPLETE — 14/14 discrepancy cases reconciled**.
-
-### Active source-derived work
-
-Canonical Tamil assembly is **IN PROGRESS — 11/58 item files assembled**.
-
-- completed: `sections/01.md` through `sections/11.md`;
-- latest 25-scan assembly iteration: **scans 35–59 — COMPLETE**;
-- next 25-scan assembly iteration: **scans 60–84**;
-- carried item 12 uses its full certified range **58–63**, with scans 58–59 carried from the completed iteration;
-- next complete files to create: `sections/12.md` through `sections/15.md`;
-- item 16 begins at scan 82 and continues through scan 87, so **do not publish an incomplete `sections/16.md` at the scan-84 iteration boundary**;
-- assembly/source-completeness review remains blocked until all 58 canonical item files exist;
-- Tamil final clearance remains pending that review;
-- Phase 4 English translation remains blocked until Tamil final clearance.
+No routine phase activity remains. The controlling scan remains the ultimate authority if a genuine future source-backed correction is opened.
 
 ## Physical / pagination structure
 
@@ -113,6 +96,8 @@ The controlling PDF bytes opened directly as a **306-page PDF**. Any external pr
 
 ## Status
 
-The source identity, complete page-record layer, source-critical visual verification, pagination structure, 58-item boundary/join audit and title-witness reconciliation are complete. Current work is canonical Tamil assembly from the verified page layer, with **11/58** item files assembled and **scans 60–84** next, completing carried item 12 from scans **58–63**.
+Source identity, page-record transcription, source-critical visual verification, pagination reconciliation, 58-item boundary/join audit, 14-case title-witness reconciliation, 58/58 canonical Tamil assembly, assembly/source-completeness review and Tamil final clearance are complete.
 
-The controlling scan remains the ultimate textual authority throughout assembly. No spelling, punctuation, lineation, note, source anomaly or title witness may be silently normalized.
+English Phase 4 is also complete and release-cleared: 21/21 reviewed batches, 58/58 English items, 290/290 numbered-item source scans, complete reader-facing assembly, 58/58 standalone English files, editorial consistency PASS and final source-coverage/release PASS.
+
+The controlling scan remains the highest textual authority. Future source corrections must be explicitly reopened and propagated through affected source/audit/canonical/release records; released Tamil or English text must not be silently normalized.

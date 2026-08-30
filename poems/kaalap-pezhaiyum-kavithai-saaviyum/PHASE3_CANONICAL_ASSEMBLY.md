@@ -107,10 +107,10 @@ Final-clearance result:
 
 The controlling scan remains the highest textual authority. A future genuine source-backed correction must reopen the affected source/page/audit/canonical records; final clearance is not permission to silently normalize or rewrite Tamil text in a derivative layer.
 
-## Exact next activity
+## Subsequent Phase 4 outcome
 
-Begin **Phase 4 translation planning** for all **58 final-cleared canonical Tamil items**.
+Phase 4 translation/release subsequently completed **PASS — RELEASE-CLEARED**.
 
-Before translating content, establish the English translation inventory/source map, stable item correspondence, title-witness treatment in English-facing metadata, batching/review policy, and Kalaignar voice-fidelity constraints under `POEM_PROCESSING_GUIDE.md`.
+Final release record: `translations/en/RELEASE_REPORT.md`.
 
-Do not alter the final-cleared Tamil canonical files during Phase 4 planning.
+The Tamil final-cleared source/canonical layer remained unchanged during Phase 4. No routine next activity remains for this numbered first-part collection.

@@ -105,10 +105,10 @@ The controlling scan remains the highest textual authority. Final clearance does
 
 No English translation was created as part of this clearance activity.
 
-## Exact next activity
+## Subsequent Phase 4 outcome
 
-Begin **Phase 4 translation planning** for the 58 final-cleared canonical Tamil items before translating prose/verse content.
+Phase 4 translation/release subsequently completed **PASS — RELEASE-CLEARED**.
 
-The planning step should establish the translation inventory/source map, stable item correspondence, title-witness handling in English-facing metadata, batching/review policy, and Kalaignar voice-fidelity constraints under `POEM_PROCESSING_GUIDE.md`.
+Final release record: `translations/en/RELEASE_REPORT.md`.
 
-Do not alter the final-cleared Tamil canonical text during translation planning.
+The Tamil final-cleared source/canonical layer remained unchanged during Phase 4. No routine next activity remains for this numbered first-part collection.

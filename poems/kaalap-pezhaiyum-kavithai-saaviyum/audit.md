@@ -2,28 +2,31 @@
 
 ## Current phase
 
-**Phase 3 — CANONICAL TAMIL ASSEMBLY.**
+**ALL DECLARED PHASES COMPLETE — ENGLISH RELEASE CLEARED.**
 
-Phase 1 transcription is complete for all **306/306 physical scans** and Phase 2 source-critical visual verification is complete for all **306/306 scans**. Phase-3 scan/page reconciliation, the 58-item boundary/page-join audit and the 14-case title-witness reconciliation are also complete. The active task is canonical Tamil assembly from the verified page layer. Phase 4 translation remains blocked until Tamil final clearance.
+Phase 1 transcription, Phase 2 source-critical verification, every Phase-3 Tamil/source gate and Phase-4 translation/release gate are complete. This file's correction ledger below remains historical evidence of Phase-2 verification and later source-control work; it is not an instruction to resume an older phase.
 
-Governing plan: repository root `TRANSCRIPTION_PHASE_PLAN.md`.
+## Current verification / release state
 
-## Current verification / assembly state
+- physical scans in controlling PDF: **306**;
+- Phase-1 page records: **306/306 — COMPLETE**;
+- Phase-2 source-critical verification: **306/306 — COMPLETE**;
+- unresolved Tamil readings: **0**;
+- Phase-3 structural/title/assembly/source-completeness gates: **COMPLETE — PASS**;
+- canonical Tamil items: **58/58**;
+- Tamil final clearance: **PASS — FINAL-CLEARED**;
+- Phase-4 translation batches: **21/21 reviewed PASS**;
+- English items: **58/58**;
+- numbered-item English source scans: **290/290**, scans **10–299**;
+- standalone English item files: **58/58**;
+- editorial review: **PASS**;
+- final release review: **PASS — RELEASE-CLEARED**;
+- unresolved release issues: **0**;
+- Tamil canonical/page files modified during Phase 4: **0**.
 
-- physical scans in controlling PDF: **306**
-- Phase-1 page records represented: **306/306 — COMPLETE**
-- numbered item/title pages observed: **58/58**
-- Phase-2 source-critical verification: **306/306 — COMPLETE**
-- unresolved readings after Phase 2: **none**
-- Phase-3 scan ↔ printed-page reconciliation: **COMPLETE**
-- Phase-3 boundary / page-join audit: **58/58 items certified — COMPLETE**
-- Phase-3 title-witness reconciliation: **14/14 discrepancy cases — COMPLETE**
-- canonical Tamil assembly: **11/58 item files assembled**
-- completed canonical files: `sections/01.md` through `sections/11.md`
-- latest assembly iteration: **scans 35–59 — COMPLETE**
-- next assembly iteration: **scans 60–84**, completing carried item 12 from scans **58–63**
-- assembly/source-completeness review: **BLOCKED until 58/58 canonical item files exist**
-- Phase 4 translation: **BLOCKED until Tamil final clearance**
+Durable final release record: `translations/en/RELEASE_REPORT.md`.
+
+No routine next activity remains for this released work.
 
 ## Phase-2 verification rules
 
