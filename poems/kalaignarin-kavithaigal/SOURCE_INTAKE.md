@@ -2,7 +2,7 @@
 
 ## Intake result
 
-**REGISTERED AS A NEW SOURCE-SPECIFIC WORK — EXACT PDF EXTENT NOW CONFIRMED.**
+**REGISTERED AS A SOURCE-SPECIFIC WORK — EXACT PDF EXTENT CONFIRMED.**
 
 Work directory: `poems/kalaignarin-kavithaigal/`
 
@@ -23,38 +23,34 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 ## Source-extent correction
 
-The original intake mistakenly recorded 150 as the PDF's physical page count because the Files renderer exposed only pages 1–150. The user corrected that assumption. Direct access to the exact mounted PDF bytes confirms **465 physical pages**.
-
-Physical scan 150 is therefore only an earlier rendering-window boundary, not a source boundary. Batch 07 has now been processed directly from the same exact PDF through scan **175**.
+The original intake mistakenly recorded 150 as the PDF's physical page count because an interface renderer exposed only pages 1–150. Direct access to the exact source bytes confirms **465 physical pages**. Physical scan 150 is only an earlier rendering-window boundary, not a source boundary.
 
 ## Current processing state
 
-- Phase 1 first-pass records: **175/465**;
-- completed batches: scans **1–175**;
-- next batch: scans **176–200**;
-- current item: `பொங்கல் திருநாள்`, opened scan **175** and continuing;
+- Phase 1 first-pass records: **300/465**;
+- completed batches: **01–12, scans 1–300**;
+- cumulative status: **10 `partial`, 290 `needs-review`, 0 `verified`**;
+- current item: `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, opened scan **297 / printed page 280** and continuing beyond scan **300 / printed page 283**;
+- next batch: **Batch 13 — scans 301–325**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
 
+Batch-12 source boundaries:
+
+- `சிலப்பதிகார விருந்து` closes scan **285 / printed page 268**;
+- `அண்ணா வழியில்` spans scans **286–292**, closes printed page **275**;
+- `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` spans scans **293–296**, closes printed page **279**;
+- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` opens scan **297 / printed page 280** and remains open at scan **300 / printed page 283**.
+
 ## Existing source witnesses
 
-The anthology contains at least two works already archived from different controlling sources:
-
-- `இதயத்தைத் தந்திடு அண்ணா!`;
-- `தென்னவன் காதை`.
-
-Those earlier source-specific transcriptions are provenance references only and must not be copied into this anthology witness.
+The anthology contains works already archived from different controlling sources, including `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`. Those earlier source-specific transcriptions are provenance references only and must not be copied into this anthology witness. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Blur-control rule
 
-Because the PDF contains blurred text:
-
-- only confidently legible text is transcribed in Phase 1;
-- uncertain spans remain explicit `⟦…⟧` markers;
-- no OCR, memory, metre, grammar, historical expectation or other edition may silently fill blur;
-- exact resolution belongs to the later independent Phase-2 visual/glyph pass.
+Because the PDF contains blurred text, only confidently legible text is transcribed in Phase 1. Uncertain spans remain explicit `⟦…⟧` markers. OCR, memory, metre, grammar, historical expectation or another edition may not silently fill blur. Exact resolution belongs to the later independent Phase-2 visual/glyph pass.
 
 ## Current next activity
 
-**Phase 1 Batch 08 — physical scans 176–200**, continuing directly from the unfinished `பொங்கல் திருநாள்` item at scan 175.
+**Phase 1 Batch 13 — physical scans 301–325**, continuing directly from the unfinished `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` item at scan 300.

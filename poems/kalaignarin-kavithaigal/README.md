@@ -4,11 +4,9 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 275/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 300/465 physical pages recorded.**
 
-Controlling source:
-
-`TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
+Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
 ## Exact source facts
 
@@ -21,19 +19,17 @@ Controlling source:
 - fourth edition: **March 1995**;
 - printed contents list works through at least printed page **444**.
 
-An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **275** from that same source.
+An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct access to the exact PDF confirms **465** pages; Phase 1 has now been read directly through scan **300** from that same source.
 
 ## Phase-1 progress
 
-Page records:
-
-`pages/0001.md` through `pages/0275.md`
+Page records: `pages/0001.md` through `pages/0300.md`
 
 Current cumulative status:
 
-- page records: **275/465**;
+- page records: **300/465**;
 - `partial`: **10**;
-- `needs-review`: **265**;
+- `needs-review`: **290**;
 - `verified`: **0**;
 - Phase 2: **not started**.
 
@@ -49,9 +45,10 @@ Completed Phase-1 batches:
 - Batch 08 — scans **176–200**;
 - Batch 09 — scans **201–225**;
 - Batch 10 — scans **226–250**;
-- Batch 11 — scans **251–275**.
+- Batch 11 — scans **251–275**;
+- Batch 12 — scans **276–300**.
 
-## Source boundaries through scan 275
+## Source boundaries through scan 300
 
 - `இதயத்தைத் தந்திடு அண்ணா` — closes 31;
 - `தென்னவன் காதை` — 34–42;
@@ -65,44 +62,35 @@ Completed Phase-1 batches:
 - `அருமறையில் அறுவர்` — 116–127;
 - `புதிய பாதை` — 128–137;
 - `உடைமைகள் பத்து` — 138–143;
-- `நீர்க் குடும்பம்` — **144–154**, closes 154;
-- `பாரதிதாசன்` — **155–169**, closes 169;
-- `பாரதியார்` — **170–174**, closes 174;
-- `பொங்கல் திருநாள்` — **175–184**, closes 184 / printed page 167;
-- `வாழ்வெனும் பாதையில்` — **185–196**, closes 196 / printed page 179;
-- `கணக்கு` — **197–204**, closes 204 / printed page 187;
-- `நேரு கண்ட ஜனநாயகம்` — **205–215**, closes 215 / printed page 198;
-- `நன்றி, நன்றி!` — **216–217**, closes 217 / printed page 200;
-- `வெள்ளி விழா` — **218–226**, closes 226 / printed page 209;
-- `அண்ணன் இருக்கின்றார்` — **227–229**, closes 229 / printed page 212;
-- `அண்ணன் ஒரு கவியரங்கம்` — **230–236 + 238**, closes 238 / printed page 221; scan 237 is an interposed title leaf for the next item;
-- `தமிழ் வளர வழிநடைப் பயணம்` — title leaf **237**, body **239–244**, closes 244 / printed page 227;
-- `வையம் தழைக்க` — **245–253**, closes 253 / printed page 236;
-- `தந்தை பெரியார்` — **254–260**, closes 260 / printed page 243;
-- `அகத்துறைப் படைப்புகள்` — **261–266**, closes 266 / printed page 249;
-- `பொங்கல் விழா` — **267–272**, closes 272 / printed page 255;
-- `சிலப்பதிகார விருந்து` — opens **273** and continues beyond scan 275 / printed page 258.
+- `நீர்க் குடும்பம்` — 144–154;
+- `பாரதிதாசன்` — 155–169;
+- `பாரதியார்` — 170–174;
+- `பொங்கல் திருநாள்` — 175–184;
+- `வாழ்வெனும் பாதையில்` — 185–196;
+- `கணக்கு` — 197–204;
+- `நேரு கண்ட ஜனநாயகம்` — 205–215;
+- `நன்றி, நன்றி!` — 216–217;
+- `வெள்ளி விழா` — 218–226;
+- `அண்ணன் இருக்கின்றார்` — 227–229;
+- `அண்ணன் ஒரு கவியரங்கம்` — 230–236 + 238; closes 238; scan 237 is an interposed next-item title leaf;
+- `தமிழ் வளர வழிநடைப் பயணம்` — title leaf 237, body 239–244; closes 244;
+- `வையம் தழைக்க` — 245–253;
+- `தந்தை பெரியார்` — 254–260;
+- `அகத்துறைப் படைப்புகள்` — 261–266;
+- `பொங்கல் விழா` — 267–272;
+- `சிலப்பதிகார விருந்து` — 273–285, closes **285 / printed page 268**;
+- `அண்ணா வழியில்` — 286–292, closes **292 / printed page 275**;
+- `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` — 293–296, closes **296 / printed page 279**;
+- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` — opens **297 / printed page 280**, remains open through **300 / printed page 283**.
 
 ## Blur / difficult-reading control
 
-The PDF contains blurred text in places. During Phase 1:
-
-- only confidently legible text is transcribed;
-- uncertain spans remain explicit `⟦…⟧` markers;
-- no OCR, remembered wording, metre, grammar, historical expectation or other edition may silently fill blur;
-- source-visible lineation, speaker labels, performance notes and page boundaries are preserved where legible;
-- pages with unresolved text remain `needs-review` for the later independent Phase-2 glyph review.
+The PDF contains blurred text in places. During Phase 1 only confidently legible text is transcribed. Unresolved spans remain explicit `⟦…⟧` markers. No OCR, remembered wording, metre, grammar, historical expectation or other edition may silently fill blur. Source-visible lineation, speaker labels, performance notes and page boundaries are preserved where legible. Pages remain `needs-review` until the later independent Phase-2 glyph review.
 
 ## Existing-source overlap rule
 
-Works already archived from separate witnesses, including `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`, are not copied into this anthology transcription. This 1995 anthology remains an independent source witness.
-
-The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force and must not be reintroduced.
+Works already archived from separate witnesses, including `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`, are not copied into this anthology transcription. This 1995 anthology remains an independent source witness. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 12 — scans 276–300**.
-
-Create `pages/0276.md` through `pages/0300.md`, continuing directly from the unfinished `சிலப்பதிகார விருந்து` item at scan 275.
-
-Do not begin Phase 2 in the same activity.
+Begin **Phase 1 Batch 13 — scans 301–325**. Create `pages/0301.md` through `pages/0325.md`, continuing directly from the unfinished `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` at scan 300. Do not begin Phase 2 in the same activity.

@@ -11,31 +11,18 @@ For each physical scan:
 - preserve spelling, punctuation, headings, quotation marks, lineation and unusual printed forms as seen;
 - record the physical scan number and any **visibly printed** page number;
 - distinguish later marks/show-through from edition text;
-- if a glyph or word is unreadable, record uncertainty explicitly rather than guessing;
+- if a glyph or word is unreadable, record uncertainty explicitly with `⟦…⟧` rather than guessing;
 - create `pages/NNNN.md`.
 
 Phase-1 records are not `verified` merely because they exist.
 
 ## Phase 2 — source-critical visual verification
 
-After Phase 1 is complete across the source:
-
-- independently reread each page against the scan;
-- check every word/glyph, punctuation, lineation, quotation, separator and non-Tamil material;
-- use enlarged source inspection when needed;
-- correct only source-backed discrepancies;
-- promote a page to `verified` only after the independent visual review passes.
+After Phase 1 is complete across the source, independently reread every page against the controlling scan, checking every word/glyph, punctuation mark, line break, quotation, separator and non-Tamil element. Promote a page to `verified` only after that independent visual review passes.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-Proceed only after page verification:
-
-1. scan ↔ printed-page reconciliation;
-2. item/work boundary and page-join audit;
-3. title-witness reconciliation;
-4. canonical Tamil assembly;
-5. assembly/source-completeness review;
-6. Tamil final clearance.
+Proceed only after page verification: scan↔printed-page reconciliation; item/work boundary and page-join audit; title-witness reconciliation; canonical Tamil assembly; assembly/source-completeness review; Tamil final clearance.
 
 ## Phase 4 — translation and release
 
@@ -54,52 +41,38 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - source title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
-- publisher visible: **பாரதி பதிப்பகம்**;
+- publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
 The previous 150-page assumption was a renderer-window error and is withdrawn. Direct full-source access confirms 465 physical pages.
 
 ### Phase-1 state
 
-- page records created: **275/465** — `pages/0001.md` through `pages/0275.md`;
-- cumulative status: **10 `partial`, 265 `needs-review`, 0 `verified`**;
-- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200; 09 scans 201–225; 10 scans 226–250; 11 scans 251–275**;
-- `நீர்க் குடும்பம்` closes scan **154** / printed page **137**;
-- `பாரதிதாசன்` spans scans **155–169**;
-- `பாரதியார்` spans scans **170–174**;
-- `பொங்கல் திருநாள்` spans scans **175–184**;
-- `வாழ்வெனும் பாதையில்` spans scans **185–196**;
-- `கணக்கு` spans scans **197–204**;
-- `நேரு கண்ட ஜனநாயகம்` spans scans **205–215**;
-- `நன்றி, நன்றி!` spans scans **216–217**;
-- `வெள்ளி விழா` closes scan **226** / printed page **209**;
-- `அண்ணன் இருக்கின்றார்` spans scans **227–229**;
-- `அண்ணன் ஒரு கவியரங்கம்` spans scans **230–236 + 238**, with scan **237** physically interposed as the next item’s title leaf;
-- `தமிழ் வளர வழிநடைப் பயணம்` has title leaf scan **237**, body scans **239–244**, and closes scan **244**;
-- `வையம் தழைக்க` closes scan **253** / printed page **236**;
-- `தந்தை பெரியார்` spans scans **254–260**;
-- `அகத்துறைப் படைப்புகள்` spans scans **261–266**;
-- `பொங்கல் விழா` spans scans **267–272**;
-- current item: `சிலப்பதிகார விருந்து`, opened scan **273** and continuing beyond scan **275**;
+- page records created: **300/465** — `pages/0001.md` through `pages/0300.md`;
+- cumulative status: **10 `partial`, 290 `needs-review`, 0 `verified`**;
+- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150; 07 scans 151–175; 08 scans 176–200; 09 scans 201–225; 10 scans 226–250; 11 scans 251–275; 12 scans 276–300**;
+- `சிலப்பதிகார விருந்து` closes scan **285 / printed page 268**;
+- `அண்ணா வழியில்` spans scans **286–292**, closes printed page **275**;
+- `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` spans scans **293–296**, closes printed page **279**;
+- current item `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` opens scan **297 / printed page 280** and remains open after scan **300 / printed page 283**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Phase 4: **blocked**.
 
-### Blur rule
+### Blur and witness rules
 
 - use explicit `⟦…⟧` markers for unresolved Phase-1 spans;
 - do not reconstruct from OCR, memory, metre, grammar, historical expectation or another edition;
 - do not copy existing separate source witnesses into this anthology;
 - preserve source-visible speaker/performance structure where legible;
-- record only visibly printed page numerals.
+- record only visibly printed page numerals;
+- preserve the existing user-directed exclusion applicable to `தென்னவன் காதை`.
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 12 — physical scans 276–300**.
+Execute **Phase 1 Batch 13 — physical scans 301–325**.
 
-Create `pages/0276.md` through `pages/0300.md`, continuing directly from `சிலப்பதிகார விருந்து`.
-
-Do not begin Phase 2 in the same activity.
+Create `pages/0301.md` through `pages/0325.md`, continuing directly from the unfinished `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` at scan 300. Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.
 
 ## Completed prior application — காலப் பேழையும் கவிதைச் சாவியும்
 
