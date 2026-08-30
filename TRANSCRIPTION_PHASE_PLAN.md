@@ -18,7 +18,7 @@ Phase-1 records are not `verified` merely because they exist.
 
 ## Phase 2 — source-critical visual verification
 
-After Phase 1 is complete across the source actually being processed:
+After Phase 1 is complete across the source:
 
 - independently reread each page against the scan;
 - check every word/glyph, punctuation, lineation, quotation, separator and non-Tamil material;
@@ -47,23 +47,25 @@ Active work: `poems/kalaignarin-kavithaigal/`
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
-### Corrected source extent
+### Exact source identity
 
+- physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
-- PDF length: **more than 450 physical pages — user-confirmed; exact integer pending direct full-file metadata verification**;
-- current ChatGPT Files renderer exposes page images only through **page 150**;
-- old `150-page PDF` / `150-scan source tranche` assumptions were incorrect and are withdrawn;
-- contents list material through at least printed page **444**, consistent with a >450-page physical PDF;
-- SHA-256: **pending exact-byte computation; never guess**.
+- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
+- source title: **கலைஞரின் கவிதைகள்**;
+- author: **கலைஞர் மு. கருணாநிதி**;
+- publisher visible: **பாரதி பதிப்பகம்**;
+- edition: **fourth edition, March 1995**.
 
-The current renderer limit is an access/tooling limitation, not a source boundary. Scan 150 must never be treated as the end of this PDF merely because the current page-image interface stops there.
+The previous 150-page assumption was a renderer-window error and is withdrawn. Direct full-source access confirms 465 physical pages.
 
 ### Phase-1 state
 
-- page records created: **125** — `pages/0001.md` through `pages/0125.md`;
-- cumulative status: **10 `partial`, 115 `needs-review`, 0 `verified`**;
-- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125**;
-- current item: `அருமறையில் அறுவர்`, opened scan 116 and continuing beyond scan 125;
+- page records created: **150/465** — `pages/0001.md` through `pages/0150.md`;
+- cumulative status: **10 `partial`, 140 `needs-review`, 0 `verified`**;
+- completed batches: **01 scans 1–25; 02 scans 26–50; 03 scans 51–75; 04 scans 76–100; 05 scans 101–125; 06 scans 126–150**;
+- current item: `நீர்க் குடும்பம்`, opened scan 144 and continuing beyond scan 150;
+- scan 151 has been source-access checked and visibly prints page 134;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Phase 4: **blocked**.
@@ -78,11 +80,11 @@ The current renderer limit is an access/tooling limitation, not a source boundar
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 06 — physical scans 126–150**.
+Execute **Phase 1 Batch 07 — physical scans 151–175**.
 
-Create `pages/0126.md` through `pages/0150.md`, continuing directly from `அருமறையில் அறுவர்`.
+Create `pages/0151.md` through `pages/0175.md`, continuing directly from `நீர்க் குடும்பம்`.
 
-After Batch 06, Phase 1 must continue with **scan 151 onward** from the same PDF when tooling exposes the pages beyond the present renderer limit. Do **not** begin Phase 2 just because scan 150 is reached.
+Do not begin Phase 2 in the same activity.
 
 ## Completed prior application — காலப் பேழையும் கவிதைச் சாவியும்
 
