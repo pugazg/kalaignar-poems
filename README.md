@@ -17,7 +17,7 @@ Live GitHub `main` is authoritative. Source wording, punctuation, lineation, ப
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 400/465; Batch 17 scans 401–425 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 425/465; Batch 18 scans 426–450 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -35,25 +35,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**;
-- Phase 1 page records: **400/465**;
-- cumulative status: **10 partial, 390 needs-review, 0 verified**;
-- current open item: **`பகுத்தறிவுப் பாண்டியனார்!` — opens scan 400 and continues beyond Batch 16**;
-- exact next activity: **Phase 1 Batch 17 — scans 401–425**.
+- Phase 1 page records: **425/465**;
+- cumulative status: **10 partial, 415 needs-review, 0 verified**;
+- current item: **`ஒரு சொட்டுத் தேன்!`**, opened scan 425 and continuing beyond the batch boundary;
+- exact next activity: **Phase 1 Batch 18 — scans 426–450**.
 
-Recent boundaries:
-
-- `கலைத்தாயின் தலைச் செல்வன்!` — **376–378**, closes **378 / printed 361**;
-- `உன் நிழலாக அசைகின்றோம்!` — **379–381**, closes **381 / printed 364**;
-- `வாழ்க ஜீவா!` — **382–383**, closes **383 / printed 366**;
-- `மறைந்த மாவீரன்` — **384–389**, closes **389 / printed 372**;
-- `என் இனிய நண்பா! என் பிறந்தாய்?` — **390–391**, closes **391 / printed 374**;
-- `மலர்த் தோட்டம்` divider/verso — **392–393**;
-- `இன்றைக்கு உன் பிறந்த நாள்` — **394–395**, closes **395 / printed 378**;
-- `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` — **396–397**, closes **397 / printed 380**;
-- `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` — **398–399**, closes **399 / printed 382**;
-- `பகுத்தறிவுப் பாண்டியனார்!` — opens **400**, remains open.
-
-The earlier 150-page source-length assumption came from a renderer-window limitation and is withdrawn. Direct source-byte identity confirms the full **465-page** PDF.
+Recent boundaries include `பகுத்தறிவுப் பாண்டியனார்!` closing 402 / printed 385, `பச்சைக் கிளி` closing 412 / printed 395, `கற்பனை ஊற்று` closing 414 / printed 397, `வானமே பொழிக நீ!` closing 416 / printed 399, `அவர் உணர்வாரோ! யார் அறிவார்?` closing 419 / printed 402, `போர்வாளாய்ச் சுழலட்டுமே!` closing 421 / printed 404, and `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` closing 424 / printed 407.
 
 The anthology overlaps with separately archived source witnesses such as `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`; those texts are not transcription authority for this anthology witness and must not be copied into blurred spans. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 

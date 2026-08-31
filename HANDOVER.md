@@ -18,7 +18,7 @@ Before changing this repository in a fresh chat:
 3. read `TRANSCRIPTION_PHASE_PLAN.md` completely;
 4. read root `README.md` and `NEXT_CHAT_PROMPT.md` completely;
 5. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md` completely;
-6. inspect boundary record `poems/kalaignarin-kavithaigal/pages/0400.md`;
+6. inspect boundary record `poems/kalaignarin-kavithaigal/pages/0425.md`;
 7. use the controlling PDF directly whenever transcription/verification requires source evidence;
 8. never commit the source PDF or page-range access derivatives;
 9. synchronize status-bearing files at each completed batch;
@@ -44,33 +44,32 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 An earlier interface exposed only pages 1–150; that is not the source length. Exact-byte inspection established **465 physical pages**.
 
-The user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`, a 116-page page-range access derivative. Its page 1 is original physical scan 350. Derivative pages **2–26** correspond to original scans **351–375** and derivative pages **27–51** correspond to original scans **376–400**. This derivative is **not a separate witness** and does not change the controlling-source identity.
+The user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`, a 116-page page-range access derivative. Its page 1 is original physical scan 350. It is **not a separate witness** and does not change the controlling-source identity. Batch 17 used derivative pages **52–76**, corresponding exactly to original physical scans **401–425**.
 
 ## Durable Phase-1 state at handoff
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–400 / 465 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–425 / 465 recorded.**
 
-- Phase 1 page records: **400/465**;
-- files created: `pages/0001.md` through `pages/0400.md`;
-- cumulative status: **10 `partial`, 390 `needs-review`, 0 `verified`**;
-- completed batches: **01–16**;
+- Phase 1 page records: **425/465**;
+- files created: `pages/0001.md` through `pages/0425.md`;
+- cumulative status: **10 `partial`, 415 `needs-review`, 0 `verified`**;
+- completed batches: **01–17**;
 - Phase 2 source-critical verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation/release: **blocked until Tamil final clearance**.
 
 ## Recent durable source/item boundaries
 
-- `பன்னீர்ச்செல்வமே!` closes **375 / printed 358**;
-- `கலைத்தாயின் தலைச் செல்வன்!` spans **376–378**, closes **378 / printed 361**;
-- `உன் நிழலாக அசைகின்றோம்!` spans **379–381**, closes **381 / printed 364**;
-- `வாழ்க ஜீவா!` spans **382–383**, closes **383 / printed 366**;
-- `மறைந்த மாவீரன்` opens **384** (printed numeral not safely visible), spans **384–389**, and closes **389 / printed 372**;
-- `என் இனிய நண்பா! என் பிறந்தாய்?` opens **390** (printed numeral not safely visible) and closes **391 / printed 374**;
-- scan **392** is the `மலர்த் தோட்டம்` section divider; scan **393** is its verso/show-through page;
-- `இன்றைக்கு உன் பிறந்த நாள்` opens **394** and closes **395 / printed 378**;
-- `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` opens **396** and closes **397 / printed 380**;
-- `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` opens **398** and closes **399 / printed 382**;
-- `பகுத்தறிவுப் பாண்டியனார்!` opens **400** with no safely visible printed numeral and remains open beyond the Batch-16 boundary.
+- `பகுத்தறிவுப் பாண்டியனார்!` continues from scan 400 and **closes 402 / printed 385**;
+- scans **403–409** contain seven single-page poems: `நியாயத் தராசு`, `ஏற்பாரோ?`, `புயல் என அறிக!`, `கேட்டுண்டோ?`, `வருணமா? மரணமா?`, `தோல்வி எப்பொழுது?`, `இன்றுமா கூச்சல்?`;
+- `பச்சைக் கிளி` — **410–412**, closes **412 / printed 395**;
+- `கற்பனை ஊற்று` — **413–414**, closes **414 / printed 397**;
+- `வானமே பொழிக நீ!` — **415–416**, closes **416 / printed 399**;
+- `கவிதையில் ஒரு மடல்!` — **417**, single-page item;
+- `அவர் உணர்வாரோ! யார் அறிவார்?` — **418–419**, closes **419 / printed 402**; scan 418 has a visible lower-left `26` that is not treated as anthology pagination;
+- `போர்வாளாய்ச் சுழலட்டுமே!` — **420–421**, closes **421 / printed 404**;
+- `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` — **422–424**, closes **424 / printed 407**;
+- `ஒரு சொட்டுத் தேன்!` opens **425** and remains open beyond the Batch-17 boundary.
 
 ## Durable blur / difficult-reading rule
 
@@ -88,8 +87,8 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 17 — physical scans 401–425**.
+Execute **Phase 1 Batch 18 — physical scans 426–450**.
 
-Create `poems/kalaignarin-kavithaigal/pages/0401.md` through `pages/0425.md`, continuing directly from the unfinished `பகுத்தறிவுப் பாண்டியனார்!` at scan 400. Inspect every scan directly from the same controlling-source witness (or the source-faithful page-range access derivative of those exact scans), preserve physical boundaries and visible structure, and retain the conservative blur policy.
+Create `poems/kalaignarin-kavithaigal/pages/0426.md` through `pages/0450.md`, continuing directly from unfinished `ஒரு சொட்டுத் தேன்!` at scan 425. Inspect every scan directly from the same controlling-source witness or the source-faithful page-range access derivative, preserve physical boundaries and visible structure, and retain the conservative blur policy.
 
-At Batch-17 completion synchronize all status-bearing files to the exact next Phase-1 batch. Do **not** begin Phase 2, Phase 3, canonical assembly or translation in the same activity.
+At Batch-18 completion synchronize all status-bearing files to the exact next Phase-1 activity. Do **not** begin Phase 2, Phase 3, canonical assembly or translation in the same activity.

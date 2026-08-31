@@ -25,34 +25,34 @@
 - filename: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`;
 - pages: **116**;
 - mapping: derivative page 1 = original physical scan **350**;
-- Batch-15 mapping: derivative pages **2–26** = original physical scans **351–375**;
-- Batch-16 mapping: derivative pages **27–51** = original physical scans **376–400**;
+- Batch-17 mapping: derivative pages **52–76** = original physical scans **401–425**;
 - role: **rendering/access aid only; not a separate witness and not a replacement controlling source**;
 - committed to repository: **No**.
 
 ## Recent source anchors
 
-- scan **378** visibly prints page **361** and closes `கலைத்தாயின் தலைச் செல்வன்!`;
-- scan **381** visibly prints page **364** and closes `உன் நிழலாக அசைகின்றோம்!`;
-- scan **383** visibly prints page **366** and closes `வாழ்க ஜீவா!`;
-- scan **384** opens `மறைந்த மாவீரன்` with no safely visible printed numeral; scan **389** visibly prints page **372** and closes it;
-- scan **390** opens `என் இனிய நண்பா! என் பிறந்தாய்?` with no safely visible printed numeral; scan **391** visibly prints page **374** and closes it;
-- scan **392** is the `மலர்த் தோட்டம்` divider and scan **393** its verso/show-through page;
-- scan **394** opens `இன்றைக்கு உன் பிறந்த நாள்` with no safely visible printed numeral; scan **395** visibly prints page **378** and closes it;
-- scan **396** opens `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!`; scan **397** visibly prints page **380** and closes it;
-- scan **398** opens `அருமருந்தே! அன்புறவு உடன்பிறப்பே!`; scan **399** visibly prints page **382** and closes it;
-- scan **400** opens `பகுத்தறிவுப் பாண்டியனார்!` with no safely visible printed numeral and continues beyond the batch boundary.
+- scan **402** visibly prints page **385** and closes `பகுத்தறிவுப் பாண்டியனார்!`;
+- scans **403–409** are single-page title/poem records without safely visible anthology page numerals;
+- scan **412** visibly prints page **395** and closes `பச்சைக் கிளி`;
+- scan **414** visibly prints page **397** and closes `கற்பனை ஊற்று`;
+- scan **416** visibly prints page **399** and closes `வானமே பொழிக நீ!`;
+- scan **417** is the single-page `கவிதையில் ஒரு மடல்!`;
+- scan **418** opens `அவர் உணர்வாரோ! யார் அறிவார்?`; its lower-left visible `26` is not treated as anthology pagination;
+- scan **419** visibly prints page **402** and closes that item;
+- scan **421** visibly prints page **404** and closes `போர்வாளாய்ச் சுழலட்டுமே!`;
+- scan **424** visibly prints page **407** and closes `இன்னும் யார் யார் பெயர்கள் வரவில்லை?`;
+- scan **425** opens `ஒரு சொட்டுத் தேன்!` and remains open.
 
 ## Processing state
 
-- Phase 1 page records: **400/465**;
-- cumulative status: **10 `partial`, 390 `needs-review`, 0 `verified`**;
-- completed Phase-1 batches: **01–16**;
+- Phase 1 page records: **425/465**;
+- cumulative status: **10 `partial`, 415 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01–17**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Tamil final clearance: **blocked until Phase 1/2/3 gates complete across the full source**;
 - English translation/release: **blocked until Tamil final clearance**;
-- exact next activity: **Phase 1 Batch 17 — scans 401–425**.
+- exact next activity: **Phase 1 Batch 18 — scans 426–450**.
 
 ## Cross-witness warning
 

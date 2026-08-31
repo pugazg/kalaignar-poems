@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 400/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 425/465 physical pages recorded.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -18,31 +18,28 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-An earlier 150-page source-length assumption was caused by a renderer-window limit and is withdrawn. Direct source identity confirms **465** pages.
-
 ## Phase-1 progress
 
-Page records: `pages/0001.md` through `pages/0400.md`
+Page records: `pages/0001.md` through `pages/0425.md`
 
-- page records: **400/465**;
+- page records: **425/465**;
 - `partial`: **10**;
-- `needs-review`: **390**;
+- `needs-review`: **415**;
 - `verified`: **0**;
-- completed batches: **01–16**;
+- completed batches: **01–17**;
 - Phase 2: **not started**.
 
 ## Recent source boundaries
 
-- `கலைத்தாயின் தலைச் செல்வன்!` — **376–378**, closes **378 / printed 361**;
-- `உன் நிழலாக அசைகின்றோம்!` — **379–381**, closes **381 / printed 364**;
-- `வாழ்க ஜீவா!` — **382–383**, closes **383 / printed 366**;
-- `மறைந்த மாவீரன்` — **384–389**, closes **389 / printed 372**;
-- `என் இனிய நண்பா! என் பிறந்தாய்?` — **390–391**, closes **391 / printed 374**;
-- `மலர்த் தோட்டம்` section divider/verso — **392–393**;
-- `இன்றைக்கு உன் பிறந்த நாள்` — **394–395**, closes **395 / printed 378**;
-- `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` — **396–397**, closes **397 / printed 380**;
-- `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` — **398–399**, closes **399 / printed 382**;
-- `பகுத்தறிவுப் பாண்டியனார்!` — opens **400**, remains open beyond Batch 16.
+- `பகுத்தறிவுப் பாண்டியனார்!` — closes **402 / printed 385**;
+- `பச்சைக் கிளி` — **410–412**, closes **412 / printed 395**;
+- `கற்பனை ஊற்று` — **413–414**, closes **414 / printed 397**;
+- `வானமே பொழிக நீ!` — **415–416**, closes **416 / printed 399**;
+- `கவிதையில் ஒரு மடல்!` — **417**, single-page item;
+- `அவர் உணர்வாரோ! யார் அறிவார்?` — **418–419**, closes **419 / printed 402**;
+- `போர்வாளாய்ச் சுழலட்டுமே!` — **420–421**, closes **421 / printed 404**;
+- `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` — **422–424**, closes **424 / printed 407**;
+- `ஒரு சொட்டுத் தேன்!` — opens **425**, remains open.
 
 ## Blur / difficult-reading control
 
@@ -54,4 +51,4 @@ Works already archived from separate witnesses, including `இதயத்தை
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 17 — scans 401–425**. Create `pages/0401.md` through `pages/0425.md`, continuing `பகுத்தறிவுப் பாண்டியனார்!` from scan 400. Do not begin Phase 2 in the same activity.
+Begin **Phase 1 Batch 18 — scans 426–450**. Create `pages/0426.md` through `pages/0450.md`, continuing directly from the unfinished `ஒரு சொட்டுத் தேன்!` at scan 425. Do not begin Phase 2 in the same activity.
