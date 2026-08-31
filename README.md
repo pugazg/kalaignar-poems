@@ -17,7 +17,7 @@ Live GitHub `main` is authoritative. Source wording, punctuation, lineation, ப
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 450/465; final Batch 19 scans 451–465 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE 465/465; Phase 2 Verification Batch 01 scans 1–25 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -35,15 +35,16 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**;
-- Phase 1 page records: **450/465**;
-- cumulative status: **10 partial, 440 needs-review, 0 verified**;
-- current item: **`பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`**, opened scan 450 and continuing beyond the batch boundary;
-- exact next activity: **Phase 1 Batch 19 — scans 451–465**, the final Phase-1 source batch.
+- Phase 1 page records: **465/465 — COMPLETE**;
+- cumulative status: **10 partial, 455 needs-review, 0 verified**;
+- completed Phase-1 batches: **01–19**;
+- Phase 2: **not started**;
+- exact next activity: **Phase 2 Verification Batch 01 — scans 1–25**.
 
-Recent boundaries include `ஒரு சொட்டுத் தேன்!` closing 427 / printed 410, `சூரியனைப் பனிக்கட்டி என்கிறாய்!` closing 432 / printed 415, `நடையை நிறுத்தாதே!` closing 434 / printed 417, `பாமர் நிறைந்த பட்டிக்காடு!` closing 437 / printed 420, `கொள்ளை போதும்மா தமிழ்நாடு` closing 439 / printed 422, `என்ன தேசமடா இது?` closing 442 / printed 425, `முடியுமா? கிழித்தெறிவோம் வாரீர்!` closing 445 / printed 428, `பதில் என்ன? பகர்ந்திடுக!` closing 447 / printed 430, and `கா, கா, கா!` closing 449 / printed 432.
+Final Phase-1 boundaries: `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` closes 452 / printed 435; `திசை திருப்பல் நியாயம்தானா?` closes 454 / printed 437; `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` closes 456 / printed 439; `சில நாடுகள் இருக்கின்றன` closes 460 / printed 443; `உன் காலணியை வாழ்த்துகிறாய்` closes 464 / printed 447; scan 465 is the back cover.
 
 The anthology overlaps with separately archived source witnesses such as `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`; those texts are not transcription authority for this anthology witness and must not be copied into blurred spans. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Continuation rule
 
-A fresh chat must reconstruct state from live GitHub before doing work. Read `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, this README and the selected work's live control files completely. Do not begin Phase 2 before Phase 1 covers all 465 physical scans.
+A fresh chat must reconstruct state from live GitHub before doing work. Read `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, this README and the selected work's live control files completely. Phase 2 must independently reread the controlling scan; it is not a text-only cleanup of Phase-1 Markdown.

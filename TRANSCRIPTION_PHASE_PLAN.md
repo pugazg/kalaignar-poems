@@ -8,7 +8,7 @@ For each physical scan, read the controlling scan directly; preserve visible spe
 
 ## Phase 2 — source-critical visual verification
 
-After Phase 1 is complete across the source, independently reread every page against the controlling scan, checking every word/glyph, punctuation mark, line break, quotation, separator and non-Tamil element. Promote a page to `verified` only after that independent visual review passes.
+After Phase 1 transcription is complete, independently reread every page against the controlling scan, checking every word/glyph, punctuation mark, line break, quotation, separator and non-Tamil element. Use enlarged crops/non-destructive variants where needed. Correct only source-backed differences and promote a page to `verified` only after the complete page passes.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
@@ -36,33 +36,36 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ### Phase-1 state
 
-- page records created: **450/465** — `pages/0001.md` through `pages/0450.md`;
-- cumulative status: **10 `partial`, 440 `needs-review`, 0 `verified`**;
-- completed batches: **01–18**;
-- Batch 18: scans **426–450**;
-- `ஒரு சொட்டுத் தேன்!` closes **427 / printed 410**;
-- `சூரியனைப் பனிக்கட்டி என்கிறாய்!` closes **432 / printed 415**;
-- `நடையை நிறுத்தாதே!` closes **434 / printed 417**;
-- `பாமர் நிறைந்த பட்டிக்காடு!` closes **437 / printed 420**;
-- `கொள்ளை போதும்மா தமிழ்நாடு` closes **439 / printed 422**;
-- `என்ன தேசமடா இது?` closes **442 / printed 425**;
-- `முடியுமா? கிழித்தெறிவோம் வாரீர்!` closes **445 / printed 428**;
-- `பதில் என்ன? பகர்ந்திடுக!` closes **447 / printed 430**;
-- `கா, கா, கா!` closes **449 / printed 432**;
-- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` opens **450** and remains open;
-- Phase 2: **not started**;
-- Phase 3: **not started**;
-- Phase 4: **blocked**.
+**COMPLETE.**
 
-### Blur and witness rules
+- page records created: **465/465** — `pages/0001.md` through `pages/0465.md`;
+- cumulative status after Phase 1: **10 `partial`, 455 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01–19**;
+- final Batch 19: scans **451–465**;
+- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` closes **452 / printed 435**;
+- `திசை திருப்பல் நியாயம்தானா?` closes **454 / printed 437**;
+- `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` closes **456 / printed 439**;
+- `சில நாடுகள் இருக்கின்றன` closes **460 / printed 443**;
+- `உன் காலணியை வாழ்த்துகிறாய்` closes **464 / printed 447**;
+- scan **465** is the back cover and final physical scan.
 
-- use explicit `⟦…⟧` markers for unresolved Phase-1 spans;
+### Current phase gate
+
+- Phase 1: **complete**;
+- Phase 2: **ready to begin; not yet started**;
+- Phase 3: **blocked until all page verification passes**;
+- Phase 4: **blocked until Tamil final clearance**.
+
+### Phase-2 rules
+
+- independently reread the controlling scan; do not merely proofread the Phase-1 Markdown against itself;
+- check every word ending and compact/old Tamil glyph;
+- check punctuation, lineation, quotation marks, separators and English/Latin material;
+- resolve `⟦…⟧` only from direct source evidence;
 - do not reconstruct from OCR, memory, metre, grammar, historical expectation or another edition;
-- do not copy existing separate source witnesses into this anthology;
-- preserve source-visible speaker/performance structure where legible;
-- record only visibly printed page numerals;
-- preserve the existing user-directed exclusion applicable to `தென்னவன் காதை`.
+- preserve existing user lexical controls and the user-directed exclusion applicable to `தென்னவன் காதை`;
+- promote a page to `verified` only when the complete page passes.
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 19 — physical scans 451–465**. Create `pages/0451.md` through `pages/0465.md`, continuing directly from `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at scan 450. This is the final Phase-1 source batch. Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.
+Execute **Phase 2 Verification Batch 01 — physical scans 1–25**. Do not begin Phase 3, canonical assembly, or translation in the same activity.

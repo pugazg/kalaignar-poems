@@ -25,34 +25,33 @@
 - filename: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`;
 - pages: **116**;
 - mapping: derivative page 1 = original physical scan **350**;
-- Batch-18 mapping: derivative pages **77–101** = original physical scans **426–450**;
+- Batch-19 mapping: derivative pages **102–116** = original physical scans **451–465**;
 - role: **rendering/access aid only; not a separate witness and not a replacement controlling source**;
 - committed to repository: **No**.
 
-## Recent source anchors
+## Final Phase-1 source anchors
 
-- scan **427** visibly prints page **410** and closes `ஒரு சொட்டுத் தேன்!`;
-- scan **428** is the single-page `விதையாய் முளைத்து விழுதுகள் விட்டோம்!`, with no safely visible printed numeral;
-- scan **432** visibly prints page **415** and closes `சூரியனைப் பனிக்கட்டி என்கிறாய்!`;
-- scan **434** visibly prints page **417** and closes `நடையை நிறுத்தாதே!`;
-- scan **437** visibly prints page **420** and closes `பாமர் நிறைந்த பட்டிக்காடு!`;
-- scan **439** visibly prints page **422** and closes `கொள்ளை போதும்மா தமிழ்நாடு`;
-- scan **442** visibly prints page **425** and closes `என்ன தேசமடா இது?`;
-- scan **445** visibly prints page **428** and closes `முடியுமா? கிழித்தெறிவோம் வாரீர்!`;
-- scan **447** visibly prints page **430** and closes `பதில் என்ன? பகர்ந்திடுக!`;
-- scan **449** visibly prints page **432** and closes `கா, கா, கா!`;
-- scan **450** opens `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; no printed numeral is safely visible and the item remains open.
+- scan **452** visibly prints page **435** and closes `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`;
+- scan **453** opens `திசை திருப்பல் நியாயம்தானா?`; no printed numeral is safely visible;
+- scan **454** visibly prints page **437** and closes that item;
+- scan **455** opens `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!`; no printed numeral is safely visible;
+- scan **456** visibly prints page **439** and closes that item;
+- scan **457** opens `சில நாடுகள் இருக்கின்றன`; no printed numeral is safely visible;
+- scans **458–460** visibly print pages **441–443**, with the item closing at scan **460**;
+- scan **461** opens `உன் காலணியை வாழ்த்துகிறாய்`; no printed numeral is safely visible;
+- scans **462–464** visibly print pages **445–447**, with the item closing at scan **464**;
+- scan **465** is the full-colour back cover and final physical scan.
 
 ## Processing state
 
-- Phase 1 page records: **450/465**;
-- cumulative status: **10 `partial`, 440 `needs-review`, 0 `verified`**;
-- completed Phase-1 batches: **01–18**;
+- Phase 1 page records: **465/465 — COMPLETE**;
+- cumulative status after Phase 1: **10 `partial`, 455 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01–19**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
-- Tamil final clearance: **blocked until Phase 1/2/3 gates complete across the full source**;
+- Tamil final clearance: **blocked until Phase 2 and Phase 3 gates complete across the full source**;
 - English translation/release: **blocked until Tamil final clearance**;
-- exact next activity: **Phase 1 Batch 19 — scans 451–465**, final Phase-1 source batch.
+- exact next activity: **Phase 2 Verification Batch 01 — scans 1–25**.
 
 ## Cross-witness warning
 
@@ -60,4 +59,4 @@ Separate source-specific transcriptions are not authority for this anthology wit
 
 ## Source authority rule
 
-The supplied scan controls every transcription decision for this edition witness. OCR, remembered wording, other editions and outside sources are navigation/corroboration aids only and may not silently replace visible source text.
+The supplied scan controls every verification decision for this edition witness. OCR, remembered wording, other editions and outside sources are navigation/corroboration aids only and may not silently replace visible source text.

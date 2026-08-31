@@ -28,7 +28,8 @@ Before making any repository change, read completely:
 8. `poems/kalaignarin-kavithaigal/metadata/source.md`
 9. `poems/kalaignarin-kavithaigal/indexes/page-map.md`
 10. `poems/kalaignarin-kavithaigal/audit.md`
-11. boundary record `poems/kalaignarin-kavithaigal/pages/0450.md`
+11. Phase-2 first target record `poems/kalaignarin-kavithaigal/pages/0001.md`
+12. end-of-source boundary record `poems/kalaignarin-kavithaigal/pages/0465.md`
 
 When I say **“Proceed with next activity”**, execute the exact next routine activity recorded in live GitHub without asking me to choose among normal continuation steps.
 
@@ -46,37 +47,32 @@ When I say **“Proceed with next activity”**, execute the exact next routine 
 
 A previous high-level renderer exposed only pages 1–150. That is an interface/window limit, not the source length. The exact PDF contains 465 physical pages.
 
-The user-supplied access derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf` contains original physical scans 350–465. Its page 1 corresponds to original scan 350. It is an access derivative of the same witness, not a replacement controlling source. Derivative pages **77–101** were used for original scans **426–450** in Batch 18.
+The user-supplied access derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf` contains original physical scans 350–465. Its page 1 corresponds to original scan 350. It is an access derivative of the same witness, not a replacement controlling source. Derivative pages **102–116** were used for original scans **451–465** in final Phase-1 Batch 19.
 
-## CURRENT DURABLE PHASE-1 STATE
+## CURRENT DURABLE STATE
 
-**Phase 1 transcription is complete through physical scan 450 / 465.**
+**Phase 1 transcription is COMPLETE across physical scans 1–465 / 465.**
 
-- page records: **450/465**;
-- existing files: `pages/0001.md` through `pages/0450.md`;
-- cumulative status: **10 `partial`, 440 `needs-review`, 0 `verified`**;
-- completed batches: **01–18**;
+- page records: **465/465**;
+- existing files: `pages/0001.md` through `pages/0465.md`;
+- cumulative status after Phase 1: **10 `partial`, 455 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01–19**;
 - Phase 2 verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation: **blocked until Tamil final clearance**.
 
-Recent source boundaries:
+Final source boundaries:
 
-- `ஒரு சொட்டுத் தேன்!` — closes **427 / printed 410**;
-- `விதையாய் முளைத்து விழுதுகள் விட்டோம்!` — **428**, single-page item;
-- `சூரியனைப் பனிக்கட்டி என்கிறாய்!` — **429–432**, closes **432 / printed 415**;
-- `நடையை நிறுத்தாதே!` — **433–434**, closes **434 / printed 417**;
-- `பாமர் நிறைந்த பட்டிக்காடு!` — **435–437**, closes **437 / printed 420**;
-- `கொள்ளை போதும்மா தமிழ்நாடு` — **438–439**, closes **439 / printed 422**;
-- `என்ன தேசமடா இது?` — **440–442**, closes **442 / printed 425**;
-- `முடியுமா? கிழித்தெறிவோம் வாரீர்!` — **443–445**, closes **445 / printed 428**;
-- `பதில் என்ன? பகர்ந்திடுக!` — **446–447**, closes **447 / printed 430**;
-- `கா, கா, கா!` — **448–449**, closes **449 / printed 432**;
-- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` — opens **450** and remains open.
+- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` — closes **452 / printed 435**;
+- `திசை திருப்பல் நியாயம்தானா?` — **453–454**, closes **454 / printed 437**;
+- `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` — **455–456**, closes **456 / printed 439**;
+- `சில நாடுகள் இருக்கின்றன` — **457–460**, closes **460 / printed 443**;
+- `உன் காலணியை வாழ்த்துகிறாய்` — **461–464**, closes **464 / printed 447**;
+- scan **465** — back cover and final physical scan.
 
-## CRITICAL — BLURRED TEXT
+## PHASE-2 SOURCE-CRITICAL RULE
 
-During Phase 1, transcribe only what the controlling scan safely supports; use explicit `⟦…⟧` markers for genuinely unresolved spans; do not reconstruct from OCR, memory, grammar, metre, rhyme, historical context, probable wording, or another edition; preserve source-visible structure; record only visibly printed page numerals; and leave Phase-1 pages `needs-review`.
+Phase 2 is an independent direct-source reread. Do not merely polish the Phase-1 transcription. For each page, inspect the controlling scan and verify every glyph/word ending, punctuation mark, line break, quotation mark, separator and non-Tamil element. Resolve `⟦…⟧` only where the source itself supports the exact reading. Preserve old Tamil forms and source anomalies. Promote to `verified` only after the complete page passes.
 
 ## CROSS-WITNESS SAFEGUARD
 
@@ -84,17 +80,16 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 19 — physical scans 451–465**.
-
-Create `poems/kalaignarin-kavithaigal/pages/0451.md` through `pages/0465.md`.
+Execute **Phase 2 Verification Batch 01 — physical scans 1–25**.
 
 Requirements:
 
-- continue directly from unfinished `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at scan 450;
-- inspect scans 451–465 directly from the same source witness or the source-faithful page-range derivative;
-- preserve physical page boundaries and visible title/speaker/performance structure;
-- do not infer item endings or starts before the scan establishes them;
-- maintain the conservative blur policy;
-- do not begin Phase 2, Phase 3, canonical assembly or translation in this activity.
+- independently reread scans 1–25 from the controlling source;
+- compare against the existing `pages/0001.md`–`pages/0025.md` records only after looking at the scan;
+- correct only source-backed differences;
+- check old/compact Tamil glyphs, punctuation, lineation, quotation marks, separators, English/Latin text and page roles;
+- resolve uncertainty markers only where the scan supports an exact reading;
+- promote a record to `verified` only if the entire page passes; otherwise retain `partial`/`needs-review` with explicit unresolved notes;
+- do not begin Phase 3, canonical assembly or translation in this activity.
 
-Batch 19 is the **final Phase-1 source batch**. At completion synchronize all status-bearing files and mark Phase 1 complete. Do **not** begin Phase 2 in the same activity.
+At Batch-01 completion synchronize all status-bearing files to **Phase 2 Verification Batch 02 — scans 26–50**.

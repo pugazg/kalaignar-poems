@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 450/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION COMPLETE — 465/465 physical pages recorded; Phase 2 verification is next.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -18,34 +18,31 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-## Phase-1 progress
+## Phase-1 completion
 
-Page records: `pages/0001.md` through `pages/0450.md`
+Page records: `pages/0001.md` through `pages/0465.md`
 
-- page records: **450/465**;
+- page records: **465/465**;
 - `partial`: **10**;
-- `needs-review`: **440**;
+- `needs-review`: **455**;
 - `verified`: **0**;
-- completed batches: **01–18**;
+- completed Phase-1 batches: **01–19**;
 - Phase 2: **not started**.
 
-## Recent source boundaries
+Phase 1 is a complete transcription layer, not a verification claim. Existing uncertainty markers remain intentionally unresolved until Phase 2.
 
-- `ஒரு சொட்டுத் தேன்!` — closes **427 / printed 410**;
-- `விதையாய் முளைத்து விழுதுகள் விட்டோம்!` — **428**, single-page item;
-- `சூரியனைப் பனிக்கட்டி என்கிறாய்!` — **429–432**, closes **432 / printed 415**;
-- `நடையை நிறுத்தாதே!` — **433–434**, closes **434 / printed 417**;
-- `பாமர் நிறைந்த பட்டிக்காடு!` — **435–437**, closes **437 / printed 420**;
-- `கொள்ளை போதும்மா தமிழ்நாடு` — **438–439**, closes **439 / printed 422**;
-- `என்ன தேசமடா இது?` — **440–442**, closes **442 / printed 425**;
-- `முடியுமா? கிழித்தெறிவோம் வாரீர்!` — **443–445**, closes **445 / printed 428**;
-- `பதில் என்ன? பகர்ந்திடுக!` — **446–447**, closes **447 / printed 430**;
-- `கா, கா, கா!` — **448–449**, closes **449 / printed 432**;
-- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` — opens **450**, remains open.
+## Final source boundaries
 
-## Blur / difficult-reading control
+- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` — closes **452 / printed 435**;
+- `திசை திருப்பல் நியாயம்தானா?` — **453–454**, closes **454 / printed 437**;
+- `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` — **455–456**, closes **456 / printed 439**;
+- `சில நாடுகள் இருக்கின்றன` — **457–460**, closes **460 / printed 443**;
+- `உன் காலணியை வாழ்த்துகிறாய்` — **461–464**, closes **464 / printed 447**;
+- scan **465** — back cover and final physical scan.
 
-During Phase 1 only confidently legible text is transcribed. Unresolved spans remain explicit `⟦…⟧` markers. No OCR, remembered wording, metre, grammar, historical expectation or other edition may silently fill blur. Source-visible lineation, speaker labels, performance notes and page boundaries are preserved where legible. Pages remain `needs-review` until the later independent Phase-2 glyph review.
+## Phase-2 verification control
+
+Independently reread the controlling scan. Do not resolve blur from OCR, remembered wording, metre, grammar, historical expectation or another edition. Check every old/compact Tamil glyph, punctuation mark, line break, quotation, separator and non-Tamil element. Promote a page to `verified` only after the complete page passes.
 
 ## Existing-source overlap rule
 
@@ -53,4 +50,4 @@ Works already archived from separate witnesses, including `இதயத்தை
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 19 — scans 451–465**, the final Phase-1 source batch. Create `pages/0451.md` through `pages/0465.md`, continuing directly from the unfinished `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at scan 450. Do not begin Phase 2 in the same activity.
+Begin **Phase 2 Verification Batch 01 — scans 1–25**. Do not begin Phase 3 in the same activity.

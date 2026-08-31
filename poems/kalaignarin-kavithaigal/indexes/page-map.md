@@ -10,44 +10,34 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–450 created of 465.**
+**PHASE 1 MAP COMPLETE — page records 1–465 created for all 465 physical scans.**
 
 This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
-## Phase-1 map — scans 426–450
+## Phase-1 map — scans 451–465
 
 | Scan | Visible role / section | Visibly printed page | Status | Notes |
 |---:|---|---:|---|---|
-| 426 | `ஒரு சொட்டுத் தேன்!` continuation | 409 | `needs-review` | continues from scan 425; star-separated stanzas |
-| 427 | same item conclusion | 410 | `needs-review` | horseman illustration below; item closes |
-| 428 | `விதையாய் முளைத்து விழுதுகள் விட்டோம்!` | — | `needs-review` | single-page item; ornament below |
-| 429 | `சூரியனைப் பனிக்கட்டி என்கிறாய்!` opening | — | `needs-review` | star-separated opening; continues |
-| 430 | same item continuation | 413 | `needs-review` | multiple star-separated passages |
-| 431 | same item continuation | 414 | `needs-review` | dense continuation |
-| 432 | same item conclusion | 415 | `needs-review` | ornament below; item closes |
-| 433 | `நடையை நிறுத்தாதே!` opening | — | `needs-review` | continues |
-| 434 | same item conclusion | 417 | `needs-review` | ornament below |
-| 435 | `பாமர் நிறைந்த பட்டிக்காடு!` opening | — | `needs-review` | repeated refrain and star separators |
-| 436 | same item continuation | 419 | `needs-review` | repeated refrain |
-| 437 | same item conclusion | 420 | `needs-review` | group illustration below |
-| 438 | `கொள்ளை போதும்மா தமிழ்நாடு` opening | — | `needs-review` | repeated refrain; continues |
-| 439 | same item conclusion | 422 | `needs-review` | item closes |
-| 440 | `என்ன தேசமடா இது?` opening | 423 | `needs-review` | repeated refrain; continues |
-| 441 | same item continuation | 424 | `needs-review` | dense continuation |
-| 442 | same item conclusion | 425 | `needs-review` | lower half blank; item closes |
-| 443 | `முடியுமா? கிழித்தெறிவோம் வாரீர்!` opening | — | `needs-review` | continues |
-| 444 | same item continuation | 427 | `needs-review` | dense continuation |
-| 445 | same item conclusion | 428 | `needs-review` | ornament below |
-| 446 | `பதில் என்ன? பகர்ந்திடுக!` opening | — | `needs-review` | continues |
-| 447 | same item conclusion | 430 | `needs-review` | source note `நன்றி: குமரி விழா இதழ் (8.4.92)` and ornament visible |
-| 448 | `கா, கா, கா!` opening | — | `needs-review` | continues |
-| 449 | same item conclusion | 432 | `needs-review` | ornament below |
-| 450 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` opening | — | `needs-review` | item remains open beyond Batch 18 |
+| 451 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` continuation | 434 | `needs-review` | continues from scan 450 |
+| 452 | same item conclusion | 435 | `needs-review` | ornament below; item closes |
+| 453 | `திசை திருப்பல் நியாயம்தானா?` opening | — | `needs-review` | title page; continues |
+| 454 | same item conclusion | 437 | `needs-review` | ornament below; item closes |
+| 455 | `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` opening | — | `needs-review` | title/opening text; continues |
+| 456 | same item conclusion | 439 | `needs-review` | flower ornament below |
+| 457 | `சில நாடுகள் இருக்கின்றன` opening | — | `needs-review` | continues |
+| 458 | same item continuation | 441 | `needs-review` | dense continuation |
+| 459 | same item continuation | 442 | `needs-review` | dense continuation |
+| 460 | same item conclusion | 443 | `needs-review` | item closes; decorative mark below |
+| 461 | `உன் காலணியை வாழ்த்துகிறாய்` opening | — | `needs-review` | birthday poem; continues |
+| 462 | same item continuation | 445 | `needs-review` | dense continuation |
+| 463 | same item continuation | 446 | `needs-review` | continues |
+| 464 | same item conclusion | 447 | `needs-review` | parenthetical `58-வது பிறந்தநாள்` note and ornament visible |
+| 465 | back cover | — | `needs-review` | full-colour artwork; final physical scan |
 
 ## Phase-1 status rule
 
-Every Batch-18 record remains `needs-review`. This map records only source-established navigation/boundary evidence. It does not promote any page to `verified` and does not resolve blur by inference.
+The map now covers the complete physical source. Phase-1 statuses remain as recorded: **10 `partial`, 455 `needs-review`, 0 `verified`**. Completion of the map does not promote any page to `verified` and does not resolve blur by inference.
 
-## Next mapping activity
+## Next source activity
 
-Extend the map through physical scan **465** while executing Phase 1 Batch 19, continuing directly from the open item at scan 450. Batch 19 is the final Phase-1 source batch.
+Begin **Phase 2 Verification Batch 01 — physical scans 1–25**. Verification must update individual page statuses only after direct source rereading. The Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 is complete.
