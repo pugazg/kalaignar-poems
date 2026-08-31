@@ -20,15 +20,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - Phase 1: **COMPLETE, batches 01–19**;
 - Phase 2 Batch 01, scans **1–25**: **COMPLETE**;
 - Phase 2 Batch 02, scans **26–50**: **COMPLETE**;
-- Phase 2 reviewed: **50/465 scans**;
-- verified so far: **6 pages — 0001, 0018, 0019, 0020, 0032, 0033**;
-- cumulative status: **4 `partial`, 455 `needs-review`, 6 `verified`**.
+- Phase 2 Batch 03, scans **51–75**: **COMPLETE**;
+- cumulative verified pages: **8 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
+- cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**.
 
-Batch-02 source-backed corrections include `வி.வி. கிரி தந்த வாழ்த்துக்கு விளக்கமிது.` on scan 27 and correction of the divider witness to `இனமான ஏந்தல்கள்` on scans 32–33. Dense poem pages remain unresolved where the scan does not yet safely support exact clearance.
+Batch-03 direct-source review removed a source-incompatible Phase-1 insertion from scan 51 and verified the `கவியரங்கக் கவிதைகள்` divider/verso at scans 70–71. Remaining compact verse pages retain unresolved status where exact glyph-level clearance is not yet safe.
 
 ### Exact next activity
 
-Execute **Phase 2 Verification Batch 03 — physical scans 51–75**. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 04 — physical scans 76–100**. Do not begin Phase 3, canonical assembly, or translation.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
