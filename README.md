@@ -17,7 +17,7 @@ Live GitHub `main` is authoritative. Source wording, punctuation, lineation, ப
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 425/465; Batch 18 scans 426–450 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 450/465; final Batch 19 scans 451–465 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -35,12 +35,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**;
-- Phase 1 page records: **425/465**;
-- cumulative status: **10 partial, 415 needs-review, 0 verified**;
-- current item: **`ஒரு சொட்டுத் தேன்!`**, opened scan 425 and continuing beyond the batch boundary;
-- exact next activity: **Phase 1 Batch 18 — scans 426–450**.
+- Phase 1 page records: **450/465**;
+- cumulative status: **10 partial, 440 needs-review, 0 verified**;
+- current item: **`பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`**, opened scan 450 and continuing beyond the batch boundary;
+- exact next activity: **Phase 1 Batch 19 — scans 451–465**, the final Phase-1 source batch.
 
-Recent boundaries include `பகுத்தறிவுப் பாண்டியனார்!` closing 402 / printed 385, `பச்சைக் கிளி` closing 412 / printed 395, `கற்பனை ஊற்று` closing 414 / printed 397, `வானமே பொழிக நீ!` closing 416 / printed 399, `அவர் உணர்வாரோ! யார் அறிவார்?` closing 419 / printed 402, `போர்வாளாய்ச் சுழலட்டுமே!` closing 421 / printed 404, and `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` closing 424 / printed 407.
+Recent boundaries include `ஒரு சொட்டுத் தேன்!` closing 427 / printed 410, `சூரியனைப் பனிக்கட்டி என்கிறாய்!` closing 432 / printed 415, `நடையை நிறுத்தாதே!` closing 434 / printed 417, `பாமர் நிறைந்த பட்டிக்காடு!` closing 437 / printed 420, `கொள்ளை போதும்மா தமிழ்நாடு` closing 439 / printed 422, `என்ன தேசமடா இது?` closing 442 / printed 425, `முடியுமா? கிழித்தெறிவோம் வாரீர்!` closing 445 / printed 428, `பதில் என்ன? பகர்ந்திடுக!` closing 447 / printed 430, and `கா, கா, கா!` closing 449 / printed 432.
 
 The anthology overlaps with separately archived source witnesses such as `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`; those texts are not transcription authority for this anthology witness and must not be copied into blurred spans. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 

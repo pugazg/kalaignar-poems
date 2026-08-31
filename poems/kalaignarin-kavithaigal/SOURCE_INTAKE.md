@@ -27,24 +27,26 @@ For continuation beyond the old renderer window, the user supplied `TVA_BOK_0064
 
 - derivative pages: **116**;
 - derivative page 1 = original physical scan **350**;
-- derivative pages **52–76** = original physical scans **401–425**, used for Batch 17;
+- derivative pages **77–101** = original physical scans **426–450**, used for Batch 18;
 - this is an access derivative of the same controlling witness, not a separate textual authority;
 - the derivative is not committed to the repository.
 
 ## Current processing state
 
-- Phase 1 first-pass records: **425/465**;
-- completed batches: **01–17, scans 1–425**;
-- cumulative status: **10 `partial`, 415 `needs-review`, 0 `verified`**;
-- `பகுத்தறிவுப் பாண்டியனார்!` closes **402 / printed 385**;
-- `பச்சைக் கிளி` closes **412 / printed 395**;
-- `கற்பனை ஊற்று` closes **414 / printed 397**;
-- `வானமே பொழிக நீ!` closes **416 / printed 399**;
-- `அவர் உணர்வாரோ! யார் அறிவார்?` closes **419 / printed 402**;
-- `போர்வாளாய்ச் சுழலட்டுமே!` closes **421 / printed 404**;
-- `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` closes **424 / printed 407**;
-- current item: `ஒரு சொட்டுத் தேன்!`, opened scan **425** and continuing beyond the batch boundary;
-- next batch: **Batch 18 — scans 426–450**;
+- Phase 1 first-pass records: **450/465**;
+- completed batches: **01–18, scans 1–450**;
+- cumulative status: **10 `partial`, 440 `needs-review`, 0 `verified`**;
+- `ஒரு சொட்டுத் தேன்!` closes **427 / printed 410**;
+- `சூரியனைப் பனிக்கட்டி என்கிறாய்!` closes **432 / printed 415**;
+- `நடையை நிறுத்தாதே!` closes **434 / printed 417**;
+- `பாமர் நிறைந்த பட்டிக்காடு!` closes **437 / printed 420**;
+- `கொள்ளை போதும்மா தமிழ்நாடு` closes **439 / printed 422**;
+- `என்ன தேசமடா இது?` closes **442 / printed 425**;
+- `முடியுமா? கிழித்தெறிவோம் வாரீர்!` closes **445 / printed 428**;
+- `பதில் என்ன? பகர்ந்திடுக!` closes **447 / printed 430**;
+- `கா, கா, கா!` closes **449 / printed 432**;
+- current item: `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`, opened scan **450** and continuing beyond the batch boundary;
+- next batch: **Batch 19 — scans 451–465**, final Phase-1 source batch;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
@@ -59,4 +61,4 @@ Only confidently legible text is transcribed in Phase 1. Uncertain spans remain 
 
 ## Current next activity
 
-**Phase 1 Batch 18 — physical scans 426–450**, continuing directly from `ஒரு சொட்டுத் தேன்!`.
+**Phase 1 Batch 19 — physical scans 451–465**, continuing directly from `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`. This is the final Phase-1 source batch.

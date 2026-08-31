@@ -25,34 +25,34 @@
 - filename: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`;
 - pages: **116**;
 - mapping: derivative page 1 = original physical scan **350**;
-- Batch-17 mapping: derivative pages **52–76** = original physical scans **401–425**;
+- Batch-18 mapping: derivative pages **77–101** = original physical scans **426–450**;
 - role: **rendering/access aid only; not a separate witness and not a replacement controlling source**;
 - committed to repository: **No**.
 
 ## Recent source anchors
 
-- scan **402** visibly prints page **385** and closes `பகுத்தறிவுப் பாண்டியனார்!`;
-- scans **403–409** are single-page title/poem records without safely visible anthology page numerals;
-- scan **412** visibly prints page **395** and closes `பச்சைக் கிளி`;
-- scan **414** visibly prints page **397** and closes `கற்பனை ஊற்று`;
-- scan **416** visibly prints page **399** and closes `வானமே பொழிக நீ!`;
-- scan **417** is the single-page `கவிதையில் ஒரு மடல்!`;
-- scan **418** opens `அவர் உணர்வாரோ! யார் அறிவார்?`; its lower-left visible `26` is not treated as anthology pagination;
-- scan **419** visibly prints page **402** and closes that item;
-- scan **421** visibly prints page **404** and closes `போர்வாளாய்ச் சுழலட்டுமே!`;
-- scan **424** visibly prints page **407** and closes `இன்னும் யார் யார் பெயர்கள் வரவில்லை?`;
-- scan **425** opens `ஒரு சொட்டுத் தேன்!` and remains open.
+- scan **427** visibly prints page **410** and closes `ஒரு சொட்டுத் தேன்!`;
+- scan **428** is the single-page `விதையாய் முளைத்து விழுதுகள் விட்டோம்!`, with no safely visible printed numeral;
+- scan **432** visibly prints page **415** and closes `சூரியனைப் பனிக்கட்டி என்கிறாய்!`;
+- scan **434** visibly prints page **417** and closes `நடையை நிறுத்தாதே!`;
+- scan **437** visibly prints page **420** and closes `பாமர் நிறைந்த பட்டிக்காடு!`;
+- scan **439** visibly prints page **422** and closes `கொள்ளை போதும்மா தமிழ்நாடு`;
+- scan **442** visibly prints page **425** and closes `என்ன தேசமடா இது?`;
+- scan **445** visibly prints page **428** and closes `முடியுமா? கிழித்தெறிவோம் வாரீர்!`;
+- scan **447** visibly prints page **430** and closes `பதில் என்ன? பகர்ந்திடுக!`;
+- scan **449** visibly prints page **432** and closes `கா, கா, கா!`;
+- scan **450** opens `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; no printed numeral is safely visible and the item remains open.
 
 ## Processing state
 
-- Phase 1 page records: **425/465**;
-- cumulative status: **10 `partial`, 415 `needs-review`, 0 `verified`**;
-- completed Phase-1 batches: **01–17**;
+- Phase 1 page records: **450/465**;
+- cumulative status: **10 `partial`, 440 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01–18**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Tamil final clearance: **blocked until Phase 1/2/3 gates complete across the full source**;
 - English translation/release: **blocked until Tamil final clearance**;
-- exact next activity: **Phase 1 Batch 18 — scans 426–450**.
+- exact next activity: **Phase 1 Batch 19 — scans 451–465**, final Phase-1 source batch.
 
 ## Cross-witness warning
 

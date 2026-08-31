@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 425/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 450/465 physical pages recorded.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -20,26 +20,28 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Phase-1 progress
 
-Page records: `pages/0001.md` through `pages/0425.md`
+Page records: `pages/0001.md` through `pages/0450.md`
 
-- page records: **425/465**;
+- page records: **450/465**;
 - `partial`: **10**;
-- `needs-review`: **415**;
+- `needs-review`: **440**;
 - `verified`: **0**;
-- completed batches: **01–17**;
+- completed batches: **01–18**;
 - Phase 2: **not started**.
 
 ## Recent source boundaries
 
-- `பகுத்தறிவுப் பாண்டியனார்!` — closes **402 / printed 385**;
-- `பச்சைக் கிளி` — **410–412**, closes **412 / printed 395**;
-- `கற்பனை ஊற்று` — **413–414**, closes **414 / printed 397**;
-- `வானமே பொழிக நீ!` — **415–416**, closes **416 / printed 399**;
-- `கவிதையில் ஒரு மடல்!` — **417**, single-page item;
-- `அவர் உணர்வாரோ! யார் அறிவார்?` — **418–419**, closes **419 / printed 402**;
-- `போர்வாளாய்ச் சுழலட்டுமே!` — **420–421**, closes **421 / printed 404**;
-- `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` — **422–424**, closes **424 / printed 407**;
-- `ஒரு சொட்டுத் தேன்!` — opens **425**, remains open.
+- `ஒரு சொட்டுத் தேன்!` — closes **427 / printed 410**;
+- `விதையாய் முளைத்து விழுதுகள் விட்டோம்!` — **428**, single-page item;
+- `சூரியனைப் பனிக்கட்டி என்கிறாய்!` — **429–432**, closes **432 / printed 415**;
+- `நடையை நிறுத்தாதே!` — **433–434**, closes **434 / printed 417**;
+- `பாமர் நிறைந்த பட்டிக்காடு!` — **435–437**, closes **437 / printed 420**;
+- `கொள்ளை போதும்மா தமிழ்நாடு` — **438–439**, closes **439 / printed 422**;
+- `என்ன தேசமடா இது?` — **440–442**, closes **442 / printed 425**;
+- `முடியுமா? கிழித்தெறிவோம் வாரீர்!` — **443–445**, closes **445 / printed 428**;
+- `பதில் என்ன? பகர்ந்திடுக!` — **446–447**, closes **447 / printed 430**;
+- `கா, கா, கா!` — **448–449**, closes **449 / printed 432**;
+- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` — opens **450**, remains open.
 
 ## Blur / difficult-reading control
 
@@ -51,4 +53,4 @@ Works already archived from separate witnesses, including `இதயத்தை
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 18 — scans 426–450**. Create `pages/0426.md` through `pages/0450.md`, continuing directly from the unfinished `ஒரு சொட்டுத் தேன்!` at scan 425. Do not begin Phase 2 in the same activity.
+Begin **Phase 1 Batch 19 — scans 451–465**, the final Phase-1 source batch. Create `pages/0451.md` through `pages/0465.md`, continuing directly from the unfinished `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at scan 450. Do not begin Phase 2 in the same activity.
