@@ -20,36 +20,39 @@
 - edition: **FOURTH EDITION: MARCH 1995**;
 - printed price: **Rs. 65.00 / ரூ.65-00**.
 
-## Page-range access derivative used for Batch 15
+## Page-range access derivative used for continuation
 
 - filename: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`;
 - pages: **116**;
 - mapping: derivative page 1 = original physical scan **350**;
 - Batch-15 mapping: derivative pages **2–26** = original physical scans **351–375**;
+- Batch-16 mapping: derivative pages **27–51** = original physical scans **376–400**;
 - role: **rendering/access aid only; not a separate witness and not a replacement controlling source**;
 - committed to repository: **No**.
 
 ## Recent source anchors
 
-- scan **361** visibly prints page **344** and closes `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`;
-- scan **362** visibly prints page **345** and opens `“அறிஞர் அண்ணா வழியில்”`;
-- scan **370** visibly prints page **353** and closes that item;
-- scan **371** has no safely visible printed numeral and carries only faint show-through;
-- scan **372** is the `கண்ணித் துளிகள்` section divider and has no printed numeral;
-- scan **373** is the divider verso/show-through page with no safely visible printed numeral;
-- scan **374** visibly prints page **357** and opens `பன்னீர்ச்செல்வமே!`;
-- scan **375** visibly prints page **358** and closes `பன்னீர்ச்செல்வமே!`.
+- scan **378** visibly prints page **361** and closes `கலைத்தாயின் தலைச் செல்வன்!`;
+- scan **381** visibly prints page **364** and closes `உன் நிழலாக அசைகின்றோம்!`;
+- scan **383** visibly prints page **366** and closes `வாழ்க ஜீவா!`;
+- scan **384** opens `மறைந்த மாவீரன்` with no safely visible printed numeral; scan **389** visibly prints page **372** and closes it;
+- scan **390** opens `என் இனிய நண்பா! என் பிறந்தாய்?` with no safely visible printed numeral; scan **391** visibly prints page **374** and closes it;
+- scan **392** is the `மலர்த் தோட்டம்` divider and scan **393** its verso/show-through page;
+- scan **394** opens `இன்றைக்கு உன் பிறந்த நாள்` with no safely visible printed numeral; scan **395** visibly prints page **378** and closes it;
+- scan **396** opens `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!`; scan **397** visibly prints page **380** and closes it;
+- scan **398** opens `அருமருந்தே! அன்புறவு உடன்பிறப்பே!`; scan **399** visibly prints page **382** and closes it;
+- scan **400** opens `பகுத்தறிவுப் பாண்டியனார்!` with no safely visible printed numeral and continues beyond the batch boundary.
 
 ## Processing state
 
-- Phase 1 page records: **375/465**;
-- cumulative status: **10 `partial`, 365 `needs-review`, 0 `verified`**;
-- completed Phase-1 batches: **01–15**;
+- Phase 1 page records: **400/465**;
+- cumulative status: **10 `partial`, 390 `needs-review`, 0 `verified`**;
+- completed Phase-1 batches: **01–16**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Tamil final clearance: **blocked until Phase 1/2/3 gates complete across the full source**;
 - English translation/release: **blocked until Tamil final clearance**;
-- exact next activity: **Phase 1 Batch 16 — scans 376–400**.
+- exact next activity: **Phase 1 Batch 17 — scans 401–425**.
 
 ## Cross-witness warning
 

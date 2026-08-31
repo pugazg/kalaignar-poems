@@ -31,20 +31,27 @@ For continuation beyond the old renderer window, the user supplied `TVA_BOK_0064
 
 - derivative pages: **116**;
 - derivative page 1 = original physical scan **350**;
-- derivative pages 2–26 = original physical scans **351–375** used for Batch 15;
+- derivative pages **2–26** = original physical scans **351–375** used for Batch 15;
+- derivative pages **27–51** = original physical scans **376–400** used for Batch 16;
 - this is an access derivative of the same controlling witness, not a separate textual authority;
 - the derivative is not committed to the repository.
 
 ## Current processing state
 
-- Phase 1 first-pass records: **375/465**;
-- completed batches: **01–15, scans 1–375**;
-- cumulative status: **10 `partial`, 365 `needs-review`, 0 `verified`**;
-- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` closes **361 / printed 344**;
-- `“அறிஞர் அண்ணா வழியில்”` closes **370 / printed 353**;
-- `கண்ணித் துளிகள்` section divider occurs at scan **372**;
-- `பன்னீர்ச்செல்வமே!` closes **375 / printed 358**;
-- next batch: **Batch 16 — scans 376–400**;
+- Phase 1 first-pass records: **400/465**;
+- completed batches: **01–16, scans 1–400**;
+- cumulative status: **10 `partial`, 390 `needs-review`, 0 `verified`**;
+- `கலைத்தாயின் தலைச் செல்வன்!` closes **378 / printed 361**;
+- `உன் நிழலாக அசைகின்றோம்!` closes **381 / printed 364**;
+- `வாழ்க ஜீவா!` closes **383 / printed 366**;
+- `மறைந்த மாவீரன்` closes **389 / printed 372**;
+- `என் இனிய நண்பா! என் பிறந்தாய்?` closes **391 / printed 374**;
+- `மலர்த் தோட்டம்` divider occurs at scan **392** and verso at **393**;
+- `இன்றைக்கு உன் பிறந்த நாள்` closes **395 / printed 378**;
+- `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` closes **397 / printed 380**;
+- `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` closes **399 / printed 382**;
+- current item: `பகுத்தறிவுப் பாண்டியனார்!`, opened scan **400** and continuing beyond the batch;
+- next batch: **Batch 17 — scans 401–425**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
@@ -59,4 +66,4 @@ Only confidently legible text is transcribed in Phase 1. Uncertain spans remain 
 
 ## Current next activity
 
-**Phase 1 Batch 16 — physical scans 376–400**.
+**Phase 1 Batch 17 — physical scans 401–425**, continuing directly from `பகுத்தறிவுப் பாண்டியனார்!` at scan 400.

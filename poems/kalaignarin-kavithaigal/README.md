@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 375/465 physical pages recorded.**
+**ACTIVE WORK — PHASE 1 TRANSCRIPTION IN PROGRESS — 400/465 physical pages recorded.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,23 +22,27 @@ An earlier 150-page source-length assumption was caused by a renderer-window lim
 
 ## Phase-1 progress
 
-Page records: `pages/0001.md` through `pages/0375.md`
+Page records: `pages/0001.md` through `pages/0400.md`
 
-- page records: **375/465**;
+- page records: **400/465**;
 - `partial`: **10**;
-- `needs-review`: **365**;
+- `needs-review`: **390**;
 - `verified`: **0**;
-- completed batches: **01–15**;
+- completed batches: **01–16**;
 - Phase 2: **not started**.
 
 ## Recent source boundaries
 
-- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` — closes **361 / printed 344**;
-- `“அறிஞர் அண்ணா வழியில்”` — **362–370**, closes **370 / printed 353**;
-- scan **371** — unnumbered verso/show-through;
-- `கண்ணித் துளிகள்` section divider — **372**, no printed numeral;
-- scan **373** — unnumbered divider verso/show-through;
-- `பன்னீர்ச்செல்வமே!` — **374–375**, closes **375 / printed 358**.
+- `கலைத்தாயின் தலைச் செல்வன்!` — **376–378**, closes **378 / printed 361**;
+- `உன் நிழலாக அசைகின்றோம்!` — **379–381**, closes **381 / printed 364**;
+- `வாழ்க ஜீவா!` — **382–383**, closes **383 / printed 366**;
+- `மறைந்த மாவீரன்` — **384–389**, closes **389 / printed 372**;
+- `என் இனிய நண்பா! என் பிறந்தாய்?` — **390–391**, closes **391 / printed 374**;
+- `மலர்த் தோட்டம்` section divider/verso — **392–393**;
+- `இன்றைக்கு உன் பிறந்த நாள்` — **394–395**, closes **395 / printed 378**;
+- `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` — **396–397**, closes **397 / printed 380**;
+- `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` — **398–399**, closes **399 / printed 382**;
+- `பகுத்தறிவுப் பாண்டியனார்!` — opens **400**, remains open beyond Batch 16.
 
 ## Blur / difficult-reading control
 
@@ -50,4 +54,4 @@ Works already archived from separate witnesses, including `இதயத்தை
 
 ## Exact next activity
 
-Begin **Phase 1 Batch 16 — scans 376–400**. Create `pages/0376.md` through `pages/0400.md`. Do not begin Phase 2 in the same activity.
+Begin **Phase 1 Batch 17 — scans 401–425**. Create `pages/0401.md` through `pages/0425.md`, continuing `பகுத்தறிவுப் பாண்டியனார்!` from scan 400. Do not begin Phase 2 in the same activity.

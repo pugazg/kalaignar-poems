@@ -38,14 +38,20 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Phase-1 state
 
-- page records created: **375/465** — `pages/0001.md` through `pages/0375.md`;
-- cumulative status: **10 `partial`, 365 `needs-review`, 0 `verified`**;
-- completed batches: **01–15**;
-- Batch 15: scans **351–375**;
-- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` closes **361 / printed 344**;
-- `“அறிஞர் அண்ணா வழியில்”` spans **362–370**, closes **370 / printed 353**;
-- scans **371–373** are unnumbered verso/divider/verso pages, with `கண்ணித் துளிகள்` visible on scan 372;
-- `பன்னீர்ச்செல்வமே!` spans **374–375**, closes **375 / printed 358**;
+- page records created: **400/465** — `pages/0001.md` through `pages/0400.md`;
+- cumulative status: **10 `partial`, 390 `needs-review`, 0 `verified`**;
+- completed batches: **01–16**;
+- Batch 16: scans **376–400**;
+- `கலைத்தாயின் தலைச் செல்வன்!` closes **378 / printed 361**;
+- `உன் நிழலாக அசைகின்றோம்!` closes **381 / printed 364**;
+- `வாழ்க ஜீவா!` closes **383 / printed 366**;
+- `மறைந்த மாவீரன்` closes **389 / printed 372**;
+- `என் இனிய நண்பா! என் பிறந்தாய்?` closes **391 / printed 374**;
+- scans **392–393** are the `மலர்த் தோட்டம்` divider and verso;
+- `இன்றைக்கு உன் பிறந்த நாள்` closes **395 / printed 378**;
+- `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` closes **397 / printed 380**;
+- `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` closes **399 / printed 382**;
+- `பகுத்தறிவுப் பாண்டியனார்!` opens **400** and remains open beyond the batch boundary;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - Phase 4: **blocked**.
@@ -61,4 +67,4 @@ The previous 150-page assumption was a renderer-window error and is withdrawn. D
 
 ### Exact next activity
 
-Execute **Phase 1 Batch 16 — physical scans 376–400**. Create `pages/0376.md` through `pages/0400.md`. Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.
+Execute **Phase 1 Batch 17 — physical scans 401–425**. Create `pages/0401.md` through `pages/0425.md`, continuing the open `பகுத்தறிவுப் பாண்டியனார்!` item from scan 400. Do not begin Phase 2, Phase 3, canonical assembly, or translation in the same activity.

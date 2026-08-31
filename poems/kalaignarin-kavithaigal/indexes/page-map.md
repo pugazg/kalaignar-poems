@@ -10,7 +10,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP IN PROGRESS — page records 1–375 created of 465.**
+**PHASE 1 MAP IN PROGRESS — page records 1–400 created of 465.**
 
 This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
 
@@ -18,47 +18,52 @@ This is a first-pass navigation map, not a Phase-3 physical↔printed-page recon
 
 | Physical scans | Visible source movement | Status / boundary |
 |---:|---|---|
-| 329–332 | `கலைவாணர் அரங்கக் கவியரங்கம்` | closes 332 / printed 315 |
-| 333–345 | `“சித்திரைத் திருநாள்” தலைமைக் கவிதை!` | closes 345 / printed 328 |
-| 346–361 | `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` | opens 346 / printed 329; closes 361 / printed 344 |
-| 362–370 | `“அறிஞர் அண்ணா வழியில்”` | opens 362 / printed 345; closes 370 / printed 353 |
-| 371–373 | verso / `கண்ணித் துளிகள்` divider / verso | no safely visible printed numerals |
-| 374–375 | `பன்னீர்ச்செல்வமே!` | opens 374 / printed 357; closes 375 / printed 358 |
+| 374–375 | `பன்னீர்ச்செல்வமே!` | closes 375 / printed 358 |
+| 376–378 | `கலைத்தாயின் தலைச் செல்வன்!` | opens 376 / printed 359; closes 378 / printed 361 |
+| 379–381 | `உன் நிழலாக அசைகின்றோம்!` | opens 379 / printed 362; closes 381 / printed 364 |
+| 382–383 | `வாழ்க ஜீவா!` | opens 382 / printed 365; closes 383 / printed 366 |
+| 384–389 | `மறைந்த மாவீரன்` | opens 384 with numeral not safely visible; closes 389 / printed 372 |
+| 390–391 | `என் இனிய நண்பா! என் பிறந்தாய்?` | opens 390 with numeral not safely visible; closes 391 / printed 374 |
+| 392–393 | `மலர்த் தோட்டம்` divider / verso | no safely visible printed numerals |
+| 394–395 | `இன்றைக்கு உன் பிறந்த நாள்` | opens 394 with numeral not safely visible; closes 395 / printed 378 |
+| 396–397 | `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` | opens 396 with numeral not safely visible; closes 397 / printed 380 |
+| 398–399 | `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` | opens 398 with numeral not safely visible; closes 399 / printed 382 |
+| 400 | `பகுத்தறிவுப் பாண்டியனார்!` | opens 400; remains open beyond Batch 16 |
 
-## Phase-1 map — scans 351–375
+## Phase-1 map — scans 376–400
 
 | Scan | Visible role / section | Visibly printed page | Status | Notes |
 |---:|---|---:|---|---|
-| 351 | `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` continuation | 334 | `needs-review` | continues from scan 350 |
-| 352 | same item continuation | 335 | `needs-review` | compact speaker/performance text; unresolved spans retained |
-| 353 | same item continuation | 336 | `needs-review` | quotation/performance structure retained where legible |
-| 354 | same item continuation | 337 | `needs-review` | unresolved compact spans retained |
-| 355 | same item continuation | 338 | `needs-review` | unresolved compact spans retained |
-| 356 | same item continuation | 339 | `needs-review` | source lineation preserved where legible |
-| 357 | same item continuation | 340 | `needs-review` | source lineation preserved where legible |
-| 358 | same item continuation | 341 | `needs-review` | proper-name/reference blur left unresolved |
-| 359 | same item continuation | 342 | `needs-review` | historical-reference blur left unresolved |
-| 360 | same item continuation | 343 | `needs-review` | quotation blur left unresolved |
-| 361 | same item conclusion | 344 | `needs-review` | item visibly closes; illustration below |
-| 362 | `“அறிஞர் அண்ணா வழியில்”` opening | 345 | `needs-review` | title/context block and new poem opening visible |
-| 363 | same item continuation | 346 | `needs-review` | flower/analogy passage |
-| 364 | same item continuation | 347 | `needs-review` | page ends mid-sentence |
-| 365 | same item continuation | 348 | `needs-review` | source wording preserved where legible |
-| 366 | same item continuation | 349 | `needs-review` | repeated `அண்ணா` passage |
-| 367 | same item continuation | 350 | `needs-review` | political-reference blur retained |
-| 368 | same item continuation | 351 | `needs-review` | several compact spans unresolved |
-| 369 | same item continuation | 352 | `needs-review` | final line carries into next page |
-| 370 | same item conclusion | 353 | `needs-review` | item visibly closes; illustration below |
-| 371 | post-poem verso/show-through | — | `needs-review` | no positively identified edition text |
-| 372 | `கண்ணித் துளிகள்` section divider | — | `needs-review` | title inside rectangular border |
-| 373 | divider verso/show-through | — | `needs-review` | no positively identified edition text |
-| 374 | `பன்னீர்ச்செல்வமே!` opening | 357 | `needs-review` | section body opens; context paragraph visible |
-| 375 | `பன்னீர்ச்செல்வமே!` conclusion | 358 | `needs-review` | poem visibly closes with ornament |
+| 376 | `கலைத்தாயின் தலைச் செல்வன்!` opening | 359 | `needs-review` | title/context block visible |
+| 377 | same item continuation | 360 | `needs-review` | dense verse; unresolved spans retained |
+| 378 | same item conclusion | 361 | `needs-review` | closes with decorative ornament |
+| 379 | `உன் நிழலாக அசைகின்றோம்!` opening | 362 | `needs-review` | 75th-anniversary context visible |
+| 380 | same item continuation | 363 | `needs-review` | repeated `அண்ணனே!` structure preserved |
+| 381 | same item conclusion | 364 | `needs-review` | closes with ornament |
+| 382 | `வாழ்க ஜீவா!` opening | 365 | `needs-review` | new titled poem opens |
+| 383 | same item conclusion | 366 | `needs-review` | dated `நம் நாடு 21.3.1963` note and ornament |
+| 384 | `மறைந்த மாவீரன்` opening | — | `needs-review` | context block visible; numeral not safely visible |
+| 385 | same item continuation | 368 | `needs-review` | dialogue/verse structure |
+| 386 | same item continuation | 369 | `needs-review` | compact dialogue; unresolved spans retained |
+| 387 | same item continuation | 370 | `needs-review` | narrative continuation |
+| 388 | same item continuation | 371 | `needs-review` | dense rhetorical passage |
+| 389 | same item conclusion | 372 | `needs-review` | item ends before next titled opening |
+| 390 | `என் இனிய நண்பா! என் பிறந்தாய்?` opening | — | `needs-review` | Kannadasan memorial context visible |
+| 391 | same item conclusion | 374 | `needs-review` | item visibly closes |
+| 392 | `மலர்த் தோட்டம்` section divider | — | `needs-review` | title inside rectangular border |
+| 393 | divider verso/show-through | — | `needs-review` | no positively identified edition text |
+| 394 | `இன்றைக்கு உன் பிறந்த நாள்` opening | — | `needs-review` | 15.7.76 Kamarajar context visible |
+| 395 | same item conclusion | 378 | `needs-review` | closes with Muracoli publication note |
+| 396 | `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` opening | — | `needs-review` | new titled poem opens |
+| 397 | same item conclusion | 380 | `needs-review` | illustration below closing lines |
+| 398 | `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` opening | — | `needs-review` | new titled poem opens |
+| 399 | same item conclusion | 382 | `needs-review` | architectural illustration below closing lines |
+| 400 | `பகுத்தறிவுப் பாண்டியனார்!` opening | — | `needs-review` | item remains open beyond Batch 16 |
 
 ## Phase-1 status rule
 
-Every Batch-15 record remains `needs-review`. This map records only source-established navigation/boundary evidence. It does not promote any page to `verified` and does not resolve blur by inference.
+Every Batch-16 record remains `needs-review`. This map records only source-established navigation/boundary evidence. It does not promote any page to `verified` and does not resolve blur by inference.
 
 ## Next mapping activity
 
-Extend the map through physical scan **400** while executing Phase 1 Batch 16.
+Extend the map through physical scan **425** while executing Phase 1 Batch 17, continuing directly from the open item at scan 400.
