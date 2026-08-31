@@ -18,9 +18,9 @@ Before changing this repository in a fresh chat:
 3. read `TRANSCRIPTION_PHASE_PLAN.md` completely;
 4. read root `README.md` and `NEXT_CHAT_PROMPT.md` completely;
 5. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md` completely;
-6. inspect boundary record `poems/kalaignarin-kavithaigal/pages/0350.md`;
+6. inspect boundary record `poems/kalaignarin-kavithaigal/pages/0375.md`;
 7. use the controlling PDF directly whenever transcription/verification requires source evidence;
-8. never commit the source PDF;
+8. never commit the source PDF or page-range access derivatives;
 9. synchronize status-bearing files at each completed batch;
 10. when the user says **“Proceed with next activity”**, execute the exact next routine operation recorded in live state.
 
@@ -40,30 +40,33 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-### Critical renderer warning
+### Renderer / access-derivative warning
 
-An earlier interface exposed only pages 1–150. That was not the PDF's actual length. Exact-byte inspection established **465 physical pages**, and direct source processing has now reached scan **350**.
+An earlier interface exposed only pages 1–150; that is not the source length. Exact-byte inspection established **465 physical pages**.
+
+For Batch 15 the user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`, a 116-page page-range access derivative. Its page 1 is original physical scan 350, so derivative pages 2–26 correspond to original scans 351–375. This derivative is **not a separate witness** and does not change the controlling-source identity.
 
 ## Durable Phase-1 state at handoff
 
-**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–350 / 465 recorded.**
+**PHASE 1 TRANSCRIPTION IN PROGRESS — physical scans 1–375 / 465 recorded.**
 
-- Phase 1 page records: **350/465**;
-- files created: `pages/0001.md` through `pages/0350.md`;
-- cumulative status: **10 `partial`, 340 `needs-review`, 0 `verified`**;
-- completed batches: **01–14**;
+- Phase 1 page records: **375/465**;
+- files created: `pages/0001.md` through `pages/0375.md`;
+- cumulative status: **10 `partial`, 365 `needs-review`, 0 `verified`**;
+- completed batches: **01–15**;
 - Phase 2 source-critical verification: **not started**;
 - Phase 3 structure/assembly/final clearance: **not started**;
 - English translation/release: **blocked until Tamil final clearance**.
 
 ## Recent durable source/item boundaries
 
-- `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` — 297–310, closes **310 / printed 293**;
-- `மாறி வரும் ஊரினிலே` — 311–317, closes **317 / printed 300**;
-- `சமுதாயப் பார்வைகள்...!` — 318–328, closes **328 / printed 311**;
-- `கலைவாணர் அரங்கக் கவியரங்கம்` — 329–332, closes **332 / printed 315**; scan 329 has no safely visible printed numeral;
-- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` — 333–345, closes **345 / printed 328**; scan 333 has no safely visible printed numeral;
-- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` — opens **346 / printed 329** and remains open beyond **350 / printed 333**.
+- `“சித்திரைத் திருநாள்” தலைமைக் கவிதை!` closes **345 / printed 328**;
+- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` opens **346 / printed 329** and **closes 361 / printed 344**;
+- `“அறிஞர் அண்ணா வழியில்”` opens **362 / printed 345**, spans **362–370**, and **closes 370 / printed 353**;
+- scan **371** is a largely blank/show-through post-poem verso with no safely visible printed numeral;
+- scan **372** is the `கண்ணித் துளிகள்` section divider with no printed numeral;
+- scan **373** is its verso/show-through page with no safely visible printed numeral;
+- `பன்னீர்ச்செல்வமே!` opens **374 / printed 357** and **closes 375 / printed 358**.
 
 ## Durable blur / difficult-reading rule
 
@@ -81,8 +84,8 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 1 Batch 15 — physical scans 351–375**.
+Execute **Phase 1 Batch 16 — physical scans 376–400**.
 
-Create `poems/kalaignarin-kavithaigal/pages/0351.md` through `pages/0375.md`, continuing directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` at scan 350. Inspect every scan directly from the exact 465-page controlling PDF, preserve physical boundaries and visible structure, and retain the conservative blur policy.
+Create `poems/kalaignarin-kavithaigal/pages/0376.md` through `pages/0400.md`. Inspect every scan directly from the same controlling-source witness (or a source-faithful page-range access derivative of those exact physical scans), preserve physical boundaries and visible structure, and retain the conservative blur policy.
 
-At Batch-15 completion synchronize `audit.md`, `indexes/page-map.md`, active/root READMEs, `SOURCE_INTAKE.md`, `metadata/source.md`, `TRANSCRIPTION_PHASE_PLAN.md`, `HANDOVER.md`, and `NEXT_CHAT_PROMPT.md`. Do **not** begin Phase 2, Phase 3, canonical assembly or translation in the same activity.
+At Batch-16 completion synchronize all status-bearing files to the exact next Phase-1 batch. Do **not** begin Phase 2, Phase 3, canonical assembly or translation in the same activity.

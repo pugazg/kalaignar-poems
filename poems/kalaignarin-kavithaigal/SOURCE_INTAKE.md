@@ -25,16 +25,26 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 The original intake mistakenly recorded 150 as the PDF's physical page count because an interface renderer exposed only pages 1–150. Direct access to the exact source bytes confirms **465 physical pages**.
 
+## Page-range access derivative
+
+For continuation beyond the old renderer window, the user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`.
+
+- derivative pages: **116**;
+- derivative page 1 = original physical scan **350**;
+- derivative pages 2–26 = original physical scans **351–375** used for Batch 15;
+- this is an access derivative of the same controlling witness, not a separate textual authority;
+- the derivative is not committed to the repository.
+
 ## Current processing state
 
-- Phase 1 first-pass records: **350/465**;
-- completed batches: **01–14, scans 1–350**;
-- cumulative status: **10 `partial`, 340 `needs-review`, 0 `verified`**;
-- `சமுதாயப் பார்வைகள்...!` closes scan **328 / printed page 311**;
-- `கலைவாணர் அரங்கக் கவியரங்கம்` closes scan **332 / printed page 315**;
-- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` closes scan **345 / printed page 328**;
-- current item: `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`, opened scan **346 / printed page 329** and continuing beyond scan **350 / printed page 333**;
-- next batch: **Batch 15 — scans 351–375**;
+- Phase 1 first-pass records: **375/465**;
+- completed batches: **01–15, scans 1–375**;
+- cumulative status: **10 `partial`, 365 `needs-review`, 0 `verified`**;
+- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` closes **361 / printed 344**;
+- `“அறிஞர் அண்ணா வழியில்”` closes **370 / printed 353**;
+- `கண்ணித் துளிகள்` section divider occurs at scan **372**;
+- `பன்னீர்ச்செல்வமே!` closes **375 / printed 358**;
+- next batch: **Batch 16 — scans 376–400**;
 - Phase 2: **not started**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
@@ -49,4 +59,4 @@ Only confidently legible text is transcribed in Phase 1. Uncertain spans remain 
 
 ## Current next activity
 
-**Phase 1 Batch 15 — physical scans 351–375**, continuing directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` item at scan 350.
+**Phase 1 Batch 16 — physical scans 376–400**.

@@ -17,7 +17,7 @@ Live GitHub `main` is authoritative. Source wording, punctuation, lineation, ப
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 350/465; Batch 15 scans 351–375 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 through scan 375/465; Batch 16 scans 376–400 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -35,19 +35,19 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**;
-- Phase 1 page records: **350/465**;
-- cumulative status: **10 partial, 340 needs-review, 0 verified**;
-- current item: **`எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`**, opened scan 346 / printed page 329 and continuing beyond scan 350 / printed page 333;
-- exact next activity: **Phase 1 Batch 15 — scans 351–375**.
+- Phase 1 page records: **375/465**;
+- cumulative status: **10 partial, 365 needs-review, 0 verified**;
+- latest closed item: **`பன்னீர்ச்செல்வமே!` — scan 375 / printed page 358**;
+- exact next activity: **Phase 1 Batch 16 — scans 376–400**.
 
-Batch-14 boundaries established from the controlling scan:
+Recent boundaries:
 
-- `சமுதாயப் பார்வைகள்...!` closes **328 / printed 311**;
-- `கலைவாணர் அரங்கக் கவியரங்கம்` spans **329–332**, closes **332 / printed 315**;
-- `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` spans **333–345**, closes **345 / printed 328**;
-- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` opens **346 / printed 329** and remains open through **350 / printed 333**.
+- `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` closes **361 / printed 344**;
+- `“அறிஞர் அண்ணா வழியில்”` spans **362–370**, closes **370 / printed 353**;
+- `கண்ணித் துளிகள்` section divider is scan **372**, with unnumbered verso pages at **371** and **373**;
+- `பன்னீர்ச்செல்வமே!` spans **374–375**, closes **375 / printed 358**.
 
-The earlier 150-page source-length assumption came from a renderer-window limitation and is withdrawn. Direct source-byte access confirms the full **465-page** PDF.
+The earlier 150-page source-length assumption came from a renderer-window limitation and is withdrawn. Direct source-byte identity confirms the full **465-page** PDF.
 
 The anthology overlaps with separately archived source witnesses such as `இதயத்தைத் தந்திடு அண்ணா!` and `தென்னவன் காதை`; those texts are not transcription authority for this anthology witness and must not be copied into blurred spans. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
