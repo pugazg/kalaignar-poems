@@ -12,29 +12,33 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 **PHASE 1 MAP COMPLETE. PHASE 2 VERIFICATION IN PROGRESS.**
 
-- Phase 2 reviewed through scan **25**;
-- cumulative status: **6 `partial`, 455 `needs-review`, 4 `verified`**.
+- Phase 2 reviewed through scan **50**;
+- cumulative status: **4 `partial`, 455 `needs-review`, 6 `verified`**.
 
 ## Phase-2 Batch 01 — scans 1–25
 
+- `0001`, `0018`, `0019`, `0020` verified;
+- scans 15–17 received source-backed contents-title repairs;
+- scan 23 received direct-source quotation/glyph corrections;
+- remaining pages retain unresolved small-type/compact-text material.
+
+## Phase-2 Batch 02 — scans 26–50
+
 | Scans | Visible role / section | Phase-2 outcome |
 |---:|---|---|
-| 1 | front cover | `verified` |
-| 2–3 | title/imprint | reviewed; small imprint/separator details still unresolved |
-| 4–14 | preface / foreword / introductory prose | reviewed; dense compact text still prevents full-page promotion |
-| 15–17 | contents | source-backed title corrections applied; remain `needs-review` for small-type exactness |
-| 18 | `இதயத்தைத் தந்திடு அண்ணா` divider | `verified` |
-| 19 | divider verso/show-through | `verified` |
-| 20 | poem opening / printed page 3 | `verified` |
-| 21–25 | poem continuation / printed pages 4–8 | reviewed; unresolved compact verse remains |
+| 26–31 | `இதயத்தைத் தந்திடு அண்ணா` continuation and conclusion | independently reviewed; compact verse remains unresolved; scan 27 corrected `நந்த` → `தந்த` |
+| 32 | `இனமான ஏந்தல்கள்` section divider | `verified`; title witness corrected from earlier `எந்தல்கள்` |
+| 33 | divider verso/show-through | `verified`; no positive edition text on this side |
+| 34–42 | `தென்னவன் காதை` | independently reviewed; dense narrative verse remains `needs-review`; user-directed exclusion preserved |
+| 43–50 | `இந்திரஜித்` opening/continuation | independently reviewed; compact verse, dialogue and proper-name readings remain `needs-review` |
 
-### Notable corrections
+### Batch-02 source-backed corrections
 
-- scan 15: `இனமான ஏந்தல்கள்`, `உடன்பிறப்பின் பற்று`;
-- scan 16: corrected multiple contents titles including `கலைவாணர் அரங்கக் கவியரங்கம்`, `“சித்திரைத் திருநாள்” தலைமைக் கவிதை`, and `“எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று”`;
-- scan 17: multiple Phase-1 contents misreadings replaced from direct scan evidence;
-- scan 23: `அறிந்திடுவீர் எனச் சொன்னேன்!` and `“கத்தியைத் தீட்டாதே புத்தியைத் தீட்டு”` corrected from the scan.
+- scan 27: `வி.வி. கிரி தந்த வாழ்த்துக்கு விளக்கமிது.`;
+- scans 32–33: section witness `இனமான ஏந்தல்கள்`.
+
+No separate source witness was used to fill unresolved anthology text.
 
 ## Next mapping activity
 
-**Phase 2 Verification Batch 02 — physical scans 26–50**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
+**Phase 2 Verification Batch 03 — physical scans 51–75**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.

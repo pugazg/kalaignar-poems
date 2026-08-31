@@ -8,44 +8,43 @@
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 2 reviewed: **25/465 scans**;
-- cumulative page status: **6 `partial`, 455 `needs-review`, 4 `verified`**;
+- Phase 2 reviewed: **50/465 scans**;
+- cumulative page status: **4 `partial`, 455 `needs-review`, 6 `verified`**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
 ## Phase 2 Verification Batch 01 — scans 1–25
 
-Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; FOUR COMPLETE PAGE PASSES; UNRESOLVED MATERIAL RETAINED CONSERVATIVELY.**
+Result: **COMPLETE.** Verified `0001`, `0018`, `0019`, `0020`; applied source-backed contents/title corrections to scans 15–17 and quotation/glyph corrections to scan 23 while retaining unresolved pages conservatively.
 
-All scans 1–25 were independently inspected against the controlling PDF before existing Markdown was trusted.
+## Phase 2 Verification Batch 02 — scans 26–50
+
+Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; TWO COMPLETE PAGE PASSES; UNRESOLVED MATERIAL RETAINED CONSERVATIVELY.**
+
+All scans 26–50 were independently inspected against the controlling PDF before existing Markdown was trusted.
 
 ### Verified pages
 
-- `0001` — front cover;
-- `0018` — `இதயத்தைத் தந்திடு அண்ணா` section divider;
-- `0019` — divider verso/show-through;
-- `0020` — poem opening, printed page 3.
+- `0032` — `இனமான ஏந்தல்கள்` section divider;
+- `0033` — divider verso/show-through.
 
 ### Reviewed but not promoted
 
-- scans **2–3**: exact small imprint/separator typography remains unresolved;
-- scans **4–14**: dense preface/foreword text contains compact readings that cannot yet be fully cleared at the available rendering scale;
-- scans **15–17**: direct-source corrections were applied to contents titles, but exact small-type glyph/punctuation clearance is incomplete;
-- scans **21–25**: poem continuation was reread; unresolved compact verse blocks remain explicit.
+- scans **26–31**: `இதயத்தைத் தந்திடு அண்ணா` continuation/conclusion contains dense compact verse; exact full-page clearance remains incomplete;
+- scans **34–42**: `தென்னவன் காதை` was directly reread from this anthology witness; dense narrative compounds and verse remain unresolved, and the user-directed exclusion remains preserved;
+- scans **43–50**: `இந்திரஜித்` contains compact narrative verse, dialogue punctuation and proper-name-like readings that cannot yet receive complete exact clearance at the available rendering scale.
 
 ### Source-backed corrections applied
 
-- scan 15: corrected `இனமான ஏந்தல்கள்` and `உடன்பிறப்பின் பற்று`; retained unresolved small-type titles explicitly;
-- scan 16: corrected multiple misread contents witnesses, including `கலைவாணர் அரங்கக் கவியரங்கம்`, `“சித்திரைத் திருநாள்” தலைமைக் கவிதை`, `“எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று”`, `உன் நிழலாக அசைகின்றோம்`, `வாழ்க ஜீவா!`, `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, and later `மலர்த் தோட்டம்` titles;
-- scan 17: replaced numerous Phase-1 title misreadings from the visible contents scan while retaining `needs-review` because exact small-type punctuation/glyph clearance is not complete;
-- scan 23: corrected `அறிந்திடுவீர் எனச் சொன்னேன்!` and `“கத்தியைத் தீட்டாதே புத்தியைத் தீட்டு”` directly from the scan.
+- scan 27: corrected `வி.வி. கிரி நந்த வாழ்த்துக்கு விளக்கமிது.` to source-visible `வி.வி. கிரி தந்த வாழ்த்துக்கு விளக்கமிது.`;
+- scans 32–33: corrected the section witness from `இனமான எந்தல்கள்` to source-visible **`இனமான ஏந்தல்கள்`** and promoted both simple divider/verso records after complete visual passes.
 
 ### Batch status movement
 
-Starting Phase-1 totals: **10 `partial`, 455 `needs-review`, 0 `verified`**.  
-After Batch 01: **6 `partial`, 455 `needs-review`, 4 `verified`**.
+Before Batch 02: **6 `partial`, 455 `needs-review`, 4 `verified`**.  
+After Batch 02: **4 `partial`, 455 `needs-review`, 6 `verified`**.
 
-No page was promoted merely because it had been reviewed once; only complete passes were promoted.
+No page was promoted merely because it had been reviewed. Only the complete divider/verso passes were promoted.
 
 ## Verification safeguards
 
@@ -58,4 +57,4 @@ No page was promoted merely because it had been reviewed once; only complete pas
 
 ## Exact next activity
 
-Execute **Phase 2 Verification Batch 02 — physical scans 26–50**. At completion synchronize to **Batch 03 — scans 51–75**. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 03 — physical scans 51–75**. At completion synchronize to **Batch 04 — scans 76–100**. Do not begin Phase 3, canonical assembly, or translation.

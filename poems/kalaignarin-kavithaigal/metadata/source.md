@@ -22,12 +22,13 @@
 ## Verification state
 
 - Phase 1: **COMPLETE — 465/465 records**;
-- Phase 2 Batch 01, scans **1–25**: **COMPLETE**;
-- cumulative page status: **6 `partial`, 455 `needs-review`, 4 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020**;
-- next: **Phase 2 Verification Batch 02 — scans 26–50**.
+- Phase 2 Batches 01–02, scans **1–50**: **COMPLETE**;
+- Phase 2 reviewed: **50/465 scans**;
+- cumulative page status: **4 `partial`, 455 `needs-review`, 6 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033**;
+- next: **Phase 2 Verification Batch 03 — scans 51–75**.
 
-Phase-2 corrections are made only from direct controlling-scan evidence. Small-type or blurred material remains unresolved rather than being completed from OCR, memory, grammar, historical expectation or another edition.
+Phase-2 corrections are made only from direct controlling-scan evidence. Batch 02 established `இனமான ஏந்தல்கள்` from scans 32–33 and corrected `வி.வி. கிரி தந்த வாழ்த்துக்கு விளக்கமிது.` on scan 27. Small-type or blurred material remains unresolved rather than being completed from OCR, memory, grammar, historical expectation or another edition.
 
 ## Cross-witness warning
 

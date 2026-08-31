@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the next target record `poems/kalaignarin-kavithaigal/pages/0026.md` and the immediately preceding verified/review boundary `pages/0025.md`;
+4. inspect the next target record `poems/kalaignarin-kavithaigal/pages/0051.md` and the immediately preceding reviewed boundary `pages/0050.md`;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
 6. synchronize status-bearing files after each verification batch.
 
@@ -38,23 +38,25 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batch 01 COMPLETE — scans 1–25 independently reread.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–02 COMPLETE — scans 1–50 independently reread.**
 
 Current cumulative page status:
 
-- `partial`: **6**;
+- `partial`: **4**;
 - `needs-review`: **455**;
-- `verified`: **4**;
+- `verified`: **6**;
 - total: **465**.
 
-Phase-2 Batch 01 outcomes:
+Verified so far: **0001, 0018, 0019, 0020, 0032, 0033**.
 
-- promoted to `verified`: **0001, 0018, 0019, 0020**;
-- source-backed corrections without full-page promotion: **0015, 0016, 0017, 0023**;
-- all remaining scans in 1–25 were independently inspected but retain `partial` / `needs-review` because exact small-type, compact-glyph, punctuation, separator, or blurred-line clearance is still incomplete;
+### Phase-2 Batch 02 outcomes — scans 26–50
+
+- all scans 26–50 were independently inspected against the controlling PDF before existing Markdown was trusted;
+- `0032` (`இனமான ஏந்தல்கள்` divider) and `0033` (divider verso/show-through) passed complete verification and were promoted to `verified`;
+- scan `0027` was corrected from `வி.வி. கிரி நந்த...` to source-visible `வி.வி. கிரி தந்த வாழ்த்துக்கு விளக்கமிது.`;
+- scans 26–31 and 34–50 retain `needs-review` because dense/compact verse, dialogue punctuation, proper-name compounds or blurred word endings could not yet receive complete exact clearance at the available rendering scale;
+- the anthology divider witness is **`இனமான ஏந்தல்கள்`**, correcting the earlier `எந்தல்கள்` reading;
 - no separate witness was used to fill anthology text.
-
-Notable source-backed corrections include `இனமான ஏந்தல்கள்`, `உடன்பிறப்பின் பற்று`, `கலைவாணர் அரங்கக் கவியரங்கம்`, `“சித்திரைத் திருநாள்” தலைமைக் கவிதை`, `“எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று”`, several contents titles on scan 17, and `“கத்தியைத் தீட்டாதே புத்தியைத் தீட்டு”` on scan 23.
 
 ## Phase-2 rule
 
@@ -66,6 +68,6 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 02 — physical scans 26–50**.
+Execute **Phase 2 Verification Batch 03 — physical scans 51–75**.
 
-Independently reread scans 26–50 against the controlling source, compare with `pages/0026.md`–`pages/0050.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 03 — scans 51–75**. Do not begin Phase 3, canonical assembly, or translation.
+Independently reread scans 51–75 against the controlling source, compare with `pages/0051.md`–`pages/0075.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 04 — scans 76–100**. Do not begin Phase 3, canonical assembly, or translation.

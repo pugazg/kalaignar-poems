@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batch 01 (scans 1–25) COMPLETE.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batches 01–02 (scans 1–50) COMPLETE.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -21,12 +21,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 ## Progress
 
 - Phase 1 page records: **465/465 — COMPLETE**;
-- Phase 2 reviewed: **25/465** physical scans;
-- cumulative status: **6 `partial`, 455 `needs-review`, 4 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020**;
+- Phase 2 reviewed: **50/465** physical scans;
+- cumulative status: **4 `partial`, 455 `needs-review`, 6 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033**;
 - Phase 3: **not started**.
 
-Batch 01 directly reviewed scans 1–25. Scans 15–17 received significant source-backed contents-title repairs but remain `needs-review`; scan 23 received direct-source quotation/glyph corrections but retains unresolved verse blocks.
+Batch 02 directly reviewed scans 26–50. Scan 27 received a source-backed `தந்த` correction; scans 32–33 established and verified the divider witness `இனமான ஏந்தல்கள்`. Dense poem pages retain unresolved text rather than being completed from another source.
 
 ## Verification control
 
@@ -34,4 +34,4 @@ The controlling scan is authoritative. Do not resolve blur from OCR, remembered 
 
 ## Exact next activity
 
-**Phase 2 Verification Batch 02 — scans 26–50**. Do not begin Phase 3 in the same activity.
+**Phase 2 Verification Batch 03 — scans 51–75**. Do not begin Phase 3 in the same activity.
