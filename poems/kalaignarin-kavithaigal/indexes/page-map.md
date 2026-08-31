@@ -12,27 +12,36 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 **PHASE 1 MAP COMPLETE. PHASE 2 VERIFICATION IN PROGRESS.**
 
-- Phase 2 reviewed through scan **150**;
-- cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**.
+- Phase 2 reviewed through scan **175**;
+- cumulative status: **2 `partial`, 453 `needs-review`, 10 `verified`**.
 
-## Phase-2 Batch 06 — scans 126–150
+## Phase-2 Batch 07 — scans 151–175
 
 | Scans | Visible role / section | Phase-2 outcome |
 |---:|---|---|
-| 126–127 | `அருமறையில் அறுவர்` conclusion | reviewed; closes at 127; remains `needs-review` |
-| 128–137 | `புதிய பாதை` | reviewed; direct-source correction on 135; remains `needs-review` |
-| 138–143 | `உடைமைகள் பத்து` | reviewed; venue note resolved on 138; remains `needs-review` |
-| 144–150 | `நீர்க் குடும்பம்` opening / continuation | reviewed; corrections on 144 and 150; remains open and `needs-review` |
+| 151–154 | `நீர்க் குடும்பம்` continuation / conclusion | reviewed; scan 154 `verified`; source-backed corrections on 152–153 |
+| 155–169 | `பாரதிதாசன்` | reviewed; source-backed corrections on 158, 163, 168; remaining dense pages `needs-review` |
+| 170–174 | `பாரதியார்` | reviewed; source-backed correction on 170; scan 174 corrected and `verified` |
+| 175 | `பொங்கல் திருநாள்` opening | reviewed; one source-backed line restoration; remains `needs-review` and continues at 176 |
 
-### Batch-06 source-backed corrections
+### Batch-07 source-backed corrections
 
-- scan 135: `இராதாகிருஷ்ணன்` → source-visible old form `இராதாகிருட்டிணன்` in the `கம்பு பயிரிடல்` performance note;
-- scan 138: resolved the venue parenthetical as `(கலைவாணர் அரங்கம்)`;
-- scan 144: resolved the venue as `பரமத்தி வேலூர், கண்டர் கல்லூரி`;
-- scan 150: corrected the performance-note name `முருகுந்தனம்` → `முருகுந்தரம்`.
+- scan 152: `அவரங்கசீப்` → `அவுரங்கசீப்`;
+- scan 153: resolved `ஒரு தலைப்பட்டசமாய்`;
+- scan 158: resolved `சஞ்சீவிபர்வதத்தின்`;
+- scan 163: resolved `விழாக்களுரையைச்`;
+- scan 168: resolved `கருப்பாதை சாத்தக்`;
+- scan 170: resolved `வரவேற்புக்`;
+- scan 174: corrected `என்றான்:` punctuation and `வாரிசாய்ப்`; full page `verified`;
+- scan 175: resolved `தாவியோடித் திடுதிடென வெய்யத்துயர் தணித்ததாலும்`.
 
-No Batch-06 page was promoted: dense verse, performance transitions, old/compact Tamil forms and line-level glyphs remain insufficient for complete exact clearance.
+### Batch-07 boundaries
+
+- `நீர்க் குடும்பம்` closes at scan **154 / printed 137**;
+- `பாரதிதாசன்` spans scans **155–169**;
+- `பாரதியார்` spans scans **170–174**, closing at **174 / printed 157**;
+- `பொங்கல் திருநாள்` opens at scan **175** and continues beyond the batch.
 
 ## Next mapping activity
 
-**Phase 2 Verification Batch 07 — physical scans 151–175**. Continue directly from `நீர்க் குடும்பம்`. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
+**Phase 2 Verification Batch 08 — physical scans 176–200**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.

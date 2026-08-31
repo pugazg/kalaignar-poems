@@ -18,15 +18,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **COMPLETE, batches 01–19**;
-- Phase 2 Batches 01–06, scans **1–150**: **COMPLETE**;
-- cumulative verified pages: **8 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
-- cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**.
+- Phase 2 Batches 01–07, scans **1–175**: **COMPLETE**;
+- cumulative verified pages: **10 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174**;
+- cumulative status: **2 `partial`, 453 `needs-review`, 10 `verified`**.
 
-Batch 06 directly reread the close of `அருமறையில் அறுவர்` (126–127), `புதிய பாதை` (128–137), `உடைமைகள் பத்து` (138–143), and `நீர்க் குடும்பம்` (144–150). Source-backed corrections were applied to scans 135, 138, 144 and 150; no Batch-06 page was promoted without a complete exact pass. `நீர்க் குடும்பம்` remains open after scan 150.
+Batch 07 directly reread scans 151–175, closed `நீர்க் குடும்பம்` at scan 154, reviewed `பாரதிதாசன்` and `பாரதியார்`, and opened `பொங்கல் திருநாள்` at scan 175. Scans 154 and 174 received complete source-critical passes. Source-backed corrections were applied only where the controlling scan directly supported them.
 
 ### Exact next activity
 
-Execute **Phase 2 Verification Batch 07 — physical scans 151–175**. Continue directly from `நீர்க் குடும்பம்`. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 08 — physical scans 176–200**. Do not begin Phase 3, canonical assembly, or translation.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 

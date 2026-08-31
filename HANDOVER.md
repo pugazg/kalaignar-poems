@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the immediately preceding review boundary `pages/0150.md` and next target `pages/0151.md`;
+4. inspect the immediately preceding review boundary `pages/0175.md` and next target `pages/0176.md`;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
 6. synchronize status-bearing files after each verification batch.
 
@@ -38,26 +38,25 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–06 COMPLETE — scans 1–150 independently reread.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–07 COMPLETE — scans 1–175 independently reread.**
 
 Current cumulative page status:
 
 - `partial`: **2**;
-- `needs-review`: **455**;
-- `verified`: **8**;
+- `needs-review`: **453**;
+- `verified`: **10**;
 - total: **465**.
 
-Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**.
+Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174**.
 
-Phase-2 Batch 06 outcomes:
+Phase-2 Batch 07 outcomes:
 
-- scans **126–127** — completed direct reread of the closing `அருமறையில் அறுவர்` summation; item closes at scan 127 and remains `needs-review`;
-- scans **128–137** — `புதிய பாதை` directly reread; dense agricultural verse and performance material remain `needs-review`;
-- scan **135** — restored source-visible old-form poet name `இராதாகிருட்டிணன்` in the `கம்பு பயிரிடல்` performance note;
-- scans **138–143** — `உடைமைகள் பத்து` directly reread; scan 138 venue note resolved as `(கலைவாணர் அரங்கம்)`; remaining dense wordplay stays `needs-review`;
-- scans **144–150** — `நீர்க் குடும்பம்` opening/continuation directly reread; scan 144 venue resolved as `பரமத்தி வேலூர், கண்டர் கல்லூரி`; scan 150 performance-note name corrected to `முருகுந்தரம்`;
-- `நீர்க் குடும்பம்` remains open after scan 150 and continues at scan 151;
-- no Batch-06 page received a complete full-page pass, so no status was promoted merely for being reviewed.
+- scans **151–154** — `நீர்க் குடும்பம்` continuation/conclusion directly reread; scan **154** received a complete pass and is `verified`;
+- scans **155–169** — `பாரதிதாசன்` directly reread; dense verse remains `needs-review`;
+- scans **170–174** — `பாரதியார்` directly reread; scan **174** received a complete pass and is `verified`;
+- scan **175** — `பொங்கல் திருநாள்` opens and remains unfinished into scan 176;
+- source-backed corrections were applied to scans **152, 153, 158, 163, 168, 170, 174 and 175**;
+- corrected readings include `அவுரங்கசீப்`, `ஒரு தலைப்பட்டசமாய்`, `சஞ்சீவிபர்வதத்தின்`, `விழாக்களுரையைச்`, `கருப்பாதை சாத்தக்`, `வரவேற்புக்`, scan-174 `என்றான்:` / `வாரிசாய்ப்`, and `தாவியோடித் திடுதிடென வெய்யத்துயர் தணித்ததாலும்`.
 
 ## Phase-2 rule
 
@@ -69,6 +68,6 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 07 — physical scans 151–175**.
+Execute **Phase 2 Verification Batch 08 — physical scans 176–200**.
 
-Continue directly from the unfinished `நீர்க் குடும்பம்` at scan 150/151. Independently reread scans 151–175 against the same exact controlling source, compare with `pages/0151.md`–`pages/0175.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 08 — scans 176–200**. Do not begin Phase 3, canonical assembly, or translation.
+Continue directly from the unfinished `பொங்கல் திருநாள்` at scan 175/176. Independently reread scans 176–200 against the controlling source, compare with `pages/0176.md`–`pages/0200.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 09 — scans 201–225**. Do not begin Phase 3, canonical assembly, or translation.
