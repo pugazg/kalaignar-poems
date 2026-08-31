@@ -12,36 +12,35 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 **PHASE 1 MAP COMPLETE. PHASE 2 VERIFICATION IN PROGRESS.**
 
-- Phase 2 reviewed through scan **225**;
-- cumulative status: **2 `partial`, 448 `needs-review`, 15 `verified`**.
+- Phase 2 reviewed through scan **250**;
+- cumulative status: **2 `partial`, 445 `needs-review`, 18 `verified`**.
 
-## Phase-2 Batch 09 — scans 201–225
+## Phase-2 Batch 10 — scans 226–250
 
 | Scans | Visible role / section | Phase-2 outcome |
 |---:|---|---|
-| 201–204 | `கணக்கு` continuation / conclusion | reviewed; correction on 202; scan 204 `verified` and item closes |
-| 205–215 | `நேரு கண்ட ஜனநாயகம்` | reviewed; correction on 206; scan 215 `verified` and item closes |
-| 216–217 | `நன்றி, நன்றி!` | reviewed; scan 217 `verified` and item closes |
-| 218–225 | `வெள்ளி விழா` opening / continuation | reviewed; corrections on 219, 220, 222, 223; remains open beyond 225 |
+| 226 | `வெள்ளி விழா` conclusion | complete pass; scan 226 `verified`; item closes |
+| 227–229 | `அண்ணன் இருக்கின்றார்` | reviewed; item closes at scan 229 |
+| 230–236 | `அண்ணன் ஒரு கவியரங்கம்` | reviewed; participant list begins at 236 |
+| 237 | `தமிழ் வளர வழிநடைப் பயணம்` title leaf/opening | reviewed; physically interposed before prior item closes |
+| 238 | return to `அண்ணன் ஒரு கவியரங்கம்` | corrected `அன்னையே!`; complete pass; scan 238 `verified`; item closes |
+| 239–244 | `தமிழ் வளர வழிநடைப் பயணம்` continuation/conclusion | reviewed; scan 244 `verified`; item closes |
+| 245–250 | `வையம் தழைக்க` opening/continuation | reviewed; remains open beyond scan 250 |
 
-### Batch-09 source-backed corrections
+### Batch-10 source-backed corrections
 
-- scan 202: `விளையாட்டெனவே` → source-visible `வினையாட்டெனவே`;
-- scan 206: resolved former bracketed reading as `என்றனுக்குக்`;
-- scan 219: restored omitted standalone line `அவ்விளக்கில்`;
-- scan 220: resolved source-visible unusual wording `நினைவுத் தலையும் நிகழ்த்தலை நினைத்தனர்` without normalization;
-- scan 222: restored terminal `மாறுமாகில்-` and omitted bottom lines `வானம்பாடியாம்- / புவியருஞ்சோலைக்`;
-- scan 223: corrected `வாஞ்சி.` to source continuation `வாஞ்சி-`.
+- scan 232: resolved `ஊற்றுப் பெருக்காலே பண்பாடிக் கண் எல்லாம் குளமாகத்`;
+- scan 235: corrected `எதிரிசட்கு` → `எதிரிகட்கு`;
+- scan 238: corrected `அண்ணையே!` → `அன்னையே!`.
 
-### Batch-09 boundaries
+### Batch-10 boundaries / source-order evidence
 
-- `கணக்கு` closes at scan **204 / printed 187**;
-- `நேரு கண்ட ஜனநாயகம்` spans scans **205–215**, closing at **215 / printed 198**;
-- `நன்றி, நன்றி!` spans scans **216–217**, closing at **217 / printed 200**;
-- `வெள்ளி விழா` opens at scan **218** and remains open beyond **225 / printed 208**.
-
-No page was promoted merely because it was reviewed. Only scans 204, 215 and 217 passed complete source-critical review.
+- `வெள்ளி விழா` closes at **226 / printed 209**;
+- `அண்ணன் இருக்கின்றார்` spans scans **227–229**, closing at **229 / printed 212**;
+- `அண்ணன் ஒரு கவியரங்கம்` opens at **230**, continues through **236**, and physically resumes/closes at **238 / printed 221**;
+- scan **237** is the physically interposed title leaf/opening for `தமிழ் வளர வழிநடைப் பயணம்`; that item continues at **239** and closes at **244 / printed 227**;
+- `வையம் தழைக்க` opens at **245** and remains open beyond **250 / printed 233**.
 
 ## Next mapping activity
 
-**Phase 2 Verification Batch 10 — physical scans 226–250**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
+**Phase 2 Verification Batch 11 — physical scans 251–275**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.

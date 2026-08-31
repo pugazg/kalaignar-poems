@@ -19,9 +19,9 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 ## Processing state
 
 - Phase 1: **465/465 page records — COMPLETE**;
-- Phase 2 Batches 01–09: **scans 1–225 COMPLETE**;
-- cumulative status: **2 `partial`, 448 `needs-review`, 15 `verified`**;
-- verified: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217**;
+- Phase 2 Batches 01–10: **scans 1–250 COMPLETE**;
+- cumulative status: **2 `partial`, 445 `needs-review`, 18 `verified`**;
+- verified: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244**;
 - Phase 3: **not started**;
 - English translation: **blocked until Tamil final clearance**.
 
@@ -29,4 +29,4 @@ The original source remains the authority. Page-range/access derivatives are ren
 
 ## Current next activity
 
-**Phase 2 Verification Batch 10 — physical scans 226–250**.
+**Phase 2 Verification Batch 11 — physical scans 251–275**.
