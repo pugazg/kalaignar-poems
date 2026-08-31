@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the next target record `poems/kalaignarin-kavithaigal/pages/0076.md` and the immediately preceding review boundary `pages/0075.md`;
+4. inspect the next target record `poems/kalaignarin-kavithaigal/pages/0101.md` and the immediately preceding review boundary `pages/0100.md`;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
 6. synchronize status-bearing files after each verification batch.
 
@@ -38,7 +38,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–03 COMPLETE — scans 1–75 independently reread.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–04 COMPLETE — scans 1–100 independently reread.**
 
 Current cumulative page status:
 
@@ -49,14 +49,14 @@ Current cumulative page status:
 
 Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**.
 
-Phase-2 Batch 03 outcomes:
+Phase-2 Batch 04 outcomes:
 
-- scans **51–54** — `இந்திரஜித்` continuation/conclusion directly reread; remain `needs-review`;
-- scan **51** — removed a Phase-1 block beginning `ஈராண்டு முடியவில்லை என் அண்ணா...` because that wording is not printed on this scan; unresolved source text remains explicit;
-- scans **55–61** — `இரணியன்` directly reread; dense compounds remain `needs-review`;
-- scans **62–69** — `வாளி மன்னன்` directly reread; dense compounds/dialogue remain `needs-review`;
-- scans **70–71** — `கவியரங்கக் கவிதைகள்` divider and verso passed complete source-critical review and are now `verified`;
-- scans **72–75** — `விடுதலை வீரர்கள்` opening/continuation directly reread; remain `needs-review`.
+- scans **76–79** — `விடுதலை வீரர்கள்` continuation/conclusion directly reread; remain `needs-review`;
+- scan **76** — source-backed corrections include `நீர் வீழ்ச்சி` and restoration of `பாரதிதாசன்` in the following line;
+- scans **80–89** — `ஐம்புலன்` directly reread; dense wordplay, speaker transitions and exact punctuation remain `needs-review`;
+- scans **90–100** — `பிலவங்க ஆண்டு` directly reread; dense dialogue/poetic wordplay remains `needs-review`;
+- scan **94** — corrected the Phase-1 poet-name misreading to source-visible `சௌந்தரா கைலாசம்`;
+- no page in Batch 04 was promoted merely for having been reviewed; no complete new page pass was safe at the available scan rendering.
 
 ## Phase-2 rule
 
@@ -68,6 +68,6 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 04 — physical scans 76–100**.
+Execute **Phase 2 Verification Batch 05 — physical scans 101–125**.
 
-Independently reread scans 76–100 against the controlling source, compare with `pages/0076.md`–`pages/0100.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 05 — scans 101–125**. Do not begin Phase 3, canonical assembly, or translation.
+Independently reread scans 101–125 against the controlling source, compare with `pages/0101.md`–`pages/0125.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 06 — scans 126–150**. Do not begin Phase 3, canonical assembly, or translation.

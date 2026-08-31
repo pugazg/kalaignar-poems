@@ -8,7 +8,7 @@
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 2 reviewed: **75/465 scans**;
+- Phase 2 reviewed: **100/465 scans**;
 - cumulative page status: **2 `partial`, 455 `needs-review`, 8 `verified`**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
@@ -23,32 +23,31 @@ Result: **COMPLETE.** Verified `0032`, `0033`; corrected the section witness to 
 
 ## Phase 2 Verification Batch 03 — scans 51–75
 
-Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; TWO COMPLETE PAGE PASSES; ONE SOURCE-INCOMPATIBLE PHASE-1 INSERTION REMOVED.**
+Result: **COMPLETE.** Verified `0070`, `0071`; removed a source-incompatible Phase-1 insertion from scan 51; dense `இந்திரஜித்`, `இரணியன்`, `வாளி மன்னன்` and `விடுதலை வீரர்கள்` pages remained unresolved.
 
-All scans 51–75 were independently inspected against the controlling PDF before existing Markdown was trusted.
+## Phase 2 Verification Batch 04 — scans 76–100
 
-### Verified pages
+Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; NO PAGE PROMOTED WITHOUT A COMPLETE PASS.**
 
-- `0070` — `கவியரங்கக் கவிதைகள்` section divider;
-- `0071` — divider verso/show-through.
+All scans 76–100 were independently inspected against the controlling PDF before existing Markdown was trusted.
 
 ### Reviewed but not promoted
 
-- scans **51–54**: `இந்திரஜித்` continuation/conclusion retains compact, blur-sensitive verse;
-- scans **55–61**: `இரணியன்` retains dense compounds and dialogue that cannot yet receive exact full-page clearance;
-- scans **62–69**: `வாளி மன்னன்` retains dense narrative verse/dialogue and remains `needs-review`;
-- scans **72–75**: `விடுதலை வீரர்கள்` opening/continuation retains compact verse, speaker notes and line-level uncertainty.
+- scans **76–79**: `விடுதலை வீரர்கள்` continuation/conclusion contains compact verse and exact line/punctuation readings that remain unresolved;
+- scans **80–89**: `ஐம்புலன்` contains dense five-senses wordplay, poet introductions, speaker transitions and compact typography that cannot yet receive exact full-page clearance;
+- scans **90–100**: `பிலவங்க ஆண்டு` contains dense year-name/ethical-heading wordplay and dialogue; exact glyph-level clearance remains incomplete.
 
-### Source-backed correction applied
+### Source-backed corrections applied
 
-- scan **51**: direct source rereading established that the Phase-1 block beginning `ஈராண்டு முடியவில்லை என் அண்ணா...` is not printed on this scan. That source-incompatible insertion was removed. The remaining unreadable `இந்திரஜித்` lines were left explicit rather than reconstructed.
+- scan **76**: corrected the source-visible `நீர் வீழ்ச்சி` and restored `பாரதிதாசன்` in the immediately following line;
+- scan **94**: corrected the Phase-1 poet-name misreading to source-visible `சௌந்தரா கைலாசம்` and synchronized the preceding visible name line.
 
 ### Batch status movement
 
-Before Batch 03: **4 `partial`, 455 `needs-review`, 6 `verified`**.  
-After Batch 03: **2 `partial`, 455 `needs-review`, 8 `verified`**.
+Before Batch 04: **2 `partial`, 455 `needs-review`, 8 `verified`**.  
+After Batch 04: **2 `partial`, 455 `needs-review`, 8 `verified`**.
 
-No page was promoted merely because it had been reviewed. Only the complete divider/verso passes were promoted.
+No page was promoted merely because it had been reviewed. The batch contains no page for which every word/glyph, punctuation mark, line break, quotation, separator and non-Tamil element could safely be cleared at the available rendering scale.
 
 ## Verification safeguards
 
@@ -61,4 +60,4 @@ No page was promoted merely because it had been reviewed. Only the complete divi
 
 ## Exact next activity
 
-Execute **Phase 2 Verification Batch 04 — physical scans 76–100**. At completion synchronize to **Batch 05 — scans 101–125**. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 05 — physical scans 101–125**. At completion synchronize to **Batch 06 — scans 126–150**. Do not begin Phase 3, canonical assembly, or translation.

@@ -12,24 +12,23 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 **PHASE 1 MAP COMPLETE. PHASE 2 VERIFICATION IN PROGRESS.**
 
-- Phase 2 reviewed through scan **75**;
+- Phase 2 reviewed through scan **100**;
 - cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**.
 
-## Phase-2 Batch 03 — scans 51–75
+## Phase-2 Batch 04 — scans 76–100
 
 | Scans | Visible role / section | Phase-2 outcome |
 |---:|---|---|
-| 51–54 | `இந்திரஜித்` continuation / conclusion | reviewed; scan 51 source-incompatible Phase-1 block removed; remain `needs-review` |
-| 55–61 | `இரணியன்` | reviewed; compact verse remains `needs-review` |
-| 62–69 | `வாளி மன்னன்` | reviewed; compact verse/dialogue remains `needs-review` |
-| 70 | `கவியரங்கக் கவிதைகள்` section divider | `verified` |
-| 71 | divider verso / show-through | `verified` |
-| 72–75 | `விடுதலை வீரர்கள்` opening / continuation | reviewed; compact verse/speaker text remains `needs-review` |
+| 76–79 | `விடுதலை வீரர்கள்` continuation / conclusion | reviewed; scan 76 source-backed wording repairs; remain `needs-review` |
+| 80–89 | `ஐம்புலன்` | reviewed; dense five-senses wordplay and speaker transitions remain `needs-review` |
+| 90–100 | `பிலவங்க ஆண்டு` | reviewed; scan 94 poet-name repair; dense dialogue/wordplay remains `needs-review` |
 
-### Batch-03 source-backed correction
+### Batch-04 source-backed corrections
 
-- scan 51: the Phase-1 block beginning `ஈராண்டு முடியவில்லை என் அண்ணா...` is absent from the controlling scan and was removed; unresolved source-visible `இந்திரஜித்` text remains explicit rather than reconstructed.
+- scan 76: corrected `நீர் வீழ்ச்சி` and restored `பாரதிதாசன்` in the following source-visible line;
+- scan 94: corrected the poet-name witness to `சௌந்தரா கைலாசம்` and synchronized the immediately preceding visible name line;
+- no Batch-04 page was promoted to `verified`: exact full-page glyph, punctuation and lineation clearance remained incomplete on every scan.
 
 ## Next mapping activity
 
-**Phase 2 Verification Batch 04 — physical scans 76–100**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
+**Phase 2 Verification Batch 05 — physical scans 101–125**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.

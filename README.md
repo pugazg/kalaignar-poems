@@ -15,7 +15,7 @@
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 Batches 01–03 scans 1–75 COMPLETE; Batch 04 scans 76–100 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 Batches 01–04 scans 1–100 COMPLETE; Batch 05 scans 101–125 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -28,9 +28,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1 page records: **465/465 — COMPLETE**;
-- Phase 2 reviewed: **75/465**;
+- Phase 2 reviewed: **100/465**;
 - cumulative status: **2 partial, 455 needs-review, 8 verified**;
 - verified so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
-- exact next activity: **Phase 2 Verification Batch 04 — scans 76–100**.
+- exact next activity: **Phase 2 Verification Batch 05 — scans 101–125**.
 
 Phase 2 independently rereads the controlling scan. OCR, remembered wording, metre, grammar, historical expectation and separate editions are not authority for unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.

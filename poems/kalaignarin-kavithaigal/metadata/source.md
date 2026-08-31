@@ -22,10 +22,11 @@
 ## Verification state
 
 - Phase 1: **COMPLETE — 465/465 records**;
-- Phase 2 Batches 01–03, scans **1–75**: **COMPLETE**;
+- Phase 2 Batches 01–04, scans **1–100**: **COMPLETE**;
 - cumulative page status: **2 `partial`, 455 `needs-review`, 8 `verified`**;
 - verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
-- next: **Phase 2 Verification Batch 04 — scans 76–100**.
+- Batch-04 source-backed corrections: scan **76** (`நீர் வீழ்ச்சி`, `பாரதிதாசன்`) and scan **94** (`சௌந்தரா கைலாசம்`);
+- next: **Phase 2 Verification Batch 05 — scans 101–125**.
 
 Phase-2 corrections are made only from direct controlling-scan evidence. Small-type or blurred material remains unresolved rather than being completed from OCR, memory, grammar, historical expectation or another edition.
 

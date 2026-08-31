@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batches 01–03 (scans 1–75) COMPLETE.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batches 01–04 (scans 1–100) COMPLETE.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -21,12 +21,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 ## Progress
 
 - Phase 1 page records: **465/465 — COMPLETE**;
-- Phase 2 reviewed: **75/465** physical scans;
+- Phase 2 reviewed: **100/465** physical scans;
 - cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**;
 - verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
 - Phase 3: **not started**.
 
-Batch 03 directly reviewed scans 51–75. Scan 51 received source-backed removal of a Phase-1 block absent from the scan; scans 70–71 received complete verification passes. Dense verse pages remain unresolved rather than being normalized or completed from another witness.
+Batch 04 directly reviewed scans 76–100. Source-backed corrections were applied to scan 76 (`நீர் வீழ்ச்சி`, `பாரதிதாசன்`) and scan 94 (`சௌந்தரா கைலாசம்`). All Batch-04 pages remain `needs-review`; dense verse/dialogue and exact compact-glyph/punctuation clearance remain unresolved rather than being normalized or completed from another witness.
 
 ## Verification control
 
@@ -34,4 +34,4 @@ The controlling scan is authoritative. Do not resolve blur from OCR, remembered 
 
 ## Exact next activity
 
-**Phase 2 Verification Batch 04 — scans 76–100**. Do not begin Phase 3 in the same activity.
+**Phase 2 Verification Batch 05 — scans 101–125**. Do not begin Phase 3 in the same activity.
