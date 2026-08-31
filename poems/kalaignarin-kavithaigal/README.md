@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batches 01–07 (scans 1–175) COMPLETE.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batches 01–08 (scans 1–200) COMPLETE.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -21,12 +21,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 ## Progress
 
 - Phase 1 page records: **465/465 — COMPLETE**;
-- Phase 2 reviewed: **175/465** physical scans;
-- cumulative status: **2 `partial`, 453 `needs-review`, 10 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174**;
+- Phase 2 reviewed: **200/465** physical scans;
+- cumulative status: **2 `partial`, 451 `needs-review`, 12 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196**;
 - Phase 3: **not started**.
 
-Batch 07 directly reviewed scans 151–175. Scans 154 and 174 received complete verification passes. Direct-source corrections were applied to scans 152, 153, 158, 163, 168, 170, 174 and 175. Dense verse pages remain unresolved rather than being normalized or completed from another witness.
+Batch 08 directly reviewed scans 176–200. Scans 184 and 196 received complete verification passes. Direct-source corrections were applied to scans 176, 178–181, 183, 186–187, 190–194 and 197. Dense pages remain unresolved rather than being normalized or completed from another witness.
 
 ## Verification control
 
@@ -34,4 +34,4 @@ The controlling scan is authoritative. Do not resolve blur from OCR, remembered 
 
 ## Exact next activity
 
-**Phase 2 Verification Batch 08 — scans 176–200**. Continue from `பொங்கல் திருநாள்`; do not begin Phase 3 in the same activity.
+**Phase 2 Verification Batch 09 — scans 201–225**. Continue from `கணக்கு`; do not begin Phase 3 in the same activity.
