@@ -8,44 +8,44 @@
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 2 reviewed: **200/465 scans**;
-- cumulative page status: **2 `partial`, 451 `needs-review`, 12 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196**;
+- Phase 2 reviewed: **225/465 scans**;
+- cumulative page status: **2 `partial`, 448 `needs-review`, 15 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-## Phase 2 Verification Batches 01–07
+## Phase 2 Verification Batches 01–08
 
-- Batch 01, scans 1–25: **COMPLETE** — verified `0001`, `0018`, `0019`, `0020` and applied source-backed corrections while retaining unresolved pages.
-- Batch 02, scans 26–50: **COMPLETE** — verified `0032`, `0033`; corrected source-backed readings.
-- Batch 03, scans 51–75: **COMPLETE** — verified `0070`, `0071`; removed a source-incompatible Phase-1 insertion from scan 51.
-- Batch 04, scans 76–100: **COMPLETE** — source-backed corrections applied; no page promoted without a complete pass.
-- Batch 05, scans 101–125: **COMPLETE** — source-backed corrections applied; no page promoted without a complete pass.
-- Batch 06, scans 126–150: **COMPLETE** — source-backed corrections applied; no page promoted without a complete pass.
-- Batch 07, scans 151–175: **COMPLETE** — verified `0154`, `0174`; source-backed corrections applied where directly supported.
+- Batches 01–08, scans 1–200: **COMPLETE** — direct-source reread completed through scan 200; verified pages and source-backed corrections are preserved in the page layer and prior durable audit history.
 
-## Phase 2 Verification Batch 08 — scans 176–200
+## Phase 2 Verification Batch 09 — scans 201–225
 
-Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCANS 184 AND 196 PROMOTED ONLY AFTER COMPLETE SOURCE-CRITICAL PASSES.**
+Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCANS 204, 215 AND 217 PROMOTED ONLY AFTER COMPLETE SOURCE-CRITICAL PASSES.**
 
-All scans 176–200 were independently inspected against the controlling PDF before existing Markdown was trusted.
+All scans 201–225 were independently inspected against the controlling PDF before existing Markdown was trusted.
 
 ### Reviewed outcomes
 
-- scans **176–184**: `பொங்கல் திருநாள்` continuation/conclusion; scan 184 is fully `verified` and the item closes there;
-- scans **185–196**: `வாழ்வெனும் பாதையில்`; scan 196 is fully `verified` and the item closes there;
-- scans **197–200**: `கணக்கு` opening/continuation; it remains open beyond scan 200.
+- scans **201–204**: `கணக்கு` continuation/conclusion; scan 204 is fully `verified` and the item closes there;
+- scans **205–215**: `நேரு கண்ட ஜனநாயகம்`; scan 215 is fully `verified` and the item closes there;
+- scans **216–217**: `நன்றி, நன்றி!`; scan 217 is fully `verified` and the item closes there;
+- scans **218–225**: `வெள்ளி விழா` opening/continuation; it remains open beyond scan 225.
 
 ### Source-backed corrections applied
 
-Direct-source corrections were applied to scans **176, 178–181, 183, 186–187, 190–194 and 197**. The exact revised readings and Phase-2 notes are preserved in those individual page records. Unresolved text was not completed from OCR, grammar, metre, memory, or a separate witness.
+- scan **202**: corrected `விளையாட்டெனவே` to source-visible `வினையாட்டெனவே`;
+- scan **206**: resolved the former bracketed reading as `என்றனுக்குக்`;
+- scan **219**: restored the omitted standalone source line `அவ்விளக்கில்`;
+- scan **220**: resolved the source-visible unusual line `நினைவுத் தலையும் நிகழ்த்தலை நினைத்தனர்`; it is preserved without contextual normalization;
+- scan **222**: restored source punctuation `மாறுமாகில்-` and the omitted bottom lines `வானம்பாடியாம்- / புவியருஞ்சோலைக்`;
+- scan **223**: corrected `வாஞ்சி.` to source-visible continuation `வாஞ்சி-`.
 
 ### Batch status movement
 
-Before Batch 08: **2 `partial`, 453 `needs-review`, 10 `verified`**.  
-After Batch 08: **2 `partial`, 451 `needs-review`, 12 `verified`**.
+Before Batch 09: **2 `partial`, 451 `needs-review`, 12 `verified`**.  
+After Batch 09: **2 `partial`, 448 `needs-review`, 15 `verified`**.
 
-No page was promoted merely because it had been reviewed. Only scans 184 and 196 passed every visible word/ending, punctuation mark, line break, page numeral/role and closing/boundary check.
+No page was promoted merely because it had been reviewed. Only scans 204, 215 and 217 passed every visible word/ending, punctuation mark, line break, page numeral/role, non-text closing mark and item-boundary check.
 
 ## Verification safeguards
 
@@ -53,9 +53,9 @@ No page was promoted merely because it had been reviewed. Only scans 184 and 196
 - `⟦…⟧` is editorial uncertainty, not source punctuation;
 - no OCR/contextual reconstruction was used to fill blur;
 - separate source witnesses were not copied into this anthology;
-- old/compact Tamil forms are preserved unless the scan directly supports a correction;
+- old/compact Tamil forms and source anomalies are preserved unless the scan directly supports a correction;
 - the existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Exact next activity
 
-Execute **Phase 2 Verification Batch 09 — physical scans 201–225**. Continue directly from the unfinished `கணக்கு`. At completion synchronize to **Batch 10 — scans 226–250**. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 10 — physical scans 226–250**. Continue directly from the unfinished `வெள்ளி விழா`. At completion synchronize to **Batch 11 — scans 251–275**. Do not begin Phase 3, canonical assembly, or translation.
