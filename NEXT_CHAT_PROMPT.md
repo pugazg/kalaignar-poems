@@ -14,7 +14,7 @@ Use the GitHub connector and work directly on `main`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Read the repository handover, processing guide, phase plan, root README, this prompt, active-work README, source intake, metadata, page map, audit, `pages/0100.md`, and next target `pages/0101.md` before changing anything.
+Fetch live `main` first. Read the repository handover, processing guide, phase plan, root README, this prompt, active-work README, source intake, metadata, page map, audit, `pages/0125.md`, and next target `pages/0126.md` before changing anything.
 
 ## EXACT SOURCE IDENTITY
 
@@ -29,12 +29,11 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 ## CURRENT DURABLE STATE
 
 - Phase 1: **COMPLETE — 465/465 page records**;
-- Phase 2 Verification Batches 01–04 — scans **1–100: COMPLETE**;
+- Phase 2 Verification Batches 01–05 — scans **1–125: COMPLETE**;
 - cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**;
 - verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
-- Batch 04 directly reread scans 76–100; no page was promoted without a complete glyph/punctuation/lineation pass;
-- scan 76 received source-backed corrections including `நீர் வீழ்ச்சி` and `பாரதிதாசன்`;
-- scan 94 received the source-backed poet-name correction `சௌந்தரா கைலாசம்`;
+- Batch 05 applied direct-source corrections to scans **101, 109, 110, 119 and 120** but promoted no page without a complete exact pass;
+- `அருமறையில் அறுவர்` remains open at scan 125 and continues at scan 126;
 - Phase 3 and translation remain blocked.
 
 ## PHASE-2 SOURCE-CRITICAL RULE
@@ -43,6 +42,6 @@ Independently reread the controlling scan before trusting the existing Markdown.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 05 — physical scans 101–125**.
+Execute **Phase 2 Verification Batch 06 — physical scans 126–150**.
 
-For each scan 101–125, inspect the controlling source directly, compare with `pages/0101.md`–`pages/0125.md`, correct only source-backed differences, and promote only complete passes to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 06 — scans 126–150**. Do not begin Phase 3, canonical assembly, or translation.
+For each scan 126–150, inspect the controlling source directly, compare with `pages/0126.md`–`pages/0150.md`, correct only source-backed differences, and promote only complete passes to `verified`. Continue from the unfinished `அருமறையில் அறுவர்` summation; do not infer a new boundary until the scan establishes it. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 07 — scans 151–175**. Do not begin Phase 3, canonical assembly, or translation.
