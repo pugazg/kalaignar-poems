@@ -19,7 +19,7 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 ## Processing state
 
 - Phase 1: **465/465 page records — COMPLETE**;
-- Phase 2 Batches 01–05: **scans 1–125 COMPLETE**;
+- Phase 2 Batches 01–06: **scans 1–150 COMPLETE**;
 - cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**;
 - verified: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
 - Phase 3: **not started**;
@@ -29,4 +29,4 @@ The original source remains the authority. The page-range derivative covering sc
 
 ## Current next activity
 
-**Phase 2 Verification Batch 06 — physical scans 126–150**.
+**Phase 2 Verification Batch 07 — physical scans 151–175**.

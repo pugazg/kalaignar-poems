@@ -18,15 +18,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **COMPLETE, batches 01–19**;
-- Phase 2 Batches 01–05, scans **1–125**: **COMPLETE**;
+- Phase 2 Batches 01–06, scans **1–150**: **COMPLETE**;
 - cumulative verified pages: **8 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071**;
 - cumulative status: **2 `partial`, 455 `needs-review`, 8 `verified`**.
 
-Batch 05 directly reread `காதலா - வீரமா?` scans 101–115 and `அருமறையில் அறுவர்` scans 116–125. Source-backed corrections were applied to scans 101, 109, 110, 119 and 120; no Batch-05 page was promoted without a complete exact pass.
+Batch 06 directly reread the close of `அருமறையில் அறுவர்` (126–127), `புதிய பாதை` (128–137), `உடைமைகள் பத்து` (138–143), and `நீர்க் குடும்பம்` (144–150). Source-backed corrections were applied to scans 135, 138, 144 and 150; no Batch-06 page was promoted without a complete exact pass. `நீர்க் குடும்பம்` remains open after scan 150.
 
 ### Exact next activity
 
-Execute **Phase 2 Verification Batch 06 — physical scans 126–150**. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 07 — physical scans 151–175**. Continue directly from `நீர்க் குடும்பம்`. Do not begin Phase 3, canonical assembly, or translation.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
