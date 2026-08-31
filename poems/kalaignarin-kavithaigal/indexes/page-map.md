@@ -10,34 +10,31 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE — page records 1–465 created for all 465 physical scans.**
+**PHASE 1 MAP COMPLETE. PHASE 2 VERIFICATION IN PROGRESS.**
 
-This is a first-pass navigation map, not a Phase-3 physical↔printed-page reconciliation.
+- Phase 2 reviewed through scan **25**;
+- cumulative status: **6 `partial`, 455 `needs-review`, 4 `verified`**.
 
-## Phase-1 map — scans 451–465
+## Phase-2 Batch 01 — scans 1–25
 
-| Scan | Visible role / section | Visibly printed page | Status | Notes |
-|---:|---|---:|---|---|
-| 451 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` continuation | 434 | `needs-review` | continues from scan 450 |
-| 452 | same item conclusion | 435 | `needs-review` | ornament below; item closes |
-| 453 | `திசை திருப்பல் நியாயம்தானா?` opening | — | `needs-review` | title page; continues |
-| 454 | same item conclusion | 437 | `needs-review` | ornament below; item closes |
-| 455 | `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` opening | — | `needs-review` | title/opening text; continues |
-| 456 | same item conclusion | 439 | `needs-review` | flower ornament below |
-| 457 | `சில நாடுகள் இருக்கின்றன` opening | — | `needs-review` | continues |
-| 458 | same item continuation | 441 | `needs-review` | dense continuation |
-| 459 | same item continuation | 442 | `needs-review` | dense continuation |
-| 460 | same item conclusion | 443 | `needs-review` | item closes; decorative mark below |
-| 461 | `உன் காலணியை வாழ்த்துகிறாய்` opening | — | `needs-review` | birthday poem; continues |
-| 462 | same item continuation | 445 | `needs-review` | dense continuation |
-| 463 | same item continuation | 446 | `needs-review` | continues |
-| 464 | same item conclusion | 447 | `needs-review` | parenthetical `58-வது பிறந்தநாள்` note and ornament visible |
-| 465 | back cover | — | `needs-review` | full-colour artwork; final physical scan |
+| Scans | Visible role / section | Phase-2 outcome |
+|---:|---|---|
+| 1 | front cover | `verified` |
+| 2–3 | title/imprint | reviewed; small imprint/separator details still unresolved |
+| 4–14 | preface / foreword / introductory prose | reviewed; dense compact text still prevents full-page promotion |
+| 15–17 | contents | source-backed title corrections applied; remain `needs-review` for small-type exactness |
+| 18 | `இதயத்தைத் தந்திடு அண்ணா` divider | `verified` |
+| 19 | divider verso/show-through | `verified` |
+| 20 | poem opening / printed page 3 | `verified` |
+| 21–25 | poem continuation / printed pages 4–8 | reviewed; unresolved compact verse remains |
 
-## Phase-1 status rule
+### Notable corrections
 
-The map now covers the complete physical source. Phase-1 statuses remain as recorded: **10 `partial`, 455 `needs-review`, 0 `verified`**. Completion of the map does not promote any page to `verified` and does not resolve blur by inference.
+- scan 15: `இனமான ஏந்தல்கள்`, `உடன்பிறப்பின் பற்று`;
+- scan 16: corrected multiple contents titles including `கலைவாணர் அரங்கக் கவியரங்கம்`, `“சித்திரைத் திருநாள்” தலைமைக் கவிதை`, and `“எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று”`;
+- scan 17: multiple Phase-1 contents misreadings replaced from direct scan evidence;
+- scan 23: `அறிந்திடுவீர் எனச் சொன்னேன்!` and `“கத்தியைத் தீட்டாதே புத்தியைத் தீட்டு”` corrected from the scan.
 
-## Next source activity
+## Next mapping activity
 
-Begin **Phase 2 Verification Batch 01 — physical scans 1–25**. Verification must update individual page statuses only after direct source rereading. The Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 is complete.
+**Phase 2 Verification Batch 02 — physical scans 26–50**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
