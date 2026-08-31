@@ -22,10 +22,10 @@
 ## Verification state
 
 - Phase 1: **COMPLETE — 465/465 records**;
-- Phase 2 Batches 01–10, scans **1–250**: **COMPLETE**;
-- cumulative page status: **2 `partial`, 445 `needs-review`, 18 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244**;
-- next: **Phase 2 Verification Batch 11 — scans 251–275**.
+- Phase 2 Batches 01–11, scans **1–275**: **COMPLETE**;
+- cumulative page status: **2 `partial`, 441 `needs-review`, 22 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272**;
+- next: **Phase 2 Verification Batch 12 — scans 276–300**.
 
 Phase-2 corrections are made only from direct controlling-scan evidence. Small-type or blurred material remains unresolved rather than being completed from OCR, memory, grammar, historical expectation or another edition.
 

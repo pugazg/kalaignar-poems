@@ -15,7 +15,7 @@
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 Batches 01–10 scans 1–250 COMPLETE; Batch 11 scans 251–275 NEXT** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 Batches 01–11 scans 1–275 COMPLETE; Batch 12 scans 276–300 NEXT** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -28,9 +28,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1 page records: **465/465 — COMPLETE**;
-- Phase 2 reviewed: **250/465**;
-- cumulative status: **2 partial, 445 needs-review, 18 verified**;
-- verified so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244**;
-- exact next activity: **Phase 2 Verification Batch 11 — scans 251–275**.
+- Phase 2 reviewed: **275/465**;
+- cumulative status: **2 partial, 441 needs-review, 22 verified**;
+- verified so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272**;
+- exact next activity: **Phase 2 Verification Batch 12 — scans 276–300**.
 
 Phase 2 independently rereads the controlling scan. OCR, remembered wording, metre, grammar, historical expectation and separate editions are not authority for unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.

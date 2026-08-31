@@ -12,35 +12,34 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 **PHASE 1 MAP COMPLETE. PHASE 2 VERIFICATION IN PROGRESS.**
 
-- Phase 2 reviewed through scan **250**;
-- cumulative status: **2 `partial`, 445 `needs-review`, 18 `verified`**.
+- Phase 2 reviewed through scan **275**;
+- cumulative status: **2 `partial`, 441 `needs-review`, 22 `verified`**.
 
-## Phase-2 Batch 10 — scans 226–250
+## Phase-2 Batch 11 — scans 251–275
 
 | Scans | Visible role / section | Phase-2 outcome |
 |---:|---|---|
-| 226 | `வெள்ளி விழா` conclusion | complete pass; scan 226 `verified`; item closes |
-| 227–229 | `அண்ணன் இருக்கின்றார்` | reviewed; item closes at scan 229 |
-| 230–236 | `அண்ணன் ஒரு கவியரங்கம்` | reviewed; participant list begins at 236 |
-| 237 | `தமிழ் வளர வழிநடைப் பயணம்` title leaf/opening | reviewed; physically interposed before prior item closes |
-| 238 | return to `அண்ணன் ஒரு கவியரங்கம்` | corrected `அன்னையே!`; complete pass; scan 238 `verified`; item closes |
-| 239–244 | `தமிழ் வளர வழிநடைப் பயணம்` continuation/conclusion | reviewed; scan 244 `verified`; item closes |
-| 245–250 | `வையம் தழைக்க` opening/continuation | reviewed; remains open beyond scan 250 |
+| 251–253 | `வையம் தழைக்க` continuation / conclusion | reviewed; correction on 251; scan 253 `verified`; item closes |
+| 254–260 | `தந்தை பெரியார்` | reviewed; former uncertainties resolved on 258; scan 260 `verified`; item closes |
+| 261–266 | `அகத்துறைப் படைப்புகள்` | reviewed; scan 266 `verified`; item closes |
+| 267–272 | `பொங்கல் விழா` | reviewed; correction on 270; scan 272 `verified`; item closes |
+| 273–275 | `சிலப்பதிகார விருந்து` opening / continuation | reviewed; correction on 275; remains open beyond scan 275 |
 
-### Batch-10 source-backed corrections
+### Batch-11 source-backed corrections
 
-- scan 232: resolved `ஊற்றுப் பெருக்காலே பண்பாடிக் கண் எல்லாம் குளமாகத்`;
-- scan 235: corrected `எதிரிசட்கு` → `எதிரிகட்கு`;
-- scan 238: corrected `அண்ணையே!` → `அன்னையே!`.
+- scan 251: `தலை தெறிக்கும்` → `தலை நெறிக்கும்`;
+- scan 258: resolved `மந்தி கை மாலையென` and `கீதம் கேட்ட கிறுகிறுப்பில் மயங்கிப்போவார்,` from direct enlarged-source reread;
+- scan 270: `இதென்ன` → `இஃதென்ன`;
+- scan 275: `பூம்புகாரம்.` → `பூம்புகாராம்.`.
 
-### Batch-10 boundaries / source-order evidence
+### Batch-11 boundaries
 
-- `வெள்ளி விழா` closes at **226 / printed 209**;
-- `அண்ணன் இருக்கின்றார்` spans scans **227–229**, closing at **229 / printed 212**;
-- `அண்ணன் ஒரு கவியரங்கம்` opens at **230**, continues through **236**, and physically resumes/closes at **238 / printed 221**;
-- scan **237** is the physically interposed title leaf/opening for `தமிழ் வளர வழிநடைப் பயணம்`; that item continues at **239** and closes at **244 / printed 227**;
-- `வையம் தழைக்க` opens at **245** and remains open beyond **250 / printed 233**.
+- `வையம் தழைக்க` closes at **253 / printed 236**;
+- `தந்தை பெரியார்` spans **254–260**, closing at **260 / printed 243**;
+- `அகத்துறைப் படைப்புகள்` spans **261–266**, closing at **266 / printed 249**;
+- `பொங்கல் விழா` spans **267–272**, closing at **272 / printed 255**;
+- `சிலப்பதிகார விருந்து` opens at **273** and remains open beyond **275 / printed 258**.
 
 ## Next mapping activity
 
-**Phase 2 Verification Batch 11 — physical scans 251–275**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
+**Phase 2 Verification Batch 12 — physical scans 276–300**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
