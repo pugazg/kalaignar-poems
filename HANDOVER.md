@@ -19,7 +19,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 4. inspect the exact unresolved target pages recorded below before changing anything;
 5. use the controlling scan directly; never substitute unrelated OCR, memory, another edition, or a separate source witness;
 6. exact page-range derivatives of the same controlling PDF and user-designated word-for-word extraction may be used as rendering/lexical aids only for their stated range, with structure/punctuation/lineation independently reconciled against the scan;
-7. synchronize status-bearing files after each clearance batch.
+7. synchronize status-bearing files after each clearance pass.
 
 # CURRENT ACTIVE WORK — கலைஞரின் கவிதைகள்
 
@@ -44,13 +44,13 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 Current cumulative page status:
 
 - `partial`: **0**;
-- `needs-review`: **362**;
-- `verified`: **103**;
+- `needs-review`: **361**;
+- `verified`: **104**;
 - total: **465**;
-- unresolved backlog: **362**;
+- unresolved backlog: **361**;
 - durable contiguous verified boundary: **physical scans 1–75**.
 
-Verified pages: **0001–0075, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Verified pages: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Phase-2 Clearance Batches C01–C03 — COMPLETE
 
@@ -68,18 +68,13 @@ Durable C03 boundaries and features:
 - **70–71** — already verified leaves, preserved;
 - **72–75** — `விடுதலை வீரர்கள்`; scan **72 / printed 55** has the two-line title, `15.8.67` Tiruchi radio-event note and centered star separator; scan **74 / printed 57** preserves parenthetical performance notes separately from `தலைவர் கலைஞர்:` speaker labels and verse; scan **75 / printed 58** contains a large mounted-warrior illustration;
 - flattened `20 200 100` associated with scan 75 is illustration/OCR noise and is not archived as printed text;
-- `விடுதலை வீரர்கள்` remains open and continues into scan **76**.
-
-### C03 status movement
-
-Before the final lexical closure: **0 partial / 384 needs-review / 81 verified**.  
-After C03: **0 partial / 362 needs-review / 103 verified**.
+- `விடுதலை வீரர்கள்` continues into scan **76**.
 
 ## Phase-2 Clearance Batch C04 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
 Physical window: **76–100**.
 
-A direct scan pass has now fixed the item boundaries and non-lexical source structure for the full C04 window. No C04 page was promoted in this pass because no user-designated full lexical transcription has yet been supplied for scans 76–100 and the existing page Markdown remains provisional at exact word/glyph level.
+A direct scan pass has fixed the item boundaries and non-lexical source structure for the full C04 window.
 
 Durable C04 boundaries and features:
 
@@ -89,7 +84,11 @@ Durable C04 boundaries and features:
 - scans **80–89** and **90–100** repeatedly interleave `தலைவர் கலைஞர்:` passages with parenthetical notes that record other poets finishing their pieces; these are separate source structures and must not be flattened into a single verse block;
 - opening title/context scans **80** and **90** are unnumbered title/context leaves; normal running headers/printed page numbering resumes on the following leaves.
 
-C04 status remains **0 partial / 362 needs-review / 103 verified**. All **25 scans 76–100** remain lexical/glyph clearance targets.
+### Latest C04 lexical pass — scan 79
+
+Scan **79 / printed 62** was reread directly at full page level and is now `verified`. The pass restores source-backed `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`; printed page/header, lineation, punctuation, `வணக்கம்!`, `வாழ்க!` and the centered floral ornament all pass.
+
+C04 status is now **0 partial / 361 needs-review / 104 verified**. Remaining C04 targets: **76–78 and 80–100 (24 pages)**.
 
 ## Phase-2 rule
 
@@ -101,13 +100,13 @@ Do not copy separate source-witness transcriptions into this anthology. Exact pa
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–100**.
+Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–78 and 80–100**.
 
 - fetch/recheck live `main` before writes;
 - preserve the C04 source-layout boundaries recorded above;
-- compare `pages/0076.md`–`pages/0100.md` against the controlling scans;
+- compare the remaining page Markdown with the controlling scans;
 - if the user supplies full word-for-word transcription from exact controlling-PDF extracts for this range, retain those words as the lexical base and independently handle structure, punctuation, quotation continuity, page carry-over, speaker/performance labels, separators, ornaments and lineation;
 - otherwise resolve only what the controlling scan itself supports without guessing;
 - promote only complete passes to `verified`;
-- keep C04 open until scans **76–100** are lexically cleared;
+- keep C04 open until all remaining **24 scans** are lexically cleared;
 - **do not advance to C05, Phase 3, canonical assembly or translation**.
