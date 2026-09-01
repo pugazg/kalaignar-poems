@@ -9,9 +9,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 2 source coverage: **465/465 scans reviewed**;
-- cumulative page status: **0 `partial`, 362 `needs-review`, 103 `verified`**;
-- verified pages: **0001–0075, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- unresolved backlog: **362 `needs-review` pages**;
+- cumulative page status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
+- verified pages: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved backlog: **361 `needs-review` pages**;
 - Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
@@ -79,7 +79,7 @@ After C03: **0 `partial`, 362 `needs-review`, 103 `verified`**.
 
 Physical window: **76–100**.
 
-All 25 physical scans were inspected directly for item boundaries, title/context blocks, running headers/printed page numbers, speaker/performance structure, separators and closing ornaments. No page was promoted during this structure-only pass because no user-designated full lexical transcription for C04 has yet been supplied and the existing Markdown remains first-pass/provisional at word/glyph level.
+All 25 physical scans were inspected directly for item boundaries, title/context blocks, running headers/printed page numbers, speaker/performance structure, separators and closing ornaments. Lexical/glyph clearance is now proceeding page by page directly from the controlling scan where a complete pass is safe.
 
 Durable source-established structure:
 
@@ -89,9 +89,15 @@ Durable source-established structure:
 - scan **90** opens `பிலவங்க ஆண்டு` with the printed title, the `13.4.68` Chennai radio-event note, and a centered star separator; the item continues through scan **100 / printed 83**, which closes with `வணக்கம்.` and a centered floral ornament;
 - scans **90–100** likewise mix the chairman's verse/speaker passages with parenthetical performance notes for participating poets; preserve those as separate source structures.
 
+### C04 lexical clearance progress
+
+- scan **79 / printed 62** has now received a complete direct source-critical glyph/word-ending, punctuation and lineation pass and is `verified`;
+- the pass restores source-backed forms including `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`, and confirms the final `வணக்கம்! / வாழ்க!` plus centered floral ornament;
+- remaining C04 targets: **76–78, 80–100 (24 pages)**.
+
 ### C04 status movement
 
-None in the source-layout pass: **0 `partial`, 362 `needs-review`, 103 `verified`**. The full C04 lexical/glyph target remains **scans 76–100 (25 pages)**.
+After scan-79 promotion: **0 `partial`, 361 `needs-review`, 104 `verified`**.
 
 ## Phase-2 completion assessment
 
@@ -99,7 +105,7 @@ None in the source-layout pass: **0 `partial`, 362 `needs-review`, 103 `verified
 - **Phase-2 page clearance: NOT COMPLETE**;
 - **durable contiguous verified boundary: scans 1–75**;
 - **Phase 3: BLOCKED**;
-- unresolved backlog: **362 page records**.
+- unresolved backlog: **361 page records**.
 
 Verified pages must not be reopened merely for uniformity. Reopen a verified page only if new direct-source evidence reveals a discrepancy.
 
@@ -116,4 +122,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–100**. Preserve the source-layout map recorded above. If the user supplies full word-for-word transcription from exact controlling-PDF extracts for this range, retain those words as the lexical base and independently reconcile punctuation, lineation, quotation continuity, speaker/performance labels, separators and ornaments against the scan. Promote only complete passes and do **not** begin Phase 3, canonical assembly or translation.
+Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–78 and 80–100**. Preserve the source-layout map recorded above. If the user supplies full word-for-word transcription from exact controlling-PDF extracts for this range, retain those words as the lexical base and independently reconcile punctuation, lineation, quotation continuity, speaker/performance labels, separators and ornaments against the scan. Promote only complete passes and do **not** begin Phase 3, canonical assembly or translation.
