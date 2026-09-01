@@ -18,17 +18,17 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **COMPLETE, batches 01–19**;
-- Phase 2 Batches 01–16, scans **1–400**: **COMPLETE**;
+- Phase 2 Batches 01–17, scans **1–425**: **COMPLETE**;
 - cumulative verified pages: **34 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393**;
 - cumulative status: **2 `partial`, 429 `needs-review`, 34 `verified`**.
 
-Batch 16 directly reread scans 376–400. It closes `கலைத்தாயின் தலைச் செல்வன்!`, `உன் நிழலாக அசைகின்றோம்!`, `வாழ்க ஜீவா!`, `மறைந்த மாவீரன்`, `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, `இன்றைக்கு உன் பிறந்த நாள்`, `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!`, and `அருமருந்தே! அன்புறவு உடன்பிறப்பே!`; verifies the `மலர்த் தோட்டம்` divider/verso at scans 392–393; and opens `பகுத்தறிவுப் பாண்டியனார்!` at scan 400. Only scans 392–393 received complete passes.
+Batch 17 directly reread scans 401–425. It closes `பகுத்தறிவுப் பாண்டியனார்!` at scan 402; reviews the single-scan items at 403–409; closes `பச்சைக் கிளி`, `கற்பனை ஊற்று`, `வானமே பொழிக நீ!`, `அவர் உணர்வாரோ! யார் அறிவார்?`, `போர்வாளாய்ச் சுழலட்டுமே!`, and `இன்னும் யார் யார் பெயர்கள் வரவில்லை?`; and opens `ஒரு சொட்டுத் தேன்!` at scan 425. No page was promoted without a complete source-critical pass.
 
 The user-supplied page-range derivatives are rendering aids derived from the same controlling PDF. They are not separate witnesses. The pages-350–465 derivative has page 1 = physical scan 350.
 
 ### Exact next activity
 
-Execute **Phase 2 Verification Batch 17 — physical scans 401–425**. Continue from the unfinished `பகுத்தறிவுப் பாண்டியனார்!`. Physical scans 401–425 correspond to pages **52–76** of the pages-350–465 derivative. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 18 — physical scans 426–450**. Continue from the unfinished `ஒரு சொட்டுத் தேன்!`. Physical scans 426–450 correspond to pages **77–101** of the pages-350–465 derivative. Do not begin Phase 3, canonical assembly, or translation.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
