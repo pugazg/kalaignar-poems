@@ -13,10 +13,10 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 **PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C03 COMPLETE. C04 SOURCE-LAYOUT REVIEW COMPLETE; C04 LEXICAL CLEARANCE OPEN.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- unresolved backlog: **360 pages**;
+- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- unresolved backlog: **359 pages**;
 - durable contiguous verified boundary: **physical scans 1–75**;
-- additional C04 verified pages: **79, 89**;
+- additional C04 verified pages: **79, 89, 100**;
 - Phase 3 remains blocked.
 
 ## Clearance C01–C03
@@ -32,13 +32,12 @@ Physical window: **76–100**. Every page in this window has received multiple d
 
 | Scan(s) | Source-established role / boundary | Current outcome |
 |---:|---|---|
-| 76–78 | `விடுதலை வீரர்கள்` continuation | direct-reviewed three times; lexical clearance pending |
+| 76–78 | `விடுதலை வீரர்கள்` continuation | repeated direct review; lexical clearance pending |
 | 79 | `விடுதலை வீரர்கள்` conclusion; `வணக்கம்!`, `வாழ்க!`, floral ornament | `verified` |
-| 80–88 | `ஐம்புலன்` opening/continuation | iteration-F deeper direct review complete; lexical clearance pending |
+| 80–88 | `ஐம்புலன்` opening/continuation | repeated direct review; lexical clearance pending |
 | 89 | `ஐம்புலன்` conclusion; final `வணக்கம்.` and floral ornament | `verified` |
-| 90 | `பிலவங்க ஆண்டு` opening | iteration-F deeper direct review complete; lexical clearance pending |
-| 91–93 | `பிலவங்க ஆண்டு` continuation | direct-reviewed twice; lexical clearance pending |
-| 94–100 | `பிலவங்க ஆண்டு` continuation/conclusion | deeper iteration-E pass complete; lexical clearance pending |
+| 90–99 | `பிலவங்க ஆண்டு` opening/continuation | repeated direct review; lexical clearance pending |
+| 100 | `பிலவங்க ஆண்டு` conclusion; final `வணக்கம்.` and floral ornament | iteration-G complete-pass `verified` |
 
 ### C04 fixed source structure
 
@@ -56,11 +55,13 @@ Physical window: **76–100**. Every page in this window has received multiple d
 - **Iteration D:** scans **83–88 and 90–93** — exactly 10 physical pages; deeper direct review completed, no promotions;
 - **Iteration E:** scans **94–100 plus 76–78** — exactly 10 physical pages; deeper direct review completed, no promotions;
 - **Iteration F:** scans **80–88 and 90** — exactly 10 physical pages; another direct lexical/glyph closure pass completed; scan **81** corrects the opening to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no page reached full promotion;
-- unresolved C04 pages remain **23 — 76–78, 80–88, 90–100**.
+- **Iteration G:** scans **91–100** — exactly 10 physical pages; scans 91–99 received deeper direct-source reconciliation and scan **100 / printed 83** reached a complete source-critical pass and was promoted to `verified`;
+- iteration-G additions include the scan-91 dream transition, scan-92 `ஆனிப்பொன் மேனி...` opening, scan-93 `“தமிழ்” என்றார். / தந்தையோ வள்ளுவராம்!`, scan-94 expanded `இனியவை கூறல்` introduction, and scan-99 garland/Tamil-mother/Valluvar movement;
+- unresolved C04 pages now remain **22 — 76–78, 80–88, 90–99**.
 
-## Verified pages after iteration F
+## Verified pages after iteration G
 
-**0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Source-access note
 
@@ -68,4 +69,4 @@ Exact page-range derivatives and user-supplied word-for-word extracts from the s
 
 ## Next mapping / verification activity
 
-Execute **C04 ten-page iteration G: scans 91–100** — exactly **10 physical pages**. Give those residual pages another direct lexical/glyph closure pass, preserving the fixed `பிலவங்க ஆண்டு` speaker/performance-note structure and final floral closure on scan 100. Do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration H: scans 76–78 and 80–86** — exactly **10 physical pages**. Give those residual pages another direct lexical/glyph closure pass while preserving the fixed `விடுதலை வீரர்கள்` / `ஐம்புலன்` structure. Do not advance to C05 or Phase 3 while C04 remains open.
