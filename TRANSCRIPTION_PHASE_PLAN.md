@@ -8,65 +8,58 @@ The controlling scan remains the textual authority in every phase.
 
 ## Phase 2 — source-critical visual verification
 
-Independently reread every page against the controlling scan. Check every word ending and compact/old Tamil glyph, punctuation mark, line break, quotation, separator and non-Tamil element. Resolve uncertainty only under the applicable source controls and promote a page to `verified` only after the complete page passes.
+Independently reread every page against the controlling scan. Check every word ending and compact/old Tamil glyph, punctuation mark, line break, quotation, separator and non-Tamil/layout element. Promote a page to `verified` only after the complete page passes.
 
 ### Current application — கலைஞரின் கவிதைகள்
 
-Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
-
+- controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - physical pages: **465**;
-- file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 1: **COMPLETE, batches 01–19**;
-- Phase 2 source-coverage Batches 01–19, scans **1–465: COMPLETE**;
+- Phase 1: **COMPLETE**;
+- Phase 2 source coverage: **465/465 COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative verified pages: **104 — 0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- cumulative status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
-- unresolved Phase-2 backlog: **361 page records**;
-- durable contiguous verified boundary: **scans 1–75**.
+- cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
+- verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–75**.
 
-Source-coverage Batch 19 completed the independent source reread across the full 465-scan PDF. That does not equal page clearance: Phase 3 remains blocked while `needs-review` pages remain.
+### Clearance C01–C03
 
-### Clearance Batches C01–C03 — COMPLETE
+**COMPLETE through scan 75.**
 
-C01 cleared physical scans **1–25**. C02 cleared unresolved scans **26–31 and 34–50**, preserving already verified scans **32–33**. C03 cleared the complete physical window **51–75**, preserving already verified **61, 70 and 71**.
+### Clearance C04 — IN PROGRESS, exactly 10 pages per iteration
 
-For the final C03 lexical closure, the user supplied full word-for-word transcription from exact page-range derivatives of the same controlling PDF for scans **51–60, 62–69 and 72–75**. The supplied words served as the lexical base; the controlling scans independently determined titles, physical page boundaries, punctuation, quotations, separators, lineation, illustrations, ornaments, running headers/page numbers, performance notes and speaker labels.
+Physical window: **76–100**.
 
-### Clearance Batch C04 — IN PROGRESS
+Fixed source structure:
 
-Target physical window: **76–100**. Direct source-layout review for the entire window is complete. Current user directive: **process exactly 10 unresolved pages per iteration**.
+- 76–79 `விடுதலை வீரர்கள்`;
+- 80–89 `ஐம்புலன்`;
+- 90–100 `பிலவங்க ஆண்டு`;
+- speaker labels and parenthetical performance notes remain separate structures;
+- scans 80/90 have title/context/star openings; scans 79/89/100 have floral endings.
 
-Source-established boundaries:
+Iteration tracking:
 
-- scans **76–79** continue `விடுதலை வீரர்கள்`; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
-- scans **80–89** are `ஐம்புலன்`; scan 80 contains title/event note/star opening and scan 89 closes with `வணக்கம்.` and floral ornament;
-- scans **90–100** are `பிலவங்க ஆண்டு`; scan 90 contains title/event note/star opening and scan 100 closes with `வணக்கம்.` and floral ornament;
-- scans **80–89** and **90–100** contain separate chairman passages, parenthetical performance notes and speaker labels; preserve these as distinct source structures.
+- **A:** 76–78, 80–86 — direct-reviewed, no promotions;
+- **B:** 87–96 — direct-reviewed; **89 promoted to `verified`**;
+- remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23)**.
 
-Scan **79** has passed complete direct lexical/glyph, punctuation and lineation review and is `verified`.
+For every C04 page:
 
-**Ten-page iteration A** has directly reviewed unresolved scans **76–78 and 80–86**. Source-backed corrections were applied where the controlling scan was clear, but all ten pages retain at least one unresolved compact lexical/glyph span and therefore remain `needs-review`. They are direct-reviewed residuals rather than untouched Phase-1 pages.
-
-Remaining C04 `needs-review` set: **76–78 and 80–100 (24 pages)**.
-
-For every remaining C04 page:
-
-- independently inspect the controlling scan before trusting Markdown;
-- use exact-source derivatives or user-designated word-for-word extraction only as access/lexical aids to the same controlling PDF;
-- correct only source-backed differences under the applicable lexical control;
-- preserve old Tamil forms, punctuation, quotations, separators, lineation, running headers/page numbers and non-Tamil material;
-- distinguish illustrations/performance notes/speaker labels from poem text;
-- promote only complete passes to `verified`;
-- synchronize status-bearing files after each 10-page iteration and after status movement.
+- inspect the controlling scan before trusting Markdown;
+- use user-designated exact-source word-for-word transcription only for its stated page range;
+- correct only source-backed differences;
+- preserve old Tamil forms, punctuation, quotations, separators, lineation, running headers/page numbers and non-Tamil/layout material;
+- do not guess through blur;
+- promote only complete passes.
 
 ### Exact next activity
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration B: scans 87–96**. Preserve the `ஐம்புலன்` conclusion at scan 89 and `பிலவங்க ஆண்டு` opening at scan 90. Process exactly those 10 physical scans in the next iteration; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration C: scans 97–100 plus residual scans 76–78 and 80–82**. Process exactly 10 physical pages, beginning with untouched 97–100. Do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**BLOCKED.** It may begin only after Phase-2 page clearance is complete across the source.
+**BLOCKED** until Phase-2 page clearance is complete.
 
 ## Phase 4 — translation and release
 
