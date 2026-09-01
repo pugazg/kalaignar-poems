@@ -23,18 +23,20 @@
 
 - Phase 1: **COMPLETE — 465/465 records**;
 - Phase 2 source coverage, scans **1–465: COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01 COMPLETE; C02 NEXT**;
-- cumulative page status: **0 `partial`, 408 `needs-review`, 57 `verified`**;
-- unresolved backlog: **408 pages**;
-- verified pages: **0001–0025, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- next: **Phase 2 Clearance Batch C02 — scans 26–50, skipping verified scans 32 and 33**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C02 COMPLETE; C03 NEXT**;
+- cumulative page status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
+- unresolved backlog: **385 pages**;
+- verified pages: **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- next: **Phase 2 Clearance Batch C03 — scans 51–75, skipping verified scans 70 and 71**;
 - Phase 3: **blocked pending Phase-2 page clearance**.
 
-## Clearance C01 note
+## Clearance C01–C02 note
 
-C01 is **COMPLETE**. Every physical scan **1–25** is now `verified`.
+C01 is **COMPLETE** through scan 25. C02 is **COMPLETE** through scan 50: its unresolved targets **26–31 and 34–50** all passed after source reconciliation; scans **32–33** were already verified. The current durable contiguous verified boundary is therefore **scans 1–50**.
 
-The closing activity completed scans **4, 6–10, 12–13 and 25** from user-supplied word-for-word transcriptions of exact page-range derivatives from this same controlling PDF, reconciled against the controlling scans. This restored the remaining `என்னுரை`, `அணிந்துரை`, `புறவுரை`, and printed-page-8 `இதயத்தைத் தந்திடு அண்ணா` text and removed all residual uncertainty markers on those pages.
+For C02, user-supplied word-for-word transcriptions from exact page-range derivatives of this same controlling PDF were used as the lexical base, while the controlling scans determined structure, punctuation, quotation continuity, lineation, illustrations, ornaments and physical-page boundaries.
+
+Important non-lexical C02 controls include scan-31 and scan-42 closing ornaments, scan-38/47/49 illustrations, cross-page quotation/speech continuities across 37→38 and 45→46, and rejection of `000 000 000 8` on scan 49 as image-layout/OCR noise rather than printed text. The standing user-directed exclusion applicable to `தென்னவன் காதை` remains in force on scan 41.
 
 Phase-2 corrections are made only from evidence tied to the controlling source. Exact page derivatives of this PDF may assist rendering/transcription but remain the same witness. Unrelated OCR, memory, grammar, historical expectation and other editions are not textual authority.
 
@@ -43,7 +45,7 @@ Phase-2 corrections are made only from evidence tied to the controlling source. 
 - `TVA_BOK_0064091_pages_151-175_access_derivative.pdf`: exact controlling-source scans 151–175; rendering aid only;
 - `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`: exact controlling-source page range 300–400 supplied by the user; derivative page 1 = physical scan 300; rendering aid only;
 - `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: exact controlling-source page range 350–465 supplied by the user; derivative page 1 = physical scan 350; rendering aid only;
-- user-supplied exact-page derivatives/transcriptions for scans **4, 6–10, 12–13 and 25** were used to close C01 after reconciliation with the controlling scans; they are not separate witnesses.
+- user-supplied exact-page derivatives/transcriptions were also used as lexical aids to close C01 and C02 after reconciliation with the controlling scans; they are not separate witnesses.
 
 ## Source-order anomaly recorded in Batch 10
 
