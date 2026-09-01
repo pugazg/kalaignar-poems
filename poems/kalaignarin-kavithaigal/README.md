@@ -22,25 +22,22 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 physical scans independently reviewed**;
-- cumulative status: **0 `partial`, 425 `needs-review`, 40 `verified`**;
-- unresolved backlog: **425 pages**;
-- verified pages: **0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 424 `needs-review`, 41 `verified`**;
+- unresolved backlog: **424 pages**;
+- verified pages: **0001, 0003, 0005, 0014, 0015, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3: **blocked until Phase-2 clearance resolves the remaining `needs-review` page records**.
 
 ## Phase-2 Clearance C01 progress
 
-The first C01 clearance pass targeted unresolved scans **2–17 and 21–25**, skipping already verified scans **1 and 18–20**.
+C01 targets unresolved scans **2–17 and 21–25**, skipping already verified scans **1 and 18–20**.
 
-Complete-pass promotions:
+Complete-pass promotions so far: scans **3, 5, 14, 15 and 17**.
 
-- scan **3** — English imprint / price;
-- scan **5 / IV** — `என்னுரை` continuation;
-- scan **14** — `பதிப்புரை`, including source-backed resolution `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
-- scan **17 / XVI** — contents continuation, preserved as its own printed contents witness.
+- scan **14** resolves `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
+- scan **15** clears the residual contents titles as `பிலவங்க ஆண்டு`, `காதலா! - வீரமா?`, `அருமறையில் அறுவர்`, `நீர்க் குடும்பம்`, and `நேரு கண்ட ஜனநாயகம்`;
+- scan **16** retains `தமிழ் வளர வழிநடைப் பயணம்` and additionally clears `வையம் தழைக்க`, `தந்தை பெரியார்`, and `பொங்கல் விழா`; the contents-witness spacing/ending at printed page 359 remains unresolved.
 
-Additional source-backed correction: scan **16 / XV** now reads **`தமிழ் வளர வழிநடைப் பயணம்`**. It remains `needs-review` because other small-type title strings are unresolved.
-
-Residual C01 scans: **2, 4, 6–13, 15–16, 21–25**.
+Residual C01 scans: **2, 4, 6–13, 16, 21–25**.
 
 ## Verification control
 
@@ -50,4 +47,4 @@ Full-source Phase-2 coverage does **not** itself authorize Phase 3 while unresol
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13, 15–16 and 21–25**. Do not advance to C02 or begin Phase 3 in the same activity.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13, 16 and 21–25**. Do not advance to C02 or begin Phase 3 in the same activity.
