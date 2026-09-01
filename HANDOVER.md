@@ -43,29 +43,30 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 Current cumulative page status:
 
 - `partial`: **0**;
-- `needs-review`: **418**;
-- `verified`: **47**;
+- `needs-review`: **417**;
+- `verified`: **48**;
 - total: **465**;
-- unresolved backlog: **418**.
+- unresolved backlog: **417**.
 
-Verified pages so far: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Verified pages so far: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Phase-2 Clearance Batch C01 — progress
 
 Targeted unresolved scans: **2–17 and 21–25**. Already verified scans **1 and 18–20** were skipped.
 
-Complete-pass promotions so far: **2, 3, 5, 11, 14, 15, 16, 17, 21, 23, 24**.
+Complete-pass promotions so far: **2, 3, 5, 11, 14, 15, 16, 17, 21, 22, 23, 24**.
 
-Residual C01 pages: **4, 6–10, 12–13, 22, 25**.
+Residual C01 pages: **4, 6–10, 12–13, 25**.
 
 Key completed clearances:
 
 - scan **11** — complete `புறவுரை` pass, including `கலைஞரின் பாக்களை நாம்` and final prosody continuation through `குறித்துள்ளனர்.`;
 - scan **21 / printed 4** — complete poem-page pass through the `முரசிற் செறிந்த தமிழார்வம்`, `பொருதடக்கை வாளெங்கே; மணி மார்பெங்கே?`, `காஞ்சியிருக்கக் கலிங்கம்`, and closing `அவலப் பரணி பாடுகின்றேனே...!` passages;
+- scan **22 / printed 5** — complete poem-page pass from `கவியினில் பொருளெனக் கரும்பினில் சுவையெனக்` through `அன்புக்குத் துணை நிற்கும் ‘அறிவு’க்கு மூன்றெழுத்து`, preserving `நிலமிசை வளமெனக்`, `குலவிடும் அருவி குழறிடும் மொழியென`, the `வெள்ளம்!` sequence and the `ஆயிரத்துத் தொள்ளாயிரத்து முப்பத்து எட்டாம்` passage directly from the anthology scan;
 - scan **23 / printed 6** — complete poem-page pass; all previously unresolved verse/quotation blocks cleared directly;
 - scan **24 / printed 7** — complete poem-page pass from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`; anthology-specific `மனோன்மணியம் எனினும்`, `நயமிகு பண்புடன் அரசியல் நடாத்தல்`, `வயிறு தாங்காத காரணத்தால்`, `சொலல் வல்லார்`, and `சொற் போரிலே` preserved directly from this anthology scan.
 
-Residual source-backed progress remains recorded in the page files and audit for scans **4, 6–10, 12–13, 22 and 25**. Those pages stay open wherever a complete glyph/punctuation/lineation pass would require guessing.
+Residual source-backed progress remains recorded in the page files and audit for scans **4, 6–10, 12–13 and 25**. Those pages stay open wherever a complete glyph/punctuation/lineation pass would require guessing.
 
 ## Phase-2 rule
 
@@ -77,7 +78,7 @@ Do not copy separate source-witness transcriptions into this anthology. Other wi
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 4, 6–10, 12–13, 22 and 25**.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 4, 6–10, 12–13 and 25**.
 
 - do not reopen already verified pages unless direct-source evidence reveals a discrepancy;
 - inspect the residual scans directly and resolve only source-backed uncertainty, old-glyph, punctuation, quotation, lineation and non-Tamil issues;
