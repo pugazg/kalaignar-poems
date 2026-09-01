@@ -20,7 +20,8 @@ Independently reread every page against the controlling scan. Check every word e
 - Phase 2 page clearance: **IN PROGRESS**;
 - cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
 - verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–75**.
+- durable contiguous verified boundary: **1–75**;
+- additional C04 verified pages: **79, 89**.
 
 ### Clearance C01–C03
 
@@ -43,7 +44,8 @@ Iteration tracking:
 - **A:** 76–78, 80–86 — direct-reviewed, no promotions;
 - **B:** 87–96 — direct-reviewed; **89 promoted to `verified`**;
 - **C:** 97–100 plus 76–78 and 80–82 — exactly 10 physical pages; deeper review completed, no promotions;
-- iteration C records direct source-backed refinements on scans 97–100 and second-pass residual review on 76–78 / 80–82;
+- **D:** 83–88 and 90–93 — exactly 10 physical pages; deeper direct lexical/glyph review completed, no promotions;
+- iteration D restored additional direct-source text on scans 83–87 and 93 while scans 88, 90–92 remained compact residuals after second full-page passes;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23)**.
 
 For every C04 page:
@@ -57,7 +59,7 @@ For every C04 page:
 
 ### Exact next activity
 
-Execute **C04 ten-page iteration D: residual scans 83–88 and 90–93**. Process exactly 10 physical pages as a deeper exact lexical/glyph closure pass. Do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78**. Process exactly 10 physical pages. Give scans 94–100 their deeper lexical/glyph closure pass, revisit 76–78, and do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
