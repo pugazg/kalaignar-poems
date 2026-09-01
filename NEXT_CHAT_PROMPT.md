@@ -32,6 +32,8 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 - Phase 2 source coverage: **all scans 1–465 independently reread — COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
 - Clearance C01–C03: **COMPLETE**;
+- C04 source-layout review: **COMPLETE**;
+- C04 lexical/glyph clearance: **OPEN**;
 - durable contiguous verified boundary: **physical scans 1–75**;
 - cumulative status: **0 `partial`, 362 `needs-review`, 103 `verified`**;
 - unresolved backlog: **362 pages**;
@@ -53,19 +55,33 @@ Durable C03 structure:
 - scan **75** contains a large mounted-warrior illustration; flattened `20 200 100` is illustration/OCR noise, not text;
 - `விடுதலை வீரர்கள்` continues into scan **76**.
 
+## CLEARANCE C04 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
+
+The full C04 physical window **76–100** has now been directly inspected for source structure. No C04 page has yet been promoted; all **25 scans remain `needs-review`** pending exact lexical/glyph reconciliation.
+
+Source-established C04 map:
+
+- **76–79** — `விடுதலை வீரர்கள்` continuation; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
+- **80–89** — `ஐம்புலன்`; scan **80** opens with title, `24.3.68` Vaniyambadi Islamic College event note and centered star separator; scan **89 / printed 72** closes with `வணக்கம்.` and a centered floral ornament;
+- **90–100** — `பிலவங்க ஆண்டு`; scan **90** opens with title, `13.4.68` Chennai radio-event note and centered star separator; scan **100 / printed 83** closes with `வணக்கம்.` and a centered floral ornament;
+- scans **80–89** and **90–100** interleave `தலைவர் கலைஞர்:` passages with parenthetical notes recording other poets finishing their pieces; preserve these separately from the chairman's verse;
+- opening scans **80** and **90** are unnumbered title/context leaves; normal printed page numbering resumes on following leaves.
+
 ## PHASE-2 SOURCE-CRITICAL RULE
 
 Independently reread the controlling scan before trusting existing Markdown. Correct only source-backed differences under the applicable lexical control. Preserve old Tamil glyphs/forms, punctuation, lineation, quotations, separators and non-Tamil material. Resolve `⟦…⟧` / `[மங்கலான ...]` only from direct source evidence or a user-designated exact-source transcription. Exact derivatives of this same PDF are access aids, not separate witnesses.
 
-When user-supplied word-for-word extraction from exact controlling-PDF pages is explicitly provided, **retain those words as the lexical base and independently handle structure, punctuation, quotation continuity, page carry-over, running headers/page numbers, illustrations, ornaments and lineation**.
+When user-supplied word-for-word extraction from exact controlling-PDF pages is explicitly provided, **retain those words as the lexical base and independently handle structure, punctuation, quotation continuity, page carry-over, running headers/page numbers, illustrations, ornaments, speaker/performance labels and lineation**.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — physical scans 76–100**.
+Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–100**.
 
-- inspect `pages/0076.md`–`pages/0100.md` against the controlling source;
-- `விடுதலை வீரர்கள்` continues from scan 75 into scan 76; preserve that continuation until the scan establishes a new item boundary;
-- correct only source-backed differences under the applicable lexical control;
+- compare `pages/0076.md`–`pages/0100.md` with the controlling source;
+- preserve the source-layout boundaries above;
+- if full word-for-word transcription from exact controlling-PDF extracts is supplied, retain those words as the lexical base and independently reconcile structure/punctuation/lineation;
+- otherwise resolve only what the controlling scan directly supports without guessing;
 - promote only complete passes to `verified`;
-- synchronize all status-bearing files after completion;
-- **do not begin Phase 3, canonical assembly or translation**.
+- keep C04 open until all **25 scans** pass;
+- synchronize status-bearing files after status movement;
+- **do not advance to C05, Phase 3, canonical assembly or translation**.
