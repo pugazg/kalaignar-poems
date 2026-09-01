@@ -57,7 +57,9 @@ The contents witness is preserved as printed rather than normalized from later p
 - scan **11** — the direct scan confirms `ஓசையை` with initial long `ஓ`; the earlier `ஒசையை` reading was corrected. Other compact prose remains unresolved.
 - scan **13 / printed XII** — direct rereading confirms `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, correcting the earlier `என்னுவோர்`; surrounding categorizing prose remains unresolved.
 - scan **21 / printed 4** — direct rereading corrects the fourth line ending to `பறப்பேன்!` and confirms `ஒரு கோடித் தமிழ் இளைஞர்,`; central/lower compact verse remains unresolved, so scan 21 stays `needs-review`.
+- scan **22 / printed 5** — direct rereading corrects `உலகிடும் காற்றில்` to source-visible `உலவிடும் காற்றில்`; central/closing compact verse remains unresolved.
 - scan **23 / printed 6** — direct source restores `காதலர்கள்`, the line `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண`; other compact verse/quotation context remains unresolved.
+- scan **24 / printed 7** — direct source corrects `மணோன்மணியம்` to source-visible `மனோன்மணியம்`; remaining compact verse blocks remain unresolved.
 - scan **25 / printed 8** — direct rereading corrects the opening to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirms `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, and restores `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`; later compact verse remains unresolved.
 
 ### Residual C01 pages
@@ -74,7 +76,7 @@ Before C01: **2 `partial`, 427 `needs-review`, 36 `verified`**.
 After the first C01 pass: **0 `partial`, 425 `needs-review`, 40 `verified`**.  
 After contents residual clearance through scans 15–16: **0 `partial`, 423 `needs-review`, 42 `verified`**.  
 After scan-2 title-page clearance: **0 `partial`, 422 `needs-review`, 43 `verified`**.  
-The latest residual source refinements improve fidelity on scans 11, 13, 23 and 25 but do not change page-status counts.
+The latest residual source refinements improve fidelity on scans 11, 13, 22, 23, 24 and 25 but do not change page-status counts.
 
 ## Phase-2 completion assessment
 
