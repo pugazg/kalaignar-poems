@@ -22,22 +22,23 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 physical scans independently reviewed**;
-- cumulative status: **0 `partial`, 423 `needs-review`, 42 `verified`**;
-- unresolved backlog: **423 pages**;
-- verified pages: **0001, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 422 `needs-review`, 43 `verified`**;
+- unresolved backlog: **422 pages**;
+- verified pages: **0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3: **blocked until Phase-2 clearance resolves the remaining `needs-review` page records**.
 
 ## Phase-2 Clearance C01 progress
 
 C01 targets unresolved scans **2–17 and 21–25**, skipping already verified scans **1 and 18–20**.
 
-Complete-pass promotions so far: scans **3, 5, 14, 15, 16 and 17**.
+Complete-pass promotions so far: scans **2, 3, 5, 14, 15, 16 and 17**.
 
+- scan **2** clears the title/author block, physical `அன்பளிப்பு` overlay, publisher/address block, `த.பெ.எண். 4984`, and `(தொலைபேசி) 434 02 05` as printed;
 - scan **14** resolves `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
 - scan **15** clears its residual contents titles directly from the contents witness;
-- scan **16 / XV** now has a complete contents-witness pass, including `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா`, `பன்னீர்ச் செல்வமே`, and `கலைத்தாயின் தலைச்செல்வன்` with their printed page references.
+- scan **16 / XV** has a complete contents-witness pass, including `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா`, `பன்னீர்ச் செல்வமே`, and `கலைத்தாயின் தலைச்செல்வன்` with their printed page references.
 
-Residual C01 scans: **2, 4, 6–13, 21–25**.
+Residual C01 scans: **4, 6–13, 21–25**.
 
 ## Verification control
 
@@ -47,4 +48,4 @@ Full-source Phase-2 coverage does **not** itself authorize Phase 3 while unresol
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13 and 21–25**. Do not advance to C02 or begin Phase 3 in the same activity.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–13 and 21–25**. Do not advance to C02 or begin Phase 3 in the same activity.
