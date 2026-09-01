@@ -74,9 +74,9 @@ Direct-source residual progress now includes:
 - scan **6** — restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`; other compact prose remains unresolved;
 - scan **7 / VI** — restored `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`;
 - scan **8 / VII** — opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`;
-- scan **9 / VIII** — `வள்ளுவர்` and `தமிழ்ப் பண்பாளர்கள்` restored;
+- scan **9 / VIII** — fresh direct rereading restores the printed sequence `வள்ளுவர் வள்ளலார்`; `தமிழ்ப் பண்பாளர்கள்` remains confirmed;
 - scan **10 / IX** — closing signature corrected to `க. அன்பழகன்`;
-- scan **11** — `ஓசையை` restored with initial long `ஓ`;
+- scan **11** — restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and source-visible `பழந்தொட்டு வரும்`; `ஓசையை` remains confirmed;
 - scan **13 / XII** — opening corrected to `கலைஞர்தம் பாடல்களில்`; `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed;
 - scan **21 / printed 4** — `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?` corrected directly;
 - scan **22 / printed 5** — `உலவிடும் காற்றில்` restored;
