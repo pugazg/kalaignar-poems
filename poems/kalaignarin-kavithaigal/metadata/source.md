@@ -22,12 +22,12 @@
 ## Verification state
 
 - Phase 1: **COMPLETE — 465/465 records**;
-- Phase 2 Batches 01–16, scans **1–400**: **COMPLETE**;
+- Phase 2 Batches 01–17, scans **1–425**: **COMPLETE**;
 - cumulative page status: **2 `partial`, 429 `needs-review`, 34 `verified`**;
 - verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393**;
-- next: **Phase 2 Verification Batch 17 — scans 401–425**.
+- next: **Phase 2 Verification Batch 18 — scans 426–450**.
 
-Batch 16 establishes the item sequence from `கலைத்தாயின் தலைச் செல்வன்!` at scan 376 through the opening of `பகுத்தறிவுப் பாண்டியனார்!` at scan 400. Scans 392–393 (`மலர்த் தோட்டம்` divider and verso) received complete passes. Dense poem pages remain `needs-review` where every glyph/line could not be safely cleared.
+Batch 17 establishes the sequence from the continuation/conclusion of `பகுத்தறிவுப் பாண்டியனார்!` at scans 401–402 through the opening of `ஒரு சொட்டுத் தேன்!` at scan 425. No Batch-17 page was promoted without a complete pass; dense and old-typeface text remains `needs-review` where every glyph/line could not be safely cleared.
 
 Phase-2 corrections are made only from direct controlling-scan evidence. Small-type or blurred material remains unresolved rather than being completed from OCR, memory, grammar, historical expectation or another edition.
 
@@ -35,7 +35,7 @@ Phase-2 corrections are made only from direct controlling-scan evidence. Small-t
 
 - `TVA_BOK_0064091_pages_151-175_access_derivative.pdf`: exact controlling-source scans 151–175; rendering aid only;
 - `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`: exact controlling-source page range 300–400 supplied by the user; derivative page 1 = physical scan 300; rendering aid only;
-- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: exact controlling-source page range 350–465 supplied by the user; derivative page 1 = physical scan 350; rendering aid only. Physical scans 401–425 correspond to derivative pages 52–76.
+- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: exact controlling-source page range 350–465 supplied by the user; derivative page 1 = physical scan 350; rendering aid only. Physical scans **426–450 correspond to derivative pages 77–101**.
 
 ## Source-order anomaly recorded in Batch 10
 
