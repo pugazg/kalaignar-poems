@@ -45,9 +45,10 @@ C04 lexical review is being done in user-directed **10-page iterations**:
 
 - Iteration A: **76–78, 80–86**, reviewed with no promotions;
 - Iteration B: **87–96**, reviewed with **scan 89 promoted to `verified`**;
-- scan 89 directly confirms `தொடக்குவீர்`, `சொல்வீராயினும்`, `இவையின்றி`, final `வணக்கம்.` and the closing ornament;
-- remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**;
-- untouched after iteration B: **97–100**.
+- Iteration C: **97–100 plus 76–78 and 80–82**, reviewed with no additional promotions;
+- iteration-C refinements include scan 97 `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`; scan 98 its `சுரதா` / `தூரன்` performance boundaries and source-visible `அருளுடைமை` opening; scan 99 its cumulative ethical-heading sequence; scan 100 its final `வணக்கம்.` punctuation and floral ornament;
+- residual scans **76–78 and 80–82** received a second direct visual pass in iteration C and still contain compact unresolved spans;
+- remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Source-access / witness rule
 
@@ -57,4 +58,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Execute **C04 ten-page iteration C: 97–100 plus residual 76–78 and 80–82**. Promote only complete passes; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration D: residual scans 83–88 and 90–93**. Promote only complete passes; do not begin C05 or Phase 3 while C04 remains open.
