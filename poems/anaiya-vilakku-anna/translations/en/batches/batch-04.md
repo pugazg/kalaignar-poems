@@ -4,7 +4,7 @@ language: "en"
 batch: "04"
 source_scans: "16-17"
 status: "reviewed"
-translation_basis: "locked verified Tamil page records and reviewed Tamil assembly"
+translation_basis: "reconciled Tamil page records and reviewed Tamil assembly after 2026-09-01 lexical controls"
 ---
 
 # Batch 04 — scans 16–17
@@ -16,8 +16,9 @@ translation_basis: "locked verified Tamil page records and reviewed Tamil assemb
 Seeing this —
 beating their mouths and their stomachs.....
 the hard-hearted, truthless ones sing abuse;
-turn that into music, my younger brothers — this is my counsel.
-O Buddha of Kanchi; at your feet — **Kazhagam saranam gacchami!**
+“Turn that into music, my younger brothers,”
+advises the Buddha of Kanchi;
+at your feet — **Kazhagam saranam gacchami!**
 
 ★ ★ ★
 
@@ -34,7 +35,7 @@ I took a middle position;
 for I acted with the conviction
 that only a secular, humanist government
 has the truthfulness needed to protect the people!
-Though those who opposed and those who spoke in anger
+Though those who objected and those who spoke hatred
 stood at the two ends, on either side,
 I took my decisions
 with the future of India in mind;
@@ -43,7 +44,7 @@ At the final stage, without letting myself be shaken, decisions were taken —
 and somehow the two sides ended up standing opposed!
 I read of it only in the newspapers, and my heart ached —
 
-Humanist feeling, or the storm of religious hatred —
+Humanist feeling, or religious-fanatic strife —
 to answer the question of which side to stand on,
 “Come, let us march together,” called
 our dear sister Sonia's political camp!
@@ -55,33 +56,51 @@ cherishing and upholding religious harmony,
 
 I remained where humanism is honoured —
 let us gather the people
-so that secular governments may be formed
-both at the Centre and in the states;
+so that a secular government may be formed
+at the Centre and in the State;
 come, come — I call you.
 
-Great people gathered in this hall,
+O great people gathered in this hall,
 though a large part of Periyar's and Anna's dreams
-has been fulfilled,
-let us raise an unwavering voice of resolve
+has seen fulfilment,
+let us raise a resounding voice
 to make Tamil too one of the official languages of the Union government!
 Instead of raising demands merely for the sake of agitation,
 let us choose the right path of struggle for our demands!
-Let us guide the future India
-toward strength,
-toward prosperity!
+Let us insist that the India of the future
+grow strong,
+grow prosperous!
 **Autonomy for the states;
 federalism at the Centre!**
 
 ## Translator notes
 
 - `கழகம் சரணம் கச்சாமி!` is retained as **Kazhagam saranam gacchami!** because Kalaignar deliberately recasts the Buddhist refuge formula around the Kazhagam; translating it into plain explanatory English would erase the wordplay.
+- Reconciled `என அறிவுரை கூறுகின்ற` makes the counsel belong grammatically to the **Buddha of Kanchi**: `“Turn that into music, my younger brothers,” advises the Buddha of Kanchi`.
 - `முடிவுரை` is rendered as **Concluding remarks**, preserving the visible structural heading rather than silently absorbing it into the poem.
 - The source's `இந்தியப் பேரரசின் ஆட்சியாளர்` is translated as **the rulers of the Indian empire** to preserve the deliberately strong source diction; this is not an external characterization supplied by the translator.
 - `மதச் சார்பற்ற மனித நேய ஆட்சி` is rendered **a secular, humanist government**, keeping both secularism and humanism visible.
+- Reconciled `வெறுப்புரைப்போர்` is rendered **those who spoke hatred**, and `மத வெறிப் பூசலா` as **religious-fanatic strife**, replacing the superseded storm imagery.
 - Scan 16's final `மத நல்லிணக்கம் விரும்பிப் போற்றி` is carried grammatically into scan 17 rather than closed as a separate sentence.
-- `உறுதி குரல் கொடுப்போம்!` is translated as **let us raise an unwavering voice of resolve**, retaining the restored source word `குரல்` and its public-speech force.
+- Reconciled `அரசொன்று` is rendered as singular **a secular government**, preserving the source's Centre/State construction.
+- Reconciled `பெருமக்காள்` is retained as the vocative **O great people gathered in this hall**.
+- Reconciled `உரத்த குரல் கொடுப்போம்!` is rendered **let us raise a resounding voice**, preserving loud/public speech force without the superseded `resolve` reading.
+- Reconciled `வலியுறுத்துவோம்!` is rendered **Let us insist that...**, rather than the superseded `guide` wording.
 - `மாநில சுயாட்சி; / மத்தியிலே கூட்டாட்சி!` is retained as the compact paired slogan **Autonomy for the states; / federalism at the Centre!** rather than expanded into explanatory prose.
 - The `★ ★ ★` that precedes `முடிவுரை` is retained as part of the poem's internal structure. The later `★ ★ ★` and the event caption/date on scan 17 are excluded from the English poem body because the reviewed Tamil assembly treats them as post-poem source context.
+
+## 2026-09-01 targeted reconciliation review
+
+Result: **PASS**
+
+- `வன்கணாளர்`: existing hard-hearted/harsh characterization remains adequate — **PASS**;
+- `என அறிவுரை கூறுகின்ற`: speaker attribution corrected — **PASS**;
+- `ஆரம்பித்தது`: existing `began` remains correct — **PASS**;
+- `வெறுப்புரைப்போர்`: revised — **PASS**;
+- `பூசலா`: storm imagery removed; `strife` restored — **PASS**;
+- `அரசொன்று`: singular government restored — **PASS**;
+- retained Centre/State gathering sequence: **PASS**;
+- `பெருமக்காள்`, `நிறைவேற்றம்`, `உரத்த குரல்`, `வலியுறுத்துவோம்`: reconciled — **PASS**.
 
 ## Batch review
 
@@ -97,8 +116,9 @@ Checks:
 - internal `★ ★ ★` and `முடிவுரை` structure represented: **PASS**;
 - `கழகம் சரணம் கச்சாமி!` wordplay retained rather than flattened: **PASS**;
 - secularism/humanism and named political reference to Sonia retained: **PASS**;
-- restored `உறுதி குரல் கொடுப்போம்!` represented: **PASS**;
+- reconciled `உரத்த குரல் கொடுப்போம்!` represented: **PASS**;
 - final paired slogan preserved as slogan: **PASS**;
 - post-poem event caption/date excluded from verse: **PASS**;
+- 2026-09-01 Tamil lexical controls reflected where English meaning changes: **PASS**;
 - Tamil source altered to improve English: **NO**;
 - Kalaignar-language/voice review: **PASS**.
