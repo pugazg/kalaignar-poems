@@ -29,12 +29,12 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 — COMPLETE**;
-- cumulative status: **0 partial, 425 needs-review, 40 verified**;
-- unresolved backlog: **425 pages**;
-- verified so far: **0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- exact next activity: **continue Phase 2 Clearance Batch C01 — residual scans 2, 4, 6–13, 15–16 and 21–25**.
+- cumulative status: **0 partial, 424 needs-review, 41 verified**;
+- unresolved backlog: **424 pages**;
+- verified so far: **0001, 0003, 0005, 0014, 0015, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- exact next activity: **continue Phase 2 Clearance Batch C01 — residual scans 2, 4, 6–13, 16 and 21–25**.
 
-The first C01 clearance pass promoted scans **3, 5, 14 and 17** after complete direct-source passes. It also corrected scan 16 to the source-visible contents title `தமிழ் வளர வழிநடைப் பயணம்`; scan 16 remains unresolved because other small-type strings still require exact clearance.
+C01 has promoted scans **3, 5, 14, 15 and 17** after complete direct-source passes. Scan 15 now clears the contents strings `பிலவங்க ஆண்டு`, `காதலா! - வீரமா?`, `அருமறையில் அறுவர்`, `நீர்க் குடும்பம்`, and `நேரு கண்ட ஜனநாயகம்`. Scan 16 retains `தமிழ் வளர வழிநடைப் பயணம்` and now also clears `வையம் தழைக்க`, `தந்தை பெரியார்`, and `பொங்கல் விழா`, but remains unresolved at the printed-page 359 contents entry.
 
 The user-supplied page-range derivatives are rendering aids from the exact controlling PDF. They are not separate witnesses.
 
