@@ -2,63 +2,66 @@
 
 ## Current state
 
-**PHASE 1 COMPLETE — 465/465 records. PHASE 2 VERIFICATION IN PROGRESS.**
+**PHASE 1 COMPLETE — 465/465 records. PHASE 2 SOURCE-COVERAGE PASS COMPLETE — ALL 465 PHYSICAL SCANS HAVE BEEN INDEPENDENTLY REREAD. PHASE 2 CLEARANCE REMAINS IN PROGRESS.**
 
 - controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 2 reviewed: **450/465 scans**;
-- cumulative page status: **2 `partial`, 428 `needs-review`, 35 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447**;
-- Phase 3: **not started**;
+- Phase 2 source coverage: **465/465 scans reviewed**;
+- cumulative page status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved after full coverage: **429 pages = 2 `partial` + 427 `needs-review`**;
+- Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
-## Phase 2 Verification Batches 01–16
+## Phase 2 coverage history
 
-Batches 01–16, scans 1–400: **COMPLETE**. Direct-source reread history, prior source-backed corrections and verified pages remain preserved in the page layer and repository history.
+- Batches 01–16: scans **1–400 — COMPLETE**;
+- Batch 17: scans **401–425 — COMPLETE**;
+- Batch 18: scans **426–450 — COMPLETE**; scan **447** complete-pass `verified`;
+- Batch 19: scans **451–465 — COMPLETE**; scan **465** complete-pass `verified`.
 
-## Phase 2 Verification Batch 17 — scans 401–425
+The completion of Batch 19 means that every physical scan has now received at least one independent Phase-2 source-critical reread. This is **coverage completion only**, not Tamil final clearance and not permission to begin Phase 3, because 429 page records still carry unresolved `partial` / `needs-review` status.
 
-Result: **COMPLETE**. Source-backed corrections were applied across the batch; no page was promoted absent a complete source-critical pass. `ஒரு சொட்டுத் தேன்!` opens at scan 425 and remains unfinished at that boundary.
+## Phase 2 Verification Batch 19 — scans 451–465
 
-## Phase 2 Verification Batch 18 — scans 426–450
+Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE FINAL COVERAGE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCAN 465 PROMOTED ONLY AFTER A COMPLETE SOURCE-CRITICAL PASS.**
 
-Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCAN 447 PROMOTED ONLY AFTER A COMPLETE SOURCE-CRITICAL PASS.**
-
-Scans 426–450 were independently inspected against the exact controlling-source range using `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf` as a rendering aid. Derivative page 1 = physical scan 350, so derivative pages **77–101** correspond exactly to physical scans **426–450**. The derivative is not a separate witness.
+Scans 451–465 were independently inspected against the exact controlling-source range using `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf` as a rendering aid. Derivative page 1 = physical scan 350, so derivative pages **102–116** correspond exactly to physical scans **451–465**. The derivative is not a separate witness.
 
 ### Reviewed outcomes and boundaries
 
-- scans **426–427** — continuation/conclusion of `ஒரு சொட்டுத் தேன்!`; closes at **427 / printed 410**;
-- scan **428** — `விதையாய் முளைத்து விழுதுகள் விட்டோம்!`; single-scan item;
-- scans **429–432** — `சூரியனைப் பனிக்கட்டி என்கிறாய்!`; closes at **432 / printed 415**;
-- scans **433–434** — `நடையை நிறுத்தாதே!`; closes at **434 / printed 417**;
-- scans **435–437** — `பாமர் நிறைந்த பட்டிக்காடு!`; closes at **437 / printed 420**;
-- scans **438–439** — `கொள்ளை போதும்மா தமிழ்நாடு`; closes at **439 / printed 422**;
-- scans **440–442** — `என்ன தேசமடா இது?`; closes at **442 / printed 425**;
-- scans **443–445** — `முடியுமா? கிழித்தெறிவோம் வாரீர்!`; closes at **445 / printed 428**;
-- scans **446–447** — `பதில் என்ன? பகர்ந்திடுக!`; closes at **447 / printed 430**; scan **447** complete-pass `verified`;
-- scans **448–449** — `கா, கா, கா!`; closes at **449 / printed 432**;
-- scan **450** — `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` opens and remains unfinished beyond the Batch-18 boundary.
+- scans **451–452** — continuation/conclusion of `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; closes at **452 / printed 435**;
+- scans **453–454** — `திசை திருப்பல் நியாயம்தானா?`; closes at **454 / printed 437**;
+- scans **455–456** — `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!`; closes at **456 / printed 439**;
+- scans **457–460** — `சில நாடுகள் இருக்கின்றன`; closes at **460 / printed 443**;
+- scans **461–464** — `உன் காலணியை வாழ்த்துகிறாய்`; closes at **464 / printed 447**;
+- scan **465** — full-colour back cover with printed `கலைஞர் / கவிதைகள்`; complete-pass `verified` and final physical scan of the controlling PDF.
 
 ### Source-backed corrections applied
 
-- scan **426**: `விடுதலைப் கொண்டிடு!` → source-visible `வீடுகளைச் சென்றிடு!`; resolved the line as `ஒரு துளி உதவியும் வேண்டாம் — அந்தச்`;
-- scan **427**: `நேரமும் இதுவே!` → `நேரமும் இது!`; restored the visible line `ஆல்போல் தழைத்த கழகத்தின் உயிரே! நீ`;
-- scan **429**: `அழுகிறாய் நீ!` → source-visible `அழுகிறாயா நீ!`;
-- scan **432**: `அழித்து எழுமாம் ஆண்டு தேர்தலிலே` → source-visible `அறுபத்து எழுமாம் ஆண்டு தேர்தலிலே`;
-- scan **435**: `சாய்ந்த நெருப்பில்!` → `எரியும் நெருப்பில்!`; `குரைத்துமென்றிருந்து` → `குரைக்குமென்றிருந்து`;
-- scan **447**: corrected `கருத்தமிழ் கழகத்தால்` → `கருத்தமிழக் கழகத்தால் — மேலும்` and `போதி சமக்கப் போகின்றோமா?` → `பொதி சுமக்கப் போகின்றோமா?`; the complete page, source note, printed numeral, ornament and page role passed and the scan was promoted to `verified`;
-- scan **448**: `கூடைக்கு` → source-visible `கூண்டுக்கு`; `பயை` → `பழைய`;
-- scan **450**: `நான்தோறும்` → source-visible `நாள்தோறும்`.
+- scan **464**: `எழை எளிய உடன் பிறப்பு நீ!` → source-visible `ஏழை எளிய உடன் பிறப்பு நீ!`;
+- scan **464**: parenthetical attribution `கலைஞரின் 58-வது பிறந்தநாள்` → source-visible `கலைஞர் தனது 58-வது பிறந்தநாள்`;
+- scan **465**: page role, printed two-line wording, absence of printed numeral, colour artwork and final-source boundary all passed; status promoted from `needs-review` to `verified`.
+
+Dense poem pages in scans 451–464 remain `needs-review` where every compact glyph, punctuation mark, line break or quotation could not be certified from the available rendering. They were not promoted merely because the batch or item boundary closed.
 
 ### Batch status movement
 
-Before Batch 18: **2 `partial`, 429 `needs-review`, 34 `verified`**.  
-After Batch 18: **2 `partial`, 428 `needs-review`, 35 `verified`**.
+Before Batch 19: **2 `partial`, 428 `needs-review`, 35 `verified`**.  
+After Batch 19: **2 `partial`, 427 `needs-review`, 36 `verified`**.
 
-Dense poem pages were not promoted merely because they were reviewed or closed an item. Only scan 447 passed every visible edition-text/page-role requirement.
+## Phase-2 completion assessment
+
+The source-wide reread requirement has now been executed for **465/465 physical scans**. However, the processing guide requires verified page records before Phase 3 assembly gates. Therefore:
+
+- **Phase-2 source coverage: COMPLETE**;
+- **Phase-2 page clearance: NOT COMPLETE**;
+- **Phase 3: BLOCKED**;
+- unresolved backlog: **429 page records**.
+
+Verified pages must not be reopened merely for uniformity. Reopen a verified page only if a new direct-source discrepancy is discovered.
 
 ## Verification safeguards
 
@@ -72,4 +75,6 @@ Dense poem pages were not promoted merely because they were reviewed or closed a
 
 ## Exact next activity
 
-Execute **Phase 2 Verification Batch 19 — physical scans 451–465**. Continue directly from the unfinished `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at scan 450/451. The pages-350–465 derivative covers this final Phase-2 range as derivative pages **102–116**. At completion synchronize all status-bearing files and assess the Phase-2 completion boundary. Do not begin Phase 3, canonical assembly, or translation in the same activity.
+Execute **Phase 2 Clearance Batch C01 — unresolved physical scans 2–17 and 21–25** (the first unresolved pages in the 1–25 window). Scans **1 and 18–20 are already `verified` and must be skipped unless a direct-source discrepancy is discovered**.
+
+For each targeted unresolved scan, enlarge/reinspect the controlling source, resolve only source-backed `⟦…⟧` / compact-glyph / punctuation / lineation issues, and promote only complete passes to `verified`. Do not begin Phase 3, canonical assembly, or translation.
