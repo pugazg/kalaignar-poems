@@ -1,79 +1,44 @@
 # English Release Report — அணையா விளக்கு அண்ணா
 
-Status: **RELEASE-COMPLETE — PASS**
+Status: **REOPENED — PREVIOUS RELEASE PASS SUPERSEDED BY 2026-09-01 TAMIL LEXICAL RECONCILIATION**
 
-## Release target
+## Previous release checkpoint
 
-- complete English assembly: `anaiya-vilakku-anna-en.md`
-- reviewed batches: `batches/batch-01.md` through `batches/batch-04.md`
-- editorial review: `EDITORIAL_CONSISTENCY_REVIEW.md`
-- Tamil authority: reviewed assembly `../../sections/anaiya-vilakku-anna.md`
-- verified Tamil page records: `../../pages/0007.md` through `../../pages/0017.md`
+The English translation previously passed batch review, full assembly review, editorial consistency review and release closure against the then-current Tamil text.
 
-## Release checks
+That checkpoint remains historical evidence of the earlier workflow, but it is no longer the current release authority.
 
-| Check | Result |
-|---|---|
-| reviewed English batches present | **4/4 — PASS** |
-| source poem scans represented | **11/11 — PASS** |
-| missing batch bodies | **0** |
-| duplicate batch bodies | **0** |
-| source order | **PASS** |
-| cross-batch continuity | **PASS** |
-| translator notes leaked into poem verse | **NO — PASS** |
-| batch-review prose leaked into poem verse | **NO — PASS** |
-| front matter / photographs imported into poem verse | **NO — PASS** |
-| scan 17 event caption/date imported into poem verse | **NO — PASS** |
-| scans 18–19 closing material imported into poem verse | **NO — PASS** |
-| terminology/name consistency | **PASS** |
-| literary-reference consistency | **PASS** |
-| repeated centenary refrain retained | **PASS** |
-| Tolkappiyam / rationalist sequence retained | **PASS** |
-| political satire and named references retained | **PASS** |
-| `Kazhagam saranam gacchami!` wordplay retained | **PASS** |
-| restored `உறுதி குரல் கொடுப்போம்!` reflected in English | **PASS** |
-| final paired federalism slogan retained | **PASS** |
-| full-poem Kalaignar-language/voice review | **PASS** |
-| Tamil source changed to improve English | **NO — PASS** |
+## Reopening trigger
 
-## Locked exclusions confirmed
+On 2026-09-01 the Tamil page records and canonical assembly were changed under the user-directed lexical reconciliation documented at:
 
-The released English poem does not include:
+`../../LEXICAL_RECONCILIATION_2026-09-01.md`
 
-- scans 1–6 front matter and photographs;
-- repeated decorative work headers on scans 7–17;
-- photographs integrated into poem scans;
-- scan 17 post-poem event caption and date `15 - 9 - 2008`;
-- scan 18 closing photograph/caption;
-- scan 19 closing quotation/back matter.
+The reconciled Tamil authority includes meaning-bearing changes, so the prior English release cannot remain marked release-complete without targeted comparison.
 
-These remain archival source material, not verse.
+## Required revalidation
 
-## Source-sensitive release decisions
+The following must be checked before English release closure can be restored:
 
-The release preserves the translation decisions already reviewed at batch and full-poem level, including:
+- `SOURCE_MAP.md` against the reconciled Tamil page records;
+- affected wording in `batches/batch-01.md` through `batch-04.md`;
+- the complete English assembly `anaiya-vilakku-anna-en.md`;
+- `EDITORIAL_CONSISTENCY_REVIEW.md` after any needed translation changes;
+- coverage, continuity, rhetoric, terminology and final-slogan consistency against the new Tamil authority.
 
-- **Anna** as the governing relationship/title;
-- **Kazhagam** where the movement/organization is rhetorically central;
-- **Ettappans** as the source-cultural accusation rather than generic `traitors`;
-- named literary works and political references without silent generalization;
-- `(Loud applause)` for the source-visible performance cue;
-- the repeated centenary/lifespan refrain without compression;
-- the six-sense Tolkappiyam sequence without reducing it to summary prose;
-- Kalaignar's rationalist interrogation as rhetorical argument rather than translator commentary;
-- the imagined Anna voice in the one-rupee-rice passage;
-- `★ ★ ★` and `Concluding remarks` as the internal structural turn;
-- **Kazhagam saranam gacchami!** as deliberate wordplay;
-- **Autonomy for the states; / federalism at the Centre!** as a compact paired slogan.
+Particular meaning-bearing changes requiring explicit English review include `எமக்கு`, `வழக்கறிஞன் நீ`, `பூசலா`, `அரசொன்று`, `உரத்த குரல் கொடுப்போம்!`, and `வலியுறுத்துவோம்!`.
 
-## Editorial consistency
+## Locked exclusions
 
-`EDITORIAL_CONSISTENCY_REVIEW.md` records **PASS** across coverage, cross-batch continuity, terminology, rhetorical architecture, source-sensitive decisions and full-poem voice.
+The source-boundary exclusions remain unchanged:
 
-No unresolved English release issue remains.
+- scans 1–6 front matter and photographs remain outside English verse;
+- repeated decorative headers remain excluded;
+- scan 17 event caption/date remains outside poem verse;
+- scans 18–19 closing material remain outside poem verse.
 
-## Final judgement
+## Current judgement
 
-**PASS — English translation RELEASE-COMPLETE.**
+**English translation release status: REOPENED.**
 
-The Tamil archival/source layer remains locked and unchanged. The English release is traceable to the reviewed Tamil assembly and verified page records, and no translation decision has been used to silently rewrite the Tamil source.
+Do not restore `RELEASE-COMPLETE — PASS` until the affected translation layer has been reconciled against the current Tamil assembly and the editorial/release checks have been rerun.

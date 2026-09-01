@@ -1,66 +1,56 @@
 # அணையா விளக்கு அண்ணா — Source Completeness Review
 
-Status: **PASS — physical source complete; second-pass poem verification complete**
+Status: **PASS — physical source complete; Tamil lexical reconciliation recorded**
 
 ## Scope
 
-This review checks the complete 19-scan physical source after fresh restart from the supplied PDF. The scan remains controlling; no old transcription or external edition is authority.
+This review accounts for the complete 19-scan source and the 11 poem scans 7–17. The scan remains controlling. The 2026-09-01 user lexical reconciliation is recorded separately in [`LEXICAL_RECONCILIATION_2026-09-01.md`](LEXICAL_RECONCILIATION_2026-09-01.md).
 
 ## Physical completeness
 
 - total physical scans: **19**
 - page records created: **19 / 19 — PASS**
-- verified: **19 / 19 — PASS**
-- needs-review: **0 / 19**
-- blocked: **0**
-- not-started: **0**
-
-Scan 3's circular-emblem lettering was re-reviewed at high resolution and its visible lettering is recorded without supplying any unseen continuation.
+- omitted physical scans: **0**
+- duplicated physical scans: **0**
+- blocked physical scans: **0**
 
 ## Poem-body completeness
 
 - poem/text body: scans **7–17**
 - poem scans represented: **11 / 11 — PASS**
-- first-pass verification: **11 / 11 — COMPLETE**
-- user-requested second-pass verification: **11 / 11 — COMPLETE**
 - omitted poem scans: **0 — PASS**
 - duplicated poem scans: **0 — PASS**
 - scan 16 internal `★ ★ ★` break and printed `முடிவுரை` heading preserved: **PASS**
-- scan 17 concluding event caption/date kept outside the poem conclusion: **PASS**
+- scan 17 concluding event caption/date kept outside poem verse: **PASS**
 
-## Second-pass correction result
+## 2026-09-01 lexical reconciliation
 
-The renewed review found and corrected genuine source mismatches in pages that had previously been marked `verified`. Confirmed corrections include:
+A later comparison against the user-supplied transcription identified substantive lexical mismatches in earlier repository readings. The user directed that all listed mismatches be corrected except four explicitly retained forms:
 
-- `வரிஞன்` → `வறிஞன்`
-- `வழக்கறிஞன் நீ` → `வழக்கறிஞனும் நீ`
-- `பெருமைப்பால்` → `பேருழைப்பால்`
-- `பலவாயிரம்` → `பல்லாயிரம்`
-- `உறுதி கொடுப்போம்!` → `உறுதி குரல் கொடுப்போம்!`
+- `அழகு தமிழ்ப் பேச்சில்`
+- `பின் தானே - உனைத் தூற்றியோரும்`
+- `ஆறறிவு மனிதன் வரை`
+- `மாநிலத்திலும் / அமைவதற்கு / மக்களைத் திரட்டுவோம்`
 
-along with the documented scan 7–11 corrections in `audit.md`.
+The affected page records and canonical assembly were synchronized. The complete before/after list is in `LEXICAL_RECONCILIATION_2026-09-01.md`.
 
-Scans 14–16 were also rechecked at the same renewed source-comparison standard; no additional lexical correction was substantiated there.
+Earlier review statements that treated a now-replaced form as final are superseded by this reconciliation record. This includes, for example, the former repository readings `வழக்கறிஞனும் நீ` and `உறுதி குரல் கொடுப்போம்!`.
 
 ## Non-poem source records
 
-- scans 1–6: verified, including the resolved scan-3 commemorative graphic
-- scan 18: verified photograph record with printed caption `எதையும் தாங்கும் இதயம் / இங்கே உறங்குகிறது`
-- scan 19: verified closing quotation/back-matter record with printed date `15 - 9 - 1987`
+- scans 1–6: represented and classified
+- scan 18: closing photograph record represented
+- scan 19: closing quotation/back-matter record represented
 
 ## Source-integrity checks
 
-- supplied PDF identified by checksum: **PASS**
 - source PDF committed to repository: **NO — PASS**
 - inferred printed pagination introduced: **NO — PASS**
-- silent Tamil normalization introduced: **NO — PASS**
-- external edition substituted for scan: **NO — PASS**
-- unresolved glyphs guessed: **NO — PASS**
+- external edition substituted for the controlling source: **NO — PASS**
+- poem/body vs non-poem source boundary preserved: **PASS**
 
 ## Review judgement
 
-**PASS.**
+**PASS.** The physical source remains complete **19/19**, the poem body remains complete **11/11**, and the current Tamil page records and assembly incorporate the documented 2026-09-01 lexical reconciliation.
 
-The complete physical source is represented and verified **19/19**, `needs-review` is **0**, and the complete poem body has received the requested second-pass review **11/11**.
-
-The Tamil source layer is now eligible for canonical assembly. English translation must remain blocked until the Tamil assembly and its assembly review pass.
+Because the English release predates this reconciliation, English release completeness is not inherited from this Tamil PASS and requires a separate targeted re-review.

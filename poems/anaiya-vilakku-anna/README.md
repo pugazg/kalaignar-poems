@@ -2,63 +2,70 @@
 
 ## Source-first archival record
 
-This work was restarted from scratch from the newly supplied source PDF under the repository `HANDOVER.md` and `POEM_PROCESSING_GUIDE.md` rules.
+This work was restarted from scratch from the supplied source PDF under the repository `HANDOVER.md` and `POEM_PROCESSING_GUIDE.md` rules.
 
 ## Source
 
 - work title as printed: **அணையா விளக்கு அண்ணா**
 - author/attribution as printed on cover: **கலைஞர் கவிதை**
-- uploaded source filename: `TVA_BOK_0065770_அணையா_விளக்கு_அண்ணா(1).pdf`
+- source filename: `TVA_BOK_0065770_அணையா_விளக்கு_அண்ணா(1).pdf`
 - scan pages: **19**
 - source type: scanned image PDF
 - source PDF is not committed to the repository
 
 ## Physical structure
 
-- scan 1: cover — verified
-- scan 2: quotation/photo front matter — verified
-- scan 3: commemorative graphic — verified after dedicated high-resolution emblem review
-- scan 4: photograph page — verified
-- scan 5: photograph page — verified
-- scan 6: title/photo page — verified
-- scans 7–17: poem/text body — **all 11/11 verified and second-pass rechecked**
+- scans 1–6: front matter / photographs / title material — verified
+- scans 7–17: poem/text body — **11/11 represented**
 - scan 18: closing photograph — verified
 - scan 19: closing quotation/back matter — verified
 
-## Processing status
+## Tamil processing status
 
-- previous `anaiya-vilakku-anna` work: **DELETED at user request**
-- fresh source identity: **COMPLETE**
-- physical page classification: **COMPLETE — roles mapped for 19/19 scans**
+- physical page classification: **COMPLETE — 19/19**
 - page records created: **19 / 19**
-- verified page records: **19 / 19**
-- needs-review page records: **0**
-- not-started page records: **0**
-- Tamil poem transcription: **COMPLETE — scans 7–17 verified (11/11 poem scans)**
-- user-requested second-pass poem verification: **COMPLETE — 11/11**
-- source completeness review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md) — **PASS**
-- canonical Tamil assembly: [`sections/anaiya-vilakku-anna.md`](sections/anaiya-vilakku-anna.md) — **COMPLETE**
-- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md) — **PASS**
-- English translation batches: **4/4 reviewed — PASS**
-- complete English assembly: [`translations/en/anaiya-vilakku-anna-en.md`](translations/en/anaiya-vilakku-anna-en.md) — **COMPLETE**
-- English editorial review: [`translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`](translations/en/EDITORIAL_CONSISTENCY_REVIEW.md) — **PASS**
-- English release report: [`translations/en/RELEASE_REPORT.md`](translations/en/RELEASE_REPORT.md) — **PASS**
-- English translation status: **RELEASE-COMPLETE**
+- poem page records: **11 / 11**
+- canonical Tamil assembly: [`sections/anaiya-vilakku-anna.md`](sections/anaiya-vilakku-anna.md) — **synchronized**
+- lexical reconciliation record: [`LEXICAL_RECONCILIATION_2026-09-01.md`](LEXICAL_RECONCILIATION_2026-09-01.md)
+- source completeness review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md)
+- assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md)
 
-## Governing rule
+## 2026-09-01 lexical reconciliation
 
-The supplied scan remains the controlling source. Tamil wording, punctuation, lineation, historical forms, captions and page roles must not be silently normalized or reconstructed from outside sources.
+After comparison with the user-supplied transcription, the user explicitly directed that every substantive mismatch previously identified be changed **except** these four repository readings, which were confirmed and retained:
 
-The second-pass review was required because several plausible-looking but source-incorrect readings had entered pages previously marked `verified`. The renewed scan comparison corrected those readings, including `வறிஞன்`, `வழக்கறிஞனும்`, `பேருழைப்பால்`, `பல்லாயிரம்`, and `உறுதி குரல் கொடுப்போம்!`, together with earlier scan 7–11 corrections.
+- `அழகு தமிழ்ப் பேச்சில்`
+- `பின் தானே - உனைத் தூற்றியோரும்`
+- `ஆறறிவு மனிதன் வரை`
+- scan 17 sequence: `மாநிலத்திலும் / அமைவதற்கு / மக்களைத் திரட்டுவோம்`
 
-The canonical Tamil assembly uses only scans 7–17, preserves source order and physical provenance, retains scan 16's `★ ★ ★` / `முடிவுரை` structure, and keeps scan 17's event caption/date outside the verse body.
+All other listed lexical mismatches were reconciled in the page records and then propagated into the canonical Tamil assembly. The exact replacements are durably recorded in `LEXICAL_RECONCILIATION_2026-09-01.md`.
 
-The English translation was produced only after Tamil source and assembly closure. All four batches were reviewed, the full English assembly passed editorial consistency review, and the release report confirms complete source coverage with no Tamil source alteration made for translation convenience.
+The scan remains the controlling source. The reconciliation is documented as a user lexical control; it must not be silently generalized into normalization of spelling, punctuation or lineation elsewhere.
 
-## Final state
+## Structural fidelity
 
-**Tamil archival/source layer: COMPLETE — PASS**  
-**Canonical Tamil assembly: COMPLETE — PASS**  
-**English translation: RELEASE-COMPLETE — PASS**
+The canonical Tamil assembly:
 
-The work is closed under the current repository workflow. Any future textual change should explicitly reopen the relevant Tamil or English layer and document the source-level reason.
+- uses only poem scans 7–17;
+- preserves physical scan order and provenance;
+- retains the source-visible repeated `(முதல் நூற்றாண்டு...` opening parenthesis;
+- retains scan 16's `★ ★ ★` and `முடிவுரை` structure;
+- keeps scan 17's event caption/date outside the poem body;
+- excludes scans 1–6 and 18–19 from the verse body.
+
+## English translation status
+
+The English translation had previously reached release-complete status, but that release was based on the **pre-2026-09-01 Tamil wording**.
+
+Because the Tamil reconciliation includes meaning-bearing changes, the English layer is now:
+
+**REOPENED — TARGETED RECONCILIATION REQUIRED**
+
+Before English can again be called release-complete, the source map, affected batches, complete English assembly, editorial consistency review and release report must be checked against the reconciled Tamil authority.
+
+## Current state
+
+**Tamil archival/source layer: COMPLETE with 2026-09-01 lexical reconciliation recorded**  
+**Canonical Tamil assembly: SYNCHRONIZED**  
+**English translation: REOPENED — targeted reconciliation pending**
