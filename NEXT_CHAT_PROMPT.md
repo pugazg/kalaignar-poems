@@ -55,6 +55,7 @@ Scan **0016 / XV** has a complete contents-witness pass. Direct source establish
 Residual source-backed progress:
 
 - **0004** — first two prose paragraphs and opening of the third restored directly; lower compact continuation remains unresolved;
+- **0009 / printed VIII** — corrected `வள்ளலார்` to source-visible `வள்ளுவர்` and `தமிழ்ப் பன்னாளர்கள்` to `தமிழ்ப் பண்பாளர்கள்`;
 - **0011** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
 - **0013 / XII** — `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed; surrounding categorizing prose remains unresolved;
 - **0021 / printed 4** — corrected fourth-line ending to `பறப்பேன்!` and confirmed `ஒரு கோடித் தமிழ் இளைஞர்,`;
