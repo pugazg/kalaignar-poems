@@ -46,11 +46,13 @@ Physical window: **76–100**. Source-layout review is complete for all 25 scans
 - Iteration E: **94–100 plus 76–78** — exactly 10 physical pages; no promotions;
 - Iteration F: **80–88 plus 90** — exactly 10 physical pages; scan **81** corrected directly to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
 - Iteration G: **91–100** — exactly 10 physical pages; **scan 100 / printed 83 reached complete-pass `verified`**;
-- Iteration H: **76–78 plus 80–86** — exactly 10 unresolved physical pages; scan **86** corrected directly to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; all ten retain at least one compact unresolved lexical span and no page was promoted;
+- Iteration H: **76–78 plus 80–86** — exactly 10 unresolved physical pages; scan **86** corrected directly to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no promotions;
+- Iteration I: **87, 88 plus 90–97** — exactly 10 unresolved physical pages; scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
+- Iteration J: **98, 99 plus 76–78 and 80–84** — exactly 10 unresolved physical pages; all ten received another direct lexical/glyph closure pass; no promotions;
 - remaining unresolved C04 pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 The original scan remains source authority. Exact-page derivatives and explicitly user-designated word-for-word extracts from that same PDF are access/lexical aids, not separate witnesses.
 
 ## Current next activity
 
-Execute **C04 ten-page iteration I: scans 87–88 and 90–97**. Process exactly **10 unresolved physical pages**, do not reopen verified scan 89, promote only complete source-critical passes, preserve the established `ஐம்புலன்` / `பிலவங்க ஆண்டு` structure, and do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration K: scans 85–88 and 90–95**. Process exactly **10 unresolved physical pages**, do not reopen verified scans 79, 89 or 100, promote only complete source-critical passes, preserve the established `ஐம்புலன்` / `பிலவங்க ஆண்டு` structure, and do not advance to C05 or Phase 3 while C04 remains open.
