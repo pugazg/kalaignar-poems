@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the immediately preceding review boundary `pages/0325.md` and next target `pages/0326.md`;
+4. inspect the immediately preceding review boundary `pages/0350.md` and next target `pages/0351.md`;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
 6. synchronize status-bearing files after each verification batch.
 
@@ -38,24 +38,29 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–13 COMPLETE — scans 1–325 independently reread.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–14 COMPLETE — scans 1–350 independently reread.**
 
 Current cumulative page status:
 
 - `partial`: **2**;
-- `needs-review`: **436**;
-- `verified`: **27**;
+- `needs-review`: **434**;
+- `verified`: **29**;
 - total: **465**.
 
-Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317**.
+Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332**.
 
-Phase-2 Batch 13 outcomes:
+Phase-2 Batch 14 outcomes:
 
-- scans **301–310** — continuation/conclusion of `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`; scan **310** complete-pass `verified` and the item closes there;
-- scans **311–317** — `மாறி வரும் ஊரினிலே`; scan **317** complete-pass `verified` and the item closes there;
-- scans **318–325** — `சமுதாயப் பார்வைகள்...!` opening/continuation; remains unfinished beyond scan 325;
-- source-backed corrections were applied to scans **301, 302, 304–306, 308–310, 313–321 and 323**;
-- resolved/corrected readings include `பிற்பட்டோர்`, `அம்மாமி அத்திம்பேர்`, `வறியோரைக்`, `பேரெதிர்ப்புக்கு`, `தீரநெஞ்சைத்`, `கேஷத்திரம்`, restored previously blurred lines on scans 315–316, `வண்டினங்காள்!`, `பருகிடுவோம் மொண்டு!`, `மாலியின்`, `பாலுவின் பண்பை`, and `கன்னி கழியாக்`.
+- scans **326–328** — continuation/conclusion of `சமுதாயப் பார்வைகள்...!`; scan **328** complete-pass `verified` and the item closes there;
+- scans **329–332** — `கலைவாணர் அரங்கக் கவியரங்கம்`; scan **332** complete-pass `verified` and the item closes there;
+- scans **333–345** — `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!`; closes at **345 / printed 328**, but scan 345 remains `needs-review`;
+- scans **346–350** — `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`; remains unfinished beyond scan 350;
+- direct-source corrections were applied to scans **327, 328, 331, 343, 345, 348 and 350**;
+- corrected readings include `பாவம் சமுதாயம்`, `தமிழ்நினைத்து`, `புறப்பாட்டில்`, `ஆழிசூழ்`, `நாழித் தானியம்`, `பரிசு`, `பலூனைப்`, `இஃதறியா`, `அசைந்தது மில்லை.`, and `மூன்றெழுத்துக்குள்ள`.
+
+## Batch-14 source-access note
+
+The user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`. It is a page-range derivative/access aid from the same controlling PDF, not a separate witness. Its page 1 is physical scan 300; therefore derivative pages 27–51 are physical scans 326–350. It may be used for direct visual inspection while the exact source identity above remains controlling.
 
 ## Phase-2 rule
 
@@ -67,6 +72,6 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 14 — physical scans 326–350**.
+Execute **Phase 2 Verification Batch 15 — physical scans 351–375**.
 
-Continue directly from the unfinished `சமுதாயப் பார்வைகள்...!` at scan 325/326. Independently reread scans 326–350 against the controlling source, compare with `pages/0326.md`–`pages/0350.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 15 — scans 351–375**. Do not begin Phase 3, canonical assembly, or translation.
+Continue directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` at scan 350/351. Independently reread scans 351–375 against the controlling source, compare with `pages/0351.md`–`pages/0375.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. The user-supplied pages-300–400 derivative covers this full next batch and is a rendering aid from the same source. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 16 — scans 376–400**. Do not begin Phase 3, canonical assembly, or translation.

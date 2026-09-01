@@ -8,50 +8,51 @@
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 2 reviewed: **325/465 scans**;
-- cumulative page status: **2 `partial`, 436 `needs-review`, 27 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317**;
+- Phase 2 reviewed: **350/465 scans**;
+- cumulative page status: **2 `partial`, 434 `needs-review`, 29 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-## Phase 2 Verification Batches 01–12
+## Phase 2 Verification Batches 01–13
 
-Batches 01–12, scans 1–300: **COMPLETE**. Direct-source reread history, prior source-backed corrections and verified pages remain preserved in the page layer and repository history.
+Batches 01–13, scans 1–325: **COMPLETE**. Direct-source reread history, prior source-backed corrections and verified pages remain preserved in the page layer and repository history.
 
-## Phase 2 Verification Batch 13 — scans 301–325
+## Phase 2 Verification Batch 14 — scans 326–350
 
-Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCANS 310 AND 317 PROMOTED ONLY AFTER COMPLETE SOURCE-CRITICAL PASSES.**
+Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCANS 328 AND 332 PROMOTED ONLY AFTER COMPLETE SOURCE-CRITICAL PASSES.**
 
-All scans 301–325 were independently inspected against the exact 465-page controlling PDF before existing Markdown was trusted.
+Scans 326–350 were independently inspected against the controlling-source page-range derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`. This derivative is an access/rendering aid from the same controlling PDF, not a separate witness. Derivative page 1 corresponds to physical scan 300, so derivative pages 27–51 correspond exactly to physical scans 326–350.
 
 ### Reviewed outcomes
 
-- scans **301–310**: `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` continuation/conclusion; scan 310 is fully `verified` and the item closes there;
-- scans **311–317**: `மாறி வரும் ஊரினிலே`; scan 317 is fully `verified` and the item closes there;
-- scans **318–325**: `சமுதாயப் பார்வைகள்...!` opening/continuation; it remains open beyond scan 325.
+- scans **326–328**: `சமுதாயப் பார்வைகள்...!` continuation/conclusion; scan **328** is fully `verified` and the item closes there;
+- scans **329–332**: `கலைவாணர் அரங்கக் கவியரங்கம்`; scan **332** is fully `verified` and the item closes there;
+- scans **333–345**: `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!`; it closes at scan **345 / printed 328**, but dense closing text remains `needs-review`;
+- scans **346–350**: `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` opening/continuation; it remains open beyond scan **350 / printed 333**.
 
 ### Source-backed corrections applied
 
-- scan **301**: corrected Phase-1 `பிறப்பட்டோர்` to source-visible `பிற்பட்டோர்`;
-- scan **302**: corrected `அம்மாடி அத்திம்பேர்` to `அம்மாமி அத்திம்பேர்`;
-- scan **304**: resolved former uncertainty as `வறியோரைக்` and corrected adjacent direct-scan forms;
-- scans **305–306**, **308–309**: repaired source-visible wording/spacing and resolved former uncertainty where the scan cleared it;
-- scan **310**: corrected `பேரெதிர்ப்புக்கு` and `தீரநெஞ்சைத்`; complete-pass `verified`;
-- scans **313–316**: corrected source-backed wording and restored previously blurred lines, including `கேஷத்திரம்` and the direct-scan openings/continuations on 315–316;
-- scan **317**: complete-pass `verified` with source-visible item closing and lower-page illustration;
-- scans **318–321**: corrected source-backed forms including `வண்டினங்காள்!`, `பருகிடுவோம் மொண்டு!`, `மாலியின்`, and `பாலுவின் பண்பை`;
-- scan **323**: resolved former uncertainty as source-visible `கன்னி கழியாக்`.
+- scan **327**: corrected both Phase-1 `பாயம் சமுதாயம்` readings to source-visible `பாவம் சமுதாயம்`;
+- scan **328**: corrected the closing `ஒன்றாகக் குரல் உயர்த்தி...` to source-visible `ஒன்றாகக் குரல் உயர்த்தி,`; complete-pass `verified`;
+- scan **331**: corrected `தமிழ்றினைத்து` to source-visible `தமிழ்நினைத்து`;
+- scan **332**: complete-pass `verified` with the source-visible item closing and decorative symbol;
+- scan **343**: corrected `புறப்பாடென்றில்` → `புறப்பாட்டில்`, `ஆழிகுழ்` → `ஆழிசூழ்`, and `நாழிக் தானியம்` → `நாழித் தானியம்`; unresolved opening remains explicit;
+- scan **345**: corrected `பலிசு` → `பரிசு`, `பனுவலைப்` → `பலூனைப்`, and `இஃதறியாக` → `இஃதறியா`; page remains `needs-review` despite closing the item;
+- scan **348**: corrected `நிலை தவறி அசைந்து மில்லை.` → `நிலை தவறி அசைந்தது மில்லை.`;
+- scan **350**: corrected `முன்றெழுத்துக்குள்ள` → source-visible `மூன்றெழுத்துக்குள்ள`; the item remains open.
 
 ### Batch status movement
 
-Before Batch 13: **2 `partial`, 438 `needs-review`, 25 `verified`**.  
-After Batch 13: **2 `partial`, 436 `needs-review`, 27 `verified`**.
+Before Batch 14: **2 `partial`, 436 `needs-review`, 27 `verified`**.  
+After Batch 14: **2 `partial`, 434 `needs-review`, 29 `verified`**.
 
-No page was promoted merely because it had been reviewed. Only scans 310 and 317 passed every visible word/ending, punctuation mark, line break, page numeral/role, non-text closing element and item-boundary check.
+No page was promoted merely because it had been reviewed or because it closed an item. Only scans 328 and 332 passed every visible word/ending, punctuation mark, line break, printed page numeral/role and non-text closing element.
 
 ## Verification safeguards
 
 - controlling scan is authoritative;
+- page-range derivatives from the same exact PDF are rendering aids only, not separate witnesses;
 - `⟦…⟧` is editorial uncertainty, not source punctuation;
 - no OCR/contextual reconstruction was used to fill blur;
 - separate source witnesses were not copied into this anthology;
@@ -60,4 +61,4 @@ No page was promoted merely because it had been reviewed. Only scans 310 and 317
 
 ## Exact next activity
 
-Execute **Phase 2 Verification Batch 14 — physical scans 326–350**. Continue directly from the unfinished `சமுதாயப் பார்வைகள்...!`. At completion synchronize to **Batch 15 — scans 351–375**. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 15 — physical scans 351–375**. Continue directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`. At completion synchronize to **Batch 16 — scans 376–400**. Do not begin Phase 3, canonical assembly, or translation.
