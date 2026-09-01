@@ -34,10 +34,10 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 6 | `அணிந்துரை` opening | restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`; other compact prose unresolved |
 | 7 / VI | `அணிந்துரை` continuation | `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை` corrected directly; other compact prose remains unresolved |
 | 8 / VII | `அணிந்துரை` continuation | opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; other compact prose remains unresolved |
-| 9 / VIII | `அணிந்துரை` continuation | source sequence `வள்ளுவர் வள்ளலார்` restored after the prior residual pass dropped `வள்ளலார்`; `தமிழ்ப் பண்பாளர்கள்` remains confirmed; other compact prose unresolved |
+| 9 / VIII | `அணிந்துரை` continuation | corrected `இந்த மாணிக்கவாசகர் வருகிறார்;` to `இதில் மாணிக்கவாசகர் வருகிறார்;`; source sequence `வள்ளுவர் வள்ளலார்` and `தமிழ்ப் பண்பாளர்கள்` confirmed; other compact prose unresolved |
 | 10 / IX | `அணிந்துரை` conclusion | closing signature corrected from `மா.நன்னன்` to source-visible `க. அன்பழகன்`; compact prose/quotation remains unresolved |
 | 11 | `புறவுரை` opening | restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்`; `ஓசையை` remains source-confirmed; opening/final compact prose unresolved |
-| 12 | `புறவுரை` continuation | compact prose remains unresolved |
+| 12 / XI | `புறவுரை` continuation | closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`; dense intervening prose remains unresolved |
 | 13 / XII | `புறவுரை` conclusion | opening corrected to `கலைஞர்தம் பாடல்களில்`; `எண்ணுவோர்` confirmed in `சொல்லழகைக் சுவைக்க எண்ணுவோர்`; surrounding categorizing prose remains unresolved |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
 | 15 | contents | complete-pass `verified` |
