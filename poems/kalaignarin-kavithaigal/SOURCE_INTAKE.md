@@ -43,11 +43,12 @@ Physical window: **76–100**. Source-layout review is complete for all 25 scans
 - Iteration B: **87–96** — direct-reviewed; **scan 89 `verified`** after full source pass;
 - Iteration C: **97–100 plus 76–78 and 80–82** — exactly 10 physical pages; no promotions;
 - Iteration D: **83–88 plus 90–93** — exactly 10 physical pages; deeper direct review completed, no promotions;
-- iteration-D direct-source refinements were recorded on scans **83–87 and 93**, while scans **88 and 90–92** remain compact residuals after second full-page passes;
+- Iteration E: **94–100 plus 76–78** — exactly 10 physical pages; deeper direct review completed, no promotions;
+- iteration-E source-backed refinements include scan-76 `அப்துல் ரகுமான்` performance structure, scan-94 first `அடக்கம்` line, scan-95 `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`, scan-96 `ஆறுமுகம்`, scan-97 `உதடு மடித்தல்`, and additional scan-98 `அருளுடைமை` lines;
 - remaining unresolved C04 pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 The original scan remains source authority. Exact-page derivatives and explicitly user-designated word-for-word extracts from that same PDF are access/lexical aids, not separate witnesses.
 
 ## Current next activity
 
-Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78**. Process exactly 10 physical pages, promote only complete source-critical passes, and do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration F: scans 80–88 plus scan 90**. Process exactly 10 physical pages, promote only complete source-critical passes, and do not advance to C05 or Phase 3 while C04 remains open.
