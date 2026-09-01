@@ -29,12 +29,12 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 — COMPLETE**;
-- cumulative status: **0 partial, 422 needs-review, 43 verified**;
-- unresolved backlog: **422 pages**;
-- verified so far: **0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- exact next activity: **continue Phase 2 Clearance Batch C01 — residual scans 4, 6–13 and 21–25**.
+- cumulative status: **0 partial, 421 needs-review, 44 verified**;
+- unresolved backlog: **421 pages**;
+- verified so far: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- exact next activity: **continue Phase 2 Clearance Batch C01 — residual scans 4, 6–10, 12–13 and 21–25**.
 
-C01 has promoted scans **2, 3, 5, 14, 15, 16 and 17** after complete direct-source passes. Scan 2 now clears the title/author block, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, and `(தொலைபேசி) 434 02 05`. Scan 16 has a complete contents-witness pass, including the source-visible readings `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா`, `பன்னீர்ச் செல்வமே`, and `கலைத்தாயின் தலைச்செல்வன்` with their printed page references.
+C01 has promoted scans **2, 3, 5, 11, 14, 15, 16 and 17** after complete direct-source passes. Scan 2 now clears the title/author block, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, and `(தொலைபேசி) 434 02 05`. Scan 11 now has a complete direct-source pass resolving the former opening placeholder as `கலைஞரின் பாக்களை நாம்` and clearing the final prosody continuation through `அவற்றிற்குரிய / ஓசைகளாக முறையே செப்பலோசை, அகவலோசை, / துள்ளலோசை, தூங்கலோசை என்று / குறித்துள்ளனர்.`. Scan 16 has a complete contents-witness pass, including the source-visible readings `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா`, `பன்னீர்ச் செல்வமே`, and `கலைத்தாயின் தலைச்செல்வன்` with their printed page references.
 
 The user-supplied page-range derivatives are rendering aids from the exact controlling PDF. They are not separate witnesses.
 
