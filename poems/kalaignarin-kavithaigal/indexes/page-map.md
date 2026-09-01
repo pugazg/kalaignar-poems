@@ -57,10 +57,11 @@ Physical window: **76–100**. Every page in this window has received multiple d
 - **Iteration F:** scans **80–88 and 90** — exactly 10 physical pages; scan **81** corrects the opening to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
 - **Iteration G:** scans **91–100** — exactly 10 physical pages; scan **100 / printed 83** reached a complete source-critical pass and was promoted to `verified`;
 - **Iteration H:** scans **76–78 and 80–86** — exactly 10 unresolved physical pages; scan **86** corrects the source-visible line to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no promotions;
-- **Iteration I:** scans **87, 88, 90–97** — exactly 10 unresolved physical pages; another direct lexical/glyph closure pass was completed on all ten; scan **90** now additionally restores the source-visible line `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no page reached complete full-page closure, so no promotion occurred;
+- **Iteration I:** scans **87, 88, 90–97** — exactly 10 unresolved physical pages; another direct lexical/glyph closure pass was completed on all ten; scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
+- **Iteration J:** scans **98, 99, 76–78 and 80–84** — exactly 10 unresolved physical pages; all ten received another direct exact lexical/glyph review, their established source structures were reconfirmed, and no additional span could be safely promoted to complete-page closure; no promotions;
 - unresolved C04 pages remain **22 — 76–78, 80–88, 90–99**.
 
-## Verified pages after iteration I
+## Verified pages after iteration J
 
 **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
@@ -70,4 +71,4 @@ Exact page-range derivatives and user-supplied word-for-word extracts from the s
 
 ## Next mapping / verification activity
 
-Execute **C04 ten-page iteration J: scans 98, 99, 76–78 and 80–84** — exactly **10 unresolved physical pages**. Preserve all fixed `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` boundaries and speaker/performance structures. Do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration K: scans 85–88 and 90–95** — exactly **10 unresolved physical pages**. Preserve all fixed `ஐம்புலன்` / `பிலவங்க ஆண்டு` boundaries and speaker/performance structures. Do not advance to C05 or Phase 3 while C04 remains open.
