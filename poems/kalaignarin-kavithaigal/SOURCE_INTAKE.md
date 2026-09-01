@@ -23,6 +23,7 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 - unresolved backlog: **360 pages**;
 - verified: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
+- additional C04 verified pages: **79, 89**;
 - Phase 3 and English translation: **blocked**.
 
 ## C04 source/control state
@@ -41,12 +42,12 @@ Physical window: **76–100**. Source-layout review is complete for all 25 scans
 - Iteration A: **76–78, 80–86** — direct-reviewed, unresolved;
 - Iteration B: **87–96** — direct-reviewed; **scan 89 `verified`** after full source pass;
 - Iteration C: **97–100 plus 76–78 and 80–82** — exactly 10 physical pages; no promotions;
-- iteration-C source-backed refinements include scan 97 `வெகுளாமை புகுந்துவிட்டால்` / `பல் நெறித்தல்` / `உடல் உதைத்தல்` / `கண் இடுக்கல்`, scan 98 performance boundaries and `அருளுடைமை` opening, scan 99 cumulative ethical-heading sequence, and scan 100 final `வணக்கம்.` / closing ornament;
-- scans **76–78 and 80–82** received a second direct review in iteration C and still retain compact unresolved spans;
+- Iteration D: **83–88 plus 90–93** — exactly 10 physical pages; deeper direct review completed, no promotions;
+- iteration-D direct-source refinements were recorded on scans **83–87 and 93**, while scans **88 and 90–92** remain compact residuals after second full-page passes;
 - remaining unresolved C04 pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 The original scan remains source authority. Exact-page derivatives and explicitly user-designated word-for-word extracts from that same PDF are access/lexical aids, not separate witnesses.
 
 ## Current next activity
 
-Execute **C04 ten-page iteration D: residual scans 83–88 and 90–93**. Process exactly 10 physical pages as a deeper lexical/glyph closure pass, promote only complete passes, and do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78**. Process exactly 10 physical pages, promote only complete source-critical passes, and do not advance to C05 or Phase 3 while C04 remains open.
