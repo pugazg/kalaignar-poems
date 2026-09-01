@@ -100,6 +100,15 @@ Processed exactly **87, 88, 90–97** — **10 unresolved physical pages**.
 - each of the ten still retains at least one compact lexical/word-ending span that cannot be certified without inference;
 - **no page was promoted**.
 
+### Iteration J
+
+Processed exactly **98, 99, 76–78 and 80–84** — **10 unresolved physical pages**.
+
+- all ten received another direct exact lexical/glyph closure pass against the controlling scan;
+- existing source-backed wording, running headers/page numbers, title/context blocks, speaker labels, performance notes and physical-page boundaries were independently reconfirmed;
+- no additional compact span could be certified safely enough to close a whole page;
+- **no page was promoted**.
+
 Current C04 unresolved set remains **76–78, 80–88, 90–99 (22 pages)**. Cumulative status remains **0 partial / 359 needs-review / 106 verified**.
 
 ## Source-critical rule
@@ -108,9 +117,9 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration J: scans 98, 99, 76–78 and 80–84** — exactly **10 unresolved physical pages**; do **not** reopen verified scans 79, 89 or 100.
+Execute **C04 ten-page iteration K: scans 85–88 and 90–95** — exactly **10 unresolved physical pages**; do **not** reopen verified scans 79, 89 or 100.
 
-- give these residual `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
+- give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
 - preserve all established speaker/performance structures;
 - promote only complete passes;
 - keep C04 open while any residual pages remain;
