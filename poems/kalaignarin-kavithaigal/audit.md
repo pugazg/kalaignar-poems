@@ -9,9 +9,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 2 source coverage: **465/465 scans reviewed**;
-- cumulative page status: **0 `partial`, 424 `needs-review`, 41 `verified`**;
-- verified pages: **0001, 0003, 0005, 0014, 0015, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- unresolved backlog: **424 `needs-review` pages**;
+- cumulative page status: **0 `partial`, 423 `needs-review`, 42 `verified`**;
+- verified pages: **0001, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved backlog: **423 `needs-review` pages**;
 - Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
@@ -33,20 +33,28 @@ Scans **1 and 18–20** were already `verified` and were not reopened. The exact
 - scan **3** — English imprint / price: complete pass;
 - scan **5 / printed IV** — `என்னுரை` continuation: complete pass;
 - scan **14** — `பதிப்புரை`: resolved `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.` and completed the page pass;
-- scan **17 / printed XVI** — contents continuation: complete pass as its own printed contents witness;
-- scan **15** — contents: residual small-type titles cleared directly as `பிலவங்க ஆண்டு`, `காதலா! - வீரமா?`, `அருமறையில் அறுவர்`, `நீர்க் குடும்பம்`, and `நேரு கண்ட ஜனநாயகம்`; heading, numbering, punctuation and printed page references passed; `needs-review` → `verified`.
+- scan **15** — contents: small-type title strings and printed page references cleared directly; complete pass;
+- scan **16 / printed XV** — contents continuation: all remaining title strings, punctuation/hyphenation, numbering, page references and lineation cleared directly; complete pass;
+- scan **17 / printed XVI** — contents continuation: complete pass as its own printed contents witness.
 
-### Other source-backed C01 corrections
+### Scan-16 contents clearance
 
-- scan **16 / printed XV**: `தமிழ் வளர வழிநடைப் பயணம்` retained from the first pass;
-- scan **16 / printed XV**: previously unresolved printed-page entries are now cleared as **`வையம் தழைக்க` (228), `தந்தை பெரியார்` (237), and `பொங்கல் விழா` (250)**;
-- scan 16 remains `needs-review` because the contents-witness spacing/ending at printed page **359** has not yet received a complete small-type clearance.
+Direct-source clearance records the contents-witness readings including:
+
+- `தமிழ் வளர வழிநடைப் பயணம்` — 220;
+- `வையம் தழைக்க` — 228;
+- `தந்தை பெரியார்` — 237;
+- `பொங்கல் விழா` — 250;
+- `பன்னீர்ச் செல்வமே` — 357;
+- `கலைத்தாயின் தலைச்செல்வன்` — 359.
+
+The contents witness is preserved as printed rather than normalized from later poem-opening pages.
 
 ### Residual C01 pages
 
 The following targeted scans remain `needs-review` because the current direct rendering does not yet support a complete glyph/punctuation/lineation clearance without guessing:
 
-**2, 4, 6–13, 16, 21–25**.
+**2, 4, 6–13, 21–25**.
 
 No OCR, remembered wording, grammar, metre, historical expectation or another edition/witness is used to fill unresolved spans.
 
@@ -54,14 +62,14 @@ No OCR, remembered wording, grammar, metre, historical expectation or another ed
 
 Before C01: **2 `partial`, 427 `needs-review`, 36 `verified`**.  
 After the first C01 pass: **0 `partial`, 425 `needs-review`, 40 `verified`**.  
-Current after the residual contents pass: **0 `partial`, 424 `needs-review`, 41 `verified`**.
+After contents residual clearance through scans 15–16: **0 `partial`, 423 `needs-review`, 42 `verified`**.
 
 ## Phase-2 completion assessment
 
 - **Phase-2 source coverage: COMPLETE**;
 - **Phase-2 page clearance: NOT COMPLETE**;
 - **Phase 3: BLOCKED**;
-- unresolved backlog: **424 page records**.
+- unresolved backlog: **423 page records**.
 
 Verified pages must not be reopened merely for uniformity. Reopen a verified page only if new direct-source evidence reveals a discrepancy.
 
@@ -77,6 +85,6 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13, 16 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13 and 21–25**.
 
 Reinspect only those residual pages against the controlling source, resolve only readings directly supported by the scan, and promote only complete passes. Do **not** advance to C02 while this C01 residual window remains open. Do not begin Phase 3, canonical assembly, or translation.
