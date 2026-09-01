@@ -75,16 +75,18 @@ Processed exactly **80–88 and 90**. Scan **81** now correctly preserves `க�
 
 ### Iteration G
 
-Processed exactly **91–100**.
+Processed exactly **91–100**. Scan **100 / printed 83** reached a complete source-critical pass and is now **`verified`**; source-backed refinements for scans 91–99 are recorded in `audit.md`.
 
-- scan **91** extends the dream transition through `உறங்கும்போது ஒரு நாள் கனவொன்று கண்டேன்.` and the following direct-source lines;
-- scan **92** adds `ஆனிப்பொன் மேனி அழகு மயிலனையார் / ஆறுபேர் ஆணுக்கு அருகே பெண்மணி`;
-- scan **93** adds `“தமிழ்” என்றார். / தந்தையோ வள்ளுவராம்!`;
-- scan **94** extends the `இனியவை கூறல்` introduction;
-- scans **95–98** were directly reread again with secure readings preserved and remaining compact spans left unresolved;
-- scan **99** extends the garland/Tamil-mother/Valluvar movement;
-- scan **100 / printed 83** reached a complete source-critical pass and is now **`verified`**, including the final `வணக்கம்.` and centered floral ornament;
-- iteration G therefore moved the totals to **0 `partial`, 359 `needs-review`, 106 `verified`**.
+### Iteration H
+
+Processed exactly **76–78 and 80–86** — **10 unresolved physical pages**.
+
+- all ten received another direct source/glyph closure pass;
+- scan **86** now preserves the directly visible **`தமிழன்பன் மூக்குடைக்கப் போகின்றார்`**;
+- established `விடுதலை வீரர்கள்` / `ஐம்புலன்` speaker/performance/title/page structures were reconfirmed;
+- all ten still retain at least one compact unresolved lexical/word-ending span;
+- iteration H produced **no promotion**;
+- totals remain **0 `partial`, 359 `needs-review`, 106 `verified`**.
 
 ## SOURCE-CRITICAL RULE
 
@@ -92,13 +94,13 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration H** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration I** on exactly:
 
-**76, 77, 78, 80, 81, 82, 83, 84, 85, 86**.
+**87, 88, 90, 91, 92, 93, 94, 95, 96, 97**.
 
-That is **10 physical pages**.
+That is **10 unresolved physical pages**. Do **not** reopen already verified scan 89.
 
-1. Give these `விடுதலை வீரர்கள்` / `ஐம்புலன்` residual pages another direct exact lexical/glyph closure pass.
+1. Give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
 2. Preserve all fixed speaker/performance structures and physical page boundaries.
 3. Promote only complete passes to `verified`.
 4. Synchronize tracking files after the iteration.
