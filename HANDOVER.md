@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the immediately preceding review boundary `pages/0375.md` and next target `pages/0376.md`;
+4. inspect the immediately preceding review boundary `pages/0400.md` and next target `pages/0401.md`;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
 6. synchronize status-bearing files after each verification batch.
 
@@ -38,33 +38,35 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–15 COMPLETE — scans 1–375 independently reread.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–16 COMPLETE — scans 1–400 independently reread.**
 
 Current cumulative page status:
 
 - `partial`: **2**;
-- `needs-review`: **431**;
-- `verified`: **32**;
+- `needs-review`: **429**;
+- `verified`: **34**;
 - total: **465**.
 
-Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373**.
+Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393**.
 
-Phase-2 Batch 15 outcomes:
+Phase-2 Batch 16 outcomes:
 
-- scans **351–361** — continuation/conclusion of `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`; closes at **361 / printed 344**; page 361 remains `needs-review` because unresolved compact text remains;
-- scans **362–370** — `“அறிஞர் அண்ணா வழியில்”`; opens at **362 / printed 345** and closes at **370 / printed 353**; pages remain `needs-review`;
-- scan **371** — post-poem verso; complete-pass `verified`;
-- scan **372** — section divider; source-visible title is **`கண்ணீர்த் துளிகள்`**; complete-pass `verified`;
-- scan **373** — divider verso with show-through only; complete-pass `verified`;
-- scans **374–375** — `பன்னீர்ச்செல்வமே!`; opens at **374 / printed 357**, closes at **375 / printed 358** with the decorative ornament; unresolved poem-body readings remain `needs-review`;
-- direct-source corrections were applied only where the scan supported them, including `உவமைகள்`, `தேடிக்கிடைக்காத`, `தகுதி, திறமை`, `மூளை`, `தலைக்குள்ளே`, `பிரமன்`, `குரலெடுப்போம்!`, `வரினும்`, `ஆகஸ்டு 15`, `சுதந்திரம் பிறந்த நாள்`, `மான்களும்`, `தாள்தூக்கி குதித்தன!`, `கதிரும்`, `மாடப்புறா`, the divider title `கண்ணீர்த் துளிகள்`, and the `பன்னீர்ச்செல்வமே!` context readings `லண்டனில் இருந்த இந்திய அமைச்சுக்கு` / `சர். பன்னீர்ச் செல்வம்`.
+- scans **376–378** — `கலைத்தாயின் தலைச் செல்வன்!`; closes at **378 / printed 361**;
+- scans **379–381** — `உன் நிழலாக அசைகின்றோம்!`; closes at **381 / printed 364**;
+- scans **382–383** — `வாழ்க ஜீவா!`; closes at **383 / printed 366**;
+- scans **384–389** — `மறைந்த மாவீரன்`; closes at **389 / printed 372**;
+- scans **390–391** — source-visible `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`; closes at **391 / printed 374**;
+- scan **392** — `மலர்த் தோட்டம்` section divider; complete-pass `verified`;
+- scan **393** — divider verso with border/show-through only; complete-pass `verified`;
+- scans **394–395** — `இன்றைக்கு உன் பிறந்த நாள்`; closes at **395 / printed 378**;
+- scans **396–397** — `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!`; closes at **397 / printed 380**;
+- scans **398–399** — `அருமருந்தே! அன்புறவு உடன்பிறப்பே!`; closes at **399 / printed 382**;
+- scan **400** — `பகுத்தறிவுப் பாண்டியனார்!` opens and remains unfinished beyond the batch boundary;
+- direct-source corrections include `ஏழைகளைச்`, `நாட்டுக் குரலுக்கும்`, the title `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, scan-395 `கரம் அணைக்கும்` / `வாழ்வையே ஒரு பாடமாய் அனைவருக்கும் தந்த நாட்டினாய்!!` / `இன்றைக்கு உன்றன் பிறந்த நாள்`, and scan-397 `அவனைத்தான்`.
 
-## Batch-16 source-access note
+## Batch-17 source-access note
 
-The user supplied two page-range derivatives from the exact controlling PDF. They are rendering/access aids only, not separate witnesses:
-
-- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`: derivative page 1 = physical scan 300; therefore physical scans **376–400 = derivative pages 77–101**;
-- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: derivative page 1 = physical scan 350; therefore physical scans **376–400 = derivative pages 27–51**.
+The user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`, a rendering/access derivative from the exact controlling PDF, not a separate witness. Derivative page 1 = physical scan 350; therefore physical scans **401–425 = derivative pages 52–76**.
 
 ## Phase-2 rule
 
@@ -76,6 +78,6 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 16 — physical scans 376–400**.
+Execute **Phase 2 Verification Batch 17 — physical scans 401–425**.
 
-Continue directly after `பன்னீர்ச்செல்வமே!`. Independently reread scans 376–400 against the controlling source, compare with `pages/0376.md`–`pages/0400.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. Do not infer an item boundary until the scan establishes it. At completion synchronize all status-bearing files to the next live Phase-2 boundary. Do not begin Phase 3, canonical assembly, or translation.
+Continue directly from the unfinished `பகுத்தறிவுப் பாண்டியனார்!` at scan 400/401. Independently reread scans 401–425 against the controlling source, compare with `pages/0401.md`–`pages/0425.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. Use the pages-350–465 derivative pages 52–76 as the direct rendering aid. At completion synchronize all status-bearing files to the next live Phase-2 boundary. Do not begin Phase 3, canonical assembly, or translation.
