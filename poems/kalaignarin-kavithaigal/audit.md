@@ -26,7 +26,7 @@ Coverage completion means every physical scan has received an independent source
 
 ## Phase 2 Clearance Batch C01 — COMPLETE
 
-C01 cleared every unresolved page inside physical scans **1–25**. Together with the pages already verified before C01, this established the durable boundary **physical scans 1–25 fully `verified`**.
+C01 cleared every unresolved page inside physical scans **1–25**. Together with the pages already verified before C01, this established the boundary **physical scans 1–25 fully `verified`**.
 
 Final C01 cumulative status: **0 `partial`, 408 `needs-review`, 57 `verified`**.
 
@@ -40,8 +40,6 @@ Physical window: **26–50**.
 - durable result: **physical scans 1–50 fully `verified`**.
 
 For C02, the user supplied word-for-word transcription derived from exact page-range extracts of the same controlling PDF. The supplied words were used as the lexical base; each physical scan was independently inspected for structure, punctuation, line breaks, quotation boundaries, page headers/numbers, illustrations, ornaments, page carry-over and other non-lexical features before promotion.
-
-Important C02 structural controls include scan-31 and scan-42 closing ornaments; scan-38/47/49 illustrations; cross-page quotation/speech continuity across 37→38, 45→46 and 49→50; and rejection of flattened illustration/OCR noise as text. The standing user-directed single-token exclusion applicable to `தென்னவன் காதை` remains in force on scan 41.
 
 Final C02 cumulative status: **0 `partial`, 385 `needs-review`, 80 `verified`**.
 
@@ -71,7 +69,7 @@ Durable C03 structure:
 
 Physical window: **76–100**.
 
-All 25 physical scans have now received direct source-layout review and at least one direct lexical/glyph review. Clearance continues in user-directed **10-page iterations**.
+All 25 physical scans have received direct source-layout review and at least one direct lexical/glyph review. Clearance continues in user-directed **10-page iterations**.
 
 Durable source-established structure:
 
@@ -84,22 +82,25 @@ Durable source-established structure:
 
 - scan **79 / printed 62** is complete-pass `verified`;
 - **ten-page iteration A** directly reviewed unresolved scans **76–78 and 80–86**; none was promoted because each retained at least one compact lexical/glyph span;
-- **ten-page iteration B** directly reviewed scans **87–96**; scan **89 / printed 72** reached a complete source-critical pass and is now `verified`;
-- iteration-B direct refinements include scan 87 `அலையோடும்` / `காவிரியின் வளவன் கிள்ளி வளவன்` / `கரிகால் வளவன்`, scan 90 title/context plus `பின்னுக்குத் தள்ளி` / `இலவங்காய்ப் போல`, scan 93 the six virtue names and `வேறொருத்தி` / `ஆறாமவள்`, scan 94 the `சௌந்தரா கைலாசம்` performance transition, and scan 95 `உதைக்க அல்ல!` / `அறுக்கத்தான் கத்தி வேண்டும்` / visible `அடக்கம்` wordplay;
-- **ten-page iteration C** processed exactly **10 physical pages: 97–100 plus residual scans 76–78 and 80–82**;
-- scans **76–78 and 80–82** received a second direct visual pass; their established source structure and earlier corrections remain valid, but each still retains at least one compact lexical/glyph span that cannot be certified without inference;
-- scan **97** now preserves source-backed `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`, the `கவிஞர் நூர் முகம்மது` performance note, and the separate `அடுத்து இன்னா செய்யாமை:` transition;
-- scan **98** now preserves the `கவிஞர் சுரதா` / `இன்னா செய்யாமை` closure, `தலைவர் கலைஞர்:` transition, source-visible `பொருளுடைமையார்க் கிவ்வுலகம் / அருளுடையார்க் கவ்வுலகமென்று / இருளுடையார் நெஞ்சத்தில் விளக்கேற்றி வைத்தார்`, and the `கவிஞர் தூரன் ‘அருளுடைமை’` performance note;
-- scan **99** now preserves the chair's cumulative closing movement, including `மலர் குவிப்பார் என்றிருந்தேன்`, `மலர் குவித்ததால்`, and the clearly separated ethical-heading sequence `இனியவை கூறல் / இன்னா செய்யான் / அடக்கம் காப்பான் / அருளை வணங்குவான்;`;
-- scan **100** had its final page boundary, visible closing lines, `வணக்கம்.` punctuation and centered floral ornament directly reconciled; a small number of compact line-internal readings still prevent complete promotion;
-- iteration C produced **no additional promotion**; cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- unresolved C04 pages remain **23** — **76–78, 80–88, 90–100**.
+- **ten-page iteration B** directly reviewed scans **87–96**; scan **89 / printed 72** reached a complete source-critical pass and is `verified`;
+- **ten-page iteration C** processed exactly **10 physical pages: 97–100 plus residual scans 76–78 and 80–82**; no additional page was promoted;
+- **ten-page iteration D** processed exactly **10 physical pages: 83–88 and 90–93** as a deeper source-critical lexical/glyph pass;
+- iteration-D scan **83** restores plural `கவிஞர்களே!`, the five-line `பெரிதானால்` organ-wordplay sequence (`மெய் / கண் / மூக்கு / வாய் / செவி`), and `அளவறிந்து அவரவர் பொருளைப் பேசுவீர்`;
+- scan **84** now preserves `கொய்யாக் கனி கவிப்போம் / சற்று காத்திருப்போம். / சாதிக் அப்தின் தமிழ் கேட்போம்:` before the performance note;
+- scan **85** now preserves the visible `வாய்ச்சொற்கள் என்ன பயனும் / கண்ணோடு கண்ணிணை நோக்கொக்கின்` passage and the following `வள்ளுவரும் ... ‘கண்’ என்ற சொல்லுக்கே / மிகுந்த இடம் தந்துள்ளார்;`;
+- scan **86** removes the unsupported provisional `மூக்கு உள்ளம் என்றார் அடுத்தவர்.` and preserves the source-visible start `பரந்த உள்ளம் ...` while leaving its exact ending unresolved;
+- scan **87** adds the directly visible `கவிதையும் தானேப் பார்க்கலாம் / எம் இருவரையும் இணைத்துப் பார்ப்பின்` inside the lower `செவி` passage;
+- scans **88, 90, 91 and 92** received second full-page direct passes; their established source structure remains valid, but compact line-internal forms still block complete promotion;
+- scan **93** now preserves the selection setup `மங்கையர்கள் அறுவர் ஒன்றாய் - என்`, `பேர் கேட்டுத் தெரிந்து கொண்டு அதில்`, `யார்வேண்டும் நமக்கென்று தேர்ந்தெடுக்க முன்வந்தேன்:` together with the six source-visible virtue names;
+- **iteration D produced no page promotion**; cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**;
+- unresolved C04 pages remain **23 — 76–78, 80–88, 90–100**.
 
 ## Phase-2 completion assessment
 
 - **Phase-2 source coverage: COMPLETE**;
 - **Phase-2 page clearance: NOT COMPLETE**;
 - **durable contiguous verified boundary: scans 1–75**;
+- **additional C04 verified pages: 79, 89**;
 - **Phase 3: BLOCKED**;
 - unresolved backlog: **360 page records**.
 
@@ -118,4 +119,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — ten-page iteration D: process residual scans 83–88 and 90–93** (**10 physical pages total**). These pages have already received at least one direct review; iteration D is a deeper exact lexical/glyph closure pass. Preserve the established `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary, speaker/performance structures, source punctuation and lineation; promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration E: process physical scans 94–100 and residual scans 76–78** (**10 physical pages total**). This gives scans 94–100 their deeper closure pass and revisits the oldest residual 76–78 set. Preserve the fixed source structure, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
