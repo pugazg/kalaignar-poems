@@ -33,11 +33,11 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 - Clearance C01–C03: **COMPLETE**;
 - C04 source-layout review: **COMPLETE**;
 - C04 lexical clearance: **IN PROGRESS — exactly 10 physical pages per iteration**;
-- cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- verified pages: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **1–75**;
-- additional C04 verified pages: **79, 89**;
-- C04 unresolved set: **76–78, 80–88, 90–100 (23 pages)**;
+- additional C04 verified pages: **79, 89, 100**;
+- C04 unresolved set: **76–78, 80–88, 90–99 (22 pages)**;
 - Phase 3 and translation: **blocked**.
 
 ## C04 FIXED SOURCE STRUCTURE
@@ -71,13 +71,20 @@ Processed exactly **94–100 plus residual scans 76–78**. Further source-backe
 
 ### Iteration F
 
-Processed exactly **80–88 and 90**.
+Processed exactly **80–88 and 90**. Scan **81** now correctly preserves `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no page was promoted.
 
-- all 10 pages were independently reread against the controlling scan;
-- scan **81** now correctly preserves **`கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`**, replacing the unsupported `கார் விடுதியில்` reading;
-- scans **80, 82–88 and 90** still retain at least one compact lexical/glyph span that blocks complete promotion;
-- **no page was promoted in iteration F**;
-- cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**.
+### Iteration G
+
+Processed exactly **91–100**.
+
+- scan **91** extends the dream transition through `உறங்கும்போது ஒரு நாள் கனவொன்று கண்டேன்.` and the following direct-source lines;
+- scan **92** adds `ஆனிப்பொன் மேனி அழகு மயிலனையார் / ஆறுபேர் ஆணுக்கு அருகே பெண்மணி`;
+- scan **93** adds `“தமிழ்” என்றார். / தந்தையோ வள்ளுவராம்!`;
+- scan **94** extends the `இனியவை கூறல்` introduction;
+- scans **95–98** were directly reread again with secure readings preserved and remaining compact spans left unresolved;
+- scan **99** extends the garland/Tamil-mother/Valluvar movement;
+- scan **100 / printed 83** reached a complete source-critical pass and is now **`verified`**, including the final `வணக்கம்.` and centered floral ornament;
+- iteration G therefore moved the totals to **0 `partial`, 359 `needs-review`, 106 `verified`**.
 
 ## SOURCE-CRITICAL RULE
 
@@ -85,14 +92,14 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration G** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration H** on exactly:
 
-**91, 92, 93, 94, 95, 96, 97, 98, 99, 100**.
+**76, 77, 78, 80, 81, 82, 83, 84, 85, 86**.
 
 That is **10 physical pages**.
 
-1. Give these `பிலவங்க ஆண்டு` residual pages another direct exact lexical/glyph closure pass.
-2. Preserve all `தலைவர் கலைஞர்:` / parenthetical poet-performance structures and the scan-100 floral closure.
+1. Give these `விடுதலை வீரர்கள்` / `ஐம்புலன்` residual pages another direct exact lexical/glyph closure pass.
+2. Preserve all fixed speaker/performance structures and physical page boundaries.
 3. Promote only complete passes to `verified`.
 4. Synchronize tracking files after the iteration.
 5. Keep C04 open while any C04 residual remains.
