@@ -19,16 +19,17 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 ## Processing state
 
 - Phase 1: **465/465 page records — COMPLETE**;
-- Phase 2 Batches 01–18: **scans 1–450 COMPLETE**;
-- cumulative status: **2 `partial`, 428 `needs-review`, 35 `verified`**;
-- verified: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447**;
-- Phase 3: **not started**;
+- Phase 2 Batches 01–19 source coverage: **scans 1–465 COMPLETE**;
+- cumulative status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
+- unresolved backlog after full coverage: **429 pages**;
+- verified: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- Phase 3: **blocked pending Phase-2 page clearance**;
 - English translation: **blocked until Tamil final clearance**.
 
-Batch 18 directly reviewed scans 426–450, closing `ஒரு சொட்டுத் தேன்!` at 427 and carrying the source sequence through the opening of `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at 450. Scan 447 (`பதில் என்ன? பகர்ந்திடுக!` conclusion) received a complete verification pass. Other dense pages remain `needs-review` where every glyph, punctuation mark or line could not be safely cleared from the controlling scan.
+Batch 19 directly reviewed scans 451–465, closing the final poem sequence through printed page 447 and verifying scan 465 as the final back cover. Source-backed scan-464 corrections are `ஏழை எளிய உடன் பிறப்பு நீ!` and parenthetical `கலைஞர் தனது 58-வது பிறந்தநாள்`.
 
-The original source remains the authority. Page-range/access derivatives are rendering aids only and are not separate witnesses. The pages-350–465 derivative covers the final Phase-2 Batch 19 range: physical scans **451–465 = derivative pages 102–116**. Separate source-specific transcriptions must not be copied into unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
+The original source remains the authority. Page-range/access derivatives are rendering aids only and are not separate witnesses. Full 465-scan coverage is now complete, but unresolved `partial` / `needs-review` records prevent Phase 3. Separate source-specific transcriptions must not be copied into unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Current next activity
 
-**Phase 2 Verification Batch 19 — physical scans 451–465**.
+**Phase 2 Clearance Batch C01 — unresolved physical scans 2–17 and 21–25.** Skip already verified scans 1 and 18–20 absent a direct-source discrepancy.
