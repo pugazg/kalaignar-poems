@@ -78,6 +78,7 @@ Residual C01 pages: **4, 6–13, 21–25**.
 Direct-source residual progress now includes:
 
 - scan **4** — first two `என்னுரை` prose paragraphs and opening of the third restored; lower compact continuation remains unresolved;
+- scan **9 / printed VIII** — `வள்ளுவர்` confirmed in place of the earlier `வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` confirmed in place of `தமிழ்ப் பன்னாளர்கள்`; other compact prose remains unresolved;
 - scan **11** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
 - scan **13 / printed XII** — `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed; surrounding categorizing prose remains unresolved;
 - scan **21 / printed 4** — fourth line ending corrected to `பறப்பேன்!`; `ஒரு கோடித் தமிழ் இளைஞர்,` confirmed; central/lower verse remains unresolved;
