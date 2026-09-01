@@ -14,7 +14,7 @@ Use the GitHub connector and work directly on `main`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Read the repository handover, processing guide, phase plan, root README, this prompt, active-work README, source intake, metadata, page map, audit, `pages/0275.md`, and next target `pages/0276.md` before changing anything.
+Fetch live `main` first. Read the repository handover, processing guide, phase plan, root README, this prompt, active-work README, source intake, metadata, page map, audit, `pages/0300.md`, and next target `pages/0301.md` before changing anything.
 
 ## EXACT SOURCE IDENTITY
 
@@ -29,11 +29,11 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 ## CURRENT DURABLE STATE
 
 - Phase 1: **COMPLETE — 465/465 page records**;
-- Phase 2 Verification Batches 01–11 — scans **1–275: COMPLETE**;
-- cumulative status: **2 `partial`, 441 `needs-review`, 22 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272**;
-- Batch 11 applied direct-source corrections to scans **251, 258, 270 and 275**;
-- `வையம் தழைக்க` closes at scan 253; `தந்தை பெரியார்` spans 254–260 and closes at 260; `அகத்துறைப் படைப்புகள்` spans 261–266 and closes at 266; `பொங்கல் விழா` spans 267–272 and closes at 272; `சிலப்பதிகார விருந்து` opens at 273 and continues beyond 275;
+- Phase 2 Verification Batches 01–12 — scans **1–300: COMPLETE**;
+- cumulative status: **2 `partial`, 438 `needs-review`, 25 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296**;
+- Batch 12 directly reviewed scans 276–300 and promoted only scans **285, 292 and 296** after complete passes;
+- `சிலப்பதிகார விருந்து` closes at 285; `அண்ணா வழியில்` spans 286–292; `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` spans 293–296; `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` opens at 297 and remains open beyond scan 300;
 - Phase 3 and translation remain blocked.
 
 ## PHASE-2 SOURCE-CRITICAL RULE
@@ -42,6 +42,6 @@ Independently reread the controlling scan before trusting the existing Markdown.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 12 — physical scans 276–300**.
+Execute **Phase 2 Verification Batch 13 — physical scans 301–325**.
 
-For each scan 276–300, inspect the controlling source directly, compare with `pages/0276.md`–`pages/0300.md`, correct only source-backed differences, and promote only complete passes to `verified`. Continue from the unfinished `சிலப்பதிகார விருந்து`; do not infer a new boundary until the scan establishes it. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 13 — scans 301–325**. Do not begin Phase 3, canonical assembly, or translation.
+For each scan 301–325, inspect the controlling source directly, compare with `pages/0301.md`–`pages/0325.md`, correct only source-backed differences, and promote only complete passes to `verified`. Continue from the unfinished `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`; do not infer a new boundary until the scan establishes it. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 14 — scans 326–350**. Do not begin Phase 3, canonical assembly, or translation.

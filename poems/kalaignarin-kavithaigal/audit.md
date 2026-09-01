@@ -8,43 +8,46 @@
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 2 reviewed: **275/465 scans**;
-- cumulative page status: **2 `partial`, 441 `needs-review`, 22 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272**;
+- Phase 2 reviewed: **300/465 scans**;
+- cumulative page status: **2 `partial`, 438 `needs-review`, 25 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296**;
 - Phase 3: **not started**;
 - English translation: **blocked**.
 
-## Phase 2 Verification Batches 01–10
+## Phase 2 Verification Batches 01–11
 
-Batches 01–10, scans 1–250: **COMPLETE**. Direct-source reread history, prior source-backed corrections and verified pages remain preserved in the page layer and repository history.
+Batches 01–11, scans 1–275: **COMPLETE**. Direct-source reread history, prior source-backed corrections and verified pages remain preserved in the page layer and repository history.
 
-## Phase 2 Verification Batch 11 — scans 251–275
+## Phase 2 Verification Batch 12 — scans 276–300
 
-Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCANS 253, 260, 266 AND 272 PROMOTED ONLY AFTER COMPLETE SOURCE-CRITICAL PASSES.**
+Result: **DIRECT-SOURCE REREAD COMPLETE FOR THE BATCH; SOURCE-BACKED CORRECTIONS APPLIED; SCANS 285, 292 AND 296 PROMOTED ONLY AFTER COMPLETE SOURCE-CRITICAL PASSES.**
 
-All scans 251–275 were independently inspected against the exact 465-page controlling PDF before existing Markdown was trusted.
+All scans 276–300 were independently inspected against the exact 465-page controlling PDF before existing Markdown was trusted.
 
 ### Reviewed outcomes
 
-- scans **251–253**: `வையம் தழைக்க` continuation/conclusion; scan 253 is fully `verified` and the item closes there;
-- scans **254–260**: `தந்தை பெரியார்`; scan 260 is fully `verified` and the item closes there;
-- scans **261–266**: `அகத்துறைப் படைப்புகள்`; scan 266 is fully `verified` and the item closes there;
-- scans **267–272**: `பொங்கல் விழா`; scan 272 is fully `verified` and the item closes there;
-- scans **273–275**: `சிலப்பதிகார விருந்து` opening/continuation; it remains open beyond scan 275.
+- scans **276–285**: `சிலப்பதிகார விருந்து` continuation/conclusion; scan 285 is fully `verified` and the item closes there;
+- scans **286–292**: `அண்ணா வழியில்`; scan 292 is fully `verified` and the item closes there;
+- scans **293–296**: `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`; scan 296 is fully `verified` and the item closes there;
+- scans **297–300**: `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` opening/continuation; it remains open beyond scan 300.
 
 ### Source-backed corrections applied
 
-- scan **251**: corrected Phase-1 `தலை தெறிக்கும்` to source-visible `தலை நெறிக்கும்`;
-- scan **258**: resolved former uncertainty as source-visible `மந்தி கை மாலையென`, and a second former uncertainty as `கீதம் கேட்ட கிறுகிறுப்பில் மயங்கிப்போவார்,`; source wordplay/anomalies were preserved without normalization;
-- scan **270**: corrected Phase-1 `இதென்ன` to source-visible old/formal `இஃதென்ன`;
-- scan **275**: corrected Phase-1 `பூம்புகாரம்.` to source-visible `பூம்புகாராம்.`.
+- scan **278**: resolved former uncertainty as source-visible `கெடுதலரியாக்`;
+- scan **289**: resolved `சுருக்கென்று தைக்கின்ற கேள்விகளால்` and corrected `தீட்டிச்`, `அகலிகையைச்`;
+- scan **292**: corrected Phase-1 `திட்டாமல்` to source-visible `தட்டாமல்`;
+- scan **296**: corrected source spacing `நமதின மக்கள்` → `நமதினமக்கள்`;
+- scan **297**: corrected Phase-1 `எங்களுக்குத் உயிராக` → source-visible `எங்களுக்கு உயிராக`;
+- scan **298**: corrected `போலிகள் அலைவார்`, `இருந்த நிலை மாற்றி`, `இதற்குள்ளே தமிழ்நாடு`, and `லக்கினம்`;
+- scan **299**: repaired substantial Phase-1 corruption, including `மூச்சற்றுப்`, `சீறிப்பாய்ந்தாலே`, `சிலிர்ந்து`, `அறுந்து போகாதா!`, `புதுமைகள் கோடி`, `உறுதியாய்க்`, `குருதிதான் பணயமென்று`, `புறங்காணும்`, `தமிழன் தான்`, `பகுத்தறிவால்`;
+- scan **300**: corrected to source-visible `உயர்ஜாதிக்கார்`, `கடைக் கோடிச் சூத்திரனும்`, `அதன்பேர்தான்`, and `ஆனது என்ன`.
 
 ### Batch status movement
 
-Before Batch 11: **2 `partial`, 445 `needs-review`, 18 `verified`**.  
-After Batch 11: **2 `partial`, 441 `needs-review`, 22 `verified`**.
+Before Batch 12: **2 `partial`, 441 `needs-review`, 22 `verified`**.  
+After Batch 12: **2 `partial`, 438 `needs-review`, 25 `verified`**.
 
-No page was promoted merely because it had been reviewed. Only scans 253, 260, 266 and 272 passed every visible word/ending, punctuation mark, line break, page numeral/role, non-text closing mark and item-boundary check.
+No page was promoted merely because it had been reviewed. Only scans 285, 292 and 296 passed every visible word/ending, punctuation mark, line break, page numeral/role, non-text closing element and item-boundary check.
 
 ## Verification safeguards
 
@@ -57,4 +60,4 @@ No page was promoted merely because it had been reviewed. Only scans 253, 260, 2
 
 ## Exact next activity
 
-Execute **Phase 2 Verification Batch 12 — physical scans 276–300**. Continue directly from the unfinished `சிலப்பதிகார விருந்து`. At completion synchronize to **Batch 13 — scans 301–325**. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 13 — physical scans 301–325**. Continue directly from the unfinished `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`. At completion synchronize to **Batch 14 — scans 326–350**. Do not begin Phase 3, canonical assembly, or translation.
