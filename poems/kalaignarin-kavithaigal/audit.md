@@ -9,9 +9,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 2 source coverage: **465/465 scans reviewed**;
-- cumulative page status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- unresolved backlog: **360 `needs-review` pages**;
+- cumulative page status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- verified pages: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved backlog: **359 `needs-review` pages**;
 - Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
@@ -86,12 +86,12 @@ Durable source-established structure:
 - **ten-page iteration C** processed exactly **10 physical pages: 97–100 plus residual scans 76–78 and 80–82**; no additional page was promoted;
 - **ten-page iteration D** processed exactly **10 physical pages: 83–88 and 90–93** as a deeper source-critical lexical/glyph pass;
 - iteration-D scan **83** restores plural `கவிஞர்களே!`, the five-line `பெரிதானால்` organ-wordplay sequence (`மெய் / கண் / மூக்கு / வாய் / செவி`), and `அளவறிந்து அவரவர் பொருளைப் பேசுவீர்`;
-- scan **84** now preserves `கொய்யாக் கனி கவிப்போம் / சற்று காத்திருப்போம். / சாதிக் அப்தின் தமிழ் கேட்போம்:` before the performance note;
-- scan **85** now preserves the visible `வாய்ச்சொற்கள் என்ன பயனும் / கண்ணோடு கண்ணிணை நோக்கொக்கின்` passage and the following `வள்ளுவரும் ... ‘கண்’ என்ற சொல்லுக்கே / மிகுந்த இடம் தந்துள்ளார்;`;
+- scan **84** preserves `கொய்யாக் கனி கவிப்போம் / சற்று காத்திருப்போம். / சாதிக் அப்தின் தமிழ் கேட்போம்:` before the performance note;
+- scan **85** preserves the visible `வாய்ச்சொற்கள் என்ன பயனும் / கண்ணோடு கண்ணிணை நோக்கொக்கின்` passage and the following `வள்ளுவரும் ... ‘கண்’ என்ற சொல்லுக்கே / மிகுந்த இடம் தந்துள்ளார்;`;
 - scan **86** removes the unsupported provisional `மூக்கு உள்ளம் என்றார் அடுத்தவர்.` and preserves the source-visible start `பரந்த உள்ளம் ...` while leaving its exact ending unresolved;
 - scan **87** adds the directly visible `கவிதையும் தானேப் பார்க்கலாம் / எம் இருவரையும் இணைத்துப் பார்ப்பின்` inside the lower `செவி` passage;
-- scans **88, 90, 91 and 92** received second full-page direct passes; their established source structure remains valid, but compact line-internal forms still block complete promotion;
-- scan **93** now preserves the selection setup `மங்கையர்கள் அறுவர் ஒன்றாய் - என்`, `பேர் கேட்டுத் தெரிந்து கொண்டு அதில்`, `யார்வேண்டும் நமக்கென்று தேர்ந்தெடுக்க முன்வந்தேன்:` together with the six source-visible virtue names;
+- scans **88, 90, 91 and 92** received second full-page direct passes; their established source structure remained valid while compact line-internal forms blocked complete promotion;
+- scan **93** preserves the selection setup `மங்கையர்கள் அறுவர் ஒன்றாய் - என்`, `பேர் கேட்டுத் தெரிந்து கொண்டு அதில்`, `யார்வேண்டும் நமக்கென்று தேர்ந்தெடுக்க முன்வந்தேன்:` together with the six source-visible virtue names;
 - **ten-page iteration E** processed exactly **10 physical pages: 94–100 plus residual scans 76–78** as another deeper source-critical pass;
 - iteration-E scan **76** restores the lower structural boundary `(கவிஞர் அப்துல் ரகுமான் வ.வே.சு. அய்யர் பற்றிப் பாடி முடிக்கிறார்)` followed by a new `தலைவர் கலைஞர்:` transition;
 - scan **94** adds the directly visible first `அடக்கம்` line `அடக்கத்தின் விளைமையாய் அறமே நிற்கும் அது`;
@@ -99,21 +99,30 @@ Durable source-established structure:
 - scan **96** resolves the `பொறை` participant name as `ஆறுமுகம்`;
 - scan **97** corrects the source sequence to `பல் நெறித்தல் / உதடு மடித்தல் / கண் இடுக்கல்`, removing the earlier unsupported `உடல் உதைத்தல்`;
 - scan **98** extends the directly supported `அருளுடைமை` passage through `அவ்வுலகம் எவ்வுலகம் என்பதிலே ஆராய்ச்சி பல உண்டு / பல உயிரில் சில உயிர்கள் போகின்ற / நல் உலகம் அவ்வுலகம் என மொழிவார் நாமறிவோம்.`;
-- scans **77–78, 99–100** received deeper line/glyph rereads but still retain compact spans that block promotion;
+- scans **77–78, 99–100** received deeper line/glyph rereads but still retained compact spans at that point;
 - **ten-page iteration F** processed exactly **10 physical pages: 80–88 and 90** as another direct lexical/glyph closure pass;
 - iteration-F scan **81** corrects the opening directly from the source to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`, replacing the unsupported `கார் விடுதியில்` reading;
-- scans **80, 82–88 and 90** were independently reread again against the controlling scan; their established source structure remains valid, but at least one compact lexical/glyph span remains unresolved on each page;
-- **iteration F produced no page promotion**; cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- unresolved C04 pages remain **23 — 76–78, 80–88, 90–100**.
+- scans **80, 82–88 and 90** were independently reread again against the controlling scan; iteration F produced no page promotion;
+- **ten-page iteration G** processed exactly **10 physical pages: 91–100**;
+- iteration-G scan **91** extends the dream transition through `உறங்கும்போது ஒரு நாள் கனவொன்று கண்டேன். / பிறகென்ன / விழித்திருக்கும் போது கனவு வரும் எனக் கேளாதீர் / விழித்திருந்த கனவு தானே விடுதலை பெற்றார் காந்தி`;
+- scan **92** extends the dream/dialogue opening with `ஆனிப்பொன் மேனி அழகு மயிலனையார் / ஆறுபேர் ஆணுக்கு அருகே பெண்மணி`;
+- scan **93** extends the lower sequence with `“தமிழ்” என்றார். / தந்தையோ வள்ளுவராம்!`;
+- scan **94** extends the `இனியவை கூறல்` introduction through `இனி-அவை கூறல் நன்றெனவே ... அமைவை முழங்கிடுவார்;` while preserving its performance-note boundary;
+- scans **95–98** received another complete physical-page reread with their previously secured source-backed forms reconfirmed; unresolved compact spans were not filled by inference;
+- scan **99** extends the garland movement with `ஆருக்கொரு மாலை அழகாகக் கட்டிவிட்டார். தமிழ்த்தாயின் / தாருக்கொரு மாலை: வள்ளுவரின் / தோளுக்கொரு மாலை;`;
+- scan **100 / printed 83** now passes completely and is `verified`; the previously unresolved ending reads directly `கத்தி தூக்கல் கலகம் விளைவித்தல் / குடியைப் போய் மலையாக்கல்; அன்பு / கடல் அமைதி கெடுக்கின்ற புயல் காற்று; அதைத் ... / குறள் மூலம் பரப்புகின்றோம் / நம் கொள்கையிலே வெற்றி காண்போம்.`, followed by `வணக்கம்.` and the centered floral ornament;
+- **iteration G produced one promotion: scan 100**;
+- cumulative C04 status after iteration G: **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- unresolved C04 pages now remain **22 — 76–78, 80–88, 90–99**.
 
 ## Phase-2 completion assessment
 
 - **Phase-2 source coverage: COMPLETE**;
 - **Phase-2 page clearance: NOT COMPLETE**;
 - **durable contiguous verified boundary: scans 1–75**;
-- **additional C04 verified pages: 79, 89**;
+- **additional C04 verified pages: 79, 89, 100**;
 - **Phase 3: BLOCKED**;
-- unresolved backlog: **360 page records**.
+- unresolved backlog: **359 page records**.
 
 Verified pages must not be reopened merely for uniformity. Reopen a verified page only if new direct-source evidence reveals a discrepancy.
 
@@ -130,4 +139,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — ten-page iteration G: process physical scans 91–100** (**10 physical pages total**). Give those residual pages another direct lexical/glyph closure pass, preserve the fixed `பிலவங்க ஆண்டு` speaker/performance-note structure and the final floral closure on scan 100, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration H: process physical scans 76–78 and 80–86** (**10 physical pages total**). Give those residual pages another direct lexical/glyph closure pass, preserve the fixed `விடுதலை வீரர்கள்` / `ஐம்புலன்` structure, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
