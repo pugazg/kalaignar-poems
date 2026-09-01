@@ -31,11 +31,11 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 3 | English imprint / price | complete-pass `verified` |
 | 4 | `என்னுரை` opening | first two paragraphs + opening of third restored; source punctuation `“கவிதையல்ல”.`, no dash after `1967-ஆம் ஆண்டு`, comma in `என்றில்லாமல், அந்தப்`, and source-visible `இருந்தநாள்தான்` now preserved; lower continuation unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
-| 6 | `அணிந்துரை` opening | restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`; other compact prose unresolved |
+| 6 | `அணிந்துரை` opening | restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.` and `உள்ளத்து உணர்வைத் தாமுணர்ந்தவாறு பிறரை உணரச்`; other compact prose unresolved |
 | 7 / VI | `அணிந்துரை` continuation | `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`, `அதைப் பிறருக்கும்`, and `உணர்த்த வல்லவனே` restored directly; other compact prose remains unresolved |
 | 8 / VII | `அணிந்துரை` continuation | opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; closing prose corrected to `எழுதிய கட்டுரைகளிலே`, `கவிதை நடையைப்`, `பயன்படுத்துவது`; other compact prose remains unresolved |
-| 9 / VIII | `அணிந்துரை` continuation | source-visible `இதில் மாணிக்கவாசகர் வருகிறார்;`, sequence `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` restored; other compact prose unresolved |
-| 10 / IX | `அணிந்துரை` conclusion | closing signature corrected to `க. அன்பழகன்`; `கவிதைகளை எண்ணிப் / பார்த்தால்` restored; compact prose/quotation remains unresolved |
+| 9 / VIII | `அணிந்துரை` continuation | page-opening continuation `படித்தால் அதிலே கலைஞர் கருணாநிதியே நடைபோட்டு / வருவதுபோல் தோன்றும். அவரது கவிதைகளில் வரும் இந்த / வரிகளில்` restored; source-visible `இதில் மாணிக்கவாசகர் வருகிறார்;`, sequence `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` retained; other compact prose unresolved |
+| 10 / IX | `அணிந்துரை` conclusion | page-opening continuation `பாடுவதன் மூலமாக அண்ணாவின் இதய உணர்வுகளையே / தன் உள்ளுணர்வுகளாகப் பெற்றவர் என்றமை.` restored; closing signature `க. அன்பழகன்` and `கவிதைகளை எண்ணிப் / பார்த்தால்` retained; compact prose/quotation remains unresolved |
 | 11 | `புறவுரை` opening | restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்`; `ஓசையை` remains source-confirmed; opening/final compact prose unresolved |
 | 12 | `புறவுரை` continuation | closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`; dense intervening prose remains unresolved |
 | 13 / XII | `புறவுரை` conclusion | `கலைஞர்தம் பாடல்களில்`, `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, `அணி நயம் சுவைக்க விரும்புவோர் 19, 20, 23, 27, 31, 38, 48`, and `பக்கங்களையும் நான் பகுத்துத் தொகுத்து` restored directly; surrounding categorizing prose remains unresolved |
