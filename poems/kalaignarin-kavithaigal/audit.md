@@ -65,7 +65,7 @@ The contents witness is preserved as printed rather than normalized from later p
 - scan **21 / printed 4** — direct rereading corrects the fourth line ending to `பறப்பேன்!`, confirms `ஒரு கோடித் தமிழ் இளைஞர்,`, and further corrects `மணி மாறிவிட்டதே?` to source-visible `மணி மாறிப்போச்சே?`; central/lower compact verse remains unresolved.
 - scan **22 / printed 5** — direct rereading corrects `உலகிடும் காற்றில்` to source-visible `உலவிடும் காற்றில்`, corrects `குலவிடும் அருளின் குறையும் மழையென` to `குலவிடும் அருவி குறையும் மழையென`, and further restores `அலையெழும் கடலில் ஆடும் நுரையெனக்` plus the emphatic source sequence `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!`; intervening and closing compact verse remains unresolved.
 - scan **23 / printed 6** — direct source restores `காதலர்கள்`, the line `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண`; a further direct pass corrects `“மரக்கணையிலே பிணம்!”` to source-visible `“மரக்கிளையிலே பிணம்!”`; other compact verse/quotation context remains unresolved.
-- scan **24 / printed 7** — direct source corrects `மணோன்மணியம்` to source-visible `மனோன்மணியம்`; remaining compact verse blocks remain unresolved.
+- scan **24 / printed 7** — direct source corrects `மணோன்மணியம்` to source-visible `மனோன்மணியம்` and restores the full line `வயிறு தாங்காத காரணத்தால்`, correcting the shortened `வயிறு தாங்காததால்`; remaining compact verse blocks remain unresolved.
 - scan **25 / printed 8** — direct rereading corrects the opening to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirms `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, restores `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and directly restores the following line `தொடங்கினார் போரே!`; later compact verse remains unresolved.
 
 ### Residual C01 pages
