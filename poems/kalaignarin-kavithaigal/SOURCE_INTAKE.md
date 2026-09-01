@@ -42,14 +42,15 @@ Physical window: **76–100**. Source-layout review is complete for all 25 scans
 - Iteration A: **76–78, 80–86** — direct-reviewed, unresolved;
 - Iteration B: **87–96** — direct-reviewed; **scan 89 `verified`** after full source pass;
 - Iteration C: **97–100 plus 76–78 and 80–82** — exactly 10 physical pages; no promotions;
-- Iteration D: **83–88 plus 90–93** — exactly 10 physical pages; deeper direct review completed, no promotions;
-- Iteration E: **94–100 plus 76–78** — exactly 10 physical pages; deeper direct review completed, no promotions;
+- Iteration D: **83–88 plus 90–93** — exactly 10 physical pages; no promotions;
+- Iteration E: **94–100 plus 76–78** — exactly 10 physical pages; no promotions;
 - Iteration F: **80–88 plus 90** — exactly 10 physical pages; scan **81** corrected directly to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
-- Iteration G: **91–100** — exactly 10 physical pages; scans 91–99 received another direct lexical/glyph pass and **scan 100 / printed 83 reached complete-pass `verified`**, including its final `வணக்கம்.` and floral ornament;
+- Iteration G: **91–100** — exactly 10 physical pages; **scan 100 / printed 83 reached complete-pass `verified`**;
+- Iteration H: **76–78 plus 80–86** — exactly 10 unresolved physical pages; scan **86** corrected directly to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; all ten retain at least one compact unresolved lexical span and no page was promoted;
 - remaining unresolved C04 pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 The original scan remains source authority. Exact-page derivatives and explicitly user-designated word-for-word extracts from that same PDF are access/lexical aids, not separate witnesses.
 
 ## Current next activity
 
-Execute **C04 ten-page iteration H: scans 76–78 and 80–86**. Process exactly 10 physical pages, promote only complete source-critical passes, preserve the established `விடுதலை வீரர்கள்` / `ஐம்புலன்` structure, and do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration I: scans 87–88 and 90–97**. Process exactly **10 unresolved physical pages**, do not reopen verified scan 89, promote only complete source-critical passes, preserve the established `ஐம்புலன்` / `பிலவங்க ஆண்டு` structure, and do not advance to C05 or Phase 3 while C04 remains open.
