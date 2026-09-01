@@ -20,7 +20,7 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 page records — COMPLETE**;
 - Phase 2 Batches 01–19 source coverage: **scans 1–465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C02 COMPLETE; C03 NEXT**;
+- Phase 2 clearance: **IN PROGRESS — C01–C02 COMPLETE; C03 source-layout review COMPLETE; C03 lexical clearance OPEN**;
 - cumulative status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
 - unresolved backlog: **385 pages**;
 - verified: **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
@@ -33,8 +33,16 @@ C01 cleared every unresolved record inside physical scans **1–25**. C02 cleare
 
 For C02, user-supplied word-for-word extraction from exact page-range derivatives of this same controlling PDF supplied the lexical base. The controlling scan was independently inspected for lineation, punctuation, quotation boundaries, physical-page carry-over, running headers/page numbers, illustrations, ornaments and other non-lexical structure before promotion.
 
+## Clearance C03 — SOURCE-LAYOUT REVIEW COMPLETE
+
+Physical window: **51–75**. Scans **70–71** were already verified. The unresolved C03 set remains **51–69 and 72–75 (23 pages)**.
+
+Direct source inspection fixes the item/layout boundaries as follows: `இந்திரஜித்` continues through scan **54**, which closes with an ornament; `இரணியன்` runs **55–61** and closes with an ornament; `வாளி மன்னன்` runs **62–69** and closes with an ornament; `விடுதலை வீரர்கள்` opens at scan **72** with its event note/star separator and continues beyond scan **75**. Scan **74** has speaker/performance structure and scan **75** has a mounted-warrior illustration.
+
+No C03 target was promoted in the structure-only pass because the current first-pass lexical readings remain provisional. Exact glyph/word-ending clearance is still required before status movement.
+
 The original source remains the authority. Page-range/access derivatives are rendering aids only and are not separate witnesses. Separate source-specific transcriptions must not be copied into unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Current next activity
 
-Execute **Phase 2 Clearance Batch C03 — physical scans 51–75**, skipping already verified scans **70 and 71**. The unresolved C03 target set is **51–69 and 72–75**. Promote only complete source-critical passes and keep Phase 3/translation blocked.
+Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–69 and 72–75**. Preserve the established physical structure, promote only complete source-critical passes, and do not advance to C04 or Phase 3 while these 23 pages remain unresolved.
