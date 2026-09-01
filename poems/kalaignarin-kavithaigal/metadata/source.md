@@ -48,7 +48,8 @@ C04 lexical review is being done in user-directed **10-page iterations**:
 - Iteration B: **87–96**, reviewed with **scan 89 promoted to `verified`**;
 - Iteration C: **97–100 plus 76–78 and 80–82**, reviewed with no additional promotions;
 - Iteration D: **83–88 plus 90–93**, reviewed with no additional promotions;
-- iteration D restored further direct-source lexical material on scans 83–87 and 93, and reconfirmed scans 88 / 90–92 as unresolved compact residuals after a second visual pass;
+- Iteration E: **94–100 plus 76–78**, reviewed with no additional promotions;
+- iteration E restores further direct-source material on scans 76 and 94–98, while scans 77–78 and 99–100 remain compact residuals after another visual pass;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Source-access / witness rule
@@ -59,4 +60,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78**. Promote only complete passes; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration F: scans 80–88 plus scan 90**. Promote only complete passes; do not begin C05 or Phase 3 while C04 remains open.
