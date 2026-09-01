@@ -52,7 +52,13 @@ Promoted after complete direct-source passes:
 
 Scan **0016 / XV** has a complete contents-witness pass. Direct source establishes `தமிழ் வளர வழிநடைப் பயணம்` (220), `வையம் தழைக்க` (228), `தந்தை பெரியார்` (237), `பொங்கல் விழா` (250), `பன்னீர்ச் செல்வமே` (357), and `கலைத்தாயின் தலைச்செல்வன்` (359).
 
-Scan **0004** has already received a deeper residual reread: its first two prose paragraphs and opening of the third were restored directly from source, but the lower compact continuation remains unresolved.
+Residual source-backed progress:
+
+- **0004** — first two prose paragraphs and opening of the third restored directly; lower compact continuation remains unresolved;
+- **0021 / printed 4** — corrected fourth-line ending to `பறப்பேன்!` and confirmed `ஒரு கோடித் தமிழ் இளைஞர்,`;
+- **0025 / printed 8** — corrected `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirmed `பெயர் மாற்றத் தீர்மானம்`, and restored `ஆங்கில ஆட்சியை அகற்றியபோது`.
+
+These pages remain `needs-review` because other compact/blur-sensitive text is still unresolved.
 
 Residual C01 scans: **4, 6–13, 21–25**.
 
