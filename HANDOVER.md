@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the immediately preceding review boundary `pages/0350.md` and next target `pages/0351.md`;
+4. inspect the immediately preceding review boundary `pages/0375.md` and next target `pages/0376.md`;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
 6. synchronize status-bearing files after each verification batch.
 
@@ -38,29 +38,33 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–14 COMPLETE — scans 1–350 independently reread.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–15 COMPLETE — scans 1–375 independently reread.**
 
 Current cumulative page status:
 
 - `partial`: **2**;
-- `needs-review`: **434**;
-- `verified`: **29**;
+- `needs-review`: **431**;
+- `verified`: **32**;
 - total: **465**.
 
-Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332**.
+Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373**.
 
-Phase-2 Batch 14 outcomes:
+Phase-2 Batch 15 outcomes:
 
-- scans **326–328** — continuation/conclusion of `சமுதாயப் பார்வைகள்...!`; scan **328** complete-pass `verified` and the item closes there;
-- scans **329–332** — `கலைவாணர் அரங்கக் கவியரங்கம்`; scan **332** complete-pass `verified` and the item closes there;
-- scans **333–345** — `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!`; closes at **345 / printed 328**, but scan 345 remains `needs-review`;
-- scans **346–350** — `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`; remains unfinished beyond scan 350;
-- direct-source corrections were applied to scans **327, 328, 331, 343, 345, 348 and 350**;
-- corrected readings include `பாவம் சமுதாயம்`, `தமிழ்நினைத்து`, `புறப்பாட்டில்`, `ஆழிசூழ்`, `நாழித் தானியம்`, `பரிசு`, `பலூனைப்`, `இஃதறியா`, `அசைந்தது மில்லை.`, and `மூன்றெழுத்துக்குள்ள`.
+- scans **351–361** — continuation/conclusion of `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`; closes at **361 / printed 344**; page 361 remains `needs-review` because unresolved compact text remains;
+- scans **362–370** — `“அறிஞர் அண்ணா வழியில்”`; opens at **362 / printed 345** and closes at **370 / printed 353**; pages remain `needs-review`;
+- scan **371** — post-poem verso; complete-pass `verified`;
+- scan **372** — section divider; source-visible title is **`கண்ணீர்த் துளிகள்`**; complete-pass `verified`;
+- scan **373** — divider verso with show-through only; complete-pass `verified`;
+- scans **374–375** — `பன்னீர்ச்செல்வமே!`; opens at **374 / printed 357**, closes at **375 / printed 358** with the decorative ornament; unresolved poem-body readings remain `needs-review`;
+- direct-source corrections were applied only where the scan supported them, including `உவமைகள்`, `தேடிக்கிடைக்காத`, `தகுதி, திறமை`, `மூளை`, `தலைக்குள்ளே`, `பிரமன்`, `குரலெடுப்போம்!`, `வரினும்`, `ஆகஸ்டு 15`, `சுதந்திரம் பிறந்த நாள்`, `மான்களும்`, `தாள்தூக்கி குதித்தன!`, `கதிரும்`, `மாடப்புறா`, the divider title `கண்ணீர்த் துளிகள்`, and the `பன்னீர்ச்செல்வமே!` context readings `லண்டனில் இருந்த இந்திய அமைச்சுக்கு` / `சர். பன்னீர்ச் செல்வம்`.
 
-## Batch-14 source-access note
+## Batch-16 source-access note
 
-The user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`. It is a page-range derivative/access aid from the same controlling PDF, not a separate witness. Its page 1 is physical scan 300; therefore derivative pages 27–51 are physical scans 326–350. It may be used for direct visual inspection while the exact source identity above remains controlling.
+The user supplied two page-range derivatives from the exact controlling PDF. They are rendering/access aids only, not separate witnesses:
+
+- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`: derivative page 1 = physical scan 300; therefore physical scans **376–400 = derivative pages 77–101**;
+- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: derivative page 1 = physical scan 350; therefore physical scans **376–400 = derivative pages 27–51**.
 
 ## Phase-2 rule
 
@@ -72,6 +76,6 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 15 — physical scans 351–375**.
+Execute **Phase 2 Verification Batch 16 — physical scans 376–400**.
 
-Continue directly from the unfinished `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` at scan 350/351. Independently reread scans 351–375 against the controlling source, compare with `pages/0351.md`–`pages/0375.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. The user-supplied pages-300–400 derivative covers this full next batch and is a rendering aid from the same source. At completion synchronize all status-bearing files to **Phase 2 Verification Batch 16 — scans 376–400**. Do not begin Phase 3, canonical assembly, or translation.
+Continue directly after `பன்னீர்ச்செல்வமே!`. Independently reread scans 376–400 against the controlling source, compare with `pages/0376.md`–`pages/0400.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. Do not infer an item boundary until the scan establishes it. At completion synchronize all status-bearing files to the next live Phase-2 boundary. Do not begin Phase 3, canonical assembly, or translation.
