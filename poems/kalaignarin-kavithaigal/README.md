@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source-coverage pass COMPLETE for all 465 scans; Phase 2 Clearance C01–C03 COMPLETE; C04 source-layout review COMPLETE; C04 lexical clearance IN PROGRESS; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source-coverage pass COMPLETE for all 465 scans; Phase 2 Clearance C01–C03 COMPLETE; C04 source-layout review COMPLETE; C04 lexical clearance IN PROGRESS in user-directed 10-page iterations; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -36,7 +36,7 @@ For the final C03 lexical closure, the user supplied full word-for-word transcri
 
 ## Phase-2 Clearance C04 — IN PROGRESS
 
-Physical window: **76–100**. Direct source-layout review for the entire window is complete.
+Physical window: **76–100**. Direct source-layout review for the entire window is complete. Current user directive: **process exactly 10 unresolved physical scans per iteration**.
 
 Source-established boundaries:
 
@@ -45,9 +45,22 @@ Source-established boundaries:
 - **90–100** — `பிலவங்க ஆண்டு`; scan 90 title/event note/star opening, scan 100 final `வணக்கம்.` and floral ornament;
 - `ஐம்புலன்` and `பிலவங்க ஆண்டு` interleave `தலைவர் கலைஞர்:` passages with parenthetical performance notes for other poets; preserve these structures separately.
 
-Scan **79** has now passed complete direct lexical/glyph verification and is `verified`. Source-backed corrections include `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`.
+Scan **79** has passed complete direct lexical/glyph verification and is `verified`.
 
-Remaining C04 targets: **76–78 and 80–100 (24 pages)**.
+### C04 ten-page iteration A
+
+Exactly ten unresolved pages were processed: **76–78 and 80–86**. Each was directly reread against the controlling scan and source-backed corrections were made where safe. None was promoted because each retains at least one compact lexical/glyph span that cannot yet be certified without inference.
+
+Clear examples from this iteration include:
+
+- scan 76: `நன்று நன்று.` and `பேரதிர்ச்சிப் பெரும்புயலைத்`;
+- scan 77: `கப்பல்விட்ட`, `மாநில`;
+- scan 80: `கல்லூரிப் பெருமன்றில்`;
+- scan 82: `அடக்குதல்`, `அடக்கத் தவம்`;
+- scan 85: `எல்லாம் மெய் என்று`;
+- scan 86: `இவர்பக்கம்`.
+
+Those ten pages are now direct-reviewed residuals, not untouched Phase-1 pages. Remaining C04 `needs-review` set is still **76–78 and 80–100 (24 pages)**.
 
 ## Verification control
 
@@ -57,4 +70,4 @@ Full-source Phase-2 coverage does **not** itself authorize Phase 3 while unresol
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — physical scans 76–78 and 80–100**. Promote only complete passes. Do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration B: physical scans 87–96**. Process exactly those ten pages, preserve the `ஐம்புலன்` close at scan 89 and the `பிலவங்க ஆண்டு` opening at scan 90, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
