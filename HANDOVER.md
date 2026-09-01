@@ -84,6 +84,19 @@ Processed exactly **83–88 and 90–93** — **10 physical pages**.
 - scan **93** preserves its source-visible selection setup and the six personified virtue names;
 - **no page was promoted in iteration D**.
 
+### Iteration E
+
+Processed exactly **94–100 plus residual 76–78** — **10 physical pages**.
+
+- scan **76** now restores the lower performance boundary `(கவிஞர் அப்துல் ரகுமான் வ.வே.சு. அய்யர் பற்றிப் பாடி முடிக்கிறார்)` and the following `தலைவர் கலைஞர்:` transition;
+- scan **94** adds `அடக்கத்தின் விளைமையாய் அறமே நிற்கும் அது`;
+- scan **95** adds `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`;
+- scan **96** resolves the `பொறை` poet as `ஆறுமுகம்`;
+- scan **97** corrects the source-visible facial-action sequence to `பல் நெறித்தல் / உதடு மடித்தல் / கண் இடுக்கல்`;
+- scan **98** extends the source-supported `அருளுடைமை` passage through `அவ்வுலகம் எவ்வுலகம் என்பதிலே ஆராய்ச்சி பல உண்டு / பல உயிரில் சில உயிர்கள் போகின்ற / நல் உலகம் அவ்வுலகம் என மொழிவார் நாமறிவோம்.`;
+- scans **77–78, 99–100** received further direct line/glyph closure passes but still retain compact unresolved spans;
+- **no page was promoted in iteration E**.
+
 Current C04 unresolved set remains **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Source-critical rule
@@ -92,11 +105,10 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78** — exactly **10 physical pages**.
+Execute **C04 ten-page iteration F: scans 80–88 plus scan 90** — exactly **10 physical pages**.
 
-- give scans **94–100** their deeper exact lexical/glyph closure pass;
-- revisit the oldest residual scans **76–78**;
-- preserve all established item/speaker/performance boundaries;
+- give these residual pages another direct exact lexical/glyph closure pass;
+- preserve the `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary and all speaker/performance structures;
 - promote only complete passes;
 - keep C04 open while any residual pages remain;
 - do **not** begin C05, Phase 3, canonical assembly or translation.
