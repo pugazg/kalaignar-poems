@@ -55,8 +55,11 @@ Scan **0016 / XV** has a complete contents-witness pass. Direct source establish
 Residual source-backed progress:
 
 - **0004** — first two prose paragraphs and opening of the third restored directly; lower compact continuation remains unresolved;
+- **0011** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
+- **0013 / XII** — `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed; surrounding categorizing prose remains unresolved;
 - **0021 / printed 4** — corrected fourth-line ending to `பறப்பேன்!` and confirmed `ஒரு கோடித் தமிழ் இளைஞர்,`;
-- **0025 / printed 8** — corrected `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirmed `பெயர் மாற்றத் தீர்மானம்`, and restored `ஆங்கில ஆட்சியை அகற்றியபோது`.
+- **0023 / printed 6** — restored `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண`;
+- **0025 / printed 8** — corrected `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirmed `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, and restored `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`.
 
 These pages remain `needs-review` because other compact/blur-sensitive text is still unresolved.
 
