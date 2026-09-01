@@ -42,6 +42,8 @@ Iteration tracking:
 
 - **A:** 76–78, 80–86 — direct-reviewed, no promotions;
 - **B:** 87–96 — direct-reviewed; **89 promoted to `verified`**;
+- **C:** 97–100 plus 76–78 and 80–82 — exactly 10 physical pages; deeper review completed, no promotions;
+- iteration C records direct source-backed refinements on scans 97–100 and second-pass residual review on 76–78 / 80–82;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23)**.
 
 For every C04 page:
@@ -55,7 +57,7 @@ For every C04 page:
 
 ### Exact next activity
 
-Execute **C04 ten-page iteration C: scans 97–100 plus residual scans 76–78 and 80–82**. Process exactly 10 physical pages, beginning with untouched 97–100. Do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration D: residual scans 83–88 and 90–93**. Process exactly 10 physical pages as a deeper exact lexical/glyph closure pass. Do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
