@@ -29,11 +29,11 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 |---:|---|---|
 | 2 | title page / publisher block | title/author, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, `(தொலைபேசி) 434 02 05`, punctuation and layout passed; complete-pass `verified` |
 | 3 | English imprint / price | complete-pass `verified` |
-| 4 | `என்னுரை` opening | first two paragraphs + opening of third restored directly; lower compact continuation remains unresolved |
+| 4 | `என்னுரை` opening | first two paragraphs + opening of third restored; source punctuation `“கவிதையல்ல”.`, no dash after `1967-ஆம் ஆண்டு`, and comma in `என்றில்லாமல், அந்தப்` now preserved; lower continuation unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
 | 6–8 | `அணிந்துரை` | reinspected; compact prose remains unresolved |
 | 9 / VIII | `அணிந்துரை` continuation | `வள்ளுவர்` and `தமிழ்ப் பண்பாளர்கள்` corrected directly; other compact prose remains unresolved |
-| 10 | `அணிந்துரை` conclusion | compact prose remains unresolved |
+| 10 / IX | `அணிந்துரை` conclusion | closing signature corrected from `மா.நன்னன்` to source-visible `க. அன்பழகன்`; compact prose/quotation remains unresolved |
 | 11 | `புறவுரை` opening | `ஓசையை` corrected directly; surrounding compact prose remains unresolved |
 | 12 | `புறவுரை` continuation | compact prose remains unresolved |
 | 13 / XII | `புறவுரை` conclusion | `எண்ணுவோர்` corrected directly in `சொல்லழகைக் சுவைக்க எண்ணுவோர்`; surrounding categorizing prose remains unresolved |
