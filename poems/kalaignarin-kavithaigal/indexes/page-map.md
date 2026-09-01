@@ -32,14 +32,13 @@ Physical window: **76–100**. Every page in this window has received at least o
 
 | Scan(s) | Source-established role / boundary | Current outcome |
 |---:|---|---|
-| 76–78 | `விடுதலை வீரர்கள்` continuation | direct-reviewed twice; lexical clearance pending |
+| 76–78 | `விடுதலை வீரர்கள்` continuation | direct-reviewed three times; lexical clearance pending |
 | 79 | `விடுதலை வீரர்கள்` conclusion; `வணக்கம்!`, `வாழ்க!`, floral ornament | `verified` |
 | 80–82 | `ஐம்புலன்` opening/continuation | direct-reviewed twice; lexical clearance pending |
 | 83–88 | `ஐம்புலன்` continuation | direct-reviewed twice; lexical clearance pending |
 | 89 | `ஐம்புலன்` conclusion; final `வணக்கம்.` and floral ornament | `verified` |
 | 90–93 | `பிலவங்க ஆண்டு` opening/continuation | direct-reviewed twice; lexical clearance pending |
-| 94–96 | `பிலவங்க ஆண்டு` continuation | direct-reviewed once; deeper closure pending |
-| 97–100 | `பிலவங்க ஆண்டு` continuation/conclusion | direct-reviewed once in iteration C; deeper closure pending |
+| 94–100 | `பிலவங்க ஆண்டு` continuation/conclusion | deeper iteration-E pass complete; lexical clearance pending |
 
 ### C04 fixed source structure
 
@@ -55,10 +54,11 @@ Physical window: **76–100**. Every page in this window has received at least o
 - **Iteration B:** scans **87–96** — direct-reviewed; scan **89** promoted to `verified`;
 - **Iteration C:** scans **97–100 plus 76–78 and 80–82** — exactly 10 physical pages; no promotions;
 - **Iteration D:** scans **83–88 and 90–93** — exactly 10 physical pages; deeper direct review completed, no promotions;
-- iteration-D refinements include scan 83 plural `கவிஞர்களே!` plus its five-line `பெரிதானால்` organ sequence; scan 84 `கொய்யாக் கனி கவிப்போம் / சற்று காத்திருப்போம். / சாதிக் அப்தின் தமிழ் கேட்போம்:`; scan 85 visible `வாய்ச்சொற்கள் ... / கண்ணோடு கண்ணிணை ...` wordplay; scan 86 removal of an unsupported provisional reading in favor of source-visible `பரந்த உள்ளம் ...`; scan 87 two additional directly visible lower lines; and scan 93 its selection setup plus the six virtue names;
+- **Iteration E:** scans **94–100 plus 76–78** — exactly 10 physical pages; deeper direct review completed, no promotions;
+- iteration-E refinements include scan 76 restoration of the `அப்துல் ரகுமான்` performance boundary and following speaker transition; scan 94 `அடக்கத்தின் விளைமையாய் அறமே நிற்கும் அது`; scan 95 `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`; scan 96 poet `ஆறுமுகம்`; scan 97 correction to `உதடு மடித்தல்`; and additional direct-source `அருளுடைமை` lines on scan 98;
 - unresolved C04 pages remain **23 — 76–78, 80–88, 90–100**.
 
-## Verified pages after iteration D
+## Verified pages after iteration E
 
 **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
@@ -68,4 +68,4 @@ Exact page-range derivatives and user-supplied word-for-word extracts from the s
 
 ## Next mapping / verification activity
 
-Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78** — exactly **10 physical pages**. Give scans 94–100 their deeper lexical/glyph closure pass and revisit the oldest residual 76–78 set. Do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration F: scans 80–88 plus scan 90** — exactly **10 physical pages**. Give those residual pages another direct lexical/glyph closure pass and preserve the fixed `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary. Do not advance to C05 or Phase 3 while C04 remains open.
