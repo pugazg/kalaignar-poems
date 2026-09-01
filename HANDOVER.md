@@ -74,7 +74,7 @@ Durable C03 boundaries and features:
 
 Physical window: **76–100**.
 
-A direct scan pass has fixed the item boundaries and non-lexical source structure for the full C04 window.
+A direct scan pass has fixed the item boundaries and non-lexical source structure for the full C04 window. The user has now directed **10 unresolved pages per iteration**.
 
 Durable C04 boundaries and features:
 
@@ -84,11 +84,21 @@ Durable C04 boundaries and features:
 - scans **80–89** and **90–100** repeatedly interleave `தலைவர் கலைஞர்:` passages with parenthetical notes that record other poets finishing their pieces; these are separate source structures and must not be flattened into a single verse block;
 - opening title/context scans **80** and **90** are unnumbered title/context leaves; normal running headers/printed page numbering resumes on the following leaves.
 
-### Latest C04 lexical pass — scan 79
+### C04 verified page
 
-Scan **79 / printed 62** was reread directly at full page level and is now `verified`. The pass restores source-backed `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`; printed page/header, lineation, punctuation, `வணக்கம்!`, `வாழ்க!` and the centered floral ornament all pass.
+Scan **79 / printed 62** has a complete direct source-critical pass and is `verified`. The pass restores source-backed `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`; printed page/header, lineation, punctuation, `வணக்கம்!`, `வாழ்க!` and the centered floral ornament all pass.
 
-C04 status is now **0 partial / 361 needs-review / 104 verified**. Remaining C04 targets: **76–78 and 80–100 (24 pages)**.
+### C04 ten-page iteration A — COMPLETE AS DIRECT REVIEW
+
+Processed unresolved scans **76–78 and 80–86** — exactly **10 pages**, skipping already verified scan 79.
+
+- every one of these ten pages was reread directly against the controlling scan;
+- source-backed corrections/controls include scan 76 `நன்று நன்று.` / `பேரதிர்ச்சிப் பெரும்புயலைத்`, scan 77 `கப்பல்விட்ட` / `மாநில`, scan 80 `கல்லூரிப் பெருமன்றில்`, scan 82 `அடக்குதல்` / `அடக்கத் தவம்`, scan 85 `எல்லாம் மெய் என்று`, and scan 86 `இவர்பக்கம்`;
+- title/context blocks, running headers/page numbers, `தலைவர் கலைஞர்:` transitions and parenthetical performance notes were reconciled where present;
+- none of the ten pages was promoted because at least one compact glyph/word-ending span on each page remains unsafe to certify at the available rendering scale;
+- those ten pages remain direct-reviewed lexical residuals and must not be represented as untouched Phase-1 pages.
+
+C04 status remains **0 partial / 361 needs-review / 104 verified**. Remaining C04 `needs-review` set remains **76–78 and 80–100 (24 pages)**.
 
 ## Phase-2 rule
 
@@ -100,13 +110,14 @@ Do not copy separate source-witness transcriptions into this anthology. Exact pa
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–78 and 80–100**.
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration B: physical scans 87–96**.
 
 - fetch/recheck live `main` before writes;
-- preserve the C04 source-layout boundaries recorded above;
-- compare the remaining page Markdown with the controlling scans;
-- if the user supplies full word-for-word transcription from exact controlling-PDF extracts for this range, retain those words as the lexical base and independently handle structure, punctuation, quotation continuity, page carry-over, speaker/performance labels, separators, ornaments and lineation;
-- otherwise resolve only what the controlling scan itself supports without guessing;
+- process exactly **10 pages** in this iteration: **87, 88, 89, 90, 91, 92, 93, 94, 95, 96**;
+- preserve the `ஐம்புலன்` conclusion at scan **89** and the `பிலவங்க ஆண்டு` opening at scan **90**;
+- compare `pages/0087.md`–`pages/0096.md` directly with the controlling scans;
+- correct only source-backed wording, glyphs, punctuation, lineation and source structures;
+- if the user supplies full word-for-word transcription from exact controlling-PDF extracts, retain those words as the lexical base and independently handle source structure;
 - promote only complete passes to `verified`;
-- keep C04 open until all remaining **24 scans** are lexically cleared;
+- leave iteration-A residuals **76–78 and 80–86** open for exact closure rather than guessing;
 - **do not advance to C05, Phase 3, canonical assembly or translation**.
