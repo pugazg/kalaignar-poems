@@ -36,7 +36,9 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 15 | contents | complete-pass `verified` |
 | 16 / XV | contents continuation | residual strings, punctuation and page references cleared; complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
-| 21–25 | `இதயத்தைத் தந்திடு அண்ணா` | reinspected; compact/blurred verse blocks remain unresolved |
+| 21 | `இதயத்தைத் தந்திடு அண்ணா` / printed 4 | `பறப்பேன்!` and `ஒரு கோடித் தமிழ் இளைஞர்,` corrected directly; lower verse still unresolved |
+| 22–24 | `இதயத்தைத் தந்திடு அண்ணா` | compact/blurred verse blocks remain unresolved |
+| 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது` restored; other verse remains unresolved |
 
 ### Scan-16 direct contents readings
 
