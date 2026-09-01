@@ -29,23 +29,18 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 partial, 360 needs-review, 105 verified**;
-- unresolved backlog: **360 pages**;
-- verified so far: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 partial, 359 needs-review, 106 verified**;
+- unresolved backlog: **359 pages**;
+- verified so far: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
-- additional C04 verified pages: **79, 89**.
+- additional C04 verified pages: **79, 89, 100**.
 
 ### Clearance C04 — in progress, 10 pages per iteration
 
 Source structure is fixed as `விடுதலை வீரர்கள்` through scan **79**, `ஐம்புலன்` scans **80–89**, and `பிலவங்க ஆண்டு` scans **90–100**.
 
-- Iteration A reviewed **76–78, 80–86**;
-- Iteration B reviewed **87–96** and promoted **scan 89** after a complete source-critical pass;
-- Iteration C reviewed **97–100 plus 76–78 and 80–82**; no additional promotion;
-- Iteration D reviewed **83–88 and 90–93**; no promotion, but additional direct-source lexical text was restored;
-- Iteration E reviewed **94–100 plus 76–78**; no promotion, with further direct-source refinements;
-- Iteration F reviewed **80–88 plus scan 90**; scan **81** was corrected to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no page was promoted;
-- remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**;
-- exact next 10-page iteration: **91–100**.
+Iterations A–F established repeated direct-source lexical/glyph review across the complete C04 window. **Iteration G processed scans 91–100** and promoted **scan 100 / printed 83** after a complete source-critical pass. Its final `வணக்கம்.` and centered floral ornament are verified.
+
+Remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**. The exact next 10-page iteration is **76–78 and 80–86**.
 
 Phase 2 independently rereads the controlling scan. OCR, memory, grammar, metre, historical expectation and separate editions are not authority unless the user explicitly designates an exact-source lexical transcription for that same controlling-PDF range.
