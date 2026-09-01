@@ -20,29 +20,31 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - Phase 1: **COMPLETE, batches 01–19**;
 - Phase 2 source-coverage Batches 01–19, scans **1–465: COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative verified pages: **57 — 0001–0025, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- cumulative status: **0 `partial`, 408 `needs-review`, 57 `verified`**;
-- unresolved Phase-2 backlog: **408 page records**.
+- cumulative verified pages: **80 — 0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
+- unresolved Phase-2 backlog: **385 page records**.
 
 Source-coverage Batch 19 completed the independent source reread across the full 465-scan PDF. That does not equal page clearance: Phase 3 remains blocked while `needs-review` pages remain.
 
-### Clearance Batch C01 — COMPLETE
+### Clearance Batches C01–C02 — COMPLETE
 
-C01 covered the unresolved records in physical scans **1–25**. All physical scans **1–25 are now `verified`**.
+C01 cleared physical scans **1–25**. C02 cleared unresolved scans **26–31 and 34–50**, preserving already verified scans **32–33**. The durable contiguous verified boundary is now **physical scans 1–50**.
 
-The final nine residual pages — **4, 6–10, 12–13 and 25** — were completed from user-supplied word-for-word transcriptions of exact page-range derivatives of the controlling PDF and reconciled against the controlling scans. The derivatives are rendering/transcription aids to the same witness, not separate textual witnesses.
+For C02 the user supplied word-for-word extraction from exact page-range derivatives of the same controlling PDF. Those words served as the lexical base; the controlling scans independently determined structure, punctuation, quotations, separators, lineation, illustrations, ornaments, running headers/page numbers and page carry-over.
 
-### Clearance Batch C02 — NEXT
+The standing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
-Target physical window: **26–50**.
+### Clearance Batch C03 — NEXT
 
-Already verified within this window: **32, 33**.  
-Unresolved C02 target set: **26–31, 34–50**.
+Target physical window: **51–75**.
+
+Already verified within this window: **70, 71**.  
+Unresolved C03 target set: **51–69, 72–75**.
 
 For every target page:
 
 - independently inspect the controlling scan before trusting Markdown;
-- use exact-source derivatives only as access aids to the same PDF;
+- use exact-source derivatives or user-supplied word-for-word extraction only as access/lexical aids to the same PDF;
 - correct only source-backed differences;
 - preserve old Tamil forms, punctuation, quotations, separators, lineation and non-Tamil material;
 - promote only complete passes to `verified`;
@@ -50,7 +52,7 @@ For every target page:
 
 ### Exact next activity
 
-Execute **Phase 2 Clearance Batch C02 — physical scans 26–50**, skipping already verified scans **32 and 33**. Do not begin Phase 3, canonical assembly or translation.
+Execute **Phase 2 Clearance Batch C03 — physical scans 51–75**, skipping already verified scans **70 and 71**. Do not begin Phase 3, canonical assembly or translation.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
