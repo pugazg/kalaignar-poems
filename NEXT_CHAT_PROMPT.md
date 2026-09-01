@@ -29,40 +29,36 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 ## CURRENT DURABLE STATE
 
 - Phase 1: **COMPLETE — 465/465 page records**;
-- Phase 2 source-coverage Batches 01–19: **all scans 1–465 independently reread — COMPLETE**;
+- Phase 2 source coverage: **all scans 1–465 independently reread — COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
-- unresolved backlog: **429 pages**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- Batch 19 reviewed scans **451–465** and promoted only scan **465** after a complete pass;
-- `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` closes at **452 / printed 435**;
-- `திசை திருப்பல் நியாயம்தானா?` spans **453–454**;
-- `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` spans **455–456**;
-- `சில நாடுகள் இருக்கின்றன` spans **457–460**;
-- `உன் காலணியை வாழ்த்துகிறாய்` spans **461–464**;
-- scan **465** is the verified final back cover;
+- cumulative status: **0 `partial`, 425 `needs-review`, 40 `verified`**;
+- unresolved backlog: **425 pages**;
+- verified pages: **0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3 and translation remain blocked.
 
-## BATCH-19 SOURCE-BACKED CORRECTIONS
+## CLEARANCE C01 FIRST-PASS OUTCOME
 
-- scan **464**: `ஏழை எளிய உடன் பிறப்பு நீ!`;
-- scan **464**: parenthetical `கலைஞர் தனது 58-வது பிறந்தநாள்`;
-- scan **465**: final back-cover wording/page role/artwork boundary fully verified.
+C01 targeted unresolved scans **2–17 and 21–25**. Already verified scans **1 and 18–20** were skipped.
 
-## PHASE-2 COMPLETION ASSESSMENT
+Promoted after complete direct-source passes:
 
-All 465 physical scans have received the independent source-critical reread required for Phase-2 coverage. However, the processing guide requires verified page records before Phase 3. **429 records remain `partial` / `needs-review`, so Phase 2 is not page-cleared and Phase 3 must not begin.**
+- **0003** — English imprint / price;
+- **0005** — `என்னுரை` continuation / printed IV;
+- **0014** — `பதிப்புரை`, resolving `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
+- **0017** — contents continuation / printed XVI.
 
-Verified pages are not to be reopened merely for uniformity. Reopen only if new direct-source evidence establishes a discrepancy.
+Additional direct-source correction:
+
+- scan **0016**: `தமிழ் அவள் வழிநடைப் பயணம்` → **`தமிழ் வளர வழிநடைப் பயணம்`**; scan 16 remains `needs-review` because other small-type title strings remain unresolved.
+
+Residual C01 scans: **2, 4, 6–13, 15–16, 21–25**.
 
 ## PHASE-2 SOURCE-CRITICAL RULE
 
-Independently reread the controlling scan before trusting existing Markdown. Correct only source-backed differences. Preserve old Tamil glyphs/forms, punctuation, lineation, quotations, separators and non-Tamil material. Resolve `⟦…⟧` only from direct source evidence. Do not import another witness.
+Independently reread the controlling scan before trusting existing Markdown. Correct only source-backed differences. Preserve old Tamil glyphs/forms, punctuation, lineation, quotations, separators and non-Tamil material. Resolve `⟦…⟧` / `[மங்கலான ...]` only from direct source evidence. Do not import another witness.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C01 — unresolved physical scans 2–17 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual physical scans 2, 4, 6–13, 15–16 and 21–25**.
 
-Scans **1 and 18–20 are already `verified`** and must be skipped unless a direct-source discrepancy is discovered.
-
-For each targeted unresolved scan, inspect the controlling source directly, compare with its existing page record, resolve only source-backed uncertainties, and promote only complete passes to `verified`. At completion synchronize all status-bearing files and advance to the next unresolved clearance window. **Do not begin Phase 3, canonical assembly, or translation.**
+Do not reopen already verified scans merely for uniformity. Reinspect only the residual pages, resolve only direct-source-supported readings, and promote only complete passes. **Do not advance to C02, Phase 3, canonical assembly, or translation while the C01 residual window remains open.**
