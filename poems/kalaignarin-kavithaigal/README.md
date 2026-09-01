@@ -42,7 +42,8 @@ Iteration tracking:
 
 - **A:** scans **76–78, 80–86** — direct-reviewed; no promotions;
 - **B:** scans **87–96** — direct-reviewed; **scan 89 promoted to `verified`**;
-- scan-89 complete pass corrected `தொடக்குவீர்`, `சொல்வீராயினும்`, `இவையின்றி`, and final `வணக்கம்.`;
+- **C:** scans **97–100, 76–78, 80–82** — second/deeper review of 10 physical pages; no promotions;
+- iteration-C refinements include scan 97 `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`; scan 98 performance boundaries and `அருளுடைமை` opening; scan 99 `மலர் குவிப்பார் என்றிருந்தேன்` / `மலர் குவித்ததால்`; scan 100 final `வணக்கம்.` and floral ornament;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Verification control
@@ -51,4 +52,4 @@ The controlling scan remains authoritative. Exact-source word-for-word transcrip
 
 ## Exact next activity
 
-Process exactly **10 physical pages** in C04 iteration C: **97–100 plus residual scans 76–78 and 80–82**. Inspect 97–100 first, then revisit the six earliest residuals. Promote only complete passes; do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Process exactly **10 physical pages** in C04 iteration D: **83–88 and 90–93**. These are deeper exact lexical/glyph closure passes on already direct-reviewed pages. Promote only complete passes; do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
