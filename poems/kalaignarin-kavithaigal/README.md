@@ -26,6 +26,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - unresolved backlog: **360 pages**;
 - verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
+- additional C04 verified pages: **79, 89**;
 - Phase 3: **blocked**.
 
 ## Clearance C04 — 10-page iterations
@@ -42,8 +43,9 @@ Iteration tracking:
 
 - **A:** scans **76–78, 80–86** — direct-reviewed; no promotions;
 - **B:** scans **87–96** — direct-reviewed; **scan 89 promoted to `verified`**;
-- **C:** scans **97–100, 76–78, 80–82** — second/deeper review of 10 physical pages; no promotions;
-- iteration-C refinements include scan 97 `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`; scan 98 performance boundaries and `அருளுடைமை` opening; scan 99 `மலர் குவிப்பார் என்றிருந்தேன்` / `மலர் குவித்ததால்`; scan 100 final `வணக்கம்.` and floral ornament;
+- **C:** scans **97–100, 76–78, 80–82** — deeper review of exactly 10 physical pages; no promotions;
+- **D:** scans **83–88, 90–93** — deeper review of exactly 10 physical pages; no promotions;
+- iteration-D direct-source refinements include the scan-83 `பெரிதானால்` five-organ sequence, scan-84 `கொய்யாக் கனி ... / சாதிக் அப்தின் தமிழ் கேட்போம்:`, scan-85 visible `வாய்ச்சொற்கள் ... / கண்ணோடு கண்ணிணை ...` passage, scan-86 removal of an unsupported provisional reading, scan-87 additional lower lines, and scan-93 selection setup plus six virtue names;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Verification control
@@ -52,4 +54,4 @@ The controlling scan remains authoritative. Exact-source word-for-word transcrip
 
 ## Exact next activity
 
-Process exactly **10 physical pages** in C04 iteration D: **83–88 and 90–93**. These are deeper exact lexical/glyph closure passes on already direct-reviewed pages. Promote only complete passes; do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Process exactly **10 physical pages** in C04 iteration E: **94–100 plus 76–78**. Give scans 94–100 their deeper exact lexical/glyph closure pass, revisit the oldest residual 76–78 set, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
