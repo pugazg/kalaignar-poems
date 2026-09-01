@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batches 01–12 (scans 1–300) COMPLETE.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 Verification Batches 01–13 (scans 1–325) COMPLETE.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -21,12 +21,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 ## Progress
 
 - Phase 1 page records: **465/465 — COMPLETE**;
-- Phase 2 reviewed: **300/465** physical scans;
-- cumulative status: **2 `partial`, 438 `needs-review`, 25 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296**;
+- Phase 2 reviewed: **325/465** physical scans;
+- cumulative status: **2 `partial`, 436 `needs-review`, 27 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317**;
 - Phase 3: **not started**.
 
-Batch 12 directly reviewed scans 276–300. Scans 285, 292 and 296 received complete verification passes. Direct-source corrections were applied to scans 278, 289, 292, 296–300. Dense pages remain unresolved rather than being normalized or completed from another witness.
+Batch 13 directly reviewed scans 301–325. Scans 310 and 317 received complete verification passes. Direct-source corrections were applied to scans 301, 302, 304–306, 308–310, 313–321 and 323. Dense pages remain unresolved rather than being normalized or completed from another witness.
 
 ## Verification control
 
@@ -34,4 +34,4 @@ The controlling scan is authoritative. Do not resolve blur from OCR, remembered 
 
 ## Exact next activity
 
-**Phase 2 Verification Batch 13 — scans 301–325**. Continue from `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`; do not begin Phase 3 in the same activity.
+**Phase 2 Verification Batch 14 — scans 326–350**. Continue from `சமுதாயப் பார்வைகள்...!`; do not begin Phase 3 in the same activity.
