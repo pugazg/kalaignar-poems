@@ -59,29 +59,25 @@ Processed exactly **87–96**. Scan **89** reached a complete source-critical pa
 
 ### Iteration C
 
-Processed exactly **97–100 plus 76–78 and 80–82**. No page was promoted; source-backed refinements were recorded and scans 76–78 / 80–82 received a second visual pass.
+Processed exactly **97–100 plus 76–78 and 80–82**. No page was promoted.
 
 ### Iteration D
 
-Processed exactly **83–88 and 90–93**.
-
-- scans **83–87** gained direct source-backed lexical refinements;
-- scans **88, 90–92** received deeper full-page passes but retained compact unresolved forms;
-- scan **93** preserves its source-visible selection setup and six virtue names;
-- **no page was promoted**.
+Processed exactly **83–88 and 90–93**. Direct source-backed refinements were recorded; no page was promoted.
 
 ### Iteration E
 
-Processed exactly **94–100 plus residual scans 76–78**.
+Processed exactly **94–100 plus residual scans 76–78**. Further source-backed refinements were recorded; no page was promoted.
 
-- scan **76** restores `(கவிஞர் அப்துல் ரகுமான் வ.வே.சு. அய்யர் பற்றிப் பாடி முடிக்கிறார்)` plus the following `தலைவர் கலைஞர்:` structural transition;
-- scan **94** adds `அடக்கத்தின் விளைமையாய் அறமே நிற்கும் அது`;
-- scan **95** adds `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`;
-- scan **96** resolves the `பொறை` poet name as `ஆறுமுகம்`;
-- scan **97** corrects the facial-action sequence to `பல் நெறித்தல் / உதடு மடித்தல் / கண் இடுக்கல்`;
-- scan **98** extends the directly supported `அருளுடைமை` passage through `அவ்வுலகம் எவ்வுலகம் என்பதிலே ஆராய்ச்சி பல உண்டு / பல உயிரில் சில உயிர்கள் போகின்ற / நல் உலகம் அவ்வுலகம் என மொழிவார் நாமறிவோம்.`;
-- scans **77–78 and 99–100** received deeper direct closure passes but still contain compact unresolved forms;
-- **no page was promoted in iteration E**.
+### Iteration F
+
+Processed exactly **80–88 and 90**.
+
+- all 10 pages were independently reread against the controlling scan;
+- scan **81** now correctly preserves **`கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`**, replacing the unsupported `கார் விடுதியில்` reading;
+- scans **80, 82–88 and 90** still retain at least one compact lexical/glyph span that blocks complete promotion;
+- **no page was promoted in iteration F**;
+- cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**.
 
 ## SOURCE-CRITICAL RULE
 
@@ -89,15 +85,15 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration F** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration G** on exactly:
 
-**80, 81, 82, 83, 84, 85, 86, 87, 88, 90**.
+**91, 92, 93, 94, 95, 96, 97, 98, 99, 100**.
 
 That is **10 physical pages**.
 
-1. Give these residual pages another direct exact lexical/glyph closure pass.
-2. Preserve the fixed `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary and all speaker/performance-note structures.
+1. Give these `பிலவங்க ஆண்டு` residual pages another direct exact lexical/glyph closure pass.
+2. Preserve all `தலைவர் கலைஞர்:` / parenthetical poet-performance structures and the scan-100 floral closure.
 3. Promote only complete passes to `verified`.
-4. Synchronize all status-bearing files after the iteration.
+4. Synchronize tracking files after the iteration.
 5. Keep C04 open while any C04 residual remains.
 6. **Do not begin C05, Phase 3, canonical assembly or translation.**
