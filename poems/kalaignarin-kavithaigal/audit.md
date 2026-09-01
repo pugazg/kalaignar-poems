@@ -54,6 +54,8 @@ The contents witness is preserved as printed rather than normalized from later p
 ### Residual reread progress
 
 - scan **4** — the first two `என்னுரை` paragraphs and opening lines of the third paragraph were restored directly from the scan, including `யேற்றுப் பாடிய கவிதைகளையும் தமிழ்க்கனி`, `“கவியரங்கப் பொறுப்பேற்ற பிறகு`, and `எனக்கு இளைப்பாறும் இடமென்றும் சொல்லலாமா.` The lower compact continuation remains unresolved, so scan 4 remains `needs-review`.
+- scan **21 / printed 4** — direct rereading corrects the fourth line ending to `பறப்பேன்!` and confirms `ஒரு கோடித் தமிழ் இளைஞர்,`; central/lower compact verse remains unresolved, so scan 21 stays `needs-review`.
+- scan **25 / printed 8** — direct rereading corrects the opening to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirms `பெயர் மாற்றத் தீர்மானம்`, and restores `ஆங்கில ஆட்சியை அகற்றியபோது`; unresolved verse spans remain explicit, so scan 25 stays `needs-review`.
 
 ### Residual C01 pages
 
@@ -68,7 +70,8 @@ No OCR, remembered wording, grammar, metre, historical expectation or another ed
 Before C01: **2 `partial`, 427 `needs-review`, 36 `verified`**.  
 After the first C01 pass: **0 `partial`, 425 `needs-review`, 40 `verified`**.  
 After contents residual clearance through scans 15–16: **0 `partial`, 423 `needs-review`, 42 `verified`**.  
-After scan-2 title-page clearance: **0 `partial`, 422 `needs-review`, 43 `verified`**.
+After scan-2 title-page clearance: **0 `partial`, 422 `needs-review`, 43 `verified`**.  
+The latest scan-21/scan-25 source refinements improve fidelity but do not change page-status counts.
 
 ## Phase-2 completion assessment
 
