@@ -27,9 +27,9 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 
 | Scan(s) | Visible role / section | Clearance outcome |
 |---:|---|---|
-| 2 | title page / publisher block | reinspected; small imprint/telephone detail still prevents complete pass |
+| 2 | title page / publisher block | publisher address, `த.பெ.எண். 4984`, telephone digits `434 02 05`, emblem and physical overlay recorded; tiny final-line punctuation/bracketing still prevents complete pass |
 | 3 | English imprint / price | complete-pass `verified` |
-| 4 | `என்னுரை` opening | reinspected; dense unresolved prose remains |
+| 4 | `என்னுரை` opening | first two paragraphs + opening of third restored directly; lower compact continuation remains unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
 | 6–13 | `அணிந்துரை` / `புறவுரை` | reinspected; compact prose remains unresolved |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
