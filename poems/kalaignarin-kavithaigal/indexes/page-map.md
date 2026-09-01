@@ -13,15 +13,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 **PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 425 `needs-review`, 40 `verified`**;
-- unresolved backlog: **425 pages**;
+- cumulative status: **0 `partial`, 424 `needs-review`, 41 `verified`**;
+- unresolved backlog: **424 pages**;
 - Phase 3 remains blocked until unresolved Phase-2 pages are cleared.
 
 ## Phase-2 source-coverage completion
 
 Coverage Batches 01–19 account for all physical scans **1–465**. The final coverage batch closes the anthology body at scan 464 / printed 447 and verifies scan 465 as the final full-colour back cover.
 
-## Phase-2 Clearance Batch C01 — first pass
+## Phase-2 Clearance Batch C01
 
 Target window: unresolved scans **2–17 and 21–25**; already verified scans **1 and 18–20** were skipped.
 
@@ -33,18 +33,18 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
 | 6–13 | `அணிந்துரை` / `புறவுரை` | reinspected; compact prose remains unresolved |
 | 14 | `பதிப்புரை` | resolved `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`; complete-pass `verified` |
-| 15 | contents | reinspected; small-type title strings remain unresolved |
-| 16 / XV | contents continuation | corrected `தமிழ் வளர வழிநடைப் பயணம்`; other small-type entries remain unresolved |
+| 15 | contents | residual titles resolved as `பிலவங்க ஆண்டு`, `காதலா! - வீரமா?`, `அருமறையில் அறுவர்`, `நீர்க் குடும்பம்`, `நேரு கண்ட ஜனநாயகம்`; complete-pass `verified` |
+| 16 / XV | contents continuation | `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா` cleared; printed-page 359 contents-witness spacing/ending remains unresolved |
 | 17 / XVI | contents continuation | complete-pass `verified` as printed contents witness |
 | 21–25 | `இதயத்தைத் தந்திடு அண்ணா` | reinspected; compact/blurred verse blocks remain unresolved |
 
 ### Residual C01 window
 
-**2, 4, 6–13, 15–16, 21–25** remain `needs-review`.
+**2, 4, 6–13, 16, 21–25** remain `needs-review`.
 
-## Verified pages after C01 first pass
+## Verified pages after current C01 progress
 
-**0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001, 0003, 0005, 0014, 0015, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Source-access note
 
@@ -52,4 +52,4 @@ User-supplied page-range derivatives are rendering aids from the same controllin
 
 ## Next mapping / verification activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13, 15–16 and 21–25**. Do not advance to C02 or Phase 3 while this residual window remains open.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13, 16 and 21–25**. Do not advance to C02 or Phase 3 while this residual window remains open.
