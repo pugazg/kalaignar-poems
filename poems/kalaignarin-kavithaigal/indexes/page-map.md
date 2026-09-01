@@ -40,9 +40,9 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 16 / XV | contents continuation | residual strings, punctuation and page references cleared; complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
 | 21 | `இதயத்தைத் தந்திடு அண்ணா` / printed 4 | `பறப்பேன்!` and `ஒரு கோடித் தமிழ் இளைஞர்,` corrected directly; lower verse still unresolved |
-| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | compact/blurred verse blocks remain unresolved |
+| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | `உலவிடும் காற்றில்` corrected directly from source; central/closing compact verse remains unresolved |
 | 23 | `இதயத்தைத் தந்திடு அண்ணா` / printed 6 | `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` restored directly; other compact verse remains unresolved |
-| 24 | `இதயத்தைத் தந்திடு அண்ணா` / printed 7 | compact/blurred verse blocks remain unresolved |
+| 24 | `இதயத்தைத் தந்திடு அண்ணா` / printed 7 | `மனோன்மணியம்` corrected directly from source; remaining compact verse blocks remain unresolved |
 | 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, and `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்` restored; later verse remains unresolved |
 
 ### Scan-16 direct contents readings
