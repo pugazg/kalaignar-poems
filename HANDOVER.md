@@ -43,12 +43,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 Current cumulative page status:
 
 - `partial`: **0**;
-- `needs-review`: **423**;
-- `verified`: **42**;
+- `needs-review`: **422**;
+- `verified`: **43**;
 - total: **465**;
-- unresolved backlog: **423**.
+- unresolved backlog: **422**.
 
-Verified pages so far: **0001, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Verified pages so far: **0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Phase-2 Clearance Batch C01 — progress
 
@@ -56,6 +56,7 @@ Targeted unresolved scans: **2–17 and 21–25**. Already verified scans **1 an
 
 Complete-pass promotions so far:
 
+- scan **2** — title page / publisher block; title/author, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, `(தொலைபேசி) 434 02 05`, punctuation and layout passed;
 - scan **3** — English imprint / price;
 - scan **5 / IV** — `என்னுரை` continuation;
 - scan **14** — `பதிப்புரை`;
@@ -63,7 +64,7 @@ Complete-pass promotions so far:
 - scan **16 / XV** — contents continuation;
 - scan **17 / XVI** — contents continuation.
 
-Scan **16 / XV** now has a complete direct contents-witness pass. Source-visible readings include:
+Scan **16 / XV** has a complete direct contents-witness pass. Source-visible readings include:
 
 - `தமிழ் வளர வழிநடைப் பயணம்` — 220;
 - `வையம் தழைக்க` — 228;
@@ -72,9 +73,9 @@ Scan **16 / XV** now has a complete direct contents-witness pass. Source-visible
 - `பன்னீர்ச் செல்வமே` — 357;
 - `கலைத்தாயின் தலைச்செல்வன்` — 359.
 
-Residual C01 pages: **2, 4, 6–13, 21–25**.
+Residual C01 pages: **4, 6–13, 21–25**.
 
-The current direct rendering is not sufficient to certify every compact glyph/punctuation/lineation detail on those residual pages without guessing. They therefore remain open rather than being filled from OCR, context, memory or another source witness.
+Scan **4** has already received a deeper direct reread: its first two prose paragraphs and opening of the third were restored from the controlling scan, but the lower compact continuation remains unresolved. The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
 
 ## Phase-2 rule
 
@@ -86,7 +87,7 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 2, 4, 6–13 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 4, 6–13 and 21–25**.
 
 - do not reopen already verified pages unless direct-source evidence reveals a discrepancy;
 - inspect the residual scans directly and resolve only source-backed uncertainty, old-glyph, punctuation, quotation, lineation and non-Tamil issues;
