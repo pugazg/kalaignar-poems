@@ -31,14 +31,19 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 3 | English imprint / price | complete-pass `verified` |
 | 4 | `என்னுரை` opening | first two paragraphs + opening of third restored directly; lower compact continuation remains unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
-| 6–13 | `அணிந்துரை` / `புறவுரை` | reinspected; compact prose remains unresolved |
+| 6–10 | `அணிந்துரை` | reinspected; compact prose remains unresolved |
+| 11 | `புறவுரை` opening | `ஓசையை` corrected directly; surrounding compact prose remains unresolved |
+| 12 | `புறவுரை` continuation | compact prose remains unresolved |
+| 13 / XII | `புறவுரை` conclusion | `எண்ணுவோர்` corrected directly in `சொல்லழகைக் சுவைக்க எண்ணுவோர்`; surrounding categorizing prose remains unresolved |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
 | 15 | contents | complete-pass `verified` |
 | 16 / XV | contents continuation | residual strings, punctuation and page references cleared; complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
 | 21 | `இதயத்தைத் தந்திடு அண்ணா` / printed 4 | `பறப்பேன்!` and `ஒரு கோடித் தமிழ் இளைஞர்,` corrected directly; lower verse still unresolved |
-| 22–24 | `இதயத்தைத் தந்திடு அண்ணா` | compact/blurred verse blocks remain unresolved |
-| 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது` restored; other verse remains unresolved |
+| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | compact/blurred verse blocks remain unresolved |
+| 23 | `இதயத்தைத் தந்திடு அண்ணா` / printed 6 | `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` restored directly; other compact verse remains unresolved |
+| 24 | `இதயத்தைத் தந்திடு அண்ணா` / printed 7 | compact/blurred verse blocks remain unresolved |
+| 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, and `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்` restored; later verse remains unresolved |
 
 ### Scan-16 direct contents readings
 
