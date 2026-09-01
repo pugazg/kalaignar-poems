@@ -9,9 +9,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 2 source coverage: **465/465 scans reviewed**;
-- cumulative page status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
-- verified pages: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- unresolved backlog: **361 `needs-review` pages**;
+- cumulative page status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
+- verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved backlog: **360 `needs-review` pages**;
 - Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
@@ -55,9 +55,7 @@ Physical window: **51–75**.
 - durable result: **physical scans 1–75 fully `verified`**;
 - final C03 cumulative status: **0 `partial`, 362 `needs-review`, 103 `verified`**.
 
-### C03 source / transcription control
-
-The user supplied full word-for-word transcriptions derived from exact extracts of the same controlling PDF for all remaining C03 lexical targets. Those words were retained as the lexical base. The controlling scan independently determined **page boundaries, lineation, punctuation, quotations, running headers/page numbers, titles, separators, parenthetical performance notes, speaker labels, illustrations and closing ornaments**.
+The user supplied full word-for-word transcriptions derived from exact extracts of the same controlling PDF for all remaining C03 lexical targets. Those words were retained as the lexical base. The controlling scan independently determined page boundaries, lineation, punctuation, quotations, running headers/page numbers, titles, separators, parenthetical performance notes, speaker labels, illustrations and closing ornaments.
 
 Durable C03 structure:
 
@@ -67,13 +65,7 @@ Durable C03 structure:
 - scans **70–71** were already verified and were preserved;
 - scan **72 / printed 55** opens `விடுதலை வீரர்கள்` with its two-line title, `15.8.67` Tiruchi radio-event note and centered star separator;
 - scan **74 / printed 57** preserves parenthetical performance notes separately from `தலைவர் கலைஞர்:` speaker labels and verse;
-- scan **75 / printed 58** contains a large mounted-warrior illustration in the lower half; the flattened `20 200 100` extraction is illustration/OCR noise and is not archived as printed text;
-- `விடுதலை வீரர்கள்` continues beyond scan 75 into scan 76.
-
-### C03 status movement
-
-Before final C03 lexical closure: **0 `partial`, 384 `needs-review`, 81 `verified`**.  
-After C03: **0 `partial`, 362 `needs-review`, 103 `verified`**.
+- scan **75 / printed 58** contains a large mounted-warrior illustration; flattened numeric OCR noise is excluded as non-text.
 
 ## Phase 2 Clearance Batch C04 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
@@ -83,25 +75,26 @@ All 25 physical scans were inspected directly for item boundaries, title/context
 
 Durable source-established structure:
 
-- scans **76–79** continue `விடுதலை வீரர்கள்`; scan **79 / printed 62** closes the item with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
-- scan **80** opens `ஐம்புலன்` with the printed title, the `24.3.68` Vaniyambadi Islamic College event note, and a centered star separator; `ஐம்புலன்` continues through scan **89 / printed 72**, which closes with `வணக்கம்.` and a centered floral ornament;
-- scans **80–89** repeatedly separate `தலைவர் கலைஞர்:` speaker passages from parenthetical notes recording other poets finishing their pieces; these are structural source elements and must not be flattened into one verse block;
-- scan **90** opens `பிலவங்க ஆண்டு` with the printed title, the `13.4.68` Chennai radio-event note, and a centered star separator; the item continues through scan **100 / printed 83**, which closes with `வணக்கம்.` and a centered floral ornament;
-- scans **90–100** likewise mix the chairman's verse/speaker passages with parenthetical performance notes for participating poets; preserve those as separate source structures.
+- scans **76–79** continue `விடுதலை வீரர்கள்`; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
+- scan **80** opens `ஐம்புலன்` with the printed title, `24.3.68` Vaniyambadi Islamic College event note and centered star separator; scan **89 / printed 72** closes with `வணக்கம்.` and a centered floral ornament;
+- scan **90** opens `பிலவங்க ஆண்டு` with the printed title, `13.4.68` Chennai radio-event note and centered star separator; scan **100 / printed 83** closes with `வணக்கம்.` and a centered floral ornament;
+- scans **80–89** and **90–100** interleave `தலைவர் கலைஞர்:` passages with parenthetical notes for participating poets; those remain separate source structures.
 
 ### C04 lexical clearance progress
 
-- scan **79 / printed 62** has received a complete direct source-critical glyph/word-ending, punctuation and lineation pass and is `verified`;
-- the scan-79 pass restores source-backed forms including `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`, and confirms the final `வணக்கம்! / வாழ்க!` plus centered floral ornament;
-- **C04 ten-page iteration A** directly reviewed unresolved scans **76–78 and 80–86** (10 pages), preserving scan 79 as already verified;
-- source-backed refinements made in iteration A include scan 76 `நன்று நன்று.` / `பேரதிர்ச்சிப் பெரும்புயலைத்`, scan 77 `கப்பல்விட்ட` / `மாநில`, scan 80 `கல்லூரிப் பெருமன்றில்`, scan 82 `அடக்குதல்` / `அடக்கத் தவம்`, scan 85 `எல்லாம் மெய் என்று`, and scan 86 `இவர்பக்கம்`, together with direct reconciliation of title/context, speaker and parenthetical performance structures;
-- none of the 10 iteration-A pages was promoted because each still contains at least one compact lexical/glyph span that cannot be certified without inference at the available source rendering;
-- remaining C04 targets are still **76–78, 80–100 (24 pages)**; iteration-A pages are now direct-reviewed residuals rather than untouched first-pass pages.
+- scan **79 / printed 62** is complete-pass `verified`;
+- **ten-page iteration A** directly reviewed unresolved scans **76–78 and 80–86**; none was promoted because each retained at least one compact lexical/glyph span;
+- **ten-page iteration B** directly reviewed scans **87–96**;
+- scan **89 / printed 72** reached a complete source-critical pass and is now `verified`; source-backed corrections include `தொடக்குவீர்`, `சொல்வீராயினும்`, `இவையின்றி`, and final `வணக்கம்.` plus the centered floral ornament;
+- iteration-B direct refinements include scan 87 `அலையோடும்` / `காவிரியின் வளவன் கிள்ளி வளவன்` / `கரிகால் வளவன்`, scan 90 title/context plus `பின்னுக்குத் தள்ளி` / `இலவங்காய்ப் போல`, scan 93 the six virtue names and `வேறொருத்தி` / `ஆறாமவள்`, scan 94 the `சௌந்தரா கைலாசம்` performance transition, and scan 95 `உதைக்க அல்ல!` / `அறுக்கத்தான் கத்தி வேண்டும்` / the visible `அடக்கம்` wordplay;
+- scans **87–88, 90–96** remain `needs-review` because at least one compact lexical/glyph span on each cannot yet be certified without inference;
+- untouched C04 scans after iteration B: **97–100**;
+- total unresolved C04 pages: **23** — **76–78, 80–88, 90–100**.
 
 ### C04 status movement
 
 After scan-79 promotion: **0 `partial`, 361 `needs-review`, 104 `verified`**.  
-After ten-page iteration A: **unchanged — 0 `partial`, 361 `needs-review`, 104 `verified`**.
+After ten-page iteration B / scan-89 promotion: **0 `partial`, 360 `needs-review`, 105 `verified`**.
 
 ## Phase-2 completion assessment
 
@@ -109,7 +102,7 @@ After ten-page iteration A: **unchanged — 0 `partial`, 361 `needs-review`, 104
 - **Phase-2 page clearance: NOT COMPLETE**;
 - **durable contiguous verified boundary: scans 1–75**;
 - **Phase 3: BLOCKED**;
-- unresolved backlog: **361 page records**.
+- unresolved backlog: **360 page records**.
 
 Verified pages must not be reopened merely for uniformity. Reopen a verified page only if new direct-source evidence reveals a discrepancy.
 
@@ -126,4 +119,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — ten-page iteration B: process physical scans 87–96**. Independently compare `pages/0087.md`–`pages/0096.md` with the controlling scans, preserve the established `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary and all speaker/performance structures, correct only source-backed differences, and promote only complete passes. Keep the iteration-A residuals **76–78 and 80–86** open for later exact lexical closure (or immediate closure if the user supplies exact-source word-for-word transcription). Do **not** begin C05, Phase 3, canonical assembly or translation.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration C: process scans 97–100 plus residual scans 76–78 and 80–82** (**10 physical pages total**). First inspect untouched scans **97–100**, then revisit the six earliest direct-reviewed residuals **76–78, 80–82** for deeper exact lexical closure. Preserve all established source boundaries and speaker/performance structures, promote only complete passes, and do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
