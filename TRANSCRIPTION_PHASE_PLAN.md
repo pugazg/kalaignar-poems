@@ -20,9 +20,9 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - Phase 1: **COMPLETE, batches 01–19**;
 - Phase 2 source-coverage Batches 01–19, scans **1–465: COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative verified pages: **42 — 0001, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- cumulative status: **0 `partial`, 423 `needs-review`, 42 `verified`**;
-- unresolved Phase-2 backlog: **423 page records**.
+- cumulative verified pages: **43 — 0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 422 `needs-review`, 43 `verified`**;
+- unresolved Phase-2 backlog: **422 page records**.
 
 Source-coverage Batch 19 completed the independent source reread across the full 465-scan PDF. That does not equal page clearance: Phase 3 remains blocked while `needs-review` pages remain.
 
@@ -30,15 +30,15 @@ Source-coverage Batch 19 completed the independent source reread across the full
 
 C01 targets unresolved scans **2–17 and 21–25**, skipping already verified scans **1 and 18–20**.
 
-Complete direct-source passes have promoted scans **3, 5, 14, 15, 16 and 17**. Scan 16 now has a complete contents-witness clearance, including `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா`, `பன்னீர்ச் செல்வமே`, and `கலைத்தாயின் தலைச்செல்வன்` with their printed page references.
+Complete direct-source passes have promoted scans **2, 3, 5, 14, 15, 16 and 17**. Scan 2 now clears the title/author block, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, and `(தொலைபேசி) 434 02 05`. Scan 16 has a complete contents-witness clearance, including `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா`, `பன்னீர்ச் செல்வமே`, and `கலைத்தாயின் தலைச்செல்வன்` with their printed page references.
 
-Residual C01 scans: **2, 4, 6–13, 21–25**.
+Residual C01 scans: **4, 6–13, 21–25**.
 
 The user-supplied page-range derivatives are rendering aids derived from the same controlling PDF. They are not separate witnesses.
 
 ### Exact next activity
 
-Continue **Phase 2 Clearance Batch C01 — residual physical scans 2, 4, 6–13 and 21–25**. Reinspect only those pages, resolve only source-backed uncertainty, and promote only complete passes. Do not advance to C02 while this residual window remains open.
+Continue **Phase 2 Clearance Batch C01 — residual physical scans 4, 6–13 and 21–25**. Reinspect only those pages, resolve only source-backed uncertainty, and promote only complete passes. Do not advance to C02 while this residual window remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
