@@ -64,7 +64,7 @@ Scans 351–375 were independently inspected from the exact controlling-source p
 
 ### Source-backed corrections applied
 
-- scan **351**: corrected the continuation to `தாழ்வுற்றோர் அறிவுரிமை பெற வாழ்ந்தான்!` and `ஆண்ட செயல் எனவோ;` → `அவன் செயல் எனவோ;`;
+- scan **351**: corrected the continuation to source-visible `தாழ்வுற்றோர் அறிவுரிமையின்றித் தாழ்ந்து தாழ்ந்திடச்` and `ஆண்ட செயல் எனவோ;` → `அவன் செயல் எனவோ;`;
 - scan **352**: `உடமைகள்` → source-visible `உவமைகள்`;
 - scan **357**: `தேடிக்கிடக்காத` → source-visible `தேடிக்கிடைக்காத`;
 - scan **358**: `தனி, நிறை` → `தகுதி, திறமை`, `மூனை` → `மூளை`, `தலைக்குள்ளோ` → `தலைக்குள்ளே`, and `பிறமன்` → `பிரமன்`;
