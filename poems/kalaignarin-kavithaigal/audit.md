@@ -79,7 +79,7 @@ After C03: **0 `partial`, 362 `needs-review`, 103 `verified`**.
 
 Physical window: **76–100**.
 
-All 25 physical scans were inspected directly for item boundaries, title/context blocks, running headers/printed page numbers, speaker/performance structure, separators and closing ornaments. Lexical/glyph clearance is now proceeding page by page directly from the controlling scan where a complete pass is safe.
+All 25 physical scans were inspected directly for item boundaries, title/context blocks, running headers/printed page numbers, speaker/performance structure, separators and closing ornaments. Lexical/glyph clearance is proceeding in user-directed **10-page iterations**.
 
 Durable source-established structure:
 
@@ -91,13 +91,17 @@ Durable source-established structure:
 
 ### C04 lexical clearance progress
 
-- scan **79 / printed 62** has now received a complete direct source-critical glyph/word-ending, punctuation and lineation pass and is `verified`;
-- the pass restores source-backed forms including `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`, and confirms the final `வணக்கம்! / வாழ்க!` plus centered floral ornament;
-- remaining C04 targets: **76–78, 80–100 (24 pages)**.
+- scan **79 / printed 62** has received a complete direct source-critical glyph/word-ending, punctuation and lineation pass and is `verified`;
+- the scan-79 pass restores source-backed forms including `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`, and confirms the final `வணக்கம்! / வாழ்க!` plus centered floral ornament;
+- **C04 ten-page iteration A** directly reviewed unresolved scans **76–78 and 80–86** (10 pages), preserving scan 79 as already verified;
+- source-backed refinements made in iteration A include scan 76 `நன்று நன்று.` / `பேரதிர்ச்சிப் பெரும்புயலைத்`, scan 77 `கப்பல்விட்ட` / `மாநில`, scan 80 `கல்லூரிப் பெருமன்றில்`, scan 82 `அடக்குதல்` / `அடக்கத் தவம்`, scan 85 `எல்லாம் மெய் என்று`, and scan 86 `இவர்பக்கம்`, together with direct reconciliation of title/context, speaker and parenthetical performance structures;
+- none of the 10 iteration-A pages was promoted because each still contains at least one compact lexical/glyph span that cannot be certified without inference at the available source rendering;
+- remaining C04 targets are still **76–78, 80–100 (24 pages)**; iteration-A pages are now direct-reviewed residuals rather than untouched first-pass pages.
 
 ### C04 status movement
 
-After scan-79 promotion: **0 `partial`, 361 `needs-review`, 104 `verified`**.
+After scan-79 promotion: **0 `partial`, 361 `needs-review`, 104 `verified`**.  
+After ten-page iteration A: **unchanged — 0 `partial`, 361 `needs-review`, 104 `verified`**.
 
 ## Phase-2 completion assessment
 
@@ -122,4 +126,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–78 and 80–100**. Preserve the source-layout map recorded above. If the user supplies full word-for-word transcription from exact controlling-PDF extracts for this range, retain those words as the lexical base and independently reconcile punctuation, lineation, quotation continuity, speaker/performance labels, separators and ornaments against the scan. Promote only complete passes and do **not** begin Phase 3, canonical assembly or translation.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration B: process physical scans 87–96**. Independently compare `pages/0087.md`–`pages/0096.md` with the controlling scans, preserve the established `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary and all speaker/performance structures, correct only source-backed differences, and promote only complete passes. Keep the iteration-A residuals **76–78 and 80–86** open for later exact lexical closure (or immediate closure if the user supplies exact-source word-for-word transcription). Do **not** begin C05, Phase 3, canonical assembly or translation.
