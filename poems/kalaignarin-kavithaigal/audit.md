@@ -54,17 +54,18 @@ The contents witness is preserved as printed rather than normalized from later p
 ### Residual reread progress
 
 - scan **4** — the first two `என்னுரை` paragraphs and opening lines of the third paragraph were restored directly. A further punctuation pass now preserves source-visible `“கவிதையல்ல”.`, removes the earlier editorial dash after `1967-ஆம் ஆண்டு`, and restores the comma in `என்றில்லாமல், அந்தப்`; the lower compact continuation remains unresolved.
+- scan **6** — direct source restores `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த` in the opening paragraph and corrects `உணர்வினில் தெளிவும் திட்பமும் இருக்க வேண்டும்.` to source-visible `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`; other compact prose remains unresolved.
 - scan **7 / printed VI** — direct source corrects the earlier `மேலும் தென்னமய மிக்க தமிழ் மொழியின் இளமை` to source-visible `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`; surrounding compact prose remains unresolved.
 - scan **8 / printed VII** — direct source corrects the opening from `சுவைகளின் உணர்வுகளை வாரிக் வழங்கவல்லவன் கவிஞன்.` to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; the rest of the page remains compact/blur-sensitive.
 - scan **9 / printed VIII** — direct source confirms `வள்ளுவர்`, correcting the earlier `வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்`, correcting `தமிழ்ப் பன்னாளர்கள்`; other compact prose remains unresolved.
 - scan **10 / printed IX** — direct source corrects the closing `அணிந்துரை` signature from the erroneous `மா.நன்னன்` to `க. அன்பழகன்`; the date/location remain `சென்னை-7` / `15.5.82`; other compact prose and part of the closing quotation remain unresolved.
 - scan **11** — the direct scan confirms `ஓசையை` with initial long `ஓ`; the earlier `ஒசையை` reading was corrected. Other compact prose remains unresolved.
-- scan **13 / printed XII** — direct rereading confirms `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, correcting the earlier `என்னுவோர்`; surrounding categorizing prose remains unresolved.
+- scan **13 / printed XII** — direct rereading corrects the opening `கலைஞரும் பாடல்களில்` to source-visible `கலைஞர்தம் பாடல்களில்` and confirms `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, correcting the earlier `என்னுவோர்`; surrounding categorizing prose remains unresolved.
 - scan **21 / printed 4** — direct rereading corrects the fourth line ending to `பறப்பேன்!`, confirms `ஒரு கோடித் தமிழ் இளைஞர்,`, and further corrects `மணி மாறிவிட்டதே?` to source-visible `மணி மாறிப்போச்சே?`; central/lower compact verse remains unresolved, so scan 21 stays `needs-review`.
 - scan **22 / printed 5** — direct rereading corrects `உலகிடும் காற்றில்` to source-visible `உலவிடும் காற்றில்`; central/closing compact verse remains unresolved.
 - scan **23 / printed 6** — direct source restores `காதலர்கள்`, the line `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண`; a further direct pass corrects `“மரக்கணையிலே பிணம்!”` to source-visible `“மரக்கிளையிலே பிணம்!”`; other compact verse/quotation context remains unresolved.
 - scan **24 / printed 7** — direct source corrects `மணோன்மணியம்` to source-visible `மனோன்மணியம்`; remaining compact verse blocks remain unresolved.
-- scan **25 / printed 8** — direct rereading corrects the opening to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirms `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, and restores `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`; later compact verse remains unresolved.
+- scan **25 / printed 8** — direct rereading corrects the opening to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirms `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, restores `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and directly restores the following line `தொடங்கினார் போரே!`; later compact verse remains unresolved.
 
 ### Residual C01 pages
 
@@ -80,7 +81,7 @@ Before C01: **2 `partial`, 427 `needs-review`, 36 `verified`**.
 After the first C01 pass: **0 `partial`, 425 `needs-review`, 40 `verified`**.  
 After contents residual clearance through scans 15–16: **0 `partial`, 423 `needs-review`, 42 `verified`**.  
 After scan-2 title-page clearance: **0 `partial`, 422 `needs-review`, 43 `verified`**.  
-The latest residual source refinements improve fidelity on scans 4, 7–11, 13 and 21–25 but do not change page-status counts.
+The latest residual source refinements improve fidelity on scans 4, 6–13 and 21–25 but do not change page-status counts.
 
 ## Phase-2 completion assessment
 
