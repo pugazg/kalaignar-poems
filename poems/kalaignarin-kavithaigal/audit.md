@@ -2,7 +2,7 @@
 
 ## Current state
 
-**PHASE 1 COMPLETE — 465/465 records. PHASE 2 SOURCE-COVERAGE PASS COMPLETE — ALL 465 PHYSICAL SCANS HAVE BEEN INDEPENDENTLY REREAD. PHASE 2 CLEARANCE REMAINS IN PROGRESS. CLEARANCE BATCHES C01–C02 ARE COMPLETE.**
+**PHASE 1 COMPLETE — 465/465 records. PHASE 2 SOURCE-COVERAGE PASS COMPLETE — ALL 465 PHYSICAL SCANS HAVE BEEN INDEPENDENTLY REREAD. PHASE 2 CLEARANCE REMAINS IN PROGRESS. CLEARANCE BATCHES C01–C02 ARE COMPLETE. C03 SOURCE-LAYOUT REVIEW IS COMPLETE; C03 LEXICAL CLEARANCE REMAINS OPEN.**
 
 - controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - physical PDF pages: **465**;
@@ -62,15 +62,31 @@ Important structural/source findings include:
 Before C02: **0 `partial`, 408 `needs-review`, 57 `verified`**.  
 After C02: **0 `partial`, 385 `needs-review`, 80 `verified`**.
 
-## Phase 2 Clearance Batch C03 — NEXT
+## Phase 2 Clearance Batch C03 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
 Physical window: **51–75**.
 
 - already verified in this window: **70, 71**;
 - unresolved C03 targets: **51–69, 72–75**;
-- unresolved target count: **23 pages**.
+- unresolved target count: **23 pages**;
+- C03 pages promoted in this source-layout activity: **0**;
+- cumulative totals therefore remain **0 `partial`, 385 `needs-review`, 80 `verified`**.
 
-The controlling scan must be reread page by page. Do not infer a poem/work boundary merely from existing Markdown. Promote only complete glyph/punctuation/lineation/quotation/separator/non-Tamil passes.
+All 23 unresolved physical scans were inspected directly for source structure and page-level layout. The source establishes these item boundaries and non-lexical controls:
+
+- scans **51–54** continue `இந்திரஜித்`; scan **54 / printed 37** closes the item with a centered floral ornament;
+- scan **55 / printed 38** opens `இரணியன்`; the item runs through scan **61 / printed 44**, which closes with a centered floral ornament;
+- scan **62 / printed 45** opens `வாளி மன்னன்`; the item runs through scan **69 / printed 52**, which closes with a centered floral ornament;
+- scans **70–71** were already verified and were not reopened merely for uniformity;
+- scan **72 / printed 55** opens `விடுதலை வீரர்கள்` with its printed two-line title, the `15.8.67` Tiruchi radio-event note and a centered star separator;
+- scan **74 / printed 57** visibly mixes verse with parenthetical performance notes and `தலைவர் கலைஞர்:` speaker labels; those are separate source structures and must not be flattened into one verse block;
+- scan **75 / printed 58** contains a large mounted-warrior illustration in the lower half; illustration pixels are not text; `விடுதலை வீரர்கள்` continues into scan 76.
+
+### C03 clearance decision
+
+The existing page Markdown for scans **51–69 and 72–75** still contains numerous provisional first-pass lexical readings and mis-segmented compounds. Direct layout inspection alone does not justify silently treating those words as exact. Because a complete page requires every glyph/word ending as well as punctuation/lineation/quotation to pass, **none of the 23 C03 targets was promoted merely on structural evidence**.
+
+This is a deliberate source-critical hold, not a missing batch review. The structural map is now fixed; the remaining work is exact lexical/glyph reconciliation against the same controlling source, preferably with a reliable exact-source word-for-word aid when available.
 
 ## Phase-2 completion assessment
 
@@ -94,4 +110,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Execute **Phase 2 Clearance Batch C03 — physical scans 51–75**, skipping already verified scans **70 and 71**. Reinspect unresolved targets **51–69 and 72–75**, correct only source-backed differences, promote only complete passes, synchronize status-bearing files, and do **not** begin Phase 3, canonical assembly or translation.
+Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–69 and 72–75** against the controlling source. Preserve the now-established structure, promote only complete passes, and do **not** advance to C04, Phase 3, canonical assembly or translation while these 23 C03 pages remain unresolved.
