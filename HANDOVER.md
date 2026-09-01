@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the immediately preceding review boundary `pages/0400.md` and next target `pages/0401.md`;
+4. inspect the immediately preceding review boundary `pages/0425.md` and next target `pages/0426.md`;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
 6. synchronize status-bearing files after each verification batch.
 
@@ -38,7 +38,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–16 COMPLETE — scans 1–400 independently reread.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 Verification Batches 01–17 COMPLETE — scans 1–425 independently reread.**
 
 Current cumulative page status:
 
@@ -49,24 +49,25 @@ Current cumulative page status:
 
 Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393**.
 
-Phase-2 Batch 16 outcomes:
+Phase-2 Batch 17 outcomes:
 
-- scans **376–378** — `கலைத்தாயின் தலைச் செல்வன்!`; closes at **378 / printed 361**;
-- scans **379–381** — `உன் நிழலாக அசைகின்றோம்!`; closes at **381 / printed 364**;
-- scans **382–383** — `வாழ்க ஜீவா!`; closes at **383 / printed 366**;
-- scans **384–389** — `மறைந்த மாவீரன்`; closes at **389 / printed 372**;
-- scans **390–391** — source-visible `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`; closes at **391 / printed 374**;
-- scan **392** — `மலர்த் தோட்டம்` section divider; complete-pass `verified`;
-- scan **393** — divider verso with border/show-through only; complete-pass `verified`;
-- scans **394–395** — `இன்றைக்கு உன் பிறந்த நாள்`; closes at **395 / printed 378**;
-- scans **396–397** — `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!`; closes at **397 / printed 380**;
-- scans **398–399** — `அருமருந்தே! அன்புறவு உடன்பிறப்பே!`; closes at **399 / printed 382**;
-- scan **400** — `பகுத்தறிவுப் பாண்டியனார்!` opens and remains unfinished beyond the batch boundary;
-- direct-source corrections include `ஏழைகளைச்`, `நாட்டுக் குரலுக்கும்`, the title `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, scan-395 `கரம் அணைக்கும்` / `வாழ்வையே ஒரு பாடமாய் அனைவருக்கும் தந்த நாட்டினாய்!!` / `இன்றைக்கு உன்றன் பிறந்த நாள்`, and scan-397 `அவனைத்தான்`.
+- scans **401–402** — continuation/conclusion of `பகுத்தறிவுப் பாண்டியனார்!`; closes at **402 / printed 385**;
+- scans **403–409** — seven source-established single-scan items: `நியாயத் தராசு`, `ஏற்பாரோ?`, `புயல் என அறிக!`, `கேட்டதுண்டோ?`, `வருணமா? மரணமா?`, `தோல்வி எப்பொழுது?`, `இன்றுமா கூச்சல்?`;
+- scans **410–412** — `பச்சைக் கிளி`; closes at **412 / printed 395**;
+- scans **413–414** — `கற்பனை ஊற்று`; closes at **414 / printed 397**;
+- scans **415–416** — `வானமே பொழிக நீ!`; closes at **416 / printed 399**;
+- scan **417** — `கவிதையில் ஒரு மடல்!`; single-scan item;
+- scans **418–419** — `அவர் உணர்வாரோ! யார் அறிவார்?`; closes at **419 / printed 402**;
+- scans **420–421** — `போர்வாளாய்ச் சுழலட்டுமே!`; closes at **421 / printed 404**;
+- scans **422–424** — `இன்னும் யார் யார் பெயர்கள் வரவில்லை?`; closes at **424 / printed 407**;
+- scan **425** — `ஒரு சொட்டுத் தேன்!` opens and remains unfinished beyond the batch boundary;
+- no page in Batch 17 was promoted without a complete pass.
 
-## Batch-17 source-access note
+Direct-source corrections include `சொல்வது`, `திரும்பிப் பார்க்க மறவாத இயக்கமென நிகழ்ச்சியில் தானுறும்!`, the title/refrain `கேட்டதுண்டோ?`, `அனுபவம் பெற்றேன்`, restored visible lines below the cage illustration, `திறந்து`, `கஷ்டம்`, `கூண்டினில்`, `ஏனோ`, `ஆர்லாண்டோ`, the separated scan-415 lines `மின்னிடும் உன் சிரிப்பு எங்கே?` / `முழங்கிடும் இடி பேச்செங்கே?`, `அரிந்திடுக`, `கண்மூடித் திறப்பதற்குள்`, and the scan-425 readings `பசி நோக்கார்`, `கண்ணாயினார்`, `பனிக்`, `பூண்டுள்ளோம்`, `பணக்கோட்டை`.
 
-The user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`, a rendering/access derivative from the exact controlling PDF, not a separate witness. Derivative page 1 = physical scan 350; therefore physical scans **401–425 = derivative pages 52–76**.
+## Batch-18 source-access note
+
+The user supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`, a rendering/access derivative from the exact controlling PDF, not a separate witness. Derivative page 1 = physical scan 350; therefore physical scans **426–450 = derivative pages 77–101**.
 
 ## Phase-2 rule
 
@@ -78,6 +79,6 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Verification Batch 17 — physical scans 401–425**.
+Execute **Phase 2 Verification Batch 18 — physical scans 426–450**.
 
-Continue directly from the unfinished `பகுத்தறிவுப் பாண்டியனார்!` at scan 400/401. Independently reread scans 401–425 against the controlling source, compare with `pages/0401.md`–`pages/0425.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. Use the pages-350–465 derivative pages 52–76 as the direct rendering aid. At completion synchronize all status-bearing files to the next live Phase-2 boundary. Do not begin Phase 3, canonical assembly, or translation.
+Continue directly from the unfinished `ஒரு சொட்டுத் தேன்!` at scan 425/426. Independently reread scans 426–450 against the controlling source, compare with `pages/0426.md`–`pages/0450.md`, apply only source-backed corrections, and promote only fully passing pages to `verified`. Use the pages-350–465 derivative pages 77–101 as the direct rendering aid. At completion synchronize all status-bearing files to the next live Phase-2 boundary. Do not begin Phase 3, canonical assembly, or translation.
