@@ -15,7 +15,7 @@
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; Clearance C01 COMPLETE; C02 NEXT; Phase 3 BLOCKED** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; Clearance C01–C02 COMPLETE; C03 NEXT; Phase 3 BLOCKED** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -29,15 +29,15 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 — COMPLETE**;
-- cumulative status: **0 partial, 408 needs-review, 57 verified**;
-- unresolved backlog: **408 pages**;
-- verified so far: **0001–0025, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- exact next activity: **Phase 2 Clearance Batch C02 — physical scans 26–50, skipping already verified scans 32 and 33**.
+- cumulative status: **0 partial, 385 needs-review, 80 verified**;
+- unresolved backlog: **385 pages**;
+- verified so far: **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- exact next activity: **Phase 2 Clearance Batch C03 — physical scans 51–75, skipping already verified scans 70 and 71**.
 
-### Clearance C01 — complete
+### Clearance C01–C02 — complete through scan 50
 
-C01 covered the unresolved records inside physical scans **1–25**. After the final source-critical pass, **all scans 1–25 are now `verified`**.
+C01 cleared the unresolved records inside physical scans **1–25**. C02 then cleared all unresolved records inside physical scans **26–50**; scans **32 and 33** had already been verified. The durable contiguous verified boundary is now therefore **physical scans 1–50**.
 
-The final nine residual pages — **4, 6–10, 12–13 and 25** — were completed from user-supplied word-for-word transcriptions of exact page-range derivatives of the controlling PDF, reconciled against the controlling scans. Those derivatives remain access aids to the same source, not separate witnesses.
+For C02, user-supplied word-for-word extraction from exact page-range derivatives of the same controlling PDF provided the lexical base; the controlling scans were independently checked for lineation, punctuation, quotation structure, page carry-over, illustrations, ornaments and other non-lexical source features before promotion.
 
 Phase 2 independently rereads the controlling scan. OCR, remembered wording, metre, grammar, historical expectation and separate editions are not authority for unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
