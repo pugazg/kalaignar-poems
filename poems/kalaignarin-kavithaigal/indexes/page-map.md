@@ -13,62 +13,43 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 **PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
-- unresolved backlog: **429 pages**;
+- cumulative status: **0 `partial`, 425 `needs-review`, 40 `verified`**;
+- unresolved backlog: **425 pages**;
 - Phase 3 remains blocked until unresolved Phase-2 pages are cleared.
 
-## Phase-2 Batch 17 — scans 401–425
+## Phase-2 source-coverage completion
 
-| Scans | Visible role / section | Phase-2 outcome |
+Coverage Batches 01–19 account for all physical scans **1–465**. The final coverage batch closes the anthology body at scan 464 / printed 447 and verifies scan 465 as the final full-colour back cover.
+
+## Phase-2 Clearance Batch C01 — first pass
+
+Target window: unresolved scans **2–17 and 21–25**; already verified scans **1 and 18–20** were skipped.
+
+| Scan(s) | Visible role / section | Clearance outcome |
 |---:|---|---|
-| 401–402 | `பகுத்தறிவுப் பாண்டியனார்!` | reviewed; closes at 402 / printed 385 |
-| 403–409 | seven single-scan items | reviewed |
-| 410–412 | `பச்சைக் கிளி` | reviewed; closes at 412 / printed 395 |
-| 413–414 | `கற்பனை ஊற்று` | reviewed; closes at 414 / printed 397 |
-| 415–416 | `வானமே பொழிக நீ!` | reviewed; closes at 416 / printed 399 |
-| 417 | `கவிதையில் ஒரு மடல்!` | reviewed; single-scan item |
-| 418–419 | `அவர் உணர்வாரோ! யார் அறிவார்?` | reviewed; closes at 419 / printed 402 |
-| 420–421 | `போர்வாளாய்ச் சுழலட்டுமே!` | reviewed; closes at 421 / printed 404 |
-| 422–424 | `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` | reviewed; closes at 424 / printed 407 |
-| 425 | `ஒரு சொட்டுத் தேன்!` | reviewed; opens and remains open |
+| 2 | title page / publisher block | reinspected; small imprint/telephone detail still prevents complete pass |
+| 3 | English imprint / price | complete-pass `verified` |
+| 4 | `என்னுரை` opening | reinspected; dense unresolved prose remains |
+| 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
+| 6–13 | `அணிந்துரை` / `புறவுரை` | reinspected; compact prose remains unresolved |
+| 14 | `பதிப்புரை` | resolved `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`; complete-pass `verified` |
+| 15 | contents | reinspected; small-type title strings remain unresolved |
+| 16 / XV | contents continuation | corrected `தமிழ் வளர வழிநடைப் பயணம்`; other small-type entries remain unresolved |
+| 17 / XVI | contents continuation | complete-pass `verified` as printed contents witness |
+| 21–25 | `இதயத்தைத் தந்திடு அண்ணா` | reinspected; compact/blurred verse blocks remain unresolved |
 
-## Phase-2 Batch 18 — scans 426–450
+### Residual C01 window
 
-| Scans | Visible role / section | Phase-2 outcome |
-|---:|---|---|
-| 426–427 | `ஒரு சொட்டுத் தேன்!` | reviewed; closes at 427 / printed 410 |
-| 428 | `விதையாய் முளைத்து விழுதுகள் விட்டோம்!` | reviewed; single-scan item |
-| 429–432 | `சூரியனைப் பனிக்கட்டி என்கிறாய்!` | reviewed; closes at 432 / printed 415 |
-| 433–434 | `நடையை நிறுத்தாதே!` | reviewed; closes at 434 / printed 417 |
-| 435–437 | `பாமர் நிறைந்த பட்டிக்காடு!` | reviewed; closes at 437 / printed 420 |
-| 438–439 | `கொள்ளை போதும்மா தமிழ்நாடு` | reviewed; closes at 439 / printed 422 |
-| 440–442 | `என்ன தேசமடா இது?` | reviewed; closes at 442 / printed 425 |
-| 443–445 | `முடியுமா? கிழித்தெறிவோம் வாரீர்!` | reviewed; closes at 445 / printed 428 |
-| 446–447 | `பதில் என்ன? பகர்ந்திடுக!` | reviewed; scan 447 complete-pass `verified`; closes at printed 430 |
-| 448–449 | `கா, கா, கா!` | reviewed; closes at 449 / printed 432 |
-| 450 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` | reviewed; opens and remains open |
+**2, 4, 6–13, 15–16, 21–25** remain `needs-review`.
 
-## Phase-2 Batch 19 — scans 451–465
+## Verified pages after C01 first pass
 
-| Scans | Visible role / section | Phase-2 outcome |
-|---:|---|---|
-| 451–452 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` continuation/conclusion | reviewed; closes at 452 / printed 435 |
-| 453–454 | `திசை திருப்பல் நியாயம்தானா?` | reviewed; closes at 454 / printed 437 |
-| 455–456 | `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` | reviewed; closes at 456 / printed 439 |
-| 457–460 | `சில நாடுகள் இருக்கின்றன` | reviewed; closes at 460 / printed 443 |
-| 461–464 | `உன் காலணியை வாழ்த்துகிறாய்` | reviewed; closes at 464 / printed 447; scan 464 source-backed corrections retained |
-| 465 | back cover — `கலைஞர் / கவிதைகள்` | complete-pass `verified`; final physical scan |
-
-### Batch-19 source-backed corrections
-
-- scan 464: `ஏழை எளிய உடன் பிறப்பு நீ!`;
-- scan 464: parenthetical `கலைஞர் தனது 58-வது பிறந்தநாள்`;
-- scan 465: final back cover complete-pass `verified`.
+**0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Source-access note
 
-The user-supplied page-range derivatives are rendering aids from the same controlling PDF, not separate witnesses. In `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`, derivative page 1 = physical scan 350; derivative pages 102–116 = physical scans 451–465.
+User-supplied page-range derivatives are rendering aids from the same controlling PDF, not separate witnesses. The exact controlling scan remains authoritative.
 
 ## Next mapping / verification activity
 
-**Phase 2 Clearance Batch C01 — unresolved scans 2–17 and 21–25.** Scans 1 and 18–20 are already `verified` and are skipped absent a direct-source discrepancy. Phase-3 physical↔printed-page reconciliation remains blocked until Phase-2 clearance completes.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13, 15–16 and 21–25**. Do not advance to C02 or Phase 3 while this residual window remains open.
