@@ -61,14 +61,20 @@ Processed exactly **87–96**.
 
 - scan **89 / printed 72** reached a complete source-critical pass and is now `verified`;
 - scan 89 confirms `தொடக்குவீர்`, `சொல்வீராயினும்`, `இவையின்றி`, final `வணக்கம்.` and centered floral ornament;
-- scan 87 received direct corrections including `அலையோடும்`, `காவிரியின் வளவன் கிள்ளி வளவன்`, `கரிகால் வளவன்`;
-- scan 90 title/context/star and clear opening readings were reconciled;
-- scan 93 six personified virtue names were reconciled, including `வேறொருத்தி` and `ஆறாமவள்`;
-- scan 94 preserves `சௌந்தரா கைலாசம்` and the `இனியவை கூறல்` performance transition;
-- scan 95 preserves clear `அடக்கம்` wordplay;
-- scans **87–88, 90–96** remain `needs-review` because compact lexical spans remain.
+- scans **87–88, 90–96** remain `needs-review` after direct review.
 
-Current C04 unresolved set: **76–78, 80–88, 90–100 (23 pages)**. Untouched after iterations A/B: **97–100**.
+### Iteration C
+
+Processed exactly **10 physical pages: 97–100 plus residual 76–78 and 80–82**.
+
+- scans **76–78, 80–82** received a second direct visual pass; prior source-backed corrections remain valid but each still retains at least one compact unresolved lexical/glyph span;
+- scan **97** now preserves `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`, the `கவிஞர் நூர் முகம்மது` performance note and separate `அடுத்து இன்னா செய்யாமை:` transition;
+- scan **98** now preserves the `கவிஞர் சுரதா` / `கவிஞர் தூரன்` performance boundaries plus the source-visible `அருளுடைமை` opening `பொருளுடைமையார்க் கிவ்வுலகம் / அருளுடையார்க் கவ்வுலகமென்று / இருளுடையார் நெஞ்சத்தில் விளக்கேற்றி வைத்தார்`;
+- scan **99** now preserves `மலர் குவிப்பார் என்றிருந்தேன்`, `மலர் குவித்ததால்`, and the ethical-heading sequence `இனியவை கூறல் / இன்னா செய்யான் / அடக்கம் காப்பான் / அருளை வணங்குவான்;`;
+- scan **100** had its physical ending, final `வணக்கம்.` and centered floral ornament rechecked directly; compact line-internal readings still block promotion;
+- **no additional page was promoted in iteration C**.
+
+Current C04 unresolved set remains **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Source-critical rule
 
@@ -76,10 +82,10 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration C: scans 97–100 plus residual scans 76–78 and 80–82** — exactly **10 physical pages**.
+Execute **C04 ten-page iteration D: residual scans 83–88 and 90–93** — exactly **10 physical pages**.
 
-- process untouched 97–100 first;
-- then revisit residual 76–78 and 80–82 for deeper exact lexical closure;
+- these are deeper exact lexical/glyph closure passes on already direct-reviewed pages;
+- preserve the `ஐம்புலன்` → `பிலவங்க ஆண்டு` source boundary and all speaker/performance structures;
 - promote only complete passes;
-- keep C04 open while any of its 23 residual pages remain;
+- keep C04 open while any residual pages remain;
 - do **not** begin C05, Phase 3, canonical assembly or translation.
