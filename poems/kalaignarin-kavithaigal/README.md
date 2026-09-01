@@ -22,26 +22,27 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 physical scans independently reviewed**;
-- cumulative status: **0 `partial`, 419 `needs-review`, 46 `verified`**;
-- unresolved backlog: **419 pages**;
-- verified pages: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 418 `needs-review`, 47 `verified`**;
+- unresolved backlog: **418 pages**;
+- verified pages: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3: **blocked until Phase-2 clearance resolves the remaining `needs-review` page records**.
 
 ## Phase-2 Clearance C01 progress
 
 C01 targets unresolved scans **2–17 and 21–25**, skipping already verified scans **1 and 18–20**.
 
-Complete-pass promotions so far: scans **2, 3, 5, 11, 14, 15, 16, 17, 23 and 24**.
+Complete-pass promotions so far: scans **2, 3, 5, 11, 14, 15, 16, 17, 21, 23 and 24**.
 
 - scan **2** clears the title/author block, physical `அன்பளிப்பு` overlay, publisher/address block, `த.பெ.எண். 4984`, and `(தொலைபேசி) 434 02 05` as printed;
 - scan **11** has a complete direct-source pass: the former opening placeholder is resolved as `கலைஞரின் பாக்களை நாம்`, and the final prosody continuation is cleared through `அவற்றிற்குரிய / ஓசைகளாக முறையே செப்பலோசை, அகவலோசை, / துள்ளலோசை, தூங்கலோசை என்று / குறித்துள்ளனர்.`;
 - scan **14** resolves `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
 - scan **15** clears its residual contents titles directly from the contents witness;
 - scan **16 / XV** has a complete contents-witness pass, including `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`, `தந்தை பெரியார்`, `பொங்கல் விழா`, `பன்னீர்ச் செல்வமே`, and `கலைத்தாயின் தலைச்செல்வன்` with their printed page references;
-- scan **23 / printed 6** now has a complete poem-page pass, clearing all previously unresolved verse and quotation blocks;
-- scan **24 / printed 7** now has a complete poem-page pass from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`, preserving anthology-specific wording directly from the controlling scan.
+- scan **21 / printed 4** now has a complete poem-page pass through the `முரசிற் செறிந்த தமிழார்வம்`, `பொருதடக்கை வாளெங்கே; மணி மார்பெங்கே?`, `காஞ்சியிருக்கக் கலிங்கம்`, and closing `அவலப் பரணி பாடுகின்றேனே...!` passages;
+- scan **23 / printed 6** has a complete poem-page pass, clearing all previously unresolved verse and quotation blocks;
+- scan **24 / printed 7** has a complete poem-page pass from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`, preserving anthology-specific wording directly from the controlling scan.
 
-Residual C01 scans: **4, 6–10, 12–13, 21–22, 25**.
+Residual C01 scans: **4, 6–10, 12–13, 22, 25**.
 
 ## Verification control
 
@@ -51,4 +52,4 @@ Full-source Phase-2 coverage does **not** itself authorize Phase 3 while unresol
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13, 21–22 and 25**. Do not advance to C02 or begin Phase 3 in the same activity.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13, 22 and 25**. Do not advance to C02 or begin Phase 3 in the same activity.
