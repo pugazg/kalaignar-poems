@@ -15,7 +15,7 @@
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; unresolved-page clearance IN PROGRESS; Phase 3 BLOCKED** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; Clearance C01 COMPLETE; C02 NEXT; Phase 3 BLOCKED** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -29,13 +29,15 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 — COMPLETE**;
-- cumulative status: **0 partial, 417 needs-review, 48 verified**;
-- unresolved backlog: **417 pages**;
-- verified so far: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- exact next activity: **continue Phase 2 Clearance Batch C01 — residual scans 4, 6–10, 12–13 and 25**.
+- cumulative status: **0 partial, 408 needs-review, 57 verified**;
+- unresolved backlog: **408 pages**;
+- verified so far: **0001–0025, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- exact next activity: **Phase 2 Clearance Batch C02 — physical scans 26–50, skipping already verified scans 32 and 33**.
 
-C01 has promoted scans **2, 3, 5, 11, 14, 15, 16, 17, 21, 22, 23 and 24** after complete direct-source passes. Scan 21 clears the complete printed-page-4 anthology witness through `அவலப் பரணி பாடுகின்றேனே...!`. Scan 22 clears the complete printed-page-5 witness through `அன்புக்குத் துணை நிற்கும் ‘அறிவு’க்கு மூன்றெழுத்து`, including the `வெள்ளம்!` and `ஆயிரத்துத் தொள்ளாயிரத்து முப்பத்து எட்டாம்` passages. Scan 23 clears all previously unresolved verse and quotation blocks on printed page 6. Scan 24 clears the full anthology page from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`, preserving the anthology’s own readings directly from the controlling scan.
+### Clearance C01 — complete
 
-The user-supplied page-range derivatives are rendering aids from the exact controlling PDF. They are not separate witnesses.
+C01 covered the unresolved records inside physical scans **1–25**. After the final source-critical pass, **all scans 1–25 are now `verified`**.
+
+The final nine residual pages — **4, 6–10, 12–13 and 25** — were completed from user-supplied word-for-word transcriptions of exact page-range derivatives of the controlling PDF, reconciled against the controlling scans. Those derivatives remain access aids to the same source, not separate witnesses.
 
 Phase 2 independently rereads the controlling scan. OCR, remembered wording, metre, grammar, historical expectation and separate editions are not authority for unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
