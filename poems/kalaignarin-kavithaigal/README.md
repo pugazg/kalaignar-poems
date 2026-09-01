@@ -48,7 +48,9 @@ Iteration tracking:
 - **E:** scans **94–100, 76–78** — deeper review of exactly 10 physical pages; no promotions;
 - **F:** scans **80–88, 90** — another exact 10-page direct closure pass; scan **81** corrected to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
 - **G:** scans **91–100** — exact 10-page closure pass; **scan 100 / printed 83 promoted to `verified`**;
-- **H:** scans **76–78, 80–86** — exact 10 unresolved-page closure pass; scan **86** corrected to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; all ten still retain at least one compact unresolved lexical span, so no promotions;
+- **H:** scans **76–78, 80–86** — exact 10 unresolved-page closure pass; scan **86** corrected to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no promotions;
+- **I:** scans **87, 88, 90–97** — exact 10 unresolved-page closure pass; scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
+- **J:** scans **98, 99, 76–78, 80–84** — exact 10 unresolved-page closure pass; all source structures and secured wording reconfirmed; no promotions;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 ## Verification control
@@ -57,4 +59,4 @@ The controlling scan remains authoritative. Exact-source word-for-word transcrip
 
 ## Exact next activity
 
-Process exactly **10 unresolved physical pages** in C04 iteration I: **87, 88, 90, 91, 92, 93, 94, 95, 96, 97**. Do not reopen verified scan 89. Give those `ஐம்புலன்` / `பிலவங்க ஆண்டு` residual pages another direct exact lexical/glyph closure pass, preserve all speaker/performance-note structures, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Process exactly **10 unresolved physical pages** in C04 iteration K: **85, 86, 87, 88, 90, 91, 92, 93, 94, 95**. Do not reopen verified scans 79, 89 or 100. Give those `ஐம்புலன்` / `பிலவங்க ஆண்டு` residual pages another direct exact lexical/glyph closure pass, preserve all speaker/performance-note structures, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
