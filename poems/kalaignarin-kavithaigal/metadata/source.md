@@ -22,12 +22,14 @@
 ## Verification state
 
 - Phase 1: **COMPLETE — 465/465 records**;
-- Phase 2 Batches 01–18, scans **1–450**: **COMPLETE**;
-- cumulative page status: **2 `partial`, 428 `needs-review`, 35 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447**;
-- next: **Phase 2 Verification Batch 19 — scans 451–465**.
+- Phase 2 Batches 01–19 source coverage, scans **1–465: COMPLETE**;
+- cumulative page status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
+- unresolved backlog: **429 pages**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- next: **Phase 2 Clearance Batch C01 — unresolved scans 2–17 and 21–25**;
+- Phase 3: **blocked pending Phase-2 page clearance**.
 
-Batch 18 establishes the item sequence from the continuation/conclusion of `ஒரு சொட்டுத் தேன்!` at scans 426–427 through the opening of `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at scan 450. Scan 447 received a complete pass; dense and old-typeface text remains `needs-review` where every glyph/line could not be safely cleared.
+Batch 19 establishes the final source sequence: `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` closes at scan 452 / printed 435; `திசை திருப்பல் நியாயம்தானா?` at 453–454; `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` at 455–456; `சில நாடுகள் இருக்கின்றன` at 457–460; `உன் காலணியை வாழ்த்துகிறாய்` at 461–464; scan 465 is the verified back cover and final physical scan.
 
 Phase-2 corrections are made only from direct controlling-scan evidence. Small-type or blurred material remains unresolved rather than being completed from OCR, memory, grammar, historical expectation or another edition.
 
@@ -35,7 +37,7 @@ Phase-2 corrections are made only from direct controlling-scan evidence. Small-t
 
 - `TVA_BOK_0064091_pages_151-175_access_derivative.pdf`: exact controlling-source scans 151–175; rendering aid only;
 - `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`: exact controlling-source page range 300–400 supplied by the user; derivative page 1 = physical scan 300; rendering aid only;
-- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: exact controlling-source page range 350–465 supplied by the user; derivative page 1 = physical scan 350; rendering aid only. Physical scans **451–465 correspond to derivative pages 102–116**.
+- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: exact controlling-source page range 350–465 supplied by the user; derivative page 1 = physical scan 350; rendering aid only. Physical scans **451–465 = derivative pages 102–116**.
 
 ## Source-order anomaly recorded in Batch 10
 
