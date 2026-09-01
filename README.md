@@ -15,7 +15,7 @@
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; Clearance C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS; Phase 3 BLOCKED** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; Clearance C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS in 10-page iterations; Phase 3 BLOCKED** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -33,7 +33,8 @@
 - unresolved backlog: **361 pages**;
 - verified so far: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **physical scans 1–75**;
-- exact next activity: **continue Phase 2 Clearance Batch C04 on scans 76–78 and 80–100**.
+- user-directed iteration size: **10 unresolved pages**;
+- exact next activity: **C04 ten-page iteration B — scans 87–96**.
 
 ### Clearance C01–C03 — complete through scan 75
 
@@ -45,6 +46,8 @@ For C02 and the final C03 lexical closure, user-supplied word-for-word extractio
 
 The complete physical window **76–100** has already received source-layout review. Source structure is fixed as `விடுதலை வீரர்கள்` through scan **79**, `ஐம்புலன்` scans **80–89**, and `பிலவங்க ஆண்டு` scans **90–100**.
 
-Scan **79 / printed 62** has now passed complete direct lexical/glyph verification and is `verified`, including its final `வணக்கம்!`, `வாழ்க!` and centered floral ornament. Remaining C04 targets are **76–78 and 80–100 (24 pages)**.
+Scan **79 / printed 62** is complete-pass `verified`. C04 ten-page iteration A has now directly reviewed unresolved scans **76–78 and 80–86**. Source-backed corrections were recorded, but all ten remain `needs-review` because compact lexical/glyph spans remain unresolved without inference. Remaining C04 `needs-review` pages are still **76–78 and 80–100 (24 pages)**.
+
+Next iteration must process exactly **87–96**.
 
 Phase 2 independently rereads the controlling scan. OCR, remembered wording, metre, grammar, historical expectation and separate editions are not authority unless the user explicitly designates an exact-source lexical transcription for the same controlling PDF. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
