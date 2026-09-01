@@ -31,16 +31,18 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 - Phase 1: **COMPLETE — 465/465 page records**;
 - Phase 2 source coverage: **all scans 1–465 independently reread — COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **0 `partial`, 422 `needs-review`, 43 `verified`**;
-- unresolved backlog: **422 pages**;
-- verified pages: **0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 421 `needs-review`, 44 `verified`**;
+- unresolved backlog: **421 pages**;
+- verified pages: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3 and translation remain blocked.
 
 ## CLEARANCE C01 OUTCOME SO FAR
 
 C01 targets unresolved scans **2–17 and 21–25**. Already verified scans **1 and 18–20** were skipped.
 
-Promoted after complete direct-source passes: **0002, 0003, 0005, 0014, 0015, 0016, 0017**.
+Promoted after complete direct-source passes: **0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017**.
+
+Complete scan-11 clearance resolves the former opening placeholder as `கலைஞரின் பாக்களை நாம்`, preserves the previously restored `படிக்கலாம்` sequence and `ஓசையை`, and clears the final prosody continuation through `அவற்றிற்குரிய / ஓசைகளாக முறையே செப்பலோசை, அகவலோசை, / துள்ளலோசை, தூங்கலோசை என்று / குறித்துள்ளனர்.`.
 
 Residual source-backed progress:
 
@@ -50,7 +52,6 @@ Residual source-backed progress:
 - **0008 / VII** — corrected opening to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; closing prose corrected to `எழுதிய கட்டுரைகளிலே`, `கவிதை நடையைப்`, `பயன்படுத்துவது`;
 - **0009 / VIII** — restored page-opening continuation `படித்தால் அதிலே கலைஞர் கருணாநிதியே நடைபோட்டு / வருவதுபோல் தோன்றும். அவரது கவிதைகளில் வரும் இந்த / வரிகளில்`; `இதில் மாணிக்கவாசகர் வருகிறார்;`, `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` remain confirmed;
 - **0010 / IX** — restored page-opening continuation `பாடுவதன் மூலமாக அண்ணாவின் இதய உணர்வுகளையே / தன் உள்ளுணர்வுகளாகப் பெற்றவர் என்றமை.`; closing signature `க. அன்பழகன்`, `சென்னை-7` / `15.5.82`, and `கவிதைகளை எண்ணிப் / பார்த்தால்` remain confirmed;
-- **0011** — restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்`; `ஓசையை` remains source-confirmed;
 - **0012 / XI** — restored `கலைஞர்தம் பாக்களில்`, `தெள்ளல் அல்லது தெளிதல் என்று சொல்`, and `தெளிவித்தல், ஆராய்தல், தெளிந்தல் என்பன போன்ற பல`; earlier closing `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.` remain confirmed;
 - **0013 / XII** — restored `கலைஞர்தம் பாடல்களில்`, `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, `அணி நயம் சுவைக்க விரும்புவோர் 19, 20, 23, 27, 31, 38, 48`, and `பக்கங்களையும் நான் பகுத்துத் தொகுத்து`;
 - **0021 / printed 4** — corrected `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?`;
@@ -59,9 +60,9 @@ Residual source-backed progress:
 - **0024 / printed 7** — restored `மனோன்மணியம்` and full source line `வயிறு தாங்காத காரணத்தால்`;
 - **0025 / printed 8** — restored `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, `தொடங்கினார் போரே!`, and the complete six-line `இன்ப நாளிது! இனிய நாளிது!` stanza through `என்றே அண்ணா - அன்றே சொன்னார்....`.
 
-These pages remain `needs-review` because other compact/blur-sensitive text is still unresolved.
+These residual pages remain `needs-review` because other compact/blur-sensitive text is still unresolved.
 
-Residual C01 scans: **4, 6–13, 21–25**.
+Residual C01 scans: **4, 6–10, 12–13, 21–25**.
 
 ## PHASE-2 SOURCE-CRITICAL RULE
 
@@ -69,6 +70,6 @@ Independently reread the controlling scan before trusting existing Markdown. Cor
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C01 — residual physical scans 4, 6–13 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual physical scans 4, 6–10, 12–13 and 21–25**.
 
 Do not reopen already verified scans merely for uniformity. Reinspect only the residual pages, resolve only direct-source-supported readings, and promote only complete passes. **Do not advance to C02, Phase 3, canonical assembly, or translation while the C01 residual window remains open.**
