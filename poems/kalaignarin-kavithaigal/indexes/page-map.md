@@ -47,7 +47,7 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | `உலவிடும் காற்றில்`, `குலவிடும் அருவி குறையும் மழையென`, `அலையெழும் கடலில் ஆடும் நுரையெனக்`, and `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!` restored directly; intervening/closing compact verse remains unresolved |
 | 23 | `இதயத்தைத் தந்திடு அண்ணா` / printed 6 | `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”` restored directly; other compact verse remains unresolved |
 | 24 | `இதயத்தைத் தந்திடு அண்ணா` / printed 7 | `மனோன்மணியம்` and full line `வயிறு தாங்காத காரணத்தால்` restored directly from source; remaining compact verse blocks remain unresolved |
-| 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!` restored; later verse remains unresolved |
+| 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, `தொடங்கினார் போரே!`, and the full `இன்ப நாளிது! இனிய நாளிது!` stanza through `என்றே அண்ணா - அன்றே சொன்னார்....` restored directly; later verse remains unresolved |
 
 ### Scan-16 direct contents readings
 
