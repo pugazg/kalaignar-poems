@@ -58,10 +58,7 @@ Processed **76–78, 80–86**. Direct source-backed corrections were applied; a
 
 ### Iteration B
 
-Processed exactly **87–96**.
-
-- scan **89 / printed 72** reached a complete source-critical pass and is now `verified`;
-- scans **87–88, 90–96** remained `needs-review` after direct review.
+Processed exactly **87–96**. Scan **89 / printed 72** reached a complete source-critical pass and is `verified`; scans **87–88, 90–96** remained `needs-review`.
 
 ### Iteration C
 
@@ -77,25 +74,23 @@ Processed exactly **94–100 plus residual 76–78** — **10 physical pages**. 
 
 ### Iteration F
 
-Processed exactly **80–88 and 90** — **10 physical pages**.
-
-- scan **81** corrects the opening from unsupported `கார் விடுதியில்` to source-visible **`கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`**;
-- no page was promoted.
+Processed exactly **80–88 and 90** — **10 physical pages**. Scan **81** corrected the opening from unsupported `கார் விடுதியில்` to source-visible **`கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`**; no page was promoted.
 
 ### Iteration G
 
-Processed exactly **91–100** — **10 physical pages**.
+Processed exactly **91–100** — **10 physical pages**. Scan **100 / printed 83** reached a complete source-critical pass and is now `verified`; other source-backed refinements are recorded in `audit.md`. Iteration G produced **one promotion: scan 100**.
 
-- scan **91** extends the dream transition through `உறங்கும்போது ஒரு நாள் கனவொன்று கண்டேன்.` and the following `விழித்திருக்கும்... / விழித்திருந்த...` lines;
-- scan **92** adds `ஆனிப்பொன் மேனி அழகு மயிலனையார் / ஆறுபேர் ஆணுக்கு அருகே பெண்மணி`;
-- scan **93** adds `“தமிழ்” என்றார். / தந்தையோ வள்ளுவராம்!`;
-- scan **94** extends the `இனியவை கூறல்` introduction and preserves its performance-note boundary;
-- scans **95–98** were independently reread again and their secured source-backed passages reconfirmed without filling compact gaps by inference;
-- scan **99** extends the garland/Tamil-mother/Valluvar movement with `ஆருக்கொரு மாலை ... / தாருக்கொரு மாலை: வள்ளுவரின் / தோளுக்கொரு மாலை;`;
-- scan **100 / printed 83** reached a complete source-critical pass and is now `verified`, including `கத்தி தூக்கல் கலகம் விளைவித்தல்`, `குடியைப் போய் மலையாக்கல்; அன்பு`, `கடல் அமைதி கெடுக்கின்ற புயல் காற்று; அதைத்`, `குறள் மூலம் பரப்புகின்றோம்`, final `வணக்கம்.` and the centered floral ornament;
-- iteration G produced **one promotion: scan 100**.
+### Iteration H
 
-Current C04 unresolved set is **76–78, 80–88, 90–99 (22 pages)**. Cumulative status is **0 partial / 359 needs-review / 106 verified**.
+Processed exactly **76–78 and 80–86** — **10 unresolved physical pages**.
+
+- all ten received another direct source/glyph closure pass;
+- scan **86** corrects the source-visible line to **`தமிழன்பன் மூக்குடைக்கப் போகின்றார்`**, replacing `மூக்குடையப் போகின்றார்`;
+- established `விடுதலை வீரர்கள்` / `ஐம்புலன்` speaker, performance-note, title and page-boundary structures were reconfirmed;
+- each of the ten still retains at least one compact lexical/word-ending span that cannot be certified without inference;
+- **no page was promoted**.
+
+Current C04 unresolved set remains **76–78, 80–88, 90–99 (22 pages)**. Cumulative status remains **0 partial / 359 needs-review / 106 verified**.
 
 ## Source-critical rule
 
@@ -103,9 +98,9 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration H: scans 76–78 and 80–86** — exactly **10 physical pages**.
+Execute **C04 ten-page iteration I: scans 87–88 and 90–97** — exactly **10 unresolved physical pages**; do **not** reopen verified scan 89.
 
-- give these residual `விடுதலை வீரர்கள்` / `ஐம்புலன்` pages another direct exact lexical/glyph closure pass;
+- give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
 - preserve all established speaker/performance structures;
 - promote only complete passes;
 - keep C04 open while any residual pages remain;
