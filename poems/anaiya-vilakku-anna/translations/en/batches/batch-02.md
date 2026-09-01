@@ -4,7 +4,7 @@ language: "en"
 batch: "02"
 source_scans: "10-12"
 status: "reviewed"
-translation_basis: "locked verified Tamil page records and reviewed Tamil assembly"
+translation_basis: "reconciled Tamil page records and reviewed Tamil assembly after 2026-09-01 lexical controls"
 ---
 
 # Batch 02 — scans 10–12
@@ -36,17 +36,17 @@ Anna, your form was like the venerable Kural —
 *Kamba Rasam* and *Romapuri Rani* revealed another season of you — yet
 when Aryan illusion appeared, your brow would rise to drive it away!
 
-Though the Tamils had once had literature
-as epics and puranas, as stories of divine incarnations,
-it was only after you came
-that we set them in motion — as heroic epics, as paintings of love —
+At one time, for the Tamils, literature existed
+as epics and puranas, as stories of divine incarnations;
+yet only after you came
+did we set it in motion — as heroic epics, as paintings of love —
 for this world to know, to examine and understand, to breathe the fragrance of knowledge!
 
 Was it not the courage Ayya gave,
 and the clarity you, Anna, gave,
 that enabled me to explain Sangam Tamil,
 to write a fitting commentary for the golden Kural,
-and to raise before your assembly
+and to raise before the public forum
 the Tolkappiyam of undying fame?
 I would say it was you who gave me that courage —
 
@@ -54,7 +54,7 @@ To create the famed *Poompuhar* epic
 for Kannagi, the jewel of *Silappathikaram* — and to raise her statue on the seashore —
 and when that statue was removed under the force of those who invoked Vastu Shastra,
 to condemn their act as madness —
-Anna, it was you who gave me the strength.
+Anna, it was you who gave us the strength.
 
 <!-- scan 11 -->
 
@@ -114,14 +114,14 @@ who violated Ahalya’s chastity — and because of him
 Ahalya had to lie as stone —
 would you describe that, great sir,
 as an act filled with Indra’s compassion?
-By asking so, Anna, were you not the one
+By asking so, was it not you, Anna,
 who made heads hang down
-and certainties collapse?
+and left them shaken?
 
 Hermits, great men, incarnations of Ishvara —
 were they hearts filled with compassion?
 Asking this, you made even the Goddess of Justice swoon and fall —
-you were the advocate too, a new poet Nakkirar!
+you were the advocate — a new poet Nakkirar!
 
 When Lord Siva asked Siruthondar’s wife
 for the flesh of her child — and
@@ -154,11 +154,24 @@ must not be fostered!
 - `வருஷங்கள்` is not silently normalized in the Tamil source; the English expresses the rhetorical shift toward Tamil usage rather than treating it as an ordinary calendar statement.
 - `அய்யன் குறள்` is rendered as **the venerable Kural**, preserving the reverential register without inventing a new title.
 - Named works — *Kamba Rasam*, *Romapuri Rani*, *Poompuhar*, *Silappathikaram*, *Tolkappiyam* and *Tolkappiya Poonga* — remain visible and traceable.
-- The six-sense passage is translated as an ordered conceptual sequence, but its repeated structure is retained rather than compressed into explanatory prose.
+- Reconciled scan 10 `ஊர் மன்றில்` is rendered **before the public forum**; the superseded `your assembly` wording has been removed.
+- Reconciled scan 10 `எமக்கு` is rendered **gave us the strength**, while the earlier `எனக்குத்` in the preceding sentence remains first-person singular.
+- The six-sense passage is translated as an ordered conceptual sequence, but its repeated structure is retained rather than compressed into explanatory prose. Reconciled `நாலறிவு` remains correctly represented as **four-sensed**.
 - The rationalist interrogation of Rama, Ravana, Surpanakha, Indra and Siva is preserved as Kalaignar’s own rhetorical argument; the translation does not add theological commentary.
-- `வழக்கறிஞனும் நீ` is rendered as **you were the advocate too**, preserving the corrected Tamil reading.
+- Reconciled `வழக்கறிஞன் நீ` is rendered **you were the advocate**, without the superseded additive `too`.
 - `வறிஞன் செல்வன்` is rendered as **one as poor and another as rich**, following the source contrast and its continuation into scan 13 rather than treating `வறிஞன்` as a proper name.
 - The repeated centenary/lifespan refrain is retained where it recurs on scan 12.
+
+## 2026-09-01 targeted reconciliation review
+
+Result: **PASS**
+
+- `இருந்தது`, `ஊர் மன்றில்`, `சாத்திரக்காரர்`, `எமக்கு`: checked against current Tamil — **PASS**;
+- retained `உனைத்`: translation continuity remains correct — **PASS**;
+- retained `ஆறறிவு மனிதன் வரை`: **PASS**;
+- `நாலறிவு`, `வடிந்ததோ`, `அறுத்தெரிந்த`: existing English sense remains adequate — **PASS**;
+- `நிலை குலைய செய்தது`: revised to `left them shaken` — **PASS**;
+- `வழக்கறிஞன் நீ`: additive `too` removed — **PASS**.
 
 ## Batch review
 
@@ -174,6 +187,6 @@ Checks:
 - Tolkappiyam six-sense sequence retained: **PASS**;
 - rationalist/religious critique retained without neutralization: **PASS**;
 - named literary works and political-cultural references retained: **PASS**;
-- corrected Tamil readings (`பொறுப்பல்ல`, `குறிப்பிட்டிருப்பது`, `அரக்கன்`, `வழக்கறிஞனும்`, `வறிஞன்`) reflected in English: **PASS**;
+- 2026-09-01 Tamil lexical controls reflected where English meaning changes: **PASS**;
 - Tamil source altered to improve English: **NO**;
 - Kalaignar-language/voice review: **PASS**.
