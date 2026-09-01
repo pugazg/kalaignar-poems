@@ -54,6 +54,8 @@ The contents witness is preserved as printed rather than normalized from later p
 ### Residual reread progress
 
 - scan **4** — the first two `என்னுரை` paragraphs and opening lines of the third paragraph were restored directly. A further punctuation pass now preserves source-visible `“கவிதையல்ல”.`, removes the earlier editorial dash after `1967-ஆம் ஆண்டு`, and restores the comma in `என்றில்லாமல், அந்தப்`; the lower compact continuation remains unresolved.
+- scan **7 / printed VI** — direct source corrects the earlier `மேலும் தென்னமய மிக்க தமிழ் மொழியின் இளமை` to source-visible `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`; surrounding compact prose remains unresolved.
+- scan **8 / printed VII** — direct source corrects the opening from `சுவைகளின் உணர்வுகளை வாரிக் வழங்கவல்லவன் கவிஞன்.` to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; the rest of the page remains compact/blur-sensitive.
 - scan **9 / printed VIII** — direct source confirms `வள்ளுவர்`, correcting the earlier `வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்`, correcting `தமிழ்ப் பன்னாளர்கள்`; other compact prose remains unresolved.
 - scan **10 / printed IX** — direct source corrects the closing `அணிந்துரை` signature from the erroneous `மா.நன்னன்` to `க. அன்பழகன்`; the date/location remain `சென்னை-7` / `15.5.82`; other compact prose and part of the closing quotation remain unresolved.
 - scan **11** — the direct scan confirms `ஓசையை` with initial long `ஓ`; the earlier `ஒசையை` reading was corrected. Other compact prose remains unresolved.
@@ -78,7 +80,7 @@ Before C01: **2 `partial`, 427 `needs-review`, 36 `verified`**.
 After the first C01 pass: **0 `partial`, 425 `needs-review`, 40 `verified`**.  
 After contents residual clearance through scans 15–16: **0 `partial`, 423 `needs-review`, 42 `verified`**.  
 After scan-2 title-page clearance: **0 `partial`, 422 `needs-review`, 43 `verified`**.  
-The latest residual source refinements improve fidelity on scans 4, 9–11, 13 and 21–25 but do not change page-status counts.
+The latest residual source refinements improve fidelity on scans 4, 7–11, 13 and 21–25 but do not change page-status counts.
 
 ## Phase-2 completion assessment
 
