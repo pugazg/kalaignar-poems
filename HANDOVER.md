@@ -54,36 +54,26 @@ Verified pages so far: **0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0
 
 Targeted unresolved scans: **2–17 and 21–25**. Already verified scans **1 and 18–20** were skipped.
 
-Complete-pass promotions so far:
-
-- scan **2** — title page / publisher block;
-- scan **3** — English imprint / price;
-- scan **5 / IV** — `என்னுரை` continuation;
-- scan **14** — `பதிப்புரை`;
-- scan **15** — contents;
-- scan **16 / XV** — contents continuation;
-- scan **17 / XVI** — contents continuation.
-
-Scan **16 / XV** has a complete direct contents-witness pass. Source-visible readings include `தமிழ் வளர வழிநடைப் பயணம்` — 220; `வையம் தழைக்க` — 228; `தந்தை பெரியார்` — 237; `பொங்கல் விழா` — 250; `பன்னீர்ச் செல்வமே` — 357; `கலைத்தாயின் தலைச்செல்வன்` — 359.
+Complete-pass promotions so far: **2, 3, 5, 14, 15, 16, 17**.
 
 Residual C01 pages: **4, 6–13, 21–25**.
 
 Direct-source residual progress now includes:
 
-- scan **4** — first two `என்னுரை` prose paragraphs and opening of the third restored; source punctuation refined; lower compact continuation remains unresolved;
-- scan **6** — restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`; other compact prose remains unresolved;
-- scan **7 / VI** — restored `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`;
-- scan **8 / VII** — opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`;
-- scan **9 / VIII** — fresh direct rereading corrects `இந்த மாணிக்கவாசகர் வருகிறார்;` to `இதில் மாணிக்கவாசகர் வருகிறார்;`; the printed sequence `வள்ளுவர் வள்ளலார்` and `தமிழ்ப் பண்பாளர்கள்` remain confirmed;
-- scan **10 / IX** — closing signature corrected to `க. அன்பழகன்`;
-- scan **11** — restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and source-visible `பழந்தொட்டு வரும்`; `ஓசையை` remains confirmed;
-- scan **12 / XI** — closing corrected from `இந்தாவின் வாயிலாகப்` to `இந் நூலின் வாயிலாகப்` and from `நாம் பயப்பதோடு முடியும்.` to `நாம் பயன்பெற முடியும்.`;
-- scan **13 / XII** — opening corrected to `கலைஞர்தம் பாடல்களில்`; `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed;
-- scan **21 / printed 4** — `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?` corrected directly;
-- scan **22 / printed 5** — `உலவிடும் காற்றில்` restored;
+- scan **4** — opening `என்னுரை` prose restored; source punctuation preserved; `இருந்தநாள்தான்` corrected directly; lower continuation unresolved;
+- scan **6** — `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த` and `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.` restored;
+- scan **7 / VI** — `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`, `அதைப் பிறருக்கும்`, and `உணர்த்த வல்லவனே` restored;
+- scan **8 / VII** — opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; closing prose corrected to `எழுதிய கட்டுரைகளிலே`, `கவிதை நடையைப்`, `பயன்படுத்துவது`;
+- scan **9 / VIII** — `இதில் மாணிக்கவாசகர் வருகிறார்;`, `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` restored;
+- scan **10 / IX** — signature `க. அன்பழகன்`, `சென்னை-7`, `15.5.82`, and `கவிதைகளை எண்ணிப் / பார்த்தால்` confirmed;
+- scan **11** — `ஓசையை`, two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்` restored;
+- scan **12 / XI** — closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`;
+- scan **13 / XII** — `கலைஞர்தம் பாடல்களில்` and `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed;
+- scan **21 / printed 4** — `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?` corrected;
+- scan **22 / printed 5** — `உலவிடும் காற்றில்` and `குலவிடும் அருவி குறையும் மழையென` restored;
 - scan **23 / printed 6** — `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”` restored;
 - scan **24 / printed 7** — `மனோன்மணியம்` restored;
-- scan **25 / printed 8** — `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!` restored directly.
+- scan **25 / printed 8** — `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!` restored.
 
 The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
 
@@ -102,5 +92,5 @@ Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 4,
 - do not reopen already verified pages unless direct-source evidence reveals a discrepancy;
 - inspect the residual scans directly and resolve only source-backed uncertainty, old-glyph, punctuation, quotation, lineation and non-Tamil issues;
 - promote only complete passes to `verified`;
-- synchronize backlog counts afterward;
+- synchronize status-bearing files afterward;
 - **do not advance to C02, Phase 3, canonical assembly, or translation while the C01 residual window remains open**.
