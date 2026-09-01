@@ -18,10 +18,10 @@ Independently reread every page against the controlling scan. Check every word e
 - Phase 1: **COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- verified pages: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **1–75**;
-- additional C04 verified pages: **79, 89**.
+- additional C04 verified pages: **79, 89, 100**.
 
 ### Clearance C01–C03
 
@@ -47,7 +47,8 @@ Iteration tracking:
 - **D:** 83–88 and 90–93 — exactly 10 physical pages; deeper direct lexical/glyph review completed, no promotions;
 - **E:** 94–100 plus 76–78 — exactly 10 physical pages; deeper review completed, no promotions;
 - **F:** 80–88 plus 90 — exactly 10 physical pages; another direct closure pass completed, with scan 81 corrected to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
-- remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23)**.
+- **G:** 91–100 — exactly 10 physical pages; scans 91–99 gained additional direct-source lexical reconciliation and **scan 100 / printed 83 was promoted to `verified`** after a complete page pass;
+- remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22)**.
 
 For every C04 page:
 
@@ -60,7 +61,7 @@ For every C04 page:
 
 ### Exact next activity
 
-Execute **C04 ten-page iteration G: scans 91–100**. Process exactly 10 physical pages. Give these `பிலவங்க ஆண்டு` residual pages another direct lexical/glyph closure pass, preserve all speaker/performance-note structures and scan-100 floral closure, and do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration H: scans 76–78 and 80–86**. Process exactly 10 physical pages. Give these `விடுதலை வீரர்கள்` / `ஐம்புலன்` residual pages another direct lexical/glyph closure pass, preserve all fixed speaker/performance-note structures, and do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
