@@ -20,23 +20,21 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 page records — COMPLETE**;
 - Phase 2 Batches 01–19 source coverage: **scans 1–465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01 COMPLETE; C02 NEXT**;
-- cumulative status: **0 `partial`, 408 `needs-review`, 57 `verified`**;
-- unresolved backlog: **408 pages**;
-- verified: **0001–0025, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- Phase 2 clearance: **IN PROGRESS — C01–C02 COMPLETE; C03 NEXT**;
+- cumulative status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
+- unresolved backlog: **385 pages**;
+- verified: **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3: **blocked pending Phase-2 page clearance**;
 - English translation: **blocked until Tamil final clearance**.
 
-## Clearance C01 — COMPLETE
+## Clearance C01–C02 — COMPLETE THROUGH SCAN 50
 
-C01 cleared every unresolved record inside physical scans **1–25**. The final residual scans **4, 6–10, 12–13 and 25** were completed from user-supplied word-for-word transcriptions of exact page-range derivatives of this same controlling PDF and reconciled against the controlling scans.
+C01 cleared every unresolved record inside physical scans **1–25**. C02 cleared unresolved scans **26–31 and 34–50**, while already verified scans **32 and 33** were preserved. Durable contiguous boundary: **physical scans 1–50 are `verified`**.
 
-These derivative transcriptions are access aids to the exact source, not independent textual witnesses. No unrelated OCR, context, memory or separate edition was used to override the anthology scan.
-
-Durable C01 boundary: **all scans 1–25 are `verified`**.
+For C02, user-supplied word-for-word extraction from exact page-range derivatives of this same controlling PDF supplied the lexical base. The controlling scan was independently inspected for lineation, punctuation, quotation boundaries, physical-page carry-over, running headers/page numbers, illustrations, ornaments and other non-lexical structure before promotion.
 
 The original source remains the authority. Page-range/access derivatives are rendering aids only and are not separate witnesses. Separate source-specific transcriptions must not be copied into unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Current next activity
 
-Execute **Phase 2 Clearance Batch C02 — physical scans 26–50**, skipping already verified scans **32 and 33**. The unresolved C02 target set is **26–31 and 34–50**. Promote only complete source-critical passes and keep Phase 3/translation blocked.
+Execute **Phase 2 Clearance Batch C03 — physical scans 51–75**, skipping already verified scans **70 and 71**. The unresolved C03 target set is **51–69 and 72–75**. Promote only complete source-critical passes and keep Phase 3/translation blocked.
