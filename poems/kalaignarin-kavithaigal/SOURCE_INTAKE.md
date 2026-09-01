@@ -20,16 +20,21 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 page records — COMPLETE**;
 - Phase 2 Batches 01–19 source coverage: **scans 1–465 COMPLETE**;
-- cumulative status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
-- unresolved backlog after full coverage: **429 pages**;
-- verified: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- Phase 2 clearance: **IN PROGRESS**;
+- cumulative status: **0 `partial`, 425 `needs-review`, 40 `verified`**;
+- unresolved backlog: **425 pages**;
+- verified: **0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3: **blocked pending Phase-2 page clearance**;
 - English translation: **blocked until Tamil final clearance**.
 
-Batch 19 directly reviewed scans 451–465, closing the final poem sequence through printed page 447 and verifying scan 465 as the final back cover. Source-backed scan-464 corrections are `ஏழை எளிய உடன் பிறப்பு நீ!` and parenthetical `கலைஞர் தனது 58-வது பிறந்தநாள்`.
+## Clearance C01 progress
 
-The original source remains the authority. Page-range/access derivatives are rendering aids only and are not separate witnesses. Full 465-scan coverage is now complete, but unresolved `partial` / `needs-review` records prevent Phase 3. Separate source-specific transcriptions must not be copied into unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
+The first direct-source C01 pass targeted unresolved scans **2–17 and 21–25**. Scans **3, 5, 14 and 17** received complete passes and were promoted to `verified`. Scan **14** resolves the previously uncertain phrase as `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.` Scan **16** receives the source-backed contents correction `தமிழ் வளர வழிநடைப் பயணம்` but remains unresolved because other small-type entries are not fully cleared.
+
+Residual C01 pages are **2, 4, 6–13, 15–16, 21–25**. They remain `needs-review`; no OCR, context, memory or separate witness has been used to fill their unresolved text.
+
+The original source remains the authority. Page-range/access derivatives are rendering aids only and are not separate witnesses. Separate source-specific transcriptions must not be copied into unresolved anthology text. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Current next activity
 
-**Phase 2 Clearance Batch C01 — unresolved physical scans 2–17 and 21–25.** Skip already verified scans 1 and 18–20 absent a direct-source discrepancy.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 2, 4, 6–13, 15–16 and 21–25**. Do not advance to C02 while this residual window remains open.
