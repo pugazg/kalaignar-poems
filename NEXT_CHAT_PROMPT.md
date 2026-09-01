@@ -31,35 +31,33 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 - Phase 1: **COMPLETE — 465/465 page records**;
 - Phase 2 source coverage: **all scans 1–465 independently reread — COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **0 `partial`, 417 `needs-review`, 48 `verified`**;
-- unresolved backlog: **417 pages**;
-- verified pages: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- Clearance C01: **COMPLETE**;
+- cumulative status: **0 `partial`, 408 `needs-review`, 57 `verified`**;
+- unresolved backlog: **408 pages**;
+- verified pages: **0001–0025, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3 and translation remain blocked.
 
-## CLEARANCE C01 OUTCOME SO FAR
+## CLEARANCE C01 — DURABLE COMPLETION
 
-C01 targets unresolved scans **2–17 and 21–25**. Already verified scans **1 and 18–20** were skipped.
+C01 covered the unresolved records inside physical scans **1–25**. **All physical scans 1–25 are now `verified`.**
 
-Promoted after complete direct-source passes: **0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0021, 0022, 0023, 0024**.
+The final residual scans **4, 6–10, 12–13 and 25** were completed using user-supplied word-for-word transcriptions from exact page-range derivatives of the same controlling PDF, reconciled against the controlling scans. These are rendering/transcription aids to the same witness, not separate witnesses.
 
-Important completed passes:
-
-- **0011** — complete `புறவுரை` pass resolves `கலைஞரின் பாக்களை நாம்` and final prosody continuation through `குறித்துள்ளனர்.`;
-- **0021 / printed 4** — complete poem-page pass clears the `முரசிற் செறிந்த தமிழார்வம்`, `பொருதடக்கை வாளெங்கே; மணி மார்பெங்கே?`, `காஞ்சியிருக்கக் கலிங்கம்`, and closing `அவலப் பரணி பாடுகின்றேனே...!` passages directly from the anthology scan;
-- **0022 / printed 5** — complete poem-page pass clears the anthology witness from `கவியினில் பொருளெனக் கரும்பினில் சுவையெனக்` through `அன்புக்குத் துணை நிற்கும் ‘அறிவு’க்கு மூன்றெழுத்து`, including `நிலமிசை வளமெனக்`, `குலவிடும் அருவி குழறிடும் மொழியென`, the `வெள்ளம்!` sequence, and the `ஆயிரத்துத் தொள்ளாயிரத்து முப்பத்து எட்டாம்` passage;
-- **0023 / printed 6** — complete poem-page pass clears all previously unresolved middle/lower verse and quotations;
-- **0024 / printed 7** — complete poem-page pass clears the anthology witness from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`, preserving anthology-specific `மனோன்மணியம் எனினும்`, `நயமிகு பண்புடன் அரசியல் நடாத்தல்`, `வயிறு தாங்காத காரணத்தால்`, `சொலல் வல்லார்`, and `சொற் போரிலே`.
-
-Residual source-backed progress remains in the page files for **0004, 0006–0010, 0012–0013 and 0025**.
-
-Residual C01 scans: **4, 6–10, 12–13, 25**.
+Key final source-backed corrections include the complete `என்னுரை` page 4, complete `அணிந்துரை` scans 6–10, complete `புறவுரை` scans 12–13, and printed page 8 / scan 25 of `இதயத்தைத் தந்திடு அண்ணா`, ending physically at `அதில்`.
 
 ## PHASE-2 SOURCE-CRITICAL RULE
 
-Independently reread the controlling scan before trusting existing Markdown. Correct only source-backed differences. Preserve old Tamil glyphs/forms, punctuation, lineation, quotations, separators and non-Tamil material. Resolve `⟦…⟧` / `[மங்கலான ...]` only from direct source evidence. Do not import another witness.
+Independently reread the controlling scan before trusting existing Markdown. Correct only source-backed differences. Preserve old Tamil glyphs/forms, punctuation, lineation, quotations, separators and non-Tamil material. Resolve `⟦…⟧` / `[மங்கலான ...]` only from direct source evidence. Exact derivatives of this same PDF may be used as access aids, but do not import another witness.
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C01 — residual physical scans 4, 6–10, 12–13 and 25**.
+Execute **Phase 2 Clearance Batch C02 — physical scans 26–50**.
 
-Prioritize **complete-page closure** rather than isolated word edits. Do not reopen already verified scans merely for uniformity. Reinspect only the residual pages, resolve only direct-source-supported readings, and promote only complete passes. **Do not advance to C02, Phase 3, canonical assembly, or translation while the C01 residual window remains open.**
+- already verified scans inside this window: **32 and 33** — skip them unless new direct-source evidence reveals a discrepancy;
+- unresolved target set: **26–31 and 34–50** (**23 pages**);
+- begin at scan **26**, continuing from the physical-page ending of scan 25; do not infer a new poem/work boundary until the source establishes it;
+- inspect each target directly against the controlling source;
+- correct only source-backed differences and resolve only direct-source-supported uncertainty;
+- promote only complete passes to `verified`;
+- synchronize all status-bearing files at completion;
+- **do not begin Phase 3, canonical assembly or translation**.
