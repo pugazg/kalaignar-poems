@@ -38,6 +38,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - cumulative status: **0 partial / 360 needs-review / 105 verified**;
 - verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
+- additional C04 verified pages: **79, 89**;
 - Phase 3 / translation: **blocked**.
 
 ## C04 fixed source structure
@@ -60,19 +61,28 @@ Processed **76–78, 80–86**. Direct source-backed corrections were applied; a
 Processed exactly **87–96**.
 
 - scan **89 / printed 72** reached a complete source-critical pass and is now `verified`;
-- scan 89 confirms `தொடக்குவீர்`, `சொல்வீராயினும்`, `இவையின்றி`, final `வணக்கம்.` and centered floral ornament;
 - scans **87–88, 90–96** remain `needs-review` after direct review.
 
 ### Iteration C
 
-Processed exactly **10 physical pages: 97–100 plus residual 76–78 and 80–82**.
+Processed exactly **97–100 plus residual 76–78 and 80–82**.
 
-- scans **76–78, 80–82** received a second direct visual pass; prior source-backed corrections remain valid but each still retains at least one compact unresolved lexical/glyph span;
-- scan **97** now preserves `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`, the `கவிஞர் நூர் முகம்மது` performance note and separate `அடுத்து இன்னா செய்யாமை:` transition;
-- scan **98** now preserves the `கவிஞர் சுரதா` / `கவிஞர் தூரன்` performance boundaries plus the source-visible `அருளுடைமை` opening `பொருளுடைமையார்க் கிவ்வுலகம் / அருளுடையார்க் கவ்வுலகமென்று / இருளுடையார் நெஞ்சத்தில் விளக்கேற்றி வைத்தார்`;
-- scan **99** now preserves `மலர் குவிப்பார் என்றிருந்தேன்`, `மலர் குவித்ததால்`, and the ethical-heading sequence `இனியவை கூறல் / இன்னா செய்யான் / அடக்கம் காப்பான் / அருளை வணங்குவான்;`;
-- scan **100** had its physical ending, final `வணக்கம்.` and centered floral ornament rechecked directly; compact line-internal readings still block promotion;
-- **no additional page was promoted in iteration C**.
+- scans **76–78, 80–82** received a second direct visual pass;
+- scans **97–100** received direct lexical/structural refinements;
+- **no page was promoted**.
+
+### Iteration D
+
+Processed exactly **83–88 and 90–93** — **10 physical pages**.
+
+- scan **83** restores plural `கவிஞர்களே!`, the five-line `பெரிதானால்` organ-wordplay sequence, and `அளவறிந்து அவரவர் பொருளைப் பேசுவீர்`;
+- scan **84** now preserves `கொய்யாக் கனி கவிப்போம் / சற்று காத்திருப்போம். / சாதிக் அப்தின் தமிழ் கேட்போம்:` before the performance note;
+- scan **85** now preserves the visible `வாய்ச்சொற்கள் என்ன பயனும் / கண்ணோடு கண்ணிணை நோக்கொக்கின்` passage plus the following `வள்ளுவரும் ... ‘கண்’` lines;
+- scan **86** removes unsupported provisional `மூக்கு உள்ளம் என்றார் அடுத்தவர்.` and retains the source-visible `பரந்த உள்ளம் ...` start while leaving its ending unresolved;
+- scan **87** adds `கவிதையும் தானேப் பார்க்கலாம் / எம் இருவரையும் இணைத்துப் பார்ப்பின்` from direct source evidence;
+- scans **88, 90–92** received second complete visual passes but still contain compact unresolved line-internal forms;
+- scan **93** preserves its source-visible selection setup and the six personified virtue names;
+- **no page was promoted in iteration D**.
 
 Current C04 unresolved set remains **76–78, 80–88, 90–100 (23 pages)**.
 
@@ -82,10 +92,11 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration D: residual scans 83–88 and 90–93** — exactly **10 physical pages**.
+Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78** — exactly **10 physical pages**.
 
-- these are deeper exact lexical/glyph closure passes on already direct-reviewed pages;
-- preserve the `ஐம்புலன்` → `பிலவங்க ஆண்டு` source boundary and all speaker/performance structures;
+- give scans **94–100** their deeper exact lexical/glyph closure pass;
+- revisit the oldest residual scans **76–78**;
+- preserve all established item/speaker/performance boundaries;
 - promote only complete passes;
 - keep C04 open while any residual pages remain;
 - do **not** begin C05, Phase 3, canonical assembly or translation.
