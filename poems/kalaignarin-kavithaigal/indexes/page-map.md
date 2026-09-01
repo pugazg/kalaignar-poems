@@ -13,8 +13,8 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 **PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 421 `needs-review`, 44 `verified`**;
-- unresolved backlog: **421 pages**;
+- cumulative status: **0 `partial`, 419 `needs-review`, 46 `verified`**;
+- unresolved backlog: **419 pages**;
 - Phase 3 remains blocked until unresolved Phase-2 pages are cleared.
 
 ## Phase-2 source-coverage completion
@@ -27,27 +27,27 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 
 | Scan(s) | Visible role / section | Clearance outcome |
 |---:|---|---|
-| 2 | title page / publisher block | title/author, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, `(தொலைபேசி) 434 02 05`, punctuation and layout passed; complete-pass `verified` |
+| 2 | title page / publisher block | complete-pass `verified` |
 | 3 | English imprint / price | complete-pass `verified` |
-| 4 | `என்னுரை` opening | first two paragraphs + opening of third restored; source punctuation `“கவிதையல்ல”.`, no dash after `1967-ஆம் ஆண்டு`, comma in `என்றில்லாமல், அந்தப்`, and source-visible `இருந்தநாள்தான்` now preserved; lower continuation unresolved |
+| 4 | `என்னுரை` opening | opening prose restored; lower continuation unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
-| 6 | `அணிந்துரை` opening | restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.` and `உள்ளத்து உணர்வைத் தாமுணர்ந்தவாறு பிறரை உணரச்`; other compact prose unresolved |
-| 7 / VI | `அணிந்துரை` continuation | `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`, `அதைப் பிறருக்கும்`, and `உணர்த்த வல்லவனே` restored directly; other compact prose remains unresolved |
-| 8 / VII | `அணிந்துரை` continuation | opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; closing prose corrected to `எழுதிய கட்டுரைகளிலே`, `கவிதை நடையைப்`, `பயன்படுத்துவது`; other compact prose remains unresolved |
-| 9 / VIII | `அணிந்துரை` continuation | page-opening continuation `படித்தால் அதிலே கலைஞர் கருணாநிதியே நடைபோட்டு / வருவதுபோல் தோன்றும். அவரது கவிதைகளில் வரும் இந்த / வரிகளில்` restored; source-visible `இதில் மாணிக்கவாசகர் வருகிறார்;`, sequence `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` retained; other compact prose unresolved |
-| 10 / IX | `அணிந்துரை` conclusion | page-opening continuation `பாடுவதன் மூலமாக அண்ணாவின் இதய உணர்வுகளையே / தன் உள்ளுணர்வுகளாகப் பெற்றவர் என்றமை.` restored; closing signature `க. அன்பழகன்` and `கவிதைகளை எண்ணிப் / பார்த்தால்` retained; compact prose/quotation remains unresolved |
-| 11 | `புறவுரை` opening | former opening placeholder resolved as `கலைஞரின் பாக்களை நாம்`; previously restored `படிக்கலாம்` sequence, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, `பழந்தொட்டு வரும்`, and `ஓசையை` confirmed; final prosody continuation cleared through `அவற்றிற்குரிய / ஓசைகளாக முறையே செப்பலோசை, அகவலோசை, / துள்ளலோசை, தூங்கலோசை என்று / குறித்துள்ளனர்.`; complete-pass `verified` |
-| 12 | `புறவுரை` continuation | restored `கலைஞர்தம் பாக்களில்`, `தெள்ளல் அல்லது தெளிதல் என்று சொல்`, and `தெளிவித்தல், ஆராய்தல், தெளிந்தல் என்பன போன்ற பல`; earlier closing `இந் நூலின் வாயிலாகப்` / `நாம் பயன்பெற முடியும்.` retained; other dense prose unresolved |
-| 13 / XII | `புறவுரை` conclusion | `கலைஞர்தம் பாடல்களில்`, `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, `அணி நயம் சுவைக்க விரும்புவோர் 19, 20, 23, 27, 31, 38, 48`, and `பக்கங்களையும் நான் பகுத்துத் தொகுத்து` restored directly; surrounding categorizing prose remains unresolved |
+| 6 | `அணிந்துரை` opening | source-backed prose restored; compact prose unresolved |
+| 7 / VI | `அணிந்துரை` continuation | source-backed prose restored; compact prose unresolved |
+| 8 / VII | `அணிந்துரை` continuation | opening/closing prose corrected; compact prose unresolved |
+| 9 / VIII | `அணிந்துரை` continuation | opening continuation and key names restored; compact prose unresolved |
+| 10 / IX | `அணிந்துரை` conclusion | opening continuation/signature corrected; compact prose/quotation unresolved |
+| 11 | `புறவுரை` opening | complete direct-source pass; `verified` |
+| 12 / XI | `புறவுரை` continuation | source-backed prose restored; dense prose unresolved |
+| 13 / XII | `புறவுரை` conclusion | categorizing lines restored; surrounding compact prose unresolved |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
 | 15 | contents | complete-pass `verified` |
-| 16 / XV | contents continuation | residual strings, punctuation and page references cleared; complete-pass `verified` |
+| 16 / XV | contents continuation | complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
-| 21 | `இதயத்தைத் தந்திடு அண்ணா` / printed 4 | `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?` corrected directly; lower verse still unresolved |
-| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | `உலவிடும் காற்றில்`, `குலவிடும் அருவி குறையும் மழையென`, `அலையெழும் கடலில் ஆடும் நுரையெனக்`, and `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!` restored directly; intervening/closing compact verse remains unresolved |
-| 23 | `இதயத்தைத் தந்திடு அண்ணா` / printed 6 | `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”` restored directly; other compact verse remains unresolved |
-| 24 | `இதயத்தைத் தந்திடு அண்ணா` / printed 7 | `மனோன்மணியம்` and full line `வயிறு தாங்காத காரணத்தால்` restored directly from source; remaining compact verse blocks remain unresolved |
-| 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, `தொடங்கினார் போரே!`, and the full `இன்ப நாளிது! இனிய நாளிது!` stanza through `என்றே அண்ணா - அன்றே சொன்னார்....` restored directly; later verse remains unresolved |
+| 21 / printed 4 | `இதயத்தைத் தந்திடு அண்ணா` | source-backed verse corrected; central/lower verse unresolved |
+| 22 / printed 5 | `இதயத்தைத் தந்திடு அண்ணா` | source-backed verse restored; intervening/closing verse unresolved |
+| 23 / printed 6 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass; `verified` |
+| 24 / printed 7 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`; `verified` |
+| 25 / printed 8 | `இதயத்தைத் தந்திடு அண்ணா` | opening and `இன்ப நாளிது!` stanza restored; later verse unresolved |
 
 ### Scan-16 direct contents readings
 
@@ -55,11 +55,11 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 
 ### Residual C01 window
 
-**4, 6–10, 12–13, 21–25** remain `needs-review`.
+**4, 6–10, 12–13, 21–22, 25** remain `needs-review`.
 
 ## Verified pages after current C01 progress
 
-**0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Source-access note
 
@@ -67,4 +67,4 @@ User-supplied page-range derivatives are rendering aids from the same controllin
 
 ## Next mapping / verification activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13 and 21–25**. Do not advance to C02 or Phase 3 while this residual window remains open.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13, 21–22 and 25**. Do not advance to C02 or Phase 3 while this residual window remains open.
