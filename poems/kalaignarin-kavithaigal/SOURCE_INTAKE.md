@@ -19,11 +19,11 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Phase 2 clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS**;
-- cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- unresolved backlog: **360 pages**;
-- verified: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- unresolved backlog: **359 pages**;
+- verified: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
-- additional C04 verified pages: **79, 89**;
+- additional C04 verified pages: **79, 89, 100**;
 - Phase 3 and English translation: **blocked**.
 
 ## C04 source/control state
@@ -32,7 +32,7 @@ Physical window: **76–100**. Source-layout review is complete for all 25 scans
 
 - `விடுதலை வீரர்கள்` closes on scan **79**;
 - `ஐம்புலன்` spans **80–89** and closes on scan **89**;
-- `பிலவங்க ஆண்டு` spans **90–100**;
+- `பிலவங்க ஆண்டு` spans **90–100** and closes on scan **100**;
 - scans **80/90** preserve title/context/star openings;
 - scans **79/89/100** preserve centered floral endings;
 - mixed chairman/performance-note structures remain distinct.
@@ -45,10 +45,11 @@ Physical window: **76–100**. Source-layout review is complete for all 25 scans
 - Iteration D: **83–88 plus 90–93** — exactly 10 physical pages; deeper direct review completed, no promotions;
 - Iteration E: **94–100 plus 76–78** — exactly 10 physical pages; deeper direct review completed, no promotions;
 - Iteration F: **80–88 plus 90** — exactly 10 physical pages; scan **81** corrected directly to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
-- remaining unresolved C04 pages: **76–78, 80–88, 90–100 (23 pages)**.
+- Iteration G: **91–100** — exactly 10 physical pages; scans 91–99 received another direct lexical/glyph pass and **scan 100 / printed 83 reached complete-pass `verified`**, including its final `வணக்கம்.` and floral ornament;
+- remaining unresolved C04 pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 The original scan remains source authority. Exact-page derivatives and explicitly user-designated word-for-word extracts from that same PDF are access/lexical aids, not separate witnesses.
 
 ## Current next activity
 
-Execute **C04 ten-page iteration G: scans 91–100**. Process exactly 10 physical pages, promote only complete source-critical passes, preserve the `பிலவங்க ஆண்டு` speaker/performance-note structure and scan-100 floral closure, and do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration H: scans 76–78 and 80–86**. Process exactly 10 physical pages, promote only complete source-critical passes, preserve the established `விடுதலை வீரர்கள்` / `ஐம்புலன்` structure, and do not advance to C05 or Phase 3 while C04 remains open.
