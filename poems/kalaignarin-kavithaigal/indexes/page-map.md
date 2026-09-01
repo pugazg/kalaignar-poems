@@ -29,22 +29,22 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 |---:|---|---|
 | 2 | title page / publisher block | title/author, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, `(தொலைபேசி) 434 02 05`, punctuation and layout passed; complete-pass `verified` |
 | 3 | English imprint / price | complete-pass `verified` |
-| 4 | `என்னுரை` opening | first two paragraphs + opening of third restored; source punctuation `“கவிதையல்ல”.`, no dash after `1967-ஆம் ஆண்டு`, and comma in `என்றில்லாமல், அந்தப்` now preserved; lower continuation unresolved |
+| 4 | `என்னுரை` opening | first two paragraphs + opening of third restored; source punctuation `“கவிதையல்ல”.`, no dash after `1967-ஆம் ஆண்டு`, comma in `என்றில்லாமல், அந்தப்`, and source-visible `இருந்தநாள்தான்` now preserved; lower continuation unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
 | 6 | `அணிந்துரை` opening | restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`; other compact prose unresolved |
-| 7 / VI | `அணிந்துரை` continuation | `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை` corrected directly; other compact prose remains unresolved |
-| 8 / VII | `அணிந்துரை` continuation | opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; other compact prose remains unresolved |
-| 9 / VIII | `அணிந்துரை` continuation | corrected `இந்த மாணிக்கவாசகர் வருகிறார்;` to `இதில் மாணிக்கவாசகர் வருகிறார்;`; source sequence `வள்ளுவர் வள்ளலார்` and `தமிழ்ப் பண்பாளர்கள்` confirmed; other compact prose unresolved |
-| 10 / IX | `அணிந்துரை` conclusion | closing signature corrected from `மா.நன்னன்` to source-visible `க. அன்பழகன்`; compact prose/quotation remains unresolved |
+| 7 / VI | `அணிந்துரை` continuation | `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`, `அதைப் பிறருக்கும்`, and `உணர்த்த வல்லவனே` restored directly; other compact prose remains unresolved |
+| 8 / VII | `அணிந்துரை` continuation | opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; closing prose corrected to `எழுதிய கட்டுரைகளிலே`, `கவிதை நடையைப்`, `பயன்படுத்துவது`; other compact prose remains unresolved |
+| 9 / VIII | `அணிந்துரை` continuation | source-visible `இதில் மாணிக்கவாசகர் வருகிறார்;`, sequence `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` restored; other compact prose unresolved |
+| 10 / IX | `அணிந்துரை` conclusion | closing signature corrected to `க. அன்பழகன்`; `கவிதைகளை எண்ணிப் / பார்த்தால்` restored; compact prose/quotation remains unresolved |
 | 11 | `புறவுரை` opening | restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்`; `ஓசையை` remains source-confirmed; opening/final compact prose unresolved |
-| 12 / XI | `புறவுரை` continuation | closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`; dense intervening prose remains unresolved |
+| 12 | `புறவுரை` continuation | closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`; dense intervening prose remains unresolved |
 | 13 / XII | `புறவுரை` conclusion | opening corrected to `கலைஞர்தம் பாடல்களில்`; `எண்ணுவோர்` confirmed in `சொல்லழகைக் சுவைக்க எண்ணுவோர்`; surrounding categorizing prose remains unresolved |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
 | 15 | contents | complete-pass `verified` |
 | 16 / XV | contents continuation | residual strings, punctuation and page references cleared; complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
 | 21 | `இதயத்தைத் தந்திடு அண்ணா` / printed 4 | `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?` corrected directly; lower verse still unresolved |
-| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | `உலவிடும் காற்றில்` corrected directly from source; central/closing compact verse remains unresolved |
+| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | `உலவிடும் காற்றில்` and `குலவிடும் அருவி குறையும் மழையென` corrected directly from source; central/closing compact verse remains unresolved |
 | 23 | `இதயத்தைத் தந்திடு அண்ணா` / printed 6 | `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”` restored directly; other compact verse remains unresolved |
 | 24 | `இதயத்தைத் தந்திடு அண்ணா` / printed 7 | `மனோன்மணியம்` corrected directly from source; remaining compact verse blocks remain unresolved |
 | 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!` restored; later verse remains unresolved |
