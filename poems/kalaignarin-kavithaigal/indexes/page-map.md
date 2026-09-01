@@ -13,8 +13,8 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 **PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 423 `needs-review`, 42 `verified`**;
-- unresolved backlog: **423 pages**;
+- cumulative status: **0 `partial`, 422 `needs-review`, 43 `verified`**;
+- unresolved backlog: **422 pages**;
 - Phase 3 remains blocked until unresolved Phase-2 pages are cleared.
 
 ## Phase-2 source-coverage completion
@@ -27,7 +27,7 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 
 | Scan(s) | Visible role / section | Clearance outcome |
 |---:|---|---|
-| 2 | title page / publisher block | publisher address, `த.பெ.எண். 4984`, telephone digits `434 02 05`, emblem and physical overlay recorded; tiny final-line punctuation/bracketing still prevents complete pass |
+| 2 | title page / publisher block | title/author, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, `(தொலைபேசி) 434 02 05`, punctuation and layout passed; complete-pass `verified` |
 | 3 | English imprint / price | complete-pass `verified` |
 | 4 | `என்னுரை` opening | first two paragraphs + opening of third restored directly; lower compact continuation remains unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
@@ -44,11 +44,11 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 
 ### Residual C01 window
 
-**2, 4, 6–13, 21–25** remain `needs-review`.
+**4, 6–13, 21–25** remain `needs-review`.
 
 ## Verified pages after current C01 progress
 
-**0001, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Source-access note
 
@@ -56,4 +56,4 @@ User-supplied page-range derivatives are rendering aids from the same controllin
 
 ## Next mapping / verification activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13 and 21–25**. Do not advance to C02 or Phase 3 while this residual window remains open.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–13 and 21–25**. Do not advance to C02 or Phase 3 while this residual window remains open.
