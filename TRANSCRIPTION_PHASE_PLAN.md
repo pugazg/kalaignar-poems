@@ -20,9 +20,9 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - Phase 1: **COMPLETE, batches 01–19**;
 - Phase 2 source-coverage Batches 01–19, scans **1–465: COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative verified pages: **103 — 0001–0075, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- cumulative status: **0 `partial`, 362 `needs-review`, 103 `verified`**;
-- unresolved Phase-2 backlog: **362 page records**;
+- cumulative verified pages: **104 — 0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
+- unresolved Phase-2 backlog: **361 page records**;
 - durable contiguous verified boundary: **scans 1–75**.
 
 Source-coverage Batch 19 completed the independent source reread across the full 465-scan PDF. That does not equal page clearance: Phase 3 remains blocked while `needs-review` pages remain.
@@ -33,18 +33,22 @@ C01 cleared physical scans **1–25**. C02 cleared unresolved scans **26–31 an
 
 For the final C03 lexical closure, the user supplied full word-for-word transcription from exact page-range derivatives of the same controlling PDF for scans **51–60, 62–69 and 72–75**. The supplied words served as the lexical base; the controlling scans independently determined titles, physical page boundaries, punctuation, quotations, separators, lineation, illustrations, ornaments, running headers/page numbers, performance notes and speaker labels.
 
-C03 source boundaries are fixed: `இந்திரஜித்` closes at scan 54; `இரணியன்` spans 55–61; `வாளி மன்னன்` spans 62–69; `விடுதலை வீரர்கள்` opens at scan 72 and continues through the C03 boundary into scan 76. Scan 75 contains a mounted-warrior illustration; flattened numeric OCR noise from that illustration is not text.
+### Clearance Batch C04 — IN PROGRESS
 
-The standing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
+Target physical window: **76–100**. Direct source-layout review for the entire window is complete.
 
-### Exact next activity — Clearance Batch C04
+Source-established boundaries:
 
-Target physical window: **76–100**.
+- scans **76–79** continue `விடுதலை வீரர்கள்`; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
+- scans **80–89** are `ஐம்புலன்`; scan 80 contains title/event note/star opening and scan 89 closes with `வணக்கம்.` and floral ornament;
+- scans **90–100** are `பிலவங்க ஆண்டு`; scan 90 contains title/event note/star opening and scan 100 closes with `வணக்கம்.` and floral ornament;
+- scans **80–89** and **90–100** contain separate chairman passages, parenthetical performance notes and speaker labels; preserve these as distinct source structures.
 
-For every C04 page:
+Scan **79** has now passed complete direct lexical/glyph, punctuation and lineation review and is `verified`. Remaining C04 target set: **76–78 and 80–100 (24 pages)**.
+
+For every remaining C04 page:
 
 - independently inspect the controlling scan before trusting Markdown;
-- preserve continuation of `விடுதலை வீரர்கள்` from scan 75 until the source establishes a new item boundary;
 - use exact-source derivatives or user-designated word-for-word extraction only as access/lexical aids to the same controlling PDF;
 - correct only source-backed differences under the applicable lexical control;
 - preserve old Tamil forms, punctuation, quotations, separators, lineation, running headers/page numbers and non-Tamil material;
@@ -52,7 +56,9 @@ For every C04 page:
 - promote only complete passes to `verified`;
 - synchronize status-bearing files after status movement.
 
-Do not begin C05 or Phase 3 in the same activity unless C04 is fully closed and the next step is explicitly authorized.
+### Exact next activity
+
+Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of scans 76–78 and 80–100**. Do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
