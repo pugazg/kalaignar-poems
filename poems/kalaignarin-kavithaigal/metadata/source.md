@@ -23,11 +23,11 @@
 
 - Phase 1: **COMPLETE — 465/465 records**;
 - Phase 2 source coverage, scans **1–465: COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS in 10-page iterations**;
 - cumulative page status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
 - unresolved backlog: **361 pages**;
 - verified pages: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- next: **continue C04 exact lexical/glyph verification for scans 76–78 and 80–100**;
+- next: **C04 ten-page iteration B — scans 87–96**;
 - Phase 3: **blocked pending Phase-2 page clearance**.
 
 ## Clearance C01–C03 note
@@ -40,9 +40,11 @@ For the final C03 closure, user-supplied word-for-word transcriptions from exact
 
 The full physical window **76–100** has received direct source-layout review. Source boundaries are fixed as `விடுதலை வீரர்கள்` through scan **79**, `ஐம்புலன்` scans **80–89**, and `பிலவங்க ஆண்டு` scans **90–100**. Scans **80** and **90** carry title/context blocks and star separators; scans **79, 89 and 100** carry centered floral closing ornaments. Mixed speaker/performance-note structures in `ஐம்புலன்` and `பிலவங்க ஆண்டு` must remain distinct from verse.
 
-Scan **79 / printed 62** has now received a complete source-critical lexical/glyph pass and is `verified`, including source-backed `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`, plus the final `வணக்கம்!`, `வாழ்க!` and closing ornament.
+Scan **79 / printed 62** is complete-pass `verified`.
 
-Remaining C04 targets: **76–78 and 80–100 (24 pages)**.
+User-directed **ten-page iteration A** has directly reviewed scans **76–78 and 80–86**. Source-backed refinements include scan 76 `நன்று நன்று.` / `பேரதிர்ச்சிப் பெரும்புயலைத்`, scan 77 `கப்பல்விட்ட` / `மாநில`, scan 80 `கல்லூரிப் பெருமன்றில்`, scan 82 `அடக்குதல்` / `அடக்கத் தவம்`, scan 85 `எல்லாம் மெய் என்று`, and scan 86 `இவர்பக்கம்`. All ten remain `needs-review` because compact lexical/glyph spans remain unresolved without inference.
+
+Remaining C04 targets: **76–78 and 80–100 (24 pages)**. Next ten-page iteration is **87–96**.
 
 Phase-2 corrections are made only from controls tied to the same source. Unrelated OCR, memory, grammar, historical expectation and other editions are not textual authority.
 
