@@ -12,36 +12,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 **PHASE 1 MAP COMPLETE. PHASE 2 VERIFICATION IN PROGRESS.**
 
-- Phase 2 reviewed through scan **425**;
-- cumulative status: **2 `partial`, 429 `needs-review`, 34 `verified`**.
-
-## Phase-2 Batch 16 — scans 376–400
-
-| Scans | Visible role / section | Phase-2 outcome |
-|---:|---|---|
-| 376–378 | `கலைத்தாயின் தலைச் செல்வன்!` | reviewed; closes at 378 / printed 361 |
-| 379–381 | `உன் நிழலாக அசைகின்றோம்!` | reviewed; closes at 381 / printed 364 |
-| 382–383 | `வாழ்க ஜீவா!` | reviewed; closes at 383 / printed 366 |
-| 384–389 | `மறைந்த மாவீரன்` | reviewed; closes at 389 / printed 372 |
-| 390–391 | `என் இனிய நண்பா! ஏன் பிரிந்தாய்?` | reviewed; closes at 391 / printed 374 |
-| 392–393 | `மலர்த் தோட்டம்` divider / verso | complete-pass `verified` |
-| 394–395 | `இன்றைக்கு உன் பிறந்த நாள்` | reviewed; closes at 395 / printed 378 |
-| 396–397 | `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` | reviewed; closes at 397 / printed 380 |
-| 398–399 | `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` | reviewed; closes at 399 / printed 382 |
-| 400 | `பகுத்தறிவுப் பாண்டியனார்!` opening | reviewed; remains open |
+- Phase 2 reviewed through scan **450**;
+- cumulative status: **2 `partial`, 428 `needs-review`, 35 `verified`**.
 
 ## Phase-2 Batch 17 — scans 401–425
 
 | Scans | Visible role / section | Phase-2 outcome |
 |---:|---|---|
 | 401–402 | `பகுத்தறிவுப் பாண்டியனார்!` continuation/conclusion | reviewed; closes at 402 / printed 385 |
-| 403 | `நியாயத் தராசு` | reviewed; single-scan item |
-| 404 | `ஏற்பாரோ?` | reviewed; single-scan item |
-| 405 | `புயல் என அறிக!` | reviewed; single-scan item |
-| 406 | `கேட்டதுண்டோ?` | reviewed; source-backed title correction; single-scan item |
-| 407 | `வருணமா? மரணமா?` | reviewed; single-scan item |
-| 408 | `தோல்வி எப்பொழுது?` | reviewed; single-scan item |
-| 409 | `இன்றுமா கூச்சல்?` | reviewed; single-scan item |
+| 403–409 | seven source-established single-scan items | reviewed |
 | 410–412 | `பச்சைக் கிளி` | reviewed; closes at 412 / printed 395 |
 | 413–414 | `கற்பனை ஊற்று` | reviewed; closes at 414 / printed 397 |
 | 415–416 | `வானமே பொழிக நீ!` | reviewed; closes at 416 / printed 399 |
@@ -49,22 +28,39 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 | 418–419 | `அவர் உணர்வாரோ! யார் அறிவார்?` | reviewed; closes at 419 / printed 402 |
 | 420–421 | `போர்வாளாய்ச் சுழலட்டுமே!` | reviewed; closes at 421 / printed 404 |
 | 422–424 | `இன்னும் யார் யார் பெயர்கள் வரவில்லை?` | reviewed; closes at 424 / printed 407 |
-| 425 | `ஒரு சொட்டுத் தேன்!` opening | reviewed; remains open beyond Batch 17 |
+| 425 | `ஒரு சொட்டுத் தேன்!` opening | reviewed; remains open |
 
-### Batch-17 source-backed corrections
+## Phase-2 Batch 18 — scans 426–450
 
-- scan 401: `சொல்வது`; `திரும்பிப் பார்க்க மறவாத இயக்கமென நிகழ்ச்சியில் தானுறும்!`;
-- scan 406: title/refrain `கேட்டதுண்டோ?`;
-- scans 411–412: `அனுபவம் பெற்றேன்`, restored source-visible lines below the cage illustration, `திறந்து`, `கஷ்டம்`, `கூண்டினில்`, `ஏனோ`, and corrected closing question;
-- scan 413: `ஆர்லாண்டோ`;
-- scan 415: `மின்னிடும் உன் சிரிப்பு எங்கே?` / `முழங்கிடும் இடி பேச்செங்கே?`;
-- scan 424: `அரிந்திடுக`, `கண்மூடித் திறப்பதற்குள்`;
-- scan 425: `பசி நோக்கார்`, `கண்ணாயினார்`, `பனிக்`, `பூண்டுள்ளோம்`, `பணக்கோட்டை`.
+| Scans | Visible role / section | Phase-2 outcome |
+|---:|---|---|
+| 426–427 | `ஒரு சொட்டுத் தேன்!` continuation/conclusion | reviewed; closes at 427 / printed 410 |
+| 428 | `விதையாய் முளைத்து விழுதுகள் விட்டோம்!` | reviewed; single-scan item |
+| 429–432 | `சூரியனைப் பனிக்கட்டி என்கிறாய்!` | reviewed; closes at 432 / printed 415 |
+| 433–434 | `நடையை நிறுத்தாதே!` | reviewed; closes at 434 / printed 417 |
+| 435–437 | `பாமர் நிறைந்த பட்டிக்காடு!` | reviewed; closes at 437 / printed 420 |
+| 438–439 | `கொள்ளை போதும்மா தமிழ்நாடு` | reviewed; closes at 439 / printed 422 |
+| 440–442 | `என்ன தேசமடா இது?` | reviewed; closes at 442 / printed 425 |
+| 443–445 | `முடியுமா? கிழித்தெறிவோம் வாரீர்!` | reviewed; closes at 445 / printed 428 |
+| 446–447 | `பதில் என்ன? பகர்ந்திடுக!` | reviewed; scan 447 complete-pass `verified`; closes at 447 / printed 430 |
+| 448–449 | `கா, கா, கா!` | reviewed; closes at 449 / printed 432 |
+| 450 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` opening | reviewed; remains open beyond Batch 18 |
+
+### Batch-18 source-backed corrections
+
+- scan 426: `வீடுகளைச் சென்றிடு!`; `ஒரு துளி உதவியும் வேண்டாம் — அந்தச்`;
+- scan 427: `நேரமும் இது!`; restored `ஆல்போல் தழைத்த கழகத்தின் உயிரே! நீ`;
+- scan 429: `அழுகிறாயா நீ!`;
+- scan 432: `அறுபத்து எழுமாம் ஆண்டு தேர்தலிலே`;
+- scan 435: `எரியும் நெருப்பில்!`, `குரைக்குமென்றிருந்து`;
+- scan 447: `கருத்தமிழக் கழகத்தால் — மேலும்`, `பொதி சுமக்கப் போகின்றோமா?`; complete-pass `verified`;
+- scan 448: `கூண்டுக்கு`, `பழைய`;
+- scan 450: `நாள்தோறும்`.
 
 ## Source-access note
 
-The user-supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf` and `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf` are page-range derivatives from the same controlling PDF, not separate witnesses. In the latter, derivative page 1 = physical scan 350.
+The user-supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf` is a page-range derivative from the same controlling PDF, not a separate witness. Derivative page 1 = physical scan 350.
 
 ## Next mapping activity
 
-**Phase 2 Verification Batch 18 — physical scans 426–450**. The pages-350–465 derivative covers this range as derivative pages **77–101**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
+**Phase 2 Verification Batch 19 — physical scans 451–465**. The pages-350–465 derivative covers this final Phase-2 range as derivative pages **102–116**. Phase-3 physical↔printed-page reconciliation remains blocked until Phase 2 completes.
