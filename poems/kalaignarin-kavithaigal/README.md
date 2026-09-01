@@ -46,7 +46,7 @@ Iteration tracking:
 - **C:** scans **97–100, 76–78, 80–82** — deeper review of exactly 10 physical pages; no promotions;
 - **D:** scans **83–88, 90–93** — deeper review of exactly 10 physical pages; no promotions;
 - **E:** scans **94–100, 76–78** — deeper review of exactly 10 physical pages; no promotions;
-- iteration-E direct-source refinements include restoration of scan-76 `அப்துல் ரகுமான்` performance structure, scan-94 `அடக்கத்தின் விளைமையாய் அறமே நிற்கும் அது`, scan-95 `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`, scan-96 poet `ஆறுமுகம்`, scan-97 `உதடு மடித்தல்`, and additional scan-98 `அருளுடைமை` lines;
+- **F:** scans **80–88, 90** — another exact 10-page direct closure pass; scan **81** corrected to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Verification control
@@ -55,4 +55,4 @@ The controlling scan remains authoritative. Exact-source word-for-word transcrip
 
 ## Exact next activity
 
-Process exactly **10 physical pages** in C04 iteration F: **80–88 plus scan 90**. Give those residual pages another direct exact lexical/glyph closure pass, preserve the `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Process exactly **10 physical pages** in C04 iteration G: **91–100**. Give those `பிலவங்க ஆண்டு` residual pages another direct exact lexical/glyph closure pass, preserve all speaker/performance-note structures and the scan-100 floral ending, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
