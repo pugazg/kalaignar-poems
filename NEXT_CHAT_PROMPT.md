@@ -34,6 +34,7 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 - Clearance C01–C03: **COMPLETE**;
 - C04 source-layout review: **COMPLETE**;
 - C04 lexical/glyph clearance: **OPEN**;
+- user directive for current work: **process exactly 10 unresolved pages per iteration**;
 - durable contiguous verified boundary: **physical scans 1–75**;
 - cumulative status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
 - unresolved backlog: **361 pages**;
@@ -46,7 +47,7 @@ C03 physical window **51–75** is fully cleared. Scans **61, 70 and 71** were a
 
 ## CLEARANCE C04 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
-The full C04 physical window **76–100** has been directly inspected for source structure. Source-established C04 map:
+Source-established C04 map:
 
 - **76–79** — `விடுதலை வீரர்கள்` continuation; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
 - **80–89** — `ஐம்புலன்`; scan **80** opens with title, `24.3.68` Vaniyambadi Islamic College event note and centered star separator; scan **89 / printed 72** closes with `வணக்கம்.` and floral ornament;
@@ -56,9 +57,22 @@ The full C04 physical window **76–100** has been directly inspected for source
 
 ### C04 lexical progress
 
-Scan **79 / printed 62** has passed a complete direct source-critical lexical/glyph, punctuation and lineation pass and is now `verified`. Source-backed corrections include `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`; the final `வணக்கம்!`, `வாழ்க!` and centered floral ornament are confirmed.
+Scan **79 / printed 62** is `verified` after a complete direct source-critical pass.
 
-Remaining C04 target set: **76–78 and 80–100 (24 pages)**.
+**Ten-page iteration A has now been processed:** unresolved scans **76–78 and 80–86** (10 pages), with scan 79 deliberately skipped because it is already verified.
+
+Iteration-A direct-source refinements include:
+
+- scan 76: `நன்று நன்று.` and `பேரதிர்ச்சிப் பெரும்புயலைத்`;
+- scan 77: `கப்பல்விட்ட` and `மாநில`;
+- scan 80: `கல்லூரிப் பெருமன்றில்` plus exact title/context/star structure;
+- scan 82: `அடக்குதல்` and `அடக்கத் தவம்`;
+- scan 85: `எல்லாம் மெய் என்று` and the `வாய்` → `கண்` performance/speaker transition;
+- scan 86: `இவர்பக்கம்` and the `கண்` → `மூக்கு` performance/speaker transition.
+
+All ten pages remain `needs-review`: each still has one or more compact lexical/glyph spans that cannot be safely certified at the available scan rendering without inference. They are now **direct-reviewed residuals**, not untouched Phase-1 pages.
+
+Remaining C04 `needs-review` set: **76–78 and 80–100 (24 pages)**.
 
 ## PHASE-2 SOURCE-CRITICAL RULE
 
@@ -68,14 +82,15 @@ When user-supplied word-for-word extraction from exact controlling-PDF pages is 
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–78 and 80–100**.
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration B: physical scans 87–96**.
 
-- preserve the source-layout boundaries above;
-- do not reopen scan 79 merely for uniformity unless new direct-source evidence reveals a discrepancy;
-- compare each unresolved Markdown page with the controlling scan;
-- if full word-for-word transcription from exact controlling-PDF extracts is supplied, retain those words as the lexical base and independently reconcile structure/punctuation/lineation;
-- otherwise resolve only what the controlling scan directly supports without guessing;
+- process exactly **10 pages**: `0087.md`, `0088.md`, `0089.md`, `0090.md`, `0091.md`, `0092.md`, `0093.md`, `0094.md`, `0095.md`, `0096.md`;
+- preserve the `ஐம்புலன்` conclusion at scan **89** and the `பிலவங்க ஆண்டு` title/context opening at scan **90**;
+- compare each page directly with the controlling scan;
+- correct only direct-source-supported lexical/glyph, punctuation, lineation and source-structure differences;
+- if the user supplies full word-for-word transcription from exact controlling-PDF extracts, retain those words as the lexical base and independently reconcile structure/punctuation/lineation;
+- otherwise do not guess through blur;
 - promote only complete passes to `verified`;
-- keep C04 open until all **24 residual pages** are cleared;
-- synchronize all status-bearing files after status movement;
+- keep iteration-A residuals **76–78 and 80–86** open for exact closure;
+- synchronize status-bearing files after this 10-page iteration;
 - **do not advance to C05, Phase 3, canonical assembly or translation**.
