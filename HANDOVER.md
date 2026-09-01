@@ -78,8 +78,11 @@ Residual C01 pages: **4, 6–13, 21–25**.
 Direct-source residual progress now includes:
 
 - scan **4** — first two `என்னுரை` prose paragraphs and opening of the third restored; lower compact continuation remains unresolved;
+- scan **11** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
+- scan **13 / printed XII** — `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed; surrounding categorizing prose remains unresolved;
 - scan **21 / printed 4** — fourth line ending corrected to `பறப்பேன்!`; `ஒரு கோடித் தமிழ் இளைஞர்,` confirmed; central/lower verse remains unresolved;
-- scan **25 / printed 8** — opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது` restored; other compact verse remains unresolved.
+- scan **23 / printed 6** — `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண` restored directly; other compact verse remains unresolved;
+- scan **25 / printed 8** — opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, and `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்` restored; later compact verse remains unresolved.
 
 The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
 
