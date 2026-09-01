@@ -22,9 +22,9 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 physical scans independently reviewed**;
-- cumulative status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
-- unresolved backlog: **385 pages**;
-- verified pages: **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 384 `needs-review`, 81 `verified`**;
+- unresolved backlog: **384 pages**;
+- verified pages: **0001–0050, 0061, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3: **blocked until Phase-2 clearance resolves the remaining `needs-review` page records**.
 
 ## Phase-2 Clearance C01–C02 — COMPLETE THROUGH SCAN 50
@@ -37,16 +37,20 @@ C02 promoted **23 / 23** target pages. Durable outcome: **all physical scans 1�
 
 ## Phase-2 Clearance C03 — LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
-C03 physical window: **51–75**. Already verified scans **70 and 71** were preserved. Residual targets remain **51–69 and 72–75 (23 pages)**.
+C03 physical window: **51–75**. Previously verified scans **70 and 71** were preserved. Scan **61 / printed 44** has now passed a complete direct source-critical lexical/glyph review and is `verified`.
 
-Direct scan inspection has fixed the physical structure:
+Remaining C03 targets: **51–60, 62–69 and 72–75 (22 pages)**.
+
+Direct scan inspection fixes the physical structure:
 
 - **51–54** — `இந்திரஜித்` continuation; scan 54 closes with a centered floral ornament;
-- **55–61** — `இரணியன்`; title on scan 55, closing floral ornament on scan 61;
+- **55–61** — `இரணியன்`; title on scan 55, closing floral ornament on scan 61; scan 61 is now `verified`;
 - **62–69** — `வாளி மன்னன்`; title on scan 62, closing floral ornament on scan 69;
 - **72–75** — `விடுதலை வீரர்கள்`; scan 72 has the two-line title, `15.8.67` Tiruchi radio-event note and star separator; scan 74 separates parenthetical performance notes / `தலைவர் கலைஞர்:` speaker labels from verse; scan 75 contains a large mounted-warrior illustration and the item continues into scan 76.
 
-No C03 target was promoted in the source-layout pass because the existing first-pass lexical text still contains numerous provisional or mis-segmented readings. Exact glyph/word-ending reconciliation remains required.
+The scan-61 pass restores source-specific readings including `ஆடற்று ஆரியம் திருக்கூத்திது!-`, `தெய்வந்தான் ... கொண்டதெனத்`, `அவனறியான்`, and `ஆடுதற்கு ஆவலுடன் நிற்கிட்டான் அரியணையில்!` and confirms the closing ornament.
+
+The remaining C03 first-pass lexical text still contains provisional or mis-segmented readings. Exact glyph/word-ending reconciliation is required before promotion.
 
 ## Verification control
 
@@ -56,4 +60,4 @@ Full-source Phase-2 coverage does **not** itself authorize Phase 3 while unresol
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–69 and 72–75**. Preserve the source-layout boundaries above, promote only complete passes, keep scans 70–71 untouched unless new source evidence requires reopening, and do not advance to C04, Phase 3, canonical assembly or translation.
+Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–60, 62–69 and 72–75**. Preserve the source-layout boundaries above, promote only complete passes, keep scans 61 and 70–71 untouched unless new source evidence requires reopening, and do not advance to C04, Phase 3, canonical assembly or translation.
