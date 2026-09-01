@@ -81,7 +81,9 @@ Direct-source residual progress now includes:
 - scan **11** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
 - scan **13 / printed XII** — `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed; surrounding categorizing prose remains unresolved;
 - scan **21 / printed 4** — fourth line ending corrected to `பறப்பேன்!`; `ஒரு கோடித் தமிழ் இளைஞர்,` confirmed; central/lower verse remains unresolved;
+- scan **22 / printed 5** — `உலவிடும் காற்றில்` restored directly from the controlling scan; central/closing compact verse remains unresolved;
 - scan **23 / printed 6** — `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண` restored directly; other compact verse remains unresolved;
+- scan **24 / printed 7** — `மனோன்மணியம்` restored directly from source; remaining compact verse blocks remain unresolved;
 - scan **25 / printed 8** — opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, and `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்` restored; later compact verse remains unresolved.
 
 The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
