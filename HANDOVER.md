@@ -73,7 +73,7 @@ Direct-source residual progress now includes:
 - scan **22 / printed 5** — `உலவிடும் காற்றில்`, `குலவிடும் அருவி குறையும் மழையென`, `அலையெழும் கடலில் ஆடும் நுரையெனக்`, and the emphatic `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!` sequence restored directly;
 - scan **23 / printed 6** — `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”` restored;
 - scan **24 / printed 7** — `மனோன்மணியம்` and the full source line `வயிறு தாங்காத காரணத்தால்` restored directly;
-- scan **25 / printed 8** — `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!` restored.
+- scan **25 / printed 8** — `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, `தொடங்கினார் போரே!`, and the complete six-line `இன்ப நாளிது! இனிய நாளிது!` stanza through `என்றே அண்ணா - அன்றே சொன்னார்....` restored directly.
 
 The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
 
