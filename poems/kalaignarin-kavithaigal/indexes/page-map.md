@@ -31,7 +31,9 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 3 | English imprint / price | complete-pass `verified` |
 | 4 | `என்னுரை` opening | first two paragraphs + opening of third restored directly; lower compact continuation remains unresolved |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
-| 6–10 | `அணிந்துரை` | reinspected; compact prose remains unresolved |
+| 6–8 | `அணிந்துரை` | reinspected; compact prose remains unresolved |
+| 9 / VIII | `அணிந்துரை` continuation | `வள்ளுவர்` and `தமிழ்ப் பண்பாளர்கள்` corrected directly; other compact prose remains unresolved |
+| 10 | `அணிந்துரை` conclusion | compact prose remains unresolved |
 | 11 | `புறவுரை` opening | `ஓசையை` corrected directly; surrounding compact prose remains unresolved |
 | 12 | `புறவுரை` continuation | compact prose remains unresolved |
 | 13 / XII | `புறவுரை` conclusion | `எண்ணுவோர்` corrected directly in `சொல்லழகைக் சுவைக்க எண்ணுவோர்`; surrounding categorizing prose remains unresolved |
