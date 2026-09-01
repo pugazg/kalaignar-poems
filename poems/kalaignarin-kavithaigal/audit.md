@@ -50,6 +50,13 @@ Direct-source clearance records the contents-witness readings including:
 
 The contents witness is preserved as printed rather than normalized from later poem-opening pages.
 
+### Residual reread progress
+
+A further direct-source pass was made on residual scans **2** and **4** without forcing promotion:
+
+- scan **2** — the publisher block now records the directly visible address, `த.பெ.எண். 4984`, telephone digits `434 02 05`, publisher emblem, and the physical `அன்பளிப்பு` overlay separately. Exact tiny-type punctuation/bracketing on the final telephone line is still not sufficiently clear for a complete pass, so scan 2 remains `needs-review`;
+- scan **4** — the first two `என்னுரை` paragraphs and opening lines of the third paragraph were restored directly from the scan, including `யேற்றுப் பாடிய கவிதைகளையும் தமிழ்க்கனி`, `“கவியரங்கப் பொறுப்பேற்ற பிறகு`, and `எனக்கு இளைப்பாறும் இடமென்றும் சொல்லலாமா.` The lower compact continuation remains unresolved, so scan 4 remains `needs-review`.
+
 ### Residual C01 pages
 
 The following targeted scans remain `needs-review` because the current direct rendering does not yet support a complete glyph/punctuation/lineation clearance without guessing:
@@ -62,7 +69,8 @@ No OCR, remembered wording, grammar, metre, historical expectation or another ed
 
 Before C01: **2 `partial`, 427 `needs-review`, 36 `verified`**.  
 After the first C01 pass: **0 `partial`, 425 `needs-review`, 40 `verified`**.  
-After contents residual clearance through scans 15–16: **0 `partial`, 423 `needs-review`, 42 `verified`**.
+After contents residual clearance through scans 15–16: **0 `partial`, 423 `needs-review`, 42 `verified`**.  
+The latest scan-2/scan-4 residual reread improves source fidelity but does not change page-status counts.
 
 ## Phase-2 completion assessment
 
