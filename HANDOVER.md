@@ -18,7 +18,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
 4. inspect the exact unresolved target pages recorded below before changing anything;
 5. use the controlling scan directly; never substitute OCR, memory, another edition, or a separate source witness;
-6. synchronize status-bearing files after each clearance batch.
+6. synchronize status-bearing files after each clearance pass.
 
 # CURRENT ACTIVE WORK — கலைஞரின் கவிதைகள்
 
@@ -38,42 +38,40 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 source-coverage Batches 01–19 COMPLETE — all 465 physical scans independently reread. Phase 2 page clearance remains IN PROGRESS.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 source coverage COMPLETE — all 465 physical scans independently reread. Phase 2 page clearance remains IN PROGRESS.**
 
 Current cumulative page status:
 
-- `partial`: **2**;
-- `needs-review`: **427**;
-- `verified`: **36**;
+- `partial`: **0**;
+- `needs-review`: **425**;
+- `verified`: **40**;
 - total: **465**;
-- unresolved backlog: **429**.
+- unresolved backlog: **425**.
 
-Verified pages so far: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Verified pages so far: **0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
-## Phase-2 Batch 19 outcomes
+## Phase-2 Clearance Batch C01 — first pass
 
-- scans **451–452** — continuation/conclusion of `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; closes at **452 / printed 435**;
-- scans **453–454** — `திசை திருப்பல் நியாயம்தானா?`; closes at **454 / printed 437**;
-- scans **455–456** — `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!`; closes at **456 / printed 439**;
-- scans **457–460** — `சில நாடுகள் இருக்கின்றன`; closes at **460 / printed 443**;
-- scans **461–464** — `உன் காலணியை வாழ்த்துகிறாய்`; closes at **464 / printed 447**;
-- scan **465** — final full-colour back cover; printed `கலைஞர் / கவிதைகள்`; complete-pass `verified`.
+Targeted unresolved scans: **2–17 and 21–25**. Already verified scans **1 and 18–20** were skipped.
 
-Direct-source Batch-19 corrections:
+Complete-pass promotions:
 
-- scan **464**: `எழை எளிய உடன் பிறப்பு நீ!` → `ஏழை எளிய உடன் பிறப்பு நீ!`;
-- scan **464**: parenthetical `கலைஞரின் 58-வது பிறந்தநாள்` → `கலைஞர் தனது 58-வது பிறந்தநாள்`;
-- scan **465**: page role, wording, colour artwork, absence of page numeral and final-source boundary all passed.
+- scan **3** — English imprint / price;
+- scan **5 / IV** — `என்னுரை` continuation;
+- scan **14** — `பதிப்புரை`; unresolved phrase fixed from direct source as `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
+- scan **17 / XVI** — contents continuation; all visible strings/page references/punctuation and the ornament passed as the contents witness.
 
-## Phase-2 completion assessment
+Other source-backed correction:
 
-Every physical scan has now received the required independent Phase-2 reread. This is **source-coverage completion only**. The processing guide permits Phase 3 only after page verification. Because **429 page records remain unresolved**, Phase 3, canonical assembly and translation remain blocked.
+- scan **16 / XV** — `தமிழ் அவள் வழிநடைப் பயணம்` → **`தமிழ் வளர வழிநடைப் பயணம்`**. The page remains `needs-review` because other small-type titles remain unresolved.
 
-Verified pages must not be reopened merely for uniformity; reopen only if direct source evidence reveals a discrepancy.
+Residual C01 pages: **2, 4, 6–13, 15–16, 21–25**.
+
+The current direct rendering is not sufficient to certify every compact glyph/punctuation/lineation detail on those residual pages without guessing. They therefore remain open rather than being filled from OCR, context, memory or another source witness.
 
 ## Phase-2 rule
 
-Independently reread the source itself. Correct only what the controlling scan supports. Preserve old Tamil forms and source anomalies. Resolve `⟦…⟧` only from direct source evidence. Promote a page to `verified` only when every word/glyph, punctuation mark, line break, quotation, separator and non-Tamil element passes.
+Independently reread the source itself. Correct only what the controlling scan supports. Preserve old Tamil forms and source anomalies. Resolve `⟦…⟧` / `[மங்கலான ...]` only from direct source evidence. Promote a page to `verified` only when every word/glyph, punctuation mark, line break, quotation, separator and non-Tamil element passes.
 
 ## Cross-witness safeguard
 
@@ -81,11 +79,10 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C01 — unresolved physical scans 2–17 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 2, 4, 6–13, 15–16 and 21–25**.
 
-- scans **1 and 18–20 are already `verified`** and must be skipped unless a direct-source discrepancy appears;
-- inspect the controlling source directly for each targeted unresolved page;
-- resolve only source-backed uncertainty, old-glyph, punctuation, quotation, lineation and non-Tamil issues;
+- do not reopen scans **1, 3, 5, 14, 17–20** unless direct-source evidence reveals a discrepancy;
+- inspect the residual scans directly and resolve only source-backed uncertainty, old-glyph, punctuation, quotation, lineation and non-Tamil issues;
 - promote only complete passes to `verified`;
-- synchronize the backlog counts and next clearance window afterward;
-- **do not begin Phase 3, canonical assembly, or translation**.
+- synchronize backlog counts afterward;
+- **do not advance to C02, Phase 3, canonical assembly, or translation while the C01 residual window remains open**.
