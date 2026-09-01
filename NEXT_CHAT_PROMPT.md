@@ -31,9 +31,9 @@ Fetch live `main` first. Read the repository handover, processing guide, phase p
 - Phase 1: **COMPLETE — 465/465 page records**;
 - Phase 2 source coverage: **all scans 1–465 independently reread — COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **0 `partial`, 423 `needs-review`, 42 `verified`**;
-- unresolved backlog: **423 pages**;
-- verified pages: **0001, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 422 `needs-review`, 43 `verified`**;
+- unresolved backlog: **422 pages**;
+- verified pages: **0001, 0002, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - Phase 3 and translation remain blocked.
 
 ## CLEARANCE C01 OUTCOME SO FAR
@@ -42,6 +42,7 @@ C01 targets unresolved scans **2–17 and 21–25**. Already verified scans **1 
 
 Promoted after complete direct-source passes:
 
+- **0002** — title page / publisher block; title/author, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, `(தொலைபேசி) 434 02 05`, punctuation and layout passed;
 - **0003** — English imprint / price;
 - **0005** — `என்னுரை` continuation / printed IV;
 - **0014** — `பதிப்புரை`;
@@ -49,9 +50,11 @@ Promoted after complete direct-source passes:
 - **0016** — contents continuation / printed XV;
 - **0017** — contents continuation / printed XVI.
 
-Scan **0016 / XV** now has a complete contents-witness pass. Direct source establishes `தமிழ் வளர வழிநடைப் பயணம்` (220), `வையம் தழைக்க` (228), `தந்தை பெரியார்` (237), `பொங்கல் விழா` (250), `பன்னீர்ச் செல்வமே` (357), and `கலைத்தாயின் தலைச்செல்வன்` (359).
+Scan **0016 / XV** has a complete contents-witness pass. Direct source establishes `தமிழ் வளர வழிநடைப் பயணம்` (220), `வையம் தழைக்க` (228), `தந்தை பெரியார்` (237), `பொங்கல் விழா` (250), `பன்னீர்ச் செல்வமே` (357), and `கலைத்தாயின் தலைச்செல்வன்` (359).
 
-Residual C01 scans: **2, 4, 6–13, 21–25**.
+Scan **0004** has already received a deeper residual reread: its first two prose paragraphs and opening of the third were restored directly from source, but the lower compact continuation remains unresolved.
+
+Residual C01 scans: **4, 6–13, 21–25**.
 
 ## PHASE-2 SOURCE-CRITICAL RULE
 
@@ -59,6 +62,6 @@ Independently reread the controlling scan before trusting existing Markdown. Cor
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C01 — residual physical scans 2, 4, 6–13 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual physical scans 4, 6–13 and 21–25**.
 
 Do not reopen already verified scans merely for uniformity. Reinspect only the residual pages, resolve only direct-source-supported readings, and promote only complete passes. **Do not advance to C02, Phase 3, canonical assembly, or translation while the C01 residual window remains open.**
