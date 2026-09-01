@@ -113,7 +113,13 @@ Durable source-established structure:
 - scan **100 / printed 83** now passes completely and is `verified`; the previously unresolved ending reads directly `கத்தி தூக்கல் கலகம் விளைவித்தல் / குடியைப் போய் மலையாக்கல்; அன்பு / கடல் அமைதி கெடுக்கின்ற புயல் காற்று; அதைத் ... / குறள் மூலம் பரப்புகின்றோம் / நம் கொள்கையிலே வெற்றி காண்போம்.`, followed by `வணக்கம்.` and the centered floral ornament;
 - **iteration G produced one promotion: scan 100**;
 - cumulative C04 status after iteration G: **0 `partial`, 359 `needs-review`, 106 `verified`**;
-- unresolved C04 pages now remain **22 — 76–78, 80–88, 90–99**.
+- unresolved C04 pages now remain **22 — 76–78, 80–88, 90–99**;
+- **ten-page iteration H** processed exactly **76–78 and 80–86** — **10 unresolved physical pages** — as a renewed direct lexical/glyph closure pass;
+- iteration-H scan **86** corrects the source-visible introduction to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`, replacing the earlier `மூக்குடையப் போகின்றார்`;
+- scans **76–78 and 80–85** were reread again at page/glyph level; established source-backed lines and speaker/performance structures were reconfirmed, but each still retains at least one compact lexical/word-ending span that cannot be certified without inference;
+- **iteration H produced no page promotion**;
+- cumulative C04 status after iteration H remains **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- unresolved C04 pages remain **22 — 76–78, 80–88, 90–99**.
 
 ## Phase-2 completion assessment
 
@@ -139,4 +145,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — ten-page iteration H: process physical scans 76–78 and 80–86** (**10 physical pages total**). Give those residual pages another direct lexical/glyph closure pass, preserve the fixed `விடுதலை வீரர்கள்` / `ஐம்புலன்` structure, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration I: process physical scans 87–88 and 90–97** (**10 unresolved physical pages total; do not reopen verified scan 89**). Give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct lexical/glyph closure pass, preserve all established speaker/performance structures, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
