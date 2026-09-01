@@ -19,21 +19,26 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **COMPLETE, batches 01–19**;
 - Phase 2 source-coverage Batches 01–19, scans **1–465: COMPLETE**;
-- cumulative verified pages: **36 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- cumulative status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
-- unresolved Phase-2 backlog: **429 page records**.
+- Phase 2 page clearance: **IN PROGRESS**;
+- cumulative verified pages: **40 — 0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 425 `needs-review`, 40 `verified`**;
+- unresolved Phase-2 backlog: **425 page records**.
 
-Batch 19 directly reread scans 451–465 and completed source-wide Phase-2 coverage. The final sequence closes `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` at 452, `திசை திருப்பல் நியாயம்தானா?` at 454, `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` at 456, `சில நாடுகள் இருக்கின்றன` at 460 and `உன் காலணியை வாழ்த்துகிறாய்` at 464; scan 465 is the final back cover and received a complete verification pass.
+Source-coverage Batch 19 completed the independent source reread across the full 465-scan PDF. That does not equal page clearance: Phase 3 remains blocked while `needs-review` pages remain.
 
-**Important:** 465/465 source coverage does not equal Phase-2 clearance. Phase 3 requires verified page records. The remaining 2 `partial` + 427 `needs-review` records must therefore be resolved before the Phase-3 gates can begin.
+### Clearance Batch C01 progress
+
+C01 targets unresolved scans **2–17 and 21–25**, skipping already verified scans **1 and 18–20**.
+
+The first C01 direct-source pass promoted scans **3, 5, 14 and 17** after complete passes. Scan 14 resolved `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.` Scan 16 received the source-backed correction `தமிழ் வளர வழிநடைப் பயணம்` but remains `needs-review` because other small-type entries have not passed exact clearance.
+
+Residual C01 scans: **2, 4, 6–13, 15–16, 21–25**.
 
 The user-supplied page-range derivatives are rendering aids derived from the same controlling PDF. They are not separate witnesses.
 
 ### Exact next activity
 
-Execute **Phase 2 Clearance Batch C01 — unresolved physical scans 2–17 and 21–25**. Scans **1 and 18–20 are already verified** and must be skipped unless direct source evidence reveals a discrepancy.
-
-For the targeted unresolved pages, use enlarged direct-source inspection to resolve only source-backed uncertainty and promote only complete passes. Do not begin Phase 3, canonical assembly, or translation.
+Continue **Phase 2 Clearance Batch C01 — residual physical scans 2, 4, 6–13, 15–16 and 21–25**. Reinspect only those pages, resolve only source-backed uncertainty, and promote only complete passes. Do not advance to C02 while this residual window remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
