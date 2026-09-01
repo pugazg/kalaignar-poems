@@ -12,46 +12,39 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 - printed title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
-- edition: **fourth edition, March 1995**;
-- contents: physical scans **15–17**;
-- first numbered poem section: scan **20**, printed page **3**.
+- edition: **fourth edition, March 1995**.
 
 ## Processing state
 
-- Phase 1: **465/465 page records — COMPLETE**;
-- Phase 2 Batches 01–19 source coverage: **scans 1–465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS in user-directed 10-page iterations**;
-- cumulative status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
-- unresolved backlog: **361 pages**;
-- verified: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- Phase 1: **465/465 COMPLETE**;
+- Phase 2 source coverage: **465/465 COMPLETE**;
+- Phase 2 clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS**;
+- cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
+- unresolved backlog: **360 pages**;
+- verified: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
-- Phase 3: **blocked pending Phase-2 page clearance**;
-- English translation: **blocked until Tamil final clearance**.
+- Phase 3 and English translation: **blocked**.
 
-## Clearance C01–C03 — COMPLETE THROUGH SCAN 75
+## C04 source/control state
 
-C01 cleared every unresolved record inside physical scans **1–25**. C02 cleared unresolved scans **26–31 and 34–50**, preserving already verified **32–33**. C03 cleared the entire **51–75** window, preserving already verified **61, 70–71**.
+Physical window: **76–100**. Source-layout review is complete for all 25 scans.
 
-For the final C03 lexical closure, user-supplied word-for-word transcription from exact page-range extracts of the same controlling PDF supplied the lexical base for scans **51–60, 62–69 and 72–75**. The controlling scans independently determined titles, page boundaries, punctuation, lineation, quotation continuity, running headers/page numbers, separators, ornaments, speaker/performance structure and illustrations.
+- `விடுதலை வீரர்கள்` closes on scan **79**;
+- `ஐம்புலன்` spans **80–89** and closes on scan **89**;
+- `பிலவங்க ஆண்டு` spans **90–100**;
+- scans **80/90** preserve title/context/star openings;
+- scans **79/89/100** preserve centered floral endings;
+- mixed chairman/performance-note structures remain distinct.
 
-## Clearance C04 — IN PROGRESS
+### 10-page lexical iterations
 
-Physical window: **76–100**. Direct source-layout review is complete across all 25 scans.
+- Iteration A: **76–78, 80–86** — direct-reviewed, unresolved;
+- Iteration B: **87–96** — direct-reviewed; **scan 89 `verified`** after full source pass;
+- remaining unresolved C04 pages: **76–78, 80–88, 90–100 (23 pages)**;
+- untouched after iteration B: **97–100**.
 
-Source-established item boundaries are `விடுதலை வீரர்கள்` through scan **79**, `ஐம்புலன்` scans **80–89**, and `பிலவங்க ஆண்டு` scans **90–100**. Scans **79, 89 and 100** each carry centered floral closing ornaments; scans **80** and **90** are title/context openings with centered star separators. `ஐம்புலன்` and `பிலவங்க ஆண்டு` preserve separate chairman, speaker and performance-note structures.
-
-Scan **79 / printed 62** is complete-pass `verified`.
-
-### C04 ten-page iteration A
-
-Exactly **10 unresolved scans — 76–78 and 80–86 — have now been directly reviewed** against the controlling source. Safe source-backed corrections were applied, including scan 76 `நன்று நன்று.` / `பேரதிர்ச்சிப் பெரும்புயலைத்`, scan 77 `கப்பல்விட்ட` / `மாநில`, scan 80 `கல்லூரிப் பெருமன்றில்`, scan 82 `அடக்குதல்` / `அடக்கத் தவம்`, scan 85 `எல்லாம் மெய் என்று`, and scan 86 `இவர்பக்கம்`.
-
-All ten remain `needs-review` because at least one compact glyph/word-ending span remains unresolved on each. They are now direct-reviewed residuals, not untouched first-pass records.
-
-Remaining C04 `needs-review` set remains **76–78 and 80–100 (24 pages)**.
-
-The original source remains the authority for physical source structure. Page-range/access derivatives are rendering aids only and are not separate witnesses. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
+The original scan remains source authority. Exact-page derivatives and explicitly user-designated word-for-word extracts from that same PDF are access/lexical aids, not separate witnesses.
 
 ## Current next activity
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration B: scans 87–96**. Process exactly those ten physical scans, preserve the `ஐம்புலன்` conclusion at scan 89 and `பிலவங்க ஆண்டு` opening at scan 90, promote only complete source-critical passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Execute **C04 ten-page iteration C: scans 97–100 plus residual scans 76–78 and 80–82**. Process exactly 10 physical pages, promote only complete passes, and do not advance to C05 or Phase 3 while C04 remains open.
