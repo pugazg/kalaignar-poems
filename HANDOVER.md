@@ -78,6 +78,8 @@ Residual C01 pages: **4, 6–13, 21–25**.
 Direct-source residual progress now includes:
 
 - scan **4** — first two `என்னுரை` prose paragraphs and opening of the third restored; a later direct punctuation pass preserves `“கவிதையல்ல”.`, removes the earlier non-source dash after `1967-ஆம் ஆண்டு`, and restores `என்றில்லாமல், அந்தப்`; lower compact continuation remains unresolved;
+- scan **7 / printed VI** — `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை` restored directly in place of the earlier erroneous `மேலும் தென்னமய மிக்க தமிழ் மொழியின் இளமை`; surrounding compact prose remains unresolved;
+- scan **8 / printed VII** — opening corrected from `சுவைகளின் உணர்வுகளை வாரிக் வழங்கவல்லவன் கவிஞன்.` to source-visible `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; remaining compact prose is unresolved;
 - scan **9 / printed VIII** — `வள்ளுவர்` confirmed in place of the earlier `வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` confirmed in place of `தமிழ்ப் பன்னாளர்கள்`; other compact prose remains unresolved;
 - scan **10 / printed IX** — closing `அணிந்துரை` signature corrected from `மா.நன்னன்` to source-visible `க. அன்பழகன்`; `சென்னை-7` / `15.5.82` retained; other compact prose and closing quotation remain unresolved;
 - scan **11** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
