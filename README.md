@@ -41,7 +41,8 @@ Source structure is fixed as `விடுதலை வீரர்கள்` th
 - scan **79** is `verified`;
 - Iteration A reviewed **76–78, 80–86**;
 - Iteration B reviewed **87–96** and promoted **scan 89** after a complete source-critical pass;
+- Iteration C reviewed **97–100 plus 76–78 and 80–82**; no additional promotion, but direct source-backed refinements were recorded on all ten pages;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**;
-- exact next 10-page iteration: **97–100 plus 76–78 and 80–82**.
+- exact next 10-page iteration: **83–88 and 90–93**.
 
 Phase 2 independently rereads the controlling scan. OCR, memory, grammar, metre, historical expectation and separate editions are not authority unless the user explicitly designates an exact-source lexical transcription for that same controlling-PDF range.
