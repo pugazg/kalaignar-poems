@@ -5,12 +5,12 @@ english_title: "Anna, the Inextinguishable Lamp"
 language: "en"
 source_scans: "7-17"
 status: "reviewed-assembly"
-assembly_basis: "reviewed English translation batches 01-04 only"
+assembly_basis: "current reviewed/reconciled English translation batches 01-04 after 2026-09-01 Tamil lexical reconciliation"
 ---
 
 # Anna, the Inextinguishable Lamp
 
-The English poem below is assembled only from the reviewed verse bodies in Batches 01–04. Batch and scan boundaries are retained as hidden comments for provenance. Translator notes, batch-review prose, repeated decorative Tamil page headers, photographs, and post-poem event caption/date are excluded from the verse.
+The English poem below is assembled only from the current reviewed verse bodies in Batches 01–04 after the 2026-09-01 Tamil lexical reconciliation. Batch and scan boundaries are retained as hidden comments for provenance. Translator notes, batch-review prose, repeated decorative Tamil page headers, photographs, and post-poem event caption/date are excluded from the verse.
 
 <!-- batch 01 / scans 7-9 -->
 <!-- scan 7 -->
@@ -167,17 +167,17 @@ Anna, your form was like the venerable Kural —
 *Kamba Rasam* and *Romapuri Rani* revealed another season of you — yet
 when Aryan illusion appeared, your brow would rise to drive it away!
 
-Though the Tamils had once had literature
-as epics and puranas, as stories of divine incarnations,
-it was only after you came
-that we set them in motion — as heroic epics, as paintings of love —
+At one time, for the Tamils, literature existed
+as epics and puranas, as stories of divine incarnations;
+yet only after you came
+did we set it in motion — as heroic epics, as paintings of love —
 for this world to know, to examine and understand, to breathe the fragrance of knowledge!
 
 Was it not the courage Ayya gave,
 and the clarity you, Anna, gave,
 that enabled me to explain Sangam Tamil,
 to write a fitting commentary for the golden Kural,
-and to raise before your assembly
+and to raise before the public forum
 the Tolkappiyam of undying fame?
 I would say it was you who gave me that courage —
 
@@ -185,7 +185,7 @@ To create the famed *Poompuhar* epic
 for Kannagi, the jewel of *Silappathikaram* — and to raise her statue on the seashore —
 and when that statue was removed under the force of those who invoked Vastu Shastra,
 to condemn their act as madness —
-Anna, it was you who gave me the strength.
+Anna, it was you who gave us the strength.
 
 <!-- scan 11 -->
 
@@ -245,14 +245,14 @@ who violated Ahalya’s chastity — and because of him
 Ahalya had to lie as stone —
 would you describe that, great sir,
 as an act filled with Indra’s compassion?
-By asking so, Anna, were you not the one
+By asking so, was it not you, Anna,
 who made heads hang down
-and certainties collapse?
+and left them shaken?
 
 Hermits, great men, incarnations of Ishvara —
 were they hearts filled with compassion?
 Asking this, you made even the Goddess of Justice swoon and fall —
-you were the advocate too, a new poet Nakkirar!
+you were the advocate — a new poet Nakkirar!
 
 When Lord Siva asked Siruthondar’s wife
 for the flesh of her child — and
@@ -283,19 +283,19 @@ must not be fostered!
 <!-- batch 03 / scans 13-15 -->
 <!-- scan 13 -->
 
-You stood on the path of equality,
-declaring that to draw dividing lines of speech
-and nurture difference is evil!
+You who stood on the path of equality,
+declaring it wrong to nurture division
+through speech that defines one as poor and another as wealthy!
 
 Giving it the name “Anna Renaissance Scheme,”
-through the tireless labour of the Local Administration Minister
-who makes it his very eye and turns it into action,
-raising the prosperity of thousands upon thousands of villages,
-raising water wealth and land wealth,
-so that village and town alike may stand in equal measure
-in the prosperity of the land —
-Anna, is not the feeling your name instilled
-the first and fullest cause behind that vision?
+through the great labour of people such as
+the Local Administration Minister, who tends its work like the apple of his eye,
+village prosperity has been multiplied into many thousands, many lakhs,
+water wealth and land wealth have been raised,
+so that, in the prosperity of the land,
+village and town may stand on an equal footing —
+Anna, was it not the feeling infused by your name
+that became the first and fullest cause of this vision!
 
 For Salem's iron,
 for the Sethusamudram Project,
@@ -316,7 +316,7 @@ Whether in office or out of office,
 Anna, this younger brother of yours, this Karunanidhi,
 will never forget the one who made him what he is.
 Even if he should rise like the finial
-of a tower a thousand feet high,
+atop a tower a thousand feet high,
 he will never, as long as life remains in him,
 forget that the foundation of that tower
 is the crores upon crores of cadre-comrades —
@@ -331,18 +331,18 @@ would regard both alike” —
 
 <!-- scan 14 -->
 
-And when he was confined in solitary imprisonment
+and when he was confined in solitary imprisonment
 in Palayamkottai Prison,
 you shed tears and said
 that prison was a place of pilgrimage for you —
 
-And when you declared with certainty,
+and when you declared with certainty,
 “I have written half the history of the movement;
 Karunanidhi will continue and write the other half” —
-because those words were planted permanently in my heart, Anna,
+because those words had become permanent in my heart, Anna,
 I can bear the “ram” I raised charging into my chest,
 and those who forgot gratitude stabbing me in the back —
-But how, Anna, can I bear it and remain alive
+but how, Anna, can I bear it and remain alive
 when Ettappans betray to the enemy
 the Kazhagam we raised with tears and blood?
 
@@ -366,19 +366,19 @@ have today become servants of servants.
 
 Now the conjurer says
 we do not need Sethu at all!
-It is no sin to grow angry
+It is no wrong to grow angry
 when we see those who would block Sethu
-and reduce to ground level
+and bring down to ground level
 the prosperity it would bring to Tamil land.
 
 Are we not a pride of lions —
 should we bow our heads before the schemes of little foxes?
 Before raging tigers,
-should the lowly put on a show?
-Where is my Tamil?
+should petty men put on a show?
+Where is my Tamilan?
 Does he stand like an upright pillar?
 Or does he lie there,
-without a tremor in his limbs?
+without a pulse in his limbs?
 
 <!-- scan 15 -->
 
@@ -389,7 +389,7 @@ Raise him a statue in gold —
 
 Like two chisels laid above the lips,
 the radiant Pandyan bears a moustache;
-as though proclaiming that no disgrace has ever come upon the race,
+as though proclaiming that mercy had never come,
 the Chola's moustache spreads
 as far as the edge of his ears!
 
@@ -403,7 +403,7 @@ That valour is needed today —
 needed greatly!
 
 Gather strength in deeds of goodness;
-cast away deeds of violence entirely;
+cast away harsh deeds entirely;
 recover the spirit of the Tamils of old!
 Recover the spirit of self-respect!
 
@@ -417,16 +417,16 @@ If I am to say it
 in your own words:
 
 “I said we should give the people
-a measure of rice for one rupee —
+a *padi* of rice for one rupee —
 but before I knew it,
 Maran wrote in *Murasoli*
 that it was Anna's promise.
 What I then thought a task like overturning a mountain,
 today my younger brother Karunanidhi,
 to gladden the hearts of the people of the State,
-has announced as:
+has announced:
 one kilo of rice for one rupee;
-and he showers endless rains of flowers upon my grave —
+and he showers countless rains of flowers upon my grave —
 and I too
 embrace him with joy
 and bless him” —
@@ -437,8 +437,9 @@ and bless him” —
 Seeing this —
 beating their mouths and their stomachs.....
 the hard-hearted, truthless ones sing abuse;
-turn that into music, my younger brothers — this is my counsel.
-O Buddha of Kanchi; at your feet — **Kazhagam saranam gacchami!**
+“Turn that into music, my younger brothers,”
+advises the Buddha of Kanchi;
+at your feet — **Kazhagam saranam gacchami!**
 
 ★ ★ ★
 
@@ -455,7 +456,7 @@ I took a middle position;
 for I acted with the conviction
 that only a secular, humanist government
 has the truthfulness needed to protect the people!
-Though those who opposed and those who spoke in anger
+Though those who objected and those who spoke hatred
 stood at the two ends, on either side,
 I took my decisions
 with the future of India in mind;
@@ -464,7 +465,7 @@ At the final stage, without letting myself be shaken, decisions were taken —
 and somehow the two sides ended up standing opposed!
 I read of it only in the newspapers, and my heart ached —
 
-Humanist feeling, or the storm of religious hatred —
+Humanist feeling, or religious-fanatic strife —
 to answer the question of which side to stand on,
 “Come, let us march together,” called
 our dear sister Sonia's political camp!
@@ -476,19 +477,19 @@ cherishing and upholding religious harmony,
 
 I remained where humanism is honoured —
 let us gather the people
-so that secular governments may be formed
-both at the Centre and in the states;
+so that a secular government may be formed
+at the Centre and in the State;
 come, come — I call you.
 
-Great people gathered in this hall,
+O great people gathered in this hall,
 though a large part of Periyar's and Anna's dreams
-has been fulfilled,
-let us raise an unwavering voice of resolve
+has seen fulfilment,
+let us raise a resounding voice
 to make Tamil too one of the official languages of the Union government!
 Instead of raising demands merely for the sake of agitation,
 let us choose the right path of struggle for our demands!
-Let us guide the future India
-toward strength,
-toward prosperity!
+Let us insist that the India of the future
+grow strong,
+grow prosperous!
 **Autonomy for the states;
 federalism at the Centre!**
