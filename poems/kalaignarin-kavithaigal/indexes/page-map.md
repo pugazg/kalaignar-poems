@@ -10,7 +10,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C03 COMPLETE.**
+**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C03 COMPLETE. C04 SOURCE-LAYOUT REVIEW COMPLETE; C04 LEXICAL CLEARANCE OPEN.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
 - cumulative status: **0 `partial`, 362 `needs-review`, 103 `verified`**;
@@ -63,11 +63,29 @@ Physical window: **51–75**.
 - scan **75** preserves the mounted-warrior illustration as layout, not text; flattened `20 200 100` material was rejected as illustration/OCR noise;
 - scans **54, 61 and 69** preserve their centered floral closing ornaments.
 
+## Phase-2 Clearance Batch C04 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
+
+Physical window: **76–100**. All 25 scans have now been inspected directly for item boundaries and non-lexical source structure. No page was promoted in this layout-only pass; all **25 scans remain `needs-review`** pending exact lexical/glyph clearance.
+
+| Scan(s) | Source-established role / boundary | Current outcome |
+|---:|---|---|
+| 76–79 | `விடுதலை வீரர்கள்` continuation; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament | structure fixed; lexical clearance pending |
+| 80–89 | `ஐம்புலன்`; scan **80** opens with title, `24.3.68` Vaniyambadi Islamic College event note and centered star separator; scan **89 / printed 72** closes with `வணக்கம்.` and floral ornament | structure fixed; lexical clearance pending |
+| 90–100 | `பிலவங்க ஆண்டு`; scan **90** opens with title, `13.4.68` Chennai radio-event note and centered star separator; scan **100 / printed 83** closes with `வணக்கம்.` and floral ornament | structure fixed; lexical clearance pending |
+
+### C04 structural controls
+
+- scans **80–89** interleave `தலைவர் கலைஞர்:` passages with parenthetical performance notes identifying other poets and the subjects just completed; keep these structures separate from the chairman's verse;
+- scans **90–100** use the same mixed chairman/performance-note structure and must not be flattened into a single poem block;
+- running headers and printed page numbers continue normally on numbered leaves; the opening title/context scans **80** and **90** are unnumbered title/context pages;
+- centered closing floral ornaments on scans **79, 89 and 100** establish the item boundaries directly from the source;
+- no lexical normalization has been performed during this C04 source-layout pass.
+
 ### Scan-16 direct contents readings
 
 `தமிழ் வளர வழிநடைப் பயணம்` 220; `வையம் தழைக்க` 228; `தந்தை பெரியார்` 237; `பொங்கல் விழா` 250; `பன்னீர்ச் செல்வமே` 357; `கலைத்தாயின் தலைச்செல்வன்` 359.
 
-## Verified pages after C03
+## Verified pages after C03 / C04 layout review
 
 **0001–0075, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
@@ -77,4 +95,4 @@ User-supplied page-range derivatives and word-for-word extracts are aids from th
 
 ## Next mapping / verification activity
 
-Execute **Phase 2 Clearance Batch C04 — physical scans 76–100**. `விடுதலை வீரர்கள்` continues into scan 76, so preserve that continuation until a source-established item boundary appears. Do not advance to Phase 3 until Phase-2 page clearance is complete.
+Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of scans 76–100**. Preserve the source-established boundaries above. If a user-designated full word-for-word extraction from exact controlling-PDF pages is supplied, retain those words as the lexical base and independently reconcile punctuation, lineation, quotation continuity, speaker/performance labels, separators and ornaments. Do not advance to C05 or Phase 3 while C04 remains lexically unresolved.
