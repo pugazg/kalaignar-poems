@@ -65,14 +65,15 @@ Physical window: **51–75**.
 
 ## Phase-2 Clearance Batch C04 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
-Physical window: **76–100**. All 25 scans have been inspected directly for item boundaries and non-lexical source structure. Exact lexical/glyph clearance is proceeding page by page.
+Physical window: **76–100**. All 25 scans have been inspected directly for item boundaries and non-lexical source structure. Lexical/glyph work is now being performed in user-directed **10-page iterations**.
 
 | Scan(s) | Source-established role / boundary | Current outcome |
 |---:|---|---|
-| 76–78 | `விடுதலை வீரர்கள்` continuation | lexical clearance pending |
+| 76–78 | `விடுதலை வீரர்கள்` continuation | iteration-A direct review complete; lexical residuals remain |
 | 79 | `விடுதலை வீரர்கள்` conclusion; printed 62; final `வணக்கம்!`, `வாழ்க!`, centered floral ornament | complete-pass `verified` |
-| 80–89 | `ஐம்புலன்`; scan **80** opens with title, `24.3.68` Vaniyambadi Islamic College event note and centered star separator; scan **89 / printed 72** closes with `வணக்கம்.` and floral ornament | structure fixed; lexical clearance pending |
-| 90–100 | `பிலவங்க ஆண்டு`; scan **90** opens with title, `13.4.68` Chennai radio-event note and centered star separator; scan **100 / printed 83** closes with `வணக்கம்.` and floral ornament | structure fixed; lexical clearance pending |
+| 80–86 | `ஐம்புலன்` opening/continuation | iteration-A direct review complete; lexical residuals remain |
+| 87–89 | `ஐம்புலன்` continuation/conclusion | next review window begins here; scan 89 closes item |
+| 90–100 | `பிலவங்க ஆண்டு`; scan 90 title/event/star; scan 100 closing ornament | lexical clearance pending |
 
 ### C04 structural / lexical controls
 
@@ -81,7 +82,9 @@ Physical window: **76–100**. All 25 scans have been inspected directly for ite
 - running headers and printed page numbers continue normally on numbered leaves; the opening title/context scans **80** and **90** are unnumbered title/context pages;
 - centered closing floral ornaments on scans **79, 89 and 100** establish the item boundaries directly from the source;
 - scan **79** direct complete pass restores `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்` and confirms the source closing;
-- remaining C04 targets: **76–78, 80–100 (24 pages)**.
+- C04 iteration A directly reviewed **76–78 and 80–86**. Clear source-backed refinements recorded there include scan 76 `நன்று நன்று.` / `பேரதிர்ச்சிப் பெரும்புயலைத்`, scan 77 `கப்பல்விட்ட` / `மாநில`, scan 80 `கல்லூரிப் பெருமன்றில்`, scan 82 `அடக்குதல்` / `அடக்கத் தவம்`, scan 85 `எல்லாம் மெய் என்று`, and scan 86 `இவர்பக்கம்`;
+- none of those ten pages is promoted yet because at least one compact lexical/glyph span remains unresolved on each;
+- remaining C04 `needs-review` pages remain **76–78, 80–100 (24 pages)**.
 
 ### Scan-16 direct contents readings
 
@@ -97,4 +100,4 @@ User-supplied page-range derivatives and word-for-word extracts are aids from th
 
 ## Next mapping / verification activity
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of scans 76–78 and 80–100**. Preserve the source-established boundaries above. If a user-designated full word-for-word extraction from exact controlling-PDF pages is supplied, retain those words as the lexical base and independently reconcile punctuation, lineation, quotation continuity, speaker/performance labels, separators and ornaments. Do not advance to C05 or Phase 3 while C04 remains lexically unresolved.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration B: scans 87–96**. Preserve the established `ஐம்புலன்` close at scan 89 and `பிலவங்க ஆண்டு` opening at scan 90. Correct only direct-source-supported lexical/glyph, punctuation, lineation and structural differences and promote only complete passes. Keep iteration-A residuals open until exact closure. Do not advance to C05 or Phase 3 while C04 remains unresolved.
