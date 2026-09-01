@@ -43,29 +43,35 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 Current cumulative page status:
 
 - `partial`: **0**;
-- `needs-review`: **425**;
-- `verified`: **40**;
+- `needs-review`: **424**;
+- `verified`: **41**;
 - total: **465**;
-- unresolved backlog: **425**.
+- unresolved backlog: **424**.
 
-Verified pages so far: **0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Verified pages so far: **0001, 0003, 0005, 0014, 0015, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
-## Phase-2 Clearance Batch C01 — first pass
+## Phase-2 Clearance Batch C01 — progress
 
 Targeted unresolved scans: **2–17 and 21–25**. Already verified scans **1 and 18–20** were skipped.
 
-Complete-pass promotions:
+Complete-pass promotions so far:
 
 - scan **3** — English imprint / price;
 - scan **5 / IV** — `என்னுரை` continuation;
 - scan **14** — `பதிப்புரை`; unresolved phrase fixed from direct source as `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
+- scan **15** — contents; residual strings cleared directly as `பிலவங்க ஆண்டு`, `காதலா! - வீரமா?`, `அருமறையில் அறுவர்`, `நீர்க் குடும்பம்`, and `நேரு கண்ட ஜனநாயகம்`;
 - scan **17 / XVI** — contents continuation; all visible strings/page references/punctuation and the ornament passed as the contents witness.
 
-Other source-backed correction:
+Other source-backed scan-16 corrections:
 
-- scan **16 / XV** — `தமிழ் அவள் வழிநடைப் பயணம்` → **`தமிழ் வளர வழிநடைப் பயணம்`**. The page remains `needs-review` because other small-type titles remain unresolved.
+- `தமிழ் வளர வழிநடைப் பயணம்`;
+- `வையம் தழைக்க` — printed page 228;
+- `தந்தை பெரியார்` — printed page 237;
+- `பொங்கல் விழா` — printed page 250.
 
-Residual C01 pages: **2, 4, 6–13, 15–16, 21–25**.
+Scan **16 / XV** remains `needs-review` because the exact contents-witness spacing/ending at printed page **359** remains unresolved.
+
+Residual C01 pages: **2, 4, 6–13, 16, 21–25**.
 
 The current direct rendering is not sufficient to certify every compact glyph/punctuation/lineation detail on those residual pages without guessing. They therefore remain open rather than being filled from OCR, context, memory or another source witness.
 
@@ -79,9 +85,9 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 2, 4, 6–13, 15–16 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 2, 4, 6–13, 16 and 21–25**.
 
-- do not reopen scans **1, 3, 5, 14, 17–20** unless direct-source evidence reveals a discrepancy;
+- do not reopen already verified pages unless direct-source evidence reveals a discrepancy;
 - inspect the residual scans directly and resolve only source-backed uncertainty, old-glyph, punctuation, quotation, lineation and non-Tamil issues;
 - promote only complete passes to `verified`;
 - synchronize backlog counts afterward;
