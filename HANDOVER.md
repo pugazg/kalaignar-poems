@@ -75,29 +75,30 @@ Processed exactly **97–100 plus residual 76–78 and 80–82**.
 
 Processed exactly **83–88 and 90–93** — **10 physical pages**.
 
-- scan **83** restores plural `கவிஞர்களே!`, the five-line `பெரிதானால்` organ-wordplay sequence, and `அளவறிந்து அவரவர் பொருளைப் பேசுவீர்`;
-- scan **84** now preserves `கொய்யாக் கனி கவிப்போம் / சற்று காத்திருப்போம். / சாதிக் அப்தின் தமிழ் கேட்போம்:` before the performance note;
-- scan **85** now preserves the visible `வாய்ச்சொற்கள் என்ன பயனும் / கண்ணோடு கண்ணிணை நோக்கொக்கின்` passage plus the following `வள்ளுவரும் ... ‘கண்’` lines;
-- scan **86** removes unsupported provisional `மூக்கு உள்ளம் என்றார் அடுத்தவர்.` and retains the source-visible `பரந்த உள்ளம் ...` start while leaving its ending unresolved;
-- scan **87** adds `கவிதையும் தானேப் பார்க்கலாம் / எம் இருவரையும் இணைத்துப் பார்ப்பின்` from direct source evidence;
+- scans **83–87** gained direct source-backed lexical refinements;
 - scans **88, 90–92** received second complete visual passes but still contain compact unresolved line-internal forms;
-- scan **93** preserves its source-visible selection setup and the six personified virtue names;
-- **no page was promoted in iteration D**.
+- scan **93** preserves its source-visible selection setup and six personified virtue names;
+- **no page was promoted**.
 
 ### Iteration E
 
 Processed exactly **94–100 plus residual 76–78** — **10 physical pages**.
 
-- scan **76** now restores the lower performance boundary `(கவிஞர் அப்துல் ரகுமான் வ.வே.சு. அய்யர் பற்றிப் பாடி முடிக்கிறார்)` and the following `தலைவர் கலைஞர்:` transition;
-- scan **94** adds `அடக்கத்தின் விளைமையாய் அறமே நிற்கும் அது`;
-- scan **95** adds `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`;
-- scan **96** resolves the `பொறை` poet as `ஆறுமுகம்`;
-- scan **97** corrects the source-visible facial-action sequence to `பல் நெறித்தல் / உதடு மடித்தல் / கண் இடுக்கல்`;
-- scan **98** extends the source-supported `அருளுடைமை` passage through `அவ்வுலகம் எவ்வுலகம் என்பதிலே ஆராய்ச்சி பல உண்டு / பல உயிரில் சில உயிர்கள் போகின்ற / நல் உலகம் அவ்வுலகம் என மொழிவார் நாமறிவோம்.`;
-- scans **77–78, 99–100** received further direct line/glyph closure passes but still retain compact unresolved spans;
-- **no page was promoted in iteration E**.
+- scan **76** restores the lower `அப்துல் ரகுமான்` performance boundary and following `தலைவர் கலைஞர்:` transition;
+- scans **94–98** gained further source-backed lexical refinements;
+- scans **77–78, 99–100** received deeper direct line/glyph passes;
+- **no page was promoted**.
 
-Current C04 unresolved set remains **76–78, 80–88, 90–100 (23 pages)**.
+### Iteration F
+
+Processed exactly **80–88 and 90** — **10 physical pages**.
+
+- all ten pages were independently reread against the controlling scan;
+- scan **81** corrects the opening from unsupported `கார் விடுதியில்` to source-visible **`கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`**;
+- scans **80, 82–88 and 90** retain at least one compact lexical/glyph span that cannot yet be certified without inference;
+- **no page was promoted**.
+
+Current C04 unresolved set remains **76–78, 80–88, 90–100 (23 pages)**. Cumulative status remains **0 partial / 360 needs-review / 105 verified**.
 
 ## Source-critical rule
 
@@ -105,10 +106,10 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration F: scans 80–88 plus scan 90** — exactly **10 physical pages**.
+Execute **C04 ten-page iteration G: scans 91–100** — exactly **10 physical pages**.
 
-- give these residual pages another direct exact lexical/glyph closure pass;
-- preserve the `ஐம்புலன்` → `பிலவங்க ஆண்டு` boundary and all speaker/performance structures;
+- give these residual `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
+- preserve all `தலைவர் கலைஞர்:` / parenthetical poet-performance structures and the final floral closure on scan 100;
 - promote only complete passes;
 - keep C04 open while any residual pages remain;
 - do **not** begin C05, Phase 3, canonical assembly or translation.
