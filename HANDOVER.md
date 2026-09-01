@@ -30,7 +30,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
-- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
+- SHA-256: `19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`;
 - printed title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **பாரதி பதிப்பகம்**;
@@ -56,7 +56,7 @@ Targeted unresolved scans: **2–17 and 21–25**. Already verified scans **1 an
 
 Complete-pass promotions so far:
 
-- scan **2** — title page / publisher block; title/author, physical gift overlay, publisher/address block, `த.பெ.எண். 4984`, `(தொலைபேசி) 434 02 05`, punctuation and layout passed;
+- scan **2** — title page / publisher block;
 - scan **3** — English imprint / price;
 - scan **5 / IV** — `என்னுரை` continuation;
 - scan **14** — `பதிப்புரை`;
@@ -64,31 +64,25 @@ Complete-pass promotions so far:
 - scan **16 / XV** — contents continuation;
 - scan **17 / XVI** — contents continuation.
 
-Scan **16 / XV** has a complete direct contents-witness pass. Source-visible readings include:
-
-- `தமிழ் வளர வழிநடைப் பயணம்` — 220;
-- `வையம் தழைக்க` — 228;
-- `தந்தை பெரியார்` — 237;
-- `பொங்கல் விழா` — 250;
-- `பன்னீர்ச் செல்வமே` — 357;
-- `கலைத்தாயின் தலைச்செல்வன்` — 359.
+Scan **16 / XV** has a complete direct contents-witness pass. Source-visible readings include `தமிழ் வளர வழிநடைப் பயணம்` — 220; `வையம் தழைக்க` — 228; `தந்தை பெரியார்` — 237; `பொங்கல் விழா` — 250; `பன்னீர்ச் செல்வமே` — 357; `கலைத்தாயின் தலைச்செல்வன்` — 359.
 
 Residual C01 pages: **4, 6–13, 21–25**.
 
 Direct-source residual progress now includes:
 
-- scan **4** — first two `என்னுரை` prose paragraphs and opening of the third restored; a later direct punctuation pass preserves `“கவிதையல்ல”.`, removes the earlier non-source dash after `1967-ஆம் ஆண்டு`, and restores `என்றில்லாமல், அந்தப்`; lower compact continuation remains unresolved;
-- scan **7 / printed VI** — `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை` restored directly in place of the earlier erroneous `மேலும் தென்னமய மிக்க தமிழ் மொழியின் இளமை`; surrounding compact prose remains unresolved;
-- scan **8 / printed VII** — opening corrected from `சுவைகளின் உணர்வுகளை வாரிக் வழங்கவல்லவன் கவிஞன்.` to source-visible `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; remaining compact prose is unresolved;
-- scan **9 / printed VIII** — `வள்ளுவர்` confirmed in place of the earlier `வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` confirmed in place of `தமிழ்ப் பன்னாளர்கள்`; other compact prose remains unresolved;
-- scan **10 / printed IX** — closing `அணிந்துரை` signature corrected from `மா.நன்னன்` to source-visible `க. அன்பழகன்`; `சென்னை-7` / `15.5.82` retained; other compact prose and closing quotation remain unresolved;
-- scan **11** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
-- scan **13 / printed XII** — `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed; surrounding categorizing prose remains unresolved;
-- scan **21 / printed 4** — fourth line ending corrected to `பறப்பேன்!`; `ஒரு கோடித் தமிழ் இளைஞர்,` confirmed; a later direct pass corrects `மணி மாறிவிட்டதே?` to source-visible `மணி மாறிப்போச்சே?`; central/lower verse remains unresolved;
-- scan **22 / printed 5** — `உலவிடும் காற்றில்` restored directly from the controlling scan; central/closing compact verse remains unresolved;
-- scan **23 / printed 6** — `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண` restored directly; a later direct pass corrects `“மரக்கணையிலே பிணம்!”` to source-visible `“மரக்கிளையிலே பிணம்!”`; other compact verse remains unresolved;
-- scan **24 / printed 7** — `மனோன்மணியம்` restored directly from source; remaining compact verse blocks remain unresolved;
-- scan **25 / printed 8** — opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, and `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்` restored; later compact verse remains unresolved.
+- scan **4** — first two `என்னுரை` prose paragraphs and opening of the third restored; source punctuation refined; lower compact continuation remains unresolved;
+- scan **6** — restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`; other compact prose remains unresolved;
+- scan **7 / VI** — restored `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`;
+- scan **8 / VII** — opening corrected to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`;
+- scan **9 / VIII** — `வள்ளுவர்` and `தமிழ்ப் பண்பாளர்கள்` restored;
+- scan **10 / IX** — closing signature corrected to `க. அன்பழகன்`;
+- scan **11** — `ஓசையை` restored with initial long `ஓ`;
+- scan **13 / XII** — opening corrected to `கலைஞர்தம் பாடல்களில்`; `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed;
+- scan **21 / printed 4** — `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?` corrected directly;
+- scan **22 / printed 5** — `உலவிடும் காற்றில்` restored;
+- scan **23 / printed 6** — `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”` restored;
+- scan **24 / printed 7** — `மனோன்மணியம்` restored;
+- scan **25 / printed 8** — `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!` restored directly.
 
 The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
 
