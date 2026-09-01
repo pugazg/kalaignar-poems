@@ -49,7 +49,7 @@ C04 lexical review is being done in user-directed **10-page iterations**:
 - Iteration C: **97–100 plus 76–78 and 80–82**, reviewed with no additional promotions;
 - Iteration D: **83–88 plus 90–93**, reviewed with no additional promotions;
 - Iteration E: **94–100 plus 76–78**, reviewed with no additional promotions;
-- iteration E restores further direct-source material on scans 76 and 94–98, while scans 77–78 and 99–100 remain compact residuals after another visual pass;
+- Iteration F: **80–88 plus 90**, reviewed with no additional promotions; scan **81** corrects the source-visible opening to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Source-access / witness rule
@@ -60,4 +60,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Execute **C04 ten-page iteration F: scans 80–88 plus scan 90**. Promote only complete passes; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration G: scans 91–100**. Promote only complete passes; preserve all `பிலவங்க ஆண்டு` speaker/performance-note structure and the scan-100 floral closure; do not begin C05 or Phase 3 while C04 remains open.
