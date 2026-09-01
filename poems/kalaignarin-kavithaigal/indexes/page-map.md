@@ -10,7 +10,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C02 COMPLETE.**
+**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C02 COMPLETE. C03 SOURCE-LAYOUT REVIEW COMPLETE; C03 LEXICAL CLEARANCE REMAINS OPEN.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
 - cumulative status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
@@ -51,21 +51,41 @@ User-supplied word-for-word extraction from exact derivatives of the same contro
 
 **All physical scans 1–50 are `verified`.**
 
-### Scan-16 direct contents readings
-
-`தமிழ் வளர வழிநடைப் பயணம்` 220; `வையம் தழைக்க` 228; `தந்தை பெரியார்` 237; `பொங்கல் விழா` 250; `பன்னீர்ச் செல்வமே` 357; `கலைத்தாயின் தலைச்செல்வன்` 359.
-
-## Phase-2 Clearance Batch C03 — NEXT
+## Phase-2 Clearance Batch C03 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
 Physical window: **51–75**.
 
 - already verified: **70, 71**;
 - unresolved targets: **51–69, 72–75**;
-- target count: **23 pages**.
+- target count: **23 pages**;
+- no C03 page was promoted in the source-layout pass because the existing first-pass lexical text remains too error-prone for a complete glyph/word-ending verification without a reliable exact-source lexical aid.
 
-Do not infer work/poem boundaries from prior Markdown; follow the controlling scan page by page.
+Direct controlling-scan inspection establishes the following physical structure:
 
-## Verified pages after C02 completion
+| Scan(s) | Source-established role / boundary |
+|---:|---|
+| 51–54 | `இந்திரஜித்` continuation; scan **54 / printed 37** closes the item with a centered floral ornament |
+| 55–61 | `இரணியன்`; scan **55 / printed 38** opens with the printed title `இரணியன்`; scan **61 / printed 44** closes the item with a centered floral ornament |
+| 62–69 | `வாளி மன்னன்`; scan **62 / printed 45** opens with the printed title `வாளி மன்னன்`; scan **69 / printed 52** closes the item with a centered floral ornament |
+| 70–71 | already verified divider/title leaves; preserved and not reopened |
+| 72–75 | `விடுதலை வீரர்கள்`; scan **72 / printed 55** opens with the two-line title, event note and centered star separator; scans **74–75** contain explicit speaker/performance structure; scan **75 / printed 58** includes a mounted-warrior illustration and the item continues beyond the C03 window |
+
+### C03 source-layout safeguards
+
+- scans **51–69** use alternating running header / printed-page placement consistent with the source and retain their physical page boundaries;
+- scans **54, 61 and 69** each contain a centered closing ornament and establish item boundaries directly from the scan;
+- scan **72** preserves the printed event note above the poem and the star separator below it;
+- scan **74** visibly separates parenthetical performance notes from `தலைவர் கலைஞர்:` speaker labels and verse;
+- scan **75** contains a large mounted-warrior illustration in the lower half; image content is not transcribed as text;
+- no new poem/work boundary is inferred beyond scan 75; `விடுதலை வீரர்கள்` continues into scan 76.
+
+The existing Markdown for the 23 unresolved C03 targets contains many provisional first-pass lexical readings. Those readings were **not** silently promoted merely because source structure is now established. A page remains `needs-review` until every glyph/word ending, punctuation mark, quotation, line break and non-text element is directly reconciled.
+
+### Scan-16 direct contents readings
+
+`தமிழ் வளர வழிநடைப் பயணம்` 220; `வையம் தழைக்க` 228; `தந்தை பெரியார்` 237; `பொங்கல் விழா` 250; `பன்னீர்ச் செல்வமே` 357; `கலைத்தாயின் தலைச்செல்வன்` 359.
+
+## Verified pages after C03 source-layout review
 
 **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
@@ -75,4 +95,4 @@ User-supplied page-range derivatives and word-for-word extracts are aids from th
 
 ## Next mapping / verification activity
 
-Execute **Phase 2 Clearance Batch C03 — physical scans 51–75**, skipping already verified scans **70 and 71**. Promote only complete passes and keep Phase 3 blocked.
+Continue **Phase 2 Clearance Batch C03 — lexical/glyph clearance of physical scans 51–69 and 72–75**. The source-layout map is now fixed; do not advance to C04 or Phase 3 until these 23 pages pass complete source-critical verification.
