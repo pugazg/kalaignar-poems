@@ -83,9 +83,18 @@ Processed exactly **76–78 and 80–86** — **10 unresolved physical pages**.
 
 - all ten received another direct source/glyph closure pass;
 - scan **86** now preserves the directly visible **`தமிழன்பன் மூக்குடைக்கப் போகின்றார்`**;
-- established `விடுதலை வீரர்கள்` / `ஐம்புலன்` speaker/performance/title/page structures were reconfirmed;
 - all ten still retain at least one compact unresolved lexical/word-ending span;
-- iteration H produced **no promotion**;
+- iteration H produced **no promotion**.
+
+### Iteration I
+
+Processed exactly **87, 88, 90–97** — **10 unresolved physical pages**.
+
+- all ten received another direct exact lexical/glyph closure pass;
+- scan **90** now additionally restores the directly visible line **`கலகங்கள் இன்று காய்ப்புகள் இன்று`**;
+- the fixed `ஐம்புலன்` / `பிலவங்க ஆண்டு` speaker, performance-note and page-boundary structures were reconfirmed;
+- all ten still retain at least one compact unresolved lexical/word-ending span;
+- iteration I produced **no promotion**;
 - totals remain **0 `partial`, 359 `needs-review`, 106 `verified`**.
 
 ## SOURCE-CRITICAL RULE
@@ -94,13 +103,13 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration I** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration J** on exactly:
 
-**87, 88, 90, 91, 92, 93, 94, 95, 96, 97**.
+**98, 99, 76, 77, 78, 80, 81, 82, 83, 84**.
 
-That is **10 unresolved physical pages**. Do **not** reopen already verified scan 89.
+That is **10 unresolved physical pages**. Do **not** reopen already verified scans 79, 89 or 100.
 
-1. Give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
+1. Give these residual `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
 2. Preserve all fixed speaker/performance structures and physical page boundaries.
 3. Promote only complete passes to `verified`.
 4. Synchronize tracking files after the iteration.
