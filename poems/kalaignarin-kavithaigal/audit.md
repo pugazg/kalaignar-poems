@@ -92,7 +92,15 @@ Durable source-established structure:
 - scan **87** adds the directly visible `கவிதையும் தானேப் பார்க்கலாம் / எம் இருவரையும் இணைத்துப் பார்ப்பின்` inside the lower `செவி` passage;
 - scans **88, 90, 91 and 92** received second full-page direct passes; their established source structure remains valid, but compact line-internal forms still block complete promotion;
 - scan **93** now preserves the selection setup `மங்கையர்கள் அறுவர் ஒன்றாய் - என்`, `பேர் கேட்டுத் தெரிந்து கொண்டு அதில்`, `யார்வேண்டும் நமக்கென்று தேர்ந்தெடுக்க முன்வந்தேன்:` together with the six source-visible virtue names;
-- **iteration D produced no page promotion**; cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**;
+- **ten-page iteration E** processed exactly **10 physical pages: 94–100 plus residual scans 76–78** as another deeper source-critical pass;
+- iteration-E scan **76** restores the lower structural boundary `(கவிஞர் அப்துல் ரகுமான் வ.வே.சு. அய்யர் பற்றிப் பாடி முடிக்கிறார்)` followed by a new `தலைவர் கலைஞர்:` transition;
+- scan **94** adds the directly visible first `அடக்கம்` line `அடக்கத்தின் விளைமையாய் அறமே நிற்கும் அது`;
+- scan **95** adds `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`;
+- scan **96** resolves the `பொறை` participant name as `ஆறுமுகம்`;
+- scan **97** corrects the source sequence to `பல் நெறித்தல் / உதடு மடித்தல் / கண் இடுக்கல்`, removing the earlier unsupported `உடல் உதைத்தல்`;
+- scan **98** extends the directly supported `அருளுடைமை` passage through `அவ்வுலகம் எவ்வுலகம் என்பதிலே ஆராய்ச்சி பல உண்டு / பல உயிரில் சில உயிர்கள் போகின்ற / நல் உலகம் அவ்வுலகம் என மொழிவார் நாமறிவோம்.`;
+- scans **77–78, 99–100** received deeper line/glyph rereads but still retain compact spans that block promotion;
+- **iteration E produced no page promotion**; cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**;
 - unresolved C04 pages remain **23 — 76–78, 80–88, 90–100**.
 
 ## Phase-2 completion assessment
@@ -119,4 +127,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — ten-page iteration E: process physical scans 94–100 and residual scans 76–78** (**10 physical pages total**). This gives scans 94–100 their deeper closure pass and revisits the oldest residual 76–78 set. Preserve the fixed source structure, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration F: process physical scans 80–88 and 90** (**10 physical pages total**). Give those residual pages another direct lexical/glyph closure pass, preserve the fixed `ஐம்புலன்` / `பிலவங்க ஆண்டு` source structure, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
