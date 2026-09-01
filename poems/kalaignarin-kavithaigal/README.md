@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source-coverage pass COMPLETE for all 465 scans; Phase 2 Clearance C01–C03 COMPLETE; C04 NEXT; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source-coverage pass COMPLETE for all 465 scans; Phase 2 Clearance C01–C03 COMPLETE; C04 source-layout review COMPLETE; C04 lexical clearance IN PROGRESS; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,9 +22,9 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 physical scans independently reviewed**;
-- cumulative status: **0 `partial`, 362 `needs-review`, 103 `verified`**;
-- unresolved backlog: **362 pages**;
-- verified pages: **0001–0075, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
+- unresolved backlog: **361 pages**;
+- verified pages: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **physical scans 1–75**;
 - Phase 3: **blocked until Phase-2 clearance resolves the remaining `needs-review` page records**.
 
@@ -34,15 +34,20 @@ C01 cleared physical scans **1–25**. C02 cleared unresolved scans **26–31 an
 
 For the final C03 lexical closure, the user supplied full word-for-word transcriptions from exact page-range derivatives of the same controlling PDF for scans **51–60, 62–69 and 72–75**. Those words were retained as the lexical base; the physical scans controlled **titles, page boundaries, lineation, punctuation, quotation continuity, running headers/page numbers, separators, closing ornaments, speaker labels, performance notes and illustrations**.
 
-C03 source structure now stands as:
+## Phase-2 Clearance C04 — IN PROGRESS
 
-- **51–54** — `இந்திரஜித்`, closing with a floral ornament on scan 54;
-- **55–61** — `இரணியன்`, title on 55 and floral closing ornament on 61;
-- **62–69** — `வாளி மன்னன்`, title on 62 and floral closing ornament on 69;
-- **70–71** — previously verified leaves, preserved;
-- **72–75** — `விடுதலை வீரர்கள்`; title/event note/star on 72, performance/speaker structure on 74, mounted-warrior illustration on 75; item continues into scan 76.
+Physical window: **76–100**. Direct source-layout review for the entire window is complete.
 
-The flattened `20 200 100` material associated with the scan-75 illustration is not printed text and is excluded.
+Source-established boundaries:
+
+- **76–79** — `விடுதலை வீரர்கள்`; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
+- **80–89** — `ஐம்புலன்`; scan 80 title/event note/star opening, scan 89 final `வணக்கம்.` and floral ornament;
+- **90–100** — `பிலவங்க ஆண்டு`; scan 90 title/event note/star opening, scan 100 final `வணக்கம்.` and floral ornament;
+- `ஐம்புலன்` and `பிலவங்க ஆண்டு` interleave `தலைவர் கலைஞர்:` passages with parenthetical performance notes for other poets; preserve these structures separately.
+
+Scan **79** has now passed complete direct lexical/glyph verification and is `verified`. Source-backed corrections include `சுழலினில்`, `மனமகிழ்வோர்`, `ஓலமிடும் இன்று.` and `தங்கங்களே தமிழே தாயே; உன்`.
+
+Remaining C04 targets: **76–78 and 80–100 (24 pages)**.
 
 ## Verification control
 
@@ -52,4 +57,4 @@ Full-source Phase-2 coverage does **not** itself authorize Phase 3 while unresol
 
 ## Exact next activity
 
-Execute **Phase 2 Clearance Batch C04 — physical scans 76–100**. `விடுதலை வீரர்கள்` continues into scan 76; preserve that continuation until the controlling scan establishes a new boundary. Promote only complete passes and do not begin Phase 3, canonical assembly or translation.
+Continue **Phase 2 Clearance Batch C04 — physical scans 76–78 and 80–100**. Promote only complete passes. Do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
