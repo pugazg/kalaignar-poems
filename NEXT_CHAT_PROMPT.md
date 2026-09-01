@@ -58,7 +58,9 @@ Residual source-backed progress:
 - **0011** — `ஓசையை` restored with initial long `ஓ`; surrounding compact prose remains unresolved;
 - **0013 / XII** — `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed; surrounding categorizing prose remains unresolved;
 - **0021 / printed 4** — corrected fourth-line ending to `பறப்பேன்!` and confirmed `ஒரு கோடித் தமிழ் இளைஞர்,`;
+- **0022 / printed 5** — corrected `உலகிடும் காற்றில்` to source-visible `உலவிடும் காற்றில்`;
 - **0023 / printed 6** — restored `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண`;
+- **0024 / printed 7** — corrected `மணோன்மணியம்` to source-visible `மனோன்மணியம்`;
 - **0025 / printed 8** — corrected `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirmed `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, and restored `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`.
 
 These pages remain `needs-review` because other compact/blur-sensitive text is still unresolved.
