@@ -34,25 +34,36 @@ For C02 the user supplied word-for-word extraction from exact page-range derivat
 
 The standing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
-### Clearance Batch C03 — NEXT
+### Clearance Batch C03 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
 
 Target physical window: **51–75**.
 
 Already verified within this window: **70, 71**.  
-Unresolved C03 target set: **51–69, 72–75**.
+Unresolved C03 target set: **51–69, 72–75 (23 pages)**.
 
-For every target page:
+The entire target set has been inspected directly for source layout. Structural controls are now fixed:
 
+- scans **51–54** continue `இந்திரஜித்`; scan **54** closes the item with a centered floral ornament;
+- scans **55–61** are `இரணியன்`; title on scan **55**, closing floral ornament on scan **61**;
+- scans **62–69** are `வாளி மன்னன்`; title on scan **62**, closing floral ornament on scan **69**;
+- scans **70–71** were already verified and are not reopened merely for uniformity;
+- scans **72–75** begin `விடுதலை வீரர்கள்`; scan **72** contains the two-line title, `15.8.67` Tiruchi radio-event note and centered star separator; scan **74** contains explicit parenthetical performance notes and `தலைவர் கலைஞர்:` speaker labels; scan **75** contains a mounted-warrior illustration and the item continues into scan 76.
+
+No C03 page was promoted in the layout-review activity because the existing first-pass lexical readings still contain numerous provisional / mis-segmented words. Page verification therefore remains blocked on exact glyph/word-ending reconciliation rather than on source structure.
+
+For every remaining C03 page:
+
+- preserve the now-established physical structure;
 - independently inspect the controlling scan before trusting Markdown;
 - use exact-source derivatives or user-supplied word-for-word extraction only as access/lexical aids to the same PDF;
 - correct only source-backed differences;
 - preserve old Tamil forms, punctuation, quotations, separators, lineation and non-Tamil material;
 - promote only complete passes to `verified`;
-- synchronize status-bearing files after the batch.
+- synchronize status-bearing files after status movement.
 
 ### Exact next activity
 
-Execute **Phase 2 Clearance Batch C03 — physical scans 51–75**, skipping already verified scans **70 and 71**. Do not begin Phase 3, canonical assembly or translation.
+Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–69 and 72–75**. Do not advance to C04 or begin Phase 3, canonical assembly or translation while these 23 pages remain unresolved.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
