@@ -50,7 +50,8 @@ C04 lexical review is being done in user-directed **10-page iterations**:
 - Iteration D: **83–88 plus 90–93**, reviewed with no additional promotions;
 - Iteration E: **94–100 plus 76–78**, reviewed with no additional promotions;
 - Iteration F: **80–88 plus 90**, reviewed with no additional promotions; scan **81** corrects the source-visible opening to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`;
-- Iteration G: **91–100**, reviewed with **scan 100 / printed 83 promoted to `verified`** after complete reconciliation of its remaining lines, punctuation, final `வணக்கம்.` and floral ornament;
+- Iteration G: **91–100**, reviewed with **scan 100 / printed 83 promoted to `verified`**;
+- Iteration H: **76–78 plus 80–86**, reviewed with no promotions; scan **86** corrects the source-visible introduction to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 ## Source-access / witness rule
@@ -61,4 +62,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Execute **C04 ten-page iteration H: scans 76–78 and 80–86**. Promote only complete passes; preserve all established `விடுதலை வீரர்கள்` / `ஐம்புலன்` speaker/performance-note structure; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration I: scans 87–88 and 90–97** — exactly **10 unresolved physical pages**. Do not reopen verified scan 89. Promote only complete passes; preserve all established `ஐம்புலன்` / `பிலவங்க ஆண்டு` speaker/performance-note structure; do not begin C05 or Phase 3 while C04 remains open.
