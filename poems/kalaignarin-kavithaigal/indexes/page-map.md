@@ -37,14 +37,14 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 9 / VIII | `அணிந்துரை` continuation | page-opening continuation `படித்தால் அதிலே கலைஞர் கருணாநிதியே நடைபோட்டு / வருவதுபோல் தோன்றும். அவரது கவிதைகளில் வரும் இந்த / வரிகளில்` restored; source-visible `இதில் மாணிக்கவாசகர் வருகிறார்;`, sequence `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்` retained; other compact prose unresolved |
 | 10 / IX | `அணிந்துரை` conclusion | page-opening continuation `பாடுவதன் மூலமாக அண்ணாவின் இதய உணர்வுகளையே / தன் உள்ளுணர்வுகளாகப் பெற்றவர் என்றமை.` restored; closing signature `க. அன்பழகன்` and `கவிதைகளை எண்ணிப் / பார்த்தால்` retained; compact prose/quotation remains unresolved |
 | 11 | `புறவுரை` opening | restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்`; `ஓசையை` remains source-confirmed; opening/final compact prose unresolved |
-| 12 | `புறவுரை` continuation | closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`; dense intervening prose remains unresolved |
+| 12 | `புறவுரை` continuation | restored `கலைஞர்தம் பாக்களில்`, `தெள்ளல் அல்லது தெளிதல் என்று சொல்`, and `தெளிவித்தல், ஆராய்தல், தெளிந்தல் என்பன போன்ற பல`; earlier closing `இந் நூலின் வாயிலாகப்` / `நாம் பயன்பெற முடியும்.` retained; other dense prose unresolved |
 | 13 / XII | `புறவுரை` conclusion | `கலைஞர்தம் பாடல்களில்`, `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, `அணி நயம் சுவைக்க விரும்புவோர் 19, 20, 23, 27, 31, 38, 48`, and `பக்கங்களையும் நான் பகுத்துத் தொகுத்து` restored directly; surrounding categorizing prose remains unresolved |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
 | 15 | contents | complete-pass `verified` |
 | 16 / XV | contents continuation | residual strings, punctuation and page references cleared; complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
 | 21 | `இதயத்தைத் தந்திடு அண்ணா` / printed 4 | `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?` corrected directly; lower verse still unresolved |
-| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | `உலவிடும் காற்றில்` and `குலவிடும் அருவி குறையும் மழையென` corrected directly from source; central/closing compact verse remains unresolved |
+| 22 | `இதயத்தைத் தந்திடு அண்ணா` / printed 5 | `உலவிடும் காற்றில்`, `குலவிடும் அருவி குறையும் மழையென`, `அலையெழும் கடலில் ஆடும் நுரையெனக்`, and `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!` restored directly; intervening/closing compact verse remains unresolved |
 | 23 | `இதயத்தைத் தந்திடு அண்ணா` / printed 6 | `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”` restored directly; other compact verse remains unresolved |
 | 24 | `இதயத்தைத் தந்திடு அண்ணா` / printed 7 | `மனோன்மணியம்` corrected directly from source; remaining compact verse blocks remain unresolved |
 | 25 | `இதயத்தைத் தந்திடு அண்ணா` / printed 8 | opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!` restored; later verse remains unresolved |
