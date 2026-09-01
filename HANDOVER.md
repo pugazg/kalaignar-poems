@@ -39,7 +39,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Durable phase state
 
-**Phase 1 COMPLETE — 465/465 page records. Phase 2 source coverage COMPLETE — all 465 physical scans independently reread. Phase 2 page clearance remains IN PROGRESS. Clearance C01–C03 is COMPLETE. C04 is NEXT.**
+**Phase 1 COMPLETE — 465/465 page records. Phase 2 source coverage COMPLETE — all 465 physical scans independently reread. Phase 2 page clearance remains IN PROGRESS. Clearance C01–C03 is COMPLETE. C04 source-layout review is COMPLETE; C04 lexical clearance remains OPEN.**
 
 Current cumulative page status:
 
@@ -54,7 +54,7 @@ Verified pages: **0001–0075, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0
 
 ## Phase-2 Clearance Batches C01–C03 — COMPLETE
 
-C01 cleared all unresolved records inside physical scans **1–25**. C02 cleared the remaining unresolved records inside **26–50**. C03 has now cleared the entire **51–75** physical window.
+C01 cleared all unresolved records inside physical scans **1–25**. C02 cleared the remaining unresolved records inside **26–50**. C03 cleared the entire **51–75** physical window.
 
 ### C03 lexical / structural control
 
@@ -75,6 +75,22 @@ Durable C03 boundaries and features:
 Before the final lexical closure: **0 partial / 384 needs-review / 81 verified**.  
 After C03: **0 partial / 362 needs-review / 103 verified**.
 
+## Phase-2 Clearance Batch C04 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
+
+Physical window: **76–100**.
+
+A direct scan pass has now fixed the item boundaries and non-lexical source structure for the full C04 window. No C04 page was promoted in this pass because no user-designated full lexical transcription has yet been supplied for scans 76–100 and the existing page Markdown remains provisional at exact word/glyph level.
+
+Durable C04 boundaries and features:
+
+- **76–79** — `விடுதலை வீரர்கள்` continuation; scan **79 / printed 62** closes with `வணக்கம்!`, `வாழ்க!` and a centered floral ornament;
+- **80–89** — `ஐம்புலன்`; scan **80** opens with the printed title, `24.3.68` Vaniyambadi Islamic College event note and centered star separator; scan **89 / printed 72** closes with `வணக்கம்.` and a centered floral ornament;
+- **90–100** — `பிலவங்க ஆண்டு`; scan **90** opens with the printed title, `13.4.68` Chennai radio-event note and centered star separator; scan **100 / printed 83** closes with `வணக்கம்.` and a centered floral ornament;
+- scans **80–89** and **90–100** repeatedly interleave `தலைவர் கலைஞர்:` passages with parenthetical notes that record other poets finishing their pieces; these are separate source structures and must not be flattened into a single verse block;
+- opening title/context scans **80** and **90** are unnumbered title/context leaves; normal running headers/printed page numbering resumes on the following leaves.
+
+C04 status remains **0 partial / 362 needs-review / 103 verified**. All **25 scans 76–100** remain lexical/glyph clearance targets.
+
 ## Phase-2 rule
 
 Independently reread the source itself for structure and any non-lexically-controlled text. Correct only what the applicable source control supports. Preserve old Tamil forms and source anomalies. Resolve `⟦…⟧` / `[மங்கலான ...]` only from direct source evidence or a user-designated exact-source lexical transcription. Promote a page to `verified` only when every word/glyph, punctuation mark, line break, quotation, separator and non-Tamil/layout element passes.
@@ -85,13 +101,13 @@ Do not copy separate source-witness transcriptions into this anthology. Exact pa
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — physical scans 76–100**.
+Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of physical scans 76–100**.
 
 - fetch/recheck live `main` before writes;
-- inspect scans **76–100** directly against `pages/0076.md`–`pages/0100.md`;
-- `விடுதலை வீரர்கள்` continues from scan 75 into scan 76; do not infer a new boundary until the source establishes it;
-- if the user supplies word-for-word transcription from exact controlling-PDF extracts for this range, use those words as the lexical base and independently handle structure/punctuation/lineation;
+- preserve the C04 source-layout boundaries recorded above;
+- compare `pages/0076.md`–`pages/0100.md` against the controlling scans;
+- if the user supplies full word-for-word transcription from exact controlling-PDF extracts for this range, retain those words as the lexical base and independently handle structure, punctuation, quotation continuity, page carry-over, speaker/performance labels, separators, ornaments and lineation;
 - otherwise resolve only what the controlling scan itself supports without guessing;
 - promote only complete passes to `verified`;
-- synchronize all status-bearing files at completion;
-- **do not begin Phase 3, canonical assembly or translation**.
+- keep C04 open until scans **76–100** are lexically cleared;
+- **do not advance to C05, Phase 3, canonical assembly or translation**.
