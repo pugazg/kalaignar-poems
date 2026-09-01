@@ -44,17 +44,17 @@ Promoted after complete direct-source passes: **0002, 0003, 0005, 0014, 0015, 00
 
 Residual source-backed progress:
 
-- **0004** — opening `என்னுரை` prose restored; source punctuation refined; lower compact continuation remains unresolved;
+- **0004** — opening `என்னுரை` prose restored; source punctuation refined; `இருந்தநாள்தான்` corrected directly; lower continuation remains unresolved;
 - **0006** — restored `துறைதொறும் தலைமை ஏற்றும் தகுதியும் திறனும் வாய்ந்த`; corrected `உணர்வினில் தெளிவும் திட்பமும் இடம் பெற வேண்டும்.`;
-- **0007 / VI** — restored `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`;
-- **0008 / VII** — corrected opening to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`;
-- **0009 / VIII** — corrected `இந்த மாணிக்கவாசகர் வருகிறார்;` to source-visible `இதில் மாணிக்கவாசகர் வருகிறார்;`; the printed sequence `வள்ளுவர் வள்ளலார்` and `தமிழ்ப் பண்பாளர்கள்` remain confirmed;
-- **0010 / IX** — closing signature corrected to `க. அன்பழகன்`;
+- **0007 / VI** — restored `மேலும் தொன்மை மிகுந்த தமிழ் மொழியின் இளமை`, `அதைப் பிறருக்கும்`, and `உணர்த்த வல்லவனே`;
+- **0008 / VII** — corrected opening to `சுவைகளுக்கெல்லாம் உணர்வுகளை வாரிக் வழங்க வல்லவன் கவிஞன்.`; closing prose corrected to `எழுதிய கட்டுரைகளிலே`, `கவிதை நடையைப்`, `பயன்படுத்துவது`;
+- **0009 / VIII** — restored `இதில் மாணிக்கவாசகர் வருகிறார்;`, the sequence `வள்ளுவர் வள்ளலார்`, and `தமிழ்ப் பண்பாளர்கள்`;
+- **0010 / IX** — closing signature corrected to `க. அன்பழகன்`; `சென்னை-7` / `15.5.82` retained; `கவிதைகளை எண்ணிப் / பார்த்தால்` restored;
 - **0011** — restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்`; `ஓசையை` remains source-confirmed;
-- **0012 / XI** — corrected the closing to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`;
+- **0012 / XI** — closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`;
 - **0013 / XII** — opening corrected to `கலைஞர்தம் பாடல்களில்`; `சொல்லழகைக் சுவைக்க எண்ணுவோர்` confirmed;
 - **0021 / printed 4** — corrected `பறப்பேன்!`, `ஒரு கோடித் தமிழ் இளைஞர்,`, and `மணி மாறிப்போச்சே?`;
-- **0022 / printed 5** — restored `உலவிடும் காற்றில்`;
+- **0022 / printed 5** — restored `உலவிடும் காற்றில்` and `குலவிடும் அருவி குறையும் மழையென`;
 - **0023 / printed 6** — restored `காதலர்கள்`, `வக்கற்றோர் வகையற்றோர்`, `பிணம்`, and `“மரக்கிளையிலே பிணம்!”`;
 - **0024 / printed 7** — restored `மனோன்மணியம்`;
 - **0025 / printed 8** — restored `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, `பெயர் மாற்றத் தீர்மானம்`, `ஆங்கில ஆட்சியை அகற்றியபோது`, `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`, and `தொடங்கினார் போரே!`.
