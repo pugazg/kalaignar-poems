@@ -22,16 +22,25 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1 page records: **465/465 — COMPLETE**;
 - Phase 2 source coverage: **465/465 physical scans independently reviewed**;
-- cumulative status: **2 `partial`, 427 `needs-review`, 36 `verified`**;
-- unresolved backlog: **429 pages**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- Phase 3: **blocked until Phase-2 clearance resolves the remaining `partial` / `needs-review` page records**.
+- cumulative status: **0 `partial`, 425 `needs-review`, 40 `verified`**;
+- unresolved backlog: **425 pages**;
+- verified pages: **0001, 0003, 0005, 0014, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- Phase 3: **blocked until Phase-2 clearance resolves the remaining `needs-review` page records**.
 
-Batch 19 directly reviewed scans 451–465. `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` closes at 452; `திசை திருப்பல் நியாயம்தானா?` spans 453–454; `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` spans 455–456; `சில நாடுகள் இருக்கின்றன` spans 457–460; `உன் காலணியை வாழ்த்துகிறாய்` spans 461–464; scan 465 is the final back cover and received a complete verification pass.
+## Phase-2 Clearance C01 progress
 
-Source-backed Batch-19 corrections include scan-464 `ஏழை எளிய உடன் பிறப்பு நீ!` and `கலைஞர் தனது 58-வது பிறந்தநாள்`, plus complete verification of scan 465.
+The first C01 clearance pass targeted unresolved scans **2–17 and 21–25**, skipping already verified scans **1 and 18–20**.
 
-The user-supplied pages-350–465 derivative is a page-range rendering aid from the same controlling PDF, not a separate witness.
+Complete-pass promotions:
+
+- scan **3** — English imprint / price;
+- scan **5 / IV** — `என்னுரை` continuation;
+- scan **14** — `பதிப்புரை`, including source-backed resolution `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
+- scan **17 / XVI** — contents continuation, preserved as its own printed contents witness.
+
+Additional source-backed correction: scan **16 / XV** now reads **`தமிழ் வளர வழிநடைப் பயணம்`**. It remains `needs-review` because other small-type title strings are unresolved.
+
+Residual C01 scans: **2, 4, 6–13, 15–16, 21–25**.
 
 ## Verification control
 
@@ -41,4 +50,4 @@ Full-source Phase-2 coverage does **not** itself authorize Phase 3 while unresol
 
 ## Exact next activity
 
-**Phase 2 Clearance Batch C01 — unresolved scans 2–17 and 21–25.** Skip scans **1 and 18–20**, which are already `verified`, unless a direct-source discrepancy is discovered. Do not begin Phase 3 in the same activity.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 2, 4, 6–13, 15–16 and 21–25**. Do not advance to C02 or begin Phase 3 in the same activity.
