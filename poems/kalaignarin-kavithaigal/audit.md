@@ -2,16 +2,16 @@
 
 ## Current state
 
-**PHASE 1 COMPLETE — 465/465 records. PHASE 2 SOURCE-COVERAGE PASS COMPLETE — ALL 465 PHYSICAL SCANS HAVE BEEN INDEPENDENTLY REREAD. PHASE 2 CLEARANCE REMAINS IN PROGRESS. CLEARANCE BATCHES C01–C02 ARE COMPLETE. C03 SOURCE-LAYOUT REVIEW IS COMPLETE; C03 LEXICAL CLEARANCE REMAINS OPEN.**
+**PHASE 1 COMPLETE — 465/465 records. PHASE 2 SOURCE-COVERAGE PASS COMPLETE — ALL 465 PHYSICAL SCANS HAVE BEEN INDEPENDENTLY REREAD. PHASE 2 CLEARANCE REMAINS IN PROGRESS. CLEARANCE BATCHES C01–C03 ARE COMPLETE.**
 
 - controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - physical PDF pages: **465**;
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 2 source coverage: **465/465 scans reviewed**;
-- cumulative page status: **0 `partial`, 384 `needs-review`, 81 `verified`**;
-- verified pages: **0001–0050, 0061, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- unresolved backlog: **384 `needs-review` pages**;
+- cumulative page status: **0 `partial`, 362 `needs-review`, 103 `verified`**;
+- verified pages: **0001–0075, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved backlog: **362 `needs-review` pages**;
 - Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
@@ -37,77 +37,65 @@ Physical window: **26–50**.
 - already verified before C02: **32, 33**;
 - C02 direct targets: **26–31, 34–50**;
 - direct targets cleared: **23 / 23**;
-- durable result: **physical scans 1–50 are now fully `verified`**.
+- durable result: **physical scans 1–50 fully `verified`**.
 
-### C02 source / transcription control
+For C02, the user supplied word-for-word transcription derived from exact page-range extracts of the same controlling PDF. The supplied words were used as the lexical base; each physical scan was independently inspected for structure, punctuation, line breaks, quotation boundaries, page headers/numbers, illustrations, ornaments, page carry-over and other non-lexical features before promotion.
 
-For the 23 unresolved pages, the user supplied word-for-word transcription derived from exact page-range extracts of the same controlling PDF. The supplied words were used as the lexical base; each physical scan was independently inspected for **structure, punctuation, line breaks, quotation boundaries, page headers/numbers, illustrations, ornaments, page carry-over and other non-lexical features** before promotion.
+Important C02 structural controls include scan-31 and scan-42 closing ornaments; scan-38/47/49 illustrations; cross-page quotation/speech continuity across 37→38, 45→46 and 49→50; and rejection of flattened illustration/OCR noise as text. The standing user-directed single-token exclusion applicable to `தென்னவன் காதை` remains in force on scan 41.
 
-Important structural/source findings include:
+Final C02 cumulative status: **0 `partial`, 385 `needs-review`, 80 `verified`**.
 
-- scans **26–31** complete the anthology witness of `இதயத்தைத் தந்திடு அண்ணா`; scan 31 preserves the centered closing printer's ornament;
-- scan **34** opens `தென்னவன் காதை`; scan **42 / printed 25** closes it with a centered printer's ornament;
-- the quotation beginning on scan **37** with `சிறையெடுத்துப் போன சீதாதேவிதனைச்-` continues across the physical boundary and closes at the start of scan **38**;
-- scan **38** contains a line illustration in its lower portion;
-- the previously documented user-directed single-token exclusion applicable to `தென்னவன் காதை` remains in force on scan **41**; the surrounding source wording and lineation were preserved while the excluded token was not reproduced;
-- scan **43** opens `இந்திரஜித்`;
-- a speech begins at the bottom of scan **45** (`இனியவளே!... திரும்புதடி -`) and continues on scan **46**;
-- scan **47** contains a large reclining-figure illustration interrupting the verse block, with the same quoted speech continuing below the illustration and into scan **48**;
-- scan **49 / printed 32** contains a large mounted-warrior illustration; the flattened `000 000 000 8` OCR-like material supplied around that page was confirmed as non-text/image-layout noise and was not archived as text;
-- the single-quoted `காவிற்கு அழகில்லை...` passage begins on scan **49** and closes on scan **50**;
-- scan **50** is fully verified as a physical page but `இந்திரஜித்` continues into scan **51**.
-
-### C02 status movement
-
-Before C02: **0 `partial`, 408 `needs-review`, 57 `verified`**.  
-After C02: **0 `partial`, 385 `needs-review`, 80 `verified`**.
-
-## Phase 2 Clearance Batch C03 — SOURCE-LAYOUT REVIEW COMPLETE; LEXICAL CLEARANCE OPEN
+## Phase 2 Clearance Batch C03 — COMPLETE
 
 Physical window: **51–75**.
 
-- previously verified in this window: **70, 71**;
-- C03 complete-pass promotion so far: **61**;
-- remaining unresolved C03 targets: **51–60, 62–69, 72–75**;
-- remaining unresolved target count: **22 pages**;
-- cumulative totals: **0 `partial`, 384 `needs-review`, 81 `verified`**.
+- already verified before final C03 lexical closure: **61, 70, 71**;
+- final supplied-transcription targets: **51–60, 62–69, 72–75**;
+- final targets cleared: **22 / 22**;
+- durable result: **physical scans 1–75 fully `verified`**;
+- final C03 cumulative status: **0 `partial`, 362 `needs-review`, 103 `verified`**.
 
-All unresolved physical scans in the C03 window were inspected directly for source structure and page-level layout. The source establishes these item boundaries and non-lexical controls:
+### C03 source / transcription control
 
-- scans **51–54** continue `இந்திரஜித்`; scan **54 / printed 37** closes the item with a centered floral ornament;
-- scan **55 / printed 38** opens `இரணியன்`; the item runs through scan **61 / printed 44**, which closes with a centered floral ornament;
-- scan **62 / printed 45** opens `வாளி மன்னன்`; the item runs through scan **69 / printed 52**, which closes with a centered floral ornament;
-- scans **70–71** were already verified and were not reopened merely for uniformity;
-- scan **72 / printed 55** opens `விடுதலை வீரர்கள்` with its printed two-line title, the `15.8.67` Tiruchi radio-event note and a centered star separator;
-- scan **74 / printed 57** visibly mixes verse with parenthetical performance notes and `தலைவர் கலைஞர்:` speaker labels; those are separate source structures and must not be flattened into one verse block;
-- scan **75 / printed 58** contains a large mounted-warrior illustration in the lower half; illustration pixels are not text; `விடுதலை வீரர்கள்` continues into scan 76.
+The user supplied full word-for-word transcriptions derived from exact extracts of the same controlling PDF for all remaining C03 lexical targets. Those words were retained as the lexical base. The controlling scan independently determined **page boundaries, lineation, punctuation, quotations, running headers/page numbers, titles, separators, parenthetical performance notes, speaker labels, illustrations and closing ornaments**.
 
-### C03 lexical clearance progress
+Durable C03 structure:
 
-Scan **61 / printed 44** received a complete direct visual source-critical pass and is now `verified`. The pass replaces the provisional Phase-1 readings with source-supported forms including `ஆடற்று ஆரியம் திருக்கூத்திது!-`, `தெய்வந்தான் ... கொண்டதெனத்`, `அவனறியான்`, and `ஆடுதற்கு ஆவலுடன் நிற்கிட்டான் அரியணையில்!`; it also confirms the centered floral ornament closing `இரணியன்`.
+- scans **51–54** continue and close `இந்திரஜித்`; scan **54 / printed 37** closes with a centered floral ornament;
+- scans **55–61** are `இரணியன்`; scan **55 / printed 38** carries the printed title and scan **61 / printed 44** closes with a centered floral ornament;
+- scans **62–69** are `வாளி மன்னன்`; scan **62 / printed 45** carries the printed title and scan **69 / printed 52** closes with a centered floral ornament;
+- scans **70–71** were already verified and were preserved;
+- scan **72 / printed 55** opens `விடுதலை வீரர்கள்` with its two-line title, `15.8.67` Tiruchi radio-event note and centered star separator;
+- scan **74 / printed 57** preserves parenthetical performance notes separately from `தலைவர் கலைஞர்:` speaker labels and verse;
+- scan **75 / printed 58** contains a large mounted-warrior illustration in the lower half; the flattened `20 200 100` extraction is illustration/OCR noise and is not archived as printed text;
+- `விடுதலை வீரர்கள்` continues beyond scan 75 into scan 76.
 
-The remaining page Markdown for scans **51–60, 62–69 and 72–75** still contains provisional first-pass lexical readings and mis-segmented compounds. Because a complete page requires every glyph/word ending as well as punctuation/lineation/quotation to pass, these pages remain `needs-review` until individually cleared from the controlling source.
+### C03 status movement
+
+Before final C03 lexical closure: **0 `partial`, 384 `needs-review`, 81 `verified`**.  
+After C03: **0 `partial`, 362 `needs-review`, 103 `verified`**.
 
 ## Phase-2 completion assessment
 
 - **Phase-2 source coverage: COMPLETE**;
 - **Phase-2 page clearance: NOT COMPLETE**;
+- **durable contiguous verified boundary: scans 1–75**;
 - **Phase 3: BLOCKED**;
-- unresolved backlog: **384 page records**.
+- unresolved backlog: **362 page records**.
 
 Verified pages must not be reopened merely for uniformity. Reopen a verified page only if new direct-source evidence reveals a discrepancy.
 
 ## Verification safeguards
 
-- controlling scan is authoritative;
+- controlling scan is authoritative for source structure and remains the source witness;
 - exact page-range derivatives from the same PDF are rendering/transcription aids only, not separate witnesses;
-- user-supplied word-for-word extraction may supply the lexical base, but structure/punctuation/lineation must still be reconciled against the scan;
+- user-supplied word-for-word extraction may supply the lexical base when explicitly designated, while structure/punctuation/lineation are reconciled against the scan;
 - `⟦…⟧` / `[மங்கலான ...]` is editorial uncertainty, not source punctuation;
 - no unrelated OCR/contextual reconstruction is used to fill blur;
 - separate source witnesses are not copied into this anthology;
-- old/compact Tamil forms and source anomalies are preserved unless the scan directly supports a correction;
+- old/compact Tamil forms and source anomalies are preserved unless directly controlled otherwise;
 - the existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–60, 62–69 and 72–75** against the controlling source. Preserve the established structure, promote only complete passes, and do **not** advance to C04, Phase 3, canonical assembly or translation while these **22 C03 pages** remain unresolved.
+Execute **Phase 2 Clearance Batch C04 — physical scans 76–100** against the controlling source. `விடுதலை வீரர்கள்` continues into scan 76; do not infer a new item boundary until the scan establishes it. Promote only complete passes and do **not** begin Phase 3, canonical assembly or translation.
