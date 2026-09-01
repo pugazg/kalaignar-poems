@@ -18,17 +18,17 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **COMPLETE, batches 01–19**;
-- Phase 2 Batches 01–15, scans **1–375**: **COMPLETE**;
-- cumulative verified pages: **32 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373**;
-- cumulative status: **2 `partial`, 431 `needs-review`, 32 `verified`**.
+- Phase 2 Batches 01–16, scans **1–400**: **COMPLETE**;
+- cumulative verified pages: **34 — 0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393**;
+- cumulative status: **2 `partial`, 429 `needs-review`, 34 `verified`**.
 
-Batch 15 directly reread scans 351–375. `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` closes at scan 361; `“அறிஞர் அண்ணா வழியில்”` spans scans 362–370; scan 372 establishes the source-visible section divider `கண்ணீர்த் துளிகள்`; `பன்னீர்ச்செல்வமே!` spans scans 374–375. Only scans 371–373 received complete passes; dense poem pages remain `needs-review` where every compact reading could not be safely resolved from the scan.
+Batch 16 directly reread scans 376–400. It closes `கலைத்தாயின் தலைச் செல்வன்!`, `உன் நிழலாக அசைகின்றோம்!`, `வாழ்க ஜீவா!`, `மறைந்த மாவீரன்`, `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, `இன்றைக்கு உன் பிறந்த நாள்`, `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!`, and `அருமருந்தே! அன்புறவு உடன்பிறப்பே!`; verifies the `மலர்த் தோட்டம்` divider/verso at scans 392–393; and opens `பகுத்தறிவுப் பாண்டியனார்!` at scan 400. Only scans 392–393 received complete passes.
 
-The user-supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf` and `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf` are rendering aids derived from the same controlling PDF. They are not separate witnesses. Derivative page 1 corresponds to physical scan 300 and physical scan 350 respectively.
+The user-supplied page-range derivatives are rendering aids derived from the same controlling PDF. They are not separate witnesses. The pages-350–465 derivative has page 1 = physical scan 350.
 
 ### Exact next activity
 
-Execute **Phase 2 Verification Batch 16 — physical scans 376–400**. Continue from the material following `பன்னீர்ச்செல்வமே!`. Do not infer a new item boundary until the scan establishes it. Do not begin Phase 3, canonical assembly, or translation.
+Execute **Phase 2 Verification Batch 17 — physical scans 401–425**. Continue from the unfinished `பகுத்தறிவுப் பாண்டியனார்!`. Physical scans 401–425 correspond to pages **52–76** of the pages-350–465 derivative. Do not begin Phase 3, canonical assembly, or translation.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
