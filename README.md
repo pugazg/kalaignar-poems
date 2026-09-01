@@ -32,17 +32,18 @@
 - cumulative status: **0 partial, 360 needs-review, 105 verified**;
 - unresolved backlog: **360 pages**;
 - verified so far: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–75**.
+- durable contiguous verified boundary: **scans 1–75**;
+- additional C04 verified pages: **79, 89**.
 
 ### Clearance C04 — in progress, 10 pages per iteration
 
 Source structure is fixed as `விடுதலை வீரர்கள்` through scan **79**, `ஐம்புலன்` scans **80–89**, and `பிலவங்க ஆண்டு` scans **90–100**.
 
-- scan **79** is `verified`;
 - Iteration A reviewed **76–78, 80–86**;
 - Iteration B reviewed **87–96** and promoted **scan 89** after a complete source-critical pass;
-- Iteration C reviewed **97–100 plus 76–78 and 80–82**; no additional promotion, but direct source-backed refinements were recorded on all ten pages;
+- Iteration C reviewed **97–100 plus 76–78 and 80–82**; no additional promotion;
+- Iteration D reviewed **83–88 and 90–93**; no promotion, but additional direct-source lexical text was restored on scans 83–87 and 93;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**;
-- exact next 10-page iteration: **83–88 and 90–93**.
+- exact next 10-page iteration: **94–100 plus 76–78**.
 
 Phase 2 independently rereads the controlling scan. OCR, memory, grammar, metre, historical expectation and separate editions are not authority unless the user explicitly designates an exact-source lexical transcription for that same controlling-PDF range.
