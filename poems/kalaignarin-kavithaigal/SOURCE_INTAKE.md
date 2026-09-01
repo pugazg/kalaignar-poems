@@ -20,7 +20,7 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 page records — COMPLETE**;
 - Phase 2 Batches 01–19 source coverage: **scans 1–465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS**;
+- Phase 2 clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS in user-directed 10-page iterations**;
 - cumulative status: **0 `partial`, 361 `needs-review`, 104 `verified`**;
 - unresolved backlog: **361 pages**;
 - verified: **0001–0075, 0079, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
@@ -40,12 +40,18 @@ Physical window: **76–100**. Direct source-layout review is complete across al
 
 Source-established item boundaries are `விடுதலை வீரர்கள்` through scan **79**, `ஐம்புலன்` scans **80–89**, and `பிலவங்க ஆண்டு` scans **90–100**. Scans **79, 89 and 100** each carry centered floral closing ornaments; scans **80** and **90** are title/context openings with centered star separators. `ஐம்புலன்` and `பிலவங்க ஆண்டு` preserve separate chairman, speaker and performance-note structures.
 
-Scan **79 / printed 62** has now passed a complete direct source-critical lexical/glyph, punctuation and lineation review and is `verified`. The pass confirms the closing `வணக்கம்!`, `வாழ்க!` and centered floral ornament.
+Scan **79 / printed 62** is complete-pass `verified`.
 
-Remaining C04 targets: **76–78 and 80–100 (24 pages)**.
+### C04 ten-page iteration A
+
+Exactly **10 unresolved scans — 76–78 and 80–86 — have now been directly reviewed** against the controlling source. Safe source-backed corrections were applied, including scan 76 `நன்று நன்று.` / `பேரதிர்ச்சிப் பெரும்புயலைத்`, scan 77 `கப்பல்விட்ட` / `மாநில`, scan 80 `கல்லூரிப் பெருமன்றில்`, scan 82 `அடக்குதல்` / `அடக்கத் தவம்`, scan 85 `எல்லாம் மெய் என்று`, and scan 86 `இவர்பக்கம்`.
+
+All ten remain `needs-review` because at least one compact glyph/word-ending span remains unresolved on each. They are now direct-reviewed residuals, not untouched first-pass records.
+
+Remaining C04 `needs-review` set remains **76–78 and 80–100 (24 pages)**.
 
 The original source remains the authority for physical source structure. Page-range/access derivatives are rendering aids only and are not separate witnesses. The existing user-directed exclusion applicable to `தென்னவன் காதை` remains in force.
 
 ## Current next activity
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of scans 76–78 and 80–100**. Promote only complete source-critical passes and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration B: scans 87–96**. Process exactly those ten physical scans, preserve the `ஐம்புலன்` conclusion at scan 89 and `பிலவங்க ஆண்டு` opening at scan 90, promote only complete source-critical passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
