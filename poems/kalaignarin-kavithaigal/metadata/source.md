@@ -23,11 +23,11 @@
 
 - Phase 1: **COMPLETE — 465/465 records**;
 - Phase 2 source coverage, scans **1–465: COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C02 COMPLETE; C03 NEXT**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C02 COMPLETE; C03 source-layout review COMPLETE; C03 lexical clearance OPEN**;
 - cumulative page status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
 - unresolved backlog: **385 pages**;
 - verified pages: **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- next: **Phase 2 Clearance Batch C03 — scans 51–75, skipping verified scans 70 and 71**;
+- next: **continue C03 exact lexical/glyph verification for scans 51–69 and 72–75**;
 - Phase 3: **blocked pending Phase-2 page clearance**.
 
 ## Clearance C01–C02 note
@@ -37,6 +37,17 @@ C01 is **COMPLETE** through scan 25. C02 is **COMPLETE** through scan 50: its un
 For C02, user-supplied word-for-word transcriptions from exact page-range derivatives of this same controlling PDF were used as the lexical base, while the controlling scans determined structure, punctuation, quotation continuity, lineation, illustrations, ornaments and physical-page boundaries.
 
 Important non-lexical C02 controls include scan-31 and scan-42 closing ornaments, scan-38/47/49 illustrations, cross-page quotation/speech continuities across 37→38 and 45→46, and rejection of `000 000 000 8` on scan 49 as image-layout/OCR noise rather than printed text. The standing user-directed exclusion applicable to `தென்னவன் காதை` remains in force on scan 41.
+
+## Clearance C03 source-layout note
+
+The unresolved C03 target set **51–69 and 72–75** has now been inspected directly for source structure. Source-established item boundaries are:
+
+- `இந்திரஜித்`: continues through scan **54**, which closes with a centered floral ornament;
+- `இரணியன்`: scans **55–61**, with printed title on scan 55 and centered closing ornament on scan 61;
+- `வாளி மன்னன்`: scans **62–69**, with printed title on scan 62 and centered closing ornament on scan 69;
+- `விடுதலை வீரர்கள்`: opens on scan **72** with two-line title, `15.8.67` Tiruchi radio-event note and star separator; scan 74 contains explicit performance/speaker labels; scan 75 contains a mounted-warrior illustration; item continues beyond scan 75.
+
+No C03 target was promoted from source layout alone. The first-pass Markdown remains lexically provisional and requires exact glyph/word-ending reconciliation.
 
 Phase-2 corrections are made only from evidence tied to the controlling source. Exact page derivatives of this PDF may assist rendering/transcription but remain the same witness. Unrelated OCR, memory, grammar, historical expectation and other editions are not textual authority.
 
