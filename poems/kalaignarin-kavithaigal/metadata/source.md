@@ -24,11 +24,11 @@
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS — C01–C03 COMPLETE; C04 lexical clearance IN PROGRESS**;
-- cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
-- unresolved backlog: **360 pages**;
-- verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
+- unresolved backlog: **359 pages**;
+- verified pages: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
-- additional C04 verified pages: **79, 89**;
+- additional C04 verified pages: **79, 89, 100**;
 - Phase 3: **blocked**.
 
 ## Clearance C04 note
@@ -50,7 +50,8 @@ C04 lexical review is being done in user-directed **10-page iterations**:
 - Iteration D: **83–88 plus 90–93**, reviewed with no additional promotions;
 - Iteration E: **94–100 plus 76–78**, reviewed with no additional promotions;
 - Iteration F: **80–88 plus 90**, reviewed with no additional promotions; scan **81** corrects the source-visible opening to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`;
-- remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
+- Iteration G: **91–100**, reviewed with **scan 100 / printed 83 promoted to `verified`** after complete reconciliation of its remaining lines, punctuation, final `வணக்கம்.` and floral ornament;
+- remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 ## Source-access / witness rule
 
@@ -60,4 +61,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Execute **C04 ten-page iteration G: scans 91–100**. Promote only complete passes; preserve all `பிலவங்க ஆண்டு` speaker/performance-note structure and the scan-100 floral closure; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration H: scans 76–78 and 80–86**. Promote only complete passes; preserve all established `விடுதலை வீரர்கள்` / `ஐம்புலன்` speaker/performance-note structure; do not begin C05 or Phase 3 while C04 remains open.
