@@ -35,7 +35,7 @@ For the final C03 lexical closure, the user supplied full word-for-word transcri
 
 ### Clearance Batch C04 — IN PROGRESS
 
-Target physical window: **76–100**. Direct source-layout review for the entire window is complete.
+Target physical window: **76–100**. Direct source-layout review for the entire window is complete. Current user directive: **process exactly 10 unresolved pages per iteration**.
 
 Source-established boundaries:
 
@@ -44,7 +44,11 @@ Source-established boundaries:
 - scans **90–100** are `பிலவங்க ஆண்டு`; scan 90 contains title/event note/star opening and scan 100 closes with `வணக்கம்.` and floral ornament;
 - scans **80–89** and **90–100** contain separate chairman passages, parenthetical performance notes and speaker labels; preserve these as distinct source structures.
 
-Scan **79** has now passed complete direct lexical/glyph, punctuation and lineation review and is `verified`. Remaining C04 target set: **76–78 and 80–100 (24 pages)**.
+Scan **79** has passed complete direct lexical/glyph, punctuation and lineation review and is `verified`.
+
+**Ten-page iteration A** has directly reviewed unresolved scans **76–78 and 80–86**. Source-backed corrections were applied where the controlling scan was clear, but all ten pages retain at least one unresolved compact lexical/glyph span and therefore remain `needs-review`. They are direct-reviewed residuals rather than untouched Phase-1 pages.
+
+Remaining C04 `needs-review` set: **76–78 and 80–100 (24 pages)**.
 
 For every remaining C04 page:
 
@@ -54,11 +58,11 @@ For every remaining C04 page:
 - preserve old Tamil forms, punctuation, quotations, separators, lineation, running headers/page numbers and non-Tamil material;
 - distinguish illustrations/performance notes/speaker labels from poem text;
 - promote only complete passes to `verified`;
-- synchronize status-bearing files after status movement.
+- synchronize status-bearing files after each 10-page iteration and after status movement.
 
 ### Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — exact lexical/glyph verification of scans 76–78 and 80–100**. Do not begin C05 or Phase 3 while C04 remains open.
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration B: scans 87–96**. Preserve the `ஐம்புலன்` conclusion at scan 89 and `பிலவங்க ஆண்டு` opening at scan 90. Process exactly those 10 physical scans in the next iteration; do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
