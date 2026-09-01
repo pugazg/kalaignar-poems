@@ -36,6 +36,7 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 - cumulative status: **0 `partial`, 360 `needs-review`, 105 `verified`**;
 - verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **1–75**;
+- additional C04 verified pages: **79, 89**;
 - Phase 3 and translation: **blocked**.
 
 ## C04 FIXED SOURCE STRUCTURE
@@ -53,21 +54,24 @@ Processed **76–78, 80–86**. All remained direct-reviewed `needs-review` resi
 
 ### Iteration B
 
-Processed exactly **87–96**.
-
-- scan **89** reached a complete source-critical pass and is `verified`;
-- scans **87–88, 90–96** received direct source-backed refinements but remain `needs-review` because compact lexical spans remain.
+Processed exactly **87–96**. Scan **89** reached a complete source-critical pass and is `verified`.
 
 ### Iteration C
 
-Processed exactly **97, 98, 99, 100, 76, 77, 78, 80, 81, 82**.
+Processed exactly **97–100 plus 76–78 and 80–82**. No page was promoted; source-backed refinements were recorded and scans 76–78 / 80–82 received a second visual pass.
 
-- scans **76–78, 80–82** received a second direct visual pass and remain residual because compact glyph/word-ending spans persist;
-- scan **97** now preserves `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`, `கவிஞர் நூர் முகம்மது`, and the `அடுத்து இன்னா செய்யாமை:` transition;
-- scan **98** now preserves the `சுரதா` / `தூரன்` performance boundaries and source-visible `அருளுடைமை` opening;
-- scan **99** now preserves `மலர் குவிப்பார் என்றிருந்தேன்`, `மலர் குவித்ததால்`, and the clearly separated ethical-heading sequence;
-- scan **100** had its final page boundary, `வணக்கம்.` punctuation and centered floral ornament reconciled directly;
-- **no page was promoted in iteration C**;
+### Iteration D
+
+Processed exactly **83, 84, 85, 86, 87, 88, 90, 91, 92, 93**.
+
+- scan **83** restores `கவிஞர்களே!`, its five-line `பெரிதானால்` organ-wordplay block and `அளவறிந்து அவரவர் பொருளைப் பேசுவீர்`;
+- scan **84** restores `கொய்யாக் கனி கவிப்போம் / சற்று காத்திருப்போம். / சாதிக் அப்தின் தமிழ் கேட்போம்:`;
+- scan **85** restores the visible `வாய்ச்சொற்கள் ... / கண்ணோடு கண்ணிணை ...` passage and following `வள்ளுவரும் ... ‘கண்’` lines;
+- scan **86** removes an unsupported provisional reading and preserves source-visible `பரந்த உள்ளம் ...`;
+- scan **87** adds two directly legible lower lines;
+- scans **88, 90–92** received deeper full-page passes but retain compact unresolved forms;
+- scan **93** preserves its selection setup and six virtue names;
+- **no page was promoted in iteration D**;
 - C04 unresolved set remains **76–78, 80–88, 90–100 (23 pages)**.
 
 ## SOURCE-CRITICAL RULE
@@ -76,15 +80,16 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration D** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration E** on exactly:
 
-**83, 84, 85, 86, 87, 88, 90, 91, 92, 93**.
+**94, 95, 96, 97, 98, 99, 100, 76, 77, 78**.
 
 That is **10 physical pages**.
 
-1. These pages already have at least one direct review; perform a deeper exact lexical/glyph closure pass.
-2. Preserve the `ஐம்புலன்` → `பிலவங்க ஆண்டு` source boundary and all speaker/performance structures.
-3. Promote only complete passes to `verified`.
-4. Synchronize all status-bearing files after the iteration.
-5. Keep C04 open while any C04 residual remains.
-6. **Do not begin C05, Phase 3, canonical assembly or translation.**
+1. Give scans **94–100** their deeper exact lexical/glyph closure pass.
+2. Revisit the oldest residual scans **76–78**.
+3. Preserve all established item, speaker and performance-note boundaries.
+4. Promote only complete passes to `verified`.
+5. Synchronize all status-bearing files after the iteration.
+6. Keep C04 open while any C04 residual remains.
+7. **Do not begin C05, Phase 3, canonical assembly or translation.**
