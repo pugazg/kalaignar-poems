@@ -1,44 +1,96 @@
 # English Release Report — அணையா விளக்கு அண்ணா
 
-Status: **REOPENED — PREVIOUS RELEASE PASS SUPERSEDED BY 2026-09-01 TAMIL LEXICAL RECONCILIATION**
+Status: **RELEASE-COMPLETE — PASS AFTER 2026-09-01 TAMIL LEXICAL RECONCILIATION**
 
-## Previous release checkpoint
+## Release target
 
-The English translation previously passed batch review, full assembly review, editorial consistency review and release closure against the then-current Tamil text.
+- complete English assembly: `anaiya-vilakku-anna-en.md`
+- English reconciliation record: `LEXICAL_RECONCILIATION_2026-09-01.md`
+- reviewed/reconciled batches: `batches/batch-01.md` through `batches/batch-04.md`
+- reconciled source map: `SOURCE_MAP.md`
+- editorial review: `EDITORIAL_CONSISTENCY_REVIEW.md`
+- Tamil authority: `../../sections/anaiya-vilakku-anna.md`, page records `../../pages/0007.md`–`../../pages/0017.md`, and `../../LEXICAL_RECONCILIATION_2026-09-01.md`
 
-That checkpoint remains historical evidence of the earlier workflow, but it is no longer the current release authority.
+## Reconciliation closure
 
-## Reopening trigger
+The English layer was reopened after the 2026-09-01 Tamil lexical reconciliation because several Tamil changes materially affected translation wording or nuance.
 
-On 2026-09-01 the Tamil page records and canonical assembly were changed under the user-directed lexical reconciliation documented at:
+That targeted revalidation is now complete:
 
-`../../LEXICAL_RECONCILIATION_2026-09-01.md`
+- Batch 01: **PASS — revalidated; no verse change required**
+- Batch 02: **PASS — targeted corrections applied**
+- Batch 03: **PASS — targeted corrections applied**
+- Batch 04: **PASS — targeted corrections applied**
+- `SOURCE_MAP.md`: **PASS — reconciled**
+- complete English assembly: **rebuilt from current reviewed/reconciled batch bodies**
+- editorial consistency review: **PASS**
 
-The reconciled Tamil authority includes meaning-bearing changes, so the prior English release cannot remain marked release-complete without targeted comparison.
+## Release checks
 
-## Required revalidation
+| Check | Result |
+|---|---|
+| reviewed/reconciled English batches present | **4/4 — PASS** |
+| source poem scans represented | **11/11 — PASS** |
+| missing batch bodies | **0** |
+| duplicate batch bodies | **0** |
+| source order | **PASS** |
+| complete assembly matches current batch bodies | **PASS** |
+| stale pre-reconciliation Batch 03 assembly wording remains | **NO — PASS** |
+| translator notes leaked into poem verse | **NO — PASS** |
+| batch-review prose leaked into poem verse | **NO — PASS** |
+| front matter / photographs imported into poem verse | **NO — PASS** |
+| scan 17 event caption/date imported into poem verse | **NO — PASS** |
+| scans 18–19 closing material imported into poem verse | **NO — PASS** |
+| terminology/name consistency | **PASS** |
+| literary-reference consistency | **PASS** |
+| repeated centenary refrain retained | **PASS** |
+| Tolkappiyam / rationalist sequence retained | **PASS** |
+| political satire and named references retained | **PASS** |
+| `Kazhagam saranam gacchami!` wordplay retained | **PASS** |
+| 2026-09-01 meaning-bearing Tamil controls reflected | **PASS** |
+| final paired federalism slogan retained | **PASS** |
+| full-poem Kalaignar-language/voice review | **PASS** |
+| Tamil source changed to improve English | **NO — PASS** |
 
-The following must be checked before English release closure can be restored:
+## Meaning-bearing reconciliation checks
 
-- `SOURCE_MAP.md` against the reconciled Tamil page records;
-- affected wording in `batches/batch-01.md` through `batch-04.md`;
-- the complete English assembly `anaiya-vilakku-anna-en.md`;
-- `EDITORIAL_CONSISTENCY_REVIEW.md` after any needed translation changes;
-- coverage, continuity, rhetoric, terminology and final-slogan consistency against the new Tamil authority.
+Release closure explicitly confirms:
 
-Particular meaning-bearing changes requiring explicit English review include `எமக்கு`, `வழக்கறிஞன் நீ`, `பூசலா`, `அரசொன்று`, `உரத்த குரல் கொடுப்போம்!`, and `வலியுறுத்துவோம்!`.
+- `ஊர் மன்றில்` → **public forum**
+- `எமக்கு` → **gave us the strength**
+- `வழக்கறிஞன் நீ` → **you were the advocate**
+- `அனையர் பேருழைப்பால்` → labour of **people such as the Local Administration Minister**
+- `நிலையாகி விட்டதால்` → **had become permanent in my heart**
+- scan 16 counsel attributed to the **Buddha of Kanchi**
+- `பூசலா` → **religious-fanatic strife**
+- `அரசொன்று` → singular **a secular government**
+- `பெருமக்காள்` → **O great people gathered in this hall**
+- `உரத்த குரல்` → **a resounding voice**
+- `வலியுறுத்துவோம்` → **Let us insist that...**
 
-## Locked exclusions
+The four Tamil readings explicitly retained by the user remain correctly represented without regression.
 
-The source-boundary exclusions remain unchanged:
+## Locked exclusions confirmed
 
-- scans 1–6 front matter and photographs remain outside English verse;
-- repeated decorative headers remain excluded;
-- scan 17 event caption/date remains outside poem verse;
-- scans 18–19 closing material remain outside poem verse.
+The released English poem does not include:
 
-## Current judgement
+- scans 1–6 front matter and photographs;
+- repeated decorative work headers on scans 7–17;
+- photographs integrated into poem scans;
+- scan 17 post-poem event caption and date `15 - 9 - 2008`;
+- scan 18 closing photograph/caption;
+- scan 19 closing quotation/back matter.
 
-**English translation release status: REOPENED.**
+These remain archival source material, not verse.
 
-Do not restore `RELEASE-COMPLETE — PASS` until the affected translation layer has been reconciled against the current Tamil assembly and the editorial/release checks have been rerun.
+## Editorial consistency
+
+`EDITORIAL_CONSISTENCY_REVIEW.md` records **PASS** across reconciliation coverage, current-batch assembly integrity, cross-batch continuity, terminology, rhetorical architecture, source-sensitive decisions and full-poem voice.
+
+No unresolved English release issue remains.
+
+## Final judgement
+
+**PASS — English translation RELEASE-COMPLETE after the 2026-09-01 Tamil lexical reconciliation.**
+
+The English release is traceable to the current reconciled Tamil assembly and page records. No English decision has been used to silently rewrite the Tamil authority.
