@@ -49,17 +49,26 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 
 ### Iteration A
 
-Processed **76–78, 80–86**. All remain direct-reviewed `needs-review` residuals.
+Processed **76–78, 80–86**. All remained direct-reviewed `needs-review` residuals.
 
 ### Iteration B
 
 Processed exactly **87–96**.
 
 - scan **89** reached a complete source-critical pass and is `verified`;
-- scan 89 source readings include `தொடக்குவீர்`, `சொல்வீராயினும்`, `இவையின்றி`, final `வணக்கம்.` and floral ornament;
-- scans **87–88, 90–96** received direct source-backed refinements but remain `needs-review` because compact lexical spans remain;
-- remaining C04 unresolved set: **76–78, 80–88, 90–100 (23 pages)**;
-- untouched C04 scans: **97–100**.
+- scans **87–88, 90–96** received direct source-backed refinements but remain `needs-review` because compact lexical spans remain.
+
+### Iteration C
+
+Processed exactly **97, 98, 99, 100, 76, 77, 78, 80, 81, 82**.
+
+- scans **76–78, 80–82** received a second direct visual pass and remain residual because compact glyph/word-ending spans persist;
+- scan **97** now preserves `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`, `கவிஞர் நூர் முகம்மது`, and the `அடுத்து இன்னா செய்யாமை:` transition;
+- scan **98** now preserves the `சுரதா` / `தூரன்` performance boundaries and source-visible `அருளுடைமை` opening;
+- scan **99** now preserves `மலர் குவிப்பார் என்றிருந்தேன்`, `மலர் குவித்ததால்`, and the clearly separated ethical-heading sequence;
+- scan **100** had its final page boundary, `வணக்கம்.` punctuation and centered floral ornament reconciled directly;
+- **no page was promoted in iteration C**;
+- C04 unresolved set remains **76–78, 80–88, 90–100 (23 pages)**.
 
 ## SOURCE-CRITICAL RULE
 
@@ -67,15 +76,15 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration C** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration D** on exactly:
 
-**97, 98, 99, 100, 76, 77, 78, 80, 81, 82**.
+**83, 84, 85, 86, 87, 88, 90, 91, 92, 93**.
 
 That is **10 physical pages**.
 
-1. Process untouched scans **97–100** first.
-2. Then revisit direct-reviewed residual scans **76–78 and 80–82** for deeper lexical/glyph closure.
+1. These pages already have at least one direct review; perform a deeper exact lexical/glyph closure pass.
+2. Preserve the `ஐம்புலன்` → `பிலவங்க ஆண்டு` source boundary and all speaker/performance structures.
 3. Promote only complete passes to `verified`.
-4. Synchronize all status-bearing files after status movement.
+4. Synchronize all status-bearing files after the iteration.
 5. Keep C04 open while any C04 residual remains.
 6. **Do not begin C05, Phase 3, canonical assembly or translation.**
