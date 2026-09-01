@@ -9,9 +9,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 2 source coverage: **465/465 scans reviewed**;
-- cumulative page status: **0 `partial`, 419 `needs-review`, 46 `verified`**;
-- verified pages: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- unresolved backlog: **419 `needs-review` pages**;
+- cumulative page status: **0 `partial`, 418 `needs-review`, 47 `verified`**;
+- verified pages: **0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved backlog: **418 `needs-review` pages**;
 - Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
@@ -38,6 +38,7 @@ Scans **1 and 18–20** were already `verified` and were not reopened. The exact
 - scan **15** — contents: small-type title strings and printed page references cleared directly; complete pass;
 - scan **16 / printed XV** — contents continuation: all remaining title strings, punctuation/hyphenation, numbering, page references and lineation cleared directly; complete pass;
 - scan **17 / printed XVI** — contents continuation: complete pass as its own printed contents witness;
+- scan **21 / printed 4** — `இதயத்தைத் தந்திடு அண்ணா`: complete direct-source pass clears the opening through `ஒரு கோடித் தமிழ் இளைஞர்,`, the full `முரசிற் செறிந்த தமிழார்வம்` stanza, `பொருதடக்கை வாளெங்கே; மணி மார்பெங்கே?`, the `காஞ்சியிருக்கக் கலிங்கம்` passage, and the closing `அவலப் பரணி பாடுகின்றேனே...!`; `needs-review` → `verified`;
 - scan **23 / printed 6** — `இதயத்தைத் தந்திடு அண்ணா`: complete direct-source pass cleared the full page, including `அறிவாற்றோர் இடையிலெழும், ‘காதல்’க்கு மூன்றெழுத்து...`, the `திக்கெட்டும் தமிழ் முழக்கம்` stanza, the `எழுதுகிறார் அண்ணா எனில்,` block, `கருத்துப்பேழை கற்பூரப் பெட்டகம்!`, the `சாலை யோரத்திலே...` quotation, `அறிவு நடை!`, and `தமிழகம் மறவாத் தலையங்கமன்றோ!`; `needs-review` → `verified`;
 - scan **24 / printed 7** — `இதயத்தைத் தந்திடு அண்ணா`: complete direct-source pass clears the page from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`, preserving anthology-specific `மனோன்மணியம் எனினும்`, `நயமிகு பண்புடன் அரசியல் நடாத்தல்`, `வயிறு தாங்காத காரணத்தால்`, `சொலல் வல்லார்`, and `சொற் போரிலே`; `needs-review` → `verified`.
 
@@ -64,7 +65,6 @@ The contents witness is preserved as printed rather than normalized from later p
 - scan **10 / printed IX** — direct source restores the page-opening continuation `பாடுவதன் மூலமாக அண்ணாவின் இதய உணர்வுகளையே / தன் உள்ளுணர்வுகளாகப் பெற்றவர் என்றமை.`; the closing `அணிந்துரை` signature remains corrected to `க. அன்பழகன்`, the date/location remain `சென்னை-7` / `15.5.82`, and `கவிதைகளை எண்ணிப் / பார்த்தால்` remains source-confirmed; other compact prose and part of the closing quotation remain unresolved.
 - scan **12 / printed XI** — direct rereading corrects `கலைஞரிடம் பாக்களின்` to source-visible `கலைஞர்தம் பாக்களில்`; corrects the paragraph opening to `தெள்ளல் அல்லது தெளிதல் என்று சொல்`; preserves the following source-visible sequence `தெளிவித்தல், ஆராய்தல், தெளிந்தல் என்பன போன்ற பல`; and keeps the earlier closing corrections `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`; other dense prose remains unresolved.
 - scan **13 / printed XII** — direct rereading corrects the opening `கலைஞரும் பாடல்களில்` to source-visible `கலைஞர்தம் பாடல்களில்`; confirms `சொல்லழகைக் சுவைக்க எண்ணுவோர்`; restores `அணி நயம் சுவைக்க விரும்புவோர் 19, 20, 23, 27, 31, 38, 48`; and corrects `பக்கங்களையும் நான் பகுதித் தொகுத்து` to source-visible `பக்கங்களையும் நான் பகுத்துத் தொகுத்து`; surrounding categorizing prose remains unresolved.
-- scan **21 / printed 4** — direct rereading corrects the fourth line ending to `பறப்பேன்!`, confirms `ஒரு கோடித் தமிழ் இளைஞர்,`, and further corrects `மணி மாறிவிட்டதே?` to source-visible `மணி மாறிப்போச்சே?`; central/lower compact verse remains unresolved.
 - scan **22 / printed 5** — direct rereading corrects `உலகிடும் காற்றில்` to source-visible `உலவிடும் காற்றில்`, corrects `குலவிடும் அருளின் குறையும் மழையென` to `குலவிடும் அருவி குறையும் மழையென`, and further restores `அலையெழும் கடலில் ஆடும் நுரையெனக்` plus the emphatic source sequence `வெள்ளம்! / வெள்ளம்! / மாபெரும் வெள்ளம்!`; intervening and closing compact verse remains unresolved.
 - scan **25 / printed 8** — direct rereading corrects the opening to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirms `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, restores `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்` and `தொடங்கினார் போரே!`, and further restores the full six-line `இன்ப நாளிது! இனிய நாளிது!` stanza through `என்றே அண்ணா - அன்றே சொன்னார்....`; later compact verse remains unresolved.
 
@@ -72,7 +72,7 @@ The contents witness is preserved as printed rather than normalized from later p
 
 The following targeted scans remain `needs-review` because the current direct rendering does not yet support a complete glyph/punctuation/lineation clearance without guessing:
 
-**4, 6–10, 12–13, 21–22, 25**.
+**4, 6–10, 12–13, 22, 25**.
 
 No OCR, remembered wording, grammar, metre, historical expectation or another edition/witness is used to fill unresolved spans.
 
@@ -84,14 +84,15 @@ After contents residual clearance through scans 15–16: **0 `partial`, 423 `nee
 After scan-2 title-page clearance: **0 `partial`, 422 `needs-review`, 43 `verified`**.  
 After scan-23 poem clearance: **0 `partial`, 421 `needs-review`, 44 `verified`**.  
 After scan-11 full clearance and reconciliation: **0 `partial`, 420 `needs-review`, 45 `verified`**.  
-After scan-24 poem clearance: **0 `partial`, 419 `needs-review`, 46 `verified`**.
+After scan-24 poem clearance: **0 `partial`, 419 `needs-review`, 46 `verified`**.  
+After scan-21 poem clearance: **0 `partial`, 418 `needs-review`, 47 `verified`**.
 
 ## Phase-2 completion assessment
 
 - **Phase-2 source coverage: COMPLETE**;
 - **Phase-2 page clearance: NOT COMPLETE**;
 - **Phase 3: BLOCKED**;
-- unresolved backlog: **419 page records**.
+- unresolved backlog: **418 page records**.
 
 Verified pages must not be reopened merely for uniformity. Reopen a verified page only if new direct-source evidence reveals a discrepancy.
 
@@ -107,6 +108,6 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13, 21–22 and 25**.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13, 22 and 25**.
 
 Reinspect only those residual pages against the controlling source, resolve only readings directly supported by the scan, and promote only complete passes. Do **not** advance to C02 while this C01 residual window remains open. Do not begin Phase 3, canonical assembly, or translation.
