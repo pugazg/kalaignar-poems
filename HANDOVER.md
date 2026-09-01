@@ -43,12 +43,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 Current cumulative page status:
 
 - `partial`: **0**;
-- `needs-review`: **424**;
-- `verified`: **41**;
+- `needs-review`: **423**;
+- `verified`: **42**;
 - total: **465**;
-- unresolved backlog: **424**.
+- unresolved backlog: **423**.
 
-Verified pages so far: **0001, 0003, 0005, 0014, 0015, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Verified pages so far: **0001, 0003, 0005, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Phase-2 Clearance Batch C01 — progress
 
@@ -58,20 +58,21 @@ Complete-pass promotions so far:
 
 - scan **3** — English imprint / price;
 - scan **5 / IV** — `என்னுரை` continuation;
-- scan **14** — `பதிப்புரை`; unresolved phrase fixed from direct source as `ஒட்டி ஒவ்வொரு கவிதையும் எழுதி இருக்கிறார்.`;
-- scan **15** — contents; residual strings cleared directly as `பிலவங்க ஆண்டு`, `காதலா! - வீரமா?`, `அருமறையில் அறுவர்`, `நீர்க் குடும்பம்`, and `நேரு கண்ட ஜனநாயகம்`;
-- scan **17 / XVI** — contents continuation; all visible strings/page references/punctuation and the ornament passed as the contents witness.
+- scan **14** — `பதிப்புரை`;
+- scan **15** — contents;
+- scan **16 / XV** — contents continuation;
+- scan **17 / XVI** — contents continuation.
 
-Other source-backed scan-16 corrections:
+Scan **16 / XV** now has a complete direct contents-witness pass. Source-visible readings include:
 
-- `தமிழ் வளர வழிநடைப் பயணம்`;
-- `வையம் தழைக்க` — printed page 228;
-- `தந்தை பெரியார்` — printed page 237;
-- `பொங்கல் விழா` — printed page 250.
+- `தமிழ் வளர வழிநடைப் பயணம்` — 220;
+- `வையம் தழைக்க` — 228;
+- `தந்தை பெரியார்` — 237;
+- `பொங்கல் விழா` — 250;
+- `பன்னீர்ச் செல்வமே` — 357;
+- `கலைத்தாயின் தலைச்செல்வன்` — 359.
 
-Scan **16 / XV** remains `needs-review` because the exact contents-witness spacing/ending at printed page **359** remains unresolved.
-
-Residual C01 pages: **2, 4, 6–13, 16, 21–25**.
+Residual C01 pages: **2, 4, 6–13, 21–25**.
 
 The current direct rendering is not sufficient to certify every compact glyph/punctuation/lineation detail on those residual pages without guessing. They therefore remain open rather than being filled from OCR, context, memory or another source witness.
 
@@ -85,7 +86,7 @@ Do not copy separate source-witness transcriptions into this anthology. The exis
 
 ## EXACT NEXT ACTIVITY
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 2, 4, 6–13, 16 and 21–25**.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved physical scans 2, 4, 6–13 and 21–25**.
 
 - do not reopen already verified pages unless direct-source evidence reveals a discrepancy;
 - inspect the residual scans directly and resolve only source-backed uncertainty, old-glyph, punctuation, quotation, lineation and non-Tamil issues;
