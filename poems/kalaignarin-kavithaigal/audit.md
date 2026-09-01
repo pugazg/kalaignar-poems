@@ -9,9 +9,9 @@
 - file size: **486,369,088 bytes**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 2 source coverage: **465/465 scans reviewed**;
-- cumulative page status: **0 `partial`, 385 `needs-review`, 80 `verified`**;
-- verified pages: **0001–0050, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- unresolved backlog: **385 `needs-review` pages**;
+- cumulative page status: **0 `partial`, 384 `needs-review`, 81 `verified`**;
+- verified pages: **0001–0050, 0061, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- unresolved backlog: **384 `needs-review` pages**;
 - Phase 3: **blocked until Phase-2 page verification clears the unresolved backlog**;
 - English translation: **blocked**.
 
@@ -66,13 +66,13 @@ After C02: **0 `partial`, 385 `needs-review`, 80 `verified`**.
 
 Physical window: **51–75**.
 
-- already verified in this window: **70, 71**;
-- unresolved C03 targets: **51–69, 72–75**;
-- unresolved target count: **23 pages**;
-- C03 pages promoted in this source-layout activity: **0**;
-- cumulative totals therefore remain **0 `partial`, 385 `needs-review`, 80 `verified`**.
+- previously verified in this window: **70, 71**;
+- C03 complete-pass promotion so far: **61**;
+- remaining unresolved C03 targets: **51–60, 62–69, 72–75**;
+- remaining unresolved target count: **22 pages**;
+- cumulative totals: **0 `partial`, 384 `needs-review`, 81 `verified`**.
 
-All 23 unresolved physical scans were inspected directly for source structure and page-level layout. The source establishes these item boundaries and non-lexical controls:
+All unresolved physical scans in the C03 window were inspected directly for source structure and page-level layout. The source establishes these item boundaries and non-lexical controls:
 
 - scans **51–54** continue `இந்திரஜித்`; scan **54 / printed 37** closes the item with a centered floral ornament;
 - scan **55 / printed 38** opens `இரணியன்`; the item runs through scan **61 / printed 44**, which closes with a centered floral ornament;
@@ -82,18 +82,18 @@ All 23 unresolved physical scans were inspected directly for source structure an
 - scan **74 / printed 57** visibly mixes verse with parenthetical performance notes and `தலைவர் கலைஞர்:` speaker labels; those are separate source structures and must not be flattened into one verse block;
 - scan **75 / printed 58** contains a large mounted-warrior illustration in the lower half; illustration pixels are not text; `விடுதலை வீரர்கள்` continues into scan 76.
 
-### C03 clearance decision
+### C03 lexical clearance progress
 
-The existing page Markdown for scans **51–69 and 72–75** still contains numerous provisional first-pass lexical readings and mis-segmented compounds. Direct layout inspection alone does not justify silently treating those words as exact. Because a complete page requires every glyph/word ending as well as punctuation/lineation/quotation to pass, **none of the 23 C03 targets was promoted merely on structural evidence**.
+Scan **61 / printed 44** received a complete direct visual source-critical pass and is now `verified`. The pass replaces the provisional Phase-1 readings with source-supported forms including `ஆடற்று ஆரியம் திருக்கூத்திது!-`, `தெய்வந்தான் ... கொண்டதெனத்`, `அவனறியான்`, and `ஆடுதற்கு ஆவலுடன் நிற்கிட்டான் அரியணையில்!`; it also confirms the centered floral ornament closing `இரணியன்`.
 
-This is a deliberate source-critical hold, not a missing batch review. The structural map is now fixed; the remaining work is exact lexical/glyph reconciliation against the same controlling source, preferably with a reliable exact-source word-for-word aid when available.
+The remaining page Markdown for scans **51–60, 62–69 and 72–75** still contains provisional first-pass lexical readings and mis-segmented compounds. Because a complete page requires every glyph/word ending as well as punctuation/lineation/quotation to pass, these pages remain `needs-review` until individually cleared from the controlling source.
 
 ## Phase-2 completion assessment
 
 - **Phase-2 source coverage: COMPLETE**;
 - **Phase-2 page clearance: NOT COMPLETE**;
 - **Phase 3: BLOCKED**;
-- unresolved backlog: **385 page records**.
+- unresolved backlog: **384 page records**.
 
 Verified pages must not be reopened merely for uniformity. Reopen a verified page only if new direct-source evidence reveals a discrepancy.
 
@@ -110,4 +110,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–69 and 72–75** against the controlling source. Preserve the now-established structure, promote only complete passes, and do **not** advance to C04, Phase 3, canonical assembly or translation while these 23 C03 pages remain unresolved.
+Continue **Phase 2 Clearance Batch C03 — exact lexical/glyph verification of scans 51–60, 62–69 and 72–75** against the controlling source. Preserve the established structure, promote only complete passes, and do **not** advance to C04, Phase 3, canonical assembly or translation while these **22 C03 pages** remain unresolved.
