@@ -13,53 +13,65 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 **PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 417 `needs-review`, 48 `verified`**;
-- unresolved backlog: **417 pages**;
+- cumulative status: **0 `partial`, 408 `needs-review`, 57 `verified`**;
+- unresolved backlog: **408 pages**;
 - Phase 3 remains blocked until unresolved Phase-2 pages are cleared.
 
 ## Phase-2 source-coverage completion
 
 Coverage Batches 01–19 account for all physical scans **1–465**. The final coverage batch closes the anthology body at scan 464 / printed 447 and verifies scan 465 as the final full-colour back cover.
 
-## Phase-2 Clearance Batch C01
+## Phase-2 Clearance Batch C01 — COMPLETE
 
-Target window: unresolved scans **2–17 and 21–25**; already verified scans **1 and 18–20** were skipped.
+Target window: unresolved scans within physical **1–25**. Already verified scans **1 and 18–20** were preserved.
 
 | Scan(s) | Visible role / section | Clearance outcome |
 |---:|---|---|
 | 2 | title page / publisher block | complete-pass `verified` |
 | 3 | English imprint / price | complete-pass `verified` |
-| 4 | `என்னுரை` opening | opening prose restored; lower continuation unresolved |
+| 4 | `என்னுரை` opening | complete-pass `verified`; final lower continuation restored |
 | 5 | `என்னுரை` continuation / printed IV | complete-pass `verified` |
-| 6 | `அணிந்துரை` opening | source-backed prose restored; compact prose unresolved |
-| 7 / VI | `அணிந்துரை` continuation | source-backed prose restored; compact prose unresolved |
-| 8 / VII | `அணிந்துரை` continuation | opening/closing prose corrected; compact prose unresolved |
-| 9 / VIII | `அணிந்துரை` continuation | opening continuation and key names restored; compact prose unresolved |
-| 10 / IX | `அணிந்துரை` conclusion | opening continuation/signature corrected; compact prose/quotation unresolved |
-| 11 | `புறவுரை` opening | complete direct-source pass; `verified` |
-| 12 / XI | `புறவுரை` continuation | source-backed prose restored; dense prose unresolved |
-| 13 / XII | `புறவுரை` conclusion | categorizing lines restored; surrounding compact prose unresolved |
+| 6 | `அணிந்துரை` opening | complete-pass `verified` |
+| 7 / VI | `அணிந்துரை` continuation | complete-pass `verified` |
+| 8 / VII | `அணிந்துரை` continuation | complete-pass `verified` |
+| 9 / VIII | `அணிந்துரை` continuation | complete-pass `verified` |
+| 10 / IX | `அணிந்துரை` conclusion | complete-pass `verified` |
+| 11 | `புறவுரை` opening | complete-pass `verified` |
+| 12 / XI | `புறவுரை` continuation | complete-pass `verified` |
+| 13 / XII | `புறவுரை` conclusion | complete-pass `verified` |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
 | 15 | contents | complete-pass `verified` |
 | 16 / XV | contents continuation | complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
-| 21 / printed 4 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass through `அவலப் பரணி பாடுகின்றேனே...!`; `verified` |
-| 22 / printed 5 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass from `கவியினில் பொருளெனக் கரும்பினில் சுவையெனக்` through `அன்புக்குத் துணை நிற்கும் ‘அறிவு’க்கு மூன்றெழுத்து`; `verified` |
-| 23 / printed 6 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass; `verified` |
-| 24 / printed 7 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`; `verified` |
-| 25 / printed 8 | `இதயத்தைத் தந்திடு அண்ணா` | opening and `இன்ப நாளிது!` stanza restored; later verse unresolved |
+| 21 / printed 4 | `இதயத்தைத் தந்திடு அண்ணா` | complete-pass `verified` |
+| 22 / printed 5 | `இதயத்தைத் தந்திடு அண்ணா` | complete-pass `verified` |
+| 23 / printed 6 | `இதயத்தைத் தந்திடு அண்ணா` | complete-pass `verified` |
+| 24 / printed 7 | `இதயத்தைத் தந்திடு அண்ணா` | complete-pass `verified` |
+| 25 / printed 8 | `இதயத்தைத் தந்திடு அண்ணா` | complete-pass `verified`; page ends at `அதில்` |
+
+The final C01 residual scans **4, 6–10, 12–13 and 25** were completed using user-supplied word-for-word transcriptions from exact page-range derivatives of the same controlling PDF, reconciled against the physical scans. These are source-access aids, not separate witnesses.
+
+### C01 durable boundary
+
+**All physical scans 1–25 are `verified`.**
 
 ### Scan-16 direct contents readings
 
 `தமிழ் வளர வழிநடைப் பயணம்` 220; `வையம் தழைக்க` 228; `தந்தை பெரியார்` 237; `பொங்கல் விழா` 250; `பன்னீர்ச் செல்வமே` 357; `கலைத்தாயின் தலைச்செல்வன்` 359.
 
-### Residual C01 window
+## Phase-2 Clearance Batch C02 — NEXT
 
-**4, 6–10, 12–13, 25** remain `needs-review`.
+Physical window: **26–50**.
 
-## Verified pages after current C01 progress
+- already verified: **32, 33**;
+- unresolved targets: **26–31, 34–50**;
+- target count: **23 pages**.
 
-**0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Do not infer work/poem boundaries from prior Markdown; follow the controlling scan page by page.
+
+## Verified pages after C01 completion
+
+**0001–0025, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Source-access note
 
@@ -67,4 +79,4 @@ User-supplied page-range derivatives are rendering aids from the same controllin
 
 ## Next mapping / verification activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13 and 25**. Do not advance to C02 or Phase 3 while this residual window remains open.
+Execute **Phase 2 Clearance Batch C02 — physical scans 26–50**, skipping already verified scans **32 and 33**. Promote only complete passes and keep Phase 3 blocked.
