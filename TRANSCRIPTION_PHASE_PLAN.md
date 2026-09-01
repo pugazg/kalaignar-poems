@@ -45,7 +45,8 @@ Iteration tracking:
 - **B:** 87–96 — direct-reviewed; **89 promoted to `verified`**;
 - **C:** 97–100 plus 76–78 and 80–82 — exactly 10 physical pages; deeper review completed, no promotions;
 - **D:** 83–88 and 90–93 — exactly 10 physical pages; deeper direct lexical/glyph review completed, no promotions;
-- iteration D restored additional direct-source text on scans 83–87 and 93 while scans 88, 90–92 remained compact residuals after second full-page passes;
+- **E:** 94–100 plus 76–78 — exactly 10 physical pages; deeper review completed, no promotions;
+- iteration E restores the scan-76 `அப்துல் ரகுமான்` performance boundary, scan-94 first `அடக்கம்` line, scan-95 `ஆமைபோல் ஐம்பொறியும் அடக்க வேண்டும்`, scan-96 poet `ஆறுமுகம்`, scan-97 `உதடு மடித்தல்`, and additional scan-98 `அருளுடைமை` lines;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23)**.
 
 For every C04 page:
@@ -59,7 +60,7 @@ For every C04 page:
 
 ### Exact next activity
 
-Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78**. Process exactly 10 physical pages. Give scans 94–100 their deeper lexical/glyph closure pass, revisit 76–78, and do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration F: scans 80–88 plus scan 90**. Process exactly 10 physical pages. Give these residual pages another direct lexical/glyph closure pass, preserve the fixed `ஐம்புலன்` → `பிலவங்க ஆண்டு` source boundary, and do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
