@@ -13,8 +13,8 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 **PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 419 `needs-review`, 46 `verified`**;
-- unresolved backlog: **419 pages**;
+- cumulative status: **0 `partial`, 418 `needs-review`, 47 `verified`**;
+- unresolved backlog: **418 pages**;
 - Phase 3 remains blocked until unresolved Phase-2 pages are cleared.
 
 ## Phase-2 source-coverage completion
@@ -43,7 +43,7 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 15 | contents | complete-pass `verified` |
 | 16 / XV | contents continuation | complete-pass `verified` |
 | 17 / XVI | contents continuation | complete-pass `verified` |
-| 21 / printed 4 | `இதயத்தைத் தந்திடு அண்ணா` | source-backed verse corrected; central/lower verse unresolved |
+| 21 / printed 4 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass through `அவலப் பரணி பாடுகின்றேனே...!`; `verified` |
 | 22 / printed 5 | `இதயத்தைத் தந்திடு அண்ணா` | source-backed verse restored; intervening/closing verse unresolved |
 | 23 / printed 6 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass; `verified` |
 | 24 / printed 7 | `இதயத்தைத் தந்திடு அண்ணா` | complete direct-source poem-page pass from `ஒப்பில்லா வரிகள் உரைத்திடும் பனுவல்` through `கோலத்தை எதிர்க்க மாட்டாமல்`; `verified` |
@@ -55,11 +55,11 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 
 ### Residual C01 window
 
-**4, 6–10, 12–13, 21–22, 25** remain `needs-review`.
+**4, 6–10, 12–13, 22, 25** remain `needs-review`.
 
 ## Verified pages after current C01 progress
 
-**0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001, 0002, 0003, 0005, 0011, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0023, 0024, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Source-access note
 
@@ -67,4 +67,4 @@ User-supplied page-range derivatives are rendering aids from the same controllin
 
 ## Next mapping / verification activity
 
-Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13, 21–22 and 25**. Do not advance to C02 or Phase 3 while this residual window remains open.
+Continue **Phase 2 Clearance Batch C01 — residual unresolved scans 4, 6–10, 12–13, 22 and 25**. Do not advance to C02 or Phase 3 while this residual window remains open.
