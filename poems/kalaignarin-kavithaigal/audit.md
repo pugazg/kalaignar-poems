@@ -60,9 +60,9 @@ The contents witness is preserved as printed rather than normalized from later p
 - scan **10 / printed IX** — direct source corrects the closing `அணிந்துரை` signature from the erroneous `மா.நன்னன்` to `க. அன்பழகன்`; the date/location remain `சென்னை-7` / `15.5.82`; other compact prose and part of the closing quotation remain unresolved.
 - scan **11** — the direct scan confirms `ஓசையை` with initial long `ஓ`; the earlier `ஒசையை` reading was corrected. Other compact prose remains unresolved.
 - scan **13 / printed XII** — direct rereading confirms `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, correcting the earlier `என்னுவோர்`; surrounding categorizing prose remains unresolved.
-- scan **21 / printed 4** — direct rereading corrects the fourth line ending to `பறப்பேன்!` and confirms `ஒரு கோடித் தமிழ் இளைஞர்,`; central/lower compact verse remains unresolved, so scan 21 stays `needs-review`.
+- scan **21 / printed 4** — direct rereading corrects the fourth line ending to `பறப்பேன்!`, confirms `ஒரு கோடித் தமிழ் இளைஞர்,`, and further corrects `மணி மாறிவிட்டதே?` to source-visible `மணி மாறிப்போச்சே?`; central/lower compact verse remains unresolved, so scan 21 stays `needs-review`.
 - scan **22 / printed 5** — direct rereading corrects `உலகிடும் காற்றில்` to source-visible `உலவிடும் காற்றில்`; central/closing compact verse remains unresolved.
-- scan **23 / printed 6** — direct source restores `காதலர்கள்`, the line `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண`; other compact verse/quotation context remains unresolved.
+- scan **23 / printed 6** — direct source restores `காதலர்கள்`, the line `வக்கற்றோர் வகையற்றோர்`, and `பிணம்` with `ண`; a further direct pass corrects `“மரக்கணையிலே பிணம்!”` to source-visible `“மரக்கிளையிலே பிணம்!”`; other compact verse/quotation context remains unresolved.
 - scan **24 / printed 7** — direct source corrects `மணோன்மணியம்` to source-visible `மனோன்மணியம்`; remaining compact verse blocks remain unresolved.
 - scan **25 / printed 8** — direct rereading corrects the opening to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`, confirms `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது`, and restores `துன்ப நாளென்னும் பெரியார் அறிக்கையை மறுத்துத்`; later compact verse remains unresolved.
 
