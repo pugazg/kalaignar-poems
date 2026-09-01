@@ -75,7 +75,13 @@ Scan **16 / XV** has a complete direct contents-witness pass. Source-visible rea
 
 Residual C01 pages: **4, 6–13, 21–25**.
 
-Scan **4** has already received a deeper direct reread: its first two prose paragraphs and opening of the third were restored from the controlling scan, but the lower compact continuation remains unresolved. The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
+Direct-source residual progress now includes:
+
+- scan **4** — first two `என்னுரை` prose paragraphs and opening of the third restored; lower compact continuation remains unresolved;
+- scan **21 / printed 4** — fourth line ending corrected to `பறப்பேன்!`; `ஒரு கோடித் தமிழ் இளைஞர்,` confirmed; central/lower verse remains unresolved;
+- scan **25 / printed 8** — opening corrected to `கோலற்ற குருடன் போலக் கொள்கையற்றோர்`; `பெயர் மாற்றத் தீர்மானம்` and `ஆங்கில ஆட்சியை அகற்றியபோது` restored; other compact verse remains unresolved.
+
+The remaining residual pages stay open where the current rendering is insufficient for a complete glyph/punctuation/lineation pass without guessing.
 
 ## Phase-2 rule
 
