@@ -28,6 +28,7 @@
 - unresolved backlog: **360 pages**;
 - verified pages: **0001–0075, 0079, 0089, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–75**;
+- additional C04 verified pages: **79, 89**;
 - Phase 3: **blocked**.
 
 ## Clearance C04 note
@@ -46,8 +47,8 @@ C04 lexical review is being done in user-directed **10-page iterations**:
 - Iteration A: **76–78, 80–86**, reviewed with no promotions;
 - Iteration B: **87–96**, reviewed with **scan 89 promoted to `verified`**;
 - Iteration C: **97–100 plus 76–78 and 80–82**, reviewed with no additional promotions;
-- iteration-C refinements include scan 97 `வெகுளாமை புகுந்துவிட்டால்`, `பல் நெறித்தல்`, `உடல் உதைத்தல்`, `கண் இடுக்கல்`; scan 98 its `சுரதா` / `தூரன்` performance boundaries and source-visible `அருளுடைமை` opening; scan 99 its cumulative ethical-heading sequence; scan 100 its final `வணக்கம்.` punctuation and floral ornament;
-- residual scans **76–78 and 80–82** received a second direct visual pass in iteration C and still contain compact unresolved spans;
+- Iteration D: **83–88 plus 90–93**, reviewed with no additional promotions;
+- iteration D restored further direct-source lexical material on scans 83–87 and 93, and reconfirmed scans 88 / 90–92 as unresolved compact residuals after a second visual pass;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–100 (23 pages)**.
 
 ## Source-access / witness rule
@@ -58,4 +59,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Execute **C04 ten-page iteration D: residual scans 83–88 and 90–93**. Promote only complete passes; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration E: scans 94–100 plus residual scans 76–78**. Promote only complete passes; do not begin C05 or Phase 3 while C04 remains open.
