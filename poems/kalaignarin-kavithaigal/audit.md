@@ -69,7 +69,7 @@ Durable C03 structure:
 
 Physical window: **76–100**.
 
-All 25 physical scans have received direct source-layout review and at least one direct lexical/glyph review. Clearance continues in user-directed **10-page iterations**.
+All 25 physical scans have received direct source-layout review and multiple direct lexical/glyph reviews. Clearance continues in user-directed **10-page iterations**.
 
 Durable source-established structure:
 
@@ -100,7 +100,10 @@ Durable source-established structure:
 - scan **97** corrects the source sequence to `பல் நெறித்தல் / உதடு மடித்தல் / கண் இடுக்கல்`, removing the earlier unsupported `உடல் உதைத்தல்`;
 - scan **98** extends the directly supported `அருளுடைமை` passage through `அவ்வுலகம் எவ்வுலகம் என்பதிலே ஆராய்ச்சி பல உண்டு / பல உயிரில் சில உயிர்கள் போகின்ற / நல் உலகம் அவ்வுலகம் என மொழிவார் நாமறிவோம்.`;
 - scans **77–78, 99–100** received deeper line/glyph rereads but still retain compact spans that block promotion;
-- **iteration E produced no page promotion**; cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**;
+- **ten-page iteration F** processed exactly **10 physical pages: 80–88 and 90** as another direct lexical/glyph closure pass;
+- iteration-F scan **81** corrects the opening directly from the source to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`, replacing the unsupported `கார் விடுதியில்` reading;
+- scans **80, 82–88 and 90** were independently reread again against the controlling scan; their established source structure remains valid, but at least one compact lexical/glyph span remains unresolved on each page;
+- **iteration F produced no page promotion**; cumulative status remains **0 `partial`, 360 `needs-review`, 105 `verified`**;
 - unresolved C04 pages remain **23 — 76–78, 80–88, 90–100**.
 
 ## Phase-2 completion assessment
@@ -127,4 +130,4 @@ Verified pages must not be reopened merely for uniformity. Reopen a verified pag
 
 ## Exact next activity
 
-Continue **Phase 2 Clearance Batch C04 — ten-page iteration F: process physical scans 80–88 and 90** (**10 physical pages total**). Give those residual pages another direct lexical/glyph closure pass, preserve the fixed `ஐம்புலன்` / `பிலவங்க ஆண்டு` source structure, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Continue **Phase 2 Clearance Batch C04 — ten-page iteration G: process physical scans 91–100** (**10 physical pages total**). Give those residual pages another direct lexical/glyph closure pass, preserve the fixed `பிலவங்க ஆண்டு` speaker/performance-note structure and the final floral closure on scan 100, correct only direct-source-supported differences, and promote only complete passes. Do **not** begin C05, Phase 3, canonical assembly or translation while C04 remains open.
