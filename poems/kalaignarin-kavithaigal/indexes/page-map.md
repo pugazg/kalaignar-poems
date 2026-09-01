@@ -38,7 +38,7 @@ Target window: unresolved scans **2–17 and 21–25**; already verified scans *
 | 10 / IX | `அணிந்துரை` conclusion | closing signature corrected to `க. அன்பழகன்`; `கவிதைகளை எண்ணிப் / பார்த்தால்` restored; compact prose/quotation remains unresolved |
 | 11 | `புறவுரை` opening | restored two omitted `படிக்கலாம்` lines, `இருக்கக்கூடும் என்பது இந்நூலின் சிறப்பு.`, and `பழந்தொட்டு வரும்`; `ஓசையை` remains source-confirmed; opening/final compact prose unresolved |
 | 12 | `புறவுரை` continuation | closing corrected to `இந் நூலின் வாயிலாகப்` and `நாம் பயன்பெற முடியும்.`; dense intervening prose remains unresolved |
-| 13 / XII | `புறவுரை` conclusion | opening corrected to `கலைஞர்தம் பாடல்களில்`; `எண்ணுவோர்` confirmed in `சொல்லழகைக் சுவைக்க எண்ணுவோர்`; surrounding categorizing prose remains unresolved |
+| 13 / XII | `புறவுரை` conclusion | `கலைஞர்தம் பாடல்களில்`, `சொல்லழகைக் சுவைக்க எண்ணுவோர்`, `அணி நயம் சுவைக்க விரும்புவோர் 19, 20, 23, 27, 31, 38, 48`, and `பக்கங்களையும் நான் பகுத்துத் தொகுத்து` restored directly; surrounding categorizing prose remains unresolved |
 | 14 | `பதிப்புரை` | complete-pass `verified` |
 | 15 | contents | complete-pass `verified` |
 | 16 / XV | contents continuation | residual strings, punctuation and page references cleared; complete-pass `verified` |
