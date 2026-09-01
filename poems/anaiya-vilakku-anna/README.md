@@ -25,12 +25,12 @@ This work was restarted from scratch from the supplied source PDF under the repo
 - physical page classification: **COMPLETE — 19/19**
 - page records created: **19 / 19**
 - poem page records: **11 / 11**
-- canonical Tamil assembly: [`sections/anaiya-vilakku-anna.md`](sections/anaiya-vilakku-anna.md) — **synchronized**
+- canonical Tamil assembly: [`sections/anaiya-vilakku-anna.md`](sections/anaiya-vilakku-anna.md) — **SYNCHRONIZED**
 - lexical reconciliation record: [`LEXICAL_RECONCILIATION_2026-09-01.md`](LEXICAL_RECONCILIATION_2026-09-01.md)
 - source completeness review: [`SOURCE_COMPLETENESS_REVIEW.md`](SOURCE_COMPLETENESS_REVIEW.md)
 - assembly review: [`ASSEMBLY_REVIEW.md`](ASSEMBLY_REVIEW.md)
 
-## 2026-09-01 lexical reconciliation
+## 2026-09-01 Tamil lexical reconciliation
 
 After comparison with the user-supplied transcription, the user explicitly directed that every substantive mismatch previously identified be changed **except** these four repository readings, which were confirmed and retained:
 
@@ -56,16 +56,29 @@ The canonical Tamil assembly:
 
 ## English translation status
 
-The English translation had previously reached release-complete status, but that release was based on the **pre-2026-09-01 Tamil wording**.
+The English translation was reopened after the 2026-09-01 Tamil reconciliation and has now completed targeted reconciliation against the updated Tamil authority.
 
-Because the Tamil reconciliation includes meaning-bearing changes, the English layer is now:
+English reconciliation record:
 
-**REOPENED — TARGETED RECONCILIATION REQUIRED**
+[`translations/en/LEXICAL_RECONCILIATION_2026-09-01.md`](translations/en/LEXICAL_RECONCILIATION_2026-09-01.md)
 
-Before English can again be called release-complete, the source map, affected batches, complete English assembly, editorial consistency review and release report must be checked against the reconciled Tamil authority.
+Current English state:
+
+- `SOURCE_MAP.md`: **RECONCILED — PASS**
+- Batch 01: **PASS — revalidated; no verse change required**
+- Batch 02: **PASS — targeted corrections applied**
+- Batch 03: **PASS — targeted corrections applied**
+- Batch 04: **PASS — targeted corrections applied**
+- complete English assembly: **REBUILT from current reviewed/reconciled batch bodies**
+- editorial consistency review: **PASS**
+- release report: **RELEASE-COMPLETE — PASS**
+
+The rebuild also removed stale wording drift that had existed between the previous complete English assembly and the reviewed Batch 03 file.
 
 ## Current state
 
 **Tamil archival/source layer: COMPLETE with 2026-09-01 lexical reconciliation recorded**  
-**Canonical Tamil assembly: SYNCHRONIZED**  
-**English translation: REOPENED — targeted reconciliation pending**
+**Canonical Tamil assembly: COMPLETE — SYNCHRONIZED**  
+**English translation: RELEASE-COMPLETE — PASS after targeted reconciliation**
+
+The work is closed under the current repository workflow. Any future textual change should explicitly reopen the relevant Tamil or English layer and document the authority for that change.
