@@ -22,10 +22,12 @@
 ## Verification state
 
 - Phase 1: **COMPLETE — 465/465 records**;
-- Phase 2 Batches 01–14, scans **1–350**: **COMPLETE**;
-- cumulative page status: **2 `partial`, 434 `needs-review`, 29 `verified`**;
-- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332**;
-- next: **Phase 2 Verification Batch 15 — scans 351–375**.
+- Phase 2 Batches 01–15, scans **1–375**: **COMPLETE**;
+- cumulative page status: **2 `partial`, 431 `needs-review`, 32 `verified`**;
+- verified pages: **0001, 0018, 0019, 0020, 0032, 0033, 0070, 0071, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373**;
+- next: **Phase 2 Verification Batch 16 — scans 376–400**.
+
+Batch 15 source inspection establishes `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` through scan 361, `“அறிஞர் அண்ணா வழியில்”` at scans 362–370, the source-visible divider `கண்ணீர்த் துளிகள்` at scan 372, and `பன்னீர்ச்செல்வமே!` at scans 374–375. Scans 371–373 received complete passes; dense poem pages remain `needs-review` where direct source evidence is still insufficient for every glyph/line.
 
 Phase-2 corrections are made only from direct controlling-scan evidence. Small-type or blurred material remains unresolved rather than being completed from OCR, memory, grammar, historical expectation or another edition.
 
@@ -33,7 +35,7 @@ Phase-2 corrections are made only from direct controlling-scan evidence. Small-t
 
 - `TVA_BOK_0064091_pages_151-175_access_derivative.pdf`: exact controlling-source scans 151–175; rendering aid only;
 - `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_300-400.pdf`: exact controlling-source page range 300–400 supplied by the user; derivative page 1 = physical scan 300; rendering aid only;
-- the separately supplied pages-350–465 derivative remains an access aid only.
+- `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_001_pages_350-465.pdf`: exact controlling-source page range 350–465 supplied by the user; derivative page 1 = physical scan 350; rendering aid only.
 
 ## Source-order anomaly recorded in Batch 10
 
