@@ -41,44 +41,41 @@ Dedicated divider/title/opening witnesses control canonical titles; contents wit
 
 ## Phase 3 Gate 4 audit — COMPLETE / PASS
 
-Scope: **canonical Tamil assembly only**.
+Scope: **canonical Tamil anthology item assembly only**.
 
 ### Final accounting
 
 - eligible page records checked: **465/465 `verified`**;
-- canonical poem-body interval: **scans 18–464 = 447 scans**;
-- explicit `scan_page` provenance markers: **447/447**;
-- marker-only/non-edition-text body scans retained: **6**;
-- physical section runs: **83**;
-- Gate-3 source-valid variants retained separately in provenance: **30/30**;
-- canonical output: `sections/kalaignarin-kavithaigal.md`;
+- indexed poem/item inventory: **77/77**;
+- canonical outputs: `sections/01.md` through `sections/77.md`;
+- verified body interval accounted: **scans 18–464 = 447/447**;
+- canonical item scan coverage: **439/439**, exactly once;
+- pure anthology group-divider/verso scans outside poem files: **8/8**, separately accounted;
+- explicit item-file `scan_page` markers: **439/439**;
+- physical source section runs retained: **83**;
+- Gate-3 source-valid variants retained separately: **30/30**;
 - source map: `indexes/canonical-source-map.md`;
 - Gate-4 evidence: `PHASE3_CANONICAL_ASSEMBLY.md`;
-- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-### Conflict handling during Gate 4
+### Structural correction during Gate 4
 
-The first assembly exposed stale title metadata in six verified records. The affected records were reopened before final regeneration:
+The earlier whole-volume `sections/kalaignarin-kavithaigal.md` representation was reopened because this source is an anthology. It has been removed and replaced with **77 stable numeric poem/item files**, matching the established multi-item repository convention.
 
-- 0406: title authority corrected to `கேட்டுண்டோ?`; source poem line `பாரத வீரா! நீ கேட்டதுண்டோ?` unchanged;
-- 0409: title authority corrected to `இன்றுமா கூச்சல்?`; source poem line `இளித்த வாயரே இன்னுமா கூச்சல்?` unchanged;
-- 0457–0460: section/title metadata synchronized to `சில நாடுகள் இருக்கின்றன!`; source-facing opening already had the terminal `!`.
+The source's intentional interposition is preserved without reordering:
 
-Affected joins 405→406→407, 408→409→410 and 456→457→458→459→460→461 were rechecked and remain valid item boundaries/continuations. **Poem-body lexical changes: 0.** All six reopened records remain `verified`.
+- `அண்ணன் ஒரு கவியரங்கம்`: scans **230–236, 238**;
+- `தமிழ் வளர வழிநடைப் பயணம்`: scans **237, 239–244**.
 
-### Locked Gate-4 invariants
+The four later pure anthology group dividers/versos account for the eight body scans not duplicated into poem files.
 
-- exact physical order preserved, including 236→237→238→239;
-- 370→371→372→373→374 preserved with blank/divider versos;
-- Gate-3 divider/opening title authority used;
-- contents variants preserved separately in provenance/source-map metadata;
-- page-293 canonical start retained for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`;
-- no partial canonical item emitted;
-- no Gate-5 review, Tamil final clearance, translation or release work performed.
+### Source-record integrity
+
+The earlier source-backed title metadata corrections at scans **406, 409 and 457–460** remain valid. The anthology-structure correction made **0 poem-body lexical changes** and modified **0 verified page records**. All **465/465** records remain `verified`.
 
 ### Gate result
 
-**Gate 4 PASS.**
+**Gate 4 PASS — corrected canonical form is 77/77 item files.**
 
 ## Next audit gate
 

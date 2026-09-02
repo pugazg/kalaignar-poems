@@ -33,20 +33,22 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Phase 3 Gate 4 — canonical Tamil assembly COMPLETE / PASS
 
-Canonical output: `../sections/kalaignarin-kavithaigal.md`.
+Canonical outputs: `../sections/01.md` through `../sections/77.md`.
 
 Canonical provenance map: `canonical-source-map.md`.
 
 Gate-4 evidence: `../PHASE3_CANONICAL_ASSEMBLY.md`.
 
-- canonical body scans: **18–464 = 447**;
-- explicit `scan_page` markers: **447/447**;
-- marker-only/non-edition-text body scans: **6**;
-- physical section runs: **83**;
+- indexed poem/items: **77/77**;
+- verified body interval accounted: **18–464 = 447/447**;
+- canonical item scan coverage: **439/439**;
+- pure anthology group-divider/verso scans outside item files: **8/8**;
+- explicit item-file `scan_page` markers: **439/439**;
+- physical source section runs: **83**;
 - Gate-3 title variants retained in provenance: **30/30**;
-- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-During Gate 4, verified records **0406, 0409 and 0457–0460** were reopened to correct stale title metadata/source-title capture to Gate-3 authority before final regeneration. Adjacent joins were rechecked; poem-body lexical changes were **0**. All page records remain `verified`.
+The earlier monolithic canonical file was removed after Gate 4 was reopened for anthology structure. The corrected assembly uses 77 stable numeric item files. The intentional `230–236, 238` / `237, 239–244` interposition is represented without reordering. No verified poem wording or page record changed.
 
 ## Phase status
 

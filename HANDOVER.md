@@ -48,25 +48,25 @@ Gate-4 evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md`.
 
 Canonical outputs:
 
-- `poems/kalaignarin-kavithaigal/sections/kalaignarin-kavithaigal.md`;
+- `poems/kalaignarin-kavithaigal/sections/01.md` through `sections/77.md`;
 - `poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md`.
 
 Locked accounting:
 
-- canonical body scans: **18–464 = 447 physical scans**;
-- explicit `scan_page` provenance: **447/447**;
-- marker-only/non-edition-text body scans retained: **6**;
-- physical section runs: **83**;
+- indexed poem/items: **77/77**;
+- body interval accounted: **18–464 = 447/447 physical scans**;
+- canonical item scan coverage: **439/439**;
+- pure anthology group-divider/verso structural scans outside poem files: **8/8**;
+- explicit item-file scan provenance: **439/439**;
+- physical source section runs retained: **83**;
 - Gate-3 variants preserved separately: **30/30**;
-- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-The first assembly exposed stale title metadata in verified records **0406, 0409 and 0457–0460**. Per policy, those records were reopened before final regeneration:
+The earlier single `sections/kalaignarin-kavithaigal.md` file was reopened as a structural error because this source is an anthology. It has been removed and replaced with one stable numeric canonical file per indexed poem/item, following the repository's established multi-item convention.
 
-- scan 406 title authority: `கேட்டுண்டோ?`; poem line `பாரத வீரா! நீ கேட்டதுண்டோ?` unchanged;
-- scan 409 title authority: `இன்றுமா கூச்சல்?`; poem line `இளித்த வாயரே இன்னுமா கூச்சல்?` unchanged;
-- scans 457–460 title/section authority: `சில நாடுகள் இருக்கின்றன!`; source-facing poem text already carried the authoritative punctuation.
+The intentional physical interposition is preserved explicitly: `அண்ணன் ஒரு கவியரங்கம்` uses scans **230–236, 238** and `தமிழ் வளர வழிநடைப் பயணம்` uses scans **237, 239–244**. No source page was reordered.
 
-Adjacent joins were rechecked; **poem-body lexical changes = 0**. All 465 records remain `verified`.
+The earlier source-backed title corrections in verified records **0406, 0409 and 0457–0460** remain authoritative. This structural correction changed **0** poem-body words and modified **0** page records; all 465 records remain `verified`.
 
 ## Supplied-transcription rule
 
@@ -91,7 +91,7 @@ Before changing anything, read completely:
 13. `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 14. `PHASE3_CANONICAL_ASSEMBLY.md`;
 15. `indexes/canonical-source-map.md`;
-16. canonical output `sections/kalaignarin-kavithaigal.md` as needed for Gate-5 review.
+16. canonical item files `sections/01.md` through `sections/77.md` as needed for Gate-5 review.
 
 ## EXACT NEXT ACTIVITY
 

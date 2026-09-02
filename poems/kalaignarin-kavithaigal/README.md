@@ -42,19 +42,23 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 
 ## Gate 4 — canonical Tamil assembly
 
-**COMPLETE / PASS.**
+**COMPLETE / PASS — corrected anthology item model.**
 
-- canonical output: `sections/kalaignarin-kavithaigal.md`;
+- indexed poem/items: **77/77**;
+- canonical outputs: `sections/01.md` through `sections/77.md`;
 - source map: `indexes/canonical-source-map.md`;
 - audit: `PHASE3_CANONICAL_ASSEMBLY.md`;
-- body scans: **18–464 = 447**;
-- explicit scan provenance: **447/447**;
-- marker-only body scans: **6**;
-- physical section runs: **83**;
+- verified body interval accounted: **18–464 = 447/447 scans**;
+- canonical item scan coverage: **439/439**;
+- pure anthology group-divider/verso scans outside poem files: **8/8**, separately accounted;
+- explicit item-file scan provenance: **439/439**;
+- physical source section runs retained: **83**;
 - Gate-3 variants preserved separately: **30/30**;
-- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-Gate 4 reopened scans **406, 409, 457–460** to synchronize stale title metadata to Gate-3 authority before final regeneration. The affected joins were rechecked; poem-body lexical changes were **0** and all 465 page records remain `verified`.
+The earlier single whole-volume file was a structural assembly error for an anthology and has been removed. Gate 4 now follows the repository's multi-item convention: one stable numeric file per indexed poem/item. The intentional `அண்ணன் ஒரு கவியரங்கம்` / `தமிழ் வளர வழிநடைப் பயணம்` interposition is represented as non-contiguous scan ranges rather than reordered source pages.
+
+The earlier Gate-4 source-backed title corrections at scans **406, 409, 457–460** remain valid. This structural correction changed **0** verified poem words and modified **0** page records.
 
 ## Next activity
 

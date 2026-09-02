@@ -42,14 +42,18 @@ Gate 3 reconciles **81** contents/group/item title witnesses: **51 exact**, **30
 
 ## Gate 4 canonical assembly metadata
 
-- canonical body: `../sections/kalaignarin-kavithaigal.md`;
+- canonical items: **77/77**;
+- canonical files: `../sections/01.md` through `../sections/77.md`;
 - canonical source map: `../indexes/canonical-source-map.md`;
 - Gate-4 evidence: `../PHASE3_CANONICAL_ASSEMBLY.md`;
-- source scan interval: **18–464 = 447 scans**;
-- explicit scan provenance: **447/447**;
-- marker-only body scans: **6**;
-- physical section runs: **83**;
+- verified body interval accounted: **18–464 = 447/447 scans**;
+- canonical item scan coverage: **439/439**;
+- pure anthology group-divider/verso structural scans outside item files: **8/8**;
+- explicit item-file scan provenance: **439/439**;
+- physical source section runs: **83**;
 - Gate-3 variants retained separately: **30/30**;
-- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-Gate 4 reopened scans **406, 409 and 457–460** to synchronize stale title metadata/source-title capture to Gate-3 authority before final regeneration. Affected joins were rechecked; poem-body lexical wording changed **0** times and every page record remains `verified`.
+The earlier monolithic `../sections/kalaignarin-kavithaigal.md` representation was removed after Gate 4 was reopened for anthology structure. The corrected assembly follows the repository's multi-item convention with one stable numeric file per indexed poem/item. No verified page text was changed by this structural correction.
+
+Earlier source-backed title metadata corrections at scans **406, 409 and 457–460** remain authoritative; every page record remains `verified`.

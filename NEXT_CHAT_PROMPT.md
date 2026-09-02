@@ -33,17 +33,21 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 
 ## Gate 4 durable output
 
-- canonical body: `sections/kalaignarin-kavithaigal.md`;
+- canonical poem/items: **77/77**;
+- canonical files: `sections/01.md` through `sections/77.md`;
 - provenance/source map: `indexes/canonical-source-map.md`;
 - Gate-4 audit: `PHASE3_CANONICAL_ASSEMBLY.md`;
-- body scan interval: **18–464 = 447 scans**;
-- explicit scan provenance: **447/447**;
-- marker-only scans: **6**;
-- physical section runs: **83**;
+- verified body interval accounted: **18–464 = 447/447 scans**;
+- canonical item scan coverage: **439/439**;
+- pure anthology group-divider/verso scans outside item files: **8/8**, separately accounted;
+- explicit item-file scan provenance: **439/439**;
+- physical source section runs: **83**;
 - Gate-3 variants preserved: **30/30**;
-- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-Gate 4 reopened verified records **0406, 0409, 0457–0460** to synchronize stale title metadata to Gate-3 authority before final regeneration. Poem-body lexical wording changed **0** times and affected joins remain certified.
+The former whole-volume `sections/kalaignarin-kavithaigal.md` output was a structural error for this anthology and has been removed. The corrected Gate-4 layer follows the established repository pattern of one stable numeric file per indexed poem/item.
+
+Preserve the non-contiguous physical ownership exactly: `அண்ணன் ஒரு கவியரங்கம்` = **230–236, 238**; `தமிழ் வளர வழிநடைப் பயணம்` = **237, 239–244**. The structural correction made **0** verified poem-word changes and **0** page-record changes.
 
 ## Locked Phase 3 structure
 

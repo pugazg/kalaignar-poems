@@ -36,9 +36,9 @@ Gate 2 certifies every physical adjacent transition in source order. Exceptional
 
 Gate 3 reconciles all contents/group/item title witnesses in `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`. Dedicated divider/title/opening witnesses control canonical titles; contents variants remain separate source witnesses; no hybrid title is allowed.
 
-Gate 4 assembles verified body scans **18–464** into `poems/kalaignarin-kavithaigal/sections/kalaignarin-kavithaigal.md` with **447/447** explicit scan markers, **6** marker-only physical scans and **83** physical section runs. The provenance map is `poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md`; Gate-4 evidence is `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md`. Canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+Gate 4 assembles the anthology as **77/77 stable canonical poem/item files**, `poems/kalaignarin-kavithaigal/sections/01.md` through `sections/77.md`. The verified body interval scans **18–464 = 447/447** is fully accounted: **439** item-assigned scans occur exactly once in canonical item files and **8** later anthology group-divider/verso scans remain separate structural provenance in `indexes/canonical-source-map.md`. The item-manifest SHA-256 is `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-During Gate 4, stale title metadata in scans **406, 409, 457–460** was reopened and synchronized to Gate-3 authoritative title witnesses before final regeneration. Neighboring boundaries remained valid and poem-body lexical wording was unchanged.
+The earlier single whole-volume canonical file was reopened as a structural error for an anthology and removed. The corrected Gate-4 layer follows the repository's established multi-item pattern while preserving the source's intentional interposition (`அண்ணன் ஒரு கவியரங்கம்`: **230–236, 238**; `தமிழ் வளர வழிநடைப் பயணம்`: **237, 239–244**) without reordering. Earlier source-backed title corrections at scans **406, 409, 457–460** remain valid; the structural correction changed no verified poem wording or page records.
 
 ## Supplied lexical controls
 

@@ -39,16 +39,18 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 
 ## Gate 4 result
 
-Canonical output: `sections/kalaignarin-kavithaigal.md`. Source map: `indexes/canonical-source-map.md`. Evidence: `PHASE3_CANONICAL_ASSEMBLY.md`.
+Canonical outputs: `sections/01.md` through `sections/77.md`. Source map: `indexes/canonical-source-map.md`. Evidence: `PHASE3_CANONICAL_ASSEMBLY.md`.
 
-- body scans **18–464 = 447**;
-- explicit `scan_page` markers **447/447**;
-- marker-only body scans **6**;
-- physical section runs **83**;
+- indexed poem/items **77/77**;
+- verified body interval accounted **18–464 = 447/447**;
+- canonical item scan coverage **439/439**;
+- pure anthology group-divider/verso structural scans outside item files **8/8**;
+- explicit item-file `scan_page` markers **439/439**;
+- physical source section runs **83**;
 - Gate-3 variants retained **30/30**;
-- canonical SHA-256 `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+- canonical item-manifest SHA-256 `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 
-Gate 4 reopened verified records **0406, 0409, 0457–0460** to synchronize title metadata/source-title capture with Gate-3 authority before final regeneration. Affected joins remained valid; poem-body lexical changes were **0**.
+The earlier monolithic canonical file was removed after reopening Gate 4 for anthology structure. The corrected layer uses one stable numbered file per indexed poem/item. No verified poem wording or page record was changed by this structural correction.
 
 ## Next phase gate
 

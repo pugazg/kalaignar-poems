@@ -28,23 +28,27 @@ Phase 3 proceeds only in ordered gates from `POEM_PROCESSING_GUIDE.md`.
 1. **Physical scan ↔ printed-page reconciliation — COMPLETE / PASS.**
 2. **Boundary / page-join audit — COMPLETE / PASS — 464/464 adjacent joins.**
 3. **Title-witness reconciliation — COMPLETE / PASS — 81 witnesses, 51 exact, 30 variants, 0 unresolved.**
-4. **Canonical Tamil assembly — COMPLETE / PASS.**
+4. **Canonical Tamil assembly — COMPLETE / PASS — corrected anthology item model.**
    - verified substrate: **465/465**;
-   - canonical body: scans **18–464** = **447 physical scans**;
-   - explicit `scan_page` provenance markers: **447/447**;
-   - marker-only body scans: **6**;
-   - physical section runs: **83**;
+   - indexed poem/items: **77/77**;
+   - canonical outputs: `poems/kalaignarin-kavithaigal/sections/01.md` through `sections/77.md`;
+   - verified body interval accounted: **18–464 = 447/447 physical scans**;
+   - canonical item scan coverage: **439/439**;
+   - pure anthology group-divider/verso scans outside item files: **8/8**;
+   - explicit item-file `scan_page` provenance: **439/439**;
+   - physical source section runs retained: **83**;
    - Gate-3 variants retained separately: **30/30**;
-   - canonical output: `poems/kalaignarin-kavithaigal/sections/kalaignarin-kavithaigal.md`;
    - source map: `poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md`;
    - evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md`;
-   - canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+   - canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
 5. **Assembly/source-completeness review — NEXT / NOT STARTED.**
 6. **Tamil final clearance — NOT STARTED.**
 
 ## Gate-4 correction record
 
-Assembly exposed stale title metadata in scans **406, 409, 457–460**. Those verified records were reopened and synchronized to Gate-3 authoritative title witnesses before final regeneration. Neighboring joins were rechecked; poem-body lexical wording changed **0** times. All 465 records remain `verified`.
+The earlier single whole-volume canonical file was reopened as a structural error for an anthology. Gate 4 now emits **77/77** stable numbered item files and separately accounts for the four later pure anthology group-divider/verso pairs. The intentional 230–244 interposition is represented with non-contiguous item scan ranges rather than source reordering.
+
+Earlier source-backed title metadata corrections at scans **406, 409, 457–460** remain in force. The structural correction made **0** additional page-record or poem-word changes.
 
 ## EXACT NEXT ACTIVITY
 
