@@ -70,5 +70,10 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
 - Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
 - Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
-- Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
-- translation: **NOT STARTED**.
+- Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
+
+## Phase 3 Gate 6 — Tamil final clearance COMPLETE / PASS
+
+Evidence: `../PHASE3_TAMIL_FINAL_CLEARANCE.md`. All Gates 1–5 remain PASS; unresolved Tamil source/completeness defects are **0**; canonical inventory remains **77/77**; page/canonical changes during clearance are **0**. Tamil source/canonical layer is **FINAL-CLEARED** and Phase 4 is unblocked.

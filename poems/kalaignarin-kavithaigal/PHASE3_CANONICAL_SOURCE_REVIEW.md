@@ -159,3 +159,7 @@ The 77-item canonical Tamil assembly is structurally complete and consistent wit
 Perform **Phase 3 Gate 6 — Tamil final clearance only**.
 
 That gate must formally confirm Gates 1–5 are PASS and then decide whether to mark the Tamil source/canonical layer final-cleared for Phase 4. **Do not begin English translation in the same activity.**
+
+## Subsequent Gate 6 outcome
+
+Phase 3 Gate 6 subsequently completed **PASS — TAMIL FINAL CLEARANCE**. The Tamil source/canonical layer is **FINAL-CLEARED** for Phase 4. Gate 6 changed no page records or canonical item files and created no English translation. Final-clearance record: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.

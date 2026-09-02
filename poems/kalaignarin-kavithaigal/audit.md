@@ -105,3 +105,22 @@ Scope: **canonical assembly/source-completeness review only**. Evidence: `PHASE3
 ## Next audit gate
 
 **Phase 3 Gate 6 — Tamil final clearance only.** Confirm Gates 1–5 remain PASS and decide whether the Tamil source/canonical layer can be marked final-cleared for Phase 4. Do not begin English translation in the same activity.
+
+## Phase 3 Gate 6 audit — COMPLETE / PASS
+
+Scope: **Tamil final clearance only**.
+
+- Gates 1–5: **all COMPLETE / PASS**;
+- canonical inventory at clearance: **77/77**;
+- unresolved Tamil source/completeness defects: **0**;
+- verified page records changed during Gate 6: **0**;
+- canonical item files changed during Gate 6: **0**;
+- English translation created/modified during Gate 6: **0**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 4: **UNBLOCKED**.
+
+Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+## Next phase
+
+**Phase 4 — English translation and release workflow.** Use only the Tamil final-cleared canonical item layer as translation source.

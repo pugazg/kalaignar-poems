@@ -26,8 +26,9 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact, 30 variants, 0 unresolved**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
-- Phase 3 Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
-- translation: **NOT STARTED**.
+- Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
 
 ## Printed-page numbering behaviour
 
@@ -71,3 +72,7 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - unresolved source-completeness defects: **0**;
 - verified page/canonical item modifications during review: **0**;
 - next ordered gate: **Phase 3 Gate 6 — Tamil final clearance**.
+
+## Tamil final clearance
+
+**PASS — FINAL-CLEARED.** Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`. Gates 1–5 remain PASS; unresolved Tamil source/completeness defects are **0**; Gate 6 changed **0** page records, **0** canonical items and **0** English translations. Phase 4 is unblocked.

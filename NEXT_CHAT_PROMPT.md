@@ -29,8 +29,9 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 3 **COMPLETE / PASS — 81 witnesses: 51 exact / 30 variants / 0 unresolved**;
 - Phase 3 Gate 4 canonical Tamil assembly **COMPLETE / PASS**;
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
-- Phase 3 Gate 6 Tamil final clearance **NEXT / NOT STARTED**;
-- translation **NOT STARTED**.
+- Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
+- Tamil source/canonical layer **FINAL-CLEARED**;
+- Phase 4 English translation/release **UNBLOCKED / NOT STARTED — NEXT**.
 
 ## Gate 4 durable output
 
@@ -66,6 +67,20 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - canonical-item changes during Gate 5 **0**;
 - Tamil final clearance and translation were **not** started.
 
+## Gate 6 durable result
+
+Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+- Gates 1–5 **all COMPLETE / PASS**;
+- Tamil final clearance **PASS**;
+- Tamil source/canonical layer **FINAL-CLEARED**;
+- unresolved Tamil source/completeness defects **0**;
+- canonical inventory **77/77**;
+- page-record changes during Gate 6 **0**;
+- canonical-item changes during Gate 6 **0**;
+- English translation created/modified during Gate 6 **no**;
+- Phase 4 **UNBLOCKED**.
+
 ## Locked Phase 3 structure
 
 Gate 1: scan 1 cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 (`scan_page - 17`); scan 465 back cover. `printed_page` stays source-visible only.
@@ -80,10 +95,10 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 6 — Tamil final clearance only**.
+Begin **Phase 4 — English translation and release workflow**.
 
-1. Confirm Gates 1–5 are all durably PASS.
-2. Confirm there are no unresolved Tamil source/completeness defects.
-3. Confirm the final canonical inventory remains `sections/01.md` through `sections/77.md` with the Gate-5 review unchanged.
-4. If all controls pass, create the durable Tamil-final-clearance record and synchronize status documents.
-5. Do **not** begin English translation in the same activity.
+1. Treat `PHASE3_TAMIL_FINAL_CLEARANCE.md` and the final-cleared `sections/01.md` through `sections/77.md` as the Tamil translation source layer.
+2. Follow `POEM_PROCESSING_GUIDE.md` and the repository translation policy.
+3. Preserve source-item identity and provenance in translation mapping.
+4. Do not silently edit Tamil final-cleared files during translation.
+5. If a genuine Tamil discrepancy is found, reopen the affected Tamil source/page/audit/canonical layers before continuing.

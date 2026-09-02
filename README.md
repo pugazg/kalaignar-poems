@@ -24,8 +24,9 @@ Current status:
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact matches, 30 source-valid variants**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
-- Phase 3 Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
-- translation: **NOT STARTED**.
+- Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -43,10 +44,12 @@ The earlier single whole-volume canonical file was reopened as a structural erro
 
 Gate 5 independently re-derived the 77-item sequence from the verified page-layer section witnesses and compared every canonical item payload against the verified source-facing page text. Result: **77/77 canonical items PASS**, **447/447 body scans accounted**, **439/439 item scans**, **8/8 structural group scans**, **0 silent-normalization/source-completeness defects**, and **0 page-record/canonical-item changes**. Evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
+Gate 6 formally confirms Gates 1–5 are all PASS and records the Tamil source/canonical layer as **FINAL-CLEARED**. Evidence: `poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md`. No Tamil page/canonical file or English translation was changed by the clearance activity.
+
 ## Supplied lexical controls
 
 A user-designated word-for-word transcription may control lexical words only after its first and final substantive body anchors are matched to the controlling scan. Embedded Markdown page numbers are not positional authority. Scan structure always controls page placement, headings, punctuation, quotations, lineation, separators, illustrations and non-body material.
 
 ## Next activity
 
-**Phase 3 Gate 6 — Tamil final clearance only.** Formally confirm Gates 1–5 are PASS and decide whether the Tamil source/canonical layer can be marked final-cleared for Phase 4. Do not begin English translation in the same activity.
+**Phase 4 — English translation and release workflow.** Translate only from the Tamil final-cleared canonical item layer and follow the repository translation policy.

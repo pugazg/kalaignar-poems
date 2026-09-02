@@ -26,8 +26,9 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 3: **COMPLETE / PASS — 81 title/group witnesses (51 exact / 30 variants / 0 unresolved)**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
-- Phase 3 Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
-- translation: **NOT STARTED**.
+- Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -76,6 +77,12 @@ The earlier Gate-4 source-backed title corrections at scans **406, 409, 457–46
 - verified page records modified during Gate 5: **0**;
 - canonical item files modified during Gate 5: **0**.
 
+## Gate 6 — Tamil final clearance
+
+**COMPLETE / PASS — Tamil source/canonical layer FINAL-CLEARED.** Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+No page record, canonical item or English translation was changed during Gate 6. Phase 4 is now unblocked.
+
 ## Next activity
 
-**Phase 3 Gate 6 — Tamil final clearance only.** Confirm Gates 1–5 are PASS and decide whether the Tamil source/canonical layer can be final-cleared for Phase 4. Do not begin English translation in the same activity.
+**Phase 4 — English translation and release workflow.** Use only the Tamil final-cleared `sections/01.md` through `sections/77.md` as the translation source layer.

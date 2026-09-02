@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 3 Gate 5
+## Durable state after Phase 3 Gate 6
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -31,8 +31,9 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 3 — title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact, 30 variants, 0 unresolved**;
 - Phase 3 Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**;
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
-- Phase 3 Gate 6 — Tamil final clearance: **NOT STARTED — NEXT**;
-- translation: **NOT STARTED**.
+- Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -88,6 +89,22 @@ Gate-5 evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.m
 
 The review independently reconstructed every canonical item's source-facing payload from the verified page layer and found no dropped, duplicated, reordered, cross-item or silently normalized source passage. The 236→237→238→239 interposition and 370→371→372→373→374 divider sequence remain explicitly preserved.
 
+## Gate 6 durable result
+
+Gate-6 evidence: `poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+- Gates 1–5: **all COMPLETE / PASS**;
+- Tamil final clearance: **PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- unresolved Tamil source/completeness defects: **0**;
+- canonical inventory at clearance: **77/77**;
+- verified page records changed during Gate 6: **0**;
+- canonical item files changed during Gate 6: **0**;
+- English translation created/modified during Gate 6: **no**;
+- Phase 4: **UNBLOCKED**.
+
+The controlling scan remains highest textual authority. Any later genuine source-backed discrepancy must reopen the affected source/page/audit/canonical layers.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -112,12 +129,11 @@ Before changing anything, read completely:
 14. `PHASE3_CANONICAL_ASSEMBLY.md`;
 15. `indexes/canonical-source-map.md`;
 16. `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
-17. canonical item files `sections/01.md` through `sections/77.md` as needed for Gate-6 final-clearance confirmation.
+17. `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+18. canonical item files `sections/01.md` through `sections/77.md` as needed for Phase-4 translation.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 6 — Tamil final clearance only**.
+Begin **Phase 4 — English translation and release workflow** from the Tamil final-cleared canonical item layer.
 
-Formally confirm that Phase 3 Gates 1–5 are all PASS, confirm there are no unresolved Tamil source/completeness defects, and decide whether to mark the Tamil source/canonical layer final-cleared for Phase 4.
-
-Do **not** begin English translation in the same activity.
+Follow `POEM_PROCESSING_GUIDE.md` and the repository translation policy. Do not alter Tamil source/page/canonical text as part of translation work; if a genuine Tamil source discrepancy is discovered, reopen the affected Tamil layers explicitly before continuing.

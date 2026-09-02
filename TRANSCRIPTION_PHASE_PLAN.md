@@ -49,7 +49,10 @@ Phase 3 proceeds only in ordered gates from `POEM_PROCESSING_GUIDE.md`.
    - unresolved source-completeness defects: **0**;
    - page-record/canonical-item changes during review: **0**;
    - evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md`.
-6. **Tamil final clearance — NEXT / NOT STARTED.**
+6. **Tamil final clearance — COMPLETE / PASS.**
+   - Tamil source/canonical layer: **FINAL-CLEARED**;
+   - unresolved Tamil source/completeness defects: **0**;
+   - evidence: `poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
 ## Gate-4 correction record
 
@@ -57,8 +60,12 @@ The earlier single whole-volume canonical file was reopened as a structural erro
 
 Earlier source-backed title metadata corrections at scans **406, 409, 457–460** remain in force. The structural correction made **0** additional page-record or poem-word changes.
 
+## Phase 4 — translation and release
+
+**UNBLOCKED / NOT STARTED — NEXT.**
+
+Translation and derivative/release work may now begin from the Tamil final-cleared canonical item layer, following `POEM_PROCESSING_GUIDE.md` and the repository translation policy.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 6 — Tamil final clearance only**. Formally confirm that Gates 1–5 remain PASS and decide whether the Tamil source/canonical layer can be marked final-cleared for Phase 4.
-
-Do **not** begin English translation in the same activity.
+Begin **Phase 4 — English translation and release workflow** from `poems/kalaignarin-kavithaigal/sections/01.md` through `sections/77.md`.
