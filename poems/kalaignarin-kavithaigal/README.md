@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C05 COMPLETE; C06 NEXT; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C06 COMPLETE; C07 NEXT; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,44 +22,31 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 `partial`, 312 `needs-review`, 153 `verified`**;
-- unresolved backlog: **312 pages**;
-- verified pages: **0001–0125, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–125**;
+- cumulative status: **0 `partial`, 287 `needs-review`, 178 `verified`**;
+- unresolved backlog: **287 pages**;
+- verified pages: **0001–0150, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–150**;
 - Phase 3: **blocked until Phase-2 page clearance is complete**.
 
-## Clearance C04 — COMPLETE
+## Clearance C06 — COMPLETE
 
-Physical window: **76–100**. The user-designated supplied Gemini transcription controls lexical words for that exact range; the controlling scan controls source structure. All 25 pages are `verified`.
+Physical window: **126–150**.
 
-## Clearance C05 — COMPLETE
+The user supplied word-for-word text identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_006_pages_126-150.pdf`. Under the standing explicit instruction to keep supplied words and not silently correct lexical words, that transcription controls lexical content for scans **126–150**.
 
-Physical window: **101–125**.
+The controlling scan independently determines page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation, spacing and source/non-source separation.
 
-The user supplied a word-for-word transcription identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_005_pages_101-125.pdf` and directed that the supplied words be kept without silent lexical correction. The supplied words are therefore the lexical base for this exact C05 range.
+### C06 source structure
 
-The controlling scan independently determines:
+- **126–127** — `அருமறையில் அறுவர்` conclusion; scan 127 / printed 110 closes with `வணக்கம் / வாழ்க` and a printed line illustration;
+- **128–137** — `புதிய பாதை`; scan 128 title + `(13.8.1968 ...)` context opening; scan 137 / printed 120 closes with `வணக்கம் / வாழ்க` and a printed decorative illustration;
+- **138–143** — `உடைமைகள் பத்து`; scan 138 title + `16.9.68` context + centered star; scan 143 / printed 126 closes with `வணக்கம் / வாழ்க`, then preserves the parenthetical participant/topic note as a separate source structure;
+- **144–150** — `நீர்க் குடும்பம்`; scan 144 title + `28.9.68` context + centered star; scan 150 / printed 133 remains inside the item and continues onto scan 151.
 
-- physical-page placement and printed-page mapping;
-- paragraph/order and page carry-over;
-- punctuation and quotation structure;
-- headings and event/context blocks;
-- `தலைவர் கலைஞர்:` / தீர்ப்புக் headings and parenthetical performance-note boundaries;
-- poetry lineation and spacing;
-- source/non-source separation, including removal of misplaced running headers/page numbers and OCR garbage.
+Structural cleanup excluded the non-source Gujarati/OCR string before `புதிய பாதை`, running headers/page numbers and other extraction noise while retaining supplied Tamil lexical words.
 
-### C05 source structure
-
-- **101–115** — `காதலா - வீரமா?`;
-- scan **101** is the `4-8-68` Salem title/context opening;
-- scan **115 / printed 98** closes with `வணக்கம்.` and a centered floral ornament;
-- **116–125** — `அருமறையில் அறுவர்`;
-- scan **116** is the `10.8.68` Chennai/Tamil Vattam title/context opening with centered star;
-- scan **117 / printed 100** contains a large printed line illustration below the short verse continuation;
-- scan **125 / printed 108** remains inside `அருமறையில் அறுவர்`; the item continues beyond C05.
-
-All page records **0101.md–0125.md** are `verified` under this rule. C05 promoted **25 pages**, moving the cumulative status to **0 partial / 312 needs-review / 153 verified** and advancing the contiguous verified boundary to **1–125**.
+All page records **0126.md–0150.md** are `verified`. C06 promoted **25 pages**, moving the cumulative status to **0 partial / 287 needs-review / 178 verified** and advancing the contiguous verified boundary to **1–150**.
 
 ## Exact next activity
 
-Begin **Phase 2 Clearance Batch C06 — physical scans 126–150**. Do **not** begin C07, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C07 — physical scans 151–175**. The user has already supplied `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_007_pages_151-175.pdf` word-for-word text in the current conversation; use it as lexical control under the standing rule when available. Preserve/reconcile already verified scans **154 and 174**. Do not begin C08, Phase 3, canonical assembly or translation in the same activity.
