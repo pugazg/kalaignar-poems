@@ -60,7 +60,8 @@ Locked accounting:
 - explicit item-file scan provenance: **439/439**;
 - physical source section runs retained: **83**;
 - Gate-3 variants preserved separately: **30/30**;
-- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
+- canonical item-manifest SHA-256: `74f7bbd84edb1d13dec6d775f854a793929ef530b0c78897cc205004ba78972f`.
+- canonical item `printed_pages` uses Gate-1 reconciled logical pagination; page-record `printed_page` remains source-visible only;
 
 The earlier single `sections/kalaignarin-kavithaigal.md` file was reopened as a structural error because this source is an anthology. It has been removed and replaced with one stable numeric canonical file per indexed poem/item, following the repository's established multi-item convention.
 

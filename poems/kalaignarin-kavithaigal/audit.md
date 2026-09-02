@@ -56,7 +56,7 @@ Scope: **canonical Tamil anthology item assembly only**.
 - Gate-3 source-valid variants retained separately: **30/30**;
 - source map: `indexes/canonical-source-map.md`;
 - Gate-4 evidence: `PHASE3_CANONICAL_ASSEMBLY.md`;
-- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
+- canonical item-manifest SHA-256: `74f7bbd84edb1d13dec6d775f854a793929ef530b0c78897cc205004ba78972f`.
 
 ### Structural correction during Gate 4
 

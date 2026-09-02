@@ -54,7 +54,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - explicit item-file scan provenance: **439/439**;
 - physical source section runs retained: **83**;
 - Gate-3 variants preserved separately: **30/30**;
-- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
+- canonical item-manifest SHA-256: `74f7bbd84edb1d13dec6d775f854a793929ef530b0c78897cc205004ba78972f`.
 
 The earlier single whole-volume file was a structural assembly error for an anthology and has been removed. Gate 4 now follows the repository's multi-item convention: one stable numeric file per indexed poem/item. The intentional `அண்ணன் ஒரு கவியரங்கம்` / `தமிழ் வளர வழிநடைப் பயணம்` interposition is represented as non-contiguous scan ranges rather than reordered source pages.
 

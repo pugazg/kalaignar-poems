@@ -46,7 +46,7 @@ Gate-4 evidence: `../PHASE3_CANONICAL_ASSEMBLY.md`.
 - explicit item-file `scan_page` markers: **439/439**;
 - physical source section runs: **83**;
 - Gate-3 title variants retained in provenance: **30/30**;
-- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`.
+- canonical item-manifest SHA-256: `74f7bbd84edb1d13dec6d775f854a793929ef530b0c78897cc205004ba78972f`.
 
 The earlier monolithic canonical file was removed after Gate 4 was reopened for anthology structure. The corrected assembly uses 77 stable numeric item files. The intentional `230–236, 238` / `237, 239–244` interposition is represented without reordering. No verified poem wording or page record changed.
 

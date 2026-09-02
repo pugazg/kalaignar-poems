@@ -22,7 +22,8 @@ This record closes **Phase 3 Gate 4 — canonical Tamil assembly only** after co
 - physical source section runs retained in provenance: **83**;
 - Gate-3 title variants retained separately: **30/30** (**29 item variants + 1 pure-group variant**);
 - stable filenames: `01.md` … `77.md`;
-- canonical item-manifest SHA-256: `69635ca2edc7c5dc0f0ada58881d05e33ba462c7891b095ad3638c4dbf22d310`;
+- canonical `printed_pages` metadata follows the Gate-1 reconciled logical Arabic pagination; source-visible `printed_page` values in page records remain unchanged;
+- canonical item-manifest SHA-256: `74f7bbd84edb1d13dec6d775f854a793929ef530b0c78897cc205004ba78972f`;
 - verified page-record lexical changes made by this structural correction: **0**.
 
 ## Correction of the earlier Gate-4 representation
