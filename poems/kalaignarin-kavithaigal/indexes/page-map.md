@@ -10,11 +10,11 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C11 COMPLETE. C12 IS NEXT.**
+**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE. C01–C11 COMPLETE. C12 PARTIAL.**
 
 - source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 176 `needs-review`, 289 `verified`**;
-- unresolved backlog: **176 pages**;
+- cumulative status: **0 `partial`, 169 `needs-review`, 296 `verified`**;
+- unresolved backlog: **169 pages**;
 - durable contiguous verified boundary: **physical scans 1–275**;
 - Phase 3 remains blocked.
 
@@ -30,44 +30,34 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - C08: 176–200 — COMPLETE
 - C09: 201–225 — COMPLETE
 - C10: 226–250 — COMPLETE
-- **C11: 251–275 — COMPLETE**
-- **C12: 276–300 — NEXT**
+- C11: 251–275 — COMPLETE
+- **C12: 276–300 — PARTIAL**
 
-## C11 source map — COMPLETE
+## C12 map
 
-| Scan(s) | Source-established role / boundary | Outcome |
-|---:|---|---|
-| 251–252 | `வையம் தழைக்க` continuation with poet introductions/performance notes | `verified` |
-| 253 | `வையம் தழைக்க` conclusion; printed 236 | `verified` |
-| 254 | `தந்தை பெரியார்` title/context/star opening | `verified` |
-| 255–259 | `தந்தை பெரியார்` continuation | `verified` |
-| 260 | `தந்தை பெரியார்` conclusion; printed 243; decorative illustration | `verified` |
-| 261 | `அகத்துறைப் படைப்புகள்` title/context/star opening | `verified` |
-| 262–265 | `அகத்துறைப் படைப்புகள்` continuation | `verified` |
-| 266 | `அகத்துறைப் படைப்புகள்` conclusion; printed 249; floral separator | `verified` |
-| 267 | `பொங்கல் விழா` title/context/star opening | `verified` |
-| 268–271 | `பொங்கல் விழா` continuation | `verified` |
-| 272 | `பொங்கல் விழா` conclusion; printed 255; decorative separator | `verified` |
-| 273 | `சிலப்பதிகார விருந்து` title/context/star opening | `verified` |
-| 274–275 | `சிலப்பதிகார விருந்து` continuation; scan 275 / printed 258 remains open | `verified` |
+The intended supplied control `kavi5.md` is headed as `part_012_pages_276-300`, but the actual attached text contains only printed pages **276–283**, mapping to physical scans **293–300**.
 
-### C11 lexical-control closure
+| Scan(s) | Printed page(s) | C12 state |
+|---:|---:|---|
+| 276–284 | 259–267 | supplied `kavi5.md` lexical text missing; remain `needs-review` |
+| 285 | 268 | pre-existing `verified`; supplied C12 lexical text missing |
+| 286–291 | 269–274 | supplied `kavi5.md` lexical text missing; remain `needs-review` |
+| 292 | 275 | pre-existing `verified`; supplied C12 lexical text missing |
+| 293–295 | 276–278 | reconciled to supplied `kavi5.md`; `verified` |
+| 296 | 279 | pre-existing `verified`, reconciled to supplied `kavi5.md` |
+| 297–300 | 280–283 | reconciled to supplied `kavi5.md`; `verified` |
 
-The user uploaded `kavi4.md`, identified as word-for-word text extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_011_pages_251-275.pdf`, and required supplied lexical words to be retained without silent scan-based correction.
+### C12 partial lexical-control handling
 
-For scans **251–275**:
+- supplied words on scans **293–300** are retained;
+- source-established page placement, punctuation, quotation structure and lineation are retained;
+- running `கலைஞரின்` / `கவிதைகள்` headers, page numerals, `mimage A` and non-Tamil extraction garbage are excluded;
+- no lexical text is invented for scans **276–292**.
 
-- supplied words are the lexical base;
-- source-established page records determine physical placement, order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
-- running headers/page numbers and extraction garbage are excluded;
-- pre-verified scans **253, 260, 266 and 272** remain verified after reconciliation.
+## Verified pages after partial C12
 
-Result: **all physical scans 251–275 are `verified`**. C11 promoted **21 pages**, and the contiguous verified boundary is now **1–275**.
-
-## Verified pages after C11 closure
-
-**0001–0275, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Next mapping / verification activity
 
-Begin **C12 — physical scans 276–300**, using uploaded `kavi5.md` / `part_012_pages_276-300` as lexical control. Preserve/reconcile already verified scans **285, 292 and 296**. Do not begin C13 or Phase 3 in the same activity.
+Recover/re-attach the missing lexical transcription for **physical scans 276–292 / printed pages 259–275**, then finish C12. Do not begin C13 or Phase 3 before C12 closes.
