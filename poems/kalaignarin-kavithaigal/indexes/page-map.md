@@ -10,67 +10,52 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C03 COMPLETE. C04 SOURCE-LAYOUT REVIEW COMPLETE; C04 LEXICAL CLEARANCE OPEN.**
+**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C04 COMPLETE. C05 IS NEXT.**
 
 - Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
-- unresolved backlog: **359 pages**;
-- durable contiguous verified boundary: **physical scans 1–75**;
-- additional C04 verified pages: **79, 89, 100**;
+- cumulative status: **0 `partial`, 337 `needs-review`, 128 `verified`**;
+- unresolved backlog: **337 pages**;
+- durable contiguous verified boundary: **physical scans 1–100**;
 - Phase 3 remains blocked.
 
-## Clearance C01–C03
+## Clearance windows
 
 - C01: scans **1–25 — COMPLETE**;
 - C02: scans **26–50 — COMPLETE**;
 - C03: scans **51–75 — COMPLETE**;
-- durable result: **all scans 1–75 are `verified`**.
+- C04: scans **76–100 — COMPLETE**;
+- C05: scans **101–125 — NEXT**.
 
-## Phase-2 Clearance Batch C04 — IN PROGRESS
+## C04 source map — COMPLETE
 
-Physical window: **76–100**. Every page in this window has received multiple direct lexical/glyph reviews.
-
-| Scan(s) | Source-established role / boundary | Current outcome |
+| Scan(s) | Source-established role / boundary | Outcome |
 |---:|---|---|
-| 76–78 | `விடுதலை வீரர்கள்` continuation | repeated direct review; lexical clearance pending |
+| 76–78 | `விடுதலை வீரர்கள்` continuation | `verified` |
 | 79 | `விடுதலை வீரர்கள்` conclusion; `வணக்கம்!`, `வாழ்க!`, floral ornament | `verified` |
-| 80–88 | `ஐம்புலன்` opening/continuation | repeated direct review; lexical clearance pending |
-| 89 | `ஐம்புலன்` conclusion; final `வணக்கம்.` and floral ornament | `verified` |
-| 90–99 | `பிலவங்க ஆண்டு` opening/continuation | repeated direct review; lexical clearance pending |
-| 100 | `பிலவங்க ஆண்டு` conclusion; final `வணக்கம்.` and floral ornament | iteration-G complete-pass `verified` |
+| 80 | `ஐம்புலன்` title + `24.3.68` event note + centered star + opening | `verified` |
+| 81–88 | `ஐம்புலன்` continuation | `verified` |
+| 89 | `ஐம்புலன்` conclusion; final `வணக்கம்.` + floral ornament | `verified` |
+| 90 | `பிலவங்க ஆண்டு` title + `13.4.68` event note + centered star + opening | `verified` |
+| 91–99 | `பிலவங்க ஆண்டு` continuation | `verified` |
+| 100 | `பிலவங்க ஆண்டு` conclusion; final `வணக்கம்.` + floral ornament | `verified` |
 
-### C04 fixed source structure
+### C04 lexical-control closure
 
-- scan **80** opens `ஐம்புலன்` with title, `24.3.68` Vaniyambadi Islamic College event note and centered star separator;
-- scan **89 / printed 72** closes `ஐம்புலன்` with `வணக்கம்.` and a centered floral ornament;
-- scan **90** opens `பிலவங்க ஆண்டு` with title, `13.4.68` Chennai radio-event note and centered star separator;
-- scan **100 / printed 83** closes `பிலவங்க ஆண்டு` with `வணக்கம்.` and a centered floral ornament;
-- `ஐம்புலன்` and `பிலவங்க ஆண்டு` interleave `தலைவர் கலைஞர்:` passages with parenthetical performance notes; keep those structures separate.
+After direct source-critical iterations **A–L**, 22 C04 pages still retained lexical uncertainty. The user then designated a supplied Gemini word-for-word transcription for **scans 76–100** as the lexical control and explicitly required that its lexical words be retained without silent scan-based correction.
 
-### C04 10-page iteration tracking
+For this range only:
 
-- **Iteration A:** scans **76–78, 80–86** — direct-reviewed, no promotions;
-- **Iteration B:** scans **87–96** — direct-reviewed; scan **89** promoted to `verified`;
-- **Iteration C:** scans **97–100 plus 76–78 and 80–82** — exactly 10 physical pages; no promotions;
-- **Iteration D:** scans **83–88 and 90–93** — exactly 10 physical pages; no promotions;
-- **Iteration E:** scans **94–100 plus 76–78** — exactly 10 physical pages; no promotions;
-- **Iteration F:** scans **80–88 and 90** — exactly 10 physical pages; scan **81** corrects the opening to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
-- **Iteration G:** scans **91–100** — exactly 10 physical pages; scan **100 / printed 83** reached a complete source-critical pass and was promoted to `verified`;
-- **Iteration H:** scans **76–78 and 80–86** — exactly 10 unresolved physical pages; scan **86** corrects the source-visible line to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no promotions;
-- **Iteration I:** scans **87, 88, 90–97** — exactly 10 unresolved physical pages; scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
-- **Iteration J:** scans **98, 99, 76–78 and 80–84** — exactly 10 unresolved physical pages; all ten received another direct exact lexical/glyph review; no promotions;
-- **Iteration K:** scans **85–88 and 90–95** — exactly 10 unresolved physical pages; scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!`, scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`, scan **93** restores `அங்கமுமே ஆறு பேரும்`, and scan **94** restores `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`; no promotions;
-- **Iteration L:** scans **96–99, 76–78 and 80–82** — exactly 10 unresolved physical pages; all ten received another direct exact lexical/glyph review with previously secured wording, lineation and source structures reconfirmed; no promotions;
-- unresolved C04 pages remain **22 — 76–78, 80–88, 90–99**.
+- Gemini-supplied words are the lexical base;
+- the controlling scan determines page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
+- misplaced running headers/page numbers, library marks, handwriting-derived text and OCR garbage are excluded from body text;
+- already verified scans **79, 89 and 100** were reconciled to the new lexical control where their earlier scan-derived words differed.
 
-## Verified pages after iteration L
+Result: **all physical scans 76–100 are `verified`** and the contiguous verified boundary is now **1–100**.
 
-**0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+## Verified pages after C04 closure
 
-## Source-access note
-
-Exact page-range derivatives and user-supplied word-for-word extracts from the same controlling PDF are aids, not separate witnesses. Preserve old Tamil forms and do not infer through blur.
+**0001–0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Next mapping / verification activity
 
-Execute **C04 ten-page iteration M: scans 83–88 and 90–93** — exactly **10 unresolved physical pages**. Preserve all fixed `ஐம்புலன்` / `பிலவங்க ஆண்டு` boundaries and speaker/performance structures. Do not advance to C05 or Phase 3 while C04 remains open.
+Begin **Phase 2 Clearance Batch C05 — physical scans 101–125**. Reconfirm the source structure and perform page clearance against the controlling PDF. Do not begin C06 or Phase 3 in the same activity.
