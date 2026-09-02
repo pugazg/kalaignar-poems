@@ -55,6 +55,7 @@ C04 lexical review is being done in user-directed **10-page iterations**:
 - Iteration I: **87, 88 plus 90–97**, reviewed with no promotions; scan **90** restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`;
 - Iteration J: **98, 99 plus 76–78 and 80–84**, reviewed with no promotions;
 - Iteration K: **85–88 plus 90–95**, reviewed with no promotions; scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!`, scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`, scan **93** restores `அங்கமுமே ஆறு பேரும்`, and scan **94** restores `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`;
+- Iteration L: **96–99 plus 76–78 and 80–82**, reviewed with no promotions; all ten received another direct exact lexical/glyph pass and established wording/structure was reconfirmed;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 ## Source-access / witness rule
@@ -65,4 +66,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Execute **C04 ten-page iteration L: scans 96–99, 76–78 and 80–82** — exactly **10 unresolved physical pages**. Do not reopen verified scans 79, 89 or 100. Promote only complete passes; preserve all established `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` speaker/performance-note structure; do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration M: scans 83–88 and 90–93** — exactly **10 unresolved physical pages**. Do not reopen verified scans 79, 89 or 100. Promote only complete passes; preserve all established `ஐம்புலன்` / `பிலவங்க ஆண்டு` speaker/performance-note structure; do not begin C05 or Phase 3 while C04 remains open.
