@@ -16,7 +16,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main` and note current HEAD;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`;
-4. inspect the exact target scans against the controlling PDF before writes;
+4. inspect/reuse only source-established structure for the exact target scans; do not infer missing lexical text;
 5. synchronize all status-bearing files after the activity.
 
 # CURRENT ACTIVE WORK — கலைஞரின் கவிதைகள்
@@ -35,47 +35,56 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Clearance C01–C06: **COMPLETE**;
-- C07: **NEXT**;
-- cumulative status: **0 partial / 287 needs-review / 178 verified**;
-- verified pages: **0001–0150, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–150**;
+- Clearance C01–C07: **COMPLETE**;
+- C08: **NEXT**;
+- cumulative status: **0 partial / 264 needs-review / 201 verified**;
+- verified pages: **0001–0175, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–175**;
 - Phase 3 / translation: **blocked**.
 
 ## Completed supplied-word lexical-control ranges
 
-- **C04 / scans 76–100** — supplied Gemini word-for-word transcription controls lexical words; scan controls structure.
-- **C05 / scans 101–125** — supplied transcription from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_005_pages_101-125.pdf` controls lexical words; scan controls structure.
-- **C06 / scans 126–150** — supplied transcription from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_006_pages_126-150.pdf` controls lexical words under the standing instruction to keep supplied words and not silently correct them from the scan.
+- **C04 / scans 76–100** — supplied Gemini word-for-word transcription;
+- **C05 / scans 101–125** — `part_005_pages_101-125` transcription;
+- **C06 / scans 126–150** — `part_006_pages_126-150` transcription;
+- **C07 / scans 151–175** — `part_007_pages_151-175` transcription.
 
-Within these ranges the controlling scan determines physical page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing, and source/non-source separation. Running headers/page numbers, library marks, handwriting-derived text and OCR garbage are not poem body.
+For these exact ranges:
 
-## C06 — COMPLETE
+- supplied lexical words are retained;
+- source-established scan structure determines physical page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
+- running headers/page numbers, library marks, handwriting-derived text and OCR garbage are excluded from body text;
+- no scan-derived lexical wording is silently substituted.
 
-Physical window: **126–150**. All **25/25** scans are `verified`.
+## C07 — COMPLETE
+
+Physical window: **151–175**. All **25/25** scans are `verified`; scans **154** and **174** were already verified before C07, so the batch produced **23 promotions**.
 
 Fixed source structure:
 
-- **126–127** — conclusion of `அருமறையில் அறுவர்`; scan **127 / printed 110** closes with `வணக்கம் / வாழ்க` and a printed line illustration;
-- **128–137** — `புதிய பாதை`; scan **128** opens with title + `(13.8.1968 ...)` Kumbakonam agricultural-poetry context; scan **137 / printed 120** closes with `வணக்கம் / வாழ்க` and a printed decorative illustration;
-- **138–143** — `உடைமைகள் பத்து`; scan **138** opens with title + `16.9.68` Chennai context + centered star; scan **143 / printed 126** closes with `வணக்கம் / வாழ்க`, followed by a separate parenthetical source note listing the ten participating poets/topics;
-- **144–150** — `நீர்க் குடும்பம்`; scan **144** opens with title + `28.9.68` Paramathi Velur/Kandar College context + centered star; scan **150 / printed 133** ends mid-item after the `முருகுசுந்தரம் / கடல்` performance note and the chair's `அடுத்து மழை; நாவற்பழமென நல்லகவி உதிர்க்கின்ற` continuation. The item continues on scan 151.
+- **151–154** — `நீர்க் குடும்பம்` continuation/conclusion; scan **154 / printed 137** closes with `வணக்கம் / வாழ்க` and a decorative illustration;
+- **155–169** — `பாரதிதாசன்`; scan **155** opens with title + `8.12.68` Bombay Bharathi Kala Mandram context + centered star; scan **169 / printed 152** closes the item;
+- **170–174** — `பாரதியார்`; scan **170** opens with title + `12.9.69` Chennai Vani Mahal context + centered star; scan **174 / printed 157** closes with `வணக்கம் / வாழ்க` and illustration;
+- **175** — `பொங்கல் திருநாள்` title + `12.1.1970` Chennai radio context + centered star + opening; item continues to scan 176.
 
-C06 structural exclusions/corrections include removal of the non-source Gujarati/OCR garbage before `புதிய பாதை`, exclusion of running headers/page numbers from body text, preservation of stars/illustrations, and separation of chairman/performance-note blocks. No supplied lexical word was silently normalized.
+C07 structural/source handling includes:
 
-C06 promotions: **25**. Cumulative status moved from **0 partial / 312 needs-review / 153 verified** to **0 partial / 287 needs-review / 178 verified**. Contiguous verified boundary advanced from **1–125** to **1–150**.
+- removal of running `கவிதைகள்` / `கலைஞரின்` headers and printed page numerals from body text;
+- exclusion of the isolated `2-` extraction artifact on scan 166 without replacing it with a guessed lexical word;
+- separation of the scan-170 title/context/star from the supplied `வணக்கம்.` salutation;
+- retention of the supplied lexical form `பாஞ்ச யை` on scan 172 rather than silently replacing it;
+- preservation/reconciliation of already verified scans 154 and 174 under the range-specific lexical control.
 
-## C07 input already supplied in the current conversation
-
-The user also supplied word-for-word text identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_007_pages_151-175.pdf`. It is intended for the next C07 lexical-control pass under the same standing supplied-word rule, but **it has not been applied to page records yet**. In a fresh chat, re-supply that transcription if it is not present in context rather than reconstructing it from this handover.
+Cumulative status moved from **0 partial / 287 needs-review / 178 verified** to **0 partial / 264 needs-review / 201 verified**. Contiguous verified boundary advanced from **1–150** to **1–175**.
 
 ## EXACT NEXT ACTIVITY
 
-Begin **Phase 2 Clearance Batch C07 — physical scans 151–175**.
+Begin **Phase 2 Clearance Batch C08 — physical scans 176–200**.
 
-- inspect/reconfirm source structure for scans 151–175;
-- use the user-supplied `part_007_pages_151-175` word-for-word text as lexical control when available, while the scan controls source structure;
-- preserve already verified scans **154 and 174**, but reconcile them to the range-specific lexical control if the supplied words differ;
-- promote only complete passes;
+- fetch live `main` first;
+- inspect/reconfirm source structure for scans 176–200;
+- if the user supplies an exact-source word-for-word transcription for this range, use it only as explicitly designated lexical control under the standing rule;
+- otherwise remain scan/source-critical and do not infer blurred lexical text;
+- preserve any already verified pages inside the window while reconciling the range;
 - synchronize tracking files after the activity;
-- do **not** begin C08, Phase 3, canonical assembly or translation in the same activity.
+- do **not** begin C09, Phase 3, canonical assembly or translation in the same activity.
