@@ -10,12 +10,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE. C01–C11 COMPLETE. C12 PARTIAL.**
+**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE. C01–C12 COMPLETE. C13 NEXT.**
 
 - source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 169 `needs-review`, 296 `verified`**;
-- unresolved backlog: **169 pages**;
-- durable contiguous verified boundary: **physical scans 1–275**;
+- cumulative status: **0 `partial`, 154 `needs-review`, 311 `verified`**;
+- unresolved backlog: **154 pages**;
+- durable contiguous verified boundary: **physical scans 1–300**;
 - Phase 3 remains blocked.
 
 ## Clearance windows
@@ -31,33 +31,38 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - C09: 201–225 — COMPLETE
 - C10: 226–250 — COMPLETE
 - C11: 251–275 — COMPLETE
-- **C12: 276–300 — PARTIAL**
+- **C12: 276–300 — COMPLETE**
+- **C13: 301–325 — NEXT**
 
-## C12 map
+## Positional alignment rule for supplied Markdown
 
-The intended supplied control `kavi5.md` is headed as `part_012_pages_276-300`, but the actual attached text contains only printed pages **276–283**, mapping to physical scans **293–300**.
+Do **not** locate `kavi*.md` text by page numbers printed or claimed inside the Markdown. Map each file by its first and last substantive body word/paragraph against the source. The matched interval is the only lexical-control interval.
 
-| Scan(s) | Printed page(s) | C12 state |
+## C12 source map — COMPLETE
+
+| Scan(s) | Printed page(s) | Authority / outcome |
 |---:|---:|---|
-| 276–284 | 259–267 | supplied `kavi5.md` lexical text missing; remain `needs-review` |
-| 285 | 268 | pre-existing `verified`; supplied C12 lexical text missing |
-| 286–291 | 269–274 | supplied `kavi5.md` lexical text missing; remain `needs-review` |
-| 292 | 275 | pre-existing `verified`; supplied C12 lexical text missing |
-| 293–295 | 276–278 | reconciled to supplied `kavi5.md`; `verified` |
-| 296 | 279 | pre-existing `verified`, reconciled to supplied `kavi5.md` |
-| 297–300 | 280–283 | reconciled to supplied `kavi5.md`; `verified` |
+| 276–284 | 259–267 | attached exact-source `part_012` direct visual verification; `verified` |
+| 285 | 268 | prior direct-source `verified`, reconfirmed |
+| 286–291 | 269–274 | attached exact-source `part_012` direct visual verification; `verified` |
+| 292 | 275 | prior direct-source `verified`, reconfirmed |
+| 293–295 | 276–278 | `kavi5.md` body-text anchored lexical control + source structure; `verified` |
+| 296 | 279 | prior `verified`, reconciled to anchored `kavi5.md` |
+| 297–300 | 280–283 | `kavi5.md` body-text anchored lexical control + source structure; `verified` |
 
-### C12 partial lexical-control handling
+### C12 anchor proof
 
-- supplied words on scans **293–300** are retained;
-- source-established page placement, punctuation, quotation structure and lineation are retained;
-- running `கலைஞரின்` / `கவிதைகள்` headers, page numerals, `mimage A` and non-Tamil extraction garbage are excluded;
-- no lexical text is invented for scans **276–292**.
+- `kavi5.md` opening `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!` appears on attached `part_012` page 18 = physical scan **293**;
+- `kavi5.md` ending `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்` appears at the foot of attached `part_012` page 25 = physical scan **300**.
 
-## Verified pages after partial C12
+Thus the Markdown does not control scans 276–292 even though its header claims a wider page range. Those scans were cleared directly from the exact source.
 
-**0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+Direct-source C12 corrections: scan 280 `சேறு`; scan 284 `குழந்தைகட்கு` ×2; scan 286 `சூளுரை`; scan 287 `மேடைப் பேச்சரங்கில்`, `அழித்தாராம்`; scan 288 `வாக்குக்குச்`.
+
+## Verified pages after C12
+
+**0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Next mapping / verification activity
 
-Recover/re-attach the missing lexical transcription for **physical scans 276–292 / printed pages 259–275**, then finish C12. Do not begin C13 or Phase 3 before C12 closes.
+C13 = **301–325**. `kavi6.md` anchor check already passes against attached `part_013_pages_301-325.pdf`: first `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan 301; last `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan 325. Preserve/reconcile pre-verified **310** and **317**. Do not begin C14 or Phase 3 in the same activity.
