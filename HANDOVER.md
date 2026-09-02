@@ -30,15 +30,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-## Durable state after C10
+## Durable state after C11
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Clearance **C01–C10 COMPLETE**;
-- C11: **NEXT**;
-- cumulative: **0 partial / 197 needs-review / 268 verified**;
-- verified: **0001–0250, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–250**;
+- Clearance **C01–C11 COMPLETE**;
+- C12: **NEXT**;
+- cumulative: **0 partial / 176 needs-review / 289 verified**;
+- verified: **0001–0275, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–275**;
 - Phase 3 / canonical assembly / translation: **blocked**.
 
 ## Completed user lexical-control ranges
@@ -49,7 +49,8 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - C07 151–175 — `part_007_pages_151-175`;
 - C08 176–200 — `kavi1.md` / `part_008_pages_176-200`;
 - C09 201–225 — `kavi2.md` / `part_009_pages_201-225`;
-- C10 226–250 — `kavi3.md` / `part_010_pages_226-250`.
+- C10 226–250 — `kavi3.md` / `part_010_pages_226-250`;
+- C11 251–275 — `kavi4.md` / `part_011_pages_251-275`.
 
 Standing rule for these ranges:
 
@@ -58,26 +59,27 @@ Standing rule for these ranges:
 - running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage are excluded;
 - do not silently substitute scan-derived lexical wording.
 
-## C10 — COMPLETE
+## C11 — COMPLETE
 
-Physical window: **226–250**. All **25/25** are `verified`. Pre-C10 verified scans **226, 238, 244** remained verified, so C10 produced **22 promotions**.
+Physical window: **251–275**. All **25/25** are `verified`. Pre-C11 verified scans **253, 260, 266, 272** remained verified, so C11 produced **21 promotions**.
 
 Fixed source structure:
 
-- **226** — `வெள்ளி விழா` conclusion, printed 209, decorative illustration;
-- **227–229** — `அண்ணன் இருக்கின்றார்`; 227 title/context opening, 229 / printed 212 closes;
-- **230–236, 238** — `அண்ணன் ஒரு கவியரங்கம்`; scan 237 is physically interposed before scan 238 resumes the participant list and closes the item;
-- **237, 239–244** — `தமிழ் வளர வழிநடைப் பயணம்`; scan 237 title leaf, 239–244 body, 244 / printed 227 closes with `வணக்கம்.` + separator;
-- **245–250** — `வையம் தழைக்க`; scan 245 title/context opening, scan 250 / printed 233 remains open and continues to 251.
+- **251–253** — closes `வையம் தழைக்க`; scan 253 / printed 236 is the conclusion;
+- **254–260** — `தந்தை பெரியார்`; scan 254 title/context/star opening, scan 260 / printed 243 conclusion + decorative illustration;
+- **261–266** — `அகத்துறைப் படைப்புகள்`; scan 261 title/context/star opening, scan 266 / printed 249 conclusion + floral separator;
+- **267–272** — `பொங்கல் விழா`; scan 267 title/context/star opening, scan 272 / printed 255 conclusion + separator;
+- **273–275** — begins `சிலப்பதிகார விருந்து`; scan 273 title/context/star opening, scan 275 / printed 258 remains open.
 
-Notable supplied forms retained include `வெற்றியாய்க் கடந்து`, `பெறுகஎன்`, `தலைமை யேற்றுப்`, `வந்துளார்`, `பூஜைக்கு`, `சிற்றுார்க்கும்`, `சுழற்றுகின்றார்`, `அடுக்களைவரை`, `ஓங்காரச்`, `ஒளிவீசம்`, `அக்ராசனாதிபதிப்பதவி`, `சுற்றுச்சுடர்`, `தூணைப்போல்`, `நீளமீசை`, `தோற்ற பாரி`, `வருடப் பிறப்பின்`, `வை, காசியென்று`, `திங்கள் தொறும்`, `தமிழ்த்தீனி`, `திருமலியும்`, `ஓா புதர்பால்`, `வெட்டுண்ட தாயாரின் இதயம்`, `தாயன்பு தனி அன்பு`, `புகலிடம் அன்பிலே`, `அழமாட்டாக்`, and `கூவினாலும்`.
+Notable supplied lexical forms retained include `துரத்தியதும்`, `சீலமுற`, `பொன்னடியான்`, `கவிாட்ட`, `பொய்ம்மை`, `பசும்பால் கட்டித்`, `அக்ரகாரத்து`, `ஏரிமலையாய்ச்`, `ஏதென்சுநகர் சாக்ரடீசாய்`, `மந்தி கை மாலையென`, `இந்தி கைத் தமிழர், ஆக`, `ஈவெரா`, `மருந்தாளும்`, `வாழ்ந்தி டுங்காண்`, `தமிழர்க்குரிய்துமல்ல`, `தினைத்துணையும்`, `தோதாக்கித்`, `ஊனமுற்ற`, `பதைப்பே`, `பெங்கலோ`, `கற்றுணர்`, `ஜங்குறுநூறு`, `பசும்பால்`, `வைதீகக் கோட்டைக்கு`, `நடபுக்கு`, `இரு தார மணத்தானுக்கு`, `மறங்கெழுவீரருண்டு` and `சீர்மலி`.
 
-Non-body/extraction noise removed includes running `கவிதைகள்` / `கலைஞரின்`, printed numerals, `$4`, the stray line-leading `1`, and non-Tamil script corruption. Source-established order was retained where extraction order displaced participant lists, `அடுத்து` transitions, or the scan-237/238 interleaving.
+Structural/non-body handling included excluding `BBS`, running `கவிதைகள்` / `கலைஞரின்` headers, printed numerals, corrupted `சுவிதைகள்`, isolated extraction `அவன்`, a stray extraction `அது`, and representing extraction `%` by the source-established floral separator. Earlier scan-derived lines absent from the user-controlled `kavi4.md` were not silently restored, including the former continuation after scan 270's `புறத்தில் நானூறு அகத்தில் நானூறு` and the former scan-271 `காய்த்திருக்கும்...` opening.
+
+The current Files renderer still exposes only the old 150-page window; that tooling boundary does **not** override the exact 465-page source identity or invalidate the already completed direct-visual source-structure pass recorded in the page layer.
 
 ## Remaining uploaded sequence
 
-- `kavi4.md` → **251–275**, internally identified as `part_011_pages_251-275` — **C11 NEXT**;
-- `kavi5.md` → 276–300;
+- `kavi5.md` → **276–300**, internally identified as `part_012_pages_276-300` — **C12 NEXT**;
 - `kavi6.md` → 301–325;
 - `kavi7.md` → 326–350;
 - `kavi8.md` → 351–375;
@@ -87,4 +89,4 @@ Non-body/extraction noise removed includes running `கவிதைகள்` / 
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C11 — physical scans 251–275** using uploaded `kavi4.md` / `part_011_pages_251-275` as lexical control. Preserve/reconcile already verified scans **253, 260, 266, 272**. Do not begin C12, Phase 3, canonical assembly or translation in the same activity.
+Execute **C12 — physical scans 276–300** using uploaded `kavi5.md` / `part_012_pages_276-300` as lexical control. Preserve/reconcile already verified scans **285, 292, 296**. Do not begin C13, Phase 3, canonical assembly or translation in the same activity.
