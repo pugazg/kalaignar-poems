@@ -77,7 +77,7 @@ Processed exactly **91–100**. Scan **100 / printed 83** reached a complete sou
 Processed exactly **76–78 and 80–86**. Scan **86** corrected `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no page was promoted.
 
 ### Iteration I
-Processed exactly **87, 88, 90–97**. Scan **90** restored `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no page was promoted.
+Processed exactly **87, 88 and 90–97**. Scan **90** restored `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no page was promoted.
 
 ### Iteration J
 Processed exactly **98, 99, 76–78 and 80–84**. All ten received another direct exact lexical/glyph pass; no page was promoted.
@@ -93,6 +93,14 @@ Processed exactly **85–88 and 90–95** — **10 unresolved physical pages**.
 - each of the ten still retains at least one compact lexical/word-ending span that cannot be certified without inference;
 - **no page was promoted**.
 
+### Iteration L
+Processed exactly **96–99, 76–78 and 80–82** — **10 unresolved physical pages**.
+
+- all ten pages received another direct exact lexical/glyph pass against the controlling scan;
+- previously secured wording, lineation, running page material and the established `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` speaker-performance boundaries were reconfirmed;
+- no additional compact span could be certified safely enough to close an entire page without inference;
+- **no page was promoted**.
+
 Current C04 unresolved set remains **76–78, 80–88, 90–99 (22 pages)**. Cumulative status remains **0 partial / 359 needs-review / 106 verified**.
 
 ## Source-critical rule
@@ -101,9 +109,9 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration L: scans 96–99, 76–78 and 80–82** — exactly **10 unresolved physical pages**; do **not** reopen verified scans 79, 89 or 100.
+Execute **C04 ten-page iteration M: scans 83–88 and 90–93** — exactly **10 unresolved physical pages**; do **not** reopen verified scans 79, 89 or 100.
 
-- give these residual `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
+- give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
 - preserve all established speaker/performance structures;
 - promote only complete passes;
 - keep C04 open while any residual pages remain;
