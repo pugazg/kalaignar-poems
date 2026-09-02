@@ -4,7 +4,7 @@
 
 > **மூல ஸ்கேன் தான் controlling source. Markdown ஒரு பாதுகாப்பு அடுக்கு; திருத்தப்பட்ட புதிய பதிப்பு அல்ல.**
 
-An explicitly user-designated exact-source word-for-word transcription may control lexical words for its stated range; when that happens, the supplied words are retained and the scan continues to control source structure according to the documented instruction.
+An explicitly user-designated exact-source word-for-word transcription may control lexical words for its stated range; supplied words are retained while source-established scan structure controls placement, punctuation, lineation and non-body separation.
 
 ## Phase-separated workflow
 
@@ -17,7 +17,7 @@ An explicitly user-designated exact-source word-for-word transcription may contr
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C06 COMPLETE; C07 NEXT; Phase 3 BLOCKED** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C07 COMPLETE; C08 NEXT; Phase 3 BLOCKED** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -31,24 +31,24 @@ An explicitly user-designated exact-source word-for-word transcription may contr
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 partial, 287 needs-review, 178 verified**;
-- unresolved backlog: **287 pages**;
-- verified so far: **0001–0150, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–150**.
+- cumulative status: **0 partial, 264 needs-review, 201 verified**;
+- unresolved backlog: **264 pages**;
+- verified so far: **0001–0175, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–175**.
 
-### Clearance C06 — COMPLETE
+### Clearance C07 — COMPLETE
 
-C06 physical scans **126–150** are fully `verified`. The user supplied word-for-word text identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_006_pages_126-150.pdf`; under the standing instruction to keep supplied words, that text is the lexical control for this exact range.
+C07 physical scans **151–175** are fully `verified`. The user supplied word-for-word text identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_007_pages_151-175.pdf`; that text controls lexical words under the standing instruction to keep supplied words and not silently correct them.
 
-The controlling scan independently governs source structure. Established C06 boundaries:
+Source structure for C07 was reconciled from the already completed direct-visual Phase-2 page records:
 
-- **126–127** — `அருமறையில் அறுவர்` conclusion; scan 127 closes with `வணக்கம் / வாழ்க` and a printed illustration;
-- **128–137** — `புதிய பாதை`; scan 128 title/context opening, scan 137 closing with `வணக்கம் / வாழ்க` and illustration;
-- **138–143** — `உடைமைகள் பத்து`; scan 138 title/context/star opening, scan 143 conclusion followed by a separate parenthetical participant note;
-- **144–150** — `நீர்க் குடும்பம்`; scan 144 title/context/star opening, scan 150 remains mid-item.
+- **151–154** — conclusion of `நீர்க் குடும்பம்`; scan 154 / printed 137 closes with `வணக்கம் / வாழ்க` and a printed decorative illustration;
+- **155–169** — `பாரதிதாசன்`; scan 155 title + `8.12.68` Bombay context + centered star; scan 169 / printed 152 closes the item;
+- **170–174** — `பாரதியார்`; scan 170 title + `12.9.69` Chennai Vani Mahal context + centered star; scan 174 / printed 157 closes with `வணக்கம் / வாழ்க` and illustration;
+- **175** — opens `பொங்கல் திருநாள்` with title + `12.1.1970` Chennai radio context + centered star; item continues beyond C07.
 
-Non-source Gujarati/OCR garbage before `புதிய பாதை`, running headers/page numbers and other extraction noise were excluded from body text. No supplied lexical word was silently replaced.
+Already verified scans **154 and 174** remained verified after reconciliation to the range-specific lexical control. C07 promoted **23** additional pages.
 
 ### Exact next activity
 
-Begin **Phase 2 Clearance Batch C07 — physical scans 151–175**. The user has already supplied the `part_007_pages_151-175` word-for-word transcription in the current conversation; use it as lexical control under the standing rule when available. Do not begin C08, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C08 — physical scans 176–200**. Do not begin C09, Phase 3, canonical assembly or translation in the same activity.
