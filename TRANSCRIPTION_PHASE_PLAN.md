@@ -18,11 +18,11 @@ Independently reread every page against the controlling scan. Check word endings
 - Phase 1: **COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **0 `partial`, 241 `needs-review`, 224 `verified`**;
-- verified pages: **0001–0200, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–200**.
+- cumulative status: **0 `partial`, 219 `needs-review`, 246 `verified`**;
+- verified pages: **0001–0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–226**.
 
-### Clearance C01–C08
+### Clearance C01–C09
 
 - C01 scans **1–25 — COMPLETE**;
 - C02 scans **26–50 — COMPLETE**;
@@ -31,7 +31,8 @@ Independently reread every page against the controlling scan. Check word endings
 - C05 scans **101–125 — COMPLETE**;
 - C06 scans **126–150 — COMPLETE**;
 - C07 scans **151–175 — COMPLETE**;
-- C08 scans **176–200 — COMPLETE**.
+- C08 scans **176–200 — COMPLETE**;
+- C09 scans **201–225 — COMPLETE**.
 
 ### User-designated supplied-word lexical-control ranges
 
@@ -45,22 +46,24 @@ Standing rule:
 Applied ranges:
 
 - **76–100** — supplied Gemini transcription;
-- **101–125** — `part_005_pages_101-125` transcription;
-- **126–150** — `part_006_pages_126-150` transcription;
-- **151–175** — `part_007_pages_151-175` transcription;
-- **176–200** — uploaded `kavi1.md` / `part_008_pages_176-200` transcription.
+- **101–125** — `part_005_pages_101-125`;
+- **126–150** — `part_006_pages_126-150`;
+- **151–175** — `part_007_pages_151-175`;
+- **176–200** — `kavi1.md` / `part_008_pages_176-200`;
+- **201–225** — `kavi2.md` / `part_009_pages_201-225`.
 
-### C08 source structure
+### C09 source structure
 
-- scans **176–184** close `பொங்கல் திருநாள்`; scan 184 / printed 167 has `வணக்கம் / வாழ்க` plus a decorative illustration;
-- scans **185–196** are `வாழ்வெனும் பாதையில்`; scan 185 is the title/context/star opening and scan 196 / printed 179 closes the item;
-- scans **197–200** begin `கணக்கு`; scan 197 / printed 180 is the title/context/star opening and scan 200 / printed 183 remains mid-item.
+- scans **201–204** close `கணக்கு`; scan 204 / printed 187 has the closing salutation and decorative illustration;
+- scans **205–215** are `நேரு கண்ட ஜனநாயகம்`; scan 205 is the title/context/star opening and scan 215 / printed 198 closes with `வாழ்க!` and illustration;
+- scans **216–217** are `நன்றி, நன்றி!`; scan 217 / printed 200 closes with repeated thanks and separator;
+- scans **218–225** begin `வெள்ளி விழா`; scan 225 / printed 208 remains mid-item and continues to scan 226.
 
-Scans **184 and 196** were already `verified`; the remaining **23 pages** were promoted during C08. The contiguous verified boundary is now **1–200**.
+Scans **204, 215 and 217** were already `verified`; the remaining **22 pages** were promoted during C09. Scan **226** was independently verified before C09, so the durable contiguous verified boundary now reaches **1–226**.
 
 ### Exact next activity
 
-Execute **Phase 2 Clearance Batch C09 — physical scans 201–225**, using uploaded `kavi2.md` / `part_009_pages_201-225` as lexical control under the standing rule. Preserve any already verified pages inside the window. Do not begin C10 or Phase 3 in the same activity.
+Execute **Phase 2 Clearance Batch C10 — physical scans 226–250**, using uploaded `kavi3.md` / `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_010_pages_226-250.pdf` as lexical control under the standing rule. Preserve already verified scan **226** and any other pre-verified scans inside the window. Do not begin C11 or Phase 3 in the same activity.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
