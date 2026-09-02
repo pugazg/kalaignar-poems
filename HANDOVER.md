@@ -6,7 +6,7 @@
 
 ## Authority rule
 
-**Live GitHub `main` is authoritative.** The controlling scan is source authority for physical/source structure. An explicitly user-designated exact-source word-for-word transcription controls lexical words only for its stated range.
+**Live GitHub `main` is authoritative.** The controlling scan is source authority for physical/source structure. An explicitly user-designated exact-source word-for-word transcription controls lexical words only where that supplied text is actually present for the stated page range.
 
 ## Mandatory startup
 
@@ -30,18 +30,18 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-## Durable state after C11
+## Durable state
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Clearance **C01–C11 COMPLETE**;
-- C12: **NEXT**;
-- cumulative: **0 partial / 176 needs-review / 289 verified**;
-- verified: **0001–0275, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- C12: **PARTIAL**;
+- cumulative: **0 partial / 169 needs-review / 296 verified**;
+- verified: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **1–275**;
 - Phase 3 / canonical assembly / translation: **blocked**.
 
-## Completed user lexical-control ranges
+## Completed lexical-control ranges
 
 - C04 76–100 — supplied Gemini transcription;
 - C05 101–125 — `part_005_pages_101-125`;
@@ -52,41 +52,47 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - C10 226–250 — `kavi3.md` / `part_010_pages_226-250`;
 - C11 251–275 — `kavi4.md` / `part_011_pages_251-275`.
 
-Standing rule for these ranges:
+Standing rule:
 
 - retain supplied lexical words;
-- source-established scan structure controls physical page placement, paragraph/order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
-- running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage are excluded;
-- do not silently substitute scan-derived lexical wording.
+- source-established scan structure controls physical placement, order, punctuation, quotations, headings, speaker/performance-note boundaries, lineation and spacing;
+- exclude running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage;
+- never silently substitute scan-derived lexical wording where the user supplied a lexical control.
 
-## C11 — COMPLETE
+## C12 — PARTIAL / SUPPLIED-FILE GAP
 
-Physical window: **251–275**. All **25/25** are `verified`. Pre-C11 verified scans **253, 260, 266, 272** remained verified, so C11 produced **21 promotions**.
+Intended physical window: **276–300**. Uploaded `kavi5.md` says it was extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`.
 
-Fixed source structure:
+Actual attached Markdown content is incomplete for that declared range:
 
-- **251–253** — closes `வையம் தழைக்க`; scan 253 / printed 236 is the conclusion;
-- **254–260** — `தந்தை பெரியார்`; scan 254 title/context/star opening, scan 260 / printed 243 conclusion + decorative illustration;
-- **261–266** — `அகத்துறைப் படைப்புகள்`; scan 261 title/context/star opening, scan 266 / printed 249 conclusion + floral separator;
-- **267–272** — `பொங்கல் விழா`; scan 267 title/context/star opening, scan 272 / printed 255 conclusion + separator;
-- **273–275** — begins `சிலப்பதிகார விருந்து`; scan 273 title/context/star opening, scan 275 / printed 258 remains open.
+- its first body page is printed page **276**, corresponding to physical scan **293** in the established page map;
+- its last body page is printed page **283**, corresponding to physical scan **300**;
+- it contains no lexical transcription for physical scans **276–292** / printed pages **259–275**.
 
-Notable supplied lexical forms retained include `துரத்தியதும்`, `சீலமுற`, `பொன்னடியான்`, `கவிாட்ட`, `பொய்ம்மை`, `பசும்பால் கட்டித்`, `அக்ரகாரத்து`, `ஏரிமலையாய்ச்`, `ஏதென்சுநகர் சாக்ரடீசாய்`, `மந்தி கை மாலையென`, `இந்தி கைத் தமிழர், ஆக`, `ஈவெரா`, `மருந்தாளும்`, `வாழ்ந்தி டுங்காண்`, `தமிழர்க்குரிய்துமல்ல`, `தினைத்துணையும்`, `தோதாக்கித்`, `ஊனமுற்ற`, `பதைப்பே`, `பெங்கலோ`, `கற்றுணர்`, `ஜங்குறுநூறு`, `பசும்பால்`, `வைதீகக் கோட்டைக்கு`, `நடபுக்கு`, `இரு தார மணத்தானுக்கு`, `மறங்கெழுவீரருண்டு` and `சீர்மலி`.
+Work completed safely:
 
-Structural/non-body handling included excluding `BBS`, running `கவிதைகள்` / `கலைஞரின்` headers, printed numerals, corrupted `சுவிதைகள்`, isolated extraction `அவன்`, a stray extraction `அது`, and representing extraction `%` by the source-established floral separator. Earlier scan-derived lines absent from the user-controlled `kavi4.md` were not silently restored, including the former continuation after scan 270's `புறத்தில் நானூறு அகத்தில் நானூறு` and the former scan-271 `காய்த்திருக்கும்...` opening.
+- **293–300** reconciled to the supplied `kavi5.md` words and marked `verified`;
+- **296** remained verified while being reconciled;
+- new promotions from this partial C12 activity: **293, 294, 295, 297, 298, 299, 300** = **7**;
+- pre-existing verified scans **285** and **292** were preserved and not altered by absent lexical text;
+- scans **276–284 and 286–291** remain `needs-review` under C12 because the intended supplied lexical text is missing;
+- cumulative moved from **0/176/289** to **0/169/296**;
+- contiguous verified boundary remains **1–275**.
 
-The current Files renderer still exposes only the old 150-page window; that tooling boundary does **not** override the exact 465-page source identity or invalidate the already completed direct-visual source-structure pass recorded in the page layer.
+Notable retained supplied forms in scans 293–300 include `உடன் பிறப்பே`, `சோதரிகள்`, `குறளையும்`, `உதடசைக்கு`, `எழுபத்தி`, `உலைக்களத்துக்`, `கை நிறைய`, `காலனியாய்`, `நாடாகக்`, `இந்தி வெறியர்களின்`, `கறுப்பு`, `சூளூரை`, `அணுப் பொழுதுமின்றி`, `நாடதிர`, `எங்குதித்த`, `கங்குகரை`, `கனல் கிளம்ப`, `கலிங்கத்துப்`, `பழம்பாட்டே`, `சூளுரை`, `வைதீகபுரியை`, `செல்லுபடியானதில்லை`, `சினந்து`, `புதுமைக் காளைகள்`, `இந்நாட்டான்`, `கொழித்து விட்ட உமிகள்`, `உதித்துவிட்ட`, `உயர்ஜாதிக்காரர்`, `கடவுளரின்`, `நடத்துகின்றீர்`, `ஆனகதி`, and `சிவனாரும்`.
+
+Extraction garbage such as `mimage A`, non-Tamil script, running `கலைஞரின்` / `கவிதைகள்` headers and page numerals was excluded.
 
 ## Remaining uploaded sequence
 
-- `kavi5.md` → **276–300**, internally identified as `part_012_pages_276-300` — **C12 NEXT**;
+- `kavi5.md` → intended 276–300, but current payload only supplies 293–300 — **C12 PARTIAL**;
 - `kavi6.md` → 301–325;
 - `kavi7.md` → 326–350;
 - `kavi8.md` → 351–375;
 - `kavi9.md` → 376–400;
 - `kavi10.md` → 401–425;
-- `kavi11.md` begins with internal label `part_018_pages_426-450`; inspect its internal transitions before applying the final 40-page remainder.
+- `kavi11.md` begins with internal label `part_018_pages_426-450`; inspect internal transitions before final-range use.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C12 — physical scans 276–300** using uploaded `kavi5.md` / `part_012_pages_276-300` as lexical control. Preserve/reconcile already verified scans **285, 292, 296**. Do not begin C13, Phase 3, canonical assembly or translation in the same activity.
+Recover or re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275** from the intended `part_012_pages_276-300` source range, then finish C12. Preserve already verified scans **285** and **292**. Do **not** begin C13, Phase 3, canonical assembly or translation until C12 is complete.
