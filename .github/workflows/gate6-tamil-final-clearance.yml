@@ -1,0 +1,44 @@
+name: Gate6 Tamil Final Clearance
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/gate6-tamil-final-clearance.yml
+
+permissions:
+  contents: write
+
+jobs:
+  clearance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Execute Tamil final clearance
+        run: python3 .github/gate6_tamil_final_clearance.py
+      - name: Validate Gate 6 result and immutable Tamil layers
+        run: |
+          test -z "$(git diff --name-only | grep -E '^poems/kalaignarin-kavithaigal/(pages|sections)/' || true)"
+          test -z "$(git diff --name-only | grep -E '^poems/kalaignarin-kavithaigal/translations/' || true)"
+          test -f poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md
+          grep -Fq '**PHASE 3 COMPLETE — TAMIL FINAL CLEARANCE: PASS.**' poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md
+          grep -Fq 'Tamil source/canonical layer: **FINAL-CLEARED**' poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md
+          grep -Fq 'Phase 4 is now unblocked' poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md
+          grep -Fq 'Gate 6 — Tamil final clearance: **COMPLETE / PASS**' HANDOVER.md
+          grep -Fq 'Tamil source/canonical layer: **FINAL-CLEARED**' HANDOVER.md
+          grep -Fq 'Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**' HANDOVER.md
+          grep -Fq 'Tamil final clearance — COMPLETE / PASS' TRANSCRIPTION_PHASE_PLAN.md
+          grep -Fq 'Phase 4 — translation and release' TRANSCRIPTION_PHASE_PLAN.md
+          git diff --check
+      - name: Commit Gate 6 clearance and remove one-shot runner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/gate6_tamil_final_clearance.py .github/workflows/gate6-tamil-final-clearance.yml
+          git add -A
+          git diff --cached --check
+          git commit -m "Complete Kalaignarin Kavithaigal Tamil final clearance"
+          git push origin HEAD:main
