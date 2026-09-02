@@ -17,7 +17,7 @@ An explicitly user-designated exact-source word-for-word transcription may contr
 
 | படைப்பு | ஆசிரியர் | நிலை |
 |---|---|---|
-| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C05 COMPLETE; C06 NEXT; Phase 3 BLOCKED** |
+| கலைஞரின் கவிதைகள் | மு. கருணாநிதி | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C06 COMPLETE; C07 NEXT; Phase 3 BLOCKED** |
 | காலப் பேழையும் கவிதைச் சாவியும் | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English RELEASE-CLEARED; 58/58 items** |
 | தென்னவன் காதை | மு. கருணாநிதி | **Tamil FINAL-CLEARED; English translation paused** |
 | இதயத்தைத் தந்திடு அண்ணா | மு. கருணாநிதி | **Tamil COMPLETE; English RELEASE-COMPLETE** |
@@ -31,26 +31,24 @@ An explicitly user-designated exact-source word-for-word transcription may contr
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 partial, 312 needs-review, 153 verified**;
-- unresolved backlog: **312 pages**;
-- verified so far: **0001–0125, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–125**.
+- cumulative status: **0 partial, 287 needs-review, 178 verified**;
+- unresolved backlog: **287 pages**;
+- verified so far: **0001–0150, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–150**.
 
-### Clearance C04 — COMPLETE
+### Clearance C06 — COMPLETE
 
-C04 physical scans **76–100** are fully `verified`. The user-designated Gemini word-for-word transcription for that range controls lexical wording; the scan controls page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation, spacing and non-body/OCR removal.
+C06 physical scans **126–150** are fully `verified`. The user supplied word-for-word text identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_006_pages_126-150.pdf`; under the standing instruction to keep supplied words, that text is the lexical control for this exact range.
 
-### Clearance C05 — COMPLETE
+The controlling scan independently governs source structure. Established C06 boundaries:
 
-C05 physical scans **101–125** are now fully `verified`. The user supplied a word-for-word transcription identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_005_pages_101-125.pdf` and, under the standing explicit instruction to keep supplied words, it is the lexical control for this exact range.
+- **126–127** — `அருமறையில் அறுவர்` conclusion; scan 127 closes with `வணக்கம் / வாழ்க` and a printed illustration;
+- **128–137** — `புதிய பாதை`; scan 128 title/context opening, scan 137 closing with `வணக்கம் / வாழ்க` and illustration;
+- **138–143** — `உடைமைகள் பத்து`; scan 138 title/context/star opening, scan 143 conclusion followed by a separate parenthetical participant note;
+- **144–150** — `நீர்க் குடும்பம்`; scan 144 title/context/star opening, scan 150 remains mid-item.
 
-The controlling scan was independently inspected for all 25 pages and governs source structure only. Source structure established in C05:
-
-- **101–115** — `காதலா - வீரமா?`; scan 101 title/context opening; scan 115 / printed 98 closes with `வணக்கம்.` and centered floral ornament;
-- **116–125** — `அருமறையில் அறுவர்`; scan 116 title/context + centered star opening; scan 117 / printed 100 contains a large printed line illustration; scan 125 / printed 108 continues the item beyond the C05 boundary.
-
-No supplied lexical word was silently replaced. Source-supported punctuation/quotation structure was repaired where needed, and non-source extraction material such as running headers/page numbers and OCR garbage was excluded from poem body.
+Non-source Gujarati/OCR garbage before `புதிய பாதை`, running headers/page numbers and other extraction noise were excluded from body text. No supplied lexical word was silently replaced.
 
 ### Exact next activity
 
-Begin **Phase 2 Clearance Batch C06 — physical scans 126–150**. Do not begin C07, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C07 — physical scans 151–175**. The user has already supplied the `part_007_pages_151-175` word-for-word transcription in the current conversation; use it as lexical control under the standing rule when available. Do not begin C08, Phase 3, canonical assembly or translation in the same activity.
