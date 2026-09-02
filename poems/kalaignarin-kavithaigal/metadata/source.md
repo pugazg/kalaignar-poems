@@ -25,8 +25,9 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 joins**;
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact, 30 variants, 0 unresolved**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Phase 3 Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
-- Tamil final clearance / translation: **NOT STARTED**.
+- Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
+- Phase 3 Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
+- translation: **NOT STARTED**.
 
 ## Printed-page numbering behaviour
 
@@ -57,3 +58,16 @@ Gate 3 reconciles **81** contents/group/item title witnesses: **51 exact**, **30
 The earlier monolithic `../sections/kalaignarin-kavithaigal.md` representation was removed after Gate 4 was reopened for anthology structure. The corrected assembly follows the repository's multi-item convention with one stable numeric file per indexed poem/item. No verified page text was changed by this structural correction.
 
 Earlier source-backed title metadata corrections at scans **406, 409 and 457–460** remain authoritative; every page record remains `verified`.
+
+## Gate 5 source-completeness review metadata
+
+Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical inventory: **77/77 PASS**;
+- verified body scan accounting: **447/447 PASS**;
+- canonical item scan coverage: **439/439 PASS**;
+- structural group scans: **8/8 PASS**;
+- canonical payload equality against verified page records: **77/77 PASS**;
+- unresolved source-completeness defects: **0**;
+- verified page/canonical item modifications during review: **0**;
+- next ordered gate: **Phase 3 Gate 6 — Tamil final clearance**.

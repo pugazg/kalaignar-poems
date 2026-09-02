@@ -4,7 +4,7 @@ Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`, `indexes/canonical-source-map.md`, and the Gate-4 canonical output as needed.
+Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`, `PHASE3_CANONICAL_SOURCE_REVIEW.md`, `indexes/canonical-source-map.md`, and canonical item files as needed.
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -28,8 +28,9 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 2 **COMPLETE / PASS — 464/464 physical adjacent joins certified**;
 - Phase 3 Gate 3 **COMPLETE / PASS — 81 witnesses: 51 exact / 30 variants / 0 unresolved**;
 - Phase 3 Gate 4 canonical Tamil assembly **COMPLETE / PASS**;
-- Phase 3 Gate 5 assembly/source-completeness review **NEXT / NOT STARTED**;
-- Tamil final clearance / translation **NOT STARTED**.
+- Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
+- Phase 3 Gate 6 Tamil final clearance **NEXT / NOT STARTED**;
+- translation **NOT STARTED**.
 
 ## Gate 4 durable output
 
@@ -49,6 +50,22 @@ The former whole-volume `sections/kalaignarin-kavithaigal.md` output was a struc
 
 Preserve the non-contiguous physical ownership exactly: `அண்ணன் ஒரு கவியரங்கம்` = **230–236, 238**; `தமிழ் வளர வழிநடைப் பயணம்` = **237, 239–244**. The structural correction made **0** verified poem-word changes and **0** page-record changes.
 
+## Gate 5 durable result
+
+Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical items **77/77 PASS**;
+- verified body scan accounting **447/447 PASS**;
+- item scans **439/439 PASS**;
+- structural group scans **8/8 PASS**;
+- canonical payload equality against verified page records **77/77 PASS**;
+- item title witnesses **48 exact / 29 variants**;
+- pure group title witnesses **3 exact / 1 variant**;
+- unresolved source-completeness defects **0**;
+- page-record changes during Gate 5 **0**;
+- canonical-item changes during Gate 5 **0**;
+- Tamil final clearance and translation were **not** started.
+
 ## Locked Phase 3 structure
 
 Gate 1: scan 1 cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 (`scan_page - 17`); scan 465 back cover. `printed_page` stays source-visible only.
@@ -63,13 +80,10 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 5 — assembly/source-completeness review only**.
+Execute **Phase 3 Gate 6 — Tamil final clearance only**.
 
-1. Review Gate-4 canonical output against the verified page layer for one-time source coverage and correct exclusions.
-2. Verify every canonical/source-map title follows Gate-3 authority and contents variants remain separate provenance witnesses.
-3. Verify physical source order, especially 236→237→238→239 and 370→371→372→373→374.
-4. Check scan provenance, source-note/performance/context preservation, separators, quotation structure, lineation and silent-normalization risk.
-5. If a genuine conflict is found, reopen/correct the source page record first, revalidate the affected boundary, regenerate Gate 4 as needed, then resume Gate 5.
-6. Synchronize status-bearing files only when Gate 5 itself is complete.
-
-Do **not** grant Tamil final clearance or begin translation/release work in the same activity.
+1. Confirm Gates 1–5 are all durably PASS.
+2. Confirm there are no unresolved Tamil source/completeness defects.
+3. Confirm the final canonical inventory remains `sections/01.md` through `sections/77.md` with the Gate-5 review unchanged.
+4. If all controls pass, create the durable Tamil-final-clearance record and synchronize status documents.
+5. Do **not** begin English translation in the same activity.

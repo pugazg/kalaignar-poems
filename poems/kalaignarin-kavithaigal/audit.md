@@ -77,6 +77,31 @@ The earlier source-backed title metadata corrections at scans **406, 409 and 457
 
 **Gate 4 PASS — corrected canonical form is 77/77 item files.**
 
+## Phase 3 Gate 5 audit — COMPLETE / PASS
+
+Scope: **canonical assembly/source-completeness review only**. Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+### Review accounting
+
+- canonical item inventory: **77/77 PASS**;
+- verified body interval accounting: **447/447 PASS**;
+- item-assigned source scans: **439/439 PASS**;
+- pure structural group scans: **8/8 PASS**;
+- item-file scan markers: **439/439 PASS**;
+- canonical metadata records: **77/77 PASS**;
+- canonical payload equality against verified page records: **77/77 PASS**;
+- item title witnesses: **48 exact / 29 authorized variants**;
+- pure group title witnesses: **3 exact / 1 authorized variant**;
+- unresolved source-completeness defects: **0**;
+- dropped/duplicated/reordered/cross-item source passages: **0**;
+- silent lexical normalization detected: **0**;
+- verified page records modified during Gate 5: **0**;
+- canonical item files modified during Gate 5: **0**.
+
+### Gate result
+
+**Gate 5 PASS.** Tamil final clearance was not granted and translation was not started during this review.
+
 ## Next audit gate
 
-**Phase 3 Gate 5 — assembly/source-completeness review only.** Review Gate-4 output/source map against the verified page layer for one-time coverage, exclusions, title authority, physical source-order fidelity, source-note preservation and silent-normalization risk. Tamil final clearance and translation remain blocked until later ordered gates.
+**Phase 3 Gate 6 — Tamil final clearance only.** Confirm Gates 1–5 remain PASS and decide whether the Tamil source/canonical layer can be marked final-cleared for Phase 4. Do not begin English translation in the same activity.

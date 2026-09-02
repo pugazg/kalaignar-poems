@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 3 Gate 4
+## Durable state after Phase 3 Gate 5
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -30,8 +30,8 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 2 — boundary / page-join audit: **COMPLETE / PASS — 464/464 joins**;
 - Phase 3 Gate 3 — title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact, 30 variants, 0 unresolved**;
 - Phase 3 Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**;
-- Phase 3 Gate 5 — assembly/source-completeness review: **NOT STARTED — NEXT**;
-- Tamil final clearance: **NOT STARTED**;
+- Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
+- Phase 3 Gate 6 — Tamil final clearance: **NOT STARTED — NEXT**;
 - translation: **NOT STARTED**.
 
 ## Locked Gate 1–3 results
@@ -69,6 +69,25 @@ The intentional physical interposition is preserved explicitly: `அண்ணன
 
 The earlier source-backed title corrections in verified records **0406, 0409 and 0457–0460** remain authoritative. This structural correction changed **0** poem-body words and modified **0** page records; all 465 records remain `verified`.
 
+## Gate 5 durable result
+
+Gate-5 evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical item inventory: **77/77 PASS**;
+- verified body scan accounting: **447/447 PASS**;
+- canonical item scan coverage: **439/439 PASS**;
+- structural group scans: **8/8 PASS**;
+- canonical payload equality against the verified page layer: **77/77 PASS**;
+- Gate-3 item title decisions preserved: **48 exact / 29 variants**;
+- pure group title decisions preserved: **3 exact / 1 variant**;
+- unresolved source-completeness defects: **0**;
+- verified `pages/NNNN.md` records changed during Gate 5: **0**;
+- canonical `sections/NN.md` files changed during Gate 5: **0**;
+- Tamil final clearance granted: **no**;
+- translation started: **no**.
+
+The review independently reconstructed every canonical item's source-facing payload from the verified page layer and found no dropped, duplicated, reordered, cross-item or silently normalized source passage. The 236→237→238→239 interposition and 370→371→372→373→374 divider sequence remain explicitly preserved.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -92,12 +111,13 @@ Before changing anything, read completely:
 13. `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 14. `PHASE3_CANONICAL_ASSEMBLY.md`;
 15. `indexes/canonical-source-map.md`;
-16. canonical item files `sections/01.md` through `sections/77.md` as needed for Gate-5 review.
+16. `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+17. canonical item files `sections/01.md` through `sections/77.md` as needed for Gate-6 final-clearance confirmation.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 5 — assembly/source-completeness review only**.
+Execute **Phase 3 Gate 6 — Tamil final clearance only**.
 
-Review the Gate-4 canonical output and provenance map against the verified page layer for one-time coverage, correct exclusions, title authority, physical source-order fidelity, source-note preservation and silent-normalization risk. If a genuine source-layer discrepancy is found, reopen/correct the page record first, revalidate the affected join, regenerate Gate 4 as needed, and only then continue Gate 5.
+Formally confirm that Phase 3 Gates 1–5 are all PASS, confirm there are no unresolved Tamil source/completeness defects, and decide whether to mark the Tamil source/canonical layer final-cleared for Phase 4.
 
-Do **not** grant Tamil final clearance or begin translation/release work in the same activity.
+Do **not** begin English translation in the same activity.

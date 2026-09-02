@@ -24,8 +24,9 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins**;
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact matches, 30 variants, 0 unresolved**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Phase 3 Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
-- Tamil final clearance / translation: **NOT STARTED**.
+- Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
+- Phase 3 Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
+- translation: **NOT STARTED**.
 
 ## Structural rules retained
 
@@ -52,6 +53,18 @@ Canonical outputs: `sections/01.md` through `sections/77.md`. Source map: `index
 
 The earlier monolithic canonical file was removed after reopening Gate 4 for anthology structure. The corrected layer uses one stable numbered file per indexed poem/item. No verified poem wording or page record was changed by this structural correction.
 
+## Gate 5 review result
+
+Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical items **77/77 PASS**;
+- body scan accounting **447/447 PASS**;
+- item scans **439/439 PASS**;
+- structural scans **8/8 PASS**;
+- canonical payload equality **77/77 PASS**;
+- unresolved source-completeness defects **0**;
+- page-record/canonical-item changes during review **0**.
+
 ## Next phase gate
 
-**Phase 3 Gate 5 — assembly/source-completeness review only.** Tamil final clearance and translation remain deferred.
+**Phase 3 Gate 6 — Tamil final clearance only.** Translation remains deferred.

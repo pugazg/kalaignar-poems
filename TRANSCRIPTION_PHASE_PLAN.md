@@ -41,8 +41,15 @@ Phase 3 proceeds only in ordered gates from `POEM_PROCESSING_GUIDE.md`.
    - source map: `poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md`;
    - evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md`;
    - canonical item-manifest SHA-256: `74f7bbd84edb1d13dec6d775f854a793929ef530b0c78897cc205004ba78972f`.
-5. **Assembly/source-completeness review — NEXT / NOT STARTED.**
-6. **Tamil final clearance — NOT STARTED.**
+5. **Assembly/source-completeness review — COMPLETE / PASS.**
+   - canonical items: **77/77 PASS**;
+   - verified body accounting: **447/447 PASS**;
+   - canonical payload equality: **77/77 PASS**;
+   - title witnesses: **48 exact + 29 variants across items; 3 exact + 1 variant across pure groups**;
+   - unresolved source-completeness defects: **0**;
+   - page-record/canonical-item changes during review: **0**;
+   - evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+6. **Tamil final clearance — NEXT / NOT STARTED.**
 
 ## Gate-4 correction record
 
@@ -52,6 +59,6 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 5 — assembly/source-completeness review only**. Review the generated canonical output and source map against the verified page layer for one-time coverage, exclusions, title authority, source-order fidelity and silent-normalization risk.
+Execute **Phase 3 Gate 6 — Tamil final clearance only**. Formally confirm that Gates 1–5 remain PASS and decide whether the Tamil source/canonical layer can be marked final-cleared for Phase 4.
 
-Do **not** grant Tamil final clearance or begin translation/release work in the same activity.
+Do **not** begin English translation in the same activity.

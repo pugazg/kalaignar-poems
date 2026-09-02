@@ -50,11 +50,25 @@ Gate-4 evidence: `../PHASE3_CANONICAL_ASSEMBLY.md`.
 
 The earlier monolithic canonical file was removed after Gate 4 was reopened for anthology structure. The corrected assembly uses 77 stable numeric item files. The intentional `230–236, 238` / `237, 239–244` interposition is represented without reordering. No verified poem wording or page record changed.
 
+## Phase 3 Gate 5 — assembly/source-completeness review COMPLETE / PASS
+
+Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical item files: **77/77 PASS**;
+- body scan accounting: **447/447 PASS**;
+- item scan accounting: **439/439 PASS**;
+- structural group scans: **8/8 PASS**;
+- canonical metadata records: **77/77 PASS**;
+- canonical payload equality against verified page records: **77/77 PASS**;
+- unresolved source-completeness defects: **0**;
+- page-record/canonical-item changes during review: **0**.
+
 ## Phase status
 
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Gate 2 boundary/page-join audit: **COMPLETE / PASS**;
 - Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
 - Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
-- Tamil final clearance / translation: **NOT STARTED**.
+- Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
+- Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
+- translation: **NOT STARTED**.

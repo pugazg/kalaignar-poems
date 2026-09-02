@@ -25,8 +25,9 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 2: **COMPLETE / PASS — 464/464 physical adjacent joins**;
 - Phase 3 Gate 3: **COMPLETE / PASS — 81 title/group witnesses (51 exact / 30 variants / 0 unresolved)**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Phase 3 Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
-- Tamil final clearance / translation: **NOT STARTED**.
+- Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
+- Phase 3 Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
+- translation: **NOT STARTED**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -60,6 +61,21 @@ The earlier single whole-volume file was a structural assembly error for an anth
 
 The earlier Gate-4 source-backed title corrections at scans **406, 409, 457–460** remain valid. This structural correction changed **0** verified poem words and modified **0** page records.
 
+## Gate 5 — assembly/source-completeness review
+
+**COMPLETE / PASS.** Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical item inventory: **77/77 PASS**;
+- verified body scan accounting: **447/447 PASS**;
+- item-assigned source scans: **439/439 PASS**;
+- structural group scans: **8/8 PASS**;
+- canonical payload equality against the verified page layer: **77/77 PASS**;
+- item title witnesses: **48 exact / 29 authorized variants**;
+- pure group title witnesses: **3 exact / 1 authorized variant**;
+- unresolved source-completeness defects: **0**;
+- verified page records modified during Gate 5: **0**;
+- canonical item files modified during Gate 5: **0**.
+
 ## Next activity
 
-**Phase 3 Gate 5 — assembly/source-completeness review only.** Review the Gate-4 output/source map against the verified page layer for one-time coverage, exclusions, title authority, physical source order, source-note preservation and silent-normalization risk. Do not grant Tamil final clearance or begin translation/release work in the same activity.
+**Phase 3 Gate 6 — Tamil final clearance only.** Confirm Gates 1–5 are PASS and decide whether the Tamil source/canonical layer can be final-cleared for Phase 4. Do not begin English translation in the same activity.

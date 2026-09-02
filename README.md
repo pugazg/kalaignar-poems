@@ -23,8 +23,9 @@ Current status:
 - Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins certified**;
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact matches, 30 source-valid variants**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Phase 3 Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
-- Tamil final clearance and translation: **NOT STARTED**.
+- Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
+- Phase 3 Gate 6 Tamil final clearance: **NEXT / NOT STARTED**;
+- translation: **NOT STARTED**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -40,10 +41,12 @@ Gate 4 assembles the anthology as **77/77 stable canonical poem/item files**, `p
 
 The earlier single whole-volume canonical file was reopened as a structural error for an anthology and removed. The corrected Gate-4 layer follows the repository's established multi-item pattern while preserving the source's intentional interposition (`அண்ணன் ஒரு கவியரங்கம்`: **230–236, 238**; `தமிழ் வளர வழிநடைப் பயணம்`: **237, 239–244**) without reordering. Earlier source-backed title corrections at scans **406, 409, 457–460** remain valid; the structural correction changed no verified poem wording or page records.
 
+Gate 5 independently re-derived the 77-item sequence from the verified page-layer section witnesses and compared every canonical item payload against the verified source-facing page text. Result: **77/77 canonical items PASS**, **447/447 body scans accounted**, **439/439 item scans**, **8/8 structural group scans**, **0 silent-normalization/source-completeness defects**, and **0 page-record/canonical-item changes**. Evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
 ## Supplied lexical controls
 
 A user-designated word-for-word transcription may control lexical words only after its first and final substantive body anchors are matched to the controlling scan. Embedded Markdown page numbers are not positional authority. Scan structure always controls page placement, headings, punctuation, quotations, lineation, separators, illustrations and non-body material.
 
 ## Next activity
 
-**Phase 3 Gate 5 — assembly/source-completeness review only.** Review canonical output and provenance against the verified page layer for one-time coverage, exclusions, title authority, source-order fidelity and silent-normalization risk. Do not grant Tamil final clearance or begin translation/release work in the same activity.
+**Phase 3 Gate 6 — Tamil final clearance only.** Formally confirm Gates 1–5 are PASS and decide whether the Tamil source/canonical layer can be marked final-cleared for Phase 4. Do not begin English translation in the same activity.
