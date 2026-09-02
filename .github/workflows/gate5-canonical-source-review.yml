@@ -31,6 +31,8 @@ jobs:
           PY
       - name: Run Gate 5 review
         run: python3 .github/gate5_review.py
+      - name: Normalize report whitespace
+        run: sed -i 's/[[:space:]]\+$//' poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md
       - name: Validate Gate 5 report
         run: |
           grep -q 'COMPLETE — PASS' poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md
