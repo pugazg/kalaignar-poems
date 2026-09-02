@@ -23,11 +23,11 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C12 COMPLETE; C13 NEXT**;
-- cumulative status: **0 `partial`, 154 `needs-review`, 311 `verified`**;
-- unresolved backlog: **154 pages**;
-- verified pages: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–300**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C13 COMPLETE; C14 NEXT**;
+- cumulative status: **0 `partial`, 131 `needs-review`, 334 `verified`**;
+- unresolved backlog: **131 pages**;
+- verified pages: **0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–325**;
 - Phase 3: **blocked**.
 
 ## User-designated lexical-control alignment rule
@@ -41,16 +41,18 @@ Internal page labels in supplied Markdown are not source-location authority. For
 5. the controlling scan remains lexical authority outside that interval;
 6. source-established placement, punctuation, quotation structure, headings, speaker/performance-note boundaries, lineation and non-body separation always remain source-controlled.
 
-## C12 closure
+## C13 closure
 
-Exact-source derivative: `part_012_pages_276-300.pdf`.
+Exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf`.
 
-`kavi5.md` content anchors establish lexical control only for **293–300**:
+`kavi6.md` body anchors establish lexical control for the complete **301–325** window:
 
-- first: `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!`;
-- last: `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்`.
+- first: `அது கண்ட பார்வதி கொதித் தெழுந்து...`;
+- last: `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..`.
 
-Scans **276–292** were therefore independently verified from the attached exact-source derivative itself. Direct visual closure corrected source-backed forms including `சேறு`, `குழந்தைகட்கு`, `சூளுரை`, `மேடைப் பேச்சரங்கில்`, `அழித்தாராம்`, and `வாக்குக்குச்`. C12 is now **25/25 verified**.
+All scans were source-inspected for structure. Pre-existing verified scans **310** and **317** remained verified after supplied-word reconciliation; **23** other scans were promoted. The window contains the closure of `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, the complete `மாறி வரும் ஊரினிலே`, and the opening/continuation of `சமுதாயப் பார்வைகள்...!`.
+
+C13 result: **25/25 verified**; cumulative **0 / 131 / 334**; contiguous boundary **1–325**.
 
 ## Source-access / witness rule
 
@@ -60,4 +62,4 @@ The historical renderer's reported/exposed 150-page window is not the physical s
 
 ## Next
 
-C13 = physical scans **301–325**. `kavi6.md` is content-anchor matched to the entire attached `part_013_pages_301-325.pdf`: opening `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan 301; ending `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan 325. Preserve/reconcile verified scans **310** and **317**. Do not begin C14 or Phase 3 in the same activity.
+C14 = physical scans **326–350**. Align `kavi7.md` by first/last body anchors against attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf`; do not use Markdown page labels as positional authority. Preserve/reconcile verified scans **328** and **332**. Do not begin C15 or Phase 3 in the same activity.
