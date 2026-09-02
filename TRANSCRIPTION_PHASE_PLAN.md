@@ -13,9 +13,9 @@ The controlling scan remains source authority, except that an explicitly user-de
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - source coverage: **465/465 COMPLETE**;
 - page clearance: **IN PROGRESS**;
-- cumulative: **0 partial / 197 needs-review / 268 verified**;
-- verified: **0001–0250, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–250**.
+- cumulative: **0 partial / 176 needs-review / 289 verified**;
+- verified: **0001–0275, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–275**.
 
 ### Clearance windows
 
@@ -28,8 +28,9 @@ The controlling scan remains source authority, except that an explicitly user-de
 - C07 151–175 — COMPLETE
 - C08 176–200 — COMPLETE
 - C09 201–225 — COMPLETE
-- **C10 226–250 — COMPLETE**
-- **C11 251–275 — NEXT**
+- C10 226–250 — COMPLETE
+- **C11 251–275 — COMPLETE**
+- **C12 276–300 — NEXT**
 
 ### User-designated lexical controls
 
@@ -40,7 +41,7 @@ Standing rule:
 - exclude running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage;
 - do not silently substitute scan-derived lexical words.
 
-Applied through C10:
+Applied through C11:
 
 - 76–100 supplied Gemini transcription;
 - 101–125 `part_005_pages_101-125`;
@@ -48,21 +49,22 @@ Applied through C10:
 - 151–175 `part_007_pages_151-175`;
 - 176–200 `kavi1.md` / `part_008_pages_176-200`;
 - 201–225 `kavi2.md` / `part_009_pages_201-225`;
-- 226–250 `kavi3.md` / `part_010_pages_226-250`.
+- 226–250 `kavi3.md` / `part_010_pages_226-250`;
+- 251–275 `kavi4.md` / `part_011_pages_251-275`.
 
-### C10 source structure
+### C11 source structure
 
-- scan **226** closes `வெள்ளி விழா`;
-- scans **227–229** are `அண்ணன் இருக்கின்றார்`;
-- scans **230–236 and 238** are `அண்ணன் ஒரு கவியரங்கம்`, with scan **237** physically interposed before scan 238 resumes/closes the item;
-- scans **237 and 239–244** are `தமிழ் வளர வழிநடைப் பயணம்`; scan 244 closes it;
-- scans **245–250** begin `வையம் தழைக்க`; scan 250 remains mid-item.
+- scans **251–253** close `வையம் தழைக்க`;
+- scans **254–260** are `தந்தை பெரியார்`, closing on scan 260;
+- scans **261–266** are `அகத்துறைப் படைப்புகள்`, closing on scan 266;
+- scans **267–272** are `பொங்கல் விழா`, closing on scan 272;
+- scans **273–275** begin `சிலப்பதிகார விருந்து`, which remains open at scan 275.
 
-Pre-C10 verified scans **226, 238, 244** remained verified; C10 promoted **22** pages and moved the contiguous boundary to **1–250**.
+Pre-C11 verified scans **253, 260, 266, 272** remained verified; C11 promoted **21** pages and moved the contiguous boundary to **1–275**.
 
 ### Exact next activity
 
-Execute **C11 — scans 251–275**, using uploaded `kavi4.md` / `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_011_pages_251-275.pdf` as lexical control. Preserve/reconcile pre-verified scans **253, 260, 266, 272**. Do not begin C12 or Phase 3 in the same activity.
+Execute **C12 — scans 276–300**, using uploaded `kavi5.md` / `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf` as lexical control. Preserve/reconcile pre-verified scans **285, 292, 296**. Do not begin C13 or Phase 3 in the same activity.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
