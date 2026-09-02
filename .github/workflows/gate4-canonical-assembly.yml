@@ -27,7 +27,7 @@ jobs:
           git add poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md
           git add poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md
           git diff --cached --check
-          git commit -m "Assemble Kalaignarin Kavithaigal canonical Tamil layer"
+          git commit -m "Regenerate Kalaignarin Kavithaigal canonical Tamil layer"
           git push origin HEAD:main
 
-# Temporary one-shot runner; remove after Gate 4 is durably synchronized.
+# Temporary one-shot runner; remove after corrected Gate 4 is durably synchronized.
