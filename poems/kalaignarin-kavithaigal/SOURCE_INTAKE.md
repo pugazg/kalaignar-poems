@@ -18,40 +18,25 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C13 COMPLETE; C14 NEXT**;
-- cumulative status: **0 `partial`, 131 `needs-review`, 334 `verified`**;
-- unresolved backlog: **131 pages**;
-- verified: **0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–325**;
+- Phase 2 clearance: **IN PROGRESS — C01–C14 COMPLETE; C15 NEXT**;
+- cumulative status: **0 `partial`, 108 `needs-review`, 357 `verified`**;
+- unresolved backlog: **108 pages**;
+- verified: **0001–0350, 0371–0373, 0392–0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–350**;
 - Phase 3 and English translation: **blocked**.
 
 ## Supplied-word lexical-control positioning
 
-The user explicitly requires supplied Markdown to be aligned by **starting/ending body text**, not by page numbers written inside the Markdown.
+The user explicitly requires supplied Markdown to be aligned by **starting/ending body text**, not by page numbers written inside the Markdown. For every `kavi*.md` control, first and final substantive body anchors define the actual lexical-control interval; source structure remains controlling throughout.
 
-For every current/future `kavi*.md` control:
+## C14 lexical-control state
 
-- identify the first substantive body word/paragraph in the Markdown and locate it in the exact source;
-- identify the final substantive body word/paragraph and locate it in the exact source;
-- only the confirmed source interval between those anchors is controlled lexically by the Markdown;
-- page-number labels or claimed ranges inside Markdown are descriptive only and do not override text anchors;
-- source text outside the confirmed supplied span is verified directly from the controlling scan.
+Exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf`.
 
-## C13 — COMPLETE
+`kavi7.md` aligns from scan **326** (`நிலத்தில் உதித்தது மனித ஜாதி!`) through scan **350** (`ஆதிக்கக் காரர்களின் சவாரிக் குதிரைகளாய்`). The ending anchor is the source-visible final body line on scan 350. Hence the full C14 window uses supplied lexical words with source-established structural control.
 
-Attached exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf`.
-
-Content alignment of `kavi6.md`:
-
-- starts at scan **301** with `அது கண்ட பார்வதி கொதித் தெழுந்து...`;
-- ends at scan **325** with `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..`.
-
-Thus the supplied Markdown controls lexical words throughout C13. Source-established structure divides the window into **301–310** `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, **311–317** `மாறி வரும் ஊரினிலே`, and **318–325** `சமுதாயப் பார்வைகள்...!` (continuing beyond the batch).
-
-Pre-existing verified **310** and **317** were reconciled; the other **23** pages were newly promoted. No supplied lexical word was silently replaced merely because the scan or prior page record suggested another reading. Source structure did correct extraction placement where required, including separator and line placement on scan 321.
-
-C13 final = **25/25 verified**; cumulative **0 / 131 / 334**; contiguous boundary **1–325**.
+Pre-existing verified **328, 332** were preserved; all other scans in C14 were promoted after reconciliation.
 
 ## Current next activity
 
-Begin **C14 — physical scans 326–350**. Content-anchor align uploaded `kavi7.md` against attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf` before applying lexical control. Preserve/reconcile verified scans **328** and **332**. Do not begin C15, Phase 3, canonical assembly or translation in the same activity.
+Begin **C15 — physical scans 351–375**. Match `kavi8.md` and `part_015_pages_351-375.pdf` by first/last body anchors before use. Preserve/reconcile verified scans **371–373**. Do not begin C16 or Phase 3 in the same activity.

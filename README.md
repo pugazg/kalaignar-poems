@@ -15,7 +15,7 @@
 
 | படைப்பு | நிலை |
 |---|---|
-| கலைஞரின் கவிதைகள் | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C13 COMPLETE; C14 NEXT; Phase 3 BLOCKED** |
+| கலைஞரின் கவிதைகள் | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C14 COMPLETE; C15 NEXT; Phase 3 BLOCKED** |
 | காலப் பேழையும் கவிதைச் சாவியும் | Tamil FINAL-CLEARED; English RELEASE-CLEARED |
 | தென்னவன் காதை | Tamil FINAL-CLEARED; English translation paused |
 | இதயத்தைத் தந்திடு அண்ணா | Tamil COMPLETE; English RELEASE-COMPLETE |
@@ -29,30 +29,20 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 partial, 131 needs-review, 334 verified**;
-- unresolved backlog: **131 pages**;
-- verified: **0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–325**.
+- cumulative status: **0 partial, 108 needs-review, 357 verified**;
+- unresolved backlog: **108 pages**;
+- verified: **0001–0350, 0371–0373, 0392–0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–350**.
 
-### Clearance C13 — COMPLETE
+### Clearance C14 — COMPLETE
 
-C13 covers physical scans **301–325**. `kavi6.md` was positioned by body-text anchors, not its internal page labels:
+C14 covers physical scans **326–350**. Uploaded `kavi7.md` was positioned by body anchors, not internal page labels:
 
-- opening `அது கண்ட பார்வதி கொதித் தெழுந்து...` = attached `part_013` page 1 / scan **301**;
-- ending `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = attached `part_013` page 25 / scan **325**.
+- opening anchor `நிலத்தில் உதித்தது மனித ஜாதி!` = physical scan **326** / attached `part_014` page 1;
+- ending anchor `ஆதிக்கக் காரர்களின் சவாரிக் குதிரைகளாய்` = physical scan **350** / attached `part_014` page 25, where it is the final body line on the source page.
 
-Therefore `kavi6.md` controls lexical words across the full C13 window. All 25 source scans were inspected for physical structure and non-body material.
-
-Fixed C13 structure:
-
-- **301–310** — continuation and closure of `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`; scan 310 closes with the printed ornament;
-- **311–317** — `மாறி வரும் ஊரினிலே`; scan 311 opens with title/context and scan 317 closes with the lower-page illustration;
-- **318–325** — `சமுதாயப் பார்வைகள்...!`; scan 318 opens the item and scan 325 remains a continuation.
-
-Pre-existing verified scans **310** and **317** were reconciled without downgrade. The other **23** pages were newly promoted. Supplied lexical forms were retained even where earlier scan-derived readings differed, including examples such as `ஆனையொன்று`, `சண்டமாருதங்களையும்`, `எப்படி டைக்கலாம்`, `கனற்பிழம்பாய்`, `சா வுரலில்`, `உழைத்தலுத்த`, `ஈர விறகுக் கட்டை`, `ஐம்பதாமே`, `கொஞ்சேமா`, `பயிண்டு`, `அராஜகக்`, `பாபம்`, and `தான்றியது`.
-
-Result: **301–325 = 25/25 verified**. Cumulative status is **0 / 131 / 334**, and the contiguous boundary is **1–325**.
+Thus `kavi7.md` supplies lexical control across the full C14 window. Exact-source images control page boundaries, title/context placement, punctuation, lineation, ornaments and non-body exclusion. Pre-existing verified scans **328** and **332** were preserved/reconciled; **23** pages were newly promoted.
 
 ### Exact next activity
 
-Begin **C14 — physical scans 326–350**. First align uploaded `kavi7.md` to attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf` by its first and last substantive body words/paragraphs; do not use page-number labels inside the Markdown as positional authority. Preserve/reconcile already verified scans **328** and **332**. Do not begin C15, Phase 3, canonical assembly or translation in the same activity.
+Begin **C15 — physical scans 351–375**. Use uploaded `kavi8.md` and the exact-source `part_015_pages_351-375.pdf` only after matching their first and last substantive body anchors. Preserve/reconcile pre-verified scans **371, 372, 373**. Do not begin C16, Phase 3, canonical assembly or translation in the same activity.

@@ -23,36 +23,25 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C13 COMPLETE; C14 NEXT**;
-- cumulative status: **0 `partial`, 131 `needs-review`, 334 `verified`**;
-- unresolved backlog: **131 pages**;
-- verified pages: **0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–325**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C14 COMPLETE; C15 NEXT**;
+- cumulative status: **0 `partial`, 108 `needs-review`, 357 `verified`**;
+- unresolved backlog: **108 pages**;
+- verified pages: **0001–0350, 0371–0373, 0392–0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–350**;
 - Phase 3: **blocked**.
 
 ## User-designated lexical-control alignment rule
 
-Internal page labels in supplied Markdown are not source-location authority. For each supplied transcription:
+Internal page labels in supplied Markdown are not source-location authority. Locate the first substantive body word/paragraph and the final substantive body word/paragraph in the exact source; only the matched interval receives supplied lexical control. Source-established placement, punctuation, quotation structure, headings, speaker/performance-note boundaries, lineation and non-body separation remain source-controlled.
 
-1. locate its first substantive body word/paragraph in the controlling source or an exact-source derivative;
-2. locate its final substantive body word/paragraph;
-3. the matched interval defines the actual lexical-control span;
-4. supplied words control only inside that interval;
-5. the controlling scan remains lexical authority outside that interval;
-6. source-established placement, punctuation, quotation structure, headings, speaker/performance-note boundaries, lineation and non-body separation always remain source-controlled.
+## C14 closure
 
-## C13 closure
+`kavi7.md` content anchors span the entire attached `part_014_pages_326-350.pdf`:
 
-Exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf`.
+- first `நிலத்தில் உதித்தது மனித ஜாதி!` = scan **326**;
+- last `ஆதிக்கக் காரர்களின் சவாரிக் குதிரைகளாய்` = scan **350**, final body line.
 
-`kavi6.md` body anchors establish lexical control for the complete **301–325** window:
-
-- first: `அது கண்ட பார்வதி கொதித் தெழுந்து...`;
-- last: `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..`.
-
-All scans were source-inspected for structure. Pre-existing verified scans **310** and **317** remained verified after supplied-word reconciliation; **23** other scans were promoted. The window contains the closure of `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, the complete `மாறி வரும் ஊரினிலே`, and the opening/continuation of `சமுதாயப் பார்வைகள்...!`.
-
-C13 result: **25/25 verified**; cumulative **0 / 131 / 334**; contiguous boundary **1–325**.
+C14 is therefore **25/25 verified**, with **23** new promotions and pre-verified **328, 332** preserved.
 
 ## Source-access / witness rule
 
@@ -62,4 +51,4 @@ The historical renderer's reported/exposed 150-page window is not the physical s
 
 ## Next
 
-C14 = physical scans **326–350**. Align `kavi7.md` by first/last body anchors against attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf`; do not use Markdown page labels as positional authority. Preserve/reconcile verified scans **328** and **332**. Do not begin C15 or Phase 3 in the same activity.
+C15 = physical scans **351–375**. Align `kavi8.md` by first/last body anchors against `part_015_pages_351-375.pdf`; preserve verified **371–373**. Do not begin C16 or Phase 3 in the same activity.

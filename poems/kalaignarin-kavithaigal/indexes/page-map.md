@@ -10,12 +10,12 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE. C01–C13 COMPLETE. C14 NEXT.**
+**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE. C01–C14 COMPLETE. C15 NEXT.**
 
 - source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 131 `needs-review`, 334 `verified`**;
-- unresolved backlog: **131 pages**;
-- durable contiguous verified boundary: **physical scans 1–325**;
+- cumulative status: **0 `partial`, 108 `needs-review`, 357 `verified`**;
+- unresolved backlog: **108 pages**;
+- durable contiguous verified boundary: **physical scans 1–350**;
 - Phase 3 remains blocked.
 
 ## Clearance windows
@@ -32,36 +32,34 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - C10: 226–250 — COMPLETE
 - C11: 251–275 — COMPLETE
 - C12: 276–300 — COMPLETE
-- **C13: 301–325 — COMPLETE**
-- **C14: 326–350 — NEXT**
+- C13: 301–325 — COMPLETE
+- **C14: 326–350 — COMPLETE**
+- **C15: 351–375 — NEXT**
 
 ## Positional alignment rule for supplied Markdown
 
 Do **not** locate `kavi*.md` text by page numbers printed or claimed inside the Markdown. Map each file by its first and last substantive body word/paragraph against the source. The matched interval is the only lexical-control interval.
 
-## C13 source map — COMPLETE
+## C14 source map — COMPLETE
 
-`kavi6.md` is anchored to the complete attached `part_013_pages_301-325.pdf` range by body text:
+| Scan(s) | Source structure | C14 outcome |
+|---:|---|---|
+| 326–328 | conclusion of `சமுதாயப் பார்வைகள்...!` | `verified` |
+| 329–332 | `கலைவாணர் அரங்கக் கவியரங்கம்` | `verified` |
+| 333–345 | `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` | `verified` |
+| 346–350 | opening/continuation of `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` | `verified` |
 
-- opening `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan **301**;
-- ending `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan **325**.
+### C14 anchor proof
 
-| Scan(s) | Printed page(s) | Item / outcome |
-|---:|---:|---|
-| 301–309 | 284–292 | `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`; supplied lexical control + source structure; `verified` |
-| 310 | 293 | item conclusion + ornament; prior `verified`, reconciled to `kavi6.md` |
-| 311 | opening | `மாறி வரும் ஊரினிலே` title/context/star; `verified` |
-| 312–316 | 295–299 | `மாறி வரும் ஊரினிலே`; `verified` |
-| 317 | 300 | item conclusion + lower-page illustration; prior `verified`, reconciled |
-| 318 | opening | `சமுதாயப் பார்வைகள்...!` title/context/star; `verified` |
-| 319–325 | 302–308 | `சமுதாயப் பார்வைகள்...!`; scan 325 remains continuation; `verified` |
+- `kavi7.md` opening `நிலத்தில் உதித்தது மனித ஜாதி!` appears on attached `part_014` page 1 = physical scan **326**;
+- `kavi7.md` ending `ஆதிக்கக் காரர்களின் சவாரிக் குதிரைகளாய்` appears at the foot of attached `part_014` page 25 = physical scan **350**.
 
-C13 newly promoted **23** pages; pre-existing verified **310** and **317** were preserved. Source structure was used to reposition supplied words where extraction order was misleading without changing lexical words, notably scan 321.
+Thus `kavi7.md` lexical control covers the whole C14 window. Internal printed-page markers and running headers in the extraction are excluded.
 
-## Verified pages after C13
+## Verified pages after C14
 
-**0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001–0350, 0371–0373, 0392–0393, 0447, 0465**.
 
 ## Next mapping / verification activity
 
-C14 = **326–350**. First content-anchor `kavi7.md` against attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf`. Page labels in the Markdown are not positional authority. Preserve/reconcile pre-verified **328** and **332**. Do not begin C15 or Phase 3 in the same activity.
+C15 = **351–375**. Align `kavi8.md` against `part_015_pages_351-375.pdf` using first/last substantive body anchors. Preserve/reconcile pre-verified **371–373**. Do not begin C16 or Phase 3 in the same activity.

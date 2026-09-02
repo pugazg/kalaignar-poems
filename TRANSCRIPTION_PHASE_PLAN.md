@@ -15,9 +15,9 @@ The controlling scan remains source authority. An explicitly user-designated exa
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - source coverage: **465/465 COMPLETE**;
 - page clearance: **IN PROGRESS**;
-- cumulative: **0 partial / 131 needs-review / 334 verified**;
-- verified: **0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–325**.
+- cumulative: **0 partial / 108 needs-review / 357 verified**;
+- verified: **0001–0350, 0371–0373, 0392–0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–350**.
 
 ### Clearance windows
 
@@ -33,8 +33,9 @@ The controlling scan remains source authority. An explicitly user-designated exa
 - C10 226–250 — COMPLETE
 - C11 251–275 — COMPLETE
 - C12 276–300 — COMPLETE
-- **C13 301–325 — COMPLETE**
-- **C14 326–350 — NEXT**
+- C13 301–325 — COMPLETE
+- **C14 326–350 — COMPLETE**
+- **C15 351–375 — NEXT**
 
 ### User-designated lexical-control standing rule
 
@@ -45,28 +46,21 @@ The controlling scan remains source authority. An explicitly user-designated exa
 - do not silently substitute scan-derived lexical words inside a confirmed supplied-control span;
 - outside that confirmed span, the controlling scan itself is lexical authority.
 
-### C13 closure
+### C14 closure
 
-`kavi6.md` was content-aligned against attached exact-source derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf`:
+`kavi7.md` was content-aligned across the exact-source `part_014_pages_326-350.pdf`:
 
-- opening body anchor `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan **301**;
-- ending body anchor `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan **325**.
+- first body anchor `நிலத்தில் உதித்தது மனித ஜாதி!` = scan **326**;
+- final body anchor `ஆதிக்கக் காரர்களின் சவாரிக் குதிரைகளாய்` = scan **350**, final body line on that scan;
+- therefore `kavi7.md` controls the full **326–350** lexical interval;
+- pre-verified **328** and **332** remained verified;
+- **23** new promotions close the remaining C14 pages.
 
-Therefore the supplied lexical control covers the full **301–325** window.
-
-Source structure established:
-
-- **301–310** — continuation and closure of `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`; scan 310 closes with ornament;
-- **311–317** — `மாறி வரும் ஊரினிலே`; scan 311 opens the item and scan 317 closes with a lower-page illustration;
-- **318–325** — `சமுதாயப் பார்வைகள்...!`; scan 318 opens the item and scan 325 remains a continuation.
-
-Pre-verified scans **310** and **317** were reconciled without downgrade. The other **23** scans were newly promoted. Representative supplied lexical forms retained include `ஆனையொன்று`, `சண்டமாருதங்களையும்`, `எப்படி டைக்கலாம்`, `கனற்பிழம்பாய்`, `சா வுரலில்`, `உழைத்தலுத்த`, `ஈர விறகுக் கட்டை`, `ஐம்பதாமே`, `கொஞ்சேமா`, `பயிண்டு`, `அராஜகக்`, `பாபம்`, and `தான்றியது`.
-
-C13 final result: **25/25 verified**; cumulative **0 / 131 / 334**; contiguous boundary **1–325**.
+C14 final result: **25/25 verified**; cumulative **0 / 108 / 357**; contiguous boundary **1–350**.
 
 ### Exact next activity
 
-Execute **C14 — scans 326–350**. Before lexical use, align uploaded `kavi7.md` to attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf` using its first and last substantive body anchors. Do not trust page-number labels inside the Markdown. Preserve/reconcile already verified scans **328** and **332**. Do not begin C15 or Phase 3 in the same activity.
+Execute **C15 — scans 351–375**. First align `kavi8.md` against the exact-source `part_015_pages_351-375.pdf` by its first and last substantive body anchors. Preserve/reconcile already verified **371–373**. Do not begin C16 or Phase 3 in the same activity.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
