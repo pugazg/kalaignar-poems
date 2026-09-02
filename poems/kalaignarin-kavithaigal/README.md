@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C11 COMPLETE; C12 PARTIAL; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C12 COMPLETE; C13 NEXT; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,28 +22,37 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 `partial`, 169 `needs-review`, 296 `verified`**;
-- unresolved backlog: **169 pages**;
-- verified pages: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–275**;
+- cumulative status: **0 `partial`, 154 `needs-review`, 311 `verified`**;
+- unresolved backlog: **154 pages**;
+- verified pages: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–300**;
 - Phase 3: **blocked until Phase-2 page clearance is complete**.
 
-## Clearance C12 — PARTIAL
+## Supplied Markdown positioning rule
 
-Physical target window: **276–300**.
+Page numbers embedded in a supplied transcription file are not used to position it. The actual source span is established by its **starting word/paragraph and ending word/paragraph**. Only that confirmed span receives supplied lexical control. Elsewhere the controlling scan remains lexical authority.
 
-Uploaded `kavi5.md` declares `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`, but the actual Markdown body begins at printed page **276** / physical scan **293** and ends at printed page **283** / physical scan **300**. The lexical transcription for physical scans **276–292** / printed pages **259–275** is absent.
+## Clearance C12 — COMPLETE
 
-Current C12 result:
+Physical window: **276–300**.
 
-- **293–300** — reconciled to supplied lexical words and `verified`;
-- **296** — pre-existing verified page reconciled without downgrade;
-- **285, 292** — pre-existing verified pages preserved;
-- **276–284, 286–291** — remain `needs-review` because the supplied lexical control for these pages is missing;
-- C12 cannot be closed without the missing transcription.
+Content-anchor reconciliation showed that uploaded `kavi5.md` covers only **293–300**, despite the page-range claim in its header:
 
-Running headers/page numbers and extraction garbage were excluded from scans 293–300; supplied lexical forms were not silently normalized.
+- first anchor `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!` matches scan 293;
+- final anchor `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்` matches scan 300.
+
+The newly attached exact-source derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf` was therefore used directly for scans **276–292**. Those scans received a complete direct visual clearance; existing verified **285** and **292** remained verified. Scans **293–300** retain the previously applied `kavi5.md` lexical control, including verified scan **296**.
+
+Source-backed corrections made during direct closure included:
+
+- scan 280 `சேறு`;
+- scan 284 `குழந்தைகட்கு` in both occurrences;
+- scan 286 `சூளுரை`;
+- scan 287 `மேடைப் பேச்சரங்கில்`, `அழித்தாராம்`;
+- scan 288 `வாக்குக்குச்`.
+
+C12 result: **25/25 verified**, **15 new promotions** from the previous partial state, contiguous boundary **1–300**.
 
 ## Exact next activity
 
-Recover/re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275**, then complete C12. Do **not** begin C13, Phase 3, canonical assembly or translation until C12 is complete.
+Begin **C13 — scans 301–325**. Use attached `part_013_pages_301-325.pdf` and content-aligned `kavi6.md`. Its opening `அது கண்ட பார்வதி கொதித் தெழுந்து...` matches scan 301 and its ending `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` matches scan 325, establishing full-window lexical coverage. Preserve/reconcile already verified scans **310** and **317**. Do **not** begin C14, Phase 3, canonical assembly or translation in the same activity.
