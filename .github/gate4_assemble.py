@@ -225,7 +225,7 @@ source_map += [
 
 report = f'''# Phase 3 Canonical Tamil Assembly — Gate 4
 
-Work: **கலைஞரின் கவிதைகள்**  
+Work: **கலைஞரின் கவிதைகள்**
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
 ## Scope
