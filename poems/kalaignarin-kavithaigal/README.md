@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C07 COMPLETE; C08 NEXT; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C08 COMPLETE; C09 NEXT; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,29 +22,28 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 `partial`, 264 `needs-review`, 201 `verified`**;
-- unresolved backlog: **264 pages**;
-- verified pages: **0001–0175, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–175**;
+- cumulative status: **0 `partial`, 241 `needs-review`, 224 `verified`**;
+- unresolved backlog: **241 pages**;
+- verified pages: **0001–0200, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–200**;
 - Phase 3: **blocked until Phase-2 page clearance is complete**.
 
-## Clearance C07 — COMPLETE
+## Clearance C08 — COMPLETE
 
-Physical window: **151–175**.
+Physical window: **176–200**.
 
-The user supplied word-for-word text identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_007_pages_151-175.pdf`. Under the standing explicit instruction to keep supplied words without silent lexical correction, that transcription controls lexical content for this exact range.
+The user uploaded `kavi1.md`, identified as word-for-word text extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_008_pages_176-200.pdf`. Under the standing explicit instruction, that transcription controls lexical content for this exact range without silent scan-derived lexical correction.
 
-Source-established C07 structure:
+Source-established C08 structure:
 
-- **151–154** — `நீர்க் குடும்பம்` continuation/conclusion; scan 154 / printed 137 closes with `வணக்கம் / வாழ்க` and a decorative illustration;
-- **155–169** — `பாரதிதாசன்`; scan 155 title/context/star opening; scan 169 / printed 152 closes the item;
-- **170–174** — `பாரதியார்`; scan 170 title/context/star opening; scan 174 / printed 157 closes with `வணக்கம் / வாழ்க` and illustration;
-- **175** — `பொங்கல் திருநாள்` title/context/star opening; item continues beyond C07.
+- **176–184** — `பொங்கல் திருநாள்` continuation/conclusion; scan 184 / printed 167 closes with `வணக்கம் / வாழ்க` and a decorative illustration;
+- **185–196** — `வாழ்வெனும் பாதையில்`; scan 185 title/context/star opening; scan 196 / printed 179 closes with `வணக்கம் / வாழ்க`;
+- **197–200** — `கணக்கு`; scan 197 / printed 180 title/context/star opening; scan 200 / printed 183 remains mid-item and continues to scan 201.
 
-The source structure comes from the completed direct-visual Phase-2 page records, while supplied words control lexical text. Running headers/page numbers and identified OCR garbage were excluded. Already verified scans **154 and 174** remained verified after lexical-control reconciliation.
+Running headers/page numbers and extraction noise were excluded from body text. Already verified scans **184 and 196** remained verified after lexical-control reconciliation.
 
-All page records **0151.md–0175.md** are now `verified`. C07 promoted **23 pages**, moving the cumulative status to **0 partial / 264 needs-review / 201 verified** and advancing the contiguous verified boundary to **1–175**.
+All page records **0176.md–0200.md** are now `verified`. C08 promoted **23 pages**, moving cumulative status to **0 partial / 241 needs-review / 224 verified** and advancing the contiguous verified boundary to **1–200**.
 
 ## Exact next activity
 
-Begin **Phase 2 Clearance Batch C08 — physical scans 176–200**. Do **not** begin C09, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C09 — physical scans 201–225**, using uploaded `kavi2.md` / `part_009_pages_201-225` as lexical control. Do **not** begin C10, Phase 3, canonical assembly or translation in the same activity.
