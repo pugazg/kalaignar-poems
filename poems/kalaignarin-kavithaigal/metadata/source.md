@@ -23,11 +23,11 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C10 COMPLETE; C11 NEXT**;
-- cumulative status: **0 `partial`, 197 `needs-review`, 268 `verified`**;
-- unresolved backlog: **197 pages**;
-- verified pages: **0001–0250, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–250**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C11 COMPLETE; C12 NEXT**;
+- cumulative status: **0 `partial`, 176 `needs-review`, 289 `verified`**;
+- unresolved backlog: **176 pages**;
+- verified pages: **0001–0275, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–275**;
 - Phase 3: **blocked**.
 
 ## User-designated lexical-control ranges
@@ -38,7 +38,8 @@
 - **151–175 / C07 COMPLETE** — `part_007_pages_151-175`;
 - **176–200 / C08 COMPLETE** — `kavi1.md` / `part_008_pages_176-200`;
 - **201–225 / C09 COMPLETE** — `kavi2.md` / `part_009_pages_201-225`;
-- **226–250 / C10 COMPLETE** — `kavi3.md` / `part_010_pages_226-250`.
+- **226–250 / C10 COMPLETE** — `kavi3.md` / `part_010_pages_226-250`;
+- **251–275 / C11 COMPLETE** — `kavi4.md` / `part_011_pages_251-275`.
 
 For each exact designated range:
 
@@ -47,20 +48,22 @@ For each exact designated range:
 - running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage are excluded from poem body;
 - scan-derived lexical wording is not silently substituted.
 
-## C10 source structure
+## C11 source structure
 
-- `வெள்ளி விழா` closes on **226**;
-- `அண்ணன் இருக்கின்றார்` spans **227–229**;
-- `அண்ணன் ஒரு கவியரங்கம்` occupies **230–236 and 238**, with the title leaf of the next item physically interposed at 237;
-- `தமிழ் வளர வழிநடைப் பயணம்` occupies **237 and 239–244** and closes on 244;
-- `வையம் தழைக்க` begins on **245** and remains open through **250**.
+- `வையம் தழைக்க` continues on scans **251–253** and closes on 253;
+- `தந்தை பெரியார்` spans **254–260**;
+- `அகத்துறைப் படைப்புகள்` spans **261–266**;
+- `பொங்கல் விழா` spans **267–272**;
+- `சிலப்பதிகார விருந்து` begins on **273** and remains open through **275**.
 
-All scans **226–250** are `verified`. Scans **226, 238 and 244** retained their prior verified status while being reconciled to C10 lexical control.
+All scans **251–275** are `verified`. Scans **253, 260, 266 and 272** retained their prior verified status while being reconciled to C11 lexical control.
 
 ## Source-access / witness rule
 
 Page-range derivatives and user-supplied extracts from this exact PDF may aid rendering or provide lexical control when explicitly designated. They are not separate witnesses. Unrelated OCR, memory, grammar, metre, historical expectation and other editions are not textual authority.
 
+The current renderer's reported/exposed 150-page window is not the physical source extent and must not override the exact 465-page identity.
+
 ## Next
 
-Begin **Phase 2 Clearance Batch C11 — physical scans 251–275**, using uploaded `kavi4.md` / `part_011_pages_251-275` as lexical control. Preserve/reconcile already verified scans **253, 260, 266 and 272**. Do not begin C12, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C12 — physical scans 276–300**, using uploaded `kavi5.md` / `part_012_pages_276-300` as lexical control. Preserve/reconcile already verified scans **285, 292 and 296**. Do not begin C13, Phase 3, canonical assembly or translation in the same activity.
