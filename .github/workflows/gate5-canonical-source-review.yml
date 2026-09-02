@@ -1,0 +1,36 @@
+name: Gate5 Canonical Source Review
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/gate5-canonical-source-review.yml
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run Gate 5 review
+        run: python3 .github/gate5_review.py
+      - name: Validate Gate 5 report
+        run: |
+          grep -q 'COMPLETE — PASS' poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md
+          grep -q '77/77 — PASS' poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md
+          grep -q '447/447 — PASS' poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md
+          grep -q 'unresolved source-completeness defects: **0**' poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_SOURCE_REVIEW.md
+      - name: Commit Gate 5 review and remove one-shot runner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/gate5_review.py .github/workflows/gate5-canonical-source-review.yml
+          git add -A
+          git diff --cached --check
+          git commit -m "Complete Kalaignarin Kavithaigal Phase 3 Gate 5 review"
+          git push origin HEAD:main
