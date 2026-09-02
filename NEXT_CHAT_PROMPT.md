@@ -21,11 +21,11 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- C01–C12: **COMPLETE**;
-- C13: **NEXT**;
-- cumulative: **0 partial / 154 needs-review / 311 verified**;
-- verified: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous boundary: **1–300**;
+- C01–C13: **COMPLETE**;
+- C14: **NEXT**;
+- cumulative: **0 partial / 131 needs-review / 334 verified**;
+- verified: **0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous boundary: **1–325**;
 - Phase 3 / canonical assembly / translation: **blocked**.
 
 ## Mandatory supplied-transcription alignment rule
@@ -38,28 +38,34 @@ Therefore:
 2. match its last substantive body anchor;
 3. only the source interval between those confirmed anchors is controlled lexically by that Markdown;
 4. embedded/claimed page numbers are not positional authority;
-5. where the supplied Markdown has no matching body text, use the controlling scan directly rather than inventing a supplied lexical span.
+5. where supplied Markdown has no matching body text, use the controlling scan directly rather than inventing a supplied lexical span.
 
-## C12 — COMPLETE
+## C13 — COMPLETE
 
-Content anchoring established that `kavi5.md` actually spans **scans 293–300**:
+`kavi6.md` was aligned to the entire attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf` by body anchors:
 
-- opening `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!` = attached `part_012` page 18 / scan 293;
-- ending `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்` = attached `part_012` page 25 / scan 300.
+- opening `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan **301**;
+- ending `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan **325**.
 
-Scans **276–292** were independently verified directly from attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`. Pre-verified **285, 292, 296** were preserved. C12 is now **25/25 verified**.
+C13 source structure:
 
-## EXACT NEXT ACTIVITY — C13
+- 301–310 `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, closing on 310;
+- 311–317 `மாறி வரும் ஊரினிலே`, opening on 311 and closing on 317;
+- 318–325 `சமுதாயப் பார்வைகள்...!`, continuing beyond scan 325.
 
-Process **physical scans 301–325**.
+All **25/25** scans are verified. Pre-verified **310** and **317** were reconciled; **23** pages were newly promoted. Cumulative status is now **0 / 131 / 334** with contiguous boundary **1–325**.
 
-Available exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf`.
+## EXACT NEXT ACTIVITY — C14
 
-Use uploaded `kavi6.md` as lexical control because its body anchors have already been matched:
+Process **physical scans 326–350**.
 
-- first body anchor: `அது கண்ட பார்வதி கொதித் தெழுந்து...` = derivative page 1 / physical scan 301;
-- last body anchor: `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = derivative page 25 / physical scan 325.
+Available exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf`.
 
-Thus `kavi6.md` covers the full C13 window by content, regardless of any internal page-number labels.
+Use uploaded `kavi7.md` only after content-anchor alignment:
 
-Preserve/reconcile already verified scans **310** and **317**. Promote complete passes only, synchronize all status-bearing files, and **do not begin C14, Phase 3, canonical assembly or translation in the same activity**.
+- find its first substantive body word/paragraph in the attached derivative;
+- find its final substantive body word/paragraph;
+- ignore page-number labels inside `kavi7.md` for positioning;
+- apply supplied lexical control only to the confirmed interval and use direct scan lexical authority outside it.
+
+Preserve/reconcile already verified scans **328** and **332**. Promote complete passes only, synchronize all status-bearing files, and **do not begin C15, Phase 3, canonical assembly or translation in the same activity**.
