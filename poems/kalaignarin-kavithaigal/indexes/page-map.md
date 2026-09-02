@@ -10,57 +10,57 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 ## Status
 
-**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C09 COMPLETE. C10 IS NEXT.**
+**PHASE 1 MAP COMPLETE. PHASE 2 SOURCE-COVERAGE PASS COMPLETE; PAGE CLEARANCE REMAINS IN PROGRESS. CLEARANCE C01–C10 COMPLETE. C11 IS NEXT.**
 
-- Phase 2 source coverage: **465/465 physical scans reviewed**;
-- cumulative status: **0 `partial`, 219 `needs-review`, 246 `verified`**;
-- unresolved backlog: **219 pages**;
-- durable contiguous verified boundary: **physical scans 1–226**;
+- source coverage: **465/465 physical scans reviewed**;
+- cumulative status: **0 `partial`, 197 `needs-review`, 268 `verified`**;
+- unresolved backlog: **197 pages**;
+- durable contiguous verified boundary: **physical scans 1–250**;
 - Phase 3 remains blocked.
 
 ## Clearance windows
 
-- C01: scans **1–25 — COMPLETE**;
-- C02: scans **26–50 — COMPLETE**;
-- C03: scans **51–75 — COMPLETE**;
-- C04: scans **76–100 — COMPLETE**;
-- C05: scans **101–125 — COMPLETE**;
-- C06: scans **126–150 — COMPLETE**;
-- C07: scans **151–175 — COMPLETE**;
-- C08: scans **176–200 — COMPLETE**;
-- C09: scans **201–225 — COMPLETE**;
-- C10: scans **226–250 — NEXT**.
+- C01: 1–25 — COMPLETE
+- C02: 26–50 — COMPLETE
+- C03: 51–75 — COMPLETE
+- C04: 76–100 — COMPLETE
+- C05: 101–125 — COMPLETE
+- C06: 126–150 — COMPLETE
+- C07: 151–175 — COMPLETE
+- C08: 176–200 — COMPLETE
+- C09: 201–225 — COMPLETE
+- **C10: 226–250 — COMPLETE**
+- **C11: 251–275 — NEXT**
 
-## C09 source map — COMPLETE
+## C10 source map — COMPLETE
 
 | Scan(s) | Source-established role / boundary | Outcome |
 |---:|---|---|
-| 201–203 | `கணக்கு` continuation with chairman/performance-note transitions | `verified` |
-| 204 | `கணக்கு` conclusion; printed 187; `வணக்கம்; / வாழ்க!` + decorative illustration | `verified` |
-| 205 | `நேரு கண்ட ஜனநாயகம்` title + `14.11.1970` Chennai context + centered star + opening | `verified` |
-| 206–214 | `நேரு கண்ட ஜனநாயகம்` continuation with quotation, chairman and performance-note structures | `verified` |
-| 215 | `நேரு கண்ட ஜனநாயகம்` conclusion; printed 198; `வாழ்க!` + decorative caged-bird illustration | `verified` |
-| 216–217 | `நன்றி, நன்றி!`; scan 216 / printed 199 context note and opening; scan 217 / printed 200 repeated-thanks conclusion + separator | `verified` |
-| 218 | `வெள்ளி விழா` title + `15.8.72` Rajaji Mandapam context + opening | `verified` |
-| 219–225 | `வெள்ளி விழா` continuation; scan 225 / printed 208 remains mid-item and continues to scan 226 | `verified` |
+| 226 | `வெள்ளி விழா` conclusion; printed 209; decorative illustration | `verified` |
+| 227–229 | `அண்ணன் இருக்கின்றார்`; title/context opening through conclusion | `verified` |
+| 230–236 | `அண்ணன் ஒரு கவியரங்கம்` opening/continuation | `verified` |
+| 237 | physically interposed title leaf/opening for `தமிழ் வளர வழிநடைப் பயணம்` | `verified` |
+| 238 | resumes participant list from scan 236 and closes `அண்ணன் ஒரு கவியரங்கம்`; printed 221 | `verified` |
+| 239–244 | resumes `தமிழ் வளர வழிநடைப் பயணம்`; scan 244 / printed 227 closes with `வணக்கம்.` + separator | `verified` |
+| 245–250 | `வையம் தழைக்க` title/context opening and continuation; scan 250 / printed 233 remains mid-item | `verified` |
 
-### C09 lexical-control closure
+### C10 lexical-control closure
 
-The user uploaded `kavi2.md`, identified as word-for-word text extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_009_pages_201-225.pdf`, and required supplied lexical words to be kept without silent scan-based correction.
+The user uploaded `kavi3.md`, identified as word-for-word text extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_010_pages_226-250.pdf`, and required supplied lexical words to be retained without silent scan-based correction.
 
-For scans **201–225**:
+For scans **226–250**:
 
 - supplied words are the lexical base;
-- source-established scan records determine physical page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
-- running headers/page numbers and extraction garbage are excluded from body text;
-- already verified scans **204, 215 and 217** are reconciled to the lexical control without losing verified status.
+- source-established page records determine physical placement, order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
+- running headers/page numbers and extraction garbage are excluded;
+- pre-verified scans **226, 238 and 244** remain verified after reconciliation.
 
-Result: **all physical scans 201–225 are `verified`**. C09 promoted **22** pages. Since scan **226** was already independently verified, the contiguous verified boundary now extends through **1–226**.
+Result: **all physical scans 226–250 are `verified`**. C10 promoted **22 pages**, and the contiguous verified boundary is now **1–250**.
 
-## Verified pages after C09 closure
+## Verified pages after C10 closure
 
-**0001–0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
+**0001–0250, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
 ## Next mapping / verification activity
 
-Begin **Phase 2 Clearance Batch C10 — physical scans 226–250**, using uploaded `kavi3.md` / `part_010_pages_226-250` as lexical control. Preserve/reconcile already verified scan 226 and any other pre-verified page in the window. Do not begin C11 or Phase 3 in the same activity.
+Begin **C11 — physical scans 251–275**, using uploaded `kavi4.md` / `part_011_pages_251-275` as lexical control. Preserve/reconcile already verified scans **253, 260, 266 and 272**. Do not begin C12 or Phase 3 in the same activity.
