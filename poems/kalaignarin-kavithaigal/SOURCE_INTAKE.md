@@ -18,38 +18,42 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C11 COMPLETE; C12 PARTIAL**;
-- cumulative status: **0 `partial`, 169 `needs-review`, 296 `verified`**;
-- unresolved backlog: **169 pages**;
-- verified: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–275**;
+- Phase 2 clearance: **IN PROGRESS — C01–C12 COMPLETE; C13 NEXT**;
+- cumulative status: **0 `partial`, 154 `needs-review`, 311 `verified`**;
+- unresolved backlog: **154 pages**;
+- verified: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–300**;
 - Phase 3 and English translation: **blocked**.
 
-## Supplied-word lexical-control state
+## Supplied-word lexical-control positioning
 
-Completed designated ranges:
+The user explicitly requires supplied Markdown to be aligned by **starting/ending body text**, not by page numbers written inside the Markdown.
 
-- scans **76–100** — supplied Gemini transcription;
-- scans **101–125** — `part_005_pages_101-125`;
-- scans **126–150** — `part_006_pages_126-150`;
-- scans **151–175** — `part_007_pages_151-175`;
-- scans **176–200** — `kavi1.md`;
-- scans **201–225** — `kavi2.md`;
-- scans **226–250** — `kavi3.md`;
-- scans **251–275** — `kavi4.md`.
+For every current/future `kavi*.md` control:
 
-For designated ranges, supplied lexical words are retained; source-established scan records determine physical/source structure. Non-body running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage are excluded.
+- identify the first substantive body word/paragraph in the Markdown and locate it in the exact source;
+- identify the final substantive body word/paragraph and locate it in the exact source;
+- only the confirmed source interval between those anchors is controlled lexically by the Markdown;
+- page-number labels or claimed ranges inside Markdown are descriptive only and do not override text anchors;
+- source text outside the confirmed supplied span is verified directly from the controlling scan.
 
-## C12 supplied-control anomaly
+## C12 — COMPLETE
 
-The intended control file is `kavi5.md`, headed as extraction from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`. The attached Markdown payload is incomplete:
+Attached exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`.
 
-- first supplied body page: printed **276** = physical scan **293**;
-- last supplied body page: printed **283** = physical scan **300**;
-- no supplied lexical text for physical scans **276–292** / printed pages **259–275**.
+Content alignment of `kavi5.md`:
 
-Therefore only scans **293–300** were newly reconciled to `kavi5.md`; scan **296** retained prior verified status, while scans **285** and **292** remain pre-existing verified pages. Missing pages were not silently filled from scan-derived text.
+- starts at scan **293** with `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!`;
+- ends at scan **300** with `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்`.
+
+Thus:
+
+- scans **293–300** retain supplied-word lexical control;
+- scans **276–292** were directly source-cleared from the attached derivative because no `kavi5.md` body text covers them;
+- pre-existing verified **285, 292, 296** were preserved;
+- direct-source corrections included `சேறு`, `குழந்தைகட்கு`, `சூளுரை`, `மேடைப் பேச்சரங்கில்`, `அழித்தாராம்`, `வாக்குக்குச்`;
+- C12 final = **25/25 verified**.
 
 ## Current next activity
 
-Recover/re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275**, then finish C12. Do not begin C13, Phase 3, canonical assembly or translation before C12 closure.
+Begin **C13 — physical scans 301–325**. `kavi6.md` is already content-anchor matched to the attached `part_013_pages_301-325.pdf`: opening anchor `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan 301; ending anchor `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan 325. Preserve/reconcile verified scans **310** and **317**. Do not begin C14, Phase 3, canonical assembly or translation in the same activity.
