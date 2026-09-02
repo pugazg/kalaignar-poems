@@ -14,66 +14,72 @@
 
 ## Phase 3 Gate 1 audit — COMPLETE / PASS
 
-Scope: **physical scan ↔ printed-page reconciliation only**.
-
-- scan 1 — front cover, unpaginated;
-- scans 2–17 — logical Roman I–XVI;
-- scans 18–464 — logical Arabic 1–447, invariant `logical printed page = scan_page - 17`;
-- scan 465 — back cover, unpaginated.
-
-No physical scan is outside these ranges; no range overlaps another. The verified page-record `printed_page` remains a source-visible numeral witness only; reconciled but suppressed numerals are not backfilled. Full evidence is in `PHASE3_STRUCTURE_AUDIT.md`.
+Scope: **physical scan ↔ printed-page reconciliation only**. Scan 1 is the cover; scans 2–17 are logical Roman I–XVI; scans 18–464 are logical Arabic 1–447 (`scan_page - 17`); scan 465 is the back cover. `printed_page` remains a source-visible witness only. Evidence: `PHASE3_STRUCTURE_AUDIT.md`.
 
 ## Phase 3 Gate 2 audit — COMPLETE / PASS
 
 Scope: **boundary / page-join certification only**.
 
 - physical scans covered: **465/465**;
-- physical adjacent transitions covered: **464/464**;
-- missing physical pages: **none**;
-- duplicated physical pages: **none**;
-- source-order normalization/reordering: **none**;
-- verified page-text changes: **none**.
+- adjacent transitions covered: **464/464**;
+- missing/duplicated physical pages: **none**;
+- source-order normalization/reordering: **none**.
 
-High-risk joins locked by Gate 2 include 236→237→238→239 intentional interposition, 370→371→372→373→374 close/blank/divider/verso/opening sequence, 397→398→399→400 item boundaries, 424→425→426, 450→451→452→453 and final 464→465 cover closure. Full evidence is in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+High-risk joins include 236→237→238→239, 370→371→372→373→374, 397→398→399→400, 424→425→426, 450→451→452→453 and 464→465. Evidence: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ## Phase 3 Gate 3 audit — COMPLETE / PASS
 
 Scope: **title-witness reconciliation only**.
 
-`PHASE3_TITLE_WITNESS_RECONCILIATION.md` compares verified contents witnesses on scans 15–17 with verified section-divider/title/opening witnesses.
-
-### Complete accounting
-
 - contents/group/item title witnesses: **81**;
-- exact title-string matches after collapsing display line breaks: **51**;
-- source-valid variant relationships: **30**;
-- unresolved title witnesses: **none**;
-- hybrid/normalized title constructions: **none**;
-- verified page-text changes: **none**.
+- exact title-string matches: **51**;
+- source-valid variants: **30**;
+- unresolved title witnesses: **0**;
+- hybrid/normalized title constructions: **none**.
 
-### Authority locked for later assembly
+Dedicated divider/title/opening witnesses control canonical titles; contents witnesses remain preserved separately. The contents page-279 locator for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்` remains untouched while the verified opening is scan 293 / printed page 276. Evidence: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-- dedicated section-divider or item title/opening witness controls the canonical section/item title;
-- contents witness remains preserved exactly and is not silently corrected;
-- no canonical title may combine pieces of two source witnesses;
-- punctuation, spacing, quotation marks and lexical wording come wholly from the authoritative divider/opening witness.
+## Phase 3 Gate 4 audit — COMPLETE / PASS
 
-### High-risk title variants locked
+Scope: **canonical Tamil assembly only**.
 
-- contents `உடன்பிறப்பின் பற்று` → opening `உடைமைகள் பத்து`;
-- contents section `கண்ணீர்க் கவிதை` → divider `கண்ணீர்த் துளிகள்`;
-- contents `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` → opening `அருமருந்தே! அன்பழக உடன்பிறப்பே!`;
-- contents `விதையாய் முளைத்து விழுதுகள் விட்டோம்` → opening `விதையாய் முளைத்து விழுதுகள் விடட்டும்!`;
-- contents `சூரியனைப் பனிக்கட்டி என்கிறாய்!` → opening `சூரியனைப் பனிக்கட்டி என்கின்றார்!`;
-- contents `கொள்ளை போதும்மா தமிழ்நாடு` → opening `கொள்ளை போகுதம்மா தமிழ்நாடு`;
-- contents `முடியுமா? கிழித்தெறிவோம் வாரீர்!` → opening `முகமூடி கிழித்தெறிவோம் வாரீர்!`.
+### Final accounting
 
-Gate 3 also records a source locator anomaly without altering the contents transcription: contents scan 16 gives page **279** for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்`, while the verified dedicated opening is scan **293 / printed page 276** and the item continues through printed page 279.
+- eligible page records checked: **465/465 `verified`**;
+- canonical poem-body interval: **scans 18–464 = 447 scans**;
+- explicit `scan_page` provenance markers: **447/447**;
+- marker-only/non-edition-text body scans retained: **6**;
+- physical section runs: **83**;
+- Gate-3 source-valid variants retained separately in provenance: **30/30**;
+- canonical output: `sections/kalaignarin-kavithaigal.md`;
+- source map: `indexes/canonical-source-map.md`;
+- Gate-4 evidence: `PHASE3_CANONICAL_ASSEMBLY.md`;
+- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+
+### Conflict handling during Gate 4
+
+The first assembly exposed stale title metadata in six verified records. The affected records were reopened before final regeneration:
+
+- 0406: title authority corrected to `கேட்டுண்டோ?`; source poem line `பாரத வீரா! நீ கேட்டதுண்டோ?` unchanged;
+- 0409: title authority corrected to `இன்றுமா கூச்சல்?`; source poem line `இளித்த வாயரே இன்னுமா கூச்சல்?` unchanged;
+- 0457–0460: section/title metadata synchronized to `சில நாடுகள் இருக்கின்றன!`; source-facing opening already had the terminal `!`.
+
+Affected joins 405→406→407, 408→409→410 and 456→457→458→459→460→461 were rechecked and remain valid item boundaries/continuations. **Poem-body lexical changes: 0.** All six reopened records remain `verified`.
+
+### Locked Gate-4 invariants
+
+- exact physical order preserved, including 236→237→238→239;
+- 370→371→372→373→374 preserved with blank/divider versos;
+- Gate-3 divider/opening title authority used;
+- contents variants preserved separately in provenance/source-map metadata;
+- page-293 canonical start retained for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`;
+- no partial canonical item emitted;
+- no Gate-5 review, Tamil final clearance, translation or release work performed.
 
 ### Gate result
 
-The verified page layer remains **465/465 verified** and unchanged. **Gate 3 PASS.**
+**Gate 4 PASS.**
 
 ## Next audit gate
 
-**Phase 3 Gate 4 — canonical Tamil assembly only.** Build canonical section/item files strictly from verified page records, preserve physical source order and scan provenance, and apply Gate-3 authoritative divider/opening titles without normalizing source text. Gate 5 assembly/source-completeness review, Tamil final clearance and translation remain blocked until their ordered turn.
+**Phase 3 Gate 5 — assembly/source-completeness review only.** Review Gate-4 output/source map against the verified page layer for one-time coverage, exclusions, title authority, physical source-order fidelity, source-note preservation and silent-normalization risk. Tamil final clearance and translation remain blocked until later ordered gates.

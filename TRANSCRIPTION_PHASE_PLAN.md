@@ -23,46 +23,31 @@ Do not position supplied Markdown by page-number labels written inside it. Match
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-Phase 3 is active and proceeds only in ordered gates from `POEM_PROCESSING_GUIDE.md`.
+Phase 3 proceeds only in ordered gates from `POEM_PROCESSING_GUIDE.md`.
 
 1. **Physical scan ↔ printed-page reconciliation — COMPLETE / PASS.**
-   - scan 1 cover, unpaginated;
-   - scans 2–17 = logical Roman I–XVI;
-   - scans 18–464 = logical Arabic 1–447 (`scan_page - 17`);
-   - scan 465 back cover, unpaginated;
-   - source-visible `printed_page` witnesses remain unchanged; suppressed numerals are not backfilled.
-2. **Boundary / page-join audit — COMPLETE / PASS.**
-   - physical scans covered: **465/465**;
-   - physical adjacent joins certified: **464/464**;
-   - missing/duplicated pages: **none**;
-   - verified page-text changes: **none**;
-   - evidence: `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
-3. **Title-witness reconciliation — COMPLETE / PASS.**
-   - contents/group/item witnesses inventoried: **81**;
-   - exact title-string matches: **51**;
-   - source-valid variants: **30**;
-   - unresolved title witnesses: **none**;
-   - verified page-text changes: **none**;
-   - authority rule: dedicated divider/title/opening witness controls canonical title; contents witness remains preserved; never create a hybrid title;
-   - evidence: `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-4. **Canonical Tamil assembly — NEXT.**
-5. **Assembly/source-completeness review — NOT STARTED.**
+2. **Boundary / page-join audit — COMPLETE / PASS — 464/464 adjacent joins.**
+3. **Title-witness reconciliation — COMPLETE / PASS — 81 witnesses, 51 exact, 30 variants, 0 unresolved.**
+4. **Canonical Tamil assembly — COMPLETE / PASS.**
+   - verified substrate: **465/465**;
+   - canonical body: scans **18–464** = **447 physical scans**;
+   - explicit `scan_page` provenance markers: **447/447**;
+   - marker-only body scans: **6**;
+   - physical section runs: **83**;
+   - Gate-3 variants retained separately: **30/30**;
+   - canonical output: `poems/kalaignarin-kavithaigal/sections/kalaignarin-kavithaigal.md`;
+   - source map: `poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md`;
+   - evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md`;
+   - canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+5. **Assembly/source-completeness review — NEXT / NOT STARTED.**
 6. **Tamil final clearance — NOT STARTED.**
 
-Gate-1 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`. Gate-2 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`. Gate-3 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+## Gate-4 correction record
 
-## Gate-4 assembly constraints
-
-Canonical assembly is a provenance-preserving merge of verified page records, not a new transcription.
-
-- use verified page records only;
-- preserve physical source order, including the certified 236→237→238→239 interposition;
-- carry explicit scan-page provenance;
-- use Gate-3 authoritative divider/opening title forms; preserve contents variants in provenance/source-map metadata;
-- preserve verified spelling, punctuation, quotation marks, lineation, separators and source notes;
-- do not emit a partial canonical item merely because an iteration boundary falls inside the item;
-- if assembly exposes a genuine source-layer discrepancy, reopen and repair the page record before continuing.
+Assembly exposed stale title metadata in scans **406, 409, 457–460**. Those verified records were reopened and synchronized to Gate-3 authoritative title witnesses before final regeneration. Neighboring joins were rechecked; poem-body lexical wording changed **0** times. All 465 records remain `verified`.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 4 — canonical Tamil assembly only**. Do not begin Gate 5 assembly/source-completeness review, Tamil final clearance, translation or release work in the same activity.
+Execute **Phase 3 Gate 5 — assembly/source-completeness review only**. Review the generated canonical output and source map against the verified page layer for one-time coverage, exclusions, title authority, source-order fidelity and silent-normalization risk.
+
+Do **not** grant Tamil final clearance or begin translation/release work in the same activity.

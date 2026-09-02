@@ -22,8 +22,9 @@ Current status:
 - Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins certified**;
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact matches, 30 source-valid variants**;
-- Phase 3 Gate 4 canonical Tamil assembly: **NEXT**;
-- Gate 5 assembly/source-completeness review, Tamil final clearance and translation: **NOT STARTED**.
+- Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
+- Phase 3 Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
+- Tamil final clearance and translation: **NOT STARTED**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -31,9 +32,13 @@ The old 150-page renderer window is not the source length. The exact source is 4
 
 Gate 1 reconciles the source as scan 1 front cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 with invariant `logical printed page = scan_page - 17`; scan 465 back cover. Printed numerals suppressed by the source are not inserted into verified page records. See `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`.
 
-Gate 2 certifies every physical adjacent transition in source order. The verified page text was not changed. Exceptional source ordering, blank/divider versos and other high-risk joins are recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+Gate 2 certifies every physical adjacent transition in source order. Exceptional source ordering, blank/divider versos and other high-risk joins are recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
-Gate 3 reconciles all contents/group/item title witnesses in `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`. Dedicated divider/title/opening witnesses control later canonical titles; contents variants remain preserved as separate source witnesses; no hybrid title is allowed.
+Gate 3 reconciles all contents/group/item title witnesses in `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`. Dedicated divider/title/opening witnesses control canonical titles; contents variants remain separate source witnesses; no hybrid title is allowed.
+
+Gate 4 assembles verified body scans **18–464** into `poems/kalaignarin-kavithaigal/sections/kalaignarin-kavithaigal.md` with **447/447** explicit scan markers, **6** marker-only physical scans and **83** physical section runs. The provenance map is `poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md`; Gate-4 evidence is `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md`. Canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+
+During Gate 4, stale title metadata in scans **406, 409, 457–460** was reopened and synchronized to Gate-3 authoritative title witnesses before final regeneration. Neighboring boundaries remained valid and poem-body lexical wording was unchanged.
 
 ## Supplied lexical controls
 
@@ -41,4 +46,4 @@ A user-designated word-for-word transcription may control lexical words only aft
 
 ## Next activity
 
-**Phase 3 Gate 4 — canonical Tamil assembly only.** Assemble only from verified page records, preserve certified physical source order and explicit scan provenance, and follow the Gate-3 authoritative title decisions. Do not begin Gate 5 review, Tamil final clearance or translation in the same activity.
+**Phase 3 Gate 5 — assembly/source-completeness review only.** Review canonical output and provenance against the verified page layer for one-time coverage, exclusions, title authority, source-order fidelity and silent-normalization risk. Do not grant Tamil final clearance or begin translation/release work in the same activity.

@@ -23,32 +23,33 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins**;
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact matches, 30 variants, 0 unresolved**;
-- Phase 3 Gate 4 canonical Tamil assembly: **NEXT**.
+- Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
+- Phase 3 Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
+- Tamil final clearance / translation: **NOT STARTED**.
 
-## Printed-page behaviour established at Gate 1
+## Structural rules retained
 
-- scan 1 is an unpaginated front cover;
-- scans 2–17 form a sixteen-page Roman front-matter sequence, logical **I–XVI**;
-- scans 18–464 form the continuous Arabic body sequence **1–447**, with `logical printed page = scan_page - 17`;
-- scan 465 is an unpaginated colour back cover.
+- scan 1 front cover;
+- scans 2–17 logical Roman I–XVI;
+- scans 18–464 logical Arabic 1–447 (`scan_page - 17`);
+- scan 465 back cover;
+- `printed_page` remains source-visible only;
+- preserve every physical adjacent join, especially 236→237→238→239 and 370→371→372→373→374;
+- dedicated divider/title/opening witnesses control canonical titles; contents variants remain separate provenance witnesses.
 
-The edition intentionally suppresses the numeral on many title/opening pages. Verified page records continue to use `printed_page` only for a numeral visibly present in the source; reconciled logical pagination is structural metadata and is not silently backfilled.
+## Gate 4 result
 
-## Boundary / join behaviour established at Gate 2
+Canonical output: `sections/kalaignarin-kavithaigal.md`. Source map: `indexes/canonical-source-map.md`. Evidence: `PHASE3_CANONICAL_ASSEMBLY.md`.
 
-All physical adjacent transitions are accounted for in `PHASE3_BOUNDARY_JOIN_AUDIT.md`. No missing or duplicated physical page and no page-text discrepancy was found. Source order must be preserved even at the intentionally interposed 236→237→238→239 sequence; blank/show-through versos are not missing text.
+- body scans **18–464 = 447**;
+- explicit `scan_page` markers **447/447**;
+- marker-only body scans **6**;
+- physical section runs **83**;
+- Gate-3 variants retained **30/30**;
+- canonical SHA-256 `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
 
-## Title-witness behaviour established at Gate 3
-
-`PHASE3_TITLE_WITNESS_RECONCILIATION.md` reconciles every contents/group/item title witness from scans 15–17 against the verified divider/title/opening layer.
-
-- total witnesses: **81**;
-- exact title-string matches: **51**;
-- source-valid variants: **30**;
-- unresolved: **0**.
-
-For later canonical assembly, the dedicated section-divider or item title/opening witness is authoritative; contents wording remains preserved exactly as a separate source witness. No hybrid title may be created. Gate 3 also preserves the contents locator anomaly for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்`: contents page 279 versus verified opening at scan 293 / printed page 276.
+Gate 4 reopened verified records **0406, 0409, 0457–0460** to synchronize title metadata/source-title capture with Gate-3 authority before final regeneration. Affected joins remained valid; poem-body lexical changes were **0**.
 
 ## Next phase gate
 
-**Phase 3 Gate 4 — canonical Tamil assembly only**. Gate 5 assembly/source-completeness review, Tamil final clearance and translation remain deferred.
+**Phase 3 Gate 5 — assembly/source-completeness review only.** Tamil final clearance and translation remain deferred.

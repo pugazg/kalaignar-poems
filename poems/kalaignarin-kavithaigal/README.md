@@ -23,39 +23,39 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - verified range: **0001–0465**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS — 464/464 physical adjacent joins**;
-- Phase 3 Gate 3: **COMPLETE / PASS — 81 title/group witnesses reconciled (51 exact / 30 variants)**;
-- Phase 3 Gate 4 canonical Tamil assembly: **NEXT**;
-- Gate 5 assembly/source-completeness review / Tamil final clearance / translation: **NOT STARTED**.
+- Phase 3 Gate 3: **COMPLETE / PASS — 81 title/group witnesses (51 exact / 30 variants / 0 unresolved)**;
+- Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
+- Phase 3 Gate 5 assembly/source-completeness review: **NEXT / NOT STARTED**;
+- Tamil final clearance / translation: **NOT STARTED**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
-`PHASE3_STRUCTURE_AUDIT.md` records the authoritative logical map:
-
-- scan 1: front cover, unpaginated;
-- scans 2–17: Roman I–XVI;
-- scans 18–464: Arabic 1–447, using `scan_page - 17`;
-- scan 465: back cover, unpaginated.
-
-`printed_page` in verified page records remains a visible-source field. Suppressed numerals are not backfilled merely because their logical position is known.
+`PHASE3_STRUCTURE_AUDIT.md` records scan 1 cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 using `scan_page - 17`; scan 465 back cover. `printed_page` remains source-visible only.
 
 ## Gate 2 — boundary / page-join audit
 
-`PHASE3_BOUNDARY_JOIN_AUDIT.md` certifies all **464/464** physical adjacent joins in source order. No missing or duplicated physical page was found and no verified page text was changed. The source's deliberately surprising physical order, including the 236→237→238→239 interposition, must remain preserved as provenance.
+`PHASE3_BOUNDARY_JOIN_AUDIT.md` certifies all **464/464** physical adjacent joins. Preserve the source's deliberately surprising order, especially 236→237→238→239 and 370→371→372→373→374.
 
 ## Gate 3 — title-witness reconciliation
 
-`PHASE3_TITLE_WITNESS_RECONCILIATION.md` inventories every contents/group/item title witness from scans 15–17 against the verified divider/title/opening layer.
+`PHASE3_TITLE_WITNESS_RECONCILIATION.md` locks canonical-title authority to the dedicated divider/title/opening witness. Contents variants remain preserved separately; no hybrid title is allowed. The contents page-279 locator for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்` remains as printed; canonical provenance begins at scan 293 / printed page 276.
 
-- total witnesses: **81**;
-- exact title-string matches: **51**;
-- source-valid variants: **30**;
-- unresolved variants: **0**;
-- verified page-text changes: **0**.
+## Gate 4 — canonical Tamil assembly
 
-For canonical assembly the dedicated section-divider or item title/opening witness is authoritative. The contents witness remains preserved exactly in provenance/source-map metadata. **Never normalize or create a hybrid title.**
+**COMPLETE / PASS.**
 
-Gate 3 also records that contents scan 16 points `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்` to printed page 279, while the verified dedicated opening is scan 293 / printed page 276; preserve the contents locator as printed and begin canonical provenance at scan 293.
+- canonical output: `sections/kalaignarin-kavithaigal.md`;
+- source map: `indexes/canonical-source-map.md`;
+- audit: `PHASE3_CANONICAL_ASSEMBLY.md`;
+- body scans: **18–464 = 447**;
+- explicit scan provenance: **447/447**;
+- marker-only body scans: **6**;
+- physical section runs: **83**;
+- Gate-3 variants preserved separately: **30/30**;
+- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
+
+Gate 4 reopened scans **406, 409, 457–460** to synchronize stale title metadata to Gate-3 authority before final regeneration. The affected joins were rechecked; poem-body lexical changes were **0** and all 465 page records remain `verified`.
 
 ## Next activity
 
-**Phase 3 Gate 4 — canonical Tamil assembly only.** Assemble from verified page records, preserve physical source order and explicit scan provenance, use Gate-3 authoritative titles, and preserve verified spelling/punctuation/lineation/source notes. Do not begin Gate 5 review, Tamil final clearance or translation in the same activity.
+**Phase 3 Gate 5 — assembly/source-completeness review only.** Review the Gate-4 output/source map against the verified page layer for one-time coverage, exclusions, title authority, physical source order, source-note preservation and silent-normalization risk. Do not grant Tamil final clearance or begin translation/release work in the same activity.

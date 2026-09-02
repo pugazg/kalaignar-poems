@@ -20,64 +20,57 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 3 Gate 3
+## Durable state after Phase 3 Gate 4
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
 - page status: **0 partial / 0 needs-review / 465 verified**;
 - durable contiguous verified boundary: **1–465**;
 - Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
-- Phase 3 Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 4 — canonical Tamil assembly: **NOT STARTED — NEXT**;
-- Gate 5 assembly/source-completeness review: **NOT STARTED**;
+- Phase 3 Gate 2 — boundary / page-join audit: **COMPLETE / PASS — 464/464 joins**;
+- Phase 3 Gate 3 — title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact, 30 variants, 0 unresolved**;
+- Phase 3 Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**;
+- Phase 3 Gate 5 — assembly/source-completeness review: **NOT STARTED — NEXT**;
 - Tamil final clearance: **NOT STARTED**;
 - translation: **NOT STARTED**.
 
-## Gate 1 durable result
+## Locked Gate 1–3 results
 
-`poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md` records the complete pagination model:
+Gate 1: scan 1 front cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 (`scan_page - 17`); scan 465 back cover. `printed_page` remains source-visible only.
 
-- scan 1 front cover, unpaginated;
-- scans 2–17 logical Roman I–XVI;
-- scans 18–464 logical Arabic 1–447, `logical printed page = scan_page - 17`;
-- scan 465 back cover, unpaginated.
+Gate 2: all **464/464** physical adjacent joins are certified. Preserve exact source order, especially **236→237→238→239** and **370→371→372→373→374**. Batch boundaries are not item boundaries.
 
-`printed_page` in page records remains a source-visible witness only; suppressed numerals are not backfilled.
+Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md` locks canonical title authority to the dedicated divider/title/opening witness. Contents wording stays preserved separately; never normalize or create a hybrid title. The contents locator for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்` remains page 279, while canonical provenance begins at the verified opening scan 293 / printed page 276.
 
-## Gate 2 durable result
+## Gate 4 durable result
 
-`poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md` certifies **464/464 physical adjacent joins** without changing verified page text.
+Gate-4 evidence: `poems/kalaignarin-kavithaigal/PHASE3_CANONICAL_ASSEMBLY.md`.
 
-Key locked source-order facts include:
+Canonical outputs:
 
-- 236→237→238→239 is intentionally interposed: `அண்ணன் ஒரு கவியரங்கம்` participant list, then `தமிழ் வளர வழிநடைப் பயணம்` title leaf, then return to close the prior item, then resume the new item. **Do not reorder.**
-- 370→371→372→373→374 is a real close / blank verso / `கண்ணீர்த் துளிகள்` divider / divider verso / `பன்னீர்ச்செல்வமே!` opening sequence. Show-through is not edition text.
-- 397 closes `அவன் பிறந்தநாள் என ஒன்றில்லை!`; 398–399 is `அருமருந்தே! அன்பழக உடன்பிறப்பே!`; 400 opens `பகுத்தறிவுப் பாண்டியனார்!`.
-- 425 opens `ஒரு சொட்டுத் தேன்!` and continues to 426.
-- 450–452 is `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; 453 opens `திசை திருப்பல் நியாயம்தானா?`.
-- 464 closes `உன் காலணியை வாழ்த்துகிறாய்`; 465 is the back cover.
+- `poems/kalaignarin-kavithaigal/sections/kalaignarin-kavithaigal.md`;
+- `poems/kalaignarin-kavithaigal/indexes/canonical-source-map.md`.
 
-Batch boundaries from transcription/clearance are never item boundaries by themselves.
+Locked accounting:
 
-## Gate 3 durable result
+- canonical body scans: **18–464 = 447 physical scans**;
+- explicit `scan_page` provenance: **447/447**;
+- marker-only/non-edition-text body scans retained: **6**;
+- physical section runs: **83**;
+- Gate-3 variants preserved separately: **30/30**;
+- canonical SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
 
-`poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md` inventories all **81** contents/group/item title witnesses:
+The first assembly exposed stale title metadata in verified records **0406, 0409 and 0457–0460**. Per policy, those records were reopened before final regeneration:
 
-- **51** exact title-string matches after collapsing display line breaks;
-- **30** source-valid title variants;
-- **0** unresolved title witnesses;
-- **0** verified page-text changes.
+- scan 406 title authority: `கேட்டுண்டோ?`; poem line `பாரத வீரா! நீ கேட்டதுண்டோ?` unchanged;
+- scan 409 title authority: `இன்றுமா கூச்சல்?`; poem line `இளித்த வாயரே இன்னுமா கூச்சல்?` unchanged;
+- scans 457–460 title/section authority: `சில நாடுகள் இருக்கின்றன!`; source-facing poem text already carried the authoritative punctuation.
 
-Assembly authority is now locked: the dedicated section-divider or item title/opening witness controls the canonical section/item title; the contents witness is preserved separately and never silently corrected; **no hybrid title may be created**.
-
-Important lexical variants include `உடன்பிறப்பின் பற்று` → dedicated opening `உடைமைகள் பத்து`, `கண்ணீர்க் கவிதை` → divider `கண்ணீர்த் துளிகள்`, `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` → opening `அருமருந்தே! அன்பழக உடன்பிறப்பே!`, `விதையாய் முளைத்து விழுதுகள் விட்டோம்` → opening `விதையாய் முளைத்து விழுதுகள் விடட்டும்!`, `சூரியனைப் பனிக்கட்டி என்கிறாய்!` → opening `சூரியனைப் பனிக்கட்டி என்கின்றார்!`, `கொள்ளை போதும்மா தமிழ்நாடு` → opening `கொள்ளை போகுதம்மா தமிழ்நாடு`, and `முடியுமா? கிழித்தெறிவோம் வாரீர்!` → opening `முகமூடி கிழித்தெறிவோம் வாரீர்!`.
-
-Gate 3 also records one contents-locator anomaly: contents scan 16 gives page 279 for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்`, while the verified dedicated opening is scan 293 / printed page 276 and the item continues through page 279. Preserve the contents witness; canonical provenance starts at scan 293.
+Adjacent joins were rechecked; **poem-body lexical changes = 0**. All 465 records remain `verified`.
 
 ## Supplied-transcription rule
 
-Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation. Running headers, printed page numerals and extraction/OCR garbage are not body text.
+Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
 
 ## Mandatory startup
 
@@ -95,12 +88,15 @@ Before changing anything, read completely:
 10. `audit.md`;
 11. `PHASE3_STRUCTURE_AUDIT.md`;
 12. `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-13. `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+13. `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+14. `PHASE3_CANONICAL_ASSEMBLY.md`;
+15. `indexes/canonical-source-map.md`;
+16. canonical output `sections/kalaignarin-kavithaigal.md` as needed for Gate-5 review.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 4 — canonical Tamil assembly only**.
+Execute **Phase 3 Gate 5 — assembly/source-completeness review only**.
 
-Assemble from the verified page layer only. Preserve certified physical source order and explicit scan provenance. Use Gate-3 authoritative divider/opening title forms for canonical section/item titles while retaining contents variants in provenance/source-map metadata. Preserve verified spelling, punctuation, quotation marks, lineation, separators and source notes exactly. Never repair an assembly discrepancy only in the assembled file: reopen and correct the source page record first if necessary.
+Review the Gate-4 canonical output and provenance map against the verified page layer for one-time coverage, correct exclusions, title authority, physical source-order fidelity, source-note preservation and silent-normalization risk. If a genuine source-layer discrepancy is found, reopen/correct the page record first, revalidate the affected join, regenerate Gate 4 as needed, and only then continue Gate 5.
 
-Do **not** begin Gate 5 assembly/source-completeness review, Tamil final clearance, translation or release work in the same activity.
+Do **not** grant Tamil final clearance or begin translation/release work in the same activity.
