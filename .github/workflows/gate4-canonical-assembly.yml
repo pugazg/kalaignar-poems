@@ -29,3 +29,5 @@ jobs:
           git diff --cached --check
           git commit -m "Assemble Kalaignarin Kavithaigal canonical Tamil layer"
           git push origin HEAD:main
+
+# Temporary one-shot runner; remove after Gate 4 is durably synchronized.
