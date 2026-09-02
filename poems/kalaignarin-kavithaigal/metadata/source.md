@@ -23,37 +23,37 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C04 COMPLETE; C05 NEXT**;
-- cumulative status: **0 `partial`, 337 `needs-review`, 128 `verified`**;
-- unresolved backlog: **337 pages**;
-- verified pages: **0001–0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–100**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C05 COMPLETE; C06 NEXT**;
+- cumulative status: **0 `partial`, 312 `needs-review`, 153 `verified`**;
+- unresolved backlog: **312 pages**;
+- verified pages: **0001–0125, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–125**;
 - Phase 3: **blocked**.
 
-## C04 lexical-control note — COMPLETE
+## User-designated lexical-control ranges
 
-Physical window: **76–100**.
+### Scans 76–100 — C04 COMPLETE
 
-Fixed source structure:
+A supplied Gemini word-for-word transcription controls lexical words for scans 76–100. The scan controls source structure. All 25 pages are `verified`.
 
-- `விடுதலை வீரர்கள்` through scan **79**;
-- `ஐம்புலன்` scans **80–89**;
-- `பிலவங்க ஆண்டு` scans **90–100**;
-- scans **80** and **90** carry title/context blocks and centered stars;
-- scans **79, 89, 100** carry centered floral endings;
-- chairman passages and parenthetical poet-performance notes remain separate structures.
+### Scans 101–125 — C05 COMPLETE
 
-After direct source-critical iterations A–L, the user explicitly designated a supplied Gemini word-for-word transcription for **scans 76–100** as the lexical control. For this exact range the user directed that supplied lexical words be kept and not silently replaced by scan-derived lexical corrections.
+The user supplied a word-for-word transcription identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_005_pages_101-125.pdf` and explicitly instructed that supplied lexical words be kept and not silently corrected.
 
-Accordingly:
+For scans **101–125**:
 
-- Gemini-supplied words are retained as the lexical base for scans 76–100;
+- supplied words are retained as lexical control;
 - the controlling scan determines page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
-- misplaced running headers/page numbers, library marks, handwriting-derived text and OCR garbage are excluded from poem body;
-- previously verified scans 79, 89 and 100 were reconciled to the user-designated lexical control where necessary;
-- all 25 scans **76–100 are now `verified`**.
+- running headers/page numbers, library marks, handwriting-derived material and OCR garbage are excluded from poem body when they are not source body text;
+- no scan-derived lexical wording is silently substituted.
 
-This lexical-control rule is range-specific and does not authorize Gemini/OCR wording for other pages unless the user explicitly designates it.
+C05 source structure:
+
+- `காதலா - வீரமா?` spans **101–115**, closing on scan 115 / printed 98 with `வணக்கம்.` and a centered floral ornament;
+- `அருமறையில் அறுவர்` begins on **116** with title/context + centered star and continues beyond scan **125**;
+- scan **117 / printed 100** carries a large printed line illustration below the poem continuation.
+
+All scans **101–125** are `verified`.
 
 ## Source-access / witness rule
 
@@ -63,4 +63,4 @@ The standing user-directed exclusion applicable to `தென்னவன் க
 
 ## Next
 
-Begin **Phase 2 Clearance Batch C05 — physical scans 101–125**. Reconfirm source structure and perform page clearance against the controlling PDF. Do not begin C06, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C06 — physical scans 126–150**. Reconfirm source structure and perform page clearance against the controlling PDF. Do not begin C07, Phase 3, canonical assembly or translation in the same activity.
