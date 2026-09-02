@@ -15,7 +15,7 @@
 
 | படைப்பு | நிலை |
 |---|---|
-| கலைஞரின் கவிதைகள் | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C11 COMPLETE; C12 NEXT; Phase 3 BLOCKED** |
+| கலைஞரின் கவிதைகள் | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C11 COMPLETE; C12 PARTIAL; Phase 3 BLOCKED** |
 | காலப் பேழையும் கவிதைச் சாவியும் | Tamil FINAL-CLEARED; English RELEASE-CLEARED |
 | தென்னவன் காதை | Tamil FINAL-CLEARED; English translation paused |
 | இதயத்தைத் தந்திடு அண்ணா | Tamil COMPLETE; English RELEASE-COMPLETE |
@@ -29,25 +29,25 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 partial, 176 needs-review, 289 verified**;
-- unresolved backlog: **176 pages**;
-- verified: **0001–0275, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- cumulative status: **0 partial, 169 needs-review, 296 verified**;
+- unresolved backlog: **169 pages**;
+- verified: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–275**.
 
-### Clearance C11 — COMPLETE
+### Clearance C12 — PARTIAL
 
-C11 physical scans **251–275** are fully `verified` using uploaded `kavi4.md`, identified as the word-for-word transcription extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_011_pages_251-275.pdf`, as lexical control.
+C12 physical window is **276–300** and was intended to use uploaded `kavi5.md`, whose header identifies `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`.
 
-Source-established structure:
+The actual attached Markdown payload does **not** contain lexical text for the whole claimed range. It begins with printed page **276**, which maps to physical scan **293**, and continues through printed page **283**, physical scan **300**. No supplied lexical text is present for physical scans **276–292** / printed pages **259–275**.
 
-- **251–253** — continuation and conclusion of `வையம் தழைக்க`; scan 253 / printed 236 closes the item;
-- **254–260** — `தந்தை பெரியார்`; scan 254 is the title/context/star opening and scan 260 / printed 243 closes with a decorative illustration;
-- **261–266** — `அகத்துறைப் படைப்புகள்`; scan 261 is the title/context/star opening and scan 266 / printed 249 closes with a decorative floral separator;
-- **267–272** — `பொங்கல் விழா`; scan 267 is the title/context/star opening and scan 272 / printed 255 closes with a decorative separator;
-- **273–275** — opening/continuation of `சிலப்பதிகார விருந்து`; scan 275 / printed 258 remains mid-item and continues beyond C11.
+Accordingly:
 
-Already verified scans **253, 260, 266 and 272** remained verified; C11 promoted **21** additional pages. Running headers/page numerals and extraction garbage were excluded, while supplied lexical forms were not silently normalized. The current file renderer still exposes only the old 150-page window; that tooling limitation does not override the exact 465-page source identity or the already source-established structure for these scans.
+- scans **293–300** are reconciled to the supplied lexical control and are `verified`;
+- scan **296** retained its pre-existing verified status while being reconciled;
+- scans **276–292** were **not** silently filled from scan-derived wording;
+- pre-existing verified scans **285** and **292** remain verified;
+- C12 is **PARTIAL**, not complete.
 
 ### Exact next activity
 
-Begin **Phase 2 Clearance Batch C12 — physical scans 276–300**, using uploaded `kavi5.md` / `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf` as lexical control. Preserve/reconcile already verified scans **285, 292 and 296**. Do not begin C13, Phase 3, canonical assembly or translation in the same activity.
+Recover/re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275** from the intended `part_012_pages_276-300` range, then finish C12 under the same lexical-control rule. Do not begin C13, Phase 3, canonical assembly or translation before C12 closes.
