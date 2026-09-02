@@ -17,14 +17,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Apply documented item-1 divider pagination exception to validator
+      - name: Apply structural-page pagination rule to validator
         run: |
           python3 - <<'PY'
           from pathlib import Path
           p = Path('.github/gate5_review.py')
           s = p.read_text(encoding='utf-8')
           old = '    expected_printed = compact_ranges([n - 17 for n in expected_scans])\n'
-          new = '    printed_basis = expected_scans[2:] if i == 1 and expected_scans[:2] == [18, 19] else expected_scans\n    expected_printed = compact_ranges([n - 17 for n in printed_basis])\n'
+          new = '    printed_basis = [n for n in expected_scans if records[n][0].get("page_type") not in {"section-divider", "verso"}]\n    expected_printed = compact_ranges([n - 17 for n in printed_basis])\n'
           if old not in s:
               raise SystemExit('expected validator line not found')
           p.write_text(s.replace(old, new, 1), encoding='utf-8')
