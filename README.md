@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item scans; Batch 02 NEXT**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -46,10 +46,14 @@ Gate 5 independently re-derived the 77-item sequence from the verified page-laye
 
 Gate 6 formally confirms Gates 1–5 are all PASS and records the Tamil source/canonical layer as **FINAL-CLEARED**. Evidence: `poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md`. No Tamil page/canonical file or English translation was changed by the clearance activity.
 
+## Phase 4 translation progress
+
+Batch 01 begins Phase 4 with item 1 `இதயத்தைத் தந்திடு அண்ணா` translated as **Give Me Your Heart, Anna**. The reviewed English layer now covers **1/77 items** and **14/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
+
 ## Supplied lexical controls
 
 A user-designated word-for-word transcription may control lexical words only after its first and final substantive body anchors are matched to the controlling scan. Embedded Markdown page numbers are not positional authority. Scan structure always controls page placement, headings, punctuation, quotations, lineation, separators, illustrations and non-body material.
 
 ## Next activity
 
-**Phase 4 — English translation and release workflow.** Translate only from the Tamil final-cleared canonical item layer and follow the repository translation policy.
+**Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**. Translate and review both complete final-cleared items; leave Tamil archival files unchanged.

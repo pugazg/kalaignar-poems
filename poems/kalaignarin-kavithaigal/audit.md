@@ -124,3 +124,24 @@ Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 ## Next phase
 
 **Phase 4 — English translation and release workflow.** Use only the Tamil final-cleared canonical item layer as translation source.
+
+## Phase 4 Batch 01 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical item **1** only.
+
+- item: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
+- reviewed items: **1/77**;
+- reviewed item-owned scans: **14/439 — scans 18–31**;
+- source-facing poem/context scans: **12/12 — scans 20–31**;
+- structural title/marker-only scans represented: **2/2 — scans 18–19**;
+- canonical/contents title witnesses preserved separately: **PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-01.md`;
+- English item: `translations/en/items/01-give-me-your-heart-anna-en.md`.
+
+### Exact next Phase-4 activity
+
+**Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**.

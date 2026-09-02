@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 3 Gate 6
+## Durable state after Phase 4 Batch 01
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item-assigned scans; Batch 02 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -105,6 +105,27 @@ Gate-6 evidence: `poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md`
 
 The controlling scan remains highest textual authority. Any later genuine source-backed discrepancy must reopen the affected source/page/audit/canonical layers.
 
+## Phase 4 durable result — Batch 01
+
+Translation scaffold: `poems/kalaignarin-kavithaigal/translations/en/`.
+
+- Phase 4 status: **IN PROGRESS**;
+- reviewed batches: **1**;
+- reviewed English items: **1/77**;
+- reviewed item-assigned source scans: **14/439**;
+- Batch 01 item: **1 — `இதயத்தைத் தந்திடு அண்ணா`**;
+- English title: **Give Me Your Heart, Anna**;
+- source scans: **18–31**;
+- reviewed English item: `translations/en/items/01-give-me-your-heart-anna-en.md`;
+- Batch-01 review: `translations/en/batches/batch-01.md`;
+- translation plan: `translations/en/TRANSLATION_PLAN.md`;
+- English source map: `translations/en/SOURCE_MAP.md`;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 01: **0**;
+- Tamil `sections/` changes during Batch 01: **0**.
+
+Batch 01 is intentionally a one-item batch because item 1 spans scans 18–31 and must not be split. The translation preserves the canonical/contents title distinction, Tamil three-letter wordplay through source tokens, quoted Anna rhetoric, the source-visible `அவர்` anomaly without silent Tamil repair, and the closing sea-shore elegy.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -134,6 +155,6 @@ Before changing anything, read completely:
 
 ## EXACT NEXT ACTIVITY
 
-Begin **Phase 4 — English translation and release workflow** from the Tamil final-cleared canonical item layer.
+Execute **Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**.
 
-Follow `POEM_PROCESSING_GUIDE.md` and the repository translation policy. Do not alter Tamil source/page/canonical text as part of translation work; if a genuine Tamil source discrepancy is discovered, reopen the affected Tamil layers explicitly before continuing.
+Read the final-cleared `sections/02.md` and `sections/03.md` completely, translate both complete items under `translations/en/items/`, review them together in `translations/en/batches/batch-02.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. If a genuine Tamil discrepancy is exposed, reopen the Tamil source-backed layers explicitly before continuing.

@@ -28,7 +28,7 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item scans; Batch 02 NEXT**.
 
 ## Printed-page numbering behaviour
 
@@ -76,3 +76,13 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 ## Tamil final clearance
 
 **PASS — FINAL-CLEARED.** Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`. Gates 1–5 remain PASS; unresolved Tamil source/completeness defects are **0**; Gate 6 changed **0** page records, **0** canonical items and **0** English translations. Phase 4 is unblocked.
+
+## Phase 4 translation metadata
+
+- Tamil source/canonical layer remains **FINAL-CLEARED**;
+- reviewed batches: **1**;
+- reviewed English items: **1/77**;
+- reviewed item scans: **14/439**;
+- Batch 01 English item: `../translations/en/items/01-give-me-your-heart-anna-en.md`;
+- Tamil page/canonical changes caused by translation: **0**;
+- next translation batch: **items 2–3**.

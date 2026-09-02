@@ -109,3 +109,7 @@ No English translation was created or modified as part of this Gate-6 clearance 
 ## Exact next activity
 
 Begin **Phase 4 — English translation and release workflow**, following `POEM_PROCESSING_GUIDE.md` and the repository translation policy, using only the Tamil final-cleared canonical item layer as the translation source.
+
+## Subsequent Phase 4 status
+
+Phase 4 has subsequently started. **Batch 01 is reviewed PASS** for item 1 `இதயத்தைத் தந்திடு அண்ணா` (**Give Me Your Heart, Anna**), covering **14/439** item-assigned scans. The Tamil final-cleared `pages/` and `sections/` layers remained unchanged. Exact next translation activity: **Batch 02 items 2–3**.

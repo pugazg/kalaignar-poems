@@ -62,10 +62,17 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 
 ## Phase 4 — translation and release
 
-**UNBLOCKED / NOT STARTED — NEXT.**
+**IN PROGRESS — Batch 01 reviewed PASS.**
 
-Translation and derivative/release work may now begin from the Tamil final-cleared canonical item layer, following `POEM_PROCESSING_GUIDE.md` and the repository translation policy.
+- reviewed batches: **1**;
+- reviewed English items: **1/77**;
+- reviewed item-assigned source scans: **14/439**;
+- Batch 01: item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
+- translation scaffold: `poems/kalaignarin-kavithaigal/translations/en/`;
+- unresolved reviewed translation issues: **0**;
+- Tamil page/canonical changes during Phase 4 so far: **0**;
+- Batch 02 items 2–3: **NEXT**.
 
 ## EXACT NEXT ACTIVITY
 
-Begin **Phase 4 — English translation and release workflow** from `poems/kalaignarin-kavithaigal/sections/01.md` through `sections/77.md`.
+Execute **Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)** from the Tamil final-cleared canonical layer. Review both complete translations before marking the batch PASS; do not alter Tamil final-cleared files.

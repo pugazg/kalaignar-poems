@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **UNBLOCKED / NOT STARTED — NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item scans; Batch 02 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -83,6 +83,18 @@ The earlier Gate-4 source-backed title corrections at scans **406, 409, 457–46
 
 No page record, canonical item or English translation was changed during Gate 6. Phase 4 is now unblocked.
 
+## Phase 4 — English translation
+
+**IN PROGRESS — Batch 01 reviewed PASS.**
+
+- translation root: `translations/en/`;
+- reviewed batches: **1**;
+- reviewed items: **1/77**;
+- reviewed item-assigned scans: **14/439**;
+- item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` / `sections/` changes: **0**.
+
 ## Next activity
 
-**Phase 4 — English translation and release workflow.** Use only the Tamil final-cleared `sections/01.md` through `sections/77.md` as the translation source layer.
+**Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**. Translate both complete final-cleared canonical items and review the batch before advancing.

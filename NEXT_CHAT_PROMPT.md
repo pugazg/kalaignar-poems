@@ -81,6 +81,20 @@ Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 - English translation created/modified during Gate 6 **no**;
 - Phase 4 **UNBLOCKED**.
 
+## Phase 4 Batch 01 durable result
+
+- translation scaffold: `translations/en/`;
+- Batch 01: **reviewed PASS**;
+- reviewed English items: **1/77**;
+- reviewed item scans: **14/439**;
+- item 1: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
+- English item: `translations/en/items/01-give-me-your-heart-anna-en.md`;
+- Batch review: `translations/en/batches/batch-01.md`;
+- unresolved reviewed translation issues: **0**;
+- Tamil page/canonical changes: **0**.
+
+Follow `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md` for Phase-4 continuation.
+
 ## Locked Phase 3 structure
 
 Gate 1: scan 1 cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 (`scan_page - 17`); scan 465 back cover. `printed_page` stays source-visible only.
@@ -95,10 +109,10 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 
 ## EXACT NEXT ACTIVITY
 
-Begin **Phase 4 — English translation and release workflow**.
+Execute **Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**.
 
-1. Treat `PHASE3_TAMIL_FINAL_CLEARANCE.md` and the final-cleared `sections/01.md` through `sections/77.md` as the Tamil translation source layer.
-2. Follow `POEM_PROCESSING_GUIDE.md` and the repository translation policy.
-3. Preserve source-item identity and provenance in translation mapping.
-4. Do not silently edit Tamil final-cleared files during translation.
-5. If a genuine Tamil discrepancy is found, reopen the affected Tamil source/page/audit/canonical layers before continuing.
+1. Read final-cleared `sections/02.md` and `sections/03.md` completely.
+2. Translate both complete items with stable item identity and scan provenance.
+3. Review the full batch for omissions, duplication, voice, names, rhetoric and source-specific claims.
+4. Create/update `translations/en/items/`, `translations/en/batches/batch-02.md` and `translations/en/SOURCE_MAP.md`.
+5. Do **not** alter Tamil final-cleared `pages/` or `sections/` during translation.
