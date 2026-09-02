@@ -23,10 +23,12 @@ jobs:
         run: |
           test -z "$(git diff --name-only | grep -E '^poems/kalaignarin-kavithaigal/(pages|sections)/' || true)"
           grep -q 'Gate 5.*COMPLETE / PASS' HANDOVER.md
-          grep -q 'Gate 6.*NEXT / NOT STARTED' HANDOVER.md
+          grep -q 'Gate 6.*NOT STARTED.*NEXT' HANDOVER.md
           grep -q 'Gate 5.*COMPLETE / PASS' NEXT_CHAT_PROMPT.md
           grep -q 'Gate 6.*NEXT / NOT STARTED' NEXT_CHAT_PROMPT.md
           grep -q 'PHASE3_CANONICAL_SOURCE_REVIEW.md' HANDOVER.md
+          grep -q 'Gate 5.*COMPLETE / PASS' TRANSCRIPTION_PHASE_PLAN.md
+          grep -q 'Gate 6.*NEXT / NOT STARTED' TRANSCRIPTION_PHASE_PLAN.md
       - name: Commit synchronized status and remove one-shot runner
         run: |
           git config user.name "github-actions[bot]"
