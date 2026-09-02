@@ -20,7 +20,7 @@ This record closes **Phase 3 Gate 4 — canonical Tamil assembly only**. It does
 - physical section runs recorded: **83**;
 - Gate-3 title variants retained in source-map metadata: **30/30**;
 - verified page records changed during assembly: **0**;
-- canonical file SHA-256: `a727b1eb625db011d50184a946b8257355edb671807fcbe12b6e95b64092d85d`.
+- canonical file SHA-256: `ee021de215f2dcca176afe31959f07fdd6ed2b1b2926ff6d3cf91c43d986f57d`.
 
 ## Locked invariants applied
 
