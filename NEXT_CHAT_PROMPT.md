@@ -30,90 +30,45 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Clearance C01–C03: **COMPLETE**;
-- C04 source-layout review: **COMPLETE**;
-- C04 lexical clearance: **IN PROGRESS — exactly 10 physical pages per iteration**;
-- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
-- verified pages: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–75**;
-- additional C04 verified pages: **79, 89, 100**;
-- C04 unresolved set: **76–78, 80–88, 90–99 (22 pages)**;
+- Clearance C01–C04: **COMPLETE**;
+- C05: **NEXT**;
+- cumulative status: **0 `partial`, 337 `needs-review`, 128 `verified`**;
+- verified pages: **0001–0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–100**;
 - Phase 3 and translation: **blocked**.
 
-## C04 FIXED SOURCE STRUCTURE
+## C04 — COMPLETE
+
+Physical scans **76–100** are fully `verified`.
+
+Fixed source structure remains:
 
 - **76–79** — `விடுதலை வீரர்கள்`; scan 79 closes with `வணக்கம்!`, `வாழ்க!` and floral ornament;
 - **80–89** — `ஐம்புலன்`; scan 80 title + `24.3.68` event note + star; scan 89 closes with `வணக்கம்.` + floral ornament;
 - **90–100** — `பிலவங்க ஆண்டு`; scan 90 title + `13.4.68` event note + star; scan 100 closes with `வணக்கம்.` + floral ornament;
-- keep `தலைவர் கலைஞர்:` speaker blocks and parenthetical poet-performance notes separate.
+- speaker/chairman blocks and parenthetical performance notes remain separate.
 
-## 10-PAGE ITERATION HISTORY
+### Mandatory lexical-control precedent for scans 76–100
 
-### Iteration A
-Processed **76–78, 80–86**. All remained direct-reviewed `needs-review` residuals.
+After direct source iterations A–L, the user supplied a Gemini **word-for-word transcription for scans 76–100** and explicitly directed:
 
-### Iteration B
-Processed exactly **87–96**. Scan **89** reached a complete source-critical pass and is `verified`.
+- **keep the supplied words from the Gemini transcription**;
+- do **not silently correct lexical words** from the scan;
+- correct only source-supported **page placement, paragraph order, punctuation, quotation structure, headings, speaker labels, performance-note boundaries, poetry lineation and spacing**;
+- remove non-body/non-source extraction material such as misplaced running headers/page numbers, library stamps, handwriting-derived text and OCR garbage.
 
-### Iteration C
-Processed exactly **97–100 plus 76–78 and 80–82**. No page was promoted.
+All 25 C04 records were reconciled under that rule. This supersedes earlier scan-derived lexical substitutions within scans 76–100. The rule is **range-specific** and must not be silently extended to later pages.
 
-### Iteration D
-Processed exactly **83–88 and 90–93**. Direct source-backed refinements were recorded; no page was promoted.
+## SOURCE-CRITICAL RULE FOR NEW RANGES
 
-### Iteration E
-Processed exactly **94–100 plus residual scans 76–78**. Further source-backed refinements were recorded; no page was promoted.
-
-### Iteration F
-Processed exactly **80–88 and 90**. Scan **81** now correctly preserves `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no page was promoted.
-
-### Iteration G
-Processed exactly **91–100**. Scan **100 / printed 83** reached a complete source-critical pass and is now **`verified`**; source-backed refinements for scans 91–99 are recorded in `audit.md`.
-
-### Iteration H
-Processed exactly **76–78 and 80–86** — **10 unresolved physical pages**. Scan **86** now preserves `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no page was promoted.
-
-### Iteration I
-Processed exactly **87, 88, 90–97** — **10 unresolved physical pages**. Scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no page was promoted.
-
-### Iteration J
-Processed exactly **98, 99, 76–78 and 80–84** — **10 unresolved physical pages**. All retained at least one compact unresolved lexical/word-ending span; no page was promoted.
-
-### Iteration K
-Processed exactly **85–88 and 90–95** — **10 unresolved physical pages**.
-
-- scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!` before the ஈரோடு தமிழன்பன் performance note;
-- scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`;
-- scan **93** restores `அங்கமுமே ஆறு பேரும்`;
-- scan **94** restores the dialogue opening `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`;
-- scans **85, 87, 88, 90, 91 and 95** received another direct full-page source pass;
-- all ten still retain at least one compact unresolved lexical/word-ending span;
-- iteration K produced **no promotion**.
-
-### Iteration L
-Processed exactly **96–99, 76–78 and 80–82** — **10 unresolved physical pages**.
-
-- all ten pages received another direct exact lexical/glyph pass against the controlling scan;
-- previously secured wording, lineation, running page material, title/context blocks and speaker/performance-note boundaries were reconfirmed;
-- no additional compact span could be certified safely enough to close a whole page without inference;
-- iteration L produced **no promotion**;
-- totals remain **0 `partial`, 359 `needs-review`, 106 `verified`**.
-
-## SOURCE-CRITICAL RULE
-
-Independently inspect the controlling scan before trusting Markdown. Correct only source-backed differences. Preserve old Tamil forms, punctuation, lineation, quotations, separators, running headers/page numbers, speaker labels, performance notes and layout. Resolve blur only from direct source evidence or an explicitly user-designated exact-source word-for-word transcription for that exact range. Do not import another witness.
+Outside an explicitly user-designated lexical-control range, independently inspect the controlling scan before trusting Markdown. Correct only source-backed differences. Preserve old Tamil forms, punctuation, lineation, quotations, separators, running headers/page numbers, speaker labels, performance notes and layout. Do not fill blur from grammar, metre, memory, context or another edition.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration M** on exactly:
+Begin **Phase 2 Clearance Batch C05 — physical scans 101–125**.
 
-**83, 84, 85, 86, 87, 88, 90, 91, 92, 93**.
-
-That is **10 unresolved physical pages**. Do **not** reopen already verified scans 79, 89 or 100.
-
-1. Give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
-2. Preserve all fixed speaker/performance structures and physical page boundaries.
+1. Inspect scans **101–125** directly against the controlling PDF and establish/reconfirm their source structure and page boundaries.
+2. Reconcile existing page records source-critically; do not apply the C04 Gemini lexical control to this new range unless the user explicitly supplies/designates one.
 3. Promote only complete passes to `verified`.
-4. Synchronize tracking files after the iteration.
-5. Keep C04 open while any C04 residual remains.
-6. **Do not begin C05, Phase 3, canonical assembly or translation.**
+4. Synchronize tracking files after the activity.
+5. **Do not begin C06, Phase 3, canonical assembly or translation in the same activity.**
