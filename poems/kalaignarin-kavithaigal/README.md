@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C03 COMPLETE; C04 source-layout review COMPLETE; C04 lexical clearance IN PROGRESS; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C04 COMPLETE; C05 NEXT; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,43 +22,45 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 `partial`, 359 `needs-review`, 106 `verified`**;
-- unresolved backlog: **359 pages**;
-- verified pages: **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–75**;
-- additional C04 verified pages: **79, 89, 100**;
-- Phase 3: **blocked**.
+- cumulative status: **0 `partial`, 337 `needs-review`, 128 `verified`**;
+- unresolved backlog: **337 pages**;
+- verified pages: **0001–0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–100**;
+- Phase 3: **blocked until Phase-2 page clearance is complete**.
 
-## Clearance C04 — 10-page iterations
+## Clearance C04 — COMPLETE
 
 Physical window: **76–100**.
 
-Source-established boundaries:
+Source-established structure remains:
 
 - **76–79** — `விடுதலை வீரர்கள்`; scan 79 closes with `வணக்கம்!`, `வாழ்க!` and floral ornament;
 - **80–89** — `ஐம்புலன்`; scan 80 title/context/star opening; scan 89 closes with `வணக்கம்.` and floral ornament;
-- **90–100** — `பிலவங்க ஆண்டு`; scan 90 title/context/star opening; scan 100 closes with `வணக்கம்.` and floral ornament.
+- **90–100** — `பிலவங்க ஆண்டு`; scan 90 title/context/star opening; scan 100 closes with `வணக்கம்.` and floral ornament;
+- `தலைவர் கலைஞர்:` / `தலைவர் கலைஞரின் முடிவுரைக் கவிதை:` blocks and parenthetical poet-performance notes remain separate source structures.
 
-Iteration tracking:
+### Review history
 
-- **A:** scans **76–78, 80–86** — direct-reviewed; no promotions;
-- **B:** scans **87–96** — direct-reviewed; **scan 89 promoted to `verified`**;
-- **C:** scans **97–100, 76–78, 80–82** — deeper review of exactly 10 physical pages; no promotions;
-- **D:** scans **83–88, 90–93** — deeper review of exactly 10 physical pages; no promotions;
-- **E:** scans **94–100, 76–78** — deeper review of exactly 10 physical pages; no promotions;
-- **F:** scans **80–88, 90** — another exact 10-page direct closure pass; scan **81** corrected to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no promotions;
-- **G:** scans **91–100** — exact 10-page closure pass; **scan 100 / printed 83 promoted to `verified`**;
-- **H:** scans **76–78, 80–86** — exact 10 unresolved-page closure pass; scan **86** corrected to `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no promotions;
-- **I:** scans **87, 88, 90–97** — exact 10 unresolved-page closure pass; scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
-- **J:** scans **98, 99, 76–78, 80–84** — exact 10 unresolved-page closure pass; all source structures and secured wording reconfirmed; no promotions;
-- **K:** scans **85–88, 90–95** — exact 10 unresolved-page closure pass; scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!`, scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`, scan **93** restores `அங்கமுமே ஆறு பேரும்`, and scan **94** restores `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`; no promotions;
-- **L:** scans **96–99, 76–78, 80–82** — exact 10 unresolved-page closure pass; all ten were reread directly and established wording/structure was reconfirmed; no promotions;
-- remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**.
+C04 went through direct source-critical iterations **A–L**. Before final lexical closure, scans **79, 89 and 100** had already reached `verified`, while **22 pages** remained `needs-review` because compact lexical spans could not safely be inferred from the scan alone.
 
-## Verification control
+### Final user-designated lexical control
 
-The controlling scan remains authoritative. Exact-source word-for-word transcriptions may supply lexical control only when explicitly designated for the stated page range; structure/punctuation/lineation still require scan reconciliation. Do not fill blur from memory, grammar, metre or another edition.
+The user then supplied a Gemini **word-for-word transcription for scans 76–100** and explicitly directed:
+
+- **keep the supplied lexical words**;
+- do **not** silently replace them with scan-derived lexical corrections;
+- use the controlling scan only for source-supported **page placement, paragraph order, punctuation, quotation structure, headings, speaker labels, performance-note boundaries, poetry lineation and spacing**;
+- remove extraction noise/non-body material such as misplaced running headers/page numbers, library marks, handwriting-derived text and OCR garbage.
+
+All **25 C04 scans** were reconciled under that rule. Earlier scan-derived lexical substitutions on already verified scans were also brought back into agreement with the supplied lexical control where necessary. The scan independently confirmed the physical/source structure. Result:
+
+- C04 scans **76–100: 25/25 `verified`**;
+- promotions from the pre-control state: **22**;
+- durable contiguous verified boundary advanced from **1–75** to **1–100**;
+- cumulative status advanced to **0 `partial`, 337 `needs-review`, 128 `verified`**.
+
+This lexical-control decision is **specific to the user-designated supplied transcription for scans 76–100**. It does not authorize silent lexical substitution from Gemini/OCR for other ranges.
 
 ## Exact next activity
 
-Process exactly **10 unresolved physical pages** in C04 iteration M: **83, 84, 85, 86, 87, 88, 90, 91, 92, 93**. Do not reopen verified scans 79, 89 or 100. Give those residual pages another direct exact lexical/glyph closure pass, preserve all speaker/performance-note structures, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Begin **Phase 2 Clearance Batch C05 — physical scans 101–125**. Establish/reconfirm source structure and perform source-critical page clearance from the controlling PDF. Do **not** begin C06, Phase 3, canonical assembly or translation in the same activity.
