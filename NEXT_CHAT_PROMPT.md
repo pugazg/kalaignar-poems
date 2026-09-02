@@ -50,60 +50,45 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 ## 10-PAGE ITERATION HISTORY
 
 ### Iteration A
-
 Processed **76–78, 80–86**. All remained direct-reviewed `needs-review` residuals.
 
 ### Iteration B
-
 Processed exactly **87–96**. Scan **89** reached a complete source-critical pass and is `verified`.
 
 ### Iteration C
-
 Processed exactly **97–100 plus 76–78 and 80–82**. No page was promoted.
 
 ### Iteration D
-
 Processed exactly **83–88 and 90–93**. Direct source-backed refinements were recorded; no page was promoted.
 
 ### Iteration E
-
 Processed exactly **94–100 plus residual scans 76–78**. Further source-backed refinements were recorded; no page was promoted.
 
 ### Iteration F
-
 Processed exactly **80–88 and 90**. Scan **81** now correctly preserves `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no page was promoted.
 
 ### Iteration G
-
 Processed exactly **91–100**. Scan **100 / printed 83** reached a complete source-critical pass and is now **`verified`**; source-backed refinements for scans 91–99 are recorded in `audit.md`.
 
 ### Iteration H
-
-Processed exactly **76–78 and 80–86** — **10 unresolved physical pages**.
-
-- all ten received another direct source/glyph closure pass;
-- scan **86** now preserves the directly visible **`தமிழன்பன் மூக்குடைக்கப் போகின்றார்`**;
-- all ten still retain at least one compact unresolved lexical/word-ending span;
-- iteration H produced **no promotion**.
+Processed exactly **76–78 and 80–86** — **10 unresolved physical pages**. Scan **86** now preserves `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no page was promoted.
 
 ### Iteration I
-
-Processed exactly **87, 88, 90–97** — **10 unresolved physical pages**.
-
-- all ten received another direct exact lexical/glyph closure pass;
-- scan **90** now additionally restores the directly visible line **`கலகங்கள் இன்று காய்ப்புகள் இன்று`**;
-- the fixed `ஐம்புலன்` / `பிலவங்க ஆண்டு` speaker, performance-note and page-boundary structures were reconfirmed;
-- all ten still retain at least one compact unresolved lexical/word-ending span;
-- iteration I produced **no promotion**.
+Processed exactly **87, 88, 90–97** — **10 unresolved physical pages**. Scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no page was promoted.
 
 ### Iteration J
+Processed exactly **98, 99, 76–78 and 80–84** — **10 unresolved physical pages**. All retained at least one compact unresolved lexical/word-ending span; no page was promoted.
 
-Processed exactly **98, 99, 76–78 and 80–84** — **10 unresolved physical pages**.
+### Iteration K
+Processed exactly **85–88 and 90–95** — **10 unresolved physical pages**.
 
-- all ten received another direct exact lexical/glyph closure pass against the controlling scan;
-- existing source-backed wording and the fixed `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` source structures were reconfirmed;
+- scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!` before the ஈரோடு தமிழன்பன் performance note;
+- scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`;
+- scan **93** restores `அங்கமுமே ஆறு பேரும்`;
+- scan **94** restores the dialogue opening `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`;
+- scans **85, 87, 88, 90, 91 and 95** received another direct full-page source pass;
 - all ten still retain at least one compact unresolved lexical/word-ending span;
-- iteration J produced **no promotion**;
+- iteration K produced **no promotion**;
 - totals remain **0 `partial`, 359 `needs-review`, 106 `verified`**.
 
 ## SOURCE-CRITICAL RULE
@@ -112,13 +97,13 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration K** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration L** on exactly:
 
-**85, 86, 87, 88, 90, 91, 92, 93, 94, 95**.
+**96, 97, 98, 99, 76, 77, 78, 80, 81, 82**.
 
 That is **10 unresolved physical pages**. Do **not** reopen already verified scans 79, 89 or 100.
 
-1. Give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
+1. Give these residual `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
 2. Preserve all fixed speaker/performance structures and physical page boundaries.
 3. Promote only complete passes to `verified`.
 4. Synchronize tracking files after the iteration.
