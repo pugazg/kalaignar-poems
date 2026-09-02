@@ -19,12 +19,18 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 1 transcription: **COMPLETE 465/465**;
 - Phase 2 source coverage: **COMPLETE 465/465**;
 - Phase 2 page clearance: **COMPLETE C01–C19**;
-- final page statuses: **465 verified; 0 needs-review; 0 partial**.
+- final page statuses: **465 verified; 0 needs-review; 0 partial**;
+- Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**.
 
-## Final derivative used for C19
+## Printed-page behaviour established at Gate 1
 
-`TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_019_pages_451-465.pdf` contains 15 exact-source pages corresponding to physical scans 451–465. Remaining `kavi11.md` lexical control matched scans 451–464 by substantive text anchors; scan 465 is the colour back cover and remains direct-scan controlled.
+- scan 1 is an unpaginated front cover;
+- scans 2–17 form a sixteen-page Roman front-matter sequence, logical **I–XVI**;
+- scans 18–464 form the continuous Arabic body sequence **1–447**, with `logical printed page = scan_page - 17`;
+- scan 465 is an unpaginated colour back cover.
 
-## Next phase
+The edition intentionally suppresses the numeral on many title/opening pages. Verified page records continue to use `printed_page` only for a numeral visibly present in the source; reconciled logical pagination is structural metadata and is not silently backfilled.
 
-Phase 3 is unblocked. The next activity is **Gate 1 physical scan ↔ printed-page reconciliation**; later Phase 3 gates remain deferred.
+## Next phase gate
+
+**Phase 3 Gate 2 — boundary / page-join audit**. Later gates remain deferred.

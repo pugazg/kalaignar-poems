@@ -21,16 +21,21 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 2 clearance: **C01–C19 COMPLETE**;
 - status totals: **0 partial / 0 needs-review / 465 verified**;
 - verified range: **0001–0465**;
-- contiguous verified boundary: **1–465**;
-- Phase 3: **UNBLOCKED — NOT STARTED**;
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- Phase 3 Gate 2: **NEXT**;
 - canonical assembly / translation: **NOT STARTED**.
 
-## C19 closure
+## Gate 1 — physical scan ↔ printed-page reconciliation
 
-Scans **451–464** use the remaining `kavi11.md` lexical text after source-anchor alignment; scan **465** remains the independently verified back cover. The exact derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_019_pages_451-465.pdf` was inspected across all 15 pages.
+`PHASE3_STRUCTURE_AUDIT.md` records the authoritative logical map:
 
-C19 structure: 451–452 `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; 453–454 `திசை திருப்பல் நியாயம்தானா?`; 455–456 `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!`; 457–460 `சில நாடுகள் இருக்கின்றன`; 461–464 `உன் காலணியை வாழ்த்துகிறாய்`; 465 back cover.
+- scan 1: front cover, unpaginated;
+- scans 2–17: Roman I–XVI;
+- scans 18–464: Arabic 1–447, using `scan_page - 17`;
+- scan 465: back cover, unpaginated.
+
+`printed_page` in verified page records remains a visible-source field. Suppressed numerals are not backfilled merely because their logical position is known.
 
 ## Next activity
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** only.
+**Phase 3 Gate 2 — boundary / page-join audit** only.

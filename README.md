@@ -19,20 +19,20 @@ Current status:
 - Phase 2 source coverage: **COMPLETE — 465/465**;
 - Phase 2 clearance: **COMPLETE — C01–C19**;
 - page status: **0 partial / 0 needs-review / 465 verified**;
-- contiguous verified boundary: **1–465**;
-- Phase 3: **UNBLOCKED — NOT STARTED**;
+- Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
+- Phase 3 Gate 2 boundary/page-join audit: **NEXT**;
 - canonical Tamil assembly and translation: **NOT STARTED**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
+
+## Gate 1 pagination result
+
+The source reconciles cleanly as scan 1 front cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 with invariant `logical printed page = scan_page - 17`; scan 465 back cover. Printed numerals suppressed by the source are not inserted into verified page records. See `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`.
 
 ## Supplied lexical controls
 
 A user-designated word-for-word transcription may control lexical words only after its first and final substantive body anchors are matched to the controlling scan. Embedded Markdown page numbers are not positional authority. Scan structure always controls page placement, headings, punctuation, quotations, lineation, separators, illustrations and non-body material.
 
-## Latest closure — C19
-
-Scans **451–465** are verified. Remaining `kavi11.md` lexical control covered scans **451–464** by body anchors; scan **465** remained the independently verified back cover. Phase 2 page clearance is now complete for the entire book.
-
 ## Next activity
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation.** Do not start Gate 2, canonical assembly, Tamil final clearance or translation in the same activity.
+**Phase 3 Gate 2 — boundary / page-join audit** only. Do not start title-witness reconciliation, canonical assembly, Tamil final clearance or translation in the same activity.

@@ -2,7 +2,7 @@
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf` — **465 physical scans**.
 
-## Clearance status
+## Page-layer status
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
@@ -12,28 +12,25 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - partial: **none**;
 - contiguous verified boundary: **1–465**.
 
-## Final clearance window C19 — scans 451–465
+## Phase 3 Gate 1 — pagination reconciliation COMPLETE
 
-| Physical scan | Printed numeral visible | Source role |
-|---:|---:|---|
-| 451 | 434 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` continuation |
-| 452 | 435 | closes `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` |
-| 453 | — | opens `திசை திருப்பல் நியாயம்தானா?` |
-| 454 | 437 | closes `திசை திருப்பல் நியாயம்தானா?` |
-| 455 | — | opens `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` |
-| 456 | 439 | closes that item |
-| 457 | — | opens `சில நாடுகள் இருக்கின்றன` |
-| 458 | 441 | continuation |
-| 459 | 442 | continuation |
-| 460 | 443 | closes `சில நாடுகள் இருக்கின்றன` |
-| 461 | — | opens `உன் காலணியை வாழ்த்துகிறாய்` |
-| 462 | 445 | continuation |
-| 463 | 446 | continuation |
-| 464 | 447 | closes `உன் காலணியை வாழ்த்துகிறாய்` and carries the 58th-birthday source note |
-| 465 | — | full-colour back cover `கலைஞர் / கவிதைகள்` |
+Gate 1 distinguishes source-visible page numerals from reconciled logical pagination. Verified page records are not rewritten to invent suppressed numerals.
 
-The table records only numerals visibly present in the source. Logical printed-page reconciliation beyond those visible numerals belongs to **Phase 3 Gate 1** and has not yet been performed.
+| Physical scan(s) | Reconciled logical page(s) | Source role |
+|---:|---|---|
+| 1 | — | front cover |
+| 2–17 | Roman I–XVI | front matter; logical Roman page = scan − 1 |
+| 18–464 | Arabic 1–447 | book body; logical printed page = scan − 17 |
+| 465 | — | full-colour back cover |
 
-## Next activity
+Source-visible anchors prove the continuous body offset: scan 21 = 4, scan 117 = 100, scan 217 = 200, scan 317 = 300, scan 416 = 399, scan 419 = 402, scan 452 = 435, scan 464 = 447.
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation.**
+The source intentionally suppresses numerals on title/opening pages. In those page records `printed_page` remains `null`; the logical number is supplied only by the Gate-1 reconciliation rule above. Full rationale and front-matter witness details are in `PHASE3_STRUCTURE_AUDIT.md`.
+
+## Phase status
+
+- Phase 3 Gate 1: **COMPLETE**;
+- Gate 2 boundary/page-join audit: **NEXT**;
+- Gate 3 title-witness reconciliation: **NOT STARTED**;
+- canonical Tamil assembly: **NOT STARTED**;
+- Tamil final clearance / translation: **NOT STARTED**.

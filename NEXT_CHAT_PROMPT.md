@@ -4,7 +4,7 @@ Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, and `audit.md`.
+Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, and `PHASE3_STRUCTURE_AUDIT.md`.
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -24,17 +24,19 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 2 source coverage **465/465 COMPLETE**;
 - Phase 2 clearance **C01–C19 COMPLETE**;
 - **0 partial / 0 needs-review / 465 verified**;
-- verified pages **0001–0465**;
-- contiguous verified boundary **1–465**;
-- Phase 3 **UNBLOCKED — NOT STARTED**;
-- canonical assembly / translation **NOT STARTED**.
+- Phase 3 Gate 1 **COMPLETE / PASS**;
+- Phase 3 Gate 2 **NEXT**;
+- Gate 3 / canonical assembly / Tamil final clearance / translation **NOT STARTED**.
 
-## C19 closure
+## Gate 1 pagination result
 
-`kavi11.md` was aligned by body-text anchors, not embedded page numbers. Its remaining C19 lexical span runs from scan **451** `நடக்காத திட்டங்கட்கு முழுப்பக்க விளம்பரங்கள்` through scan **464** `(கலைஞர் தனது 58-வது பிறந்தநாள் / செய்தியாக எழுதியது)`. Scan **465** is the verified back cover and remains scan-controlled.
+- scan 1 — front cover, unpaginated;
+- scans 2–17 — logical Roman I–XVI;
+- scans 18–464 — logical Arabic 1–447 using `scan_page - 17`;
+- scan 465 — back cover, unpaginated.
 
-C19 structure: 451–452 `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; 453–454 `திசை திருப்பல் நியாயம்தானா?`; 455–456 `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!`; 457–460 `சில நாடுகள் இருக்கின்றன`; 461–464 `உன் காலணியை வாழ்த்துகிறாய்`; 465 back cover.
+The existing `printed_page` field remains source-visible only. Do not backfill suppressed numerals from logical reconciliation. Full evidence and policy are in `PHASE3_STRUCTURE_AUDIT.md`.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** only. Account for every physical scan, distinguish visibly printed page numerals from reconciled logical pagination, and create/update the required structural audit record. Preserve verified page text. Do not begin Gate 2, canonical Tamil assembly, Tamil final clearance or translation in the same activity.
+Execute **Phase 3 Gate 2 — boundary / page-join audit** only. Certify every work/item opening, every page-to-page continuation, quotation carry-over, separator, continuation line and closing boundary against the verified page records and controlling scan. Record the result in the appropriate Phase-3 boundary audit artifact and synchronize status-bearing files. Preserve verified page text unless a genuine source discrepancy is discovered; if one is discovered, reopen and correct the page record first. Do **not** begin Gate 3 title-witness reconciliation, canonical Tamil assembly, Tamil final clearance or translation in the same activity.

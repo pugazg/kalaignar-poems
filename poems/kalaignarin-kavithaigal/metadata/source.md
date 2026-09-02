@@ -21,15 +21,18 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Phase 2 clearance: **C01–C19 COMPLETE**;
 - final statuses: **465 verified / 0 needs-review / 0 partial**;
-- contiguous verified boundary: **1–465**;
-- Phase 3: **UNBLOCKED — NOT STARTED**.
+- Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
+- Gate 2 boundary/page-join audit: **NEXT**.
 
-## C19 source control
+## Printed-page numbering behaviour
 
-Exact derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_019_pages_451-465.pdf`.
+Gate 1 establishes one continuous pagination model:
 
-Remaining `kavi11.md` lexical control was source-aligned from scan 451 `நடக்காத திட்டங்கட்கு முழுப்பக்க விளம்பரங்கள்` through scan 464 `(கலைஞர் தனது 58-வது பிறந்தநாள் / செய்தியாக எழுதியது)`. Scan 465 is the independently verified full-colour back cover and is outside the supplied lexical span.
+1. physical scan **1** — front cover, no logical page number;
+2. scans **2–17** — front matter, logical Roman **I–XVI** (`scan_page - 1`); some title/opening scans suppress the printed Roman numeral;
+3. scans **18–464** — book body, logical Arabic **1–447** (`scan_page - 17`); poem/title opening pages may suppress the printed numeral without interrupting the sequence;
+4. scan **465** — back cover, no logical page number.
 
-## Next
+Visible-source anchor checks include scan 5 = IV, scan 17 = XVI, scan 21 = 4, scan 117 = 100, scan 217 = 200, scan 317 = 300, scan 416 = 399, scan 419 = 402, scan 452 = 435 and scan 464 = 447.
 
-Phase 3 Gate 1: physical scan ↔ printed-page reconciliation.
+The `printed_page` field in page records remains strictly source-visible. A logically reconciled but suppressed number must not be inserted into that field or into body text. Logical pagination is recorded in `PHASE3_STRUCTURE_AUDIT.md` and `indexes/page-map.md`.

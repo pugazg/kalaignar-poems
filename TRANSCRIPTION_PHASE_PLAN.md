@@ -21,30 +21,24 @@ Do not position supplied Markdown by page-number labels written inside it. Match
 - statuses: **0 partial / 0 needs-review / 465 verified**;
 - contiguous verified boundary: **1–465**.
 
-### Final clearance batch C19
-
-C19 covered physical scans **451–465**. Remaining `kavi11.md` lexical text was aligned from scan 451 `நடக்காத திட்டங்கட்கு முழுப்பக்க விளம்பரங்கள்` to scan 464 `(கலைஞர் தனது 58-வது பிறந்தநாள் / செய்தியாக எழுதியது)`. Scan 465 is the verified back cover and was preserved outside the supplied lexical span.
-
-C19 structure:
-
-- 451–452 — conclusion of `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`;
-- 453–454 — `திசை திருப்பல் நியாயம்தானா?`;
-- 455–456 — `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!`;
-- 457–460 — `சில நாடுகள் இருக்கின்றன`;
-- 461–464 — `உன் காலணியை வாழ்த்துகிறாய்`;
-- 465 — back cover.
-
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**UNBLOCKED — NOT STARTED.** Proceed only in ordered gates from `POEM_PROCESSING_GUIDE.md`:
+Phase 3 is active and proceeds only in ordered gates from `POEM_PROCESSING_GUIDE.md`.
 
-1. physical scan ↔ printed-page reconciliation;
-2. boundary / page-join audit;
-3. title-witness reconciliation;
-4. canonical Tamil assembly;
-5. assembly/source-completeness review;
-6. Tamil final clearance.
+1. **Physical scan ↔ printed-page reconciliation — COMPLETE / PASS.**
+   - scan 1 cover, unpaginated;
+   - scans 2–17 = logical Roman I–XVI;
+   - scans 18–464 = logical Arabic 1–447 (`scan_page - 17`);
+   - scan 465 back cover, unpaginated;
+   - source-visible `printed_page` witnesses remain unchanged; suppressed numerals are not backfilled.
+2. **Boundary / page-join audit — NEXT.**
+3. **Title-witness reconciliation — NOT STARTED.**
+4. **Canonical Tamil assembly — NOT STARTED.**
+5. **Assembly/source-completeness review — NOT STARTED.**
+6. **Tamil final clearance — NOT STARTED.**
+
+Gate-1 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`.
 
 ## EXACT NEXT ACTIVITY
 
-Begin **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation**. Account for every physical scan and distinguish visibly printed numerals from reconciled logical pagination. Do not begin Gate 2, canonical assembly, Tamil final clearance or translation in the same activity.
+Execute **Phase 3 Gate 2 — boundary / page-join audit** only. Do not begin Gate 3, canonical assembly, Tamil final clearance or translation in the same activity.
