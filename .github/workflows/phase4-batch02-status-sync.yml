@@ -1,0 +1,41 @@
+name: Phase4 Batch02 Status Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/phase4-batch02-status-sync.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Synchronize Phase 4 Batch 02 durable status
+        run: python3 .github/phase4_batch02_status_sync.py
+      - name: Validate translation milestone scope
+        run: |
+          test -z "$(git diff --name-only | grep -E '^poems/kalaignarin-kavithaigal/(pages|sections)/' || true)"
+          grep -q 'Batches 01–02 reviewed PASS' HANDOVER.md
+          grep -q 'Batch 03' HANDOVER.md
+          grep -q 'Batches 01–02 reviewed PASS' TRANSCRIPTION_PHASE_PLAN.md
+          grep -q '3/77' poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md
+          grep -q '35/439' poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md
+          test -f poems/kalaignarin-kavithaigal/translations/en/items/02-the-tale-of-the-southerner-en.md
+          test -f poems/kalaignarin-kavithaigal/translations/en/items/03-indrajit-en.md
+          test -f poems/kalaignarin-kavithaigal/translations/en/batches/batch-02.md
+      - name: Commit status synchronization and remove one-shot runner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/phase4_batch02_status_sync.py .github/workflows/phase4-batch02-status-sync.yml
+          git add -A
+          git diff --cached --check
+          git commit -m "Synchronize Kalaignarin Kavithaigal Phase 4 Batch 02 status"
+          git push origin HEAD:main
