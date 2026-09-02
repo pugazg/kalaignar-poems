@@ -18,11 +18,11 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C12 COMPLETE; C13 NEXT**;
-- cumulative status: **0 `partial`, 154 `needs-review`, 311 `verified`**;
-- unresolved backlog: **154 pages**;
-- verified: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–300**;
+- Phase 2 clearance: **IN PROGRESS — C01–C13 COMPLETE; C14 NEXT**;
+- cumulative status: **0 `partial`, 131 `needs-review`, 334 `verified`**;
+- unresolved backlog: **131 pages**;
+- verified: **0001–0325, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–325**;
 - Phase 3 and English translation: **blocked**.
 
 ## Supplied-word lexical-control positioning
@@ -37,23 +37,21 @@ For every current/future `kavi*.md` control:
 - page-number labels or claimed ranges inside Markdown are descriptive only and do not override text anchors;
 - source text outside the confirmed supplied span is verified directly from the controlling scan.
 
-## C12 — COMPLETE
+## C13 — COMPLETE
 
-Attached exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`.
+Attached exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf`.
 
-Content alignment of `kavi5.md`:
+Content alignment of `kavi6.md`:
 
-- starts at scan **293** with `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!`;
-- ends at scan **300** with `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்`.
+- starts at scan **301** with `அது கண்ட பார்வதி கொதித் தெழுந்து...`;
+- ends at scan **325** with `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..`.
 
-Thus:
+Thus the supplied Markdown controls lexical words throughout C13. Source-established structure divides the window into **301–310** `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, **311–317** `மாறி வரும் ஊரினிலே`, and **318–325** `சமுதாயப் பார்வைகள்...!` (continuing beyond the batch).
 
-- scans **293–300** retain supplied-word lexical control;
-- scans **276–292** were directly source-cleared from the attached derivative because no `kavi5.md` body text covers them;
-- pre-existing verified **285, 292, 296** were preserved;
-- direct-source corrections included `சேறு`, `குழந்தைகட்கு`, `சூளுரை`, `மேடைப் பேச்சரங்கில்`, `அழித்தாராம்`, `வாக்குக்குச்`;
-- C12 final = **25/25 verified**.
+Pre-existing verified **310** and **317** were reconciled; the other **23** pages were newly promoted. No supplied lexical word was silently replaced merely because the scan or prior page record suggested another reading. Source structure did correct extraction placement where required, including separator and line placement on scan 321.
+
+C13 final = **25/25 verified**; cumulative **0 / 131 / 334**; contiguous boundary **1–325**.
 
 ## Current next activity
 
-Begin **C13 — physical scans 301–325**. `kavi6.md` is already content-anchor matched to the attached `part_013_pages_301-325.pdf`: opening anchor `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan 301; ending anchor `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan 325. Preserve/reconcile verified scans **310** and **317**. Do not begin C14, Phase 3, canonical assembly or translation in the same activity.
+Begin **C14 — physical scans 326–350**. Content-anchor align uploaded `kavi7.md` against attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_014_pages_326-350.pdf` before applying lexical control. Preserve/reconcile verified scans **328** and **332**. Do not begin C15, Phase 3, canonical assembly or translation in the same activity.
