@@ -52,6 +52,7 @@ Iteration tracking:
 - **I:** 87, 88 and 90–97 — exactly 10 unresolved physical pages; scan 90 additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
 - **J:** 98, 99, 76–78 and 80–84 — exactly 10 unresolved physical pages; another direct exact lexical/glyph pass on all ten; no promotions;
 - **K:** 85–88 and 90–95 — exactly 10 unresolved physical pages; scan 86 restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!`, scan 92 restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`, scan 93 restores `அங்கமுமே ஆறு பேரும்`, and scan 94 restores `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`; no promotions;
+- **L:** 96–99, 76–78 and 80–82 — exactly 10 unresolved physical pages; all ten received another direct exact lexical/glyph pass with established wording and structures reconfirmed; no promotions;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22)**.
 
 For every C04 page:
@@ -65,7 +66,7 @@ For every C04 page:
 
 ### Exact next activity
 
-Execute **C04 ten-page iteration L: scans 96–99, 76–78 and 80–82**. Process exactly **10 unresolved physical pages** and do not reopen verified scans 79, 89 or 100. Give these `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` residual pages another direct lexical/glyph closure pass, preserve all fixed speaker/performance-note structures, and do not begin C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration M: scans 83–88 and 90–93**. Process exactly **10 unresolved physical pages** and do not reopen verified scans 79, 89 or 100. Give these `ஐம்புலன்` / `பிலவங்க ஆண்டு` residual pages another direct lexical/glyph closure pass, preserve all fixed speaker/performance-note structures, and do not begin C05 or Phase 3 while C04 remains open.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
