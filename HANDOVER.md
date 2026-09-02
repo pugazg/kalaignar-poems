@@ -53,60 +53,44 @@ Physical window: **76–100**.
 ## C04 10-page iteration tracking
 
 ### Iteration A
-
 Processed **76–78, 80–86**. Direct source-backed corrections were applied; all ten remained `needs-review` because each retained at least one compact unresolved span.
 
 ### Iteration B
-
 Processed exactly **87–96**. Scan **89 / printed 72** reached a complete source-critical pass and is `verified`; scans **87–88, 90–96** remained `needs-review`.
 
 ### Iteration C
-
 Processed exactly **97–100 plus residual 76–78 and 80–82**. No page was promoted.
 
 ### Iteration D
-
-Processed exactly **83–88 and 90–93** — **10 physical pages**. Direct lexical refinements were added; no page was promoted.
+Processed exactly **83–88 and 90–93**. Direct lexical refinements were added; no page was promoted.
 
 ### Iteration E
-
-Processed exactly **94–100 plus residual 76–78** — **10 physical pages**. Further source-backed lexical refinements were added; no page was promoted.
+Processed exactly **94–100 plus residual 76–78**. Further source-backed lexical refinements were added; no page was promoted.
 
 ### Iteration F
-
-Processed exactly **80–88 and 90** — **10 physical pages**. Scan **81** corrected the opening from unsupported `கார் விடுதியில்` to source-visible **`கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`**; no page was promoted.
+Processed exactly **80–88 and 90**. Scan **81** corrected the opening to `கார் விபத்தில் அடிபட்ட மூக்கினிலே சிறுசிரிக்கை;`; no page was promoted.
 
 ### Iteration G
-
-Processed exactly **91–100** — **10 physical pages**. Scan **100 / printed 83** reached a complete source-critical pass and is now `verified`; other source-backed refinements are recorded in `audit.md`. Iteration G produced **one promotion: scan 100**.
+Processed exactly **91–100**. Scan **100 / printed 83** reached a complete source-critical pass and is `verified`; iteration G produced one promotion.
 
 ### Iteration H
-
-Processed exactly **76–78 and 80–86** — **10 unresolved physical pages**.
-
-- all ten received another direct source/glyph closure pass;
-- scan **86** corrects the source-visible line to **`தமிழன்பன் மூக்குடைக்கப் போகின்றார்`**, replacing `மூக்குடையப் போகின்றார்`;
-- established `விடுதலை வீரர்கள்` / `ஐம்புலன்` speaker, performance-note, title and page-boundary structures were reconfirmed;
-- each of the ten still retains at least one compact lexical/word-ending span that cannot be certified without inference;
-- **no page was promoted**.
+Processed exactly **76–78 and 80–86**. Scan **86** corrected `தமிழன்பன் மூக்குடைக்கப் போகின்றார்`; no page was promoted.
 
 ### Iteration I
-
-Processed exactly **87, 88, 90–97** — **10 unresolved physical pages**.
-
-- all ten received another direct exact lexical/glyph closure pass;
-- scan **90** now additionally restores the directly visible line **`கலகங்கள் இன்று காய்ப்புகள் இன்று`**;
-- established `ஐம்புலன்` / `பிலவங்க ஆண்டு` speaker, performance-note and physical-page structures were reconfirmed;
-- each of the ten still retains at least one compact lexical/word-ending span that cannot be certified without inference;
-- **no page was promoted**.
+Processed exactly **87, 88, 90–97**. Scan **90** restored `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no page was promoted.
 
 ### Iteration J
+Processed exactly **98, 99, 76–78 and 80–84**. All ten received another direct exact lexical/glyph pass; no page was promoted.
 
-Processed exactly **98, 99, 76–78 and 80–84** — **10 unresolved physical pages**.
+### Iteration K
+Processed exactly **85–88 and 90–95** — **10 unresolved physical pages**.
 
-- all ten received another direct exact lexical/glyph closure pass against the controlling scan;
-- existing source-backed wording, running headers/page numbers, title/context blocks, speaker labels, performance notes and physical-page boundaries were independently reconfirmed;
-- no additional compact span could be certified safely enough to close a whole page;
+- scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!` before the ஈரோடு தமிழன்பன் performance note;
+- scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`;
+- scan **93** restores `அங்கமுமே ஆறு பேரும்`;
+- scan **94** restores `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`;
+- scans **85, 87, 88, 90, 91 and 95** received another complete direct page reread;
+- each of the ten still retains at least one compact lexical/word-ending span that cannot be certified without inference;
 - **no page was promoted**.
 
 Current C04 unresolved set remains **76–78, 80–88, 90–99 (22 pages)**. Cumulative status remains **0 partial / 359 needs-review / 106 verified**.
@@ -117,9 +101,9 @@ Correct only what the applicable source control supports. Preserve old Tamil for
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C04 ten-page iteration K: scans 85–88 and 90–95** — exactly **10 unresolved physical pages**; do **not** reopen verified scans 79, 89 or 100.
+Execute **C04 ten-page iteration L: scans 96–99, 76–78 and 80–82** — exactly **10 unresolved physical pages**; do **not** reopen verified scans 79, 89 or 100.
 
-- give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
+- give these residual `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass;
 - preserve all established speaker/performance structures;
 - promote only complete passes;
 - keep C04 open while any residual pages remain;
