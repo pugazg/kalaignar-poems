@@ -9,7 +9,7 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - source PDF committed to repository: **No**;
 - language/script: Tamil;
-- textual authority: **the supplied scan itself**, with explicitly user-designated exact-source word-for-word transcriptions usable as lexical controls only where the supplied text is actually present.
+- textual authority: **the supplied scan itself**, with explicitly user-designated exact-source word-for-word transcriptions usable as lexical controls only on source spans established by matching their first and last body text.
 
 ## Source identity
 
@@ -23,33 +23,41 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C11 COMPLETE; C12 PARTIAL**;
-- cumulative status: **0 `partial`, 169 `needs-review`, 296 `verified`**;
-- unresolved backlog: **169 pages**;
-- verified pages: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–275**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C12 COMPLETE; C13 NEXT**;
+- cumulative status: **0 `partial`, 154 `needs-review`, 311 `verified`**;
+- unresolved backlog: **154 pages**;
+- verified pages: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–300**;
 - Phase 3: **blocked**.
 
-## Lexical-control state
+## User-designated lexical-control alignment rule
 
-C04–C11 are complete through physical scan 275. C12 targets 276–300 with uploaded `kavi5.md`.
+Internal page labels in supplied Markdown are not source-location authority. For each supplied transcription:
 
-`kavi5.md` declares extraction from `part_012_pages_276-300`, but its attached Markdown body contains only printed pages **276–283**, corresponding to physical scans **293–300**. It contains no lexical text for physical scans **276–292** / printed pages **259–275**.
+1. locate its first substantive body word/paragraph in the controlling source or an exact-source derivative;
+2. locate its final substantive body word/paragraph;
+3. the matched interval defines the actual lexical-control span;
+4. supplied words control only inside that interval;
+5. the controlling scan remains lexical authority outside that interval;
+6. source-established placement, punctuation, quotation structure, headings, speaker/performance-note boundaries, lineation and non-body separation always remain source-controlled.
 
-C12 safe result:
+## C12 closure
 
-- scans **293–300** verified under supplied lexical control;
-- scan **296** retained verified status after reconciliation;
-- scans **285** and **292** remain prior verified pages;
-- absent lexical content for scans **276–292** was not reconstructed or silently replaced by scan-derived text;
-- C12 remains **PARTIAL**.
+Exact-source derivative: `part_012_pages_276-300.pdf`.
+
+`kavi5.md` content anchors establish lexical control only for **293–300**:
+
+- first: `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!`;
+- last: `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்`.
+
+Scans **276–292** were therefore independently verified from the attached exact-source derivative itself. Direct visual closure corrected source-backed forms including `சேறு`, `குழந்தைகட்கு`, `சூளுரை`, `மேடைப் பேச்சரங்கில்`, `அழித்தாராம்`, and `வாக்குக்குச்`. C12 is now **25/25 verified**.
 
 ## Source-access / witness rule
 
-Page-range derivatives and user-supplied extracts from this exact PDF may aid rendering or provide lexical control when explicitly designated. They are not separate witnesses. Unrelated OCR, memory, grammar, metre, historical expectation and other editions are not textual authority.
+Page-range derivatives and user-supplied extracts from this exact PDF may aid rendering or provide lexical control when explicitly designated and text-anchor matched. They are not separate editions or witnesses. Unrelated OCR, memory, grammar, metre, historical expectation and other editions are not textual authority.
 
-The current renderer's reported/exposed 150-page window is not the physical source extent and must not override the exact 465-page identity.
+The historical renderer's reported/exposed 150-page window is not the physical source extent and must not override the exact 465-page identity.
 
 ## Next
 
-Recover/re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275**, then finish C12. Preserve verified scans **285** and **292**. Do not begin C13, Phase 3, canonical assembly or translation until C12 closes.
+C13 = physical scans **301–325**. `kavi6.md` is content-anchor matched to the entire attached `part_013_pages_301-325.pdf`: opening `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan 301; ending `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan 325. Preserve/reconcile verified scans **310** and **317**. Do not begin C14 or Phase 3 in the same activity.
