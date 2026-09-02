@@ -52,6 +52,7 @@ Iteration tracking:
 - **I:** scans **87, 88, 90–97** — exact 10 unresolved-page closure pass; scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
 - **J:** scans **98, 99, 76–78, 80–84** — exact 10 unresolved-page closure pass; all source structures and secured wording reconfirmed; no promotions;
 - **K:** scans **85–88, 90–95** — exact 10 unresolved-page closure pass; scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!`, scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`, scan **93** restores `அங்கமுமே ஆறு பேரும்`, and scan **94** restores `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`; no promotions;
+- **L:** scans **96–99, 76–78, 80–82** — exact 10 unresolved-page closure pass; all ten were reread directly and established wording/structure was reconfirmed; no promotions;
 - remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**.
 
 ## Verification control
@@ -60,4 +61,4 @@ The controlling scan remains authoritative. Exact-source word-for-word transcrip
 
 ## Exact next activity
 
-Process exactly **10 unresolved physical pages** in C04 iteration L: **96, 97, 98, 99, 76, 77, 78, 80, 81, 82**. Do not reopen verified scans 79, 89 or 100. Give those residual pages another direct exact lexical/glyph closure pass, preserve all speaker/performance-note structures, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
+Process exactly **10 unresolved physical pages** in C04 iteration M: **83, 84, 85, 86, 87, 88, 90, 91, 92, 93**. Do not reopen verified scans 79, 89 or 100. Give those residual pages another direct exact lexical/glyph closure pass, preserve all speaker/performance-note structures, promote only complete passes, and do not begin C05, Phase 3, canonical assembly or translation while C04 remains open.
