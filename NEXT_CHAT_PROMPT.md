@@ -88,7 +88,15 @@ Processed exactly **85–88 and 90–95** — **10 unresolved physical pages**.
 - scan **94** restores the dialogue opening `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`;
 - scans **85, 87, 88, 90, 91 and 95** received another direct full-page source pass;
 - all ten still retain at least one compact unresolved lexical/word-ending span;
-- iteration K produced **no promotion**;
+- iteration K produced **no promotion**.
+
+### Iteration L
+Processed exactly **96–99, 76–78 and 80–82** — **10 unresolved physical pages**.
+
+- all ten pages received another direct exact lexical/glyph pass against the controlling scan;
+- previously secured wording, lineation, running page material, title/context blocks and speaker/performance-note boundaries were reconfirmed;
+- no additional compact span could be certified safely enough to close a whole page without inference;
+- iteration L produced **no promotion**;
 - totals remain **0 `partial`, 359 `needs-review`, 106 `verified`**.
 
 ## SOURCE-CRITICAL RULE
@@ -97,13 +105,13 @@ Independently inspect the controlling scan before trusting Markdown. Correct onl
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C04 — ten-page iteration L** on exactly:
+Execute **Phase 2 Clearance Batch C04 — ten-page iteration M** on exactly:
 
-**96, 97, 98, 99, 76, 77, 78, 80, 81, 82**.
+**83, 84, 85, 86, 87, 88, 90, 91, 92, 93**.
 
 That is **10 unresolved physical pages**. Do **not** reopen already verified scans 79, 89 or 100.
 
-1. Give these residual `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
+1. Give these residual `ஐம்புலன்` / `பிலவங்க ஆண்டு` pages another direct exact lexical/glyph closure pass.
 2. Preserve all fixed speaker/performance structures and physical page boundaries.
 3. Promote only complete passes to `verified`.
 4. Synchronize tracking files after the iteration.
