@@ -1,0 +1,38 @@
+name: Gate5 Status Synchronization
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/gate5-status-sync.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Synchronize Gate 5 durable status
+        run: python3 .github/gate5_status_sync.py
+      - name: Validate status-only scope
+        run: |
+          test -z "$(git diff --name-only | grep -E '^poems/kalaignarin-kavithaigal/(pages|sections)/' || true)"
+          grep -q 'Gate 5.*COMPLETE / PASS' HANDOVER.md
+          grep -q 'Gate 6.*NEXT / NOT STARTED' HANDOVER.md
+          grep -q 'Gate 5.*COMPLETE / PASS' NEXT_CHAT_PROMPT.md
+          grep -q 'Gate 6.*NEXT / NOT STARTED' NEXT_CHAT_PROMPT.md
+          grep -q 'PHASE3_CANONICAL_SOURCE_REVIEW.md' HANDOVER.md
+      - name: Commit synchronized status and remove one-shot runner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/gate5_status_sync.py .github/workflows/gate5-status-sync.yml
+          git add -A
+          git diff --cached --check
+          git commit -m "Synchronize Kalaignarin Kavithaigal Gate 5 status"
+          git push origin HEAD:main
