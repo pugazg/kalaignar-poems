@@ -35,11 +35,11 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Clearance C01–C07: **COMPLETE**;
-- C08: **NEXT**;
-- cumulative status: **0 partial / 264 needs-review / 201 verified**;
-- verified pages: **0001–0175, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–175**;
+- Clearance C01–C08: **COMPLETE**;
+- C09: **NEXT**;
+- cumulative status: **0 partial / 241 needs-review / 224 verified**;
+- verified pages: **0001–0200, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–200**;
 - Phase 3 / translation: **blocked**.
 
 ## Completed supplied-word lexical-control ranges
@@ -47,7 +47,8 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - **C04 / scans 76–100** — supplied Gemini word-for-word transcription;
 - **C05 / scans 101–125** — `part_005_pages_101-125` transcription;
 - **C06 / scans 126–150** — `part_006_pages_126-150` transcription;
-- **C07 / scans 151–175** — `part_007_pages_151-175` transcription.
+- **C07 / scans 151–175** — `part_007_pages_151-175` transcription;
+- **C08 / scans 176–200** — user-uploaded `kavi1.md`, identified as `part_008_pages_176-200` word-for-word transcription.
 
 For these exact ranges:
 
@@ -56,35 +57,43 @@ For these exact ranges:
 - running headers/page numbers, library marks, handwriting-derived text and OCR garbage are excluded from body text;
 - no scan-derived lexical wording is silently substituted.
 
-## C07 — COMPLETE
+## C08 — COMPLETE
 
-Physical window: **151–175**. All **25/25** scans are `verified`; scans **154** and **174** were already verified before C07, so the batch produced **23 promotions**.
+Physical window: **176–200**. All **25/25** scans are `verified`; scans **184** and **196** were already verified before C08, so the batch produced **23 promotions**.
 
 Fixed source structure:
 
-- **151–154** — `நீர்க் குடும்பம்` continuation/conclusion; scan **154 / printed 137** closes with `வணக்கம் / வாழ்க` and a decorative illustration;
-- **155–169** — `பாரதிதாசன்`; scan **155** opens with title + `8.12.68` Bombay Bharathi Kala Mandram context + centered star; scan **169 / printed 152** closes the item;
-- **170–174** — `பாரதியார்`; scan **170** opens with title + `12.9.69` Chennai Vani Mahal context + centered star; scan **174 / printed 157** closes with `வணக்கம் / வாழ்க` and illustration;
-- **175** — `பொங்கல் திருநாள்` title + `12.1.1970` Chennai radio context + centered star + opening; item continues to scan 176.
+- **176–184** — `பொங்கல் திருநாள்` continuation/conclusion; scan **184 / printed 167** closes with `வணக்கம் / வாழ்க` and a decorative illustration;
+- **185–196** — `வாழ்வெனும் பாதையில்`; scan **185** opens with title + `14.4.70` Chennai radio context + centered star; scan **196 / printed 179** closes with `வணக்கம் / வாழ்க`;
+- **197–200** — `கணக்கு`; scan **197 / printed 180** opens with title + `2.8.1970` Salem Tamil Sangam context + centered star; scan **200 / printed 183** remains mid-item and continues to scan 201.
 
-C07 structural/source handling includes:
+C08 retained range-specific supplied forms even where they differ from earlier scan-derived readings, while preserving the durable source structure. Running `கவிதைகள்` / `கலைஞரின்` headers and page numerals were excluded from body text.
 
-- removal of running `கவிதைகள்` / `கலைஞரின்` headers and printed page numerals from body text;
-- exclusion of the isolated `2-` extraction artifact on scan 166 without replacing it with a guessed lexical word;
-- separation of the scan-170 title/context/star from the supplied `வணக்கம்.` salutation;
-- retention of the supplied lexical form `பாஞ்ச யை` on scan 172 rather than silently replacing it;
-- preservation/reconciliation of already verified scans 154 and 174 under the range-specific lexical control.
+Cumulative status moved from **0 partial / 264 needs-review / 201 verified** to **0 partial / 241 needs-review / 224 verified**. Contiguous verified boundary advanced from **1–175** to **1–200**.
 
-Cumulative status moved from **0 partial / 287 needs-review / 178 verified** to **0 partial / 264 needs-review / 201 verified**. Contiguous verified boundary advanced from **1–150** to **1–175**.
+## Remaining user-supplied transcription files
+
+The user attached `kavi1.md` through `kavi11.md` as the remaining transcription sequence beginning at physical scan 176. The stated batching rule is **25 physical pages per file**, with **`kavi11.md` alone covering the remaining 40 pages**. Operational mapping already clear for the next windows:
+
+- `kavi1.md` → **176–200** — C08 COMPLETE;
+- `kavi2.md` → **201–225** — C09 NEXT;
+- `kavi3.md` → **226–250**;
+- `kavi4.md` → **251–275**;
+- `kavi5.md` → **276–300**;
+- `kavi6.md` → **301–325**;
+- `kavi7.md` → **326–350**;
+- `kavi8.md` → **351–375**;
+- `kavi9.md` → **376–400**;
+- `kavi10.md` → **401–425**;
+- `kavi11.md` → user-stated remaining **40 physical pages**; verify its exact internal source-range label before applying it.
 
 ## EXACT NEXT ACTIVITY
 
-Begin **Phase 2 Clearance Batch C08 — physical scans 176–200**.
+Execute **Phase 2 Clearance Batch C09 — physical scans 201–225**.
 
 - fetch live `main` first;
-- inspect/reconfirm source structure for scans 176–200;
-- if the user supplies an exact-source word-for-word transcription for this range, use it only as explicitly designated lexical control under the standing rule;
-- otherwise remain scan/source-critical and do not infer blurred lexical text;
-- preserve any already verified pages inside the window while reconciling the range;
+- use the user-uploaded `kavi2.md` / `part_009_pages_201-225` text as lexical control under the standing rule;
+- reuse/reconfirm the already source-established page structure for scans 201–225;
+- preserve already verified scans inside the window while reconciling them to the range-specific lexical control;
 - synchronize tracking files after the activity;
-- do **not** begin C09, Phase 3, canonical assembly or translation in the same activity.
+- do **not** begin C10, Phase 3, canonical assembly or translation in the same activity.
