@@ -45,15 +45,15 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-## Durable state after C15
+## Durable state after the current C16 pass
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Clearance **C01–C15 COMPLETE**;
-- C16: **NEXT**;
-- cumulative: **0 partial / 86 needs-review / 379 verified**;
-- verified: **0001–0375, 0392–0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–375**;
+- C16: **PARTIAL — scans 376–396 verified; 397–400 remain needs-review**;
+- cumulative: **0 partial / 67 needs-review / 398 verified**;
+- verified: **0001–0396, 0447, 0465**;
+- durable contiguous verified boundary: **1–396**;
 - Phase 3 / canonical assembly / translation: **blocked**.
 
 ## Standing supplied-control rule
@@ -64,46 +64,46 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - never silently substitute scan-derived lexical wording inside a confirmed supplied span;
 - never invent a supplied span merely from a Markdown page-number claim.
 
-## C15 — COMPLETE
+## C16 — PARTIAL
 
-Physical window: **351–375**.
+Target physical window: **376–400**.
 
 ### Anchor determination
 
-`kavi8.md` opening body text `தாழ்த்தப்பட்டோர் அல்லலுற்றுத்` matches attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_015_pages_351-375.pdf` page 1 = physical scan **351**.
+`kavi9.md` opening title/body `கலைத்தாயின் தலைச் செல்வன்!` matches attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_016_pages_376-400.pdf` page 1 = physical scan **376**.
 
-Its ending body text `வீழ்ந்திடுவோம்!` matches attached derivative page 25 = physical scan **375** and is the final body line before the page's decorative ornament.
+Its final substantive body line is `அடைகாக்கும் கோழி போல`, visible on attached derivative page 21 = physical scan **396**.
 
-Therefore `kavi8.md` lexical control covers the full **351–375** C15 interval. Internal printed-page markers, running headers and extraction garbage are non-authoritative and were excluded.
+Attached derivative page 22 = scan **397** continues that poem, but `kavi9.md` supplies no further lexical text. The next supplied file `kavi10.md` begins with `சுயமரியாதை இயக்கத்தின் பெயரால்; பெரியார்...`, matching derivative `part_017` page 1 = physical scan **401**. Therefore there is **no supplied lexical-control text for scans 397–400**.
 
-### C15 structure
+### C16 structure established so far
 
-- scans **351–361** — conclusion of `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`;
-- scans **362–370** — `“அறிஞர் அண்ணா வழியில்”`, closing on 370 with illustration;
-- scan **371** — post-poem blank/show-through verso;
-- scan **372** — section divider `கண்ணீர்த் துளிகள்`;
-- scan **373** — divider verso with show-through only;
-- scans **374–375** — `பன்னீர்ச்செல்வமே!`, closing on 375 with decorative ornament.
+- **376–378** — `கலைத்தாயின் தலைச் செல்வன்!`;
+- **379–381** — `உன் நிழலாக அசைகின்றோம்!`;
+- **382–383** — `வாழ்க ஜீவா`;
+- **384–389** — `மறைந்த மாவீரன்`;
+- **390–391** — `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`;
+- **392** — divider `மலர்த் தோட்டம்`;
+- **393** — divider verso;
+- **394–395** — `இன்றைக்கு உன்றன் பிறந்த நாள்`;
+- **396–397** — `அவன் பிறந்தநாள் என ஒன்றில்லை!`;
+- **398–399** — `அருமருந்தே! அன்புறவு உடன்பிறப்பே!`;
+- **400** — opens `பகுத்தறிவுப் பாண்டியனார்!`, continuing to scan 401.
 
-### C15 lexical-control handling
+### C16 result so far
 
-Supplied lexical forms were retained rather than silently normalized. Representative retained forms include `தணல் வீழ் மெழுகாய்த்`, `தகத் தகாயச்`, `விரிவானாய்`, `இருந்த ருந்தும்`, `பொய்ப்பித்தர்`, `அலிகளின்`, `அதுகளைப்`, `வாராது வந்த மாமணி`, `பிரமதேவன் கால் பெற்ற.`, `கிழித்த தென்ன?`, `சீதை வில்லுடன்`, `சொரணையும்`, `சத்தனைய`, `தாண்டிக்`, `அறியா தோரும்`, `சதுர்த்திக்கின்று`, `பஞ்சோந்திகளும்`, `எட்டுக்காலம்`, `அயராதுழைப்பதற்குச்`, `ஏ.டி.பன்னீர்ச் செல்வம்`, `எனறால்`, `பழச்சுளை`, and `செயல்பாடி`.
-
-Non-source extraction artifacts such as `Jasdang of De`, stray Arabic/Russian/Latin fragments, isolated junk characters/numerals, running headers and printed page numerals were excluded. Source order also restored the displaced supplied word `உன்` on scan 370 without lexical substitution.
-
-### C15 totals
-
-- scans **351–375 = 25/25 verified**;
-- pre-existing verified **371–373** preserved/reconciled;
-- new promotions = **22**;
-- cumulative **0 / 86 / 379**;
-- contiguous boundary **1–375**.
+- scans **376–396 = 21/21 verified**;
+- pre-existing verified **392, 393** preserved/reconciled;
+- new promotions = **19**;
+- scans **397–400 = 4 needs-review** under direct-scan lexical authority;
+- cumulative **0 / 67 / 398**;
+- contiguous boundary **1–396**.
 
 ## Remaining uploaded sequence
 
-- `kavi9.md` + `part_016_pages_376-400.pdf` → **C16 NEXT**, align by first/last body anchors before use;
-- later `kavi10.md` and `kavi11.md` must likewise be content-anchor aligned rather than positioned from internal page labels.
+- `kavi10.md` + `part_017_pages_401-425.pdf` → C17 material, but **do not start it yet**;
+- later `kavi11.md` must likewise be content-anchor aligned rather than positioned from internal page labels.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **C16 — physical scans 376–400** using `kavi9.md` plus exact-source `part_016_pages_376-400.pdf` after first/last body-anchor confirmation. Preserve/reconcile already verified scans **392, 393**. Promote only complete passes, synchronize all status-bearing files, and **do not begin C17, Phase 3, canonical assembly or translation in the same activity**.
+**Finish C16 — physical scans 397–400 by direct-source lexical verification.** Do not invent missing supplied words and do not borrow `kavi10.md` backward. Only after 397–400 are cleared may C17 begin. Phase 3, canonical assembly and translation remain blocked.

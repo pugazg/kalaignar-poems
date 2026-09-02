@@ -18,25 +18,23 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C15 COMPLETE; C16 NEXT**;
-- cumulative status: **0 `partial`, 86 `needs-review`, 379 `verified`**;
-- unresolved backlog: **86 pages**;
-- verified: **0001–0375, 0392–0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–375**;
+- Phase 2 clearance: **IN PROGRESS — C01–C15 COMPLETE; C16 PARTIAL**;
+- cumulative status: **0 `partial`, 67 `needs-review`, 398 `verified`**;
+- unresolved backlog: **67 pages**;
+- verified: **0001–0396, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–396**;
 - Phase 3 and English translation: **blocked**.
 
 ## Supplied-word lexical-control positioning
 
 The user explicitly requires supplied Markdown to be aligned by **starting/ending body text**, not by page numbers written inside the Markdown. For every `kavi*.md` control, first and final substantive body anchors define the actual lexical-control interval; source structure remains controlling throughout.
 
-## C15 lexical-control state
+## C16 lexical-control state
 
-Exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_015_pages_351-375.pdf`.
+Exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_016_pages_376-400.pdf`.
 
-`kavi8.md` aligns from scan **351** (`தாழ்த்தப்பட்டோர் அல்லலுற்றுத்`) through scan **375** (`வீழ்ந்திடுவோம்!`). The ending anchor is the source-visible final body line before the decorative ornament. Hence the full C15 window uses supplied lexical words with source-established structural control.
-
-Pre-existing verified **371–373** were preserved. The exact source confirms scans 371 and 373 are blank/show-through versos and scan 372 is the `கண்ணீர்த் துளிகள்` divider; these physical pages are not inferred from the supplied extraction's page-number labels.
+`kavi9.md` aligns from scan **376** (`கலைத்தாயின் தலைச் செல்வன்!`) through scan **396** (`அடைகாக்கும் கோழி போல`). It does not contain the continuation visible on scan 397. `kavi10.md` begins at scan **401**. Therefore scans **397–400** have no supplied lexical control.
 
 ## Current next activity
 
-Begin **C16 — physical scans 376–400**. Match `kavi9.md` and `part_016_pages_376-400.pdf` by first/last body anchors before use. Preserve/reconcile verified scans **392–393**. Do not begin C17 or Phase 3 in the same activity.
+Finish **C16 — physical scans 397–400** directly against the controlling source. Do not begin C17 or Phase 3 until those pages are cleared.

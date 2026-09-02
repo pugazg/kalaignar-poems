@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C15 COMPLETE; C16 NEXT; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C15 COMPLETE; C16 PARTIAL through scan 396; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,36 +22,29 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 `partial`, 86 `needs-review`, 379 `verified`**;
-- unresolved backlog: **86 pages**;
-- verified pages: **0001–0375, 0392–0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–375**;
+- cumulative status: **0 `partial`, 67 `needs-review`, 398 `verified`**;
+- unresolved backlog: **67 pages**;
+- verified pages: **0001–0396, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–396**;
 - Phase 3: **blocked until Phase-2 page clearance is complete**.
 
 ## Supplied Markdown positioning rule
 
 Page numbers embedded in a supplied transcription file are not used to position it. The actual source span is established by its **starting word/paragraph and ending word/paragraph**. Only that confirmed span receives supplied lexical control. Elsewhere the controlling scan remains lexical authority.
 
-## Clearance C15 — COMPLETE
+## Clearance C16 — PARTIAL
 
-Physical window: **351–375**.
+Target physical window: **376–400**.
 
-Content-anchor reconciliation of `kavi8.md` against `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_015_pages_351-375.pdf` established full-window lexical coverage:
+Content-anchor reconciliation of `kavi9.md` against `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_016_pages_376-400.pdf` established lexical coverage only through scan **396**:
 
-- `தாழ்த்தப்பட்டோர் அல்லலுற்றுத்` = scan **351**;
-- `வீழ்ந்திடுவோம்!` = scan **375**, final body line before the ornament.
+- `கலைத்தாயின் தலைச் செல்வன்!` = scan **376**;
+- `அடைகாக்கும் கோழி போல` = scan **396**, final supplied body line.
 
-Fixed source structure:
+Scans **376–396 are verified**; existing verified **392–393** were preserved. C16 adds **19** new promotions so far. Scans **397–400 remain needs-review** under direct-scan lexical authority.
 
-- **351–361** — closes `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`;
-- **362–370** — `“அறிஞர் அண்ணா வழியில்”`;
-- **371** — blank/show-through verso;
-- **372** — divider `கண்ணீர்த் துளிகள்`;
-- **373** — divider verso;
-- **374–375** — `பன்னீர்ச்செல்வமே!`.
-
-Scans **371–373** were already verified and were reconciled without downgrade. C15 adds **22** new promotions and advances the contiguous boundary to **1–375**.
+`kavi10.md` begins on physical scan **401**, so it must not be used to fill the missing 397–400 lexical text.
 
 ## Exact next activity
 
-Begin **C16 — scans 376–400**. Align `kavi9.md` to exact-source `part_016_pages_376-400.pdf` by first/last substantive body anchors before applying lexical control. Preserve/reconcile already verified scans **392, 393**. Do not begin C17, Phase 3, canonical assembly or translation in the same activity.
+Finish **C16 — scans 397–400** by direct-source lexical verification. Do not begin C17, Phase 3, canonical assembly or translation in the same activity.
