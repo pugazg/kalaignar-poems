@@ -6,7 +6,22 @@
 
 ## Authority rule
 
-**Live GitHub `main` is authoritative.** The controlling scan is source authority for physical/source structure. An explicitly user-designated exact-source word-for-word transcription controls lexical words only where that supplied text is actually present for the stated page range.
+**Live GitHub `main` is authoritative.** The controlling scan is source authority for physical/source structure and, outside a confirmed supplied lexical-control interval, for lexical text as well.
+
+An explicitly user-designated exact-source word-for-word transcription controls lexical words only where its body text is actually matched to the source.
+
+### Mandatory content-anchor rule
+
+The user explicitly instructed: **do not position supplied Markdown using page numbers written inside the Markdown. Use the starting word/paragraph and ending word/paragraph.**
+
+Accordingly:
+
+- match first substantive supplied body text to the exact source;
+- match final substantive supplied body text;
+- the matched interval is the actual lexical-control span;
+- embedded/claimed Markdown page numbers are not positional authority;
+- outside the matched supplied interval, use the controlling scan directly;
+- source-established page/order/lineation structure always remains authoritative.
 
 ## Mandatory startup
 
@@ -15,7 +30,7 @@ Before continuing `கலைஞரின் கவிதைகள்`:
 1. fetch live `main`;
 2. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `NEXT_CHAT_PROMPT.md`;
 3. read `poems/kalaignarin-kavithaigal/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`;
-4. preserve source-established page/order/lineation structure and the user-designated lexical words;
+4. inspect the active exact-source derivative and supplied Markdown by first/last body anchors before applying lexical control;
 5. synchronize all status-bearing files after the active batch.
 
 # CURRENT ACTIVE WORK — கலைஞரின் கவிதைகள்
@@ -30,69 +45,82 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - publisher: **பாரதி பதிப்பகம்**;
 - edition: **fourth edition, March 1995**.
 
-## Durable state
+## Durable state after C12
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Clearance **C01–C11 COMPLETE**;
-- C12: **PARTIAL**;
-- cumulative: **0 partial / 169 needs-review / 296 verified**;
-- verified: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–275**;
+- Clearance **C01–C12 COMPLETE**;
+- C13: **NEXT**;
+- cumulative: **0 partial / 154 needs-review / 311 verified**;
+- verified: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–300**;
 - Phase 3 / canonical assembly / translation: **blocked**.
 
-## Completed lexical-control ranges
+## Completed supplied lexical-control ranges
 
-- C04 76–100 — supplied Gemini transcription;
-- C05 101–125 — `part_005_pages_101-125`;
-- C06 126–150 — `part_006_pages_126-150`;
-- C07 151–175 — `part_007_pages_151-175`;
-- C08 176–200 — `kavi1.md` / `part_008_pages_176-200`;
-- C09 201–225 — `kavi2.md` / `part_009_pages_201-225`;
-- C10 226–250 — `kavi3.md` / `part_010_pages_226-250`;
-- C11 251–275 — `kavi4.md` / `part_011_pages_251-275`.
+Previous C04–C11 ranges are documented in the audit and phase plan.
 
-Standing rule:
+C12 required mixed authority after the new content-anchor rule was applied:
 
-- retain supplied lexical words;
+- **293–300** — `kavi5.md` lexical control, positioned by body text anchors;
+- **276–292** — direct controlling-scan lexical verification from newly attached exact-source `part_012` derivative because `kavi5.md` has no body text covering those scans.
+
+Standing supplied-control rule:
+
+- retain supplied lexical words inside the confirmed anchor span;
 - source-established scan structure controls physical placement, order, punctuation, quotations, headings, speaker/performance-note boundaries, lineation and spacing;
 - exclude running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage;
-- never silently substitute scan-derived lexical wording where the user supplied a lexical control.
+- never silently substitute scan-derived lexical wording inside a confirmed supplied span;
+- never invent a supplied span merely from a Markdown page-number claim.
 
-## C12 — PARTIAL / SUPPLIED-FILE GAP
+## C12 — COMPLETE
 
-Intended physical window: **276–300**. Uploaded `kavi5.md` says it was extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`.
+Physical window: **276–300**.
 
-Actual attached Markdown content is incomplete for that declared range:
+### Anchor determination
 
-- its first body page is printed page **276**, corresponding to physical scan **293** in the established page map;
-- its last body page is printed page **283**, corresponding to physical scan **300**;
-- it contains no lexical transcription for physical scans **276–292** / printed pages **259–275**.
+`kavi5.md` opening body text:
 
-Work completed safely:
+`நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!`
 
-- **293–300** reconciled to the supplied `kavi5.md` words and marked `verified`;
-- **296** remained verified while being reconciled;
-- new promotions from this partial C12 activity: **293, 294, 295, 297, 298, 299, 300** = **7**;
-- pre-existing verified scans **285** and **292** were preserved and not altered by absent lexical text;
-- scans **276–284 and 286–291** remain `needs-review` under C12 because the intended supplied lexical text is missing;
-- cumulative moved from **0/176/289** to **0/169/296**;
-- contiguous verified boundary remains **1–275**.
+This matches attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf` page 18 = physical scan **293**.
 
-Notable retained supplied forms in scans 293–300 include `உடன் பிறப்பே`, `சோதரிகள்`, `குறளையும்`, `உதடசைக்கு`, `எழுபத்தி`, `உலைக்களத்துக்`, `கை நிறைய`, `காலனியாய்`, `நாடாகக்`, `இந்தி வெறியர்களின்`, `கறுப்பு`, `சூளூரை`, `அணுப் பொழுதுமின்றி`, `நாடதிர`, `எங்குதித்த`, `கங்குகரை`, `கனல் கிளம்ப`, `கலிங்கத்துப்`, `பழம்பாட்டே`, `சூளுரை`, `வைதீகபுரியை`, `செல்லுபடியானதில்லை`, `சினந்து`, `புதுமைக் காளைகள்`, `இந்நாட்டான்`, `கொழித்து விட்ட உமிகள்`, `உதித்துவிட்ட`, `உயர்ஜாதிக்காரர்`, `கடவுளரின்`, `நடத்துகின்றீர்`, `ஆனகதி`, and `சிவனாரும்`.
+Its ending body text:
 
-Extraction garbage such as `mimage A`, non-Tamil script, running `கலைஞரின்` / `கவிதைகள்` headers and page numerals was excluded.
+`அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்`
 
-## Remaining uploaded sequence
+matches attached derivative page 25 = physical scan **300**.
 
-- `kavi5.md` → intended 276–300, but current payload only supplies 293–300 — **C12 PARTIAL**;
-- `kavi6.md` → 301–325;
-- `kavi7.md` → 326–350;
-- `kavi8.md` → 351–375;
-- `kavi9.md` → 376–400;
-- `kavi10.md` → 401–425;
-- `kavi11.md` begins with internal label `part_018_pages_426-450`; inspect internal transitions before final-range use.
+Therefore `kavi5.md` lexical control is **293–300 only**.
+
+### Direct-source closure for 276–292
+
+The exact source derivative was attached, allowing a complete direct visual pass for scans **276–292**. Source-backed repairs included:
+
+- scan 280 `சேறு`;
+- scan 284 `குழந்தைகட்கு` ×2;
+- scan 286 `சூளுரை`;
+- scan 287 `மேடைப் பேச்சரங்கில்`, `அழித்தாராம்`;
+- scan 288 `வாக்குக்குச்`.
+
+Already verified **285** and **292** were preserved. Scans **276–284 and 286–291** were newly promoted = **15**.
+
+### C12 totals
+
+- scans **276–300 = 25/25 verified**;
+- earlier partial C12 new promotions = **7**;
+- closure new promotions = **15**;
+- pre-C12 verified in window = **285, 292, 296**;
+- cumulative now **0 / 154 / 311**;
+- contiguous boundary **1–300**.
+
+## Remaining uploaded sequence / content-anchor preflight
+
+- `kavi6.md` + `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf` → **C13 NEXT**. Anchor check already passes across the full derivative:
+  - start `அது கண்ட பார்வதி கொதித் தெழுந்து...` = scan **301**;
+  - end `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = scan **325**.
+- later `kavi7.md` … `kavi11.md` must each be aligned by first/last body text before use; do not trust their internal page labels alone.
 
 ## EXACT NEXT ACTIVITY
 
-Recover or re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275** from the intended `part_012_pages_276-300` source range, then finish C12. Preserve already verified scans **285** and **292**. Do **not** begin C13, Phase 3, canonical assembly or translation until C12 is complete.
+Execute **C13 — physical scans 301–325** using attached `part_013_pages_301-325.pdf` plus content-anchored `kavi6.md`. Preserve/reconcile already verified scans **310** and **317**. Promote only complete passes, synchronize all status-bearing files, and **do not begin C14, Phase 3, canonical assembly or translation in the same activity**.
