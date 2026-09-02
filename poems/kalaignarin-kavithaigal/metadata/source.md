@@ -22,7 +22,8 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 2 clearance: **C01–C19 COMPLETE**;
 - final statuses: **465 verified / 0 needs-review / 0 partial**;
 - Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
-- Gate 2 boundary/page-join audit: **NEXT**.
+- Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS**;
+- Phase 3 Gate 3 title-witness reconciliation: **NEXT**.
 
 ## Printed-page numbering behaviour
 
@@ -36,3 +37,7 @@ Gate 1 establishes one continuous pagination model:
 Visible-source anchor checks include scan 5 = IV, scan 17 = XVI, scan 21 = 4, scan 117 = 100, scan 217 = 200, scan 317 = 300, scan 416 = 399, scan 419 = 402, scan 452 = 435 and scan 464 = 447.
 
 The `printed_page` field in page records remains strictly source-visible. A logically reconciled but suppressed number must not be inserted into that field or into body text. Logical pagination is recorded in `PHASE3_STRUCTURE_AUDIT.md` and `indexes/page-map.md`.
+
+## Boundary / page-join behaviour
+
+Gate 2 certifies **464/464 physical adjacent joins** in source order without modifying the verified page layer. `PHASE3_BOUNDARY_JOIN_AUDIT.md` records exceptional physical interposition, blank/verso handling, separators, continuation lines and item opening/closure boundaries. No missing or duplicated physical page was detected.

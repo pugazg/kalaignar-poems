@@ -22,8 +22,9 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - status totals: **0 partial / 0 needs-review / 465 verified**;
 - verified range: **0001–0465**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
-- Phase 3 Gate 2: **NEXT**;
-- canonical assembly / translation: **NOT STARTED**.
+- Phase 3 Gate 2: **COMPLETE / PASS — 464/464 physical adjacent joins**;
+- Phase 3 Gate 3: **NEXT**;
+- canonical assembly / Tamil final clearance / translation: **NOT STARTED**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -36,6 +37,10 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 
 `printed_page` in verified page records remains a visible-source field. Suppressed numerals are not backfilled merely because their logical position is known.
 
+## Gate 2 — boundary / page-join audit
+
+`PHASE3_BOUNDARY_JOIN_AUDIT.md` certifies all **464/464** physical adjacent joins in source order. No missing or duplicated physical page was found and no verified page text was changed. The source's deliberately surprising physical order, including the 236→237→238→239 interposition, must remain preserved as provenance.
+
 ## Next activity
 
-**Phase 3 Gate 2 — boundary / page-join audit** only.
+**Phase 3 Gate 3 — title-witness reconciliation only.** Compare contents, divider/title-page and other relevant title witnesses; preserve variants exactly and record an explicit later-assembly authority decision. Do not begin canonical assembly, Tamil final clearance or translation in the same activity.

@@ -27,10 +27,14 @@ Source-visible anchors prove the continuous body offset: scan 21 = 4, scan 117 =
 
 The source intentionally suppresses numerals on title/opening pages. In those page records `printed_page` remains `null`; the logical number is supplied only by the Gate-1 reconciliation rule above. Full rationale and front-matter witness details are in `PHASE3_STRUCTURE_AUDIT.md`.
 
+## Phase 3 Gate 2 — boundary / page-join audit COMPLETE
+
+`PHASE3_BOUNDARY_JOIN_AUDIT.md` certifies **464/464** physical adjacent transitions. No missing or duplicated physical page and no verified page-text discrepancy was found. The physical sequence remains authoritative even where item order is intentionally interposed; batch boundaries are not item boundaries.
+
 ## Phase status
 
-- Phase 3 Gate 1: **COMPLETE**;
-- Gate 2 boundary/page-join audit: **NEXT**;
-- Gate 3 title-witness reconciliation: **NOT STARTED**;
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- Gate 2 boundary/page-join audit: **COMPLETE / PASS**;
+- Gate 3 title-witness reconciliation: **NEXT**;
 - canonical Tamil assembly: **NOT STARTED**;
 - Tamil final clearance / translation: **NOT STARTED**.

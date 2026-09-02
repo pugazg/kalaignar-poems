@@ -31,14 +31,19 @@ Phase 3 is active and proceeds only in ordered gates from `POEM_PROCESSING_GUIDE
    - scans 18–464 = logical Arabic 1–447 (`scan_page - 17`);
    - scan 465 back cover, unpaginated;
    - source-visible `printed_page` witnesses remain unchanged; suppressed numerals are not backfilled.
-2. **Boundary / page-join audit — NEXT.**
-3. **Title-witness reconciliation — NOT STARTED.**
+2. **Boundary / page-join audit — COMPLETE / PASS.**
+   - physical scans covered: **465/465**;
+   - physical adjacent joins certified: **464/464**;
+   - missing/duplicated pages: **none**;
+   - verified page-text changes: **none**;
+   - source-order exceptions, blank/verso leaves, separators, item openings/closures and continuation joins are recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+3. **Title-witness reconciliation — NEXT.**
 4. **Canonical Tamil assembly — NOT STARTED.**
 5. **Assembly/source-completeness review — NOT STARTED.**
 6. **Tamil final clearance — NOT STARTED.**
 
-Gate-1 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`.
+Gate-1 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`. Gate-2 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 2 — boundary / page-join audit** only. Do not begin Gate 3, canonical assembly, Tamil final clearance or translation in the same activity.
+Execute **Phase 3 Gate 3 — title-witness reconciliation only**. Compare contents-page titles, section-divider/title-page witnesses and other relevant source title witnesses. Preserve every source form exactly and record an explicit assembly-authority decision wherever variants differ. **Never create a hybrid title.** Do not begin canonical Tamil assembly, Tamil final clearance or translation in the same activity.

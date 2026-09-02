@@ -4,7 +4,7 @@ Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, and `PHASE3_STRUCTURE_AUDIT.md`.
+Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, and `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -25,18 +25,28 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 2 clearance **C01–C19 COMPLETE**;
 - **0 partial / 0 needs-review / 465 verified**;
 - Phase 3 Gate 1 **COMPLETE / PASS**;
-- Phase 3 Gate 2 **NEXT**;
-- Gate 3 / canonical assembly / Tamil final clearance / translation **NOT STARTED**.
+- Phase 3 Gate 2 **COMPLETE / PASS — 464/464 physical adjacent joins certified**;
+- Phase 3 Gate 3 **NEXT**;
+- canonical assembly / Tamil final clearance / translation **NOT STARTED**.
 
-## Gate 1 pagination result
+## Locked Phase 3 structure
 
-- scan 1 — front cover, unpaginated;
-- scans 2–17 — logical Roman I–XVI;
-- scans 18–464 — logical Arabic 1–447 using `scan_page - 17`;
-- scan 465 — back cover, unpaginated.
+Gate 1: scan 1 cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 (`scan_page - 17`); scan 465 back cover. `printed_page` stays source-visible only.
 
-The existing `printed_page` field remains source-visible only. Do not backfill suppressed numerals from logical reconciliation. Full evidence and policy are in `PHASE3_STRUCTURE_AUDIT.md`.
+Gate 2: preserve all physical joins in source order. In particular, **236→237→238→239 is an intentional interposition and must not be reordered**. The 370→371→372→373→374 blank/divider sequence is also genuine source structure. Full evidence is in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+## Supplied-transcription rule
+
+Do not position supplied Markdown by embedded page numbers. Match substantive body anchors to the exact source. Supplied text controls lexical words only inside its confirmed interval; the source controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 2 — boundary / page-join audit** only. Certify every work/item opening, every page-to-page continuation, quotation carry-over, separator, continuation line and closing boundary against the verified page records and controlling scan. Record the result in the appropriate Phase-3 boundary audit artifact and synchronize status-bearing files. Preserve verified page text unless a genuine source discrepancy is discovered; if one is discovered, reopen and correct the page record first. Do **not** begin Gate 3 title-witness reconciliation, canonical Tamil assembly, Tamil final clearance or translation in the same activity.
+Execute **Phase 3 Gate 3 — title-witness reconciliation only**.
+
+1. Inventory contents-page title witnesses and their referenced printed pages.
+2. Match each to the corresponding divider/title/opening witness and any other title-bearing source witness.
+3. Preserve every witness exactly, including punctuation, spacing, quotation marks and differing forms.
+4. Where witnesses differ, record the variants and an explicit authority decision for later canonical assembly. **Never normalize or create a hybrid title.**
+5. Record the result in a dedicated Gate-3 reconciliation artifact and synchronize status-bearing files.
+
+Do **not** begin canonical Tamil assembly, Tamil final clearance, translation or release work in the same activity.

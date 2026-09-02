@@ -20,14 +20,17 @@ Current status:
 - Phase 2 clearance: **COMPLETE — C01–C19**;
 - page status: **0 partial / 0 needs-review / 465 verified**;
 - Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 2 boundary/page-join audit: **NEXT**;
+- Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins certified**;
+- Phase 3 Gate 3 title-witness reconciliation: **NEXT**;
 - canonical Tamil assembly and translation: **NOT STARTED**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
-## Gate 1 pagination result
+## Phase 3 structural results
 
-The source reconciles cleanly as scan 1 front cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 with invariant `logical printed page = scan_page - 17`; scan 465 back cover. Printed numerals suppressed by the source are not inserted into verified page records. See `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`.
+Gate 1 reconciles the source as scan 1 front cover; scans 2–17 logical Roman I–XVI; scans 18–464 logical Arabic 1–447 with invariant `logical printed page = scan_page - 17`; scan 465 back cover. Printed numerals suppressed by the source are not inserted into verified page records. See `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`.
+
+Gate 2 certifies every physical adjacent transition in source order. The verified page text was not changed. Exceptional source ordering, blank/divider versos and other high-risk joins are recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ## Supplied lexical controls
 
@@ -35,4 +38,4 @@ A user-designated word-for-word transcription may control lexical words only aft
 
 ## Next activity
 
-**Phase 3 Gate 2 — boundary / page-join audit** only. Do not start title-witness reconciliation, canonical assembly, Tamil final clearance or translation in the same activity.
+**Phase 3 Gate 3 — title-witness reconciliation only.** Preserve differing source witnesses exactly and record an explicit authority decision for later assembly; never create a hybrid title. Canonical assembly, Tamil final clearance and translation remain blocked.

@@ -20,7 +20,8 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 2 source coverage: **COMPLETE 465/465**;
 - Phase 2 page clearance: **COMPLETE C01–C19**;
 - final page statuses: **465 verified; 0 needs-review; 0 partial**;
-- Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**.
+- Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
+- Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins**.
 
 ## Printed-page behaviour established at Gate 1
 
@@ -31,6 +32,10 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 
 The edition intentionally suppresses the numeral on many title/opening pages. Verified page records continue to use `printed_page` only for a numeral visibly present in the source; reconciled logical pagination is structural metadata and is not silently backfilled.
 
+## Boundary / join behaviour established at Gate 2
+
+All physical adjacent transitions are accounted for in `PHASE3_BOUNDARY_JOIN_AUDIT.md`. No missing or duplicated physical page and no page-text discrepancy was found. Source order must be preserved even at the intentionally interposed 236→237→238→239 sequence; blank/show-through versos are not missing text.
+
 ## Next phase gate
 
-**Phase 3 Gate 2 — boundary / page-join audit**. Later gates remain deferred.
+**Phase 3 Gate 3 — title-witness reconciliation**. Canonical Tamil assembly, Tamil final clearance and translation remain deferred.

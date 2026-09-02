@@ -16,31 +16,43 @@
 
 Scope: **physical scan ↔ printed-page reconciliation only**.
 
-### Complete accounting
-
 - scan 1 — front cover, unpaginated;
 - scans 2–17 — logical Roman I–XVI;
 - scans 18–464 — logical Arabic 1–447, invariant `logical printed page = scan_page - 17`;
 - scan 465 — back cover, unpaginated.
 
-No physical scan is outside these ranges; no range overlaps another.
+No physical scan is outside these ranges; no range overlaps another. The verified page-record `printed_page` remains a source-visible numeral witness only; reconciled but suppressed numerals are not backfilled. Full evidence is in `PHASE3_STRUCTURE_AUDIT.md`.
 
-### Visible vs reconciled pagination
+## Phase 3 Gate 2 audit — COMPLETE / PASS
 
-The source suppresses numerals on some title/opening pages. Gate 1 preserves the distinction:
+Scope: **boundary / page-join certification only**.
 
-- verified page-record `printed_page` = **only a numeral visibly printed on the source scan**;
-- reconciled logical page = structural sequence recorded in `PHASE3_STRUCTURE_AUDIT.md`.
+### Complete accounting
 
-Front-matter visual witnesses include scan 5 = IV and scan 17 = XVI. Body witnesses across the source include scan 21 = 4, 117 = 100, 217 = 200, 317 = 300, 416 = 399, 419 = 402, 452 = 435 and 464 = 447. The offset is continuous through the body and no reset or unexplained gap was found.
+- physical scans covered: **465/465**;
+- physical adjacent transitions covered: **464/464**;
+- missing physical pages: **none**;
+- duplicated physical pages: **none**;
+- source-order normalization/reordering: **none**;
+- verified page-text changes: **none**.
+
+Every source adjacency is accounted for as an internal continuation, item close/open, speaker/performance-note or quotation carry-over, separator/ornament boundary, blank/verso/divider transition, cover transition, or an intentional physical-order exception.
+
+### High-risk joins locked
+
+- **236→237→238→239** — intentional physical interposition; do not reorder.
+- **370→371→372→373→374** — poem close → blank/show-through verso → `கண்ணீர்த் துளிகள்` divider → divider verso → `பன்னீர்ச்செல்வமே!` opening; show-through is not edition text.
+- **397→398→399→400** — clean close/open boundaries across three items.
+- **424→425→426** — previous item closes; `ஒரு சொட்டுத் தேன்!` opens on 425 and continues on 426.
+- **450→451→452→453** — one item continues and closes on 452; `திசை திருப்பல் நியாயம்தானா?` opens on 453.
+- **464→465** — final poem closes on 464; 465 is the back cover with no body-text continuation.
+
+Full evidence and policy are in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ### Gate result
 
-- physical scans accounted: **465/465**;
-- page text modified: **none**;
-- verified page layer preserved: **465/465**;
-- Gate 1: **PASS**.
+The verified page layer remains **465/465 verified** and unchanged. **Gate 2 PASS.**
 
 ## Next audit gate
 
-**Phase 3 Gate 2 — boundary / page-join audit.** Gate 3, canonical assembly, Tamil final clearance and translation remain blocked until their ordered turn.
+**Phase 3 Gate 3 — title-witness reconciliation.** Compare contents-page, section-divider/title-page and other relevant title witnesses; preserve every source form exactly and record explicit later-assembly authority decisions where variants differ. Never create a hybrid title. Canonical assembly, Tamil final clearance and translation remain blocked until their ordered turn.
