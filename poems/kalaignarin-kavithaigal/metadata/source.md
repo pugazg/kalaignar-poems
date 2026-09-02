@@ -23,20 +23,21 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C08 COMPLETE; C09 NEXT**;
-- cumulative status: **0 `partial`, 241 `needs-review`, 224 `verified`**;
-- unresolved backlog: **241 pages**;
-- verified pages: **0001–0200, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–200**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C09 COMPLETE; C10 NEXT**;
+- cumulative status: **0 `partial`, 219 `needs-review`, 246 `verified`**;
+- unresolved backlog: **219 pages**;
+- verified pages: **0001–0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–226**;
 - Phase 3: **blocked**.
 
 ## User-designated lexical-control ranges
 
 - **76–100 / C04 COMPLETE** — supplied Gemini word-for-word transcription;
-- **101–125 / C05 COMPLETE** — `part_005_pages_101-125` transcription;
-- **126–150 / C06 COMPLETE** — `part_006_pages_126-150` transcription;
-- **151–175 / C07 COMPLETE** — `part_007_pages_151-175` transcription;
-- **176–200 / C08 COMPLETE** — uploaded `kavi1.md` / `part_008_pages_176-200` transcription.
+- **101–125 / C05 COMPLETE** — `part_005_pages_101-125`;
+- **126–150 / C06 COMPLETE** — `part_006_pages_126-150`;
+- **151–175 / C07 COMPLETE** — `part_007_pages_151-175`;
+- **176–200 / C08 COMPLETE** — uploaded `kavi1.md` / `part_008_pages_176-200`;
+- **201–225 / C09 COMPLETE** — uploaded `kavi2.md` / `part_009_pages_201-225`.
 
 For each exact designated range:
 
@@ -45,13 +46,14 @@ For each exact designated range:
 - running headers/page numbers, library marks, handwriting-derived material and OCR garbage are excluded from poem body;
 - scan-derived lexical wording is not silently substituted.
 
-## C08 source structure
+## C09 source structure
 
-- `பொங்கல் திருநாள்` continues on scans **176–184** and closes on scan **184**;
-- `வாழ்வெனும் பாதையில்` spans **185–196**;
-- `கணக்கு` begins on **197** and remains open through scan **200**.
+- `கணக்கு` continues on scans **201–204** and closes on scan **204**;
+- `நேரு கண்ட ஜனநாயகம்` spans **205–215**;
+- `நன்றி, நன்றி!` spans **216–217**;
+- `வெள்ளி விழா` begins on **218** and remains open through scan **225**.
 
-All scans **176–200** are `verified`. Scans **184 and 196** retained their prior verified status while being reconciled to the C08 lexical control.
+All scans **201–225** are `verified`. Scans **204, 215 and 217** retained their prior verified status while being reconciled to the C09 lexical control. Scan **226** was already verified, so the durable contiguous boundary now reaches **1–226**.
 
 ## Source-access / witness rule
 
@@ -59,4 +61,4 @@ Page-range derivatives and user-supplied extracts from this exact PDF may aid re
 
 ## Next
 
-Begin **Phase 2 Clearance Batch C09 — physical scans 201–225**, using uploaded `kavi2.md` / `part_009_pages_201-225` as lexical control. Do not begin C10, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C10 — physical scans 226–250**, using uploaded `kavi3.md` / `part_010_pages_226-250` as lexical control. Preserve/reconcile already verified scan 226. Do not begin C11, Phase 3, canonical assembly or translation in the same activity.
