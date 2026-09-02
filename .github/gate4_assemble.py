@@ -1,0 +1,271 @@
+from pathlib import Path
+import hashlib
+import json
+import re
+
+BASE = Path('poems/kalaignarin-kavithaigal')
+PAGES = BASE / 'pages'
+OUT_DIR = BASE / 'sections'
+OUT_DIR.mkdir(exist_ok=True)
+
+
+def parse_frontmatter(text):
+    if not text.startswith('---\n'):
+        raise SystemExit('missing frontmatter')
+    end = text.find('\n---\n', 4)
+    if end < 0:
+        raise SystemExit('unterminated frontmatter')
+    raw = text[4:end]
+    meta = {}
+    for line in raw.splitlines():
+        if ':' not in line:
+            continue
+        k, v = line.split(':', 1)
+        v = v.strip()
+        if v == 'null':
+            value = None
+        elif len(v) >= 2 and v[0] == '"' and v[-1] == '"':
+            value = json.loads(v)
+        elif re.fullmatch(r'-?\d+', v):
+            value = int(v)
+        else:
+            value = v
+        meta[k.strip()] = value
+    return meta, text[end + 5:]
+
+
+ADMIN_PATTERNS = [
+    r'verification', r'visual', r'physical', r'\bnote\b', r'audit',
+    r'review', r'status', r'method', r'provenance', r'reconciliation',
+    r'boundary', r'lexical-control', r'clearance', r'placement',
+    r'^phase[- ]', r'^c\d+\b', r'source check', r'quality check',
+    r'archival', r'transcription method'
+]
+SOURCE_HINTS = [
+    'poem', 'printed', 'edition text', 'context', 'caption', 'contents',
+    'preface', 'foreword', 'title', 'heading', 'speaker', 'dialogue',
+    'body text', 'publication text', 'imprint text'
+]
+
+
+def source_heading(heading):
+    h = heading.strip().lower()
+    if any(x in h for x in SOURCE_HINTS):
+        return True
+    if any(re.search(p, h) for p in ADMIN_PATTERNS):
+        return False
+    return True
+
+
+def clean_source_chunk(chunk):
+    lines = chunk.splitlines()
+    out = []
+    for line in lines:
+        if re.fullmatch(r'```(?:text|markdown)?\s*', line.strip(), flags=re.I):
+            continue
+        if line.strip() == '```':
+            continue
+        out.append(line.rstrip())
+    text = '\n'.join(out).strip('\n')
+    non_source_sentinels = {
+        'No positively identified edition text is transcribed on this page.',
+        'No positively identified edition text is transcribed on this side.',
+        'No edition text is transcribed on this page.',
+        'No source text is transcribed on this page.'
+    }
+    if text.strip() in non_source_sentinels:
+        return ''
+    return text
+
+
+def extract_source(body):
+    lines = body.splitlines()
+    if lines and lines[0].startswith('# '):
+        lines = lines[1:]
+    chunks = []
+    heading = None
+    buf = []
+
+    def flush():
+        nonlocal buf, heading
+        if heading is not None and source_heading(heading):
+            cleaned = clean_source_chunk('\n'.join(buf))
+            if cleaned:
+                chunks.append(cleaned)
+        buf = []
+
+    for line in lines:
+        if line.startswith('## '):
+            flush()
+            heading = line[3:].strip()
+        else:
+            buf.append(line)
+    flush()
+    return '\n\n'.join(chunks).strip()
+
+
+records = []
+for n in range(1, 466):
+    path = PAGES / f'{n:04d}.md'
+    if not path.exists():
+        raise SystemExit(f'missing page record {path}')
+    text = path.read_text(encoding='utf-8')
+    meta, body = parse_frontmatter(text)
+    if meta.get('scan_page') != n:
+        raise SystemExit(f'scan_page mismatch in {path}: {meta.get("scan_page")}')
+    if meta.get('status') != 'verified':
+        raise SystemExit(f'non-verified page record {path}: {meta.get("status")}')
+    records.append((meta, extract_source(body)))
+
+if len(records) != 465:
+    raise SystemExit('page accounting failure')
+
+expected_sections = {
+    236: 'அண்ணன் ஒரு கவியரங்கம்',
+    237: 'தமிழ் வளர வழிநடைப் பயணம்',
+    238: 'அண்ணன் ஒரு கவியரங்கம்',
+    239: 'தமிழ் வளர வழிநடைப் பயணம்',
+    293: 'நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!',
+    372: 'கண்ணீர்த் துளிகள்',
+    374: 'பன்னீர்ச்செல்வமே!',
+    398: 'அருமருந்தே! அன்பழக உடன்பிறப்பே!',
+    400: 'பகுத்தறிவுப் பாண்டியனார்!',
+    425: 'ஒரு சொட்டுத் தேன்!',
+    450: 'பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!',
+    453: 'திசை திருப்பல் நியாயம்தானா?',
+    464: 'உன் காலணியை வாழ்த்துகிறாய்',
+}
+for scan, expected in expected_sections.items():
+    actual = records[scan - 1][0].get('section')
+    if actual != expected:
+        raise SystemExit(f'locked section mismatch at scan {scan}: {actual!r} != {expected!r}')
+
+canonical = [
+    '# கலைஞரின் கவிதைகள் — canonical Tamil assembly',
+    '',
+    '<!-- Phase 3 Gate 4: generated only from verified page records. -->',
+    '<!-- Physical source order is authoritative; do not reorder scan markers. -->',
+    ''
+]
+marker_only = 0
+for scan in range(18, 465):
+    meta, source = records[scan - 1]
+    pp = 'null' if meta.get('printed_page') is None else str(meta.get('printed_page'))
+    sec = str(meta.get('section', '')).replace('--', '—')
+    ptype = str(meta.get('page_type', ''))
+    canonical.append(f'<!-- scan_page: {scan}; printed_page: {pp}; section: {sec}; page_type: {ptype} -->')
+    if source:
+        canonical.append(source)
+    else:
+        marker_only += 1
+    canonical.append('')
+canonical_text = '\n'.join(canonical).rstrip() + '\n'
+canonical_path = OUT_DIR / 'kalaignarin-kavithaigal.md'
+canonical_path.write_text(canonical_text, encoding='utf-8')
+canonical_sha = hashlib.sha256(canonical_text.encode('utf-8')).hexdigest()
+
+runs = []
+start = 18
+cur = records[17][0].get('section')
+types = []
+for scan in range(18, 465):
+    meta = records[scan - 1][0]
+    sec = meta.get('section')
+    if sec != cur:
+        runs.append((start, scan - 1, cur, sorted(set(types))))
+        start = scan
+        cur = sec
+        types = []
+    types.append(str(meta.get('page_type', '')))
+runs.append((start, 464, cur, sorted(set(types))))
+
+gate3 = (BASE / 'PHASE3_TITLE_WITNESS_RECONCILIATION.md').read_text(encoding='utf-8')
+table_start = gate3.find('| # | Contents witness | Dedicated divider/title/opening witness |')
+anomaly_start = gate3.find('## Contents locator anomaly recorded during Gate 3')
+if table_start < 0 or anomaly_start < 0 or anomaly_start <= table_start:
+    raise SystemExit('cannot recover Gate-3 variant table')
+variant_table = gate3[table_start:anomaly_start].rstrip()
+variant_rows = [ln for ln in variant_table.splitlines() if re.match(r'^\|\s*\d+\s*\|', ln)]
+if len(variant_rows) != 30:
+    raise SystemExit(f'expected 30 title variants, found {len(variant_rows)}')
+
+source_map = [
+    '# Canonical source map — கலைஞரின் கவிதைகள்',
+    '',
+    'Phase 3 Gate 4 canonical body output: `../sections/kalaignarin-kavithaigal.md`.',
+    '',
+    '- canonical body uses verified physical scans **18–464** only;',
+    '- scans **1–17** remain verified cover/front-matter provenance and are not poem-body assembly;',
+    '- scan **465** remains the verified back-cover record and is not poem-body assembly;',
+    '- every canonical page contribution carries an explicit `scan_page` marker;',
+    '- physical order is preserved exactly, including **236→237→238→239**;',
+    '- canonical title authority is the verified dedicated divider/opening layer; contents variants below remain provenance witnesses.',
+    '',
+    '## Physical-order section runs',
+    '',
+    '| Scan run | Canonical verified `section` witness | Page type(s) |',
+    '|---:|---|---|'
+]
+for a, b, sec, pts in runs:
+    rng = str(a) if a == b else f'{a}–{b}'
+    sec_cell = str(sec).replace('|', '\\|')
+    source_map.append(f'| {rng} | `{sec_cell}` | {", ".join(pts)} |')
+source_map += [
+    '',
+    '## Contents/title witness variants retained from Gate 3',
+    '',
+    variant_table,
+    '',
+    '## Gate-3 contents locator anomaly retained',
+    '',
+    'Contents scan 16 points `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்` to printed page **279**; the verified dedicated opening is scan **293 / printed page 276**, and canonical provenance therefore begins at scan 293 without rewriting the contents witness.',
+    ''
+]
+(BASE / 'indexes' / 'canonical-source-map.md').write_text('\n'.join(source_map), encoding='utf-8')
+
+report = f'''# Phase 3 Canonical Tamil Assembly — Gate 4
+
+Work: **கலைஞரின் கவிதைகள்**  
+Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
+
+## Scope
+
+This record closes **Phase 3 Gate 4 — canonical Tamil assembly only**. It does not perform Gate 5 assembly/source-completeness review, Tamil final clearance, translation or release work.
+
+## Result
+
+**PASS — canonical Tamil poem-body assembly generated mechanically from the verified page layer.**
+
+- page layer checked: **465/465 `verified`**;
+- canonical body scan interval: **18–464** (**447 physical scans**), in exact physical source order;
+- canonical output: `sections/kalaignarin-kavithaigal.md`;
+- provenance map: `indexes/canonical-source-map.md`;
+- explicit `scan_page` marker coverage in canonical output: **447/447**;
+- marker-only/non-edition-text body scans retained as physical provenance: **{marker_only}**;
+- physical section runs recorded: **{len(runs)}**;
+- Gate-3 title variants retained in source-map metadata: **30/30**;
+- verified page records changed during assembly: **0**;
+- canonical file SHA-256: `{canonical_sha}`.
+
+## Locked invariants applied
+
+- only `verified` page records were eligible;
+- 236→237→238→239 remains in physical order with its intentional A→B→A→B section interposition;
+- 370→371→372→373→374 remains in certified physical order, including blank/divider versos;
+- dedicated divider/opening title forms remain authoritative through verified `section` witnesses and source text;
+- contents variants remain separate provenance witnesses in `indexes/canonical-source-map.md`;
+- the page-293 opening for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` controls canonical provenance despite the contents page-279 locator;
+- source-facing text is copied from the verified page records; verification, physical-review and archival-note sections are not promoted into canonical Tamil text;
+- no partial canonical item was emitted: the complete body interval was assembled in one Gate-4 pass.
+
+## Gate closure
+
+**Phase 3 Gate 4 is COMPLETE / PASS.**
+
+## Exact next gate
+
+Proceed to **Phase 3 Gate 5 — assembly/source-completeness review only**. Review the generated canonical output and provenance map against the verified page layer for one-time coverage, exclusions, title authority, source-order fidelity and silent-normalization risk. Do not grant Tamil final clearance or begin translation/release work in that same activity.
+'''
+(BASE / 'PHASE3_CANONICAL_ASSEMBLY.md').write_text(report, encoding='utf-8')
+
+print(f'assembled scans 18-464; marker-only={marker_only}; section-runs={len(runs)}; sha256={canonical_sha}')
