@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C09 COMPLETE; C10 NEXT; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C10 COMPLETE; C11 NEXT; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,29 +22,30 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 `partial`, 219 `needs-review`, 246 `verified`**;
-- unresolved backlog: **219 pages**;
-- verified pages: **0001–0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–226**;
+- cumulative status: **0 `partial`, 197 `needs-review`, 268 `verified`**;
+- unresolved backlog: **197 pages**;
+- verified pages: **0001–0250, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–250**;
 - Phase 3: **blocked until Phase-2 page clearance is complete**.
 
-## Clearance C09 — COMPLETE
+## Clearance C10 — COMPLETE
 
-Physical window: **201–225**.
+Physical window: **226–250**.
 
-The user uploaded `kavi2.md`, identified as word-for-word text extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_009_pages_201-225.pdf`. Under the standing explicit instruction, that transcription controls lexical content for this exact range without silent scan-derived lexical correction.
+The user uploaded `kavi3.md`, identified as word-for-word text extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_010_pages_226-250.pdf`. Under the standing explicit instruction, that transcription controls lexical content for this exact range without silent scan-derived lexical correction.
 
-Source-established C09 structure:
+Source-established C10 structure:
 
-- **201–204** — `கணக்கு` continuation/conclusion; scan 204 / printed 187 closes with `வணக்கம்; / வாழ்க!` and a decorative illustration;
-- **205–215** — `நேரு கண்ட ஜனநாயகம்`; scan 205 title + `14.11.1970` Chennai context + centered star; scan 215 / printed 198 closes with `வாழ்க!` and a decorative caged-bird illustration;
-- **216–217** — `நன்றி, நன்றி!`; scan 216 / printed 199 has the `1.8.71` Salem exhibition context; scan 217 / printed 200 closes with repeated thanks and a separator;
-- **218–225** — `வெள்ளி விழா`; scan 218 title + `15.8.72` Rajaji Mandapam context; scan 225 / printed 208 remains mid-item and continues into scan 226.
+- **226** — closes `வெள்ளி விழா`; printed 209; closing text followed by decorative illustration;
+- **227–229** — `அண்ணன் இருக்கின்றார்`; scan 227 opens with title/context and scan 229 / printed 212 closes the item;
+- **230–236 and 238** — `அண்ணன் ஒரு கவியரங்கம்`; scan 237 is physically interposed before scan 238 resumes the participant list and closes the item;
+- **237 and 239–244** — `தமிழ் வளர வழிநடைப் பயணம்`; scan 237 is its title leaf, scans 239–244 carry the body, and scan 244 / printed 227 closes with `வணக்கம்.` and a decorative separator;
+- **245–250** — `வையம் தழைக்க`; scan 245 is the title/context opening and scan 250 / printed 233 remains mid-item.
 
-Running headers/page numbers and extraction noise were excluded from body text. Supplied lexical forms were not silently replaced by scan-derived alternatives. Already verified scans **204, 215 and 217** remained verified after lexical-control reconciliation.
+Running headers/page numbers and extraction noise were excluded from body text. Supplied lexical forms were not silently replaced by scan-derived alternatives. Already verified scans **226, 238 and 244** remained verified after reconciliation.
 
-All page records **0201.md–0225.md** are now `verified`. C09 promoted **22 pages**, moving cumulative status to **0 partial / 219 needs-review / 246 verified**. Because scan **226** was already independently verified before C09, the durable contiguous verified boundary advances through **1–226**.
+All page records **0226.md–0250.md** are now `verified`. C10 promoted **22 pages**, moving cumulative status to **0 partial / 197 needs-review / 268 verified** and advancing the contiguous verified boundary to **1–250**.
 
 ## Exact next activity
 
-Begin **Phase 2 Clearance Batch C10 — physical scans 226–250**, using uploaded `kavi3.md` / `part_010_pages_226-250` as lexical control. Preserve/reconcile already verified scan **226** and any other pre-verified page in the window. Do **not** begin C11, Phase 3, canonical assembly or translation in the same activity.
+Begin **Phase 2 Clearance Batch C11 — physical scans 251–275**, using uploaded `kavi4.md` / `part_011_pages_251-275` as lexical control. Preserve/reconcile already verified scans **253, 260, 266 and 272**. Do **not** begin C12, Phase 3, canonical assembly or translation in the same activity.
