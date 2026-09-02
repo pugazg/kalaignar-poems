@@ -9,7 +9,7 @@
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - source PDF committed to repository: **No**;
 - language/script: Tamil;
-- textual authority: **the supplied scan itself**, with explicitly user-designated exact-source word-for-word transcriptions usable as lexical controls for their stated page ranges.
+- textual authority: **the supplied scan itself**, with explicitly user-designated exact-source word-for-word transcriptions usable as lexical controls only where the supplied text is actually present.
 
 ## Source identity
 
@@ -23,40 +23,26 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C11 COMPLETE; C12 NEXT**;
-- cumulative status: **0 `partial`, 176 `needs-review`, 289 `verified`**;
-- unresolved backlog: **176 pages**;
-- verified pages: **0001–0275, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C11 COMPLETE; C12 PARTIAL**;
+- cumulative status: **0 `partial`, 169 `needs-review`, 296 `verified`**;
+- unresolved backlog: **169 pages**;
+- verified pages: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
 - durable contiguous verified boundary: **scans 1–275**;
 - Phase 3: **blocked**.
 
-## User-designated lexical-control ranges
+## Lexical-control state
 
-- **76–100 / C04 COMPLETE** — supplied Gemini word-for-word transcription;
-- **101–125 / C05 COMPLETE** — `part_005_pages_101-125`;
-- **126–150 / C06 COMPLETE** — `part_006_pages_126-150`;
-- **151–175 / C07 COMPLETE** — `part_007_pages_151-175`;
-- **176–200 / C08 COMPLETE** — `kavi1.md` / `part_008_pages_176-200`;
-- **201–225 / C09 COMPLETE** — `kavi2.md` / `part_009_pages_201-225`;
-- **226–250 / C10 COMPLETE** — `kavi3.md` / `part_010_pages_226-250`;
-- **251–275 / C11 COMPLETE** — `kavi4.md` / `part_011_pages_251-275`.
+C04–C11 are complete through physical scan 275. C12 targets 276–300 with uploaded `kavi5.md`.
 
-For each exact designated range:
+`kavi5.md` declares extraction from `part_012_pages_276-300`, but its attached Markdown body contains only printed pages **276–283**, corresponding to physical scans **293–300**. It contains no lexical text for physical scans **276–292** / printed pages **259–275**.
 
-- supplied words are retained as lexical control;
-- source-established page records determine physical placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
-- running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage are excluded from poem body;
-- scan-derived lexical wording is not silently substituted.
+C12 safe result:
 
-## C11 source structure
-
-- `வையம் தழைக்க` continues on scans **251–253** and closes on 253;
-- `தந்தை பெரியார்` spans **254–260**;
-- `அகத்துறைப் படைப்புகள்` spans **261–266**;
-- `பொங்கல் விழா` spans **267–272**;
-- `சிலப்பதிகார விருந்து` begins on **273** and remains open through **275**.
-
-All scans **251–275** are `verified`. Scans **253, 260, 266 and 272** retained their prior verified status while being reconciled to C11 lexical control.
+- scans **293–300** verified under supplied lexical control;
+- scan **296** retained verified status after reconciliation;
+- scans **285** and **292** remain prior verified pages;
+- absent lexical content for scans **276–292** was not reconstructed or silently replaced by scan-derived text;
+- C12 remains **PARTIAL**.
 
 ## Source-access / witness rule
 
@@ -66,4 +52,4 @@ The current renderer's reported/exposed 150-page window is not the physical sour
 
 ## Next
 
-Begin **Phase 2 Clearance Batch C12 — physical scans 276–300**, using uploaded `kavi5.md` / `part_012_pages_276-300` as lexical control. Preserve/reconcile already verified scans **285, 292 and 296**. Do not begin C13, Phase 3, canonical assembly or translation in the same activity.
+Recover/re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275**, then finish C12. Preserve verified scans **285** and **292**. Do not begin C13, Phase 3, canonical assembly or translation until C12 closes.
