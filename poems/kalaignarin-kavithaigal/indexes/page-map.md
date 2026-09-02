@@ -31,10 +31,23 @@ The source intentionally suppresses numerals on title/opening pages. In those pa
 
 `PHASE3_BOUNDARY_JOIN_AUDIT.md` certifies **464/464** physical adjacent transitions. No missing or duplicated physical page and no verified page-text discrepancy was found. The physical sequence remains authoritative even where item order is intentionally interposed; batch boundaries are not item boundaries.
 
+## Phase 3 Gate 3 — title-witness reconciliation COMPLETE
+
+`PHASE3_TITLE_WITNESS_RECONCILIATION.md` reconciles every contents/group/item title witness on scans 15–17 against verified divider/title/opening witnesses.
+
+- total title/group witnesses: **81**;
+- exact title-string matches: **51**;
+- source-valid variants: **30**;
+- unresolved: **none**;
+- verified page-text changes: **none**.
+
+Assembly authority is locked to the dedicated section-divider or item title/opening witness. Contents variants remain separately preserved; no hybrid title is allowed. Contents scan 16's page-279 locator for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்` is preserved as printed, while the verified item opening is scan 293 / printed page 276.
+
 ## Phase status
 
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Gate 2 boundary/page-join audit: **COMPLETE / PASS**;
-- Gate 3 title-witness reconciliation: **NEXT**;
-- canonical Tamil assembly: **NOT STARTED**;
+- Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
+- Gate 4 canonical Tamil assembly: **NEXT**;
+- Gate 5 assembly/source-completeness review: **NOT STARTED**;
 - Tamil final clearance / translation: **NOT STARTED**.

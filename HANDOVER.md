@@ -20,16 +20,17 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 3 Gate 2
+## Durable state after Phase 3 Gate 3
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
 - page status: **0 partial / 0 needs-review / 465 verified**;
 - durable contiguous verified boundary: **1–465**;
-- Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE**;
-- Phase 3 Gate 2 — boundary / page-join audit: **COMPLETE**;
-- Phase 3 Gate 3 — title-witness reconciliation: **NOT STARTED — NEXT**;
-- canonical Tamil assembly: **NOT STARTED**;
+- Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Phase 3 Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
+- Phase 3 Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
+- Phase 3 Gate 4 — canonical Tamil assembly: **NOT STARTED — NEXT**;
+- Gate 5 assembly/source-completeness review: **NOT STARTED**;
 - Tamil final clearance: **NOT STARTED**;
 - translation: **NOT STARTED**.
 
@@ -59,6 +60,21 @@ Key locked source-order facts include:
 
 Batch boundaries from transcription/clearance are never item boundaries by themselves.
 
+## Gate 3 durable result
+
+`poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md` inventories all **81** contents/group/item title witnesses:
+
+- **51** exact title-string matches after collapsing display line breaks;
+- **30** source-valid title variants;
+- **0** unresolved title witnesses;
+- **0** verified page-text changes.
+
+Assembly authority is now locked: the dedicated section-divider or item title/opening witness controls the canonical section/item title; the contents witness is preserved separately and never silently corrected; **no hybrid title may be created**.
+
+Important lexical variants include `உடன்பிறப்பின் பற்று` → dedicated opening `உடைமைகள் பத்து`, `கண்ணீர்க் கவிதை` → divider `கண்ணீர்த் துளிகள்`, `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` → opening `அருமருந்தே! அன்பழக உடன்பிறப்பே!`, `விதையாய் முளைத்து விழுதுகள் விட்டோம்` → opening `விதையாய் முளைத்து விழுதுகள் விடட்டும்!`, `சூரியனைப் பனிக்கட்டி என்கிறாய்!` → opening `சூரியனைப் பனிக்கட்டி என்கின்றார்!`, `கொள்ளை போதும்மா தமிழ்நாடு` → opening `கொள்ளை போகுதம்மா தமிழ்நாடு`, and `முடியுமா? கிழித்தெறிவோம் வாரீர்!` → opening `முகமூடி கிழித்தெறிவோம் வாரீர்!`.
+
+Gate 3 also records one contents-locator anomaly: contents scan 16 gives page 279 for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்`, while the verified dedicated opening is scan 293 / printed page 276 and the item continues through page 279. Preserve the contents witness; canonical provenance starts at scan 293.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation. Running headers, printed page numerals and extraction/OCR garbage are not body text.
@@ -78,12 +94,13 @@ Before changing anything, read completely:
 9. `indexes/page-map.md`;
 10. `audit.md`;
 11. `PHASE3_STRUCTURE_AUDIT.md`;
-12. `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+12. `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+13. `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 3 — title-witness reconciliation only**.
+Execute **Phase 3 Gate 4 — canonical Tamil assembly only**.
 
-Compare contents-page titles, section-divider/title-page witnesses, and other source title witnesses. Preserve every source form exactly. Where witnesses differ, record the variants and an explicit authority decision for later canonical assembly. **Never normalize or create a hybrid title.**
+Assemble from the verified page layer only. Preserve certified physical source order and explicit scan provenance. Use Gate-3 authoritative divider/opening title forms for canonical section/item titles while retaining contents variants in provenance/source-map metadata. Preserve verified spelling, punctuation, quotation marks, lineation, separators and source notes exactly. Never repair an assembly discrepancy only in the assembled file: reopen and correct the source page record first if necessary.
 
-Do **not** begin canonical Tamil assembly, Tamil final clearance, translation, or release work in the same activity.
+Do **not** begin Gate 5 assembly/source-completeness review, Tamil final clearance, translation or release work in the same activity.

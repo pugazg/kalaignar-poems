@@ -36,14 +36,33 @@ Phase 3 is active and proceeds only in ordered gates from `POEM_PROCESSING_GUIDE
    - physical adjacent joins certified: **464/464**;
    - missing/duplicated pages: **none**;
    - verified page-text changes: **none**;
-   - source-order exceptions, blank/verso leaves, separators, item openings/closures and continuation joins are recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
-3. **Title-witness reconciliation — NEXT.**
-4. **Canonical Tamil assembly — NOT STARTED.**
+   - evidence: `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+3. **Title-witness reconciliation — COMPLETE / PASS.**
+   - contents/group/item witnesses inventoried: **81**;
+   - exact title-string matches: **51**;
+   - source-valid variants: **30**;
+   - unresolved title witnesses: **none**;
+   - verified page-text changes: **none**;
+   - authority rule: dedicated divider/title/opening witness controls canonical title; contents witness remains preserved; never create a hybrid title;
+   - evidence: `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+4. **Canonical Tamil assembly — NEXT.**
 5. **Assembly/source-completeness review — NOT STARTED.**
 6. **Tamil final clearance — NOT STARTED.**
 
-Gate-1 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`. Gate-2 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+Gate-1 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_STRUCTURE_AUDIT.md`. Gate-2 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`. Gate-3 evidence is recorded in `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+
+## Gate-4 assembly constraints
+
+Canonical assembly is a provenance-preserving merge of verified page records, not a new transcription.
+
+- use verified page records only;
+- preserve physical source order, including the certified 236→237→238→239 interposition;
+- carry explicit scan-page provenance;
+- use Gate-3 authoritative divider/opening title forms; preserve contents variants in provenance/source-map metadata;
+- preserve verified spelling, punctuation, quotation marks, lineation, separators and source notes;
+- do not emit a partial canonical item merely because an iteration boundary falls inside the item;
+- if assembly exposes a genuine source-layer discrepancy, reopen and repair the page record before continuing.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 3 Gate 3 — title-witness reconciliation only**. Compare contents-page titles, section-divider/title-page witnesses and other relevant source title witnesses. Preserve every source form exactly and record an explicit assembly-authority decision wherever variants differ. **Never create a hybrid title.** Do not begin canonical Tamil assembly, Tamil final clearance or translation in the same activity.
+Execute **Phase 3 Gate 4 — canonical Tamil assembly only**. Do not begin Gate 5 assembly/source-completeness review, Tamil final clearance, translation or release work in the same activity.

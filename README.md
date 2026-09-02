@@ -21,8 +21,9 @@ Current status:
 - page status: **0 partial / 0 needs-review / 465 verified**;
 - Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins certified**;
-- Phase 3 Gate 3 title-witness reconciliation: **NEXT**;
-- canonical Tamil assembly and translation: **NOT STARTED**.
+- Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact matches, 30 source-valid variants**;
+- Phase 3 Gate 4 canonical Tamil assembly: **NEXT**;
+- Gate 5 assembly/source-completeness review, Tamil final clearance and translation: **NOT STARTED**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -32,10 +33,12 @@ Gate 1 reconciles the source as scan 1 front cover; scans 2–17 logical Roman I
 
 Gate 2 certifies every physical adjacent transition in source order. The verified page text was not changed. Exceptional source ordering, blank/divider versos and other high-risk joins are recorded in `poems/kalaignarin-kavithaigal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
+Gate 3 reconciles all contents/group/item title witnesses in `poems/kalaignarin-kavithaigal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`. Dedicated divider/title/opening witnesses control later canonical titles; contents variants remain preserved as separate source witnesses; no hybrid title is allowed.
+
 ## Supplied lexical controls
 
 A user-designated word-for-word transcription may control lexical words only after its first and final substantive body anchors are matched to the controlling scan. Embedded Markdown page numbers are not positional authority. Scan structure always controls page placement, headings, punctuation, quotations, lineation, separators, illustrations and non-body material.
 
 ## Next activity
 
-**Phase 3 Gate 3 — title-witness reconciliation only.** Preserve differing source witnesses exactly and record an explicit authority decision for later assembly; never create a hybrid title. Canonical assembly, Tamil final clearance and translation remain blocked.
+**Phase 3 Gate 4 — canonical Tamil assembly only.** Assemble only from verified page records, preserve certified physical source order and explicit scan provenance, and follow the Gate-3 authoritative title decisions. Do not begin Gate 5 review, Tamil final clearance or translation in the same activity.

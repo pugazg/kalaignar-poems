@@ -21,7 +21,9 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 2 page clearance: **COMPLETE C01–C19**;
 - final page statuses: **465 verified; 0 needs-review; 0 partial**;
 - Phase 3 Gate 1 pagination reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins**.
+- Phase 3 Gate 2 boundary/page-join audit: **COMPLETE / PASS — 464/464 adjacent joins**;
+- Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS — 81 witnesses, 51 exact matches, 30 variants, 0 unresolved**;
+- Phase 3 Gate 4 canonical Tamil assembly: **NEXT**.
 
 ## Printed-page behaviour established at Gate 1
 
@@ -36,6 +38,17 @@ The edition intentionally suppresses the numeral on many title/opening pages. Ve
 
 All physical adjacent transitions are accounted for in `PHASE3_BOUNDARY_JOIN_AUDIT.md`. No missing or duplicated physical page and no page-text discrepancy was found. Source order must be preserved even at the intentionally interposed 236→237→238→239 sequence; blank/show-through versos are not missing text.
 
+## Title-witness behaviour established at Gate 3
+
+`PHASE3_TITLE_WITNESS_RECONCILIATION.md` reconciles every contents/group/item title witness from scans 15–17 against the verified divider/title/opening layer.
+
+- total witnesses: **81**;
+- exact title-string matches: **51**;
+- source-valid variants: **30**;
+- unresolved: **0**.
+
+For later canonical assembly, the dedicated section-divider or item title/opening witness is authoritative; contents wording remains preserved exactly as a separate source witness. No hybrid title may be created. Gate 3 also preserves the contents locator anomaly for `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்`: contents page 279 versus verified opening at scan 293 / printed page 276.
+
 ## Next phase gate
 
-**Phase 3 Gate 3 — title-witness reconciliation**. Canonical Tamil assembly, Tamil final clearance and translation remain deferred.
+**Phase 3 Gate 4 — canonical Tamil assembly only**. Gate 5 assembly/source-completeness review, Tamil final clearance and translation remain deferred.
