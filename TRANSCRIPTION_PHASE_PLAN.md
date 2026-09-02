@@ -1,69 +1,68 @@
 # Transcription-first phase plan
 
-The controlling scan remains the textual authority in every phase, except where the user explicitly designates an exact-source word-for-word transcription as lexical control for a stated range; in that case the supplied words are retained and source-established scan structure governs placement and layout unless the user says otherwise.
+The controlling scan remains source authority, except that an explicitly user-designated exact-source word-for-word transcription may control lexical words for its stated range. In those ranges, source-established scan structure governs placement and layout.
 
 ## Phase 1 — transcription only
 
 **COMPLETE for `கலைஞரின் கவிதைகள்`: 465/465 physical scans have page records.**
 
-## Phase 2 — source-critical visual verification
-
-Independently reread every page against the controlling scan. Check word endings and compact/old Tamil glyphs, punctuation, line breaks, quotations, separators and non-Tamil/layout elements. Promote a page to `verified` only after the complete page passes under the applicable source/lexical-control rule.
-
-### Current application — கலைஞரின் கவிதைகள்
+## Phase 2 — source-critical clearance
 
 - controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
 - physical pages: **465**;
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- Phase 1: **COMPLETE**;
-- Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **0 `partial`, 219 `needs-review`, 246 `verified`**;
-- verified pages: **0001–0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–226**.
+- source coverage: **465/465 COMPLETE**;
+- page clearance: **IN PROGRESS**;
+- cumulative: **0 partial / 197 needs-review / 268 verified**;
+- verified: **0001–0250, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–250**.
 
-### Clearance C01–C09
+### Clearance windows
 
-- C01 scans **1–25 — COMPLETE**;
-- C02 scans **26–50 — COMPLETE**;
-- C03 scans **51–75 — COMPLETE**;
-- C04 scans **76–100 — COMPLETE**;
-- C05 scans **101–125 — COMPLETE**;
-- C06 scans **126–150 — COMPLETE**;
-- C07 scans **151–175 — COMPLETE**;
-- C08 scans **176–200 — COMPLETE**;
-- C09 scans **201–225 — COMPLETE**.
+- C01 1–25 — COMPLETE
+- C02 26–50 — COMPLETE
+- C03 51–75 — COMPLETE
+- C04 76–100 — COMPLETE
+- C05 101–125 — COMPLETE
+- C06 126–150 — COMPLETE
+- C07 151–175 — COMPLETE
+- C08 176–200 — COMPLETE
+- C09 201–225 — COMPLETE
+- **C10 226–250 — COMPLETE**
+- **C11 251–275 — NEXT**
 
-### User-designated supplied-word lexical-control ranges
+### User-designated lexical controls
 
 Standing rule:
 
 - retain supplied lexical words;
-- use source-established scan structure for physical page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
-- exclude running headers/page numbers, library marks, handwriting-derived material and OCR garbage from body text;
+- use source-established scan structure for physical placement, paragraph/order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
+- exclude running headers/page numbers, library marks, handwriting-derived material and OCR/extraction garbage;
 - do not silently substitute scan-derived lexical words.
 
-Applied ranges:
+Applied through C10:
 
-- **76–100** — supplied Gemini transcription;
-- **101–125** — `part_005_pages_101-125`;
-- **126–150** — `part_006_pages_126-150`;
-- **151–175** — `part_007_pages_151-175`;
-- **176–200** — `kavi1.md` / `part_008_pages_176-200`;
-- **201–225** — `kavi2.md` / `part_009_pages_201-225`.
+- 76–100 supplied Gemini transcription;
+- 101–125 `part_005_pages_101-125`;
+- 126–150 `part_006_pages_126-150`;
+- 151–175 `part_007_pages_151-175`;
+- 176–200 `kavi1.md` / `part_008_pages_176-200`;
+- 201–225 `kavi2.md` / `part_009_pages_201-225`;
+- 226–250 `kavi3.md` / `part_010_pages_226-250`.
 
-### C09 source structure
+### C10 source structure
 
-- scans **201–204** close `கணக்கு`; scan 204 / printed 187 has the closing salutation and decorative illustration;
-- scans **205–215** are `நேரு கண்ட ஜனநாயகம்`; scan 205 is the title/context/star opening and scan 215 / printed 198 closes with `வாழ்க!` and illustration;
-- scans **216–217** are `நன்றி, நன்றி!`; scan 217 / printed 200 closes with repeated thanks and separator;
-- scans **218–225** begin `வெள்ளி விழா`; scan 225 / printed 208 remains mid-item and continues to scan 226.
+- scan **226** closes `வெள்ளி விழா`;
+- scans **227–229** are `அண்ணன் இருக்கின்றார்`;
+- scans **230–236 and 238** are `அண்ணன் ஒரு கவியரங்கம்`, with scan **237** physically interposed before scan 238 resumes/closes the item;
+- scans **237 and 239–244** are `தமிழ் வளர வழிநடைப் பயணம்`; scan 244 closes it;
+- scans **245–250** begin `வையம் தழைக்க`; scan 250 remains mid-item.
 
-Scans **204, 215 and 217** were already `verified`; the remaining **22 pages** were promoted during C09. Scan **226** was independently verified before C09, so the durable contiguous verified boundary now reaches **1–226**.
+Pre-C10 verified scans **226, 238, 244** remained verified; C10 promoted **22** pages and moved the contiguous boundary to **1–250**.
 
 ### Exact next activity
 
-Execute **Phase 2 Clearance Batch C10 — physical scans 226–250**, using uploaded `kavi3.md` / `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_010_pages_226-250.pdf` as lexical control under the standing rule. Preserve already verified scan **226** and any other pre-verified scans inside the window. Do not begin C11 or Phase 3 in the same activity.
+Execute **C11 — scans 251–275**, using uploaded `kavi4.md` / `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_011_pages_251-275.pdf` as lexical control. Preserve/reconcile pre-verified scans **253, 260, 266, 272**. Do not begin C12 or Phase 3 in the same activity.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
