@@ -1,0 +1,40 @@
+name: Gate4 Printed Page Metadata Alignment
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/gate4-printed-pages.yml
+
+permissions:
+  contents: write
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Align canonical printed-page metadata
+        run: python3 .github/gate4_printed_pages.py
+      - name: Validate representative ranges
+        run: |
+          grep -q 'printed_pages: "3–14"' poems/kalaignarin-kavithaigal/sections/01.md
+          grep -q 'printed_pages: "17–25"' poems/kalaignarin-kavithaigal/sections/02.md
+          grep -q 'printed_pages: "213–219, 221"' poems/kalaignarin-kavithaigal/sections/23.md
+          grep -q 'printed_pages: "220, 222–227"' poems/kalaignarin-kavithaigal/sections/24.md
+          grep -q 'printed_pages: "276–279"' poems/kalaignarin-kavithaigal/sections/31.md
+          grep -q 'printed_pages: "444–447"' poems/kalaignarin-kavithaigal/sections/77.md
+      - name: Commit metadata alignment and remove one-shot runner
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/gate4_printed_pages.py .github/workflows/gate4-printed-pages.yml
+          git add -A
+          git diff --cached --check
+          git commit -m "Align Gate 4 item printed-page metadata"
+          git push origin HEAD:main
+
+# Temporary one-shot runner; it removes itself in the generated correction commit.
