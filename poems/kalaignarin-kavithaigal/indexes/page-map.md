@@ -60,9 +60,10 @@ Physical window: **76–100**. Every page in this window has received multiple d
 - **Iteration I:** scans **87, 88, 90–97** — exactly 10 unresolved physical pages; scan **90** additionally restores `கலகங்கள் இன்று காய்ப்புகள் இன்று`; no promotions;
 - **Iteration J:** scans **98, 99, 76–78 and 80–84** — exactly 10 unresolved physical pages; all ten received another direct exact lexical/glyph review; no promotions;
 - **Iteration K:** scans **85–88 and 90–95** — exactly 10 unresolved physical pages; scan **86** restores `மூக்கு பற்றிப் பாடுகிற தோழருக்கு முன்னாலே நிற்காமல் / போகும்படி எண்ணிடுவோம்!`, scan **92** restores `அறுவரும் ஒரு நிறம் ஒரு குணம்`, scan **93** restores `அங்கமுமே ஆறு பேரும்`, and scan **94** restores `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க`; no promotions;
+- **Iteration L:** scans **96–99, 76–78 and 80–82** — exactly 10 unresolved physical pages; all ten received another direct exact lexical/glyph review with previously secured wording, lineation and source structures reconfirmed; no promotions;
 - unresolved C04 pages remain **22 — 76–78, 80–88, 90–99**.
 
-## Verified pages after iteration K
+## Verified pages after iteration L
 
 **0001–0075, 0079, 0089, 0100, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**.
 
@@ -72,4 +73,4 @@ Exact page-range derivatives and user-supplied word-for-word extracts from the s
 
 ## Next mapping / verification activity
 
-Execute **C04 ten-page iteration L: scans 96–99, 76–78 and 80–82** — exactly **10 unresolved physical pages**. Preserve all fixed `விடுதலை வீரர்கள்` / `ஐம்புலன்` / `பிலவங்க ஆண்டு` boundaries and speaker/performance structures. Do not advance to C05 or Phase 3 while C04 remains open.
+Execute **C04 ten-page iteration M: scans 83–88 and 90–93** — exactly **10 unresolved physical pages**. Preserve all fixed `ஐம்புலன்` / `பிலவங்க ஆண்டு` boundaries and speaker/performance structures. Do not advance to C05 or Phase 3 while C04 remains open.
