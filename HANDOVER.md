@@ -35,11 +35,11 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Clearance C01–C08: **COMPLETE**;
-- C09: **NEXT**;
-- cumulative status: **0 partial / 241 needs-review / 224 verified**;
-- verified pages: **0001–0200, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–200**;
+- Clearance C01–C09: **COMPLETE**;
+- C10: **NEXT**;
+- cumulative status: **0 partial / 219 needs-review / 246 verified**;
+- verified pages: **0001–0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–226**;
 - Phase 3 / translation: **blocked**.
 
 ## Completed supplied-word lexical-control ranges
@@ -48,7 +48,8 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 - **C05 / scans 101–125** — `part_005_pages_101-125` transcription;
 - **C06 / scans 126–150** — `part_006_pages_126-150` transcription;
 - **C07 / scans 151–175** — `part_007_pages_151-175` transcription;
-- **C08 / scans 176–200** — user-uploaded `kavi1.md`, identified as `part_008_pages_176-200` word-for-word transcription.
+- **C08 / scans 176–200** — uploaded `kavi1.md` / `part_008_pages_176-200`;
+- **C09 / scans 201–225** — uploaded `kavi2.md` / `part_009_pages_201-225`.
 
 For these exact ranges:
 
@@ -57,27 +58,30 @@ For these exact ranges:
 - running headers/page numbers, library marks, handwriting-derived text and OCR garbage are excluded from body text;
 - no scan-derived lexical wording is silently substituted.
 
-## C08 — COMPLETE
+## C09 — COMPLETE
 
-Physical window: **176–200**. All **25/25** scans are `verified`; scans **184** and **196** were already verified before C08, so the batch produced **23 promotions**.
+Physical window: **201–225**. All **25/25** scans are `verified`; scans **204, 215 and 217** were already verified before C09, so the batch produced **22 promotions**.
 
 Fixed source structure:
 
-- **176–184** — `பொங்கல் திருநாள்` continuation/conclusion; scan **184 / printed 167** closes with `வணக்கம் / வாழ்க` and a decorative illustration;
-- **185–196** — `வாழ்வெனும் பாதையில்`; scan **185** opens with title + `14.4.70` Chennai radio context + centered star; scan **196 / printed 179** closes with `வணக்கம் / வாழ்க`;
-- **197–200** — `கணக்கு`; scan **197 / printed 180** opens with title + `2.8.1970` Salem Tamil Sangam context + centered star; scan **200 / printed 183** remains mid-item and continues to scan 201.
+- **201–204** — `கணக்கு` continuation/conclusion; scan **204 / printed 187** closes with `வணக்கம்; / வாழ்க!` and a decorative illustration;
+- **205–215** — `நேரு கண்ட ஜனநாயகம்`; scan **205** opens with title + `14.11.1970` Chennai context + centered star; scan **215 / printed 198** closes with `வாழ்க!` and a decorative caged-bird illustration;
+- **216–217** — `நன்றி, நன்றி!`; scan **216 / printed 199** includes the `1.8.71` Salem exhibition context; scan **217 / printed 200** closes with repeated thanks and a separator;
+- **218–225** — `வெள்ளி விழா`; scan **218** opens with title + `15.8.72` Rajaji Mandapam context; scan **225 / printed 208** remains mid-item and continues to scan 226.
 
-C08 retained range-specific supplied forms even where they differ from earlier scan-derived readings, while preserving the durable source structure. Running `கவிதைகள்` / `கலைஞரின்` headers and page numerals were excluded from body text.
+Notable lexical-control reconciliation includes retaining user-supplied forms such as `முரகு சுந்தரனார்` (201), `விளையாட்டெனவே` (202), `நெடுந்தெலைவு` (206), `முள்ளாக குத்துதடி` (207), `அசோக மன்னன` and `காக்கும போர்ப்` (211), `பாட்டப்பம்`, `வீட்டப்பம்`, `ஏச்சுரிமை`, `ஆச்சு`, `தராதிருந்தால்`, `என்றன்` (212), `ஒட்டுக்கு` (214), `முனைக்காத்திடுவேன்` (217), `என்புருவம்` (218), `தமிழப்` (220), `சொழுந்து` / `சௌந்தரா` (221), `பூவிரியுஞ்சோலைக்` (222), and `இப்டாரினிலே` (225), without treating them as editorial normalization.
 
-Cumulative status moved from **0 partial / 264 needs-review / 201 verified** to **0 partial / 241 needs-review / 224 verified**. Contiguous verified boundary advanced from **1–175** to **1–200**.
+Extraction artifacts such as running `கவிதைகள்` / `கலைஞரின்` headers, printed page numerals, scan-214's stray `4`, scan-216's `உ` / `He ema` / `D`, and scan-218's stray non-Tamil glyph were excluded as non-body material. Source-established order was used where extraction order displaced speaker/performance-note lines.
+
+Cumulative status moved from **0 partial / 241 needs-review / 224 verified** to **0 partial / 219 needs-review / 246 verified**. Because scan **226** had already been independently verified before C09, the durable contiguous verified boundary advances through **1–226**.
 
 ## Remaining user-supplied transcription files
 
-The user attached `kavi1.md` through `kavi11.md` as the remaining transcription sequence beginning at physical scan 176. The stated batching rule is **25 physical pages per file**, with **`kavi11.md` alone covering the remaining 40 pages**. Operational mapping already clear for the next windows:
+The user attached `kavi1.md` through `kavi11.md` as the remaining transcription sequence beginning at physical scan 176. The stated batching rule is 25 physical pages per file, with `kavi11.md` alone containing the remaining 40 pages.
 
 - `kavi1.md` → **176–200** — C08 COMPLETE;
-- `kavi2.md` → **201–225** — C09 NEXT;
-- `kavi3.md` → **226–250**;
+- `kavi2.md` → **201–225** — C09 COMPLETE;
+- `kavi3.md` → **226–250** — identified internally as `part_010_pages_226-250` — C10 NEXT;
 - `kavi4.md` → **251–275**;
 - `kavi5.md` → **276–300**;
 - `kavi6.md` → **301–325**;
@@ -85,15 +89,15 @@ The user attached `kavi1.md` through `kavi11.md` as the remaining transcription 
 - `kavi8.md` → **351–375**;
 - `kavi9.md` → **376–400**;
 - `kavi10.md` → **401–425**;
-- `kavi11.md` → user-stated remaining **40 physical pages**; verify its exact internal source-range label before applying it.
+- `kavi11.md` → user-stated remaining **40 physical pages**. Its first visible internal label is `part_018_pages_426-450`; inspect the full file/range transitions before applying beyond that first labelled part.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C09 — physical scans 201–225**.
+Execute **Phase 2 Clearance Batch C10 — physical scans 226–250**.
 
 - fetch live `main` first;
-- use the user-uploaded `kavi2.md` / `part_009_pages_201-225` text as lexical control under the standing rule;
-- reuse/reconfirm the already source-established page structure for scans 201–225;
-- preserve already verified scans inside the window while reconciling them to the range-specific lexical control;
+- use the uploaded `kavi3.md` / `part_010_pages_226-250` text as lexical control under the standing rule;
+- reuse/reconfirm source-established structure for scans 226–250;
+- scan **226 is already verified** and must be preserved/reconciled rather than downgraded;
 - synchronize tracking files after the activity;
-- do **not** begin C10, Phase 3, canonical assembly or translation in the same activity.
+- do **not** begin C11, Phase 3, canonical assembly or translation in the same activity.
