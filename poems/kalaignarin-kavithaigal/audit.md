@@ -142,6 +142,27 @@ Scope: English translation/review of final-cleared canonical item **1** only.
 - batch evidence: `translations/en/batches/batch-01.md`;
 - English item: `translations/en/items/01-give-me-your-heart-anna-en.md`.
 
+## Phase 4 Batch 02 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical items **2–3**.
+
+- item 2: `தென்னவன் காதை` → **The Tale of the Southerner**;
+- item 3: `இந்திரஜித்` → **Indrajit**;
+- reviewed items after Batch 02: **3/77**;
+- Batch-02 item-owned scans: **21/21 — scans 34–54**;
+- cumulative reviewed item-owned scans: **35/439**;
+- structural group scans **32–33** excluded from poem bodies: **PASS**;
+- title witnesses: **2 exact / 0 variants**;
+- source scan boundaries represented: **PASS**;
+- counter-epic rhetoric / speaker changes / betrayal sequences retained: **PASS**;
+- cultural and wordplay decisions documented: **PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-02.md`;
+- English items: `translations/en/items/02-the-tale-of-the-southerner-en.md`, `translations/en/items/03-indrajit-en.md`.
+
 ### Exact next Phase-4 activity
 
-**Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**.
+**Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**, scans **55–69**.

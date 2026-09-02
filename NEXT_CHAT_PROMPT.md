@@ -4,7 +4,7 @@ Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`, `PHASE3_CANONICAL_SOURCE_REVIEW.md`, `indexes/canonical-source-map.md`, and canonical item files as needed.
+Fetch live `main` first. Before changes read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`, `PHASE3_CANONICAL_SOURCE_REVIEW.md`, `indexes/canonical-source-map.md`, canonical item files as needed, and Phase-4 `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`, `translations/en/README.md`, plus the latest reviewed batch record.
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **UNBLOCKED / NOT STARTED — NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item scans; Batch 03 NEXT**.
 
 ## Gate 4 durable output
 
@@ -81,15 +81,17 @@ Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 - English translation created/modified during Gate 6 **no**;
 - Phase 4 **UNBLOCKED**.
 
-## Phase 4 Batch 01 durable result
+## Phase 4 Batches 01–02 durable result
 
 - translation scaffold: `translations/en/`;
-- Batch 01: **reviewed PASS**;
-- reviewed English items: **1/77**;
-- reviewed item scans: **14/439**;
-- item 1: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
-- English item: `translations/en/items/01-give-me-your-heart-anna-en.md`;
-- Batch review: `translations/en/batches/batch-01.md`;
+- reviewed batches: **2**;
+- reviewed English items: **3/77**;
+- reviewed item scans: **35/439**;
+- item 1: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**, scans **18–31**;
+- item 2: `தென்னவன் காதை` → **The Tale of the Southerner**, scans **34–42**;
+- item 3: `இந்திரஜித்` → **Indrajit**, scans **43–54**;
+- structural scans **32–33** remain anthology provenance outside poem bodies;
+- Batch reviews: `translations/en/batches/batch-01.md`, `translations/en/batches/batch-02.md`;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes: **0**.
 
@@ -109,10 +111,10 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**.
+Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**.
 
-1. Read final-cleared `sections/02.md` and `sections/03.md` completely.
-2. Translate both complete items with stable item identity and scan provenance.
+1. Read final-cleared `sections/04.md` and `sections/05.md` completely.
+2. Translate both complete items across scans **55–69** with stable item identity and scan provenance.
 3. Review the full batch for omissions, duplication, voice, names, rhetoric and source-specific claims.
-4. Create/update `translations/en/items/`, `translations/en/batches/batch-02.md` and `translations/en/SOURCE_MAP.md`.
+4. Create/update `translations/en/items/`, `translations/en/batches/batch-03.md` and `translations/en/SOURCE_MAP.md`.
 5. Do **not** alter Tamil final-cleared `pages/` or `sections/` during translation.

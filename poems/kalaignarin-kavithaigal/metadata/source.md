@@ -28,7 +28,7 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item scans; Batch 02 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item scans; Batch 03 NEXT**.
 
 ## Printed-page numbering behaviour
 
@@ -80,9 +80,12 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 ## Phase 4 translation metadata
 
 - Tamil source/canonical layer remains **FINAL-CLEARED**;
-- reviewed batches: **1**;
-- reviewed English items: **1/77**;
-- reviewed item scans: **14/439**;
+- reviewed batches: **2**;
+- reviewed English items: **3/77**;
+- reviewed item scans: **35/439**;
 - Batch 01 English item: `../translations/en/items/01-give-me-your-heart-anna-en.md`;
+- Batch 02 English items: `../translations/en/items/02-the-tale-of-the-southerner-en.md`, `../translations/en/items/03-indrajit-en.md`;
+- Batch 02 review: `../translations/en/batches/batch-02.md`;
+- unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes caused by translation: **0**;
-- next translation batch: **items 2–3**.
+- next translation batch: **items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**.

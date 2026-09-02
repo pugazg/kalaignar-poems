@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item scans; Batch 02 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item scans; Batch 03 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -85,16 +85,18 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Phase 4 — English translation
 
-**IN PROGRESS — Batch 01 reviewed PASS.**
+**IN PROGRESS — Batches 01–02 reviewed PASS.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **1**;
-- reviewed items: **1/77**;
-- reviewed item-assigned scans: **14/439**;
+- reviewed batches: **2**;
+- reviewed items: **3/77**;
+- reviewed item-assigned scans: **35/439**;
 - item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
+- item 2 `தென்னவன் காதை` → **The Tale of the Southerner**;
+- item 3 `இந்திரஜித்` → **Indrajit**;
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` / `sections/` changes: **0**.
 
 ## Next activity
 
-**Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**. Translate both complete final-cleared canonical items and review the batch before advancing.
+**Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**. Translate both complete final-cleared canonical items across scans **55–69** and review the batch before advancing.

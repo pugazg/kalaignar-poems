@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item scans; Batch 02 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item scans; Batch 03 NEXT**.
 
 ## Structural rules retained
 
@@ -68,7 +68,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Next phase gate
 
-**Phase 4 — English translation and release workflow is IN PROGRESS.** Batch 01 is reviewed PASS; Batch 02 items 2–3 are next.
+**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–02 are reviewed PASS; Batch 03 items 4–5 are next.
 
 ## Tamil final clearance
 
@@ -76,9 +76,12 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Phase 4 translation state
 
-- Batch 01: **reviewed PASS**;
-- reviewed items: **1/77**;
-- reviewed item scans: **14/439**;
+- Batches 01–02: **reviewed PASS**;
+- reviewed items: **3/77**;
+- reviewed item scans: **35/439**;
 - English item 1: `translations/en/items/01-give-me-your-heart-anna-en.md`;
+- English item 2: `translations/en/items/02-the-tale-of-the-southerner-en.md`;
+- English item 3: `translations/en/items/03-indrajit-en.md`;
+- unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes: **0**;
-- exact next: **Batch 02 items 2–3**.
+- exact next: **Batch 03 items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**.

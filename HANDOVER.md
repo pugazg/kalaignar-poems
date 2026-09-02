@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 01
+## Durable state after Phase 4 Batch 02
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batch 01 reviewed PASS; 1/77 items; 14/439 item-assigned scans; Batch 02 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item-assigned scans; Batch 03 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -126,6 +126,24 @@ Translation scaffold: `poems/kalaignarin-kavithaigal/translations/en/`.
 
 Batch 01 is intentionally a one-item batch because item 1 spans scans 18–31 and must not be split. The translation preserves the canonical/contents title distinction, Tamil three-letter wordplay through source tokens, quoted Anna rhetoric, the source-visible `அவர்` anomaly without silent Tamil repair, and the closing sea-shore elegy.
 
+## Phase 4 durable result — Batch 02
+
+- Phase 4 status: **IN PROGRESS**;
+- reviewed batches: **2**;
+- reviewed English items: **3/77**;
+- reviewed item-assigned source scans: **35/439**;
+- Batch 02 items: **2 — `தென்னவன் காதை` → The Tale of the Southerner; 3 — `இந்திரஜித்` → Indrajit**;
+- Batch 02 source scans: **34–54 = 21/21**;
+- separate anthology structural scans **32–33** remain outside poem translations;
+- reviewed English items: `translations/en/items/02-the-tale-of-the-southerner-en.md` and `translations/en/items/03-indrajit-en.md`;
+- Batch-02 review: `translations/en/batches/batch-02.md`;
+- translation plan/source map: `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 02: **0**;
+- Tamil `sections/` changes during Batch 02: **0**.
+
+Batch 02 preserves the two exact title witnesses, the Ravana/Indrajit counter-epic framing, source-specific polemic and cultural terms, illustrations/ornaments, the `பத்தரை மாற்று` / `முத்திரை` wordplay notes, and the source-visible final `ஆஎன்` form without Tamil repair.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -151,10 +169,14 @@ Before changing anything, read completely:
 15. `indexes/canonical-source-map.md`;
 16. `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
 17. `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-18. canonical item files `sections/01.md` through `sections/77.md` as needed for Phase-4 translation.
+18. canonical item files `sections/01.md` through `sections/77.md` as needed for Phase-4 translation;
+19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
+20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
+21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
+22. the latest reviewed translation batch record (`translations/en/batches/batch-02.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 02 — items 2–3 (`தென்னவன் காதை`, `இந்திரஜித்`)**.
+Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**.
 
-Read the final-cleared `sections/02.md` and `sections/03.md` completely, translate both complete items under `translations/en/items/`, review them together in `translations/en/batches/batch-02.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. If a genuine Tamil discrepancy is exposed, reopen the Tamil source-backed layers explicitly before continuing.
+Read final-cleared `sections/04.md` and `sections/05.md` completely, translate both complete items across scans **55–69**, review them together in `translations/en/batches/batch-03.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. If translation exposes a genuine Tamil discrepancy, reopen the source-backed Tamil layers explicitly before continuing.

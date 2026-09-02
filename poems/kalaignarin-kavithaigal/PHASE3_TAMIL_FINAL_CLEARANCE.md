@@ -112,4 +112,4 @@ Begin **Phase 4 — English translation and release workflow**, following `POEM_
 
 ## Subsequent Phase 4 status
 
-Phase 4 has subsequently started. **Batch 01 is reviewed PASS** for item 1 `இதயத்தைத் தந்திடு அண்ணா` (**Give Me Your Heart, Anna**), covering **14/439** item-assigned scans. The Tamil final-cleared `pages/` and `sections/` layers remained unchanged. Exact next translation activity: **Batch 02 items 2–3**.
+Phase 4 has subsequently advanced through **Batches 01–02, both reviewed PASS**. Reviewed English now covers items **1–3/77** and **35/439** item-assigned scans: `இதயத்தைத் தந்திடு அண்ணா` (**Give Me Your Heart, Anna**), `தென்னவன் காதை` (**The Tale of the Southerner**) and `இந்திரஜித்` (**Indrajit**). The Tamil final-cleared `pages/` and `sections/` layers remained unchanged. Exact next translation activity: **Batch 03 items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**.
