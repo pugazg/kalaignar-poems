@@ -21,28 +21,45 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- C01–C11: **COMPLETE**;
-- C12: **PARTIAL**;
-- cumulative: **0 partial / 169 needs-review / 296 verified**;
-- verified: **0001–0275, 0285, 0292–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous boundary: **1–275**;
+- C01–C12: **COMPLETE**;
+- C13: **NEXT**;
+- cumulative: **0 partial / 154 needs-review / 311 verified**;
+- verified: **0001–0300, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous boundary: **1–300**;
 - Phase 3 / canonical assembly / translation: **blocked**.
 
-## C12 — PARTIAL
+## Mandatory supplied-transcription alignment rule
 
-The user intended uploaded `kavi5.md` to cover physical scans **276–300** and its header says `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`.
+The user explicitly instructed: **do not position supplied Markdown using page numbers written inside the Markdown. Use the starting word/paragraph and ending word/paragraph to find its actual source span.**
 
-However, the attached Markdown payload actually begins with printed page **276** and ends with printed page **283**. Under the established scan↔printed-page map these are physical scans **293–300**. The lexical transcription for physical scans **276–292** / printed pages **259–275** is missing from this attachment.
+Therefore:
 
-Completed safely:
+1. match the supplied Markdown's first substantive body anchor against the attached/control source;
+2. match its last substantive body anchor;
+3. only the source interval between those confirmed anchors is controlled lexically by that Markdown;
+4. embedded/claimed page numbers are not positional authority;
+5. where the supplied Markdown has no matching body text, use the controlling scan directly rather than inventing a supplied lexical span.
 
-- scans **293–300** reconciled to the supplied `kavi5.md` text and marked `verified`;
-- scan **296** preserved as verified while being reconciled;
-- new promotions: **293, 294, 295, 297, 298, 299, 300**;
-- scans **285** and **292** remain verified from earlier direct-source clearance;
-- no absent lexical text was reconstructed or silently imported for scans **276–292**;
-- C12 remains **PARTIAL**.
+## C12 — COMPLETE
 
-## EXACT NEXT ACTIVITY
+Content anchoring established that `kavi5.md` actually spans **scans 293–300**:
 
-Recover/re-attach the missing word-for-word transcription for **physical scans 276–292 / printed pages 259–275** from the intended `part_012_pages_276-300` range, then finish C12 under the standing lexical-control rule. Preserve already verified scans **285** and **292**. Do not begin C13, Phase 3, canonical assembly or translation until C12 is complete.
+- opening `நடந்திடுவேன் நமது அய்யா, / அண்ணா வழியில்!` = attached `part_012` page 18 / scan 293;
+- ending `அழுக்குருவின் சிரத்தை அறுத்தெறிந்தார்` = attached `part_012` page 25 / scan 300.
+
+Scans **276–292** were independently verified directly from attached `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_012_pages_276-300.pdf`. Pre-verified **285, 292, 296** were preserved. C12 is now **25/25 verified**.
+
+## EXACT NEXT ACTIVITY — C13
+
+Process **physical scans 301–325**.
+
+Available exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_013_pages_301-325.pdf`.
+
+Use uploaded `kavi6.md` as lexical control because its body anchors have already been matched:
+
+- first body anchor: `அது கண்ட பார்வதி கொதித் தெழுந்து...` = derivative page 1 / physical scan 301;
+- last body anchor: `மாறப்போகும் மனிதன் எடுக்கப் போகும் - ஜென்மம்தானே?..` = derivative page 25 / physical scan 325.
+
+Thus `kavi6.md` covers the full C13 window by content, regardless of any internal page-number labels.
+
+Preserve/reconcile already verified scans **310** and **317**. Promote complete passes only, synchronize all status-bearing files, and **do not begin C14, Phase 3, canonical assembly or translation in the same activity**.
