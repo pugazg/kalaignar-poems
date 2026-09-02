@@ -39,8 +39,8 @@
 
 Source structure is fixed as `விடுதலை வீரர்கள்` through scan **79**, `ஐம்புலன்` scans **80–89**, and `பிலவங்க ஆண்டு` scans **90–100**.
 
-Iterations A–J now provide repeated direct-source lexical/glyph review across the full C04 window. **Iteration J processed exactly scans 98, 99, 76–78 and 80–84**. All ten were reread directly against the controlling source; established wording and source structure were reconfirmed, but each still retains at least one compact unresolved lexical span, so iteration J produced no promotion.
+Iterations A–K now provide repeated direct-source lexical/glyph review across the full C04 window. **Iteration K processed exactly scans 85–88 and 90–95**. Source-backed additions include the lower `மூக்கு` close on scan 86, `அறுவரும் ஒரு நிறம் ஒரு குணம்` on scan 92, `அங்கமுமே ஆறு பேரும்` on scan 93, and `“அன்புச் சோதரிகளே உமது கரம் பிடிக்க` on scan 94. All ten still retain at least one compact unresolved lexical span, so iteration K produced no promotion.
 
-Remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**. The exact next 10-page iteration is **85–88 and 90–95**, excluding already verified scans 79, 89 and 100.
+Remaining C04 unresolved pages: **76–78, 80–88, 90–99 (22 pages)**. The exact next 10-page iteration is **96–99, 76–78 and 80–82**, excluding already verified scans 79, 89 and 100.
 
 Phase 2 independently rereads the controlling scan. OCR, memory, grammar, metre, historical expectation and separate editions are not authority unless the user explicitly designates an exact-source lexical transcription for that same controlling-PDF range.
