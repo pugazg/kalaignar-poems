@@ -23,20 +23,20 @@
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C15 COMPLETE; C16 PARTIAL**;
-- cumulative status: **0 `partial`, 67 `needs-review`, 398 `verified`**;
-- unresolved backlog: **67 pages**;
-- verified pages: **0001–0396, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–396**;
+- Phase 2 page clearance: **IN PROGRESS — C01–C16 COMPLETE; C17 NEXT**;
+- cumulative status: **0 `partial`, 63 `needs-review`, 402 `verified`**;
+- unresolved backlog: **63 pages**;
+- verified pages: **0001–0400, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–400**;
 - Phase 3: **blocked**.
 
 ## User-designated lexical-control alignment rule
 
-Internal page labels in supplied Markdown are not source-location authority. Locate the first substantive body word/paragraph and the final substantive body word/paragraph in the exact source; only the matched interval receives supplied lexical control. Source-established placement, punctuation, quotation structure, headings, speaker/performance-note boundaries, lineation and non-body separation remain source-controlled.
+Internal page labels in supplied Markdown are not source-location authority. Locate the first substantive body word/paragraph and final substantive body word/paragraph in the exact source; only the matched interval receives supplied lexical control. Source-established placement, punctuation, quotation structure, headings, lineation and non-body separation remain source-controlled.
 
-## C16 control boundary
+## C16 closure
 
-`kavi9.md` content anchors cover **376–396 only**. Its final body line `அடைகாக்கும் கோழி போல` occurs on scan 396; scan 397 visibly continues the item. The next supplied control `kavi10.md` begins at scan 401. Thus direct scan is lexical authority for scans **397–400**.
+`kavi9.md` controls scans **376–396**. Scans **397–400** were independently verified from the exact-source derivative. This direct pass also corrects the scans 398–399 source title to `அருமருந்தே! அன்பழக உடன்பிறப்பே!`.
 
 ## Source-access / witness rule
 
@@ -46,4 +46,4 @@ The historical renderer's reported/exposed 150-page window is not the physical s
 
 ## Next
 
-Finish C16 = physical scans **397–400** by direct-source lexical verification. Do not begin C17 yet.
+C17 = physical scans **401–425**. Align `kavi10.md` by first/last substantive body anchors against `part_017_pages_401-425.pdf`; do not begin C18 or Phase 3 in the same activity.

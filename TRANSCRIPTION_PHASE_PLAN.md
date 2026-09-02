@@ -15,9 +15,9 @@ The controlling scan remains source authority. An explicitly user-designated exa
 - SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - source coverage: **465/465 COMPLETE**;
 - page clearance: **IN PROGRESS**;
-- cumulative: **0 partial / 67 needs-review / 398 verified**;
-- verified: **0001–0396, 0447, 0465**;
-- durable contiguous verified boundary: **1–396**.
+- cumulative: **0 partial / 63 needs-review / 402 verified**;
+- verified: **0001–0400, 0447, 0465**;
+- durable contiguous verified boundary: **1–400**.
 
 ### Clearance windows
 
@@ -36,17 +36,18 @@ The controlling scan remains source authority. An explicitly user-designated exa
 - C13 301–325 — COMPLETE
 - C14 326–350 — COMPLETE
 - C15 351–375 — COMPLETE
-- **C16 376–400 — PARTIAL: 376–396 verified; 397–400 pending**
+- **C16 376–400 — COMPLETE**
+- **C17 401–425 — NEXT**
 
-### C16 supplied-control finding
+### C16 closure
 
-`kavi9.md` content-anchor alignment proves lexical control only from scan **376** (`கலைத்தாயின் தலைச் செல்வன்!`) through scan **396** (`அடைகாக்கும் கோழி போல`). Scan 397 continues the poem after the supplied file has ended. `kavi10.md` begins on scan 401, so it is not authority for scans 397–400.
+`kavi9.md` controls scans **376–396** by body anchors. Scans **397–400** were cleared directly from the exact source. Direct review also corrects scans 398–399 to the source title `அருமருந்தே! அன்பழக உடன்பிறப்பே!`.
 
-Pre-verified **392–393** remain verified. Nineteen additional pages were promoted; scans **397–400** stay `needs-review` pending direct-source lexical clearance.
+C16 is **25/25 verified**; pre-verified **392–393** were preserved and **23** pages were newly promoted across the batch.
 
 ### Exact next activity
 
-Finish **C16 scans 397–400** directly from the controlling scan. Do not begin C17 or Phase 3 in the same activity.
+Begin **C17 scans 401–425**. Align `kavi10.md` against `part_017_pages_401-425.pdf` by first/last substantive body anchors. Do not begin C18 or Phase 3 in the same activity.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 

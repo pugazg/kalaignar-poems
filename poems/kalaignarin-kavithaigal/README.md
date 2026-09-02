@@ -4,7 +4,7 @@ Author: **கலைஞர் மு. கருணாநிதி**
 
 ## Current archival status
 
-**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C15 COMPLETE; C16 PARTIAL through scan 396; Phase 3 BLOCKED.**
+**ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage COMPLETE; Clearance C01–C16 COMPLETE; C17 NEXT; Phase 3 BLOCKED.**
 
 Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
@@ -22,29 +22,26 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 `partial`, 67 `needs-review`, 398 `verified`**;
-- unresolved backlog: **67 pages**;
-- verified pages: **0001–0396, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–396**;
+- cumulative status: **0 `partial`, 63 `needs-review`, 402 `verified`**;
+- unresolved backlog: **63 pages**;
+- verified pages: **0001–0400, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–400**;
 - Phase 3: **blocked until Phase-2 page clearance is complete**.
 
 ## Supplied Markdown positioning rule
 
 Page numbers embedded in a supplied transcription file are not used to position it. The actual source span is established by its **starting word/paragraph and ending word/paragraph**. Only that confirmed span receives supplied lexical control. Elsewhere the controlling scan remains lexical authority.
 
-## Clearance C16 — PARTIAL
+## Clearance C16 — COMPLETE
 
-Target physical window: **376–400**.
+Physical window: **376–400**.
 
-Content-anchor reconciliation of `kavi9.md` against `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_016_pages_376-400.pdf` established lexical coverage only through scan **396**:
+`kavi9.md` controls **376–396** by content anchors. Scans **397–400** were directly verified from the exact-source derivative because supplied lexical control does not cover them.
 
-- `கலைத்தாயின் தலைச் செல்வன்!` = scan **376**;
-- `அடைகாக்கும் கோழி போல` = scan **396**, final supplied body line.
+Direct enlarged scan inspection resolved all remaining C16 text and corrected the scans 398–399 title to **`அருமருந்தே! அன்பழக உடன்பிறப்பே!`**.
 
-Scans **376–396 are verified**; existing verified **392–393** were preserved. C16 adds **19** new promotions so far. Scans **397–400 remain needs-review** under direct-scan lexical authority.
-
-`kavi10.md` begins on physical scan **401**, so it must not be used to fill the missing 397–400 lexical text.
+C16 is **25/25 verified**. Pre-verified **392–393** were preserved; total new C16 promotions = **23**.
 
 ## Exact next activity
 
-Finish **C16 — scans 397–400** by direct-source lexical verification. Do not begin C17, Phase 3, canonical assembly or translation in the same activity.
+Begin **C17 — scans 401–425**. Align `kavi10.md` to `part_017_pages_401-425.pdf` by first/last body anchors before use. Do not begin C18, Phase 3, canonical assembly or translation in the same activity.

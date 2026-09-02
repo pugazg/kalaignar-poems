@@ -18,11 +18,11 @@ Supplied controlling PDF: `TVA_BOK_0064091_கலைஞரின்_கவித
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 clearance: **IN PROGRESS — C01–C15 COMPLETE; C16 PARTIAL**;
-- cumulative status: **0 `partial`, 67 `needs-review`, 398 `verified`**;
-- unresolved backlog: **67 pages**;
-- verified: **0001–0396, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–396**;
+- Phase 2 clearance: **IN PROGRESS — C01–C16 COMPLETE; C17 NEXT**;
+- cumulative status: **0 `partial`, 63 `needs-review`, 402 `verified`**;
+- unresolved backlog: **63 pages**;
+- verified: **0001–0400, 0447, 0465**;
+- durable contiguous verified boundary: **scans 1–400**;
 - Phase 3 and English translation: **blocked**.
 
 ## Supplied-word lexical-control positioning
@@ -33,8 +33,8 @@ The user explicitly requires supplied Markdown to be aligned by **starting/endin
 
 Exact-source derivative: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_016_pages_376-400.pdf`.
 
-`kavi9.md` aligns from scan **376** (`கலைத்தாயின் தலைச் செல்வன்!`) through scan **396** (`அடைகாக்கும் கோழி போல`). It does not contain the continuation visible on scan 397. `kavi10.md` begins at scan **401**. Therefore scans **397–400** have no supplied lexical control.
+`kavi9.md` aligns **376–396** only. The remaining **397–400** were verified directly from the exact source. Direct review corrected the scans 398–399 title to `அருமருந்தே! அன்பழக உடன்பிறப்பே!` and confirmed scan 400 opens `பகுத்தறிவுப் பாண்டியனார்!`.
 
 ## Current next activity
 
-Finish **C16 — physical scans 397–400** directly against the controlling source. Do not begin C17 or Phase 3 until those pages are cleared.
+Begin **C17 — physical scans 401–425**. Align `kavi10.md` against the exact-source `part_017` derivative by substantive first/last body anchors. Do not begin C18 or Phase 3 in the same activity.
