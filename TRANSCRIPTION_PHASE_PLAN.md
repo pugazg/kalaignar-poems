@@ -18,39 +18,46 @@ Independently reread every page against the controlling scan. Check word endings
 - Phase 1: **COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
 - Phase 2 page clearance: **IN PROGRESS**;
-- cumulative status: **0 `partial`, 312 `needs-review`, 153 `verified`**;
-- verified pages: **0001–0125, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–125**.
+- cumulative status: **0 `partial`, 287 `needs-review`, 178 `verified`**;
+- verified pages: **0001–0150, 0154, 0174, 0184, 0196, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–150**.
 
-### Clearance C01–C05
+### Clearance C01–C06
 
 - C01 scans **1–25 — COMPLETE**;
 - C02 scans **26–50 — COMPLETE**;
 - C03 scans **51–75 — COMPLETE**;
 - C04 scans **76–100 — COMPLETE**;
-- C05 scans **101–125 — COMPLETE**.
+- C05 scans **101–125 — COMPLETE**;
+- C06 scans **126–150 — COMPLETE**.
 
-### User-designated lexical-control ranges
+### User-designated supplied-word lexical-control ranges
 
-For scans **76–100**, the user designated a Gemini word-for-word transcription as lexical control. For scans **101–125**, the user supplied a word-for-word transcription identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_005_pages_101-125.pdf` and directed that supplied lexical words be kept.
+The standing rule for explicitly designated exact-source transcriptions is:
 
-Within an explicitly designated range:
+- retain supplied lexical words;
+- use the scan for physical page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
+- exclude running headers/page numbers, library marks, handwriting-derived material and OCR garbage from body text;
+- do not silently substitute scan-derived lexical words.
 
-- retain the supplied lexical words;
-- use the scan for page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
-- exclude misplaced running headers/page numbers, library marks, handwriting-derived material and OCR garbage from body text;
-- do not silently replace supplied words with scan-derived lexical readings.
+Applied ranges:
 
-### C05 source structure
+- **76–100** — supplied Gemini transcription;
+- **101–125** — `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_005_pages_101-125.pdf` transcription;
+- **126–150** — `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_006_pages_126-150.pdf` transcription.
 
-- scans **101–115** are `காதலா - வீரமா?`; scan 101 is the title/context opening and scan 115 / printed 98 closes with `வணக்கம்.` plus a centered floral ornament;
-- scans **116–125** are `அருமறையில் அறுவர்`; scan 116 is the title/context/star opening, scan 117 / printed 100 has a large printed line illustration, and scan 125 / printed 108 continues the item beyond the batch boundary.
+### C06 source structure
 
-All C05 pages **101–125** are `verified` under the applicable lexical-control rule.
+- scans **126–127** close `அருமறையில் அறுவர்`; scan 127 / printed 110 has `வணக்கம் / வாழ்க` plus a printed line illustration;
+- scans **128–137** are `புதிய பாதை`; scan 128 is the title/context opening and scan 137 / printed 120 closes with `வணக்கம் / வாழ்க` plus an illustration;
+- scans **138–143** are `உடைமைகள் பத்து`; scan 138 is the title/context/star opening and scan 143 / printed 126 closes the poem before a separate parenthetical participant note;
+- scans **144–150** begin `நீர்க் குடும்பம்`; scan 144 is the title/context/star opening and scan 150 / printed 133 remains mid-item.
+
+All scans **126–150** are `verified`. C06 promoted **25 pages** and advanced the contiguous verified boundary to **1–150**.
 
 ### Exact next activity
 
-Begin **Phase 2 Clearance Batch C06 — physical scans 126–150**. Reconfirm source structure and perform page clearance against the controlling PDF under the applicable source rule. Do not begin C07 or Phase 3 in the same activity.
+Begin **Phase 2 Clearance Batch C07 — physical scans 151–175**. The user has already supplied word-for-word text identified as extracted from `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_007_pages_151-175.pdf` in the current conversation. Use it as lexical control under the standing rule when available; preserve/reconcile already verified scans **154 and 174**. Do not begin C08 or Phase 3 in the same activity.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
