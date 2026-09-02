@@ -22,13 +22,13 @@ jobs:
       - name: Validate status-only scope
         run: |
           test -z "$(git diff --name-only | grep -E '^poems/kalaignarin-kavithaigal/(pages|sections)/' || true)"
-          grep -q 'Gate 5.*COMPLETE / PASS' HANDOVER.md
-          grep -q 'Gate 6.*NOT STARTED.*NEXT' HANDOVER.md
-          grep -q 'Gate 5.*COMPLETE / PASS' NEXT_CHAT_PROMPT.md
-          grep -q 'Gate 6.*NEXT / NOT STARTED' NEXT_CHAT_PROMPT.md
-          grep -q 'PHASE3_CANONICAL_SOURCE_REVIEW.md' HANDOVER.md
-          grep -q 'Gate 5.*COMPLETE / PASS' TRANSCRIPTION_PHASE_PLAN.md
-          grep -q 'Gate 6.*NEXT / NOT STARTED' TRANSCRIPTION_PHASE_PLAN.md
+          grep -Fq 'Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;' HANDOVER.md
+          grep -Fq 'Phase 3 Gate 6 — Tamil final clearance: **NOT STARTED — NEXT**;' HANDOVER.md
+          grep -Fq 'Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;' NEXT_CHAT_PROMPT.md
+          grep -Fq 'Phase 3 Gate 6 Tamil final clearance **NEXT / NOT STARTED**;' NEXT_CHAT_PROMPT.md
+          grep -Fq '5. **Assembly/source-completeness review — COMPLETE / PASS.**' TRANSCRIPTION_PHASE_PLAN.md
+          grep -Fq '6. **Tamil final clearance — NEXT / NOT STARTED.**' TRANSCRIPTION_PHASE_PLAN.md
+          grep -Fq 'PHASE3_CANONICAL_SOURCE_REVIEW.md' HANDOVER.md
       - name: Commit synchronized status and remove one-shot runner
         run: |
           git config user.name "github-actions[bot]"
