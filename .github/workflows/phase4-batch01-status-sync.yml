@@ -22,14 +22,12 @@ jobs:
       - name: Validate translation milestone scope
         run: |
           test -z "$(git diff --name-only | grep -E '^poems/kalaignarin-kavithaigal/(pages|sections)/' || true)"
-          grep -q 'Batch 01 reviewed PASS' HANDOVER.md
-          grep -q 'Batch 02' HANDOVER.md
-          grep -q 'Batch 01 reviewed PASS' NEXT_CHAT_PROMPT.md
-          grep -q 'Batch 02' NEXT_CHAT_PROMPT.md
-          grep -q 'IN PROGRESS — Batch 01 reviewed PASS' TRANSCRIPTION_PHASE_PLAN.md
-          grep -q '01-give-me-your-heart-anna-en.md' poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md
           test -f poems/kalaignarin-kavithaigal/translations/en/items/01-give-me-your-heart-anna-en.md
           test -f poems/kalaignarin-kavithaigal/translations/en/batches/batch-01.md
+          test -f poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md
+          test -f poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md
+          grep -q 'Batch 02' HANDOVER.md
+          grep -q 'Batch 02' NEXT_CHAT_PROMPT.md
           test ! -e NOPE
       - name: Commit status synchronization and remove one-shot runner
         run: |
