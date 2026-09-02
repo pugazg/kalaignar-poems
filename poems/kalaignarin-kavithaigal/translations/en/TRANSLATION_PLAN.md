@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batch 01 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–02 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **1**;
-- items: **1/77**;
-- item-assigned source scans: **14/439**;
+- batches: **2**;
+- items: **3/77**;
+- item-assigned source scans: **35/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -80,8 +80,9 @@ Batch size is adaptive to source length and complexity:
 | Batch | Items | Physical scans | Status |
 |---:|---:|---:|---|
 | 01 | 1 | 18–31 | **reviewed — PASS** |
-| 02 | 2–3 | 34–54 | **NEXT** |
-| later | 4–77 | adaptive complete-item batches | pending |
+| 02 | 2–3 | 34–54 | **reviewed — PASS** |
+| 03 | 4–5 | 55–69 | **NEXT** |
+| later | 6–77 | adaptive complete-item batches | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -112,15 +113,33 @@ The reviewed translation preserves:
 - title/structural scans 18–19 and poem scans 20–31;
 - the radio-context note;
 - flower/body imagery and direct address to Anna;
-- *Kalingathu Parani* / parani allusion and source-visible `கழற்சென்னி` as a non-normalised transliterated form in English;
-- the Tamil “three letters” sequence using the source Tamil tokens because English spelling cannot reproduce the orthographic play;
+- *Kalingathu Parani* / parani allusion and source-visible `கழற்சென்னி` conservatively;
+- the Tamil “three letters” sequence using source Tamil tokens;
 - Anna's quoted slogans/editorial phrases;
-- Justice Party / Dravidar Kazhagam / Anna–Ayya / Munnetra Kazhagam political sequence as source rhetoric;
+- Justice Party / Dravidar Kazhagam / Anna–Ayya / Munnetra Kazhagam sequence as source rhetoric;
 - V. V. Giri / `giri` mountain wordplay;
-- Valluvar/Tirukkural dialogue and source-visible `அவர்` in the four-term Kural-like sequence without silently repairing it to another Tamil reading;
+- Valluvar/Tirukkural dialogue and source-visible `அவர்` without silent Tamil repair;
 - the final sea-shore elegy and heart-lending close;
 - the closing decorative printer's ornament.
 
+## Batch 02 decision record
+
+Items 2–3 are translated and reviewed together because they are adjacent complete items and form a continuous source-order counter-epic sequence across scans **34–54**.
+
+The reviewed translation preserves:
+
+- item 2 `தென்னவன் காதை` as **The Tale of the Southerner**, keeping `தென்னவன்` as Ravana's source epithet rather than replacing the title with `Ravana`;
+- both exact contents/canonical title matches;
+- separate structural scans **32–33** outside poem bodies;
+- `pūsuras`, darbha-grass satire, yāzh and other source-specific cultural/polemical terms with notes where English would flatten them;
+- the Muthunagai/Surpanakha, Sita, Rama/Lakshmana, Vibhishana, Sugriva, Hanuman and Kumbakarna counter-Ramayana reversals as Kalaignar's source rhetoric, without external harmonisation;
+- Ravana's long battlefield speech, language oath, shared-Tamil casualty line and final betrayal/death sequence;
+- item 3's domestic/parental opening, Meghanada naming, Indrajit naming, Sulochana romance and Naga-king grievance chain;
+- `pāli`, `குகனோடு “எழுவரான”`, `பத்தரை மாற்று` and `முத்திரை` as documented source-sensitive terms rather than silently normalised English;
+- Nikumbala, charioteer betrayal, Vibhishana's intervention, Indrajit's mutilated final combat, Sulochana's arrival/death and the final Mandodari line;
+- source-visible final `ஆஎன்` interpreted only at English level as a lamenting `Alas`, without Tamil modification;
+- all source illustrations/closing ornaments as structural notes.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 02 — items 2–3**, translate both complete items from `../../sections/02.md` and `../../sections/03.md`, review them as one batch, and leave Tamil final-cleared files unchanged.
+Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**, translate both complete final-cleared items from `../../sections/04.md` and `../../sections/05.md`, review them as one batch across scans **55–69**, update the English source map, and leave Tamil final-cleared files unchanged.
