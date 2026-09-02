@@ -1,49 +1,67 @@
 # Source metadata — கலைஞரின் கவிதைகள்
 
-## Controlling source
+Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
-- filename: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
-- source type: image-based scanned PDF;
 - physical PDF pages: **465**;
-- file size: **486,369,088 bytes**;
-- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
-- source PDF committed to repository: **No**;
-- language/script: Tamil;
-- textual authority: **the supplied scan itself**, with explicitly user-designated exact-source word-for-word transcriptions usable as lexical controls only on source spans established by matching their first and last body text.
-
-## Source identity
-
+- bytes: **486,369,088**;
+- SHA-256: `19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`;
 - title: **கலைஞரின் கவிதைகள்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
-- publisher/imprint: **பாரதி பதிப்பகம்**;
-- edition: **FOURTH EDITION: MARCH 1995**;
-- printed price: **Rs. 65.00 / ரூ.65-00**.
+- publisher: **பாரதி பதிப்பகம்**;
+- edition: **fourth edition, March 1995**.
+
+- source type: image-based scanned PDF;
+- source PDF committed to repository: **No**;
+- textual authority: controlling scan, with user-designated exact-source transcriptions as lexical controls only on body-anchor-confirmed intervals.
 
 ## Verification state
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Phase 2 page clearance: **IN PROGRESS — C01–C16 COMPLETE; C17 NEXT**;
-- cumulative status: **0 `partial`, 63 `needs-review`, 402 `verified`**;
-- unresolved backlog: **63 pages**;
-- verified pages: **0001–0400, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–400**;
-- Phase 3: **blocked**.
+- Clearance **C01–C17 COMPLETE**;
+- cumulative: **0 partial / 38 needs-review / 427 verified**;
+- verified: **0001–0425, 0447, 0465**;
+- durable contiguous verified boundary: **1–425**;
+- Phase 3 / canonical assembly / translation: **blocked**.
 
-## User-designated lexical-control alignment rule
+## Supplied-transcription alignment rule
 
-Internal page labels in supplied Markdown are not source-location authority. Locate the first substantive body word/paragraph and final substantive body word/paragraph in the exact source; only the matched interval receives supplied lexical control. Source-established placement, punctuation, quotation structure, headings, lineation and non-body separation remain source-controlled.
+Do **not** position supplied Markdown by page-number labels written inside it. Match the first and last substantive body words/paragraphs to the exact source. Supplied lexical words control only that confirmed interval. The scan remains authoritative for physical placement, headings, punctuation, quotations, lineation, ornaments, and non-body separation. Outside a confirmed supplied interval the scan is lexical authority.
 
-## C16 closure
+## C17 — COMPLETE
 
-`kavi9.md` controls scans **376–396**. Scans **397–400** were independently verified from the exact-source derivative. This direct pass also corrects the scans 398–399 source title to `அருமருந்தே! அன்பழக உடன்பிறப்பே!`.
+Target physical scans: **401–425**.
 
-## Source-access / witness rule
+`kavi10.md` was aligned by content anchors, not its internal page numbers:
 
-Page-range derivatives and user-supplied extracts from this exact PDF may aid rendering or provide lexical control when explicitly designated and text-anchor matched. They are not separate editions or witnesses. Unrelated OCR, memory, grammar, metre, historical expectation and other editions are not textual authority.
+- opening anchor `சுயமரியாதை இயக்கத்தின் பெயரால்; பெரியார்` = scan **401**, continuing `பகுத்தறிவுப் பாண்டியனார்!` from scan 400;
+- final supplied anchor `உதயசூரியனை உடையினில் பொறித்திடு!` = scan **425**.
 
-The historical renderer's reported/exposed 150-page window is not the physical source extent and must not override the exact 465-page identity.
+The exact-source derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_017_pages_401-425.pdf` was inspected across all 25 pages. Scan 425 was additionally rendered at enlarged resolution to confirm the complete page structure and three star separators. The item `ஒரு சொட்டுத் தேன்!` remains open and continues to scan 426.
 
-## Next
+Fixed C17 source structure:
 
-C17 = physical scans **401–425**. Align `kavi10.md` by first/last substantive body anchors against `part_017_pages_401-425.pdf`; do not begin C18 or Phase 3 in the same activity.
+- **401–402** — `பகுத்தறிவுப் பாண்டியனார்!`;
+- **403** — `நியாயத் தராசு`;
+- **404** — `ஏற்பாரோ?`;
+- **405** — `புயல் என அறிக!`;
+- **406** — `கேட்டதுண்டோ?`;
+- **407** — `வருணமா? மரணமா?`;
+- **408** — `தோல்வி எப்பொழுது?`;
+- **409** — `இன்னுமா கூச்சல்?`;
+- **410–412** — `பச்சைக் கிளி`;
+- **413–414** — `கற்பனை ஊற்று`;
+- **415–416** — `வானமே பொழிக நீ!`;
+- **417** — `கவிதையில் ஒரு மடல்!`;
+- **418–419** — `அவர் உணர்வாரோ! யார் அறிவார்?`;
+- **420–421** — `போர்வாளாய்ச் சுழலட்டும்!`;
+- **422–424** — `இன்னும் யார் யார் பெயர்கள் வரவில்லை?`;
+- **425** — opens `ஒரு சொட்டுத் தேன்!`, continuing to 426.
+
+Extraction-only garbage such as `51`, `be`, `MC`, `B`, `220`, `TOR`, `:399`, the stray Hindi `इसमें`, running `கவிதைகள்` / `கலைஞரின்` headers, and printed numerals were excluded from body text. Supplied lexical words were otherwise retained.
+
+C17 result: **25/25 verified**, **25 new promotions**, cumulative **0 / 38 / 427**, contiguous boundary **1–425**.
+
+## EXACT NEXT ACTIVITY
+
+Begin **C18 — physical scans 426–450**. Align `kavi11.md` against `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_018_pages_426-450.pdf` by first/last substantive body anchors before applying lexical control. `kavi11.md` is longer than the earlier 25-page controls, so do **not** assume its filename/header or embedded numbers define the C18 interval. Preserve/reconcile already verified scan **447**. Do not begin C19, Phase 3, canonical assembly or translation in the same activity.

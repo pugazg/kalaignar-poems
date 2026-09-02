@@ -1,49 +1,61 @@
 # கலைஞர் கவிதைகள் — மின்னாக்கக் களஞ்சியம்
 
-கலைஞர் மு. கருணாநிதியின் கவிதைகள் மற்றும் source-supported பதிப்பு அடுக்குகளை source-first முறையில் பாதுகாக்கும் repository.
+Source-first archival repository. Explicitly user-designated word-for-word transcription may control lexical words only on a body-text-anchor-confirmed source interval.
 
-> **மூல ஸ்கேன் controlling source.** Explicitly user-designated exact-source word-for-word transcription may control lexical words only where its supplied body text actually matches the source. Markdown-ல் உள்ள page-number labels positional authority அல்ல; first/last matching body word/paragraph anchors மூலமாகவே alignment செய்ய வேண்டும். Source-established scan structure controls placement, punctuation, quotation structure, lineation and non-body separation.
+## Active status — கலைஞரின் கவிதைகள்
 
-## Phase-separated workflow
+Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`
 
-1. Phase 1 — transcription only
-2. Phase 2 — source-critical verification / lexical-control clearance
-3. Phase 3 — structure, completeness, canonical assembly, Tamil final clearance
-4. Phase 4 — translation/release
+- physical PDF pages: **465**;
+- bytes: **486,369,088**;
+- SHA-256: `19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`;
+- title: **கலைஞரின் கவிதைகள்**;
+- author: **கலைஞர் மு. கருணாநிதி**;
+- publisher: **பாரதி பதிப்பகம்**;
+- edition: **fourth edition, March 1995**.
 
-## தற்போதைய படைப்புகள்
-
-| படைப்பு | நிலை |
-|---|---|
-| கலைஞரின் கவிதைகள் | **ACTIVE — Phase 1 COMPLETE; Phase 2 source coverage 465/465 COMPLETE; C01–C16 COMPLETE; C17 NEXT; Phase 3 BLOCKED** |
-| காலப் பேழையும் கவிதைச் சாவியும் | Tamil FINAL-CLEARED; English RELEASE-CLEARED |
-| தென்னவன் காதை | Tamil FINAL-CLEARED; English translation paused |
-| இதயத்தைத் தந்திடு அண்ணா | Tamil COMPLETE; English RELEASE-COMPLETE |
-
-## கலைஞரின் கவிதைகள் — active source
-
-- work directory: `poems/kalaignarin-kavithaigal/`;
-- controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்.pdf`;
-- physical pages: **465**;
-- file size: **486,369,088 bytes**;
-- SHA-256: **`19ee85eea737d3ddac5736db8acd8d4453c9328926fb04256dba4ec9c7b2468e`**;
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- cumulative status: **0 partial, 63 needs-review, 402 verified**;
-- unresolved backlog: **63 pages**;
-- verified: **0001–0400, 0447, 0465**;
-- durable contiguous verified boundary: **scans 1–400**.
+- Clearance **C01–C17 COMPLETE**;
+- cumulative: **0 partial / 38 needs-review / 427 verified**;
+- verified: **0001–0425, 0447, 0465**;
+- durable contiguous verified boundary: **1–425**;
+- Phase 3 / canonical assembly / translation: **blocked**.
 
-### Clearance C16 — COMPLETE
+## C17 — COMPLETE
 
-Target window: physical scans **376–400**.
+Target physical scans: **401–425**.
 
-`kavi9.md` was aligned by body anchors, not internal page labels. Its lexical-control span is **376–396** (`கலைத்தாயின் தலைச் செல்வன்!` → `அடைகாக்கும் கோழி போல`). Scans **397–400** were then cleared directly from the exact-source derivative because no supplied Markdown covers them.
+`kavi10.md` was aligned by content anchors, not its internal page numbers:
 
-Direct scan review also corrects the provisional title on scans 398–399 to **`அருமருந்தே! அன்பழக உடன்பிறப்பே!`**.
+- opening anchor `சுயமரியாதை இயக்கத்தின் பெயரால்; பெரியார்` = scan **401**, continuing `பகுத்தறிவுப் பாண்டியனார்!` from scan 400;
+- final supplied anchor `உதயசூரியனை உடையினில் பொறித்திடு!` = scan **425**.
 
-C16 is **25/25 verified**. Previously verified **392–393** were preserved; C16 produced **23** new promotions in total.
+The exact-source derivative `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_017_pages_401-425.pdf` was inspected across all 25 pages. Scan 425 was additionally rendered at enlarged resolution to confirm the complete page structure and three star separators. The item `ஒரு சொட்டுத் தேன்!` remains open and continues to scan 426.
 
-### Exact next activity
+Fixed C17 source structure:
 
-Begin **C17 — scans 401–425**. Align `kavi10.md` against `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_017_pages_401-425.pdf` using first/last substantive body anchors before applying lexical control. Do not begin C18, Phase 3, canonical assembly or translation in the same activity.
+- **401–402** — `பகுத்தறிவுப் பாண்டியனார்!`;
+- **403** — `நியாயத் தராசு`;
+- **404** — `ஏற்பாரோ?`;
+- **405** — `புயல் என அறிக!`;
+- **406** — `கேட்டதுண்டோ?`;
+- **407** — `வருணமா? மரணமா?`;
+- **408** — `தோல்வி எப்பொழுது?`;
+- **409** — `இன்னுமா கூச்சல்?`;
+- **410–412** — `பச்சைக் கிளி`;
+- **413–414** — `கற்பனை ஊற்று`;
+- **415–416** — `வானமே பொழிக நீ!`;
+- **417** — `கவிதையில் ஒரு மடல்!`;
+- **418–419** — `அவர் உணர்வாரோ! யார் அறிவார்?`;
+- **420–421** — `போர்வாளாய்ச் சுழலட்டும்!`;
+- **422–424** — `இன்னும் யார் யார் பெயர்கள் வரவில்லை?`;
+- **425** — opens `ஒரு சொட்டுத் தேன்!`, continuing to 426.
+
+Extraction-only garbage such as `51`, `be`, `MC`, `B`, `220`, `TOR`, `:399`, the stray Hindi `इसमें`, running `கவிதைகள்` / `கலைஞரின்` headers, and printed numerals were excluded from body text. Supplied lexical words were otherwise retained.
+
+C17 result: **25/25 verified**, **25 new promotions**, cumulative **0 / 38 / 427**, contiguous boundary **1–425**.
+
+## EXACT NEXT ACTIVITY
+
+Begin **C18 — physical scans 426–450**. Align `kavi11.md` against `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_018_pages_426-450.pdf` by first/last substantive body anchors before applying lexical control. `kavi11.md` is longer than the earlier 25-page controls, so do **not** assume its filename/header or embedded numbers define the C18 interval. Preserve/reconcile already verified scan **447**. Do not begin C19, Phase 3, canonical assembly or translation in the same activity.
