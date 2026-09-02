@@ -30,18 +30,18 @@ Fetch live `main` first. Read `HANDOVER.md`, `POEM_PROCESSING_GUIDE.md`, `TRANSC
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage: **465/465 COMPLETE**;
-- Clearance C01–C08: **COMPLETE**;
-- C09: **NEXT**;
-- cumulative status: **0 `partial`, 241 `needs-review`, 224 `verified`**;
-- verified pages: **0001–0200, 0204, 0215, 0217, 0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
-- durable contiguous verified boundary: **1–200**;
+- Clearance C01–C09: **COMPLETE**;
+- C10: **NEXT**;
+- cumulative status: **0 `partial`, 219 `needs-review`, 246 `verified`**;
+- verified pages: **0001–0226, 0238, 0244, 0253, 0260, 0266, 0272, 0285, 0292, 0296, 0310, 0317, 0328, 0332, 0371, 0372, 0373, 0392, 0393, 0447, 0465**;
+- durable contiguous verified boundary: **1–226**;
 - Phase 3 and translation: **blocked**.
 
-## C08 — COMPLETE
+## C09 — COMPLETE
 
-Physical scans **176–200** are fully `verified` under user-designated lexical control from the uploaded `kavi1.md`, identified as word-for-word text extracted from:
+Physical scans **201–225** are fully `verified` under user-designated lexical control from uploaded `kavi2.md`, identified as word-for-word text extracted from:
 
-`TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_008_pages_176-200.pdf`
+`TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_009_pages_201-225.pdf`
 
 Standing lexical-control rule:
 
@@ -50,30 +50,33 @@ Standing lexical-control rule:
 - use source-established scan structure for physical page placement, paragraph order, punctuation, quotation structure, headings, speaker/performance-note boundaries, poetry lineation and spacing;
 - remove non-body extraction noise such as running headers/page numbers, library marks, handwriting-derived text and OCR garbage.
 
-Fixed C08 source structure:
+Fixed C09 source structure:
 
-- **176–184** — `பொங்கல் திருநாள்` continuation/conclusion; scan 184 / printed 167 closes with `வணக்கம் / வாழ்க` + decorative illustration;
-- **185–196** — `வாழ்வெனும் பாதையில்`; scan 185 title + `14.4.70` Chennai radio context + centered star; scan 196 / printed 179 closes with `வணக்கம் / வாழ்க`;
-- **197–200** — `கணக்கு`; scan 197 / printed 180 title + `2.8.1970` Salem Tamil Sangam context + centered star; scan 200 / printed 183 remains mid-item and continues to scan 201.
+- **201–204** — `கணக்கு` continuation/conclusion; scan 204 / printed 187 closes with `வணக்கம்; / வாழ்க!` + decorative illustration;
+- **205–215** — `நேரு கண்ட ஜனநாயகம்`; scan 205 title + `14.11.1970` Chennai context + centered star; scan 215 / printed 198 closes with `வாழ்க!` + caged-bird illustration;
+- **216–217** — `நன்றி, நன்றி!`; scan 216 / printed 199 has the `1.8.71` Salem exhibition context; scan 217 / printed 200 closes with repeated thanks + separator;
+- **218–225** — `வெள்ளி விழா`; scan 218 title + `15.8.72` Rajaji Mandapam context; scan 225 / printed 208 remains mid-item and continues into scan 226.
 
-Already verified scans **184 and 196** were reconciled to the C08 lexical control and remained verified. C08 promoted **23** pages, moving cumulative status to **0 partial / 241 needs-review / 224 verified** and contiguous boundary to **1–200**.
+Already verified scans **204, 215 and 217** remained verified. C09 promoted **22** pages. Because scan **226** was already verified before this batch, the contiguous verified boundary is now **1–226**.
+
+Notable retained supplied lexical forms include `முரகு சுந்தரனார்`, `விளையாட்டெனவே`, `நெடுந்தெலைவு`, `முள்ளாக குத்துதடி`, `அசோக மன்னன`, `காக்கும போர்ப்`, `பாட்டப்பம்`, `வீட்டப்பம்`, `ஏச்சுரிமை`, `ஆச்சு`, `ஒட்டுக்கு`, `முனைக்காத்திடுவேன்`, `என்புருவம்`, `தமிழப்`, `சொழுந்து`, `சௌந்தரா`, `பூவிரியுஞ்சோலைக்`, and `இப்டாரினிலே`.
 
 ## REMAINING USER-SUPPLIED TRANSCRIPTION SEQUENCE
 
-The user attached `kavi1.md` through `kavi11.md` starting from physical scan 176. Files `kavi1.md` through `kavi10.md` are stated as 25-page batches; `kavi11.md` is stated to contain the remaining 40 pages. The next file is:
+The next uploaded file is:
 
-- `kavi2.md` — word-for-word text identified as `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_009_pages_201-225.pdf` — use for C09.
+- `kavi3.md` — word-for-word text identified as `TVA_BOK_0064091_கலைஞரின்_கவிதைகள்_part_010_pages_226-250.pdf` — use for C10.
 
 Do not pre-apply later `kavi*.md` files outside the active clearance window.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 2 Clearance Batch C09 — physical scans 201–225**.
+Execute **Phase 2 Clearance Batch C10 — physical scans 226–250**.
 
 1. Fetch live `main` first and preserve any newer durable state.
-2. Use uploaded `kavi2.md` / `part_009_pages_201-225` as lexical control under the standing rule.
-3. Reuse/reconfirm the source-established structure for scans **201–225**.
-4. Preserve any already verified pages inside C09 while reconciling them to the range-specific lexical control.
+2. Use uploaded `kavi3.md` / `part_010_pages_226-250` as lexical control under the standing rule.
+3. Reuse/reconfirm the source-established structure for scans **226–250**.
+4. Preserve/reconcile already verified scan **226** and any other already verified pages in the window; do not downgrade them.
 5. Promote only complete passes to `verified`.
 6. Synchronize all status-bearing files after the activity.
-7. **Do not begin C10, Phase 3, canonical assembly or translation in the same activity.**
+7. **Do not begin C11, Phase 3, canonical assembly or translation in the same activity.**
