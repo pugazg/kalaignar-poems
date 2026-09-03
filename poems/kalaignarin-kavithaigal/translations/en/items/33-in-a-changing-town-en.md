@@ -8,7 +8,7 @@ language: "en"
 source_scans: "311–317"
 printed_pages: "294–300"
 title_witness_status: "variant — contents witness compounds மாறிவரும்; canonical opening separates மாறி வரும்"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/33.md"
 voice_policy: "retain Kalaignar's Puducherry Independence-Day oratory, autobiographical assault memory, poverty and equality critique, labour/socialist argument, six-theme kaviyarangam frame, mythic satire and repeated மாறி வரும் ஊரினிலே refrain"
 ---

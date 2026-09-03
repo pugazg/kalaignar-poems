@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item scans; Batch 09 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–09 reviewed PASS; 35/77 items; 311/439 item scans; Batch 10 NEXT**.
 
 ## Gate 4 durable output
 
@@ -151,7 +151,7 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 ## Phase 4 Batch 08 durable result
 
 - standing cadence: **five poems per iteration**;
-- Batches 01–08 **reviewed PASS**;
+- Batches 01–09 **reviewed PASS**;
 - reviewed items **30/77**;
 - reviewed item scans **271/439**;
 - Batch 08 items 26–30, scans **254–292 = 39/39**;
@@ -159,6 +159,17 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - unresolved translation issues **0**;
 - Tamil page/canonical changes **0**.
 
+## Phase 4 Batch 09 durable result
+
+- standing cadence: **five poems per iteration**;
+- Batches 01–09 **reviewed PASS**;
+- reviewed items **35/77**;
+- reviewed item scans **311/439**;
+- Batch 09 items 31–35, scans **293–332 = 40/40**;
+- title witnesses **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 09 — items 31–35 (`நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`, `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, `மாறி வரும் ஊரினிலே`, `சமுதாயப் பார்வைகள்...!`, `கலைவாணர் அரங்கக் கவியரங்கம்`)**, scans **293–332 = 40/40**. Process all five complete poems in this iteration. Preserve the authorised contents/canonical title variants for items 31–33 separately; items 34–35 are exact. Review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`.
+Execute **Phase 4 Batch 10 — items 36–40**, physical span **333–378**, with **44/44 item-owned scans**. Structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** stay outside poem translations. Preserve the authorised contents/canonical title variants for items 36, 37, 39 and 40 separately; item 38 is exact. Review together and do not alter Tamil `pages/` or `sections/`.

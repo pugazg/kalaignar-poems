@@ -271,3 +271,23 @@ Scope: English translation/review of final-cleared canonical items **26–30**.
 ### Exact next Phase-4 activity
 
 **Batch 09 — items 31–35**, scans **293–332 = 40/40**. Preserve the authorised title-witness variants for items 31–33 separately; items 34–35 are exact.
+
+
+## Phase 4 Batch 09 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical items **31–35**.
+
+- items after Batch 09: **35/77**;
+- Batch-09 item-owned scans: **40/40 — scans 293–332**;
+- cumulative reviewed item-owned scans: **311/439**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- exact English scan-marker sequences: **40/40 PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-09.md`.
+
+### Exact next Phase-4 activity
+
+**Batch 10 — items 36–40**; preserve structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** outside poem translations. Item-owned scan total **44/44** across physical span **333–378**.

@@ -8,7 +8,7 @@ language: "en"
 source_scans: "297–310"
 printed_pages: "280–293"
 title_witness_status: "variant — contents witness uses கவியரங்கத் தலைமைக் கவிதை; canonical opening uses கவியரங்கம் தலைமைக் கவிதை"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/32.md"
 voice_policy: "retain Kalaignar's Mupperum Vizha oratory, Periyar and Anna memorial rhetoric, rationalist myth satire, anti-Hindi language struggle, DMK anniversary/political polemic, agrarian and prohibition criticism, betrayal imagery and closing movement vow"
 ---

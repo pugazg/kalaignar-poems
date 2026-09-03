@@ -8,7 +8,7 @@ language: "en"
 source_scans: "293–296"
 printed_pages: "276–279"
 title_witness_status: "variant — contents witness omits the canonical terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/31.md"
 voice_policy: "retain Kalaignar's intimate address to party siblings, birthday self-assessment, Periyar-Anna path pledge, anti-Hindi/social-justice rhetoric, contemporary Palestine/South Africa/Eelam references and closing service vow"
 ---

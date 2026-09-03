@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–08 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–09 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **8**;
-- items: **30/77**;
-- item-assigned source scans: **271/439**;
+- batches: **9**;
+- items: **35/77**;
+- item-assigned source scans: **311/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -83,8 +83,9 @@ Standing user cadence from Batch 05 onward: **process five complete adjacent poe
 | 06 | 16–20 | 175–217 | **reviewed — PASS** |
 | 07 | 21–25 | 218–253 | **reviewed — PASS** |
 | 08 | 26–30 | 254–292 | **reviewed — PASS** |
-| 09 | 31–35 | 293–332 | **NEXT** |
-| later | 36–77 | five complete items per iteration (final remainder excepted) | pending |
+| 09 | 31–35 | 293–332 | **reviewed — PASS** |
+| 10 | 36–40 | 333–378 item-owned scans; structural 372–373 excluded | **NEXT** |
+| later | 41–77 | five complete items per iteration (final remainder excepted) | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -200,6 +201,10 @@ Batch 07 reviewed complete items **21–25** across **36/36 item-owned scans**. 
 
 Batch 08 reviewed complete items **26–30** across scans **254–292 = 39/39**. All five title witnesses are exact. The reviewed translations preserve Periyar memorial/self-respect and personal-apprenticeship rhetoric; the classical `அகம் / புறம்` and `படைப்பு / பதைப்பு` architecture; the Pongal dream built from classical anthology titles; the Poompuhar / *Silappathikaram* eight-*meyppādu* feast; and Anna's language-reform, rationalist, movement-memory and lamp imagery. Tamil `pages/`/`sections/` changes remain **0**.
 
+## Batch 09 decision record
+
+Batch 09 reviewed complete items **31–35** across scans **293–332 = 40/40**. Title witnesses are **2 exact + 3 authorised variants**: item 31 terminal punctuation, item 32 `கவியரங்கம்` / `கவியரங்கத்` wording, and item 33 spacing. The reviewed translations preserve the seventy-first-birthday Periyar–Anna path vow; the long Three Great Celebrations Periyar/Anna/DMK rationalist and language-rights polemic; the Puducherry equality/labour/socialism sequence; the *Ananda Vikatan* Golden-Jubilee society satire; and the Kalaivanar Arangam politics-as-social-progress conclusion. Tamil `pages/`/`sections/` changes remain **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 09 — items 31–35**, scans **293–332 = 40/40**. Items 31–33 carry authorised contents/canonical title variants and must preserve both witnesses separately; items 34–35 are exact.
+Execute **Phase 4 Batch 10 — items 36–40**: `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!`, `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`, `“அறிஞர் அண்ணா வழியில்”`, `பன்னீர்ச்செல்வமே!`, `கலைத்தாயின் தலைச் செல்வன்!`. Process all five complete poems; preserve structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** outside translations. Batch-10 item-owned coverage is **44/44** across physical span **333–378**, with expected title witnesses **1 exact / 4 authorised variants / 0 unresolved**.

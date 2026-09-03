@@ -62,11 +62,11 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 
 ## Phase 4 — translation and release
 
-**IN PROGRESS — Batches 01–08 reviewed PASS.**
+**IN PROGRESS — Batches 01–09 reviewed PASS.**
 
 - reviewed batches: **8**;
 - reviewed English items: **30/77**;
-- reviewed item-assigned source scans: **271/439**;
+- reviewed item-assigned source scans: **311/439**;
 - Batch 01: item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
 - Batch 02: item 2 `தென்னவன் காதை` → **The Tale of the Southerner**; item 3 `இந்திரஜித்` → **Indrajit**;
 - Batch 03: item 4 `இரணியன்` → **Hiranyan**; item 5 `வாளி மன்னன்` → **King Vali**;

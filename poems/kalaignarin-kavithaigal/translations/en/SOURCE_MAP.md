@@ -64,6 +64,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 28 | `பொங்கல் விழா` | `பொங்கல் விழா` | **Pongal Festival** | 267–272 | 250–255 | `items/28-pongal-festival-en.md` | **batch-reviewed — PASS** |
 | 29 | `சிலப்பதிகார விருந்து` | `சிலப்பதிகார விருந்து` | **A Silappathikaram Feast** | 273–285 | 256–268 | `items/29-a-silappathikaram-feast-en.md` | **batch-reviewed — PASS** |
 | 30 | `அண்ணா வழியில்` | `அண்ணா வழியில்` | **On Anna's Path** | 286–292 | 269–275 | `items/30-on-annas-path-en.md` | **batch-reviewed — PASS** |
+| 31 | `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!` | `நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்` | **I Shall Walk on Our Ayya and Anna's Path!** | 293–296 | 276–279 | `items/31-i-shall-walk-on-our-ayya-and-annas-path-en.md` | **batch-reviewed — PASS** |
+| 32 | `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை` | `முப்பெரும் விழாக் கவியரங்கத் தலைமைக் கவிதை` | **Presiding Poem at the Three Great Celebrations Poetry Assembly** | 297–310 | 280–293 | `items/32-presiding-poem-three-great-celebrations-en.md` | **batch-reviewed — PASS** |
+| 33 | `மாறி வரும் ஊரினிலே` | `மாறிவரும் ஊரினிலே` | **In a Changing Town** | 311–317 | 294–300 | `items/33-in-a-changing-town-en.md` | **batch-reviewed — PASS** |
+| 34 | `சமுதாயப் பார்வைகள்...!` | `சமுதாயப் பார்வைகள்...!` | **Views of Society...!** | 318–328 | 301–311 | `items/34-views-of-society-en.md` | **batch-reviewed — PASS** |
+| 35 | `கலைவாணர் அரங்கக் கவியரங்கம்` | `கலைவாணர் அரங்கக் கவியரங்கம்` | **Kalaivanar Arangam Poetry Assembly** | 329–332 | 312–315 | `items/35-kalaivanar-arangam-poetry-assembly-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -118,9 +123,9 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **8**;
-- reviewed English items: **30/77**;
-- reviewed item-assigned scans: **271/439**;
+- reviewed English batches: **9**;
+- reviewed English items: **35/77**;
+- reviewed item-assigned scans: **311/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
@@ -158,6 +163,16 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - there are no pure anthology structural scans inside **254–292**;
 - no Tamil page or canonical item was changed by Batch 08.
 
+### Items 31–35 provenance notes
+
+- item 31 owns scans **293–296** (**4/4** represented), with contents witness lacking the canonical terminal `!`;
+- item 32 owns scans **297–310** (**14/14** represented), with authorised `கவியரங்கம்` / `கவியரங்கத்` title variation;
+- item 33 owns scans **311–317** (**7/7** represented), with authorised `மாறி வரும்` / `மாறிவரும்` spacing variation;
+- item 34 owns scans **318–328** (**11/11** represented), exact title witness;
+- item 35 owns scans **329–332** (**4/4** represented), exact title witness;
+- there are no pure anthology structural scans inside Batch 09;
+- no Tamil page or canonical item was changed by Batch 09.
+
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 31–35** after Phase-4 Batch 09 passes. The source interval is **293–332 = 40/40**; preserve item-31, item-32 and item-33 contents-title variants separately from their canonical titles.
+Add reviewed mappings for **items 36–40** after Phase-4 Batch 10 passes. Batch 10 owns **44/44 item scans** across physical span **333–378**, while structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** remain outside poem items. Expected title witnesses: **1 exact / 4 authorised variants / 0 unresolved**.

@@ -28,7 +28,7 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item scans; Batch 09 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–09 reviewed PASS; 35/77 items; 311/439 item scans; Batch 10 NEXT**.
 
 ## Printed-page numbering behaviour
 

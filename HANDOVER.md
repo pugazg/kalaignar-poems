@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 08
+## Durable state after Phase 4 Batch 09
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item-assigned scans; Batch 09 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–09 reviewed PASS; 35/77 items; 311/439 item-assigned scans; Batch 10 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -266,6 +266,27 @@ Batch review: `translations/en/batches/batch-07.md`.
 
 Batch review: `translations/en/batches/batch-08.md`.
 
+## Phase 4 durable result — Batch 09
+
+- standing user cadence: **five poems per iteration**;
+- reviewed batches: **9**;
+- reviewed English items: **35/77**;
+- reviewed item-assigned source scans: **311/439**;
+- Batch 09 items: **31–35**;
+- Batch 09 source scans: **293–332 = 40/40**;
+- item 31 → **I Shall Walk on Our Ayya and Anna's Path!**;
+- item 32 → **Presiding Poem at the Three Great Celebrations Poetry Assembly**;
+- item 33 → **In a Changing Town**;
+- item 34 → **Views of Society...!**;
+- item 35 → **Kalaivanar Arangam Poetry Assembly**;
+- marker certification: **40/40 PASS**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 09: **0**;
+- Tamil `sections/` changes during Batch 09: **0**.
+
+Batch review: `translations/en/batches/batch-09.md`.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -295,10 +316,8 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-08.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-09.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 09 — items 31–35 (`நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`, `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, `மாறி வரும் ஊரினிலே`, `சமுதாயப் பார்வைகள்...!`, `கலைவாணர் அரங்கக் கவியரங்கம்`)**.
-
-Read final-cleared `sections/31.md` through `sections/35.md` completely and translate all five complete items across scans **293–332 = 40/40**. Preserve the authorised title-witness variants for items 31–33 separately from canonical titles. Review together in `translations/en/batches/batch-09.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged.
+Execute **Phase 4 Batch 10 — items 36–40 (`"சித்திரைத் திருநாள்" தலைமைக் கவிதை!`, `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`, `“அறிஞர் அண்ணா வழியில்”`, `பன்னீர்ச்செல்வமே!`, `கலைத்தாயின் தலைச் செல்வன்!`)**. Read final-cleared `sections/36.md` through `sections/40.md` completely. Preserve structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** outside poem translations. Review all five complete items together; item-owned scan total **44/44** across physical span **333–378**; expected title witnesses **1 exact / 4 authorised variants / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.

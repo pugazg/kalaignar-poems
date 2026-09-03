@@ -8,7 +8,7 @@ language: "en"
 source_scans: "318–328"
 printed_pages: "301–311"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/34.md"
 voice_policy: "retain Kalaignar's Ananda Vikatan Golden-Jubilee humour, magazine-history references, Tamil devotion, repeated 'poor society' refrain, crime/social-causation satire, rationalist evolution argument, caste/untouchability critique and closing social-progress appeal"
 ---

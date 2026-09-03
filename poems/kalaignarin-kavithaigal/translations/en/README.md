@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–08 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–09 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **8**;
-- reviewed English items: **30/77**;
-- item-assigned source scans covered by reviewed English: **271/439**;
+- reviewed English batches: **9**;
+- reviewed English items: **35/77**;
+- item-assigned source scans covered by reviewed English: **311/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -56,6 +56,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/28-pongal-festival-en.md` — reviewed English item 28;
 - `items/29-a-silappathikaram-feast-en.md` — reviewed English item 29;
 - `items/30-on-annas-path-en.md` — reviewed English item 30.
+- `batches/batch-09.md` — reviewed Batch-09 record;
+- `items/31-i-shall-walk-on-our-ayya-and-annas-path-en.md` — reviewed English item 31;
+- `items/32-presiding-poem-three-great-celebrations-en.md` — reviewed English item 32;
+- `items/33-in-a-changing-town-en.md` — reviewed English item 33;
+- `items/34-views-of-society-en.md` — reviewed English item 34;
+- `items/35-kalaivanar-arangam-poetry-assembly-en.md` — reviewed English item 35.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -190,6 +196,21 @@ Standing five-poem iteration covering items **26–30** across scans **254–292
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 09
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **31–35** across scans **293–332 = 40/40**.
+
+- item 31 → **I Shall Walk on Our Ayya and Anna's Path!**, scans **293–296**;
+- item 32 → **Presiding Poem at the Three Great Celebrations Poetry Assembly**, scans **297–310**;
+- item 33 → **In a Changing Town**, scans **311–317**;
+- item 34 → **Views of Society...!**, scans **318–328**;
+- item 35 → **Kalaivanar Arangam Poetry Assembly**, scans **329–332**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 09 — items 31–35 (`நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`, `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, `மாறி வரும் ஊரினிலே`, `சமுதாயப் பார்வைகள்...!`, `கலைவாணர் அரங்கக் கவியரங்கம்`)**, scans **293–332 = 40/40**. Preserve the three authorised title-witness variants for items 31–33 separately; items 34–35 are exact.
+Execute **Phase 4 Batch 10 — items 36–40**, preserving structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** outside poem translations. Batch-10 item-owned coverage: **44/44** across physical span **333–378**; expected title witnesses **1 exact / 4 authorised variants / 0 unresolved**.

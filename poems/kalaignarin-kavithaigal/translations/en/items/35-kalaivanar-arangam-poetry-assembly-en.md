@@ -8,7 +8,7 @@ language: "en"
 source_scans: "329–332"
 printed_pages: "312–315"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/35.md"
 voice_policy: "retain Kalaignar's post-by-election defiance, Vali/Rama analogy, gratitude to Periyar and Anna, cultural-cleansing metaphor, pattimandram reference and politics-as-tool-for-social-progress conclusion"
 ---
