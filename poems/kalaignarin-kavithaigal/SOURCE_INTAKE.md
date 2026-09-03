@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item scans; Batch 06 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–06 reviewed PASS; 20/77 items; 196/439 item scans; Batch 07 NEXT**.
 
 ## Structural rules retained
 
@@ -68,7 +68,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Next phase gate
 
-**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–03 are reviewed PASS; Batch 05 items 11–13 are next.
+**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–06 are reviewed PASS; Batch 07 items 21–25 are next.
 
 ## Tamil final clearance
 
@@ -76,11 +76,11 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Phase 4 translation state
 
-- Batches 01–04: **reviewed PASS**;
-- reviewed items: **10/77**;
-- reviewed item scans: **153/439**;
+- Batches 01–06: **reviewed PASS**;
+- reviewed items: **20/77**;
+- reviewed item scans: **196/439**;
 - Batch 04: items **6–10**, scans **72–127 = 56/56**;
 - structural scans **70–71** remain outside poem translations;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes: **0**;
-- exact next: **Batch 05 items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**.
+- exact next: **Batch 07 items 21–25**, preserving item 23 = **230–236, 238** and item 24 = **237, 239–244**.

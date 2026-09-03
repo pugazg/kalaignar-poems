@@ -49,6 +49,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 13 | `நீர்க் குடும்பம்` | `நீர்க் குடும்பம்` | **The Water Family** | 144–154 | 127–137 | `items/13-water-family-en.md` | **batch-reviewed — PASS** |
 | 14 | `பாரதிதாசன்` | `பாரதிதாசன்` | **Bharathidasan** | 155–169 | 138–152 | `items/14-bharathidasan-en.md` | **batch-reviewed — PASS** |
 | 15 | `பாரதியார்` | `பாரதியார்` | **Bharathiyar** | 170–174 | 153–157 | `items/15-bharathiyar-en.md` | **batch-reviewed — PASS** |
+| 16 | `பொங்கல் திருநாள்` | `பொங்கல் திருநாள்` | **Pongal Festival Day** | 175–184 | 158–167 | `items/16-pongal-festival-day-en.md` | **batch-reviewed — PASS** |
+| 17 | `வாழ்வெனும் பாதையில்` | `வாழ்வெனும் பாதையில்` | **On the Path Called Life** | 185–196 | 168–179 | `items/17-on-the-path-called-life-en.md` | **batch-reviewed — PASS** |
+| 18 | `கணக்கு` | `கணக்கு` | **Arithmetic** | 197–204 | 180–187 | `items/18-arithmetic-en.md` | **batch-reviewed — PASS** |
+| 19 | `நேரு கண்ட ஜனநாயகம்` | `நேரு கண்ட ஜனநாயகம்` | **Democracy as Nehru Saw It** | 205–215 | 188–198 | `items/19-democracy-as-nehru-saw-it-en.md` | **batch-reviewed — PASS** |
+| 20 | `நன்றி, நன்றி!` | `நன்றி, நன்றி!` | **Thank You, Thank You!** | 216–217 | 199–200 | `items/20-thank-you-thank-you-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -103,12 +108,23 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **5**;
-- reviewed English items: **15/77**;
-- reviewed item-assigned scans: **153/439**;
+- reviewed English batches: **6**;
+- reviewed English items: **20/77**;
+- reviewed item-assigned scans: **196/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
+### Items 16–20 provenance notes
+
+- item 16 owns scans **175–184** (**10/10** represented);
+- item 17 owns scans **185–196** (**12/12** represented);
+- item 18 owns scans **197–204** (**8/8** represented);
+- item 19 owns scans **205–215** (**11/11** represented);
+- item 20 owns scans **216–217** (**2/2** represented);
+- all five canonical titles exactly match their contents witnesses;
+- there are no pure anthology structural scans inside **175–217**;
+- no Tamil page or canonical item was changed by Batch 06.
+
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)** after Phase-4 Batch 06 passes. Batch-06 source interval: **175–217**.
+Add reviewed mappings for **items 21–25** after Phase-4 Batch 07 passes. Preserve the item-23/item-24 interposition exactly: item 23 = **230–236, 238**; item 24 = **237, 239–244**.

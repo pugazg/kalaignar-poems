@@ -8,7 +8,7 @@ language: "en"
 source_scans: "205–215"
 printed_pages: "188–198"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/19.md"
 voice_policy: "retain Kalaignar's Nehru memorial rhetoric, floral allegory, secular-democratic argument, war/peace imagery, rights-based guest-poet sequence and political wordplay"
 ---

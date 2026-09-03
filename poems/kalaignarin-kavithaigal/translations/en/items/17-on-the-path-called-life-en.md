@@ -8,7 +8,7 @@ language: "en"
 source_scans: "185–196"
 printed_pages: "168–179"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/17.md"
 voice_policy: "retain Kalaignar's New-Year oratory, social-democratic argument, humour, lexical wordplay, guest-poet hand-offs and closing ethical synthesis"
 ---

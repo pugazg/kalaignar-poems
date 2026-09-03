@@ -8,7 +8,7 @@ language: "en"
 source_scans: "175–184"
 printed_pages: "158–167"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/16.md"
 voice_policy: "retain Kalaignar's Pongal oratory, agrarian imagery and policy argument, guest-poet hand-offs, political satire, repetition and Tamil wordplay"
 ---

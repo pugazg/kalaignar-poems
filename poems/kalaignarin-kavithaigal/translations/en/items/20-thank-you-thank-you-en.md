@@ -8,7 +8,7 @@ language: "en"
 source_scans: "216–217"
 printed_pages: "199–200"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/20.md"
 voice_policy: "retain Kalaignar's improvised stage-thanks, role reversals, named-poet humour, Kannadasan/Kovalan/Kannagi wordplay and direct closing gratitude"
 ---

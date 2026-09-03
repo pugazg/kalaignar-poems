@@ -8,7 +8,7 @@ language: "en"
 source_scans: "197–204"
 printed_pages: "180–187"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/18.md"
 voice_policy: "retain Kalaignar's arithmetic conceit, political and domestic accounting satire, operation-by-operation guest-poet structure, wordplay and closing Tirukkural parody"
 ---

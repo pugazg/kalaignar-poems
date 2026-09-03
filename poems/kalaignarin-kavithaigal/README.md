@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item scans; Batch 06 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–06 reviewed PASS; 20/77 items; 196/439 item scans; Batch 07 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -88,9 +88,9 @@ No page record, canonical item or English translation was changed during Gate 6.
 **IN PROGRESS — Batches 01–05 reviewed PASS.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **5**;
-- reviewed items: **10/77**;
-- reviewed item-assigned scans: **153/439**;
+- reviewed batches: **6**;
+- reviewed items: **20/77**;
+- reviewed item-assigned scans: **196/439**;
 - Batch 04: items 6–10 across scans **72–127**, **56/56 PASS**;
 - title decisions in Batch 04: **4 exact / 1 authorised variant**;
 - unresolved reviewed translation issues: **0**;
@@ -98,4 +98,4 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Next activity
 
-**Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**. Translate all three complete final-cleared items across scans **128–154** and review the batch before advancing.
+**Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Preserve the 230–244 physical interposition exactly and review all five complete final-cleared items before advancing.

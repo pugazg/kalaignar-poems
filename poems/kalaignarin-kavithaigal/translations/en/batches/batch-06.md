@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEWED — PASS, pending final mechanical/status certification.**
+**REVIEWED — PASS.**
 
 Batch 06 follows the standing user instruction to process **five complete poems per iteration** and covers canonical items **16–20**.
 
@@ -141,3 +141,12 @@ Under the standing five-poem cadence, **Batch 07 = items 21–25**:
 5. `வையம் தழைக்க` — scans **245–253**.
 
 Batch-07 item-owned scan total: **36/36**. Preserve the source's intentional physical interposition exactly: **230–236 → 237 → 238 → 239–244**; do not reorder source provenance.
+
+## Certification result
+
+- exact scan-marker sequences: **43/43 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **5 exact / 0 variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.

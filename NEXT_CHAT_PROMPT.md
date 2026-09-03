@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item scans; Batch 06 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–06 reviewed PASS; 20/77 items; 196/439 item scans; Batch 07 NEXT**.
 
 ## Gate 4 durable output
 
@@ -124,6 +124,17 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - unresolved translation issues **0**;
 - Tamil page/canonical changes **0**.
 
+## Phase 4 Batch 06 durable result
+
+- standing cadence: **five poems per iteration**;
+- Batches 01–06 **reviewed PASS**;
+- reviewed items **20/77**;
+- reviewed item scans **196/439**;
+- Batch 06 items 16–20, scans **175–217 = 43/43**;
+- title witnesses **5 exact / 0 variants / 0 unresolved**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)**, scans **175–217**. Process all five complete poems in this iteration, review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`. Continue future iterations in groups of five poems.
+Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Process all five complete poems in this iteration. Preserve item 23 scans **230–236, 238** and item 24 scans **237, 239–244** exactly in the source's physical order **230–236 → 237 → 238 → 239–244**. Review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`.

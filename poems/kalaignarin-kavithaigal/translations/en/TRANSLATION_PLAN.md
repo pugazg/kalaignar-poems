@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–05 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–06 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **5**;
-- items: **15/77**;
-- item-assigned source scans: **153/439**;
+- batches: **6**;
+- items: **20/77**;
+- item-assigned source scans: **196/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -80,8 +80,9 @@ Standing user cadence from Batch 05 onward: **process five complete adjacent poe
 | 03 | 4–5 | 55–69 | **reviewed — PASS** |
 | 04 | 6–10 | 72–127 | **reviewed — PASS** |
 | 05 | 11–15 | 128–174 | **reviewed — PASS** |
-| 06 | 16–20 | 175–217 | **NEXT** |
-| later | 21–77 | five complete items per iteration (final remainder excepted) | pending |
+| 06 | 16–20 | 175–217 | **reviewed — PASS** |
+| 07 | 21–25 | 218–253 | **NEXT** |
+| later | 26–77 | five complete items per iteration (final remainder excepted) | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -185,6 +186,10 @@ The reviewed translation preserves:
 - item 15 `பாரதியார்` as **Bharathiyar**, preserved as a distinct adjacent item with its separate Bharati-festival guest-poet sequence;
 - Batch-05 marker coverage **47/47**, title decisions **4 exact + 1 authorised variant**, unresolved translation issues **0**, Tamil `pages/`/`sections/` changes **0**.
 
+## Batch 06 decision record
+
+Batch 06 reviewed complete items **16–20** across scans **175–217 = 43/43**. All five title witnesses are exact. The reviewed translations preserve Pongal agrarian/political wordplay; the life-road education/office/wealth/art/fame/devotion structure; arithmetic operation satire; Nehru floral elegy, secular-democratic and rights sequence; and the improvised `நன்றி` stage poem. Tamil `pages/`/`sections/` changes remain **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)** from the Tamil final-cleared canonical layer. Translate all five complete items across scans **175–217**, review them together, update the English source map, and leave Tamil final-cleared files unchanged.
+Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Preserve item 23 scans **230–236, 238** and item 24 scans **237, 239–244** without source reordering; the physical sequence **230–236 → 237 → 238 → 239–244** is intentional.

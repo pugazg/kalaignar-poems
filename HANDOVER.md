@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 05
+## Durable state after Phase 4 Batch 06
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item-assigned scans; Batch 06 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–06 reviewed PASS; 20/77 items; 196/439 item-assigned scans; Batch 07 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -202,6 +202,27 @@ Batch review: `translations/en/batches/batch-04.md`.
 
 Batch review: `translations/en/batches/batch-05.md`.
 
+## Phase 4 durable result — Batch 06
+
+- standing user cadence: **five poems per iteration**;
+- reviewed batches: **6**;
+- reviewed English items: **20/77**;
+- reviewed item-assigned source scans: **196/439**;
+- Batch 06 items: **16–20**;
+- Batch 06 source scans: **175–217 = 43/43**;
+- item 16 `பொங்கல் திருநாள்` → **Pongal Festival Day**;
+- item 17 `வாழ்வெனும் பாதையில்` → **On the Path Called Life**;
+- item 18 `கணக்கு` → **Arithmetic**;
+- item 19 `நேரு கண்ட ஜனநாயகம்` → **Democracy as Nehru Saw It**;
+- item 20 `நன்றி, நன்றி!` → **Thank You, Thank You!**;
+- marker certification: **43/43 PASS**;
+- title witnesses: **5 exact / 0 variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 06: **0**;
+- Tamil `sections/` changes during Batch 06: **0**.
+
+Batch review: `translations/en/batches/batch-06.md`.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -231,10 +252,10 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-05.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-06.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)**.
+Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**.
 
-Read final-cleared `sections/16.md` through `sections/20.md` completely, translate all five complete items across scans **175–217**, review them together in `translations/en/batches/batch-06.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. Continue thereafter in five-poem iterations.
+Read final-cleared `sections/21.md` through `sections/25.md` completely and translate all five complete items. Preserve physical source order and the non-contiguous ownership exactly: item 23 = **230–236, 238**; item 24 = **237, 239–244**. Review together in `translations/en/batches/batch-07.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged.

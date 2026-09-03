@@ -62,11 +62,11 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 
 ## Phase 4 — translation and release
 
-**IN PROGRESS — Batches 01–05 reviewed PASS.**
+**IN PROGRESS — Batches 01–06 reviewed PASS.**
 
-- reviewed batches: **5**;
-- reviewed English items: **15/77**;
-- reviewed item-assigned source scans: **153/439**;
+- reviewed batches: **6**;
+- reviewed English items: **20/77**;
+- reviewed item-assigned source scans: **196/439**;
 - Batch 01: item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
 - Batch 02: item 2 `தென்னவன் காதை` → **The Tale of the Southerner**; item 3 `இந்திரஜித்` → **Indrajit**;
 - Batch 03: item 4 `இரணியன்` → **Hiranyan**; item 5 `வாளி மன்னன்` → **King Vali**;
@@ -74,8 +74,11 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 - translation scaffold: `poems/kalaignarin-kavithaigal/translations/en/`;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes during Phase 4 so far: **0**;
-- Batch 05 items 11–13: **NEXT**.
+- Batch 05: items 11–15, scans **128–174 = 47/47**, **reviewed PASS**;
+- Batch 06: items 16–20, scans **175–217 = 43/43**, **reviewed PASS**;
+- standing cadence: **five complete poems per iteration**;
+- Batch 07: items 21–25 **NEXT**.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)** from the Tamil final-cleared canonical layer across scans **128–154**. Review all three complete translations before marking the batch PASS; preserve item 12's title witnesses separately and do not alter Tamil final-cleared files.
+Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Preserve item 23 = **230–236, 238** and item 24 = **237, 239–244** exactly; do not reorder the physical interposition. Review all five complete translations before marking the batch PASS and do not alter Tamil final-cleared files.

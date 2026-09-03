@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–05 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–06 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **5**;
-- reviewed English items: **15/77**;
-- item-assigned source scans covered by reviewed English: **153/439**;
+- reviewed English batches: **6**;
+- reviewed English items: **20/77**;
+- item-assigned source scans covered by reviewed English: **196/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -38,6 +38,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/13-water-family-en.md` — reviewed English item 13;
 - `items/14-bharathidasan-en.md` — reviewed English item 14;
 - `items/15-bharathiyar-en.md` — reviewed English item 15.
+- `batches/batch-06.md` — reviewed Batch-06 record;
+- `items/16-pongal-festival-day-en.md` — reviewed English item 16;
+- `items/17-on-the-path-called-life-en.md` — reviewed English item 17;
+- `items/18-arithmetic-en.md` — reviewed English item 18;
+- `items/19-democracy-as-nehru-saw-it-en.md` — reviewed English item 19;
+- `items/20-thank-you-thank-you-en.md` — reviewed English item 20.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -124,6 +130,22 @@ Standing five-poem iteration covering items **11–15** across scans **128–174
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 06
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **16–20** across scans **175–217**.
+
+- item 16 `பொங்கல் திருநாள்` → **Pongal Festival Day**, scans **175–184**;
+- item 17 `வாழ்வெனும் பாதையில்` → **On the Path Called Life**, scans **185–196**;
+- item 18 `கணக்கு` → **Arithmetic**, scans **197–204**;
+- item 19 `நேரு கண்ட ஜனநாயகம்` → **Democracy as Nehru Saw It**, scans **205–215**;
+- item 20 `நன்றி, நன்றி!` → **Thank You, Thank You!**, scans **216–217**;
+- reviewed scans: **43/43**;
+- title witnesses: **5 exact / 0 variants**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)**, scans **175–217**, reviewing all five complete items before advancing.
+Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Item-owned scans total **36/36** across physical interval **218–253**. Preserve the intentional source interposition **230–236 → 237 → 238 → 239–244** exactly.

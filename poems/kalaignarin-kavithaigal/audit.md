@@ -208,3 +208,23 @@ Scope: user-authorized expanded English translation/review of final-cleared cano
 ## Phase 4 Batch 05 audit — REVIEWED / PASS
 
 Items **11–15**, scans **128–174**, passed English translation review: **47/47** markers, **4 exact + 1 authorised title variant**, **0 unresolved translation issues**, **0 Tamil page changes**, **0 Tamil canonical changes**. Standing continuation cadence: **five poems per iteration**; Batch 06 = items 16–20.
+
+
+## Phase 4 Batch 06 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical items **16–20**.
+
+- items after Batch 06: **20/77**;
+- Batch-06 item-owned scans: **43/43 — scans 175–217**;
+- cumulative reviewed item-owned scans: **196/439**;
+- title witnesses: **5 exact / 0 variants / 0 unresolved**;
+- exact English scan-marker sequences: **43/43 PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-06.md`.
+
+### Exact next Phase-4 activity
+
+**Batch 07 — items 21–25**. Preserve the intentional physical interposition exactly: item 23 = **230–236, 238** and item 24 = **237, 239–244**.
