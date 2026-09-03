@@ -156,8 +156,15 @@ Title-witness expectation: **2 exact / 3 authorised variants / 0 unresolved**.
 - item 44 draft blob: `af3589b9a522f004333b481e3b4cafd91f71a8ff`;
 - item 45 draft blob: `9c69b266acc5153f167151e6caaa61645b4e53ca`.
 
-Final reviewed blob SHAs will be appended after mechanical certification.
+## Final reviewed item blob witnesses
 
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 41 final blob: `033797a3f95fb89acd6b96240e73c42622980204`;
+- item 42 final blob: `52c5c9174688b58db3ec74424872b9544f8caeed`;
+- item 43 final blob: `5fc2ec35d5af736a6c2085263de9aa9d43fabfa5`;
+- item 44 final blob: `15c9a9b41a2ab87e2984dc2e5653999b66271d19`;
+- item 45 final blob: `8deb65d77951121b86887bce2636a40da1b952eb`.
 
 ## Certification result
 
