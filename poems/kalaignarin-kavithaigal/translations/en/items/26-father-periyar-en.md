@@ -8,7 +8,7 @@ language: "en"
 source_scans: "254–260"
 printed_pages: "237–243"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/26.md"
 voice_policy: "retain Kalaignar's memorial oratory on Periyar, rationalist/self-respect polemic, Vaikom and anti-Hindi history, personal apprenticeship memories, name/ritual wordplay and closing monument imagery"
 ---

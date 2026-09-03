@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–07 reviewed PASS; 25/77 items; 232/439 item scans; Batch 08 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item scans; Batch 09 NEXT**.
 
 ## Gate 4 durable output
 
@@ -148,6 +148,17 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - unresolved translation issues **0**;
 - Tamil page/canonical changes **0**.
 
+## Phase 4 Batch 08 durable result
+
+- standing cadence: **five poems per iteration**;
+- Batches 01–08 **reviewed PASS**;
+- reviewed items **30/77**;
+- reviewed item scans **271/439**;
+- Batch 08 items 26–30, scans **254–292 = 39/39**;
+- title witnesses **5 exact / 0 variants / 0 unresolved**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**. Process all five complete poems in this iteration, review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`.
+Execute **Phase 4 Batch 09 — items 31–35 (`நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`, `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, `மாறி வரும் ஊரினிலே`, `சமுதாயப் பார்வைகள்...!`, `கலைவாணர் அரங்கக் கவியரங்கம்`)**, scans **293–332 = 40/40**. Process all five complete poems in this iteration. Preserve the authorised contents/canonical title variants for items 31–33 separately; items 34–35 are exact. Review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`.

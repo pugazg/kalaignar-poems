@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 07
+## Durable state after Phase 4 Batch 08
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–07 reviewed PASS; 25/77 items; 232/439 item-assigned scans; Batch 08 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item-assigned scans; Batch 09 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -245,6 +245,27 @@ Batch review: `translations/en/batches/batch-06.md`.
 
 Batch review: `translations/en/batches/batch-07.md`.
 
+## Phase 4 durable result — Batch 08
+
+- standing user cadence: **five poems per iteration**;
+- reviewed batches: **8**;
+- reviewed English items: **30/77**;
+- reviewed item-assigned source scans: **271/439**;
+- Batch 08 items: **26–30**;
+- Batch 08 source scans: **254–292 = 39/39**;
+- item 26 `தந்தை பெரியார்` → **Father Periyar**;
+- item 27 `அகத்துறைப் படைப்புகள்` → **Akam Creations**;
+- item 28 `பொங்கல் விழா` → **Pongal Festival**;
+- item 29 `சிலப்பதிகார விருந்து` → **A Silappathikaram Feast**;
+- item 30 `அண்ணா வழியில்` → **On Anna's Path**;
+- marker certification: **39/39 PASS**;
+- title witnesses: **5 exact / 0 variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 08: **0**;
+- Tamil `sections/` changes during Batch 08: **0**.
+
+Batch review: `translations/en/batches/batch-08.md`.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -274,10 +295,10 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-07.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-08.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**.
+Execute **Phase 4 Batch 09 — items 31–35 (`நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`, `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, `மாறி வரும் ஊரினிலே`, `சமுதாயப் பார்வைகள்...!`, `கலைவாணர் அரங்கக் கவியரங்கம்`)**.
 
-Read final-cleared `sections/26.md` through `sections/30.md` completely and translate all five complete items across scans **254–292 = 39/39**. Review together in `translations/en/batches/batch-08.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged.
+Read final-cleared `sections/31.md` through `sections/35.md` completely and translate all five complete items across scans **293–332 = 40/40**. Preserve the authorised title-witness variants for items 31–33 separately from canonical titles. Review together in `translations/en/batches/batch-09.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged.

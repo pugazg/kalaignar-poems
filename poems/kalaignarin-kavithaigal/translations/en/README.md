@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–07 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–08 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **7**;
-- reviewed English items: **25/77**;
-- item-assigned source scans covered by reviewed English: **232/439**;
+- reviewed English batches: **8**;
+- reviewed English items: **30/77**;
+- item-assigned source scans covered by reviewed English: **271/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -50,6 +50,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/23-anna-a-poetry-assembly-en.md` — reviewed English item 23;
 - `items/24-a-walking-journey-for-tamil-to-flourish-en.md` — reviewed English item 24;
 - `items/25-for-the-world-to-flourish-en.md` — reviewed English item 25.
+- `batches/batch-08.md` — reviewed Batch-08 record;
+- `items/26-father-periyar-en.md` — reviewed English item 26;
+- `items/27-akam-creations-en.md` — reviewed English item 27;
+- `items/28-pongal-festival-en.md` — reviewed English item 28;
+- `items/29-a-silappathikaram-feast-en.md` — reviewed English item 29;
+- `items/30-on-annas-path-en.md` — reviewed English item 30.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -168,6 +174,22 @@ Standing five-poem iteration covering items **21–25** with **36/36** item-owne
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 08
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **26–30** across scans **254–292 = 39/39**.
+
+- item 26 `தந்தை பெரியார்` → **Father Periyar**, scans **254–260**;
+- item 27 `அகத்துறைப் படைப்புகள்` → **Akam Creations**, scans **261–266**;
+- item 28 `பொங்கல் விழா` → **Pongal Festival**, scans **267–272**;
+- item 29 `சிலப்பதிகார விருந்து` → **A Silappathikaram Feast**, scans **273–285**;
+- item 30 `அண்ணா வழியில்` → **On Anna's Path**, scans **286–292**;
+- reviewed scans: **39/39**;
+- title witnesses: **5 exact / 0 variants**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**.
+Execute **Phase 4 Batch 09 — items 31–35 (`நடந்திடுவேன் நமது அய்யா, அண்ணா வழியில்!`, `முப்பெரும் விழாக் கவியரங்கம் தலைமைக் கவிதை`, `மாறி வரும் ஊரினிலே`, `சமுதாயப் பார்வைகள்...!`, `கலைவாணர் அரங்கக் கவியரங்கம்`)**, scans **293–332 = 40/40**. Preserve the three authorised title-witness variants for items 31–33 separately; items 34–35 are exact.

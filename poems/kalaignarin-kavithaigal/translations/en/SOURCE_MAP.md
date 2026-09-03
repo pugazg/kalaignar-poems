@@ -59,6 +59,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 23 | `அண்ணன் ஒரு கவியரங்கம்` | `அண்ணன் ஒரு கவியரங்கம்` | **Anna, a Poetry Assembly** | 230–236, 238 | 213–219, 221 | `items/23-anna-a-poetry-assembly-en.md` | **batch-reviewed — PASS** |
 | 24 | `தமிழ் வளர வழிநடைப் பயணம்` | `தமிழ் வளர வழிநடைப் பயணம்` | **A Walking Journey for Tamil to Flourish** | 237, 239–244 | 220, 222–227 | `items/24-a-walking-journey-for-tamil-to-flourish-en.md` | **batch-reviewed — PASS** |
 | 25 | `வையம் தழைக்க` | `வையம் தழைக்க` | **For the World to Flourish** | 245–253 | 228–236 | `items/25-for-the-world-to-flourish-en.md` | **batch-reviewed — PASS** |
+| 26 | `தந்தை பெரியார்` | `தந்தை பெரியார்` | **Father Periyar** | 254–260 | 237–243 | `items/26-father-periyar-en.md` | **batch-reviewed — PASS** |
+| 27 | `அகத்துறைப் படைப்புகள்` | `அகத்துறைப் படைப்புகள்` | **Akam Creations** | 261–266 | 244–249 | `items/27-akam-creations-en.md` | **batch-reviewed — PASS** |
+| 28 | `பொங்கல் விழா` | `பொங்கல் விழா` | **Pongal Festival** | 267–272 | 250–255 | `items/28-pongal-festival-en.md` | **batch-reviewed — PASS** |
+| 29 | `சிலப்பதிகார விருந்து` | `சிலப்பதிகார விருந்து` | **A Silappathikaram Feast** | 273–285 | 256–268 | `items/29-a-silappathikaram-feast-en.md` | **batch-reviewed — PASS** |
+| 30 | `அண்ணா வழியில்` | `அண்ணா வழியில்` | **On Anna's Path** | 286–292 | 269–275 | `items/30-on-annas-path-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -113,9 +118,9 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **7**;
-- reviewed English items: **25/77**;
-- reviewed item-assigned scans: **232/439**;
+- reviewed English batches: **8**;
+- reviewed English items: **30/77**;
+- reviewed item-assigned scans: **271/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
@@ -142,6 +147,17 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - there are no pure anthology structural scans inside the Batch-07 item set;
 - no Tamil page or canonical item was changed by Batch 07.
 
+### Items 26–30 provenance notes
+
+- item 26 owns scans **254–260** (**7/7** represented);
+- item 27 owns scans **261–266** (**6/6** represented);
+- item 28 owns scans **267–272** (**6/6** represented);
+- item 29 owns scans **273–285** (**13/13** represented);
+- item 30 owns scans **286–292** (**7/7** represented);
+- all five canonical titles exactly match their contents witnesses;
+- there are no pure anthology structural scans inside **254–292**;
+- no Tamil page or canonical item was changed by Batch 08.
+
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 26–30** after Phase-4 Batch 08 passes. Batch-08 source interval: **254–292 = 39/39 item-owned scans**.
+Add reviewed mappings for **items 31–35** after Phase-4 Batch 09 passes. The source interval is **293–332 = 40/40**; preserve item-31, item-32 and item-33 contents-title variants separately from their canonical titles.

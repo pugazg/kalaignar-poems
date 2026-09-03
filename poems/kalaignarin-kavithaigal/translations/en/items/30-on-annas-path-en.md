@@ -8,7 +8,7 @@ language: "en"
 source_scans: "286–292"
 printed_pages: "269–275"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/30.md"
 voice_policy: "retain Kalaignar's direct address to Tamil and Anna, language-reform wordplay, rationalist literary criticism, movement/socialist rhetoric, personal Anna memories, Saturn-transit political pun and closing lamp/prayer refrain"
 ---

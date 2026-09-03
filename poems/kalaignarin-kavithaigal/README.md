@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–07 reviewed PASS; 25/77 items; 232/439 item scans; Batch 08 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item scans; Batch 09 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -85,12 +85,12 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Phase 4 — English translation
 
-**IN PROGRESS — Batches 01–07 reviewed PASS.**
+**IN PROGRESS — Batches 01–08 reviewed PASS.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **7**;
-- reviewed items: **25/77**;
-- reviewed item-assigned scans: **232/439**;
+- reviewed batches: **8**;
+- reviewed items: **30/77**;
+- reviewed item-assigned scans: **271/439**;
 - Batch 04: items 6–10 across scans **72–127**, **56/56 PASS**;
 - title decisions in Batch 04: **4 exact / 1 authorised variant**;
 - unresolved reviewed translation issues: **0**;
@@ -98,4 +98,4 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Next activity
 
-**Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**. Review all five complete final-cleared items before advancing.
+**Phase 4 Batch 09 — items 31–35**, scans **293–332 = 40/40**. Preserve the title-witness variants for items 31–33 and review all five complete final-cleared items before advancing.

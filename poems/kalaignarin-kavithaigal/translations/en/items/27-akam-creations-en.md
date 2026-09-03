@@ -8,7 +8,7 @@ language: "en"
 source_scans: "261–266"
 printed_pages: "244–249"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/27.md"
 voice_policy: "retain Kalaignar's student/Tamil activism memories, akam-puram literary exposition, Tolkappiyam and Anna references, love-duty satire, speaker architecture and படைப்பு/பதைப்பு family-planning wordplay"
 ---

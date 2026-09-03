@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEWED — PASS, pending final mechanical/status certification.**
+**REVIEWED — PASS.**
 
 Batch 08 follows the standing instruction to process **five complete poems per iteration** and covers canonical items **26–30**.
 
@@ -165,3 +165,12 @@ Title-witness expectation from the final-cleared canonical headers: **2 exact / 
 - item 30 draft blob: `4b4996a46be3e3b54584298007568f00536e7b71`.
 
 Final reviewed blob SHAs will be appended after mechanical certification.
+
+## Certification result
+
+- exact scan-marker sequences: **39/39 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **5 exact / 0 variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.

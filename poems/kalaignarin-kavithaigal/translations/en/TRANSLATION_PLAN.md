@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–07 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–08 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **7**;
-- items: **25/77**;
-- item-assigned source scans: **232/439**;
+- batches: **8**;
+- items: **30/77**;
+- item-assigned source scans: **271/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -82,8 +82,9 @@ Standing user cadence from Batch 05 onward: **process five complete adjacent poe
 | 05 | 11–15 | 128–174 | **reviewed — PASS** |
 | 06 | 16–20 | 175–217 | **reviewed — PASS** |
 | 07 | 21–25 | 218–253 | **reviewed — PASS** |
-| 08 | 26–30 | 254–292 | **NEXT** |
-| later | 31–77 | five complete items per iteration (final remainder excepted) | pending |
+| 08 | 26–30 | 254–292 | **reviewed — PASS** |
+| 09 | 31–35 | 293–332 | **NEXT** |
+| later | 36–77 | five complete items per iteration (final remainder excepted) | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -195,6 +196,10 @@ Batch 06 reviewed complete items **16–20** across scans **175–217 = 43/43**.
 
 Batch 07 reviewed complete items **21–25** across **36/36 item-owned scans**. All five title witnesses are exact. The reviewed translations preserve the Silver-Jubilee freedom-fighter sequence; Anna-presence elegy; Anna-as-*kaviyarangam* conceit and movement/state-rights rhetoric; the eight-path Pari-festival journey; and the six-theme `-ஆல்` New-Year structure. The intentional item-23/item-24 physical interposition **230–236 → 237 → 238 → 239–244** is preserved exactly. Tamil `pages/`/`sections/` changes remain **0**.
 
+## Batch 08 decision record
+
+Batch 08 reviewed complete items **26–30** across scans **254–292 = 39/39**. All five title witnesses are exact. The reviewed translations preserve Periyar memorial/self-respect and personal-apprenticeship rhetoric; the classical `அகம் / புறம்` and `படைப்பு / பதைப்பு` architecture; the Pongal dream built from classical anthology titles; the Poompuhar / *Silappathikaram* eight-*meyppādu* feast; and Anna's language-reform, rationalist, movement-memory and lamp imagery. Tamil `pages/`/`sections/` changes remain **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**.
+Execute **Phase 4 Batch 09 — items 31–35**, scans **293–332 = 40/40**. Items 31–33 carry authorised contents/canonical title variants and must preserve both witnesses separately; items 34–35 are exact.

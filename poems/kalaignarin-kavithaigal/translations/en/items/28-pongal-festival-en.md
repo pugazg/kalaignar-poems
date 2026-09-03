@@ -8,7 +8,7 @@ language: "en"
 source_scans: "267–272"
 printed_pages: "250–255"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/28.md"
 voice_policy: "retain Kalaignar's Pongal/Tamil-cultural oratory, classical anthology-title dream wordplay, rationalist cleansing metaphor, Periyar/Anna framing and source political-literary rhetoric"
 ---

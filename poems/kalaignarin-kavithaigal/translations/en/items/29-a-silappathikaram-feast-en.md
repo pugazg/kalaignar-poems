@@ -8,7 +8,7 @@ language: "en"
 source_scans: "273–285"
 printed_pages: "256–268"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/29.md"
 voice_policy: "retain Kalaignar's Poompuhar reconstruction, Kaveri wordplay, Silappathikaram/Tolkappiyam quotations, eight meyppadu emotional modes, political-literary satire, eight guest-poet hand-offs and concluding Anna-path appeal"
 ---

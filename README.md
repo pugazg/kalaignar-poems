@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–07 reviewed PASS; 25/77 items; 232/439 item scans; Batch 08 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item scans; Batch 09 NEXT**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -48,7 +48,7 @@ Gate 6 formally confirms Gates 1–5 are all PASS and records the Tamil source/c
 
 ## Phase 4 translation progress
 
-Batches 01–07 now cover items **1–25**. The reviewed English layer covers **25/77 items** and **232/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Batch 04 is the user-authorized expanded items 6–10 batch across scans **72–127**; structural scans **70–71** remain outside poem translations. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
+Batches 01–08 now cover items **1–30**. The reviewed English layer covers **30/77 items** and **271/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Batch 04 is the user-authorized expanded items 6–10 batch across scans **72–127**; structural scans **70–71** remain outside poem translations. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
 
 ## Supplied lexical controls
 
@@ -56,4 +56,4 @@ A user-designated word-for-word transcription may control lexical words only aft
 
 ## Next activity
 
-**Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**. Translate/review all five complete poems and leave Tamil archival files unchanged.
+**Phase 4 Batch 09 — items 31–35**, scans **293–332 = 40/40**. Preserve the three authorised title-witness variants for items 31–33 separately, translate/review all five complete poems, and leave Tamil archival files unchanged.

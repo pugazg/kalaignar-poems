@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–07 reviewed PASS; 25/77 items; 232/439 item scans; Batch 08 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–08 reviewed PASS; 30/77 items; 271/439 item scans; Batch 09 NEXT**.
 
 ## Structural rules retained
 
@@ -68,7 +68,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Next phase gate
 
-**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–07 are reviewed PASS; Batch 08 items 26–30 are next.
+**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–08 are reviewed PASS; Batch 09 items 31–35 are next.
 
 ## Tamil final clearance
 
@@ -76,12 +76,13 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Phase 4 translation state
 
-- Batches 01–07: **reviewed PASS**;
-- reviewed items: **25/77**;
-- reviewed item scans: **232/439**;
+- Batches 01–08: **reviewed PASS**;
+- reviewed items: **30/77**;
+- reviewed item scans: **271/439**;
 - Batch 04: items **6–10**, scans **72–127 = 56/56**;
 - structural scans **70–71** remain outside poem translations;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes: **0**;
 - Batch 07 interposition certification: **PASS**;
-- exact next: **Batch 08 items 26–30**, scans **254–292 = 39/39**.
+- Batch 08 marker certification: **39/39 PASS**;
+- exact next: **Batch 09 items 31–35**, scans **293–332 = 40/40**, with items 31–33 retaining authorised title variants.
