@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEW PENDING FINAL MECHANICAL CERTIFICATION.**
+**REVIEWED — PASS.**
 
 Batch 05 follows the user's standing instruction to process **five complete poems per iteration** and covers canonical items **11–15**.
 
@@ -32,7 +32,7 @@ There are no pure anthology structural scans inside the Batch-05 source interval
 
 Batch-owned source scans: **47/47 — scans 128–174**.
 
-Target cumulative frontier after certification: **15/77 items; 153/439 item-assigned scans**.
+Cumulative reviewed frontier after this batch: **15/77 items; 153/439 item-assigned scans**.
 
 ## Title-witness review
 
@@ -42,7 +42,7 @@ Target cumulative frontier after certification: **15/77 items; 153/439 item-assi
 - item 14: exact — `பாரதிதாசன்`;
 - item 15: exact — `பாரதியார்`.
 
-Target result: **4 exact / 1 authorised variant / 0 unresolved**.
+Result: **4 exact / 1 authorised variant / 0 unresolved**.
 
 ## Translation review
 
@@ -104,7 +104,7 @@ Preserved:
 - Avvai joke and literary/political stage rhetoric;
 - concluding Bharati → Bharathidasan lineage statement.
 
-## Mechanical certification required before PASS
+## Mechanical certification — PASS
 
 The finalizer must verify exact marker sequences:
 
@@ -134,3 +134,13 @@ Under the user's standing five-poem cadence, **Batch 06 = items 16–20**:
 5. `நன்றி, நன்றி!` — scans 216–217.
 
 Batch-06 source interval: **175–217 = 43 item-owned scans**.
+
+
+## Certification result
+
+- exact scan-marker sequences: **47/47 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **4 exact / 1 authorised variant / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.

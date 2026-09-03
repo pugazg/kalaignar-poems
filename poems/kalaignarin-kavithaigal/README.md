@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item scans; Batch 06 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -85,12 +85,12 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Phase 4 — English translation
 
-**IN PROGRESS — Batches 01–04 reviewed PASS.**
+**IN PROGRESS — Batches 01–05 reviewed PASS.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **4**;
+- reviewed batches: **5**;
 - reviewed items: **10/77**;
-- reviewed item-assigned scans: **106/439**;
+- reviewed item-assigned scans: **153/439**;
 - Batch 04: items 6–10 across scans **72–127**, **56/56 PASS**;
 - title decisions in Batch 04: **4 exact / 1 authorised variant**;
 - unresolved reviewed translation issues: **0**;

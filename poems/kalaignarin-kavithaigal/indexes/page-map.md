@@ -72,7 +72,7 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**;
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item scans; Batch 06 NEXT**;
 
 ## Phase 3 Gate 6 — Tamil final clearance COMPLETE / PASS
 

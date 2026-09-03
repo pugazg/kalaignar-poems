@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item-assigned scans; Batch 05 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item-assigned scans; Batch 06 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -164,9 +164,9 @@ Batch 03 preserves the Hiranyan/Prahlada counter-myth, source-form Tamil wordpla
 ## Phase 4 durable result — Batch 04
 
 - user-authorized expanded batch: **items 6–10**;
-- reviewed batches: **4**;
-- reviewed English items: **10/77**;
-- reviewed item-assigned source scans: **106/439**;
+- reviewed batches: **5**;
+- reviewed English items: **15/77**;
+- reviewed item-assigned source scans: **153/439**;
 - Batch 04 source scans: **72–127 = 56/56**;
 - structural anthology scans **70–71** remain outside poem translations;
 - item 6 `விடுதலை வீரர்கள்` → **Freedom Fighters**;
@@ -180,6 +180,27 @@ Batch 03 preserves the Hiranyan/Prahlada counter-myth, source-form Tamil wordpla
 - Tamil `sections/` changes during Batch 04: **0**.
 
 Batch review: `translations/en/batches/batch-04.md`.
+
+## Phase 4 durable result — Batch 05
+
+- standing user cadence: **five poems per iteration**;
+- reviewed batches: **5**;
+- reviewed English items: **15/77**;
+- reviewed item-assigned source scans: **153/439**;
+- Batch 05 items: **11–15**;
+- Batch 05 source scans: **128–174 = 47/47**;
+- item 11 `புதிய பாதை` → **New Path**;
+- item 12 `உடைமைகள் பத்து` → **Ten Possessions**, contents witness `உடன்பிறப்பின் பற்று` preserved separately;
+- item 13 `நீர்க் குடும்பம்` → **The Water Family**;
+- item 14 `பாரதிதாசன்` → **Bharathidasan**;
+- item 15 `பாரதியார்` → **Bharathiyar**;
+- marker certification: **47/47 PASS**;
+- title witnesses: **4 exact / 1 authorised variant / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 05: **0**;
+- Tamil `sections/` changes during Batch 05: **0**.
+
+Batch review: `translations/en/batches/batch-05.md`.
 
 ## Supplied-transcription rule
 
@@ -214,6 +235,6 @@ Before changing anything, read completely:
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**.
+Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)**.
 
-Read final-cleared `sections/11.md` through `sections/13.md` completely, translate all three complete items across scans **128–154**, preserve item 12 contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`, review them together in `translations/en/batches/batch-05.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged.
+Read final-cleared `sections/16.md` through `sections/20.md` completely, translate all five complete items across scans **175–217**, review them together in `translations/en/batches/batch-06.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. Continue thereafter in five-poem iterations.

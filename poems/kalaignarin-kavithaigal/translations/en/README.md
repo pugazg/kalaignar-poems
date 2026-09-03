@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–05 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **4**;
-- reviewed English items: **10/77**;
-- item-assigned source scans covered by reviewed English: **106/439**;
+- reviewed English batches: **5**;
+- reviewed English items: **15/77**;
+- item-assigned source scans covered by reviewed English: **153/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -32,6 +32,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/08-the-pilavanga-year-en.md` — reviewed English item 8;
 - `items/09-love-or-valour-en.md` — reviewed English item 9;
 - `items/10-six-in-the-noble-scripture-en.md` — reviewed English item 10.
+- `batches/batch-05.md` — reviewed Batch-05 record;
+- `items/11-new-path-en.md` — reviewed English item 11;
+- `items/12-ten-possessions-en.md` — reviewed English item 12;
+- `items/13-water-family-en.md` — reviewed English item 13;
+- `items/14-bharathidasan-en.md` — reviewed English item 14;
+- `items/15-bharathiyar-en.md` — reviewed English item 15.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -102,6 +108,22 @@ User-authorized expanded batch covering complete items **6–10** across scans *
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 05
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **11–15** across scans **128–174**.
+
+- item 11 `புதிய பாதை` → **New Path**, scans **128–137**;
+- item 12 `உடைமைகள் பத்து` → **Ten Possessions**, scans **138–143**, with contents witness `உடன்பிறப்பின் பற்று` preserved separately;
+- item 13 `நீர்க் குடும்பம்` → **The Water Family**, scans **144–154**;
+- item 14 `பாரதிதாசன்` → **Bharathidasan**, scans **155–169**;
+- item 15 `பாரதியார்` → **Bharathiyar**, scans **170–174**;
+- reviewed scans: **47/47**;
+- title witnesses: **4 exact / 1 authorised variant**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**, reviewing all three complete items before advancing.
+Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)**, scans **175–217**, reviewing all five complete items before advancing.

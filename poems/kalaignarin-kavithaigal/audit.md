@@ -203,3 +203,8 @@ Scope: user-authorized expanded English translation/review of final-cleared cano
 ### Exact next Phase-4 activity
 
 **Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**.
+
+
+## Phase 4 Batch 05 audit — REVIEWED / PASS
+
+Items **11–15**, scans **128–174**, passed English translation review: **47/47** markers, **4 exact + 1 authorised title variant**, **0 unresolved translation issues**, **0 Tamil page changes**, **0 Tamil canonical changes**. Standing continuation cadence: **five poems per iteration**; Batch 06 = items 16–20.

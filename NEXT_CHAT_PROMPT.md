@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item scans; Batch 06 NEXT**.
 
 ## Gate 4 durable output
 
@@ -84,9 +84,9 @@ Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 ## Phase 4 Batches 01–04 durable result
 
 - translation scaffold: `translations/en/`;
-- reviewed batches: **4**;
-- reviewed English items: **10/77**;
-- reviewed item scans: **106/439**;
+- reviewed batches: **5**;
+- reviewed English items: **15/77**;
+- reviewed item scans: **153/439**;
 - Batch 04 is the user-authorized expanded items **6–10** batch, scans **72–127 = 56/56**;
 - item 6 `விடுதலை வீரர்கள்` → **Freedom Fighters**;
 - item 7 `ஐம்புலன்` → **The Five Senses**;
@@ -112,12 +112,18 @@ Gate 3: the dedicated section-divider or item title/opening witness controls can
 
 Do not position supplied Markdown by embedded page numbers. Match substantive body anchors to the exact source. Supplied text controls lexical words only inside its confirmed interval; the source controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
 
+
+## Phase 4 Batch 05 durable result
+
+- standing cadence: **five poems per iteration**;
+- Batches 01–05 **reviewed PASS**;
+- reviewed items **15/77**;
+- reviewed item scans **153/439**;
+- Batch 05 items 11–15, scans **128–174 = 47/47**;
+- title witnesses **4 exact / 1 authorised variant / 0 unresolved**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**.
-
-1. Read final-cleared `sections/11.md`, `sections/12.md`, `sections/13.md` completely.
-2. Translate all three complete items across scans **128–154**.
-3. Preserve item 12 contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`.
-4. Review the full 27-scan batch and update English item files, `batches/batch-05.md` and `SOURCE_MAP.md`.
-5. Do **not** alter Tamil final-cleared `pages/` or `sections/`.
+Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)**, scans **175–217**. Process all five complete poems in this iteration, review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`. Continue future iterations in groups of five poems.

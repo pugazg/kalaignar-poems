@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–05 reviewed PASS; 15/77 items; 153/439 item scans; Batch 06 NEXT**.
 
 ## Structural rules retained
 
@@ -78,7 +78,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 - Batches 01–04: **reviewed PASS**;
 - reviewed items: **10/77**;
-- reviewed item scans: **106/439**;
+- reviewed item scans: **153/439**;
 - Batch 04: items **6–10**, scans **72–127 = 56/56**;
 - structural scans **70–71** remain outside poem translations;
 - unresolved reviewed translation issues: **0**;

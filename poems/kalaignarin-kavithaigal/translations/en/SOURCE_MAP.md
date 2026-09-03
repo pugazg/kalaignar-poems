@@ -44,6 +44,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 8 | `பிலவங்க ஆண்டு` | `பிலவங்க ஆண்டு` | **The Pilavanga Year** | 90–100 | 73–83 | `items/08-the-pilavanga-year-en.md` | **batch-reviewed — PASS** |
 | 9 | `காதலா - வீரமா?` | `காதலா! - வீரமா?` | **Love or Valour?** | 101–115 | 84–98 | `items/09-love-or-valour-en.md` | **batch-reviewed — PASS** |
 | 10 | `அருமறையில் அறுவர்` | `அருமறையில் அறுவர்` | **Six in the Noble Scripture** | 116–127 | 99–110 | `items/10-six-in-the-noble-scripture-en.md` | **batch-reviewed — PASS** |
+| 11 | `புதிய பாதை` | `புதிய பாதை` | **New Path** | 128–137 | 111–120 | `items/11-new-path-en.md` | **batch-reviewed — PASS** |
+| 12 | `உடைமைகள் பத்து` | `உடன்பிறப்பின் பற்று` | **Ten Possessions** | 138–143 | 121–126 | `items/12-ten-possessions-en.md` | **batch-reviewed — PASS** |
+| 13 | `நீர்க் குடும்பம்` | `நீர்க் குடும்பம்` | **The Water Family** | 144–154 | 127–137 | `items/13-water-family-en.md` | **batch-reviewed — PASS** |
+| 14 | `பாரதிதாசன்` | `பாரதிதாசன்` | **Bharathidasan** | 155–169 | 138–152 | `items/14-bharathidasan-en.md` | **batch-reviewed — PASS** |
+| 15 | `பாரதியார்` | `பாரதியார்` | **Bharathiyar** | 170–174 | 153–157 | `items/15-bharathiyar-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -85,14 +90,25 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - item 9 alone carries an authorised contents-title punctuation variant; items 6, 7, 8 and 10 are exact title witnesses;
 - no Tamil page or canonical item was changed by Batch 04.
 
+### Items 11–15 provenance notes
+
+- item 11 owns scans **128–137** (**10/10** represented);
+- item 12 owns scans **138–143** (**6/6** represented) and preserves contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`;
+- item 13 owns scans **144–154** (**11/11** represented);
+- item 14 owns scans **155–169** (**15/15** represented);
+- item 15 owns scans **170–174** (**5/5** represented);
+- items 11, 13, 14 and 15 have exact title witnesses; item 12 carries one authorised contents-title variant;
+- there are no pure anthology structural scans inside **128–174**;
+- no Tamil page or canonical item was changed by Batch 05.
+
 ## Progress
 
-- reviewed English batches: **4**;
-- reviewed English items: **10/77**;
-- reviewed item-assigned scans: **106/439**;
+- reviewed English batches: **5**;
+- reviewed English items: **15/77**;
+- reviewed item-assigned scans: **153/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)** after Phase-4 Batch 05 passes. Item 12 must preserve contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`.
+Add reviewed mappings for **items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)** after Phase-4 Batch 06 passes. Batch-06 source interval: **175–217**.

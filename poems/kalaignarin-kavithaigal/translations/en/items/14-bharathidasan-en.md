@@ -8,7 +8,7 @@ language: "en"
 source_scans: "155–169"
 printed_pages: "138–152"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/14.md"
 voice_policy: "retain Kalaignar's literary tribute, Bharati/Bharathidasan quotations, satire, poet hand-offs, political and social rhetoric, dream sequence and source-visible structure"
 ---

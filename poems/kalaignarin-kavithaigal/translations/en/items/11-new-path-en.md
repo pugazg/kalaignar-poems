@@ -8,7 +8,7 @@ language: "en"
 source_scans: "128–137"
 printed_pages: "111–120"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/11.md"
 voice_policy: "retain Kalaignar's agricultural-oratorical cadence, river-name wordplay, Tirukkural echoes, policy rhetoric, guest-poet hand-offs and source-visible structure"
 ---

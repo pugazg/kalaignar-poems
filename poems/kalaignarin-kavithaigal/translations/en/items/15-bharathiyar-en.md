@@ -8,7 +8,7 @@ language: "en"
 source_scans: "170–174"
 printed_pages: "153–157"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/15.md"
 voice_policy: "retain Kalaignar's Bharati tribute, guest-poet sequence, literary allusions, social commentary and source-visible structure"
 ---

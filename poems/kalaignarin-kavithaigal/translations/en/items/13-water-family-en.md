@@ -8,7 +8,7 @@ language: "en"
 source_scans: "144–154"
 printed_pages: "127–137"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/13.md"
 voice_policy: "retain Kalaignar's water-family architecture, public-speech humour, Tirukkural echoes, guest-poet hand-offs, puns and source-visible structure"
 ---

@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–05 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **4**;
-- items: **10/77**;
-- item-assigned source scans: **106/439**;
+- batches: **5**;
+- items: **15/77**;
+- item-assigned source scans: **153/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -69,11 +69,7 @@ A translation difficulty is never authority to edit Tamil silently.
 
 Complete-item boundaries are mandatory. A batch must never cut a poem merely to meet a target size.
 
-Batch size is adaptive to source length and complexity:
-
-- long/complex items may form a one-item batch;
-- routine work may combine two or three complete adjacent items;
-- source-order interposition remains authoritative and must be represented rather than reordered.
+Standing user cadence from Batch 05 onward: **process five complete adjacent poems/items per iteration**. Complete-item boundaries remain mandatory, source order remains authoritative, and the final remainder batch may contain fewer than five items only when fewer than five remain. A poem is never split merely to satisfy a scan target.
 
 ### Current batch inventory
 
@@ -83,8 +79,9 @@ Batch size is adaptive to source length and complexity:
 | 02 | 2–3 | 34–54 | **reviewed — PASS** |
 | 03 | 4–5 | 55–69 | **reviewed — PASS** |
 | 04 | 6–10 | 72–127 | **reviewed — PASS** |
-| 05 | 11–13 | 128–154 | **NEXT** |
-| later | 14–77 | adaptive complete-item batches | pending |
+| 05 | 11–15 | 128–174 | **reviewed — PASS** |
+| 06 | 16–20 | 175–217 | **NEXT** |
+| later | 21–77 | five complete items per iteration (final remainder excepted) | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -175,6 +172,19 @@ The reviewed translation preserves:
 - item 10 `அருமறையில் அறுவர்` as **Six in the Noble Scripture**, with the six Tirukkural human types, ministerial synthesis and all guest-poet transitions;
 - Batch-04 marker coverage **56/56**, title decisions **4 exact + 1 authorised variant**, unresolved translation issues **0**, Tamil `pages/`/`sections/` changes **0**.
 
+## Batch 05 decision record
+
+At the user's explicit direction, the standing Phase-4 cadence is now **five poems per iteration**. Batch 05 therefore expanded from the earlier plan of items 11–13 to **items 11–15**, covering scans **128–174**.
+
+The reviewed translation preserves:
+
+- item 11 `புதிய பாதை` as **New Path**, including river-name/agricultural wordplay, scientific-farming rhetoric, crop-variety hand-offs and policy conclusion;
+- item 12 `உடைமைகள் பத்து` as **Ten Possessions**, while keeping contents witness `உடன்பிறப்பின் பற்று` separate, with Tirukkural virtues, fire-setting grief, language-rights rhetoric and `வள் / வாள் / வாள்வாள்` wordplay documented;
+- item 13 `நீர்க் குடும்பம்` as **The Water Family**, retaining the sea → rain → river → well → pond → tears → sweat architecture and every guest-poet hand-off;
+- item 14 `பாரதிதாசன்` as **Bharathidasan**, retaining embedded Bharati/Bharathidasan quotations, social and literary polemic, dream-stage humour, family-planning passage and poet hand-offs;
+- item 15 `பாரதியார்` as **Bharathiyar**, preserved as a distinct adjacent item with its separate Bharati-festival guest-poet sequence;
+- Batch-05 marker coverage **47/47**, title decisions **4 exact + 1 authorised variant**, unresolved translation issues **0**, Tamil `pages/`/`sections/` changes **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)** from the Tamil final-cleared canonical layer. Translate all three complete items across scans **128–154**, preserve item 12's contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`, review the full 27-scan batch, and leave Tamil final-cleared files unchanged.
+Execute **Phase 4 Batch 06 — items 16–20 (`பொங்கல் திருநாள்`, `வாழ்வெனும் பாதையில்`, `கணக்கு`, `நேரு கண்ட ஜனநாயகம்`, `நன்றி, நன்றி!`)** from the Tamil final-cleared canonical layer. Translate all five complete items across scans **175–217**, review them together, update the English source map, and leave Tamil final-cleared files unchanged.

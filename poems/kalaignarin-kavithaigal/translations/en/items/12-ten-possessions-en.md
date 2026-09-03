@@ -8,7 +8,7 @@ language: "en"
 source_scans: "138–143"
 printed_pages: "121–126"
 title_witness_status: "authorised-variant"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/12.md"
 voice_policy: "retain Kalaignar's grief, political anger, Tirukkural framing, lexical wordplay, language-rights rhetoric and source-visible structure"
 ---
