@@ -58,7 +58,6 @@ Under the normal five-poem cadence, **Batch 16 = items 66–70**:
 
 Batch-16 item-owned scan total: **13/13** across physical span **433–445**. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.
 
-
 ## Certification result
 
 - exact scan-marker sequences: **13/13 PASS**;
@@ -67,3 +66,13 @@ Batch-16 item-owned scan total: **13/13** across physical span **433–445**. Ex
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
+
+## Final reviewed item blob witnesses
+
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 61 final blob: `f1b63d76626339d622f7103dc97084a7938cbba1`;
+- item 62 final blob: `21da359835bb1340a844eee6e331500e97d7bb5c`;
+- item 63 final blob: `eaaf95c2a4d92fba2ba81c188d76200a8e9f121d`;
+- item 64 final blob: `06107e058e6f2269118b6d38646fdfb61fb82357`;
+- item 65 final blob: `3c7117ae0fbc20b00a91aa363602e26f8a2d17da`.

@@ -41,7 +41,6 @@ The batch preserves the 1945 publication notes from verified page records, the G
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
 
-
 ## Certification result
 
 - exact scan-marker sequences: **5/5 PASS**;
@@ -50,3 +49,13 @@ The batch preserves the 1945 publication notes from verified page records, the G
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
+
+## Final reviewed item blob witnesses
+
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 51 final blob: `549edad7f5a27fe632291ce737fbd7e63cce962c`;
+- item 52 final blob: `c6062e6baeffedbddc94c48aa2885c03894e3753`;
+- item 53 final blob: `3cd7460adb4df1078e08dc0d7fd0e45a5c6978da`;
+- item 54 final blob: `8a2ff6889da2708eed3db2f152d91e3449ced674`;
+- item 55 final blob: `61e5fd2d86326009788869c1daf3994af00efc16`.

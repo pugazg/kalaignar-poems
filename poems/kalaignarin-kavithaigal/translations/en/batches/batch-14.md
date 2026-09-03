@@ -43,7 +43,6 @@ The batch preserves the parrot/prison political allegory; the 1971 Orlando fount
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
 
-
 ## Certification result
 
 - exact scan-marker sequences: **10/10 PASS**;
@@ -52,3 +51,13 @@ The batch preserves the parrot/prison political allegory; the 1971 Orlando fount
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
+
+## Final reviewed item blob witnesses
+
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 56 final blob: `69bdb278c8e9fcda6604cb6f316bf7c8f6870aaa`;
+- item 57 final blob: `4d6342b9a08dfd83446aa5413876e96ea42712a7`;
+- item 58 final blob: `c1821d669e8b4dd25d9cc39c48511483e2405ace`;
+- item 59 final blob: `6c93a48ea107b3753cc50600f3c86505eb912990`;
+- item 60 final blob: `5aa80dbf25804f9c1850224f8244f37a9b5d4673`.
