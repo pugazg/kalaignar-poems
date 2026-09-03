@@ -72,15 +72,15 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; Phase 4 release complete**;
+- Phase 4 English translation/release: **RELEASE-CLEARED — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; full collection assembly, editorial consistency review and release review PASS**;
 
 ## Phase 3 Gate 6 — Tamil final clearance COMPLETE / PASS
 
 Evidence: `../PHASE3_TAMIL_FINAL_CLEARANCE.md`. All Gates 1–5 remain PASS; unresolved Tamil source/completeness defects are **0**; canonical inventory remains **77/77**; page/canonical changes during clearance are **0**. Tamil source/canonical layer is **FINAL-CLEARED** and Phase 4 is unblocked.
 
-## Phase 4 translation note
+## Phase 4 translation/release note
 
-Phase 4 Batches 01–15 reviewed items **1–65** across **407/439** item-assigned scans. Batches 13–15 certify **28/28** item-owned scan markers across physical span **405–432**. Translation milestones change no scan↔page mapping and no Tamil page/canonical file. Exact next: Batch 16 items **66–70**, scans **433–445 = 13/13**.
+Phase 4 is **COMPLETE / RELEASE-CLEARED**. Reviewed English covers **77/77 items and 439/439 item-owned scans**; the assembled reader-facing collection additionally accounts for all **8/8 structural anthology scans**, yielding **447/447 body scans, 18–464**. Translation/release milestones changed no scan↔page mapping and no Tamil page/canonical file. No Phase-4 gate remains.
 
 ## Phase 4 item-translation completion
 
@@ -93,5 +93,5 @@ Phase 4 Batches 01–15 reviewed items **1–65** across **407/439** item-assign
 - Tamil `pages/` changes during Phase 4: **0**;
 - Tamil `sections/` changes during Phase 4: **0**;
 - item translation/review layer: **COMPLETE / PASS**;
-- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+- release state: **full English collection assembled; editorial consistency review PASS; release report PASS — RELEASE-CLEARED**.
 

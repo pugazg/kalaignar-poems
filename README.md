@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; Phase 4 release complete**.
+- Phase 4 English translation/release: **RELEASE-CLEARED — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; full collection assembly, editorial consistency review and release review PASS**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -46,9 +46,18 @@ Gate 5 independently re-derived the 77-item sequence from the verified page-laye
 
 Gate 6 formally confirms Gates 1–5 are all PASS and records the Tamil source/canonical layer as **FINAL-CLEARED**. Evidence: `poems/kalaignarin-kavithaigal/PHASE3_TAMIL_FINAL_CLEARANCE.md`. No Tamil page/canonical file or English translation was changed by the clearance activity.
 
-## Phase 4 translation progress
+## Phase 4 translation/release result
 
-Batches 01–15 now cover items **1–65**. The reviewed English layer covers **65/77 items** and **407/439 item-assigned source scans** with **0** unresolved reviewed translation issues. The latest user-authorised iteration processed items 51–65 as Batches 13–15. Batch 04 is the user-authorized expanded items 6–10 batch across scans **72–127**; structural scans **70–71** remain outside poem translations. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
+- reviewed batches: **18/18**;
+- reviewed English items: **77/77**;
+- item-owned scans: **439/439**;
+- structural anthology scans in reader-facing assembly: **8/8**;
+- complete body accounting: **447/447 physical scans, 18–464**;
+- full English collection: `poems/kalaignarin-kavithaigal/translations/en/kalaignarin-kavithaigal-en.md`;
+- editorial consistency review: **PASS**;
+- release report: **PASS — RELEASE-CLEARED**;
+- unresolved release issues: **0**;
+- Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
 ## Supplied lexical controls
 
@@ -56,7 +65,7 @@ A user-designated word-for-word transcription may control lexical words only aft
 
 ## Next activity
 
-**Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**; translate/review all five complete poems and leave Tamil archival files unchanged.
+No further Phase-4 translation/release activity remains for `கலைஞரின் கவிதைகள்`. Preserve the release-cleared state unless a source-backed correction or explicitly authorised derivative/publication task is requested.
 
 ## Phase 4 item-translation completion
 
@@ -69,5 +78,5 @@ A user-designated word-for-word transcription may control lexical words only aft
 - Tamil `pages/` changes during Phase 4: **0**;
 - Tamil `sections/` changes during Phase 4: **0**;
 - item translation/review layer: **COMPLETE / PASS**;
-- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+- release state: **full English collection assembled; editorial consistency review PASS; release report PASS — RELEASE-CLEARED**.
 

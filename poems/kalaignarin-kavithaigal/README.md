@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; Phase 4 release complete**.
+- Phase 4 English translation/release: **RELEASE-CLEARED — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; full collection assembly, editorial consistency review and release review PASS**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -83,22 +83,22 @@ The earlier Gate-4 source-backed title corrections at scans **406, 409, 457–46
 
 No page record, canonical item or English translation was changed during Gate 6. Phase 4 is now unblocked.
 
-## Phase 4 — English translation
+## Phase 4 — English translation and release
 
-**IN PROGRESS — Batches 01–18 reviewed PASS.**
+**COMPLETE / PASS — RELEASE-CLEARED.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **18**;
-- reviewed items: **65/77**;
-- reviewed item-assigned scans: **439/439**;
-- Batch 04: items 6–10 across scans **72–127**, **56/56 PASS**;
-- title decisions in Batch 04: **4 exact / 1 authorised variant**;
-- unresolved reviewed translation issues: **0**;
-- Tamil `pages/` / `sections/` changes: **0**.
-
-## Next activity
-
-**Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**; review all five complete final-cleared items before advancing.
+- reviewed batches: **18/18**;
+- reviewed items: **77/77**;
+- item-owned source scans: **439/439**;
+- structural anthology scans represented in the assembled collection: **8/8**;
+- complete anthology body accounting: **447/447 scans, 18–464**;
+- reader-facing collection: `translations/en/kalaignarin-kavithaigal-en.md`;
+- editorial consistency review: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**;
+- release report: `translations/en/RELEASE_REPORT.md` — **PASS / RELEASE-CLEARED**;
+- unresolved release issues: **0**;
+- Tamil `pages/` / `sections/` changes during Phase 4: **0**;
+- next activity: **none within Phase 4**; reopen only for a source-backed correction or explicitly authorised derivative/publication task.
 
 ## Phase 4 item-translation completion
 
@@ -111,5 +111,5 @@ No page record, canonical item or English translation was changed during Gate 6.
 - Tamil `pages/` changes during Phase 4: **0**;
 - Tamil `sections/` changes during Phase 4: **0**;
 - item translation/review layer: **COMPLETE / PASS**;
-- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+- release state: **full English collection assembled; editorial consistency review PASS; release report PASS — RELEASE-CLEARED**.
 

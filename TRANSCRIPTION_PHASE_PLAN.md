@@ -62,46 +62,19 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 
 ## Phase 4 — translation and release
 
-**IN PROGRESS — Batches 01–18 reviewed PASS.**
-
-- reviewed batches: **18**;
-- reviewed English items: **77/77**;
-- reviewed item-assigned source scans: **407/439**;
-- Batch 01: item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
-- Batch 02: item 2 `தென்னவன் காதை` → **The Tale of the Southerner**; item 3 `இந்திரஜித்` → **Indrajit**;
-- Batch 03: item 4 `இரணியன்` → **Hiranyan**; item 5 `வாளி மன்னன்` → **King Vali**;
-- Batch 04: items 6–10 → **Freedom Fighters; The Five Senses; The Pilavanga Year; Love or Valour?; Six in the Noble Scripture**, scans **72–127**;
-- translation scaffold: `poems/kalaignarin-kavithaigal/translations/en/`;
-- unresolved reviewed translation issues: **0**;
-- Tamil page/canonical changes during Phase 4 so far: **0**;
-- Batch 05: items 11–15, scans **128–174 = 47/47**, **reviewed PASS**;
-- Batch 06: items 16–20, scans **175–217 = 43/43**, **reviewed PASS**;
-- standing cadence: **five complete poems per iteration**;
-- Batch 07: items 21–25, **36/36 item-owned scans**, **reviewed PASS**;
-- Batch 08: items 26–30, scans **254–292 = 39/39**, **reviewed PASS**;
-- Batch 09: items 31–35, scans **293–332 = 40/40**, **reviewed PASS**;
-- Batch 10: items 36–40, **44/44 item-owned scans**, structural **372–373** excluded, **reviewed PASS**;
-- Batch 11: items 41–45, **15/15 item-owned scans**, structural **392–393** excluded, **reviewed PASS**;
-- Batch 12: items 46–50, scans **396–404 = 9/9**, **reviewed PASS**;
-- Batch 13: items 51–55, scans **405–409 = 5/5**, **reviewed PASS**;
-- Batch 14: items 56–60, scans **410–419 = 10/10**, **reviewed PASS**;
-- Batch 15: items 61–65, scans **420–432 = 13/13**, **reviewed PASS**;
-- Batch 16: items 66–70, scans **433–445 = 13/13**, **NEXT**.
-
-## EXACT NEXT ACTIVITY
-
-Execute **Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**. Do not alter Tamil final-cleared files.
-
-## Phase 4 item-translation completion
+**COMPLETE / PASS — RELEASE-CLEARED.**
 
 - reviewed batches: **18/18**;
 - reviewed English items: **77/77**;
-- reviewed item-assigned source scans: **439/439**;
-- final sweep Batches 16–18: items **66–77**, scans **433–464 = 32/32**;
-- final-sweep title witnesses: **7 exact / 5 authorised variants / 0 unresolved**;
-- unresolved reviewed translation issues: **0**;
-- Tamil `pages/` changes during Phase 4: **0**;
-- Tamil `sections/` changes during Phase 4: **0**;
-- item translation/review layer: **COMPLETE / PASS**;
-- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+- reviewed item-owned source scans: **439/439**;
+- structural anthology scans represented in the reader-facing assembly: **8/8**;
+- complete anthology body accounting: **447/447 physical scans, 18–464**;
+- reader-facing collection: `poems/kalaignarin-kavithaigal/translations/en/kalaignarin-kavithaigal-en.md`;
+- editorial consistency review: **PASS**;
+- final source-coverage/release review: **PASS**;
+- unresolved release issues: **0**;
+- Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
+## EXACT NEXT ACTIVITY
+
+No further Phase-4 translation/release activity remains for `கலைஞரின் கவிதைகள்`. Preserve this release-cleared state unless a source-backed correction or explicitly authorised derivative/publication task is requested.

@@ -28,7 +28,7 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; Phase 4 release complete**.
+- Phase 4 English translation/release: **RELEASE-CLEARED — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; full collection assembly, editorial consistency review and release review PASS**.
 
 ## Printed-page numbering behaviour
 
@@ -77,36 +77,19 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 **PASS — FINAL-CLEARED.** Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`. Gates 1–5 remain PASS; unresolved Tamil source/completeness defects are **0**; Gate 6 changed **0** page records, **0** canonical items and **0** English translations. Phase 4 is unblocked.
 
-## Phase 4 translation metadata
+## Phase 4 translation/release metadata
 
 - Tamil source/canonical layer remains **FINAL-CLEARED**;
-- reviewed batches: **18**;
+- reviewed batches: **18/18**;
 - reviewed English items: **77/77**;
-- reviewed item-assigned scans: **439/439**;
-- Batch 04 English items: `../translations/en/items/06-freedom-fighters-en.md` through `../translations/en/items/10-six-in-the-noble-scripture-en.md`;
-- Batch 04 review: `../translations/en/batches/batch-04.md`;
-- Batch 04 marker certification: **56/56 PASS**;
-- unresolved reviewed translation issues: **0**;
-- Tamil page/canonical changes caused by translation: **0**;
-- Batch 06 review: `../translations/en/batches/batch-06.md`;
-- Batch 06 marker certification: **43/43 PASS**;
-- Batch 07 review: `../translations/en/batches/batch-07.md`;
-- Batch 07 marker certification: **36/36 PASS**;
-- item-23/item-24 physical interposition: **preserved / PASS**;
-- Batch 08 review: `../translations/en/batches/batch-08.md`;
-- Batch 08 marker certification: **39/39 PASS**;
-- Batch 09 review: `../translations/en/batches/batch-09.md`;
-- Batch 09 marker certification: **40/40 PASS**;
-- Batch 10 review: `../translations/en/batches/batch-10.md`;
-- Batch 10 marker certification: **44/44 PASS**, structural scans **372–373** excluded;
-- Batch 11 review: `../translations/en/batches/batch-11.md`;
-- Batch 11 marker certification: **15/15 PASS**, structural scans **392–393** excluded;
-- Batch 12 review: `../translations/en/batches/batch-12.md`;
-- Batch 12 marker certification: **9/9 PASS**;
-- Batch 13 review: `../translations/en/batches/batch-13.md`; marker certification: **5/5 PASS**;
-- Batch 14 review: `../translations/en/batches/batch-14.md`; marker certification: **10/10 PASS**;
-- Batch 15 review: `../translations/en/batches/batch-15.md`; marker certification: **13/13 PASS**;
-- next translation batch: **items 66–70**, scans **433–445 = 13/13**.
+- item-owned source scans: **439/439**;
+- structural anthology scans represented in assembly: **8/8**;
+- complete body accounting: **447/447 scans, 18–464**;
+- assembled reader-facing collection: `../translations/en/kalaignarin-kavithaigal-en.md`;
+- editorial consistency review: `../translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**;
+- release report: `../translations/en/RELEASE_REPORT.md` — **PASS / RELEASE-CLEARED**;
+- unresolved release issues: **0**;
+- Tamil page/canonical changes caused by Phase 4: **0**.
 
 ## Phase 4 item-translation completion
 
@@ -119,5 +102,5 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Tamil `pages/` changes during Phase 4: **0**;
 - Tamil `sections/` changes during Phase 4: **0**;
 - item translation/review layer: **COMPLETE / PASS**;
-- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+- release state: **full English collection assembled; editorial consistency review PASS; release report PASS — RELEASE-CLEARED**.
 

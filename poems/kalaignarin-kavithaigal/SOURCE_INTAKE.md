@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; Phase 4 release complete**.
+- Phase 4 English translation/release: **RELEASE-CLEARED — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; full collection assembly, editorial consistency review and release review PASS**.
 
 ## Structural rules retained
 
@@ -68,31 +68,24 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Next phase gate
 
-**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–15 are reviewed PASS; Batch 16 items 66–70 are next.
+No Phase-4 gate remains. The English collection is **RELEASE-CLEARED**. Reopen only for a source-backed correction or explicitly authorised derivative/publication task.
 
 ## Tamil final clearance
 
 **PASS — FINAL-CLEARED.** Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`. Gates 1–5 remain PASS; unresolved Tamil source/completeness defects are **0**; Gate 6 changed **0** page records, **0** canonical items and **0** English translations. Phase 4 is unblocked.
 
-## Phase 4 translation state
+## Phase 4 translation/release state
 
-- Batches 01–15: **reviewed PASS**;
-- reviewed items: **65/77**;
-- reviewed item-assigned scans: **439/439**;
-- Batch 04: items **6–10**, scans **72–127 = 56/56**;
-- structural scans **70–71** remain outside poem translations;
-- unresolved reviewed translation issues: **0**;
-- Tamil page/canonical changes: **0**;
-- Batch 07 interposition certification: **PASS**;
-- Batch 08 marker certification: **39/39 PASS**;
-- Batch 09 marker certification: **40/40 PASS**;
-- Batch 10 marker certification: **44/44 PASS**, with structural scans **372–373** excluded;
-- Batch 11 marker certification: **15/15 PASS**, with structural scans **392–393** excluded;
-- Batch 12 marker certification: **9/9 PASS**;
-- Batch 13 marker certification: **5/5 PASS**;
-- Batch 14 marker certification: **10/10 PASS**;
-- Batch 15 marker certification: **13/13 PASS**;
-- exact next: **Batch 16 items 66–70**, scans **433–445 = 13/13**.
+- reviewed batches: **18/18**;
+- reviewed English items: **77/77**;
+- item-owned scans: **439/439**;
+- structural anthology scans in reader-facing assembly: **8/8**;
+- complete body accounting: **447/447 scans, 18–464**;
+- full collection assembly: **PASS**;
+- editorial consistency review: **PASS**;
+- release review: **PASS — RELEASE-CLEARED**;
+- unresolved reviewed/release issues: **0**;
+- Tamil page/canonical changes: **0**.
 
 ## Phase 4 item-translation completion
 
@@ -105,5 +98,5 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Tamil `pages/` changes during Phase 4: **0**;
 - Tamil `sections/` changes during Phase 4: **0**;
 - item translation/review layer: **COMPLETE / PASS**;
-- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+- release state: **full English collection assembled; editorial consistency review PASS; release report PASS — RELEASE-CLEARED**.
 

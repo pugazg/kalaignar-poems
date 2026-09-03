@@ -231,11 +231,6 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - Tamil page/canonical changes **0**;
 - item translation/review layer **COMPLETE / PASS**.
 
-## EXACT NEXT ACTIVITY
-
-Execute **Phase 4 full English collection assembly** from all **77/77 batch-reviewed item translations**. Preserve source order, pure anthology structural divider/verso provenance, canonical/contents title distinctions and item boundaries. After assembly, run the deferred **editorial consistency review** and prepare the **release report**. Leave Tamil `pages/` and `sections/` unchanged unless a genuine source-backed discrepancy is independently demonstrated.
-
-
 ## RELEASE-CLEARED STATE
 
 `கலைஞரின் கவிதைகள்` English Phase 4 is complete: **18/18 batches, 77/77 items, 439/439 item-owned scans**, plus **8/8** anthology structural scans in the assembled reader-facing collection. `EDITORIAL_CONSISTENCY_REVIEW.md` and `RELEASE_REPORT.md` are both **PASS**. Reader-facing SHA-256: `ceb7c0ddd1268ba34d17e416b2d63a4930b465ed18fbe7afdbf03085f22a6551`. No Tamil `pages/` or `sections/` file changed during Phase 4.
