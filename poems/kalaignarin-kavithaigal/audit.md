@@ -390,3 +390,17 @@ Scope: English translation/review of final-cleared canonical items **46–50**.
 ### Exact next Phase-4 activity
 
 Assemble the full English collection from all **77/77 batch-reviewed items**, then conduct the deferred editorial consistency review and prepare the release report.
+
+
+## Phase 4 full English release clearance
+
+- 18/18 translation batches reviewed PASS;
+- 77/77 English items;
+- 439/439 item-owned scans;
+- 8/8 anthology structural scans represented in reader-facing assembly;
+- 447/447 anthology body scans accounted;
+- title witnesses 48 exact / 29 authorised variants / 0 unresolved;
+- editorial consistency review PASS;
+- release review PASS — RELEASE-CLEARED;
+- assembled SHA-256 `ceb7c0ddd1268ba34d17e416b2d63a4930b465ed18fbe7afdbf03085f22a6551`;
+- Tamil pages/sections changed during Phase 4: 0.

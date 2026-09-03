@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item scans; collection assembly NEXT**.
+- Phase 4 English translation/release **RELEASE-CLEARED — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item scans; no Phase-4 release gate remains**.
 
 ## Gate 4 durable output
 
@@ -234,3 +234,12 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 ## EXACT NEXT ACTIVITY
 
 Execute **Phase 4 full English collection assembly** from all **77/77 batch-reviewed item translations**. Preserve source order, pure anthology structural divider/verso provenance, canonical/contents title distinctions and item boundaries. After assembly, run the deferred **editorial consistency review** and prepare the **release report**. Leave Tamil `pages/` and `sections/` unchanged unless a genuine source-backed discrepancy is independently demonstrated.
+
+
+## RELEASE-CLEARED STATE
+
+`கலைஞரின் கவிதைகள்` English Phase 4 is complete: **18/18 batches, 77/77 items, 439/439 item-owned scans**, plus **8/8** anthology structural scans in the assembled reader-facing collection. `EDITORIAL_CONSISTENCY_REVIEW.md` and `RELEASE_REPORT.md` are both **PASS**. Reader-facing SHA-256: `ceb7c0ddd1268ba34d17e416b2d63a4930b465ed18fbe7afdbf03085f22a6551`. No Tamil `pages/` or `sections/` file changed during Phase 4.
+
+## EXACT NEXT ACTIVITY
+
+No further Phase-4 translation/release activity remains. Preserve the release-cleared state unless a source-backed correction or explicitly authorised derivative/publication task is requested.

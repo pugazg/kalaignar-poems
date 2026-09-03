@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS.**
+**PHASE 4 RELEASE-CLEARED — Batches 01–18 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
@@ -311,3 +311,20 @@ Standing five-poem iteration covering items **46–50** across scans **396–404
 ## Exact next activity
 
 Execute **Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**. Review all five complete final-cleared items and do not alter Tamil `pages/` or `sections/`.
+
+
+## Full-work release clearance
+
+Status: **PASS — RELEASE-CLEARED**.
+
+- reader-facing collection: `kalaignarin-kavithaigal-en.md`;
+- standalone English items: **77/77**, indexed by `items/README.md`;
+- reviewed batches: **18/18**;
+- item-owned scans: **439/439**;
+- pure structural scans represented in assembly: **8/8**;
+- total anthology-body scan accounting: **447/447 (18–464)**;
+- title witnesses: **48 exact / 29 authorised variants / 0 unresolved**;
+- editorial consistency: `EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**;
+- release review: `RELEASE_REPORT.md` — **PASS**;
+- assembled SHA-256: `ceb7c0ddd1268ba34d17e416b2d63a4930b465ed18fbe7afdbf03085f22a6551`;
+- Tamil `pages/` / `sections/` changes during Phase 4: **0**.

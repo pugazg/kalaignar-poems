@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 18 — item translation review complete
+## Durable state after Phase 4 release clearance
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; collection assembly NEXT**.
+- Phase 4 English translation/release: **RELEASE-CLEARED — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; full collection assembly, editorial consistency review and release review PASS**.
 
 ## Locked Gate 1–3 results
 
@@ -386,6 +386,22 @@ Batch reviews: `translations/en/batches/batch-13.md`, `batch-14.md`, `batch-15.m
 
 Batch reviews: `translations/en/batches/batch-16.md`, `batch-17.md`, `batch-18.md`.
 
+
+## Phase 4 durable result — full English release
+
+- item translation reviews: **18/18 batches PASS**;
+- stable English items: **77/77**;
+- item-owned scan coverage: **439/439**;
+- pure anthology structural scans represented in collection: **8/8**;
+- full anthology-body accounting: **447/447 scans 18–464**;
+- reader-facing collection: `poems/kalaignarin-kavithaigal/translations/en/kalaignarin-kavithaigal-en.md`;
+- standalone index: `poems/kalaignarin-kavithaigal/translations/en/items/README.md`;
+- editorial consistency review: **PASS**;
+- release report: **PASS — RELEASE-CLEARED**;
+- unresolved release issues: **0**;
+- Tamil `pages/` changes during Phase 4: **0**;
+- Tamil `sections/` changes during Phase 4: **0**.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -419,4 +435,4 @@ Before changing anything, read completely:
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 full English collection assembly** from the **77/77 batch-reviewed item translations**. Preserve item order, the four pure anthology structural divider/verso pairs, title-witness provenance and all item boundaries. Then perform the deferred **editorial consistency review** and prepare the **release report**. Do not alter Tamil `pages/` or `sections/` merely for English editorial preference.
+No further Phase-4 translation/release gate remains for `poems/kalaignarin-kavithaigal/`. The English collection is **RELEASE-CLEARED**. Preserve the current state; reopen only for a source-backed correction or an explicitly authorised derivative/publication task.

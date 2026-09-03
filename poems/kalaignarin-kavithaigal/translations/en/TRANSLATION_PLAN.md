@@ -234,4 +234,4 @@ The user authorised processing all remaining poems in one final sweep. The work 
 
 ## Exact next activity
 
-Assemble the **full English collection** from all **77/77 batch-reviewed item translations**, preserving anthology structure and source provenance. Then run the deferred **editorial consistency review** and prepare the **release report**.
+No further Phase-4 translation/release activity remains for `கலைஞரின் கவிதைகள்`. Reopen only for a source-backed correction or an explicitly authorised derivative/publication task.

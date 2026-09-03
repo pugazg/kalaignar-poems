@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; collection assembly NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; Phase 4 release complete**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 

@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; collection assembly NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; Phase 4 release complete**.
 
 ## Structural rules retained
 
