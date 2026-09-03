@@ -184,6 +184,22 @@ Scope: English translation/review of final-cleared canonical items **4–5**.
 - batch evidence: `translations/en/batches/batch-03.md`;
 - English items: `translations/en/items/04-hiranyan-en.md`, `translations/en/items/05-king-vali-en.md`.
 
+## Phase 4 Batch 04 audit — REVIEWED / PASS
+
+Scope: user-authorized expanded English translation/review of final-cleared canonical items **6–10**.
+
+- items after Batch 04: **10/77**;
+- Batch-04 item-owned scans: **56/56 — scans 72–127**;
+- cumulative reviewed item-owned scans: **106/439**;
+- structural scans **70–71** excluded from poem bodies: **PASS**;
+- title decisions: **4 exact / 1 authorised variant / 0 unresolved**;
+- exact English scan-marker sequences: **56/56 PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-04.md`.
+
 ### Exact next Phase-4 activity
 
-**Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**, scans **72–89**. Preserve structural group-divider/verso scans **70–71** outside poem translations.
+**Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**.

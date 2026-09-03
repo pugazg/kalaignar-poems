@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -85,20 +85,17 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Phase 4 — English translation
 
-**IN PROGRESS — Batches 01–03 reviewed PASS.**
+**IN PROGRESS — Batches 01–04 reviewed PASS.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **3**;
-- reviewed items: **5/77**;
-- reviewed item-assigned scans: **50/439**;
-- item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
-- item 2 `தென்னவன் காதை` → **The Tale of the Southerner**;
-- item 3 `இந்திரஜித்` → **Indrajit**;
-- item 4 `இரணியன்` → **Hiranyan**;
-- item 5 `வாளி மன்னன்` → **King Vali**;
+- reviewed batches: **4**;
+- reviewed items: **10/77**;
+- reviewed item-assigned scans: **106/439**;
+- Batch 04: items 6–10 across scans **72–127**, **56/56 PASS**;
+- title decisions in Batch 04: **4 exact / 1 authorised variant**;
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` / `sections/` changes: **0**.
 
 ## Next activity
 
-**Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**. Keep structural scans **70–71** outside poem translations; translate both complete final-cleared canonical items across scans **72–89** and review the batch before advancing.
+**Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**. Translate all three complete final-cleared items across scans **128–154** and review the batch before advancing.

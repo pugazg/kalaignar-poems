@@ -112,4 +112,4 @@ Begin **Phase 4 — English translation and release workflow**, following `POEM_
 
 ## Subsequent Phase 4 status
 
-Phase 4 has subsequently advanced through **Batches 01–03, all reviewed PASS**. Reviewed English now covers items **1–5/77** and **50/439** item-assigned scans: `இதயத்தைத் தந்திடு அண்ணா` (**Give Me Your Heart, Anna**), `தென்னவன் காதை` (**The Tale of the Southerner**), `இந்திரஜித்` (**Indrajit**), `இரணியன்` (**Hiranyan**) and `வாளி மன்னன்` (**King Vali**). The Tamil final-cleared `pages/` and `sections/` layers remained unchanged. Exact next translation activity: **Batch 04 items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**, with structural scans **70–71** kept outside poem translations.
+Phase 4 has subsequently advanced through **Batches 01–04, all reviewed PASS**. Reviewed English now covers items **1–10/77** and **106/439** item-assigned scans. Batch 04 is the user-authorized items 6–10 expansion across scans **72–127**. The Tamil final-cleared `pages/` and `sections/` layers remain unchanged. Exact next translation activity: **Batch 05 items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**.

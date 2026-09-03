@@ -28,7 +28,7 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
 
 ## Printed-page numbering behaviour
 
@@ -80,14 +80,12 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 ## Phase 4 translation metadata
 
 - Tamil source/canonical layer remains **FINAL-CLEARED**;
-- reviewed batches: **3**;
-- reviewed English items: **5/77**;
-- reviewed item scans: **50/439**;
-- Batch 01 English item: `../translations/en/items/01-give-me-your-heart-anna-en.md`;
-- Batch 02 English items: `../translations/en/items/02-the-tale-of-the-southerner-en.md`, `../translations/en/items/03-indrajit-en.md`;
-- Batch 02 review: `../translations/en/batches/batch-02.md`;
-- Batch 03 English items: `../translations/en/items/04-hiranyan-en.md`, `../translations/en/items/05-king-vali-en.md`;
-- Batch 03 review: `../translations/en/batches/batch-03.md`;
+- reviewed batches: **4**;
+- reviewed English items: **10/77**;
+- reviewed item scans: **106/439**;
+- Batch 04 English items: `../translations/en/items/06-freedom-fighters-en.md` through `../translations/en/items/10-six-in-the-noble-scripture-en.md`;
+- Batch 04 review: `../translations/en/batches/batch-04.md`;
+- Batch 04 marker certification: **56/56 PASS**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes caused by translation: **0**;
-- next translation batch: **items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**, scans **72–89**, after structural scans **70–71**.
+- next translation batch: **items 11–13**, scans **128–154**.

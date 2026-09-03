@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
 
 ## Structural rules retained
 
@@ -68,7 +68,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Next phase gate
 
-**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–03 are reviewed PASS; Batch 04 items 6–7 are next.
+**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–03 are reviewed PASS; Batch 05 items 11–13 are next.
 
 ## Tamil final clearance
 
@@ -76,14 +76,11 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Phase 4 translation state
 
-- Batches 01–03: **reviewed PASS**;
-- reviewed items: **5/77**;
-- reviewed item scans: **50/439**;
-- English item 1: `translations/en/items/01-give-me-your-heart-anna-en.md`;
-- English item 2: `translations/en/items/02-the-tale-of-the-southerner-en.md`;
-- English item 3: `translations/en/items/03-indrajit-en.md`;
-- English item 4: `translations/en/items/04-hiranyan-en.md`;
-- English item 5: `translations/en/items/05-king-vali-en.md`;
+- Batches 01–04: **reviewed PASS**;
+- reviewed items: **10/77**;
+- reviewed item scans: **106/439**;
+- Batch 04: items **6–10**, scans **72–127 = 56/56**;
+- structural scans **70–71** remain outside poem translations;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes: **0**;
-- exact next: **Batch 04 items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**, scans **72–89**, with structural scans **70–71** kept outside poem translations.
+- exact next: **Batch 05 items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**.

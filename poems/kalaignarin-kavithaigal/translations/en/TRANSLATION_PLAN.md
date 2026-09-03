@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **3**;
-- items: **5/77**;
-- item-assigned source scans: **50/439**;
+- batches: **4**;
+- items: **10/77**;
+- item-assigned source scans: **106/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -82,8 +82,9 @@ Batch size is adaptive to source length and complexity:
 | 01 | 1 | 18–31 | **reviewed — PASS** |
 | 02 | 2–3 | 34–54 | **reviewed — PASS** |
 | 03 | 4–5 | 55–69 | **reviewed — PASS** |
-| 04 | 6–7 | 72–89 | **NEXT** |
-| later | 8–77 | adaptive complete-item batches | pending |
+| 04 | 6–10 | 72–127 | **reviewed — PASS** |
+| 05 | 11–13 | 128–154 | **NEXT** |
+| later | 14–77 | adaptive complete-item batches | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -161,6 +162,19 @@ The reviewed translation preserves:
 - `கணவனுடன் சென்றாள்` conservatively as "went with her husband" without adding a mechanism absent from the Tamil;
 - both closing `✤` ornaments.
 
+## Batch 04 decision record
+
+At the user's explicit direction, Batch 04 was expanded from the planned two items to **items 6–10** and completed as one complete-item batch across scans **72–127**. Structural anthology scans **70–71** remain outside poem translations.
+
+The reviewed translation preserves:
+
+- item 6 `விடுதலை வீரர்கள்` as **Freedom Fighters**, including the 15 August 1967 Tiruchirappalli Radio context, Kattabomman / Marudhu / Bharati / V. V. S. Aiyar / V. O. C. hand-offs, independence rhetoric and closing social definition of freedom;
+- item 7 `ஐம்புலன்` as **The Five Senses**, including the body/mouth/eye/nose/ear structure, `மெய்` body/truth wordplay, Tirukkural citations and every poet hand-off;
+- item 8 `பிலவங்க ஆண்டு` as **The Pilavanga Year**, retaining cyclic year names, the six-women dream, six Tirukkural virtues, rationalist/social satire and all **11/11** scan markers after mechanical repair of the drafting-only missing scan-98 marker;
+- item 9 canonical `காதலா - வீரமா?` as **Love or Valour?**, while preserving contents witness `காதலா! - வீரமா?` separately, with the full debate alternation and classical/modern examples;
+- item 10 `அருமறையில் அறுவர்` as **Six in the Noble Scripture**, with the six Tirukkural human types, ministerial synthesis and all guest-poet transitions;
+- Batch-04 marker coverage **56/56**, title decisions **4 exact + 1 authorised variant**, unresolved translation issues **0**, Tamil `pages/`/`sections/` changes **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)** from the Tamil final-cleared canonical layer. Keep structural group-divider/verso scans **70–71** outside poem translations, translate both complete items across scans **72–89**, review them together, and leave Tamil final-cleared files unchanged.
+Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)** from the Tamil final-cleared canonical layer. Translate all three complete items across scans **128–154**, preserve item 12's contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`, review the full 27-scan batch, and leave Tamil final-cleared files unchanged.

@@ -72,7 +72,7 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**;
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**;
 
 ## Phase 3 Gate 6 — Tamil final clearance COMPLETE / PASS
 
@@ -80,4 +80,4 @@ Evidence: `../PHASE3_TAMIL_FINAL_CLEARANCE.md`. All Gates 1–5 remain PASS; unr
 
 ## Phase 4 translation note
 
-Phase 4 Batches 01–03 reviewed items 1–5 across item-owned scans **18–31, 34–69** (**50/439** item-assigned scans). Structural scans **32–33** remain separate anthology provenance; the next structural pair **70–71** is also outside poem translations. These translation milestones change no scan↔page mapping and no Tamil page/canonical file.
+Phase 4 Batches 01–04 reviewed items **1–10** across **106/439** item-assigned scans. Batch 04 covers item scans **72–127 = 56/56**; structural scans **70–71** remain separate anthology provenance. Translation milestones change no scan↔page mapping and no Tamil page/canonical file. Exact next: Batch 05 items **11–13**, scans **128–154**.

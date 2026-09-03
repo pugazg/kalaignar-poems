@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 03
+## Durable state after Phase 4 Batch 04
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item-assigned scans; Batch 04 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item-assigned scans; Batch 05 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -154,12 +154,32 @@ Batch 02 preserves the two exact title witnesses, the Ravana/Indrajit counter-ep
 - Batch 03 source scans: **55–69 = 15/15**;
 - title witnesses: **2 exact / 0 variants**;
 - reviewed English items: `translations/en/items/04-hiranyan-en.md` and `translations/en/items/05-king-vali-en.md`;
-- Batch-03 review: `translations/en/batches/batch-03.md`;
+- Batch-03 review: `translations/en/batches/batch-04.md`;
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` changes during Batch 03: **0**;
 - Tamil `sections/` changes during Batch 03: **0**.
 
 Batch 03 preserves the Hiranyan/Prahlada counter-myth, source-form Tamil wordplay and magnetic-pillar conspiracy as source rhetoric; it also preserves Tara's political voice, Sugriva/Hanuman intrigue, Rama's source-quoted description and Vali's hidden-arrow accusation without external harmonisation. Both closing ornaments remain represented.
+
+## Phase 4 durable result — Batch 04
+
+- user-authorized expanded batch: **items 6–10**;
+- reviewed batches: **4**;
+- reviewed English items: **10/77**;
+- reviewed item-assigned source scans: **106/439**;
+- Batch 04 source scans: **72–127 = 56/56**;
+- structural anthology scans **70–71** remain outside poem translations;
+- item 6 `விடுதலை வீரர்கள்` → **Freedom Fighters**;
+- item 7 `ஐம்புலன்` → **The Five Senses**;
+- item 8 `பிலவங்க ஆண்டு` → **The Pilavanga Year**;
+- item 9 `காதலா - வீரமா?` → **Love or Valour?**, with contents `காதலா! - வீரமா?` retained separately;
+- item 10 `அருமறையில் அறுவர்` → **Six in the Noble Scripture**;
+- marker certification: **56/56 PASS**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 04: **0**;
+- Tamil `sections/` changes during Batch 04: **0**.
+
+Batch review: `translations/en/batches/batch-04.md`.
 
 ## Supplied-transcription rule
 
@@ -190,10 +210,10 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-03.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-04.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**.
+Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**.
 
-Preserve structural group-divider/verso scans **70–71** outside poem translations. Read final-cleared `sections/06.md` and `sections/07.md` completely, translate both complete items across scans **72–89**, review them together in `translations/en/batches/batch-04.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. If translation exposes a genuine Tamil discrepancy, reopen the source-backed Tamil layers explicitly before continuing.
+Read final-cleared `sections/11.md` through `sections/13.md` completely, translate all three complete items across scans **128–154**, preserve item 12 contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`, review them together in `translations/en/batches/batch-05.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged.

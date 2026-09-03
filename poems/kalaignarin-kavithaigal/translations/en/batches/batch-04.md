@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEWED — PASS, subject to final mechanical marker/status synchronization in this same activity.**
+**REVIEWED — PASS.**
 
 Batch 04 is the user-authorized expanded complete-item batch covering canonical items **6–10**.
 
@@ -31,6 +31,8 @@ Structural anthology scans **70–71** (`கவியரங்கக் கவ�
 | 10 | `அருமறையில் அறுவர்` | **Six in the Noble Scripture** | 116–127 | 99–110 | `../items/10-six-in-the-noble-scripture-en.md` |
 
 Batch-owned source scans: **56/56**.
+
+Mechanical scan-marker certification: **56/56 PASS** — exact marker sequences 72–127 across items 6–10.
 
 Cumulative reviewed frontier after this batch: **10/77 items; 106/439 item-assigned scans**.
 

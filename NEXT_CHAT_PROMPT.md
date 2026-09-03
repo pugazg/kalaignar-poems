@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
 
 ## Gate 4 durable output
 
@@ -81,19 +81,20 @@ Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 - English translation created/modified during Gate 6 **no**;
 - Phase 4 **UNBLOCKED**.
 
-## Phase 4 Batches 01–03 durable result
+## Phase 4 Batches 01–04 durable result
 
 - translation scaffold: `translations/en/`;
-- reviewed batches: **3**;
-- reviewed English items: **5/77**;
-- reviewed item scans: **50/439**;
-- item 1: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**, scans **18–31**;
-- item 2: `தென்னவன் காதை` → **The Tale of the Southerner**, scans **34–42**;
-- item 3: `இந்திரஜித்` → **Indrajit**, scans **43–54**;
-- item 4: `இரணியன்` → **Hiranyan**, scans **55–61**;
-- item 5: `வாளி மன்னன்` → **King Vali**, scans **62–69**;
-- structural scans **32–33** remain anthology provenance outside poem bodies;
-- Batch reviews: `translations/en/batches/batch-01.md`, `translations/en/batches/batch-02.md`, `translations/en/batches/batch-03.md`;
+- reviewed batches: **4**;
+- reviewed English items: **10/77**;
+- reviewed item scans: **106/439**;
+- Batch 04 is the user-authorized expanded items **6–10** batch, scans **72–127 = 56/56**;
+- item 6 `விடுதலை வீரர்கள்` → **Freedom Fighters**;
+- item 7 `ஐம்புலன்` → **The Five Senses**;
+- item 8 `பிலவங்க ஆண்டு` → **The Pilavanga Year**;
+- item 9 `காதலா - வீரமா?` → **Love or Valour?**, contents `காதலா! - வீரமா?` preserved separately;
+- item 10 `அருமறையில் அறுவர்` → **Six in the Noble Scripture**;
+- structural scans **32–33, 70–71** remain anthology provenance outside poem bodies;
+- Batch-04 marker certification **56/56 PASS**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes: **0**.
 
@@ -113,11 +114,10 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**.
+Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**.
 
-1. Preserve structural group-divider/verso scans **70–71** outside poem translations.
-2. Read final-cleared `sections/06.md` and `sections/07.md` completely.
-3. Translate both complete items across scans **72–89** with stable item identity and scan provenance.
-4. Review the full batch for omissions, duplication, voice, names, rhetoric and source-specific claims.
-5. Create/update `translations/en/items/`, `translations/en/batches/batch-04.md` and `translations/en/SOURCE_MAP.md`.
-6. Do **not** alter Tamil final-cleared `pages/` or `sections/` during translation.
+1. Read final-cleared `sections/11.md`, `sections/12.md`, `sections/13.md` completely.
+2. Translate all three complete items across scans **128–154**.
+3. Preserve item 12 contents witness `உடன்பிறப்பின் பற்று` separately from canonical `உடைமைகள் பத்து`.
+4. Review the full 27-scan batch and update English item files, `batches/batch-05.md` and `SOURCE_MAP.md`.
+5. Do **not** alter Tamil final-cleared `pages/` or `sections/`.

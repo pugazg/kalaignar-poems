@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–04 reviewed PASS; 10/77 items; 106/439 item scans; Batch 05 NEXT**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -48,7 +48,7 @@ Gate 6 formally confirms Gates 1–5 are all PASS and records the Tamil source/c
 
 ## Phase 4 translation progress
 
-Batches 01–03 now cover items 1–5: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**, `தென்னவன் காதை` → **The Tale of the Southerner**, `இந்திரஜித்` → **Indrajit**, `இரணியன்` → **Hiranyan**, and `வாளி மன்னன்` → **King Vali**. The reviewed English layer covers **5/77 items** and **50/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
+Batches 01–04 now cover items **1–10**. The reviewed English layer covers **10/77 items** and **106/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Batch 04 is the user-authorized expanded items 6–10 batch across scans **72–127**; structural scans **70–71** remain outside poem translations. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
 
 ## Supplied lexical controls
 
@@ -56,4 +56,4 @@ A user-designated word-for-word transcription may control lexical words only aft
 
 ## Next activity
 
-**Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**. Keep structural group-divider/verso scans **70–71** outside poem translations; translate and review both complete final-cleared items across scans **72–89**; leave Tamil archival files unchanged.
+**Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**. Translate and review all three complete final-cleared items; preserve item 12's contents-title variant separately and leave Tamil archival files unchanged.

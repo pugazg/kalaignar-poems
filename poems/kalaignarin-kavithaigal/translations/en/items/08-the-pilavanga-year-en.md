@@ -273,7 +273,11 @@ until they are ashamed,” said the Kural.
 All this talk of *innaa* — hurt —
 those who pour out whatever comes to the tongue,
 saying “my tongue is simply trained so,”
-will stand neither in front nor behind in the ranks of intelligence;
+within the ranks of intelligence —
+
+<!-- scan 98 -->
+
+will stand neither in front nor behind;
 they will lie in a corner.
 Suratha, poet of flavour,
 will explain all this with stacked words.

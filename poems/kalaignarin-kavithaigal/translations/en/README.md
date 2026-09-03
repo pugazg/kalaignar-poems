@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–04 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **3**;
-- reviewed English items: **5/77**;
-- item-assigned source scans covered by reviewed English: **50/439**;
+- reviewed English batches: **4**;
+- reviewed English items: **10/77**;
+- item-assigned source scans covered by reviewed English: **106/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -26,6 +26,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/03-indrajit-en.md` — reviewed English item 3;
 - `items/04-hiranyan-en.md` — reviewed English item 4;
 - `items/05-king-vali-en.md` — reviewed English item 5.
+- `batches/batch-04.md` — reviewed Batch-04 record;
+- `items/06-freedom-fighters-en.md` — reviewed English item 6;
+- `items/07-the-five-senses-en.md` — reviewed English item 7;
+- `items/08-the-pilavanga-year-en.md` — reviewed English item 8;
+- `items/09-love-or-valour-en.md` — reviewed English item 9;
+- `items/10-six-in-the-noble-scripture-en.md` — reviewed English item 10.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -80,6 +86,22 @@ Items 4–5 are adjacent complete counter-mythic poems across scans **55–69**.
 
 Batch 03 preserves Hiranyan's rationalist/counter-mythic polemic, the source-specific tutor/wordplay and magnetic-pillar conspiracy; it also preserves Tara's political voice, Sugriva/Hanuman intrigue, Rama's source-quoted rhetoric and Vali's hidden-arrow accusation without external harmonisation.
 
+## Batch 04
+
+**Reviewed — PASS.**
+
+User-authorized expanded batch covering complete items **6–10** across scans **72–127**. Structural scans **70–71** remain outside poem bodies.
+
+- item 6 `விடுதலை வீரர்கள்` → **Freedom Fighters**, scans **72–79**;
+- item 7 `ஐம்புலன்` → **The Five Senses**, scans **80–89**;
+- item 8 `பிலவங்க ஆண்டு` → **The Pilavanga Year**, scans **90–100**;
+- item 9 `காதலா - வீரமா?` → **Love or Valour?**, scans **101–115**;
+- item 10 `அருமறையில் அறுவர்` → **Six in the Noble Scripture**, scans **116–127**;
+- reviewed scans: **56/56**;
+- title witnesses: **4 exact / 1 authorised variant**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**. Keep anthology structural scans **70–71** outside poem translations, translate both complete items across scans **72–89**, and review the full batch before marking it PASS.
+Execute **Phase 4 Batch 05 — items 11–13 (`புதிய பாதை`, `உடைமைகள் பத்து`, `நீர்க் குடும்பம்`)**, scans **128–154**, reviewing all three complete items before advancing.
