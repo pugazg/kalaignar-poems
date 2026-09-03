@@ -8,7 +8,7 @@ language: "en"
 source_scans: "62–69"
 printed_pages: "45–52"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/05.md"
 voice_policy: "retain Kalaignar's counter-epic rhetoric, Tara's political voice, satire, dialogue, accusation and source-visible structure"
 ---
