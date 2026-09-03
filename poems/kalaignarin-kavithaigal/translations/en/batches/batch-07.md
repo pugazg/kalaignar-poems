@@ -118,7 +118,7 @@ Preserved:
 
 ## Mechanical certification target
 
-The finalizer must verify these exact scan-marker sequences:
+The finalizer verified these exact scan-marker sequences:
 
 - item 21: **218–226 = 9/9**;
 - item 22: **227–229 = 3/3**;
@@ -127,7 +127,7 @@ The finalizer must verify these exact scan-marker sequences:
 - item 25: **245–253 = 9/9**;
 - batch total: **36/36**.
 
-It must also confirm:
+It also confirmed:
 
 - all five English files identify items 21–25 correctly;
 - all five title witnesses remain exact;
@@ -157,8 +157,15 @@ Batch-08 item-owned scan total: **39/39 — scans 254–292**.
 - item 24 draft blob: `9ae2ad43f2be33cd2bcf20137f0d1e2b3c289701`;
 - item 25 draft blob: `d04824348b845e8441361d68a1a6bdc20c0a370d`.
 
-Final reviewed blob SHAs will be appended after mechanical certification.
+## Final reviewed item blob witnesses
 
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 21 final blob: `4775fa835b6b821e4c217f964003442f0ef83737`;
+- item 22 final blob: `8fc74ab406fda561babaa5e1b32d73f22d41a013`;
+- item 23 final blob: `fc7b389ad8239ef149c26043ff971bb6e11c3209`;
+- item 24 final blob: `1e442d8b9e81d705c2474b38a08c788d08605269`;
+- item 25 final blob: `571aaf698e99a66a9d59b91ec1e5607b2f83dfde`.
 
 ## Certification result
 
