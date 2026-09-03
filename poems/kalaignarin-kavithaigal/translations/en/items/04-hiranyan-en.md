@@ -8,7 +8,7 @@ language: "en"
 source_scans: "55–61"
 printed_pages: "38–44"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/04.md"
 voice_policy: "retain Kalaignar's counter-mythic rhetoric, satire, polemic, wordplay, dialogue, repetition and source-visible structure"
 ---
