@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–02 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **2**;
-- reviewed English items: **3/77**;
-- item-assigned source scans covered by reviewed English: **35/439**;
+- reviewed English batches: **3**;
+- reviewed English items: **5/77**;
+- item-assigned source scans covered by reviewed English: **50/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -20,9 +20,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `SOURCE_MAP.md` — stable Tamil↔English item/provenance map;
 - `batches/batch-01.md` — reviewed Batch-01 record;
 - `batches/batch-02.md` — reviewed Batch-02 record;
+- `batches/batch-03.md` — reviewed Batch-03 record;
 - `items/01-give-me-your-heart-anna-en.md` — reviewed English item 1;
 - `items/02-the-tale-of-the-southerner-en.md` — reviewed English item 2;
-- `items/03-indrajit-en.md` — reviewed English item 3.
+- `items/03-indrajit-en.md` — reviewed English item 3;
+- `items/04-hiranyan-en.md` — reviewed English item 4;
+- `items/05-king-vali-en.md` — reviewed English item 5.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -62,6 +65,21 @@ Items 2–3 are reviewed together as a continuous complete-item counter-epic seq
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 03
+
+**Reviewed — PASS.**
+
+Items 4–5 are adjacent complete counter-mythic poems across scans **55–69**.
+
+- item **4 — `இரணியன்`** → **Hiranyan**, scans **55–61**;
+- item **5 — `வாளி மன்னன்`** → **King Vali**, scans **62–69**;
+- reviewed scans: **15/15**;
+- title witnesses: **2 exact / 0 variants**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
+Batch 03 preserves Hiranyan's rationalist/counter-mythic polemic, the source-specific tutor/wordplay and magnetic-pillar conspiracy; it also preserves Tara's political voice, Sugriva/Hanuman intrigue, Rama's source-quoted rhetoric and Vali's hidden-arrow accusation without external harmonisation.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**, translating both complete items across scans **55–69** and reviewing the full batch before marking it PASS.
+Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**. Keep anthology structural scans **70–71** outside poem translations, translate both complete items across scans **72–89**, and review the full batch before marking it PASS.
