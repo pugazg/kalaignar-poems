@@ -1,0 +1,38 @@
+name: Fix Kalaignarin Kavithaigal Batch 18 handover pointer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-kalaignarin-kavithaigal-batch18-pointer.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Fix latest reviewed batch pointer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('HANDOVER.md')
+          t = p.read_text()
+          old = 'the latest reviewed translation batch record (`translations/en/batches/batch-15.md`).'
+          new = 'the latest reviewed translation batch record (`translations/en/batches/batch-18.md`).'
+          if old not in t:
+              raise SystemExit('expected stale HANDOVER batch pointer not found')
+          p.write_text(t.replace(old, new, 1))
+          PY
+          rm .github/workflows/fix-kalaignarin-kavithaigal-batch18-pointer.yml
+      - name: Commit handover pointer fix
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Point Kalaignarin Kavithaigal handover to Batch 18'
+          git push
