@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS.**
+**PHASE 4 COMPLETE — Batches 01–18 reviewed PASS; full English collection RELEASE-CLEARED.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
