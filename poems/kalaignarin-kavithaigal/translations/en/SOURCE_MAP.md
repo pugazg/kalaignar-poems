@@ -69,6 +69,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 33 | `மாறி வரும் ஊரினிலே` | `மாறிவரும் ஊரினிலே` | **In a Changing Town** | 311–317 | 294–300 | `items/33-in-a-changing-town-en.md` | **batch-reviewed — PASS** |
 | 34 | `சமுதாயப் பார்வைகள்...!` | `சமுதாயப் பார்வைகள்...!` | **Views of Society...!** | 318–328 | 301–311 | `items/34-views-of-society-en.md` | **batch-reviewed — PASS** |
 | 35 | `கலைவாணர் அரங்கக் கவியரங்கம்` | `கலைவாணர் அரங்கக் கவியரங்கம்` | **Kalaivanar Arangam Poetry Assembly** | 329–332 | 312–315 | `items/35-kalaivanar-arangam-poetry-assembly-en.md` | **batch-reviewed — PASS** |
+| 36 | `"சித்திரைத் திருநாள்" தலைமைக் கவிதை!` | `“சித்திரைத் திருநாள்” தலைமைக் கவிதை` | **"Chithirai Festival" — Presiding Poem!** | 333–345 | 316–328 | `items/36-chithirai-festival-presiding-poem-en.md` | **batch-reviewed — PASS** |
+| 37 | `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று` | `“எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று”` | **Three Letters — Thoughts Three Times Three** | 346–361 | 329–344 | `items/37-three-letters-thoughts-three-times-three-en.md` | **batch-reviewed — PASS** |
+| 38 | `“அறிஞர் அண்ணா வழியில்”` | `“அறிஞர் அண்ணா வழியில்”` | **“On Arignar Anna’s Path”** | 362–371 | 345–353 | `items/38-on-arignar-annas-path-en.md` | **batch-reviewed — PASS** |
+| 39 | `பன்னீர்ச்செல்வமே!` | `பன்னீர்ச் செல்வமே` | **Panneerselvam!** | 374–375 | 357–358 | `items/39-panneerselvam-en.md` | **batch-reviewed — PASS** |
+| 40 | `கலைத்தாயின் தலைச் செல்வன்!` | `கலைத்தாயின் தலைச்செல்வன்` | **Mother Art’s Foremost Son!** | 376–378 | 359–361 | `items/40-mother-arts-foremost-son-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -123,9 +128,9 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **9**;
-- reviewed English items: **35/77**;
-- reviewed item-assigned scans: **311/439**;
+- reviewed English batches: **10**;
+- reviewed English items: **40/77**;
+- reviewed item-assigned scans: **355/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
@@ -173,6 +178,16 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - there are no pure anthology structural scans inside Batch 09;
 - no Tamil page or canonical item was changed by Batch 09.
 
+### Items 36–40 provenance notes
+
+- item 36 owns scans **333–345** (**13/13** represented), with authorised quote-glyph/terminal-punctuation title variation;
+- item 37 owns scans **346–361** (**16/16** represented), with contents-only quotation marks;
+- item 38 owns scans **362–371** (**10/10** represented), exact title witness; scan **371** is the item-owned blank/show-through provenance leaf;
+- structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** remain outside all English poem items;
+- item 39 owns scans **374–375** (**2/2** represented), with authorised spacing/punctuation title variation;
+- item 40 owns scans **376–378** (**3/3** represented), with authorised spacing/punctuation title variation;
+- no Tamil page or canonical item was changed by Batch 10.
+
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 36–40** after Phase-4 Batch 10 passes. Batch 10 owns **44/44 item scans** across physical span **333–378**, while structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** remain outside poem items. Expected title witnesses: **1 exact / 4 authorised variants / 0 unresolved**.
+Add reviewed mappings for **items 41–45** after Phase-4 Batch 11 passes. Batch 11 owns **15/15 item scans** across physical span **379–395**, while structural scans **392–393 (`மலர்த் தோட்டம்`)** remain outside poem items. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.

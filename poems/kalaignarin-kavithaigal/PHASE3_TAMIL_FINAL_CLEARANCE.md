@@ -112,4 +112,4 @@ Begin **Phase 4 — English translation and release workflow**, following `POEM_
 
 ## Subsequent Phase 4 status
 
-Phase 4 has subsequently advanced through **Batches 01–08, all reviewed PASS**. Reviewed English now covers items **1–30/77** and **311/439** item-assigned scans. The Tamil final-cleared `pages/` and `sections/` layers remain unchanged. Exact next translation activity: **Batch 09 items 31–35**, scans **293–332 = 40/40**, preserving the authorised title-witness variants for items 31–33.
+Phase 4 has subsequently advanced through **Batches 01–10, all reviewed PASS**. Reviewed English now covers items **1–40/77** and **355/439** item-assigned scans. The Tamil final-cleared `pages/` and `sections/` layers remain unchanged. Batch 10 preserves structural scans **372–373** outside poem translations. Exact next translation activity: **Batch 11 items 41–45**, **15/15 item scans** across physical span **379–395**, preserving structural scans **392–393** outside poem translations.

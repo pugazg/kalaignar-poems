@@ -8,7 +8,7 @@ language: "en"
 source_scans: "333–345"
 printed_pages: "316–328"
 title_witness_status: "variant — contents witness uses curly quotation marks and omits the canonical terminal !; canonical verified opening preserves straight quote glyphs and !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/36.md"
 voice_policy: "retain Kalaignar's Tamil New Year television oratory, Tamil-month wordplay, Ambedkar/Bharathidasan centenary framing, social-reform and welfare-policy catalogue, poet hand-offs, Sangath Tamil/common-ownership argument and office-versus-service conclusion"
 ---

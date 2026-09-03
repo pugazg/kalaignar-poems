@@ -166,3 +166,13 @@ Title-witness expectation: **2 exact / 3 authorised variants / 0 unresolved**.
 - item 40 draft blob: `a35afc515659976d161de281ee948ebeca71539b`.
 
 Final reviewed blob SHAs will be appended after mechanical certification.
+
+## Certification result
+
+- exact scan-marker sequences: **44/44 PASS**;
+- item identities: **5/5 PASS**;
+- structural scans **372–373** excluded from all five English item files: **PASS**;
+- title witnesses: **1 exact / 4 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.

@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 09
+## Durable state after Phase 4 Batch 10
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–09 reviewed PASS; 35/77 items; 311/439 item-assigned scans; Batch 10 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–10 reviewed PASS; 40/77 items; 355/439 item-assigned scans; Batch 11 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -287,6 +287,28 @@ Batch review: `translations/en/batches/batch-08.md`.
 
 Batch review: `translations/en/batches/batch-09.md`.
 
+## Phase 4 durable result — Batch 10
+
+- standing user cadence: **five poems per iteration**;
+- reviewed batches: **10**;
+- reviewed English items: **40/77**;
+- reviewed item-assigned source scans: **355/439**;
+- Batch 10 items: **36–40**;
+- Batch 10 item-owned scans: **44/44** across physical span **333–378**;
+- structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** remain outside poem translations;
+- item 36 → **"Chithirai Festival" — Presiding Poem!**;
+- item 37 → **Three Letters — Thoughts Three Times Three**;
+- item 38 → **“On Arignar Anna’s Path”**;
+- item 39 → **Panneerselvam!**;
+- item 40 → **Mother Art’s Foremost Son!**;
+- marker certification: **44/44 PASS**;
+- title witnesses: **1 exact / 4 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 10: **0**;
+- Tamil `sections/` changes during Batch 10: **0**.
+
+Batch review: `translations/en/batches/batch-10.md`.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -316,8 +338,8 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-09.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-10.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 10 — items 36–40 (`"சித்திரைத் திருநாள்" தலைமைக் கவிதை!`, `எழுத்துக்கள் மூன்று - எண்ணங்கள் மும்மூன்று`, `“அறிஞர் அண்ணா வழியில்”`, `பன்னீர்ச்செல்வமே!`, `கலைத்தாயின் தலைச் செல்வன்!`)**. Read final-cleared `sections/36.md` through `sections/40.md` completely. Preserve structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** outside poem translations. Review all five complete items together; item-owned scan total **44/44** across physical span **333–378**; expected title witnesses **1 exact / 4 authorised variants / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.
+Execute **Phase 4 Batch 11 — items 41–45 (`உன் நிழலாக அசைகின்றோம்!`, `வாழ்க ஜீவா`, `மறைந்த மாவீரன்`, `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, `இன்றைக்கு உன்றன் பிறந்த நாள்`)**. Read final-cleared `sections/41.md` through `sections/45.md` completely. Preserve structural scans **392–393 (`மலர்த் தோட்டம்`)** outside poem translations. Review all five complete items together; item-owned scan total **15/15** across physical span **379–395**; expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.

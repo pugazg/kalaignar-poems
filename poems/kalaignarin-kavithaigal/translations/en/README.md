@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–09 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–10 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **9**;
-- reviewed English items: **35/77**;
-- item-assigned source scans covered by reviewed English: **311/439**;
+- reviewed English batches: **10**;
+- reviewed English items: **40/77**;
+- item-assigned source scans covered by reviewed English: **355/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -62,6 +62,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/33-in-a-changing-town-en.md` — reviewed English item 33;
 - `items/34-views-of-society-en.md` — reviewed English item 34;
 - `items/35-kalaivanar-arangam-poetry-assembly-en.md` — reviewed English item 35.
+- `batches/batch-10.md` — reviewed Batch-10 record;
+- `items/36-chithirai-festival-presiding-poem-en.md` — reviewed English item 36;
+- `items/37-three-letters-thoughts-three-times-three-en.md` — reviewed English item 37;
+- `items/38-on-arignar-annas-path-en.md` — reviewed English item 38;
+- `items/39-panneerselvam-en.md` — reviewed English item 39;
+- `items/40-mother-arts-foremost-son-en.md` — reviewed English item 40.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -211,6 +217,21 @@ Standing five-poem iteration covering items **31–35** across scans **293–332
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 10
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **36–40** with **44/44 item-owned scans** across physical span **333–378**. Structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** remain outside poem bodies.
+
+- item 36 → **"Chithirai Festival" — Presiding Poem!**, scans **333–345**;
+- item 37 → **Three Letters — Thoughts Three Times Three**, scans **346–361**;
+- item 38 → **“On Arignar Anna’s Path”**, scans **362–371**;
+- item 39 → **Panneerselvam!**, scans **374–375**;
+- item 40 → **Mother Art’s Foremost Son!**, scans **376–378**;
+- title witnesses: **1 exact / 4 authorised variants / 0 unresolved**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 10 — items 36–40**, preserving structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** outside poem translations. Batch-10 item-owned coverage: **44/44** across physical span **333–378**; expected title witnesses **1 exact / 4 authorised variants / 0 unresolved**.
+Execute **Phase 4 Batch 11 — items 41–45**, with **15/15 item-owned scans** across physical span **379–395**. Keep structural scans **392–393 (`மலர்த் தோட்டம்`)** outside poem translations. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.

@@ -62,11 +62,11 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 
 ## Phase 4 — translation and release
 
-**IN PROGRESS — Batches 01–09 reviewed PASS.**
+**IN PROGRESS — Batches 01–10 reviewed PASS.**
 
-- reviewed batches: **8**;
-- reviewed English items: **30/77**;
-- reviewed item-assigned source scans: **311/439**;
+- reviewed batches: **10**;
+- reviewed English items: **40/77**;
+- reviewed item-assigned source scans: **355/439**;
 - Batch 01: item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
 - Batch 02: item 2 `தென்னவன் காதை` → **The Tale of the Southerner**; item 3 `இந்திரஜித்` → **Indrajit**;
 - Batch 03: item 4 `இரணியன்` → **Hiranyan**; item 5 `வாளி மன்னன்` → **King Vali**;
@@ -79,8 +79,10 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 - standing cadence: **five complete poems per iteration**;
 - Batch 07: items 21–25, **36/36 item-owned scans**, **reviewed PASS**;
 - Batch 08: items 26–30, scans **254–292 = 39/39**, **reviewed PASS**;
-- Batch 09: items 31–35, scans **293–332 = 40/40**, **NEXT**.
+- Batch 09: items 31–35, scans **293–332 = 40/40**, **reviewed PASS**;
+- Batch 10: items 36–40, **44/44 item-owned scans**, structural **372–373** excluded, **reviewed PASS**;
+- Batch 11: items 41–45, **15/15 item-owned scans**, structural **392–393** excluded, **NEXT**.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 09 — items 31–35**, scans **293–332 = 40/40**. Preserve the three authorised title-witness variants for items 31–33 separately; review all five complete translations before marking the batch PASS and do not alter Tamil final-cleared files.
+Execute **Phase 4 Batch 11 — items 41–45**, with **15/15 item-owned scans** across physical span **379–395**. Preserve structural scans **392–393 (`மலர்த் தோட்டம்`)** outside poem translations. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**. Do not alter Tamil final-cleared files.

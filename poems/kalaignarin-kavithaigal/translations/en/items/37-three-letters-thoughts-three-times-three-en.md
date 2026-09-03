@@ -8,7 +8,7 @@ language: "en"
 source_scans: "346–361"
 printed_pages: "329–344"
 title_witness_status: "variant — contents witness encloses the title in quotation marks; canonical verified opening does not"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/37.md"
 voice_policy: "retain Kalaignar's five-celebration frame, head/body movement metaphor, anti-varna rationalist polemic, three-letter Tamil sequence, Ambedkar/Bharathidasan centenary rhetoric, embedded Bharathidasan passages, Mandal/reservation argument, Dravidian-movement history, Ekalavya/Shambuka examples and principle-over-office close"
 ---

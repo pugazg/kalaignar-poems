@@ -8,7 +8,7 @@ language: "en"
 source_scans: "374–375"
 printed_pages: "357–358"
 title_witness_status: "variant — contents witness separates பன்னீர்ச் செல்வமே and omits the terminal !; canonical opening compounds பன்னீர்ச்செல்வமே!"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/39.md"
 voice_policy: "retain Kalaignar's youthful 1940 elegy for A. T. Panneerselvam, Periyar movement framing, sun/sea imagery, Oman-sea grief, Dravidian self-respect rhetoric and closing vow"
 ---

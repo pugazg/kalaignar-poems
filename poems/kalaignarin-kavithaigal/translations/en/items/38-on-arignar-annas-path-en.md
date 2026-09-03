@@ -8,7 +8,7 @@ language: "en"
 source_scans: "362–371"
 printed_pages: "345–353"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/38.md"
 voice_policy: "retain Kalaignar's Mupperum Vizha frame, extended simile-strike conceit, Anna-name praise, Periyar/Anna rationalist contrast, critique of ritual-political appropriation, personal Anna memories, borrowed-heart refrain and closing self-respect pledge"
 ---

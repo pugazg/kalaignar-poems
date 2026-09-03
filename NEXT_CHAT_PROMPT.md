@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–09 reviewed PASS; 35/77 items; 311/439 item scans; Batch 10 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–10 reviewed PASS; 40/77 items; 355/439 item scans; Batch 11 NEXT**.
 
 ## Gate 4 durable output
 
@@ -151,7 +151,7 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 ## Phase 4 Batch 08 durable result
 
 - standing cadence: **five poems per iteration**;
-- Batches 01–09 **reviewed PASS**;
+- Batches 01–08 **reviewed PASS**;
 - reviewed items **30/77**;
 - reviewed item scans **271/439**;
 - Batch 08 items 26–30, scans **254–292 = 39/39**;
@@ -170,6 +170,18 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - unresolved translation issues **0**;
 - Tamil page/canonical changes **0**.
 
+## Phase 4 Batch 10 durable result
+
+- standing cadence: **five poems per iteration**;
+- Batches 01–10 **reviewed PASS**;
+- reviewed items **40/77**;
+- reviewed item scans **355/439**;
+- Batch 10 items 36–40, **44/44 item-owned scans**;
+- structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** excluded from poem translations;
+- title witnesses **1 exact / 4 authorised variants / 0 unresolved**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 10 — items 36–40**, physical span **333–378**, with **44/44 item-owned scans**. Structural scans **372–373 (`கண்ணீர்த் துளிகள்`)** stay outside poem translations. Preserve the authorised contents/canonical title variants for items 36, 37, 39 and 40 separately; item 38 is exact. Review together and do not alter Tamil `pages/` or `sections/`.
+Execute **Phase 4 Batch 11 — items 41–45**, physical span **379–395**, with **15/15 item-owned scans**. Structural scans **392–393 (`மலர்த் தோட்டம்`)** stay outside poem translations. Preserve the authorised contents/canonical title variants for items 41, 42 and 45 separately; items 43–44 are exact. Review together and do not alter Tamil `pages/` or `sections/`.

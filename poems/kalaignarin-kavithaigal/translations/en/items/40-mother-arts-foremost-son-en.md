@@ -8,7 +8,7 @@ language: "en"
 source_scans: "376–378"
 printed_pages: "359–361"
 title_witness_status: "variant — contents witness compounds தலைச்செல்வன் and omits the terminal !; canonical opening separates தலைச் செல்வன்!"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/40.md"
 voice_policy: "retain Kalaignar's elegy for N. S. Krishnan, laughter-as-medicine refrain, film/title wordplay, reformist stage persona, Russian art-tour memory, intimate grief and closing immortality-in-Tamil-hearts claim"
 ---
