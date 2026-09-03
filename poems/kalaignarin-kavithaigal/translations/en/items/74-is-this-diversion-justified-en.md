@@ -8,7 +8,7 @@ language: "en"
 source_scans: "453–454"
 printed_pages: "436–437"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/74.md"
 voice_policy: "retain the Hiranyaksha/Varaha/Bhuma/Narakasura myth retelling, rationalist questions, Aryan-Dravidian interpretation attributed by the source to Periyar/Anna/Nehru and Srinivasa Iyengar, and Diwali-purana challenge"
 ---

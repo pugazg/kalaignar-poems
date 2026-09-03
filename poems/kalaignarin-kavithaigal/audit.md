@@ -371,3 +371,22 @@ Scope: English translation/review of final-cleared canonical items **46–50**.
 ### Exact next Phase-4 activity
 
 **Batch 16 — items 66–70**, scans **433–445 = 13/13**; expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**.
+
+
+## Phase 4 Batches 16–18 audit — REVIEWED / PASS
+
+- items after Batch 18: **77/77**;
+- Batch-16 markers: **13/13 PASS — scans 433–445**;
+- Batch-17 markers: **11/11 PASS — scans 446–456**;
+- Batch-18 markers: **8/8 PASS — scans 457–464**;
+- cumulative reviewed item-owned scans: **439/439**;
+- final-sweep title witnesses: **7 exact / 5 authorised variants / 0 unresolved**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- scan **465** remains back cover outside poem translation.
+
+### Exact next Phase-4 activity
+
+Assemble the full English collection from all **77/77 batch-reviewed items**, then conduct the deferred editorial consistency review and prepare the release report.

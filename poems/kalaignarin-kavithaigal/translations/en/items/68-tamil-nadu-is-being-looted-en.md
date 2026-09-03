@@ -8,7 +8,7 @@ language: "en"
 source_scans: "438–439"
 printed_pages: "421–422"
 title_witness_status: "variant — canonical போகுதம்மா versus contents போதும்மா"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/68.md"
 voice_policy: "retain the corruption-bandicoot refrain, named source allegations, colloquial campaign cadence, TANSI/Omni-bus/beer-factory references and closing corruption catalogue as source claims"
 ---

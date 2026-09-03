@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 15
+## Durable state after Phase 4 Batch 18 — item translation review complete
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item-assigned scans; Batch 16 NEXT**.
+- Phase 4 English translation/release: **ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; collection assembly NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -370,6 +370,22 @@ Batch review: `translations/en/batches/batch-12.md`.
 
 Batch reviews: `translations/en/batches/batch-13.md`, `batch-14.md`, `batch-15.md`.
 
+## Phase 4 durable result — Batches 16–18
+
+- user-authorised final sweep: **12 remaining poems**, retained as Batches **16–18**;
+- Batch 16: items **66–70**, scans **433–445 = 13/13**, title witnesses **2 exact / 3 variants**;
+- Batch 17: items **71–75**, scans **446–456 = 11/11**, title witnesses **4 exact / 1 variant**;
+- Batch 18: items **76–77**, scans **457–464 = 8/8**, title witnesses **1 exact / 1 variant**;
+- combined final-sweep marker certification: **32/32 PASS**;
+- cumulative reviewed English items: **77/77**;
+- cumulative reviewed item-assigned scans: **439/439**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**;
+- scan **465** remains back cover outside poem translation.
+
+Batch reviews: `translations/en/batches/batch-16.md`, `batch-17.md`, `batch-18.md`.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -403,4 +419,4 @@ Before changing anything, read completely:
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 16 — items 66–70 (`நடையை நிறுத்தாதே!`, `பாமரர் நிறைந்த பட்டிக்காடு!`, `கொள்ளை போகுதம்மா தமிழ்நாடு`, `என்ன தேசமடா இது?`, `முகமூடி கிழித்தெறிவோம் வாரீர்!`)**. Read final-cleared `sections/66.md` through `sections/70.md` completely. Review all five complete items together across scans **433–445 = 13/13**. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.
+Execute **Phase 4 full English collection assembly** from the **77/77 batch-reviewed item translations**. Preserve item order, the four pure anthology structural divider/verso pairs, title-witness provenance and all item boundaries. Then perform the deferred **editorial consistency review** and prepare the **release report**. Do not alter Tamil `pages/` or `sections/` merely for English editorial preference.

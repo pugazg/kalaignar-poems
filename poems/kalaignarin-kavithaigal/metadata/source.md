@@ -28,7 +28,7 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; collection assembly NEXT**.
 
 ## Printed-page numbering behaviour
 
@@ -80,9 +80,9 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 ## Phase 4 translation metadata
 
 - Tamil source/canonical layer remains **FINAL-CLEARED**;
-- reviewed batches: **15**;
-- reviewed English items: **65/77**;
-- reviewed item scans: **407/439**;
+- reviewed batches: **18**;
+- reviewed English items: **77/77**;
+- reviewed item-assigned scans: **439/439**;
 - Batch 04 English items: `../translations/en/items/06-freedom-fighters-en.md` through `../translations/en/items/10-six-in-the-noble-scripture-en.md`;
 - Batch 04 review: `../translations/en/batches/batch-04.md`;
 - Batch 04 marker certification: **56/56 PASS**;
@@ -107,3 +107,17 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Batch 14 review: `../translations/en/batches/batch-14.md`; marker certification: **10/10 PASS**;
 - Batch 15 review: `../translations/en/batches/batch-15.md`; marker certification: **13/13 PASS**;
 - next translation batch: **items 66–70**, scans **433–445 = 13/13**.
+
+## Phase 4 item-translation completion
+
+- reviewed batches: **18/18**;
+- reviewed English items: **77/77**;
+- reviewed item-assigned source scans: **439/439**;
+- final sweep Batches 16–18: items **66–77**, scans **433–464 = 32/32**;
+- final-sweep title witnesses: **7 exact / 5 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Phase 4: **0**;
+- Tamil `sections/` changes during Phase 4: **0**;
+- item translation/review layer: **COMPLETE / PASS**;
+- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+

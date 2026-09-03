@@ -8,7 +8,7 @@ language: "en"
 source_scans: "450–452"
 printed_pages: "433–435"
 title_witness_status: "variant — contents witness omits terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/73.md"
 voice_policy: "retain the daily-news catalogue, temple theft/cholera/police-station allegations as source claims, Kanyakumari flood and chief-minister route satire, prices/taxes/corruption sequence, alliance mobilisation and November protest/full-shutdown close"
 ---

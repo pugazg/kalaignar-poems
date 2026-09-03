@@ -8,7 +8,7 @@ language: "en"
 source_scans: "440–442"
 printed_pages: "423–425"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/69.md"
 voice_policy: "retain the recurring country/fraud refrain, corruption and sycophancy catalogue, Harshad-Mehta reference, Periyar-Anna rationalist contrast, mythic Kunti/Gandhari satire and final Tamil uprising call"
 ---

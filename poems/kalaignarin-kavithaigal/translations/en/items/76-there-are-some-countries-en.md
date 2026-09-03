@@ -8,7 +8,7 @@ language: "en"
 source_scans: "457–460"
 printed_pages: "440–443"
 title_witness_status: "variant — contents witness omits terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/76.md"
 voice_policy: "retain the democracy-child conceit, coup/coronation blood imagery, banana-tree and banyan contrasts, Bangladesh/Mujibur/Bangabandhu/Ziaur Rahiman sequence and ball/bandhu wordplay without outside normalization"
 ---

@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; collection assembly NEXT**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -57,3 +57,17 @@ A user-designated word-for-word transcription may control lexical words only aft
 ## Next activity
 
 **Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**; translate/review all five complete poems and leave Tamil archival files unchanged.
+
+## Phase 4 item-translation completion
+
+- reviewed batches: **18/18**;
+- reviewed English items: **77/77**;
+- reviewed item-assigned source scans: **439/439**;
+- final sweep Batches 16–18: items **66–77**, scans **433–464 = 32/32**;
+- final-sweep title witnesses: **7 exact / 5 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Phase 4: **0**;
+- Tamil `sections/` changes during Phase 4: **0**;
+- item translation/review layer: **COMPLETE / PASS**;
+- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+

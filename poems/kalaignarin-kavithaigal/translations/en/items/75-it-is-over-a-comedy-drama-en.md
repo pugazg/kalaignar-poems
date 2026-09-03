@@ -8,7 +8,7 @@ language: "en"
 source_scans: "455–456"
 printed_pages: "438–439"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/75.md"
 voice_policy: "retain the parade spectacle, repeated stage cadence, queen/youth-speech mismatch, young-bulls/Indrajits address, dignitary explanation and farcical close"
 ---

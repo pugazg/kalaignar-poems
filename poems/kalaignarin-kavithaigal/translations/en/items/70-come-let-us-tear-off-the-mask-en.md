@@ -8,7 +8,7 @@ language: "en"
 source_scans: "443–445"
 printed_pages: "426–428"
 title_witness_status: "variant — canonical முகமூடி versus contents முடியுமா?"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/70.md"
 voice_policy: "retain the anti-fraud-ascetic polemic, Buddhist/Jain/Vedantic named sequence, varnashrama critique, sexual-abuse allegations as source claims, ashram-crime catalogue, Bharathidasan quotation and final mask-tearing mobilisation"
 ---

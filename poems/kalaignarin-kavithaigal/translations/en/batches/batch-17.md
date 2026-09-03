@@ -41,3 +41,22 @@ The batch preserves item 71's poisoned-root and poisonous-tree electoral imagery
 - item identities: **5/5**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
+
+## Certification result
+
+- exact scan-marker sequences: **11/11 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **4 exact / 1 authorised variant / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.
+
+## Final reviewed item blob witnesses
+
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 71 final blob: `00c9f36313f3cf012d7150afb4a7b070d7be0ce3`;
+- item 72 final blob: `6be1285d3f7e9221ce6d777c99666791e9e9fd6d`;
+- item 73 final blob: `e41f49b84a825acb93f1992d4fff5f5b3cdad17c`;
+- item 74 final blob: `e72af878fe79d08b2665d34449fb57a35d9f2633`;
+- item 75 final blob: `037b4a0bca699957d0863793202b995a7d333a94`;

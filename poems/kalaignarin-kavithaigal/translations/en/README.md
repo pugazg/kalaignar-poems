@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–15 reviewed PASS.**
+**PHASE 4 ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **15**;
-- reviewed English items: **65/77**;
-- item-assigned source scans covered by reviewed English: **407/439**;
+- reviewed English batches: **18**;
+- reviewed English items: **77/77**;
+- item-assigned source scans covered by reviewed English: **439/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -99,7 +99,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/64-let-it-sprout-as-seed-and-put-forth-roots-en.md` — reviewed English item 64;
 - `items/65-he-calls-the-sun-an-ice-cube-en.md` — reviewed English item 65.
 
-A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
+- `batches/batch-16.md` — reviewed Batch-16 record;
+- `batches/batch-17.md` — reviewed Batch-17 record;
+- `batches/batch-18.md` — reviewed final-remainder Batch-18 record;
+- `items/66-dont-stop-your-stride-en.md` through `items/77-you-bless-your-footwear-en.md` — reviewed English items 66–77.
+
+All **77/77** item translations are now reviewed. Full English collection assembly is next, followed by editorial consistency review and the release report.
 
 ## Translation principles
 

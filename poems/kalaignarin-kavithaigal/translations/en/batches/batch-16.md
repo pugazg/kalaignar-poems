@@ -43,3 +43,22 @@ The batch preserves item 66's journey/obstacle structure and `கடமை / க
 - item identities: **5/5**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
+
+## Certification result
+
+- exact scan-marker sequences: **13/13 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.
+
+## Final reviewed item blob witnesses
+
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 66 final blob: `c645b70ecf6ec7556e4349d0166fbeae64e851b6`;
+- item 67 final blob: `f4d68d7dbd0a738ec8380edf22500a8a6b65a00b`;
+- item 68 final blob: `a447046ee95a5ca278d7ace674d699ba42762e4b`;
+- item 69 final blob: `2b45e3ec508f071849eb3bcb0413edfe681a6c85`;
+- item 70 final blob: `5642a9c7fac5da73b11be8695c7ff00e8472022b`;

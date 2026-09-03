@@ -8,7 +8,7 @@ language: "en"
 source_scans: "461–464"
 printed_pages: "444–447"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/77.md"
 voice_policy: "retain the birthday self-retrospect, Koḷili/Thirukkuvalai–Thiruvarur–Erode–Kanchi journey, Periyar/Anna intimacy, railway-track/prison/Pondicherry ordeals, ideal-versus-office metaphor, opportunist-birds/horse/ladder images and final footwear-servant conceit"
 ---

@@ -8,7 +8,7 @@ language: "en"
 source_scans: "446–447"
 printed_pages: "429–430"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/71.md"
 voice_policy: "retain the poisoned-root/noxious-tree images, election warning, ten-and-a-half-touch purity metaphor, privatisation critique and youth uprising close"
 ---

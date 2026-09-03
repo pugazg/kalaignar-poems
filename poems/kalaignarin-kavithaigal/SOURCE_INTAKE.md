@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item-assigned scans; item translation review COMPLETE; collection assembly NEXT**.
 
 ## Structural rules retained
 
@@ -78,7 +78,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 - Batches 01–15: **reviewed PASS**;
 - reviewed items: **65/77**;
-- reviewed item scans: **407/439**;
+- reviewed item-assigned scans: **439/439**;
 - Batch 04: items **6–10**, scans **72–127 = 56/56**;
 - structural scans **70–71** remain outside poem translations;
 - unresolved reviewed translation issues: **0**;
@@ -93,3 +93,17 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Batch 14 marker certification: **10/10 PASS**;
 - Batch 15 marker certification: **13/13 PASS**;
 - exact next: **Batch 16 items 66–70**, scans **433–445 = 13/13**.
+
+## Phase 4 item-translation completion
+
+- reviewed batches: **18/18**;
+- reviewed English items: **77/77**;
+- reviewed item-assigned source scans: **439/439**;
+- final sweep Batches 16–18: items **66–77**, scans **433–464 = 32/32**;
+- final-sweep title witnesses: **7 exact / 5 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Phase 4: **0**;
+- Tamil `sections/` changes during Phase 4: **0**;
+- item translation/review layer: **COMPLETE / PASS**;
+- next ordered activity: **full English collection assembly**, then editorial consistency review and release report.
+

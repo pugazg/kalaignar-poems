@@ -8,7 +8,7 @@ language: "en"
 source_scans: "448–449"
 printed_pages: "431–432"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/72.md"
 voice_policy: "retain the Parasakthi/Udumalaiyar reference, crow/caw/sycophancy wordplay, repeated kākkā refrain, caste and ritual satire, reservation reference and final Jai/J pun"
 ---

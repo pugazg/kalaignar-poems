@@ -40,3 +40,19 @@ The item-77 source itself contains two age witnesses: the body calls this the sp
 ## Next activity after PASS
 
 Once Batch 18 is mechanically certified, all **77/77** English item translations and **439/439** item-assigned source scans will be reviewed. The next ordered Phase-4 activity is therefore **full English collection assembly**, followed by the repository's deferred **editorial consistency review and release report**. No Tamil source/canonical file should be changed merely for English editorial preference.
+
+## Certification result
+
+- exact scan-marker sequences: **8/8 PASS**;
+- item identities: **2/2 PASS**;
+- title witnesses: **1 exact / 1 authorised variant / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.
+
+## Final reviewed item blob witnesses
+
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 76 final blob: `b3c2471b7291894afd38540459b1d5df58d0d179`;
+- item 77 final blob: `730f352dc48642d5d20079c9b2203ff67814f4da`;

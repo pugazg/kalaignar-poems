@@ -8,7 +8,7 @@ language: "en"
 source_scans: "435–437"
 printed_pages: "418–420"
 title_witness_status: "variant — contents witness has பாமர் and omits terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/67.md"
 voice_policy: "retain the repeated panchayat refrain, personified Maya, Panchali newspaper-burning satire, absurd claims, god-self equation and hand-raising-doll close"
 ---

@@ -99,6 +99,18 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 63 | `ஒரு சொட்டுத் தேன்!` | `ஒரு சொட்டுத் தேன்` | **A Drop of Honey!** | 425–427 | 408–410 | `items/63-a-drop-of-honey-en.md` | **batch-reviewed — PASS** |
 | 64 | `விதையாய் முளைத்து விழுதுகள் விடட்டும்!` | `விதையாய் முளைத்து விழுதுகள் விட்டோம்` | **Let It Sprout as Seed and Put Forth Roots!** | 428 | 411 | `items/64-let-it-sprout-as-seed-and-put-forth-roots-en.md` | **batch-reviewed — PASS** |
 | 65 | `சூரியனைப் பனிக்கட்டி என்கின்றார்!` | `சூரியனைப் பனிக்கட்டி என்கிறாய்!` | **He Calls the Sun an Ice Cube!** | 429–432 | 412–415 | `items/65-he-calls-the-sun-an-ice-cube-en.md` | **batch-reviewed — PASS** |
+| 66 | `நடையை நிறுத்தாதே!` | `நடையை நிறுத்தாதே!` | **Don't Stop Your Stride!** | 433–434 | 416–417 | `items/66-dont-stop-your-stride-en.md` | **batch-reviewed — PASS** |
+| 67 | `பாமரர் நிறைந்த பட்டிக்காடு!` | `பாமர் நிறைந்த பட்டிக்காடு` | **A Backwater Full of Ignorant Folk!** | 435–437 | 418–420 | `items/67-a-backwater-full-of-ignorant-folk-en.md` | **batch-reviewed — PASS** |
+| 68 | `கொள்ளை போகுதம்மா தமிழ்நாடு` | `கொள்ளை போதும்மா தமிழ்நாடு` | **Tamil Nadu Is Being Looted** | 438–439 | 421–422 | `items/68-tamil-nadu-is-being-looted-en.md` | **batch-reviewed — PASS** |
+| 69 | `என்ன தேசமடா இது?` | `என்ன தேசமடா இது?` | **What Kind of Country Is This?** | 440–442 | 423–425 | `items/69-what-kind-of-country-is-this-en.md` | **batch-reviewed — PASS** |
+| 70 | `முகமூடி கிழித்தெறிவோம் வாரீர்!` | `முடியுமா? கிழித்தெறிவோம் வாரீர்!` | **Come, Let Us Tear Off the Mask!** | 443–445 | 426–428 | `items/70-come-let-us-tear-off-the-mask-en.md` | **batch-reviewed — PASS** |
+| 71 | `பதில் என்ன? பகர்ந்திடுக!` | `பதில் என்ன? பகர்ந்திடுக!` | **What Is the Answer? Tell Us!** | 446–447 | 429–430 | `items/71-what-is-the-answer-tell-us-en.md` | **batch-reviewed — PASS** |
+| 72 | `கா, கா, கா!` | `கா, கா, கா!` | **Kā, Kā, Kā!** | 448–449 | 431–432 | `items/72-ka-ka-ka-en.md` | **batch-reviewed — PASS** |
+| 73 | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!` | `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்` | **Let Us Rise in the East Like the Sun!** | 450–452 | 433–435 | `items/73-let-us-rise-in-the-east-like-the-sun-en.md` | **batch-reviewed — PASS** |
+| 74 | `திசை திருப்பல் நியாயம்தானா?` | `திசை திருப்பல் நியாயம்தானா?` | **Is This Diversion Justified?** | 453–454 | 436–437 | `items/74-is-this-diversion-justified-en.md` | **batch-reviewed — PASS** |
+| 75 | `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` | `நடந்து முடிந்ததம்மா; ஒரு நகைச்சுவை நாடகம்!` | **It Is Over—a Comedy Drama!** | 455–456 | 438–439 | `items/75-it-is-over-a-comedy-drama-en.md` | **batch-reviewed — PASS** |
+| 76 | `சில நாடுகள் இருக்கின்றன!` | `சில நாடுகள் இருக்கின்றன` | **There Are Some Countries!** | 457–460 | 440–443 | `items/76-there-are-some-countries-en.md` | **batch-reviewed — PASS** |
+| 77 | `உன் காலணியை வாழ்த்துகிறாய்` | `உன் காலணியை வாழ்த்துகிறாய்` | **You Bless Your Footwear** | 461–464 | 444–447 | `items/77-you-bless-your-footwear-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -153,9 +165,9 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **15**;
-- reviewed English items: **65/77**;
-- reviewed item-assigned scans: **407/439**;
+- reviewed English batches: **18**;
+- reviewed English items: **77/77**;
+- reviewed item-assigned scans: **439/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
@@ -247,3 +259,14 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 ## Exact next mapping activity
 
 Add reviewed mappings for **items 66–70** after Phase-4 Batch 16 passes. Batch 16 owns **13/13 item scans** across physical span **433–445**. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.
+
+
+### Items 66–77 provenance notes
+
+- Batches 16–18 cover the final **32/32** item-owned scans **433–464**; scan **465** is the back cover and is not poem content;
+- title witnesses across items 66–77: **7 exact / 5 authorised variants / 0 unresolved**;
+- item 72 retains `கா / காக்கா` sound-play and item 76 retains the `வங்க பந்து / பந்து` kin/ball wordplay through explicit translator notes;
+- item 77 retains both the body’s 57th-birthday wording and the closing 58th-birthday source note;
+- all **77/77** canonical Tamil items now have one **batch-reviewed — PASS** English item;
+- reviewed English provenance covers **439/439** item-assigned scans;
+- Tamil page/canonical modifications during Phase 4 remain **0**.

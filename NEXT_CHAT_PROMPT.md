@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**.
+- Phase 4 English translation/release **ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS; 77/77 items; 439/439 item scans; collection assembly NEXT**.
 
 ## Gate 4 durable output
 
@@ -220,6 +220,17 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - unresolved translation issues **0**;
 - Tamil page/canonical changes **0**.
 
+## Phase 4 Batches 16–18 durable result
+
+- final 12-poem sweep complete: items **66–77**;
+- Batch 16 scans **433–445 = 13/13**; Batch 17 scans **446–456 = 11/11**; Batch 18 scans **457–464 = 8/8**;
+- combined marker certification **32/32 PASS**;
+- title witnesses **7 exact / 5 authorised variants / 0 unresolved**;
+- cumulative reviewed English **77/77 items, 439/439 item scans**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**;
+- item translation/review layer **COMPLETE / PASS**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 16 — items 66–70**, physical span **433–445**, with **13/13 item-owned scans**. Preserve the authorised contents/canonical title variants for items 67, 68 and 70 separately; items 66 and 69 are exact. Review together and do not alter Tamil `pages/` or `sections/`.
+Execute **Phase 4 full English collection assembly** from all **77/77 batch-reviewed item translations**. Preserve source order, pure anthology structural divider/verso provenance, canonical/contents title distinctions and item boundaries. After assembly, run the deferred **editorial consistency review** and prepare the **release report**. Leave Tamil `pages/` and `sections/` unchanged unless a genuine source-backed discrepancy is independently demonstrated.

@@ -8,7 +8,7 @@ language: "en"
 source_scans: "433–434"
 printed_pages: "416–417"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/66.md"
 voice_policy: "retain the sibling address, journey/obstacle architecture, movement vocabulary, duty-dignity-discipline triad, press satire and honey-poison warning"
 ---
