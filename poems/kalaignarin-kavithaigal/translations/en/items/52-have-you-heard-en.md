@@ -8,7 +8,7 @@ language: "en"
 source_scans: "406"
 printed_pages: "389"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/52.md; verified page record pages/0406.md consulted for title-history and source publication note"
 voice_policy: "retain Kalaignar's direct challenge to the landlord, land/temple contrast, poor-people lament, colloquial title form and closing Bharata-hero question"
 ---

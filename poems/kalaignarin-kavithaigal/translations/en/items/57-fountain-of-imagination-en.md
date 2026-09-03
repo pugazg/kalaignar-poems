@@ -8,7 +8,7 @@ language: "en"
 source_scans: "413–414"
 printed_pages: "396–397"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/57.md"
 voice_policy: "retain the 1971 Orlando travel context, fountain-as-dancer sequence, Apollo/rocket image, goldsmith and sacrificial-blood colour imagery, Margazhi kolam comparison and closing sari joke"
 ---

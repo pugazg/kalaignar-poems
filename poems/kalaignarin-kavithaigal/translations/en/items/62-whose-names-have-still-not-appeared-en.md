@@ -8,7 +8,7 @@ language: "en"
 source_scans: "422–424"
 printed_pages: "405–407"
 title_witness_status: "variant — contents witness inserts spaced hyphens in யார் - யார் and omits canonical terminal ?"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/62.md"
 voice_policy: "retain direct sibling/fundraising address, Pari/Kumanan generosity exempla, நிதி personal-name/fund wordplay, treasury-pregnancy/family-planning satire, corruption-tumour metaphor, Murasoli name-list pressure, Periyakulam appeal and Karunanidhi/fund name echo"
 ---

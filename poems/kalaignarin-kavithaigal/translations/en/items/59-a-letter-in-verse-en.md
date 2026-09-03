@@ -8,7 +8,7 @@ language: "en"
 source_scans: "417"
 printed_pages: "400"
 title_witness_status: "variant — contents witness omits the canonical terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/59.md"
 voice_policy: "retain direct உடன்பிறப்பே address, movement-discipline warning, India/Vindhya-Himalaya imagery, DMK national-duty claim, immediate shelving of demands in a national crisis and peace/public-service close"
 ---

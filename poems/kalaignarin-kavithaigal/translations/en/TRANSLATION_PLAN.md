@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–12 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–15 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **12**;
-- items: **50/77**;
-- item-assigned source scans: **379/439**;
+- batches: **15**;
+- items: **65/77**;
+- item-assigned source scans: **407/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -87,8 +87,11 @@ Standing user cadence from Batch 05 onward: **process five complete adjacent poe
 | 10 | 36–40 | 333–378 item-owned scans; structural 372–373 excluded | **reviewed — PASS** |
 | 11 | 41–45 | 379–395 item-owned scans; structural 392–393 excluded | **reviewed — PASS** |
 | 12 | 46–50 | 396–404 | **reviewed — PASS** |
-| 13 | 51–55 | 405–409 | **NEXT** |
-| later | 56–77 | five complete items per iteration (final remainder excepted) | pending |
+| 13 | 51–55 | 405–409 | **reviewed — PASS** |
+| 14 | 56–60 | 410–419 | **reviewed — PASS** |
+| 15 | 61–65 | 420–432 | **reviewed — PASS** |
+| 16 | 66–70 | 433–445 | **NEXT** |
+| later | 71–77 | five complete items per iteration (final remainder excepted) | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -220,6 +223,10 @@ Batch 11 reviewed complete items **41–45** with **15/15 item-owned scans** acr
 
 Batch 12 reviewed complete items **46–50** across scans **396–404 = 9/9**. There is no separate anthology structural scan inside the batch. Title witnesses are **2 exact + 3 authorised variants**. The reviewed translations preserve Anna's every-day-is-birthday paradox and source-visible broken brooding-hen join; the `அன்பழக` Anbazhaga address and sixtieth-jubilee movement imagery; Soundarapandian rationalist biography and `சவுந்தரம்` / `அய்யப்பன்–பொய்யப்பா` wordplay; the 1945 widow-remarriage double-standard poem; and the 1945 Puranic/chastity satire without devotional harmonisation. Tamil `pages/`/`sections/` changes remain **0**.
 
+## Batches 13–15 decision record
+
+User-authorised 15-poem iteration completed as three normal five-poem review units: **Batch 13 items 51–55 (5/5 scans 405–409), Batch 14 items 56–60 (10/10 scans 410–419), and Batch 15 items 61–65 (13/13 scans 420–432)**. Combined coverage: **28/28 item-owned scans**; title witnesses **7 exact + 8 authorised variants / 0 unresolved**. Review preserved the 1945 polemical miniatures and source-backed title corrections; the prison/parrot and Orlando-fountain sequences; drought, movement-duty and office-seeking rhetoric; named language-agitation memorials; election-fund and campaign wordplay; Pongal/Rising-Sun imagery; and the four-scan *Ananda Vikatan* rebuttal. Semantic review corrected item 57's closing “luckily alone” joke and item 63's `பணத்தோட்டா` money-bullet image before certification. Tamil `pages/`/`sections/` changes remain **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 13 — items 51–55**: `புயல் என அறிக!`, `கேட்டுண்டோ?`, `வருணமா? மரணமா?`, `தோல்வி எப்பொழுது?`, `இன்றுமா கூச்சல்?`. Process all five complete poems across scans **405–409 = 5/5**. There is no separate anthology structural scan inside this batch. Expected title witnesses: **4 exact / 1 authorised variant / 0 unresolved**. Leave Tamil `pages/` and `sections/` unchanged.
+Execute **Phase 4 Batch 16 — items 66–70**: `நடையை நிறுத்தாதே!`, `பாமரர் நிறைந்த பட்டிக்காடு!`, `கொள்ளை போகுதம்மா தமிழ்நாடு`, `என்ன தேசமடா இது?`, `முகமூடி கிழித்தெறிவோம் வாரீர்!`. Process all five complete poems across scans **433–445 = 13/13**. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**. Leave Tamil `pages/` and `sections/` unchanged.

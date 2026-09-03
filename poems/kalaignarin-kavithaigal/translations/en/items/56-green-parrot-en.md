@@ -8,7 +8,7 @@ language: "en"
 source_scans: "410–412"
 printed_pages: "393–395"
 title_witness_status: "variant — canonical title separates பச்சைக் கிளி while contents witness compounds பச்சைக்கிளி"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/56.md"
 voice_policy: "retain Kalaignar's playful vegetable-and-flower portrait of the parrot, cage/prison identification, repeated apology and freedom promise, political-imprisonment turn and final reciprocal-caging question"
 ---

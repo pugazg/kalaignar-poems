@@ -8,7 +8,7 @@ language: "en"
 source_scans: "405"
 printed_pages: "388"
 title_witness_status: "variant — contents witness omits the canonical terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/51.md; verified page record pages/0405.md consulted for source publication note"
 voice_policy: "retain Kalaignar's anti-myth polemic, Saivite hagiographic violence references, direct address to claimed true devotees, net/myth image, breeze-versus-storm contrast and 1945 publication note"
 ---

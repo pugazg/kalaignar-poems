@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEWED — PASS, pending mechanical promotion/certification.**
+**REVIEWED — PASS.**
 
 Batch 14 covers canonical items **56–60**, the middle five poems in the user-authorised 15-poem iteration.
 
@@ -40,5 +40,15 @@ The batch preserves the parrot/prison political allegory; the 1971 Orlando fount
 - item 60: **418–419 = 2/2**;
 - total: **10/10**;
 - item identities: **5/5**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.
+
+
+## Certification result
+
+- exact scan-marker sequences: **10/10 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **3 exact / 2 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.

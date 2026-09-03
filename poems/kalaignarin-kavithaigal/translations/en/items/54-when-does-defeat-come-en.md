@@ -8,7 +8,7 @@ language: "en"
 source_scans: "408"
 printed_pages: "391"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/54.md; verified page record pages/0408.md consulted for source publication note"
 voice_policy: "retain the absurd animal reversals, victorious Tamil bull imagery, fox/crab comparison, foreign okra-warrior insult and warning that cowardice hands victory away"
 ---

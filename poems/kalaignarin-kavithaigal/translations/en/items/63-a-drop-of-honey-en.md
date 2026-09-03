@@ -8,7 +8,7 @@ language: "en"
 source_scans: "425–427"
 printed_pages: "408–410"
 title_witness_status: "variant — contents witness omits the canonical terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/63.md"
 voice_policy: "retain the old-song quotation, election-stage framing, money-bullet/decoration contrast, black-money pond image, repeated star separators, bitterness-drop/flood and honey-drop metaphors, Anna-brother crown, storm/tiger-cub mobilisation and sweat/no-rest campaign close"
 ---

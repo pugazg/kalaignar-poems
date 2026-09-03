@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEWED — PASS, pending mechanical promotion/certification.**
+**REVIEWED — PASS.**
 
 Batch 13 covers canonical items **51–55**, the first five poems in the user-authorised 15-poem iteration.
 
@@ -38,5 +38,15 @@ The batch preserves the 1945 publication notes from verified page records, the G
 - item 55: **409 = 1/1**;
 - total: **5/5**;
 - item identities: **5/5**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.
+
+
+## Certification result
+
+- exact scan-marker sequences: **5/5 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **4 exact / 1 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.

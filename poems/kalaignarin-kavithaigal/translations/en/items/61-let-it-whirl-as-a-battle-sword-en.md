@@ -8,7 +8,7 @@ language: "en"
 source_scans: "420–421"
 printed_pages: "403–404"
 title_witness_status: "variant — canonical சுழலட்டும்! versus contents சுழலட்டுமே!"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/61.md"
 voice_policy: "retain the direct address to the southern breeze, language-martyr self-immolation memorial, named dead and injured activists, fire/ice inversion, source objection to the method, worship/weeping/rising sequence and battle-sword close"
 ---

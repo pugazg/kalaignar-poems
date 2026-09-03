@@ -8,7 +8,7 @@ language: "en"
 source_scans: "407"
 printed_pages: "390"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/53.md; verified page record pages/0407.md consulted for source publication note"
 voice_policy: "retain the varna/death title antithesis, parani martial-literary opening, attack on selfish schemers, honour-at-death climax and direct call to martial Tamil"
 ---

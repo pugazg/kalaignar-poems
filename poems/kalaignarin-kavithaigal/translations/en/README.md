@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–12 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–15 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **12**;
-- reviewed English items: **50/77**;
-- item-assigned source scans covered by reviewed English: **379/439**;
+- reviewed English batches: **15**;
+- reviewed English items: **65/77**;
+- item-assigned source scans covered by reviewed English: **407/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -80,6 +80,24 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/48-rationalist-pandianar-en.md` — reviewed English item 48;
 - `items/49-scales-of-justice-en.md` — reviewed English item 49;
 - `items/50-would-they-accept-en.md` — reviewed English item 50.
+- `batches/batch-13.md` — reviewed Batch-13 record;
+- `items/51-know-it-as-a-storm-en.md` — reviewed English item 51;
+- `items/52-have-you-heard-en.md` — reviewed English item 52;
+- `items/53-varna-or-death-en.md` — reviewed English item 53;
+- `items/54-when-does-defeat-come-en.md` — reviewed English item 54;
+- `items/55-still-this-clamour-en.md` — reviewed English item 55;
+- `batches/batch-14.md` — reviewed Batch-14 record;
+- `items/56-green-parrot-en.md` — reviewed English item 56;
+- `items/57-fountain-of-imagination-en.md` — reviewed English item 57;
+- `items/58-o-sky-pour-down-en.md` — reviewed English item 58;
+- `items/59-a-letter-in-verse-en.md` — reviewed English item 59;
+- `items/60-will-he-realise-who-knows-en.md` — reviewed English item 60;
+- `batches/batch-15.md` — reviewed Batch-15 record;
+- `items/61-let-it-whirl-as-a-battle-sword-en.md` — reviewed English item 61;
+- `items/62-whose-names-have-still-not-appeared-en.md` — reviewed English item 62;
+- `items/63-a-drop-of-honey-en.md` — reviewed English item 63;
+- `items/64-let-it-sprout-as-seed-and-put-forth-roots-en.md` — reviewed English item 64;
+- `items/65-he-calls-the-sun-an-ice-cube-en.md` — reviewed English item 65.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -274,6 +292,17 @@ Standing five-poem iteration covering items **46–50** across scans **396–404
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batches 13–15
+
+**Reviewed — PASS.** User-authorised 15-poem iteration completed as three five-poem batches.
+
+- Batch 13: items **51–55**, scans **405–409 = 5/5**, title witnesses **4 exact / 1 variant**;
+- Batch 14: items **56–60**, scans **410–419 = 10/10**, title witnesses **3 exact / 2 variants**;
+- Batch 15: items **61–65**, scans **420–432 = 13/13**, title witnesses **0 exact / 5 variants**;
+- combined markers: **28/28 PASS**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 13 — items 51–55**, scans **405–409 = 5/5**. There is no separate anthology structural scan inside the batch. Expected title witnesses: **4 exact / 1 authorised variant / 0 unresolved**.
+Execute **Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**. Review all five complete final-cleared items and do not alter Tamil `pages/` or `sections/`.

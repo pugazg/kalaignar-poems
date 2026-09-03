@@ -8,7 +8,7 @@ language: "en"
 source_scans: "415–416"
 printed_pages: "398–399"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/58.md"
 voice_policy: "retain the 23 March 1975 drought context, sky-as-person direct address, tears/smile/thunder-speech imagery, honour-and-slander political turn, Hindu-Muslim-Christian appeal, three-rains classical allusion and water-hand close"
 ---

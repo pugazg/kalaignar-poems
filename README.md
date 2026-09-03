@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–12 reviewed PASS; 50/77 items; 379/439 item scans; Batch 13 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -48,7 +48,7 @@ Gate 6 formally confirms Gates 1–5 are all PASS and records the Tamil source/c
 
 ## Phase 4 translation progress
 
-Batches 01–12 now cover items **1–50**. The reviewed English layer covers **50/77 items** and **379/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Batch 04 is the user-authorized expanded items 6–10 batch across scans **72–127**; structural scans **70–71** remain outside poem translations. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
+Batches 01–15 now cover items **1–65**. The reviewed English layer covers **65/77 items** and **407/439 item-assigned source scans** with **0** unresolved reviewed translation issues. The latest user-authorised iteration processed items 51–65 as Batches 13–15. Batch 04 is the user-authorized expanded items 6–10 batch across scans **72–127**; structural scans **70–71** remain outside poem translations. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
 
 ## Supplied lexical controls
 
@@ -56,4 +56,4 @@ A user-designated word-for-word transcription may control lexical words only aft
 
 ## Next activity
 
-**Phase 4 Batch 13 — items 51–55**, scans **405–409 = 5/5**. There is no separate anthology structural scan inside the batch. Expected title witnesses **4 exact / 1 authorised variant / 0 unresolved**; translate/review all five complete poems and leave Tamil archival files unchanged.
+**Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**; translate/review all five complete poems and leave Tamil archival files unchanged.

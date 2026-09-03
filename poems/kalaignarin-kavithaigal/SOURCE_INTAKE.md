@@ -27,7 +27,7 @@ A renderer previously exposed only 150 pages; this is not the source boundary. P
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–12 reviewed PASS; 50/77 items; 379/439 item scans; Batch 13 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**.
 
 ## Structural rules retained
 
@@ -68,7 +68,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Next phase gate
 
-**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–12 are reviewed PASS; Batch 13 items 51–55 are next.
+**Phase 4 — English translation and release workflow is IN PROGRESS.** Batches 01–15 are reviewed PASS; Batch 16 items 66–70 are next.
 
 ## Tamil final clearance
 
@@ -76,9 +76,9 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
 ## Phase 4 translation state
 
-- Batches 01–12: **reviewed PASS**;
-- reviewed items: **50/77**;
-- reviewed item scans: **379/439**;
+- Batches 01–15: **reviewed PASS**;
+- reviewed items: **65/77**;
+- reviewed item scans: **407/439**;
 - Batch 04: items **6–10**, scans **72–127 = 56/56**;
 - structural scans **70–71** remain outside poem translations;
 - unresolved reviewed translation issues: **0**;
@@ -89,4 +89,7 @@ Evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Batch 10 marker certification: **44/44 PASS**, with structural scans **372–373** excluded;
 - Batch 11 marker certification: **15/15 PASS**, with structural scans **392–393** excluded;
 - Batch 12 marker certification: **9/9 PASS**;
-- exact next: **Batch 13 items 51–55**, scans **405–409 = 5/5**.
+- Batch 13 marker certification: **5/5 PASS**;
+- Batch 14 marker certification: **10/10 PASS**;
+- Batch 15 marker certification: **13/13 PASS**;
+- exact next: **Batch 16 items 66–70**, scans **433–445 = 13/13**.

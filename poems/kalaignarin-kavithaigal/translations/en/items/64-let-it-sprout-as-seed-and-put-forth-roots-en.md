@@ -8,7 +8,7 @@ language: "en"
 source_scans: "428"
 printed_pages: "411"
 title_witness_status: "variant — canonical imperative விடட்டும்! versus contents past/plural form விட்டோம்"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/64.md"
 voice_policy: "retain Pongal agrarian personification, paddy-maiden/bride imagery, தைதை sound play, darkness/light/sculpture sequence, Rising Sun political resonance and seed-to-banyan-prop-root ethnic-pride close"
 ---

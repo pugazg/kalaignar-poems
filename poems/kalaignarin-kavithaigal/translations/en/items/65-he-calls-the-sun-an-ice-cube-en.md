@@ -8,7 +8,7 @@ language: "en"
 source_scans: "429–432"
 printed_pages: "412–415"
 title_witness_status: "variant — canonical respectful third-person என்கின்றார்! versus contents second-person என்கிறாய்!"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/65.md"
 voice_policy: "retain Ananda Vikatan rebuttal, sceptre/pen contrast, Kannadasan quotation, Mukhari and thavil satire, Chennai-Delhi dispute, Emergency/MISA account, Bharathidasan song/path allusion, 1967 cartoon recollection, donkey/camphor proverb resonance and sun/ice-cube close"
 ---

@@ -8,7 +8,7 @@ language: "en"
 source_scans: "409"
 printed_pages: "392"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/55.md; verified page record pages/0409.md consulted for title-history and source publication note"
 voice_policy: "retain the Cauvery/Pennai opening, attack on Ganges-centred history, Chera-Chola-Pandya challenge, student/cadre intervention and closing taunt without rewriting the source's history claim"
 ---

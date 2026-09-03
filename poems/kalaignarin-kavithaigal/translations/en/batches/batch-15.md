@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEWED — PASS, pending mechanical promotion/certification.**
+**REVIEWED — PASS.**
 
 Batch 15 covers canonical items **61–65**, the final five poems in the user-authorised 15-poem iteration.
 
@@ -57,3 +57,13 @@ Under the normal five-poem cadence, **Batch 16 = items 66–70**:
 5. `முகமூடி கிழித்தெறிவோம் வாரீர்!` — scans **443–445**, authorised lexical variant versus contents `முடியுமா? கிழித்தெறிவோம் வாரீர்!`.
 
 Batch-16 item-owned scan total: **13/13** across physical span **433–445**. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.
+
+
+## Certification result
+
+- exact scan-marker sequences: **13/13 PASS**;
+- item identities: **5/5 PASS**;
+- title witnesses: **0 exact / 5 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.

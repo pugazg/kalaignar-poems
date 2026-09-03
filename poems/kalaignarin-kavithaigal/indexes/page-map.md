@@ -72,7 +72,7 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–12 reviewed PASS; 50/77 items; 379/439 item scans; Batch 13 NEXT**;
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**;
 
 ## Phase 3 Gate 6 — Tamil final clearance COMPLETE / PASS
 
@@ -80,4 +80,4 @@ Evidence: `../PHASE3_TAMIL_FINAL_CLEARANCE.md`. All Gates 1–5 remain PASS; unr
 
 ## Phase 4 translation note
 
-Phase 4 Batches 01–12 reviewed items **1–50** across **379/439** item-assigned scans. Batch 12 certifies **9/9** item-owned scan markers across physical span **396–404**. Translation milestones change no scan↔page mapping and no Tamil page/canonical file. Exact next: Batch 13 items **51–55**, scans **405–409 = 5/5**.
+Phase 4 Batches 01–15 reviewed items **1–65** across **407/439** item-assigned scans. Batches 13–15 certify **28/28** item-owned scan markers across physical span **405–432**. Translation milestones change no scan↔page mapping and no Tamil page/canonical file. Exact next: Batch 16 items **66–70**, scans **433–445 = 13/13**.

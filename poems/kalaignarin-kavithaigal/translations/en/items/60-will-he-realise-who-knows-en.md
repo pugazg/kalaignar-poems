@@ -8,7 +8,7 @@ language: "en"
 source_scans: "418–419"
 printed_pages: "401–402"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/60.md"
 voice_policy: "retain repeated திட்டித் தீர்க்கின்றார் refrain, office-seeking satire, self-respect contrast, money/position motives, elephant-tiger/white-nosed-horse and ant/spear comparisons, quoted ten-headed phrase, Tirukkural close and refusal to answer abuse"
 ---

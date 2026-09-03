@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–12 reviewed PASS; 50/77 items; 379/439 item scans; Batch 13 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–15 reviewed PASS; 65/77 items; 407/439 item scans; Batch 16 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -85,12 +85,12 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Phase 4 — English translation
 
-**IN PROGRESS — Batches 01–12 reviewed PASS.**
+**IN PROGRESS — Batches 01–15 reviewed PASS.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **12**;
-- reviewed items: **50/77**;
-- reviewed item-assigned scans: **379/439**;
+- reviewed batches: **15**;
+- reviewed items: **65/77**;
+- reviewed item-assigned scans: **407/439**;
 - Batch 04: items 6–10 across scans **72–127**, **56/56 PASS**;
 - title decisions in Batch 04: **4 exact / 1 authorised variant**;
 - unresolved reviewed translation issues: **0**;
@@ -98,4 +98,4 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Next activity
 
-**Phase 4 Batch 13 — items 51–55**, scans **405–409 = 5/5**. There is no separate anthology structural scan inside the batch. Expected title witnesses **4 exact / 1 authorised variant / 0 unresolved**; review all five complete final-cleared items before advancing.
+**Phase 4 Batch 16 — items 66–70**, scans **433–445 = 13/13**. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**; review all five complete final-cleared items before advancing.
