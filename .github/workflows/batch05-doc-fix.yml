@@ -1,0 +1,32 @@
+name: Batch05 Documentation Fix
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/batch05-doc-fix.yml'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Repair Batch 05 durable history
+        run: python scripts/batch05_doc_fix.py
+      - name: Validate documentation-only diff
+        run: |
+          git diff --check
+          bad=$(git diff --name-only | grep -vE '^(HANDOVER\.md|poems/kalaignarin-kavithaigal/translations/en/batches/batch-05\.md|\.github/workflows/batch05-doc-fix\.yml|scripts/batch05_doc_fix\.py)$' || true)
+          if [ -n "$bad" ]; then
+            echo "$bad" >&2
+            exit 1
+          fi
+      - name: Commit repair and self-remove runner
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Repair Kalaignarin Kavithaigal Batch 05 handover history'
+          git push
