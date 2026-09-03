@@ -20,20 +20,22 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import subprocess
-          p=Path('poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md')
+          workflow='.github/workflows/kavithaigal-release-status-fix.yml'
+          plan='poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md'
+          p=Path(plan)
           t=p.read_text()
           old='**PHASE 4 ITEM TRANSLATION REVIEW COMPLETE — Batches 01–18 reviewed PASS.**'
           new='**PHASE 4 COMPLETE — Batches 01–18 reviewed PASS; full English collection RELEASE-CLEARED.**'
           if old not in t:
               raise SystemExit('status target missing')
           p.write_text(t.replace(old,new,1))
-          Path('.github/workflows/kavithaigal-release-status-fix.yml').unlink()
+          Path(workflow).unlink()
           subprocess.run(['git','config','user.name','github-actions[bot]'],check=True)
           subprocess.run(['git','config','user.email','41898282+github-actions[bot]@users.noreply.github.com'],check=True)
           subprocess.run(['git','add','-A'],check=True)
           changed=subprocess.check_output(['git','diff','--cached','--name-only'],text=True).splitlines()
-          if changed != ['poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md']:
-              raise SystemExit(f'unexpected net files: {changed}')
+          if sorted(changed) != sorted([workflow,plan]):
+              raise SystemExit(f'unexpected staged files: {changed}')
           subprocess.run(['git','commit','-m','Correct Kalaignarin Kavithaigal release status'],check=True)
           subprocess.run(['git','push','origin','HEAD:main'],check=True)
           PY
