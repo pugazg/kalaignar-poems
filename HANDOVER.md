@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 04
+## Durable state after Phase 4 Batch 05
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -164,9 +164,9 @@ Batch 03 preserves the Hiranyan/Prahlada counter-myth, source-form Tamil wordpla
 ## Phase 4 durable result — Batch 04
 
 - user-authorized expanded batch: **items 6–10**;
-- reviewed batches: **5**;
-- reviewed English items: **15/77**;
-- reviewed item-assigned source scans: **153/439**;
+- reviewed batches: **4**;
+- reviewed English items: **10/77**;
+- reviewed item-assigned source scans: **106/439**;
 - Batch 04 source scans: **72–127 = 56/56**;
 - structural anthology scans **70–71** remain outside poem translations;
 - item 6 `விடுதலை வீரர்கள்` → **Freedom Fighters**;
@@ -231,7 +231,7 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-04.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-05.md`).
 
 ## EXACT NEXT ACTIVITY
 

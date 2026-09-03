@@ -106,7 +106,7 @@ Preserved:
 
 ## Mechanical certification — PASS
 
-The finalizer must verify exact marker sequences:
+The finalizer verified these exact marker sequences:
 
 - item 11: **128–137 = 10/10**;
 - item 12: **138–143 = 6/6**;
@@ -115,7 +115,7 @@ The finalizer must verify exact marker sequences:
 - item 15: **170–174 = 5/5**;
 - batch total: **47/47**.
 
-It must also confirm:
+It also confirmed:
 
 - all five English files still identify items 11–15 correctly;
 - item 12 retains the canonical/contents title distinction;
