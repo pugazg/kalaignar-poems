@@ -1,0 +1,22 @@
+name: Kalaignarin Kavithaigal assemble and release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: github.event.head_commit.message == 'Run Kalaignarin Kavithaigal English release assembly'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Assemble, review and release-clear
+        run: python .github/scripts/kavithaigal_assemble_release.py
