@@ -37,6 +37,8 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 1 | `இதயத்தைத் தந்திடு அண்ணா` | `இதயத்தைத் தந்திடு அண்ணா!` | **Give Me Your Heart, Anna** | 18–31 | 3–14 | `items/01-give-me-your-heart-anna-en.md` | **batch-reviewed — PASS** |
 | 2 | `தென்னவன் காதை` | `தென்னவன் காதை` | **The Tale of the Southerner** | 34–42 | 17–25 | `items/02-the-tale-of-the-southerner-en.md` | **batch-reviewed — PASS** |
 | 3 | `இந்திரஜித்` | `இந்திரஜித்` | **Indrajit** | 43–54 | 26–37 | `items/03-indrajit-en.md` | **batch-reviewed — PASS** |
+| 4 | `இரணியன்` | `இரணியன்` | **Hiranyan** | 55–61 | 38–44 | `items/04-hiranyan-en.md` | **batch-reviewed — PASS** |
+| 5 | `வாளி மன்னன்` | `வாளி மன்னன்` | **King Vali** | 62–69 | 45–52 | `items/05-king-vali-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -57,14 +59,24 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - item 3 retains the scan-47 large-illustration note and scan-54 closing `✤`;
 - no Tamil page or canonical item was changed by Batch 02.
 
+### Items 4–5 provenance notes
+
+- item **4** owns scans **55–61** exactly, **7/7** represented;
+- item **5** owns scans **62–69** exactly, **8/8** represented;
+- both canonical titles exactly match their contents witnesses;
+- there is no separate anthology structural scan within scans **55–69**;
+- item 4 preserves the source's Hiranyan/Prahlada counter-myth, Tamil wordplay/source-form expressions and closing `✤` without altering Tamil;
+- item 5 preserves Tara's full political confrontation, the Sugriva/Hanuman cave plot, Rama/Vali hidden-arrow accusation and closing `✤`;
+- no Tamil page or canonical item was changed by Batch 03.
+
 ## Progress
 
-- reviewed English batches: **2**;
-- reviewed English items: **3/77**;
-- reviewed item-assigned scans: **35/439**;
+- reviewed English batches: **3**;
+- reviewed English items: **5/77**;
+- reviewed item-assigned scans: **50/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 4–5 (`இரணியன்`, `வாளி மன்னன்`)** after Phase-4 Batch 03 passes.
+Add reviewed mappings for **items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)** after Phase-4 Batch 04 passes. Preserve structural group-divider/verso scans **70–71** outside poem translations.
