@@ -114,7 +114,7 @@ Preserved:
 
 ## Mechanical certification target
 
-The finalizer must verify these exact scan-marker sequences:
+The finalizer verified these exact scan-marker sequences:
 
 - item 31: **293–296 = 4/4**;
 - item 32: **297–310 = 14/14**;
@@ -123,7 +123,7 @@ The finalizer must verify these exact scan-marker sequences:
 - item 35: **329–332 = 4/4**;
 - batch total: **40/40**.
 
-It must also confirm:
+It also confirmed:
 
 - all five English files identify items 31–35 correctly;
 - title witnesses remain **2 exact / 3 authorised variants / 0 unresolved**;
@@ -154,7 +154,15 @@ Title-witness expectation: **1 exact / 4 authorised variants / 0 unresolved**.
 - item 34 draft blob: `f5cfe2bd20705be08714f2bc1f782ae24ffb54aa`;
 - item 35 draft blob: `3feba3913819afb9a28f1ef596d00b1784d822cd`.
 
-Final reviewed blob SHAs will be appended after mechanical certification.
+## Final reviewed item blob witnesses
+
+These are the exact item blobs certified after `status` promotion to `batch-reviewed`:
+
+- item 31 final blob: `20d3f8818ba495af8f2d28a8e5756664779431e9`;
+- item 32 final blob: `4616106cac77bfa3f8df6dff51c6281bea771976`;
+- item 33 final blob: `2a7fdf67240b63317c030c34b945e2ed7df18667`;
+- item 34 final blob: `d382675b4bd9a087a6b0be1bcfd536f6c1d42316`;
+- item 35 final blob: `b2be1dbe7f0f18c0da2e7aaf14b0aa00f1388609`.
 
 ## Certification result
 
