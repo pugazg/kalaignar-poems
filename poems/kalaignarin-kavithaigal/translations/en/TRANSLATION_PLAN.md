@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–02 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–03 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **2**;
-- items: **3/77**;
-- item-assigned source scans: **35/439**;
+- batches: **3**;
+- items: **5/77**;
+- item-assigned source scans: **50/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -81,8 +81,9 @@ Batch size is adaptive to source length and complexity:
 |---:|---:|---:|---|
 | 01 | 1 | 18–31 | **reviewed — PASS** |
 | 02 | 2–3 | 34–54 | **reviewed — PASS** |
-| 03 | 4–5 | 55–69 | **NEXT** |
-| later | 6–77 | adaptive complete-item batches | pending |
+| 03 | 4–5 | 55–69 | **reviewed — PASS** |
+| 04 | 6–7 | 72–89 | **NEXT** |
+| later | 8–77 | adaptive complete-item batches | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -140,6 +141,26 @@ The reviewed translation preserves:
 - source-visible final `ஆஎன்` interpreted only at English level as a lamenting `Alas`, without Tamil modification;
 - all source illustrations/closing ornaments as structural notes.
 
+## Batch 03 decision record
+
+Items 4–5 are adjacent complete counter-mythic items spanning scans **55–69** and are reviewed together.
+
+The reviewed translation preserves:
+
+- item 4 `இரணியன்` as **Hiranyan**, without silently expanding the title to an outside mythological identity;
+- Hiranyan as the source's Tamil/Dravidian king, the alternate source names `பெருந்தகை வேந்து` and `பிறைநுதலான்`, and the three-part Tirukkural wordplay;
+- the tutor satire around `வாள் / வால்`, `வேல்`, `களம்`, source-sensitive `ஓதியமிலார்-ஓணான் குஞ்சு-`, and `அரி நமோத்து சிந்தமென` without silent external normalisation;
+- the source's sexualised mythological catalogue and Prahlada/Asha Devi sequence as polemical rhetoric;
+- the magnetised-pillar / iron-footwear / concealed lion-attacker narrative and the later Narasinga story exactly as Kalaignar's source claim;
+- the closing contemporary reference to countless Prahladas at Aryanism's feet;
+- item 5 `வாளி மன்னன்` as **King Vali**, with both exact title witnesses;
+- Tara's political confrontation, rebuttal of Sugriva's gendered insult, legal authority and final grief without abridgement;
+- the Avunan/cave/boulder/coronation plot and Vali's return in source order;
+- Rama's source-quoted erotic description of Sita and Sugriva's condition for aid without devotional harmonisation;
+- the source's `வாளி` name explanation, hidden-arrow accusation, honour/front-wound rhetoric and final challenge to Rama;
+- `கணவனுடன் சென்றாள்` conservatively as "went with her husband" without adding a mechanism absent from the Tamil;
+- both closing `✤` ornaments.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**, translate both complete final-cleared items from `../../sections/04.md` and `../../sections/05.md`, review them as one batch across scans **55–69**, update the English source map, and leave Tamil final-cleared files unchanged.
+Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)** from the Tamil final-cleared canonical layer. Keep structural group-divider/verso scans **70–71** outside poem translations, translate both complete items across scans **72–89**, review them together, and leave Tamil final-cleared files unchanged.
