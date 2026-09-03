@@ -8,7 +8,7 @@ language: "en"
 source_scans: "245–253"
 printed_pages: "228–236"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/25.md"
 voice_policy: "retain Kalaignar's New-Year oratory, -ஆல் instrumental-suffix wordplay, mother-love parable, welfare/policy rhetoric, six-theme guest-poet structure, art-and-rule argument and closing work ethic"
 ---

@@ -8,7 +8,7 @@ language: "en"
 source_scans: "227–229"
 printed_pages: "210–212"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/22.md"
 voice_policy: "retain Kalaignar's direct elegiac address to Anna, public-welfare imagery, repeated presence refrain, DMK lamp metaphor and closing political resolve"
 ---

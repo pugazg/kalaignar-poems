@@ -228,3 +228,26 @@ Scope: English translation/review of final-cleared canonical items **16–20**.
 ### Exact next Phase-4 activity
 
 **Batch 07 — items 21–25**. Preserve the intentional physical interposition exactly: item 23 = **230–236, 238** and item 24 = **237, 239–244**.
+
+
+## Phase 4 Batch 07 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical items **21–25**.
+
+- items after Batch 07: **25/77**;
+- Batch-07 item-owned scans: **36/36**;
+- cumulative reviewed item-owned scans: **232/439**;
+- title witnesses: **5 exact / 0 variants / 0 unresolved**;
+- exact English scan-marker sequences: **36/36 PASS**;
+- item 23 provenance: **230–236, 238 PASS**;
+- item 24 provenance: **237, 239–244 PASS**;
+- physical interposition **230–236 → 237 → 238 → 239–244**: **PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-07.md`.
+
+### Exact next Phase-4 activity
+
+**Batch 08 — items 26–30**, scans **254–292 = 39/39**.

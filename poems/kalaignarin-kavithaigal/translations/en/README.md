@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–06 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–07 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **6**;
-- reviewed English items: **20/77**;
-- item-assigned source scans covered by reviewed English: **196/439**;
+- reviewed English batches: **7**;
+- reviewed English items: **25/77**;
+- item-assigned source scans covered by reviewed English: **232/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -44,6 +44,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/18-arithmetic-en.md` — reviewed English item 18;
 - `items/19-democracy-as-nehru-saw-it-en.md` — reviewed English item 19;
 - `items/20-thank-you-thank-you-en.md` — reviewed English item 20.
+- `batches/batch-07.md` — reviewed Batch-07 record;
+- `items/21-silver-jubilee-en.md` — reviewed English item 21;
+- `items/22-anna-is-here-en.md` — reviewed English item 22;
+- `items/23-anna-a-poetry-assembly-en.md` — reviewed English item 23;
+- `items/24-a-walking-journey-for-tamil-to-flourish-en.md` — reviewed English item 24;
+- `items/25-for-the-world-to-flourish-en.md` — reviewed English item 25.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -146,6 +152,22 @@ Standing five-poem iteration covering items **16–20** across scans **175–217
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 07
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **21–25** with **36/36** item-owned scans.
+
+- item 21 `வெள்ளி விழா` → **Silver Jubilee**, scans **218–226**;
+- item 22 `அண்ணன் இருக்கின்றார்` → **Anna Is Here**, scans **227–229**;
+- item 23 `அண்ணன் ஒரு கவியரங்கம்` → **Anna, a Poetry Assembly**, scans **230–236, 238**;
+- item 24 `தமிழ் வளர வழிநடைப் பயணம்` → **A Walking Journey for Tamil to Flourish**, scans **237, 239–244**;
+- item 25 `வையம் தழைக்க` → **For the World to Flourish**, scans **245–253**;
+- title witnesses: **5 exact / 0 variants**;
+- intentional physical interposition: **preserved**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Item-owned scans total **36/36** across physical interval **218–253**. Preserve the intentional source interposition **230–236 → 237 → 238 → 239–244** exactly.
+Execute **Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**.

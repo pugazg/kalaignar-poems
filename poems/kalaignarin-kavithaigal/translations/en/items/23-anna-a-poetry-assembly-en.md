@@ -8,7 +8,7 @@ language: "en"
 source_scans: "230–236, 238"
 printed_pages: "213–219, 221"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/23.md"
 voice_policy: "retain Kalaignar's Anna-as-kaviyarangam conceit, welfare-offering liturgy, imagined Anna voice, Tamil-language reform wordplay, movement history, state-autonomy argument and non-contiguous source provenance"
 ---

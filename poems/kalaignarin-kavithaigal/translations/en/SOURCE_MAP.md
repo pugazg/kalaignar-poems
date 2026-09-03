@@ -54,6 +54,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 18 | `கணக்கு` | `கணக்கு` | **Arithmetic** | 197–204 | 180–187 | `items/18-arithmetic-en.md` | **batch-reviewed — PASS** |
 | 19 | `நேரு கண்ட ஜனநாயகம்` | `நேரு கண்ட ஜனநாயகம்` | **Democracy as Nehru Saw It** | 205–215 | 188–198 | `items/19-democracy-as-nehru-saw-it-en.md` | **batch-reviewed — PASS** |
 | 20 | `நன்றி, நன்றி!` | `நன்றி, நன்றி!` | **Thank You, Thank You!** | 216–217 | 199–200 | `items/20-thank-you-thank-you-en.md` | **batch-reviewed — PASS** |
+| 21 | `வெள்ளி விழா` | `வெள்ளி விழா` | **Silver Jubilee** | 218–226 | 201–209 | `items/21-silver-jubilee-en.md` | **batch-reviewed — PASS** |
+| 22 | `அண்ணன் இருக்கின்றார்` | `அண்ணன் இருக்கின்றார்` | **Anna Is Here** | 227–229 | 210–212 | `items/22-anna-is-here-en.md` | **batch-reviewed — PASS** |
+| 23 | `அண்ணன் ஒரு கவியரங்கம்` | `அண்ணன் ஒரு கவியரங்கம்` | **Anna, a Poetry Assembly** | 230–236, 238 | 213–219, 221 | `items/23-anna-a-poetry-assembly-en.md` | **batch-reviewed — PASS** |
+| 24 | `தமிழ் வளர வழிநடைப் பயணம்` | `தமிழ் வளர வழிநடைப் பயணம்` | **A Walking Journey for Tamil to Flourish** | 237, 239–244 | 220, 222–227 | `items/24-a-walking-journey-for-tamil-to-flourish-en.md` | **batch-reviewed — PASS** |
+| 25 | `வையம் தழைக்க` | `வையம் தழைக்க` | **For the World to Flourish** | 245–253 | 228–236 | `items/25-for-the-world-to-flourish-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -108,9 +113,9 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **6**;
-- reviewed English items: **20/77**;
-- reviewed item-assigned scans: **196/439**;
+- reviewed English batches: **7**;
+- reviewed English items: **25/77**;
+- reviewed item-assigned scans: **232/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
@@ -125,6 +130,18 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - there are no pure anthology structural scans inside **175–217**;
 - no Tamil page or canonical item was changed by Batch 06.
 
+### Items 21–25 provenance notes
+
+- item 21 owns scans **218–226** (**9/9** represented);
+- item 22 owns scans **227–229** (**3/3** represented);
+- item 23 owns scans **230–236, 238** (**8/8** represented);
+- item 24 owns scans **237, 239–244** (**7/7** represented);
+- item 25 owns scans **245–253** (**9/9** represented);
+- all five canonical titles exactly match their contents witnesses;
+- the physical source order **230–236 → 237 → 238 → 239–244** is preserved without renumbering or reordering;
+- there are no pure anthology structural scans inside the Batch-07 item set;
+- no Tamil page or canonical item was changed by Batch 07.
+
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 21–25** after Phase-4 Batch 07 passes. Preserve the item-23/item-24 interposition exactly: item 23 = **230–236, 238**; item 24 = **237, 239–244**.
+Add reviewed mappings for **items 26–30** after Phase-4 Batch 08 passes. Batch-08 source interval: **254–292 = 39/39 item-owned scans**.

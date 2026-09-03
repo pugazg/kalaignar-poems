@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–06 reviewed PASS; 20/77 items; 196/439 item scans; Batch 07 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–07 reviewed PASS; 25/77 items; 232/439 item scans; Batch 08 NEXT**.
 
 ## Gate 4 durable output
 
@@ -135,6 +135,19 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - unresolved translation issues **0**;
 - Tamil page/canonical changes **0**.
 
+## Phase 4 Batch 07 durable result
+
+- standing cadence: **five poems per iteration**;
+- Batches 01–07 **reviewed PASS**;
+- reviewed items **25/77**;
+- reviewed item scans **232/439**;
+- Batch 07 items 21–25, **36/36 item-owned scans**;
+- item 23 = **230–236, 238**; item 24 = **237, 239–244**;
+- physical interposition preserved **230–236 → 237 → 238 → 239–244**;
+- title witnesses **5 exact / 0 variants / 0 unresolved**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Process all five complete poems in this iteration. Preserve item 23 scans **230–236, 238** and item 24 scans **237, 239–244** exactly in the source's physical order **230–236 → 237 → 238 → 239–244**. Review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`.
+Execute **Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**. Process all five complete poems in this iteration, review together, update Phase-4 source mapping/status, and do not alter Tamil `pages/` or `sections/`.

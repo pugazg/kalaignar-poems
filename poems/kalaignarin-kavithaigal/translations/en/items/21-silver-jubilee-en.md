@@ -8,7 +8,7 @@ language: "en"
 source_scans: "218–226"
 printed_pages: "201–209"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/21.md"
 voice_policy: "retain Kalaignar's Independence Silver Jubilee oratory, named-freedom-fighter sequence, political warnings, guest-poet hand-offs, source claims and closing Bharathidasan quotation"
 ---

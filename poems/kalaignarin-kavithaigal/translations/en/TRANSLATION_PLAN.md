@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–06 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–07 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **6**;
-- items: **20/77**;
-- item-assigned source scans: **196/439**;
+- batches: **7**;
+- items: **25/77**;
+- item-assigned source scans: **232/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -81,8 +81,9 @@ Standing user cadence from Batch 05 onward: **process five complete adjacent poe
 | 04 | 6–10 | 72–127 | **reviewed — PASS** |
 | 05 | 11–15 | 128–174 | **reviewed — PASS** |
 | 06 | 16–20 | 175–217 | **reviewed — PASS** |
-| 07 | 21–25 | 218–253 | **NEXT** |
-| later | 26–77 | five complete items per iteration (final remainder excepted) | pending |
+| 07 | 21–25 | 218–253 | **reviewed — PASS** |
+| 08 | 26–30 | 254–292 | **NEXT** |
+| later | 31–77 | five complete items per iteration (final remainder excepted) | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -190,6 +191,10 @@ The reviewed translation preserves:
 
 Batch 06 reviewed complete items **16–20** across scans **175–217 = 43/43**. All five title witnesses are exact. The reviewed translations preserve Pongal agrarian/political wordplay; the life-road education/office/wealth/art/fame/devotion structure; arithmetic operation satire; Nehru floral elegy, secular-democratic and rights sequence; and the improvised `நன்றி` stage poem. Tamil `pages/`/`sections/` changes remain **0**.
 
+## Batch 07 decision record
+
+Batch 07 reviewed complete items **21–25** across **36/36 item-owned scans**. All five title witnesses are exact. The reviewed translations preserve the Silver-Jubilee freedom-fighter sequence; Anna-presence elegy; Anna-as-*kaviyarangam* conceit and movement/state-rights rhetoric; the eight-path Pari-festival journey; and the six-theme `-ஆல்` New-Year structure. The intentional item-23/item-24 physical interposition **230–236 → 237 → 238 → 239–244** is preserved exactly. Tamil `pages/`/`sections/` changes remain **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 07 — items 21–25 (`வெள்ளி விழா`, `அண்ணன் இருக்கின்றார்`, `அண்ணன் ஒரு கவியரங்கம்`, `தமிழ் வளர வழிநடைப் பயணம்`, `வையம் தழைக்க`)**. Preserve item 23 scans **230–236, 238** and item 24 scans **237, 239–244** without source reordering; the physical sequence **230–236 → 237 → 238 → 239–244** is intentional.
+Execute **Phase 4 Batch 08 — items 26–30 (`தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `பொங்கல் விழா`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`)**, scans **254–292 = 39/39**.

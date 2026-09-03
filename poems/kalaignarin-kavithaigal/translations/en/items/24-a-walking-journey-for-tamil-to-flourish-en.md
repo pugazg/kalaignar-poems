@@ -8,7 +8,7 @@ language: "en"
 source_scans: "237, 239–244"
 printed_pages: "220, 222–227"
 title_witness_status: "exact"
-status: "batch-review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/24.md"
 voice_policy: "retain Kalaignar's Pari-festival landscape opening, Tamil courage rhetoric, moustache imagery, eight-path architecture, guest-poet hand-offs, route/path wordplay and non-contiguous source provenance"
 ---
