@@ -154,7 +154,7 @@ Batch 02 preserves the two exact title witnesses, the Ravana/Indrajit counter-ep
 - Batch 03 source scans: **55–69 = 15/15**;
 - title witnesses: **2 exact / 0 variants**;
 - reviewed English items: `translations/en/items/04-hiranyan-en.md` and `translations/en/items/05-king-vali-en.md`;
-- Batch-03 review: `translations/en/batches/batch-04.md`;
+- Batch-03 review: `translations/en/batches/batch-03.md`;
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` changes during Batch 03: **0**;
 - Tamil `sections/` changes during Batch 03: **0**.
