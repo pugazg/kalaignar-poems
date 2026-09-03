@@ -415,7 +415,7 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-15.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-18.md`).
 
 ## EXACT NEXT ACTIVITY
 
