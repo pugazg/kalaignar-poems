@@ -10,7 +10,7 @@ printed_pages: "408–410"
 title_witness_status: "variant — contents witness omits the canonical terminal !"
 status: "review-pending"
 translation_basis: "Tamil final-cleared canonical sections/63.md"
-voice_policy: "retain the old-song quotation, election-stage framing, money/decoration contrast, black-money pond image, repeated star separators, bitterness-drop/flood and honey-drop metaphors, Anna-brother crown, storm/tiger-cub mobilisation and sweat/no-rest campaign close"
+voice_policy: "retain the old-song quotation, election-stage framing, money-bullet/decoration contrast, black-money pond image, repeated star separators, bitterness-drop/flood and honey-drop metaphors, Anna-brother crown, storm/tiger-cub mobilisation and sweat/no-rest campaign close"
 ---
 
 # A Drop of Honey!
@@ -29,7 +29,7 @@ to tear away the disguise of the “holy,”
 to make wicked deeds fall,
 we have donned the garb of battle!
 This election is one stage of it!
-Money is being poured out by the basket;
+They shower money-bullets;
 decorations leap and dance;
 coloured lights steal the eye!
 With black money they will cover even “the pond”!
@@ -100,4 +100,4 @@ and seize victory!
 
 ## Translator note
 
-The `★` divisions are source structure and remain explicit. “The pond” is kept in quotation marks because the Tamil itself marks `குளத்தையே` that way; no outside referent is supplied. The poem's honey/drop, bitterness/drop and pot imagery is intentionally recurrent and is not flattened.
+The `★` divisions are source structure and remain explicit. `பணத்தோட்டா` is rendered as “money-bullets,” preserving the cartridge/bullet campaign image. “The pond” is kept in quotation marks because the Tamil itself marks `குளத்தையே` that way; no outside referent is supplied. The poem's honey/drop, bitterness/drop and pot imagery is intentionally recurrent and is not flattened.
