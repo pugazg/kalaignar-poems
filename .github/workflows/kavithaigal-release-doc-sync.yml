@@ -1,0 +1,17 @@
+name: Kalaignarin Kavithaigal release documentation sync
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/kavithaigal-release-doc-sync.yml'
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run guarded documentation sync
+        run: python .github/scripts/kavithaigal_release_doc_sync.py
