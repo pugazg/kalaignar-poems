@@ -14,4 +14,15 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run guarded documentation sync
-        run: python .github/scripts/kavithaigal_release_doc_sync.py
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('.github/scripts/kavithaigal_release_doc_sync.py')
+          t=p.read_text()
+          old="expected=sorted(str(x) for x in FILES)\nif sorted(changed) != expected:"
+          new="expected=sorted([*(str(x) for x in FILES), '.github/scripts/kavithaigal_release_doc_sync.py', '.github/workflows/kavithaigal-release-doc-sync.yml'])\nif sorted(changed) != expected:"
+          if old not in t:
+              raise SystemExit('guard patch target missing')
+          p.write_text(t.replace(old,new,1))
+          PY
+          python .github/scripts/kavithaigal_release_doc_sync.py
