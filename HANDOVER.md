@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 10
+## Durable state after Phase 4 Batch 11
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–10 reviewed PASS; 40/77 items; 355/439 item-assigned scans; Batch 11 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–11 reviewed PASS; 45/77 items; 370/439 item-assigned scans; Batch 12 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -309,6 +309,28 @@ Batch review: `translations/en/batches/batch-09.md`.
 
 Batch review: `translations/en/batches/batch-10.md`.
 
+## Phase 4 durable result — Batch 11
+
+- standing user cadence: **five poems per iteration**;
+- reviewed batches: **11**;
+- reviewed English items: **45/77**;
+- reviewed item-assigned source scans: **370/439**;
+- Batch 11 items: **41–45**;
+- Batch 11 item-owned scans: **15/15** across physical span **379–395**;
+- structural scans **392–393 (`மலர்த் தோட்டம்`)** remain outside poem translations;
+- item 41 → **We Move as Your Shadow!**;
+- item 42 → **Long Live Jeeva**;
+- item 43 → **The Fallen Hero**;
+- item 44 → **My Dear Friend! Why Did You Leave?**;
+- item 45 → **Today Is Your Birthday**;
+- marker certification: **15/15 PASS**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 11: **0**;
+- Tamil `sections/` changes during Batch 11: **0**.
+
+Batch review: `translations/en/batches/batch-11.md`.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -338,8 +360,8 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-10.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-11.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 11 — items 41–45 (`உன் நிழலாக அசைகின்றோம்!`, `வாழ்க ஜீவா`, `மறைந்த மாவீரன்`, `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, `இன்றைக்கு உன்றன் பிறந்த நாள்`)**. Read final-cleared `sections/41.md` through `sections/45.md` completely. Preserve structural scans **392–393 (`மலர்த் தோட்டம்`)** outside poem translations. Review all five complete items together; item-owned scan total **15/15** across physical span **379–395**; expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.
+Execute **Phase 4 Batch 12 — items 46–50 (`அவன் பிறந்தநாள் என ஒன்றில்லை!`, `அருமருந்தே! அன்பழக உடன்பிறப்பே!`, `பகுத்தறிவுப் பாண்டியனார்!`, `நியாயத் தராசு`, `ஏற்பாரோ?`)**. Read final-cleared `sections/46.md` through `sections/50.md` completely. Review all five complete items together across scans **396–404 = 9/9**; there is no separate anthology structural scan inside the batch. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.

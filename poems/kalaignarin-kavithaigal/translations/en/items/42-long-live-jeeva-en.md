@@ -8,7 +8,7 @@ language: "en"
 source_scans: "382–383"
 printed_pages: "365–366"
 title_witness_status: "variant — contents witness adds a terminal !; canonical opening does not"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/42.md"
 voice_policy: "retain the fragrance word-chain, Jeeva's early public-life commitment, prison/service contrast, Thamarai flower/publication pun, storm-like oratory, revolutionary-tiger imagery and final long-live refrain"
 ---

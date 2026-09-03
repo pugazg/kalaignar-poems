@@ -8,7 +8,7 @@ language: "en"
 source_scans: "390–391"
 printed_pages: "373–374"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/44.md"
 voice_policy: "retain Kalaignar's intimate Kannadasan elegy, breeze/fire friendship contrast, anril-bird inseparability, grave-as-mother imagery, movement-history hurt, field/crop friendship metaphor, fickle-mind/enduring-fame paradox and final unforgettable-presence close"
 ---

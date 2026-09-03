@@ -8,7 +8,7 @@ language: "en"
 source_scans: "379–381"
 printed_pages: "362–364"
 title_witness_status: "variant — contents witness omits the canonical terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/41.md"
 voice_policy: "retain Kalaignar's direct address to Anna, seventy-five/sixty refrain, Tamil-and-English oratorical imagery, movement/literary awakening, Periyar lineage, social-equality argument and shadow close"
 ---

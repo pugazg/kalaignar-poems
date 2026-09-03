@@ -2,7 +2,7 @@
 
 ## Status
 
-**REVIEWED — PASS, pending mechanical promotion/certification.**
+**REVIEWED — PASS.**
 
 Batch 11 follows the standing instruction to process **five complete poems per iteration** and covers canonical items **41–45**.
 
@@ -157,3 +157,14 @@ Title-witness expectation: **2 exact / 3 authorised variants / 0 unresolved**.
 - item 45 draft blob: `9c69b266acc5153f167151e6caaa61645b4e53ca`.
 
 Final reviewed blob SHAs will be appended after mechanical certification.
+
+
+## Certification result
+
+- exact scan-marker sequences: **15/15 PASS**;
+- item identities: **5/5 PASS**;
+- structural scans **392–393** excluded from all five English item files: **PASS**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.

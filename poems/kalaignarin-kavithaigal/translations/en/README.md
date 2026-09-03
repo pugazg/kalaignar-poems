@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–10 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–11 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **10**;
-- reviewed English items: **40/77**;
-- item-assigned source scans covered by reviewed English: **355/439**;
+- reviewed English batches: **11**;
+- reviewed English items: **45/77**;
+- item-assigned source scans covered by reviewed English: **370/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -68,6 +68,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/38-on-arignar-annas-path-en.md` — reviewed English item 38;
 - `items/39-panneerselvam-en.md` — reviewed English item 39;
 - `items/40-mother-arts-foremost-son-en.md` — reviewed English item 40.
+- `batches/batch-11.md` — reviewed Batch-11 record;
+- `items/41-we-move-as-your-shadow-en.md` — reviewed English item 41;
+- `items/42-long-live-jeeva-en.md` — reviewed English item 42;
+- `items/43-the-fallen-hero-en.md` — reviewed English item 43;
+- `items/44-my-dear-friend-why-did-you-leave-en.md` — reviewed English item 44;
+- `items/45-today-is-your-birthday-en.md` — reviewed English item 45.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -232,6 +238,21 @@ Standing five-poem iteration covering items **36–40** with **44/44 item-owned 
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 11
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **41–45** with **15/15 item-owned scans** across physical span **379–395**. Structural scans **392–393 (`மலர்த் தோட்டம்`)** remain outside poem bodies.
+
+- item 41 → **We Move as Your Shadow!**, scans **379–381**;
+- item 42 → **Long Live Jeeva**, scans **382–383**;
+- item 43 → **The Fallen Hero**, scans **384–389**;
+- item 44 → **My Dear Friend! Why Did You Leave?**, scans **390–391**;
+- item 45 → **Today Is Your Birthday**, scans **394–395**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 11 — items 41–45**, with **15/15 item-owned scans** across physical span **379–395**. Keep structural scans **392–393 (`மலர்த் தோட்டம்`)** outside poem translations. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.
+Execute **Phase 4 Batch 12 — items 46–50**, scans **396–404 = 9/9**. There is no separate anthology structural scan inside the batch. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.

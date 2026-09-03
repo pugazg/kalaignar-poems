@@ -304,6 +304,22 @@ Scope: English translation/review of final-cleared canonical items **36–40**.
 - Tamil canonical-item changes: **0**;
 - batch evidence: `translations/en/batches/batch-10.md`.
 
+## Phase 4 Batch 11 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical items **41–45**.
+
+- items after Batch 11: **45/77**;
+- Batch-11 item-owned scans: **15/15** across physical span **379–395**;
+- cumulative reviewed item-owned scans: **370/439**;
+- structural scans **392–393 (`மலர்த் தோட்டம்`)** excluded from poem translations: **PASS**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- exact English scan-marker sequences: **15/15 PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-11.md`.
+
 ### Exact next Phase-4 activity
 
-**Batch 11 — items 41–45**, with **15/15 item-owned scans** across physical span **379–395**. Preserve structural scans **392–393 (`மலர்த் தோட்டம்`)** outside poem translations; expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**.
+**Batch 12 — items 46–50**, scans **396–404 = 9/9**. There is no separate anthology structural scan inside the batch; expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**.

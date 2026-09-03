@@ -28,7 +28,7 @@ An older page renderer exposed only pages 1–150 and reported `total_pages: 150
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–10 reviewed PASS; 40/77 items; 355/439 item scans; Batch 11 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–11 reviewed PASS; 45/77 items; 370/439 item scans; Batch 12 NEXT**.
 
 ## Printed-page numbering behaviour
 
@@ -80,9 +80,9 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 ## Phase 4 translation metadata
 
 - Tamil source/canonical layer remains **FINAL-CLEARED**;
-- reviewed batches: **10**;
-- reviewed English items: **40/77**;
-- reviewed item scans: **355/439**;
+- reviewed batches: **11**;
+- reviewed English items: **45/77**;
+- reviewed item scans: **370/439**;
 - Batch 04 English items: `../translations/en/items/06-freedom-fighters-en.md` through `../translations/en/items/10-six-in-the-noble-scripture-en.md`;
 - Batch 04 review: `../translations/en/batches/batch-04.md`;
 - Batch 04 marker certification: **56/56 PASS**;
@@ -99,4 +99,6 @@ Evidence: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 - Batch 09 marker certification: **40/40 PASS**;
 - Batch 10 review: `../translations/en/batches/batch-10.md`;
 - Batch 10 marker certification: **44/44 PASS**, structural scans **372–373** excluded;
-- next translation batch: **items 41–45**, **15/15 item scans** across physical span **379–395**, preserving structural scans **392–393** outside poem translations.
+- Batch 11 review: `../translations/en/batches/batch-11.md`;
+- Batch 11 marker certification: **15/15 PASS**, structural scans **392–393** excluded;
+- next translation batch: **items 46–50**, scans **396–404 = 9/9**.

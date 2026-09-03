@@ -8,7 +8,7 @@ language: "en"
 source_scans: "384–389"
 printed_pages: "367–372"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/43.md"
 voice_policy: "retain Kalaignar's dramatic K.V.K. Sami elegy, lover-warrior dialogue, liberation-before-love argument, sea/pearl imagery, movement mobilization, assassination violence and final suicide-at-sea close without sanitizing source rhetoric"
 ---

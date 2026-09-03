@@ -8,7 +8,7 @@ language: "en"
 source_scans: "394–395"
 printed_pages: "377–378"
 title_witness_status: "variant — canonical opening uses உன்றன் while contents witness uses உன்"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/45.md"
 voice_policy: "retain Kalaignar's Kamaraj birthday tribute, disagreement-versus-service distinction, source-locked கருத்திருக்கும் repetition, khadi/poor imagery, tears across political relationships, self-respect-history frame, Anna/Periyar epithets, Black Gandhi image and life-as-lesson conclusion"
 ---

@@ -2,15 +2,15 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–10 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–11 reviewed PASS.**
 
 The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase 4 does not reopen Tamil merely to improve English.
 
 Current reviewed progress:
 
-- batches: **10**;
-- items: **40/77**;
-- item-assigned source scans: **355/439**;
+- batches: **11**;
+- items: **45/77**;
+- item-assigned source scans: **370/439**;
 - unresolved translation issues in reviewed work: **0**;
 - Tamil page/canonical files modified during Phase 4: **0**.
 
@@ -85,8 +85,9 @@ Standing user cadence from Batch 05 onward: **process five complete adjacent poe
 | 08 | 26–30 | 254–292 | **reviewed — PASS** |
 | 09 | 31–35 | 293–332 | **reviewed — PASS** |
 | 10 | 36–40 | 333–378 item-owned scans; structural 372–373 excluded | **reviewed — PASS** |
-| 11 | 41–45 | 379–395 item-owned scans; structural 392–393 excluded | **NEXT** |
-| later | 46–77 | five complete items per iteration (final remainder excepted) | pending |
+| 11 | 41–45 | 379–395 item-owned scans; structural 392–393 excluded | **reviewed — PASS** |
+| 12 | 46–50 | 396–404 | **NEXT** |
+| later | 51–77 | five complete items per iteration (final remainder excepted) | pending |
 
 The structural group-divider/verso scans **32–33, 70–71, 372–373, 392–393** remain separately accounted anthology structure and are not silently inserted into poem translations.
 
@@ -210,6 +211,10 @@ Batch 09 reviewed complete items **31–35** across scans **293–332 = 40/40**.
 
 Batch 10 reviewed complete items **36–40** with **44/44 item-owned source scans** across physical span **333–378**. Structural anthology scans **372–373 (`கண்ணீர்த் துளிகள்`)** remain outside poem translations. Title witnesses are **1 exact + 4 authorised variants**. The reviewed translations preserve the Chithirai/Tamil-month wordplay and 1990 welfare/common-ownership address; the three-letter/Mandal/reservation movement argument; the 1994 Anna-name/simile-strike and rationalist polemic; the youthful Panneerselvam Oman-Sea elegy; and the N. S. Krishnan laughter/film/reform elegy. Tamil `pages/`/`sections/` changes remain **0**.
 
+## Batch 11 decision record
+
+Batch 11 reviewed complete items **41–45** with **15/15 item-owned scans** across physical span **379–395**. Structural anthology scans **392–393 (`மலர்த் தோட்டம்`)** remain outside poem translations. Title witnesses are **2 exact + 3 authorised variants**. The reviewed translations preserve Anna's seventy-five/sixty refrain and shadow elegy; Jeeva's fragrance/service/prison rhetoric; the full K. V. K. Sami lover-warrior narrative and assassination sequence with source-sensitive `ஓதிய மிலார்`, `முடை` and final caste-marked abuse documented rather than normalized; the intimate Kannadasan friendship elegy; and the Kamaraj birthday tribute with verified `கருத்திருக்கும்` repetition left unrepaired. Tamil `pages/`/`sections/` changes remain **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 11 — items 41–45**: `உன் நிழலாக அசைகின்றோம்!`, `வாழ்க ஜீவா`, `மறைந்த மாவீரன்`, `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, `இன்றைக்கு உன்றன் பிறந்த நாள்`. Process all five complete poems with **15/15 item-owned scans** across physical span **379–395**, while structural scans **392–393 (`மலர்த் தோட்டம்`)** remain outside poem translations. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**. Leave Tamil `pages/` and `sections/` unchanged.
+Execute **Phase 4 Batch 12 — items 46–50**: `அவன் பிறந்தநாள் என ஒன்றில்லை!`, `அருமருந்தே! அன்பழக உடன்பிறப்பே!`, `பகுத்தறிவுப் பாண்டியனார்!`, `நியாயத் தராசு`, `ஏற்பாரோ?`. Process all five complete poems across scans **396–404 = 9/9**. There is no separate anthology structural scan inside this batch. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**. Leave Tamil `pages/` and `sections/` unchanged.

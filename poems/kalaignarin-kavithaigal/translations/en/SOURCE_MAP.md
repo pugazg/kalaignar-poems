@@ -74,6 +74,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 38 | `“அறிஞர் அண்ணா வழியில்”` | `“அறிஞர் அண்ணா வழியில்”` | **“On Arignar Anna’s Path”** | 362–371 | 345–353 | `items/38-on-arignar-annas-path-en.md` | **batch-reviewed — PASS** |
 | 39 | `பன்னீர்ச்செல்வமே!` | `பன்னீர்ச் செல்வமே` | **Panneerselvam!** | 374–375 | 357–358 | `items/39-panneerselvam-en.md` | **batch-reviewed — PASS** |
 | 40 | `கலைத்தாயின் தலைச் செல்வன்!` | `கலைத்தாயின் தலைச்செல்வன்` | **Mother Art’s Foremost Son!** | 376–378 | 359–361 | `items/40-mother-arts-foremost-son-en.md` | **batch-reviewed — PASS** |
+| 41 | `உன் நிழலாக அசைகின்றோம்!` | `உன் நிழலாக அசைகின்றோம்` | **We Move as Your Shadow!** | 379–381 | 362–364 | `items/41-we-move-as-your-shadow-en.md` | **batch-reviewed — PASS** |
+| 42 | `வாழ்க ஜீவா` | `வாழ்க ஜீவா!` | **Long Live Jeeva** | 382–383 | 365–366 | `items/42-long-live-jeeva-en.md` | **batch-reviewed — PASS** |
+| 43 | `மறைந்த மாவீரன்` | `மறைந்த மாவீரன்` | **The Fallen Hero** | 384–389 | 367–372 | `items/43-the-fallen-hero-en.md` | **batch-reviewed — PASS** |
+| 44 | `என் இனிய நண்பா! ஏன் பிரிந்தாய்?` | `என் இனிய நண்பா! ஏன் பிரிந்தாய்?` | **My Dear Friend! Why Did You Leave?** | 390–391 | 373–374 | `items/44-my-dear-friend-why-did-you-leave-en.md` | **batch-reviewed — PASS** |
+| 45 | `இன்றைக்கு உன்றன் பிறந்த நாள்` | `இன்றைக்கு உன் பிறந்த நாள்` | **Today Is Your Birthday** | 394–395 | 377–378 | `items/45-today-is-your-birthday-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -128,9 +133,9 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **10**;
-- reviewed English items: **40/77**;
-- reviewed item-assigned scans: **355/439**;
+- reviewed English batches: **11**;
+- reviewed English items: **45/77**;
+- reviewed item-assigned scans: **370/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
@@ -188,6 +193,16 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - item 40 owns scans **376–378** (**3/3** represented), with authorised spacing/punctuation title variation;
 - no Tamil page or canonical item was changed by Batch 10.
 
+### Items 41–45 provenance notes
+
+- item 41 owns scans **379–381** (**3/3** represented), with an authorised terminal-punctuation title variant;
+- item 42 owns scans **382–383** (**2/2** represented), with an authorised terminal-punctuation title variant;
+- item 43 owns scans **384–389** (**6/6** represented), exact title witness;
+- item 44 owns scans **390–391** (**2/2** represented), exact title witness;
+- structural scans **392–393 (`மலர்த் தோட்டம்`)** remain outside all English poem items;
+- item 45 owns scans **394–395** (**2/2** represented), with authorised `உன்றன்` / `உன்` title variation;
+- no Tamil page or canonical item was changed by Batch 11.
+
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 41–45** after Phase-4 Batch 11 passes. Batch 11 owns **15/15 item scans** across physical span **379–395**, while structural scans **392–393 (`மலர்த் தோட்டம்`)** remain outside poem items. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.
+Add reviewed mappings for **items 46–50** after Phase-4 Batch 12 passes. Batch 12 owns **9/9 item scans** across physical span **396–404** and contains no separate anthology structural scan. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.

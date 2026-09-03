@@ -28,7 +28,7 @@ The older `total_pages: 150` display is a renderer limit, not source length.
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–10 reviewed PASS; 40/77 items; 355/439 item scans; Batch 11 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–11 reviewed PASS; 45/77 items; 370/439 item scans; Batch 12 NEXT**.
 
 ## Gate 1 — physical scan ↔ printed-page reconciliation
 
@@ -85,12 +85,12 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Phase 4 — English translation
 
-**IN PROGRESS — Batches 01–10 reviewed PASS.**
+**IN PROGRESS — Batches 01–11 reviewed PASS.**
 
 - translation root: `translations/en/`;
-- reviewed batches: **10**;
-- reviewed items: **40/77**;
-- reviewed item-assigned scans: **355/439**;
+- reviewed batches: **11**;
+- reviewed items: **45/77**;
+- reviewed item-assigned scans: **370/439**;
 - Batch 04: items 6–10 across scans **72–127**, **56/56 PASS**;
 - title decisions in Batch 04: **4 exact / 1 authorised variant**;
 - unresolved reviewed translation issues: **0**;
@@ -98,4 +98,4 @@ No page record, canonical item or English translation was changed during Gate 6.
 
 ## Next activity
 
-**Phase 4 Batch 11 — items 41–45**, with **15/15 item-owned scans** across physical span **379–395**. Preserve structural scans **392–393 (`மலர்த் தோட்டம்`)** outside poem translations. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**; review all five complete final-cleared items before advancing.
+**Phase 4 Batch 12 — items 46–50**, scans **396–404 = 9/9**. There is no separate anthology structural scan inside the batch. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**; review all five complete final-cleared items before advancing.
