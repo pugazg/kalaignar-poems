@@ -18,5 +18,16 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Assemble, review and release-clear
-        run: python .github/scripts/kavithaigal_assemble_release.py
+      - name: Patch YAML quote decoding and assemble
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('.github/scripts/kavithaigal_assemble_release.py')
+          t=p.read_text()
+          old="""        if len(v)>=2 and v[0]==v[-1]=='\"':\n            v=v[1:-1]\n"""
+          new="""        if len(v)>=2 and v[0]==v[-1]=='\"':\n            v=v[1:-1].replace('\\\\\"','\"').replace('\\\\\\\\','\\\\')\n"""
+          if old not in t:
+              raise SystemExit('parser patch target missing')
+          p.write_text(t.replace(old,new,1))
+          PY
+          python .github/scripts/kavithaigal_assemble_release.py
