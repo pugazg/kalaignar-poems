@@ -8,7 +8,7 @@ language: "en"
 source_scans: "403"
 printed_pages: "386"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/49.md; verified page record pages/0403.md consulted for the source publication note and split கைம்/பெண் lineation"
 voice_policy: "retain Kalaignar's compact widow-remarriage argument, wound/healing opening, eye-pupil heart image, remarriage double standard and closing rhetorical challenge"
 ---

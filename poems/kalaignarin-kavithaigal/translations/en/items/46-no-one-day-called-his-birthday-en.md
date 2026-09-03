@@ -8,7 +8,7 @@ language: "en"
 source_scans: "396–397"
 printed_pages: "379–380"
 title_witness_status: "variant — canonical title uses என while contents witness uses ஏன்"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/46.md"
 voice_policy: "retain Kalaignar's Anna birthday paradox, word/fragrance imagery, snake/flute metaphor, restraint-versus-fire contrast, brooding-hen protection image, movement-training claim and every-day-Tamil-is-Anna's-birthday close"
 ---

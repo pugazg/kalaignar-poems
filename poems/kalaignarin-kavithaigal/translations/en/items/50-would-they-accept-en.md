@@ -8,7 +8,7 @@ language: "en"
 source_scans: "404"
 printed_pages: "387"
 title_witness_status: "exact"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/50.md; verified page record pages/0404.md consulted for the source publication note"
 voice_policy: "retain Kalaignar's compact myth/chastity satire, Panchali/Karna claim, goddess and Ahalya/Tara examples, bent-spine attack on pandits and final self-respect challenge without devotional harmonisation"
 ---

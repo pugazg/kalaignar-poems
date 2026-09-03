@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 11
+## Durable state after Phase 4 Batch 12
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–11 reviewed PASS; 45/77 items; 370/439 item-assigned scans; Batch 12 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–12 reviewed PASS; 50/77 items; 379/439 item-assigned scans; Batch 13 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -331,6 +331,28 @@ Batch review: `translations/en/batches/batch-10.md`.
 
 Batch review: `translations/en/batches/batch-11.md`.
 
+## Phase 4 durable result — Batch 12
+
+- standing user cadence: **five poems per iteration**;
+- reviewed batches: **12**;
+- reviewed English items: **50/77**;
+- reviewed item-assigned source scans: **379/439**;
+- Batch 12 items: **46–50**;
+- Batch 12 item-owned scans: **396–404 = 9/9**;
+- there is no separate anthology structural scan inside Batch 12;
+- item 46 → **There Is No One Day Called His Birthday!**;
+- item 47 → **Precious Remedy! Anbazhaga, Beloved Sibling!**;
+- item 48 → **Rationalist Pandianar!**;
+- item 49 → **The Scales of Justice**;
+- item 50 → **Would They Accept?**;
+- marker certification: **9/9 PASS**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 12: **0**;
+- Tamil `sections/` changes during Batch 12: **0**.
+
+Batch review: `translations/en/batches/batch-12.md`.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -360,8 +382,8 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-11.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-12.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 12 — items 46–50 (`அவன் பிறந்தநாள் என ஒன்றில்லை!`, `அருமருந்தே! அன்பழக உடன்பிறப்பே!`, `பகுத்தறிவுப் பாண்டியனார்!`, `நியாயத் தராசு`, `ஏற்பாரோ?`)**. Read final-cleared `sections/46.md` through `sections/50.md` completely. Review all five complete items together across scans **396–404 = 9/9**; there is no separate anthology structural scan inside the batch. Expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.
+Execute **Phase 4 Batch 13 — items 51–55 (`புயல் என அறிக!`, `கேட்டுண்டோ?`, `வருணமா? மரணமா?`, `தோல்வி எப்பொழுது?`, `இன்றுமா கூச்சல்?`)**. Read final-cleared `sections/51.md` through `sections/55.md` completely. Review all five complete items together across scans **405–409 = 5/5**; there is no separate anthology structural scan inside the batch. Expected title witnesses **4 exact / 1 authorised variant / 0 unresolved**. Leave all Tamil source/page/canonical files unchanged.

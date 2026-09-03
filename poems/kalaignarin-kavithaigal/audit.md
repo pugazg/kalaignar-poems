@@ -320,6 +320,21 @@ Scope: English translation/review of final-cleared canonical items **41–45**.
 - Tamil canonical-item changes: **0**;
 - batch evidence: `translations/en/batches/batch-11.md`.
 
+## Phase 4 Batch 12 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical items **46–50**.
+
+- items after Batch 12: **50/77**;
+- Batch-12 item-owned scans: **9/9 — scans 396–404**;
+- cumulative reviewed item-owned scans: **379/439**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- exact English scan-marker sequences: **9/9 PASS**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-12.md`.
+
 ### Exact next Phase-4 activity
 
-**Batch 12 — items 46–50**, scans **396–404 = 9/9**. There is no separate anthology structural scan inside the batch; expected title witnesses **2 exact / 3 authorised variants / 0 unresolved**.
+**Batch 13 — items 51–55**, scans **405–409 = 5/5**. There is no separate anthology structural scan inside the batch; expected title witnesses **4 exact / 1 authorised variant / 0 unresolved**.

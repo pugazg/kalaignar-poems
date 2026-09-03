@@ -79,6 +79,11 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 | 43 | `மறைந்த மாவீரன்` | `மறைந்த மாவீரன்` | **The Fallen Hero** | 384–389 | 367–372 | `items/43-the-fallen-hero-en.md` | **batch-reviewed — PASS** |
 | 44 | `என் இனிய நண்பா! ஏன் பிரிந்தாய்?` | `என் இனிய நண்பா! ஏன் பிரிந்தாய்?` | **My Dear Friend! Why Did You Leave?** | 390–391 | 373–374 | `items/44-my-dear-friend-why-did-you-leave-en.md` | **batch-reviewed — PASS** |
 | 45 | `இன்றைக்கு உன்றன் பிறந்த நாள்` | `இன்றைக்கு உன் பிறந்த நாள்` | **Today Is Your Birthday** | 394–395 | 377–378 | `items/45-today-is-your-birthday-en.md` | **batch-reviewed — PASS** |
+| 46 | `அவன் பிறந்தநாள் என ஒன்றில்லை!` | `அவன் பிறந்தநாள் ஏன் ஒன்றில்லை!` | **There Is No One Day Called His Birthday!** | 396–397 | 379–380 | `items/46-no-one-day-called-his-birthday-en.md` | **batch-reviewed — PASS** |
+| 47 | `அருமருந்தே! அன்பழக உடன்பிறப்பே!` | `அருமருந்தே! அன்புறவு உடன்பிறப்பே!` | **Precious Remedy! Anbazhaga, Beloved Sibling!** | 398–399 | 381–382 | `items/47-precious-remedy-anbazhaga-beloved-sibling-en.md` | **batch-reviewed — PASS** |
+| 48 | `பகுத்தறிவுப் பாண்டியனார்!` | `பகுத்தறிவுப் பாண்டியனார்` | **Rationalist Pandianar!** | 400–402 | 383–385 | `items/48-rationalist-pandianar-en.md` | **batch-reviewed — PASS** |
+| 49 | `நியாயத் தராசு` | `நியாயத் தராசு` | **The Scales of Justice** | 403 | 386 | `items/49-scales-of-justice-en.md` | **batch-reviewed — PASS** |
+| 50 | `ஏற்பாரோ?` | `ஏற்பாரோ?` | **Would They Accept?** | 404 | 387 | `items/50-would-they-accept-en.md` | **batch-reviewed — PASS** |
 
 ### Item 1 provenance notes
 
@@ -133,9 +138,9 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 
 ## Progress
 
-- reviewed English batches: **11**;
-- reviewed English items: **45/77**;
-- reviewed item-assigned scans: **370/439**;
+- reviewed English batches: **12**;
+- reviewed English items: **50/77**;
+- reviewed item-assigned scans: **379/439**;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical modifications during reviewed Phase-4 work: **0**.
 
@@ -203,6 +208,16 @@ Group-heading English rendering will be fixed during collection-level assembly/e
 - item 45 owns scans **394–395** (**2/2** represented), with authorised `உன்றன்` / `உன்` title variation;
 - no Tamil page or canonical item was changed by Batch 11.
 
+### Items 46–50 provenance notes
+
+- item 46 owns scans **396–397** (**2/2** represented), with authorised canonical `என` / contents `ஏன்` title variation;
+- item 47 owns scans **398–399** (**2/2** represented), with authorised canonical `அன்பழக` / contents `அன்புறவு` title variation;
+- item 48 owns scans **400–402** (**3/3** represented), with an authorised terminal-punctuation title variant;
+- item 49 owns scan **403** (**1/1** represented), exact title witness;
+- item 50 owns scan **404** (**1/1** represented), exact title witness;
+- there is no separate anthology structural scan inside Batch 12;
+- no Tamil page or canonical item was changed by Batch 12.
+
 ## Exact next mapping activity
 
-Add reviewed mappings for **items 46–50** after Phase-4 Batch 12 passes. Batch 12 owns **9/9 item scans** across physical span **396–404** and contains no separate anthology structural scan. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.
+Add reviewed mappings for **items 51–55** after Phase-4 Batch 13 passes. Batch 13 owns **5/5 item scans** across physical span **405–409** and contains no separate anthology structural scan. Expected title witnesses: **4 exact / 1 authorised variant / 0 unresolved**.

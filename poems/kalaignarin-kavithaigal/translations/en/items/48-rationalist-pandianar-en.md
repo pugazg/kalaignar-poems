@@ -8,7 +8,7 @@ language: "en"
 source_scans: "400–402"
 printed_pages: "383–385"
 title_witness_status: "variant — contents witness omits the canonical terminal !"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/48.md"
 voice_policy: "retain Kalaignar's affectionate Soundarapandian reminiscence, Pattiveeranpatti hospitality, rationalist/Ayyappan contrast, Self-Respect movement history, women-property-rights resolution, bridge naming, anti-opportunist satire and anti-caste close"
 ---

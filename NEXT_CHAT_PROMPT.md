@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–11 reviewed PASS; 45/77 items; 370/439 item scans; Batch 12 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–12 reviewed PASS; 50/77 items; 379/439 item scans; Batch 13 NEXT**.
 
 ## Gate 4 durable output
 
@@ -194,6 +194,18 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 - unresolved translation issues **0**;
 - Tamil page/canonical changes **0**.
 
+## Phase 4 Batch 12 durable result
+
+- standing cadence: **five poems per iteration**;
+- Batches 01–12 **reviewed PASS**;
+- reviewed items **50/77**;
+- reviewed item scans **379/439**;
+- Batch 12 items 46–50, scans **396–404 = 9/9**;
+- no separate anthology structural scan occurs inside Batch 12;
+- title witnesses **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved translation issues **0**;
+- Tamil page/canonical changes **0**.
+
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 12 — items 46–50**, physical span **396–404**, with **9/9 item-owned scans**. There is no separate anthology structural scan inside the batch. Preserve the authorised contents/canonical title variants for items 46, 47 and 48 separately; items 49–50 are exact. Review together and do not alter Tamil `pages/` or `sections/`.
+Execute **Phase 4 Batch 13 — items 51–55**, physical span **405–409**, with **5/5 item-owned scans**. There is no separate anthology structural scan inside the batch. Preserve the authorised terminal-punctuation title variant for item 51 separately; items 52–55 are exact. Review together and do not alter Tamil `pages/` or `sections/`.

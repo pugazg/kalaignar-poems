@@ -2,13 +2,13 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS — Batches 01–11 reviewed PASS.**
+**PHASE 4 IN PROGRESS — Batches 01–12 reviewed PASS.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical Tamil items: **77/77**;
-- reviewed English batches: **11**;
-- reviewed English items: **45/77**;
-- item-assigned source scans covered by reviewed English: **370/439**;
+- reviewed English batches: **12**;
+- reviewed English items: **50/77**;
+- item-assigned source scans covered by reviewed English: **379/439**;
 - unresolved English translation issues in reviewed work: **0**;
 - Tamil `pages/` or `sections/` files changed by Phase 4: **0**.
 
@@ -74,6 +74,12 @@ Phase-4 translation uses only the Tamil final-cleared canonical item layer as it
 - `items/43-the-fallen-hero-en.md` — reviewed English item 43;
 - `items/44-my-dear-friend-why-did-you-leave-en.md` — reviewed English item 44;
 - `items/45-today-is-your-birthday-en.md` — reviewed English item 45.
+- `batches/batch-12.md` — reviewed Batch-12 record;
+- `items/46-no-one-day-called-his-birthday-en.md` — reviewed English item 46;
+- `items/47-precious-remedy-anbazhaga-beloved-sibling-en.md` — reviewed English item 47;
+- `items/48-rationalist-pandianar-en.md` — reviewed English item 48;
+- `items/49-scales-of-justice-en.md` — reviewed English item 49;
+- `items/50-would-they-accept-en.md` — reviewed English item 50.
 
 A complete English collection, editorial consistency review and release report are deferred until all 77 item translations are reviewed.
 
@@ -253,6 +259,21 @@ Standing five-poem iteration covering items **41–45** with **15/15 item-owned 
 - unresolved translation issues: **0**;
 - Tamil changes: **0**.
 
+## Batch 12
+
+**Reviewed — PASS.**
+
+Standing five-poem iteration covering items **46–50** across scans **396–404 = 9/9**. There is no separate anthology structural scan inside the batch.
+
+- item 46 → **There Is No One Day Called His Birthday!**, scans **396–397**;
+- item 47 → **Precious Remedy! Anbazhaga, Beloved Sibling!**, scans **398–399**;
+- item 48 → **Rationalist Pandianar!**, scans **400–402**;
+- item 49 → **The Scales of Justice**, scan **403**;
+- item 50 → **Would They Accept?**, scan **404**;
+- title witnesses: **2 exact / 3 authorised variants / 0 unresolved**;
+- unresolved translation issues: **0**;
+- Tamil changes: **0**.
+
 ## Exact next activity
 
-Execute **Phase 4 Batch 12 — items 46–50**, scans **396–404 = 9/9**. There is no separate anthology structural scan inside the batch. Expected title witnesses: **2 exact / 3 authorised variants / 0 unresolved**.
+Execute **Phase 4 Batch 13 — items 51–55**, scans **405–409 = 5/5**. There is no separate anthology structural scan inside the batch. Expected title witnesses: **4 exact / 1 authorised variant / 0 unresolved**.

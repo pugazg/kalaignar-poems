@@ -8,7 +8,7 @@ language: "en"
 source_scans: "398–399"
 printed_pages: "381–382"
 title_witness_status: "variant — canonical opening uses அன்பழக while contents witness uses அன்புறவு"
-status: "review-pending"
+status: "batch-reviewed"
 translation_basis: "Tamil final-cleared canonical sections/47.md"
 voice_policy: "retain Kalaignar's sixtieth-birthday family address, Anbazhaga/name-affection wordplay, Tamil-fragrance imagery, Kazhagam garden and two-colour flag metaphors, professor/spear image, Periyar-Anna lineage and long-life blessing"
 ---
