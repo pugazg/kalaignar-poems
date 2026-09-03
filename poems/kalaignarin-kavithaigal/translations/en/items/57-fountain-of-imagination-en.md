@@ -50,8 +50,9 @@ women spread designs before their thresholds,
 and in each street lay pumpkin flowers
 upon the *kolam* they have drawn—
 I saw a sight just as rich for the eyes.
-A good thing—
-I escaped the chance of enjoying it alone!
+Luckily—
+I had the chance to enjoy it alone;
+that is how I escaped!
 Had a woman been beside me,
 she would have counted every colour
 in the fountain—and the very next day
