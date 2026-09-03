@@ -163,6 +163,27 @@ Scope: English translation/review of final-cleared canonical items **2–3**.
 - batch evidence: `translations/en/batches/batch-02.md`;
 - English items: `translations/en/items/02-the-tale-of-the-southerner-en.md`, `translations/en/items/03-indrajit-en.md`.
 
+## Phase 4 Batch 03 audit — REVIEWED / PASS
+
+Scope: English translation/review of final-cleared canonical items **4–5**.
+
+- item 4: `இரணியன்` → **Hiranyan**;
+- item 5: `வாளி மன்னன்` → **King Vali**;
+- reviewed items after Batch 03: **5/77**;
+- Batch-03 item-owned scans: **15/15 — scans 55–69**;
+- cumulative reviewed item-owned scans: **50/439**;
+- title witnesses: **2 exact / 0 variants**;
+- source scan boundaries represented: **PASS**;
+- counter-mythic/rationalist polemic and source-form wordplay retained: **PASS**;
+- Tara/Sugriva confrontation and Vali/Rama hidden-arrow accusation retained: **PASS**;
+- closing ornaments represented: **2/2**;
+- omission/duplication issues: **0**;
+- unresolved reviewed translation issues: **0**;
+- Tamil page-record changes: **0**;
+- Tamil canonical-item changes: **0**;
+- batch evidence: `translations/en/batches/batch-03.md`;
+- English items: `translations/en/items/04-hiranyan-en.md`, `translations/en/items/05-king-vali-en.md`.
+
 ### Exact next Phase-4 activity
 
-**Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**, scans **55–69**.
+**Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**, scans **72–89**. Preserve structural group-divider/verso scans **70–71** outside poem translations.

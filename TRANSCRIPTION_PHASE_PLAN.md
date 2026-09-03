@@ -62,18 +62,19 @@ Earlier source-backed title metadata corrections at scans **406, 409, 457–460*
 
 ## Phase 4 — translation and release
 
-**IN PROGRESS — Batches 01–02 reviewed PASS.**
+**IN PROGRESS — Batches 01–03 reviewed PASS.**
 
-- reviewed batches: **2**;
-- reviewed English items: **3/77**;
-- reviewed item-assigned source scans: **35/439**;
+- reviewed batches: **3**;
+- reviewed English items: **5/77**;
+- reviewed item-assigned source scans: **50/439**;
 - Batch 01: item 1 `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**;
 - Batch 02: item 2 `தென்னவன் காதை` → **The Tale of the Southerner**; item 3 `இந்திரஜித்` → **Indrajit**;
+- Batch 03: item 4 `இரணியன்` → **Hiranyan**; item 5 `வாளி மன்னன்` → **King Vali**;
 - translation scaffold: `poems/kalaignarin-kavithaigal/translations/en/`;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes during Phase 4 so far: **0**;
-- Batch 03 items 4–5: **NEXT**.
+- Batch 04 items 6–7: **NEXT**.
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)** from the Tamil final-cleared canonical layer across scans **55–69**. Review both complete translations before marking the batch PASS; do not alter Tamil final-cleared files.
+Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)** from the Tamil final-cleared canonical layer. Keep structural group-divider/verso scans **70–71** outside poem translations, review both complete translations across scans **72–89** before marking the batch PASS, and do not alter Tamil final-cleared files.

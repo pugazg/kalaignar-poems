@@ -26,7 +26,7 @@ Current status:
 - Phase 3 Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item scans; Batch 03 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**.
 
 The old 150-page renderer window is not the source length. The exact source is 465 physical pages.
 
@@ -48,7 +48,7 @@ Gate 6 formally confirms Gates 1–5 are all PASS and records the Tamil source/c
 
 ## Phase 4 translation progress
 
-Batches 01–02 now cover items 1–3: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**, `தென்னவன் காதை` → **The Tale of the Southerner**, and `இந்திரஜித்` → **Indrajit**. The reviewed English layer covers **3/77 items** and **35/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
+Batches 01–03 now cover items 1–5: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**, `தென்னவன் காதை` → **The Tale of the Southerner**, `இந்திரஜித்` → **Indrajit**, `இரணியன்` → **Hiranyan**, and `வாளி மன்னன்` → **King Vali**. The reviewed English layer covers **5/77 items** and **50/439 item-assigned source scans** with **0** unresolved reviewed translation issues. Files live under `poems/kalaignarin-kavithaigal/translations/en/`. No Tamil page or canonical item has been changed by translation work.
 
 ## Supplied lexical controls
 
@@ -56,4 +56,4 @@ A user-designated word-for-word transcription may control lexical words only aft
 
 ## Next activity
 
-**Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**. Translate and review both complete final-cleared items across scans **55–69**; leave Tamil archival files unchanged.
+**Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**. Keep structural group-divider/verso scans **70–71** outside poem translations; translate and review both complete final-cleared items across scans **72–89**; leave Tamil archival files unchanged.

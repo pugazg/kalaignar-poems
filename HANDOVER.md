@@ -20,7 +20,7 @@ Controlling source: `TVA_BOK_0064091_கலைஞரின்_கவிதைக
 
 The old renderer `total_pages: 150` is only a tooling window and must never override the exact 465-page source identity.
 
-## Durable state after Phase 4 Batch 02
+## Durable state after Phase 4 Batch 03
 
 - Phase 1: **465/465 COMPLETE**;
 - Phase 2 source coverage and clearance: **465/465 COMPLETE — C01–C19**;
@@ -33,7 +33,7 @@ The old renderer `total_pages: 150` is only a tooling window and must never over
 - Phase 3 Gate 5 — assembly/source-completeness review: **COMPLETE / PASS**;
 - Phase 3 Gate 6 — Tamil final clearance: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation/release: **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item-assigned scans; Batch 03 NEXT**.
+- Phase 4 English translation/release: **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item-assigned scans; Batch 04 NEXT**.
 
 ## Locked Gate 1–3 results
 
@@ -144,6 +144,23 @@ Batch 01 is intentionally a one-item batch because item 1 spans scans 18–31 an
 
 Batch 02 preserves the two exact title witnesses, the Ravana/Indrajit counter-epic framing, source-specific polemic and cultural terms, illustrations/ornaments, the `பத்தரை மாற்று` / `முத்திரை` wordplay notes, and the source-visible final `ஆஎன்` form without Tamil repair.
 
+## Phase 4 durable result — Batch 03
+
+- Phase 4 status: **IN PROGRESS**;
+- reviewed batches: **3**;
+- reviewed English items: **5/77**;
+- reviewed item-assigned source scans: **50/439**;
+- Batch 03 items: **4 — `இரணியன்` → Hiranyan; 5 — `வாளி மன்னன்` → King Vali**;
+- Batch 03 source scans: **55–69 = 15/15**;
+- title witnesses: **2 exact / 0 variants**;
+- reviewed English items: `translations/en/items/04-hiranyan-en.md` and `translations/en/items/05-king-vali-en.md`;
+- Batch-03 review: `translations/en/batches/batch-03.md`;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` changes during Batch 03: **0**;
+- Tamil `sections/` changes during Batch 03: **0**.
+
+Batch 03 preserves the Hiranyan/Prahlada counter-myth, source-form Tamil wordplay and magnetic-pillar conspiracy as source rhetoric; it also preserves Tara's political voice, Sugriva/Hanuman intrigue, Rama's source-quoted description and Vali's hidden-arrow accusation without external harmonisation. Both closing ornaments remain represented.
+
 ## Supplied-transcription rule
 
 Do not position supplied Markdown by page numbers written inside it. Match first and last substantive body anchors to the exact source. Supplied text controls lexical words only inside the confirmed interval; the scan controls physical placement, headings, punctuation, quotation structure, lineation, ornaments and non-body separation.
@@ -173,10 +190,10 @@ Before changing anything, read completely:
 19. `poems/kalaignarin-kavithaigal/translations/en/TRANSLATION_PLAN.md`;
 20. `poems/kalaignarin-kavithaigal/translations/en/SOURCE_MAP.md`;
 21. `poems/kalaignarin-kavithaigal/translations/en/README.md`;
-22. the latest reviewed translation batch record (`translations/en/batches/batch-02.md`).
+22. the latest reviewed translation batch record (`translations/en/batches/batch-03.md`).
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**.
+Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**.
 
-Read final-cleared `sections/04.md` and `sections/05.md` completely, translate both complete items across scans **55–69**, review them together in `translations/en/batches/batch-03.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. If translation exposes a genuine Tamil discrepancy, reopen the source-backed Tamil layers explicitly before continuing.
+Preserve structural group-divider/verso scans **70–71** outside poem translations. Read final-cleared `sections/06.md` and `sections/07.md` completely, translate both complete items across scans **72–89**, review them together in `translations/en/batches/batch-04.md`, update `translations/en/SOURCE_MAP.md`, and leave all Tamil source/page/canonical files unchanged. If translation exposes a genuine Tamil discrepancy, reopen the source-backed Tamil layers explicitly before continuing.

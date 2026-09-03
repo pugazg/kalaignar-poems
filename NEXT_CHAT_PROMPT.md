@@ -31,7 +31,7 @@ Ignore the old renderer `total_pages: 150`; exact-byte identity is 465 pages.
 - Phase 3 Gate 5 assembly/source-completeness review **COMPLETE / PASS**;
 - Phase 3 Gate 6 Tamil final clearance **COMPLETE / PASS**;
 - Tamil source/canonical layer **FINAL-CLEARED**;
-- Phase 4 English translation/release **IN PROGRESS — Batches 01–02 reviewed PASS; 3/77 items; 35/439 item scans; Batch 03 NEXT**.
+- Phase 4 English translation/release **IN PROGRESS — Batches 01–03 reviewed PASS; 5/77 items; 50/439 item scans; Batch 04 NEXT**.
 
 ## Gate 4 durable output
 
@@ -81,17 +81,19 @@ Evidence: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 - English translation created/modified during Gate 6 **no**;
 - Phase 4 **UNBLOCKED**.
 
-## Phase 4 Batches 01–02 durable result
+## Phase 4 Batches 01–03 durable result
 
 - translation scaffold: `translations/en/`;
-- reviewed batches: **2**;
-- reviewed English items: **3/77**;
-- reviewed item scans: **35/439**;
+- reviewed batches: **3**;
+- reviewed English items: **5/77**;
+- reviewed item scans: **50/439**;
 - item 1: `இதயத்தைத் தந்திடு அண்ணா` → **Give Me Your Heart, Anna**, scans **18–31**;
 - item 2: `தென்னவன் காதை` → **The Tale of the Southerner**, scans **34–42**;
 - item 3: `இந்திரஜித்` → **Indrajit**, scans **43–54**;
+- item 4: `இரணியன்` → **Hiranyan**, scans **55–61**;
+- item 5: `வாளி மன்னன்` → **King Vali**, scans **62–69**;
 - structural scans **32–33** remain anthology provenance outside poem bodies;
-- Batch reviews: `translations/en/batches/batch-01.md`, `translations/en/batches/batch-02.md`;
+- Batch reviews: `translations/en/batches/batch-01.md`, `translations/en/batches/batch-02.md`, `translations/en/batches/batch-03.md`;
 - unresolved reviewed translation issues: **0**;
 - Tamil page/canonical changes: **0**.
 
@@ -111,10 +113,11 @@ Do not position supplied Markdown by embedded page numbers. Match substantive bo
 
 ## EXACT NEXT ACTIVITY
 
-Execute **Phase 4 Batch 03 — items 4–5 (`இரணியன்`, `வாளி மன்னன்`)**.
+Execute **Phase 4 Batch 04 — items 6–7 (`விடுதலை வீரர்கள்`, `ஐம்புலன்`)**.
 
-1. Read final-cleared `sections/04.md` and `sections/05.md` completely.
-2. Translate both complete items across scans **55–69** with stable item identity and scan provenance.
-3. Review the full batch for omissions, duplication, voice, names, rhetoric and source-specific claims.
-4. Create/update `translations/en/items/`, `translations/en/batches/batch-03.md` and `translations/en/SOURCE_MAP.md`.
-5. Do **not** alter Tamil final-cleared `pages/` or `sections/` during translation.
+1. Preserve structural group-divider/verso scans **70–71** outside poem translations.
+2. Read final-cleared `sections/06.md` and `sections/07.md` completely.
+3. Translate both complete items across scans **72–89** with stable item identity and scan provenance.
+4. Review the full batch for omissions, duplication, voice, names, rhetoric and source-specific claims.
+5. Create/update `translations/en/items/`, `translations/en/batches/batch-04.md` and `translations/en/SOURCE_MAP.md`.
+6. Do **not** alter Tamil final-cleared `pages/` or `sections/` during translation.
