@@ -25,24 +25,26 @@ Source intake and Phase 1 are **COMPLETE — 101/101 first-pass captured**.
 
 Phase 2 is **COMPLETE / PASS — 101/101 independently verified**:
 
-- Batch 01 scans **1–25**: **COMPLETE / PASS**;
-- Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- Batch 03 scans **51–75**: **COMPLETE / PASS**;
-- Batch 04 scans **76–100**: **COMPLETE / PASS**;
-- final scan **101 / back cover**: **COMPLETE / PASS**;
 - statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
 - all eleven illustration scans independently verified as visual-only;
 - unresolved Phase-2 readings: **0**.
 
-Scan 101 independently confirms the back-cover role, colour portrait, pale-yellow field, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`.
+Phase 3 is **IN PROGRESS**:
 
-The source-visible publisher postcode differs between scan 2 (`600 0017`) and scan 3 (`600 017`); both witnesses remain preserved. Batch-03 high-resolution locks also preserve scan 52 `பீத்து கொண்டு` and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
+- Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- all **101/101** physical scans accounted with no unexplained pagination gap/reset;
+- scans **2–5 → logical Roman I–IV**, while source-visible `printed_page` remains `null` because the numerals are suppressed;
+- scans **6–100 → logical Arabic 1–95** (`scan_page - 5`);
+- **22/95** main-work pages suppress the Arabic numeral and **73/95** visibly print it;
+- Gate-1 page-text changes: **0**.
 
-Phase 3 is **READY / NOT STARTED**. Phase 4 remains blocked until Tamil final clearance.
+Gate-1 authority: `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md` and `poems/oruthalaik-kathal/indexes/page-map.md`.
+
+Phase 4 remains blocked until Tamil final clearance.
 
 ### Exact next activity
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation.** Reconcile all 101 physical scans against visible printed numerals and the logical 1–95 main-work sequence, recording the gate result without beginning Gate 2 in the same activity.
+**Phase 3 Gate 2 — boundary / page-join audit.** Do not begin Gate 3, canonical Tamil assembly, translation or Digital Library integration in the same activity.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

@@ -31,11 +31,14 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 
 ## Physical / pagination map
 
-- scan 1: front cover;
-- scans 2–5: unnumbered front matter;
-- scans 6–100: 95-page main sequence;
-- logical main-work pagination invariant: `logical_page = scan_page - 5`;
-- scan 101: back cover.
+Phase 3 Gate 1 reconciles the complete physical source as:
+
+- scan 1: front cover, unpaginated;
+- scans 2–5: four front-matter pages, logical Roman **I–IV** (`scan_page - 1`);
+- scans 6–100: main sequence, logical Arabic **1–95** (`scan_page - 5`);
+- scan 101: back cover, unpaginated.
+
+The source-visible `பக்கங்கள் : 95 + IV` statement on scan 3 supports the four-page Roman front-matter sequence. No individual Roman numeral is visibly printed on scans 2–5, so their page records retain `printed_page: null`.
 
 ## Numbered-section boundaries
 
@@ -57,25 +60,25 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 
 **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
 
+Section-opening scans plus illustration scans account for the **22** suppressed Arabic numerals in the main-work sequence. The other **73** main-work pages visibly print their Arabic numeral.
+
 ## Closing / back-cover boundary
 
-Scan **100** / logical page **95** closes the work with `(முற்றும்)`. Scan **101** is a pale-yellow back cover with a colour portrait, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`. Phase-2 independent verification confirms that role and visible evidence.
+Scan **100** / logical page **95** closes the work with `(முற்றும்)`. Scan **101** is a pale-yellow back cover with a colour portrait, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`.
 
 ## Phase progression
 
 - Phase 1: **COMPLETE — 101/101 first-pass captured**;
-- Phase 2 Batch 01, scans **1–25**: **COMPLETE / PASS**;
-- Phase 2 Batch 02, scans **26–50**: **COMPLETE / PASS**;
-- Phase 2 Batch 03, scans **51–75**: **COMPLETE / PASS**;
-- Phase 2 Batch 04, scans **76–100**: **COMPLETE / PASS**;
-- Phase 2 final scan **101**: **COMPLETE / PASS**;
-- current statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
-- Phase 2: **COMPLETE / PASS**;
-- Phase 3: **READY / NOT STARTED**;
+- Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
+- statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- Gate-1 unexplained pagination gaps/resets: **0**;
+- Gate-1 page-text changes: **0**;
+- Phase 3 Gates 2–6: not started;
 - Phase 4: blocked until Tamil final clearance.
 
-Phase-2 verification preserves source-visible anomalies and exact source wording rather than normalizing them. Source-backed corrections are recorded in `audit.md`.
+Gate-1 details are recorded in `PHASE3_STRUCTURE_AUDIT.md`; the reconciled map is in `indexes/page-map.md`.
 
 ## Next activity
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for all 101 scans.**
+**Phase 3 Gate 2 — boundary / page-join audit.**

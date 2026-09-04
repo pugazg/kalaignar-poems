@@ -31,19 +31,28 @@ Phase 1: **COMPLETE — 101/101 first-pass captured**.
 
 Phase 2: **COMPLETE / PASS — 101/101 independently verified**.
 
-- Batches 01–04, scans **1–100**: **COMPLETE / PASS**;
-- final scan **101 / back cover**: **COMPLETE / PASS**;
 - statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
-- all eleven illustration scans independently verified as visual-only;
 - unresolved Phase-2 readings: **0**.
 
-Scan 101 independently confirms the back-cover physical role, visible `திருமகள் / நிலையம்`, colour portrait, pale-yellow field, red horizontal rule, publisher emblem and absence of a printed page numeral or poem body text.
+Phase 3: **IN PROGRESS**.
 
-Phase-2 source-backed corrections are recorded in `poems/oruthalaik-kathal/audit.md`. Scan 100 / printed page 95 closes with `(முற்றும்)` and the closing three-diamond ornament.
+### Gate 1 — physical scan ↔ printed-page reconciliation
 
-Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; scan 101 is the back cover.
+**COMPLETE / PASS.** `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md` is authoritative.
 
-Phase 3: **READY / NOT STARTED**. Phase 4 remains blocked until Tamil final clearance.
+- all **101/101** physical scans accounted;
+- scan 1: unpaginated front cover;
+- scans **2–5**: logical Roman **I–IV**, supported by source-visible `95 + IV`; no individual Roman numeral is printed, so page-record `printed_page` remains `null`;
+- scans **6–100**: logical Arabic **1–95**, invariant `logical_page = scan_page - 5`;
+- **22/95** main-work scans suppress the numeral: 11 numbered-section openings plus 11 full-page illustrations;
+- **73/95** main-work scans visibly print their Arabic numeral;
+- scan 101: unpaginated verified back cover;
+- unexplained pagination gaps/resets: **0**;
+- page-text changes in Gate 1: **0**.
+
+The reconciled mapping is durable in `poems/oruthalaik-kathal/indexes/page-map.md`.
+
+Phase 4 remains blocked until Tamil final clearance.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
@@ -53,10 +62,10 @@ Do not reopen that completed workspace merely because `ஒருதலைக் 
 
 ## Mandatory continuation startup
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and verified page records relevant to the Phase-3 gate.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and verified page records relevant to the active gate.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation.**
+**Phase 3 Gate 2 — boundary / page-join audit.**
 
-Account for all 101 physical scans, preserve only source-visible printed numerals in page metadata, reconcile scans 6–100 to logical pages 1–95, and record the Gate-1 result. Do not begin Gate 2, canonical assembly, translation or Digital Library work in the same activity.
+Certify every section opening, internal page join, quotation/glossary carry-over, illustration boundary, continuation line, separator and closing boundary against the verified page layer and controlling source. Do not begin Gate 3, canonical assembly, translation or Digital Library work in the same activity.

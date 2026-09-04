@@ -2,7 +2,7 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE / PASS / PHASE 3 READY**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE / PASS / PHASE 3 IN PROGRESS — GATE 1 COMPLETE / PASS**
 
 - physical scans: **101/101 accounted**;
 - page-record files: **101/101**;
@@ -123,32 +123,39 @@ Verified source evidence:
 
 No source-backed lexical correction was required. Scan 101 was promoted from `partial` to `verified`. Unresolved final-scan readings: **0**.
 
-## Phase 1 retained history
-
-- Batch 01 scans **1–25**: COMPLETE;
-- Batch 02 scans **26–50**: COMPLETE;
-- Batch 03 scans **51–75**: COMPLETE;
-- Batch 04 scans **76–100**: COMPLETE;
-- final scan **101 / back cover**: COMPLETE.
-
-Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records. Scan **100 / printed page 95** preserves `(முற்றும்)`; scan **101** preserves the verified back-cover role and publisher mark/text.
-
 ## Phase 2 closure
 
 **PASS — 101/101 physical scans independently verified; 0 unresolved readings; 0 partial pages.**
 
-Phase 3 may now begin, but only through the ordered gates defined in `POEM_PROCESSING_GUIDE.md`.
+## Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation
 
-## Deferred to Phase 3+
+**COMPLETE / PASS.** Full findings are recorded in `PHASE3_STRUCTURE_AUDIT.md` and `indexes/page-map.md`.
 
-- Gate 1 physical scan ↔ printed-page reconciliation;
-- Gate 2 boundary / page-join audit;
-- Gate 3 title-witness reconciliation;
-- Gate 4 canonical Tamil assembly;
-- Gate 5 assembly/source-completeness review;
-- Gate 6 Tamil final clearance;
-- English translation and release.
+- physical scans **1–101** are completely partitioned with no overlap/gap;
+- scan 1: unpaginated front cover;
+- scans **2–5**: logical Roman **I–IV**, supported by the source-visible `95 + IV` statement on scan 3; individual Roman numerals are not visibly printed, so `printed_page: null` is preserved;
+- scans **6–100**: logical Arabic **1–95**, invariant `logical_page = scan_page - 5`;
+- section-opening scans **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93** suppress the numeral;
+- illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** suppress the numeral;
+- deliberately suppressed Arabic numerals: **22/95**;
+- visibly numbered Arabic pages: **73/95**;
+- scan 100 = logical/printed page **95** and closes with `(முற்றும்)` plus the three-diamond ornament;
+- scan 101: unpaginated verified back cover;
+- unexplained pagination gaps/resets: **0**;
+- verified page-text changes in Gate 1: **0**.
+
+Gate 1 did not reopen or modify any Phase-2 lexical witness.
+
+## Phase 3 remaining gates
+
+- Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Gate 2 boundary / page-join audit: **NEXT**;
+- Gate 3 title-witness reconciliation: not started;
+- Gate 4 canonical Tamil assembly: not started;
+- Gate 5 assembly/source-completeness review: not started;
+- Gate 6 Tamil final clearance: not started;
+- English translation and release: blocked until Tamil final clearance.
 
 ## Exact next activity
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for all 101 scans.**
+**Phase 3 Gate 2 — boundary / page-join audit.**

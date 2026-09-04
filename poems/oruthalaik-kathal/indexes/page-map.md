@@ -3,15 +3,15 @@
 Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf`  
 Physical scans: **101**.
 
-`printed_page` means a numeral visibly printed on that physical scan. `logical page` is the reconciled 1–95 sequence for scans 6–100 and is recorded here separately so suppressed numerals are never invented in page front matter.
+`printed_page` means a numeral visibly printed on that physical scan. `Logical page` is the Phase-3 Gate-1 reconciled sequence: Roman **I–IV** for scans 2–5 and Arabic **1–95** for scans 6–100. Reconciled logical values are structural metadata only; they must never be backfilled into page records as if a numeral were visibly printed.
 
 | Scan | Visible printed page | Logical page | Section | Role |
 |---:|---:|---:|---|---|
 | 1 | — | — | front-matter | front cover |
-| 2 | — | — | front-matter | title page |
-| 3 | — | — | front-matter | publication details |
-| 4 | — | — | front-matter | பதிப்புரை |
-| 5 | — | — | front-matter | photograph / publisher tribute |
+| 2 | — | I | front-matter | title page |
+| 3 | — | II | front-matter | publication details |
+| 4 | — | III | front-matter | பதிப்புரை |
+| 5 | — | IV | front-matter | photograph / publisher tribute |
 | 6 | — | 1 | section-01 | section 1 opening |
 | 7 | 2 | 2 | section-01 | verse narrative |
 | 8 | — | 3 | section-01 | full-page illustration |
