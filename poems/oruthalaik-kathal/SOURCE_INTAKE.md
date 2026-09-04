@@ -65,12 +65,13 @@ Scan **100** / logical page **95** closes the work with `(முற்றும�
 
 - Phase 1: **COMPLETE — 101/101 first-pass captured**;
 - Phase 2 Batch 01, scans **1–25**: **COMPLETE / PASS**;
-- current statuses: **25 verified / 76 partial / 0 not-started / 0 needs-review**;
+- Phase 2 Batch 02, scans **26–50**: **COMPLETE / PASS**;
+- current statuses: **50 verified / 51 partial / 0 not-started / 0 needs-review**;
 - Phase 2 remains **IN PROGRESS**;
 - Phase 3/4: not started.
 
-Phase-2 Batch 01 also preserved the source-visible scan-2/scan-3 publisher-address discrepancy rather than normalizing it.
+Phase-2 verification preserves source-visible anomalies and exact source wording rather than normalizing them. Batch-02 source-backed corrections are recorded in `audit.md`.
 
 ## Next activity
 
-**Phase 2 Batch 02 — independently verify scans 26–50.**
+**Phase 2 Batch 03 — independently verify scans 51–75.**

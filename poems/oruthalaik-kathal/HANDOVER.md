@@ -23,12 +23,13 @@ Phase 1: **COMPLETE — 101/101 first-pass captured**.
 Phase 2: **IN PROGRESS**.
 
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
-- `verified`: **25**;
-- `partial`: **76**;
+- Batch 02 scans **26–50**: **COMPLETE / PASS**;
+- `verified`: **50**;
+- `partial`: **51**;
 - `not-started`: **0**;
 - `needs-review`: **0**.
 
-Batch 01 independently verified front matter and scans through printed page 20. Illustration scans **8, 16, 22** passed as visual-only records. Source-backed lexical/spacing corrections are recorded in `audit.md`; unresolved Batch-01 readings: **0**.
+Batches 01–02 independently verified scans through printed page 45. Illustration scans **8, 16, 22, 32, 40, 48** passed as visual-only records. Source-backed lexical/spacing/lineation corrections are recorded in `audit.md`; unresolved Phase-2 readings through scan 50: **0**.
 
 The title-page postcode on scan 2 is source-visible `600 0017`, while scan 3 prints `600 017`; do not normalize either witness.
 
@@ -45,4 +46,4 @@ Scan 100 / printed page 95 closes with `(முற்றும்)`. Scan 101 is
 
 ## Exact next activity
 
-**Phase 2 Batch 02 — independently verify scans 26–50.**
+**Phase 2 Batch 03 — independently verify scans 51–75.**

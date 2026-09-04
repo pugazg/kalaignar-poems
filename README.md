@@ -26,14 +26,15 @@ Source intake and Phase 1 are **COMPLETE — 101/101 first-pass captured**.
 Phase 2 is **IN PROGRESS**:
 
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
-- statuses: **25 verified / 76 partial / 0 not-started / 0 needs-review**;
-- no unresolved Batch-01 source reading remains.
+- Batch 02 scans **26–50**: **COMPLETE / PASS**;
+- statuses: **50 verified / 51 partial / 0 not-started / 0 needs-review**;
+- unresolved Phase-2 readings: **0**.
 
-The source-visible publisher postcode differs between scan 2 (`600 0017`) and scan 3 (`600 017`); both witnesses are preserved.
+The source-visible publisher postcode differs between scan 2 (`600 0017`) and scan 3 (`600 017`); both witnesses remain preserved.
 
 ### Exact next activity
 
-**Phase 2 Batch 02 — independently verify scans 26–50 against the controlling PDF.** Do not begin Phase 3, English translation or Digital Library integration.
+**Phase 2 Batch 03 — independently verify scans 51–75 against the controlling PDF.** Do not begin Phase 3, English translation or Digital Library integration.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

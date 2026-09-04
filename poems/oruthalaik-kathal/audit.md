@@ -7,8 +7,8 @@
 - physical scans: **101/101 accounted**;
 - page-record files: **101/101**;
 - Phase-1 captured: **101/101**;
-- verified: **25**;
-- partial: **76**;
+- verified: **50**;
+- partial: **51**;
 - not-started: **0**;
 - needs-review: **0**;
 - blocked: **0**.
@@ -35,6 +35,20 @@ Illustration-only scans **8, 16, 22** independently pass as physical visual reco
 
 The scan-2 title page and scan-3 publication-details page visibly disagree in the publisher postcode (`600 0017` vs `600 017`); both witnesses are preserved exactly.
 
+## Phase 2 Batch 02 — scans 26–50
+
+**COMPLETE / PASS.** All 25 scans were independently reread against the controlling PDF.
+
+Source-backed corrections made during the batch:
+
+- scan 26: `வணிகள்` → `வணிகன்`;
+- scan 26: `அய்ந்தாறு` → `ஐந்தாறு`;
+- scan 28: both quoted `என்ஐ` readings → source `என்னை`;
+- scan 30: glossary `என்ஐ` → source `என்னை`;
+- scan 38: normalized `பரிதாபத்திற்குரியவர்` restored to the source line/form `பரிதாபத்திற்` / `குரியவர்`.
+
+Illustration-only scans **32, 40, 48** independently pass as physical visual records with no invented lexical text. Batch-02 unresolved readings: **0**.
+
 ## Phase 1 retained history
 
 - Batch 01 scans **1–25**: COMPLETE;
@@ -47,7 +61,7 @@ Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain phy
 
 ## Deferred to Phase 2+
 
-- independent verification scans **26–101**;
+- independent verification scans **51–101**;
 - page-join/continuity certification;
 - canonical Tamil assembly;
 - source-completeness/final clearance;
@@ -55,4 +69,4 @@ Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain phy
 
 ## Exact next activity
 
-**Phase 2 Batch 02 — independently verify scans 26–50 against the controlling PDF.**
+**Phase 2 Batch 03 — independently verify scans 51–75 against the controlling PDF.**
