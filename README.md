@@ -33,27 +33,29 @@ Phase 3 is **IN PROGRESS**:
 - Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
 - Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
-- all available lexical work-title witnesses agree on **`ஒருதலைக் காதல்`**;
-- the scan-1 cover line break `ஒருதலைக் / காதல்` is layout only, not a lexical title variant;
-- scan 2 title page is the primary canonical title authority;
-- `ஓவியக் கவிதை நாவல்` / `கவிதை நாவல்` remains a publisher description, not a subtitle;
-- title variants requiring reconciliation: **0**;
-- unresolved Gate-3 title questions: **0**;
-- verified page-text changes in Gates 1–3: **0**;
-- Gate 4 — canonical Tamil assembly: **NEXT**.
+- Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**;
+- canonical title: **`ஒருதலைக் காதல்`**, with scan 2 title page as primary authority;
+- canonical section files: **11/11** (`sections/01.md` … `sections/11.md`);
+- main-work scans assembled with explicit provenance: **95/95 — scans 6–100 exactly once**;
+- text-bearing scans: **84**; illustration provenance-only scans: **11**;
+- front matter scans **1–5** and back cover scan **101** remain outside poem body;
+- page-layer changes in Gates 1–4: **0**;
+- unresolved Gate-4 assembly discrepancies: **0**;
+- Gate 5 — assembly/source-completeness review: **NEXT**.
 
 Gate authorities:
 
 - `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md`;
 - `poems/oruthalaik-kathal/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - `poems/oruthalaik-kathal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- `poems/oruthalaik-kathal/PHASE3_CANONICAL_ASSEMBLY.md`;
 - `poems/oruthalaik-kathal/indexes/page-map.md`.
 
 Phase 4 remains blocked until Tamil final clearance.
 
 ### Exact next activity
 
-**Phase 3 Gate 4 — canonical Tamil assembly.** Assemble only from verified page records, preserve physical-scan provenance, follow Gate-2 joins and the Gate-3 title authority, and keep front matter out of poem body. Do not begin Gate 5, Tamil final clearance, translation or Digital Library integration in the same activity.
+**Phase 3 Gate 5 — assembly/source-completeness review.** Independently check the canonical section files against the verified page layer and source structure. Do not grant Tamil final clearance, begin translation, release work or Digital Library integration in the same activity.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

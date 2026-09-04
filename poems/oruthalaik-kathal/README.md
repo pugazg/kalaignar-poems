@@ -14,7 +14,7 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's **ஒருதல
 - first edition: **December 1998**;
 - source pagination statement: **95 + IV**.
 
-The publisher's `பதிப்புரை` describes the publication as an **ஓவியக் கவிதை நாவல்**. Gate 3 confirms that this is descriptive prose, not a subtitle.
+The publisher's `பதிப்புரை` describes the publication as an **ஓவியக் கவிதை நாவல்**. Gate 3 confirms this is descriptive prose, not a subtitle.
 
 ## Locked physical structure
 
@@ -28,31 +28,28 @@ The publisher's `பதிப்புரை` describes the publication as an **
 
 ## Current phase
 
-Source intake: **COMPLETE**.
-
-Phase 1: **COMPLETE — 101/101 first-pass captured**.
-
-Phase 2: **COMPLETE / PASS — 101/101 independently verified**.
-
-- page statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
-- unresolved Phase-2 source readings: **0**.
+Source intake: **COMPLETE**.  
+Phase 1: **COMPLETE — 101/101**.  
+Phase 2: **COMPLETE / PASS — 101/101 independently verified** with unresolved readings **0**.
 
 Phase 3: **IN PROGRESS**.
 
 - Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
 - Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
-- all available lexical title witnesses agree on **`ஒருதலைக் காதல்`**;
-- scan 1 cover line break is layout only;
-- scan 2 title page is the canonical assembly title authority;
-- title variants: **0**;
-- unresolved title questions: **0**;
-- page-text changes in Gates 1–3: **0**.
+- Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**;
+- canonical title: **`ஒருதலைக் காதல்`**; scan 2 title page is primary authority;
+- canonical files: `sections/01.md` … `sections/11.md`;
+- scans **6–100 = 95/95** represented exactly once with explicit scan provenance;
+- **84** text-bearing scans + **11** illustration provenance-only scans;
+- scans **1–5** and **101** excluded from poem body;
+- Gate-4 verified page-text changes: **0**;
+- unresolved Gate-4 assembly discrepancies: **0**.
 
-See `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md` and `indexes/page-map.md`.
+See `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md` and `indexes/page-map.md`.
 
 Phase 4 remains blocked until Tamil final clearance.
 
 ## Exact next activity
 
-**Phase 3 Gate 4 — canonical Tamil assembly.** Assemble the main work only from verified page records with explicit scan provenance. Do not begin Gate 5 or later work in the same activity.
+**Phase 3 Gate 5 — assembly/source-completeness review.** Independently validate the canonical section files against the verified page layer and structural authorities. Do not begin Gate 6 or later work in the same activity.

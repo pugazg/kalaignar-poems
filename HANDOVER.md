@@ -25,73 +25,42 @@ The scan is controlling source; do not silently modernize or reconstruct wording
 
 ## Durable state
 
-Source intake: **COMPLETE**.
-
-Phase 1: **COMPLETE — 101/101 first-pass captured**.
-
-Phase 2: **COMPLETE / PASS — 101/101 independently verified**.
-
-- statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
-- unresolved Phase-2 readings: **0**.
+Source intake: **COMPLETE**.  
+Phase 1: **COMPLETE — 101/101**.  
+Phase 2: **COMPLETE / PASS — 101/101 independently verified**, unresolved readings **0**.
 
 Phase 3: **IN PROGRESS**.
 
-### Gate 1 — physical scan ↔ printed-page reconciliation
+- Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
+- Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
+- Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**.
 
-**COMPLETE / PASS.** `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md` is authoritative.
+### Gate 4 durable assembly
 
-- scans 2–5 = logical Roman **I–IV** while source-visible `printed_page` remains `null`;
-- scans 6–100 = logical Arabic **1–95** (`scan_page - 5`);
-- 22/95 main-work pages suppress the numeral; 73/95 visibly print it;
-- unexplained pagination gaps/resets: **0**;
-- page-text changes: **0**.
+`PHASE3_CANONICAL_ASSEMBLY.md` is authoritative for the assembly milestone.
 
-### Gate 2 — boundary / page-join audit
+- canonical title: **`ஒருதலைக் காதல்`**, primary authority scan 2 title page;
+- canonical files: `poems/oruthalaik-kathal/sections/01.md` … `11.md`;
+- main-work scans **6–100 = 95/95** represented exactly once with `<!-- scan_page: N -->` provenance;
+- text-bearing main-work scans: **84**;
+- illustration scans: **11**, provenance-only with no invented lexical text;
+- scans **1–5** front matter and scan **101** back cover excluded from poem body;
+- verified page-layer changes in Gate 4: **0**;
+- unresolved Gate-4 assembly discrepancies: **0**.
 
-**COMPLETE / PASS.** `poems/oruthalaik-kathal/PHASE3_BOUNDARY_JOIN_AUDIT.md` is authoritative.
-
-- physical adjacent joins: **100/100 accounted**;
-- numbered section close/open boundaries: **10/10 certified**;
-- all 11 illustration interpositions certified in source order;
-- special continuation / quotation / glossary joins certified;
-- missing/duplicated pages: **0 / 0**;
-- unresolved join questions: **0**;
-- page-text changes: **0**.
-
-### Gate 3 — title-witness reconciliation
-
-**COMPLETE / PASS.** `poems/oruthalaik-kathal/PHASE3_TITLE_WITNESS_RECONCILIATION.md` is authoritative.
-
-- front cover scan 1: source layout `ஒருதலைக்` / `காதல்` across two lines;
-- title page scan 2: `ஒருதலைக் காதல்`;
-- section-1 opening scan 6: `ஒருதலைக் காதல்`;
-- scan 7 self-reference: `‘ஒருதலைக் காதல்’`;
-- all title-bearing running heads: `ஒருதலைக் காதல்`;
-- publisher `பதிப்புரை` references the same lexical title;
-- lexical title variants: **0**;
-- unresolved title questions: **0**;
-- assembly title authority: **scan 2 title page**;
-- canonical work title for Gate 4: **`ஒருதலைக் காதல்`**;
-- cover line break is layout only;
-- `ஓவியக் கவிதை நாவல்` / `கவிதை நாவல்` is descriptive prose, not a subtitle;
-- page-text changes in Gate 3: **0**.
-
-Historical Phase-2 lexical/source locks remain authoritative; Gates 1–3 did not reopen them.
+Historical source locks remain authoritative, including scan 2 `600 0017` vs scan 3 `600 017`, scan 52 `பீத்து கொண்டு`, and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
 
 Phase 4 remains blocked until Tamil final clearance.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
-`poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED**: Phase 1 465/465; Phase 2 465/465 verified; Phase 3 Gates 1–6 PASS; Tamil FINAL-CLEARED; English 18/18 batches PASS; 77/77 items; 439/439 item-owned scans; unresolved release issues 0.
-
-Do not reopen that completed workspace merely because `ஒருதலைக் காதல்` is active.
+`poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED** and must not be modified merely because `ஒருதலைக் காதல்` is active.
 
 ## Mandatory continuation startup
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and verified page records needed for assembly.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, all four Phase-3 gate records, work `HANDOVER.md`, work `NEXT_CHAT_PROMPT.md`, canonical `sections/` files and verified page records relevant to the review.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 3 Gate 4 — canonical Tamil assembly.**
-
-Assemble the main work only from verified page records using Gate-1 pagination, Gate-2 joins and the Gate-3 title authority. Preserve scan provenance and source lineation/marks; do not mix scans 1–5 or 101 into poem body. Do not begin Gate 5, Tamil final clearance, translation or Digital Library work in the same activity.
+**Phase 3 Gate 5 — assembly/source-completeness review.** Independently verify the canonical section files against the verified page records, Gate-1 pagination, Gate-2 joins and Gate-3 title authority. Confirm every required main-work scan occurs exactly once, all lexical content matches, illustration/front-matter/back-cover exclusions are correct, and no silent normalization occurred. Do not grant Tamil final clearance or begin translation/release/Digital Library work in the same activity.

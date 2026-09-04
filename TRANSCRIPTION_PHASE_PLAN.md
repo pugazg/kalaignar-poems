@@ -31,21 +31,24 @@
 1. physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**;
 2. boundary / page-join audit — **COMPLETE / PASS**;
 3. title-witness reconciliation — **COMPLETE / PASS**;
-4. canonical Tamil assembly — **NEXT**;
-5. assembly/source-completeness review — not started;
+4. canonical Tamil assembly — **COMPLETE / PASS**;
+5. assembly/source-completeness review — **NEXT**;
 6. Tamil final clearance — not started.
 
 Gate 1: scans 2–5 reconcile to logical Roman I–IV; scans 6–100 reconcile to logical Arabic 1–95; page-text changes **0**.
 
 Gate 2: all **100/100** physical adjacent transitions are structurally accounted; missing/duplicated pages **0 / 0**; unresolved join questions **0**; page-text changes **0**.
 
-Gate 3: all available lexical title witnesses agree on **`ஒருதலைக் காதல்`**; scan 2 title page is the assembly authority; scan-1 line break is layout only; no subtitle is created from descriptive prose; unresolved title questions **0**; page-text changes **0**.
+Gate 3: all lexical title witnesses agree on **`ஒருதலைக் காதல்`**; scan 2 title page is the assembly authority; no synthetic subtitle; unresolved title questions **0**; page-text changes **0**.
+
+Gate 4: **11/11** canonical numbered-section files assembled from verified records; scans **6–100 = 95/95** represented exactly once with scan provenance; **84** text-bearing scans plus **11** illustration provenance markers; scans **1–5** and **101** excluded from poem body; page-layer changes **0**; unresolved assembly discrepancies **0**.
 
 Gate records:
 
 - `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md`;
 - `poems/oruthalaik-kathal/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- `poems/oruthalaik-kathal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+- `poems/oruthalaik-kathal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- `poems/oruthalaik-kathal/PHASE3_CANONICAL_ASSEMBLY.md`.
 
 ## Phase 4 — translation and release
 
@@ -57,4 +60,4 @@ Gate records:
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 3 Gate 4 — canonical Tamil assembly.** Assemble only from verified page records; do not perform Gate 5 or later work in the same activity.
+**Phase 3 Gate 5 — assembly/source-completeness review.** Do not perform Gate 6 or later work in the same activity.

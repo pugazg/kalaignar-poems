@@ -19,7 +19,7 @@ Printed source facts:
 - source page-count statement: **95 + IV**;
 - price shown: **ரூ.24.00**.
 
-The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**. Gate 3 confirms that this phrase is descriptive and is not a title-page or cover subtitle.
+The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**. Gate 3 confirms this is descriptive prose rather than a bibliographic subtitle.
 
 ## Intake result
 
@@ -31,10 +31,8 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 
 ## Physical / pagination map
 
-Phase 3 Gate 1 reconciles the complete physical source as:
-
 - scan 1: front cover, unpaginated;
-- scans 2–5: front matter, logical Roman **I–IV** (`scan_page - 1`);
+- scans 2–5: front matter, logical Roman **I–IV**;
 - scans 6–100: main sequence, logical Arabic **1–95** (`scan_page - 5`);
 - scan 101: back cover, unpaginated.
 
@@ -64,33 +62,24 @@ No individual Roman numeral is visibly printed on scans 2–5, so their page rec
 
 Scan **100** / logical page **95** closes the work with `(முற்றும்)` and three diamonds. Scan **101** is the verified back cover.
 
-## Title-witness lock
-
-Phase 3 Gate 3 establishes:
-
-- scan 1 cover: `ஒருதலைக்` / `காதல்` across two lines;
-- scan 2 title page: `ஒருதலைக் காதல்`;
-- scan 6 section-1 title: `ஒருதலைக் காதல்`;
-- scan 7 self-reference and all title-bearing running heads: `ஒருதலைக் காதல்`;
-- lexical title variants: **0**;
-- canonical assembly title authority: **scan 2 title page**;
-- canonical work title: **`ஒருதலைக் காதல்`**;
-- no synthetic subtitle.
-
 ## Phase progression
 
-- Phase 1: **COMPLETE — 101/101 first-pass captured**;
+- Phase 1: **COMPLETE — 101/101**;
 - Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
-- statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
 - Phase 3 Gate 3: **COMPLETE / PASS**;
-- Phase 3 Gate 4: **NEXT**;
-- page-text changes in Gates 1–3: **0**;
+- Phase 3 Gate 4: **COMPLETE / PASS**;
+- Gate-4 canonical files: **11/11** under `sections/`;
+- main-work scan provenance represented: **95/95 — scans 6–100 exactly once**;
+- front matter scans **1–5** and back cover scan **101** excluded from poem body;
+- page-layer changes in Gates 1–4: **0**;
+- unresolved Gate-4 assembly discrepancies: **0**;
+- Phase 3 Gate 5: **NEXT**;
 - Phase 4: blocked until Tamil final clearance.
 
-Gate records are `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md` and `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+Gate records are `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md` and `PHASE3_CANONICAL_ASSEMBLY.md`.
 
 ## Next activity
 
-**Phase 3 Gate 4 — canonical Tamil assembly.**
+**Phase 3 Gate 5 — assembly/source-completeness review.**

@@ -18,7 +18,7 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 ## Mandatory startup
 
-Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, this prompt, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, and verified page records needed for assembly.
+Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, this prompt, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`, work `HANDOVER.md`, work `NEXT_CHAT_PROMPT.md`, canonical `sections/` files and verified page records needed for the active review.
 
 ## Current durable state
 
@@ -29,17 +29,18 @@ Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIP
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
 - Phase 3 Gate 3: **COMPLETE / PASS**;
-- all available lexical title witnesses agree on **`ஒருதலைக் காதல்`**;
-- scan 1 cover line break is layout only;
-- scan 2 title page is the canonical assembly title authority;
-- publisher description `ஓவியக் கவிதை நாவல்` / `கவிதை நாவல்` is not a subtitle;
-- lexical title variants: **0**;
-- unresolved title questions: **0**;
-- page-text changes in Gates 1–3: **0**;
+- Phase 3 Gate 4: **COMPLETE / PASS**;
+- canonical title: **`ஒருதலைக் காதல்`**, scan 2 title page authority;
+- canonical section files: **11/11**;
+- main-work scans assembled: **95/95 — scans 6–100 exactly once**;
+- text-bearing scans: **84**; full-page illustration provenance markers: **11**;
+- scans **1–5** and **101** excluded from poem body;
+- Gate-4 page-layer changes: **0**;
+- unresolved Gate-4 assembly discrepancies: **0**;
 - Phase 4 remains blocked by phase order.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly** only. Assemble the main work from verified page records, following Gate-1 pagination, Gate-2 page joins and the Gate-3 title authority. Preserve physical-scan provenance and source-visible lineation, punctuation, quotations, separators and unusual forms. Keep front matter (scans 1–5) and back cover (scan 101) outside poem body. Do not begin Gate 5, Tamil final clearance, translation or Digital Library work in the same activity.
+Perform **Phase 3 Gate 5 — assembly/source-completeness review** only. Independently compare `sections/01.md` … `11.md` against the verified page records and the Gate-1/Gate-2/Gate-3 authorities. Confirm exact once-only scan coverage, exact lexical carry-over, correct illustration/front-matter/back-cover exclusions, intact provenance markers and no silent normalization. Record the Gate-5 result and synchronize status documents. Do not grant Tamil final clearance, begin translation, release work or Digital Library integration in the same activity.
