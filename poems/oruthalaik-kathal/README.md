@@ -16,48 +16,34 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's **ஒருதல
 
 The publisher's `பதிப்புரை` describes the publication as an **ஓவியக் கவிதை நாவல்**.
 
-## Source structure
+## Locked physical structure
 
-- 1 — front cover;
-- 2 — title page;
-- 3 — publication details;
-- 4 — `பதிப்புரை`;
-- 5 — photograph / publisher tribute;
-- 6–100 — main work, logical printed pages 1–95;
-- 101 — back cover.
+- scan 1 — front cover;
+- scans 2–5 — unnumbered front matter;
+- scans 6–100 — logical main-work pages 1–95 (`scan_page - 5`);
+- scan 101 — back cover;
+- section starts: **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**;
+- full-page illustrations: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**;
+- scan 100 / logical page 95 closes with `(முற்றும்)`.
 
-Numbered sections begin at scans:
-
-| Section | Start scan | Logical page |
-|---:|---:|---:|
-| 1 | 6 | 1 |
-| 2 | 14 | 9 |
-| 3 | 21 | 16 |
-| 4 | 31 | 26 |
-| 5 | 39 | 34 |
-| 6 | 46 | 41 |
-| 7 | 56 | 51 |
-| 8 | 64 | 59 |
-| 9 | 74 | 69 |
-| 10 | 83 | 78 |
-| 11 | 93 | 88 |
-
-Full-page illustration scans: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
-
-Scan 100, logical printed page 95, carries `(முற்றும்)`.
+`printed_page` records only a numeral visibly printed on the scan; suppressed numerals remain `null`.
 
 ## Current phase
 
 Source intake: **COMPLETE**.
 
-Phase 1 transcription: **0/101 — NOT STARTED**.
+Phase 1 transcription: **25/101 COMPLETE AS FIRST PASS**.
 
-All 101 page-record files are scaffolds. They are not transcriptions and are not verified source text.
+- Batch 01 scans **1–25**: COMPLETE;
+- page statuses: **25 partial / 76 not-started / 0 needs-review / 0 verified**;
+- scans 1–5 front matter captured;
+- section-01 scans 6–13 captured;
+- section-02 scans 14–20 captured;
+- section-03 scans 21–25 captured through printed page 20;
+- illustration-only scans **8, 16, 22** preserved as visual/page-role records rather than invented verse text.
 
-## Printed-page discipline
-
-For scans 6–100, the logical sequence is `scan_page - 5`. The `printed_page` front-matter field records only a numeral actually visible on the scan. Section openings and full-page illustrations suppress their page numerals and therefore remain `null`.
+`partial` means transcription has had only the Phase-1 source-facing pass. It does **not** mean source-critical verification has passed.
 
 ## Exact next activity
 
-Phase 1 Batch 01: **transcribe scans 1–25**. Preserve source wording and visual structure. Newly transcribed pages remain `partial` until the independent Phase-2 pass.
+**Phase 1 Batch 02 — transcribe scans 26–50** into the existing `pages/0026.md`–`pages/0050.md` records. Do not begin Phase 2, canonical assembly, translation or Digital Library work.

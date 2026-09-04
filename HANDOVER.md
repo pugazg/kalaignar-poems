@@ -4,15 +4,13 @@
 
 `pugazg/kalaignar-poems` — branch `main`.
 
-**Live `main` is authoritative. Fetch it first in every fresh chat and preserve any newer durable state.**
+**Live `main` is authoritative. Fetch it first and preserve newer durable state.**
 
 ## Active work — ஒருதலைக் காதல்
 
 Workspace: `poems/oruthalaik-kathal/`
 
 Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf`
-
-Exact source identity:
 
 - physical PDF pages: **101**;
 - bytes: **200,800,237**;
@@ -23,86 +21,35 @@ Exact source identity:
 - first edition: **December 1998**;
 - source pagination statement: **95 + IV**.
 
-The publisher's preface describes the work as an **ஓவியக் கவிதை நாவல்**. Treat the scan as controlling source; do not silently modernize or reconstruct wording.
+The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**. The scan is controlling source; do not silently modernize or reconstruct wording.
 
-## Durable source-intake state
+## Durable state
 
-Source intake for `ஒருதலைக் காதல்` is **COMPLETE**:
+Source intake: **COMPLETE**.
 
-- exact-byte source identity: PASS;
-- physical scans accounted: **101/101**;
-- page-record scaffolds: **101/101**;
-- Phase-1 lexical transcription: **0/101**;
-- current page statuses: **101 not-started**;
+Phase 1 Batch 01: **COMPLETE — scans 1–25**.
+
+- page records: **101/101**;
+- Phase-1 transcribed/captured: **25/101**;
+- statuses: **25 partial / 76 not-started / 0 needs-review / 0 verified**;
 - Phase 2: not started;
 - Phase 3: not started;
 - Phase 4: not started.
 
-Physical structure:
-
-- scan 1 front cover;
-- scan 2 title page;
-- scan 3 publication details;
-- scan 4 `பதிப்புரை`;
-- scan 5 photograph / publisher tribute;
-- scans 6–100 logical printed pages 1–95, invariant `logical_page = scan_page - 5`;
-- scan 101 back cover;
-- numbered section starts: **1→6, 2→14, 3→21, 4→31, 5→39, 6→46, 7→56, 8→64, 9→74, 10→83, 11→93**;
-- illustration-only scans: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**;
-- scan 100 / logical printed page 95 ends with `(முற்றும்)`.
-
-### Printed-page rule
-
-`printed_page` in page front matter records only a numeral visibly printed on that scan. Section-opening and full-page illustration scans suppress the numeral and therefore retain `printed_page: null`; their logical position is separately preserved in `indexes/page-map.md`.
+Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts 6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93; illustration scans 8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94; scan 100 ends `(முற்றும்)`; scan 101 is back cover. Suppressed printed numerals remain `null`.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
-`poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED**:
+`poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED**: Phase 1 465/465; Phase 2 465/465 verified; Phase 3 Gates 1–6 PASS; Tamil FINAL-CLEARED; English 18/18 batches PASS; 77/77 items; 439/439 item-owned scans; unresolved release issues 0.
 
-- Phase 1: 465/465 complete;
-- Phase 2: 465/465 verified;
-- Phase 3 Gates 1–6: PASS;
-- Tamil layer: FINAL-CLEARED;
-- English Phase 4: 18/18 batches PASS;
-- canonical items: 77/77;
-- item-owned scans: 439/439;
-- unresolved release issues: 0.
+Do not reopen that completed workspace merely because `ஒருதலைக் காதல்` is active.
 
-Do **not** reopen or modify that completed workspace merely because this handover now points to a different active source.
+## Mandatory continuation startup
 
-## Wave-4 freeze note
-
-`WAVE4_SOURCE_FREEZE.md` freezes the earlier six-workspace source boundary at its recorded source commit. `poems/oruthalaik-kathal/` was added later and is outside that historical freeze. The old 6/6 statement must not be interpreted as current seven-workspace coverage.
-
-## Mandatory startup for continuation
-
-Before changing the active work, read completely:
-
-1. `POEM_PROCESSING_GUIDE.md`;
-2. `TRANSCRIPTION_PHASE_PLAN.md`;
-3. root `README.md`;
-4. this `HANDOVER.md`;
-5. root `NEXT_CHAT_PROMPT.md`;
-6. `poems/oruthalaik-kathal/README.md`;
-7. `poems/oruthalaik-kathal/SOURCE_INTAKE.md`;
-8. `poems/oruthalaik-kathal/metadata/source.md`;
-9. `poems/oruthalaik-kathal/indexes/page-map.md`;
-10. `poems/oruthalaik-kathal/audit.md`;
-11. `poems/oruthalaik-kathal/HANDOVER.md`;
-12. `poems/oruthalaik-kathal/NEXT_CHAT_PROMPT.md`;
-13. the active page records required by the current batch.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and active page records.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 1 Batch 01 — transcribe scans 1–25** into the existing `pages/0001.md`–`pages/0025.md` records.
+**Phase 1 Batch 02 — transcribe scans 26–50** into `poems/oruthalaik-kathal/pages/0026.md`–`0050.md`.
 
-Rules:
-
-- use only the controlling scan for lexical authority;
-- preserve visible spelling, punctuation, lineation, headings and non-text page roles;
-- do not infer suppressed printed numerals;
-- keep first-pass pages `partial` unless genuinely independently verified later;
-- record unresolved glyphs explicitly rather than guessing;
-- do not start Phase 2 verification, Phase 3 assembly, English translation or Digital Library work in this activity.
-
-After the batch, synchronize the active-work README, audit, page map if source discoveries require it, root handover/next prompt, and record the next contiguous Phase-1 batch.
+Rules: use only the controlling scan for lexical authority; preserve spelling, punctuation, lineation, headings, ornaments and page roles; first-pass pages remain `partial`; use `needs-review` rather than guessing; do not start Phase 2, Phase 3, translation or Digital Library work.

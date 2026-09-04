@@ -2,50 +2,52 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 READY**
+**SOURCE INTAKE COMPLETE / PHASE 1 IN PROGRESS**
 
 - physical scans: **101/101 accounted**;
-- page-record scaffolds: **101/101**;
-- Phase-1 transcribed pages: **0/101**;
-- not-started: **101**;
-- partial: **0**;
+- page-record files: **101/101**;
+- Phase-1 transcribed/captured pages: **25/101**;
+- not-started: **76**;
+- partial: **25**;
 - needs-review: **0**;
 - verified: **0**;
 - blocked: **0**.
 
-No page is `verified`: source intake and structural reconnaissance are not a substitute for the independent Phase-2 source-critical pass.
+No page is `verified`: Phase-1 first-pass transcription is not the independent Phase-2 source-critical pass.
 
-## Intake checks
+## Batch 01 — scans 1–25
 
-- exact-byte filename / size / checksum recorded: PASS;
-- front and back physical boundaries identified: PASS;
-- 95-page main-work logical sequence identified: PASS;
-- 11 numbered section starts identified: PASS;
-- 11 full-page illustration scans identified: PASS;
-- scan 100 `(முற்றும்)` closing boundary identified: PASS;
-- source PDF excluded from Git repository: PASS.
+**COMPLETE — first-pass source capture.**
 
-## Known structural map
+Covered:
 
-Section starts: **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**.
+- scans 1–5: front cover, title page, publication details, `பதிப்புரை`, photograph/tribute;
+- scans 6–13: section 1;
+- scans 14–20: section 2;
+- scans 21–25: section 3 through printed page 20;
+- illustration-only scans **8, 16, 22** retained as physical visual records with no invented lexical body text.
 
-Illustrations: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
+Source-visible running heads, printed page numerals, section-opening numeral suppression, quotations, Sangam citations, glossaries and ornaments were preserved at first-pass level.
 
-Logical pagination: scans 6–100 → pages 1–95 (`scan - 5`).
+## Structural intake checks retained
 
-Visible-numeral discipline: suppressed numerals remain `printed_page: null`.
+- exact-byte source identity: PASS;
+- front/back physical boundaries: PASS;
+- 95-page main-work logical sequence: PASS;
+- 11 section starts: mapped;
+- 11 full-page illustrations: mapped;
+- scan 100 `(முற்றும்)` closing boundary: mapped;
+- source PDF committed to repository: no.
 
 ## Deferred by phase policy
 
-- lexical transcription;
-- glyph-by-glyph verification;
-- difficult-reading adjudication;
+- independent glyph-by-glyph verification;
+- difficult-reading adjudication where Phase 2 may expose corrections;
 - exhaustive page-join certification;
 - canonical Tamil assembly;
-- source-completeness clearance;
-- English translation;
-- release review.
+- source-completeness/final clearance;
+- English translation and release.
 
 ## Exact next activity
 
-Phase 1 Batch 01: **scans 1–25**. Update each scaffold with faithful first-pass transcription/visual notes and set completed first-pass records to `partial`, not `verified`.
+**Phase 1 Batch 02 — scans 26–50**. Update `pages/0026.md` through `0050.md` with faithful first-pass transcription/visual notes and keep completed records `partial` unless a genuine unresolved reading requires `needs-review`.
