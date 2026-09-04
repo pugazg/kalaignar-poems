@@ -63,16 +63,14 @@ Scan **100** / logical page **95** closes the work with `(முற்றும�
 
 ## Phase progression
 
-- Phase 1 Batches 01–04, scans **1–100**: COMPLETE;
-- final scan **101 / back cover**: COMPLETE;
-- Phase-1 first-pass transcribed/captured: **101/101**;
-- `partial`: **101**;
-- `not-started`: **0**;
-- `needs-review`: **0**;
-- `verified`: **0**;
-- Phase 2: **UNBLOCKED / NOT STARTED**;
+- Phase 1: **COMPLETE — 101/101 first-pass captured**;
+- Phase 2 Batch 01, scans **1–25**: **COMPLETE / PASS**;
+- current statuses: **25 verified / 76 partial / 0 not-started / 0 needs-review**;
+- Phase 2 remains **IN PROGRESS**;
 - Phase 3/4: not started.
+
+Phase-2 Batch 01 also preserved the source-visible scan-2/scan-3 publisher-address discrepancy rather than normalizing it.
 
 ## Next activity
 
-**Phase 2 Batch 01 — independently verify scans 1–25.**
+**Phase 2 Batch 02 — independently verify scans 26–50.**

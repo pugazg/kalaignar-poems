@@ -18,7 +18,10 @@ The PDF itself is not committed to this repository.
 - printed page-count statement: **95 + IV**;
 - printed price: **ரூ.24.00**.
 
-The title page shows the publisher address as **55, வெங்கட் நாராயண ரோடு, தி. நகர், சென்னை – 600 017**.
+Phase-2 direct verification established a source-visible address discrepancy that must not be normalized:
+
+- scan 2 title page: **55, வெங்கட் நாராயணா ரோடு, தி. நகர், சென்னை - 600 0017**;
+- scan 3 publication-details page: **55, வெங்கட் நாராயணா ரோடு, தி. நகர், சென்னை - 600 017**.
 
 ## Work description visible in source
 

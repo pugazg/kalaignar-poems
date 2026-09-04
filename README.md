@@ -21,17 +21,19 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 - first edition: **December 1998**;
 - source pagination statement: **95 + IV**.
 
-Source intake is COMPLETE. Phase 1 is **COMPLETE — 101/101 first-pass transcribed/captured**.
+Source intake and Phase 1 are **COMPLETE — 101/101 first-pass captured**.
 
-Current page statuses: **101 partial / 0 not-started / 0 needs-review / 0 verified**.
+Phase 2 is **IN PROGRESS**:
 
-Batches 01–04 cover scans 1–100, and scan 101 / back cover is also captured. Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain visual/page-role records without invented verse text. Scan 100 / printed page 95 carries `(முற்றும்)`.
+- Batch 01 scans **1–25**: **COMPLETE / PASS**;
+- statuses: **25 verified / 76 partial / 0 not-started / 0 needs-review**;
+- no unresolved Batch-01 source reading remains.
 
-Phase 2 is **UNBLOCKED / NOT STARTED**.
+The source-visible publisher postcode differs between scan 2 (`600 0017`) and scan 3 (`600 017`); both witnesses are preserved.
 
 ### Exact next activity
 
-**Phase 2 Batch 01 — independently verify scans 1–25 against the controlling PDF.** Do not begin Phase 3, English translation or Digital Library integration.
+**Phase 2 Batch 02 — independently verify scans 26–50 against the controlling PDF.** Do not begin Phase 3, English translation or Digital Library integration.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

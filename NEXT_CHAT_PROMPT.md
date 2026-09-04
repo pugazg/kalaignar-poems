@@ -41,21 +41,20 @@ Read completely before changing anything:
 10. `poems/oruthalaik-kathal/audit.md`;
 11. `poems/oruthalaik-kathal/HANDOVER.md`;
 12. `poems/oruthalaik-kathal/NEXT_CHAT_PROMPT.md`;
-13. page records for scans 1–25.
+13. page records for the active verification batch.
 
 ## Current durable state
 
 - source intake: **COMPLETE**;
 - physical scans/page records: **101/101**;
 - Phase 1: **COMPLETE — 101/101 first-pass captured**;
-- page statuses: **101 partial / 0 not-started / 0 needs-review / 0 verified**;
-- scan 100 / printed page 95 closes with `(முற்றும்)`;
-- scan 101 back cover first-pass captured;
-- Phase 2: **UNBLOCKED / NOT STARTED**;
-- Phase 3/4: blocked by phase order.
+- Phase 2 Batch 01 scans **1–25**: **COMPLETE / PASS**;
+- page statuses: **25 verified / 76 partial / 0 not-started / 0 needs-review**;
+- Batch-01 corrections are recorded in the work audit;
+- Phase 3/4 remain blocked by phase order.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Perform **Phase 2 Batch 01 — independent source-critical visual verification of scans 1–25**. Re-read the controlling scan rather than trusting Phase-1 text. Correct only source-backed differences. Promote a page to `verified` only after the verification pass succeeds; use `needs-review` rather than guessing. Do not begin Phase 3, translation or Digital Library integration.
+Perform **Phase 2 Batch 02 — independent source-critical visual verification of scans 26–50**. Re-read the controlling scans rather than trusting Phase-1 text. Correct only source-backed differences. Promote a page to `verified` only after the verification pass succeeds; use `needs-review` rather than guessing. Do not begin Phase 3, translation or Digital Library integration.

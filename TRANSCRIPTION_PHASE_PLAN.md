@@ -21,16 +21,18 @@
 - Batch 02 scans **26–50**: COMPLETE;
 - Batch 03 scans **51–75**: COMPLETE;
 - Batch 04 scans **76–100**: COMPLETE;
-- scan **101 / back cover**: COMPLETE;
-- statuses: **101 partial / 0 not-started / 0 needs-review / 0 verified**.
-
-`partial` records now await the separate independent verification pass.
+- scan **101 / back cover**: COMPLETE.
 
 ## Phase 2 — source-critical visual verification
 
-**UNBLOCKED / NOT STARTED.**
+**IN PROGRESS.**
 
-Verify every page independently against the controlling scan. Check lexical text, punctuation, lineation, headings, page roles, printed numerals, illustrations and visible marks. Promote to `verified` only when the pass succeeds; use `needs-review` for unresolved readings.
+- Batch 01 scans **1–25**: **COMPLETE / PASS**;
+- current statuses: **25 verified / 76 partial / 0 needs-review / 0 not-started**;
+- Batch-01 illustration scans **8, 16, 22** verified as visual-only records;
+- unresolved Batch-01 readings: **0**.
+
+Every remaining page must be independently reread against the controlling scan. Correct only source-backed differences; promote to `verified` only when the pass succeeds.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
@@ -46,4 +48,4 @@ Verify every page independently against the controlling scan. Check lexical text
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 2 Batch 01 — independently verify scans 1–25.** Do not perform Phase 3 or later work in the same activity.
+**Phase 2 Batch 02 — independently verify scans 26–50.** Do not perform Phase 3 or later work in the same activity.

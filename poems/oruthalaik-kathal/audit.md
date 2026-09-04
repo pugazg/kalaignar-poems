@@ -2,44 +2,52 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 UNBLOCKED**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 IN PROGRESS**
 
 - physical scans: **101/101 accounted**;
 - page-record files: **101/101**;
-- Phase-1 transcribed/captured pages: **101/101**;
+- Phase-1 captured: **101/101**;
+- verified: **25**;
+- partial: **76**;
 - not-started: **0**;
-- partial: **101**;
 - needs-review: **0**;
-- verified: **0**;
 - blocked: **0**.
 
-No page is `verified`: Phase-1 first-pass capture is not the independent Phase-2 source-critical pass.
+## Phase 2 Batch 01 — scans 1–25
 
-## Completed Phase-1 work
+**COMPLETE / PASS.** All 25 scans were independently reread against the controlling PDF rather than accepted from the Phase-1 transcription.
 
-- Batch 01 — scans **1–25**: COMPLETE;
-- Batch 02 — scans **26–50**: COMPLETE;
-- Batch 03 — scans **51–75**: COMPLETE;
-- Batch 04 — scans **76–100**: COMPLETE;
+Source-backed corrections made during the batch include:
+
+- scan 2: `வெங்கட் நாராயணா ரோடு` and source-visible postcode `600 0017`;
+- scan 3: `வெங்கட் நாராயணா ரோடு` and `சீனிவாசநகர்`;
+- scan 4: `கோழைத்தட்டும்`, `வறித`;
+- scan 7: `தாரை வார்த்தபடியிருந்தான்`, `அறியாக்குழந்தை`;
+- scan 9: `உறையூரை`;
+- scan 12: `பேற்று வலியால்`;
+- scan 13: `ஞான்ற ஞாயிறு`;
+- scan 17: `போரவைக்கோ`;
+- scan 18: `கைக்கெட்டும்`;
+- scan 24: source spacing `இச் சோம்பேறிகள்`;
+- scan 25: `தவிப்பதாகத்`.
+
+Illustration-only scans **8, 16, 22** independently pass as physical visual records with no invented lexical text. Batch-01 unresolved readings: **0**.
+
+The scan-2 title page and scan-3 publication-details page visibly disagree in the publisher postcode (`600 0017` vs `600 017`); both witnesses are preserved exactly.
+
+## Phase 1 retained history
+
+- Batch 01 scans **1–25**: COMPLETE;
+- Batch 02 scans **26–50**: COMPLETE;
+- Batch 03 scans **51–75**: COMPLETE;
+- Batch 04 scans **76–100**: COMPLETE;
 - final scan **101 / back cover**: COMPLETE.
 
-Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records with no invented lexical body text. Scan **100 / printed page 95** preserves `(முற்றும்)` and the final ornament. Scan **101** preserves the back-cover role, portrait, rule, publisher emblem and `திருமகள் / நிலையம்`.
-
-## Structural intake checks retained
-
-- exact-byte source identity: PASS;
-- front/back physical boundaries: PASS;
-- 95-page main-work logical sequence: PASS;
-- 11 section starts: mapped;
-- 11 full-page illustrations: mapped;
-- scan 100 closing boundary: captured;
-- scan 101 back-cover boundary: captured;
-- source PDF committed to repository: no.
+Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records. Scan **100 / printed page 95** preserves `(முற்றும்)`; scan **101** preserves the back-cover role and publisher mark/text.
 
 ## Deferred to Phase 2+
 
-- independent glyph-by-glyph verification;
-- difficult-reading adjudication;
+- independent verification scans **26–101**;
 - page-join/continuity certification;
 - canonical Tamil assembly;
 - source-completeness/final clearance;
@@ -47,4 +55,4 @@ Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain phy
 
 ## Exact next activity
 
-**Phase 2 Batch 01 — independently verify scans 1–25 against the controlling PDF.**
+**Phase 2 Batch 02 — independently verify scans 26–50 against the controlling PDF.**

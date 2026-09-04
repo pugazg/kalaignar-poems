@@ -30,14 +30,15 @@ The publisher's `பதிப்புரை` describes the publication as an **
 
 Source intake: **COMPLETE**.
 
-Phase 1 transcription/capture: **COMPLETE — 101/101 first pass**.
+Phase 1: **COMPLETE — 101/101 first-pass captured**.
 
-- page statuses: **101 partial / 0 not-started / 0 needs-review / 0 verified**;
-- scan 101 back cover is captured with its visible publisher mark/text;
-- no page is source-critically verified yet.
+Phase 2: **IN PROGRESS**.
 
-Phase 2: **UNBLOCKED / NOT STARTED**.
+- Batch 01 scans **1–25**: **COMPLETE / PASS**;
+- page statuses: **25 verified / 76 partial / 0 not-started / 0 needs-review**;
+- illustration scans 8, 16 and 22 passed independent visual/page-role verification;
+- no unresolved Batch-01 source reading remains.
 
 ## Exact next activity
 
-**Phase 2 Batch 01 — independently verify scans 1–25 against the controlling source.** Correct only source-backed differences; promote successful pages to `verified`; use `needs-review` for genuine uncertainty. Do not begin Phase 3 or translation.
+**Phase 2 Batch 02 — independently verify scans 26–50 against the controlling source.** Correct only source-backed differences; promote successful pages to `verified`; use `needs-review` for genuine uncertainty. Do not begin Phase 3 or translation.

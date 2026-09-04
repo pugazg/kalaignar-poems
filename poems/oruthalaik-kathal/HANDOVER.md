@@ -20,16 +20,19 @@ Source intake: **COMPLETE**.
 
 Phase 1: **COMPLETE — 101/101 first-pass captured**.
 
-- Batches 01–04 scans **1–100**: COMPLETE;
-- scan **101 / back cover**: COMPLETE;
-- `partial`: **101**;
+Phase 2: **IN PROGRESS**.
+
+- Batch 01 scans **1–25**: **COMPLETE / PASS**;
+- `verified`: **25**;
+- `partial`: **76**;
 - `not-started`: **0**;
-- `needs-review`: **0**;
-- `verified`: **0**.
+- `needs-review`: **0**.
 
-Scan 100 / printed page 95 closes with `(முற்றும்)`. Scan 101 preserves the back-cover visual/text record. Main-work sequence remains scans 6–100 = logical pages 1–95.
+Batch 01 independently verified front matter and scans through printed page 20. Illustration scans **8, 16, 22** passed as visual-only records. Source-backed lexical/spacing corrections are recorded in `audit.md`; unresolved Batch-01 readings: **0**.
 
-Phase 2 is **UNBLOCKED / NOT STARTED**.
+The title-page postcode on scan 2 is source-visible `600 0017`, while scan 3 prints `600 017`; do not normalize either witness.
+
+Scan 100 / printed page 95 closes with `(முற்றும்)`. Scan 101 is the back cover. Main-work sequence remains scans 6–100 = logical pages 1–95.
 
 ## Rules for Phase 2
 
@@ -42,4 +45,4 @@ Phase 2 is **UNBLOCKED / NOT STARTED**.
 
 ## Exact next activity
 
-**Phase 2 Batch 01 — independently verify scans 1–25.**
+**Phase 2 Batch 02 — independently verify scans 26–50.**
