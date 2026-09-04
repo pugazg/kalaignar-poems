@@ -29,9 +29,10 @@
 
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- current statuses: **50 verified / 51 partial / 0 needs-review / 0 not-started**;
-- illustration scans **8, 16, 22, 32, 40, 48** verified as visual-only records;
-- unresolved Phase-2 readings through scan 50: **0**.
+- Batch 03 scans **51–75**: **COMPLETE / PASS**;
+- current statuses: **75 verified / 26 partial / 0 needs-review / 0 not-started**;
+- illustration scans **8, 16, 22, 32, 40, 48, 58, 66** verified as visual-only records;
+- unresolved Phase-2 readings through scan 75: **0**.
 
 Every remaining page must be independently reread against the controlling scan. Correct only source-backed differences; promote to `verified` only when the pass succeeds.
 
@@ -49,4 +50,4 @@ Every remaining page must be independently reread against the controlling scan. 
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 2 Batch 03 — independently verify scans 51–75.** Do not perform Phase 3 or later work in the same activity.
+**Phase 2 Batch 04 — independently verify scans 76–100.** Do not perform Phase 3 or later work in the same activity.

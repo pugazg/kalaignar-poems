@@ -24,12 +24,15 @@ Phase 2: **IN PROGRESS**.
 
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- `verified`: **50**;
-- `partial`: **51**;
+- Batch 03 scans **51–75**: **COMPLETE / PASS**;
+- `verified`: **75**;
+- `partial`: **26**;
 - `not-started`: **0**;
 - `needs-review`: **0**.
 
-Batches 01–02 independently verified scans through printed page 45. Illustration scans **8, 16, 22, 32, 40, 48** passed as visual-only records. Source-backed lexical/spacing/lineation corrections are recorded in `audit.md`; unresolved Phase-2 readings through scan 50: **0**.
+Batches 01–03 independently verify scans through printed page 70. Illustration scans **8, 16, 22, 32, 40, 48, 58, 66** passed as visual-only records. Source-backed lexical/spacing/lineation corrections are recorded in `audit.md`; unresolved Phase-2 readings through scan 75: **0**.
+
+Batch-03 high-resolution locks: scan 52 prints `பீத்து கொண்டு`; scan 57 prints `நாற்புறங்களில்` and `அலைகடலின் கொந்தளிப்பை`. Do not normalize or revert these source witnesses.
 
 The title-page postcode on scan 2 is source-visible `600 0017`, while scan 3 prints `600 017`; do not normalize either witness.
 
@@ -46,4 +49,4 @@ Scan 100 / printed page 95 closes with `(முற்றும்)`. Scan 101 is
 
 ## Exact next activity
 
-**Phase 2 Batch 03 — independently verify scans 51–75.**
+**Phase 2 Batch 04 — independently verify scans 76–100.**

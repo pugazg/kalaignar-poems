@@ -50,12 +50,14 @@ Read completely before changing anything:
 - Phase 1: **COMPLETE — 101/101 first-pass captured**;
 - Phase 2 Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Phase 2 Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- page statuses: **50 verified / 51 partial / 0 not-started / 0 needs-review**;
-- Batch-01 and Batch-02 corrections are recorded in the work audit;
+- Phase 2 Batch 03 scans **51–75**: **COMPLETE / PASS**;
+- page statuses: **75 verified / 26 partial / 0 not-started / 0 needs-review**;
+- Batch-01 through Batch-03 corrections are recorded in the work audit;
+- scan 52 source form `பீத்து கொண்டு` and scan 57 source form `அலைகடலின் கொந்தளிப்பை` are explicitly locked by high-resolution reread;
 - Phase 3/4 remain blocked by phase order.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Perform **Phase 2 Batch 03 — independent source-critical visual verification of scans 51–75**. Re-read the controlling scans rather than trusting Phase-1 text. Correct only source-backed differences. Promote a page to `verified` only after the verification pass succeeds; use `needs-review` rather than guessing. Do not begin Phase 3, translation or Digital Library integration.
+Perform **Phase 2 Batch 04 — independent source-critical visual verification of scans 76–100**. Re-read the controlling scans rather than trusting Phase-1 text. Correct only source-backed differences. Promote a page to `verified` only after the verification pass succeeds; use `needs-review` rather than guessing. Do not begin Phase 3, translation or Digital Library integration.

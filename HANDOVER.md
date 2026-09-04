@@ -33,11 +33,12 @@ Phase 2: **IN PROGRESS**.
 
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- statuses: **50 verified / 51 partial / 0 not-started / 0 needs-review**;
-- Batch-02 illustration scans **32, 40, 48** independently verified as visual-only;
-- unresolved Batch-02 readings: **0**.
+- Batch 03 scans **51–75**: **COMPLETE / PASS**;
+- statuses: **75 verified / 26 partial / 0 not-started / 0 needs-review**;
+- illustration scans **8, 16, 22, 32, 40, 48, 58, 66** independently verified as visual-only;
+- unresolved Phase-2 readings through scan 75: **0**.
 
-Phase-2 source-backed corrections are recorded in `poems/oruthalaik-kathal/audit.md`. The scan-2 postcode `600 0017` and scan-3 postcode `600 017` remain distinct source witnesses.
+Phase-2 source-backed corrections are recorded in `poems/oruthalaik-kathal/audit.md`. High-resolution Batch-03 adjudication preserves scan 52 `பீத்து கொண்டு` and scan 57 `அலைகடலின் கொந்தளிப்பை` exactly as printed.
 
 Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**; scan 100 ends `(முற்றும்)`; scan 101 is the back cover.
 
@@ -53,6 +54,6 @@ Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 2 Batch 03 — independently verify scans 51–75 against the controlling PDF.**
+**Phase 2 Batch 04 — independently verify scans 76–100 against the controlling PDF.**
 
 Check every word, punctuation mark, line break, heading, page role, printed-page numeral and visible non-body mark. Promote a page to `verified` only when the independent pass succeeds; use `needs-review` for unresolved readings. Do not begin Phase 3, translation or Digital Library work.
