@@ -18,17 +18,17 @@ Workspace: `poems/oruthalaik-kathal/`
 
 Source intake: **COMPLETE**.
 
-Phase 1 Batch 01: **COMPLETE — scans 1–25 first-pass captured**.
+Phase 1:
 
-Current counts:
-
-- Phase-1 transcribed/captured: **25/101**;
-- `partial`: **25**;
-- `not-started`: **76**;
+- Batch 01 scans **1–25**: COMPLETE;
+- Batch 02 scans **26–50**: COMPLETE;
+- first-pass transcribed/captured: **50/101**;
+- `partial`: **50**;
+- `not-started`: **51**;
 - `needs-review`: **0**;
 - `verified`: **0**.
 
-Batch 01 includes front matter 1–5, section 1 scans 6–13, section 2 scans 14–20, and section 3 scans 21–25. Illustration scans 8, 16 and 22 are retained as illustration records without invented text.
+Batch 02 covers the remainder of section 3, all of sections 4 and 5, and section 6 through scan 50. Illustration scans 32, 40 and 48 remain visual-only page records.
 
 Main-work sequence remains scans 6–100 = logical pages 1–95. Section starts: 6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93. Illustration scans: 8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94. Scan 100 ends with `(முற்றும்)`; scan 101 is back cover.
 
@@ -43,4 +43,4 @@ Main-work sequence remains scans 6–100 = logical pages 1–95. Section starts:
 
 ## Exact next activity
 
-**Phase 1 Batch 02 — transcribe scans 26–50** into `pages/0026.md`–`0050.md`, then update progress documents and record the next contiguous Phase-1 batch.
+**Phase 1 Batch 03 — transcribe scans 51–75** into `pages/0051.md`–`0075.md`, then update progress documents and record the next contiguous Phase-1 batch.

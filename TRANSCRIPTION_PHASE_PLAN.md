@@ -15,12 +15,13 @@
 
 ## Phase 1 — transcription
 
-**IN PROGRESS — 25/101 first-pass transcribed/captured.**
+**IN PROGRESS — 50/101 first-pass transcribed/captured.**
 
 - Batch 01 scans **1–25**: COMPLETE;
-- statuses: **25 partial / 76 not-started / 0 needs-review / 0 verified**;
+- Batch 02 scans **26–50**: COMPLETE;
+- statuses: **50 partial / 51 not-started / 0 needs-review / 0 verified**;
 - newly transcribed pages remain `partial` because Phase 2 has not occurred;
-- illustration scans 8, 16 and 22 have page-role/visual capture but no invented lexical text.
+- illustration scans captured so far: **8, 16, 22, 32, 40, 48**, with page-role/visual capture but no invented lexical text.
 
 ## Phase 2 — source-critical visual verification
 
@@ -40,4 +41,4 @@
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 1 Batch 02 — transcribe scans 26–50** against the same attached controlling source. Do not perform Phase-2 verification or later-phase work in the same activity.
+**Phase 1 Batch 03 — transcribe scans 51–75** against the same attached controlling source. Do not perform Phase-2 verification or later-phase work in the same activity.

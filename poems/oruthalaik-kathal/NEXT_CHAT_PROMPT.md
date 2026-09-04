@@ -2,26 +2,15 @@
 
 Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems/oruthalaik-kathal/`.
 
-## LIVE MAIN IS AUTHORITATIVE
-
-Fetch live `main` first and preserve newer durable work. Read `POEM_PROCESSING_GUIDE.md`, root `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then this work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, this prompt and active page records.
+Fetch live `main` first. Read the root processing guide, phase plan, README, HANDOVER and NEXT_CHAT_PROMPT, then this work's README, SOURCE_INTAKE, metadata/source, page map, audit, HANDOVER and this prompt.
 
 Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf`  
 Physical scans: **101**  
 Bytes: **200,800,237**  
 SHA-256: `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`
 
-## Current durable state
+Current durable state: source intake COMPLETE; 101/101 page records; Phase 1 Batches 01–02 COMPLETE through scan 50; first-pass transcription/capture **50/101**; statuses **50 partial / 51 not-started / 0 needs-review / 0 verified**. `கலைஞரின் கவிதைகள்` remains release-cleared and must not be modified.
 
-- source intake: COMPLETE;
-- page records: 101/101;
-- Phase 1 Batch 01 scans 1–25: COMPLETE;
-- Phase-1 progress: **25/101**;
-- statuses: **25 partial / 76 not-started / 0 needs-review / 0 verified**;
-- Phase 2/3/4: not started and blocked by phase order.
+Physical structure remains locked. Illustration scans already captured in Batches 01–02 are 8, 16, 22, 32, 40 and 48; future illustration scans remain 58, 66, 76, 84 and 94.
 
-`poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be reopened by this work.
-
-## EXACT NEXT ACTIVITY
-
-**Phase 1 Batch 02 — transcribe scans 26–50.** Work only in `pages/0026.md`–`0050.md` and required progress documents. Preserve source wording and page structure. First-pass pages remain `partial`; genuine unresolved readings become `needs-review`. Do not start Phase 2 verification, assembly, translation or Digital Library integration.
+Exact next activity: **Phase 1 Batch 03 — transcribe scans 51–75**. Preserve source wording and page structure. First-pass pages are `partial`; unresolved readings are `needs-review`. Do not start Phase 2 verification, assembly, translation or Digital Library work.
