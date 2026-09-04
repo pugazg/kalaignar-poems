@@ -19,46 +19,30 @@ Printed source facts:
 - source page-count statement: **95 + IV**;
 - price shown: **ரூ.24.00**.
 
-The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**. Gate 3 confirms this is descriptive prose rather than a bibliographic subtitle.
+The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**; Gate 3 establishes this as description, not subtitle.
 
 ## Intake result
 
 **PASS — source identity and physical structure established.**
 
-- all physical scans accounted: **101/101**;
-- page records: **101/101**;
+- scans accounted: **101/101**;
+- page records: **101/101 verified**;
 - source PDF committed to repository: **no**.
 
 ## Physical / pagination map
 
-- scan 1: front cover, unpaginated;
-- scans 2–5: front matter, logical Roman **I–IV**;
-- scans 6–100: main sequence, logical Arabic **1–95** (`scan_page - 5`);
-- scan 101: back cover, unpaginated.
+- scan 1: front cover;
+- scans 2–5: logical Roman **I–IV**;
+- scans 6–100: logical Arabic **1–95**;
+- scan 101: back cover.
 
 No individual Roman numeral is visibly printed on scans 2–5, so their page records retain `printed_page: null`.
 
-## Numbered-section boundaries
+## Numbered sections
 
-| Section | Physical scans | Logical pages |
-|---:|---:|---:|
-| 1 | 6–13 | 1–8 |
-| 2 | 14–20 | 9–15 |
-| 3 | 21–30 | 16–25 |
-| 4 | 31–38 | 26–33 |
-| 5 | 39–45 | 34–40 |
-| 6 | 46–55 | 41–50 |
-| 7 | 56–63 | 51–58 |
-| 8 | 64–73 | 59–68 |
-| 9 | 74–82 | 69–77 |
-| 10 | 83–92 | 78–87 |
-| 11 | 93–100 | 88–95 |
+1: 6–13; 2: 14–20; 3: 21–30; 4: 31–38; 5: 39–45; 6: 46–55; 7: 56–63; 8: 64–73; 9: 74–82; 10: 83–92; 11: 93–100.
 
-## Full-page illustrations
-
-**8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
-
-## Closing / back-cover boundary
+Full-page illustrations: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
 
 Scan **100** / logical page **95** closes the work with `(முற்றும்)` and three diamonds. Scan **101** is the verified back cover.
 
@@ -67,19 +51,17 @@ Scan **100** / logical page **95** closes the work with `(முற்றும�
 - Phase 1: **COMPLETE — 101/101**;
 - Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
-- Phase 3 Gate 2: **COMPLETE / PASS**;
-- Phase 3 Gate 3: **COMPLETE / PASS**;
-- Phase 3 Gate 4: **COMPLETE / PASS**;
-- Gate-4 canonical files: **11/11** under `sections/`;
-- main-work scan provenance represented: **95/95 — scans 6–100 exactly once**;
-- front matter scans **1–5** and back cover scan **101** excluded from poem body;
-- page-layer changes in Gates 1–4: **0**;
-- unresolved Gate-4 assembly discrepancies: **0**;
-- Phase 3 Gate 5: **NEXT**;
+- Gate 2: **COMPLETE / PASS**;
+- Gate 3: **COMPLETE / PASS**;
+- Gate 4: **COMPLETE / PASS**;
+- Gate 5: **COMPLETE / PASS**;
+- Gate 6: **NEXT**;
 - Phase 4: blocked until Tamil final clearance.
 
-Gate records are `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md` and `PHASE3_CANONICAL_ASSEMBLY.md`.
+Gate 5 discovered and corrected one source-completeness omission: scan **82** visibly ends section 9 with `♦     ♦     ♦`; that ornament had been omitted from the verified page record and canonical section. It is now restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS.
+
+Canonical coverage after correction remains **11/11 section files, scans 6–100 = 95/95 exactly once, 84 text-bearing scans + 11 illustration markers**, with unresolved source/completeness issues **0**.
 
 ## Next activity
 
-**Phase 3 Gate 5 — assembly/source-completeness review.**
+**Phase 3 Gate 6 — Tamil final clearance.**

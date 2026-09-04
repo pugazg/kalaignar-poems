@@ -21,12 +21,9 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 - first edition: **December 1998**;
 - source pagination statement: **95 + IV**.
 
-Source intake and Phase 1 are **COMPLETE — 101/101 first-pass captured**.
+Source intake and Phase 1 are **COMPLETE — 101/101**.
 
-Phase 2 is **COMPLETE / PASS — 101/101 independently verified**:
-
-- statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
-- unresolved Phase-2 readings: **0**.
+Phase 2 is **COMPLETE / PASS — 101/101 independently verified** with **0 unresolved readings**.
 
 Phase 3 is **IN PROGRESS**:
 
@@ -34,33 +31,29 @@ Phase 3 is **IN PROGRESS**:
 - Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
 - Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
 - Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**;
-- canonical title: **`ஒருதலைக் காதல்`**, with scan 2 title page as primary authority;
-- canonical section files: **11/11** (`sections/01.md` … `sections/11.md`);
-- main-work scans assembled with explicit provenance: **95/95 — scans 6–100 exactly once**;
-- text-bearing scans: **84**; illustration provenance-only scans: **11**;
-- front matter scans **1–5** and back cover scan **101** remain outside poem body;
-- page-layer changes in Gates 1–4: **0**;
-- unresolved Gate-4 assembly discrepancies: **0**;
-- Gate 5 — assembly/source-completeness review: **NEXT**.
+- Gate 5 — assembly/source-completeness review: **COMPLETE / PASS after one documented source-backed non-lexical correction**;
+- Gate 6 — Tamil final clearance: **NEXT**.
 
-Gate authorities:
+Gate 5 found that scan **82** visibly carries the section-9 closing `♦     ♦     ♦`, while the earlier verified page record and canonical `sections/09.md` had omitted that ornament. The controlling scan was rechecked directly; the ornament is now restored in both layers. Lexical wording changes: **0**. The 82→83 boundary and Gate-4 section-9 assembly were revalidated PASS. Remaining assembly/source-completeness discrepancies: **0**.
 
-- `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md`;
-- `poems/oruthalaik-kathal/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- `poems/oruthalaik-kathal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- `poems/oruthalaik-kathal/PHASE3_CANONICAL_ASSEMBLY.md`;
-- `poems/oruthalaik-kathal/indexes/page-map.md`.
+Current canonical state:
 
-Phase 4 remains blocked until Tamil final clearance.
+- canonical title: **`ஒருதலைக் காதல்`**, scan 2 title-page authority;
+- section files: **11/11**;
+- scans **6–100 = 95/95** represented exactly once;
+- **84** text-bearing scans + **11** illustration provenance-only scans;
+- scans **1–5** and **101** excluded from poem body;
+- verified page records: **101/101**;
+- unresolved Tamil/source issues before Gate 6: **0**.
+
+Gate records include `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`, and `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
+
+Phase 4 remains blocked until Gate 6 grants Tamil final clearance.
 
 ### Exact next activity
 
-**Phase 3 Gate 5 — assembly/source-completeness review.** Independently check the canonical section files against the verified page layer and source structure. Do not grant Tamil final clearance, begin translation, release work or Digital Library integration in the same activity.
+**Phase 3 Gate 6 — Tamil final clearance.** Reconfirm Gates 1–5 PASS and the scan-82 correction in both page and canonical layers, then record the final-clearance decision. Do not begin translation, release or Digital Library integration in the same activity.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
 `poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED**: Tamil final-cleared; English Batches 01–18 PASS; 77/77 items; 439/439 item-owned scans; unresolved release issues 0.
-
-## Historical Wave-4 note
-
-`WAVE4_SOURCE_FREEZE.md` records an earlier six-workspace source boundary. `poems/oruthalaik-kathal/` was added later and remains outside that historical freeze until a future explicit re-freeze.

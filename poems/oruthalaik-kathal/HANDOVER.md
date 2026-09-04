@@ -21,50 +21,44 @@ Source intake: **COMPLETE**.
 Phase 1: **COMPLETE — 101/101**.  
 Phase 2: **COMPLETE / PASS — 101/101 independently verified**, unresolved readings **0**.
 
-Historical source locks remain authoritative, including scan 2 `600 0017` vs scan 3 `600 017`, scan 52 `பீத்து கொண்டு`, and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
-
 Phase 3: **IN PROGRESS**.
 
-### Gate 1
+1. Gate 1 physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**;
+2. Gate 2 boundary / page-join audit — **COMPLETE / PASS**;
+3. Gate 3 title-witness reconciliation — **COMPLETE / PASS**;
+4. Gate 4 canonical Tamil assembly — **COMPLETE / PASS**;
+5. Gate 5 assembly/source-completeness review — **COMPLETE / PASS**;
+6. Gate 6 Tamil final clearance — **NEXT**.
 
-**COMPLETE / PASS.** `PHASE3_STRUCTURE_AUDIT.md` is authoritative.
+### Gate 5 correction
 
-### Gate 2
+The fresh Gate-5 review found one source-backed non-lexical omission. Scan **82** visibly ends section 9 with `♦     ♦     ♦`. Gate 2 had already certified this source boundary, but the ornament was missing from `pages/0082.md` and therefore from `sections/09.md`.
 
-**COMPLETE / PASS.** `PHASE3_BOUNDARY_JOIN_AUDIT.md` is authoritative.
+The controlling scan was directly rechecked and the ornament restored in both files.
 
-### Gate 3
+- lexical changes: **0**;
+- affected page: **82**;
+- affected canonical file: `sections/09.md`;
+- 82→83 join: revalidated **PASS**;
+- Gate-4 section-9 assembly: revalidated **PASS**;
+- unresolved Gate-5 discrepancies: **0**.
 
-**COMPLETE / PASS.** `PHASE3_TITLE_WITNESS_RECONCILIATION.md` is authoritative.
+Canonical state after Gate 5:
 
-- canonical title: **`ஒருதலைக் காதல்`**;
-- primary title authority: scan 2 title page;
-- lexical variants/unresolved title questions: **0 / 0**.
+- title: **`ஒருதலைக் காதல்`**, scan 2 title-page authority;
+- `sections/01.md` … `sections/11.md`: **11/11**;
+- scans **6–100 = 95/95** represented once each;
+- **84** text-bearing scans + **11** illustration provenance-only scans;
+- scans **1–5** and **101** outside poem body;
+- verified page records: **101/101**;
+- unresolved Tamil/source issues: **0**.
 
-### Gate 4
+Historical locks remain authoritative, including scan 2 `600 0017` vs scan 3 `600 017`, scan 52 `பீத்து கொண்டு`, and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
 
-**COMPLETE / PASS.** `PHASE3_CANONICAL_ASSEMBLY.md` is authoritative.
+Gate-5 authority: `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
 
-- canonical files: `sections/01.md` … `sections/11.md`;
-- scans **6–100 = 95/95** represented exactly once with physical-scan provenance;
-- **84** text-bearing scans;
-- **11** full-page illustration scans represented without invented lexical text;
-- scans **1–5** and **101** excluded from poem body;
-- verified source spelling, punctuation, lineation, quotation/glossary blocks, separators and Gate-2 continuations preserved;
-- Gate-4 page-layer changes: **0**;
-- unresolved assembly discrepancies: **0**.
-
-## Phase 3 gate order
-
-1. physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**;
-2. boundary / page-join audit — **COMPLETE / PASS**;
-3. title-witness reconciliation — **COMPLETE / PASS**;
-4. canonical Tamil assembly — **COMPLETE / PASS**;
-5. assembly/source-completeness review — **NEXT**;
-6. Tamil final clearance — not started.
-
-Phase 4 remains blocked until Tamil final clearance.
+Phase 4 remains blocked until Gate 6.
 
 ## Exact next activity
 
-**Phase 3 Gate 5 — assembly/source-completeness review.** Independently compare `sections/01.md` … `11.md` against the verified page records and Gate-1/Gate-2/Gate-3 authorities. Confirm once-only main-work scan coverage, exact lexical carry-over, correct illustration and cover/front-matter exclusions, intact provenance markers and no silent normalization. Do not perform Gate 6, translation, release or Digital Library work in the same activity.
+**Phase 3 Gate 6 — Tamil final clearance.** Reconfirm Gates 1–5 PASS, verify scan 82's restored three-diamond close in both `pages/0082.md` and `sections/09.md`, confirm unresolved Tamil/source issues are zero, and record final clearance. Do not begin translation, release or Digital Library work in the same activity.

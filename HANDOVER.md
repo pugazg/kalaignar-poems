@@ -31,25 +31,37 @@ Phase 2: **COMPLETE / PASS — 101/101 independently verified**, unresolved read
 
 Phase 3: **IN PROGRESS**.
 
-- Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
-- Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
-- Gate 4 — canonical Tamil assembly: **COMPLETE / PASS**.
+- Gate 1 — **COMPLETE / PASS**;
+- Gate 2 — **COMPLETE / PASS**;
+- Gate 3 — **COMPLETE / PASS**;
+- Gate 4 — **COMPLETE / PASS**;
+- Gate 5 — **COMPLETE / PASS after one documented source-backed non-lexical correction**;
+- Gate 6 — **NEXT**.
 
-### Gate 4 durable assembly
+### Gate 5 correction
 
-`PHASE3_CANONICAL_ASSEMBLY.md` is authoritative for the assembly milestone.
+Fresh assembly/source-completeness review found that physical scan **82 / printed page 77** visibly ends section 9 with `♦     ♦     ♦`, but the ornament had been omitted from the earlier verified `pages/0082.md` record and therefore from `sections/09.md`. The controlling scan was directly rechecked and the ornament restored in both files.
 
-- canonical title: **`ஒருதலைக் காதல்`**, primary authority scan 2 title page;
-- canonical files: `poems/oruthalaik-kathal/sections/01.md` … `11.md`;
-- main-work scans **6–100 = 95/95** represented exactly once with `<!-- scan_page: N -->` provenance;
-- text-bearing main-work scans: **84**;
-- illustration scans: **11**, provenance-only with no invented lexical text;
-- scans **1–5** front matter and scan **101** back cover excluded from poem body;
-- verified page-layer changes in Gate 4: **0**;
-- unresolved Gate-4 assembly discrepancies: **0**.
+- lexical wording changes: **0**;
+- non-lexical structural correction: **1**;
+- affected page/canonical file: scan 82 / `sections/09.md`;
+- 82→83 boundary: revalidated PASS;
+- Gate-4 section-9 assembly: revalidated PASS;
+- unresolved assembly/source-completeness discrepancies: **0**.
+
+Canonical state after Gate 5:
+
+- canonical title: **`ஒருதலைக் காதல்`**, scan 2 title-page authority;
+- section files: **11/11**;
+- main-work scans **6–100 = 95/95** represented exactly once;
+- text-bearing scans: **84**;
+- full-page illustration scans: **11**, provenance-only;
+- scans **1–5** and **101** excluded from poem body;
+- verified page records: **101/101**.
 
 Historical source locks remain authoritative, including scan 2 `600 0017` vs scan 3 `600 017`, scan 52 `பீத்து கொண்டு`, and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
+
+Gate authorities now include `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md` in addition to Gates 1–4 records.
 
 Phase 4 remains blocked until Tamil final clearance.
 
@@ -57,10 +69,6 @@ Phase 4 remains blocked until Tamil final clearance.
 
 `poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED** and must not be modified merely because `ஒருதலைக் காதல்` is active.
 
-## Mandatory continuation startup
-
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, all four Phase-3 gate records, work `HANDOVER.md`, work `NEXT_CHAT_PROMPT.md`, canonical `sections/` files and verified page records relevant to the review.
-
 ## EXACT NEXT ACTIVITY
 
-**Phase 3 Gate 5 — assembly/source-completeness review.** Independently verify the canonical section files against the verified page records, Gate-1 pagination, Gate-2 joins and Gate-3 title authority. Confirm every required main-work scan occurs exactly once, all lexical content matches, illustration/front-matter/back-cover exclusions are correct, and no silent normalization occurred. Do not grant Tamil final clearance or begin translation/release/Digital Library work in the same activity.
+**Phase 3 Gate 6 — Tamil final clearance.** Reconfirm Gates 1–5 PASS, confirm the scan-82 three-diamond correction exists in both `pages/0082.md` and `sections/09.md`, confirm unresolved Tamil/source issues are zero, and then record the final-clearance decision. Do not begin translation, release or Digital Library work in the same activity.
