@@ -7,8 +7,8 @@
 - physical scans: **101/101 accounted**;
 - page-record files: **101/101**;
 - Phase-1 captured: **101/101**;
-- verified: **75**;
-- partial: **26**;
+- verified: **100**;
+- partial: **1**;
 - not-started: **0**;
 - needs-review: **0**;
 - blocked: **0**.
@@ -76,6 +76,36 @@ Source-backed corrections and locked readings:
 
 Illustration-only scans **58, 66** independently pass as physical visual records with no invented lexical text. Batch-03 unresolved readings: **0**.
 
+## Phase 2 Batch 04 — scans 76–100
+
+**COMPLETE / PASS.** All 25 scans were independently reread against the controlling PDF. Source wording, punctuation, lineation, printed-page numerals, section openings and non-body marks were checked against the scans.
+
+Source-backed corrections / locked readings include:
+
+- scan 77: `கங்கநாட்டுக்`;
+- scan 77: `உயிரினுஞ்`;
+- scan 78: `நாளவையில்`;
+- scan 79: `ஓரத்தில்`;
+- scan 81: `எளிதான`;
+- scan 83: `போருக்குக்`;
+- scan 85: `தமிழ் எழுதிப்பிழைக்க`;
+- scan 85: `நினைவூட்டுகின்றேன்`;
+- scan 86: `நாளவையின்`;
+- scan 87: `எழுதிக் குவித்திடுவேன்`;
+- scan 87: `தூக்கமின்றிப்`;
+- scan 88: `ஓடிவந்தீர்`;
+- scan 90: `சேய் வளர்த்த`;
+- scan 90: `இணையாகப்`;
+- scan 92: `ஊழித்தீயெனப்`;
+- scan 93: `அனிச்சமலர் தேகத்தை`;
+- scan 93: `காளைகளைச்`;
+- scan 97: `உனைக் கொல்வதுபோல்`;
+- scan 98: `கூர்கொண்ட`;
+- scan 98: `என் அறியாமை`;
+- scan 99: `கரும்பாய் முத்தம்`.
+
+Illustration-only scans **76, 84, 94** independently pass as physical visual records with no invented lexical text. Scan **100 / printed page 95** independently verifies `(முற்றும்)` and the closing three-diamond ornament. Batch-04 unresolved readings: **0**.
+
 ## Phase 1 retained history
 
 - Batch 01 scans **1–25**: COMPLETE;
@@ -84,11 +114,11 @@ Illustration-only scans **58, 66** independently pass as physical visual records
 - Batch 04 scans **76–100**: COMPLETE;
 - final scan **101 / back cover**: COMPLETE.
 
-Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records. Scan **100 / printed page 95** preserves `(முற்றும்)`; scan **101** preserves the back-cover role and publisher mark/text.
+Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records. Scan **100 / printed page 95** preserves `(முற்றும்)`; scan **101** preserves the back-cover role and publisher mark/text in its Phase-1 record.
 
 ## Deferred to Phase 2+
 
-- independent verification scans **76–101**;
+- independent verification of **scan 101 / back cover**;
 - page-join/continuity certification;
 - canonical Tamil assembly;
 - source-completeness/final clearance;
@@ -96,4 +126,4 @@ Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain phy
 
 ## Exact next activity
 
-**Phase 2 Batch 04 — independently verify scans 76–100 against the controlling PDF.**
+**Phase 2 final scan 101 — independently verify the back cover against the controlling PDF.**

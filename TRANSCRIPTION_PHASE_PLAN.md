@@ -30,11 +30,12 @@
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
 - Batch 03 scans **51–75**: **COMPLETE / PASS**;
-- current statuses: **75 verified / 26 partial / 0 needs-review / 0 not-started**;
-- illustration scans **8, 16, 22, 32, 40, 48, 58, 66** verified as visual-only records;
-- unresolved Phase-2 readings through scan 75: **0**.
+- Batch 04 scans **76–100**: **COMPLETE / PASS**;
+- current statuses: **100 verified / 1 partial / 0 needs-review / 0 not-started**;
+- illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** verified as visual-only records;
+- unresolved Phase-2 readings through scan 100: **0**.
 
-Every remaining page must be independently reread against the controlling scan. Correct only source-backed differences; promote to `verified` only when the pass succeeds.
+The only remaining Phase-2 page is **scan 101 / back cover**.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
@@ -50,4 +51,4 @@ Every remaining page must be independently reread against the controlling scan. 
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 2 Batch 04 — independently verify scans 76–100.** Do not perform Phase 3 or later work in the same activity.
+**Phase 2 final scan 101 — independently verify the back cover.** Do not perform Phase 3 or later work in the same activity.

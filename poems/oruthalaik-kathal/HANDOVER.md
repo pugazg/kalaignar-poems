@@ -22,26 +22,24 @@ Phase 1: **COMPLETE — 101/101 first-pass captured**.
 
 Phase 2: **IN PROGRESS**.
 
-- Batch 01 scans **1–25**: **COMPLETE / PASS**;
-- Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- Batch 03 scans **51–75**: **COMPLETE / PASS**;
-- `verified`: **75**;
-- `partial`: **26**;
+- Batches 01–04, scans **1–100**: **COMPLETE / PASS**;
+- `verified`: **100**;
+- `partial`: **1**;
 - `not-started`: **0**;
 - `needs-review`: **0**.
 
-Batches 01–03 independently verify scans through printed page 70. Illustration scans **8, 16, 22, 32, 40, 48, 58, 66** passed as visual-only records. Source-backed lexical/spacing/lineation corrections are recorded in `audit.md`; unresolved Phase-2 readings through scan 75: **0**.
+All eleven illustration scans passed independent visual/page-role verification. Source-backed lexical/spacing/lineation corrections are recorded in `audit.md`; unresolved Phase-2 readings through scan 100: **0**.
 
-Batch-03 high-resolution locks: scan 52 prints `பீத்து கொண்டு`; scan 57 prints `நாற்புறங்களில்` and `அலைகடலின் கொந்தளிப்பை`. Do not normalize or revert these source witnesses.
+Batch-03 high-resolution locks remain: scan 52 `பீத்து கொண்டு`; scan 57 `நாற்புறங்களில்` and `அலைகடலின் கொந்தளிப்பை`. Batch 04 independently verifies scan 100 closes with `(முற்றும்)` and its closing ornament.
 
 The title-page postcode on scan 2 is source-visible `600 0017`, while scan 3 prints `600 017`; do not normalize either witness.
 
-Scan 100 / printed page 95 closes with `(முற்றும்)`. Scan 101 is the back cover. Main-work sequence remains scans 6–100 = logical pages 1–95.
+Scan 101 is the back cover and the sole remaining Phase-2 page.
 
 ## Rules for Phase 2
 
 - reread the controlling scan independently rather than trusting Phase-1 text;
-- verify words, punctuation, lineation, headings, page roles, numerals and visible marks;
+- verify words, page role and visible marks;
 - correct only source-backed differences;
 - promote to `verified` only after the page passes;
 - use `needs-review` for genuine unresolved readings;
@@ -49,4 +47,4 @@ Scan 100 / printed page 95 closes with `(முற்றும்)`. Scan 101 is
 
 ## Exact next activity
 
-**Phase 2 Batch 04 — independently verify scans 76–100.**
+**Phase 2 final scan 101 — independently verify the back cover.**

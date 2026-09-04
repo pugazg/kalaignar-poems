@@ -21,7 +21,7 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 - first edition: **December 1998**;
 - source pagination statement: **95 + IV**.
 
-The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**. The scan is controlling source; do not silently modernize or reconstruct wording.
+The scan is controlling source; do not silently modernize or reconstruct wording.
 
 ## Durable state
 
@@ -34,13 +34,14 @@ Phase 2: **IN PROGRESS**.
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
 - Batch 03 scans **51–75**: **COMPLETE / PASS**;
-- statuses: **75 verified / 26 partial / 0 not-started / 0 needs-review**;
-- illustration scans **8, 16, 22, 32, 40, 48, 58, 66** independently verified as visual-only;
-- unresolved Phase-2 readings through scan 75: **0**.
+- Batch 04 scans **76–100**: **COMPLETE / PASS**;
+- statuses: **100 verified / 1 partial / 0 not-started / 0 needs-review**;
+- illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** independently verified as visual-only;
+- unresolved Phase-2 readings through scan 100: **0**.
 
-Phase-2 source-backed corrections are recorded in `poems/oruthalaik-kathal/audit.md`. High-resolution Batch-03 adjudication preserves scan 52 `பீத்து கொண்டு` and scan 57 `அலைகடலின் கொந்தளிப்பை` exactly as printed.
+Phase-2 source-backed corrections are recorded in `poems/oruthalaik-kathal/audit.md`. Batch-04 independently confirms scan 100 / printed page 95 closes with `(முற்றும்)` and the closing three-diamond ornament. Scan 101 is still `partial` and is the sole remaining Phase-2 page.
 
-Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**; scan 100 ends `(முற்றும்)`; scan 101 is the back cover.
+Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; scan 101 is the back cover.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
@@ -50,10 +51,10 @@ Do not reopen that completed workspace merely because `ஒருதலைக் 
 
 ## Mandatory continuation startup
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and the active verification batch page records.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and `pages/0101.md`.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 2 Batch 04 — independently verify scans 76–100 against the controlling PDF.**
+**Phase 2 final scan 101 — independently verify the back cover against the controlling PDF.**
 
-Check every word, punctuation mark, line break, heading, page role, printed-page numeral and visible non-body mark. Promote a page to `verified` only when the independent pass succeeds; use `needs-review` for unresolved readings. Do not begin Phase 3, translation or Digital Library work.
+Check page role, visible text/markings and physical-source description; promote `pages/0101.md` to `verified` only after the independent pass succeeds. Do not begin Phase 3, translation or Digital Library work in the same activity.

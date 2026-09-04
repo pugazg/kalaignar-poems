@@ -37,12 +37,13 @@ Phase 2: **IN PROGRESS**.
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
 - Batch 03 scans **51–75**: **COMPLETE / PASS**;
-- page statuses: **75 verified / 26 partial / 0 not-started / 0 needs-review**;
-- illustration scans **8, 16, 22, 32, 40, 48, 58, 66** have passed independent visual/page-role verification;
-- no unresolved Phase-2 source reading remains through scan 75.
+- Batch 04 scans **76–100**: **COMPLETE / PASS**;
+- page statuses: **100 verified / 1 partial / 0 not-started / 0 needs-review**;
+- all eleven illustration scans have passed independent visual/page-role verification;
+- no unresolved Phase-2 source reading remains through scan 100.
 
-Batch-03 high-resolution adjudications preserve source `பீத்து கொண்டு` on scan 52 and `அலைகடலின் கொந்தளிப்பை` on scan 57.
+Batch-04 source-backed corrections are recorded in `audit.md`; scan 100 independently passes with `(முற்றும்)` and its closing ornament preserved.
 
 ## Exact next activity
 
-**Phase 2 Batch 04 — independently verify scans 76–100 against the controlling source.** Correct only source-backed differences; promote successful pages to `verified`; use `needs-review` for genuine uncertainty. Do not begin Phase 3 or translation.
+**Phase 2 final scan 101 — independently verify the back cover against the controlling source.** Do not begin Phase 3 or translation in the same activity.
