@@ -59,7 +59,7 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 
 ## Closing / back-cover boundary
 
-Scan **100** / logical page **95** closes the work with `(முற்றும்)`. Scan **101** is a pale-yellow back cover with a colour portrait, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`.
+Scan **100** / logical page **95** closes the work with `(முற்றும்)`. Scan **101** is a pale-yellow back cover with a colour portrait, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`. Phase-2 independent verification confirms that role and visible evidence.
 
 ## Phase progression
 
@@ -68,12 +68,14 @@ Scan **100** / logical page **95** closes the work with `(முற்றும�
 - Phase 2 Batch 02, scans **26–50**: **COMPLETE / PASS**;
 - Phase 2 Batch 03, scans **51–75**: **COMPLETE / PASS**;
 - Phase 2 Batch 04, scans **76–100**: **COMPLETE / PASS**;
-- current statuses: **100 verified / 1 partial / 0 not-started / 0 needs-review**;
-- Phase 2 remains **IN PROGRESS**;
-- Phase 3/4: not started.
+- Phase 2 final scan **101**: **COMPLETE / PASS**;
+- current statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
+- Phase 2: **COMPLETE / PASS**;
+- Phase 3: **READY / NOT STARTED**;
+- Phase 4: blocked until Tamil final clearance.
 
-Phase-2 verification preserves source-visible anomalies and exact source wording rather than normalizing them. Batch-04 source-backed corrections are recorded in `audit.md`.
+Phase-2 verification preserves source-visible anomalies and exact source wording rather than normalizing them. Source-backed corrections are recorded in `audit.md`.
 
 ## Next activity
 
-**Phase 2 final scan 101 — independently verify the back cover.**
+**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for all 101 scans.**

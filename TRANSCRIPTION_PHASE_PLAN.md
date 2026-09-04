@@ -25,21 +25,27 @@
 
 ## Phase 2 — source-critical visual verification
 
-**IN PROGRESS.**
+**COMPLETE / PASS — 101/101 independently verified.**
 
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
 - Batch 03 scans **51–75**: **COMPLETE / PASS**;
 - Batch 04 scans **76–100**: **COMPLETE / PASS**;
-- current statuses: **100 verified / 1 partial / 0 needs-review / 0 not-started**;
+- final scan **101 / back cover**: **COMPLETE / PASS**;
+- current statuses: **101 verified / 0 partial / 0 needs-review / 0 not-started**;
 - illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** verified as visual-only records;
-- unresolved Phase-2 readings through scan 100: **0**.
-
-The only remaining Phase-2 page is **scan 101 / back cover**.
+- unresolved Phase-2 readings: **0**.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**BLOCKED until Phase 2 passes.**
+**READY / NOT STARTED.** Proceed only through the ordered gates in `POEM_PROCESSING_GUIDE.md`.
+
+1. physical scan ↔ printed-page reconciliation;
+2. boundary / page-join audit;
+3. title-witness reconciliation;
+4. canonical Tamil assembly;
+5. assembly/source-completeness review;
+6. Tamil final clearance.
 
 ## Phase 4 — translation and release
 
@@ -51,4 +57,4 @@ The only remaining Phase-2 page is **scan 101 / back cover**.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 2 final scan 101 — independently verify the back cover.** Do not perform Phase 3 or later work in the same activity.
+**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for all 101 scans.** Do not perform Gate 2 or later work in the same activity.

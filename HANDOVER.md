@@ -29,19 +29,21 @@ Source intake: **COMPLETE**.
 
 Phase 1: **COMPLETE — 101/101 first-pass captured**.
 
-Phase 2: **IN PROGRESS**.
+Phase 2: **COMPLETE / PASS — 101/101 independently verified**.
 
-- Batch 01 scans **1–25**: **COMPLETE / PASS**;
-- Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- Batch 03 scans **51–75**: **COMPLETE / PASS**;
-- Batch 04 scans **76–100**: **COMPLETE / PASS**;
-- statuses: **100 verified / 1 partial / 0 not-started / 0 needs-review**;
-- illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** independently verified as visual-only;
-- unresolved Phase-2 readings through scan 100: **0**.
+- Batches 01–04, scans **1–100**: **COMPLETE / PASS**;
+- final scan **101 / back cover**: **COMPLETE / PASS**;
+- statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
+- all eleven illustration scans independently verified as visual-only;
+- unresolved Phase-2 readings: **0**.
 
-Phase-2 source-backed corrections are recorded in `poems/oruthalaik-kathal/audit.md`. Batch-04 independently confirms scan 100 / printed page 95 closes with `(முற்றும்)` and the closing three-diamond ornament. Scan 101 is still `partial` and is the sole remaining Phase-2 page.
+Scan 101 independently confirms the back-cover physical role, visible `திருமகள் / நிலையம்`, colour portrait, pale-yellow field, red horizontal rule, publisher emblem and absence of a printed page numeral or poem body text.
+
+Phase-2 source-backed corrections are recorded in `poems/oruthalaik-kathal/audit.md`. Scan 100 / printed page 95 closes with `(முற்றும்)` and the closing three-diamond ornament.
 
 Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; scan 101 is the back cover.
+
+Phase 3: **READY / NOT STARTED**. Phase 4 remains blocked until Tamil final clearance.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
@@ -51,10 +53,10 @@ Do not reopen that completed workspace merely because `ஒருதலைக் 
 
 ## Mandatory continuation startup
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and `pages/0101.md`.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and verified page records relevant to the Phase-3 gate.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 2 final scan 101 — independently verify the back cover against the controlling PDF.**
+**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation.**
 
-Check page role, visible text/markings and physical-source description; promote `pages/0101.md` to `verified` only after the independent pass succeeds. Do not begin Phase 3, translation or Digital Library work in the same activity.
+Account for all 101 physical scans, preserve only source-visible printed numerals in page metadata, reconcile scans 6–100 to logical pages 1–95, and record the Gate-1 result. Do not begin Gate 2, canonical assembly, translation or Digital Library work in the same activity.

@@ -32,18 +32,18 @@ Source intake: **COMPLETE**.
 
 Phase 1: **COMPLETE — 101/101 first-pass captured**.
 
-Phase 2: **IN PROGRESS**.
+Phase 2: **COMPLETE / PASS — 101/101 independently verified**.
 
-- Batch 01 scans **1–25**: **COMPLETE / PASS**;
-- Batch 02 scans **26–50**: **COMPLETE / PASS**;
-- Batch 03 scans **51–75**: **COMPLETE / PASS**;
-- Batch 04 scans **76–100**: **COMPLETE / PASS**;
-- page statuses: **100 verified / 1 partial / 0 not-started / 0 needs-review**;
-- all eleven illustration scans have passed independent visual/page-role verification;
-- no unresolved Phase-2 source reading remains through scan 100.
+- Batches 01–04 scans **1–100**: **COMPLETE / PASS**;
+- final scan **101 / back cover**: **COMPLETE / PASS**;
+- page statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
+- all eleven illustration scans passed independent visual/page-role verification;
+- unresolved Phase-2 source readings: **0**.
 
-Batch-04 source-backed corrections are recorded in `audit.md`; scan 100 independently passes with `(முற்றும்)` and its closing ornament preserved.
+Scan 101 independently confirms the back-cover role, `திருமகள் / நிலையம்`, colour portrait, pale-yellow field, red horizontal rule, publisher emblem and absence of a printed page numeral or poem body text.
+
+Phase 3: **READY / NOT STARTED**. Phase 4 remains blocked until Tamil final clearance.
 
 ## Exact next activity
 
-**Phase 2 final scan 101 — independently verify the back cover against the controlling source.** Do not begin Phase 3 or translation in the same activity.
+**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for all 101 scans.** Do not begin Gate 2 or later work in the same activity.

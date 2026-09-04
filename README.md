@@ -23,21 +23,26 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 Source intake and Phase 1 are **COMPLETE — 101/101 first-pass captured**.
 
-Phase 2 is **IN PROGRESS**:
+Phase 2 is **COMPLETE / PASS — 101/101 independently verified**:
 
 - Batch 01 scans **1–25**: **COMPLETE / PASS**;
 - Batch 02 scans **26–50**: **COMPLETE / PASS**;
 - Batch 03 scans **51–75**: **COMPLETE / PASS**;
 - Batch 04 scans **76–100**: **COMPLETE / PASS**;
-- statuses: **100 verified / 1 partial / 0 not-started / 0 needs-review**;
-- illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** independently verified as visual-only;
-- unresolved Phase-2 readings through scan 100: **0**.
+- final scan **101 / back cover**: **COMPLETE / PASS**;
+- statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
+- all eleven illustration scans independently verified as visual-only;
+- unresolved Phase-2 readings: **0**.
+
+Scan 101 independently confirms the back-cover role, colour portrait, pale-yellow field, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`.
 
 The source-visible publisher postcode differs between scan 2 (`600 0017`) and scan 3 (`600 017`); both witnesses remain preserved. Batch-03 high-resolution locks also preserve scan 52 `பீத்து கொண்டு` and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
 
+Phase 3 is **READY / NOT STARTED**. Phase 4 remains blocked until Tamil final clearance.
+
 ### Exact next activity
 
-**Phase 2 final scan 101 — independently verify the back cover against the controlling PDF.** Do not begin Phase 3, English translation or Digital Library integration until Phase 2 is complete.
+**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation.** Reconcile all 101 physical scans against visible printed numerals and the logical 1–95 main-work sequence, recording the gate result without beginning Gate 2 in the same activity.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

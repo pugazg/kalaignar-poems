@@ -2,13 +2,13 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 IN PROGRESS**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE / PASS / PHASE 3 READY**
 
 - physical scans: **101/101 accounted**;
 - page-record files: **101/101**;
 - Phase-1 captured: **101/101**;
-- verified: **100**;
-- partial: **1**;
+- verified: **101**;
+- partial: **0**;
 - not-started: **0**;
 - needs-review: **0**;
 - blocked: **0**.
@@ -106,6 +106,23 @@ Source-backed corrections / locked readings include:
 
 Illustration-only scans **76, 84, 94** independently pass as physical visual records with no invented lexical text. Scan **100 / printed page 95** independently verifies `(முற்றும்)` and the closing three-diamond ornament. Batch-04 unresolved readings: **0**.
 
+## Phase 2 final scan 101 — back cover
+
+**COMPLETE / PASS.** The controlling scan was independently inspected rather than accepted from the Phase-1 record.
+
+Verified source evidence:
+
+- physical role: back cover;
+- pale-yellow cover field;
+- centred colour portrait photograph;
+- red horizontal rule below the portrait;
+- publisher emblem below the rule;
+- source-visible two-line text `திருமகள் / நிலையம்`;
+- no printed page numeral;
+- no poem body text.
+
+No source-backed lexical correction was required. Scan 101 was promoted from `partial` to `verified`. Unresolved final-scan readings: **0**.
+
 ## Phase 1 retained history
 
 - Batch 01 scans **1–25**: COMPLETE;
@@ -114,16 +131,24 @@ Illustration-only scans **76, 84, 94** independently pass as physical visual rec
 - Batch 04 scans **76–100**: COMPLETE;
 - final scan **101 / back cover**: COMPLETE.
 
-Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records. Scan **100 / printed page 95** preserves `(முற்றும்)`; scan **101** preserves the back-cover role and publisher mark/text in its Phase-1 record.
+Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records. Scan **100 / printed page 95** preserves `(முற்றும்)`; scan **101** preserves the verified back-cover role and publisher mark/text.
 
-## Deferred to Phase 2+
+## Phase 2 closure
 
-- independent verification of **scan 101 / back cover**;
-- page-join/continuity certification;
-- canonical Tamil assembly;
-- source-completeness/final clearance;
+**PASS — 101/101 physical scans independently verified; 0 unresolved readings; 0 partial pages.**
+
+Phase 3 may now begin, but only through the ordered gates defined in `POEM_PROCESSING_GUIDE.md`.
+
+## Deferred to Phase 3+
+
+- Gate 1 physical scan ↔ printed-page reconciliation;
+- Gate 2 boundary / page-join audit;
+- Gate 3 title-witness reconciliation;
+- Gate 4 canonical Tamil assembly;
+- Gate 5 assembly/source-completeness review;
+- Gate 6 Tamil final clearance;
 - English translation and release.
 
 ## Exact next activity
 
-**Phase 2 final scan 101 — independently verify the back cover against the controlling PDF.**
+**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for all 101 scans.**
