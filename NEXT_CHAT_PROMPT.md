@@ -12,7 +12,7 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first and preserve the newest durable state. Do not reset or reopen completed work because this prompt contains an older checkpoint.
+Fetch live `main` first and preserve the newest durable state.
 
 ## Exact source identity
 
@@ -41,23 +41,21 @@ Read completely before changing anything:
 10. `poems/oruthalaik-kathal/audit.md`;
 11. `poems/oruthalaik-kathal/HANDOVER.md`;
 12. `poems/oruthalaik-kathal/NEXT_CHAT_PROMPT.md`;
-13. `poems/oruthalaik-kathal/pages/0101.md`.
+13. page records for scans 1–25.
 
 ## Current durable state
 
 - source intake: **COMPLETE**;
 - physical scans/page records: **101/101**;
-- Phase 1 Batches 01–04: **COMPLETE — scans 1–100**;
-- Phase-1 first-pass transcribed/captured: **100/101**;
-- page statuses: **100 partial / 1 not-started / 0 needs-review / 0 verified**;
-- scan 100 / printed page 95: `(முற்றும்)`;
-- scan 101: back cover, still not-started;
-- Phase 2/3/4: **not started / blocked by phase order**.
-
-Physical mapping remains locked. `printed_page` is source-visible only; suppressed numerals stay null.
+- Phase 1: **COMPLETE — 101/101 first-pass captured**;
+- page statuses: **101 partial / 0 not-started / 0 needs-review / 0 verified**;
+- scan 100 / printed page 95 closes with `(முற்றும்)`;
+- scan 101 back cover first-pass captured;
+- Phase 2: **UNBLOCKED / NOT STARTED**;
+- Phase 3/4: blocked by phase order.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Capture **scan 101 / back cover** as the final Phase-1 physical page. Update only the existing `pages/0101.md` record and milestone/status documents needed to declare Phase 1 complete. First-pass capture remains `partial`. **Do not start Phase 2 in the same activity.**
+Perform **Phase 2 Batch 01 — independent source-critical visual verification of scans 1–25**. Re-read the controlling scan rather than trusting Phase-1 text. Correct only source-backed differences. Promote a page to `verified` only after the verification pass succeeds; use `needs-review` rather than guessing. Do not begin Phase 3, translation or Digital Library integration.

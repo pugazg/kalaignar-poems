@@ -2,29 +2,28 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 IN PROGRESS — 100/101**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 UNBLOCKED**
 
 - physical scans: **101/101 accounted**;
 - page-record files: **101/101**;
-- Phase-1 transcribed/captured pages: **100/101**;
-- not-started: **1**;
-- partial: **100**;
+- Phase-1 transcribed/captured pages: **101/101**;
+- not-started: **0**;
+- partial: **101**;
 - needs-review: **0**;
 - verified: **0**;
 - blocked: **0**.
 
-No page is `verified`: Phase-1 first-pass transcription is not the independent Phase-2 source-critical pass.
+No page is `verified`: Phase-1 first-pass capture is not the independent Phase-2 source-critical pass.
 
-## Completed Phase-1 batches
+## Completed Phase-1 work
 
 - Batch 01 — scans **1–25**: COMPLETE;
 - Batch 02 — scans **26–50**: COMPLETE;
 - Batch 03 — scans **51–75**: COMPLETE;
-- Batch 04 — scans **76–100**: COMPLETE.
+- Batch 04 — scans **76–100**: COMPLETE;
+- final scan **101 / back cover**: COMPLETE.
 
-Batch 04 covers the scan-76 illustration, section 9 through scan 82, section 10 scans 83–92, and section 11 scans 93–100. Illustration-only scans **76, 84, 94** remain physical visual records with no invented lexical body text. Scan **100 / printed page 95** preserves the closing `(முற்றும்)` and final ornament.
-
-Source-visible running heads, printed page numerals, section-opening numeral suppression, quotations, Sangam citations, glossaries and ornaments are preserved at first-pass level. Batch 04 has **0 explicit `needs-review` markers**; later independent verification remains mandatory.
+Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** remain physical visual records with no invented lexical body text. Scan **100 / printed page 95** preserves `(முற்றும்)` and the final ornament. Scan **101** preserves the back-cover role, portrait, rule, publisher emblem and `திருமகள் / நிலையம்`.
 
 ## Structural intake checks retained
 
@@ -33,19 +32,19 @@ Source-visible running heads, printed page numerals, section-opening numeral sup
 - 95-page main-work logical sequence: PASS;
 - 11 section starts: mapped;
 - 11 full-page illustrations: mapped;
-- scan 100 `(முற்றும்)` closing boundary: captured;
-- scan 101 back-cover boundary: mapped, Phase-1 capture pending;
+- scan 100 closing boundary: captured;
+- scan 101 back-cover boundary: captured;
 - source PDF committed to repository: no.
 
-## Deferred by phase policy
+## Deferred to Phase 2+
 
 - independent glyph-by-glyph verification;
-- difficult-reading adjudication where Phase 2 may expose corrections;
-- exhaustive page-join certification;
+- difficult-reading adjudication;
+- page-join/continuity certification;
 - canonical Tamil assembly;
 - source-completeness/final clearance;
 - English translation and release.
 
 ## Exact next activity
 
-**Phase 1 final physical scan — capture scan 101 / back cover in `pages/0101.md`; then synchronize Phase-1 COMPLETE state. Do not start Phase 2 in the same activity.**
+**Phase 2 Batch 01 — independently verify scans 1–25 against the controlling PDF.**

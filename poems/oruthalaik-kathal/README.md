@@ -26,21 +26,18 @@ The publisher's `பதிப்புரை` describes the publication as an **
 - full-page illustrations: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**;
 - scan 100 / logical page 95 closes with `(முற்றும்)`.
 
-`printed_page` records only a numeral visibly printed on the scan; suppressed numerals remain `null`.
-
 ## Current phase
 
 Source intake: **COMPLETE**.
 
-Phase 1 transcription/capture: **100/101 COMPLETE AS FIRST PASS**.
+Phase 1 transcription/capture: **COMPLETE — 101/101 first pass**.
 
-- Batches 01–04 scans **1–100**: COMPLETE;
-- page statuses: **100 partial / 1 not-started / 0 needs-review / 0 verified**;
-- scan 101 / back cover is the only remaining Phase-1 page;
-- illustration-only pages remain visual/page-role records rather than invented verse text.
+- page statuses: **101 partial / 0 not-started / 0 needs-review / 0 verified**;
+- scan 101 back cover is captured with its visible publisher mark/text;
+- no page is source-critically verified yet.
 
-`partial` means transcription/capture has had only the Phase-1 source-facing pass. It does **not** mean source-critical verification has passed.
+Phase 2: **UNBLOCKED / NOT STARTED**.
 
 ## Exact next activity
 
-**Capture scan 101 / back cover in `pages/0101.md`, then synchronize Phase-1 COMPLETE state. Do not begin Phase 2 in the same activity.**
+**Phase 2 Batch 01 — independently verify scans 1–25 against the controlling source.** Correct only source-backed differences; promote successful pages to `verified`; use `needs-review` for genuine uncertainty. Do not begin Phase 3 or translation.

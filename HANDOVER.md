@@ -27,21 +27,18 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 
 Source intake: **COMPLETE**.
 
-Phase 1:
+Phase 1: **COMPLETE — 101/101 first-pass captured**.
 
 - Batch 01 scans **1–25**: COMPLETE;
 - Batch 02 scans **26–50**: COMPLETE;
 - Batch 03 scans **51–75**: COMPLETE;
 - Batch 04 scans **76–100**: COMPLETE;
-- Phase-1 transcribed/captured: **100/101**;
-- statuses: **100 partial / 1 not-started / 0 needs-review / 0 verified**;
-- Phase 2: not started;
-- Phase 3: not started;
-- Phase 4: not started.
+- final physical scan **101 / back cover**: COMPLETE;
+- statuses: **101 partial / 0 not-started / 0 needs-review / 0 verified**.
 
-Batch 04 covers scan **76** illustration, the remainder of section 9 through scan 82, all of section 10 scans **83–92** including illustration 84, and section 11 scans **93–100** including illustration 94. Scan **100 / printed page 95** closes the work with `(முற்றும்)`. Scan **101** remains the back cover and is the sole unstarted physical page.
+Scan **100 / printed page 95** closes the main work with `(முற்றும்)`. Scan **101** is the back cover with a colour portrait, red rule, publisher emblem and `திருமகள் / நிலையம்`. Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**; suppressed printed numerals remain `null`.
 
-Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**; suppressed printed numerals remain `null`.
+Phase 2 is now **UNBLOCKED but NOT STARTED**. No page is `verified`; all 101 page records still require the independent source-critical visual verification pass.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
@@ -51,10 +48,10 @@ Do not reopen that completed workspace merely because `ஒருதலைக் 
 
 ## Mandatory continuation startup
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and active page records.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, this `HANDOVER.md`, root `NEXT_CHAT_PROMPT.md`, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and the active verification batch page records.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 1 final physical scan — capture scan 101 / back cover in `poems/oruthalaik-kathal/pages/0101.md`, then synchronize Phase-1 COMPLETE state.**
+**Phase 2 Batch 01 — independently verify scans 1–25 against the controlling PDF.**
 
-Rules: use only the controlling scan; preserve visible marks/page role; first-pass capture remains `partial`; do not begin Phase 2, Phase 3, translation or Digital Library work in the same activity.
+Check every word, punctuation mark, line break, heading, page role, printed-page numeral and visible non-body mark. Promote a page to `verified` only when the independent pass succeeds; use `needs-review` for unresolved readings. Do not begin Phase 3, translation or Digital Library work.

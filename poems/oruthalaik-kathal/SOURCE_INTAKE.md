@@ -37,8 +37,6 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 - logical main-work pagination invariant: `logical_page = scan_page - 5`;
 - scan 101: back cover.
 
-A logical page number is **not** automatically a `printed_page` value. Section-opening and full-page illustration scans visibly suppress the numeral and keep `printed_page: null`.
-
 ## Numbered-section boundaries
 
 | Section | Physical scans | Logical pages |
@@ -59,33 +57,22 @@ A logical page number is **not** automatically a `printed_page` value. Section-o
 
 **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
 
-These remain physical members of their numbered sections but are not silently converted into invented verse text.
+## Closing / back-cover boundary
 
-## Closing boundary
-
-Scan **100** / logical page **95** visibly closes the work with `(முற்றும்)`. Scan **101** is the back cover.
-
-## Scan condition / visible marks
-
-- library stamps occur on several scans;
-- the source contains full-page line illustrations;
-- bleed-through is visible on many pages;
-- later library marks must be distinguished from printed publication text;
-- no outside witness is authorized to replace the controlling scan.
+Scan **100** / logical page **95** closes the work with `(முற்றும்)`. Scan **101** is a pale-yellow back cover with a colour portrait, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`.
 
 ## Phase progression
 
-- Phase 1 Batch 01 scans **1–25**: COMPLETE;
-- Phase 1 Batch 02 scans **26–50**: COMPLETE;
-- Phase 1 Batch 03 scans **51–75**: COMPLETE;
-- Phase 1 Batch 04 scans **76–100**: COMPLETE;
-- Phase-1 first-pass transcribed/captured: **100/101**;
-- `partial`: **100**;
-- `not-started`: **1**;
+- Phase 1 Batches 01–04, scans **1–100**: COMPLETE;
+- final scan **101 / back cover**: COMPLETE;
+- Phase-1 first-pass transcribed/captured: **101/101**;
+- `partial`: **101**;
+- `not-started`: **0**;
 - `needs-review`: **0**;
 - `verified`: **0**;
-- Phase 2/3/4: not started.
+- Phase 2: **UNBLOCKED / NOT STARTED**;
+- Phase 3/4: not started.
 
 ## Next activity
 
-Capture **scan 101 / back cover** only, then synchronize Phase-1 COMPLETE state. Do not mix independent verification, structural audit, canonical assembly or English translation into that final Phase-1 activity.
+**Phase 2 Batch 01 — independently verify scans 1–25.**
