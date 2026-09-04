@@ -1,74 +1,41 @@
 # HANDOVER — Kalaignar Poems Archive
 
-## Repository
-
-`pugazg/kalaignar-poems` — branch `main`.
-
-**Live `main` is authoritative. Fetch it first and preserve newer durable state.**
+Repository: `pugazg/kalaignar-poems` — branch `main`. **Live `main` is authoritative.**
 
 ## Active work — ஒருதலைக் காதல்
 
-Workspace: `poems/oruthalaik-kathal/`
+Workspace: `poems/oruthalaik-kathal/`  
+Source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf` — 101 scans, 200,800,237 bytes, SHA-256 `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`.
 
-Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf`
+Tamil archival state is **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/101 verified**, Phase 3 Gates 1–6 **PASS**, canonical `sections/01.md` … `11.md`, scans **6–100 = 95/95 exactly once**, unresolved Tamil/source issues **0**. Gate 5's scan-82 `♦     ♦     ♦` correction remains locked in both page/canonical layers.
 
-- physical PDF pages: **101**;
-- bytes: **200,800,237**;
-- SHA-256: `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`;
-- title: **ஒருதலைக் காதல்**;
-- author: **கலைஞர் மு. கருணாநிதி**;
-- publisher: **திருமகள் நிலையம்**;
-- first edition: **December 1998**;
-- source pagination statement: **95 + IV**.
+## Phase 4 durable state
 
-The scan is controlling source; do not silently modernize or reconstruct wording.
+**T0 English translation setup/source mapping: COMPLETE / PASS. Translation batches complete: 0/6.**
 
-## Durable state
+Created:
 
-Source intake: **COMPLETE — 101/101**.  
-Phase 1: **COMPLETE — 101/101**.  
-Phase 2: **COMPLETE / PASS — 101/101 independently verified**, unresolved readings **0**.
+- `poems/oruthalaik-kathal/translations/en/README.md`;
+- `poems/oruthalaik-kathal/translations/en/TRANSLATION_PLAN.md`;
+- `poems/oruthalaik-kathal/translations/en/SOURCE_MAP.md`.
 
-Phase 3: **COMPLETE / PASS — TAMIL FINAL-CLEARED**.
+Normal translation source is the Tamil final-cleared canonical section layer. If a Tamil reading is questioned, authority order is controlling scan → verified page record → canonical section → Phase-3 records. English difficulty never authorizes a silent Tamil edit.
 
-1. Gate 1 physical scan ↔ printed-page reconciliation — **PASS**;
-2. Gate 2 boundary / page-join audit — **PASS**;
-3. Gate 3 title-witness reconciliation — **PASS**;
-4. Gate 4 canonical Tamil assembly — **PASS**;
-5. Gate 5 assembly/source-completeness review — **PASS**;
-6. Gate 6 Tamil final clearance — **PASS**.
+T0 froze the current blob SHA for each of all **11/11** canonical sections in `SOURCE_MAP.md`.
 
-`poems/oruthalaik-kathal/PHASE3_TAMIL_FINAL_CLEARANCE.md` is the final Phase-3 authority.
+Translation batches:
 
-### Gate-5 correction retained by final clearance
+1. sections 1–2, scans 6–20;
+2. sections 3–4, scans 21–38;
+3. sections 5–6, scans 39–55;
+4. sections 7–8, scans 56–73;
+5. section 9, scans 74–82;
+6. sections 10–11, scans 83–100.
 
-Physical scan **82 / printed page 77** visibly ends section 9 with `♦     ♦     ♦`. Gate 5 found that the ornament had been omitted from `pages/0082.md` and therefore from `sections/09.md`. Direct controlling-scan recheck restored it in both files.
+T0 made **0** modifications to final-cleared Tamil `pages/` or `sections/`.
 
-- lexical wording changes: **0**;
-- non-lexical structural correction: **1**;
-- 82→83 boundary: revalidated **PASS**;
-- Gate-4 section-9 assembly: revalidated **PASS**;
-- unresolved assembly/source-completeness discrepancies: **0**.
-
-Final-cleared Tamil state:
-
-- canonical title: **`ஒருதலைக் காதல்`**, scan 2 title-page authority;
-- verified page records: **101/101**;
-- canonical section files: **11/11**;
-- main-work scans **6–100 = 95/95** represented exactly once;
-- text-bearing scans: **84**;
-- illustration scans: **11**, provenance-only;
-- scans **1–5** and **101** excluded from poem body;
-- unresolved Tamil/source issues: **0**.
-
-Historical source locks remain authoritative, including scan 2 `600 0017` vs scan 3 `600 017`, scan 52 `பீத்து கொண்டு`, and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
-
-Phase 4 is now **UNBLOCKED / READY — not started**. The Gate-6 activity created no English translation and did not modify final-cleared Tamil text.
-
-## Preserved completed work — கலைஞரின் கவிதைகள்
-
-`poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED** and must not be modified merely because `ஒருதலைக் காதல்` is active.
+`poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be modified.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 4 T0 — English translation setup and source mapping.** Create `poems/oruthalaik-kathal/translations/en/README.md`, `TRANSLATION_PLAN.md` and `SOURCE_MAP.md`; use only the Tamil final-cleared `sections/01.md` … `sections/11.md` as the normal translation source; define complete source-order translation batch boundaries and document the source hierarchy. Do not modify the final-cleared Tamil `pages/` or `sections/` layer.
+**Phase 4 Batch 01 — sections 1–2, scans 6–20.** Translate and review both complete sections; create English `translations/en/sections/01.md`, `sections/02.md` and `translations/en/batches/BATCH_01.md`. Do not proceed to Batch 02 in the same activity unless explicitly requested.

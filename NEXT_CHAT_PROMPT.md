@@ -1,42 +1,21 @@
 # Next Chat Prompt — ஒருதலைக் காதல்
 
-Continue the Kalaignar Poems source-first archival / translation project directly in `pugazg/kalaignar-poems`, branch `main`, active work `poems/oruthalaik-kathal/`.
+Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems/oruthalaik-kathal/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first and preserve the newest durable state.
+Fetch live `main` first and preserve newer durable state.
 
-Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf`
+Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf` — **101 scans**, **200,800,237 bytes**, SHA-256 `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`.
 
-- physical PDF pages: **101**;
-- bytes: **200,800,237**;
-- SHA-256: `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`;
-- title: **ஒருதலைக் காதல்**;
-- author: **கலைஞர் மு. கருணாநிதி**;
-- publisher: **திருமகள் நிலையம்**;
-- first edition: **December 1998**.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work README/SOURCE_INTAKE/audit/HANDOVER/NEXT_CHAT_PROMPT, all Phase-3 gate records ending with `PHASE3_TAMIL_FINAL_CLEARANCE.md`, then `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md` and assigned final-cleared Tamil sections.
 
-## Mandatory startup
+Current state: Tamil source/canonical layer **FINAL-CLEARED**; verified pages **101/101**; canonical sections **11/11**; unresolved Tamil/source issues **0**. Phase 4 T0 English setup/source mapping is **COMPLETE / PASS**. Translation batches completed: **0/6**. T0 records canonical blob SHAs for all 11 sections and made **0** Tamil page/section changes.
 
-Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, this prompt, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, all six Phase-3 gate records including `PHASE3_TAMIL_FINAL_CLEARANCE.md`, work `HANDOVER.md`, work `NEXT_CHAT_PROMPT.md`, and the Tamil final-cleared `sections/` files relevant to translation planning.
+Batch map: 01 sections 1–2 scans 6–20; 02 sections 3–4 scans 21–38; 03 sections 5–6 scans 39–55; 04 sections 7–8 scans 56–73; 05 section 9 scans 74–82; 06 sections 10–11 scans 83–100.
 
-## Current durable state
-
-- source intake: **COMPLETE — 101/101**;
-- Phase 1: **COMPLETE — 101/101**;
-- Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
-- Phase 3 Gates 1–6: **COMPLETE / PASS**;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
-- canonical title: **`ஒருதலைக் காதல்`**, scan 2 title-page authority;
-- canonical section files: **11/11**;
-- main-work scans **6–100 = 95/95** represented exactly once;
-- verified page records: **101/101**;
-- unresolved Tamil/source issues: **0**.
-
-Gate 5 restored the source-visible scan-82 section-closing `♦     ♦     ♦` in both `pages/0082.md` and `sections/09.md`; lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS. Gate 6 reconfirmed this correction and formally granted Tamil final clearance.
-
-Phase 4 is **UNBLOCKED / READY — not started**. `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
+`கலைஞரின் கவிதைகள்` remains release-cleared and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Perform **Phase 4 T0 — English translation setup and source mapping** only. Create `poems/oruthalaik-kathal/translations/en/README.md`, `TRANSLATION_PLAN.md` and `SOURCE_MAP.md`; define source-order translation batches from the eleven Tamil final-cleared sections, lock the translation-source hierarchy and translation fidelity rules, and record the exact Batch-01 start. Do not modify Tamil `pages/` or `sections/` files.
+Perform **Phase 4 Batch 01 only — translate and review sections 1–2, scans 6–20 / logical pages 1–15**. Create English `translations/en/sections/01.md`, `sections/02.md` and `translations/en/batches/BATCH_01.md`. Preserve source voice, dialogue, repetitions, Sangam quotations/attributions, glossary relationships, illustration markers and section-closing ornaments. Do not modify final-cleared Tamil and do not begin Batch 02 in the same activity unless explicitly requested.

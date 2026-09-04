@@ -4,65 +4,31 @@
 
 `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf`
 
-Exact-byte identity:
-
 - physical PDF pages: **101**;
 - file size: **200,800,237 bytes**;
-- SHA-256: `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`.
-
-Printed source facts:
-
+- SHA-256: `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`;
 - title: **ஒருதலைக் காதல்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publisher: **திருமகள் நிலையம்**;
 - first edition: **டிசம்பர் 1998**;
 - source page-count statement: **95 + IV**;
-- price shown: **ரூ.24.00**.
+- price: **ரூ.24.00**.
 
-The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**; Gate 3 establishes this as description, not subtitle.
+Source intake: **PASS — 101/101 scans accounted, 101/101 verified page records**.
 
-## Intake result
+Physical structure remains: scan 1 cover; scans 2–5 logical Roman I–IV; scans 6–100 logical Arabic 1–95; scan 101 back cover. Numbered sections: 6–13, 14–20, 21–30, 31–38, 39–45, 46–55, 56–63, 64–73, 74–82, 83–92, 93–100. Full-page illustrations: **8,16,22,32,40,48,58,66,76,84,94**.
 
-**PASS — source identity and physical structure established.**
+Phase 3 is **COMPLETE / PASS — TAMIL FINAL-CLEARED**. Gate 5 restored the source-visible scan-82 `♦     ♦     ♦` section close in both verified and canonical layers; Gate 6 reconfirmed it. Unresolved Tamil/source issues: **0**.
 
-- scans accounted: **101/101**;
-- page records: **101/101 verified**;
-- source PDF committed to repository: **no**.
+## Phase 4 progression
 
-## Physical / pagination map
-
-- scan 1: front cover;
-- scans 2–5: logical Roman **I–IV**;
-- scans 6–100: logical Arabic **1–95**;
-- scan 101: back cover.
-
-No individual Roman numeral is visibly printed on scans 2–5, so their page records retain `printed_page: null`.
-
-## Numbered sections
-
-1: 6–13; 2: 14–20; 3: 21–30; 4: 31–38; 5: 39–45; 6: 46–55; 7: 56–63; 8: 64–73; 9: 74–82; 10: 83–92; 11: 93–100.
-
-Full-page illustrations: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
-
-Scan **100** / logical page **95** closes the work with `(முற்றும்)` and three diamonds. Scan **101** is the verified back cover.
-
-## Phase progression
-
-- Phase 1: **COMPLETE — 101/101**;
-- Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
-- Phase 3 Gate 1: **PASS**;
-- Gate 2: **PASS**;
-- Gate 3: **PASS**;
-- Gate 4: **PASS**;
-- Gate 5: **PASS**;
-- Gate 6 Tamil final clearance: **PASS**;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4: **UNBLOCKED / READY — not started**.
-
-Gate 5 discovered and corrected one source-completeness omission: scan **82** visibly ends section 9 with `♦     ♦     ♦`; that ornament had been omitted from the verified page record and canonical section. It is restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS. Gate 6 reconfirmed the correction.
-
-Final canonical coverage is **11/11 section files, scans 6–100 = 95/95 exactly once, 84 text-bearing scans + 11 illustration markers**, with unresolved Tamil/source issues **0**.
+- T0 English translation setup/source mapping: **COMPLETE / PASS**;
+- English setup files created: **3/3**;
+- canonical section blobs source-mapped/frozen: **11/11**;
+- translation batches defined: **6**;
+- translation batches completed: **0/6**;
+- Tamil final-cleared `pages/` / `sections/` modified by T0: **0**.
 
 ## Next activity
 
-**Phase 4 T0 — English translation setup and source mapping.**
+**Phase 4 Batch 01 — translate/review sections 1–2, scans 6–20.**

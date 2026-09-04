@@ -2,75 +2,45 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE / PASS / PHASE 3 COMPLETE / PASS — TAMIL FINAL-CLEARED**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 PASS — TAMIL FINAL-CLEARED / PHASE 4 T0 COMPLETE**
 
 - physical scans: **101/101 accounted**;
-- page records: **101/101 verified**;
-- partial / not-started / needs-review / blocked: **0 / 0 / 0 / 0**;
+- verified page records: **101/101**;
+- canonical Tamil sections: **11/11**;
+- main-work canonical scan coverage: **95/95 exactly once**;
 - unresolved Tamil/source issues: **0**.
 
-## Phase 2 closure
+## Tamil closure
 
-**PASS — 101/101 independently verified.** Historical source locks remain authoritative, including scan 2 `600 0017` vs scan 3 `600 017`, scan 52 `பீத்து கொண்டு`, scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`, and all eleven visual-only illustration records.
+Phase 3 Gates 1–6 all PASS. Gate 5's only correction was the source-backed non-lexical scan-82 three-diamond close restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**. Gate 6 reconfirmed all gates and granted final clearance.
 
-## Phase 3 Gate summary
+## Phase 4 T0 — English setup/source mapping
 
-- Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
-- Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
-- Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Gate 5 assembly/source-completeness review: **COMPLETE / PASS**;
-- Gate 6 Tamil final clearance: **COMPLETE / PASS**.
+**COMPLETE / PASS.**
 
-### Gate 4 canonical coverage
+Created:
 
-- canonical files: **11/11**;
-- scans **6–100 = 95/95** represented exactly once;
-- text-bearing scans: **84**;
-- illustration provenance-only scans: **11**;
-- scans **1–5** and **101** excluded from poem body.
+- `translations/en/README.md`;
+- `translations/en/TRANSLATION_PLAN.md`;
+- `translations/en/SOURCE_MAP.md`.
 
-### Gate 5 source-backed correction
+T0 checks/results:
 
-Fresh review found one inconsistency between source/boundary evidence and the verified/canonical layer:
+- final-cleared Tamil canonical sections mapped: **11/11**;
+- canonical blob SHAs recorded: **11/11**;
+- source-order translation batches defined: **6**;
+- total batch source coverage: **95/95 main-work scans**;
+- text-bearing source scans: **84**;
+- illustration-only source scans: **11**;
+- front matter/back cover correctly excluded from poem-body translation scope;
+- translation-source authority locked: controlling scan → verified page → final-cleared canonical section → Phase-3 records, with canonical sections as normal working source;
+- Tamil `pages/` changes in T0: **0**;
+- Tamil `sections/` changes in T0: **0**;
+- English translation text created in T0: **0**;
+- unresolved Phase-4 setup issues: **0**.
 
-- scan **82 / printed page 77** visibly closes section 9 with `♦     ♦     ♦`;
-- Gate 2 had correctly certified that close and the 82→83 boundary;
-- `pages/0082.md` had omitted the ornament;
-- Gate 4 therefore propagated the omission into `sections/09.md`.
-
-Direct source recheck restored the ornament in both files.
-
-Correction/revalidation result:
-
-- lexical changes: **0**;
-- punctuation/lineation changes: **0**;
-- structural non-lexical correction: **1**;
-- affected page: **82**;
-- affected canonical file: `sections/09.md`;
-- 82→83 boundary: **PASS**;
-- Gate-4 section-9 assembly after correction: **PASS**;
-- unresolved Gate-5 discrepancies: **0**.
-
-### Gate 6 final clearance
-
-Gate 6 reconfirmed Gates 1–5 PASS and explicitly reconfirmed the scan-82 correction in both `pages/0082.md` and `sections/09.md`.
-
-Final judgement:
-
-- verified page records: **101/101**;
-- canonical section files: **11/11**;
-- main-work scan coverage: **95/95 exactly once**;
-- missing/duplicate canonical scan markers: **0 / 0**;
-- unresolved Tamil/source issues: **0**;
-- Tamil source/canonical layer: **FINAL-CLEARED**.
-
-Governing final-clearance record: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
-
-## Phase 4
-
-**UNBLOCKED / READY — not started.** Gate 6 created no English translation and made no further Tamil text changes.
+Batch plan: 01 sections 1–2 scans 6–20; 02 sections 3–4 scans 21–38; 03 sections 5–6 scans 39–55; 04 sections 7–8 scans 56–73; 05 section 9 scans 74–82; 06 sections 10–11 scans 83–100.
 
 ## Exact next activity
 
-**Phase 4 T0 — English translation setup and source mapping.** Create `translations/en/README.md`, `TRANSLATION_PLAN.md` and `SOURCE_MAP.md`; define source-order translation batch boundaries from the eleven final-cleared canonical sections and lock the translation-source hierarchy. Do not modify final-cleared Tamil `pages/` or `sections/` files.
+**Phase 4 Batch 01 — translate and independently review sections 1–2, scans 6–20 / logical pages 1–15.** Create English `translations/en/sections/01.md`, `sections/02.md` and `translations/en/batches/BATCH_01.md`. Do not modify final-cleared Tamil or begin Batch 02 in the same activity unless explicitly requested.
