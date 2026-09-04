@@ -28,22 +28,22 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 
 ## Current phase
 
-Source intake: **COMPLETE**.  
+Source intake: **COMPLETE — 101/101**.  
 Phase 1: **COMPLETE — 101/101**.  
 Phase 2: **COMPLETE / PASS — 101/101 independently verified**.
 
-Phase 3: **IN PROGRESS**.
+Phase 3: **COMPLETE / PASS — TAMIL FINAL-CLEARED**.
 
-- Gate 1: **COMPLETE / PASS**;
-- Gate 2: **COMPLETE / PASS**;
-- Gate 3: **COMPLETE / PASS**;
-- Gate 4: **COMPLETE / PASS**;
-- Gate 5: **COMPLETE / PASS after one source-backed non-lexical correction**;
-- Gate 6: **NEXT**.
+- Gate 1: **PASS**;
+- Gate 2: **PASS**;
+- Gate 3: **PASS**;
+- Gate 4: **PASS**;
+- Gate 5: **PASS after one source-backed non-lexical correction**;
+- Gate 6: **PASS**.
 
-Gate 5 restored the scan-82 source-visible three-diamond section close `♦     ♦     ♦` in both `pages/0082.md` and `sections/09.md`. No lexical wording was changed. The 82→83 boundary and section-9 canonical assembly were revalidated PASS.
+Gate 5 restored the scan-82 source-visible three-diamond section close `♦     ♦     ♦` in both `pages/0082.md` and `sections/09.md`. No lexical wording was changed. The 82→83 boundary and section-9 canonical assembly were revalidated PASS. Gate 6 reconfirmed the correction before final clearance.
 
-Canonical state:
+Final-cleared canonical state:
 
 - title: **`ஒருதலைக் காதல்`**, scan 2 authority;
 - section files: **11/11**;
@@ -54,10 +54,10 @@ Canonical state:
 - verified page records: **101/101**;
 - unresolved Tamil/source issues: **0**.
 
-See all five Phase-3 gate records, especially `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
+See the six Phase-3 gate records, ending with `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-Phase 4 remains blocked until Gate 6.
+Phase 4 is **UNBLOCKED / READY — not started**.
 
 ## Exact next activity
 
-**Phase 3 Gate 6 — Tamil final clearance.** Do not begin translation or later work in the same activity.
+**Phase 4 T0 — English translation setup and source mapping.** Create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`; define source-order translation batches from the final-cleared eleven-section canonical layer; lock the translation-source hierarchy and fidelity rules. Do not modify Tamil `pages/` or `sections/` files.

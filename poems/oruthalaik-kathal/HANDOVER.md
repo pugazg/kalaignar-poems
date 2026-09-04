@@ -17,22 +17,24 @@ Workspace: `poems/oruthalaik-kathal/`
 
 ## Durable checkpoint
 
-Source intake: **COMPLETE**.  
+Source intake: **COMPLETE — 101/101**.  
 Phase 1: **COMPLETE — 101/101**.  
 Phase 2: **COMPLETE / PASS — 101/101 independently verified**, unresolved readings **0**.
 
-Phase 3: **IN PROGRESS**.
+Phase 3: **COMPLETE / PASS — TAMIL FINAL-CLEARED**.
 
-1. Gate 1 physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**;
-2. Gate 2 boundary / page-join audit — **COMPLETE / PASS**;
-3. Gate 3 title-witness reconciliation — **COMPLETE / PASS**;
-4. Gate 4 canonical Tamil assembly — **COMPLETE / PASS**;
-5. Gate 5 assembly/source-completeness review — **COMPLETE / PASS**;
-6. Gate 6 Tamil final clearance — **NEXT**.
+1. Gate 1 physical scan ↔ printed-page reconciliation — **PASS**;
+2. Gate 2 boundary / page-join audit — **PASS**;
+3. Gate 3 title-witness reconciliation — **PASS**;
+4. Gate 4 canonical Tamil assembly — **PASS**;
+5. Gate 5 assembly/source-completeness review — **PASS**;
+6. Gate 6 Tamil final clearance — **PASS**.
 
-### Gate 5 correction
+`PHASE3_TAMIL_FINAL_CLEARANCE.md` is the final Phase-3 authority.
 
-The fresh Gate-5 review found one source-backed non-lexical omission. Scan **82** visibly ends section 9 with `♦     ♦     ♦`. Gate 2 had already certified this source boundary, but the ornament was missing from `pages/0082.md` and therefore from `sections/09.md`.
+### Gate-5 correction preserved
+
+The Gate-5 review found one source-backed non-lexical omission. Scan **82** visibly ends section 9 with `♦     ♦     ♦`. Gate 2 had already certified this source boundary, but the ornament was missing from `pages/0082.md` and therefore from `sections/09.md`.
 
 The controlling scan was directly rechecked and the ornament restored in both files.
 
@@ -43,7 +45,9 @@ The controlling scan was directly rechecked and the ornament restored in both fi
 - Gate-4 section-9 assembly: revalidated **PASS**;
 - unresolved Gate-5 discrepancies: **0**.
 
-Canonical state after Gate 5:
+Gate 6 reconfirmed the correction in both layers before granting final clearance.
+
+Final-cleared canonical state:
 
 - title: **`ஒருதலைக் காதல்`**, scan 2 title-page authority;
 - `sections/01.md` … `sections/11.md`: **11/11**;
@@ -55,10 +59,8 @@ Canonical state after Gate 5:
 
 Historical locks remain authoritative, including scan 2 `600 0017` vs scan 3 `600 017`, scan 52 `பீத்து கொண்டு`, and scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`.
 
-Gate-5 authority: `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
-
-Phase 4 remains blocked until Gate 6.
+Phase 4 is **UNBLOCKED / READY — not started**. Tamil `pages/` and `sections/` are now final-cleared and must not be modified merely to improve an English rendering.
 
 ## Exact next activity
 
-**Phase 3 Gate 6 — Tamil final clearance.** Reconfirm Gates 1–5 PASS, verify scan 82's restored three-diamond close in both `pages/0082.md` and `sections/09.md`, confirm unresolved Tamil/source issues are zero, and record final clearance. Do not begin translation, release or Digital Library work in the same activity.
+**Phase 4 T0 — English translation setup and source mapping.** Create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`; use the final-cleared canonical eleven-section layer as the normal translation source, define complete source-order batch boundaries, and lock translation fidelity/source-hierarchy rules. Do not modify Tamil `pages/` or `sections/` files.

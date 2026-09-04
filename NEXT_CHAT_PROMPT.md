@@ -1,6 +1,6 @@
 # Next Chat Prompt — ஒருதலைக் காதல்
 
-Continue the Kalaignar Poems source-first archival project directly in `pugazg/kalaignar-poems`, branch `main`, active work `poems/oruthalaik-kathal/`.
+Continue the Kalaignar Poems source-first archival / translation project directly in `pugazg/kalaignar-poems`, branch `main`, active work `poems/oruthalaik-kathal/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
@@ -18,29 +18,25 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 ## Mandatory startup
 
-Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, this prompt, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`, `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`, work `HANDOVER.md`, work `NEXT_CHAT_PROMPT.md`, `pages/0082.md`, `sections/09.md`, and any other records needed for final clearance.
+Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, this prompt, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, all six Phase-3 gate records including `PHASE3_TAMIL_FINAL_CLEARANCE.md`, work `HANDOVER.md`, work `NEXT_CHAT_PROMPT.md`, and the Tamil final-cleared `sections/` files relevant to translation planning.
 
 ## Current durable state
 
-- source intake: **COMPLETE**;
+- source intake: **COMPLETE — 101/101**;
 - Phase 1: **COMPLETE — 101/101**;
 - Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
-- Phase 3 Gate 1: **COMPLETE / PASS**;
-- Gate 2: **COMPLETE / PASS**;
-- Gate 3: **COMPLETE / PASS**;
-- Gate 4: **COMPLETE / PASS**;
-- Gate 5: **COMPLETE / PASS after one source-backed non-lexical correction**;
-- Gate 6: **NEXT**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical title: **`ஒருதலைக் காதல்`**, scan 2 title-page authority;
 - canonical section files: **11/11**;
-- scans **6–100 = 95/95** represented exactly once;
+- main-work scans **6–100 = 95/95** represented exactly once;
 - verified page records: **101/101**;
 - unresolved Tamil/source issues: **0**.
 
-Gate 5 restored the source-visible scan-82 section-closing ornament `♦     ♦     ♦` in both `pages/0082.md` and `sections/09.md`. Lexical wording changes were **0**. The 82→83 boundary and section-9 assembly were revalidated PASS.
+Gate 5 restored the source-visible scan-82 section-closing `♦     ♦     ♦` in both `pages/0082.md` and `sections/09.md`; lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS. Gate 6 reconfirmed this correction and formally granted Tamil final clearance.
 
-`poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
+Phase 4 is **UNBLOCKED / READY — not started**. `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Perform **Phase 3 Gate 6 — Tamil final clearance** only. Reconfirm Gates 1–5 PASS, verify the scan-82 correction is present in both source and canonical layers, verify unresolved Tamil/source issues are zero, and record the final-clearance decision. Do not begin translation, release or Digital Library integration in the same activity.
+Perform **Phase 4 T0 — English translation setup and source mapping** only. Create `poems/oruthalaik-kathal/translations/en/README.md`, `TRANSLATION_PLAN.md` and `SOURCE_MAP.md`; define source-order translation batches from the eleven Tamil final-cleared sections, lock the translation-source hierarchy and translation fidelity rules, and record the exact Batch-01 start. Do not modify Tamil `pages/` or `sections/` files.

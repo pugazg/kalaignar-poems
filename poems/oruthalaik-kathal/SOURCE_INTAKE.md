@@ -50,18 +50,19 @@ Scan **100** / logical page **95** closes the work with `(முற்றும�
 
 - Phase 1: **COMPLETE — 101/101**;
 - Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
-- Phase 3 Gate 1: **COMPLETE / PASS**;
-- Gate 2: **COMPLETE / PASS**;
-- Gate 3: **COMPLETE / PASS**;
-- Gate 4: **COMPLETE / PASS**;
-- Gate 5: **COMPLETE / PASS**;
-- Gate 6: **NEXT**;
-- Phase 4: blocked until Tamil final clearance.
+- Phase 3 Gate 1: **PASS**;
+- Gate 2: **PASS**;
+- Gate 3: **PASS**;
+- Gate 4: **PASS**;
+- Gate 5: **PASS**;
+- Gate 6 Tamil final clearance: **PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 4: **UNBLOCKED / READY — not started**.
 
-Gate 5 discovered and corrected one source-completeness omission: scan **82** visibly ends section 9 with `♦     ♦     ♦`; that ornament had been omitted from the verified page record and canonical section. It is now restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS.
+Gate 5 discovered and corrected one source-completeness omission: scan **82** visibly ends section 9 with `♦     ♦     ♦`; that ornament had been omitted from the verified page record and canonical section. It is restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS. Gate 6 reconfirmed the correction.
 
-Canonical coverage after correction remains **11/11 section files, scans 6–100 = 95/95 exactly once, 84 text-bearing scans + 11 illustration markers**, with unresolved source/completeness issues **0**.
+Final canonical coverage is **11/11 section files, scans 6–100 = 95/95 exactly once, 84 text-bearing scans + 11 illustration markers**, with unresolved Tamil/source issues **0**.
 
 ## Next activity
 
-**Phase 3 Gate 6 — Tamil final clearance.**
+**Phase 4 T0 — English translation setup and source mapping.**
