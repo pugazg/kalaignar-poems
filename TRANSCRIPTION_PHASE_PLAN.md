@@ -22,7 +22,6 @@
 **COMPLETE / PASS — 101/101 independently verified.**
 
 - current statuses: **101 verified / 0 partial / 0 needs-review / 0 not-started**;
-- illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94** verified as visual-only records;
 - unresolved Phase-2 readings: **0**.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
@@ -30,13 +29,20 @@
 **IN PROGRESS.** Proceed only through the ordered gates in `POEM_PROCESSING_GUIDE.md`.
 
 1. physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**;
-2. boundary / page-join audit — **NEXT**;
-3. title-witness reconciliation — not started;
+2. boundary / page-join audit — **COMPLETE / PASS**;
+3. title-witness reconciliation — **NEXT**;
 4. canonical Tamil assembly — not started;
 5. assembly/source-completeness review — not started;
 6. Tamil final clearance — not started.
 
-Gate 1 reconciles scans **2–5** as logical Roman **I–IV** and scans **6–100** as logical Arabic **1–95**. It preserves source-visible `printed_page: null` on suppressed numerals and made **0** page-text changes. Full record: `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md`.
+Gate 1: scans 2–5 reconcile to logical Roman I–IV; scans 6–100 reconcile to logical Arabic 1–95; page-text changes **0**.
+
+Gate 2: all **100/100** physical adjacent transitions are structurally accounted; missing/duplicated pages **0 / 0**; unresolved join questions **0**; page-text changes **0**.
+
+Gate records:
+
+- `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md`;
+- `poems/oruthalaik-kathal/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ## Phase 4 — translation and release
 
@@ -48,4 +54,4 @@ Gate 1 reconciles scans **2–5** as logical Roman **I–IV** and scans **6–10
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 3 Gate 2 — boundary / page-join audit.** Do not perform Gate 3 or later work in the same activity.
+**Phase 3 Gate 3 — title-witness reconciliation.** Do not perform Gate 4 or later work in the same activity.

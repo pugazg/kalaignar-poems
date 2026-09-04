@@ -44,21 +44,7 @@ The main-work sequence begins logically at **page 1 on physical scan 6** and end
 
 `logical main-work page = physical scan - 5`
 
-Source-visible printed numerals on ordinary continuation pages agree with that invariant throughout the work. Representative verified anchors include:
-
-- scan 7 → printed **2**;
-- scan 13 → printed **8**;
-- scan 15 → printed **10**;
-- scan 30 → printed **25**;
-- scan 50 → printed **45**;
-- scan 55 → printed **50**;
-- scan 65 → printed **60**;
-- scan 75 → printed **70**;
-- scan 82 → printed **77**;
-- scan 85 → printed **80**;
-- scan 92 → printed **87**;
-- scan 95 → printed **90**;
-- scan 100 → printed **95**.
+Source-visible printed numerals on ordinary continuation pages agree with that invariant throughout the work. Representative verified anchors include scan 7→2, 13→8, 15→10, 30→25, 50→45, 55→50, 65→60, 75→70, 82→77, 85→80, 92→87, 95→90 and 100→95.
 
 No source-visible anchor contradicts the `scan_page - 5` invariant.
 
@@ -69,9 +55,7 @@ The source deliberately suppresses the Arabic numeral on **22** main-work scans:
 - numbered-section openings: **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**;
 - full-page illustrations: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
 
-These correspond to logical pages **1, 3, 9, 11, 16, 17, 26, 27, 34, 35, 41, 43, 51, 53, 59, 61, 69, 71, 78, 79, 88, 89**.
-
-The remaining **73 / 95** main-work pages visibly print their Arabic page numeral. Suppression is therefore a designed page-role behaviour, not a pagination gap.
+The remaining **73 / 95** main-work pages visibly print their Arabic page numeral. Suppression is designed page-role behaviour, not a pagination gap.
 
 ## `printed_page` field policy
 
@@ -89,7 +73,7 @@ Accordingly:
 
 Physical scan **100** is logical main-work page **95**, visibly prints **95**, and closes the work with `(முற்றும்)` plus the verified three-diamond ornament.
 
-Physical scan **101** is the verified unpaginated back cover with the source-visible publisher text `திருமகள் / நிலையம்`. It lies outside both the Roman and Arabic logical pagination sequences.
+Physical scan **101** is the verified unpaginated back cover with the source-visible publisher text `திருமகள் / நிலையம்`.
 
 ## Gate 1 closure
 
@@ -104,6 +88,10 @@ Physical scan **101** is the verified unpaginated back cover with the source-vis
 
 **Phase 3 Gate 1 is COMPLETE / PASS.**
 
+## Gate progression
+
+Gate 2 has since been completed and is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
 ## Exact next gate
 
-Proceed to **Phase 3 Gate 2 — boundary / page-join audit**. Certify all section openings, internal page joins, quotation/glossary carry-over, illustration boundaries, continuation lines, separators and the final closing boundary against the verified page layer and controlling source. Do **not** begin Gate 3, canonical Tamil assembly, Tamil final clearance or translation in the same activity.
+Proceed to **Phase 3 Gate 3 — title-witness reconciliation** only. Do not begin canonical Tamil assembly, Tamil final clearance or translation in the same activity.

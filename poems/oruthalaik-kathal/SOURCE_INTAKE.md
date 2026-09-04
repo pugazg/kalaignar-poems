@@ -34,11 +34,11 @@ The publisher's `பதிப்புரை` describes the work as an **ஓவ�
 Phase 3 Gate 1 reconciles the complete physical source as:
 
 - scan 1: front cover, unpaginated;
-- scans 2–5: four front-matter pages, logical Roman **I–IV** (`scan_page - 1`);
+- scans 2–5: front matter, logical Roman **I–IV** (`scan_page - 1`);
 - scans 6–100: main sequence, logical Arabic **1–95** (`scan_page - 5`);
 - scan 101: back cover, unpaginated.
 
-The source-visible `பக்கங்கள் : 95 + IV` statement on scan 3 supports the four-page Roman front-matter sequence. No individual Roman numeral is visibly printed on scans 2–5, so their page records retain `printed_page: null`.
+No individual Roman numeral is visibly printed on scans 2–5, so their page records retain `printed_page: null`.
 
 ## Numbered-section boundaries
 
@@ -60,11 +60,9 @@ The source-visible `பக்கங்கள் : 95 + IV` statement on scan 3 s
 
 **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
 
-Section-opening scans plus illustration scans account for the **22** suppressed Arabic numerals in the main-work sequence. The other **73** main-work pages visibly print their Arabic numeral.
-
 ## Closing / back-cover boundary
 
-Scan **100** / logical page **95** closes the work with `(முற்றும்)`. Scan **101** is a pale-yellow back cover with a colour portrait, red horizontal rule, publisher emblem and the source-visible two-line text `திருமகள் / நிலையம்`.
+Scan **100** / logical page **95** closes the work with `(முற்றும்)` and three diamonds. Scan **101** is the verified back cover.
 
 ## Phase progression
 
@@ -72,13 +70,16 @@ Scan **100** / logical page **95** closes the work with `(முற்றும�
 - Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
 - statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
-- Gate-1 unexplained pagination gaps/resets: **0**;
-- Gate-1 page-text changes: **0**;
-- Phase 3 Gates 2–6: not started;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
+- Gate 2 physical adjacent joins: **100/100 accounted**;
+- missing/duplicated physical pages: **0 / 0**;
+- unresolved Gate-2 join questions: **0**;
+- page-text changes in Gates 1–2: **0**;
+- Phase 3 Gate 3: **NEXT**;
 - Phase 4: blocked until Tamil final clearance.
 
-Gate-1 details are recorded in `PHASE3_STRUCTURE_AUDIT.md`; the reconciled map is in `indexes/page-map.md`.
+Gate records are `PHASE3_STRUCTURE_AUDIT.md` and `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ## Next activity
 
-**Phase 3 Gate 2 — boundary / page-join audit.**
+**Phase 3 Gate 3 — title-witness reconciliation.**

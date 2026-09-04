@@ -18,7 +18,7 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 ## Mandatory startup
 
-Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, this prompt, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, and verified page records needed for the active gate.
+Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, root `HANDOVER.md`, this prompt, then the active work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, and source/page witnesses needed for the active gate.
 
 ## Current durable state
 
@@ -27,16 +27,15 @@ Read completely before changing anything: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIP
 - Phase 2: **COMPLETE / PASS — 101/101 independently verified**;
 - statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
-- scans **2–5 → logical Roman I–IV** while source-visible `printed_page` stays `null`;
-- scans **6–100 → logical Arabic 1–95**;
-- **22/95** main pages suppress the numeral; **73/95** visibly print it;
-- Gate-1 unexplained pagination gaps/resets: **0**;
-- Gate-1 page-text changes: **0**;
-- Gate-1 authority: `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md` and `indexes/page-map.md`;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
+- Gate 2 accounts for **100/100 physical adjacent joins**, all eleven illustration interpositions, all numbered-section close/open boundaries, special quotation/glossary/direct-continuation joins, and the 100→101 final boundary;
+- missing/duplicated physical pages: **0 / 0**;
+- unresolved Gate-2 join questions: **0**;
+- verified page-text changes in Gates 1–2: **0**;
 - Phase 4 remains blocked by phase order.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit**. Certify every section opening, internal page join, quotation/glossary carry-over, illustration boundary, continuation line, separator and final closing boundary against the verified page layer and controlling source. Record the Gate-2 audit/result and synchronize status documents. Do not begin Gate 3, canonical Tamil assembly, translation or Digital Library work in the same activity.
+Perform **Phase 3 Gate 3 — title-witness reconciliation** only. Compare front-cover, title-page, section-1 title-bearing, running/title-bearing and other relevant title witnesses. Preserve each witness exactly; if variants exist, record an explicit assembly-authority decision and never create a hybrid title. Record the Gate-3 result and synchronize status documents. Do not begin canonical Tamil assembly, Tamil final clearance, translation or Digital Library work in the same activity.

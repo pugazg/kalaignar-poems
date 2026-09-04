@@ -32,19 +32,24 @@ Phase 2 is **COMPLETE / PASS — 101/101 independently verified**:
 Phase 3 is **IN PROGRESS**:
 
 - Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- all **101/101** physical scans accounted with no unexplained pagination gap/reset;
-- scans **2–5 → logical Roman I–IV**, while source-visible `printed_page` remains `null` because the numerals are suppressed;
-- scans **6–100 → logical Arabic 1–95** (`scan_page - 5`);
-- **22/95** main-work pages suppress the Arabic numeral and **73/95** visibly print it;
-- Gate-1 page-text changes: **0**.
+- Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
+- all **100/100 physical adjacent joins** are structurally accounted;
+- missing/duplicated physical pages: **0 / 0**;
+- unresolved Gate-2 join questions: **0**;
+- verified page-text changes in Gates 1–2: **0**;
+- Gate 3 — title-witness reconciliation: **NEXT**.
 
-Gate-1 authority: `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md` and `poems/oruthalaik-kathal/indexes/page-map.md`.
+Gate authorities:
+
+- `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md`;
+- `poems/oruthalaik-kathal/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- `poems/oruthalaik-kathal/indexes/page-map.md`.
 
 Phase 4 remains blocked until Tamil final clearance.
 
 ### Exact next activity
 
-**Phase 3 Gate 2 — boundary / page-join audit.** Do not begin Gate 3, canonical Tamil assembly, translation or Digital Library integration in the same activity.
+**Phase 3 Gate 3 — title-witness reconciliation.** Do not begin canonical Tamil assembly, Tamil final clearance, translation or Digital Library integration in the same activity.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
