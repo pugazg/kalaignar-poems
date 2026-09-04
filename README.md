@@ -26,30 +26,34 @@ Source intake and Phase 1 are **COMPLETE — 101/101 first-pass captured**.
 Phase 2 is **COMPLETE / PASS — 101/101 independently verified**:
 
 - statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
-- all eleven illustration scans independently verified as visual-only;
 - unresolved Phase-2 readings: **0**.
 
 Phase 3 is **IN PROGRESS**:
 
 - Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
-- all **100/100 physical adjacent joins** are structurally accounted;
-- missing/duplicated physical pages: **0 / 0**;
-- unresolved Gate-2 join questions: **0**;
-- verified page-text changes in Gates 1–2: **0**;
-- Gate 3 — title-witness reconciliation: **NEXT**.
+- Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
+- all available lexical work-title witnesses agree on **`ஒருதலைக் காதல்`**;
+- the scan-1 cover line break `ஒருதலைக் / காதல்` is layout only, not a lexical title variant;
+- scan 2 title page is the primary canonical title authority;
+- `ஓவியக் கவிதை நாவல்` / `கவிதை நாவல்` remains a publisher description, not a subtitle;
+- title variants requiring reconciliation: **0**;
+- unresolved Gate-3 title questions: **0**;
+- verified page-text changes in Gates 1–3: **0**;
+- Gate 4 — canonical Tamil assembly: **NEXT**.
 
 Gate authorities:
 
 - `poems/oruthalaik-kathal/PHASE3_STRUCTURE_AUDIT.md`;
 - `poems/oruthalaik-kathal/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- `poems/oruthalaik-kathal/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - `poems/oruthalaik-kathal/indexes/page-map.md`.
 
 Phase 4 remains blocked until Tamil final clearance.
 
 ### Exact next activity
 
-**Phase 3 Gate 3 — title-witness reconciliation.** Do not begin canonical Tamil assembly, Tamil final clearance, translation or Digital Library integration in the same activity.
+**Phase 3 Gate 4 — canonical Tamil assembly.** Assemble only from verified page records, preserve physical-scan provenance, follow Gate-2 joins and the Gate-3 title authority, and keep front matter out of poem body. Do not begin Gate 5, Tamil final clearance, translation or Digital Library integration in the same activity.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

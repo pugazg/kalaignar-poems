@@ -19,7 +19,7 @@ Printed source facts:
 - source page-count statement: **95 + IV**;
 - price shown: **ரூ.24.00**.
 
-The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**.
+The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**. Gate 3 confirms that this phrase is descriptive and is not a title-page or cover subtitle.
 
 ## Intake result
 
@@ -64,6 +64,19 @@ No individual Roman numeral is visibly printed on scans 2–5, so their page rec
 
 Scan **100** / logical page **95** closes the work with `(முற்றும்)` and three diamonds. Scan **101** is the verified back cover.
 
+## Title-witness lock
+
+Phase 3 Gate 3 establishes:
+
+- scan 1 cover: `ஒருதலைக்` / `காதல்` across two lines;
+- scan 2 title page: `ஒருதலைக் காதல்`;
+- scan 6 section-1 title: `ஒருதலைக் காதல்`;
+- scan 7 self-reference and all title-bearing running heads: `ஒருதலைக் காதல்`;
+- lexical title variants: **0**;
+- canonical assembly title authority: **scan 2 title page**;
+- canonical work title: **`ஒருதலைக் காதல்`**;
+- no synthetic subtitle.
+
 ## Phase progression
 
 - Phase 1: **COMPLETE — 101/101 first-pass captured**;
@@ -71,15 +84,13 @@ Scan **100** / logical page **95** closes the work with `(முற்றும�
 - statuses: **101 verified / 0 partial / 0 not-started / 0 needs-review**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
-- Gate 2 physical adjacent joins: **100/100 accounted**;
-- missing/duplicated physical pages: **0 / 0**;
-- unresolved Gate-2 join questions: **0**;
-- page-text changes in Gates 1–2: **0**;
-- Phase 3 Gate 3: **NEXT**;
+- Phase 3 Gate 3: **COMPLETE / PASS**;
+- Phase 3 Gate 4: **NEXT**;
+- page-text changes in Gates 1–3: **0**;
 - Phase 4: blocked until Tamil final clearance.
 
-Gate records are `PHASE3_STRUCTURE_AUDIT.md` and `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+Gate records are `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md` and `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
 ## Next activity
 
-**Phase 3 Gate 3 — title-witness reconciliation.**
+**Phase 3 Gate 4 — canonical Tamil assembly.**

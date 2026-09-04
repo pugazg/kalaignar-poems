@@ -14,7 +14,7 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's **ஒருதல
 - first edition: **December 1998**;
 - source pagination statement: **95 + IV**.
 
-The publisher's `பதிப்புரை` describes the publication as an **ஓவியக் கவிதை நாவல்**.
+The publisher's `பதிப்புரை` describes the publication as an **ஓவியக் கவிதை நாவல்**. Gate 3 confirms that this is descriptive prose, not a subtitle.
 
 ## Locked physical structure
 
@@ -41,15 +41,18 @@ Phase 3: **IN PROGRESS**.
 
 - Gate 1 — physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Gate 2 — boundary / page-join audit: **COMPLETE / PASS**;
-- Gate 2 accounts for **100/100** adjacent physical joins, all eleven illustration interpositions, all section close/open boundaries, exceptional continuation/quotation/glossary joins and the final back-cover boundary;
-- missing/duplicated pages: **0 / 0**;
-- unresolved join questions: **0**;
-- page-text changes in Gates 1–2: **0**.
+- Gate 3 — title-witness reconciliation: **COMPLETE / PASS**;
+- all available lexical title witnesses agree on **`ஒருதலைக் காதல்`**;
+- scan 1 cover line break is layout only;
+- scan 2 title page is the canonical assembly title authority;
+- title variants: **0**;
+- unresolved title questions: **0**;
+- page-text changes in Gates 1–3: **0**.
 
-See `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md` and `indexes/page-map.md`.
+See `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md` and `indexes/page-map.md`.
 
 Phase 4 remains blocked until Tamil final clearance.
 
 ## Exact next activity
 
-**Phase 3 Gate 3 — title-witness reconciliation.** Do not begin canonical assembly or later work in the same activity.
+**Phase 3 Gate 4 — canonical Tamil assembly.** Assemble the main work only from verified page records with explicit scan provenance. Do not begin Gate 5 or later work in the same activity.

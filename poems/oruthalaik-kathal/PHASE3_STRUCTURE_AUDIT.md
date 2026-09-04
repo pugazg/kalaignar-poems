@@ -10,7 +10,7 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 ## Gate 1 scope
 
-This record performs **Phase 3 Gate 1 only: physical scan ↔ printed-page reconciliation**. It does not alter verified lexical text, does not certify page joins, and does not begin title-witness reconciliation, canonical assembly, Tamil final clearance or translation.
+This record performs **Phase 3 Gate 1 only: physical scan ↔ printed-page reconciliation**. It does not alter verified lexical text.
 
 ## Result
 
@@ -29,14 +29,14 @@ These four rows partition **1–101** completely, with no overlap and no gap.
 
 ## Front-matter reconciliation — scans 2–5
 
-Scan 3 visibly prints the bibliographic page-count statement **`95 + IV`**. The four physical front-matter scans between the covers are therefore reconciled structurally as Roman logical pages **I–IV**:
+Scan 3 visibly prints the bibliographic page-count statement **`95 + IV`**. The four physical front-matter scans between the covers are reconciled structurally as Roman logical pages **I–IV**:
 
 - scan 2 → logical **I** — title page;
 - scan 3 → logical **II** — publication / edition details;
 - scan 4 → logical **III** — `பதிப்புரை`;
 - scan 5 → logical **IV** — photograph / publisher tribute.
 
-No individual Roman page numeral is visibly printed on scans 2–5. Their page-record `printed_page` fields therefore remain `null`. The Roman values are structural reconciliation only and must not be backfilled as visible source text.
+No individual Roman page numeral is visibly printed on scans 2–5. Their page-record `printed_page` fields therefore remain `null`.
 
 ## Main-work reconciliation — scans 6–100
 
@@ -44,9 +44,9 @@ The main-work sequence begins logically at **page 1 on physical scan 6** and end
 
 `logical main-work page = physical scan - 5`
 
-Source-visible printed numerals on ordinary continuation pages agree with that invariant throughout the work. Representative verified anchors include scan 7→2, 13→8, 15→10, 30→25, 50→45, 55→50, 65→60, 75→70, 82→77, 85→80, 92→87, 95→90 and 100→95.
+Representative verified anchors include scan 7→2, 13→8, 15→10, 30→25, 50→45, 55→50, 65→60, 75→70, 82→77, 85→80, 92→87, 95→90 and 100→95.
 
-No source-visible anchor contradicts the `scan_page - 5` invariant.
+No source-visible anchor contradicts the invariant.
 
 ## Suppressed main-work numerals
 
@@ -55,25 +55,15 @@ The source deliberately suppresses the Arabic numeral on **22** main-work scans:
 - numbered-section openings: **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**;
 - full-page illustrations: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**.
 
-The remaining **73 / 95** main-work pages visibly print their Arabic page numeral. Suppression is designed page-role behaviour, not a pagination gap.
+The remaining **73 / 95** main-work pages visibly print their Arabic page numeral.
 
 ## `printed_page` field policy
 
-The verified page records remain authoritative for **visible source witnesses**. Their `printed_page` field means only that a numeral is actually visible on that scan.
-
-Accordingly:
-
-1. scans 2–5 retain `printed_page: null` even though Gate 1 reconciles them as Roman I–IV;
-2. the 22 section-opening/illustration scans retain `printed_page: null` even though their Arabic logical positions are known;
-3. ordinary main-work scans retain the verified visible Arabic numeral;
-4. no verified poem wording, punctuation, lineation or non-text mark is changed in Gate 1;
-5. reconciled logical pagination belongs in `indexes/page-map.md` and this structural audit, not in source-visible transcription fields.
+The verified page records remain authoritative for **visible source witnesses**. Reconciled logical pagination is structural metadata and must not be backfilled as source-visible text.
 
 ## Closing boundary / back cover
 
-Physical scan **100** is logical main-work page **95**, visibly prints **95**, and closes the work with `(முற்றும்)` plus the verified three-diamond ornament.
-
-Physical scan **101** is the verified unpaginated back cover with the source-visible publisher text `திருமகள் / நிலையம்`.
+Physical scan **100** is logical main-work page **95**, visibly prints **95**, and closes the work with `(முற்றும்)` plus the verified three-diamond ornament. Physical scan **101** is the verified unpaginated back cover.
 
 ## Gate 1 closure
 
@@ -90,8 +80,8 @@ Physical scan **101** is the verified unpaginated back cover with the source-vis
 
 ## Gate progression
 
-Gate 2 has since been completed and is recorded in `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+Gate 2 is COMPLETE / PASS in `PHASE3_BOUNDARY_JOIN_AUDIT.md`. Gate 3 is COMPLETE / PASS in `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
 ## Exact next gate
 
-Proceed to **Phase 3 Gate 3 — title-witness reconciliation** only. Do not begin canonical Tamil assembly, Tamil final clearance or translation in the same activity.
+Proceed to **Phase 3 Gate 4 — canonical Tamil assembly** only. Use this pagination model together with the Gate-2 join decisions and Gate-3 title authority. Do not begin Gate 5, Tamil final clearance or translation in the same activity.
