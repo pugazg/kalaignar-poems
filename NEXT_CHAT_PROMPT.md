@@ -41,23 +41,23 @@ Read completely before changing anything:
 10. `poems/oruthalaik-kathal/audit.md`;
 11. `poems/oruthalaik-kathal/HANDOVER.md`;
 12. `poems/oruthalaik-kathal/NEXT_CHAT_PROMPT.md`;
-13. page records for the active batch.
+13. `poems/oruthalaik-kathal/pages/0101.md`.
 
 ## Current durable state
 
 - source intake: **COMPLETE**;
 - physical scans/page records: **101/101**;
-- Phase 1 Batches 01–03: **COMPLETE — scans 1–75**;
-- Phase-1 first-pass transcribed/captured: **75/101**;
-- page statuses: **75 partial / 26 not-started / 0 needs-review / 0 verified**;
+- Phase 1 Batches 01–04: **COMPLETE — scans 1–100**;
+- Phase-1 first-pass transcribed/captured: **100/101**;
+- page statuses: **100 partial / 1 not-started / 0 needs-review / 0 verified**;
+- scan 100 / printed page 95: `(முற்றும்)`;
+- scan 101: back cover, still not-started;
 - Phase 2/3/4: **not started / blocked by phase order**.
 
-Physical mapping remains locked: scan 1 cover; scans 2–5 front matter; scans 6–100 logical pages 1–95; scan 101 back cover. Section starts are 6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93. Full-page illustrations are 8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94.
-
-`printed_page` is source-visible only; suppressed numerals stay null.
+Physical mapping remains locked. `printed_page` is source-visible only; suppressed numerals stay null.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be changed.
 
 ## EXACT NEXT ACTIVITY
 
-Transcribe **scans 76–100** as Phase 1 Batch 04. Work only in the existing page records and source/status documents required by the batch. First-pass transcription remains `partial`; use `needs-review` for unresolved readings. Do not perform Phase 2 verification, canonical assembly, English translation or Digital Library integration.
+Capture **scan 101 / back cover** as the final Phase-1 physical page. Update only the existing `pages/0101.md` record and milestone/status documents needed to declare Phase 1 complete. First-pass capture remains `partial`. **Do not start Phase 2 in the same activity.**

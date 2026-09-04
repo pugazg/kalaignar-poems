@@ -15,14 +15,15 @@
 
 ## Phase 1 — transcription
 
-**IN PROGRESS — 75/101 first-pass transcribed/captured.**
+**IN PROGRESS — 100/101 first-pass transcribed/captured.**
 
 - Batch 01 scans **1–25**: COMPLETE;
 - Batch 02 scans **26–50**: COMPLETE;
 - Batch 03 scans **51–75**: COMPLETE;
-- statuses: **75 partial / 26 not-started / 0 needs-review / 0 verified**;
-- newly transcribed pages remain `partial` because Phase 2 has not occurred;
-- captured illustration scans through Batch 03: **8, 16, 22, 32, 40, 48, 58, 66**.
+- Batch 04 scans **76–100**: COMPLETE;
+- statuses: **100 partial / 1 not-started / 0 needs-review / 0 verified**;
+- scan 101 back cover is the sole remaining Phase-1 page;
+- newly captured pages remain `partial` because Phase 2 has not occurred.
 
 ## Phase 2 — source-critical visual verification
 
@@ -42,4 +43,4 @@
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 1 Batch 04 — transcribe scans 76–100** against the same controlling source. Do not perform Phase-2 verification or later-phase work in the same activity.
+**Capture scan 101 / back cover as the final Phase-1 physical page, then synchronize Phase-1 COMPLETE state. Do not perform Phase-2 verification in the same activity.**

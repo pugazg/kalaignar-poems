@@ -2,42 +2,29 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 IN PROGRESS**
+**SOURCE INTAKE COMPLETE / PHASE 1 IN PROGRESS — 100/101**
 
 - physical scans: **101/101 accounted**;
 - page-record files: **101/101**;
-- Phase-1 transcribed/captured pages: **75/101**;
-- not-started: **26**;
-- partial: **75**;
+- Phase-1 transcribed/captured pages: **100/101**;
+- not-started: **1**;
+- partial: **100**;
 - needs-review: **0**;
 - verified: **0**;
 - blocked: **0**.
 
 No page is `verified`: Phase-1 first-pass transcription is not the independent Phase-2 source-critical pass.
 
-## Batch 01 — scans 1–25
+## Completed Phase-1 batches
 
-**COMPLETE — first-pass source capture.** Covered front matter and sections 1–3 through scan 25. Illustration-only scans **8, 16, 22** are retained as visual records without invented lexical body text.
+- Batch 01 — scans **1–25**: COMPLETE;
+- Batch 02 — scans **26–50**: COMPLETE;
+- Batch 03 — scans **51–75**: COMPLETE;
+- Batch 04 — scans **76–100**: COMPLETE.
 
-A later source-backed correction commit repaired definite first-pass readings in scans **6, 7, 15 and 19**. It changed no phase/status counts and did not perform Phase 2 verification.
+Batch 04 covers the scan-76 illustration, section 9 through scan 82, section 10 scans 83–92, and section 11 scans 93–100. Illustration-only scans **76, 84, 94** remain physical visual records with no invented lexical body text. Scan **100 / printed page 95** preserves the closing `(முற்றும்)` and final ornament.
 
-## Batch 02 — scans 26–50
-
-**COMPLETE — first-pass source capture.** Covered the remainder of section 3, all of sections 4 and 5, and section 6 through scan 50. Illustration-only scans **32, 40, 48** remain visual records.
-
-## Batch 03 — scans 51–75
-
-**COMPLETE — first-pass source capture.**
-
-Covered:
-
-- scans **51–55**: remainder of section 6, including source-visible Purananuru quotations and glossary;
-- scans **56–63**: all of section 7, including the Natrinai quotation/glossary;
-- scans **64–73**: all of section 8, including source-visible Sangam quotations/glossary;
-- scans **74–75**: section 9 opening through printed page 70;
-- illustration-only scans **58, 66** retained as physical visual records with no invented lexical body text.
-
-Source-visible running heads, printed page numerals, section-opening numeral suppression, quotations, Sangam citations, glossaries and ornaments are preserved at first-pass level. Batch 03 has **0 explicit `needs-review` markers**; later independent verification remains mandatory.
+Source-visible running heads, printed page numerals, section-opening numeral suppression, quotations, Sangam citations, glossaries and ornaments are preserved at first-pass level. Batch 04 has **0 explicit `needs-review` markers**; later independent verification remains mandatory.
 
 ## Structural intake checks retained
 
@@ -46,7 +33,8 @@ Source-visible running heads, printed page numerals, section-opening numeral sup
 - 95-page main-work logical sequence: PASS;
 - 11 section starts: mapped;
 - 11 full-page illustrations: mapped;
-- scan 100 `(முற்றும்)` closing boundary: mapped;
+- scan 100 `(முற்றும்)` closing boundary: captured;
+- scan 101 back-cover boundary: mapped, Phase-1 capture pending;
 - source PDF committed to repository: no.
 
 ## Deferred by phase policy
@@ -60,4 +48,4 @@ Source-visible running heads, printed page numerals, section-opening numeral sup
 
 ## Exact next activity
 
-**Phase 1 Batch 04 — scans 76–100**. Update `pages/0076.md` through `0100.md` with faithful first-pass transcription/visual notes and keep completed records `partial` unless a genuine unresolved reading requires `needs-review`.
+**Phase 1 final physical scan — capture scan 101 / back cover in `pages/0101.md`; then synchronize Phase-1 COMPLETE state. Do not start Phase 2 in the same activity.**

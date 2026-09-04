@@ -32,16 +32,15 @@ The publisher's `பதிப்புரை` describes the publication as an **
 
 Source intake: **COMPLETE**.
 
-Phase 1 transcription: **75/101 COMPLETE AS FIRST PASS**.
+Phase 1 transcription/capture: **100/101 COMPLETE AS FIRST PASS**.
 
-- Batch 01 scans **1–25**: COMPLETE;
-- Batch 02 scans **26–50**: COMPLETE;
-- Batch 03 scans **51–75**: COMPLETE;
-- page statuses: **75 partial / 26 not-started / 0 needs-review / 0 verified**;
-- illustration-only scans captured through Batch 03: **8, 16, 22, 32, 40, 48, 58, 66**.
+- Batches 01–04 scans **1–100**: COMPLETE;
+- page statuses: **100 partial / 1 not-started / 0 needs-review / 0 verified**;
+- scan 101 / back cover is the only remaining Phase-1 page;
+- illustration-only pages remain visual/page-role records rather than invented verse text.
 
-`partial` means transcription has had only the Phase-1 source-facing pass. It does **not** mean source-critical verification has passed.
+`partial` means transcription/capture has had only the Phase-1 source-facing pass. It does **not** mean source-critical verification has passed.
 
 ## Exact next activity
 
-**Phase 1 Batch 04 — transcribe scans 76–100** into the existing `pages/0076.md`–`pages/0100.md` records. Do not begin Phase 2, canonical assembly, translation or Digital Library work.
+**Capture scan 101 / back cover in `pages/0101.md`, then synchronize Phase-1 COMPLETE state. Do not begin Phase 2 in the same activity.**

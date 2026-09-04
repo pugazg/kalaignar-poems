@@ -32,13 +32,16 @@ Phase 1:
 - Batch 01 scans **1–25**: COMPLETE;
 - Batch 02 scans **26–50**: COMPLETE;
 - Batch 03 scans **51–75**: COMPLETE;
-- Phase-1 transcribed/captured: **75/101**;
-- statuses: **75 partial / 26 not-started / 0 needs-review / 0 verified**;
+- Batch 04 scans **76–100**: COMPLETE;
+- Phase-1 transcribed/captured: **100/101**;
+- statuses: **100 partial / 1 not-started / 0 needs-review / 0 verified**;
 - Phase 2: not started;
 - Phase 3: not started;
 - Phase 4: not started.
 
-Batch 03 covers scans **51–55** finishing section 6, all of sections 7 and 8, and section 9 through scan 75 / printed page 70. Illustration scans **58** and **66** remain visual-only page records. The existing physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**; scan 100 ends `(முற்றும்)`; scan 101 is back cover. Suppressed printed numerals remain `null`.
+Batch 04 covers scan **76** illustration, the remainder of section 9 through scan 82, all of section 10 scans **83–92** including illustration 84, and section 11 scans **93–100** including illustration 94. Scan **100 / printed page 95** closes the work with `(முற்றும்)`. Scan **101** remains the back cover and is the sole unstarted physical page.
+
+Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**; suppressed printed numerals remain `null`.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
@@ -52,6 +55,6 @@ Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 1 Batch 04 — transcribe scans 76–100** into `poems/oruthalaik-kathal/pages/0076.md`–`0100.md`.
+**Phase 1 final physical scan — capture scan 101 / back cover in `poems/oruthalaik-kathal/pages/0101.md`, then synchronize Phase-1 COMPLETE state.**
 
-Rules: use only the controlling scan for lexical authority; preserve spelling, punctuation, lineation, headings, ornaments and page roles; first-pass pages remain `partial`; use `needs-review` rather than guessing; do not start Phase 2, Phase 3, translation or Digital Library work.
+Rules: use only the controlling scan; preserve visible marks/page role; first-pass capture remains `partial`; do not begin Phase 2, Phase 3, translation or Digital Library work in the same activity.

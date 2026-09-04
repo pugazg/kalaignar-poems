@@ -19,7 +19,7 @@ Printed source facts:
 - source page-count statement: **95 + IV**;
 - price shown: **ரூ.24.00**.
 
-The source title page identifies `திருமகள் நிலையம்`, 55, வெங்கட் நாராயண ரோடு, தி. நகர், சென்னை – 600 017. The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**.
+The publisher's `பதிப்புரை` describes the work as an **ஓவியக் கவிதை நாவல்**.
 
 ## Intake result
 
@@ -78,13 +78,14 @@ Scan **100** / logical page **95** visibly closes the work with `(முற்�
 - Phase 1 Batch 01 scans **1–25**: COMPLETE;
 - Phase 1 Batch 02 scans **26–50**: COMPLETE;
 - Phase 1 Batch 03 scans **51–75**: COMPLETE;
-- Phase-1 first-pass transcribed/captured: **75/101**;
-- `partial`: **75**;
-- `not-started`: **26**;
+- Phase 1 Batch 04 scans **76–100**: COMPLETE;
+- Phase-1 first-pass transcribed/captured: **100/101**;
+- `partial`: **100**;
+- `not-started`: **1**;
 - `needs-review`: **0**;
 - `verified`: **0**;
 - Phase 2/3/4: not started.
 
 ## Next activity
 
-Phase 1 Batch 04: transcribe scans **76–100** only. Do not mix independent verification, structural audit, canonical assembly or English translation into the first-pass batch.
+Capture **scan 101 / back cover** only, then synchronize Phase-1 COMPLETE state. Do not mix independent verification, structural audit, canonical assembly or English translation into that final Phase-1 activity.
