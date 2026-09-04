@@ -2,7 +2,7 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 PASS — TAMIL FINAL-CLEARED / PHASE 4 T0 COMPLETE**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 PASS — TAMIL FINAL-CLEARED / PHASE 4 BATCH 01 REVIEWED PASS**
 
 - physical scans: **101/101 accounted**;
 - verified page records: **101/101**;
@@ -12,35 +12,30 @@
 
 ## Tamil closure
 
-Phase 3 Gates 1–6 all PASS. Gate 5's only correction was the source-backed non-lexical scan-82 three-diamond close restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**. Gate 6 reconfirmed all gates and granted final clearance.
+Phase 3 Gates 1–6 all PASS. Gate 5's source-backed non-lexical scan-82 three-diamond close remains restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**.
 
-## Phase 4 T0 — English setup/source mapping
+## Phase 4 T0
 
-**COMPLETE / PASS.**
+**COMPLETE / PASS.** English setup/source mapping files created and all 11 canonical Tamil section blob SHAs frozen in `translations/en/SOURCE_MAP.md`. Tamil changes: **0**.
 
-Created:
+## Phase 4 Batch 01
 
-- `translations/en/README.md`;
-- `translations/en/TRANSLATION_PLAN.md`;
-- `translations/en/SOURCE_MAP.md`.
+**COMPLETE / REVIEWED PASS.** Governing review record: `translations/en/batches/BATCH_01.md`.
 
-T0 checks/results:
+- Tamil sections translated/reviewed: **01–02 = 2/2**;
+- physical source scans represented: **6–20 = 15/15**;
+- text-bearing scans: **13/13**;
+- illustration-only scans: **8, 16 = 2/2**, neutral structural markers only;
+- section-closing three-diamond witnesses: scans **13, 20**, retained;
+- English section outputs: `translations/en/sections/01.md`, `sections/02.md`;
+- English title fixed: **One-Sided Love**;
+- Sangam quotations and source prose explanations kept as distinct layers;
+- unresolved English/Tamil alignment issues: **0**;
+- Tamil `pages/` changes: **0**;
+- Tamil `sections/` changes: **0**.
 
-- final-cleared Tamil canonical sections mapped: **11/11**;
-- canonical blob SHAs recorded: **11/11**;
-- source-order translation batches defined: **6**;
-- total batch source coverage: **95/95 main-work scans**;
-- text-bearing source scans: **84**;
-- illustration-only source scans: **11**;
-- front matter/back cover correctly excluded from poem-body translation scope;
-- translation-source authority locked: controlling scan → verified page → final-cleared canonical section → Phase-3 records, with canonical sections as normal working source;
-- Tamil `pages/` changes in T0: **0**;
-- Tamil `sections/` changes in T0: **0**;
-- English translation text created in T0: **0**;
-- unresolved Phase-4 setup issues: **0**.
-
-Batch plan: 01 sections 1–2 scans 6–20; 02 sections 3–4 scans 21–38; 03 sections 5–6 scans 39–55; 04 sections 7–8 scans 56–73; 05 section 9 scans 74–82; 06 sections 10–11 scans 83–100.
+Phase-4 cumulative progress: **1/6 batches**, **2/11 sections**, **15/95 main-work scans** reviewed PASS.
 
 ## Exact next activity
 
-**Phase 4 Batch 01 — translate and independently review sections 1–2, scans 6–20 / logical pages 1–15.** Create English `translations/en/sections/01.md`, `sections/02.md` and `translations/en/batches/BATCH_01.md`. Do not modify final-cleared Tamil or begin Batch 02 in the same activity unless explicitly requested.
+**Phase 4 Batch 02 — translate and independently review sections 3–4, scans 21–38 / logical pages 16–33.** Create English `translations/en/sections/03.md`, `sections/04.md` and `translations/en/batches/BATCH_02.md`. Preserve Batch-01 title/name/term locks and do not modify final-cleared Tamil.

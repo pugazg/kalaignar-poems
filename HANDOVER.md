@@ -11,31 +11,30 @@ Tamil archival state is **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/10
 
 ## Phase 4 durable state
 
-**T0 English translation setup/source mapping: COMPLETE / PASS. Translation batches complete: 0/6.**
+**T0 COMPLETE / PASS. Batch 01 COMPLETE / REVIEWED PASS. Translation batches complete: 1/6.**
 
-Created:
+English title fixed in Batch 01: **One-Sided Love**.
 
-- `poems/oruthalaik-kathal/translations/en/README.md`;
-- `poems/oruthalaik-kathal/translations/en/TRANSLATION_PLAN.md`;
-- `poems/oruthalaik-kathal/translations/en/SOURCE_MAP.md`.
+Batch 01 translated/reviewed Tamil sections **1–2**, scans **6–20 / logical pages 1–15**. Durable outputs:
 
-Normal translation source is the Tamil final-cleared canonical section layer. If a Tamil reading is questioned, authority order is controlling scan → verified page record → canonical section → Phase-3 records. English difficulty never authorizes a silent Tamil edit.
+- `poems/oruthalaik-kathal/translations/en/sections/01.md`;
+- `poems/oruthalaik-kathal/translations/en/sections/02.md`;
+- `poems/oruthalaik-kathal/translations/en/batches/BATCH_01.md`.
 
-T0 froze the current blob SHA for each of all **11/11** canonical sections in `SOURCE_MAP.md`.
+Coverage after Batch 01: **2/11 sections**, **15/95 main-work scans**, unresolved reviewed translation issues **0**. Illustration scans **8** and **16** remain neutral structural markers; scan-13 and scan-20 closing ornaments are preserved. Sangam quotations remain separate from the source's own prose explanation blocks. Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
-Translation batches:
+Source rule remains: normal English source is final-cleared Tamil canonical sections; if Tamil is questioned, authority is controlling scan → verified page → canonical section → Phase-3 records. English difficulty never authorizes a silent Tamil edit.
 
-1. sections 1–2, scans 6–20;
-2. sections 3–4, scans 21–38;
-3. sections 5–6, scans 39–55;
-4. sections 7–8, scans 56–73;
-5. section 9, scans 74–82;
-6. sections 10–11, scans 83–100.
+Remaining batches:
 
-T0 made **0** modifications to final-cleared Tamil `pages/` or `sections/`.
+2. sections 3–4 / scans 21–38;
+3. sections 5–6 / scans 39–55;
+4. sections 7–8 / scans 56–73;
+5. section 9 / scans 74–82;
+6. sections 10–11 / scans 83–100.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be modified.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 4 Batch 01 — sections 1–2, scans 6–20.** Translate and review both complete sections; create English `translations/en/sections/01.md`, `sections/02.md` and `translations/en/batches/BATCH_01.md`. Do not proceed to Batch 02 in the same activity unless explicitly requested.
+**Phase 4 Batch 02 — sections 3–4, scans 21–38 / logical pages 16–33.** Translate and review both complete sections; create English `translations/en/sections/03.md`, `sections/04.md` and `translations/en/batches/BATCH_02.md`. Do not modify final-cleared Tamil or begin Batch 03 in the same activity unless explicitly requested.

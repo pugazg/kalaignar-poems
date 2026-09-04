@@ -11,40 +11,25 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 **PHASE 3 COMPLETE — TAMIL FINAL CLEARANCE: PASS.**
 
-The Tamil source/canonical layer for `ஒருதலைக் காதல்` is formally cleared for Phase 4. Final clearance confirms Gates 1–5 PASS and unresolved Tamil/source issues **0**.
+The Tamil source/canonical layer for `ஒருதலைக் காதல்` is formally cleared for Phase 4. Gates 1–6 PASS; verified page records **101/101**; canonical sections **11/11**; scans **6–100 = 95/95 exactly once**; unresolved Tamil/source issues **0**.
 
-Gate summary: physical scan/page reconciliation PASS; all physical joins PASS; title witness reconciliation PASS with canonical title `ஒருதலைக் காதல்` under scan-2 title authority; canonical assembly PASS with `sections/01.md` … `sections/11.md`, scans 6–100 exactly once; assembly/source-completeness review PASS.
-
-Gate 5 found one source-backed non-lexical omission: scan **82 / printed page 77** visibly closes section 9 with `♦     ♦     ♦`, which had been absent from `pages/0082.md` and `sections/09.md`. Direct source recheck restored it in both layers. Lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS.
-
-Final Tamil state:
-
-- source intake: **101/101 complete**;
-- Phase 1: **101/101 complete**;
-- Phase 2: **101/101 verified**;
-- Phase 3 Gates 1–6: **PASS**;
-- canonical sections: **11/11**;
-- main-work scans: **95/95 exactly once**;
-- text-bearing / illustration-only scans: **84 / 11**;
-- unresolved Tamil/source issues: **0**;
-- Tamil source/canonical layer: **FINAL-CLEARED**.
+Gate 5 found one source-backed non-lexical omission: scan **82 / printed page 77** visibly closes section 9 with `♦     ♦     ♦`, which had been absent from `pages/0082.md` and `sections/09.md`. Direct source recheck restored it in both layers. Lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS. Gate 6 reconfirmed the correction before final clearance.
 
 The controlling scan remains highest textual authority. A future genuine source-backed correction must reopen affected Tamil source/page/audit/canonical layers rather than silently changing a derivative file.
 
-## Phase transition
-
-Phase 4 is unblocked. Gate 6 itself created no English translation.
-
 ## Subsequent Phase 4 status
 
-**T0 English translation setup/source mapping is now COMPLETE / PASS.**
+- T0 English translation setup/source mapping: **COMPLETE / PASS**;
+- Batch 01 sections 1–2 / scans 6–20: **COMPLETE / REVIEWED PASS**;
+- English title fixed: **One-Sided Love**;
+- translation batches completed: **1/6**;
+- reviewed English sections: **2/11**;
+- reviewed source coverage: **15/95 main-work scans**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` / `sections/` modified during Phase 4: **0**.
 
-- `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md` created;
-- source-order translation batches defined: **6**;
-- T0 canonical source freeze recorded for **11/11** final-cleared section blobs;
-- English translation batches completed: **0/6**;
-- Tamil `pages/` / `sections/` modified during T0: **0**.
+Phase-4 outputs now include `translations/en/sections/01.md`, `sections/02.md` and `batches/BATCH_01.md` in addition to the T0 setup files.
 
 ## Current exact next activity
 
-**Phase 4 Batch 01 — translate and review sections 1–2, scans 6–20 / logical pages 1–15.** Do not modify final-cleared Tamil.
+**Phase 4 Batch 02 — translate and review sections 3–4, scans 21–38 / logical pages 16–33.** Do not modify final-cleared Tamil.

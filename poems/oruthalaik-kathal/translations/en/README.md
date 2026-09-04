@@ -4,70 +4,57 @@ Phase 4 workspace for the English translation of Kalaignar M. Karunanidhi's **�
 
 ## Status
 
-**PHASE 4 T0 — COMPLETE / PASS. Translation batches: 0/6 complete.**
+**PHASE 4 IN PROGRESS — T0 COMPLETE / PASS; Batch 01 COMPLETE / REVIEWED PASS.**
 
-Tamil source/canonical authority is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- translation batches: **1/6 complete**;
+- translated/reviewed sections: **2/11**;
+- translated source coverage: **15/95 main-work scans**;
+- unresolved reviewed translation issues: **0**;
+- Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
-T0 was prepared from live `main` checkpoint `0c6b3d19625a9478441f0f654584d8343163ba37`.
+## English title
 
-No English translation was created during T0. No Tamil `pages/` or `sections/` file was modified.
-
-## Controlling source
-
-`TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf`
-
-- physical scans: **101**;
-- bytes: **200,800,237**;
-- SHA-256: `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`;
-- Tamil canonical title: **`ஒருதலைக் காதல்`**;
-- Tamil canonical sections: **11/11**;
-- translated poem-body source range: **scans 6–100**;
-- scans **1–5** and **101** remain outside poem-body translation scope.
+Batch 01 fixes the English work title as **One-Sided Love**. The Tamil canonical title remains **`ஒருதலைக் காதல்`**. See `batches/BATCH_01.md` for the title decision.
 
 ## Translation source rule
 
 Normal working source: final-cleared Tamil canonical files `../../sections/01.md` … `../../sections/11.md`.
 
-Textual authority if a Tamil question arises:
+If a Tamil reading is questioned, authority order is:
 
-1. controlling scan;
+1. controlling PDF scan;
 2. verified `../../pages/NNNN.md` record;
-3. final-cleared canonical `../../sections/NN.md` file;
-4. Phase-3 audits/reconciliation/final-clearance records.
+3. final-cleared canonical `../../sections/NN.md`;
+4. Phase-3 audit/reconciliation/final-clearance records.
 
-English difficulty is never authority to silently alter Tamil. A genuine Tamil discrepancy must reopen the source-backed Tamil workflow first.
-
-## Planned English structure
-
-As batches are completed, English section files will mirror the Tamil section identities under `sections/01.md` … `sections/11.md`. Batch review records will be created under `batches/`.
-
-All section boundaries remain source-order boundaries. A section is never split merely to meet a batch target.
+English difficulty never authorizes a silent Tamil edit.
 
 ## Batch inventory
 
-| Batch | Tamil sections | Physical scans | Logical pages | Text scans | Illustration scans | Status |
-|---:|---:|---:|---:|---:|---|---|
-| 01 | 1–2 | 6–20 | 1–15 | 13 | 8, 16 | **NEXT** |
-| 02 | 3–4 | 21–38 | 16–33 | 16 | 22, 32 | not started |
-| 03 | 5–6 | 39–55 | 34–50 | 15 | 40, 48 | not started |
-| 04 | 7–8 | 56–73 | 51–68 | 16 | 58, 66 | not started |
-| 05 | 9 | 74–82 | 69–77 | 8 | 76 | not started |
-| 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | not started |
+| Batch | Tamil sections | Physical scans | Logical pages | Status |
+|---:|---:|---:|---:|---|
+| 01 | 1–2 | 6–20 | 1–15 | **COMPLETE / REVIEWED PASS** |
+| 02 | 3–4 | 21–38 | 16–33 | **NEXT** |
+| 03 | 5–6 | 39–55 | 34–50 | not started |
+| 04 | 7–8 | 56–73 | 51–68 | not started |
+| 05 | 9 | 74–82 | 69–77 | not started |
+| 06 | 10–11 | 83–100 | 78–95 | not started |
 
-Totals: **95** main-work scans = **84** text-bearing + **11** illustration-only scans.
+Total source scope remains **95 scans = 84 text-bearing + 11 illustration-only**.
 
-## Fidelity locks
+## Batch 01 outputs
 
-- preserve direct address, repetition, rhetorical questions, dialogue turns and recurring refrains;
-- preserve Sangam quotations, work/poem attributions and `பொருள் விளக்கம்` relationships rather than collapsing them into paraphrase;
-- do not fact-check or modernize source claims inside the translation;
-- do not invent illustration captions; retain only a neutral structural indication for source illustration pages;
-- preserve source separators and the final `(முற்றும்)` closure structurally;
-- translation may adjust English line breaks for grammar, but must not proseify the poetic/rhetorical architecture;
-- title translation is to be fixed during Batch 01 review and then held stable unless a documented review reopens it.
+- `sections/01.md` — reviewed PASS;
+- `sections/02.md` — reviewed PASS;
+- `batches/BATCH_01.md` — review/decision record.
 
-See `TRANSLATION_PLAN.md` and `SOURCE_MAP.md`.
+Batch 01 covers all scans **6–20**, preserves illustration-only scans **8** and **16** as neutral structural markers, preserves the section-closing three-diamond witnesses on scans **13** and **20**, and leaves the Tamil source/canonical layer unchanged.
+
+The recurring translation locks established in Batch 01 include **One-Sided Love** for `ஒருதலைக் காதல்`, separate handling of Sangam quotations versus source prose explanations, **Source explanation** for `பொருள் விளக்கம்`, and preservation of source-traceable proper names and literary categories.
+
+See `TRANSLATION_PLAN.md`, `SOURCE_MAP.md` and `batches/BATCH_01.md`.
 
 ## Exact next activity
 
-**Phase 4 Batch 01 — translate and review Tamil sections 1–2, scans 6–20 / logical pages 1–15.** Create reviewed English `sections/01.md` and `sections/02.md` plus the Batch-01 review record. Do not modify final-cleared Tamil.
+**Phase 4 Batch 02 — translate and review Tamil sections 3–4, scans 21–38 / logical pages 16–33.** Create reviewed English `sections/03.md`, `sections/04.md` and `batches/BATCH_02.md`. Do not modify final-cleared Tamil.
