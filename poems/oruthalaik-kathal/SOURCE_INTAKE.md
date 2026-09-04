@@ -77,13 +77,14 @@ Scan **100** / logical page **95** visibly closes the work with `(முற்�
 
 - Phase 1 Batch 01 scans **1–25**: COMPLETE;
 - Phase 1 Batch 02 scans **26–50**: COMPLETE;
-- Phase-1 first-pass transcribed/captured: **50/101**;
-- `partial`: **50**;
-- `not-started`: **51**;
+- Phase 1 Batch 03 scans **51–75**: COMPLETE;
+- Phase-1 first-pass transcribed/captured: **75/101**;
+- `partial`: **75**;
+- `not-started`: **26**;
 - `needs-review`: **0**;
 - `verified`: **0**;
 - Phase 2/3/4: not started.
 
 ## Next activity
 
-Phase 1 Batch 03: transcribe scans **51–75** only. Do not mix independent verification, structural audit, canonical assembly or English translation into the first-pass batch.
+Phase 1 Batch 04: transcribe scans **76–100** only. Do not mix independent verification, structural audit, canonical assembly or English translation into the first-pass batch.

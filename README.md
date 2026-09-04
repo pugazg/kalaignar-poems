@@ -21,22 +21,19 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 - first edition: **December 1998**;
 - source pagination statement: **95 + IV**.
 
-Source intake is **COMPLETE**. Phase 1 is **IN PROGRESS — 50/101 first-pass transcribed/captured**.
+Source intake is COMPLETE. Phase 1 is **IN PROGRESS — 75/101 first-pass transcribed/captured**.
 
-Current page statuses: **50 partial / 51 not-started / 0 needs-review / 0 verified**.
+Current page statuses: **75 partial / 26 not-started / 0 needs-review / 0 verified**.
 
-- Batch 01 scans **1–25**: COMPLETE;
-- Batch 02 scans **26–50**: COMPLETE;
-- illustration-only scans captured so far: **8, 16, 22, 32, 40, 48**;
-- `printed_page` remains source-visible only; suppressed numerals are never inferred into page front matter.
+Batches 01–03, scans **1–75**, are complete. Illustration-only scans **8, 16, 22, 32, 40, 48, 58, 66** are preserved as visual/page-role records without invented lexical text. `printed_page` remains source-visible only; suppressed numerals are never inferred into page front matter.
 
 ### Exact next activity
 
-**Phase 1 Batch 03 — scans 51–75.** Do not begin Phase 2, Phase 3 assembly, English translation or Digital Library integration.
+**Phase 1 Batch 04 — scans 76–100.** Do not begin Phase 2, Phase 3 assembly, English translation or Digital Library integration.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
-`poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED**: Tamil final-cleared; English Batches 01–18 PASS; 77/77 items; 439/439 item-owned scans; unresolved release issues 0. This active-work progression does not reopen it.
+`poems/kalaignarin-kavithaigal/` remains **RELEASE-CLEARED**: Tamil final-cleared; English Batches 01–18 PASS; 77/77 items; 439/439 item-owned scans; unresolved release issues 0. This active-work change does not reopen it.
 
 ## Historical Wave-4 note
 

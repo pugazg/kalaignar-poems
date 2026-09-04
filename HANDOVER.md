@@ -29,20 +29,16 @@ Source intake: **COMPLETE**.
 
 Phase 1:
 
-- Batch 01 scans **1–25**: **COMPLETE**;
-- Batch 02 scans **26–50**: **COMPLETE**;
-- page records: **101/101**;
-- Phase-1 transcribed/captured: **50/101**;
-- statuses: **50 partial / 51 not-started / 0 needs-review / 0 verified**;
+- Batch 01 scans **1–25**: COMPLETE;
+- Batch 02 scans **26–50**: COMPLETE;
+- Batch 03 scans **51–75**: COMPLETE;
+- Phase-1 transcribed/captured: **75/101**;
+- statuses: **75 partial / 26 not-started / 0 needs-review / 0 verified**;
 - Phase 2: not started;
 - Phase 3: not started;
 - Phase 4: not started.
 
-Batch 02 covers the remainder of section 3 (26–30), section 4 (31–38), section 5 (39–45), and section 6 through scan 50. Illustration scans **32, 40, 48** remain visual records without invented lexical text.
-
-A source-backed Batch-01 correction was committed before Batch 02 for definite scan readings; it did not change progress/status counts.
-
-Physical structure remains locked: scans 6–100 = logical pages 1–95; section starts 6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93; illustration scans 8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94; scan 100 ends `(முற்றும்)`; scan 101 is back cover. Suppressed printed numerals remain `null`.
+Batch 03 covers scans **51–55** finishing section 6, all of sections 7 and 8, and section 9 through scan 75 / printed page 70. Illustration scans **58** and **66** remain visual-only page records. The existing physical structure remains locked: scans 6–100 = logical pages 1–95; section starts **6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93**; illustration scans **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**; scan 100 ends `(முற்றும்)`; scan 101 is back cover. Suppressed printed numerals remain `null`.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
@@ -56,6 +52,6 @@ Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 1 Batch 03 — transcribe scans 51–75** into `poems/oruthalaik-kathal/pages/0051.md`–`0075.md`.
+**Phase 1 Batch 04 — transcribe scans 76–100** into `poems/oruthalaik-kathal/pages/0076.md`–`0100.md`.
 
 Rules: use only the controlling scan for lexical authority; preserve spelling, punctuation, lineation, headings, ornaments and page roles; first-pass pages remain `partial`; use `needs-review` rather than guessing; do not start Phase 2, Phase 3, translation or Digital Library work.

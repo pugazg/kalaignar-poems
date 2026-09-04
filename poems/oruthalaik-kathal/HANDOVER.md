@@ -22,13 +22,14 @@ Phase 1:
 
 - Batch 01 scans **1–25**: COMPLETE;
 - Batch 02 scans **26–50**: COMPLETE;
-- first-pass transcribed/captured: **50/101**;
-- `partial`: **50**;
-- `not-started`: **51**;
+- Batch 03 scans **51–75**: COMPLETE;
+- first-pass transcribed/captured: **75/101**;
+- `partial`: **75**;
+- `not-started`: **26**;
 - `needs-review`: **0**;
 - `verified`: **0**.
 
-Batch 02 covers the remainder of section 3, all of sections 4 and 5, and section 6 through scan 50. Illustration scans 32, 40 and 48 remain visual-only page records.
+Batch 03 finishes section 6, covers all of sections 7 and 8, and enters section 9 through scan 75. Illustration scans **58** and **66** remain visual-only page records.
 
 Main-work sequence remains scans 6–100 = logical pages 1–95. Section starts: 6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93. Illustration scans: 8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94. Scan 100 ends with `(முற்றும்)`; scan 101 is back cover.
 
@@ -43,4 +44,4 @@ Main-work sequence remains scans 6–100 = logical pages 1–95. Section starts:
 
 ## Exact next activity
 
-**Phase 1 Batch 03 — transcribe scans 51–75** into `pages/0051.md`–`0075.md`, then update progress documents and record the next contiguous Phase-1 batch.
+**Phase 1 Batch 04 — transcribe scans 76–100** into `pages/0076.md`–`0100.md`, then update progress documents and record the final Phase-1 scan 101 activity.

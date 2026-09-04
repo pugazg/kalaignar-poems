@@ -47,9 +47,9 @@ Read completely before changing anything:
 
 - source intake: **COMPLETE**;
 - physical scans/page records: **101/101**;
-- Phase 1 Batches 01–02: **COMPLETE — scans 1–50**;
-- Phase-1 first-pass transcribed/captured: **50/101**;
-- page statuses: **50 partial / 51 not-started / 0 needs-review / 0 verified**;
+- Phase 1 Batches 01–03: **COMPLETE — scans 1–75**;
+- Phase-1 first-pass transcribed/captured: **75/101**;
+- page statuses: **75 partial / 26 not-started / 0 needs-review / 0 verified**;
 - Phase 2/3/4: **not started / blocked by phase order**.
 
 Physical mapping remains locked: scan 1 cover; scans 2–5 front matter; scans 6–100 logical pages 1–95; scan 101 back cover. Section starts are 6, 14, 21, 31, 39, 46, 56, 64, 74, 83, 93. Full-page illustrations are 8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94.
@@ -60,4 +60,4 @@ Physical mapping remains locked: scan 1 cover; scans 2–5 front matter; scans 6
 
 ## EXACT NEXT ACTIVITY
 
-Transcribe **scans 51–75** as Phase 1 Batch 03. Work only in the existing page records and source/status documents required by the batch. First-pass transcription remains `partial`; use `needs-review` for unresolved readings. Do not perform Phase 2 verification, canonical assembly, English translation or Digital Library integration.
+Transcribe **scans 76–100** as Phase 1 Batch 04. Work only in the existing page records and source/status documents required by the batch. First-pass transcription remains `partial`; use `needs-review` for unresolved readings. Do not perform Phase 2 verification, canonical assembly, English translation or Digital Library integration.
