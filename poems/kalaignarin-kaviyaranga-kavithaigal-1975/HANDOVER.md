@@ -12,22 +12,27 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 
 ## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — **Phase 2 COMPLETE: 12/12 verified**;
-2. scans **58–65** — Item 02 — **Phase 2 COMPLETE: 8/8 verified**;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE: 2/2 verified**.
+1. scans **46–57** — Item 01 — **Phase 2 COMPLETE / Gate 1 reconciled**;
+2. scans **58–65** — Item 02 — **Phase 2 COMPLETE / Gate 1 reconciled**;
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE / Gate 1 reconciled**.
 
-Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gate 1: **COMPLETE / PASS**.
 
-## Verified checkpoint
+## Gate-1 checkpoint
 
-- all active new-Kalaignar scans **46–65, 67–68** are independently source-cleared from enlarged controlling pixels;
-- historical-glyph Phase-2 recheck is **22/22 complete**;
-- unresolved lexical/historical-family issues: **0**;
-- scan 67 corrections include `மகிழுகின்றார்`, `நேர் மாறாய்ப்`, and `நெளரோஜி`;
-- scan 68 corrects Phase-1 `ஏனே` to source `ஏன` in `வரம் பெற்ற கருணைச் செல்வர் என: ஏன`;
-- no Phase-3 join/structure decision has been made;
+Authority: `PHASE3_STRUCTURE_AUDIT.md`.
+
+- structural interval **46–68** reconciles continuously as logical publication pages **46–68**;
+- invariant: `reconciled logical page = physical scan_page`;
+- visible printed numerals occur on scans **47–57, 59–65, 68**;
+- scans **46, 58, 66, 67** have no visible numeral and retain `printed_page: null`;
+- scan 66 remains non-Kalaignar Rajaji context only;
+- unexplained gaps/resets: **none**;
+- page-text changes in Gate 1: **none**;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Preserve visible printed numerals separately from reconciled logical pagination. Do not begin Gate 2 boundary/page-join audit, canonical assembly or translation in the same activity.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only** for Items 01, 02 and 04. Check each item opening, every internal scan-to-scan continuation, quotation carry-over, separators and closing boundary. Use scan 66 only as contextual separation evidence between Items 02 and 04.
+
+Do not begin Gate 3 title-witness reconciliation, canonical assembly, final clearance or translation in the same activity.
