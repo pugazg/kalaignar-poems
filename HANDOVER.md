@@ -7,7 +7,7 @@ Repository: `pugazg/kalaignar-poems` — branch `main`. **Live `main` is authori
 Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`  
 Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**.
 
-Current state: **ONBOARDED / PHASE 1 IN PROGRESS — 8/84 page records**.
+Current state: **ONBOARDED / PHASE 1 IN PROGRESS — 12/84 page records**.
 
 Four previously unrepresented Kalaignar blocks are active:
 
@@ -18,20 +18,24 @@ Four previously unrepresented Kalaignar blocks are active:
 
 Cross-witness-only Kalaignar blocks: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Bharathidasan insert: **69–70**. Do not create duplicate canonical poems from those ranges.
 
+## Historical-glyph control
+
+Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and active-work `HISTORICAL_GLYPH_AUDIT.md`. Screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` on every Tamil text page. Decode character identity from source pixels into normal Unicode without modernizing source wording. The glyph pass does not itself grant `verified` status.
+
 Phase 1 checkpoint:
 
-- `partial`: scans **1, 2, 6, 8**;
+- `partial`: scans **1, 2, 6, 8–12**;
 - `needs-review`: scans **3, 4, 5, 7**;
-- scan 3 unresolved: small bottom imprint;
-- scan 4 unresolved: cursive Tamil handwritten inscription;
-- scan 5 unresolved: dense `முன்னுரை` body;
-- scan 7 unresolved: dense `பதிப்புரை` body/role lines;
+- historical-glyph first-pass: scans **9–12 complete**;
+- representative checks: `அண்ணா` (`ணா`), `அன்னை` (`னை`), `நினைவுண்டா` (`னை`), `மாற்றான்` (`றா`);
 - verified: **0**;
-- exact next scan: **9**.
+- exact next scan: **13**.
+
+Scans 9–12 are the 1975 Anna cross-witness and were transcribed only inside this publication workspace. The release-cleared Anna poem was not modified.
 
 The same supplied attachment remains controlling and its byte size still matches the intake record. SHA-256 calculation remains unavailable through the current execution paths. Keep this as an explicit source-identity defect; do not invent a checksum.
 
-Exact next activity: **continue Phase 1 transcription from scan 9 in physical order**. Scans 9–20 are an existing Anna-poem cross-witness; preserve the 1975 witness faithfully but do not reopen or alter the release-cleared canonical Anna work solely to match this edition. Reattempt SHA-256 pinning whenever an exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or translation.
+Exact next activity: **continue Phase 1 transcription from scan 13 through the remaining Anna cross-witness to scan 20**, applying the historical-glyph screen page by page. Preserve 1975 wording, punctuation, lineation and printed numerals; do not reopen or alter the release-cleared Anna work solely to match this edition. Reattempt SHA-256 only when an exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or translation.
 
 ## Preserved completed works
 
