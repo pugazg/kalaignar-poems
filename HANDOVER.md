@@ -11,30 +11,30 @@ Tamil archival state is **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/10
 
 ## Phase 4 durable state
 
-**T0 COMPLETE / PASS. Batches 01–04 COMPLETE / REVIEWED PASS. Translation batches complete: 4/6.**
+**T0 COMPLETE / PASS. Batches 01–05 COMPLETE / REVIEWED PASS. Translation batches complete: 5/6.**
 
 English title: **One-Sided Love**.
 
 Batch 01: sections **1–2**, scans **6–20**.  
 Batch 02: sections **3–4**, scans **21–38**.  
 Batch 03: sections **5–6**, scans **39–55**.  
-Batch 04: sections **7–8**, scans **56–73**.
+Batch 04: sections **7–8**, scans **56–73**.  
+Batch 05: section **9**, scans **74–82**.
 
-Durable English outputs now include `translations/en/sections/01.md` … `08.md` and `translations/en/batches/BATCH_01.md` … `BATCH_04.md`.
+Durable English outputs now include `translations/en/sections/01.md` … `09.md` and `translations/en/batches/BATCH_01.md` … `BATCH_05.md`.
 
-Cumulative reviewed progress: **8/11 sections**, **68/95 main-work scans**, consisting of **60 text-bearing + 8 illustration-only scans**. Unresolved reviewed translation issues: **0**. Tamil `pages/` / `sections/` changes during Phase 4: **0**.
+Cumulative reviewed progress: **9/11 sections**, **77/95 main-work scans**, consisting of **68 text-bearing + 9 illustration-only scans**. Unresolved reviewed translation issues: **0**. Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
-Batch-04 decisions preserve all prior title/name/term locks; retain scan-57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`, the source erotic crown image and the **war-sword / flower-petal** refrain; keep scan 61→62→63, 68→69 and 70→71 continuities intact; keep *Natrinai* 19/58, *Purananuru* 395/352/86 and *Akananuru* 6 distinct from surrounding prose; retain **Uraiyur** versus quotation-form **Uranthai** without silent normalization; and preserve illustration scans 58/66 plus closes 63/73.
+Batch-05 decisions preserve high-risk scan-77 `கங்கநாட்டுக்` as **Ganga country** and `உயிரினுஞ்` as **dearer even than life**, retain scan-78 `நாளவையில்` as source-controlled **day-court** without Tamil emendation, retain scan-81 `குண்டில்` with conservative English **pit**, keep *Akananuru* 113 / *Kuruntokai* 11 / *Purananuru* 352 distinct from surrounding prose, and preserve illustration scan 76 plus the Gate-5-restored scan-82 three-diamond close.
 
 Source rule remains: normal English source is final-cleared Tamil canonical sections; if Tamil is questioned, authority is controlling scan → verified page → canonical section → Phase-3 records. English difficulty never authorizes a silent Tamil edit.
 
-Remaining batches:
+Remaining batch:
 
-5. section 9 / scans 74–82;
 6. sections 10–11 / scans 83–100.
 
 `poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be modified.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 4 Batch 05 — section 9, scans 74–82 / logical pages 69–77.** Translate and review the complete section; create English `translations/en/sections/09.md` and `translations/en/batches/BATCH_05.md`. Preserve established locks, do not modify final-cleared Tamil, and do not begin Batch 06 unless explicitly requested.
+**Phase 4 Batch 06 — sections 10–11, scans 83–100 / logical pages 78–95.** Translate and review both complete sections; create English `translations/en/sections/10.md`, `sections/11.md` and `translations/en/batches/BATCH_06.md`. Do not modify final-cleared Tamil. Do not begin post-batch full-English assembly or release QA unless explicitly requested.

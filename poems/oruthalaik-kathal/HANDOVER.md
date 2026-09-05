@@ -12,23 +12,24 @@ Tamil layer: **FINAL-CLEARED**. Phase 1 **101/101**; Phase 2 **101/101 verified*
 
 ## Phase 4 durable state
 
-**T0 COMPLETE / PASS. Batches 01–04 COMPLETE / REVIEWED PASS. Translation batches complete: 4/6.**
+**T0 COMPLETE / PASS. Batches 01–05 COMPLETE / REVIEWED PASS. Translation batches complete: 5/6.**
 
 English title: **One-Sided Love**.
 
 Batch 01 covers sections **1–2**, scans **6–20**.  
 Batch 02 covers sections **3–4**, scans **21–38**.  
 Batch 03 covers sections **5–6**, scans **39–55**.  
-Batch 04 covers sections **7–8**, scans **56–73**.
+Batch 04 covers sections **7–8**, scans **56–73**.  
+Batch 05 covers section **9**, scans **74–82**.
 
-Durable English files now include `translations/en/sections/01.md` … `08.md` and `translations/en/batches/BATCH_01.md` … `BATCH_04.md`.
+Durable English files now include `translations/en/sections/01.md` … `09.md` and `translations/en/batches/BATCH_01.md` … `BATCH_05.md`.
 
-Cumulative progress: **8/11 sections**, **68/95 main-work scans**, **60 text-bearing + 8 illustration-only scans**, unresolved reviewed translation issues **0**. Illustration scans **8,16,22,32,40,48,58,66** remain neutral structural markers; section-closing ornaments **13,20,30,38,45,55,63,73** are retained.
+Cumulative progress: **9/11 sections**, **77/95 main-work scans**, **68 text-bearing + 9 illustration-only scans**, unresolved reviewed translation issues **0**. Illustration scans **8,16,22,32,40,48,58,66,76** remain neutral structural markers; section-closing ornaments **13,20,30,38,45,55,63,73,82** are retained.
 
-Batch 04 preserves the established **One-Sided Love**, **Source explanation**, proper-name and Sangam-layer locks, keeps scan-57 source locks and the **war-sword / flower-petal** contrast, preserves the source erotic crown image, keeps *Natrinai* 19/58, *Purananuru* 395/352/86 and *Akananuru* 6 distinct from surrounding prose, and retains narrative **Uraiyur** versus quotation-form **Uranthai**.
+Batch 05 preserves high-risk scan-77 `கங்கநாட்டுக்` / `உயிரினுஞ்`, scan-78 `நாளவையில்`, scan-81 `குண்டில்`, source-distinct *Akananuru* 113 / *Kuruntokai* 11 / *Purananuru* 352 quotation layers, and the Gate-5-restored scan-82 three-diamond close. New continuity locks include ***Kuruntokai***, **Attani council hall**, and source-controlled **day-court** for `நாளவை` context.
 
 Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
 ## Exact next activity
 
-**Phase 4 Batch 05 — section 9, scans 74–82 / logical pages 69–77.** Translate and review the complete section, create English `translations/en/sections/09.md` and `translations/en/batches/BATCH_05.md`. Preserve established locks and do not begin Batch 06 unless explicitly requested.
+**Phase 4 Batch 06 — sections 10–11, scans 83–100 / logical pages 78–95.** Translate and review both sections, create English `translations/en/sections/10.md`, `sections/11.md` and `translations/en/batches/BATCH_06.md`. Preserve established locks and do not begin post-batch full-English assembly or release QA unless explicitly requested.

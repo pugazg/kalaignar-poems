@@ -15,22 +15,24 @@ Tamil archival state is **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/10
 
 ## Phase 4
 
-**IN PROGRESS — T0 COMPLETE / PASS; Batches 01–04 COMPLETE / REVIEWED PASS.**
+**IN PROGRESS — T0 COMPLETE / PASS; Batches 01–05 COMPLETE / REVIEWED PASS.**
 
 - English title: **One-Sided Love**;
-- translation batches complete: **4/6**;
-- reviewed English sections: **8/11**;
-- reviewed source coverage: **68/95 main-work scans**;
-- reviewed source composition: **60 text-bearing + 8 illustration-only scans**;
-- reviewed outputs: English `sections/01.md` … `08.md` and `batches/BATCH_01.md` … `BATCH_04.md`;
+- translation batches complete: **5/6**;
+- reviewed English sections: **9/11**;
+- reviewed source coverage: **77/95 main-work scans**;
+- reviewed source composition: **68 text-bearing + 9 illustration-only scans**;
+- reviewed outputs: English `sections/01.md` … `09.md` and `batches/BATCH_01.md` … `BATCH_05.md`;
 - unresolved reviewed translation issues: **0**;
 - final-cleared Tamil `pages/` / `sections/` changed during Phase 4: **0**.
 
-Batch plan: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **PASS**; 04 sections 7–8 scans 56–73 **PASS**; 05 section 9 scans 74–82 **NEXT**; 06 sections 10–11 scans 83–100.
+Batch 05 preserves scan-77 `கங்கநாட்டுக்` / `உயிரினுஞ்`, scan-78 `நாளவையில்`, scan-81 `குண்டில்`, the source-distinct *Akananuru* / *Kuruntokai* / *Purananuru* quotation layers, illustration scan **76**, and the Gate-5-restored scan-82 closing ornament without changing Tamil.
+
+Batch plan: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **PASS**; 04 sections 7–8 scans 56–73 **PASS**; 05 section 9 scans 74–82 **PASS**; 06 sections 10–11 scans 83–100 **NEXT**.
 
 ### Exact next activity
 
-**Phase 4 Batch 05 — translate and review section 9, scans 74–82 / logical pages 69–77.** Create reviewed English `sections/09.md` and `batches/BATCH_05.md`. Do not modify final-cleared Tamil or begin Batch 06 in the same activity unless explicitly requested.
+**Phase 4 Batch 06 — translate and review sections 10–11, scans 83–100 / logical pages 78–95.** Create reviewed English `sections/10.md`, `sections/11.md` and `batches/BATCH_06.md`. Do not modify final-cleared Tamil. Do not begin post-batch full-English assembly or release QA in the same activity unless explicitly requested.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

@@ -2,9 +2,9 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS. T0 COMPLETE / PASS. Batches 01–04 COMPLETE / REVIEWED PASS. Batch 05 is NEXT.**
+**PHASE 4 IN PROGRESS. T0 COMPLETE / PASS. Batches 01–05 COMPLETE / REVIEWED PASS. Batch 06 is NEXT.**
 
-Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches completed: **4/6**. Reviewed sections: **8/11**. Reviewed source coverage: **68/95 scans**.
+Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches completed: **5/6**. Reviewed sections: **9/11**. Reviewed source coverage: **77/95 scans**.
 
 ## Objective
 
@@ -40,15 +40,19 @@ If a reading is questioned: controlling PDF scan → verified page record → fi
 - `புறப்பாட்டு` → **puram poem/song** where literary category matters;
 - `போர்வாள்` → **war-sword / sword of war** according to grammar;
 - `பூவிதழ்` → **flower-petal** in the recurring contrast;
-- `கரந்தை` → **Karantai battle** as the named battle category;
+- `கரந்தை` → **Karantai battle**;
 - `நற்றிணை` → ***Natrinai***;
 - `அகநானூறு` → ***Akananuru***;
+- `குறுந்தொகை` → ***Kuruntokai***;
 - source `ஆளி` in quoted/glossed context → **yali**;
-- do not silently normalize the source's distinct `பாணி` form in the simple-language layer;
+- source-distinct `பாணி` remains unnormalized;
 - `பல்வேற்கட்டி` → **Palver Katti**;
-- source quotation-form `உறந்தை` → **Uranthai**, while narrative `உறையூர்` remains **Uraiyur**.
+- narrative `உறையூர்` → **Uraiyur**;
+- quotation-form `உறந்தை` → **Uranthai**;
+- `அத்தாணி மண்டபம்` → **Attani council hall / Attani hall** according to sentence context;
+- source `நாளவை` context → **day-court**, without Tamil normalization.
 
-Proper-name continuity includes **Nakkannai, Perunarkilli / Narkilli, Sattanthaiyar / Sattanthai, Tittan, Porkodi, Perungozhinaykan, Kavarpentu**. Source-specific honorific forms are not silently normalized away.
+Proper-name continuity includes **Nakkannai, Perunarkilli / Narkilli, Sattanthaiyar / Sattanthai, Tittan, Porkodi, Perungozhinaykan, Kavarpentu, Aiyai, Panan, Palver Katti**. Source-specific honorific forms are not silently normalized away.
 
 ## Output model
 
@@ -66,8 +70,8 @@ Every English section retains explicit Tamil-source mapping, including source se
 | 02 | 03–04 | 21–38 | 16–33 | 16 | 22, 32 | **COMPLETE / REVIEWED PASS** |
 | 03 | 05–06 | 39–55 | 34–50 | 15 | 40, 48 | **COMPLETE / REVIEWED PASS** |
 | 04 | 07–08 | 56–73 | 51–68 | 16 | 58, 66 | **COMPLETE / REVIEWED PASS** |
-| 05 | 09 | 74–82 | 69–77 | 8 | 76 | **NEXT** |
-| 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | not started |
+| 05 | 09 | 74–82 | 69–77 | 8 | 76 | **COMPLETE / REVIEWED PASS** |
+| 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | **NEXT** |
 
 Total translation-source coverage remains **95/95 main-work scans = 84 text-bearing + 11 illustration-only**.
 
@@ -76,9 +80,10 @@ Total translation-source coverage remains **95/95 main-work scans = 84 text-bear
 - Batch 01 sections **01–02**, scans **6–20**: **PASS**;
 - Batch 02 sections **03–04**, scans **21–38**: **PASS**;
 - Batch 03 sections **05–06**, scans **39–55**: **PASS**;
-- Batch 04 sections **07–08**, scans **56–73**: **PASS**, 18/18 scans represented, illustration scans 58 and 66 neutral-only, scan-63 and scan-73 closes retained, source continuities and quotation/prose layers preserved, Tamil files changed **0**, unresolved issues **0**.
+- Batch 04 sections **07–08**, scans **56–73**: **PASS**;
+- Batch 05 section **09**, scans **74–82**: **PASS**, 9/9 scans represented, illustration scan 76 neutral-only, scan-82 close retained, source high-risk forms/quotation layers preserved, Tamil files changed **0**, unresolved issues **0**.
 
-Batch 04 also records conservative preservation of scan-57 source locks and erotic imagery, the source pun `சாகாத்தந்தை`, narrative **Uraiyur** versus quotation-form **Uranthai**, and the five attributed source quotations in section 8 without outside-edition harmonization.
+Batch 05 also records source-first treatment of scan-77 `கங்கநாட்டுக்` / `உயிரினுஞ்`, scan-78 `நாளவையில்`, scan-81 `குண்டில்`, and the Gate-5-restored scan-82 structural close.
 
 ## Per-batch workflow
 
@@ -86,4 +91,4 @@ Fetch live `main`; read assigned final-cleared Tamil sections; consult source ma
 
 ## Exact next activity
 
-**Batch 05 — section 09, scans 74–82.** Translate and review the complete section; create English `sections/09.md` and `batches/BATCH_05.md`. Do not proceed to Batch 06 in the same activity unless explicitly requested.
+**Batch 06 — sections 10–11, scans 83–100.** Translate and review both complete sections; create English `sections/10.md`, `sections/11.md` and `batches/BATCH_06.md`. Do not proceed to full-English assembly/editorial-consistency/release QA in the same activity unless explicitly requested.
