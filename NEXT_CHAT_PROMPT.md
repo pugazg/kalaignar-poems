@@ -22,23 +22,26 @@ Read character identity from source pixels first and encode that identity in nor
 
 ## Durable checkpoint
 
-Phase 1 page records: **12/84**.
+Phase 1 page records: **20/84**.
 
-- `partial`: scans **1, 2, 6, 8–12**;
-- `needs-review`: scans **3, 4, 5, 7**;
-- historical-glyph first-pass: scans **9–12 complete**;
+- `partial`: **15**;
+- `needs-review`: **5** — scans 3, 4, 5, 7, 18;
+- historical-glyph first-pass: scans **9–20 complete**;
+- Anna 1975 cross-witness scans **9–20: 12/12 Phase-1 records complete**;
+- unresolved historical-glyph identities in the Anna block: **0**;
+- ordinary unresolved Anna source reading: **scan 18**, one short right-aligned word after `இனிமேலே எனப்`;
 - verified: **0**;
-- next physical scan: **13**.
+- next physical scan: **21**.
 
-Scans 9–12 are the 1975 Anna-poem cross-witness. Representative checked identities include `அண்ணா` (`ணா`), `அன்னை` (`னை`), `நினைவுண்டா` (`னை`) and `மாற்றான்` (`றா`). The release-cleared Anna poem remains unchanged.
+The release-cleared Anna poem remains unchanged. The 1975 cross-witness was preserved independently; later witnesses were not allowed to fill scan-18's unresolved word or insert wording absent from this edition.
 
-Unresolved source text remains deliberately open on scan 3 (small imprint), scan 4 (cursive handwriting), scan 5 (`முன்னுரை` body), and scan 7 (`பதிப்புரை` body/role lines). Do not guess those readings.
+Unresolved source text also remains deliberately open on scan 3 (small imprint), scan 4 (cursive handwriting), scan 5 (`முன்னுரை` body), and scan 7 (`பதிப்புரை` body/role lines). Do not guess those readings.
 
 The exact supplied attachment remains controlling and its size matches the intake record. Exact SHA-256 computation is still unavailable through the current execution paths. Keep SHA-256 visibly pending and reattempt when possible; do not invent it.
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 13 through scan 20 in physical order**, one page record per scan. Complete the already represented Anna-poem cross-witness, preserve the 1975 source spelling, punctuation, lineation and printed page numerals exactly, and apply the historical-glyph screen to each page. Do not reopen or modify the existing release-cleared Anna canonical work merely because this edition differs.
+Continue **Phase 1 transcription only from scan 21 in physical order**. Scans **21–32** are the already represented **14.11.1970 Nehru kaviyarangam cross-witness**. Create one page record per scan, preserve the 1975 source spelling, punctuation, lineation and printed page numerals, and apply the historical-glyph screen to every Tamil page. Do not reopen or modify existing canonical Nehru material merely because this edition differs.
 
 Do not begin Phase 2 verification, Phase 3 canonical assembly or Phase 4 translation.
 
