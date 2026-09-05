@@ -15,11 +15,11 @@ Do not retranscribe poems already represented in the repository. Skip ranges **9
 ## Active production targets
 
 - Item 01: scans **46–57** — **Phase 1 first pass complete, 12/12 page records, all needs-review**;
-- Item 02: scans **58–65** — **NEXT**;
-- Item 03: scan **66**;
-- Item 04: scans **67–68**.
+- Item 02: scans **58–65** — **Phase 1 first pass complete, 8/8 page records, all needs-review**;
+- Item 03: scan **66** — **NEXT**;
+- Item 04: scans **67–68** — pending.
 
-Current new-item Phase-1 coverage: **12/23**.
+Current new-item Phase-1 coverage: **20/23**.
 
 ## Historical Tamil glyph control
 
@@ -27,4 +27,4 @@ Use the user-supplied historical-glyph guide on every new Tamil target page. Scr
 
 ## Exact next activity
 
-Begin **NEW ITEM 02 Phase 1 at scan 58** and continue through scan 65. Keep Phase 2, Phase 3 and translation separate.
+Process **NEW ITEM 03 Phase 1 — scan 66, `சாராய சுதந்திரம்`, only**. Create its page record from the controlling scan, apply the historical-glyph screen, and keep uncertain text unresolved. Do not begin Item 04, Phase 2, Phase 3 or translation in the same activity.
