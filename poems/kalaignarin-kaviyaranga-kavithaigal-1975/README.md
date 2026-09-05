@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY PROCESSING / PHASE 1 NEW TARGETS 12/23 / ITEM 01 FIRST PASS COMPLETE / EXACT SHA-256 PENDING.**
+**ONBOARDED / NEW-ITEM-ONLY PROCESSING / PHASE 1 NEW TARGETS 20/23 / ITEMS 01–02 FIRST PASSES COMPLETE / EXACT SHA-256 PENDING.**
 
 The user-directed rule is to process only poems not already represented in the repository.
 
@@ -13,11 +13,11 @@ The user-directed rule is to process only poems not already represented in the r
 | ID | Source-heading intake label | Scans | Phase-1 state |
 |---:|---|---:|---|
 | 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **12/12 first-pass records complete; all `needs-review`** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **NEXT** |
-| 03 | `சாராய சுதந்திரம்` | 66 | pending |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **8/8 first-pass records complete; all `needs-review`** |
+| 03 | `சாராய சுதந்திரம்` | 66 | **NEXT** |
 | 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | pending |
 
-Total new-item target scans: **23**. Current Phase-1 coverage: **12/23**.
+Total new-item target scans: **23**. Current Phase-1 coverage: **20/23**.
 
 ## Already represented — skip retranscription
 
@@ -27,9 +27,15 @@ Scans **9–20, 21–32, 33–45, 71–77, 78–84** are already represented els
 
 Use `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `HISTORICAL_GLYPH_AUDIT.md` on every new Tamil target page. Source pixels remain controlling; decode character identity into normal Unicode without modernizing source wording.
 
-## NEW ITEM 01
+## Completed Phase-1 new-item blocks
 
-Page records `pages/0046.md` through `pages/0057.md` now cover the complete 12-scan block. The event/date/location and clearly legible lines/quotations were captured conservatively. Because dense ordinary source text remains uncertain across the block, all twelve pages remain `needs-review`; no text was guessed from context or another edition.
+### NEW ITEM 01 — scans 46–57
+
+Page records `pages/0046.md` through `pages/0057.md` cover the complete 12-scan block. All twelve remain `needs-review`; uncertain dense text was not guessed.
+
+### NEW ITEM 02 — scans 58–65
+
+Page records `pages/0058.md` through `pages/0065.md` cover the complete 8-scan block. The 5-5-71 Pari/Parambu-malai event heading, Pari–Kapilar material, social/charity argument, thematic `மை` word-play and the concluding `எளிமை / வன்மை / வலிமை / இறைமை / புதுமை` sequence are captured conservatively. All eight pages remain `needs-review`; Phase 2 has not begun.
 
 ## Controlling source
 
@@ -41,4 +47,4 @@ Page records `pages/0046.md` through `pages/0057.md` now cover the complete 12-s
 
 ## Exact next activity
 
-Begin **NEW ITEM 02 Phase 1 at scan 58**, proceeding through scan 65. Do not start Phase 2 yet and do not return to duplicate ranges.
+Process **NEW ITEM 03 Phase 1 — scan 66 (`சாராய சுதந்திரம்`) only**. Do not begin Item 04, Phase 2, Phase 3 or translation in the same activity.
