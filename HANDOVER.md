@@ -14,15 +14,15 @@ Process only poems not already represented in the repository. Skip duplicate ran
 
 1. scans **46–57** — Item 01 — **Phase 2 COMPLETE: 12/12 verified**;
 2. scans **58–65** — Item 02 — **Phase 2 COMPLETE: 8/8 verified**;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE: 2/2 verified**.
 
-Phase 1: **22/22 complete**. Phase 2: **20/22 verified**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**.
 
-Scans 46–65 are independently source-cleared from enlarged source pixels. Historical-glyph recheck is complete through scan 65; unresolved issues on verified scans are **0**. No Phase-3 work has begun and existing release-cleared poem trees remain untouched.
+All active new-Kalaignar scans are independently source-cleared from enlarged source pixels. Historical-glyph Phase-2 recheck is **22/22 complete**; unresolved lexical/historical-glyph issues are **0**. No Phase-3 work has begun and existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Continue **Phase 2 independent source-critical verification at scans 67–68**. Correct only source-backed differences and promote each page to `verified` only after actual enlarged-source clearance. Do not begin Phase 3 or translation until Phase 2 is complete.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Preserve visible printed numerals separately from reconciled logical pagination. Do not begin Gate 2 boundary/page-join audit, title reconciliation, canonical assembly or translation in the same activity.
 
 ## Preserved completed works
 
