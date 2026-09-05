@@ -6,44 +6,36 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's **குணநா
 
 `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 physical scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-The PDF is image-based; source pixels are controlling.
-
-## Printed identity
+## Source identity
 
 - title witness: **குணநாயகர் நேரு**;
 - poem-opening attribution: **முதல்வர் கலைஞர்**;
-- catalog/user-supplied author identity: **கலைஞர் மு. கருணாநிதி**.
+- catalog/user author identity: **கலைஞர் மு. கருணாநிதி**;
+- source English translation: **BEAUTY ROSE WEPT**, `Translation: Dr. Krishna Srinivas`.
 
-The printed attribution is preserved separately from the catalog form.
-
-## Physical source structure
-
-- scan 1: front cover;
-- scan 2: `பதிப்புரை`, dated **14.11.1989**;
-- scans 3–7: Tamil poem, visible printed pages **2–6**;
-- scan 7: source performance note dated **14.11.1970**;
-- scans 8–9: source-supplied English translation **BEAUTY ROSE WEPT**;
-- scan 9: **Translation: Dr. Krishna Srinivas** and verified bottom imprint **`அரசு அச்சகம்.`**;
-- scan 10: uncaptained photograph/back matter.
+These witnesses remain distinct pending Gate 3.
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 PASS / GATE 2 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATES 1–2 PASS / GATE 3 NEXT.**
 
-- physical scans accounted: **10/10**;
-- verified page records: **10/10**;
-- partial / needs-review / blocked: **0 / 0 / 0**;
-- Gate 1: **PASS**, unresolved pagination issues **0**;
+- verified physical pages: **10/10**;
+- unresolved readings: **0**;
+- Gate 1 pagination: **PASS**, unresolved issues **0**;
+- Gate 2 boundary/page joins: **PASS**, unresolved issues **0**;
 - reconciled numbered interior: **logical pages 1–8 = scans 2–9**;
-- source-visible printed numerals remain **2–6 on scans 3–7** only;
-- Tamil poem-body scope remains candidate scans **3–7** pending Gate 2 certification;
-- Tamil canonical assembly: deferred;
-- repository Phase-4 translation/release: deferred.
+- certified canonical Tamil poem-body source scans: **3–7 = 5/5**;
+- joins **3→4, 4→5, 5→6, 6→7**: **4/4 PASS**;
+- scan-7 performance note: source context outside canonical verse;
+- canonical Tamil assembly: deferred.
 
-Gate-1 authority: [`PHASE3_PAGE_RECONCILIATION.md`](PHASE3_PAGE_RECONCILIATION.md). Page-record `printed_page` fields were not changed for scans whose numerals are suppressed/unprinted.
+Gate records:
 
-The user also supplied a Tamil Wiktionary lexical corroboration confirming **`கர்த்தபம்` = donkey**. This supports retaining the verified source reading; it does not alter the transcription.
+- `PHASE3_PAGE_RECONCILIATION.md`;
+- `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+The user-supplied Tamil Wiktionary reference corroborates the verified word **`கர்த்தபம்` = donkey**; no source transcription change results.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit only**. Certify scan 3 as the poem opening, joins **3→4, 4→5, 5→6, 6→7**, the scan-7 verse close versus its performance note, and exclusions of scans **1–2, 8–9 and 10** from the canonical Tamil poem body. Do not begin Gate 3 title-witness reconciliation or canonical assembly in the same activity.
+Perform **Phase 3 Gate 3 — title / attribution witness reconciliation only**. Reconcile the cover and poem-opening title, printed `முதல்வர் கலைஞர்` attribution, catalog/user author identity `கலைஞர் மு. கருணாநிதி`, and the distinct source-English heading `BEAUTY ROSE WEPT`. Do not begin canonical assembly in the same activity.

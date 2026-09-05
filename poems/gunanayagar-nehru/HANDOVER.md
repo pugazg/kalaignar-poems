@@ -10,28 +10,29 @@ Workspace: `poems/gunanayagar-nehru/`
 
 ## Durable state
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 PASS / GATE 2 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATES 1–2 PASS / GATE 3 NEXT.**
 
 - page records: **10/10 verified**;
-- partial / needs-review / blocked: **0 / 0 / 0**;
-- Gate 1 reconciliation: **PASS**, unresolved pagination issues **0**;
+- unresolved readings: **0**;
+- Gate 1: pagination reconciliation **PASS**, unresolved **0**;
+- Gate 2: boundary/page-join audit **PASS**, unresolved **0**;
 - numbered interior: **logical pages 1–8 = scans 2–9**;
-- source-visible numerals: **2–6 on scans 3–7** only;
-- candidate Tamil poem body: scans **3–7**;
-- source English translation: scans **8–9**, **BEAUTY ROSE WEPT**, credit **Dr. Krishna Srinivas**;
-- scan 9 bottom imprint: **`அரசு அச்சகம்.`**;
-- scan 10: uncaptained photograph/back matter.
+- canonical Tamil poem-body source boundary: **scans 3–7**;
+- page joins **3→4, 4→5, 5→6, 6→7**: **PASS 4/4**;
+- scan 7 performance note: excluded from canonical verse;
+- scans 1–2, 8–9, 10: excluded from canonical Tamil verse;
+- source English translation: scans 8–9, **BEAUTY ROSE WEPT**, Dr. Krishna Srinivas;
+- canonical Tamil assembly: deferred.
 
-Gate-1 governing record: `PHASE3_PAGE_RECONCILIATION.md`. No page-record `printed_page` values were rewritten for inferred logical numbers.
+Gate authorities:
 
-Phase-2 source-backed corrections are recorded in `audit.md`. The user later supplied <https://ta.wiktionary.org/wiki/கர்த்தபம்> as secondary lexical corroboration that **`கர்த்தபம்` means donkey**; the verified source reading remains unchanged.
+- `PHASE3_PAGE_RECONCILIATION.md`;
+- `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
-Printed poem attribution remains **முதல்வர் கலைஞர்**. Catalog/user author identity is **கலைஞர் மு. கருணாநிதி**; preserve their distinct source/catalog roles.
+The user-supplied Wiktionary reference corroborates `கர்த்தபம்` = donkey; verified source wording remains unchanged.
 
-The printed English translation is physical-source evidence, not Phase-4 repository output.
-
-`poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain RELEASE-CLEARED and were not modified.
+`poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain RELEASE-CLEARED and unchanged.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit only**. Certify poem opening scan **3**, joins **3→4, 4→5, 5→6, 6→7**, scan-7 verse close versus the performance note, and exclusions **1–2, 8–9, 10** from the canonical Tamil body. Do not begin Gate 3 or canonical assembly in the same activity.
+Perform **Phase 3 Gate 3 — title / attribution witness reconciliation only**. Reconcile the Tamil title witnesses, printed `முதல்வர் கலைஞர்` attribution, catalog/user author identity `கலைஞர் மு. கருணாநிதி`, and the source-English heading `BEAUTY ROSE WEPT`. Do not begin canonical assembly during the same activity.
