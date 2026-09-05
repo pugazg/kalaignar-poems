@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 3/22 VERIFIED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 13/22 VERIFIED.**
 
 Controlling source:
 
@@ -18,25 +18,26 @@ Controlling source:
 
 | Intake ID | Source-heading label | Scans | Current state |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 in progress — scans 46–48 verified; 49–57 pending** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 1 complete; Phase 2 pending** |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 COMPLETE — 12/12 verified** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 2 in progress — scan 58 verified; scans 59–65 pending** |
 | 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context record** |
 | 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **Phase 1 complete; Phase 2 pending** |
 
-Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**. Phase 1 is complete and **3/22 active pages are independently verified**.
+Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**. Phase 1 is complete and **13/22 active pages are independently verified**.
 
 Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription or anthology verification. Scans **69–70** are Bharathidasan material.
 
-The user-supplied historical-glyph guide remains mandatory. Phase-2 recheck is complete through scan **48**.
+The user-supplied historical-glyph guide remains mandatory. Phase-2 recheck is complete through scan **58**.
 
 ## Phase 2 checkpoint
 
-- scans 46–48: **verified**, unresolved issues 0;
-- scan 48 corrected the Phase-1 opening to `பாராட்டி வாழ்த்தி எந்தன் கவியரங்கைத் தொடங்கு / கின்றேன்......`, corrected `ராஜாராம்` and `ஆறுமுகம்`, restored the Shanmugam / M. Po. Si. / Puduvai Kuyil / comrades passages, and resolved historical `னை` in `அமைதித்தனை` and `ளை` in `வரிகளையே`;
-- exact next scan: **49**.
+- NEW ITEM 01 scans **46–57: 12/12 verified, Phase 2 complete**;
+- NEW ITEM 02 scan **58: verified**, including corrected source readings `[மாதொரு பாகன்—சிவனார்!]`, `உண்டன்றோ?`, `மருதநேயார்`, and the closing `எதைத் துறந்திடினும்` boundary line;
+- unresolved issues on verified scans 46–58: **0**;
+- exact next scan: **59**.
 
 No existing release-cleared poem tree has been changed.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 01 scan 49 only**. Correct only source-backed differences and promote the page to `verified` only after full independent visual clearance. Do not begin Phase 3 or translation.
+Continue **Phase 2 with Item 02 scan 59**, then proceed in physical order through scans 59–65. Do not begin Phase 3 or translation until Phase 2 is complete.
