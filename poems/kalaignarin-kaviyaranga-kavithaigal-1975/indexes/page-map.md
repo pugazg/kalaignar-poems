@@ -41,6 +41,14 @@ Inventory coverage: **84/84 scans classified**.
 | 10 | `../pages/0010.md` | `partial` | 10 | Anna cross-witness; historical-glyph screen applied |
 | 11 | `../pages/0011.md` | `partial` | 11 | Anna cross-witness; historical-glyph screen applied |
 | 12 | `../pages/0012.md` | `partial` | 12 | Anna cross-witness; `மாற்றான்` checked as historical `றா` identity |
-| 13–84 | — | `not-started` | — | continue in physical order |
+| 13 | `../pages/0013.md` | `partial` | 13 | Anna cross-witness; historical-glyph screen applied |
+| 14 | `../pages/0014.md` | `partial` | 14 | Anna cross-witness; 1975 edition wording retained independently |
+| 15 | `../pages/0015.md` | `partial` | 15 | Anna cross-witness; historical-glyph screen applied |
+| 16 | `../pages/0016.md` | `partial` | 16 | Anna cross-witness; later-witness `மன்னன் என்றால் கரிகாலன்` line not inserted because it is not visible here |
+| 17 | `../pages/0017.md` | `partial` | 17 | Anna cross-witness; dialogue passage transcribed from 1975 scan |
+| 18 | `../pages/0018.md` | `needs-review` | 18 | one short right-aligned word after `இனிமேலே எனப்` unresolved; historical-glyph family identities pass |
+| 19 | `../pages/0019.md` | `partial` | 19 | Anna cross-witness; statue / memorial passage |
+| 20 | `../pages/0020.md` | `partial` | 20 | Anna cross-witness conclusion; historical-glyph screen applied |
+| 21–84 | — | `not-started` | — | continue in physical order |
 
-Phase 1 transcription coverage: **12/84**. Historical-glyph first-pass coverage: **scans 9–12**. Exact next scan: **13**. No page is `verified`; Phase 2 has not begun.
+Phase 1 transcription coverage: **20/84**. Historical-glyph first-pass coverage: **scans 9–20**. Anna cross-witness Phase-1 coverage: **12/12 scans (9–20)**. Exact next scan: **21**. No page is `verified`; Phase 2 has not begun.
