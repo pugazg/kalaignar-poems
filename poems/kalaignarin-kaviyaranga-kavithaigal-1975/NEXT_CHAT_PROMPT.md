@@ -6,37 +6,47 @@ Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `
 
 Fetch live `main` first. Read `POEM_PROCESSING_GUIDE.md`, root `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, this work's `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/item-map.md`, `indexes/page-map.md`, `audit.md`, `HISTORICAL_GLYPH_AUDIT.md`, and `HANDOVER.md` before changes.
 
-Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, exact SHA-256 still **PENDING**. Resolve the same supplied attachment before visual work; do not substitute another edition.
+Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**.
 
-Four new Kalaignar item blocks remain scans **46–57, 58–65, 66, 67–68**. Existing cross-witness blocks are **9–20, 21–32, 33–45, 71–77, 78–84**. Scans **69–70** are a Bharathidasan insert.
+## USER-DIRECTED NEW-ITEM-ONLY POLICY
+
+Do not retranscribe already represented blocks. Mark them existing and skip:
+
+- scans 9–20 Anna;
+- scans 21–32 Nehru;
+- scans 33–45 `வாழ்வெனும் பாதையில்`;
+- scans 71–77 `விடுதலை வீரர்கள்`;
+- scans 78–84 `தந்தை பெரியார்`.
+
+The page records already created for scans 9–32 remain archival cross-witnesses. Do not create page records for the remaining duplicate ranges unless the user explicitly authorizes edition-comparison work.
+
+Scans 69–70 are Bharathidasan material and are not Kalaignar production targets.
+
+## Active new items
+
+- Item 01: scans **46–57** — `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை`;
+- Item 02: scans **58–65**;
+- Item 03: scan **66**;
+- Item 04: scans **67–68**.
+
+Total target scans: **23**.
 
 ## Historical Tamil glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is a required verification aid. For every Tamil text page inspect:
+Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`. On every Tamil target page screen:
 
 `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
 
-Determine character identity from source pixels first, encode normal Unicode, and do not modernize spelling, grammar, punctuation, vocabulary or lineation. Do not global-replace. This first pass does not satisfy Phase 2 verification.
+Character identity comes from the source pixels. Encode normal Unicode without modernizing source spelling, grammar, vocabulary, punctuation or lineation. Never global-replace. Unread text stays unresolved.
 
-## Durable Phase 1 checkpoint
+## Durable checkpoint
 
-- page records: **32/84**;
-- `partial`: **22**;
-- `needs-review`: **10**;
-- verified: **0**;
-- historical-glyph first-pass: scans **9–32 complete**;
-- Anna cross-witness scans **9–20: 12/12 complete at Phase 1**;
-- Nehru cross-witness scans **21–32: 12/12 complete at Phase 1**;
-- unresolved historical-glyph identities: **0**;
-- ordinary unresolved Nehru pages: **25, 26, 28, 29, 31**;
-- next physical scan: **33**.
-
-The release-cleared Anna and Nehru canonical works remain unchanged. Later witnesses were used only as secondary comparison aids and were not allowed to fill unread 1975 text.
-
-Exact SHA-256 computation remains unavailable; a fresh attempt again failed. Keep SHA-256 visibly pending and never invent it.
+- new-item Phase-1 coverage: **1/23**;
+- scan 46 → `pages/0046.md` → `needs-review`;
+- event heading/date/Puduvai location and clearly legible opening fragments captured;
+- no duplicate source range after scan 32 is to be transcribed;
+- exact next scan: **47**.
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 33 through scan 45 in physical order**. This is the already represented **`வாழ்வெனும் பாதையில்` cross-witness**. Create one page record per scan, preserve the 1975 source spelling, punctuation, lineation and printed page numerals, and apply the historical-glyph screen to every Tamil page. Do **not** reopen or modify the release-cleared canonical `வாழ்வெனும் பாதையில்` poem merely because this edition differs.
-
-Do not begin Phase 2 verification, Phase 3 canonical assembly or Phase 4 translation.
+Continue **NEW ITEM 01 Phase 1 from scan 47**, in physical order through scan 57. Do not return to scan 33. Keep Phase 2, Phase 3 and translation separate.
