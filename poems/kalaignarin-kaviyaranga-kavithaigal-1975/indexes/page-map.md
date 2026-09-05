@@ -25,15 +25,15 @@ Inventory: **84/84 scans accounted for**.
 | Scan(s) | Page records | Item | Current status | Printed numerals |
 |---:|---|---:|---|---|
 | 46–57 | `../pages/0046.md` … `../pages/0057.md` | 01 | **12 `verified` — Item 01 Phase 2 COMPLETE** | scan 46 none visible; scans 47–57 = 47–57 |
-| 58 | `../pages/0058.md` | 02 | **`verified`** | none visible |
-| 59–65 | `../pages/0059.md` … `../pages/0065.md` | 02 | **7 `needs-review`** | 59–65 visible |
+| 58–59 | `../pages/0058.md` … `../pages/0059.md` | 02 | **2 `verified`** | scan 58 none visible; scan 59 = 59 |
+| 60–65 | `../pages/0060.md` … `../pages/0065.md` | 02 | **6 `needs-review`** | 60–65 visible |
 | 67 | `../pages/0067.md` | 04 | `partial` | none visible |
 | 68 | `../pages/0068.md` | 04 | `partial` | 68 |
 
-**Phase 1: 22/22 active Kalaignar target scans COMPLETE. Phase 2: 13/22 verified. Exact next scan: 59.**
+**Phase 1: 22/22 active Kalaignar target scans COMPLETE. Phase 2: 14/22 verified. Exact next scan: 60.**
 
 Scan 66 is separately preserved at `../pages/0066.md` as a non-Kalaignar Rajaji source/context record.
 
 ## Exact next activity
 
-Continue Phase 2 with **scan 59**, independently rechecking the active Kalaignar page against the enlarged controlling source. Duplicate and non-Kalaignar ranges remain outside the Kalaignar verification set.
+Continue Phase 2 with **scan 60**, independently rechecking the active Kalaignar page against the enlarged controlling source. Duplicate and non-Kalaignar ranges remain outside the Kalaignar verification set.
