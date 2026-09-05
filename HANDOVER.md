@@ -7,24 +7,20 @@ Repository: `pugazg/kalaignar-poems` — branch `main`. **Live `main` is authori
 Workspace: `poems/gunanayagar-nehru/`  
 Source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-Current state: **PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 NEXT**.
+Current state: **PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 COMPLETE / T1 NEXT**.
 
-- verified pages: **10/10**;
-- unresolved readings: **0**;
-- Phase-3 Gates **1–6 PASS**;
-- canonical Tamil verse source: scans **3–7 = 5/5 exactly once**;
-- canonical file: **`poems/gunanayagar-nehru/sections/01.md`**;
-- title authority: **குணநாயகர் நேரு**;
-- source attribution: **முதல்வர் கலைஞர்**;
-- scan-7 performance note and scans **1–2, 8–9, 10** remain outside canonical Tamil verse;
+- page records: **10/10 verified**;
+- canonical Tamil file: `poems/gunanayagar-nehru/sections/01.md`, blob `56ec1cf593d20c69f50a7b4bb7b69529bcc413e6`;
+- canonical scans: **3–7 = 5/5 exactly once**;
 - unresolved Tamil/source issues: **0**;
-- Tamil source/canonical checkpoint cleared by Gate 6: **`80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`**.
+- Tamil source/canonical checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`;
+- T0 translation setup/source map: **PASS**;
+- source-English `BEAUTY ROSE WEPT` / Dr. Krishna Srinivas, scans **8–9**: **secondary historical witness only**; consult only after an independent Tamil-based draft exists;
+- working title candidate: **Nehru, the Noble Leader**;
+- Phase-4 batch plan: **one batch, section 01 / scans 3–7**.
 
 ## Exact next activity
 
-Perform **Phase 4 T0 English translation setup / source mapping only**. Establish translation control docs, source map and batch plan; explicitly classify the existing source-English scans **8–9**. Do not draft new English prose in T0 and do not alter final-cleared Tamil.
+Perform **Phase 4 T1 — Batch 01 independent English draft only**. Create `translations/en/batches/BATCH_01.md` and `translations/en/sections/01.md`, translate the complete canonical section from final-cleared Tamil, preserve scan markers **3–7**, and do not consult/copy scans 8–9 until the independent draft is complete. Do not modify final-cleared Tamil.
 
-## Preserved release-cleared works
-
-- `poems/oruthalaik-kathal/`: **RELEASE-CLEARED**, unchanged;
-- `poems/kalaignarin-kavithaigal/`: **RELEASE-CLEARED**, unchanged.
+Preserve release-cleared works unchanged.

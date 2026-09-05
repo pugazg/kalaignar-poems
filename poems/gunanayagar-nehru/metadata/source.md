@@ -12,28 +12,18 @@
 
 - title on scans 1 and 3: **குணநாயகர் நேரு**;
 - printed attribution on scans 1 and 3: **முதல்வர் கலைஞர்**;
-- catalog/user identity: **கலைஞர் மு. கருணாநிதி** — metadata only;
-- source translation heading: **BEAUTY ROSE WEPT**;
-- translator credit: **Translation: Dr. Krishna Srinivas**.
+- catalog identity: **கலைஞர் மு. கருணாநிதி** — metadata only;
+- source-English heading: **BEAUTY ROSE WEPT**;
+- source translator credit: **Translation: Dr. Krishna Srinivas**.
 
-## Structural authority
+## Tamil authority
 
-- Gate 1 pagination reconciliation: **PASS**;
-- Gate 2 canonical Tamil verse source scans: **3–7**; scan-7 performance note outside verse; scans **1–2, 8–9, 10** outside Tamil canonical verse;
-- Gate 3 canonical Tamil title: **குணநாயகர் நேரு**; source attribution: **முதல்வர் கலைஞர்**;
-- Gate 4 canonical assembly: **PASS — `sections/01.md`**, assembled from verified `pages/0003.md` … `0007.md` with scan provenance;
-- Gate 5 assembly/source-completeness review: **PASS — scans 3–7 represented exactly once, unresolved 0**;
-- Gate 6 Tamil final clearance: **PASS — PHASE 3 COMPLETE**.
+Phase 3 is **COMPLETE / TAMIL FINAL-CLEARED**. Canonical Tamil source scans **3–7**, canonical `sections/01.md`, blob `56ec1cf593d20c69f50a7b4bb7b69529bcc413e6`, unresolved issues **0**, checkpoint `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`.
 
-The source English translation remains physical-source evidence and is not automatically repository Phase-4 output. Its treatment must be explicitly recorded during Phase 4 T0. Verified unusual forms, including `கர்த்தபம்`, remain unchanged; the user-supplied Wiktionary entry corroborates `கர்த்தபம்` = donkey.
+Verified source forms including `பூமானே`, `நல்வழியில்` and `கர்த்தபம்` remain unchanged; the user-supplied Wiktionary entry corroborates `கர்த்தபம்` = donkey.
 
-## Verification / phase state
+## Phase 4 source-witness rule
 
-- Phase 2: **PASS — 10/10 verified, unresolved 0**;
-- Phase 3: **COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED**;
-- Tamil source/canonical checkpoint cleared by Gate 6: **`80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`**;
-- Phase 4 T0: **NEXT**.
+T0 classifies scans **8–9** as a **secondary historical English-translation witness**. The witness is selective/condensed, not line-complete, and cannot control Tamil interpretation, source coverage or the repository English title. It may be consulted only after an independent Tamil-based draft exists, with material adoptions documented.
 
-## Authority
-
-The exact PDF identified above is the controlling source. No source wording is normalized silently.
+Current Phase-4 state: **T0 COMPLETE / T1 NEXT**.

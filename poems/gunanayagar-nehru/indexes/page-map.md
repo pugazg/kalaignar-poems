@@ -1,36 +1,22 @@
 # Page map — குணநாயகர் நேரு
 
-Controlling source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf`  
-Physical scans: **10**.
+Controlling source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**.
 
-**Phase 3 COMPLETE — Gates 1–6 PASS / TAMIL FINAL-CLEARED.**
+**Phase 3 COMPLETE — TAMIL FINAL-CLEARED / Phase 4 T0 COMPLETE.**
 
-| Scan | Visible printed page | Reconciled logical page | Page type | Canonical Tamil scope | Status |
+| Scan | Visible printed page | Logical page | Role | Tamil canonical | Phase-4 role |
 |---:|---:|---:|---|---|---|
-| 1 | — | — | cover | excluded from verse; title/attribution witness | verified |
-| 2 | — | 1 | preface / `பதிப்புரை` | excluded | verified |
-| 3 | 2 | 2 | poem opening | **included once**; `sections/01.md` | verified |
-| 4 | 3 | 3 | poem continuation | **included once**; `sections/01.md` | verified |
-| 5 | 4 | 4 | poem continuation | **included once**; `sections/01.md` | verified |
-| 6 | 5 | 5 | poem continuation | **included once**; `sections/01.md` | verified |
-| 7 | 6 | 6 | poem conclusion + performance note | **verse included once; note excluded**; `sections/01.md` | verified |
-| 8 | — | 7 | source translation | excluded from Tamil canonical layer | verified |
-| 9 | — | 8 | source translation + credit + imprint | excluded from Tamil canonical layer | verified |
-| 10 | — | — | photograph/back matter | excluded | verified |
+| 1 | — | — | cover | excluded; title witness | metadata/title witness |
+| 2 | — | 1 | `பதிப்புரை` | excluded | context only |
+| 3 | 2 | 2 | Tamil poem opening | included once | primary translation source |
+| 4 | 3 | 3 | Tamil poem continuation | included once | primary translation source |
+| 5 | 4 | 4 | Tamil poem continuation | included once | primary translation source |
+| 6 | 5 | 5 | Tamil poem continuation | included once | primary translation source |
+| 7 | 6 | 6 | poem conclusion + performance note | verse included; note excluded | verse primary; note context only |
+| 8 | — | 7 | source English translation part 1 | excluded | secondary historical witness only |
+| 9 | — | 8 | source English translation part 2 + credit/imprint | excluded | secondary historical witness only |
+| 10 | — | — | photograph/back matter | excluded | excluded |
 
-## Gate results
+Tamil canonical scan coverage: **3–7 = 5/5 exactly once**. Source-English scans 8–9 are selective/condensed and not line-complete; they are not Phase-4 coverage authority.
 
-- Gate 1 pagination: **PASS**, unresolved **0**;
-- Gate 2 boundary/joins: **PASS**, canonical verse scans **3–7**, joins **4/4 PASS**, unresolved **0**;
-- Gate 3 title/attribution: **PASS**, unresolved **0**;
-- Gate 4 canonical assembly: **PASS**, canonical file **`../sections/01.md`**;
-- Gate 5 assembly/source-completeness: **PASS**, scans **3–7 = 5/5 exactly once**, missing / duplicate markers **0 / 0**, unresolved **0**;
-- Gate 6 Tamil final clearance: **PASS**, unresolved Tamil/source issues **0**.
-
-Authorities: `../PHASE3_PAGE_RECONCILIATION.md`, `../PHASE3_BOUNDARY_JOIN_AUDIT.md`, `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `../PHASE3_CANONICAL_ASSEMBLY.md`, `../PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`, `../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
-
-Tamil source/canonical checkpoint cleared by Gate 6: **`80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`**.
-
-## Next phase
-
-**Phase 4 T0 — English translation setup / source mapping only.**
+Exact next activity: **T1 Batch 01 independent English draft from scans 3–7**.
