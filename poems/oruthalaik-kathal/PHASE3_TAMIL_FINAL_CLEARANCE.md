@@ -16,17 +16,19 @@ The controlling scan remains highest textual authority. A future genuine source-
 ## Subsequent Phase 4 status
 
 - T0 English translation setup/source mapping: **COMPLETE / PASS**;
-- Batches 01–05: **COMPLETE / REVIEWED PASS**;
+- Batches 01–06: **COMPLETE / REVIEWED PASS**;
 - English title: **One-Sided Love**;
-- translation batches completed: **5/6**;
-- reviewed English sections: **9/11**;
-- reviewed source coverage: **77/95 main-work scans**;
-- reviewed composition: **68 text-bearing + 9 illustration-only scans**;
+- translation batches completed: **6/6**;
+- reviewed English sections: **11/11**;
+- reviewed source coverage: **95/95 main-work scans**;
+- reviewed composition: **84 text-bearing + 11 illustration-only scans**;
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` / `sections/` modified during Phase 4: **0**.
 
-Batch 05 English section 09 explicitly retains the source-visible scan-82 closing ornament restored during Gate 5. Phase-4 outputs now include English `sections/01.md` … `09.md`, `batches/BATCH_01.md` … `BATCH_05.md`, and the T0 setup/source-map files.
+Phase-4 outputs now include English `sections/01.md` … `11.md`, `batches/BATCH_01.md` … `BATCH_06.md`, and the T0 setup/source-map files. Batch 06 preserves the final source-sensitive readings and structural closure without reopening the Tamil layer.
+
+The translation-batch layer is complete, but release clearance is still pending post-batch English assembly/editorial review.
 
 ## Current exact next activity
 
-**Phase 4 Batch 06 — translate and review sections 10–11, scans 83–100 / logical pages 78–95.** Do not modify final-cleared Tamil. Full-English assembly/editorial-consistency/release QA remains a later activity.
+**Post-batch full-English assembly and editorial-consistency review of reviewed English sections 01–11.** Do not modify final-cleared Tamil and do not mark release clearance before that review passes.

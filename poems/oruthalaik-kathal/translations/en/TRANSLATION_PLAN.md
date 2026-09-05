@@ -2,9 +2,11 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS. T0 COMPLETE / PASS. Batches 01–05 COMPLETE / REVIEWED PASS. Batch 06 is NEXT.**
+**PHASE 4 IN PROGRESS. T0 COMPLETE / PASS. Batches 01–06 COMPLETE / REVIEWED PASS.**
 
-Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches completed: **5/6**. Reviewed sections: **9/11**. Reviewed source coverage: **77/95 scans**.
+Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches completed: **6/6**. Reviewed sections: **11/11**. Reviewed source coverage: **95/95 scans**.
+
+The batch-translation layer is complete. Post-batch full-English assembly/editorial-consistency review and release decision remain.
 
 ## Objective
 
@@ -30,7 +32,7 @@ If a reading is questioned: controlling PDF scan → verified page record → fi
 10. Full-page illustration scans receive only neutral structural markers.
 11. Diamond ornaments and `(முற்றும்)` remain structurally represented.
 12. English title remains **One-Sided Love**.
-13. Recurring `போர்வாள் ... பூவிதழ்` contrast remains **war-sword / flower-petal** unless a later batch documents a source-driven reason to vary it.
+13. Recurring `போர்வாள் ... பூவிதழ்` contrast remains **war-sword / flower-petal** unless a documented source-driven reason requires variation.
 
 ## Recurring locks
 
@@ -50,15 +52,19 @@ If a reading is questioned: controlling PDF scan → verified page record → fi
 - narrative `உறையூர்` → **Uraiyur**;
 - quotation-form `உறந்தை` → **Uranthai**;
 - `அத்தாணி மண்டபம்` → **Attani council hall / Attani hall** according to sentence context;
-- source `நாளவை` context → **day-court**, without Tamil normalization.
+- source `நாளவை` context → **day-court**, without Tamil normalization;
+- scan-92 `ஊழித்தீ` → **fire of cosmic destruction** in context;
+- named `அனிச்சமலர்` → **anicham flower**;
+- source `(முற்றும்)` → **(The End)** structurally, retaining final diamonds.
 
 Proper-name continuity includes **Nakkannai, Perunarkilli / Narkilli, Sattanthaiyar / Sattanthai, Tittan, Porkodi, Perungozhinaykan, Kavarpentu, Aiyai, Panan, Palver Katti**. Source-specific honorific forms are not silently normalized away.
 
 ## Output model
 
-- reviewed English section files: `sections/01.md` … `sections/11.md`;
-- batch review records: `batches/BATCH_01.md` … `BATCH_06.md`;
-- only after all six batches PASS: full English assembly, editorial-consistency review and release report.
+- reviewed English section files: `sections/01.md` … `sections/11.md` — **11/11 complete**;
+- batch review records: `batches/BATCH_01.md` … `BATCH_06.md` — **6/6 PASS**;
+- next: full English assembly + editorial-consistency review;
+- after that review passes: release report / release-clearance decision.
 
 Every English section retains explicit Tamil-source mapping, including source section, source blob SHA and physical scan range.
 
@@ -71,24 +77,25 @@ Every English section retains explicit Tamil-source mapping, including source se
 | 03 | 05–06 | 39–55 | 34–50 | 15 | 40, 48 | **COMPLETE / REVIEWED PASS** |
 | 04 | 07–08 | 56–73 | 51–68 | 16 | 58, 66 | **COMPLETE / REVIEWED PASS** |
 | 05 | 09 | 74–82 | 69–77 | 8 | 76 | **COMPLETE / REVIEWED PASS** |
-| 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | **NEXT** |
+| 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | **COMPLETE / REVIEWED PASS** |
 
-Total translation-source coverage remains **95/95 main-work scans = 84 text-bearing + 11 illustration-only**.
+Total translation-source coverage: **95/95 main-work scans = 84 text-bearing + 11 illustration-only**, reviewed PASS.
 
 ## Batch closures
 
-- Batch 01 sections **01–02**, scans **6–20**: **PASS**;
-- Batch 02 sections **03–04**, scans **21–38**: **PASS**;
-- Batch 03 sections **05–06**, scans **39–55**: **PASS**;
-- Batch 04 sections **07–08**, scans **56–73**: **PASS**;
-- Batch 05 section **09**, scans **74–82**: **PASS**, 9/9 scans represented, illustration scan 76 neutral-only, scan-82 close retained, source high-risk forms/quotation layers preserved, Tamil files changed **0**, unresolved issues **0**.
+Batches 01–05 retain their governing review records unchanged. Batch 06 (`batches/BATCH_06.md`) closes sections **10–11**, scans **83–100**, with 18/18 scans represented, illustration scans **84/94** neutral-only, scan-92 and scan-100 closing structures retained, *Akananuru* 226/252 kept source-distinct, final high-risk source forms preserved without Tamil edits, and unresolved issues **0**.
 
-Batch 05 also records source-first treatment of scan-77 `கங்கநாட்டுக்` / `உயிரினுஞ்`, scan-78 `நாளவையில்`, scan-81 `குண்டில்`, and the Gate-5-restored scan-82 structural close.
+## Post-batch workflow
 
-## Per-batch workflow
-
-Fetch live `main`; read assigned final-cleared Tamil sections; consult source map/Phase-3 records; draft English without changing Tamil; review omissions/duplication/speaker integrity/quotations/explanations/structural marks; review voice and recurring-term continuity; record material decisions; mark PASS only after the whole batch passes.
+1. Assemble reviewed English sections **01–11** in source order without rewriting them silently.
+2. Verify **95/95** scan-provenance/structural markers with no omission or duplication.
+3. Audit global title, proper-name, recurring-term and refrain continuity.
+4. Audit speaker/dialogue flow and section-to-section continuity.
+5. Audit every Sangam quotation/attribution versus its surrounding narrative/simple-language and **Source explanation** layers.
+6. Audit all 11 illustration markers, ten numbered-section closes, internal separators and final **(The End)** / diamonds.
+7. Record any English-only editorial fixes transparently; Tamil remains frozen unless genuine source evidence requires formal reopening.
+8. Mark the post-batch review PASS only after all checks close with unresolved issues 0.
 
 ## Exact next activity
 
-**Batch 06 — sections 10–11, scans 83–100.** Translate and review both complete sections; create English `sections/10.md`, `sections/11.md` and `batches/BATCH_06.md`. Do not proceed to full-English assembly/editorial-consistency/release QA in the same activity unless explicitly requested.
+**Post-batch full-English assembly and editorial-consistency review.** Do not mark release clearance in advance of that review.

@@ -20,7 +20,7 @@ Active workspace: `poems/oruthalaik-kathal/`.
 
 ## Phase 4 — translation and release
 
-**IN PROGRESS.**
+**IN PROGRESS. Translation batch layer COMPLETE / REVIEWED PASS.**
 
 - T0 English translation setup/source mapping: **COMPLETE / PASS**;
 - Batch 01 sections 1–2 / scans 6–20: **COMPLETE / REVIEWED PASS**;
@@ -28,15 +28,16 @@ Active workspace: `poems/oruthalaik-kathal/`.
 - Batch 03 sections 5–6 / scans 39–55: **COMPLETE / REVIEWED PASS**;
 - Batch 04 sections 7–8 / scans 56–73: **COMPLETE / REVIEWED PASS**;
 - Batch 05 section 9 / scans 74–82: **COMPLETE / REVIEWED PASS**;
-- completed translation batches: **5/6**;
-- reviewed English sections: **9/11**;
-- reviewed source coverage: **77/95 main-work scans**;
-- reviewed source composition: **68 text-bearing + 9 illustration-only scans**;
+- Batch 06 sections 10–11 / scans 83–100: **COMPLETE / REVIEWED PASS**;
+- completed translation batches: **6/6**;
+- reviewed English sections: **11/11**;
+- reviewed source coverage: **95/95 main-work scans**;
+- reviewed source composition: **84 text-bearing + 11 illustration-only scans**;
 - English title: **One-Sided Love**;
 - unresolved reviewed translation issues: **0**;
 - final-cleared Tamil files modified during Phase 4: **0**.
 
-Remaining batch boundary: **06 sections 10–11 / scans 83–100**.
+The work is **not yet release-cleared**. Post-batch full-English assembly/editorial-consistency review and subsequent release decision remain.
 
 ## Preserved completed state
 
@@ -44,4 +45,4 @@ Remaining batch boundary: **06 sections 10–11 / scans 83–100**.
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 4 Batch 06 — translate and review sections 10–11, scans 83–100 / logical pages 78–95.** Create English `sections/10.md`, `sections/11.md` and `batches/BATCH_06.md`. Preserve established translation locks and do not modify final-cleared Tamil. Post-batch full-English assembly/release QA remains a later activity.
+**Post-batch full-English assembly and editorial-consistency review.** Assemble reviewed English sections **01–11** in source order; certify all 95 main-work scans/markers and structural witnesses, terminology/refrain continuity, quotations/attributions/Source explanations, illustration markers, section closes and final work closure. Prepare the durable assembly/review record. Do not mark release clearance until that review passes.

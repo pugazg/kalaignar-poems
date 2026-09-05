@@ -15,24 +15,24 @@ Tamil archival state is **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/10
 
 ## Phase 4
 
-**IN PROGRESS — T0 COMPLETE / PASS; Batches 01–05 COMPLETE / REVIEWED PASS.**
+**IN PROGRESS — T0 COMPLETE / PASS; Batches 01–06 COMPLETE / REVIEWED PASS.**
 
 - English title: **One-Sided Love**;
-- translation batches complete: **5/6**;
-- reviewed English sections: **9/11**;
-- reviewed source coverage: **77/95 main-work scans**;
-- reviewed source composition: **68 text-bearing + 9 illustration-only scans**;
-- reviewed outputs: English `sections/01.md` … `09.md` and `batches/BATCH_01.md` … `BATCH_05.md`;
+- translation batches complete: **6/6**;
+- reviewed English sections: **11/11**;
+- reviewed source coverage: **95/95 main-work scans**;
+- reviewed source composition: **84 text-bearing + 11 illustration-only scans**;
+- reviewed outputs: English `sections/01.md` … `11.md` and `batches/BATCH_01.md` … `BATCH_06.md`;
 - unresolved reviewed translation issues: **0**;
 - final-cleared Tamil `pages/` / `sections/` changed during Phase 4: **0**.
 
-Batch 05 preserves scan-77 `கங்கநாட்டுக்` / `உயிரினுஞ்`, scan-78 `நாளவையில்`, scan-81 `குண்டில்`, the source-distinct *Akananuru* / *Kuruntokai* / *Purananuru* quotation layers, illustration scan **76**, and the Gate-5-restored scan-82 closing ornament without changing Tamil.
+Batch 06 preserves the high-risk final-section source forms and structures, including scan-85 `தமிழ் எழுதிப்பிழைக்க` / `நினைவூட்டுகின்றேன்`, scan-88 `ஓடிவந்தீர்`, scan-92 `ஊழித்தீயெனப்`, scan-93 `அனிச்சமலர் தேகத்தை` / `காளைகளைச்`, scan-97 `உனைக் கொல்வதுபோல்`, scan-98 `கூர்கொண்ட` / `என் அறியாமை`, scan-99 `கரும்பாய் முத்தம்`, and scan-100 `தொழில்மழை`, without modifying Tamil. Illustration scans **84,94**, scan-92 close, `(முற்றும்)` / English **(The End)** and the final ornament are structurally retained.
 
-Batch plan: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **PASS**; 04 sections 7–8 scans 56–73 **PASS**; 05 section 9 scans 74–82 **PASS**; 06 sections 10–11 scans 83–100 **NEXT**.
+Batch plan: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **PASS**; 04 sections 7–8 scans 56–73 **PASS**; 05 section 9 scans 74–82 **PASS**; 06 sections 10–11 scans 83–100 **PASS**.
 
 ### Exact next activity
 
-**Phase 4 Batch 06 — translate and review sections 10–11, scans 83–100 / logical pages 78–95.** Create reviewed English `sections/10.md`, `sections/11.md` and `batches/BATCH_06.md`. Do not modify final-cleared Tamil. Do not begin post-batch full-English assembly or release QA in the same activity unless explicitly requested.
+**Post-batch full-English assembly and editorial-consistency review.** Assemble reviewed English `sections/01.md` through `sections/11.md` in source order; audit title/name/term/refrain continuity, scan provenance, quotations/explanations, illustration markers and closing structures; prepare the durable full-English assembly/review record. Do **not** mark release clearance until that separate review passes.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 
