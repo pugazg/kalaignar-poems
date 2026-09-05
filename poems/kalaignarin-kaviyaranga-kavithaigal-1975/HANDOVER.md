@@ -12,20 +12,21 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 
 ## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — **Phase 2 in progress: scans 46–47 verified; scans 48–57 pending**;
+1. scans **46–57** — Item 01 — **Phase 2 in progress: scans 46–48 verified; scans 49–57 pending**;
 2. scans **58–65** — Item 02 — **Phase 1 complete; Phase 2 pending**;
 3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
 
-Phase 1: **22/22 complete**. Phase 2: **2/22 verified**.
+Phase 1: **22/22 complete**. Phase 2: **3/22 verified**.
 
 ## Verified checkpoint
 
 - `pages/0046.md`: verified, unresolved issues 0.
-- `pages/0047.md`: verified after full enlarged-source reread. Important source-backed corrections include `பருக்கிடம்` instead of the Phase-1 `பக்தியுடன்`, `“சாரம்”` instead of `“சாராய”`, restoration of the complete car/friend exchange, the full `புதுச் சிறப்பு / தனிச் சிறப்பு / குடிச் சிறப்பு / கவிச் சிறப்பு / புவிச் சிறப்பு` sequence, the 1946 Puduvai recollection, and the closing lines through `பண்புநிறை அமைச்சர் பெருமக்கள் தனை—`.
-- Historical-glyph Phase-2 recheck is complete through scan 47; unresolved historical-family issues: 0.
+- `pages/0047.md`: verified, unresolved issues 0.
+- `pages/0048.md`: verified after full enlarged-source reread. Important corrections/resolutions include `பாராட்டி வாழ்த்தி எந்தன் கவியரங்கைத் தொடங்கு / கின்றேன்......`, `ராஜாராம்`, `ஆறுமுகம்`, restoration of the `சண்முகமும் / அவ்வாறே; ஒளவைச் / சண்முகமோ பெயராலே` passage, M. Po. Si. and Puduvai Kuyil passages, plus closing comrades lines. Historical `னை` in `அமைதித்தனை` and `ளை` in `வரிகளையே` are source-cleared.
+- historical-glyph Phase-2 recheck is complete through scan 48; unresolved historical-family issues: 0.
 
 No Phase-3 join/structure decision has been made.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 01 scan 48 only**. Independently compare `pages/0048.md` against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation.
+Continue **Phase 2 with Item 01 scan 49 only**. Independently compare `pages/0049.md` against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation.
