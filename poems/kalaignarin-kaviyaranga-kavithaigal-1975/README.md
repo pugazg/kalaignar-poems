@@ -4,47 +4,37 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY PROCESSING / PHASE 1 NEW TARGETS 20/23 / ITEMS 01–02 FIRST PASSES COMPLETE / EXACT SHA-256 PENDING.**
+**ONBOARDED / NEW-ITEM-ONLY PROCESSING / KALAIGNAR PHASE 1 20/22 / ITEMS 01–02 FIRST PASSES COMPLETE / SCAN 66 RECLASSIFIED NON-KALAIGNAR / SHA-256 PINNED.**
 
-The user-directed rule is to process only poems not already represented in the repository.
+Controlling source:
 
-### Production scope
+- **84 scans**;
+- **93,307,011 bytes**;
+- SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`;
+- first edition **1975**;
+- compiler/editor witness **ஆசிரியர் அ. முத்து**.
 
-| ID | Source-heading intake label | Scans | Phase-1 state |
+## Corrected production scope
+
+| Intake ID | Source-heading label | Scans | State |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **12/12 first-pass records complete; all `needs-review`** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **8/8 first-pass records complete; all `needs-review`** |
-| 03 | `சாராய சுதந்திரம்` | 66 | **NEXT** |
-| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | pending |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **12/12 Phase-1 records complete; all `needs-review`** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **8/8 Phase-1 records complete; all `needs-review`** |
+| 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — source attributes it to சக்கரவர்த்தி—இராசகோபாலாச்சாரி** |
+| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **NEXT** |
 
-Total new-item target scans: **23**. Current Phase-1 coverage: **20/23**.
+Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**. Current Kalaignar Phase-1 coverage is **20/22**.
+
+Scan 66 is retained as a source/context record at `pages/0066.md`. Its bracketed note identifies the separate Kalaignar `மறுப்புக் கவிதை` on scans 67–68.
 
 ## Already represented — skip retranscription
 
-Scans **9–20, 21–32, 33–45, 71–77, 78–84** are already represented elsewhere and are outside the active production queue. Earlier page records 9–32 remain archival cross-witnesses only. Scans 69–70 are Bharathidasan material and are not a Kalaignar target.
+Scans **9–20, 21–32, 33–45, 71–77, 78–84** remain existing/skip. Earlier page records 9–32 are archival cross-witnesses only. Scans **69–70** are Bharathidasan material and are non-Kalaignar.
 
 ## Historical Tamil glyph control
 
-Use `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `HISTORICAL_GLYPH_AUDIT.md` on every new Tamil target page. Source pixels remain controlling; decode character identity into normal Unicode without modernizing source wording.
-
-## Completed Phase-1 new-item blocks
-
-### NEW ITEM 01 — scans 46–57
-
-Page records `pages/0046.md` through `pages/0057.md` cover the complete 12-scan block. All twelve remain `needs-review`; uncertain dense text was not guessed.
-
-### NEW ITEM 02 — scans 58–65
-
-Page records `pages/0058.md` through `pages/0065.md` cover the complete 8-scan block. The 5-5-71 Pari/Parambu-malai event heading, Pari–Kapilar material, social/charity argument, thematic `மை` word-play and the concluding `எளிமை / வன்மை / வலிமை / இறைமை / புதுமை` sequence are captured conservatively. All eight pages remain `needs-review`; Phase 2 has not begun.
-
-## Controlling source
-
-- physical scans: **84**;
-- file size: **93,307,011 bytes**;
-- SHA-256: **PENDING — do not infer or fabricate**;
-- first edition: **1975**;
-- compiler/editor witness: **ஆசிரியர் அ. முத்து**.
+Use `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `HISTORICAL_GLYPH_AUDIT.md` on every active new Kalaignar page. Source pixels control character identity; do not normalize wording or guess unread text.
 
 ## Exact next activity
 
-Process **NEW ITEM 03 Phase 1 — scan 66 (`சாராய சுதந்திரம்`) only**. Do not begin Item 04, Phase 2, Phase 3 or translation in the same activity.
+Process **scans 67–68 only** as the Kalaignar `முதல்வர் கலைஞரின் பதில் கவிதை` Phase-1 block. Do not begin Phase 2, Phase 3 or translation in the same activity.
