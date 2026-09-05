@@ -10,7 +10,7 @@ Tamil title: **குணநாயகர் நேரு**. Printed attribution: 
 
 ## Current status
 
-**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 + T1 + T2 COMPLETE / T2 REVIEWED PASS / T3 NEXT.**
+**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 + T1 + T2 + T3 COMPLETE / T3 EDITORIAL PASS / T4 NEXT.**
 
 - physical pages: **10/10 verified**;
 - canonical Tamil verse scans: **3–7 = 5/5 exactly once**;
@@ -18,14 +18,16 @@ Tamil title: **குணநாயகர் நேரு**. Printed attribution: 
 - unresolved Tamil/source issues: **0**;
 - Tamil checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`;
 - reviewed English title: **Nehru, the Noble Leader**;
-- reviewed English section: `translations/en/sections/01.md`;
-- reviewed English coverage: **scans 3–7 exactly once**;
-- Batch 01 T2: **REVIEWED PASS**;
-- T2 authority: `translations/en/T2_REVIEW.md`;
+- reviewed English section: `translations/en/sections/01.md`, blob `499f9ebf05d78df10143cd6161ebf0f8501750cc`;
+- Batch 01 T2: **REVIEWED PASS**; unresolved translation issues **0**;
+- reader-facing English assembly: `translations/en/gunanayagar-nehru-en.md`, blob `c11b7d11ed3be642cca734b0bdcb16ae1f5b1c0e`;
+- T3 editorial-consistency review: **PASS**, `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+- reader-facing scan coverage: **3–7 = 5/5 exactly once**;
+- missing / duplicate assembly markers: **0 / 0**;
 - historical source-English scans 8–9 comparison: **COMPLETE**, deliberate wording adoptions **0**;
-- unresolved English translation issues: **0**;
+- unresolved T3 issues: **0**;
 - Tamil changes during Phase 4: **0**.
 
 ## Exact next activity
 
-Perform **Phase 4 T3 — reader-facing English assembly / editorial-consistency review only**. Do not begin T4 in the same activity.
+Perform **Phase 4 T4 — final source-coverage / release-integrity review only**. Do not mark RELEASE-CLEARED unless all final coverage, exclusion, integrity and Tamil-protection checks pass with unresolved release issues **0**.

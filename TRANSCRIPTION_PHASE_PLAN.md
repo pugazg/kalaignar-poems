@@ -29,12 +29,12 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ### T3 — reader-facing assembly / editorial consistency
 
-**NEXT.** Assemble the reviewed section into the reader-facing English work and perform editorial-consistency review. Require unresolved T3 issues **0**.
+**COMPLETE / PASS.** Reader-facing assembly `translations/en/gunanayagar-nehru-en.md` covers scans **3–7 exactly once**; `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` PASS; missing / duplicate markers **0 / 0**; unresolved T3 issues **0**.
 
 ### T4 — final source-coverage / release-integrity review
 
-**DEFERRED until T3 PASS.**
+**NEXT.** Independently certify source coverage, exclusions, reviewed-English synchronization, title/byline/quotation integrity, witness isolation and Tamil protection. RELEASE-CLEARED requires unresolved release issues **0**.
 
 ## Exact next activity
 
-Complete **Phase 4 T3 only**.
+Complete **Phase 4 T4 only**.
