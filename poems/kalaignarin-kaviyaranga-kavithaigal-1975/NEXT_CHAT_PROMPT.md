@@ -16,17 +16,17 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - Phase 1: **22/22 complete**;
-- Phase 2: **3/22 verified**;
-- `pages/0046.md`, `pages/0047.md`, `pages/0048.md`: **verified**, unresolved readings 0;
-- Item 01 scans 49–57: **9 needs-review**;
-- Item 02 scans 58–65: **8 needs-review**;
-- Item 04 scans 67–68: **2 partial**;
-- historical-glyph Phase-2 recheck complete through scan **48**.
+- Phase 2: **13/22 verified**;
+- NEW ITEM 01 scans **46–57: 12/12 verified — Phase 2 COMPLETE**;
+- NEW ITEM 02 scan **58: verified**; scans **59–65: 7 needs-review**;
+- NEW ITEM 04 scans **67–68: 2 partial**;
+- historical-glyph Phase-2 recheck complete through scan **58**;
+- unresolved issues on verified scans 46–58: **0**.
 
-Scan 48 was independently reread from enlarged source pixels. Important source-backed corrections include `பாராட்டி வாழ்த்தி எந்தன் கவியரங்கைத் தொடங்கு / கின்றேன்......`, `ராஜாராம்`, `ஆறுமுகம்`, restoration of the Shanmugam / M. Po. Si. / Puduvai Kuyil / comrades passages, and source-cleared historical forms `அமைதித்தனை` and `வரிகளையே`. Unresolved scan-48 issues: **0**.
+Scan 58 was independently reread from enlarged source pixels. Important source-backed corrections include `[மாதொரு பாகன்—சிவனார்!]`, `மாதவர்க்கும் ஒரு பாகம் உண்டன்றோ?`, `மருதநேயார் மதுரை முத்து மேயர்க்கும்`, and the closing `நான் ஏற்பதில்லை—எதைத் துறந்திடினும்`. Phase 3 has not begun.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 01 scan 49 only**. Compare `pages/0049.md` independently against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote the page to `verified` only after complete visual clearance.
+Continue **Phase 2 with Item 02 scan 59**, then proceed in physical order through scans 59–65. Compare each page independently against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote each page to `verified` only after complete visual clearance.
 
 Do not begin Phase 3 canonical assembly or Phase 4 translation until Phase 2 is complete.
