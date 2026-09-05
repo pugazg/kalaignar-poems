@@ -1,47 +1,41 @@
 # Transcription / Translation Phase Plan — Kalaignar Poems Archive
 
-## Active source record — ஒருதலைக் காதல்
+## Active source record — குணநாயகர் நேரு
 
-Controlling PDF: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf` — **101 scans**, **200,800,237 bytes**, SHA-256 `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`.
+Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-## Phase 1 — source intake and page records
+## Source intake
 
-**COMPLETE — 101/101.**
+**COMPLETE — 10/10 physical scans accounted.**
 
-## Phase 2 — page-level verification
+Provisional physical roles: 1 cover; 2 `பதிப்புரை`; 3–7 Tamil poem; 8–9 source-supplied English translation; 10 final uncaptained photograph/back matter.
 
-**COMPLETE / PASS — 101/101 verified.**
+## Phase 1 — transcription only
 
-## Phase 3 — Tamil canonical assembly and final clearance
+**NEXT — 0/10 page records created.**
 
-**COMPLETE / PASS — TAMIL FINAL-CLEARED.**
+Create all ten page records from direct visual inspection. Preserve the printed English translation as source text; do not treat it as Phase-4 output. Newly transcribed pages remain `partial` unless a genuine uncertainty requires `needs-review`.
 
-- Gates 1–6: PASS;
-- canonical sections: **11/11**;
-- main-work scans: **6–100 = 95/95 exactly once**;
-- unresolved Tamil/source issues: **0**;
-- checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
+## Phase 2 — source-critical visual verification
 
-The source-backed non-lexical scan-82 three-diamond close remains locked in verified and canonical Tamil. English work did not reopen Tamil.
+**DEFERRED until Phase 1 is complete.**
 
-## Phase 4 — English translation and release
+## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
-**COMPLETE — RELEASE-CLEARED.**
+**DEFERRED until Phase 2 passes.**
 
-- T0: PASS;
-- translation batches: **6/6 COMPLETE / REVIEWED PASS**;
-- reviewed English sections: **11/11**;
-- reviewed source coverage: **95/95 = 84 text-bearing + 11 illustration-only scans**;
-- English title: **One-Sided Love**;
-- reader-facing assembly: **89,457 bytes / 3,004 lines / blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`**;
-- full-English assembly/editorial review: **PASS**;
-- final source-coverage / release-integrity gate: **PASS**;
-- release report: `poems/oruthalaik-kathal/translations/en/RELEASE_REPORT.md`;
-- unresolved release issues: **0**;
-- Tamil `pages/` / canonical `sections/` changes since final clearance: **0**.
+Tamil canonical poem-body boundary is provisionally scans **3–7** and must be certified in Phase 3 rather than assumed final at intake.
 
-The release gate certified scan markers **6–100 exactly once**, exclusions **1–5 and 101**, illustration markers, section closes, internal separators, quotation/**Source explanation** separation, term/refrain continuity, reader-facing cleanliness and the final scan-100 **(The End)** / diamonds.
+## Phase 4 — repository English translation and release
 
-## Boundary after release
+**DEFERRED until Tamil final clearance.**
 
-No further Phase-4 activity is pending. Preserve the release-cleared state unless genuine source evidence requires a formally audited reopening.
+The source itself already contains an English translation on scans **8–9**. That printed translation is archived as source evidence and must not be confused with a later repository-produced Phase-4 translation.
+
+## Exact next activity
+
+Complete **Phase 1 transcription for scans 1–10 only**.
+
+## Preserved completed work
+
+`poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain RELEASE-CLEARED and outside this activity.

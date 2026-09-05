@@ -2,35 +2,29 @@
 
 Repository: `pugazg/kalaignar-poems` — branch `main`. **Live `main` is authoritative.**
 
-## Latest completed work — ஒருதலைக் காதல்
+## Active work — குணநாயகர் நேரு
 
-Workspace: `poems/oruthalaik-kathal/`  
-Source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf` — **101 scans**, **200,800,237 bytes**, SHA-256 `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`.
+Workspace: `poems/gunanayagar-nehru/`  
+Source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-Tamil remains **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/101 verified**, Phase 3 Gates 1–6 **PASS**, canonical sections **11/11**, scans **6–100 = 95/95 exactly once**, unresolved Tamil/source issues **0**. Tamil final-clearance checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
+Current state: **SOURCE INTAKE COMPLETE / PHASE 1 TRANSCRIPTION NEXT**.
 
-## Phase 4 durable state
+Source structure established from direct scan review:
 
-**PHASE 4 COMPLETE — RELEASE-CLEARED.**
+- scan 1 cover;
+- scan 2 `பதிப்புரை`, dated **14.11.1989**, signed by the Director, Information and Public Relations Department, Government of Tamil Nadu;
+- scans 3–7 Tamil poem **குணநாயகர் நேரு**, visible printed pages **2–6**;
+- scan 7 performance note records **14.11.1970** Chennai University centenary-hall poetry-event context;
+- scans 8–9 printed English translation **BEAUTY ROSE WEPT**, translated by **Dr. Krishna Srinivas**;
+- scan 10 uncaptained photograph/back matter.
 
-- T0: **COMPLETE / PASS**;
-- Batches 01–06: **6/6 COMPLETE / REVIEWED PASS**;
-- standalone English sections: **11/11 reviewed PASS**;
-- source coverage: **95/95 = 84 text-bearing + 11 illustration-only scans**;
-- English title: **One-Sided Love**;
-- reader-facing assembly: `translations/en/oruthalaik-kathal-en.md` — **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
-- `EDITORIAL_CONSISTENCY_REVIEW.md`: **COMPLETE / PASS**;
-- `RELEASE_REPORT.md`: **FINAL RELEASE GATE PASS**;
-- unresolved release issues: **0**.
+Printed poem attribution: **முதல்வர் கலைஞர்**. Catalog/user author identity: **கலைஞர் மு. கருணாநிதி**. Preserve both roles without silently rewriting the source witness.
 
-The final release gate certified scans **6–100 = 95/95 exactly once**, exclusions **1–5 and 101**, all 11 neutral illustration markers, closes **13,20,30,38,45,55,63,73,82,92**, internal separators, quotation/attribution versus **Source explanation** structure, title/name/term/refrain continuity, reader-facing cleanliness, and scan-100 **(The End)** plus final diamonds.
+## Exact next activity
 
-Section 3 and the assembly both retain the English-only **Karantai battle** correction. Tamil was not changed.
+Perform **Phase 1 transcription for scans 1–10 in one activity**, creating `poems/gunanayagar-nehru/pages/0001.md` … `0010.md`. Newly transcribed pages should normally be `partial`; Phase 2 verification, Phase 3 assembly and Phase 4 translation remain deferred.
 
-Git comparison from `0c6b3d19625a9478441f0f654584d8343163ba37` established **0 changed files** under `poems/oruthalaik-kathal/pages/` and `poems/oruthalaik-kathal/sections/` through the release review.
+## Preserved release-cleared works
 
-`poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be modified as part of this work.
-
-## Next activity
-
-There is **no pending Phase-4 activity** for `ஒருதலைக் காதல்`. Preserve the release-cleared state. A future textual correction must be source-backed and formally reopen the affected audit layer; otherwise begin a separately authorized work/publication rather than re-running completed gates.
+- `poems/oruthalaik-kathal/`: **RELEASE-CLEARED**, do not reopen or modify for this work;
+- `poems/kalaignarin-kavithaigal/`: **RELEASE-CLEARED**, do not modify for this work.
