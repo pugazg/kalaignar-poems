@@ -57,7 +57,7 @@ Fresh enlarged-source review establishes the following printed source evidence:
 - explicit attribution `சக்கரவர்த்தி—இராசகோபாலாச்சாரி—எழுதியது.`;
 - the bracketed note states that the Chief Minister answered this poem with a `மறுப்புக் கவிதை` at the Periyar statue unveiling in Erode on September 17.
 
-Therefore scan 66 is **not a Kalaignar poem** and is excluded from Kalaignar canonical assembly. The actual Kalaignar response is the separate block on scans **67–68**, which remains the next production target. fileciteturn826file0L8-L12
+Therefore scan 66 is **not a Kalaignar poem** and is excluded from Kalaignar canonical assembly. The actual Kalaignar response is the separate block on scans **67–68**, which remains the next production target.
 
 ## Exact next activity
 
