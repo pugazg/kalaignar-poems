@@ -33,6 +33,10 @@ Inventory coverage: **84/84 scans classified**.
 | 2 | `../pages/0002.md` | `partial` | none visible | title/publication text and donation witness captured |
 | 3 | `../pages/0003.md` | `needs-review` | none visible | edition/price captured; small bottom imprint unresolved |
 | 4 | `../pages/0004.md` | `needs-review` | none visible | non-edition handwriting; full Tamil cursive reading deferred |
-| 5–84 | — | `not-started` | — | continue in physical order |
+| 5 | `../pages/0005.md` | `needs-review` | none visible | `முன்னுரை`; heading/signature/date captured, body unresolved |
+| 6 | `../pages/0006.md` | `partial` | none visible | bleed-through/verso-like page; no intended edition text clearly visible |
+| 7 | `../pages/0007.md` | `needs-review` | none visible | `பதிப்புரை`; heading/signature/date captured, body unresolved |
+| 8 | `../pages/0008.md` | `partial` | none visible | bleed-through/verso-like page before first poem witness |
+| 9–84 | — | `not-started` | — | continue in physical order |
 
-Phase 1 transcription coverage: **4/84**. Exact next scan: **5**. No page is `verified`; Phase 2 has not begun.
+Phase 1 transcription coverage: **8/84**. Exact next scan: **9**. No page is `verified`; Phase 2 has not begun.
