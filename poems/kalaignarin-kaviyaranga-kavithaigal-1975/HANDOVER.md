@@ -2,34 +2,25 @@
 
 Repository: `pugazg/kalaignar-poems`, branch `main`. Live `main` is authoritative.
 
-## Active source
+## Controlling source
 
-`TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf`
+`TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
 
-- 84 scans;
-- 93,307,011 bytes;
-- SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`;
-- first edition 1975.
-
-## User-directed policy: NEW-ITEM-ONLY
+## User-directed NEW-ITEM-ONLY policy
 
 Do not retranscribe already represented poems. Skip scans **9–20, 21–32, 33–45, 71–77, 78–84**. Earlier page records 9–32 remain archival cross-witnesses. Scans 69–70 are Bharathidasan material.
 
 ## Corrected active Kalaignar items
 
-1. scans **46–57** — `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` — **Phase 1 first pass complete: 12/12 needs-review**;
-2. scans **58–65** — `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` — **Phase 1 first pass complete: 8/8 needs-review**;
-3. intake ID 03 / scan **66**, `சாராய சுதந்திரம்` — **NON-KALAIGNAR**; source explicitly says `சக்கரவர்த்தி—இராசகோபாலாச்சாரி—எழுதியது.`;
-4. scans **67–68** — `முதல்வர் கலைஞரின் பதில் கவிதை` — **NEXT genuine Kalaignar block**.
+1. scans **46–57** — Item 01 — **Phase 1 complete: 12/12 `needs-review`**;
+2. scans **58–65** — Item 02 — **Phase 1 complete: 8/8 `needs-review`**;
+3. scan **66**, `சாராய சுதந்திரம்` — **NON-KALAIGNAR Rajaji source/context**;
+4. scans **67–68**, `முதல்வர் கலைஞரின் பதில் கவிதை` — Item 04 — **Phase 1 complete: 2/2 `partial`**.
 
-Corrected Kalaignar production target: **22 scans**. Current Phase-1 coverage: **20/22**.
+Active Kalaignar Phase-1 coverage: **22/22 COMPLETE**. Verified pages: **0**.
 
-`pages/0066.md` preserves the Rajaji poem and its bracketed note only as publication/source context. It must not enter Kalaignar canonical assembly.
-
-## Historical-glyph control
-
-Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `HISTORICAL_GLYPH_AUDIT.md`. Source pixels control character identity; do not modernize wording or global-replace.
+Scans 67–68 were transcribed from enlarged source renders. Historical `ணா` in `அண்ணா` / `பெரியார் அண்ணா` was resolved using same-edition evidence and the user-supplied historical-glyph guide. No source wording was modernized.
 
 ## Exact next activity
 
-Process **scans 67–68 only**, the Kalaignar response / `முதல்வர் கலைஞரின் பதில் கவிதை`, at Phase 1. Do not begin Phase 2, Phase 3 or translation in the same activity.
+Begin **Phase 2 independent source-critical verification at Item 01 scan 46** and proceed in physical order across scans **46–57, 58–65, 67–68** only. Recheck every line and historical-glyph decision against the controlling source. Correct only source-backed differences; promote to `verified` only after actual independent visual clearance. Do not begin Phase 3 or translation.
