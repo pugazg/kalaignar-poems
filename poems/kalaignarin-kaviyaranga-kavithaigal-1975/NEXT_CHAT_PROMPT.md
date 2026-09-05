@@ -20,19 +20,22 @@ Determine character identity from source pixels first, then encode that identity
 
 ## Durable Phase 1 checkpoint
 
-- page records: **12/84**;
-- `partial`: scans **1, 2, 6, 8–12**;
-- `needs-review`: scans **3, 4, 5, 7**;
-- historical-glyph first-pass: scans **9–12 complete**;
+- page records: **20/84**;
+- `partial`: **15**;
+- `needs-review`: **5** — scans 3, 4, 5, 7, 18;
+- historical-glyph first-pass: scans **9–20 complete**;
+- Anna 1975 cross-witness scans **9–20: 12/12 Phase-1 page records complete**;
+- unresolved historical-glyph identities in the Anna block: **0**;
+- separate ordinary unresolved source reading: **scan 18**, one short right-aligned word after `இனிமேலே எனப்`;
 - verified: **0**;
-- exact next physical scan: **13**.
+- exact next physical scan: **21**.
 
-Scans 9–12 are the 1975 Anna memorial cross-witness; the release-cleared Anna poem remains unchanged. Representative glyph checks include `அண்ணா` (`ணா`), `அன்னை` (`னை`), `நினைவுண்டா` (`னை`) and `மாற்றான்` (`றா`).
+The release-cleared Anna poem remains unchanged. The 1975 cross-witness was preserved independently; later witnesses were not allowed to fill scan-18's unresolved word or insert wording absent from this edition.
 
 The SHA-256 remains an explicit metadata issue because all available exact-byte execution paths remain unavailable. Reattempt it when possible, but do not invent a checksum.
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 13 in physical order**, completing the Anna cross-witness through scan 20. Create one page record per scan, preserve the 1975 wording, punctuation, lineation and page roles exactly, and apply the historical-glyph screen to each page. Do **not** reopen or modify the existing canonical Anna poem merely because this edition differs.
+Continue **Phase 1 transcription only from scan 21 in physical order**. Scans **21–32** are the already represented **14.11.1970 Nehru kaviyarangam cross-witness**. Create one page record per scan, preserve the 1975 wording, punctuation, lineation and printed numerals, and apply the historical-glyph screen to every Tamil page. Do **not** reopen or modify existing canonical Nehru material merely because this edition differs.
 
 Keep all cross-witness and Bharathidasan classifications explicit. Do not begin Phase 2, Phase 3 or translation.
