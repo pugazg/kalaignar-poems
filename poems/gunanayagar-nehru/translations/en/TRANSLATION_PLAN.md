@@ -1,40 +1,36 @@
 # English Translation Plan — குணநாயகர் நேரு
 
-## Status
+## Final status
 
-**T0 COMPLETE / T1 COMPLETE / T2 REVIEWED PASS / T3 EDITORIAL PASS / T4 NEXT.**
+**T0 + T1 + T2 + T3 + T4 COMPLETE — PHASE 4 RELEASE-CLEARED.**
 
-Primary source: final-cleared Tamil `../../sections/01.md`, blob `56ec1cf593d20c69f50a7b4bb7b69529bcc413e6`. Tamil checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`.
+Primary authority remains final-cleared Tamil `../../sections/01.md`, blob `56ec1cf593d20c69f50a7b4bb7b69529bcc413e6`; Tamil checkpoint `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`.
 
-## Locked reviewed controls
+Reviewed English section: `sections/01.md`, blob `499f9ebf05d78df10143cd6161ebf0f8501750cc`.  
+Reader-facing assembly: `gunanayagar-nehru-en.md`, blob `c11b7d11ed3be642cca734b0bdcb16ae1f5b1c0e`.
 
-- English title: **Nehru, the Noble Leader**;
+## Locked controls
+
+- title: **Nehru, the Noble Leader**;
 - `முதல்வர் கலைஞர்` → **Chief Minister Kalaignar**;
-- `மல்லிகை` → Jasmine; `செண்பகம்` → Champak; `சாமந்தி` → Samanthi; `முல்லை` → Mullai; `ரோஜா` → Rose;
+- Jasmine / Champak / Samanthi / Mullai / Rose remain distinct;
 - `கர்த்தபம்` → donkey;
 - `நேரு மாமா` → Uncle Nehru;
 - *Kalingattu Parani* remains traceable;
-- `யாதும் ஊரே யாவரும் கேளிர்` and the Puduvai-poet stanza remain visibly quoted;
-- democracy / autocracy / rule of money / Noble Leader sequence remains structurally visible;
-- Tamil `நேர்` / `நேரு` sound-play is represented semantically without invented English rhyme;
-- `காலக் குரங்கின் கை ‘மாலை’` is the monkey-hand/garland image, **not** `evening`.
+- both quotation layers remain visibly distinct;
+- `நேர்` / `நேரு` sound-play is represented semantically without invented English rhyme;
+- `காலக் குரங்கின் கை ‘மாலை’` remains the monkey-hand / garland image;
+- democracy / autocracy / rule of money / Noble Leader remains structurally visible.
 
-## Historical witness policy / result
+Historical scans **8–9**, **BEAUTY ROSE WEPT**, `Translation: Dr. Krishna Srinivas`, remain secondary witness evidence only. Deliberate witness-driven wording adoptions: **0**.
 
-Scans **8–9**, **BEAUTY ROSE WEPT**, `Translation: Dr. Krishna Srinivas`, remain a secondary historical witness only. T2 comparison is complete. The witness is selective/condensed and contains several divergences from Tamil; deliberate witness-driven wording adoptions are **0**.
+## Closure
 
-## Reader-facing assembly
+- T0: PASS;
+- T1: COMPLETE;
+- T2: REVIEWED PASS, unresolved translation issues **0**;
+- T3: EDITORIAL PASS, unresolved T3 issues **0**;
+- T4: RELEASE-INTEGRITY PASS, unresolved release issues **0**;
+- Tamil drift during Phase 4: **0**.
 
-T3 assembled the reviewed English section into `gunanayagar-nehru-en.md`, blob `c11b7d11ed3be642cca734b0bdcb16ae1f5b1c0e`. `EDITORIAL_CONSISTENCY_REVIEW.md` is **PASS**: scans **3–7 = 5/5 exactly once**, missing / duplicate markers **0 / 0**, title/byline/term/quotation/voice consistency PASS, unresolved T3 issues **0**.
-
-## Sequence
-
-- T0 setup/source map: **PASS**;
-- T1 independent English draft: **COMPLETE**;
-- T2 source/fidelity review + historical-witness comparison: **REVIEWED PASS**, unresolved English issues **0**;
-- T3 reader-facing assembly/editorial consistency: **PASS**, unresolved T3 issues **0**;
-- T4 final source-coverage / release-integrity review: **NEXT**.
-
-## Exact next activity
-
-Complete **T4 only**. Perform the final independent source-coverage/release-integrity review and grant RELEASE-CLEARED status only if every release check passes with unresolved release issues **0** and no Tamil drift.
+No further Phase-4 production activity is pending.

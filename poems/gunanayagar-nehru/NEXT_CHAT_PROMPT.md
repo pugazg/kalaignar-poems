@@ -1,20 +1,20 @@
-# Next Chat Prompt — குணநாயகர் நேரு — Phase 4 T4
+# Next Chat Prompt — குணநாயகர் நேரு — RELEASE-CLEARED
 
-Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems/gunanayagar-nehru/`.
+Continue in `pugazg/kalaignar-poems`, branch `main`, only if this work genuinely needs to be revisited.
 
-Fetch live `main` first. Read all root/work control docs, all six Phase-3 records, and complete Phase-4 controls/records under `translations/en/`, especially `T2_REVIEW.md`, `EDITORIAL_CONSISTENCY_REVIEW.md`, reviewed `batches/BATCH_01.md`, reviewed `sections/01.md`, `SOURCE_MAP.md`, and reader-facing `gunanayagar-nehru-en.md`.
+## LIVE MAIN IS AUTHORITATIVE
 
-Current state: **Tamil FINAL-CLEARED / T0 PASS / T1 COMPLETE / T2 REVIEWED PASS / T3 EDITORIAL PASS / T4 NEXT**. Reviewed English title: **Nehru, the Noble Leader**. Reader-facing assembly `translations/en/gunanayagar-nehru-en.md` has blob `c11b7d11ed3be642cca734b0bdcb16ae1f5b1c0e` and covers scans **3–7 exactly once**. T3 unresolved issues **0**. Historical source-English witness comparison is complete with deliberate wording adoptions **0**. Tamil Phase-4 drift: **0**.
+Fetch live `main` first and preserve newer durable state.
 
-## EXACT NEXT ACTIVITY
+Current durable state: **PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 COMPLETE — RELEASE-CLEARED**.
 
-Perform **Phase 4 T4 — final source-coverage / release-integrity review only**.
+- source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf`, 10 scans, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`;
+- Tamil checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`;
+- Tamil pages **10/10 verified**; canonical scans **3–7 exactly once**;
+- reviewed English section: `translations/en/sections/01.md`, blob `499f9ebf05d78df10143cd6161ebf0f8501750cc`;
+- reader-facing English: `translations/en/gunanayagar-nehru-en.md`, blob `c11b7d11ed3be642cca734b0bdcb16ae1f5b1c0e`;
+- release authority: `translations/en/RELEASE_REPORT.md`;
+- unresolved Tamil/source/English/release issues: **0**;
+- Tamil drift during Phase 4: **0**.
 
-1. Independently compare the reader-facing assembly with reviewed `translations/en/sections/01.md`, `SOURCE_MAP.md`, T2 and T3 records.
-2. Verify canonical scan markers **3,4,5,6,7 each exactly once**, missing / duplicates **0 / 0**, and certified **6→7** continuity.
-3. Verify exclusions: scans **1–2, 8–9, 10** outside translated verse; scan-7 performance note absent; `BEAUTY ROSE WEPT`, Dr. Krishna Srinivas credit and witness-only `Maha Meru` absent from reader-facing translation body/title.
-4. Reconfirm title **Nehru, the Noble Leader**, byline **Chief Minister Kalaignar**, flower-name locks, donkey, Uncle Nehru, *Kalingattu Parani*, quotation separation and democracy/autocracy/money-rule/Noble-Leader continuity.
-5. Compare live `main` against Tamil checkpoint `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962` and require **0 changed files** under `poems/gunanayagar-nehru/pages/` and final-cleared Tamil `sections/`.
-6. Create `translations/en/RELEASE_REPORT.md`. Grant **PHASE 4 COMPLETE — RELEASE-CLEARED** only if unresolved release issues are **0**.
-
-Do not modify preserved RELEASE-CLEARED works.
+There is **no pending production activity**. Do not reopen or alter Tamil or English merely for stylistic preference. Any future change must be supported by genuine source evidence and recorded through the repository reopening/audit policy.

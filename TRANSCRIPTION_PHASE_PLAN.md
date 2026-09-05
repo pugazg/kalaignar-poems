@@ -1,6 +1,6 @@
 # Transcription / Translation Phase Plan — Kalaignar Poems Archive
 
-## Active source — குணநாயகர் நேரு
+## Latest completed source — குணநாயகர் நேரு
 
 Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
@@ -15,26 +15,14 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Phase 4 — English translation and release
 
-### T0 — setup / source map
+- T0 setup / source map: **PASS**;
+- T1 independent English draft: **COMPLETE**;
+- T2 source/fidelity review + historical-witness comparison: **REVIEWED PASS**;
+- T3 reader-facing assembly / editorial consistency: **PASS**;
+- T4 final source-coverage / release-integrity: **PASS**;
+- unresolved English / release issues: **0**;
+- Tamil drift: **0**.
 
-**COMPLETE / PASS.** Final-cleared Tamil is primary. Source-English scans 8–9 are secondary historical witness only.
+**PHASE 4 COMPLETE — RELEASE-CLEARED.**
 
-### T1 — Batch 01 independent English draft
-
-**COMPLETE.** Independent draft created from Tamil only.
-
-### T2 — source/fidelity review + historical-witness comparison
-
-**COMPLETE / REVIEWED PASS.** Reviewed English section `translations/en/sections/01.md` covers scans **3–7 exactly once**. Historical Dr. Krishna Srinivas witness comparison is complete; deliberate wording adoptions **0**; unresolved English translation issues **0**.
-
-### T3 — reader-facing assembly / editorial consistency
-
-**COMPLETE / PASS.** Reader-facing assembly `translations/en/gunanayagar-nehru-en.md` covers scans **3–7 exactly once**; `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` PASS; missing / duplicate markers **0 / 0**; unresolved T3 issues **0**.
-
-### T4 — final source-coverage / release-integrity review
-
-**NEXT.** Independently certify source coverage, exclusions, reviewed-English synchronization, title/byline/quotation integrity, witness isolation and Tamil protection. RELEASE-CLEARED requires unresolved release issues **0**.
-
-## Exact next activity
-
-Complete **Phase 4 T4 only**.
+No further phase is pending for this work. Await the next supplied source/publication.
