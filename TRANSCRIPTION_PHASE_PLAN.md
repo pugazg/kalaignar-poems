@@ -12,15 +12,24 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 - new Kalaignar item blocks: **4/4 onboarded** — scans **46–57, 58–65, 66, 67–68**;
 - existing Kalaignar cross-witness blocks: **5**;
 - non-Kalaignar Bharathidasan insert: scans **69–70**;
-- exact SHA-256 source pin: **PENDING**.
+- exact SHA-256 source pin: **PENDING — one explicit metadata defect**.
+
+The same exact supplied attachment has been re-resolved and its known size still matches the intake record. Current runtime hashing was unavailable, so no checksum has been invented.
 
 ## Phase 1 — transcription only
 
-**NOT STARTED.** Begin only after exact SHA-256 is pinned. Create one page record per physical scan in source order. Newly transcribed pages are normally `partial`; do not conflate transcription with verification.
+**IN PROGRESS — 4/84 page records.**
+
+- scans 1–2: `partial`;
+- scans 3–4: `needs-review`;
+- verified: **0**;
+- exact next physical scan: **5**.
+
+Continue in physical order. Newly transcribed pages are normally `partial`; unresolved source readings remain `needs-review`. Phase 1 must not be conflated with verification. Exact-source identity and Phase 1 completion cannot be marked final until SHA-256 is pinned.
 
 ## Phase 2 — independent source-critical verification
 
-**BLOCKED by Phase 1.**
+**BLOCKED by incomplete Phase 1.**
 
 ## Phase 3 — structural gates / canonical Tamil
 
@@ -30,6 +39,10 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 **BLOCKED until Tamil final clearance.**
 
+## Exact next activity
+
+Continue **Phase 1 from scan 5**. Reattempt exact SHA-256 calculation when a functioning exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or Phase 4.
+
 ## Preserved completed works
 
-`poems/gunanayagar-nehru/`, `poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain release-cleared and are outside this active intake.
+`poems/gunanayagar-nehru/`, `poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain release-cleared and are outside this active source workflow.
