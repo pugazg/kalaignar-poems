@@ -12,7 +12,7 @@
 - compiler/editor visible on title page: **ஆசிரியர் அ. முத்து**;
 - source PDF: **not committed**.
 
-The exact supplied attachment was re-resolved before Phase 1 work. Its known size matches the onboarded source identity. A functioning local hashing path was not available in the current runtime, so checksum pinning remains an explicit metadata defect rather than being guessed.
+The exact supplied attachment remains controlling and its known size matches the onboarded source identity. A functioning exact-byte hashing path remains unavailable in the current runtime, so checksum pinning stays an explicit metadata defect rather than being guessed.
 
 ## Intake decision
 
@@ -50,11 +50,12 @@ Scans **69–70** are visibly attributed to **பாவேந்தர் பா
 - publication inventory: **84/84 visually classified**;
 - new Kalaignar items onboarded: **4/4**;
 - exact SHA-256 pin: **PENDING — 1 unresolved metadata issue**;
-- Phase 1 page-record transcription: **IN PROGRESS — 4/84**;
-- current statuses: **2 partial / 2 needs-review / 0 verified**;
-- next physical scan: **5**;
+- Phase 1 page-record transcription: **IN PROGRESS — 8/84**;
+- current statuses: **4 partial / 4 needs-review / 0 verified**;
+- next physical scan: **9**;
+- scans 1–8 publication preliminaries now have page records;
 - Phase 2 verification: **BLOCKED by incomplete Phase 1**;
 - Phase 3 canonical assembly: **BLOCKED**;
 - Phase 4 translation: **BLOCKED**.
 
-Phase 1 may continue against the same re-resolved supplied attachment, but neither exact-source identity nor Phase 1 completion may be claimed until the checksum issue is resolved.
+Phase 1 may continue against the same supplied attachment, but neither exact-source identity nor Phase 1 completion may be claimed until the checksum issue is resolved.
