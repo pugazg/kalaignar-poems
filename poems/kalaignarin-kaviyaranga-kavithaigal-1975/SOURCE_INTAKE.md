@@ -20,9 +20,11 @@ A full visual inventory of all 84 scans found four Kalaignar poem/event blocks n
 
 ## Historical-glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is now used as a verification aid for this 1975 source. The work-level record is `HISTORICAL_GLYPH_AUDIT.md`.
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is used as a verification aid for this 1975 source. The work-level record is `HISTORICAL_GLYPH_AUDIT.md`.
 
 Historical typeforms are decoded by character identity and then encoded in modern Unicode; source spelling, grammar, punctuation and vocabulary are otherwise preserved. The full known set `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` is screened page by page. This does not collapse Phase 1 into Phase 2 verification.
+
+Historical-glyph first-pass coverage now extends through the complete Anna 1975 cross-witness, scans **9–20**. Historical-family unresolved identities there: **0**. A separate ordinary source-reading issue remains on scan **18** and is intentionally not filled from another edition.
 
 ## New-item inventory
 
@@ -37,13 +39,13 @@ These labels are source-intake identifiers only. Phase 3 title-witness reconcili
 
 ## Duplicate/cross-witness inventory
 
-| Scans | Source block | Existing repository authority |
-|---:|---|---|
-| 9–20 | Anna memorial / `எம் அண்ணா – இதய மன்னா!` witness | `poems/idhayathai-thanthidu-anna/`; `poems/kalaignarin-kavithaigal/sections/01.md` |
-| 21–32 | 14.11.1970 Nehru kaviyarangam | `poems/kalaignarin-kavithaigal/sections/19.md`; separate later standalone Nehru witness |
-| 33–45 | `வாழ்வெனும் பாதையில்` | `poems/kalaignarin-kavithaigal/sections/17.md` |
-| 71–77 | `விடுதலை வீரர்கள்` | `poems/kalaignarin-kavithaigal/sections/06.md` |
-| 78–84 | `தந்தை பெரியார்` | `poems/kalaignarin-kavithaigal/sections/26.md` |
+| Scans | Source block | Existing repository authority | Current 1975 Phase-1 state |
+|---:|---|---|---|
+| 9–20 | Anna memorial / `எம் அண்ணா – இதய மன்னா!` witness | `poems/idhayathai-thanthidu-anna/`; `poems/kalaignarin-kavithaigal/sections/01.md` | **12/12 page records complete; cross-witness only** |
+| 21–32 | 14.11.1970 Nehru kaviyarangam | `poems/kalaignarin-kavithaigal/sections/19.md`; separate later standalone Nehru witness | next |
+| 33–45 | `வாழ்வெனும் பாதையில்` | `poems/kalaignarin-kavithaigal/sections/17.md` | not started |
+| 71–77 | `விடுதலை வீரர்கள்` | `poems/kalaignarin-kavithaigal/sections/06.md` | not started |
+| 78–84 | `தந்தை பெரியார்` | `poems/kalaignarin-kavithaigal/sections/26.md` | not started |
 
 No release-cleared work is reopened by this source workflow.
 
@@ -56,10 +58,11 @@ Scans **69–70** are visibly attributed to **பாவேந்தர் பா
 - publication inventory: **84/84 visually classified**;
 - new Kalaignar items onboarded: **4/4**;
 - exact SHA-256 pin: **PENDING — 1 unresolved metadata issue**;
-- Phase 1 page-record transcription: **IN PROGRESS — 12/84**;
-- current statuses: **8 partial / 4 needs-review / 0 verified**;
-- historical-glyph first-pass: **scans 9–12 complete**;
-- next physical scan: **13**;
+- Phase 1 page-record transcription: **IN PROGRESS — 20/84**;
+- current statuses: **15 partial / 5 needs-review / 0 verified**;
+- historical-glyph first-pass: **scans 9–20 complete**;
+- Anna cross-witness scans 9–20: **Phase-1 first pass complete**;
+- next physical scan: **21**;
 - Phase 2 verification: **BLOCKED by incomplete Phase 1**;
 - Phase 3 canonical assembly: **BLOCKED**;
 - Phase 4 translation: **BLOCKED**.
