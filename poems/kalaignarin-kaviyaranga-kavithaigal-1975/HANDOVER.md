@@ -4,7 +4,7 @@ Repository: `pugazg/kalaignar-poems`, branch `main`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Preserve newer durable state. Do not modify release-cleared poem trees while processing this source unless genuine source evidence triggers an explicit reopening.
+Preserve newer durable state. Do not modify release-cleared poem trees merely because this anthology contains another edition witness.
 
 ## Active source
 
@@ -17,45 +17,47 @@ Preserve newer durable state. Do not modify release-cleared poem trees while pro
 - first edition **1975**;
 - compiler/editor witness **ஆசிரியர் அ. முத்து**.
 
-## Historical-glyph verification aid
+## User-directed policy: NEW-ITEM-ONLY
 
-Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` together with `HISTORICAL_GLYPH_AUDIT.md`.
+Do **not** retranscribe poems already represented in the repository.
 
-Mandatory screen: `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. Read character identity from source pixels, encode that identity in modern Unicode, and do not modernize surrounding source wording. A glyph pass does not make a page `verified`.
+Skip further transcription for:
 
-## Onboarding result
+- 9–20 Anna;
+- 21–32 Nehru;
+- 33–45 `வாழ்வெனும் பாதையில்`;
+- 71–77 `விடுதலை வீரர்கள்`;
+- 78–84 `தந்தை பெரியார்`.
 
-Four new Kalaignar blocks remain active:
+Earlier page records for scans 9–32 remain as archival cross-witnesses; do not delete them. Scans 69–70 are Bharathidasan material and are classification-only, not Kalaignar production work.
 
-1. scans 46–57 — `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை`;
-2. scans 58–65 — `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
-3. scan 66 — `சாராய சுதந்திரம்`;
-4. scans 67–68 — `முதல்வர் கலைஞரின் பதில் கவிதை`.
+## Four active new items
 
-Five other Kalaignar blocks are existing cross-witnesses and must not be duplicated canonically: scans 9–20, 21–32, 33–45, 71–77 and 78–84. Scans 69–70 are a Bharathidasan insert.
+1. scans **46–57** — `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை`;
+2. scans **58–65** — `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
+3. scan **66** — `சாராய சுதந்திரம்`;
+4. scans **67–68** — `முதல்வர் கலைஞரின் பதில் கவிதை`.
 
-## Phase 1 checkpoint
+Total new-item target scans: **23**.
 
-**IN PROGRESS — 32/84 page records.**
+## Historical-glyph control
 
-- `partial`: **22**;
-- `needs-review`: **10**;
-- verified: **0**;
-- historical-glyph first-pass: scans **9–32 complete**;
-- Anna cross-witness: scans **9–20 = 12/12 complete at Phase 1**;
-- Nehru cross-witness: scans **21–32 = 12/12 complete at Phase 1**;
-- historical-glyph unresolved identities across scans 9–32: **0**;
-- ordinary unresolved Nehru page records: scans **25, 26, 28, 29 and 31**;
-- existing release-cleared Anna/Nehru poem changes: **0**;
-- exact next physical scan: **33**.
+Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `HISTORICAL_GLYPH_AUDIT.md` for every new Tamil page. Required family screen:
 
-The source SHA-256 remains pending. Exact-byte hashing was reattempted during the latest batch and the execution path again failed. Keep this as an explicit metadata defect; do not invent a checksum.
+`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
+
+Read character identity from scan pixels and encode normal Unicode without modernizing surrounding source wording. No global replacement. Historical-glyph screening is not Phase-2 verification.
+
+## Current Phase-1 checkpoint
+
+**NEW-ITEM TARGET COVERAGE: 1/23.**
+
+- Item 01 scan **46** → `pages/0046.md` → `needs-review`;
+- clearly legible source heading/date/location and selected opening fragments captured;
+- dense intervening text remains unresolved rather than guessed;
+- exact next scan: **47**;
+- existing release-cleared poem changes: **0**.
 
 ## Exact next activity
 
-1. Continue **Phase 1 transcription only from scan 33 through scan 45**, in physical order.
-2. Scans **33–45** are the 1975 `வாழ்வெனும் பாதையில்` cross-witness; preserve this edition faithfully while keeping it cross-witness-only.
-3. Apply the historical-glyph guide to every Tamil page and record difficult families explicitly.
-4. Do not create or modify a duplicate canonical `வாழ்வெனும் பாதையில்` poem.
-5. Reattempt exact SHA-256 pinning only when a functioning exact-byte hashing path becomes available.
-6. Do not begin Phase 2, Phase 3 or translation.
+Continue **NEW ITEM 01 Phase 1 at scan 47**, proceeding only through its source range 47–57. Apply the historical-glyph guide page by page. Do not return to scan 33 or any other duplicate block. Do not begin Phase 2, Phase 3 or translation.
