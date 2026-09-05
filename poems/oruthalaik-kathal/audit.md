@@ -2,57 +2,57 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 PASS — TAMIL FINAL-CLEARED / PHASE 4 BATCHES 01–06 REVIEWED PASS**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 PASS — TAMIL FINAL-CLEARED / PHASE 4 BATCHES 01–06 REVIEWED PASS / FULL-ENGLISH ASSEMBLY + EDITORIAL REVIEW PASS / FINAL RELEASE GATE NEXT**
 
 - physical scans: **101/101 accounted**;
 - verified page records: **101/101**;
 - canonical Tamil sections: **11/11**;
-- main-work canonical scan coverage: **95/95 exactly once**;
-- unresolved Tamil/source issues: **0**.
+- Tamil main-work canonical coverage: **95/95 exactly once**;
+- unresolved Tamil/source issues: **0**;
+- reviewed English batches: **6/6**;
+- reviewed English sections: **11/11**;
+- English main-work source coverage: **95/95 = 84 text-bearing + 11 illustration-only**;
+- unresolved English batch/alignment issues: **0**.
 
 ## Tamil closure
 
-Phase 3 Gates 1–6 all PASS. Gate 5's source-backed non-lexical scan-82 three-diamond close remains restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**.
+Phase 3 Gates 1–6 all PASS. Gate 5's source-backed non-lexical scan-82 three-diamond close remains restored in `pages/0082.md` and `sections/09.md`; lexical changes **0**. Tamil final-clearance checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
 
-## Phase 4 T0
+## Phase 4 translation batches
 
-**COMPLETE / PASS.** English setup/source mapping files created and all 11 canonical Tamil section blob SHAs frozen in `translations/en/SOURCE_MAP.md`. Tamil changes: **0**.
+T0 and Batches 01–06 are **COMPLETE / REVIEWED PASS**. English title: **One-Sided Love**. Governing batch records remain `translations/en/batches/BATCH_01.md` … `BATCH_06.md`; reviewed standalone sections remain `translations/en/sections/01.md` … `11.md`.
 
-## Phase 4 Batches 01–05
+## Post-batch full-English assembly / editorial-consistency review
 
-All **COMPLETE / REVIEWED PASS**. Sections **01–09**, scans **6–82 = 77/77**, with illustration scans **8,16,22,32,40,48,58,66,76** structurally represented and section closes through scan **82** retained. Unresolved alignment issues **0**.
+**COMPLETE / PASS.** Governing record: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-## Phase 4 Batch 06
+Reader-facing assembly:
 
-**COMPLETE / REVIEWED PASS.** Governing record: `translations/en/batches/BATCH_06.md`.
+- file: `translations/en/oruthalaik-kathal-en.md`;
+- size: **89,457 bytes**;
+- line count: **3,004**;
+- Git blob: `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- source sections: **11/11 in order**;
+- scan markers: **6–100 = 95/95 exactly once**;
+- composition: **84 text-bearing + 11 illustration-only**;
+- front/back exclusions: scans **1–5, 101**;
+- illustration scans **8,16,22,32,40,48,58,66,76,84,94** retained as neutral markers;
+- numbered-section closes **13,20,30,38,45,55,63,73,82,92** retained;
+- internal separators including scans **7,87,90** remain internal;
+- classical quotations, attributions and **Source explanation** layers remain distinct;
+- final scan-100 structure retains *Akananuru* 252 → Source explanation → **(The End)** → final diamonds;
+- unresolved full-work assembly/editorial issues: **0**.
 
-- Tamil sections translated/reviewed: **10–11 = 2/2**;
-- physical source scans represented: **83–100 = 18/18**;
-- text-bearing scans: **16/16**;
-- illustration-only scans: **84,94 = 2/2**, neutral structural markers only;
-- internal/section/final structural witnesses retained: scan **87** internal diamonds; scan **90** internal diamonds; scan **92** section close; scan **100** `(முற்றும்)` represented as **(The End)** plus final diamonds;
-- English outputs: `translations/en/sections/10.md`, `sections/11.md`;
-- scan-85 `தமிழ் எழுதிப்பிழைக்க` / `நினைவூட்டுகின்றேன்` translated contextually without Tamil change;
-- scan-86 source `திரும்பட்டு` left untouched in Tamil, English contextual **turn back** documented in Batch 06;
-- scan-88 `ஓடிவந்தீர்` preserved through the flee/run sense;
-- scan-92 `ஊழித்தீயெனப்` rendered **fire of cosmic destruction** without source emendation;
-- scan-93 `அனிச்சமலர் தேகத்தை` / `காளைகளைச்` retained as **anicham-flower body** / **bulls** imagery;
-- scan-97 `உனைக் கொல்வதுபோல்` retained as Nakkannai pretending as though killing Aiyai;
-- scan-98 `கூர்கொண்ட` / `என் அறியாமை` retained as **sharpened** / **my ignorance**;
-- scan-99 `கரும்பாய் முத்தம்` retained as **kisses, sweet as sugarcane**;
-- scan-100 source `தொழில்மழை` retained without normalization and translated from the source-provided explanation;
-- *Akananuru* 226 and 252 kept distinct from surrounding narrative/simple-language renderings and retain their own attributions/Source explanations;
-- recurring **war-sword / flower-petal** lock retained through the death scene;
-- unresolved English/Tamil alignment issues: **0**;
-- Tamil `pages/` changes: **0**;
-- Tamil `sections/` changes: **0**.
+One English-only consistency discrepancy was found and corrected: section 3 scan 21 `karantai battle` → **Karantai battle**, matching the established Phase-4 term lock. `translations/en/sections/03.md` and the assembly are synchronized. Tamil `pages/` / `sections/` changes from this correction: **0**.
 
-## Translation-batch closure
+## Tamil-source protection
 
-All source-scoped translation batches are **COMPLETE / REVIEWED PASS**: **6/6 batches**, **11/11 English sections**, **95/95 main-work scans**, cumulative composition **84 text-bearing + 11 illustration-only scans**. Unresolved reviewed translation issues: **0**. Tamil changes during Phase 4: **0**.
+Post-batch assembly/editorial work changed **0** files under `poems/oruthalaik-kathal/pages/` and `poems/oruthalaik-kathal/sections/`. English editorial preference does not authorize reopening Tamil.
 
-The work is **not yet release-cleared** because the post-batch full-English assembly/editorial-consistency review has not yet been performed.
+## Release boundary
+
+The full-English assembly/editorial gate has passed, but the work is **not yet RELEASE-CLEARED**. The final source-coverage / release-integrity gate remains.
 
 ## Exact next activity
 
-**Post-batch full-English assembly and editorial-consistency review.** Assemble English sections **01–11** in source order and certify complete source-scan provenance, no omitted/duplicated structural transitions, title/name/term/refrain consistency, speaker flow, Sangam quotation/attribution versus Source-explanation structure, illustration markers, section closes and final closure. Prepare the durable assembly/review record before any release-clearance decision.
+Perform the **Phase 4 final source-coverage / release-integrity gate**. Reconcile all 6 reviewed batches, all 11 standalone reviewed English sections, the reader-facing assembly and `EDITORIAL_CONSISTENCY_REVIEW.md`; certify scan coverage/exclusions/structural witnesses, reader-facing cleanliness and the section-3 consistency correction; compare from Tamil final-clearance checkpoint `0c6b3d19625a9478441f0f654584d8343163ba37` and require **0 changed active Tamil page/canonical files**. Create `translations/en/RELEASE_REPORT.md`. Grant **RELEASE-CLEARED** only if every check passes with unresolved release issues **0**.

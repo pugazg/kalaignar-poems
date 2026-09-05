@@ -4,17 +4,19 @@ Phase 4 workspace for the English translation of Kalaignar M. Karunanidhi's **�
 
 ## Status
 
-**PHASE 4 IN PROGRESS — T0 COMPLETE / PASS; Batches 01–06 COMPLETE / REVIEWED PASS.**
+**PHASE 4 IN PROGRESS — translation batches COMPLETE / REVIEWED PASS; full-English assembly/editorial-consistency review COMPLETE / PASS; final source-coverage/release gate NEXT.**
 
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - translation batches: **6/6 complete**;
-- translated/reviewed sections: **11/11**;
+- translated/reviewed standalone sections: **11/11**;
 - translated source coverage: **95/95 main-work scans**;
 - reviewed source composition: **84 text-bearing + 11 illustration-only scans**;
-- unresolved reviewed translation issues: **0**;
+- reader-facing assembly: `oruthalaik-kathal-en.md` — **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- `EDITORIAL_CONSISTENCY_REVIEW.md`: **COMPLETE / PASS**;
+- unresolved English batch/alignment/assembly/editorial issues: **0**;
 - Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
-The source-scoped translation-batch layer is complete. The work is **not yet release-cleared**; post-batch full-English assembly/editorial-consistency review remains.
+The work is **not yet RELEASE-CLEARED**.
 
 ## English title
 
@@ -26,7 +28,7 @@ Normal working source: final-cleared Tamil canonical files `../../sections/01.md
 
 If a Tamil reading is questioned, authority order is controlling PDF scan → verified `../../pages/NNNN.md` record → final-cleared canonical `../../sections/NN.md` → Phase-3 records. English difficulty never authorizes a silent Tamil edit.
 
-## Batch inventory
+## Completed batch inventory
 
 | Batch | Tamil sections | Physical scans | Logical pages | Status |
 |---:|---:|---:|---:|---|
@@ -39,19 +41,28 @@ If a Tamil reading is questioned, authority order is controlling PDF scan → ve
 
 Total source scope: **95 scans = 84 text-bearing + 11 illustration-only**, all reviewed PASS.
 
-## Reviewed outputs
+## Full-work assembly and editorial review
 
-- Batch 01: `sections/01.md`, `sections/02.md`, `batches/BATCH_01.md`;
-- Batch 02: `sections/03.md`, `sections/04.md`, `batches/BATCH_02.md`;
-- Batch 03: `sections/05.md`, `sections/06.md`, `batches/BATCH_03.md`;
-- Batch 04: `sections/07.md`, `sections/08.md`, `batches/BATCH_04.md`;
-- Batch 05: `sections/09.md`, `batches/BATCH_05.md`;
-- Batch 06: `sections/10.md`, `sections/11.md`, `batches/BATCH_06.md`.
+`oruthalaik-kathal-en.md` assembles the reviewed section bodies in source order. Standalone YAML/control metadata is excluded; explicit Section 1–11 headings are reader-navigation labels. Scan-page provenance is preserved.
 
-All illustration-only scans **8,16,22,32,40,48,58,66,76,84,94** remain neutral structural markers. Section-closing witnesses are retained through scan **92**, and section 11 retains final `(The End)` plus diamonds corresponding to source `(முற்றும்)` / closing ornament.
+`EDITORIAL_CONSISTENCY_REVIEW.md` records **PASS** for:
 
-Recurring locks include **One-Sided Love**, **Source explanation**, source-traceable names, **war-sword / flower-petal**, **Karantai battle**, ***Natrinai***, ***Akananuru***, ***Kuruntokai***, source-distinct `பாணி` versus `ஆளி` / **yali**, **Palver Katti**, source-distinct **Uraiyur** / **Uranthai**, **Attani council hall**, and source-controlled **day-court** for `நாளவை` context. Batch 06 additionally records **fire of cosmic destruction** for scan-92 `ஊழித்தீ`, **anicham flower** for the named flower, and `(முற்றும்)` → **(The End)** structurally.
+- 11/11 source sections in order;
+- 95/95 scan markers exactly once;
+- all 11 neutral illustration markers;
+- all ten numbered-section closes plus internal source separators and final scan-100 closure;
+- recurring title/name/term/refrain continuity;
+- speaker/dialogue continuity;
+- classical quotation/attribution versus **Source explanation** structure;
+- source-visible rhetoric, satire, battle language and sensual imagery;
+- zero Tamil page/canonical changes.
+
+One English-only consistency correction was made during this review: section 3 `karantai battle` → **Karantai battle**. `sections/03.md` and the assembled work are synchronized.
+
+## Recurring locks
+
+Locks include **One-Sided Love**, **Source explanation**, **Kavarpentu**, **war-sword / flower-petal**, **Karantai battle**, ***Natrinai***, ***Akananuru***, ***Kuruntokai***, source-distinct `பாணி` versus `ஆளி` / **yali**, **Palver Katti**, source-distinct **Uraiyur** / **Uranthai**, **Attani council hall**, source-controlled **day-court**, **fire of cosmic destruction** for scan-92 context, **anicham flower**, and source `(முற்றும்)` → **(The End)** structurally.
 
 ## Exact next activity
 
-**Post-batch full-English assembly and editorial-consistency review.** Assemble reviewed English sections **01–11** in source order, certify complete scan provenance/structure and global editorial consistency, and create the durable assembly/review record. Do not mark release clearance until that review passes.
+Perform the **Phase 4 final source-coverage / release-integrity gate**. Reconcile all 6 batch records, 11 standalone English sections, `SOURCE_MAP.md`, `oruthalaik-kathal-en.md` and `EDITORIAL_CONSISTENCY_REVIEW.md`; verify **95/95** source coverage exactly once, exclusions **1–5 and 101**, structural witnesses, reader-facing cleanliness and **0 active Tamil page/canonical changes since final clearance**. Create `RELEASE_REPORT.md`. Mark RELEASE-CLEARED only after a PASS with unresolved release issues **0**.

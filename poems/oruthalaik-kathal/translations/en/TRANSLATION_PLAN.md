@@ -2,11 +2,9 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS. T0 COMPLETE / PASS. Batches 01–06 COMPLETE / REVIEWED PASS.**
+**PHASE 4 IN PROGRESS. Translation batches 01–06 COMPLETE / REVIEWED PASS. Full-English assembly/editorial-consistency review COMPLETE / PASS. Final source-coverage/release gate is NEXT.**
 
-Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches completed: **6/6**. Reviewed sections: **11/11**. Reviewed source coverage: **95/95 scans**.
-
-The batch-translation layer is complete. Post-batch full-English assembly/editorial-consistency review and release decision remain.
+Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches: **6/6**. Reviewed standalone English sections: **11/11**. Reviewed source coverage: **95/95 scans**.
 
 ## Objective
 
@@ -32,16 +30,16 @@ If a reading is questioned: controlling PDF scan → verified page record → fi
 10. Full-page illustration scans receive only neutral structural markers.
 11. Diamond ornaments and `(முற்றும்)` remain structurally represented.
 12. English title remains **One-Sided Love**.
-13. Recurring `போர்வாள் ... பூவிதழ்` contrast remains **war-sword / flower-petal** unless a documented source-driven reason requires variation.
+13. Recurring `போர்வாள் ... பூவிதழ்` remains **war-sword / flower-petal** unless a documented source-driven reason requires variation.
 
 ## Recurring locks
 
 - `ஒருதலைக் காதல்` → **One-Sided Love**;
 - `பொருள் விளக்கம்` → **Source explanation**;
-- `காவற்பெண்டு` → **Kavarpentu** as named/poetic identity;
-- `புறப்பாட்டு` → **puram poem/song** where literary category matters;
-- `போர்வாள்` → **war-sword / sword of war** according to grammar;
-- `பூவிதழ்` → **flower-petal** in the recurring contrast;
+- `காவற்பெண்டு` → **Kavarpentu**;
+- `புறப்பாட்டு` → **puram poem/song** where relevant;
+- `போர்வாள்` → **war-sword / sword of war**;
+- `பூவிதழ்` → **flower-petal**;
 - `கரந்தை` → **Karantai battle**;
 - `நற்றிணை` → ***Natrinai***;
 - `அகநானூறு` → ***Akananuru***;
@@ -51,51 +49,53 @@ If a reading is questioned: controlling PDF scan → verified page record → fi
 - `பல்வேற்கட்டி` → **Palver Katti**;
 - narrative `உறையூர்` → **Uraiyur**;
 - quotation-form `உறந்தை` → **Uranthai**;
-- `அத்தாணி மண்டபம்` → **Attani council hall / Attani hall** according to sentence context;
-- source `நாளவை` context → **day-court**, without Tamil normalization;
+- `அத்தாணி மண்டபம்` → **Attani council hall / Attani hall**;
+- source `நாளவை` context → **day-court**;
 - scan-92 `ஊழித்தீ` → **fire of cosmic destruction** in context;
 - named `அனிச்சமலர்` → **anicham flower**;
 - source `(முற்றும்)` → **(The End)** structurally, retaining final diamonds.
 
-Proper-name continuity includes **Nakkannai, Perunarkilli / Narkilli, Sattanthaiyar / Sattanthai, Tittan, Porkodi, Perungozhinaykan, Kavarpentu, Aiyai, Panan, Palver Katti**. Source-specific honorific forms are not silently normalized away.
+Proper-name continuity includes **Nakkannai, Perunarkilli / Narkilli, Sattanthaiyar / Sattanthai, Tittan, Porkodi, Perungozhinaykan, Kavarpentu, Aiyai, Panan, Palver Katti**. Source-driven form variation is not silently normalized.
 
 ## Output model
 
-- reviewed English section files: `sections/01.md` … `sections/11.md` — **11/11 complete**;
-- batch review records: `batches/BATCH_01.md` … `BATCH_06.md` — **6/6 PASS**;
-- next: full English assembly + editorial-consistency review;
-- after that review passes: release report / release-clearance decision.
-
-Every English section retains explicit Tamil-source mapping, including source section, source blob SHA and physical scan range.
+- reviewed English sections `sections/01.md` … `11.md`: **11/11 complete**;
+- batch records `batches/BATCH_01.md` … `BATCH_06.md`: **6/6 PASS**;
+- reader-facing full English `oruthalaik-kathal-en.md`: **complete**, **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- `EDITORIAL_CONSISTENCY_REVIEW.md`: **COMPLETE / PASS**;
+- `RELEASE_REPORT.md`: **not yet created — final release gate NEXT**.
 
 ## Batch boundaries
 
 | Batch | Sections | Physical scans | Logical pages | Text scans | Illustration scans | Status |
 |---:|---:|---:|---:|---:|---|---|
-| 01 | 01–02 | 6–20 | 1–15 | 13 | 8, 16 | **COMPLETE / REVIEWED PASS** |
-| 02 | 03–04 | 21–38 | 16–33 | 16 | 22, 32 | **COMPLETE / REVIEWED PASS** |
-| 03 | 05–06 | 39–55 | 34–50 | 15 | 40, 48 | **COMPLETE / REVIEWED PASS** |
-| 04 | 07–08 | 56–73 | 51–68 | 16 | 58, 66 | **COMPLETE / REVIEWED PASS** |
-| 05 | 09 | 74–82 | 69–77 | 8 | 76 | **COMPLETE / REVIEWED PASS** |
-| 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | **COMPLETE / REVIEWED PASS** |
+| 01 | 01–02 | 6–20 | 1–15 | 13 | 8, 16 | **PASS** |
+| 02 | 03–04 | 21–38 | 16–33 | 16 | 22, 32 | **PASS** |
+| 03 | 05–06 | 39–55 | 34–50 | 15 | 40, 48 | **PASS** |
+| 04 | 07–08 | 56–73 | 51–68 | 16 | 58, 66 | **PASS** |
+| 05 | 09 | 74–82 | 69–77 | 8 | 76 | **PASS** |
+| 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | **PASS** |
 
-Total translation-source coverage: **95/95 main-work scans = 84 text-bearing + 11 illustration-only**, reviewed PASS.
+Total: **95/95 = 84 text-bearing + 11 illustration-only**.
 
-## Batch closures
+## Post-batch gate
 
-Batches 01–05 retain their governing review records unchanged. Batch 06 (`batches/BATCH_06.md`) closes sections **10–11**, scans **83–100**, with 18/18 scans represented, illustration scans **84/94** neutral-only, scan-92 and scan-100 closing structures retained, *Akananuru* 226/252 kept source-distinct, final high-risk source forms preserved without Tamil edits, and unresolved issues **0**.
+**FULL-WORK ENGLISH ASSEMBLY / EDITORIAL / TERMINOLOGY / VOICE CONSISTENCY REVIEW: PASS.**
 
-## Post-batch workflow
+The assembled file represents all 11 source sections and all 95 main-work scans exactly once. All illustration markers, section closes, internal separators, quotations/attributions, Source explanations and final work closure are preserved. Unresolved English assembly/editorial issues: **0**.
 
-1. Assemble reviewed English sections **01–11** in source order without rewriting them silently.
-2. Verify **95/95** scan-provenance/structural markers with no omission or duplication.
-3. Audit global title, proper-name, recurring-term and refrain continuity.
-4. Audit speaker/dialogue flow and section-to-section continuity.
-5. Audit every Sangam quotation/attribution versus its surrounding narrative/simple-language and **Source explanation** layers.
-6. Audit all 11 illustration markers, ten numbered-section closes, internal separators and final **(The End)** / diamonds.
-7. Record any English-only editorial fixes transparently; Tamil remains frozen unless genuine source evidence requires formal reopening.
-8. Mark the post-batch review PASS only after all checks close with unresolved issues 0.
+One English-only correction was made during the post-batch gate: section 3 `karantai battle` → **Karantai battle**. Tamil remained frozen.
+
+## Final-release workflow
+
+1. Verify all **6/6** batch records and **11/11** standalone English sections remain synchronized with the assembly.
+2. Certify assembly scan markers **6–100 = 95/95 exactly once** and exclusions **1–5, 101**.
+3. Certify illustration markers, numbered-section closes, internal separators, quotation/Source-explanation layers and final **(The End)** structure.
+4. Check title/name/term/refrain consistency and section-3 **Karantai battle** synchronization.
+5. Check reader-facing cleanliness: no standalone YAML or batch-control prose.
+6. Compare from Tamil final-clearance checkpoint `0c6b3d19625a9478441f0f654584d8343163ba37`; require **0 changed active Tamil page/canonical files**.
+7. Create `RELEASE_REPORT.md` and grant release clearance only if every check passes with unresolved release issues **0**.
 
 ## Exact next activity
 
-**Post-batch full-English assembly and editorial-consistency review.** Do not mark release clearance in advance of that review.
+**Phase 4 final source-coverage / release-integrity gate.** The work is not RELEASE-CLEARED until that gate passes.

@@ -8,16 +8,24 @@ Fetch live `main` first and preserve newer durable state.
 
 Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf` — **101 scans**, **200,800,237 bytes**, SHA-256 `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`.
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work README/SOURCE_INTAKE/audit/HANDOVER/NEXT_CHAT_PROMPT, `PHASE3_TAMIL_FINAL_CLEARANCE.md`, then `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`, all six batch review records and reviewed English sections.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `README.md`, `HANDOVER.md`, this prompt, active-work README/SOURCE_INTAKE/audit/HANDOVER/NEXT_CHAT_PROMPT, `PHASE3_TAMIL_FINAL_CLEARANCE.md`, then `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`, `EDITORIAL_CONSISTENCY_REVIEW.md`, all six batch records, reviewed English sections 01–11 and `oruthalaik-kathal-en.md`.
 
-Current state: Tamil source/canonical layer **FINAL-CLEARED**; verified pages **101/101**; canonical sections **11/11**; unresolved Tamil/source issues **0**. Phase 4 T0 **COMPLETE / PASS**. Batches 01–06 **COMPLETE / REVIEWED PASS**. English title is **One-Sided Love**. Translation-batch progress: **6/6 batches**, **11/11 sections**, **95/95 main-work scans**, comprising **84 text-bearing + 11 illustration-only scans**; unresolved reviewed translation issues **0**. English outputs exist for sections **01–11** and batch records **BATCH_01.md`–`BATCH_06.md**. Tamil page/section changes during Phase 4: **0**.
+Current state: Tamil **FINAL-CLEARED**, verified pages **101/101**, canonical sections **11/11**, unresolved Tamil/source issues **0**. Phase 4 translation batches **6/6 COMPLETE / REVIEWED PASS**; reviewed English sections **11/11**; source coverage **95/95 main-work scans = 84 text-bearing + 11 illustration-only**. English title: **One-Sided Love**.
 
-Batch 06 preserves final high-risk source forms and structures, including scan-85 `தமிழ் எழுதிப்பிழைக்க` / `நினைவூட்டுகின்றேன்`, scan-88 `ஓடிவந்தீர்`, scan-92 `ஊழித்தீயெனப்`, scan-93 `அனிச்சமலர் தேகத்தை` / `காளைகளைச்`, scan-97 `உனைக் கொல்வதுபோல்`, scan-98 `கூர்கொண்ட` / `என் அறியாமை`, scan-99 `கரும்பாய் முத்தம்`, scan-100 `தொழில்மழை`, illustration scans **84,94**, and the final closure.
+Post-batch full-English assembly/editorial-consistency review is **COMPLETE / PASS**. Reader-facing assembly `translations/en/oruthalaik-kathal-en.md` is **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`. It contains sections **1–11** in source order and scan markers **6–100**. `EDITORIAL_CONSISTENCY_REVIEW.md` records unresolved English assembly/editorial issues **0**.
 
-Batch map: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **PASS**; 04 sections 7–8 scans 56–73 **PASS**; 05 section 9 scans 74–82 **PASS**; 06 sections 10–11 scans 83–100 **PASS**.
+One English-only post-batch consistency correction was made: section 3 `karantai battle` → **Karantai battle**. Tamil was unchanged. Tamil final-clearance checkpoint remains `0c6b3d19625a9478441f0f654584d8343163ba37`.
 
-`கலைஞரின் கவிதைகள்` remains release-cleared and must not be changed.
+`கலைஞரின் கவிதைகள்` remains RELEASE-CLEARED and must not be changed.
+
+The active work is **not yet RELEASE-CLEARED**.
 
 ## EXACT NEXT ACTIVITY
 
-Perform the **post-batch full-English assembly and editorial-consistency review only**. Assemble reviewed English `translations/en/sections/01.md` through `11.md` in source order; audit complete scan provenance/coverage, title/name/term/refrain continuity, speaker flow, Sangam quotation/attribution versus Source-explanation structure, illustration markers, section-closing ornaments and final `(The End)` structure; create the durable full-English assembly/review record and synchronize status docs. Do not modify final-cleared Tamil. Do not mark release clearance until the post-batch review itself passes.
+Perform **Phase 4 final source-coverage / release-integrity review only**.
+
+Verify the assembled English work against all six reviewed batches and all eleven reviewed standalone English sections. Certify **95/95** scan markers exactly once for scans **6–100**, front/back exclusions **1–5 and 101**, all 11 illustration markers, section closes **13,20,30,38,45,55,63,73,82,92**, internal separators, quotation/attribution versus **Source explanation** structure, title/name/term/refrain continuity, and scan-100 **(The End)** plus final diamonds. Verify reader-facing cleanliness and confirm the current section-3 English correction is synchronized.
+
+Compare from Tamil final-clearance commit `0c6b3d19625a9478441f0f654584d8343163ba37` and require **0 changed files** under `poems/oruthalaik-kathal/pages/` and `poems/oruthalaik-kathal/sections/`.
+
+Create `poems/oruthalaik-kathal/translations/en/RELEASE_REPORT.md`. If and only if every final check passes with unresolved release issues **0**, synchronize root/work/translation status to **PHASE 4 COMPLETE — RELEASE-CLEARED**. Do not reopen or rewrite final-cleared Tamil for English editorial preference.

@@ -8,38 +8,57 @@ Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pd
 
 Normal English working source is the final-cleared Tamil canonical section layer. The controlling scan remains ultimate textual authority if a Tamil reading is questioned.
 
-## Canonical source freeze at Phase 4 T0
+Tamil final-clearance / T0 source checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
 
-T0 source checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
+## Canonical Tamil source map
 
-| Tamil section | Canonical file | Blob SHA at T0 | Physical scans | Logical pages | Illustration scan | Batch | English status |
-|---:|---|---|---:|---:|---:|---:|---|
-| 1 | `../../sections/01.md` | `5dc3d69a99e414f4228979223588a14d21addf72` | 6–13 | 1–8 | 8 | 01 | **reviewed PASS** |
-| 2 | `../../sections/02.md` | `7abfc6b226717aa0e35cc487cac32129c793f508` | 14–20 | 9–15 | 16 | 01 | **reviewed PASS** |
-| 3 | `../../sections/03.md` | `0c0ee28e2668bfabfd80c1c09bf88286f2e202de` | 21–30 | 16–25 | 22 | 02 | **reviewed PASS** |
-| 4 | `../../sections/04.md` | `51bb04a68cc8ac000d5846e22f6c79b1bb33e023` | 31–38 | 26–33 | 32 | 02 | **reviewed PASS** |
-| 5 | `../../sections/05.md` | `47dc73ebeca40f063f29fe70d19840054627c847` | 39–45 | 34–40 | 40 | 03 | **reviewed PASS** |
-| 6 | `../../sections/06.md` | `f54ec01efef19fc6633f1429c178ce43a51d9519` | 46–55 | 41–50 | 48 | 03 | **reviewed PASS** |
-| 7 | `../../sections/07.md` | `c7b92bd7f6eef4ea0b31687c5c8cc5366ad8045c` | 56–63 | 51–58 | 58 | 04 | **reviewed PASS** |
-| 8 | `../../sections/08.md` | `cac9134ce5d24fc60f008da54d03efdd2d014857` | 64–73 | 59–68 | 66 | 04 | **reviewed PASS** |
-| 9 | `../../sections/09.md` | `62dbf3b15b5902beef507bbae57a148fa5d82083` | 74–82 | 69–77 | 76 | 05 | **reviewed PASS** |
-| 10 | `../../sections/10.md` | `22bb738d9608254a8abe4b5eea9f1d34fe74cab5` | 83–92 | 78–87 | 84 | 06 | **reviewed PASS** |
-| 11 | `../../sections/11.md` | `20fb17b872beed01ce9435b8e7ad1e7497e43d86` | 93–100 | 88–95 | 94 | 06 | **reviewed PASS** |
+| Section | Tamil canonical blob | Scans | Logical pages | Illustration | Batch | Status |
+|---:|---|---:|---:|---:|---:|---|
+| 1 | `5dc3d69a99e414f4228979223588a14d21addf72` | 6–13 | 1–8 | 8 | 01 | PASS |
+| 2 | `7abfc6b226717aa0e35cc487cac32129c793f508` | 14–20 | 9–15 | 16 | 01 | PASS |
+| 3 | `0c0ee28e2668bfabfd80c1c09bf88286f2e202de` | 21–30 | 16–25 | 22 | 02 | PASS |
+| 4 | `51bb04a68cc8ac000d5846e22f6c79b1bb33e023` | 31–38 | 26–33 | 32 | 02 | PASS |
+| 5 | `47dc73ebeca40f063f29fe70d19840054627c847` | 39–45 | 34–40 | 40 | 03 | PASS |
+| 6 | `f54ec01efef19fc6633f1429c178ce43a51d9519` | 46–55 | 41–50 | 48 | 03 | PASS |
+| 7 | `c7b92bd7f6eef4ea0b31687c5c8cc5366ad8045c` | 56–63 | 51–58 | 58 | 04 | PASS |
+| 8 | `cac9134ce5d24fc60f008da54d03efdd2d014857` | 64–73 | 59–68 | 66 | 04 | PASS |
+| 9 | `62dbf3b15b5902beef507bbae57a148fa5d82083` | 74–82 | 69–77 | 76 | 05 | PASS |
+| 10 | `22bb738d9608254a8abe4b5eea9f1d34fe74cab5` | 83–92 | 78–87 | 84 | 06 | PASS |
+| 11 | `20fb17b872beed01ce9435b8e7ad1e7497e43d86` | 93–100 | 88–95 | 94 | 06 | PASS |
 
-The eleven ranges partition scans **6–100** with no gap or overlap. The T0 Tamil blob freeze remained unchanged through all six English translation batches.
+The eleven ranges partition scans **6–100** with no gap or overlap. Tamil canonical blobs remain unchanged through Phase 4.
 
-## Reviewed English mapping
+## Current reviewed English section map
 
-- Batch 01: Tamil sections 01–02 → English `sections/01.md`, `sections/02.md`; review `batches/BATCH_01.md`.
-- Batch 02: Tamil sections 03–04 → English `sections/03.md`, `sections/04.md`; review `batches/BATCH_02.md`.
-- Batch 03: Tamil section 05 → English blob `e353ce248c7837aaa9df0822be3306016e3f8f7b`; section 06 → `ab396e298de1f57a3fac662f1c1b66af62ffa077`; review `batches/BATCH_03.md`.
-- Batch 04: Tamil section 07 → English blob `3a74cb3fb65a2f160a03c56643622eb92c585206`; section 08 → `13862162e0934907b2f854bbd52b37ba0252564f`; review `batches/BATCH_04.md`.
-- Batch 05: Tamil section 09 → English blob `78dba20abd4a65177d950ac7e7b2c77f97b4c70e`; review `batches/BATCH_05.md`.
-- Batch 06: Tamil section 10 → English blob `c24bc7038116ceb8adb9031da74d2e2fade1dba4`; section 11 → English blob `b76b515baab32cb8b179d89aa6bcee940e8c1d3c`; review `batches/BATCH_06.md`.
+| Section | English file | Current English blob | Status |
+|---:|---|---|---|
+| 1 | `sections/01.md` | `3355c03411984ad763b8d127be82149a50edb403` | reviewed PASS |
+| 2 | `sections/02.md` | `8409bcfe9b8edc9b5dd31611b6b3484a3ee9ac0f` | reviewed PASS |
+| 3 | `sections/03.md` | `1442f9d6c551e4d96e1c29a8da61ce5cbfdb4191` | reviewed PASS; post-batch English consistency correction applied |
+| 4 | `sections/04.md` | `36a620c42bc944855d091ea16dd6fd4d2fffe993` | reviewed PASS |
+| 5 | `sections/05.md` | `e353ce248c7837aaa9df0822be3306016e3f8f7b` | reviewed PASS |
+| 6 | `sections/06.md` | `ab396e298de1f57a3fac662f1c1b66af62ffa077` | reviewed PASS |
+| 7 | `sections/07.md` | `3a74cb3fb65a2f160a03c56643622eb92c585206` | reviewed PASS |
+| 8 | `sections/08.md` | `13862162e0934907b2f854bbd52b37ba0252564f` | reviewed PASS |
+| 9 | `sections/09.md` | `78dba20abd4a65177d950ac7e7b2c77f97b4c70e` | reviewed PASS |
+| 10 | `sections/10.md` | `c24bc7038116ceb8adb9031da74d2e2fade1dba4` | reviewed PASS |
+| 11 | `sections/11.md` | `b76b515baab32cb8b179d89aa6bcee940e8c1d3c` | reviewed PASS |
 
-English title: **One-Sided Love**. Reviewed source coverage after Batch 06: **95/95 scans**, **11/11 sections**, comprising **84 text-bearing + 11 illustration-only scans**. Tamil canonical changes during translation: **0**.
+The section-3 post-batch change is English-only: scan 21 `karantai battle` was synchronized to the established **Karantai battle** lock. Tamil was unchanged.
 
-## Non-body source exclusions
+## Full-English assembly checkpoint
+
+- reader-facing file: `oruthalaik-kathal-en.md`;
+- Git blob: `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- size: **89,457 bytes**;
+- line count: **3,004**;
+- source sections: **11/11 in order**;
+- source scan markers: **95/95 exactly once, scans 6–100**;
+- composition: **84 text-bearing + 11 illustration-only**;
+- full-work review: `EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
+- unresolved English assembly/editorial issues: **0**.
+
+## Non-body exclusions
 
 Scan 1 front cover, scans 2–5 front matter / Roman I–IV, and scan 101 back cover remain outside poem-body translation scope.
 
@@ -47,23 +66,23 @@ Scan 1 front cover, scans 2–5 front matter / Roman I–IV, and scan 101 back c
 
 Full-page illustration scans: **8,16,22,32,40,48,58,66,76,84,94**. No invented English captions.
 
-Section-closing three-diamond witnesses occur at scans **13,20,30,38,45,55,63,73,82,92**, with final work closure on scan **100** after source `(முற்றும்)`. All are represented in the reviewed English layer; section 11 renders `(முற்றும்)` as **(The End)** and retains the final diamonds.
+Section-closing three-diamond witnesses: **13,20,30,38,45,55,63,73,82,92**. Internal separators including scans **7,87,90** remain internal. Final work closure on scan **100** remains source quotation → attribution → **Source explanation** → **(The End)** → final diamonds.
 
-Gate-2 continuation relationships remain source authority for translation flow, including **43→44, 51→52, 54→55, 61→62→63, 68→69, 70→71, 81→82, 87→88, 91→92 and 98→99→100**. All relevant relationships have now been translated/reviewed within their assigned batches.
+Important continuation relationships preserved include **43→44, 51→52, 54→55, 61→62→63, 68→69, 70→71, 81→82, 87→88, 91→92 and 98→99→100**.
 
-## High-risk source locks encountered through Batch 06
+## Recurring translation locks
 
-Translation respects final-cleared Tamil forms rather than silently correcting them. Batch 06 specifically preserves scan 85 `தமிழ் எழுதிப்பிழைக்க` / `நினைவூட்டுகின்றேன்`, scan 86 `திரும்பட்டு`, scan 88 `ஓடிவந்தீர்`, scan 92 `ஊழித்தீயெனப்`, scan 93 `அனிச்சமலர் தேகத்தை` / `காளைகளைச்`, scan 97 `உனைக் கொல்வதுபோல்`, scan 98 `கூர்கொண்ட` / `என் அறியாமை`, scan 99 `கரும்பாய் முத்தம்`, and scan 100 `தொழில்மழை`. English decisions are documented in `batches/BATCH_06.md`; Tamil was not modified.
+Current reviewed/assembled lock set includes **One-Sided Love**, **Source explanation**, **Kavarpentu**, **war-sword / flower-petal**, **Karantai battle**, ***Natrinai***, ***Akananuru***, ***Kuruntokai***, **Palver Katti**, narrative **Uraiyur** versus quotation-form **Uranthai**, **Attani council hall**, source-controlled **day-court**, source-distinct `பாணி` versus `ஆளி` / **yali**, **fire of cosmic destruction** in scan-92 context, **anicham flower**, and source `(முற்றும்)` → **(The End)** structurally.
 
-## Batch map
+## Phase-4 status
 
-- Batch 01: sections **1–2**, scans **6–20** — **COMPLETE / REVIEWED PASS**;
-- Batch 02: sections **3–4**, scans **21–38** — **COMPLETE / REVIEWED PASS**;
-- Batch 03: sections **5–6**, scans **39–55** — **COMPLETE / REVIEWED PASS**;
-- Batch 04: sections **7–8**, scans **56–73** — **COMPLETE / REVIEWED PASS**;
-- Batch 05: section **9**, scans **74–82** — **COMPLETE / REVIEWED PASS**;
-- Batch 06: sections **10–11**, scans **83–100** — **COMPLETE / REVIEWED PASS**.
+- Batches 01–06: **6/6 COMPLETE / REVIEWED PASS**;
+- English sections: **11/11 reviewed PASS**;
+- source coverage: **95/95**;
+- full-English assembly/editorial review: **COMPLETE / PASS**;
+- Tamil canonical changes during translation/editorial work: **0**;
+- release clearance: **NOT YET GRANTED**.
 
 ## Exact next activity
 
-Perform the **post-batch full-English assembly and editorial-consistency review**, using the reviewed English section blobs and batch records above. Do not mark release clearance until the full assembled English layer passes that separate review.
+Perform the **Phase 4 final source-coverage / release-integrity gate**. Reconcile this source map, all six batch records, all eleven current English blobs, `oruthalaik-kathal-en.md` and `EDITORIAL_CONSISTENCY_REVIEW.md`; verify reader-facing cleanliness and **0 active Tamil page/canonical changes since checkpoint `0c6b3d19625a9478441f0f654584d8343163ba37`**. Create `RELEASE_REPORT.md`. Mark RELEASE-CLEARED only if the final gate passes with unresolved release issues **0**.

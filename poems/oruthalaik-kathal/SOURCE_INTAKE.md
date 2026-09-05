@@ -12,23 +12,19 @@ Phase 3 is **COMPLETE / PASS — TAMIL FINAL-CLEARED**. Gate 5 restored the sour
 
 ## Phase 4 progression
 
-- T0 English setup/source mapping: **COMPLETE / PASS**;
-- Batch 01 sections 1–2 / scans 6–20: **COMPLETE / REVIEWED PASS**;
-- Batch 02 sections 3–4 / scans 21–38: **COMPLETE / REVIEWED PASS**;
-- Batch 03 sections 5–6 / scans 39–55: **COMPLETE / REVIEWED PASS**;
-- Batch 04 sections 7–8 / scans 56–73: **COMPLETE / REVIEWED PASS**;
-- Batch 05 section 9 / scans 74–82: **COMPLETE / REVIEWED PASS**;
-- Batch 06 sections 10–11 / scans 83–100: **COMPLETE / REVIEWED PASS**;
-- English title: **One-Sided Love**;
-- translation batches completed: **6/6**;
+- T0: **COMPLETE / PASS**;
+- Batches 01–06: **6/6 COMPLETE / REVIEWED PASS**;
 - reviewed English sections: **11/11**;
-- reviewed main-work source scans: **95/95**;
-- reviewed source composition: **84 text-bearing + 11 illustration-only scans**;
-- unresolved reviewed translation issues: **0**;
+- reviewed main-work source scans: **95/95 = 84 text-bearing + 11 illustration-only**;
+- reader-facing assembly: `translations/en/oruthalaik-kathal-en.md` — **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- full-work editorial-consistency review: **COMPLETE / PASS**;
+- unresolved English assembly/editorial issues: **0**;
 - Tamil final-cleared `pages/` / `sections/` modified during Phase 4: **0**.
 
-All source-scoped translation batches are complete. Post-batch full-English assembly/editorial-consistency review remains before release clearance.
+The post-batch review synchronized one English-only term in section 3 to **Karantai battle**. Tamil was unchanged.
+
+The work is **not yet RELEASE-CLEARED**.
 
 ## Next activity
 
-**Post-batch full-English assembly and editorial-consistency review of English sections 01–11.**
+**Phase 4 final source-coverage / release-integrity gate.** Confirm the reader-facing assembly accounts for scans **6–100 exactly once**, source exclusions **1–5 and 101**, structural witnesses and all reviewed English source units, verify zero Tamil page/canonical changes since final clearance, and create `translations/en/RELEASE_REPORT.md`. Release clearance may be granted only if that gate passes with unresolved release issues **0**.

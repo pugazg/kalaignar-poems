@@ -11,24 +11,24 @@ The Tamil source/canonical layer is formally cleared for Phase 4. Gates 1–6 PA
 
 Gate 5's source-backed non-lexical correction remains authoritative: scan **82 / printed page 77** closes section 9 with `♦     ♦     ♦`; the ornament is restored in both `pages/0082.md` and `sections/09.md`. Lexical changes **0**; 82→83 boundary and section-9 assembly revalidated PASS. Gate 6 reconfirmed it.
 
-The controlling scan remains highest textual authority. A future genuine source-backed correction must reopen affected Tamil source/page/audit/canonical layers rather than silently changing a derivative file.
+Tamil final-clearance checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`. The controlling scan remains highest textual authority. A future genuine source-backed correction must reopen affected Tamil source/page/audit/canonical layers rather than silently changing a derivative file.
 
 ## Subsequent Phase 4 status
 
-- T0 English translation setup/source mapping: **COMPLETE / PASS**;
-- Batches 01–06: **COMPLETE / REVIEWED PASS**;
-- English title: **One-Sided Love**;
-- translation batches completed: **6/6**;
+- T0 English setup/source mapping: **COMPLETE / PASS**;
+- Batches 01–06: **6/6 COMPLETE / REVIEWED PASS**;
 - reviewed English sections: **11/11**;
-- reviewed source coverage: **95/95 main-work scans**;
-- reviewed composition: **84 text-bearing + 11 illustration-only scans**;
-- unresolved reviewed translation issues: **0**;
+- reviewed source coverage: **95/95 main-work scans = 84 text-bearing + 11 illustration-only**;
+- English title: **One-Sided Love**;
+- reader-facing assembly: `translations/en/oruthalaik-kathal-en.md` — **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- full-work English assembly/editorial-consistency review: **COMPLETE / PASS**;
+- unresolved English assembly/editorial issues: **0**;
 - Tamil `pages/` / `sections/` modified during Phase 4: **0**.
 
-Phase-4 outputs now include English `sections/01.md` … `11.md`, `batches/BATCH_01.md` … `BATCH_06.md`, and the T0 setup/source-map files. Batch 06 preserves the final source-sensitive readings and structural closure without reopening the Tamil layer.
+Post-batch English review synchronized one English-only term in section 3 to the established **Karantai battle** lock. It did not reopen or alter Tamil.
 
-The translation-batch layer is complete, but release clearance is still pending post-batch English assembly/editorial review.
+The translation and full-English editorial gates have passed, but **release clearance is still pending the final source-coverage / release-integrity review**.
 
 ## Current exact next activity
 
-**Post-batch full-English assembly and editorial-consistency review of reviewed English sections 01–11.** Do not modify final-cleared Tamil and do not mark release clearance before that review passes.
+Perform the **Phase 4 final source-coverage / release-integrity gate**. Create `translations/en/RELEASE_REPORT.md`; require all reviewed English source units and assembly structure to reconcile, and verify **0 changed files** under active Tamil `pages/` and `sections/` from checkpoint `0c6b3d19625a9478441f0f654584d8343163ba37`. Grant RELEASE-CLEARED only if the final gate passes with unresolved release issues **0**.

@@ -20,24 +20,22 @@ Active workspace: `poems/oruthalaik-kathal/`.
 
 ## Phase 4 — translation and release
 
-**IN PROGRESS. Translation batch layer COMPLETE / REVIEWED PASS.**
+**IN PROGRESS — translation batches COMPLETE; full-English assembly/editorial-consistency review COMPLETE / PASS; final source-coverage/release gate NEXT.**
 
-- T0 English translation setup/source mapping: **COMPLETE / PASS**;
-- Batch 01 sections 1–2 / scans 6–20: **COMPLETE / REVIEWED PASS**;
-- Batch 02 sections 3–4 / scans 21–38: **COMPLETE / REVIEWED PASS**;
-- Batch 03 sections 5–6 / scans 39–55: **COMPLETE / REVIEWED PASS**;
-- Batch 04 sections 7–8 / scans 56–73: **COMPLETE / REVIEWED PASS**;
-- Batch 05 section 9 / scans 74–82: **COMPLETE / REVIEWED PASS**;
-- Batch 06 sections 10–11 / scans 83–100: **COMPLETE / REVIEWED PASS**;
-- completed translation batches: **6/6**;
+- T0 English setup/source mapping: **COMPLETE / PASS**;
+- Batches 01–06: **6/6 COMPLETE / REVIEWED PASS**;
 - reviewed English sections: **11/11**;
 - reviewed source coverage: **95/95 main-work scans**;
 - reviewed source composition: **84 text-bearing + 11 illustration-only scans**;
 - English title: **One-Sided Love**;
-- unresolved reviewed translation issues: **0**;
+- reader-facing assembly: `translations/en/oruthalaik-kathal-en.md` — **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- full-work editorial consistency review: **COMPLETE / PASS**;
+- unresolved English assembly/editorial issues: **0**;
 - final-cleared Tamil files modified during Phase 4: **0**.
 
-The work is **not yet release-cleared**. Post-batch full-English assembly/editorial-consistency review and subsequent release decision remain.
+Post-batch review made one English-only correction: section 3 now uses the established **Karantai battle** lock. Tamil remains unchanged.
+
+The work is **not yet RELEASE-CLEARED**.
 
 ## Preserved completed state
 
@@ -45,4 +43,4 @@ The work is **not yet release-cleared**. Post-batch full-English assembly/editor
 
 ## EXACT NEXT ACTIVITY
 
-**Post-batch full-English assembly and editorial-consistency review.** Assemble reviewed English sections **01–11** in source order; certify all 95 main-work scans/markers and structural witnesses, terminology/refrain continuity, quotations/attributions/Source explanations, illustration markers, section closes and final work closure. Prepare the durable assembly/review record. Do not mark release clearance until that review passes.
+Perform the **Phase 4 final source-coverage / release-integrity gate**. Verify all 6 reviewed batches, 11 reviewed standalone English sections, the 95/95 scan-marker assembly, source exclusions, structural witnesses, reader-facing cleanliness, editorial-review PASS and zero Tamil page/canonical changes since Tamil final clearance. Create `translations/en/RELEASE_REPORT.md`. Mark Phase 4 COMPLETE / RELEASE-CLEARED only if that final gate passes with unresolved release issues **0**.
