@@ -2,31 +2,38 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM-ONLY PROCESSING ACTIVE / PHASE 1 NEW-TARGET COVERAGE 20/23 / ITEMS 01–02 FIRST PASSES COMPLETE / EXACT SHA-256 PENDING.**
+**ONBOARDED / NEW-ITEM-ONLY PROCESSING ACTIVE / KALAIGNAR PHASE 1 COVERAGE 20/22 / ITEMS 01–02 FIRST PASSES COMPLETE / SCAN 66 RECLASSIFIED NON-KALAIGNAR / SOURCE SHA-256 PINNED.**
 
 - physical scans inventoried: **84/84**;
-- genuinely new Kalaignar blocks: **4/4** — scans **46–57, 58–65, 66, 67–68**;
-- new-item target scans: **23 total**;
-- new-item Phase-1 page records: **20/23**;
-- NEW ITEM 01: **12/12 scans (46–57) have first-pass page records**;
-- NEW ITEM 02: **8/8 scans (58–65) have first-pass page records**;
-- Item-01 statuses: **12 needs-review / 0 partial / 0 verified**;
-- Item-02 statuses: **8 needs-review / 0 partial / 0 verified**;
-- historical-glyph first-pass coverage for active new work: **scans 46–65 complete**;
-- exact next production scan: **66**;
+- genuinely new Kalaignar blocks after source-attribution correction: **3** — scans **46–57, 58–65, 67–68**;
+- active Kalaignar production scans: **22 total**;
+- Kalaignar Phase-1 page-record coverage: **20/22**;
+- NEW ITEM 01: **12/12** scans 46–57 first-pass records complete;
+- NEW ITEM 02: **8/8** scans 58–65 first-pass records complete;
+- scan 66 `சாராய சுதந்திரம்`: **RECLASSIFIED NON-KALAIGNAR** from explicit source attribution to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`;
+- scan 66 classification/transcription record: `pages/0066.md`, status `partial`;
+- exact next Kalaignar production scan: **67**;
 - already represented Kalaignar blocks: **5 — no further retranscription required**;
-- non-Kalaignar Bharathidasan insert: scans **69–70 — classification only**;
+- other non-Kalaignar inserted material: scans **69–70** — Bharathidasan;
 - repository writes to existing release-cleared poem trees: **0**;
-- canonical Tamil new items: **0/4**;
-- exact-source SHA-256 issue: **PENDING**.
+- canonical Tamil new items: **0/3**.
+
+## Exact-source identity — RESOLVED
+
+The exact supplied attachment is **93,307,011 bytes** and has now been hashed successfully from the materialized original bytes.
+
+- SHA-256: `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`
+- substitute source used: **no**
+
+The earlier `PENDING` checksum defect is closed.
 
 ## User-directed NEW-ITEM-ONLY policy
 
-Already represented anthology blocks are frozen as existing/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Earlier page records for scans 9–32 remain archival cross-witnesses only; no further duplicate page transcription is required.
+Already represented anthology blocks remain frozen as existing/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Earlier page records for scans 9–32 remain archival cross-witnesses only.
 
 ## Historical Tamil glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` remains mandatory for the four new items. Every active Tamil page receives the family screen:
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` remains mandatory for active Kalaignar items. Every active Tamil page receives the family screen:
 
 `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
 
@@ -34,27 +41,24 @@ Historical character identity is determined from source pixels and encoded into 
 
 ## NEW ITEM 01 — Phase 1 first pass
 
-Scans **46–57**: **12/12 first-pass page records complete**, all `needs-review`. Event identity, date/location, distinctive quotations and positively legible passages were captured conservatively. Dense uncertain source text remains unresolved rather than guessed.
+Scans **46–57**: **12/12 first-pass page records complete**, all `needs-review`. Dense uncertain source text remains unresolved rather than guessed.
 
 ## NEW ITEM 02 — Phase 1 first pass
 
-Source range: scans **58–65**. All eight physical scans were reviewed against enlarged renders of the controlling PDF and now have page records `pages/0058.md` through `pages/0065.md`.
+Scans **58–65**: **8/8 first-pass page records complete**, all `needs-review`. The 5-5-71 Pari/Parambu-malai heading, Pari–Kapilar material, charity/social argument, thematic `மை` word-play and conclusion are durably captured; uncertain wording remains deferred.
 
-Durable source witnesses captured include:
+## Scan 66 attribution correction
 
-- scan 58: `5-5-71`, `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கில்`, and `முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
-- scan 58 event note tying the poem to the **5-5-71** Pari festival / kaviyarangam;
-- scans 59–62: Madurai/Sangam framing, Pari landscape/charity imagery, Murugan–Valli word-play, Pari–Kapilar friendship, and social/ethical charity arguments;
-- scan 63 thematic sequence `தொன்மை / எளிமை / வன்மை / வலிமை / இறைமை / புதுமை` and repeated `மை` word-play;
-- scan 64 poet/theme hand-offs plus `முடியரசன் / முடியரசர்` word-play;
-- scan 65 conclusion returning to the same thematic sequence and ending `வணக்கம்.`.
+Fresh enlarged-source review establishes the following printed source evidence:
 
-A few dense phrases, exact line-breaks, and minor punctuation/source forms remain unresolved on the Item-02 pages. No such text was reconstructed from general knowledge or another edition. Therefore all eight pages remain **`needs-review`** and Phase 2 remains separate.
+- date `19-9-71-ல்`;
+- title `“சாராய சுதந்திரம்”`;
+- source line `எனும் தலைப்பில் கல்கியில்`;
+- explicit attribution `சக்கரவர்த்தி—இராசகோபாலாச்சாரி—எழுதியது.`;
+- the bracketed note states that the Chief Minister answered this poem with a `மறுப்புக் கவிதை` at the Periyar statue unveiling in Erode on September 17.
 
-## Source-identity exception
-
-The exact supplied attachment remains controlling and its known byte size is **93,307,011 bytes**. SHA-256 remains **PENDING** because the available exact-byte hashing path has not produced a reliable checksum. No inferred or fabricated hash is used.
+Therefore scan 66 is **not a Kalaignar poem** and is excluded from Kalaignar canonical assembly. The actual Kalaignar response is the separate block on scans **67–68**, which remains the next production target. fileciteturn826file0L8-L12
 
 ## Exact next activity
 
-Process **NEW ITEM 03 Phase 1 — scan 66 (`சாராய சுதந்திரம்`) only**. Apply the historical-glyph screen and conservative no-guess rule. Do not begin Item 04, Phase 2, Phase 3 or translation in the same activity.
+Process **scans 67–68 only** as the Kalaignar `முதல்வர் கலைஞரின் பதில் கவிதை` Phase-1 block. Apply the historical-glyph screen and no-guess rule. Do not begin Phase 2, Phase 3 or translation in the same activity.
