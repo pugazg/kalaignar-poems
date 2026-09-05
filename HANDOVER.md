@@ -8,26 +8,19 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. Live `main` is authoritativ
 
 ## User-directed processing policy
 
-Process only poems not already represented in the repository. Skip duplicate ranges **9–20, 21–32, 33–45, 71–77, 78–84**. Scans 69–70 are Bharathidasan material.
+Process only poems not already represented in the repository. Skip duplicate ranges **9–20, 21–32, 33–45, 71–77, 78–84**. Scan 66 is Rajaji source/context; scans 69–70 are Bharathidasan material.
 
-## Corrected new-item scope
+## Active new Kalaignar scope
 
-Source review of scan 66 corrected the earlier intake assumption:
+1. scans **46–57** — Item 01 — **Phase 1 complete: 12/12 `needs-review`**;
+2. scans **58–65** — Item 02 — **Phase 1 complete: 8/8 `needs-review`**;
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete: 2/2 `partial`**.
 
-1. scans **46–57** — Kalaignar Item 01 — **Phase 1 first pass complete: 12/12 needs-review**;
-2. scans **58–65** — Kalaignar Item 02 — **Phase 1 first pass complete: 8/8 needs-review**;
-3. scan **66**, `சாராய சுதந்திரம்` — **NON-KALAIGNAR**; explicitly attributed to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`; retained only as source/context at `pages/0066.md`;
-4. scans **67–68**, `முதல்வர் கலைஞரின் பதில் கவிதை` — **NEXT genuine Kalaignar block**.
-
-Corrected active Kalaignar production target: **22 scans**. Current Phase-1 coverage: **20/22**.
-
-## Historical-glyph control
-
-Use the user-supplied historical Tamil glyph guide on every active Kalaignar Tamil page. Screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`; source pixels control character identity. Do not modernize wording or guess unread text.
+Active Kalaignar Phase-1 coverage: **22/22 COMPLETE**. Historical-glyph first-pass: **22/22 complete**. Verified active pages: **0**.
 
 ## Exact next activity
 
-Process **scans 67–68 only** as the Kalaignar response / `முதல்வர் கலைஞரின் பதில் கவிதை` Phase-1 block. Do not begin Phase 2, Phase 3 or translation in the same activity.
+Begin **Phase 2 independent source-critical verification at scan 46**, proceeding in physical order across **46–57, 58–65, 67–68** only. Correct only source-backed differences and promote pages to `verified` only after actual enlarged-source clearance. Do not begin Phase 3 or translation until Phase 2 is complete.
 
 ## Preserved completed works
 
