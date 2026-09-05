@@ -16,18 +16,17 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - Phase 1: **22/22 complete**;
-- Phase 2: **2/22 verified**;
-- `pages/0046.md`: verified;
-- `pages/0047.md`: verified;
-- Item 01 scans 48–57: **10 needs-review**;
+- Phase 2: **3/22 verified**;
+- `pages/0046.md`, `pages/0047.md`, `pages/0048.md`: **verified**, unresolved readings 0;
+- Item 01 scans 49–57: **9 needs-review**;
 - Item 02 scans 58–65: **8 needs-review**;
 - Item 04 scans 67–68: **2 partial**;
-- historical-glyph Phase-2 recheck complete through scan **47**.
+- historical-glyph Phase-2 recheck complete through scan **48**.
 
-Scan 47 was independently reread from enlarged source pixels. Important source-backed corrections include `பருக்கிடம்`, `“சாரம்”`, restoration of the car/friend exchange, the five `சிறப்பு` sequence, the 1946 Puduvai recollection, and the closing lines through `பண்புநிறை அமைச்சர் பெருமக்கள் தனை—`. Unresolved scan-47 issues: **0**.
+Scan 48 was independently reread from enlarged source pixels. Important source-backed corrections include `பாராட்டி வாழ்த்தி எந்தன் கவியரங்கைத் தொடங்கு / கின்றேன்......`, `ராஜாராம்`, `ஆறுமுகம்`, restoration of the Shanmugam / M. Po. Si. / Puduvai Kuyil / comrades passages, and source-cleared historical forms `அமைதித்தனை` and `வரிகளையே`. Unresolved scan-48 issues: **0**.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 01 scan 48 only**. Compare `pages/0048.md` independently against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote the page to `verified` only after complete visual clearance.
+Continue **Phase 2 with Item 01 scan 49 only**. Compare `pages/0049.md` independently against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote the page to `verified` only after complete visual clearance.
 
 Do not begin Phase 3 canonical assembly or Phase 4 translation until Phase 2 is complete.
