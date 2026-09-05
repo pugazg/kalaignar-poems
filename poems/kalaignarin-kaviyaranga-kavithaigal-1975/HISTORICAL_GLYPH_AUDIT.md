@@ -15,17 +15,30 @@ Character identity is decoded into normal Unicode without modernizing source wor
 - NEW ITEM 01 scans **46–57**: **12/12 screened**;
 - NEW ITEM 02 scans **58–65**: **8/8 screened**;
 - NEW ITEM 04 scans **67–68**: **2/2 screened**;
-- active Kalaignar target coverage: **22/22 complete**;
-- pages promoted to `verified`: **0** — independent Phase 2 remains separate.
+- active Kalaignar target coverage: **22/22 complete**.
 
 Scan 66 was also screened while being classified, but it is non-Kalaignar source/context material and is not part of the active Kalaignar verification set.
 
-## NEW ITEM 04 — scans 67–68
+## Phase 2 independent recheck
 
-- scan 67: full family screen applied; historical `ணா` in `அண்ணா` decoded by character identity; unusual source forms such as `சுதந்திராக்கள்` and `பஞ்சாக` retained rather than normalized;
-- scan 68: first-line `அண்ணா` and later `பெரியார் அண்ணா` were compared with same-edition historical `ணா` evidence and encoded as `ணா`; no closest-shape substitution was used;
-- unresolved historical-family identities deliberately guessed: **0**.
+### Scan 46 — VERIFIED
 
-## Exact next glyph activity
+The full family screen was repeated independently from enlarged controlling pixels.
 
-During Phase 2, independently recheck every historical-glyph decision beginning with **scan 46**. The Phase-1 screen is not verification clearance.
+Representative historically sensitive forms verified by character identity:
+
+- `பிறந்தநாளை` — the source's historical `ளை` identity is encoded as modern Unicode `ளை`;
+- `செல்கின்றாயா` — historical `றா` is decoded as `றா`, not the closest-looking modern shape;
+- `இஃதறியா` — historical `றா` independently confirmed;
+- `எத்தனையோ` — `னை` family checked in context;
+- `கண்ணங்குடி`, `குன்றக்குடி` and the remaining `குடி` place-name sequence were inspected at enlarged resolution for old-typeface ambiguity.
+
+Historical-family ambiguities remaining on scan 46: **0**. No lexical modernization or global replacement was used. `pages/0046.md` is now `verified` after the separate source-critical pass.
+
+## Current coverage
+
+- Phase-2 historical-glyph recheck: **1/22 active Kalaignar scans**;
+- verified through: **scan 46**;
+- exact next historical-glyph verification: **scan 47**.
+
+Phase-3 structural/page-join interpretation remains separate from this glyph audit.
