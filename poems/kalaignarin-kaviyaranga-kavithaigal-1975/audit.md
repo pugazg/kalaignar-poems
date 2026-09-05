@@ -2,13 +2,13 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 2/22 VERIFIED / SOURCE SHA-256 PINNED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 3/22 VERIFIED / SOURCE SHA-256 PINNED.**
 
 - physical scans inventoried: **84/84**;
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - active Kalaignar production scans: **22/22 Phase-1 page records complete**;
-- Phase-2 verified active pages: **2/22** — scans **46–47**;
-- NEW ITEM 01, scans 46–57: **2 verified / 10 needs-review**;
+- Phase-2 verified active pages: **3/22** — scans **46–48**;
+- NEW ITEM 01, scans 46–57: **3 verified / 9 needs-review**;
 - NEW ITEM 02, scans 58–65: **0 verified / 8 needs-review**;
 - NEW ITEM 04, scans 67–68: **0 verified / 2 partial**;
 - scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, explicitly attributed to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`;
@@ -36,21 +36,27 @@ Independent enlarged-source review completed the page and replaced the conservat
 
 ### Scan 47 — NEW ITEM 01 continuation — VERIFIED
 
-Independent enlarged-source review completed the full page and corrected multiple Phase-1 provisional readings.
+Independent enlarged-source review completed the full page and corrected multiple Phase-1 provisional readings. Key resolutions include `பருக்கிடம்`, `“சாரம்”`, restoration of the car/friend exchange, the five `சிறப்பு` sequence, the 1946 Puduvai recollection, and the closing passage through `பண்புநிறை அமைச்சர் பெருமக்கள் தனை—`. Unresolved lexical/glyph issues: **0**.
 
-Source-backed resolutions include:
+### Scan 48 — NEW ITEM 01 continuation — VERIFIED
 
-- opening continuation: `கள்ளக்குடி தடுத்ததற்குக் கடை திறப்பு / எப்போதென்றார்......?`;
-- Phase-1 `பக்தியுடன்` → source **`பருக்கிடம்`**;
-- restored `புள்ளி விவரம் கேட்டறிந்து— / சிந்தித்துச் செயல் படலாம்—பறக்காதே இப்போது! / சென்று வருகின்றேன் என விடைதந்து......`;
-- Phase-1 `“சாராய”` → source **`“சாரம்”`**;
-- restored the full car/friend exchange, the five `சிறப்பு` sequence, the 1946 Puduvai recollection, and the closing passage through `பண்புநிறை அமைச்சர் பெருமக்கள் தனை—`;
-- unusual printed forms `விடுவானு`, `மாட்டானு`, `தொளாயிரத்து`, `குத் தென்று`, `சிவனுரை` retained without normalization;
-- printed page numeral: **47**;
-- unresolved lexical/glyph issues on scan 47: **0**.
+Independent enlarged-source review replaced the conservative Phase-1 extract with the full visible page.
 
-`pages/0047.md` is therefore **`verified`**. Phase 3 structural/page-join work remains separate.
+Source-backed corrections/resolutions include:
+
+- `பாராட்டி வந்த எண்ணக் கவியரங்கைத் தொடங்கு / கின்றேன்.....` → **`பாராட்டி வாழ்த்தி எந்தன் கவியரங்கைத் தொடங்கு / கின்றேன்......`**;
+- `ராசாராம்` → **`ராஜாராம்`**;
+- `ஆருமுகம்` → **`ஆறுமுகம்`**;
+- restored the `சண்முகமும் / அவ்வாறே; ஒளவைச் / சண்முகமோ பெயராலே` passage and the Puduvai Shanmugam lines;
+- historical `னை` in **`அமைதித்தனை`** independently resolved from enlarged source pixels;
+- restored the M. Po. Si. passage, the Puduvai Kuyil tribute, and the complete closing address to comrades;
+- historical `ளை` in **`வரிகளையே`** independently resolved and encoded as normal Unicode;
+- source forms **`எண்ணெய் யென`**, **`தண்ணிலவாம்`**, and **`தமிழன்னை`** retained exactly;
+- printed page numeral: **48**;
+- unresolved lexical/glyph issues on scan 48: **0**.
+
+`pages/0048.md` is therefore **`verified`**. Phase 3 structural/page-join work remains separate.
 
 ## Exact next activity
 
-Continue **Phase 2 with NEW ITEM 01 scan 48 only**, independently re-reading `pages/0048.md` against the enlarged controlling source and repeating the historical-glyph screen. Correct only source-backed differences and promote to `verified` only if the page fully clears. Do not begin Phase 3 or translation.
+Continue **Phase 2 with NEW ITEM 01 scan 49 only**, independently re-reading `pages/0049.md` against the enlarged controlling source and repeating the historical-glyph screen. Correct only source-backed differences and promote to `verified` only if the page fully clears. Do not begin Phase 3 or translation.
