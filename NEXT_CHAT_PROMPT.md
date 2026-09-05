@@ -22,26 +22,27 @@ Read character identity from source pixels first and encode that identity in nor
 
 ## Durable checkpoint
 
-Phase 1 page records: **20/84**.
+Phase 1 page records: **32/84**.
 
-- `partial`: **15**;
-- `needs-review`: **5** — scans 3, 4, 5, 7, 18;
-- historical-glyph first-pass: scans **9–20 complete**;
-- Anna 1975 cross-witness scans **9–20: 12/12 Phase-1 records complete**;
-- unresolved historical-glyph identities in the Anna block: **0**;
-- ordinary unresolved Anna source reading: **scan 18**, one short right-aligned word after `இனிமேலே எனப்`;
+- `partial`: **22**;
+- `needs-review`: **10**;
+- historical-glyph first-pass: scans **9–32 complete**;
+- Anna cross-witness scans **9–20: 12/12 complete at Phase 1**;
+- Nehru cross-witness scans **21–32: 12/12 complete at Phase 1**;
+- unresolved historical-glyph identities: **0**;
+- ordinary unresolved Nehru page records: **25, 26, 28, 29, 31**;
 - verified: **0**;
-- next physical scan: **21**.
+- next physical scan: **33**.
 
-The release-cleared Anna poem remains unchanged. The 1975 cross-witness was preserved independently; later witnesses were not allowed to fill scan-18's unresolved word or insert wording absent from this edition.
+The release-cleared Anna and Nehru canonical works remain unchanged. Later witnesses were used only as secondary comparison aids; unread 1975 text was not silently filled from them.
 
-Unresolved source text also remains deliberately open on scan 3 (small imprint), scan 4 (cursive handwriting), scan 5 (`முன்னுரை` body), and scan 7 (`பதிப்புரை` body/role lines). Do not guess those readings.
+Unresolved prelim/source text also remains open on scans 3, 4, 5, 7 and Anna scan 18. Do not guess those readings.
 
-The exact supplied attachment remains controlling and its size matches the intake record. Exact SHA-256 computation is still unavailable through the current execution paths. Keep SHA-256 visibly pending and reattempt when possible; do not invent it.
+The exact supplied attachment remains controlling and its size matches the intake record. Exact SHA-256 computation was reattempted during the latest batch but the available execution path again failed. Keep SHA-256 visibly pending; do not invent it.
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 21 in physical order**. Scans **21–32** are the already represented **14.11.1970 Nehru kaviyarangam cross-witness**. Create one page record per scan, preserve the 1975 source spelling, punctuation, lineation and printed page numerals, and apply the historical-glyph screen to every Tamil page. Do not reopen or modify existing canonical Nehru material merely because this edition differs.
+Continue **Phase 1 transcription only from scan 33 through scan 45 in physical order**. Scans **33–45** are the already represented **`வாழ்வெனும் பாதையில்` cross-witness**. Create one page record per scan, preserve the 1975 source spelling, punctuation, lineation and printed page numerals, and apply the historical-glyph screen to every Tamil page. Do not reopen or modify the release-cleared canonical `வாழ்வெனும் பாதையில்` work merely because this edition differs.
 
 Do not begin Phase 2 verification, Phase 3 canonical assembly or Phase 4 translation.
 
