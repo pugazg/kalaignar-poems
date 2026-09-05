@@ -4,17 +4,19 @@ Source-first archival workspace for the supplied 1975 anthology `TVA_BOK_0064169
 
 ## Current state
 
-**ONBOARDED / PHASE 1 IN PROGRESS — 4/84 PAGE RECORDS / EXACT SHA-256 PIN STILL PENDING.**
+**ONBOARDED / PHASE 1 IN PROGRESS — 8/84 PAGE RECORDS / EXACT SHA-256 PIN STILL PENDING.**
 
-The exact supplied attachment was re-resolved for source-dependent work and its known size remains **93,307,011 bytes**. The current execution runtime still did not provide a working local hashing path, so no checksum has been invented. Phase 1 lexical capture has begun from that same supplied source, but exact-source identity must remain explicitly incomplete until SHA-256 is durably pinned.
+The same supplied attachment remains controlling and its known size is **93,307,011 bytes**. The current execution paths still do not provide a functioning exact-byte hashing route, so no checksum has been invented. Phase 1 continues against this source, but exact-source identity must remain incomplete until SHA-256 is durably pinned.
 
 Phase 1 checkpoint:
 
-- scans **1–4** have page records;
-- `partial`: **2** — scans 1–2;
-- `needs-review`: **2** — scan 3 small bottom imprint; scan 4 cursive handwritten inscription;
+- scans **1–8** have page records;
+- `partial`: **4** — scans 1, 2, 6, 8;
+- `needs-review`: **4** — scans 3, 4, 5, 7;
 - `verified`: **0** — Phase 2 has not begun;
-- exact next physical scan: **5**.
+- exact next physical scan: **9**.
+
+Scans 5 and 7 preserve their visible headings and clearly readable closing signatures/dates, but their dense body text remains unresolved rather than guessed. Scans 6 and 8 are faint bleed-through/verso-like pages with no intentionally printed edition text clearly visible.
 
 ## Controlling source
 
@@ -56,4 +58,4 @@ Scans **69–70** visibly attribute the inserted verse to **பாவேந்�
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 5 in physical order**. Resolve the SHA-256 immediately if a functioning exact-byte hashing path becomes available; until then retain the checksum as an explicit source-identity defect. Do not begin Phase 2, Phase 3 or translation.
+Continue **Phase 1 transcription only from scan 9 in physical order**. Scan 9 begins the existing Anna-poem cross-witness block; transcribe this 1975 witness faithfully while keeping it cross-witness-only. Resolve the SHA-256 immediately if a functioning exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or translation.
