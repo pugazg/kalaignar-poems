@@ -17,20 +17,19 @@ Character identity is decoded into normal Unicode without modernizing source wor
 - NEW ITEM 04 scans **67–68**: **2/2 screened**;
 - active Kalaignar target coverage: **22/22 complete**.
 
-Scan 66 was also screened while being classified, but it is non-Kalaignar source/context material and is not part of the active Kalaignar verification set.
-
 ## Phase 2 independent recheck
 
-- scans **46–57**: **12/12 independently rechecked and verified**; unresolved historical-family ambiguities **0**;
-- scans **58–65**: **8/8 independently rechecked and verified**; unresolved historical-family ambiguities **0**.
+- NEW ITEM 01 scans **46–57**: **12/12 independently rechecked and verified**;
+- NEW ITEM 02 scans **58–65**: **8/8 independently rechecked and verified**;
+- NEW ITEM 04 scans **67–68**: **2/2 independently rechecked and verified**;
+- unresolved historical-family ambiguities across active Kalaignar scans: **0**.
 
-Representative Item-02 checks include `குன்றக்குடி`, `அண்ணல்`, `முறையற்ற`, `தமிழர்`, `பயணத்தைத்`, `காண்பதிலும்`, `முடியரசன்`, `வண்மை`, and related `றா / னை / ளை / ணா` families. The scan-63 source reading **`வண்மை`** was distinguished from visually/lexically tempting `வன்மை` by direct source inspection. No lexical modernization or global replacement was used.
+Representative Item-04 checks include historical `ணா` in `அண்ணா`, and rechecking potentially deceptive old-typeface clusters in `மகிழுகின்றார்`, `நேர் மாறாய்ப்`, `நெளரோஜி`, `மறந்தா`, `வணங்குகின்றேன்`, and `அனுமதிப்பதில்லை`. Source wording was preserved even where unusual; no lexical modernization or global replacement was used.
 
 ## Current coverage
 
-- Phase-2 historical-glyph recheck: **20/22 active Kalaignar scans**;
-- NEW ITEM 01: **complete through scan 57**;
-- NEW ITEM 02: **complete through scan 65**;
-- exact next historical-glyph verification: **scans 67–68**.
+- Phase-2 historical-glyph recheck: **22/22 active Kalaignar scans — COMPLETE**;
+- Phase 2 overall: **COMPLETE**;
+- next phase: **Phase 3 Gate 1 physical scan ↔ printed/logical page reconciliation**.
 
 Phase-3 structural/page-join interpretation remains separate from this glyph audit.
