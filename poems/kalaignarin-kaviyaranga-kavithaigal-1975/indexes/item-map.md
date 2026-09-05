@@ -5,8 +5,8 @@ Stable intake IDs below identify only the four Kalaignar items found to be new t
 | ID | Intake source-heading label | Physical scans | Canonical duplicate? | Current state |
 |---:|---|---:|---|---|
 | 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | no known canonical duplicate | **Phase 1 first pass complete — 12/12 page records; all `needs-review`** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | no known canonical duplicate | **NEXT** |
-| 03 | `சாராய சுதந்திரம்` | 66 | no known canonical duplicate | onboarded / pending |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | no known canonical duplicate | **Phase 1 first pass complete — 8/8 page records; all `needs-review`** |
+| 03 | `சாராய சுதந்திரம்` | 66 | no known canonical duplicate | **NEXT** |
 | 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | no known canonical duplicate | onboarded / pending |
 
 ## Processing policy — NEW-ITEM-ONLY
@@ -25,4 +25,4 @@ Earlier page records for scans 9–32 remain archival cross-witnesses only. Scan
 
 Only the four new Kalaignar blocks — **23 physical scans total** — are production targets.
 
-Current new-item Phase-1 coverage: **12/23 scan page records**. Item 01 scans **46–57 = 12/12 first-pass page records complete**. Exact next production scan: **58** (Item 02).
+Current new-item Phase-1 coverage: **20/23 scan page records**. Item 01 scans **46–57 = 12/12** and Item 02 scans **58–65 = 8/8** first-pass page records complete. Exact next production scan: **66** (Item 03).
