@@ -10,21 +10,20 @@ Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங
 
 ## USER-DIRECTED NEW-ITEM-ONLY RULE
 
-Do not retranscribe poems already represented in the repository. Skip ranges **9–20, 21–32, 33–45, 71–77, 78–84**. Existing page records 9–32 remain archival cross-witnesses only. Scans 69–70 are Bharathidasan material.
+Do not retranscribe or verify already represented blocks as new works. Skip **9–20, 21–32, 33–45, 71–77, 78–84**. Scan 66 is Rajaji source/context; scans 69–70 are Bharathidasan material.
 
-## Corrected active production scope
+## Durable checkpoint
 
-- scans **46–57** — Kalaignar Item 01 — Phase 1 first pass complete, 12/12 needs-review;
-- scans **58–65** — Kalaignar Item 02 — Phase 1 first pass complete, 8/8 needs-review;
-- scan **66**, `சாராய சுதந்திரம்` — **NON-KALAIGNAR**, explicitly attributed to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`; retain only as source/context;
-- scans **67–68**, `முதல்வர் கலைஞரின் பதில் கவிதை` — **NEXT genuine Kalaignar block**.
-
-Corrected Kalaignar Phase-1 production coverage: **20/22**.
-
-## Historical Tamil glyph control
-
-Use the user-supplied historical-glyph guide on every active Kalaignar Tamil page. Screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`; determine character identity from source pixels and preserve source wording. Never global-replace or guess unread text.
+- genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
+- active target scans: **22/22 Phase-1 records complete**;
+- Item 01: 12 `needs-review`;
+- Item 02: 8 `needs-review`;
+- Item 04: 2 `partial`;
+- verified active pages: **0**;
+- historical-glyph Phase-1 screen: **22/22 complete**.
 
 ## Exact next activity
 
-Process **scans 67–68 only**, the Kalaignar `முதல்வர் கலைஞரின் பதில் கவிதை` Phase-1 block. Create one page record per scan and apply the historical-glyph screen. Do not begin Phase 2, Phase 3 or translation in the same activity.
+Begin **Phase 2 independent source-critical verification with Item 01 scan 46**. Proceed in physical order across **46–57, 58–65, 67–68** only. Independently compare every recorded line, punctuation/lineation choice and historical-glyph decoding against enlarged controlling-source pixels. Correct only source-backed differences and promote pages to `verified` only after actual visual clearance.
+
+Do not begin Phase 3 canonical assembly or Phase 4 translation until Phase 2 is complete.
