@@ -12,21 +12,20 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 
 ## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — **Phase 2 in progress: scans 46–48 verified; scans 49–57 pending**;
-2. scans **58–65** — Item 02 — **Phase 1 complete; Phase 2 pending**;
+1. scans **46–57** — Item 01 — **Phase 2 COMPLETE: 12/12 verified**;
+2. scans **58–65** — Item 02 — **Phase 2 in progress: scan 58 verified; scans 59–65 pending**;
 3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
 
-Phase 1: **22/22 complete**. Phase 2: **3/22 verified**.
+Phase 1: **22/22 complete**. Phase 2: **13/22 verified**.
 
 ## Verified checkpoint
 
-- `pages/0046.md`: verified, unresolved issues 0.
-- `pages/0047.md`: verified, unresolved issues 0.
-- `pages/0048.md`: verified after full enlarged-source reread. Important corrections/resolutions include `பாராட்டி வாழ்த்தி எந்தன் கவியரங்கைத் தொடங்கு / கின்றேன்......`, `ராஜாராம்`, `ஆறுமுகம்`, restoration of the `சண்முகமும் / அவ்வாறே; ஒளவைச் / சண்முகமோ பெயராலே` passage, M. Po. Si. and Puduvai Kuyil passages, plus closing comrades lines. Historical `னை` in `அமைதித்தனை` and `ளை` in `வரிகளையே` are source-cleared.
-- historical-glyph Phase-2 recheck is complete through scan 48; unresolved historical-family issues: 0.
-
-No Phase-3 join/structure decision has been made.
+- scans **46–57** are independently source-cleared with unresolved lexical/historical-glyph issues **0**;
+- `pages/0058.md` is verified from enlarged controlling pixels. Important source-backed corrections include `[மாதொரு பாகன்—சிவனார்!]`, `மாதவர்க்கும் ஒரு பாகம் உண்டன்றோ?`, `மருதநேயார் மதுரை முத்து மேயர்க்கும்`, and the closing boundary `நான் ஏற்பதில்லை—எதைத் துறந்திடினும்`;
+- historical-glyph Phase-2 recheck is complete through scan **58**;
+- no Phase-3 join/structure decision has been made;
+- existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 01 scan 49 only**. Independently compare `pages/0049.md` against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation.
+Continue **Phase 2 with Item 02 scan 59**, then proceed in physical order through scans **59–65**. Independently compare each page against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation.
