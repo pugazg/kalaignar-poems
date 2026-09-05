@@ -2,7 +2,7 @@
 
 ## Current status
 
-**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 + T1 COMPLETE / T2 NEXT**
+**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 + T1 + T2 COMPLETE / T2 REVIEWED PASS / T3 NEXT**
 
 Tamil:
 
@@ -18,15 +18,21 @@ English Phase 4:
 
 - T0 setup/source map: **PASS**;
 - T1 Batch 01 independent draft: **COMPLETE**;
-- English section drafts: **1/1**;
+- T2 Tamil-first source/fidelity review: **PASS**;
+- historical source-English witness comparison: **COMPLETE**;
+- reviewed English sections: **1/1**;
+- reviewed English title: **Nehru, the Noble Leader**;
 - English scan markers: **3,4,5,6,7 each once**;
-- missing / duplicate T1 markers: **0 / 0**;
+- missing / duplicate reviewed markers: **0 / 0**;
 - scan-7 performance note imported into verse: **0**;
-- source-English scans 8–9 imported into T1 draft: **0**;
-- T1 English-only review items: **10**;
-- historical witness comparison: **not yet performed**;
+- source-English scans 8–9 imported as body translation: **0**;
+- deliberate witness-driven wording adoptions: **0**;
+- T1 review items resolved: **10/10**;
+- unresolved English translation issues: **0**;
 - final-cleared Tamil files changed during Phase 4: **0**.
+
+T2 authority: `translations/en/T2_REVIEW.md`; batch authority: `translations/en/batches/BATCH_01.md`.
 
 ## Exact next activity
 
-**Phase 4 T2 — source/fidelity review and then historical-witness comparison only.** Reviewed English PASS requires unresolved translation issues **0**.
+**Phase 4 T3 — reader-facing English assembly / editorial-consistency review only.** T4 release clearance remains deferred.
