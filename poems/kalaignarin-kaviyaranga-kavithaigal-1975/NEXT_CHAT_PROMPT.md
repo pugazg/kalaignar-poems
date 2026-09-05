@@ -16,17 +16,16 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - Phase 1: **22/22 complete**;
-- Phase 2: **20/22 verified**;
-- NEW ITEM 01 scans **46–57: 12/12 verified — Phase 2 COMPLETE**;
-- NEW ITEM 02 scans **58–65: 8/8 verified — Phase 2 COMPLETE**;
-- NEW ITEM 04 scans **67–68: 2 partial**;
-- historical-glyph Phase-2 recheck complete through scan **65**;
-- unresolved issues on verified scans 46–65: **0**.
-
-Scan 65 was independently reread from enlarged source pixels and source-clears the full conclusion through `பல ‘புதுமை’கள் செய்திடுவோம்! / வணக்கம்.` Phase 3 has not begun.
+- Phase 2: **22/22 verified — COMPLETE**;
+- NEW ITEM 01 scans **46–57: 12/12 verified**;
+- NEW ITEM 02 scans **58–65: 8/8 verified**;
+- NEW ITEM 04 scans **67–68: 2/2 verified**;
+- historical-glyph Phase-2 recheck: **22/22 complete**;
+- unresolved issues on active verified pages: **0**;
+- Phase 3 has not begun.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 04 scans 67–68**. Independently compare both page records against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote each page to `verified` only after complete visual clearance.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**.
 
-Do not begin Phase 3 canonical assembly or Phase 4 translation until Phase 2 is complete.
+Account for active new-item ranges **46–57, 58–65, 67–68**, with scan 66 kept explicitly as non-Kalaignar source/context. Preserve `printed_page` only where a numeral is visibly printed; any reconciled logical page sequence must be recorded separately as structural metadata. Do not begin Gate 2 boundary/page-join audit, title reconciliation, canonical assembly or translation in the same activity.
