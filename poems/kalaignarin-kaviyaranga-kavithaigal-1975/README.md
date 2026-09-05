@@ -4,19 +4,20 @@ Source-first archival workspace for the supplied 1975 anthology `TVA_BOK_0064169
 
 ## Current state
 
-**ONBOARDED / PHASE 1 IN PROGRESS — 8/84 PAGE RECORDS / EXACT SHA-256 PIN STILL PENDING.**
+**ONBOARDED / PHASE 1 IN PROGRESS — 12/84 PAGE RECORDS / HISTORICAL-GLYPH SCREEN ACTIVE / EXACT SHA-256 PIN STILL PENDING.**
 
-The same supplied attachment remains controlling and its known size is **93,307,011 bytes**. The current execution paths still do not provide a functioning exact-byte hashing route, so no checksum has been invented. Phase 1 continues against this source, but exact-source identity must remain incomplete until SHA-256 is durably pinned.
+The same supplied attachment remains controlling and its known size is **93,307,011 bytes**. No checksum has been invented; SHA-256 remains an explicit metadata defect until a functioning exact-byte hashing path is available.
 
 Phase 1 checkpoint:
 
-- scans **1–8** have page records;
-- `partial`: **4** — scans 1, 2, 6, 8;
+- scans **1–12** have page records;
+- `partial`: **8** — scans 1, 2, 6, 8–12;
 - `needs-review`: **4** — scans 3, 4, 5, 7;
 - `verified`: **0** — Phase 2 has not begun;
-- exact next physical scan: **9**.
+- historical-glyph first-pass: **scans 9–12 complete**;
+- exact next physical scan: **13**.
 
-Scans 5 and 7 preserve their visible headings and clearly readable closing signatures/dates, but their dense body text remains unresolved rather than guessed. Scans 6 and 8 are faint bleed-through/verso-like pages with no intentionally printed edition text clearly visible.
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is now used as a verification aid. See `HISTORICAL_GLYPH_AUDIT.md`. The source pixels remain controlling; historical character identity is encoded in modern Unicode without modernizing source wording.
 
 ## Controlling source
 
@@ -29,11 +30,7 @@ Scans 5 and 7 preserve their visible headings and clearly readable closing signa
 - source title page records compiler/editor **ஆசிரியர் அ. முத்து**;
 - source PDF is not committed.
 
-The controlling scan, not another edition, governs all transcription of this witness.
-
 ## Four newly onboarded Kalaignar items
-
-These intake labels follow visible source headings and are **not** Phase-3 canonical-title decisions.
 
 | ID | Source-heading intake label | Physical scans | Status |
 |---:|---|---:|---|
@@ -58,4 +55,4 @@ Scans **69–70** visibly attribute the inserted verse to **பாவேந்�
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 9 in physical order**. Scan 9 begins the existing Anna-poem cross-witness block; transcribe this 1975 witness faithfully while keeping it cross-witness-only. Resolve the SHA-256 immediately if a functioning exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or translation.
+Continue **Phase 1 transcription only from scan 13**, completing the Anna cross-witness through scan 20. Apply the historical-glyph guide page by page, preserve exact 1975 wording/punctuation/lineation, and keep Phase 2 separate. Do not modify the existing canonical Anna poem. Reattempt SHA-256 only when a functioning exact-byte path is available.
