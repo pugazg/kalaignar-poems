@@ -1,28 +1,35 @@
 # Transcription / Translation Phase Plan — Kalaignar Poems Archive
 
-## Latest completed source — குணநாயகர் நேரு
+## Active source — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
-Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
+Controlling PDF: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**.
 
-## Phases 1–3
+Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
-- Source intake: **COMPLETE**;
-- Phase 1 transcription: **COMPLETE — 10/10**;
-- Phase 2 verification: **PASS — 10/10**;
-- Phase 3 Gates 1–6: **PASS — TAMIL FINAL-CLEARED**;
-- Tamil canonical section: `poems/gunanayagar-nehru/sections/01.md`, scans **3–7 exactly once**;
-- Tamil checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`.
+## Source intake
 
-## Phase 4 — English translation and release
+- physical scan inventory: **84/84 classified**;
+- new Kalaignar item blocks: **4/4 onboarded** — scans **46–57, 58–65, 66, 67–68**;
+- existing Kalaignar cross-witness blocks: **5**;
+- non-Kalaignar Bharathidasan insert: scans **69–70**;
+- exact SHA-256 source pin: **PENDING**.
 
-- T0 setup / source map: **PASS**;
-- T1 independent English draft: **COMPLETE**;
-- T2 source/fidelity review + historical-witness comparison: **REVIEWED PASS**;
-- T3 reader-facing assembly / editorial consistency: **PASS**;
-- T4 final source-coverage / release-integrity: **PASS**;
-- unresolved English / release issues: **0**;
-- Tamil drift: **0**.
+## Phase 1 — transcription only
 
-**PHASE 4 COMPLETE — RELEASE-CLEARED.**
+**NOT STARTED.** Begin only after exact SHA-256 is pinned. Create one page record per physical scan in source order. Newly transcribed pages are normally `partial`; do not conflate transcription with verification.
 
-No further phase is pending for this work. Await the next supplied source/publication.
+## Phase 2 — independent source-critical verification
+
+**BLOCKED by Phase 1.**
+
+## Phase 3 — structural gates / canonical Tamil
+
+**BLOCKED.** Later canonical assembly may create only the four new Kalaignar items. Existing cross-witness blocks must not become duplicate canonical poems.
+
+## Phase 4 — English translation / release
+
+**BLOCKED until Tamil final clearance.**
+
+## Preserved completed works
+
+`poems/gunanayagar-nehru/`, `poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain release-cleared and are outside this active intake.

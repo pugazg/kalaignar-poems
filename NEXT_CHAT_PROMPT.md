@@ -1,25 +1,22 @@
-# Next Chat Prompt — Kalaignar Poems Archive
+# Next Chat Prompt — Kalaignar Poems Archive / கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
-Continue directly in `pugazg/kalaignar-poems`, branch `main`.
+Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Preserve newer durable work and do not reopen final-cleared or release-cleared works because an older prompt records a prior checkpoint.
+Fetch live `main` first. Preserve newer durable work and do not reopen release-cleared works because a copied prompt is older.
 
-## Latest completed work
+Before changes read `POEM_PROCESSING_GUIDE.md`, root `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, this prompt, then active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/item-map.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, and `NEXT_CHAT_PROMPT.md`.
 
-`poems/gunanayagar-nehru/` — **குணநாயகர் நேரு** is fully closed:
+Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**. Attach/resolve the exact PDF before visual work.
 
-- source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf`, 10 scans, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`;
-- Tamil: **PHASE 3 COMPLETE — FINAL-CLEARED**, 10/10 verified, scans 3–7 canonical exactly once;
-- English: **PHASE 4 COMPLETE — RELEASE-CLEARED**;
-- reader-facing English: `poems/gunanayagar-nehru/translations/en/gunanayagar-nehru-en.md`, blob `c11b7d11ed3be642cca734b0bdcb16ae1f5b1c0e`;
-- release authority: `poems/gunanayagar-nehru/translations/en/RELEASE_REPORT.md`;
-- unresolved Tamil/source/English/release issues: **0**;
-- Tamil drift during Phase 4: **0**.
+New Kalaignar blocks onboarded: scans **46–57, 58–65, 66, 67–68**. Existing cross-witness blocks: **9–20, 21–32, 33–45, 71–77, 78–84**. Bharathidasan insert: **69–70**.
 
-`poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` also remain RELEASE-CLEARED.
+## Exact next activity
 
-## Next activity
+1. Compute and durably pin the exact SHA-256 of the supplied PDF across source-identity/status files.
+2. Begin **Phase 1 transcription only** from scan 1 in physical order, one page record per scan. Preserve exact source wording, punctuation, lineation, handwriting/non-text notes and page roles. Newly transcribed pages are normally `partial`.
+3. Keep cross-witness and Bharathidasan classifications explicit; do not create duplicate canonical Kalaignar items.
+4. Do not begin Phase 2, Phase 3 or translation in the same activity.
 
-There is no pending production activity for the completed works above. When a new source PDF/publication is supplied, perform the repository's normal source-intake workflow from live `main`. Do not modify a release-cleared work unless genuine source evidence justifies a formal reopening.
+Preserve `poems/gunanayagar-nehru/`, `poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` as RELEASE-CLEARED.
