@@ -17,7 +17,7 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 ## Historical Tamil glyph control
 
-The user-supplied historical-glyph guide is mandatory. Phase-1 family screening is complete for **22/22 active Kalaignar scans**. Phase-2 independent historical-glyph recheck is complete through **scan 59**. Source-pixel identity controls; no lexical modernization or global replacement.
+The user-supplied historical-glyph guide is mandatory. Phase-1 family screening is complete for **22/22 active Kalaignar scans**. Phase-2 independent historical-glyph recheck is complete through **scan 65**. Source-pixel identity controls; no lexical modernization or global replacement.
 
 ## Phase 1 — new-Kalaignar transcription only
 
@@ -25,11 +25,10 @@ The user-supplied historical-glyph guide is mandatory. Phase-1 family screening 
 
 ## Phase 2 — independent source-critical verification
 
-**IN PROGRESS — 14/22 VERIFIED.**
+**IN PROGRESS — 20/22 VERIFIED.**
 
 - scans **46–57**: Item 01 **12/12 verified — COMPLETE**;
-- scans **58–59**: Item 02 **verified**;
-- scans **60–65**: Item 02 pending verification;
+- scans **58–65**: Item 02 **8/8 verified — COMPLETE**;
 - scans **67–68**: Item 04 pending verification.
 
 For every remaining page, recheck every line, punctuation/lineation choice and historical-glyph decision against enlarged controlling-source pixels. Correct only source-backed differences. A page becomes `verified` only after actual independent clearance.
@@ -44,4 +43,4 @@ For every remaining page, recheck every line, punctuation/lineation choice and h
 
 ## Exact next activity
 
-Verify **scan 60** at Phase 2, then continue through scans **60–65** in physical order. Do not begin Phase 3 or Phase 4 until all 22 active new-Kalaignar pages have Phase-2 clearance.
+Verify **scans 67–68** at Phase 2. Do not begin Phase 3 or Phase 4 until both pages are independently source-cleared.
