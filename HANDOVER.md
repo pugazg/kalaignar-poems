@@ -12,17 +12,17 @@ Process only poems not already represented in the repository. Skip duplicate ran
 
 ## Active new Kalaignar scope
 
-1. scans **46–57** — Item 01 — **Phase 2 in progress: scans 46–48 verified, scans 49–57 pending**;
-2. scans **58–65** — Item 02 — **Phase 1 complete; Phase 2 pending**;
+1. scans **46–57** — Item 01 — **Phase 2 COMPLETE: 12/12 verified**;
+2. scans **58–65** — Item 02 — **Phase 2 in progress: scan 58 verified; scans 59–65 pending**;
 3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
 
-Phase 1: **22/22 complete**. Phase 2: **3/22 verified**.
+Phase 1: **22/22 complete**. Phase 2: **13/22 verified**.
 
-Scans 46–48 have been independently cleared from enlarged controlling pixels. Scan 48 replaced the incomplete Phase-1 reading with source-backed text including `பாராட்டி வாழ்த்தி எந்தன் கவியரங்கைத் தொடங்கு / கின்றேன்......`, `ராஜாராம்`, `ஆறுமுகம்`, the restored Shanmugam / M. Po. Si. / Puduvai Kuyil / comrades passages, and independently resolved historical forms `அமைதித்தனை` and `வரிகளையே`. Historical-glyph recheck is complete through scan 48; unresolved issues on the verified pages are **0**.
+Scans 46–57 are independently source-cleared. Scan 58 was also independently cleared from enlarged pixels, with source-backed corrections including `[மாதொரு பாகன்—சிவனார்!]`, `மாதவர்க்கும் ஒரு பாகம் உண்டன்றோ?`, `மருதநேயார் மதுரை முத்து மேயர்க்கும்`, and `நான் ஏற்பதில்லை—எதைத் துறந்திடினும்`. Historical-glyph recheck is complete through scan 58; unresolved issues on verified scans are **0**.
 
 ## Exact next activity
 
-Continue **Phase 2 independent source-critical verification at scan 49**. Correct only source-backed differences and promote to `verified` only after actual enlarged-source clearance. Do not begin Phase 3 or translation until Phase 2 is complete.
+Continue **Phase 2 independent source-critical verification at scan 59**, then proceed in physical order through scans 59–65. Correct only source-backed differences and promote each page to `verified` only after actual enlarged-source clearance. Do not begin Phase 3 or translation until Phase 2 is complete.
 
 ## Preserved completed works
 
