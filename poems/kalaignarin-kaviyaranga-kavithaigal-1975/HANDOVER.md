@@ -8,19 +8,31 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. Live `main` is authoritativ
 
 ## User-directed NEW-ITEM-ONLY policy
 
-Do not retranscribe already represented poems. Skip scans **9–20, 21–32, 33–45, 71–77, 78–84**. Earlier page records 9–32 remain archival cross-witnesses. Scans 69–70 are Bharathidasan material.
+Do not retranscribe or verify already represented poems as new works. Skip scans **9–20, 21–32, 33–45, 71–77, 78–84**. Earlier page records 9–32 remain archival cross-witnesses. Scan 66 is Rajaji source/context; scans 69–70 are Bharathidasan material.
 
-## Corrected active Kalaignar items
+## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — **Phase 1 complete: 12/12 `needs-review`**;
-2. scans **58–65** — Item 02 — **Phase 1 complete: 8/8 `needs-review`**;
-3. scan **66**, `சாராய சுதந்திரம்` — **NON-KALAIGNAR Rajaji source/context**;
-4. scans **67–68**, `முதல்வர் கலைஞரின் பதில் கவிதை` — Item 04 — **Phase 1 complete: 2/2 `partial`**.
+1. scans **46–57** — Item 01 — **Phase 2 in progress: scan 46 verified; scans 47–57 pending**;
+2. scans **58–65** — Item 02 — **Phase 1 complete; Phase 2 pending**;
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
 
-Active Kalaignar Phase-1 coverage: **22/22 COMPLETE**. Verified pages: **0**.
+Phase 1: **22/22 complete**. Phase 2: **1/22 verified**.
 
-Scans 67–68 were transcribed from enlarged source renders. Historical `ணா` in `அண்ணா` / `பெரியார் அண்ணா` was resolved using same-edition evidence and the user-supplied historical-glyph guide. No source wording was modernized.
+## Scan 46 verification checkpoint
+
+`pages/0046.md` was independently reread from enlarged controlling pixels and promoted to `verified`.
+
+Key source-backed resolutions:
+
+- `80-வது பிறந்தநாளை ஒட்டி நடைபெற்ற`;
+- `இன்று காலை: புறப்பட்டுக் கார் ஏறும் போது`;
+- restored `புதுவைக்குச் செல்கின்றாயா; அங்கு / “குடி”யுண்டே—`;
+- completed the friend-response and full `குடி` place-name sequence;
+- historical forms in `பிறந்தநாளை`, `செல்கின்றாயா`, `இஃதறியா`, `எத்தனையோ` independently rechecked;
+- unresolved scan-46 issues: **0**.
+
+No Phase-3 join/structure decision was made.
 
 ## Exact next activity
 
-Begin **Phase 2 independent source-critical verification at Item 01 scan 46** and proceed in physical order across scans **46–57, 58–65, 67–68** only. Recheck every line and historical-glyph decision against the controlling source. Correct only source-backed differences; promote to `verified` only after actual independent visual clearance. Do not begin Phase 3 or translation.
+Continue **Phase 2 with Item 01 scan 47 only**. Independently compare `pages/0047.md` against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only if all lexical, punctuation and lineation readings clear. Do not begin Phase 3 or translation.
