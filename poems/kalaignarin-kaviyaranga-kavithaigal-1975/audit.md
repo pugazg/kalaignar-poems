@@ -2,13 +2,13 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 1/22 VERIFIED / SOURCE SHA-256 PINNED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 2/22 VERIFIED / SOURCE SHA-256 PINNED.**
 
 - physical scans inventoried: **84/84**;
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - active Kalaignar production scans: **22/22 Phase-1 page records complete**;
-- Phase-2 verified active pages: **1/22** — scan **46**;
-- NEW ITEM 01, scans 46–57: **1 verified / 11 needs-review**;
+- Phase-2 verified active pages: **2/22** — scans **46–47**;
+- NEW ITEM 01, scans 46–57: **2 verified / 10 needs-review**;
 - NEW ITEM 02, scans 58–65: **0 verified / 8 needs-review**;
 - NEW ITEM 04, scans 67–68: **0 verified / 2 partial**;
 - scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, explicitly attributed to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`;
@@ -32,20 +32,25 @@ The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory. 
 
 ### Scan 46 — NEW ITEM 01 opening — VERIFIED
 
-Independent enlarged-source review completed the page and replaced the conservative Phase-1 partial reading with a full source-backed transcription.
+Independent enlarged-source review completed the page and replaced the conservative Phase-1 partial reading with a full source-backed transcription. Key resolutions included `80-வது பிறந்தநாளை ஒட்டி நடைபெற்ற`, `இன்று காலை: புறப்பட்டுக் கார் ஏறும் போது`, the restored `புதுவைக்குச் செல்கின்றாயா; அங்கு / “குடி”யுண்டே—` passage, and the complete `குடி` place-name sequence. Unresolved lexical/glyph issues: **0**.
 
-Source-backed corrections/resolutions include:
+### Scan 47 — NEW ITEM 01 continuation — VERIFIED
 
-- `80-வது பிறந்தநாள் விழா, நடைபெற்ற` → **`80-வது பிறந்தநாளை ஒட்டி நடைபெற்ற`**;
-- `இன்று கால : புரட்சிக்கவிஞர் ஏறும் போது` → **`இன்று காலை: புறப்பட்டுக் கார் ஏறும் போது`**;
-- restored the previously omitted **`புதுவைக்குச் செல்கின்றாயா; அங்கு / “குடி”யுண்டே—`** lines;
-- completed the friend-response passage and the full `குடி` place-name sequence through **`கல்லக்குடி சரிதானப்பா—தமிழ்நாட்டில்`**;
-- rechecked historical forms in **`பிறந்தநாளை`**, **`செல்கின்றாயா`**, **`இஃதறியா`**, and **`எத்தனையோ`** by character identity;
-- printed page numeral: **none visible**;
-- unresolved lexical/glyph issues on scan 46: **0**.
+Independent enlarged-source review completed the full page and corrected multiple Phase-1 provisional readings.
 
-`pages/0046.md` is therefore promoted to **`verified`**. This does not perform the later Phase-3 page-join or structural gates.
+Source-backed resolutions include:
+
+- opening continuation: `கள்ளக்குடி தடுத்ததற்குக் கடை திறப்பு / எப்போதென்றார்......?`;
+- Phase-1 `பக்தியுடன்` → source **`பருக்கிடம்`**;
+- restored `புள்ளி விவரம் கேட்டறிந்து— / சிந்தித்துச் செயல் படலாம்—பறக்காதே இப்போது! / சென்று வருகின்றேன் என விடைதந்து......`;
+- Phase-1 `“சாராய”` → source **`“சாரம்”`**;
+- restored the full car/friend exchange, the five `சிறப்பு` sequence, the 1946 Puduvai recollection, and the closing passage through `பண்புநிறை அமைச்சர் பெருமக்கள் தனை—`;
+- unusual printed forms `விடுவானு`, `மாட்டானு`, `தொளாயிரத்து`, `குத் தென்று`, `சிவனுரை` retained without normalization;
+- printed page numeral: **47**;
+- unresolved lexical/glyph issues on scan 47: **0**.
+
+`pages/0047.md` is therefore **`verified`**. Phase 3 structural/page-join work remains separate.
 
 ## Exact next activity
 
-Continue **Phase 2 with NEW ITEM 01 scan 47 only**, independently re-reading `pages/0047.md` against the controlling source at enlarged resolution and repeating the historical-glyph screen. Correct only source-backed differences and promote to `verified` only if the page fully clears. Do not begin Phase 3 or translation.
+Continue **Phase 2 with NEW ITEM 01 scan 48 only**, independently re-reading `pages/0048.md` against the enlarged controlling source and repeating the historical-glyph screen. Correct only source-backed differences and promote to `verified` only if the page fully clears. Do not begin Phase 3 or translation.
