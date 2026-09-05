@@ -12,23 +12,31 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 **COMPLETE — 10/10 page records created.**
 
-- partial: **9**;
-- needs-review: **1** (scan 9 bottom Tamil imprint);
-- verified: **0** — as required by Phase-1 status discipline.
+## Phase 2 — source-critical visual verification
+
+**COMPLETE / PASS — 10/10 verified.**
+
+- partial: **0**;
+- needs-review: **0**;
+- blocked: **0**;
+- source-backed corrections/resolutions: **5**, recorded in `poems/gunanayagar-nehru/audit.md`;
+- scan-9 bottom imprint: **`அரசு அச்சகம்.`**.
 
 Scans 8–9 preserve the source-supplied English translation as physical-source text rather than repository Phase-4 output.
 
-## Phase 2 — source-critical visual verification
-
-**NEXT — verify scans 1–10 independently against the controlling PDF.**
-
-Resolve or explicitly retain the scan-9 imprint uncertainty; promote pages to `verified` only after source-critical verification succeeds.
-
 ## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
-**DEFERRED until Phase 2 passes.**
+**IN PROGRESS — GATE 1 NEXT.**
 
-Tamil canonical poem-body boundary remains provisionally scans **3–7** and must be certified in Phase 3.
+### Gate 1 — physical scan ↔ printed/logical page reconciliation
+
+**NEXT.** Account for all 10 physical scans and distinguish visible printed numerals from reconciled logical pagination.
+
+### Gates 2–6
+
+**DEFERRED until Gate 1 passes.**
+
+Tamil canonical poem-body boundary remains provisionally scans **3–7** until certified by the ordered Phase-3 gates.
 
 ## Phase 4 — repository English translation and release
 
@@ -38,7 +46,7 @@ The source's existing English translation on scans 8–9 is archived as source e
 
 ## Exact next activity
 
-Complete **Phase 2 verification for scans 1–10 only**; do not begin assembly in the same activity.
+Complete **Phase 3 Gate 1 only**; do not begin Gate 2 or assembly in the same activity.
 
 ## Preserved completed work
 

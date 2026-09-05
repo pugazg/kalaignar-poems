@@ -11,18 +11,17 @@ Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic w
 Workspace: `poems/gunanayagar-nehru/`  
 Controlling source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE — PHASE 2 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 NEXT.**
 
 - physical scans: **10/10 accounted**;
-- page records: **10/10**;
-- partial: **9**;
-- needs-review: **1** — scan 9 bottom Tamil imprint;
-- verified: **0/10**;
+- verified page records: **10/10**;
+- partial / needs-review / blocked: **0 / 0 / 0**;
 - provisional Tamil poem scope: scans **3–7**;
 - source English translation: scans **8–9**, **BEAUTY ROSE WEPT**, credit **Dr. Krishna Srinivas**;
+- scan 9 verified bottom imprint: **`அரசு அச்சகம்.`**;
 - scan 10: uncaptained photograph/back matter.
 
-Exact next activity: independently verify all ten page records against the controlling source in Phase 2. Do not begin canonical assembly during the same pass.
+Exact next activity: **Phase 3 Gate 1 physical scan ↔ printed/logical page reconciliation only**. Do not begin Gate 2 or canonical assembly during the same activity.
 
 ## Preserved completed work — ஒருதலைக் காதல்
 

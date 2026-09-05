@@ -14,7 +14,7 @@ The PDF is image-based; source pixels are controlling.
 - poem-opening attribution: **முதல்வர் கலைஞர்**;
 - catalog/user-supplied author identity: **கலைஞர் மு. கருணாநிதி**.
 
-The printed attribution must not be silently replaced by the catalog form in source transcription.
+The printed attribution is preserved separately from the catalog form.
 
 ## Physical source structure
 
@@ -23,25 +23,22 @@ The printed attribution must not be silently replaced by the catalog form in sou
 - scans 3–7: Tamil poem, visible printed pages **2–6**;
 - scan 7: source performance note dated **14.11.1970**;
 - scans 8–9: source-supplied English translation **BEAUTY ROSE WEPT**;
-- scan 9: **Translation: Dr. Krishna Srinivas** plus one low-legibility Tamil bottom imprint requiring Phase-2 review;
+- scan 9: **Translation: Dr. Krishna Srinivas** and verified bottom imprint **`அரசு அச்சகம்.`**;
 - scan 10: uncaptained photograph/back matter.
-
-Provisional Tamil poem-body scope remains **scans 3–7** until Phase 3 certifies it.
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE — PHASE 2 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 NEXT.**
 
 - physical scans accounted: **10/10**;
-- Phase-1 page records: **10/10**;
-- `partial`: **9**;
-- `needs-review`: **1** (`pages/0009.md`, bottom Tamil imprint);
-- `verified`: **0/10**;
+- verified page records: **10/10**;
+- partial / needs-review / blocked: **0 / 0 / 0**;
+- Tamil poem-body scope remains provisionally scans **3–7** pending Phase 3 certification;
 - Tamil canonical assembly: deferred;
 - repository Phase-4 translation/release: deferred.
 
-The printed English pages 8–9 are archived as source evidence and are not repository Phase-4 translation output.
+Phase 2 made five source-backed corrections/resolutions recorded in `audit.md`, including the scan-9 bottom imprint. The source-printed English pages 8–9 remain source evidence, not repository Phase-4 translation output.
 
 ## Exact next activity
 
-Perform **Phase 2 source-critical visual verification for all 10 scans**. Independently reread every page against the controlling scan, including Tamil/English punctuation and lineation; resolve or explicitly retain the scan-9 bottom-imprint uncertainty; then promote a page to `verified` only when its independent verification actually passes. Do not begin Phase 3 assembly in the same activity unless Phase 2 has been completed and the repository records that transition explicitly.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Account for all 10 scans and distinguish visible printed numbers from inferred/reconciled logical pagination. Do not begin Gate 2, canonical Tamil assembly or translation in the same activity.
