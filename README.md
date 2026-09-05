@@ -11,19 +11,20 @@ Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic w
 Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`  
 Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**.
 
-**ONBOARDED / PHASE 1 IN PROGRESS — 20/84 page records.**
+**ONBOARDED / PHASE 1 IN PROGRESS — 32/84 page records.**
 
-- `partial`: **15**;
-- `needs-review`: **5** — scans 3, 4, 5, 7, 18;
-- historical-glyph first-pass using the user-supplied guide: **scans 9–20 complete**;
-- Anna 1975 cross-witness scans **9–20: 12/12 Phase-1 page records complete**;
+- `partial`: **22**;
+- `needs-review`: **10**;
+- historical-glyph first-pass using the user-supplied guide: **scans 9–32 complete**;
+- Anna cross-witness scans **9–20: 12/12 complete at Phase 1**;
+- Nehru cross-witness scans **21–32: 12/12 complete at Phase 1**;
 - verified: **0**;
-- exact next scan: **21**;
-- checksum: still an explicit source-identity defect; no checksum was guessed.
+- exact next scan: **33**;
+- checksum: still an explicit source-identity defect; a fresh hashing attempt failed and no checksum was guessed.
 
-The active work uses `HISTORICAL_GLYPH_AUDIT.md`. Historical Tamil character identity is checked before Unicode transcription using the known families `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`; this does not modernize source wording or replace the later independent Phase 2 verification gate.
+The active work uses `HISTORICAL_GLYPH_AUDIT.md`. Historical Tamil character identity is checked before Unicode transcription using `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`; this does not modernize source wording or replace the later independent Phase 2 verification gate.
 
-The Anna cross-witness remains cross-witness-only; no release-cleared Anna file was changed. Scan 18 retains one short unresolved source word rather than being filled from a later edition.
+Both completed cross-witness blocks remain cross-witness-only. No release-cleared Anna or Nehru canonical file was modified. Unread 1975 text remains explicitly open rather than being filled from later editions.
 
 New target blocks remain:
 
@@ -34,7 +35,7 @@ New target blocks remain:
 
 Five Kalaignar blocks in the same 1975 PDF are already represented elsewhere and remain cross-witnesses only; scans 69–70 are a Bharathidasan insert. No existing release-cleared poem tree has been modified.
 
-Exact next activity: continue **Phase 1 from scan 21**, beginning the 14.11.1970 Nehru kaviyarangam cross-witness through scan 32 while applying the historical-glyph screen page by page.
+Exact next activity: continue **Phase 1 from scan 33 through scan 45**, the `வாழ்வெனும் பாதையில்` cross-witness, applying the historical-glyph screen page by page.
 
 ## Latest completed work — குணநாயகர் நேரு
 
