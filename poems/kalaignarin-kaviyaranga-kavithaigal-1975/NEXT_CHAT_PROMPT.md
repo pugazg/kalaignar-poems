@@ -15,11 +15,11 @@ Do not retranscribe already represented blocks. Skip scans **9–20, 21–32, 33
 ## Active new items
 
 - Item 01: scans **46–57** — **Phase 1 first pass complete: 12/12 page records, all needs-review**;
-- Item 02: scans **58–65** — **NEXT**;
-- Item 03: scan **66**;
-- Item 04: scans **67–68**.
+- Item 02: scans **58–65** — **Phase 1 first pass complete: 8/8 page records, all needs-review**;
+- Item 03: scan **66** — **NEXT**;
+- Item 04: scans **67–68** — pending.
 
-New-item target scans: **23**. Current Phase-1 coverage: **12/23**.
+New-item target scans: **23**. Current Phase-1 coverage: **20/23**.
 
 ## Historical Tamil glyph control
 
@@ -27,12 +27,12 @@ Use `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` on every new Tamil target pa
 
 ## Durable checkpoint
 
-- `pages/0046.md` through `pages/0057.md` cover Item 01;
-- all twelve remain `needs-review` because uncertain dense text was deliberately left unresolved;
-- no page has been verified;
+- `pages/0046.md` through `pages/0065.md` cover Items 01–02;
+- all 20 completed new-item pages remain `needs-review`;
+- no new-item page has been verified;
 - no release-cleared canonical work was modified;
-- exact next scan: **58**.
+- exact next scan: **66**.
 
 ## Exact next activity
 
-Begin **NEW ITEM 02 Phase 1 at scan 58** and continue through scan 65. Do not begin Phase 2, Phase 3 or translation.
+Process **NEW ITEM 03 Phase 1 — scan 66, `சாராய சுதந்திரம்`, only**. Create its page record from the controlling scan, apply the historical-glyph screen, and leave unread text unresolved. Do **not** begin Item 04, Phase 2, Phase 3 or translation in the same activity.
