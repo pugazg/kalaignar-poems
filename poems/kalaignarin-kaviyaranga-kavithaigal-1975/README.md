@@ -4,20 +4,22 @@ Source-first archival workspace for the supplied 1975 anthology `TVA_BOK_0064169
 
 ## Current state
 
-**ONBOARDED / PHASE 1 IN PROGRESS — 12/84 PAGE RECORDS / HISTORICAL-GLYPH SCREEN ACTIVE / EXACT SHA-256 PIN STILL PENDING.**
+**ONBOARDED / PHASE 1 IN PROGRESS — 20/84 PAGE RECORDS / ANNA CROSS-WITNESS FIRST PASS COMPLETE / HISTORICAL-GLYPH SCREEN ACTIVE / EXACT SHA-256 PIN STILL PENDING.**
 
 The same supplied attachment remains controlling and its known size is **93,307,011 bytes**. No checksum has been invented; SHA-256 remains an explicit metadata defect until a functioning exact-byte hashing path is available.
 
 Phase 1 checkpoint:
 
-- scans **1–12** have page records;
-- `partial`: **8** — scans 1, 2, 6, 8–12;
-- `needs-review`: **4** — scans 3, 4, 5, 7;
+- scans **1–20** have page records;
+- `partial`: **15**;
+- `needs-review`: **5** — scans 3, 4, 5, 7, 18;
 - `verified`: **0** — Phase 2 has not begun;
-- historical-glyph first-pass: **scans 9–12 complete**;
-- exact next physical scan: **13**.
+- historical-glyph first-pass: **scans 9–20 complete**;
+- Anna 1975 cross-witness: **12/12 physical scans (9–20) have Phase-1 page records**;
+- scan 18 retains one short unresolved right-aligned word after `இனிமேலே எனப்`; it was not guessed or filled from a later edition;
+- exact next physical scan: **21**.
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is now used as a verification aid. See `HISTORICAL_GLYPH_AUDIT.md`. The source pixels remain controlling; historical character identity is encoded in modern Unicode without modernizing source wording.
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is used as a verification aid. See `HISTORICAL_GLYPH_AUDIT.md`. The source pixels remain controlling; historical character identity is encoded in modern Unicode without modernizing source wording. The full known 13-family screen is applied to every Tamil text page.
 
 ## Controlling source
 
@@ -41,7 +43,7 @@ The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is now used as
 
 ## Already represented elsewhere — do not duplicate canonically
 
-- scans 9–20: Anna memorial poem witness — existing `poems/idhayathai-thanthidu-anna/` and `poems/kalaignarin-kavithaigal/sections/01.md`;
+- scans 9–20: Anna memorial poem witness — **Phase-1 first pass now complete here**, but canonical authority remains elsewhere; do not duplicate or reopen it;
 - scans 21–32: 14.11.1970 Nehru kaviyarangam — existing `poems/kalaignarin-kavithaigal/sections/19.md`, with a separate later standalone Nehru witness;
 - scans 33–45: `வாழ்வெனும் பாதையில்` — existing `poems/kalaignarin-kavithaigal/sections/17.md`;
 - scans 71–77: `விடுதலை வீரர்கள்` — existing `poems/kalaignarin-kavithaigal/sections/06.md`;
@@ -55,4 +57,4 @@ Scans **69–70** visibly attribute the inserted verse to **பாவேந்�
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 13**, completing the Anna cross-witness through scan 20. Apply the historical-glyph guide page by page, preserve exact 1975 wording/punctuation/lineation, and keep Phase 2 separate. Do not modify the existing canonical Anna poem. Reattempt SHA-256 only when a functioning exact-byte path is available.
+Continue **Phase 1 transcription only from scan 21**. Scans **21–32** are the already represented Nehru kaviyarangam cross-witness. Apply the historical-glyph guide page by page, preserve this 1975 edition independently, and do not modify or create a duplicate canonical Nehru poem. Reattempt SHA-256 only when a functioning exact-byte path is available. Do not begin Phase 2, Phase 3 or translation.
