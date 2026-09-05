@@ -18,7 +18,7 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
-**IN PROGRESS — GATES 1–2 PASS / GATE 3 NEXT.**
+**IN PROGRESS — GATES 1–3 PASS / GATE 4 NEXT.**
 
 ### Gate 1 — physical scan ↔ printed/logical page reconciliation
 
@@ -26,15 +26,19 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ### Gate 2 — boundary / page-join audit
 
-**COMPLETE / PASS.** Canonical Tamil poem-body source scans **3–7**; joins **3→4, 4→5, 5→6, 6→7 = PASS 4/4**; scan-7 performance note outside verse; scans **1–2, 8–9, 10** excluded; unresolved issues **0**. Authority: `poems/gunanayagar-nehru/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+**COMPLETE / PASS.** Canonical Tamil verse source scans **3–7**; joins **3→4, 4→5, 5→6, 6→7 = PASS 4/4**; scan-7 performance note outside verse; scans **1–2, 8–9, 10** excluded; unresolved issues **0**. Authority: `poems/gunanayagar-nehru/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 ### Gate 3 — title / attribution witness reconciliation
 
-**NEXT.** Reconcile source title/attribution witnesses and source-English heading without silent substitution.
+**COMPLETE / PASS.** Exact Tamil title **குணநாயகர் நேரு** on cover and poem opening; exact source attribution **முதல்வர் கலைஞர்** on both; catalog identity `கலைஞர் மு. கருணாநிதி` remains metadata; `BEAUTY ROSE WEPT` is source-translation heading only; unresolved issues **0**. Authority: `poems/gunanayagar-nehru/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-### Later Phase-3 gates
+### Gate 4 — canonical Tamil assembly
 
-**DEFERRED until Gate 3 passes.** Canonical assembly remains deferred.
+**NEXT.** Assemble only from verified scans **3–7**, preserve scan provenance and exact Gate-3 title/attribution authority, and obey Gate-2 exclusions.
+
+### Gates 5–6
+
+**DEFERRED until Gate 4 is complete.**
 
 ## Phase 4
 
@@ -42,4 +46,4 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Exact next activity
 
-Complete **Phase 3 Gate 3 only**.
+Complete **Phase 3 Gate 4 only**.

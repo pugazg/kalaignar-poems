@@ -10,9 +10,14 @@
 
 Source intake result: **PASS — 10/10 physical scans accounted.**
 
-## Source-visible publication/context evidence
+## Source-visible identity and publication evidence
 
-Scan 2 `பதிப்புரை` records the 1989 issuing context and is dated **14.11.1989**. Scan 7 records the poem-performance context on **14.11.1970**. Scans 8–9 contain the printed source English translation by **Dr. Krishna Srinivas**.
+- scan 1 cover prints **குணநாயகர் நேரு** and **முதல்வர் கலைஞர்**;
+- scan 3 poem opening repeats **குணநாயகர் நேரு** and **முதல்வர் கலைஞர்**;
+- catalog/user author identity: **கலைஞர் மு. கருணாநிதி** — repository metadata, not a substituted source byline;
+- scan 2 `பதிப்புரை` records the 1989 issuing context and is dated **14.11.1989**;
+- scan 7 records the poem-performance context on **14.11.1970**;
+- scans 8–9 contain the printed English translation headed **BEAUTY ROSE WEPT**, credited **Translation: Dr. Krishna Srinivas**.
 
 ## Physical page roles and verified status
 
@@ -36,11 +41,13 @@ No unprinted page number is recorded as a visible printed value. Gate-1 logical 
 - Phase 1 transcription: **COMPLETE — 10/10**;
 - Phase 2 independent source-critical verification: **COMPLETE / PASS — 10/10 verified**;
 - unresolved readings: **0**;
-- Phase 3 Gate 1: **COMPLETE / PASS**;
-- Phase 3 Gate 2: **NEXT**.
+- Phase 3 Gate 1 pagination reconciliation: **PASS**;
+- Phase 3 Gate 2 boundary/page-join audit: **PASS**;
+- Phase 3 Gate 3 title/attribution witness reconciliation: **PASS**;
+- Phase 3 Gate 4 canonical Tamil assembly: **NEXT**.
 
-Gate 1 reconciled the numbered interior as **logical pages 1–8 = scans 2–9**, with visible printed numerals only **2–6 on scans 3–7**. Governing record: `PHASE3_PAGE_RECONCILIATION.md`.
+Gate 1 reconciled the numbered interior as **logical pages 1–8 = scans 2–9**. Gate 2 certified canonical Tamil verse source scans **3–7** and excluded the scan-7 performance note from verse scope. Gate 3 certified exact Tamil title **குணநாயகர் நேரு**, source attribution **முதல்வர் கலைஞர்**, and the separate status of source-English heading **BEAUTY ROSE WEPT**.
 
 ## Next activity
 
-Perform **Phase 3 Gate 2 boundary / page-join audit only**. Certify the Tamil poem opening, all four internal page joins, the scan-7 closing boundary/performance note, and the exclusion of non-Tamil-body scans before any later title reconciliation or assembly.
+Perform **Phase 3 Gate 4 canonical Tamil assembly only** from verified scans **3–7**, with explicit scan provenance and no silent normalization. Gate 5 review remains deferred.
