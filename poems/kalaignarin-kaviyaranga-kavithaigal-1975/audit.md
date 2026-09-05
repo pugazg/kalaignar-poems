@@ -2,77 +2,65 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM INVENTORY PASS / PHASE 1 IN PROGRESS — 32/84 / ANNA + NEHRU CROSS-WITNESS FIRST PASSES COMPLETE / HISTORICAL-GLYPH SCREEN ACTIVE / EXACT SHA-256 PENDING.**
+**ONBOARDED / NEW-ITEM INVENTORY PASS / NEW-ITEM-ONLY PROCESSING ACTIVE / PHASE 1 TARGET 1/23 / EXACT SHA-256 PENDING.**
 
 - physical scans inventoried: **84/84**;
-- new Kalaignar item blocks identified: **4/4**;
-- already represented Kalaignar blocks: **5**;
-- non-Kalaignar inserted block: **1** — Bharathidasan, scans 69–70;
-- page-record transcription: **32/84**;
-- Phase 1 statuses: **22 partial / 10 needs-review / 0 verified**;
-- historical-glyph first-pass coverage: **scans 9–32 complete**;
-- Anna 1975 cross-witness: **scans 9–20 complete at Phase 1**;
-- Nehru 1975 cross-witness: **scans 21–32 complete at Phase 1**;
-- exact next scan: **33**;
+- genuinely new Kalaignar blocks: **4/4** — scans **46–57, 58–65, 66, 67–68**;
+- new-item target scans: **23 total**;
+- new-item Phase-1 page records: **1/23** — scan **46**;
+- scan 46 status: **needs-review**;
+- exact next production scan: **47**;
+- already represented Kalaignar blocks: **5** — no further retranscription required;
+- non-Kalaignar Bharathidasan insert: scans **69–70** — classify only, exclude from Kalaignar canon;
+- repository writes to existing release-cleared poem trees: **0**;
 - canonical Tamil new items: **0/4**;
-- unresolved exact-source identity issue: **1 — SHA-256 not yet pinned**;
-- repository writes to existing release-cleared poem trees: **0**.
+- exact-source SHA-256 issue: **PENDING**.
+
+## User-directed processing-policy correction
+
+The user explicitly directed that poems already present in the repository should be **marked as existing and skipped**, rather than retranscribed again from this anthology.
+
+Accordingly:
+
+- scans **9–20** — Anna witness: already in repository; existing page records retained, no more work;
+- scans **21–32** — Nehru witness: already in repository; existing page records retained, no more work;
+- scans **33–45** — `வாழ்வெனும் பாதையில்`: **skip**, no duplicate page transcription;
+- scans **71–77** — `விடுதலை வீரர்கள்`: **skip**;
+- scans **78–84** — `தந்தை பெரியார்`: **skip**.
+
+The page records created earlier for scans 9–32 are not deleted; they remain archival edition witnesses. They are outside the active production target from this point forward.
 
 ## Historical Tamil glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` remains an explicit verification aid. See `HISTORICAL_GLYPH_AUDIT.md`.
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` remains mandatory for the four new items. On every Tamil target page screen the known historical/reform-sensitive set:
 
-For each Tamil text page, the known set `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` is screened from source pixels. Character identity is decoded into modern Unicode without modernizing source wording, spelling, punctuation or grammar. No global replacement is permitted. The historical-glyph pass does not itself assign `verified` status.
+`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
 
-## Earlier Phase 1 batches
+Character identity is determined from the controlling scan pixels and encoded into normal Unicode without modernizing source spelling, vocabulary, grammar, punctuation or lineation. No global replacement is permitted. Historical-glyph screening does not itself grant `verified` status.
 
-- scans **1–8**: publication preliminaries recorded;
-- scans **9–20**: Anna cross-witness first pass complete;
-- scan 18 retains one ordinary unread short source word;
-- no existing release-cleared Anna text was changed.
+## NEW ITEM 01 — Phase 1 start
 
-## Phase 1 batch 05 — scans 21–32
+Source range: scans **46–57**.
 
-Scans **21–32** are the already represented 14.11.1970 Nehru birthday kaviyarangam. They are preserved only as the 1975 publication witness and do not create or modify a canonical Nehru poem.
+Scan **46** was reviewed directly from the controlling PDF and `pages/0046.md` was created.
 
-- scan 21: event heading, participating poets/rights list, and poem opening captured; no visible printed page numeral; `partial`;
-- scans 22–24: visible printed pages 22–24; Rose/Nehru passage captured; `partial`;
-- scan 25: visible page 25; one short bracketed/parenthetical line after `முடியிருக்கும் தலையில்` remains unread; `needs-review`;
-- scan 26: visible page 26; one short lower-middle line sequence after `தஞ்சைக் கோயில்—தண்புனல் காவிரி` remains unread; `needs-review`;
-- scan 27: visible page 27; China-border / Kalinga / Puduvai passage captured; `partial`;
-- scan 28: visible page 28; poem conclusion and S. D. Sundaram introduction captured; one `பண நாயகம் ...` line remains unread; `needs-review`;
-- scan 29: visible page 29; Kothamangalam Subbu / Murugu Sundaram introduction captured; one `அன்பர் சுப்பு...` line remains unread; `needs-review`;
-- scan 30: visible page 30; Murugu Sundaram conclusion and Abdur Rahman introduction captured; `partial`;
-- scan 31: visible page 31; Abdur Rahman conclusion and Kannadasan introduction; first few Kannadasan lines remain unread because this 1975 introduction differs materially from the later witness; `needs-review`;
-- scan 32: visible page 32; Kannadasan conclusion plus `முடிவுரை` captured; `partial`.
+Clearly established source witnesses on scan 46 include:
 
-### Edition-witness controls
+- `புரட்சிக் கவிஞர் பாட்டரங்கில்`;
+- `முதல்வர் கலைஞர் தலைமைக் கவிதை`;
+- date **29-4-71**;
+- Bharathidasan **80-வது பிறந்தநாள்** context;
+- `கவியரங்கு`;
+- `இடம்:— புதுவை`;
+- opening word-play includes the visibly printed quoted form `“குடி”யுண்டே—` and place-name sequence including `காரைக்குடி`, `கண்ணங்குடி`, `குன்றக்குடி`, `குமாரக்குடி`, `மாங்குடி`, `மணக்குடி`, `வாங்குடி`, `ஆயங்குடி`;
+- the visible closing fragment on the page includes `கல்லக்குடி சரிதான்பா—தமிழ்நாட்டில்`.
 
-Visible 1975 readings are retained even where later witnesses differ. Examples include the Rose passage `முத்தமிட்டு`, `நிலையிலே`, `கூறினர்`, `இதழ் முத்தம்`, `அன்றுமுதல்`, and the unusual scan-24 `குரங்கின்கை ‘மாலை’ யாக ஆகிவிட்டார்` sequence. Later witnesses were not allowed to fill the unresolved scan-25/26/28/29/31 text.
+Several intervening lines are too visually uncertain in the current source render to transcribe without guessing. They are deliberately left unresolved. Therefore scan 46 is **`needs-review`**, not `partial` or `verified`.
 
-### Historical-glyph result for this batch
+## Source-identity exception
 
-- scans 21–32 received the full 13-family screen;
-- unresolved historical-family identities: **0**;
-- separate ordinary-source unresolved page records: **5** — scans 25, 26, 28, 29 and 31;
-- Phase 2 independent visual verification remains pending.
-
-## Source-identity exception record
-
-The exact supplied attachment remains controlling and its known byte size is **93,307,011 bytes**. Exact-byte hashing was reattempted, but the available execution path again failed. SHA-256 therefore remains visibly **PENDING**; no inferred checksum is used.
-
-Phase 1 may continue against this same supplied attachment, but exact-source identity and Phase 1 completion cannot be declared final until SHA-256 is pinned.
-
-## Duplicate-prevention audit
-
-Protected existing authorities remain unchanged:
-
-- Anna: `poems/idhayathai-thanthidu-anna/` and `poems/kalaignarin-kavithaigal/sections/01.md`;
-- Nehru: `poems/kalaignarin-kavithaigal/sections/19.md` and the separate later standalone Nehru witness;
-- `poems/kalaignarin-kavithaigal/sections/17.md`;
-- `poems/kalaignarin-kavithaigal/sections/06.md`;
-- `poems/kalaignarin-kavithaigal/sections/26.md`.
+The exact supplied attachment remains controlling and its known byte size is **93,307,011 bytes**. SHA-256 remains visibly **PENDING** because the available execution/hash path has not produced a reliable checksum. No inferred or fabricated hash is used.
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 33** in physical order. Scans **33–45** are the already represented `வாழ்வெனும் பாதையில்` cross-witness. Apply the historical-glyph guide to every Tamil text page, preserve the 1975 edition independently, and do not modify or create a duplicate canonical poem. Reattempt SHA-256 pinning when a functioning exact-byte path becomes available. Do not begin Phase 2, Phase 3 or translation.
+Continue **NEW ITEM 01 Phase 1 from scan 47**, not scan 33. Process only scans **47–57** for this first new poem, applying the historical-glyph guide and leaving unread text unresolved rather than filling it from context. Do not retranscribe any already represented block. Do not begin Phase 2, Phase 3 or translation.
