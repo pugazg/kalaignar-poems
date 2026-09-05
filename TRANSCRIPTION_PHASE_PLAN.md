@@ -17,7 +17,7 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 ## Historical Tamil glyph control
 
-The user-supplied historical-glyph guide is mandatory. Phase-1 family screening is complete for **22/22 active Kalaignar scans**. Phase-2 independent historical-glyph recheck is complete through **scan 65**. Source-pixel identity controls; no lexical modernization or global replacement.
+The user-supplied historical-glyph guide is mandatory. Phase-1 family screening and Phase-2 independent recheck are both **22/22 complete**. Source-pixel identity controls; no lexical modernization or global replacement.
 
 ## Phase 1 — new-Kalaignar transcription only
 
@@ -25,17 +25,27 @@ The user-supplied historical-glyph guide is mandatory. Phase-1 family screening 
 
 ## Phase 2 — independent source-critical verification
 
-**IN PROGRESS — 20/22 VERIFIED.**
+**COMPLETE — 22/22 VERIFIED.**
 
-- scans **46–57**: Item 01 **12/12 verified — COMPLETE**;
-- scans **58–65**: Item 02 **8/8 verified — COMPLETE**;
-- scans **67–68**: Item 04 pending verification.
+- scans **46–57**: Item 01 **12/12 verified**;
+- scans **58–65**: Item 02 **8/8 verified**;
+- scans **67–68**: Item 04 **2/2 verified**;
+- unresolved lexical/historical-glyph issues: **0**.
 
-For every remaining page, recheck every line, punctuation/lineation choice and historical-glyph decision against enlarged controlling-source pixels. Correct only source-backed differences. A page becomes `verified` only after actual independent clearance.
+## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-## Phase 3 — structural gates / canonical Tamil
+**IN PROGRESS — GATE 1 NEXT.**
 
-**BLOCKED until Phase 2 completes.** Canonical assembly may create only the three genuinely new Kalaignar blocks.
+Ordered gates from `POEM_PROCESSING_GUIDE.md`:
+
+1. **Physical scan ↔ printed-page reconciliation — NEXT**
+2. Boundary / page-join audit — deferred
+3. Title-witness reconciliation — deferred
+4. Canonical Tamil assembly — deferred
+5. Assembly/source-completeness review — deferred
+6. Tamil final clearance — deferred
+
+Gate 1 must distinguish visibly printed numerals from reconciled logical pagination and account for active new-item source ranges **46–57, 58–65, 67–68**, with scan 66 explicitly retained as non-Kalaignar source/context.
 
 ## Phase 4 — English translation / release
 
@@ -43,4 +53,4 @@ For every remaining page, recheck every line, punctuation/lineation choice and h
 
 ## Exact next activity
 
-Verify **scans 67–68** at Phase 2. Do not begin Phase 3 or Phase 4 until both pages are independently source-cleared.
+Perform **Phase 3 Gate 1 only**. Do not begin Gate 2, canonical assembly or Phase 4 in the same activity.
