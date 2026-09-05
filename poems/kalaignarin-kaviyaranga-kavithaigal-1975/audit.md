@@ -2,18 +2,25 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM INVENTORY PASS / PHASE 1 IN PROGRESS — 8/84 / EXACT SHA-256 PENDING.**
+**ONBOARDED / NEW-ITEM INVENTORY PASS / PHASE 1 IN PROGRESS — 12/84 / HISTORICAL-GLYPH SCREEN ACTIVE / EXACT SHA-256 PENDING.**
 
 - physical scans inventoried: **84/84**;
 - new Kalaignar item blocks identified: **4/4**;
 - already represented Kalaignar blocks: **5**;
 - non-Kalaignar inserted block: **1** — Bharathidasan, scans 69–70;
-- page-record transcription: **8/84**;
-- Phase 1 statuses: **4 partial / 4 needs-review / 0 verified**;
-- exact next scan: **9**;
+- page-record transcription: **12/84**;
+- Phase 1 statuses: **8 partial / 4 needs-review / 0 verified**;
+- historical-glyph first-pass coverage: **scans 9–12 complete**;
+- exact next scan: **13**;
 - canonical Tamil new items: **0/4**;
 - unresolved exact-source identity issue: **1 — SHA-256 not yet pinned**;
 - repository writes to existing release-cleared poem trees: **0**.
+
+## Historical Tamil glyph control
+
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is now an explicit verification aid for this source. See `HISTORICAL_GLYPH_AUDIT.md`.
+
+For each Tamil text page, the known set `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` is screened from source pixels. Historical character identity is decoded into modern Unicode without modernizing source wording, spelling, punctuation or grammar. No global replacement is permitted. This first-pass glyph screen does not itself assign `verified` status.
 
 ## Phase 1 batch 01 — scans 1–4
 
@@ -28,6 +35,19 @@
 - scan 6: faint bleed-through / verso-like page; no intentionally printed edition text clearly visible; `partial`;
 - scan 7: `பதிப்புரை` page; heading plus clearly readable closing `அன்புள்ள, / வை. சாமிநாதன், / 17-7-75.` captured; main body and role/address lines remain unresolved; `needs-review`;
 - scan 8: faint bleed-through / verso-like page; no intentionally printed edition text clearly visible; `partial`.
+
+## Phase 1 batch 03 — scans 9–12
+
+Scans 9–12 begin the already represented Anna memorial poem. They are preserved only as this publication's 1975 cross-witness and do not reopen the release-cleared Anna work.
+
+- scan 9: poem/event heading and opening verse transcribed; no printed page numeral visibly present; `partial`;
+- scan 10: visible printed page **10**, continuation transcribed; `partial`;
+- scan 11: visible printed page **11**, continuation transcribed; `partial`;
+- scan 12: visible printed page **12**, continuation transcribed; `partial`;
+- user-supplied historical-glyph guide applied to all four pages;
+- representative checks include `அண்ணா` (`ணா`), `அன்னை` (`னை`), `நினைவுண்டா` (`னை`) and `மாற்றான்` (`றா`);
+- no historical-glyph finding was used as permission to normalize edition wording;
+- Phase 2 independent visual verification remains pending.
 
 No page has been promoted to `verified`; this remains Phase 1 transcription only.
 
@@ -49,4 +69,4 @@ The following existing authorities remain protected from duplicate canonical cre
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 9** in physical order. Scan 9 begins the already represented Anna-poem cross-witness block; transcribe the 1975 witness faithfully but do not create or modify a duplicate canonical Anna poem. Reattempt SHA-256 pinning immediately when a functioning exact-byte hashing path is available. Do not begin Phase 2, Phase 3 or translation.
+Continue **Phase 1 transcription only from scan 13** in physical order, continuing the Anna cross-witness through scan 20. Apply the historical-glyph guide page by page, retain the full 13-family screen, and keep pages `partial`/`needs-review` until Phase 2. Do not modify the existing canonical Anna poem. Reattempt SHA-256 pinning when a functioning exact-byte hashing path is available. Do not begin Phase 2, Phase 3 or translation.
