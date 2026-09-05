@@ -12,29 +12,27 @@ Tamil layer: **FINAL-CLEARED**. Phase 1 **101/101**; Phase 2 **101/101 verified*
 
 ## Phase 4 durable state
 
-**Translation batch layer COMPLETE / REVIEWED PASS. Full-English assembly/editorial-consistency review COMPLETE / PASS. Final release gate remains.**
+**COMPLETE — RELEASE-CLEARED.**
 
 English title: **One-Sided Love**.
 
 - T0: **PASS**;
 - Batches 01–06: **6/6 PASS**;
 - reviewed English sections: **11/11**;
-- source coverage: **95/95 scans = 84 text-bearing + 11 illustration-only**;
-- reader-facing assembly: `translations/en/oruthalaik-kathal-en.md` — **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
-- full-work review: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**;
-- unresolved English assembly/editorial issues: **0**;
-- Tamil `pages/` / `sections/` changes during Phase 4: **0**.
+- source coverage: **95/95 = 84 text-bearing + 11 illustration-only**;
+- assembly: `translations/en/oruthalaik-kathal-en.md` — **89,457 bytes**, **3,004 lines**, blob `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
+- full-work editorial review: **PASS**;
+- final release report: `translations/en/RELEASE_REPORT.md` — **PASS**;
+- unresolved release issues: **0**.
 
-Post-batch review made one English-only correction: `translations/en/sections/03.md` scan 21 now uses the established **Karantai battle** form; the reader-facing assembly already carries the same form. Tamil was not changed.
+The release gate certifies all 95 main-work scan markers once and in order; exclusions **1–5 and 101**; all 11 illustration markers; closes **13,20,30,38,45,55,63,73,82,92**; internal separators; quotation/**Source explanation** layers; recurring terminology/refrains; reader-facing cleanliness; and scan-100 **(The End)** / final diamonds.
 
-The assembly represents all 95 main-work physical scans once and in order, including all 11 neutral illustration markers, numbered-section closes **13,20,30,38,45,55,63,73,82,92**, internal separators, quotation/Source-explanation layers and scan-100 **(The End)** plus final diamonds. Scans **1–5** and **101** remain excluded from poem-body translation.
+Section 3 and the assembly both use the corrected English form **Karantai battle**. Tamil was not changed.
 
-`poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be modified.
+Git comparison from Tamil checkpoint `0c6b3d19625a9478441f0f654584d8343163ba37` found **0 changed files** under active Tamil `pages/` and canonical `sections/` through release review.
 
-The active work is **not yet RELEASE-CLEARED**.
+`poems/kalaignarin-kavithaigal/` remains RELEASE-CLEARED and must not be modified by maintenance here.
 
-## Exact next activity
+## Current boundary
 
-Perform **Phase 4 final source-coverage / release-integrity review**. Verify all six batch records and eleven English sections are synchronized with `oruthalaik-kathal-en.md`; certify **95/95** scan markers exactly once, correct exclusions, illustration/close/internal-separator integrity, quotation/Source-explanation structure, recurring title/name/term locks, reader-facing cleanliness and the section-3 consistency correction. Compare from Tamil final-clearance commit `0c6b3d19625a9478441f0f654584d8343163ba37` and require **0 changed files** under active `pages/` and `sections/`.
-
-Create `translations/en/RELEASE_REPORT.md`. If all final checks PASS with unresolved release issues **0**, then and only then synchronize the work to **PHASE 4 COMPLETE — RELEASE-CLEARED**.
+There is no pending Phase-4 activity. Preserve the release-cleared state. Only genuine source evidence may trigger formal reopening; otherwise await a separately authorized next work.

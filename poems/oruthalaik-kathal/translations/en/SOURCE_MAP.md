@@ -6,9 +6,7 @@ Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINA
 
 Controlling source: `TVA_BOK_0065554_ஒருதலைக்_காதல்.pdf` — **101 scans**, **200,800,237 bytes**, SHA-256 `a9b0ff45820155a4775074f630e791a8304073a90e5e36ab793bdf702ec33184`.
 
-Normal English working source is the final-cleared Tamil canonical section layer. The controlling scan remains ultimate textual authority if a Tamil reading is questioned.
-
-Tamil final-clearance / T0 source checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
+Tamil final-clearance checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
 
 ## Canonical Tamil source map
 
@@ -26,15 +24,15 @@ Tamil final-clearance / T0 source checkpoint: `0c6b3d19625a9478441f0f654584d8343
 | 10 | `22bb738d9608254a8abe4b5eea9f1d34fe74cab5` | 83–92 | 78–87 | 84 | 06 | PASS |
 | 11 | `20fb17b872beed01ce9435b8e7ad1e7497e43d86` | 93–100 | 88–95 | 94 | 06 | PASS |
 
-The eleven ranges partition scans **6–100** with no gap or overlap. Tamil canonical blobs remain unchanged through Phase 4.
+The ranges partition scans **6–100** with no gap or overlap. Git release-gate comparison confirms these final-cleared Tamil canonical/page layers were not changed during Phase 4.
 
-## Current reviewed English section map
+## Reviewed English section map
 
-| Section | English file | Current English blob | Status |
+| Section | English file | Git blob | Status |
 |---:|---|---|---|
 | 1 | `sections/01.md` | `3355c03411984ad763b8d127be82149a50edb403` | reviewed PASS |
 | 2 | `sections/02.md` | `8409bcfe9b8edc9b5dd31611b6b3484a3ee9ac0f` | reviewed PASS |
-| 3 | `sections/03.md` | `1442f9d6c551e4d96e1c29a8da61ce5cbfdb4191` | reviewed PASS; post-batch English consistency correction applied |
+| 3 | `sections/03.md` | `1442f9d6c551e4d96e1c29a8da61ce5cbfdb4191` | reviewed PASS; **Karantai battle** correction applied |
 | 4 | `sections/04.md` | `36a620c42bc944855d091ea16dd6fd4d2fffe993` | reviewed PASS |
 | 5 | `sections/05.md` | `e353ce248c7837aaa9df0822be3306016e3f8f7b` | reviewed PASS |
 | 6 | `sections/06.md` | `ab396e298de1f57a3fac662f1c1b66af62ffa077` | reviewed PASS |
@@ -44,45 +42,32 @@ The eleven ranges partition scans **6–100** with no gap or overlap. Tamil cano
 | 10 | `sections/10.md` | `c24bc7038116ceb8adb9031da74d2e2fade1dba4` | reviewed PASS |
 | 11 | `sections/11.md` | `b76b515baab32cb8b179d89aa6bcee940e8c1d3c` | reviewed PASS |
 
-The section-3 post-batch change is English-only: scan 21 `karantai battle` was synchronized to the established **Karantai battle** lock. Tamil was unchanged.
-
 ## Full-English assembly checkpoint
 
-- reader-facing file: `oruthalaik-kathal-en.md`;
+- file: `oruthalaik-kathal-en.md`;
 - Git blob: `012a3bdaf330bb9b2db66d229c0be2a87d3f46f6`;
 - size: **89,457 bytes**;
 - line count: **3,004**;
-- source sections: **11/11 in order**;
-- source scan markers: **95/95 exactly once, scans 6–100**;
-- composition: **84 text-bearing + 11 illustration-only**;
-- full-work review: `EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
-- unresolved English assembly/editorial issues: **0**.
+- sections: **11/11 in source order**;
+- scan markers: **6–100 = 95/95 exactly once**;
+- composition: **84 text-bearing + 11 illustration-only**.
 
 ## Non-body exclusions
 
-Scan 1 front cover, scans 2–5 front matter / Roman I–IV, and scan 101 back cover remain outside poem-body translation scope.
+Scan **1** front cover, scans **2–5** front matter / Roman I–IV, and scan **101** back cover remain outside poem-body translation scope.
 
-## Structural witnesses preserved
+## Structural witnesses
 
 Full-page illustration scans: **8,16,22,32,40,48,58,66,76,84,94**. No invented English captions.
 
 Section-closing three-diamond witnesses: **13,20,30,38,45,55,63,73,82,92**. Internal separators including scans **7,87,90** remain internal. Final work closure on scan **100** remains source quotation → attribution → **Source explanation** → **(The End)** → final diamonds.
 
-Important continuation relationships preserved include **43→44, 51→52, 54→55, 61→62→63, 68→69, 70→71, 81→82, 87→88, 91→92 and 98→99→100**.
+Important continuation relationships include **43→44, 51→52, 54→55, 61→62→63, 68→69, 70→71, 81→82, 87→88, 91→92 and 98→99→100**.
 
 ## Recurring translation locks
 
-Current reviewed/assembled lock set includes **One-Sided Love**, **Source explanation**, **Kavarpentu**, **war-sword / flower-petal**, **Karantai battle**, ***Natrinai***, ***Akananuru***, ***Kuruntokai***, **Palver Katti**, narrative **Uraiyur** versus quotation-form **Uranthai**, **Attani council hall**, source-controlled **day-court**, source-distinct `பாணி` versus `ஆளி` / **yali**, **fire of cosmic destruction** in scan-92 context, **anicham flower**, and source `(முற்றும்)` → **(The End)** structurally.
+Current reviewed/assembled locks include **One-Sided Love**, **Source explanation**, **Kavarpentu**, **war-sword / flower-petal**, **Karantai battle**, ***Natrinai***, ***Akananuru***, ***Kuruntokai***, **Palver Katti**, narrative **Uraiyur** versus quotation-form **Uranthai**, **Attani council hall**, **day-court**, source-distinct `பாணி` versus `ஆளி` / **yali**, **fire of cosmic destruction**, **anicham flower**, and source `(முற்றும்)` → **(The End)** structurally.
 
-## Phase-4 status
+## Release status
 
-- Batches 01–06: **6/6 COMPLETE / REVIEWED PASS**;
-- English sections: **11/11 reviewed PASS**;
-- source coverage: **95/95**;
-- full-English assembly/editorial review: **COMPLETE / PASS**;
-- Tamil canonical changes during translation/editorial work: **0**;
-- release clearance: **NOT YET GRANTED**.
-
-## Exact next activity
-
-Perform the **Phase 4 final source-coverage / release-integrity gate**. Reconcile this source map, all six batch records, all eleven current English blobs, `oruthalaik-kathal-en.md` and `EDITORIAL_CONSISTENCY_REVIEW.md`; verify reader-facing cleanliness and **0 active Tamil page/canonical changes since checkpoint `0c6b3d19625a9478441f0f654584d8343163ba37`**. Create `RELEASE_REPORT.md`. Mark RELEASE-CLEARED only if the final gate passes with unresolved release issues **0**.
+**PHASE 4 COMPLETE — RELEASE-CLEARED.** `EDITORIAL_CONSISTENCY_REVIEW.md` is PASS; final governing release record `RELEASE_REPORT.md` is PASS; unresolved release issues **0**; Tamil page/canonical changes since final clearance **0**.
