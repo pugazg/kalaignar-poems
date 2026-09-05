@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 1/22 VERIFIED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 2/22 VERIFIED.**
 
 Controlling source:
 
@@ -18,21 +18,25 @@ Controlling source:
 
 | Intake ID | Source-heading label | Scans | Current state |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 in progress — scan 46 verified; 47–57 pending** |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 in progress — scans 46–47 verified; 48–57 pending** |
 | 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 1 complete; Phase 2 pending** |
 | 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context record** |
 | 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **Phase 1 complete; Phase 2 pending** |
 
-Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**. Phase 1 is complete and **1/22 pages are now independently verified**.
+Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**. Phase 1 is complete and **2/22 active pages are independently verified**.
 
 Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription or anthology verification. Scans **69–70** are Bharathidasan material.
 
-The user-supplied historical-glyph guide remains mandatory. Phase-1 screening is complete across all 22 active target scans; Phase-2 recheck is complete through scan 46.
+The user-supplied historical-glyph guide remains mandatory. Phase-2 recheck is complete through scan **47**.
 
-## Scan 46 Phase-2 result
+## Phase 2 checkpoint
 
-`pages/0046.md` is now `verified`. Enlarged source review corrected the provisional birthday/event wording, restored omitted opening dialogue, completed the `குடி` place-name sequence, and independently rechecked historically sensitive forms including `பிறந்தநாளை`, `செல்கின்றாயா`, `இஃதறியா`, and `எத்தனையோ`. Unresolved scan-46 readings: **0**.
+- scan 46: **verified**, unresolved issues 0;
+- scan 47: **verified**, with source-backed correction of the incomplete Phase-1 reading including `பருக்கிடம்`, `“சாரம்”`, the full `சிறப்பு` sequence and the 1946 Puduvai recollection;
+- exact next scan: **48**.
+
+No existing release-cleared poem tree has been changed.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 01 scan 47**. Correct only source-backed differences and promote the page to `verified` only after full independent visual clearance. Do not begin Phase 3 or translation.
+Continue **Phase 2 with Item 01 scan 48 only**. Correct only source-backed differences and promote the page to `verified` only after full independent visual clearance. Do not begin Phase 3 or translation.
