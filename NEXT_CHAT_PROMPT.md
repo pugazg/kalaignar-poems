@@ -16,17 +16,17 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - Phase 1: **22/22 complete**;
-- Phase 2: **14/22 verified**;
+- Phase 2: **20/22 verified**;
 - NEW ITEM 01 scans **46–57: 12/12 verified — Phase 2 COMPLETE**;
-- NEW ITEM 02 scans **58–59: verified**; scans **60–65: 6 needs-review**;
+- NEW ITEM 02 scans **58–65: 8/8 verified — Phase 2 COMPLETE**;
 - NEW ITEM 04 scans **67–68: 2 partial**;
-- historical-glyph Phase-2 recheck complete through scan **59**;
-- unresolved issues on verified scans 46–59: **0**.
+- historical-glyph Phase-2 recheck complete through scan **65**;
+- unresolved issues on verified scans 46–65: **0**.
 
-Scan 59 was independently reread from enlarged source pixels. Important source-backed resolutions include `தமிழை மட்டும் துறந்திடேன் எனச் சொல்லும்—நீவிர்`, the full Madurai/Sangam address, the `எனக் கிறுக்கும் / தனக் கிறுக்கும் / தவக் கிறுக்கர்` word-play, `கன்றுக்குடி / குன்றக்குடி`, `மாரியாலே / பாரியாலே`, and the closing Pari/chariot comparison. Phase 3 has not begun.
+Scan 65 was independently reread from enlarged source pixels and completes Item 02 with the source-cleared conclusion through `பல ‘புதுமை’கள் செய்திடுவோம்! / வணக்கம்.` Phase 3 has not begun.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 02 scan 60**, then proceed in physical order through scans 60–65. Independently compare each page against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote each page to `verified` only after complete visual clearance.
+Continue **Phase 2 with Item 04 scans 67–68**. Independently compare both page records against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote each page to `verified` only after complete visual clearance.
 
 Do not begin Phase 3 canonical assembly or Phase 4 translation until Phase 2 is complete.
