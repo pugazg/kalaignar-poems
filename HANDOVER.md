@@ -11,23 +11,23 @@ Tamil archival state is **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/10
 
 ## Phase 4 durable state
 
-**T0 COMPLETE / PASS. Batch 01 COMPLETE / REVIEWED PASS. Translation batches complete: 1/6.**
+**T0 COMPLETE / PASS. Batches 01–02 COMPLETE / REVIEWED PASS. Translation batches complete: 2/6.**
 
-English title fixed in Batch 01: **One-Sided Love**.
+English title: **One-Sided Love**.
 
-Batch 01 translated/reviewed Tamil sections **1–2**, scans **6–20 / logical pages 1–15**. Durable outputs:
+Batch 01: sections **1–2**, scans **6–20**, **15/15** scans represented.  
+Batch 02: sections **3–4**, scans **21–38**, **18/18** scans represented.
 
-- `poems/oruthalaik-kathal/translations/en/sections/01.md`;
-- `poems/oruthalaik-kathal/translations/en/sections/02.md`;
-- `poems/oruthalaik-kathal/translations/en/batches/BATCH_01.md`.
+Durable English outputs now include `translations/en/sections/01.md` … `04.md` and `translations/en/batches/BATCH_01.md`, `BATCH_02.md`.
 
-Coverage after Batch 01: **2/11 sections**, **15/95 main-work scans**, unresolved reviewed translation issues **0**. Illustration scans **8** and **16** remain neutral structural markers; scan-13 and scan-20 closing ornaments are preserved. Sangam quotations remain separate from the source's own prose explanation blocks. Tamil `pages/` / `sections/` changes during Phase 4: **0**.
+Cumulative reviewed progress: **4/11 sections**, **33/95 main-work scans**, consisting of **29 text-bearing + 4 illustration-only scans**. Unresolved reviewed translation issues: **0**. Tamil `pages/` / `sections/` changes during Phase 4: **0**.
+
+Batch-02 decisions preserve the Batch-01 title/name/term locks, the **war-sword / flower-petal** refrain, the named **Karantai battle**, distinct Sangam quotation versus source-explanation layers, source martial rhetoric, and conservative `takkai men` for `தக்கை மனிதர்` rather than inventing a gloss.
 
 Source rule remains: normal English source is final-cleared Tamil canonical sections; if Tamil is questioned, authority is controlling scan → verified page → canonical section → Phase-3 records. English difficulty never authorizes a silent Tamil edit.
 
 Remaining batches:
 
-2. sections 3–4 / scans 21–38;
 3. sections 5–6 / scans 39–55;
 4. sections 7–8 / scans 56–73;
 5. section 9 / scans 74–82;
@@ -37,4 +37,4 @@ Remaining batches:
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 4 Batch 02 — sections 3–4, scans 21–38 / logical pages 16–33.** Translate and review both complete sections; create English `translations/en/sections/03.md`, `sections/04.md` and `translations/en/batches/BATCH_02.md`. Do not modify final-cleared Tamil or begin Batch 03 in the same activity unless explicitly requested.
+**Phase 4 Batch 03 — sections 5–6, scans 39–55 / logical pages 34–50.** Translate and review both complete sections; create English `translations/en/sections/05.md`, `sections/06.md` and `translations/en/batches/BATCH_03.md`. Do not modify final-cleared Tamil or begin Batch 04 in the same activity unless explicitly requested.

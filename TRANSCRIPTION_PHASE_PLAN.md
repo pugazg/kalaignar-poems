@@ -24,14 +24,15 @@ Active workspace: `poems/oruthalaik-kathal/`.
 
 - T0 English translation setup/source mapping: **COMPLETE / PASS**;
 - Batch 01 sections 1–2 / scans 6–20: **COMPLETE / REVIEWED PASS**;
-- completed translation batches: **1/6**;
-- reviewed English sections: **2/11**;
-- reviewed source coverage: **15/95 main-work scans**;
-- English title fixed: **One-Sided Love**;
+- Batch 02 sections 3–4 / scans 21–38: **COMPLETE / REVIEWED PASS**;
+- completed translation batches: **2/6**;
+- reviewed English sections: **4/11**;
+- reviewed source coverage: **33/95 main-work scans**;
+- English title: **One-Sided Love**;
 - unresolved reviewed translation issues: **0**;
 - final-cleared Tamil files modified during Phase 4: **0**.
 
-Remaining batch boundaries: **02 sections 3–4 / scans 21–38; 03 sections 5–6 / 39–55; 04 sections 7–8 / 56–73; 05 section 9 / 74–82; 06 sections 10–11 / 83–100**.
+Remaining batch boundaries: **03 sections 5–6 / scans 39–55; 04 sections 7–8 / 56–73; 05 section 9 / 74–82; 06 sections 10–11 / 83–100**.
 
 ## Preserved completed state
 
@@ -39,4 +40,4 @@ Remaining batch boundaries: **02 sections 3–4 / scans 21–38; 03 sections 5�
 
 ## EXACT NEXT ACTIVITY
 
-**Phase 4 Batch 02 — translate and review sections 3–4, scans 21–38 / logical pages 16–33.** Create English `sections/03.md`, `sections/04.md` and `batches/BATCH_02.md`. Preserve Batch-01 translation locks and do not modify final-cleared Tamil.
+**Phase 4 Batch 03 — translate and review sections 5–6, scans 39–55 / logical pages 34–50.** Create English `sections/05.md`, `sections/06.md` and `batches/BATCH_03.md`. Preserve established translation locks and do not modify final-cleared Tamil.

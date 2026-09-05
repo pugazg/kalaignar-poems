@@ -15,21 +15,23 @@ Tamil archival state is **FINAL-CLEARED**: Phase 1 **101/101**, Phase 2 **101/10
 
 ## Phase 4
 
-**IN PROGRESS — T0 COMPLETE / PASS; Batch 01 COMPLETE / REVIEWED PASS.**
+**IN PROGRESS — T0 COMPLETE / PASS; Batches 01–02 COMPLETE / REVIEWED PASS.**
 
 - English title fixed: **One-Sided Love**;
-- translation batches complete: **1/6**;
-- reviewed English sections: **2/11**;
-- reviewed source coverage: **15/95 main-work scans**;
+- translation batches complete: **2/6**;
+- reviewed English sections: **4/11**;
+- reviewed source coverage: **33/95 main-work scans**;
+- reviewed source composition: **29 text-bearing + 4 illustration-only scans**;
 - Batch-01 outputs: `translations/en/sections/01.md`, `sections/02.md`, `batches/BATCH_01.md`;
+- Batch-02 outputs: `translations/en/sections/03.md`, `sections/04.md`, `batches/BATCH_02.md`;
 - unresolved reviewed translation issues: **0**;
 - final-cleared Tamil `pages/` / `sections/` changed during Phase 4: **0**.
 
-Batch plan: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **NEXT**; 03 sections 5–6 scans 39–55; 04 sections 7–8 scans 56–73; 05 section 9 scans 74–82; 06 sections 10–11 scans 83–100.
+Batch plan: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **NEXT**; 04 sections 7–8 scans 56–73; 05 section 9 scans 74–82; 06 sections 10–11 scans 83–100.
 
 ### Exact next activity
 
-**Phase 4 Batch 02 — translate and review sections 3–4, scans 21–38 / logical pages 16–33.** Create reviewed English `sections/03.md`, `sections/04.md` and `batches/BATCH_02.md`. Do not modify final-cleared Tamil.
+**Phase 4 Batch 03 — translate and review sections 5–6, scans 39–55 / logical pages 34–50.** Create reviewed English `sections/05.md`, `sections/06.md` and `batches/BATCH_03.md`. Do not modify final-cleared Tamil.
 
 ## Preserved completed work — கலைஞரின் கவிதைகள்
 

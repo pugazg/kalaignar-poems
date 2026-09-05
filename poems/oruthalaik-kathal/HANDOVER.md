@@ -12,22 +12,21 @@ Tamil layer: **FINAL-CLEARED**. Phase 1 **101/101**; Phase 2 **101/101 verified*
 
 ## Phase 4 durable state
 
-**T0 COMPLETE / PASS. Batch 01 COMPLETE / REVIEWED PASS. Translation batches complete: 1/6.**
+**T0 COMPLETE / PASS. Batches 01–02 COMPLETE / REVIEWED PASS. Translation batches complete: 2/6.**
 
-English title fixed in Batch 01: **One-Sided Love**.
+English title: **One-Sided Love**.
 
-Batch 01 covers Tamil sections **1–2**, scans **6–20 / logical pages 1–15**. Durable files:
+Batch 01 covers sections **1–2**, scans **6–20**.  
+Batch 02 covers sections **3–4**, scans **21–38**.
 
-- `translations/en/sections/01.md`;
-- `translations/en/sections/02.md`;
-- `translations/en/batches/BATCH_01.md`.
+Durable English files now include `translations/en/sections/01.md` … `04.md` and `translations/en/batches/BATCH_01.md`, `BATCH_02.md`.
 
-Batch-01 review result: **15/15 scans represented**, **13/13 text scans translated**, illustration scans **8** and **16** represented structurally without invented captions, scan-13 and scan-20 closing ornaments retained, unresolved alignment issues **0**. Cumulative English progress: **2/11 sections**, **15/95 main-work scans**.
+Cumulative progress: **4/11 sections**, **33/95 main-work scans**, **29 text-bearing + 4 illustration-only scans**, unresolved reviewed translation issues **0**. Illustration scans **8,16,22,32** remain neutral structural markers; section-closing ornaments **13,20,30,38** are retained.
 
-Translation locks established in Batch 01 include **One-Sided Love** for `ஒருதலைக் காதல்`, separate treatment of Sangam quotations and source explanations, `பொருள் விளக்கம்` → **Source explanation**, source-traceable proper-name forms, and preservation of source rhetorical/polemical language without fact-check rewriting.
+Batch 02 preserves the established **One-Sided Love**, **Source explanation**, proper-name and Sangam-layer locks, keeps the recurring **war-sword / flower-petal** contrast, adds **Karantai battle** for `கரந்தை`, and conservatively retains `தக்கை மனிதர்` as **takkai men** rather than inventing a gloss.
 
 Tamil `pages/` / `sections/` changes during Phase 4: **0**.
 
 ## Exact next activity
 
-**Phase 4 Batch 02 — sections 3–4, scans 21–38 / logical pages 16–33.** Translate and review both sections, create English `translations/en/sections/03.md`, `sections/04.md` and `translations/en/batches/BATCH_02.md`. Preserve Batch-01 locks and do not begin Batch 03 unless explicitly requested.
+**Phase 4 Batch 03 — sections 5–6, scans 39–55 / logical pages 34–50.** Translate and review both sections, create English `translations/en/sections/05.md`, `sections/06.md` and `translations/en/batches/BATCH_03.md`. Preserve established locks and do not begin Batch 04 unless explicitly requested.
