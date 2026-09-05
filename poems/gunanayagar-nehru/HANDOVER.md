@@ -10,36 +10,28 @@ Workspace: `poems/gunanayagar-nehru/`
 
 ## Durable state
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATES 1–3 PASS / GATE 4 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–4 PASS / GATE 5 NEXT.**
 
 - page records: **10/10 verified**;
 - unresolved readings: **0**;
-- Gate 1 pagination reconciliation: **PASS**, unresolved **0**;
-- Gate 2 boundary/page joins: **PASS**, unresolved **0**;
-- Gate 3 title/attribution witnesses: **PASS**, unresolved **0**;
-- numbered interior: **logical pages 1–8 = scans 2–9**;
-- canonical Tamil verse source boundary: scans **3–7**;
-- joins **3→4, 4→5, 5→6, 6→7**: **PASS 4/4**;
-- scan 7 performance note: excluded from canonical verse;
-- scans 1–2, 8–9, 10: excluded from canonical Tamil verse;
-- canonical Tamil title authority: **குணநாயகர் நேரு**;
-- source attribution authority: **முதல்வர் கலைஞர்**;
-- catalog/user identity: **கலைஞர் மு. கருணாநிதி** — metadata only, not substituted source text;
-- source English translation: scans 8–9, **BEAUTY ROSE WEPT**, `Translation: Dr. Krishna Srinivas`;
-- canonical Tamil assembly: **not yet started**.
+- Gate 1 pagination: **PASS**, unresolved **0**;
+- Gate 2 boundary/joins: **PASS**, unresolved **0**;
+- Gate 3 title/attribution: **PASS**, unresolved **0**;
+- Gate 4 canonical assembly: **PASS**;
+- canonical Tamil verse source: scans **3–7**;
+- canonical file: **`sections/01.md`**;
+- explicit scan provenance: **3–7**;
+- title authority: **குணநாயகர் நேரு**;
+- source attribution: **முதல்வர் கலைஞர்**;
+- catalog identity `கலைஞர் மு. கருணாநிதி`: metadata only;
+- scan-7 performance note remains excluded from canonical verse;
+- source English `BEAUTY ROSE WEPT` / Dr. Krishna Srinivas remains outside Tamil canonical assembly;
+- Tamil final clearance: **not yet granted**.
 
-Gate authorities:
-
-- `PHASE3_PAGE_RECONCILIATION.md`;
-- `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-Gate 3 corrected stale descriptive metadata: `முதல்வர் கலைஞர்` is visibly printed on both scan 1 cover and scan 3 poem opening. No verified page file changed.
-
-The user-supplied Wiktionary reference corroborates `கர்த்தபம்` = donkey; verified source wording remains unchanged.
+Gate authorities: `PHASE3_PAGE_RECONCILIATION.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md`.
 
 `poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain RELEASE-CLEARED and unchanged.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only** from verified scans **3–7**. Preserve scan provenance, exact title/attribution authority, verified lineation/punctuation and Gate-2 exclusions. Do not begin Gate 5 review in the same activity.
+Perform **Phase 3 Gate 5 — assembly/source-completeness review only**. Compare `sections/01.md` independently against verified page records/scans 3–7, certify coverage, provenance, exclusions and exact source fidelity. Do not grant Tamil final clearance in the same activity.

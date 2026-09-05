@@ -8,38 +8,35 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's **குணநா
 
 ## Reconciled source identity
 
-- Tamil title on scan 1 cover: **குணநாயகர் நேரு**;
-- Tamil title on scan 3 poem opening: **குணநாயகர் நேரு**;
-- printed attribution on both scans 1 and 3: **முதல்வர் கலைஞர்**;
-- catalog/user author identity: **கலைஞர் மு. கருணாநிதி** — metadata identity, not substituted into source transcription;
+- Tamil title on scans 1 and 3: **குணநாயகர் நேரு**;
+- printed attribution on scans 1 and 3: **முதல்வர் கலைஞர்**;
+- catalog/user author identity: **கலைஞர் மு. கருணாநிதி** — metadata only;
 - source English translation heading: **BEAUTY ROSE WEPT**;
 - source translator credit: **Translation: Dr. Krishna Srinivas**.
 
-Gate 3 certifies `குணநாயகர் நேரு` as the canonical Tamil title witness and `முதல்வர் கலைஞர்` as the source attribution line. `BEAUTY ROSE WEPT` remains a distinct source-translation heading, not an alternate Tamil title or predetermined Phase-4 English title.
-
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATES 1–3 PASS / GATE 4 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–4 PASS / GATE 5 NEXT.**
 
 - verified physical pages: **10/10**;
 - unresolved readings: **0**;
-- Gate 1 pagination: **PASS**, unresolved **0**;
-- Gate 2 boundary/page joins: **PASS**, unresolved **0**;
-- Gate 3 title/attribution witnesses: **PASS**, unresolved **0**;
-- reconciled numbered interior: **logical pages 1–8 = scans 2–9**;
+- Gates 1–3 unresolved issues: **0**;
 - certified canonical Tamil verse source scans: **3–7 = 5/5**;
 - joins **3→4, 4→5, 5→6, 6→7**: **4/4 PASS**;
-- scan-7 performance note: source context outside canonical verse;
-- canonical Tamil assembly: **not yet started**.
+- canonical Tamil assembly: **COMPLETE — `sections/01.md`**;
+- provenance markers in canonical assembly: **5/5 scans 3–7**;
+- scan-7 performance note remains outside canonical verse;
+- Gate 5 completeness review: **not yet performed**.
 
 Gate records:
 
 - `PHASE3_PAGE_RECONCILIATION.md`;
 - `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+- `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- `PHASE3_CANONICAL_ASSEMBLY.md`.
 
-The user-supplied Tamil Wiktionary reference corroborates the verified word **`கர்த்தபம்` = donkey**; no source transcription change results.
+The user-supplied Tamil Wiktionary reference corroborates **`கர்த்தபம்` = donkey**; verified source wording remains unchanged.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Assemble from verified scans **3–7**, preserve explicit scan provenance, use exact title `குணநாயகர் நேரு` and source attribution `முதல்வர் கலைஞர்`, and obey Gate-2 exclusions. Do not begin Gate 5 assembly/source-completeness review in the same activity.
+Perform **Phase 3 Gate 5 — assembly/source-completeness review only**. Independently compare `sections/01.md` against verified scans **3–7**, certify each required scan exactly once, provenance and exclusions, exact title/attribution, joins and source fidelity. Do not grant Tamil final clearance in the same activity.

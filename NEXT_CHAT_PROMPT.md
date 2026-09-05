@@ -1,4 +1,4 @@
-# Next Chat Prompt — குணநாயகர் நேரு — Phase 3 Gate 4
+# Next Chat Prompt — குணநாயகர் நேரு — Phase 3 Gate 5
 
 Continue directly in `pugazg/kalaignar-poems`, branch `main`, active path `poems/gunanayagar-nehru/`.
 
@@ -8,19 +8,12 @@ Fetch live `main` first and preserve newer durable state.
 
 Controlling source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-Read root processing/phase/status docs, active README/SOURCE_INTAKE/metadata/page-map/audit, all three Phase-3 gate records, handover/prompt, and verified pages `0001.md` … `0010.md` before source-dependent changes.
+Read root processing/phase/status docs, active README/SOURCE_INTAKE/metadata/page-map/audit, all four Phase-3 gate records, verified page records and `sections/01.md`.
 
-Current state: **PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–3 PASS**. Verified pages **10/10**, unresolved readings **0**, Gate-1 issues **0**, Gate-2 issues **0**, Gate-3 issues **0**. Canonical Tamil verse source boundary is scans **3–7**; canonical assembly has not begun.
-
-Locked Gate-3 authority:
-
-- canonical Tamil title: `குணநாயகர் நேரு`;
-- source attribution: `முதல்வர் கலைஞர்`;
-- catalog identity `கலைஞர் மு. கருணாநிதி` is metadata only;
-- source-English `BEAUTY ROSE WEPT` / `Translation: Dr. Krishna Srinivas` remains translation evidence outside Tamil canonical scope.
+Current state: **PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–4 PASS**. Verified pages **10/10**; unresolved readings **0**; canonical Tamil assembly is `sections/01.md` from certified verse scans **3–7**.
 
 ## EXACT NEXT ACTIVITY
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Assemble exclusively from verified page records for scans **3–7**, preserve exact source wording/lineation/punctuation and explicit scan provenance, use the locked Tamil title/source attribution, and exclude the scan-7 performance note from canonical verse according to Gate 2.
+Perform **Phase 3 Gate 5 — assembly/source-completeness review only**. Independently compare `sections/01.md` against verified page records and controlling scans **3–7**. Verify each provenance marker exactly once, exact title/attribution, wording, punctuation, lineation and page joins, Gate-2 exclusions, and absence of imported catalog/source-English material. Create the Gate-5 review record and synchronize status if unresolved issues are 0.
 
-Create/update the canonical Tamil section file and durable Gate-4 assembly record according to repository precedent. Do not perform Gate 5 completeness review or Tamil final clearance in the same activity. Preserve RELEASE-CLEARED works unchanged.
+Do not grant **Gate 6 Tamil final clearance** in the same activity. Preserve RELEASE-CLEARED works unchanged.

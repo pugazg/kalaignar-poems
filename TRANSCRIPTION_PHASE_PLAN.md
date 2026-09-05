@@ -18,32 +18,36 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
-**IN PROGRESS — GATES 1–3 PASS / GATE 4 NEXT.**
+**IN PROGRESS — GATES 1–4 PASS / GATE 5 NEXT.**
 
-### Gate 1 — physical scan ↔ printed/logical page reconciliation
+### Gate 1 — pagination reconciliation
 
-**COMPLETE / PASS.** Numbered interior **logical pages 1–8 = scans 2–9**; visible numerals **2–6 on scans 3–7**; unresolved issues **0**. Authority: `poems/gunanayagar-nehru/PHASE3_PAGE_RECONCILIATION.md`.
+**COMPLETE / PASS.** Logical pages **1–8 = scans 2–9**; unresolved **0**.
 
 ### Gate 2 — boundary / page-join audit
 
-**COMPLETE / PASS.** Canonical Tamil verse source scans **3–7**; joins **3→4, 4→5, 5→6, 6→7 = PASS 4/4**; scan-7 performance note outside verse; scans **1–2, 8–9, 10** excluded; unresolved issues **0**. Authority: `poems/gunanayagar-nehru/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+**COMPLETE / PASS.** Canonical Tamil verse scans **3–7**; joins **4/4 PASS**; performance-note/exclusion rules locked; unresolved **0**.
 
 ### Gate 3 — title / attribution witness reconciliation
 
-**COMPLETE / PASS.** Exact Tamil title **குணநாயகர் நேரு** on cover and poem opening; exact source attribution **முதல்வர் கலைஞர்** on both; catalog identity `கலைஞர் மு. கருணாநிதி` remains metadata; `BEAUTY ROSE WEPT` is source-translation heading only; unresolved issues **0**. Authority: `poems/gunanayagar-nehru/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+**COMPLETE / PASS.** Tamil title **குணநாயகர் நேரு**; source attribution **முதல்வர் கலைஞர்**; unresolved **0**.
 
 ### Gate 4 — canonical Tamil assembly
 
-**NEXT.** Assemble only from verified scans **3–7**, preserve scan provenance and exact Gate-3 title/attribution authority, and obey Gate-2 exclusions.
+**COMPLETE / PASS.** Canonical `poems/gunanayagar-nehru/sections/01.md` assembled from verified scans **3–7** with explicit provenance. Authority: `PHASE3_CANONICAL_ASSEMBLY.md`.
 
-### Gates 5–6
+### Gate 5 — assembly/source-completeness review
 
-**DEFERRED until Gate 4 is complete.**
+**NEXT.** Independently compare canonical assembly against verified source layer, certify coverage/exclusions/provenance and source fidelity.
+
+### Gate 6 — Tamil final clearance
+
+**DEFERRED until Gate 5 passes.**
 
 ## Phase 4
 
-**DEFERRED until Tamil final clearance.** The source's English translation on scans 8–9 remains source evidence, not repository Phase-4 output.
+**DEFERRED until Tamil final clearance.** Source English scans 8–9 remain source evidence, not repository Phase-4 output.
 
 ## Exact next activity
 
-Complete **Phase 3 Gate 4 only**.
+Complete **Phase 3 Gate 5 only**.
