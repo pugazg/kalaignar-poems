@@ -12,15 +12,17 @@ Process only poems not already represented in the repository. Skip duplicate ran
 
 ## Active new Kalaignar scope
 
-1. scans **46–57** — Item 01 — **Phase 1 complete: 12/12 `needs-review`**;
-2. scans **58–65** — Item 02 — **Phase 1 complete: 8/8 `needs-review`**;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete: 2/2 `partial`**.
+1. scans **46–57** — Item 01 — **Phase 2 in progress: scan 46 verified, scans 47–57 pending**;
+2. scans **58–65** — Item 02 — **Phase 1 complete; Phase 2 pending**;
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
 
-Active Kalaignar Phase-1 coverage: **22/22 COMPLETE**. Historical-glyph first-pass: **22/22 complete**. Verified active pages: **0**.
+Phase 1: **22/22 complete**. Phase 2: **1/22 verified**.
+
+Scan 46 was independently cleared from enlarged controlling pixels. The provisional Phase-1 wording was corrected to source-backed text including `80-வது பிறந்தநாளை ஒட்டி நடைபெற்ற`, `இன்று காலை: புறப்பட்டுக் கார் ஏறும் போது`, the omitted `புதுவைக்குச் செல்கின்றாயா; அங்கு / “குடி”யுண்டே—`, and the complete `குடி` place-name sequence. Historical forms were independently rechecked and unresolved scan-46 issues are **0**.
 
 ## Exact next activity
 
-Begin **Phase 2 independent source-critical verification at scan 46**, proceeding in physical order across **46–57, 58–65, 67–68** only. Correct only source-backed differences and promote pages to `verified` only after actual enlarged-source clearance. Do not begin Phase 3 or translation until Phase 2 is complete.
+Continue **Phase 2 independent source-critical verification at scan 47**. Correct only source-backed differences and promote to `verified` only after actual enlarged-source clearance. Do not begin Phase 3 or translation until Phase 2 is complete.
 
 ## Preserved completed works
 
