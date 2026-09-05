@@ -1,6 +1,6 @@
 # Physical page map — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
-Physical `scan_page` is 1-indexed against the exact 84-scan supplied PDF. Printed-page values have **not** yet been systematically reconciled; Phase 1 must record only numerals visibly printed on each scan.
+Physical `scan_page` is 1-indexed against the exact 84-scan supplied PDF. Printed-page values have **not** yet been systematically reconciled; Phase 1 records only numerals visibly printed on each scan.
 
 | Physical scans | Intake classification | Canonical policy |
 |---:|---|---|
@@ -24,3 +24,15 @@ Physical `scan_page` is 1-indexed against the exact 84-scan supplied PDF. Printe
 | 78–84 | existing `தந்தை பெரியார்` witness | cross-witness only; no duplicate canonical poem |
 
 Inventory coverage: **84/84 scans classified**.
+
+## Phase 1 page-record checkpoint
+
+| Scan | Page record | Phase 1 status | Printed numeral | Note |
+|---:|---|---|---|---|
+| 1 | `../pages/0001.md` | `partial` | none visible | cover title captured; damaged upper edge not reconstructed |
+| 2 | `../pages/0002.md` | `partial` | none visible | title/publication text and donation witness captured |
+| 3 | `../pages/0003.md` | `needs-review` | none visible | edition/price captured; small bottom imprint unresolved |
+| 4 | `../pages/0004.md` | `needs-review` | none visible | non-edition handwriting; full Tamil cursive reading deferred |
+| 5–84 | — | `not-started` | — | continue in physical order |
+
+Phase 1 transcription coverage: **4/84**. Exact next scan: **5**. No page is `verified`; Phase 2 has not begun.
