@@ -10,17 +10,21 @@ Workspace: `poems/gunanayagar-nehru/`
 
 ## Durable state
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 PASS / GATE 2 NEXT.**
 
-- page records: **10/10**;
-- verified: **10/10**;
+- page records: **10/10 verified**;
 - partial / needs-review / blocked: **0 / 0 / 0**;
-- provisional Tamil poem boundary: scans **3–7**;
+- Gate 1 reconciliation: **PASS**, unresolved pagination issues **0**;
+- numbered interior: **logical pages 1–8 = scans 2–9**;
+- source-visible numerals: **2–6 on scans 3–7** only;
+- candidate Tamil poem body: scans **3–7**;
 - source English translation: scans **8–9**, **BEAUTY ROSE WEPT**, credit **Dr. Krishna Srinivas**;
 - scan 9 bottom imprint: **`அரசு அச்சகம்.`**;
 - scan 10: uncaptained photograph/back matter.
 
-Phase-2 source-backed corrections are recorded in `audit.md`: scan 4 `பூமானே`; scan 6 `நல்வழியில்`; scan 8 `Hurling walls,`; scan 9 `Maha Meru?`; scan 9 imprint resolution.
+Gate-1 governing record: `PHASE3_PAGE_RECONCILIATION.md`. No page-record `printed_page` values were rewritten for inferred logical numbers.
+
+Phase-2 source-backed corrections are recorded in `audit.md`. The user later supplied <https://ta.wiktionary.org/wiki/கர்த்தபம்> as secondary lexical corroboration that **`கர்த்தபம்` means donkey**; the verified source reading remains unchanged.
 
 Printed poem attribution remains **முதல்வர் கலைஞர்**. Catalog/user author identity is **கலைஞர் மு. கருணாநிதி**; preserve their distinct source/catalog roles.
 
@@ -30,4 +34,4 @@ The printed English translation is physical-source evidence, not Phase-4 reposit
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Account for all 10 physical scans, preserve visible printed numerals exactly, derive logical pagination only as explicit structural metadata, and do not begin Gate 2 or canonical assembly in the same activity.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only**. Certify poem opening scan **3**, joins **3→4, 4→5, 5→6, 6→7**, scan-7 verse close versus the performance note, and exclusions **1–2, 8–9, 10** from the canonical Tamil body. Do not begin Gate 3 or canonical assembly in the same activity.
