@@ -18,7 +18,7 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
-**IN PROGRESS — GATES 1–4 PASS / GATE 5 NEXT.**
+**IN PROGRESS — GATES 1–5 PASS / GATE 6 NEXT.**
 
 ### Gate 1 — pagination reconciliation
 
@@ -34,15 +34,15 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ### Gate 4 — canonical Tamil assembly
 
-**COMPLETE / PASS.** Canonical `poems/gunanayagar-nehru/sections/01.md` assembled from verified scans **3–7** with explicit provenance. Authority: `PHASE3_CANONICAL_ASSEMBLY.md`.
+**COMPLETE / PASS.** Canonical `poems/gunanayagar-nehru/sections/01.md` assembled from verified scans **3–7** with explicit provenance. Authority: `poems/gunanayagar-nehru/PHASE3_CANONICAL_ASSEMBLY.md`.
 
 ### Gate 5 — assembly/source-completeness review
 
-**NEXT.** Independently compare canonical assembly against verified source layer, certify coverage/exclusions/provenance and source fidelity.
+**COMPLETE / PASS.** Canonical section **1/1**; scans **3–7 = 5/5 exactly once**; missing / duplicate markers **0 / 0**; source/page/canonical discrepancies **0**. Authority: `poems/gunanayagar-nehru/PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
 
 ### Gate 6 — Tamil final clearance
 
-**DEFERRED until Gate 5 passes.**
+**NEXT.** Reconfirm Gates 1–5 and unresolved Tamil/source issues 0, then record the final-clearance decision. Do not begin Phase 4 in the same gate.
 
 ## Phase 4
 
@@ -50,4 +50,4 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Exact next activity
 
-Complete **Phase 3 Gate 5 only**.
+Complete **Phase 3 Gate 6 only**.

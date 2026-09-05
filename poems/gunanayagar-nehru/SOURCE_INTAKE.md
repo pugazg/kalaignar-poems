@@ -22,14 +22,13 @@ Source intake result: **PASS — 10/10 physical scans accounted.**
 
 - Phase 1: **COMPLETE — 10/10**;
 - Phase 2: **PASS — 10/10 verified, unresolved 0**;
-- Phase 3 Gate 1: **PASS**;
-- Phase 3 Gate 2: **PASS**;
-- Phase 3 Gate 3: **PASS**;
-- Phase 3 Gate 4 canonical Tamil assembly: **PASS — `sections/01.md`**;
-- Phase 3 Gate 5 completeness review: **NEXT**.
+- Phase 3 Gates 1–5: **PASS**;
+- canonical Tamil assembly: **`sections/01.md`** from scans **3–7**;
+- Gate-5 canonical source coverage: **5/5 scans exactly once**, unresolved **0**;
+- Phase 3 Gate 6 Tamil final clearance: **NEXT**.
 
-Gate 1 reconciled logical pages **1–8 = scans 2–9**. Gate 2 certified Tamil verse scans **3–7**. Gate 3 locked exact Tamil title **குணநாயகர் நேரு** and source attribution **முதல்வர் கலைஞர்**. Gate 4 assembled those verified verse records with explicit scan provenance and preserved all exclusions.
+Gate 1 reconciled logical pages **1–8 = scans 2–9**. Gate 2 certified Tamil verse scans **3–7** and exclusions. Gate 3 locked exact Tamil title **குணநாயகர் நேரு** and source attribution **முதல்வர் கலைஞர்**. Gate 4 assembled the canonical Tamil verse. Gate 5 independently reconfirmed the source/page/canonical layer with no discrepancy.
 
 ## Next activity
 
-Perform **Phase 3 Gate 5 assembly/source-completeness review only**. Tamil final clearance remains deferred.
+Perform **Phase 3 Gate 6 Tamil final clearance only**. Phase 4 remains deferred.

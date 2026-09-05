@@ -16,27 +16,30 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's **குணநா
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–4 PASS / GATE 5 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–5 PASS / GATE 6 NEXT.**
 
 - verified physical pages: **10/10**;
 - unresolved readings: **0**;
-- Gates 1–3 unresolved issues: **0**;
-- certified canonical Tamil verse source scans: **3–7 = 5/5**;
+- Gates 1–5 unresolved issues: **0**;
+- canonical Tamil verse source scans: **3–7 = 5/5**;
 - joins **3→4, 4→5, 5→6, 6→7**: **4/4 PASS**;
 - canonical Tamil assembly: **COMPLETE — `sections/01.md`**;
-- provenance markers in canonical assembly: **5/5 scans 3–7**;
+- Gate-5 canonical coverage: **5/5 scans 3–7 exactly once**;
+- missing / duplicated canonical markers: **0 / 0**;
 - scan-7 performance note remains outside canonical verse;
-- Gate 5 completeness review: **not yet performed**.
+- Gate-5 source/canonical discrepancies: **0**;
+- Tamil final clearance: **not yet granted**.
 
 Gate records:
 
 - `PHASE3_PAGE_RECONCILIATION.md`;
 - `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- `PHASE3_CANONICAL_ASSEMBLY.md`.
+- `PHASE3_CANONICAL_ASSEMBLY.md`;
+- `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
 
 The user-supplied Tamil Wiktionary reference corroborates **`கர்த்தபம்` = donkey**; verified source wording remains unchanged.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 5 — assembly/source-completeness review only**. Independently compare `sections/01.md` against verified scans **3–7**, certify each required scan exactly once, provenance and exclusions, exact title/attribution, joins and source fidelity. Do not grant Tamil final clearance in the same activity.
+Perform **Phase 3 Gate 6 — Tamil final clearance only**. Reconfirm Gates 1–5 PASS, verified pages 10/10, canonical section 1/1, scans 3–7 exactly once, all title/attribution/exclusion authorities, and unresolved Tamil/source issues 0. Do not begin Phase 4 translation in the same activity.

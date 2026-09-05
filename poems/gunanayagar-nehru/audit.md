@@ -2,7 +2,7 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–4 PASS / GATE 5 NEXT**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–5 PASS / GATE 6 NEXT**
 
 - physical scans accounted: **10/10**;
 - page records: **10/10 verified**;
@@ -11,9 +11,10 @@
 - Gate 2 boundary/join issues: **0**;
 - Gate 3 title/attribution issues: **0**;
 - Gate 4 canonical assembly: **PASS**;
+- Gate 5 assembly/source-completeness review: **PASS**, unresolved **0**;
 - canonical Tamil verse source scans: **3–7 = 5/5**;
 - canonical file: **`sections/01.md`**;
-- Tamil final clearance: deferred;
+- Tamil final clearance: **deferred to Gate 6**;
 - repository Phase 4 translation: deferred.
 
 ## Phase 2 verification
@@ -40,9 +41,24 @@ Source-backed corrections/resolutions remain: scan 4 `பூமானே`; scan 
 - assembled only from verified `pages/0003.md` … `0007.md`;
 - explicit provenance markers: scans **3, 4, 5, 6, 7**;
 - Gate-2 performance-note exclusion preserved;
-- catalog byline and source-English translation not imported;
 - verified page files changed by Gate 4: **0**.
+
+## Phase 3 Gate 5
+
+**PASS.** Authority: `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
+
+Fresh comparison of controlling scans 3–7, verified page records and `sections/01.md` confirmed:
+
+- canonical section files reviewed: **1/1**;
+- required scan coverage: **3–7 = 5/5 exactly once**;
+- missing / duplicated provenance markers: **0 / 0**;
+- excluded scan markers **1–2, 8–9, 10**: **0 present**;
+- performance note / source-English / catalog-byline leaks: **0**;
+- lexical, punctuation, lineation or join mismatches: **0**;
+- page files changed by Gate 5: **0**;
+- canonical files changed by Gate 5: **0**;
+- unresolved Gate-5 issues: **0**.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 5 — assembly/source-completeness review only**. Independently verify the canonical section against the verified page layer and certified boundaries. Do not grant Gate 6 Tamil final clearance in the same activity.
+Perform **Phase 3 Gate 6 — Tamil final clearance only**. Reconfirm Gates 1–5 and zero unresolved Tamil/source issues; create `PHASE3_TAMIL_FINAL_CLEARANCE.md` only if the final-clearance gate passes. Do not begin Phase 4 in the same activity.
