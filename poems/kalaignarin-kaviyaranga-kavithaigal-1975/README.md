@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATE 1 NEXT.**
+**ONBOARDED / NEW-ITEM-ONLY / PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATE 1 COMPLETE — PASS / GATE 2 NEXT.**
 
 Controlling source:
 
@@ -18,15 +18,27 @@ Controlling source:
 
 | Intake ID | Source-heading label | Scans | Current state |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 COMPLETE — 12/12 verified** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 2 COMPLETE — 8/8 verified** |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 complete; Gate 1 reconciled** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 2 complete; Gate 1 reconciled** |
 | 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context record** |
-| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **Phase 2 COMPLETE — 2/2 verified** |
+| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **Phase 2 complete; Gate 1 reconciled** |
 
-Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**, all independently verified. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription or anthology verification. Scans **69–70** are Bharathidasan material.
+There are **3 genuinely new Kalaignar blocks / 22 production scans**, all independently verified. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription or anthology verification. Scans **69–70** are Bharathidasan material.
 
-The user-supplied historical-glyph guide was applied through both phases and Phase-2 glyph recheck is **22/22 complete** with unresolved issues **0**. Existing release-cleared poem trees remain untouched.
+Historical-glyph screening and independent recheck are **22/22 complete**, unresolved issues **0**. Existing release-cleared poem trees remain untouched.
+
+## Phase 3 Gate 1
+
+`PHASE3_STRUCTURE_AUDIT.md` records **COMPLETE / PASS**:
+
+- structural interval: scans **46–68**;
+- reconciled logical publication pages: **46–68**;
+- invariant: `logical page = physical scan_page`;
+- visible numerals: scans **47–57, 59–65, 68**;
+- suppressed numerals: scans **46, 58, 66, 67**;
+- unexplained gaps/resets: **none**;
+- page-text changes: **none**.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Account for the active new-item ranges and preserve visible printed numerals separately from reconciled logical pagination. Do not begin Gate 2 boundary/page-join audit, canonical assembly or translation in the same activity.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only** for NEW ITEM 01, NEW ITEM 02 and NEW ITEM 04. Use scan 66 only as contextual separation evidence. Do not begin Gate 3 title reconciliation, canonical assembly or translation in the same activity.
