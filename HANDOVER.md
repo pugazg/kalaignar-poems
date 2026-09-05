@@ -7,7 +7,7 @@ Repository: `pugazg/kalaignar-poems` — branch `main`. **Live `main` is authori
 Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`  
 Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**.
 
-Current state: **ONBOARDED / PHASE 1 IN PROGRESS — 4/84 page records**.
+Current state: **ONBOARDED / PHASE 1 IN PROGRESS — 8/84 page records**.
 
 Four previously unrepresented Kalaignar blocks are active:
 
@@ -20,16 +20,18 @@ Cross-witness-only Kalaignar blocks: scans **9–20, 21–32, 33–45, 71–77, 
 
 Phase 1 checkpoint:
 
-- scans 1–2: `partial`;
-- scans 3–4: `needs-review`;
-- scan 3 unresolved: small bottom printer/imprint line;
+- `partial`: scans **1, 2, 6, 8**;
+- `needs-review`: scans **3, 4, 5, 7**;
+- scan 3 unresolved: small bottom imprint;
 - scan 4 unresolved: cursive Tamil handwritten inscription;
+- scan 5 unresolved: dense `முன்னுரை` body;
+- scan 7 unresolved: dense `பதிப்புரை` body/role lines;
 - verified: **0**;
-- exact next scan: **5**.
+- exact next scan: **9**.
 
-The exact supplied attachment was re-resolved and its byte size still matches the intake record. SHA-256 calculation could not be completed because the current execution runtime did not provide a functioning local hashing path. Keep this as an explicit source-identity defect; do not invent a checksum.
+The same supplied attachment remains controlling and its byte size still matches the intake record. SHA-256 calculation remains unavailable through the current execution paths. Keep this as an explicit source-identity defect; do not invent a checksum.
 
-Exact next activity: **continue Phase 1 transcription from scan 5 in physical order**, and reattempt SHA-256 pinning whenever an exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or translation.
+Exact next activity: **continue Phase 1 transcription from scan 9 in physical order**. Scans 9–20 are an existing Anna-poem cross-witness; preserve the 1975 witness faithfully but do not reopen or alter the release-cleared canonical Anna work solely to match this edition. Reattempt SHA-256 pinning whenever an exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or translation.
 
 ## Preserved completed works
 
