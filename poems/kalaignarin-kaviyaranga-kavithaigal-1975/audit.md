@@ -2,14 +2,14 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 14/22 VERIFIED / SOURCE SHA-256 PINNED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 IN PROGRESS — 20/22 VERIFIED / SOURCE SHA-256 PINNED.**
 
 - physical scans inventoried: **84/84**;
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - active Kalaignar production scans: **22/22 Phase-1 page records complete**;
-- Phase-2 verified active pages: **14/22** — scans **46–59**;
-- NEW ITEM 01, scans 46–57: **12/12 verified — Phase 2 COMPLETE for Item 01**;
-- NEW ITEM 02, scans 58–65: **2 verified / 6 needs-review**;
+- Phase-2 verified active pages: **20/22** — scans **46–65**;
+- NEW ITEM 01, scans 46–57: **12/12 verified — Phase 2 COMPLETE**;
+- NEW ITEM 02, scans 58–65: **8/8 verified — Phase 2 COMPLETE**;
 - NEW ITEM 04, scans 67–68: **0 verified / 2 partial**;
 - scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, explicitly attributed to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`;
 - scans 69–70: Bharathidasan insert — non-Kalaignar;
@@ -26,7 +26,7 @@
 
 ## Historical Tamil glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory. The full family screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` was applied during Phase 1 across all **22 active Kalaignar target scans** and has now been independently repeated through **scan 59** during Phase 2. No global replacement or lexical modernization is allowed.
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory. The full family screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` was applied during Phase 1 across all **22 active Kalaignar target scans** and has now been independently repeated through **scan 65** during Phase 2. No global replacement or lexical modernization is allowed.
 
 ## Phase 2 verification ledger
 
@@ -34,23 +34,36 @@ The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory. 
 
 NEW ITEM 01 is **12/12 verified** from enlarged controlling-source pixels. Unresolved lexical/historical-glyph issues: **0**.
 
-### Scan 58 — VERIFIED — NEW ITEM 02 STARTED
+### Scans 58–59 — VERIFIED
 
-Independent enlarged-source review corrected the Pari Vallal opening, including `[மாதொரு பாகன்—சிவனார்!]`, `மாதவர்க்கும் ஒரு பாகம் உண்டன்றோ?`, `மருதநேயார் மதுரை முத்து மேயர்க்கும்`, and `நான் ஏற்பதில்லை—எதைத் துறந்திடினும்`. No visible printed page numeral. Unresolved issues: **0**.
+The Pari Vallal item opening and Madurai/Sangam passage were independently reread and source-cleared. Unresolved issues: **0**.
 
-### Scan 59 — VERIFIED
+### Scan 60 — VERIFIED
 
-Independent enlarged-source review replaced the conservative Phase-1 extract with the complete visible page. Key source-backed resolutions include:
+The Murugan/Valli narrative was independently re-read from enlarged source pixels. The full peacock-flight, old-woman, `வள்ளி எங்கே?` and `வள்ளிக்கிழங்கு` word-play is source-cleared; source spelling and punctuation were retained without modernization. Unresolved issues: **0**.
 
-- opening `தமிழை மட்டும் துறந்திடேன் எனச் சொல்லும்—நீவிர் / தமிழ்த் துறவி அல்ல!`;
-- full Madurai drafting / Sangam / `புலவர் குழுவே!` address;
-- complete `எனக் கிறுக்கும் / தனக் கிறுக்கும் / தவக் கிறுக்கர்` word-play;
-- restored `கன்றுக்குடி` / `குன்றக்குடி` sequence and `குன்றக்குடி ஆதீனக் கொடி பறக்கும் பறம்பு மலை வந்து / விட்டேன்`;
-- restored `மாரியாலே / பாரியாலே`, `பலாச் சுனை`, and the closing comparison through `கொடிக்கிருக்க விட்டாக இழையணித்தேர் ஈந்த அண்ணல்`;
-- historical families independently rechecked in `நீவிர்`, `குன்றக்குடி`, `பாரியாலே`, `வளைக்கிருக்கும்`, `வைக்கா`, and `அண்ணல்`;
-- printed page numeral: **59**;
-- unresolved lexical/glyph issues: **0**.
+### Scan 61 — VERIFIED
+
+The Pari–Kapilar narrative was restored and checked in full, including Pari's daughters, the three kings' assault, Kapilar arranging the daughters' marriages, and the contrast with false modern friendship. Unresolved issues: **0**.
+
+### Scan 62 — VERIFIED
+
+The friendship/charity/social-policy passage was independently source-cleared, including `எட்டப்பர்`, `கபிலர்—பாரி கனிந்த நட்பு!`, the nine-fold gift sequence, the poor-person comparison, and the anti-begging / vocational-training conclusion. Source forms including `தவித்துழலும்` and the `பாரியானீர்— ... பாதியானீர்!` word-play were retained. Unresolved issues: **0**.
+
+### Scan 63 — VERIFIED
+
+The six thematic labels and repeated `மை` word-play were source-cleared. The first thematic label on this page is **`வண்மை`**, not `வன்மை`; the correction is source-backed. The poet-introduction lines and the `இம் ‘மை’ / மறு ‘மை’` sequence were independently checked. Unresolved issues: **0**.
+
+### Scan 64 — VERIFIED
+
+The `வண்மை / வலிமை / இறைமை / புதுமை` poet hand-offs and the `கொடியரசன் / முடியரசன் / குடியரசு / முடியரசர் / முடியரசு` word-play were independently verified. The source-backed line `சிக்கலிலே வாழும் சிங்கார வேலா` was preserved. Unresolved issues: **0**.
+
+### Scan 65 — VERIFIED — NEW ITEM 02 COMPLETE
+
+The full conclusion was independently source-cleared: `‘எளிமை’ தனைப் பயன்படுத்தி...`, `வண முறையற்ற வன்மையினில்`, `‘வேல்’ என்று முழக்கிடுவோம்`, `இறைமை`, `பயிற்று மொழித் தமிழாகப்`, the moon-journey passage, `பல ‘புதுமை’கள் செய்திடுவோம்!`, and closing `வணக்கம்.` Printed numeral **65** is visible. Unresolved issues: **0**.
+
+NEW ITEM 02 scans **58–65 are now 8/8 verified**.
 
 ## Exact next activity
 
-Continue **Phase 2 with NEW ITEM 02 scan 60**, then proceed in physical order through scans **60–65**. Re-read each page independently against enlarged controlling-source pixels and repeat the historical-glyph screen. Correct only source-backed differences and promote pages to `verified` only after complete clearance. Do not begin Phase 3 or translation.
+Continue **Phase 2 with NEW ITEM 04 scans 67–68**, the Kalaignar response poem following the non-Kalaignar Rajaji source/context page 66. Independently re-read both pages against enlarged controlling-source pixels and repeat the historical-glyph screen. Correct only source-backed differences and promote them to `verified` only after complete clearance. Do not begin Phase 3 or translation until both scans pass.
