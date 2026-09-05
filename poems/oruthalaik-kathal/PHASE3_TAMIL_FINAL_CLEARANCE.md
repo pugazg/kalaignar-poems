@@ -19,16 +19,17 @@ The controlling scan remains highest textual authority. A future genuine source-
 - Batch 01 sections 1–2 / scans 6–20: **COMPLETE / REVIEWED PASS**;
 - Batch 02 sections 3–4 / scans 21–38: **COMPLETE / REVIEWED PASS**;
 - Batch 03 sections 5–6 / scans 39–55: **COMPLETE / REVIEWED PASS**;
+- Batch 04 sections 7–8 / scans 56–73: **COMPLETE / REVIEWED PASS**;
 - English title: **One-Sided Love**;
-- translation batches completed: **3/6**;
-- reviewed English sections: **6/11**;
-- reviewed source coverage: **50/95 main-work scans**;
-- reviewed composition: **44 text-bearing + 6 illustration-only scans**;
+- translation batches completed: **4/6**;
+- reviewed English sections: **8/11**;
+- reviewed source coverage: **68/95 main-work scans**;
+- reviewed composition: **60 text-bearing + 8 illustration-only scans**;
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` / `sections/` modified during Phase 4: **0**.
 
-Phase-4 outputs now include English `sections/01.md` … `06.md`, `batches/BATCH_01.md` … `BATCH_03.md`, and the T0 setup/source-map files.
+Phase-4 outputs now include English `sections/01.md` … `08.md`, `batches/BATCH_01.md` … `BATCH_04.md`, and the T0 setup/source-map files.
 
 ## Current exact next activity
 
-**Phase 4 Batch 04 — translate and review sections 7–8, scans 56–73 / logical pages 51–68.** Do not modify final-cleared Tamil.
+**Phase 4 Batch 05 — translate and review section 9, scans 74–82 / logical pages 69–77.** Do not modify final-cleared Tamil or begin Batch 06 unless explicitly requested.

@@ -2,9 +2,9 @@
 
 ## Status
 
-**PHASE 4 IN PROGRESS. T0 COMPLETE / PASS. Batches 01–03 COMPLETE / REVIEWED PASS. Batch 04 is NEXT.**
+**PHASE 4 IN PROGRESS. T0 COMPLETE / PASS. Batches 01–04 COMPLETE / REVIEWED PASS. Batch 05 is NEXT.**
 
-Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches completed: **3/6**. Reviewed sections: **6/11**. Reviewed source coverage: **50/95 scans**.
+Tamil source/canonical layer: **FINAL-CLEARED**. Translation batches completed: **4/6**. Reviewed sections: **8/11**. Reviewed source coverage: **68/95 scans**.
 
 ## Objective
 
@@ -42,8 +42,11 @@ If a reading is questioned: controlling PDF scan → verified page record → fi
 - `பூவிதழ்` → **flower-petal** in the recurring contrast;
 - `கரந்தை` → **Karantai battle** as the named battle category;
 - `நற்றிணை` → ***Natrinai***;
+- `அகநானூறு` → ***Akananuru***;
 - source `ஆளி` in quoted/glossed context → **yali**;
-- do not silently normalize the source's distinct `பாணி` form in the simple-language layer.
+- do not silently normalize the source's distinct `பாணி` form in the simple-language layer;
+- `பல்வேற்கட்டி` → **Palver Katti**;
+- source quotation-form `உறந்தை` → **Uranthai**, while narrative `உறையூர்` remains **Uraiyur**.
 
 Proper-name continuity includes **Nakkannai, Perunarkilli / Narkilli, Sattanthaiyar / Sattanthai, Tittan, Porkodi, Perungozhinaykan, Kavarpentu**. Source-specific honorific forms are not silently normalized away.
 
@@ -62,8 +65,8 @@ Every English section retains explicit Tamil-source mapping, including source se
 | 01 | 01–02 | 6–20 | 1–15 | 13 | 8, 16 | **COMPLETE / REVIEWED PASS** |
 | 02 | 03–04 | 21–38 | 16–33 | 16 | 22, 32 | **COMPLETE / REVIEWED PASS** |
 | 03 | 05–06 | 39–55 | 34–50 | 15 | 40, 48 | **COMPLETE / REVIEWED PASS** |
-| 04 | 07–08 | 56–73 | 51–68 | 16 | 58, 66 | **NEXT** |
-| 05 | 09 | 74–82 | 69–77 | 8 | 76 | not started |
+| 04 | 07–08 | 56–73 | 51–68 | 16 | 58, 66 | **COMPLETE / REVIEWED PASS** |
+| 05 | 09 | 74–82 | 69–77 | 8 | 76 | **NEXT** |
 | 06 | 10–11 | 83–100 | 78–95 | 16 | 84, 94 | not started |
 
 Total translation-source coverage remains **95/95 main-work scans = 84 text-bearing + 11 illustration-only**.
@@ -72,9 +75,10 @@ Total translation-source coverage remains **95/95 main-work scans = 84 text-bear
 
 - Batch 01 sections **01–02**, scans **6–20**: **PASS**;
 - Batch 02 sections **03–04**, scans **21–38**: **PASS**;
-- Batch 03 sections **05–06**, scans **39–55**: **PASS**, 17/17 scans represented, illustration scans 40 and 48 neutral-only, scan-45 and scan-55 closes retained, *Natrinai* 87 and *Purananuru* 83/252 kept distinct from the source's own explanatory renderings, Tamil files changed **0**, unresolved issues **0**.
+- Batch 03 sections **05–06**, scans **39–55**: **PASS**;
+- Batch 04 sections **07–08**, scans **56–73**: **PASS**, 18/18 scans represented, illustration scans 58 and 66 neutral-only, scan-63 and scan-73 closes retained, source continuities and quotation/prose layers preserved, Tamil files changed **0**, unresolved issues **0**.
 
-Batch 03 also records conservative treatment of scan-52 source `பீத்து கொண்டு` as an English contextual rendering only, and preserves the source distinction between simple-layer `பாணி` and quoted/glossed `ஆளி` / yali.
+Batch 04 also records conservative preservation of scan-57 source locks and erotic imagery, the source pun `சாகாத்தந்தை`, narrative **Uraiyur** versus quotation-form **Uranthai**, and the five attributed source quotations in section 8 without outside-edition harmonization.
 
 ## Per-batch workflow
 
@@ -82,4 +86,4 @@ Fetch live `main`; read assigned final-cleared Tamil sections; consult source ma
 
 ## Exact next activity
 
-**Batch 04 — sections 07–08, scans 56–73.** Translate and review both complete sections; create English `sections/07.md`, `sections/08.md` and `batches/BATCH_04.md`. Do not proceed beyond Batch 04 in the same activity unless explicitly requested.
+**Batch 05 — section 09, scans 74–82.** Translate and review the complete section; create English `sections/09.md` and `batches/BATCH_05.md`. Do not proceed to Batch 06 in the same activity unless explicitly requested.

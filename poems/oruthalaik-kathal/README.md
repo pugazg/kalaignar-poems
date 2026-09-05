@@ -10,25 +10,25 @@ Tamil source/canonical layer is **FINAL-CLEARED**: Phase 1 **101/101 complete**;
 
 ## Phase 4
 
-**IN PROGRESS — T0 COMPLETE / PASS; Batches 01–03 COMPLETE / REVIEWED PASS.**
+**IN PROGRESS — T0 COMPLETE / PASS; Batches 01–04 COMPLETE / REVIEWED PASS.**
 
 English title: **One-Sided Love**.
 
 Progress:
 
-- translation batches: **3/6 complete**;
-- reviewed English sections: **6/11**;
-- reviewed source coverage: **50/95 main-work scans**;
-- reviewed composition: **44 text-bearing + 6 illustration-only scans**;
+- translation batches: **4/6 complete**;
+- reviewed English sections: **8/11**;
+- reviewed source coverage: **68/95 main-work scans**;
+- reviewed composition: **60 text-bearing + 8 illustration-only scans**;
 - unresolved reviewed translation issues: **0**;
 - Tamil `pages/` / `sections/` modifications during Phase 4: **0**.
 
-Reviewed English outputs: `translations/en/sections/01.md` … `06.md`; review records `translations/en/batches/BATCH_01.md` … `BATCH_03.md`.
+Reviewed English outputs: `translations/en/sections/01.md` … `08.md`; review records `translations/en/batches/BATCH_01.md` … `BATCH_04.md`.
 
-Batches 01–03 preserve illustration scans **8,16,22,32,40,48** as neutral structural markers and section-closing ornaments at **13,20,30,38,45,55**. Batch 03 preserves *Natrinai* 87 and *Purananuru* 83/252 as source-distinct layers, keeps scan-52 source `பீத்து கொண்டு` untouched in Tamil, and retains the source distinction between `பாணி` and `ஆளி` / yali.
+Batches 01–04 preserve illustration scans **8,16,22,32,40,48,58,66** as neutral structural markers and section-closing ornaments at **13,20,30,38,45,55,63,73**. Batch 04 preserves scan-57 source locks and the source’s erotic imagery, maintains the **war-sword / flower-petal** refrain, retains *Natrinai* 19/58, *Purananuru* 395/352/86 and *Akananuru* 6 as source-distinct quotation layers, and keeps narrative **Uraiyur** distinct from quotation-form **Uranthai**.
 
-Batch map: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **PASS**; 04 sections 7–8 scans 56–73 **NEXT**; 05 section 9 scans 74–82; 06 sections 10–11 scans 83–100.
+Batch map: 01 sections 1–2 scans 6–20 **PASS**; 02 sections 3–4 scans 21–38 **PASS**; 03 sections 5–6 scans 39–55 **PASS**; 04 sections 7–8 scans 56–73 **PASS**; 05 section 9 scans 74–82 **NEXT**; 06 sections 10–11 scans 83–100.
 
 ## Exact next activity
 
-**Phase 4 Batch 04 — translate/review sections 7–8, scans 56–73 / logical pages 51–68.** Create reviewed English `sections/07.md`, `sections/08.md` and `batches/BATCH_04.md`. Do not modify final-cleared Tamil.
+**Phase 4 Batch 05 — translate/review section 9, scans 74–82 / logical pages 69–77.** Create reviewed English `sections/09.md` and `batches/BATCH_05.md`. Do not modify final-cleared Tamil or begin Batch 06 unless explicitly requested.

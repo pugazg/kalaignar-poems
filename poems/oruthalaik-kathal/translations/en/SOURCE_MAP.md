@@ -20,13 +20,13 @@ T0 source checkpoint: `0c6b3d19625a9478441f0f654584d8343163ba37`.
 | 4 | `../../sections/04.md` | `51bb04a68cc8ac000d5846e22f6c79b1bb33e023` | 31–38 | 26–33 | 32 | 02 | **reviewed PASS** |
 | 5 | `../../sections/05.md` | `47dc73ebeca40f063f29fe70d19840054627c847` | 39–45 | 34–40 | 40 | 03 | **reviewed PASS** |
 | 6 | `../../sections/06.md` | `f54ec01efef19fc6633f1429c178ce43a51d9519` | 46–55 | 41–50 | 48 | 03 | **reviewed PASS** |
-| 7 | `../../sections/07.md` | `c7b92bd7f6eef4ea0b31687c5c8cc5366ad8045c` | 56–63 | 51–58 | 58 | 04 | NEXT |
-| 8 | `../../sections/08.md` | `cac9134ce5d24fc60f008da54d03efdd2d014857` | 64–73 | 59–68 | 66 | 04 | NEXT |
-| 9 | `../../sections/09.md` | `62dbf3b15b5902beef507bbae57a148fa5d82083` | 74–82 | 69–77 | 76 | 05 | not started |
+| 7 | `../../sections/07.md` | `c7b92bd7f6eef4ea0b31687c5c8cc5366ad8045c` | 56–63 | 51–58 | 58 | 04 | **reviewed PASS** |
+| 8 | `../../sections/08.md` | `cac9134ce5d24fc60f008da54d03efdd2d014857` | 64–73 | 59–68 | 66 | 04 | **reviewed PASS** |
+| 9 | `../../sections/09.md` | `62dbf3b15b5902beef507bbae57a148fa5d82083` | 74–82 | 69–77 | 76 | 05 | NEXT |
 | 10 | `../../sections/10.md` | `22bb738d9608254a8abe4b5eea9f1d34fe74cab5` | 83–92 | 78–87 | 84 | 06 | not started |
 | 11 | `../../sections/11.md` | `20fb17b872beed01ce9435b8e7ad1e7497e43d86` | 93–100 | 88–95 | 94 | 06 | not started |
 
-The eleven ranges partition scans **6–100** with no gap or overlap. The T0 Tamil blob freeze remains unchanged through Batches 01–03.
+The eleven ranges partition scans **6–100** with no gap or overlap. The T0 Tamil blob freeze remains unchanged through Batches 01–04.
 
 ## Reviewed English mapping
 
@@ -45,7 +45,12 @@ Batch 03:
 - Tamil section 06 → `sections/06.md`, scans **46–55**, English blob `ab396e298de1f57a3fac662f1c1b66af62ffa077`;
 - review → `batches/BATCH_03.md`.
 
-English title: **One-Sided Love**. Reviewed source coverage after Batch 03: **50/95 scans**, **6/11 sections**, comprising **44 text-bearing + 6 illustration-only scans**. Tamil canonical changes during translation: **0**.
+Batch 04:
+- Tamil section 07 → `sections/07.md`, scans **56–63**, English blob `3a74cb3fb65a2f160a03c56643622eb92c585206`;
+- Tamil section 08 → `sections/08.md`, scans **64–73**, English blob `13862162e0934907b2f854bbd52b37ba0252564f`;
+- review → `batches/BATCH_04.md`.
+
+English title: **One-Sided Love**. Reviewed source coverage after Batch 04: **68/95 scans**, **8/11 sections**, comprising **60 text-bearing + 8 illustration-only scans**. Tamil canonical changes during translation: **0**.
 
 ## Non-body source exclusions
 
@@ -55,25 +60,25 @@ Scan 1 front cover, scans 2–5 front matter / Roman I–IV, and scan 101 back c
 
 Full-page illustration scans: **8, 16, 22, 32, 40, 48, 58, 66, 76, 84, 94**. No invented English captions.
 
-Section-closing three-diamond witnesses occur at scans **13, 20, 30, 38, 45, 55, 63, 73, 82, 92**, with final work closure on scan **100** after `(முற்றும்)`. Batches 01–03 preserve closes **13, 20, 30, 38, 45, 55**.
+Section-closing three-diamond witnesses occur at scans **13, 20, 30, 38, 45, 55, 63, 73, 82, 92**, with final work closure on scan **100** after `(முற்றும்)`. Batches 01–04 preserve closes **13, 20, 30, 38, 45, 55, 63, 73**.
 
-Gate-2 continuation relationships remain source authority for translation flow, especially **43→44, 51→52, 54→55, 61→62→63, 68→69, 70→71, 81→82, 87→88, 91→92 and 98→99→100**.
+Gate-2 continuation relationships remain source authority for translation flow, especially **43→44, 51→52, 54→55, 61→62→63, 68→69, 70→71, 81→82, 87→88, 91→92 and 98→99→100**. Batch 04 explicitly preserves **61→62→63, 68→69 and 70→71**.
 
 ## High-risk source locks
 
-Translation must respect final-cleared Tamil forms rather than silently correcting them. Batch 03 specifically encountered scan 52 `பீத்து கொண்டு`; its Tamil remains untouched and the English contextual rendering is documented in `batches/BATCH_03.md`.
+Translation must respect final-cleared Tamil forms rather than silently correcting them. Batch 04 specifically preserves scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை` and records their English contextual rendering without Tamil changes.
 
-Representative future locks remain: scan 57 `நாற்புறங்களில்` / `அலைகடலின் கொந்தளிப்பை`; scan 77 `கங்கநாட்டுக்` / `உயிரினுஞ்`; scan 78 `நாளவையில்`; scan 85 `தமிழ் எழுதிப்பிழைக்க` / `நினைவூட்டுகின்றேன்`; scan 88 `ஓடிவந்தீர்`; scan 92 `ஊழித்தீயெனப்`; scan 93 `அனிச்சமலர் தேகத்தை` / `காளைகளைச்`; scan 97 `உனைக் கொல்வதுபோல்`; scan 98 `கூர்கொண்ட` / `என் அறியாமை`; scan 99 `கரும்பாய் முத்தம்`.
+Representative future locks remain: scan 77 `கங்கநாட்டுக்` / `உயிரினுஞ்`; scan 78 `நாளவையில்`; scan 85 `தமிழ் எழுதிப்பிழைக்க` / `நினைவூட்டுகின்றேன்`; scan 88 `ஓடிவந்தீர்`; scan 92 `ஊழித்தீயெனப்`; scan 93 `அனிச்சமலர் தேகத்தை` / `காளைகளைச்`; scan 97 `உனைக் கொல்வதுபோல்`; scan 98 `கூர்கொண்ட` / `என் அறியாமை`; scan 99 `கரும்பாய் முத்தம்`.
 
 ## Batch map
 
 - Batch 01: sections **1–2**, scans **6–20** — **COMPLETE / REVIEWED PASS**;
 - Batch 02: sections **3–4**, scans **21–38** — **COMPLETE / REVIEWED PASS**;
 - Batch 03: sections **5–6**, scans **39–55** — **COMPLETE / REVIEWED PASS**;
-- Batch 04: sections **7–8**, scans **56–73** — **NEXT**;
-- Batch 05: section **9**, scans **74–82**;
+- Batch 04: sections **7–8**, scans **56–73** — **COMPLETE / REVIEWED PASS**;
+- Batch 05: section **9**, scans **74–82** — **NEXT**;
 - Batch 06: sections **10–11**, scans **83–100**.
 
 ## Exact next activity
 
-Translate/review **Batch 04 — sections 7–8, scans 56–73**, using the T0-frozen canonical blobs above as the normal source.
+Translate/review **Batch 05 — section 9, scans 74–82**, using the T0-frozen canonical blob above as the normal source. Do not begin Batch 06 in the same activity unless explicitly requested.
