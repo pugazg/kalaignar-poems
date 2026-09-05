@@ -27,18 +27,30 @@ The full family screen was repeated independently from enlarged controlling pixe
 
 Representative historically sensitive forms verified by character identity:
 
-- `பிறந்தநாளை` — the source's historical `ளை` identity is encoded as modern Unicode `ளை`;
-- `செல்கின்றாயா` — historical `றா` is decoded as `றா`, not the closest-looking modern shape;
+- `பிறந்தநாளை` — historical `ளை` identity encoded as normal Unicode;
+- `செல்கின்றாயா` — historical `றா` independently confirmed;
 - `இஃதறியா` — historical `றா` independently confirmed;
 - `எத்தனையோ` — `னை` family checked in context;
-- `கண்ணங்குடி`, `குன்றக்குடி` and the remaining `குடி` place-name sequence were inspected at enlarged resolution for old-typeface ambiguity.
+- `கண்ணங்குடி`, `குன்றக்குடி` and the remaining `குடி` place-name sequence were inspected at enlarged resolution.
 
-Historical-family ambiguities remaining on scan 46: **0**. No lexical modernization or global replacement was used. `pages/0046.md` is now `verified` after the separate source-critical pass.
+Historical-family ambiguities remaining on scan 46: **0**.
+
+### Scan 47 — VERIFIED
+
+The full family screen was independently repeated from enlarged controlling pixels. Particular care was taken not to convert unusual source wording into expected modern Tamil:
+
+- `பருக்கிடம்` retained exactly as visibly printed;
+- `விடுவானு` and `மாட்டானு` retained as source forms;
+- `தொளாயிரத்து`, `குத் தென்று`, and `சிவனுரை` retained rather than silently respelled;
+- line endings, dashes and quotation marks were source-checked independently;
+- historical-family ambiguities remaining on scan 47: **0**.
+
+No lexical modernization or global replacement was used on either verified page.
 
 ## Current coverage
 
-- Phase-2 historical-glyph recheck: **1/22 active Kalaignar scans**;
-- verified through: **scan 46**;
-- exact next historical-glyph verification: **scan 47**.
+- Phase-2 historical-glyph recheck: **2/22 active Kalaignar scans**;
+- verified through: **scan 47**;
+- exact next historical-glyph verification: **scan 48**.
 
 Phase-3 structural/page-join interpretation remains separate from this glyph audit.
