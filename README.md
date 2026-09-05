@@ -11,17 +11,22 @@ Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic w
 Workspace: `poems/gunanayagar-nehru/`  
 Controlling source: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 PASS / GATE 2 NEXT.**
 
 - physical scans: **10/10 accounted**;
 - verified page records: **10/10**;
-- partial / needs-review / blocked: **0 / 0 / 0**;
-- provisional Tamil poem scope: scans **3–7**;
+- unresolved readings: **0**;
+- Gate 1 unresolved pagination issues: **0**;
+- reconciled numbered interior: **logical pages 1–8 = scans 2–9**;
+- visible printed numerals: **2–6 on scans 3–7** only;
+- candidate Tamil poem scope: scans **3–7**;
 - source English translation: scans **8–9**, **BEAUTY ROSE WEPT**, credit **Dr. Krishna Srinivas**;
-- scan 9 verified bottom imprint: **`அரசு அச்சகம்.`**;
+- scan 9 bottom imprint: **`அரசு அச்சகம்.`**;
 - scan 10: uncaptained photograph/back matter.
 
-Exact next activity: **Phase 3 Gate 1 physical scan ↔ printed/logical page reconciliation only**. Do not begin Gate 2 or canonical assembly during the same activity.
+Gate-1 authority: `poems/gunanayagar-nehru/PHASE3_PAGE_RECONCILIATION.md`.
+
+Exact next activity: **Phase 3 Gate 2 boundary / page-join audit only**. Do not begin Gate 3 or canonical assembly during the same activity.
 
 ## Preserved completed work — ஒருதலைக் காதல்
 
