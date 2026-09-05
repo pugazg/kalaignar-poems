@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY PROCESSING / KALAIGNAR PHASE 1 20/22 / ITEMS 01–02 FIRST PASSES COMPLETE / SCAN 66 RECLASSIFIED NON-KALAIGNAR / SHA-256 PINNED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 ACTIVE TARGET SCANS / PHASE 2 NEXT.**
 
 Controlling source:
 
@@ -16,25 +16,19 @@ Controlling source:
 
 ## Corrected production scope
 
-| Intake ID | Source-heading label | Scans | State |
+| Intake ID | Source-heading label | Scans | Phase-1 state |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **12/12 Phase-1 records complete; all `needs-review`** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **8/8 Phase-1 records complete; all `needs-review`** |
-| 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — source attributes it to சக்கரவர்த்தி—இராசகோபாலாச்சாரி** |
-| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **NEXT** |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **12/12 complete; all `needs-review`** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **8/8 complete; all `needs-review`** |
+| 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context record** |
+| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **2/2 complete; both `partial`** |
 
-Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**. Current Kalaignar Phase-1 coverage is **20/22**.
+Thus there are **3 genuinely new Kalaignar blocks / 22 production scans**, all now covered at Phase 1. No active new-item page is yet `verified`.
 
-Scan 66 is retained as a source/context record at `pages/0066.md`. Its bracketed note identifies the separate Kalaignar `மறுப்புக் கவிதை` on scans 67–68.
+Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription. Scans **69–70** are Bharathidasan material.
 
-## Already represented — skip retranscription
-
-Scans **9–20, 21–32, 33–45, 71–77, 78–84** remain existing/skip. Earlier page records 9–32 are archival cross-witnesses only. Scans **69–70** are Bharathidasan material and are non-Kalaignar.
-
-## Historical Tamil glyph control
-
-Use `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` and `HISTORICAL_GLYPH_AUDIT.md` on every active new Kalaignar page. Source pixels control character identity; do not normalize wording or guess unread text.
+The user-supplied historical-glyph guide remains mandatory; its first-pass screen is complete across all 22 active Kalaignar target scans.
 
 ## Exact next activity
 
-Process **scans 67–68 only** as the Kalaignar `முதல்வர் கலைஞரின் பதில் கவிதை` Phase-1 block. Do not begin Phase 2, Phase 3 or translation in the same activity.
+Begin **Phase 2 independent source-critical verification with Item 01 scan 46**, working only across scans **46–57, 58–65 and 67–68**. Correct only source-backed differences and promote pages to `verified` only after independent visual clearance. Do not begin Phase 3 or translation.
