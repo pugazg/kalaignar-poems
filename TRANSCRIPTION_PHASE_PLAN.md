@@ -25,27 +25,32 @@ The user-supplied historical-glyph guide is mandatory. Phase-1 family screening 
 
 ## Phase 2 — independent source-critical verification
 
-**COMPLETE — 22/22 VERIFIED.**
-
-- scans **46–57**: Item 01 **12/12 verified**;
-- scans **58–65**: Item 02 **8/8 verified**;
-- scans **67–68**: Item 04 **2/2 verified**;
-- unresolved lexical/historical-glyph issues: **0**.
+**COMPLETE — 22/22 VERIFIED.** Unresolved lexical/historical-glyph issues: **0**.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — GATE 1 NEXT.**
+**IN PROGRESS — GATE 1 COMPLETE / PASS; GATE 2 NEXT.**
 
 Ordered gates from `POEM_PROCESSING_GUIDE.md`:
 
-1. **Physical scan ↔ printed-page reconciliation — NEXT**
-2. Boundary / page-join audit — deferred
+1. **Physical scan ↔ printed-page reconciliation — COMPLETE / PASS**
+2. **Boundary / page-join audit — NEXT**
 3. Title-witness reconciliation — deferred
 4. Canonical Tamil assembly — deferred
 5. Assembly/source-completeness review — deferred
 6. Tamil final clearance — deferred
 
-Gate 1 must distinguish visibly printed numerals from reconciled logical pagination and account for active new-item source ranges **46–57, 58–65, 67–68**, with scan 66 explicitly retained as non-Kalaignar source/context.
+### Gate 1 result
+
+Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_STRUCTURE_AUDIT.md`.
+
+- structural interval: scans **46–68**;
+- reconciled logical publication pages: **46–68**;
+- visible numerals: scans **47–57, 59–65, 68**;
+- suppressed numerals: scans **46, 58, 66, 67**;
+- `printed_page` remains `null` where numerals are not visibly printed;
+- unexplained pagination gaps/resets: **none**;
+- Gate-1 page-text changes: **none**.
 
 ## Phase 4 — English translation / release
 
@@ -53,4 +58,4 @@ Gate 1 must distinguish visibly printed numerals from reconciled logical paginat
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 only**. Do not begin Gate 2, canonical assembly or Phase 4 in the same activity.
+Perform **Phase 3 Gate 2 only**: boundary / page-join audit for NEW ITEM 01 scans 46–57, NEW ITEM 02 scans 58–65, and NEW ITEM 04 scans 67–68, using scan 66 only as contextual separation evidence. Do not begin Gate 3, canonical assembly or Phase 4 in the same activity.
