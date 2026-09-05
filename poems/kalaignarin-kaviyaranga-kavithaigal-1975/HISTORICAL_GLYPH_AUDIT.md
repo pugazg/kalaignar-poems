@@ -23,34 +23,31 @@ Scan 66 was also screened while being classified, but it is non-Kalaignar source
 
 ### Scan 46 — VERIFIED
 
-The full family screen was repeated independently from enlarged controlling pixels.
-
-Representative historically sensitive forms verified by character identity:
-
-- `பிறந்தநாளை` — historical `ளை` identity encoded as normal Unicode;
-- `செல்கின்றாயா` — historical `றா` independently confirmed;
-- `இஃதறியா` — historical `றா` independently confirmed;
-- `எத்தனையோ` — `னை` family checked in context;
-- `கண்ணங்குடி`, `குன்றக்குடி` and the remaining `குடி` place-name sequence were inspected at enlarged resolution.
-
-Historical-family ambiguities remaining on scan 46: **0**.
+The full family screen was repeated independently from enlarged controlling pixels. Representative historically sensitive forms include `பிறந்தநாளை`, `செல்கின்றாயா`, `இஃதறியா`, and `எத்தனையோ`. Historical-family ambiguities remaining: **0**.
 
 ### Scan 47 — VERIFIED
 
-The full family screen was independently repeated from enlarged controlling pixels. Particular care was taken not to convert unusual source wording into expected modern Tamil:
+The full family screen was independently repeated from enlarged controlling pixels. Unusual source forms such as `பருக்கிடம்`, `விடுவானு`, `மாட்டானு`, `தொளாயிரத்து`, `குத் தென்று`, and `சிவனுரை` were retained rather than silently respelled. Historical-family ambiguities remaining: **0**.
 
-- `பருக்கிடம்` retained exactly as visibly printed;
-- `விடுவானு` and `மாட்டானு` retained as source forms;
-- `தொளாயிரத்து`, `குத் தென்று`, and `சிவனுரை` retained rather than silently respelled;
-- line endings, dashes and quotation marks were source-checked independently;
-- historical-family ambiguities remaining on scan 47: **0**.
+### Scan 48 — VERIFIED
 
-No lexical modernization or global replacement was used on either verified page.
+The full family screen was independently repeated from enlarged controlling pixels.
+
+Representative decisions:
+
+- `ஆறுமுகம்` — historical `றா` identity independently confirmed; Phase-1 `ஆருமுகம்` corrected;
+- `அவ்வாறே` — `றா` family checked against same-edition forms;
+- `அமைதித்தனை` — historical `னை` identity positively resolved from enlarged pixels rather than closest-shape resemblance;
+- `வரிகளையே` — historical `ளை` identity positively resolved and encoded as normal Unicode;
+- `கண்ணை`, `என்னை`, `தண்ணிலவாம்`, `தமிழன்னை`, `காக்கின்ற` — relevant `ணை / னை / ற` families checked in context;
+- no lexical modernization or global replacement was used.
+
+Historical-family ambiguities remaining on scan 48: **0**.
 
 ## Current coverage
 
-- Phase-2 historical-glyph recheck: **2/22 active Kalaignar scans**;
-- verified through: **scan 47**;
-- exact next historical-glyph verification: **scan 48**.
+- Phase-2 historical-glyph recheck: **3/22 active Kalaignar scans**;
+- verified through: **scan 48**;
+- exact next historical-glyph verification: **scan 49**.
 
 Phase-3 structural/page-join interpretation remains separate from this glyph audit.
