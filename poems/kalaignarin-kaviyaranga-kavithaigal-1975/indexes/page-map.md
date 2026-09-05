@@ -37,6 +37,10 @@ Inventory coverage: **84/84 scans classified**.
 | 6 | `../pages/0006.md` | `partial` | none visible | bleed-through/verso-like page; no intended edition text clearly visible |
 | 7 | `../pages/0007.md` | `needs-review` | none visible | `பதிப்புரை`; heading/signature/date captured, body unresolved |
 | 8 | `../pages/0008.md` | `partial` | none visible | bleed-through/verso-like page before first poem witness |
-| 9–84 | — | `not-started` | — | continue in physical order |
+| 9 | `../pages/0009.md` | `partial` | none visible | Anna cross-witness opening; historical-glyph screen applied |
+| 10 | `../pages/0010.md` | `partial` | 10 | Anna cross-witness; historical-glyph screen applied |
+| 11 | `../pages/0011.md` | `partial` | 11 | Anna cross-witness; historical-glyph screen applied |
+| 12 | `../pages/0012.md` | `partial` | 12 | Anna cross-witness; `மாற்றான்` checked as historical `றா` identity |
+| 13–84 | — | `not-started` | — | continue in physical order |
 
-Phase 1 transcription coverage: **8/84**. Exact next scan: **9**. No page is `verified`; Phase 2 has not begun.
+Phase 1 transcription coverage: **12/84**. Historical-glyph first-pass coverage: **scans 9–12**. Exact next scan: **13**. No page is `verified`; Phase 2 has not begun.
