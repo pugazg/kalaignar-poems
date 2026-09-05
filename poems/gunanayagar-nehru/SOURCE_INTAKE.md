@@ -12,40 +12,36 @@ Source intake result: **PASS — 10/10 physical scans accounted.**
 
 ## Source-visible publication/context evidence
 
-Scan 2 `பதிப்புரை` says the country was observing Pandit Nehru's centenary and that this small publication brings together:
-
-1. the poem about Nehru sung by Kalaignar at a 1970 Chennai University centenary-hall poetry event; and
-2. the English translation written for that poem by Dr. Krishna Srinivas.
-
-The note is signed by the **Director, Information and Public Relations Department, Government of Tamil Nadu**, and dated **14.11.1989**.
-
-Scan 7 gives a more specific performance note: the poem was sung at the Chennai University centenary-hall poetry event on **14.11.1970**.
+Scan 2 `பதிப்புரை` records the 1989 issuing context and is dated **14.11.1989**. Scan 7 records the poem-performance context on **14.11.1970**. Scans 8–9 contain the printed source English translation by **Dr. Krishna Srinivas**.
 
 ## Physical page roles
 
-| Scan | Visible printed page | Role |
-|---:|---:|---|
-| 1 | — | front cover |
-| 2 | — | `பதிப்புரை` / issuing note |
-| 3 | 2 | Tamil poem opening; title + `முதல்வர் கலைஞர்` |
-| 4 | 3 | Tamil poem continuation |
-| 5 | 4 | Tamil poem continuation |
-| 6 | 5 | Tamil poem continuation |
-| 7 | 6 | Tamil poem conclusion + performance footnote |
-| 8 | — | source-supplied English translation, `BEAUTY ROSE WEPT` — part 1 |
-| 9 | — | source-supplied English translation — part 2; translator credit |
-| 10 | — | uncaptained photograph / final back matter |
+| Scan | Visible printed page | Role | Phase-1 status |
+|---:|---:|---|---|
+| 1 | — | front cover | partial |
+| 2 | — | `பதிப்புரை` / issuing note | partial |
+| 3 | 2 | Tamil poem opening | partial |
+| 4 | 3 | Tamil poem continuation | partial |
+| 5 | 4 | Tamil poem continuation | partial |
+| 6 | 5 | Tamil poem continuation | partial |
+| 7 | 6 | Tamil poem conclusion + performance note | partial |
+| 8 | — | source English translation, part 1 | partial |
+| 9 | — | source English translation, part 2 + translator credit + unresolved bottom imprint | needs-review |
+| 10 | — | uncaptained photograph/back matter | partial |
 
-No unprinted page number is inferred as a visible printed value. Exhaustive logical-page reconciliation is deferred to Phase 3.
+No unprinted page number is inferred as a visible printed value. Exhaustive logical-page reconciliation remains deferred to Phase 3.
 
-## Source condition / anomalies
+## Phase-1 result
 
-- library ownership stamps are visible on some scans;
-- reverse-side show-through / bleed-through is visible on several interior pages;
-- English translation scans are part of the printed source and must not be replaced by a newly generated translation;
-- scan 10 has no visible caption, so the pictured person's identity must not be inferred into archival metadata;
-- source wording, typography, punctuation and lineation remain controlling even where modern editorial preferences differ.
+**COMPLETE — 10/10 page records created.**
+
+- `partial`: **9**;
+- `needs-review`: **1**;
+- `verified`: **0**;
+- unresolved Phase-1 reading: scan 9 bottom Tamil imprint beneath the horizontal rule; it remains explicitly unguessed.
+
+Phase-1 transcription does not certify lexical fidelity. All ten records require independent Phase-2 source-critical visual verification.
 
 ## Next activity
 
-**Phase 1 transcription only — scans 1–10.** Create complete page records with `partial` status unless a page genuinely requires `needs-review`. Verification and assembly remain deferred.
+Perform **Phase 2 verification for scans 1–10**. Recheck wording, punctuation, lineation, visible page numerals, non-text marks, English source spellings and the scan-9 bottom imprint. Do not start canonical assembly until Phase 2 has passed.

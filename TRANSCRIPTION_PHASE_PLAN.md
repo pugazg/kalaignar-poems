@@ -8,33 +8,37 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 **COMPLETE — 10/10 physical scans accounted.**
 
-Provisional physical roles: 1 cover; 2 `பதிப்புரை`; 3–7 Tamil poem; 8–9 source-supplied English translation; 10 final uncaptained photograph/back matter.
-
 ## Phase 1 — transcription only
 
-**NEXT — 0/10 page records created.**
+**COMPLETE — 10/10 page records created.**
 
-Create all ten page records from direct visual inspection. Preserve the printed English translation as source text; do not treat it as Phase-4 output. Newly transcribed pages remain `partial` unless a genuine uncertainty requires `needs-review`.
+- partial: **9**;
+- needs-review: **1** (scan 9 bottom Tamil imprint);
+- verified: **0** — as required by Phase-1 status discipline.
+
+Scans 8–9 preserve the source-supplied English translation as physical-source text rather than repository Phase-4 output.
 
 ## Phase 2 — source-critical visual verification
 
-**DEFERRED until Phase 1 is complete.**
+**NEXT — verify scans 1–10 independently against the controlling PDF.**
+
+Resolve or explicitly retain the scan-9 imprint uncertainty; promote pages to `verified` only after source-critical verification succeeds.
 
 ## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
 **DEFERRED until Phase 2 passes.**
 
-Tamil canonical poem-body boundary is provisionally scans **3–7** and must be certified in Phase 3 rather than assumed final at intake.
+Tamil canonical poem-body boundary remains provisionally scans **3–7** and must be certified in Phase 3.
 
 ## Phase 4 — repository English translation and release
 
 **DEFERRED until Tamil final clearance.**
 
-The source itself already contains an English translation on scans **8–9**. That printed translation is archived as source evidence and must not be confused with a later repository-produced Phase-4 translation.
+The source's existing English translation on scans 8–9 is archived as source evidence and must not be confused with later repository-produced Phase-4 translation.
 
 ## Exact next activity
 
-Complete **Phase 1 transcription for scans 1–10 only**.
+Complete **Phase 2 verification for scans 1–10 only**; do not begin assembly in the same activity.
 
 ## Preserved completed work
 

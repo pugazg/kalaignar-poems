@@ -7,22 +7,29 @@ Physical scans: **10**.
 
 | Scan | Visible printed page | Page type | Section / note | Phase-1 status |
 |---:|---:|---|---|---|
-| 1 | — | cover | front cover | not-started |
-| 2 | — | front-matter | `பதிப்புரை`; issuing note dated 14.11.1989 | not-started |
-| 3 | 2 | poem | Tamil poem opening; `குணநாயகர் நேரு` / `முதல்வர் கலைஞர்` | not-started |
-| 4 | 3 | poem | Tamil poem continuation | not-started |
-| 5 | 4 | poem | Tamil poem continuation | not-started |
-| 6 | 5 | poem | Tamil poem continuation | not-started |
-| 7 | 6 | poem | Tamil poem conclusion; source performance footnote | not-started |
-| 8 | — | source-translation | printed English translation `BEAUTY ROSE WEPT`, part 1 | not-started |
-| 9 | — | source-translation | English translation, part 2; `Translation: Dr. Krishna Srinivas` | not-started |
-| 10 | — | photograph/back-matter | final uncaptained photograph page | not-started |
+| 1 | — | cover | front cover | partial |
+| 2 | — | preface | `பதிப்புரை`; issuing note dated 14.11.1989 | partial |
+| 3 | 2 | poem | Tamil poem opening; `குணநாயகர் நேரு` / `முதல்வர் கலைஞர்` | partial |
+| 4 | 3 | poem | Tamil poem continuation | partial |
+| 5 | 4 | poem | Tamil poem continuation | partial |
+| 6 | 5 | poem | Tamil poem continuation | partial |
+| 7 | 6 | poem | Tamil poem conclusion; performance note | partial |
+| 8 | — | source-translation | `BEAUTY ROSE WEPT`, part 1 | partial |
+| 9 | — | source-translation | part 2; translator credit; unresolved bottom Tamil imprint | needs-review |
+| 10 | — | photograph/back-matter | final uncaptained photograph | partial |
 
-## Intake boundaries
+## Phase-1 totals
+
+- page records: **10/10**;
+- partial: **9**;
+- needs-review: **1**;
+- verified: **0**.
+
+## Intake boundaries retained for later certification
 
 - front matter: **scans 1–2**;
 - Tamil poem body: **scans 3–7**;
 - source-supplied English translation: **scans 8–9**;
 - final visual/back matter: **scan 10**.
 
-These are intake classifications only. Phase 3 must later certify physical↔logical pagination and canonical-body boundaries after Phase 2 verification.
+These boundaries remain provisional until Phase 3. Phase 2 must first independently verify every physical page record.

@@ -8,30 +8,24 @@ Workspace: `poems/gunanayagar-nehru/`
 
 `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-## Durable intake state
+## Durable state
 
-**SOURCE INTAKE COMPLETE — PHASE 1 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE — PHASE 2 NEXT.**
 
-Physical structure:
+- page records: **10/10**;
+- partial: **9**;
+- needs-review: **1** (`scan 9` bottom Tamil imprint);
+- verified: **0/10**;
+- Tamil poem boundary remains provisional: scans **3–7**;
+- source English translation: scans **8–9**, **BEAUTY ROSE WEPT**, credit **Dr. Krishna Srinivas**;
+- scan 10: uncaptained photograph/back matter.
 
-- 1 cover;
-- 2 `பதிப்புரை` / Government of Tamil Nadu Information and Public Relations issuing note, dated 14.11.1989;
-- 3–7 Tamil poem, visible printed pages 2–6;
-- 7 also carries the source performance note for 14.11.1970;
-- 8–9 printed English translation **BEAUTY ROSE WEPT**, credited to Dr. Krishna Srinivas;
-- 10 uncaptained photograph/back matter.
+Printed poem attribution remains **முதல்வர் கலைஞர்**. Catalog/user author identity is **கலைஞர் மு. கருணாநிதி**; preserve their distinct source/catalog roles.
 
-Printed poem-opening attribution is **முதல்வர் கலைஞர்**. User/catalog author identity is **கலைஞர் மு. கருணாநிதி**; do not silently substitute one witness for the other.
+The printed English translation is physical-source evidence, not Phase-4 repository output.
 
-Phase status:
-
-- Phase 1: **0/10 page records — NEXT**;
-- Phase 2: deferred;
-- Phase 3: deferred;
-- Phase 4: deferred.
-
-Previously completed `ஒருதலைக் காதல்` and `கலைஞரின் கவிதைகள்` remain RELEASE-CLEARED and must not be modified as part of this work.
+`poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` remain RELEASE-CLEARED and were not modified by Phase 1.
 
 ## Exact next activity
 
-Transcribe **all 10 scans in one Phase-1 activity**, creating `pages/0001.md` through `pages/0010.md`. Treat scans 8–9 as source-supplied English text, not as a new translation task. Use Phase-1 status discipline (`partial` / `needs-review`); do not mark pages `verified` or begin canonical assembly.
+Perform **Phase 2 independent source-critical visual verification for all scans 1–10**. Recheck every page from the controlling PDF, resolve or explicitly retain the scan-9 imprint uncertainty, and promote pages to `verified` only after actual verification. Do **not** begin canonical assembly during the same verification activity.

@@ -2,40 +2,37 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 TRANSCRIPTION NOT STARTED**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 NEXT**
 
 - physical scans accounted: **10/10**;
-- Phase-1 page records: **0/10**;
-- verified page records: **0/10**;
-- `needs-review`: **0** at intake;
-- `blocked`: **0** at intake;
-- Tamil poem scans provisionally identified: **5 scans — 3–7**;
-- source-supplied English translation scans: **2 scans — 8–9**;
+- Phase-1 page records: **10/10**;
+- partial: **9**;
+- needs-review: **1**;
+- verified: **0/10**;
+- provisional Tamil poem scans: **3–7**;
+- source-supplied English translation scans: **8–9**;
 - canonical Tamil assembly: deferred;
-- Phase 4 repository translation: deferred.
+- repository Phase-4 translation: deferred.
 
-## Source identity
+## Phase-1 transcription result
 
-- PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf`;
-- pages: **10**;
-- bytes: **27,006,676**;
-- SHA-256: `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
+All ten physical scans now have first-pass page records created by direct visual reading of the controlling scan. No page was promoted to `verified` in Phase 1.
 
-Exact-byte identity and renderer page count agree at **10 physical scans**.
+Source forms deliberately retained include:
 
-## Intake findings
+- poem-opening attribution **முதல்வர் கலைஞர்**;
+- visible Tamil page numerals **2–6** on scans 3–7 only;
+- the 14.11.1989 issuing note and 14.11.1970 performance note;
+- printed English heading **BEAUTY ROSE WEPT** and translator credit **Dr. Krishna Srinivas**;
+- source English spellings such as `Stange`, `Champack` and `sween` rather than editorial correction;
+- scan 10 as uncaptained photograph/back matter without inferred identity.
 
-- cover/title witness: **குணநாயகர் நேரு**;
-- poem-opening printed attribution: **முதல்வர் கலைஞர்**;
-- scan-2 issuing note date: **14.11.1989**;
-- scan-7 performance note date: **14.11.1970**;
-- visible Tamil poem printed pages: **2–6** on scans **3–7**;
-- printed English translation heading: **BEAUTY ROSE WEPT**;
-- source translator credit: **Dr. Krishna Srinivas**;
-- scan 10: uncaptained photograph; no identity inference permitted.
+## Explicit unresolved item
 
-No lexical reading is certified at intake. A clean page-role/source-identity intake is not a verification pass.
+Scan **9** carries a short Tamil imprint beneath the bottom horizontal rule. The print is too degraded for a confident Phase-1 reading. `pages/0009.md` therefore uses an explicit unresolved marker and status **needs-review** rather than guessing.
+
+This is the only specifically recorded Phase-1 unresolved reading. Phase 2 nevertheless must independently reread **all 10 pages**, because Phase-1 transcription is not verification.
 
 ## Exact next activity
 
-Perform **Phase 1 transcription only** for scans **1–10**. Create page records `pages/0001.md` … `pages/0010.md`; preserve source-visible wording and lineation; use `partial` for newly transcribed pages unless a specific uncertainty warrants `needs-review`. Do not promote pages to `verified` and do not begin Phase 2/3/4 in the same activity.
+Perform **Phase 2 source-critical visual verification for scans 1–10**. Check every Tamil and English word, compact glyph, punctuation mark, line break, visible page number, stamp/mark distinction and page role. Reinspect the scan-9 bottom imprint at source resolution. Promote pages to `verified` only after each verification succeeds. Do not assemble canonical Tamil during the verification pass.
