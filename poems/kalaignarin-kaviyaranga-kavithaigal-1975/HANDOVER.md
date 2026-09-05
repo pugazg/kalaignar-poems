@@ -17,7 +17,11 @@ Preserve newer durable state. Do not modify release-cleared poem trees while pro
 - first edition **1975**;
 - compiler/editor witness **ஆசிரியர் அ. முத்து**.
 
-The same supplied attachment remains controlling. Hashing has not succeeded because the available execution paths are unavailable; this remains one explicit source-identity defect and no substitute edition is in use.
+## Historical-glyph verification aid
+
+Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` together with `HISTORICAL_GLYPH_AUDIT.md`.
+
+Mandatory page-level screen: `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. Read character identity from source pixels, encode that identity in modern Unicode, and do not modernize surrounding source wording. A historical-glyph pass does not itself make a page `verified`.
 
 ## Onboarding result
 
@@ -32,22 +36,24 @@ Five other Kalaignar blocks are existing cross-witnesses and must not be duplica
 
 ## Phase 1 checkpoint
 
-**IN PROGRESS — 8/84 page records.**
+**IN PROGRESS — 12/84 page records.**
 
-- `partial`: scans **1, 2, 6, 8**;
+- `partial`: scans **1, 2, 6, 8–12**;
 - `needs-review`: scans **3, 4, 5, 7**;
-- scan 3 unresolved: small bottom imprint;
-- scan 4 unresolved: cursive Tamil handwriting;
-- scan 5 unresolved: dense `முன்னுரை` body; heading and `அன்பு, / அ. முத்து, / 22-6-75.` captured;
-- scan 7 unresolved: dense `பதிப்புரை` body/role lines; heading and `அன்புள்ள, / வை. சாமிநாதன், / 17-7-75.` captured;
-- scans 6 and 8: bleed-through/verso-like pages with no intended edition text clearly visible;
+- historical-glyph first-pass: scans **9–12 complete**;
+- representative decoded identities: `அண்ணா` (`ணா`), `அன்னை` (`னை`), `நினைவுண்டா` (`னை`), `மாற்றான்` (`றா`);
 - verified: **0**;
-- exact next physical scan: **9**.
+- exact next physical scan: **13**.
+
+Scans 9–12 are the 1975 Anna cross-witness. They have been transcribed into this publication workspace only; the existing release-cleared Anna poem was not changed.
+
+The source SHA-256 remains pending because the available exact-byte execution paths are unavailable. Keep that as an explicit metadata defect; do not invent a checksum.
 
 ## Exact next activity
 
-1. Continue **Phase 1 transcription only from scan 9**, one page at a time in physical order.
-2. Scans 9–20 are an existing Anna-poem cross-witness; transcribe the 1975 witness faithfully but do not create or modify a duplicate canonical Anna poem.
-3. Reattempt exact SHA-256 pinning as soon as a functioning exact-byte hashing path is available and synchronize all source-identity records.
-4. Preserve all 84 scans as the publication witness, including duplicate/cross-witness and Bharathidasan classifications.
-5. Do not begin Phase 2 verification, Phase 3 canonical assembly or translation during Phase 1.
+1. Continue **Phase 1 transcription only from scan 13 through the remaining Anna cross-witness**, in physical order.
+2. Apply the historical-glyph guide to every Tamil page and record difficult families explicitly.
+3. Preserve the 1975 wording, punctuation, lineation and printed numerals even where another edition differs.
+4. Do not create or modify a duplicate canonical Anna poem.
+5. Reattempt exact SHA-256 pinning only when a functioning exact-byte hashing path becomes available.
+6. Do not begin Phase 2, Phase 3 or translation.
