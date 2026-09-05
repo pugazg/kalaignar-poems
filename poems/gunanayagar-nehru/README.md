@@ -10,22 +10,22 @@ Tamil title: **குணநாயகர் நேரு**. Printed attribution: 
 
 ## Current status
 
-**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 + T1 COMPLETE / T2 NEXT.**
+**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 + T1 + T2 COMPLETE / T2 REVIEWED PASS / T3 NEXT.**
 
 - physical pages: **10/10 verified**;
 - canonical Tamil verse scans: **3–7 = 5/5 exactly once**;
 - canonical Tamil file: `sections/01.md`;
 - unresolved Tamil/source issues: **0**;
 - Tamil checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`;
-- T0 translation controls: **PASS**;
-- T1 independent English draft: **COMPLETE**, `translations/en/sections/01.md`;
-- Batch 01 record: `translations/en/batches/BATCH_01.md`;
-- T1 completion record: `translations/en/T1_DRAFT.md`;
-- working English title: **Nehru, the Noble Leader**;
-- source-English scans 8–9: secondary historical witness, **not yet compared in T1**;
-- T1 English-only review queue: **10**;
+- reviewed English title: **Nehru, the Noble Leader**;
+- reviewed English section: `translations/en/sections/01.md`;
+- reviewed English coverage: **scans 3–7 exactly once**;
+- Batch 01 T2: **REVIEWED PASS**;
+- T2 authority: `translations/en/T2_REVIEW.md`;
+- historical source-English scans 8–9 comparison: **COMPLETE**, deliberate wording adoptions **0**;
+- unresolved English translation issues: **0**;
 - Tamil changes during Phase 4: **0**.
 
 ## Exact next activity
 
-Perform **Phase 4 T2 — Batch 01 source/fidelity review**, Tamil-first and historical-witness-second. Do not begin T3 in the same activity.
+Perform **Phase 4 T3 — reader-facing English assembly / editorial-consistency review only**. Do not begin T4 in the same activity.
