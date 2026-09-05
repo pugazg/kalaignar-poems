@@ -2,7 +2,7 @@
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 PASS — TAMIL FINAL-CLEARED / PHASE 4 BATCHES 01–02 REVIEWED PASS**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 PASS — TAMIL FINAL-CLEARED / PHASE 4 BATCHES 01–03 REVIEWED PASS**
 
 - physical scans: **101/101 accounted**;
 - verified page records: **101/101**;
@@ -24,25 +24,28 @@ Phase 3 Gates 1–6 all PASS. Gate 5's source-backed non-lexical scan-82 three-d
 
 ## Phase 4 Batch 02
 
-**COMPLETE / REVIEWED PASS.** Governing record: `translations/en/batches/BATCH_02.md`.
+**COMPLETE / REVIEWED PASS.** Sections **03–04**, scans **21–38 = 18/18**; text scans **16/16**; illustration scans **22,32** structurally represented; closing ornaments **30,38** retained; unresolved alignment issues **0**.
 
-- Tamil sections translated/reviewed: **03–04 = 2/2**;
-- physical source scans represented: **21–38 = 18/18**;
-- text-bearing scans: **16/16**;
-- illustration-only scans: **22,32 = 2/2**, neutral structural markers only;
-- section-closing three-diamond witnesses: scans **30,38**, retained;
-- English outputs: `translations/en/sections/03.md`, `sections/04.md`;
-- Batch-01 title/name/term locks retained;
-- `கரந்தை` translated consistently as **Karantai battle**;
-- recurring `போர்வாள் ... பூவிதழ்` contrast retained as **war-sword / flower-petal**;
-- `Purananuru` 84 and 81 quotations kept separate from source-provided explanatory renderings;
-- `தக்கை மனிதர்` retained conservatively as **takkai men**;
+## Phase 4 Batch 03
+
+**COMPLETE / REVIEWED PASS.** Governing record: `translations/en/batches/BATCH_03.md`.
+
+- Tamil sections translated/reviewed: **05–06 = 2/2**;
+- physical source scans represented: **39–55 = 17/17**;
+- text-bearing scans: **15/15**;
+- illustration-only scans: **40,48 = 2/2**, neutral structural markers only;
+- section-closing three-diamond witnesses: scans **45,55**, retained;
+- English outputs: `translations/en/sections/05.md`, `sections/06.md`;
+- *Natrinai* 87 and *Purananuru* 83/252 kept distinct from source prose/explanation layers;
+- scan-52 source `பீத்து கொண்டு` left unchanged in Tamil; English contextual rendering documented in Batch 03;
+- simple-layer `பாணி` not silently normalized to quoted/glossed `ஆளி` / yali;
+- recurring **war-sword / flower-petal** lock retained;
 - unresolved English/Tamil alignment issues: **0**;
 - Tamil `pages/` changes: **0**;
 - Tamil `sections/` changes: **0**.
 
-Phase-4 cumulative progress: **2/6 batches**, **4/11 sections**, **33/95 main-work scans** reviewed PASS; cumulative source composition **29 text-bearing + 4 illustration-only scans**.
+Phase-4 cumulative progress: **3/6 batches**, **6/11 sections**, **50/95 main-work scans** reviewed PASS; cumulative source composition **44 text-bearing + 6 illustration-only scans**.
 
 ## Exact next activity
 
-**Phase 4 Batch 03 — translate and independently review sections 5–6, scans 39–55 / logical pages 34–50.** Create English `translations/en/sections/05.md`, `sections/06.md` and `translations/en/batches/BATCH_03.md`. Preserve established translation locks and do not modify final-cleared Tamil.
+**Phase 4 Batch 04 — translate and independently review sections 7–8, scans 56–73 / logical pages 51–68.** Create English `translations/en/sections/07.md`, `sections/08.md` and `translations/en/batches/BATCH_04.md`. Preserve established translation locks and do not modify final-cleared Tamil.

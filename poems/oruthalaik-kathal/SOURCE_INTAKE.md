@@ -15,13 +15,15 @@ Phase 3 is **COMPLETE / PASS — TAMIL FINAL-CLEARED**. Gate 5 restored the sour
 - T0 English setup/source mapping: **COMPLETE / PASS**;
 - Batch 01 sections 1–2 / scans 6–20: **COMPLETE / REVIEWED PASS**;
 - Batch 02 sections 3–4 / scans 21–38: **COMPLETE / REVIEWED PASS**;
+- Batch 03 sections 5–6 / scans 39–55: **COMPLETE / REVIEWED PASS**;
 - English title: **One-Sided Love**;
-- translation batches completed: **2/6**;
-- reviewed English sections: **4/11**;
-- reviewed main-work source scans: **33/95**;
+- translation batches completed: **3/6**;
+- reviewed English sections: **6/11**;
+- reviewed main-work source scans: **50/95**;
+- reviewed source composition: **44 text-bearing + 6 illustration-only scans**;
 - unresolved reviewed translation issues: **0**;
 - Tamil final-cleared `pages/` / `sections/` modified during Phase 4: **0**.
 
 ## Next activity
 
-**Phase 4 Batch 03 — translate/review sections 5–6, scans 39–55 / logical pages 34–50.**
+**Phase 4 Batch 04 — translate/review sections 7–8, scans 56–73 / logical pages 51–68.**
