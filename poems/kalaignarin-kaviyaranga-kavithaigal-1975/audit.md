@@ -2,16 +2,17 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATE 1 NEXT / SOURCE SHA-256 PINNED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATE 1 COMPLETE — PASS / GATE 2 NEXT / SOURCE SHA-256 PINNED.**
 
 - physical scans inventoried: **84/84**;
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
-- active Kalaignar production scans: **22/22 Phase-1 page records complete**;
-- Phase-2 verified active pages: **22/22** — scans **46–65, 67–68**;
-- NEW ITEM 01, scans 46–57: **12/12 verified — Phase 2 COMPLETE**;
-- NEW ITEM 02, scans 58–65: **8/8 verified — Phase 2 COMPLETE**;
-- NEW ITEM 04, scans 67–68: **2/2 verified — Phase 2 COMPLETE**;
-- scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, explicitly attributed to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`;
+- active Kalaignar production scans: **22/22**;
+- Phase-2 verified active pages: **22/22**;
+- NEW ITEM 01, scans 46–57: **12/12 verified**;
+- NEW ITEM 02, scans 58–65: **8/8 verified**;
+- NEW ITEM 04, scans 67–68: **2/2 verified**;
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, retained only as source/context;
 - scans 69–70: Bharathidasan insert — non-Kalaignar;
 - already represented Kalaignar blocks: scans **9–20, 21–32, 33–45, 71–77, 78–84** — skip/no retranscription or anthology verification;
 - repository writes to existing release-cleared poem trees: **0**;
@@ -26,28 +27,48 @@
 
 ## Historical Tamil glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory. The full family screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` was applied during Phase 1 across all **22 active Kalaignar target scans** and independently repeated across all **22/22** during Phase 2. No global replacement or lexical modernization was used.
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` remains mandatory. The full family screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` was applied during Phase 1 and independently repeated across all **22/22** active Kalaignar scans during Phase 2. Unresolved lexical/historical-glyph issues: **0**.
 
 ## Phase 2 final ledger
 
-### NEW ITEM 01 — scans 46–57
+- NEW ITEM 01 — scans 46–57: **12/12 VERIFIED**;
+- NEW ITEM 02 — scans 58–65: **8/8 VERIFIED**;
+- NEW ITEM 04 — scans 67–68: **2/2 VERIFIED**.
 
-**12/12 VERIFIED.** Unresolved lexical/historical-glyph issues: **0**.
+No page-level lexical work was reopened during Gate 1.
 
-### NEW ITEM 02 — scans 58–65
+## Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation
 
-**8/8 VERIFIED.** Unresolved lexical/historical-glyph issues: **0**.
+Authority: `PHASE3_STRUCTURE_AUDIT.md`.
 
-### NEW ITEM 04 — scans 67–68
+**PASS.** The complete structural interval scans **46–68** reconciles to one continuous publication-page sequence **46–68**, with structural invariant:
 
-**2/2 VERIFIED.**
+`reconciled logical publication page = physical scan_page`
 
-Scan 67 source-backed corrections include `மகிழுகின்றார்`, `நேர் மாறாய்ப்`, quoted `‘பார் பாராய்க்’`, and the visibly printed unusual form `நெளரோஜி`; the source forms `சுதந்திராக்கள்`, `மணக்கமது`, `பஞ்சாக`, `வார்னிஷைக்குடித்து`, and `‘விஸ்கி’ ரம்` are retained. No printed numeral is visible. Unresolved issues: **0**.
+Gate-1 accounting:
 
-Scan 68 source-backed corrections include `வரம் பெற்ற கருணைச் செல்வர் என: ஏன` (not Phase-1 `ஏனே`) and full clearance of the prohibition-policy conclusion through `பட்டியல் பிறகு சொல்வேன்:`. Printed numeral **68** is visible. Unresolved issues: **0**.
+- physical scans in interval: **23/23**;
+- active new-Kalaignar scans: **22/22**;
+- non-Kalaignar contextual scan: **1/1** — scan 66;
+- visibly numbered interval pages: **19/23** — scans 47–57, 59–65, 68;
+- suppressed/unprinted numerals: **4/23** — scans **46, 58, 66, 67**;
+- active Kalaignar suppressed numerals: **46, 58, 67**;
+- unexplained pagination gaps/resets: **none**;
+- page-text changes in Gate 1: **none**.
 
-## Phase 3
+The page-record `printed_page` fields remain source-visible evidence only. Scans 46, 58, 66 and 67 remain `printed_page: null`; their reconciled logical numbers are structural metadata and were not backfilled into page records.
 
-Per `POEM_PROCESSING_GUIDE.md`, Phase 3 must proceed in ordered gates. **Gate 1 is next: physical scan ↔ printed-page reconciliation only.** Do not begin Gate 2 boundary/page-join audit or canonical assembly in the same activity.
+## Phase 3 progression
 
-Gate 1 must account for the active new-item source ranges **46–57, 58–65, 67–68** while keeping scan 66 as non-Kalaignar source/context and preserving visible printed numerals separately from any reconciled logical pagination.
+1. Physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**
+2. Boundary / page-join audit — **NEXT**
+3. Title-witness reconciliation — deferred
+4. Canonical Tamil assembly — deferred
+5. Assembly/source-completeness review — deferred
+6. Tamil final clearance — deferred
+
+## Exact next activity
+
+Perform **Phase 3 Gate 2 — boundary / page-join audit only** for NEW ITEM 01 (46–57), NEW ITEM 02 (58–65) and NEW ITEM 04 (67–68). Use scan 66 only as contextual separation evidence between Items 02 and 04.
+
+Do not begin Gate 3 title reconciliation, canonical assembly, final clearance or translation in the same activity.
