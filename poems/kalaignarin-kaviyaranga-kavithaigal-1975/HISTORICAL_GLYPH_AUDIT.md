@@ -36,17 +36,36 @@ Rules:
 | 18 | Anna cross-witness continuation | `அண்ணனாக` (`ணா`); `மன்னனாக` (`னா`); `தென்றலாய்ப்`, `பெற்றார்` (`றா`); `அன்னையென்பார்` (`னை`) | reform-family identities pass; one separate short source word remains unresolved and is not filled from another edition | `needs-review` |
 | 19 | Anna cross-witness continuation | `அண்ணா` / `அண்ணன்` / `அண்ணனுக்கோர்` (`ணா`); `அன்னை` (`னை`); `நின்றார்` (`றா` context) | full screen applied; no reform-family ambiguity retained | `partial` |
 | 20 | Anna cross-witness conclusion | `ஏதண்ணா`, `போதுமண்ணா`, `அண்ணா`, `தந்திடண்ணா` (`ணா`); `காற்று` (`றா`) | full screen applied; no reform-family ambiguity retained | `partial` |
+| 21 | Nehru cross-witness opening | `அண்ணன்` / `அன்னை`; event-heading names | full screen applied; no reform-family ambiguity retained | `partial` |
+| 22 | Nehru cross-witness continuation | `முன்னை`, `பின்னர்`; flower-name clusters | full screen applied; 1975 spacing retained independently | `partial` |
+| 23 | Nehru cross-witness continuation | `பூமானே`, `கோமானே`, `நானிலம்`, `அன்றுமுதல்` | full screen applied; later-witness variants not substituted | `partial` |
+| 24 | Nehru cross-witness continuation | `நனைத்து`, `மன்னரவர்`, `கண்ணீரை` | full screen applied; unusual `குரங்கின்கை` passage retained as this witness | `partial` |
+| 25 | Nehru cross-witness continuation | `அண்ணல்`, `எண்ணெயிட்ட`, `பணமலை`, `குணமலை`, `நேரு வானார்` | reform-family identities pass; one separate bracketed line remains unread | `needs-review` |
+| 26 | Nehru cross-witness continuation | `நானிலம்`, `பூங்குன்றனார்`, `கர்த்தபம்` | reform-family identities pass; separate lower-middle line(s) remain unread | `needs-review` |
+| 27 | Nehru cross-witness continuation | `கள்ளி`, `வெள்ளி`, `கிள்ளி`; Kalinga passage | full screen applied; distinct clusters kept separate | `partial` |
+| 28 | Nehru conclusion + S. D. Sundaram intro | `தனிநாயகம்`, `குண நாயகர்`, `பெண்ணுரிமை`, `மண்ணுரிமை` | reform-family identities pass; one `பண நாயகம்` line remains unread | `needs-review` |
+| 29 | poet introductions | `கொத்தமங்கலம்`, `பண்பாட்டின்`, `எழுத்துரிமை` | reform-family identities pass; one `அன்பர் சுப்பு...` line remains unread | `needs-review` |
+| 30 | poet introductions | `சூரியனும்`, `முருகு சுந்தரத்தைக்`, `ரகுமான்`, `வாக்குரிமை` | full screen applied; no reform-family ambiguity retained | `partial` |
+| 31 | poet introductions | `வாக்குரிமை`, `கண்ணதாசன்`, `மாற்றார்`, `குயில்` | `மாற்றார்` checked as `றா`; first Kannadasan lines remain separately unread | `needs-review` |
+| 32 | event conclusion | `சொத்துரிமை`, `பிள்ளைகள்`, `நல்லுரிமை`, `முழுமனிதன்` | full screen applied; no reform-family ambiguity retained | `partial` |
 
-## Anna cross-witness first-pass result
+## Cross-witness first-pass results
 
-- scans **9–20** have now received the historical-glyph first-pass;
-- every Tamil page in this block received the full 13-family screen;
+### Anna block — scans 9–20
+
+- historical-glyph first-pass: **12/12 complete**;
 - historical-glyph unresolved clusters: **0**;
-- separate ordinary-source unresolved reading: **1** — scan 18, one short right-aligned word after `இனிமேலே எனப்`;
-- no page is `verified`; Phase 2 remains a separate independent visual gate.
+- separate ordinary-source unresolved reading: **1** — scan 18.
+
+### Nehru block — scans 21–32
+
+- historical-glyph first-pass: **12/12 complete**;
+- historical-glyph unresolved clusters: **0**;
+- separate ordinary-source unresolved page records: **5** — scans 25, 26, 28, 29 and 31;
+- the later `கலைஞரின் கவிதைகள்` witness and the standalone Nehru source may be consulted only to locate comparison points; neither may fill unread 1975 text during Phase 1.
 
 ## Separation from ordinary textual review
 
-Historical-glyph decisions are kept separate from edition wording and punctuation differences. The existing release-cleared Anna poem may be consulted only as a secondary cross-witness to locate comparison points; it does not override the 1975 scan. In particular, later-edition wording was **not** used to fill the unresolved scan-18 word or to insert lines not visibly present in this 1975 witness.
+Historical-glyph decisions are kept separate from edition wording and punctuation differences. Existing release-cleared poem witnesses may be consulted only as secondary cross-witnesses; they do not override the 1975 scan.
 
 Phase 2 will independently recheck these pages from source pixels before any `verified` status is assigned.
