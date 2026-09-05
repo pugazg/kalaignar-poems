@@ -14,18 +14,18 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 - non-Kalaignar Bharathidasan insert: scans **69–70**;
 - exact SHA-256 source pin: **PENDING — one explicit metadata defect**.
 
-The same exact supplied attachment has been re-resolved and its known size still matches the intake record. Current runtime hashing was unavailable, so no checksum has been invented.
+The same exact supplied attachment remains controlling and its known size still matches the intake record. Current exact-byte execution paths remain unavailable, so no checksum has been invented.
 
 ## Phase 1 — transcription only
 
-**IN PROGRESS — 4/84 page records.**
+**IN PROGRESS — 8/84 page records.**
 
-- scans 1–2: `partial`;
-- scans 3–4: `needs-review`;
+- `partial`: scans **1, 2, 6, 8**;
+- `needs-review`: scans **3, 4, 5, 7**;
 - verified: **0**;
-- exact next physical scan: **5**.
+- exact next physical scan: **9**.
 
-Continue in physical order. Newly transcribed pages are normally `partial`; unresolved source readings remain `needs-review`. Phase 1 must not be conflated with verification. Exact-source identity and Phase 1 completion cannot be marked final until SHA-256 is pinned.
+Scans 1–8 cover the publication preliminaries. Scan 9 begins the existing Anna-poem cross-witness block. Continue in physical order. Newly transcribed pages are normally `partial`; unresolved source readings remain `needs-review`. Phase 1 must not be conflated with verification. Exact-source identity and Phase 1 completion cannot be marked final until SHA-256 is pinned.
 
 ## Phase 2 — independent source-critical verification
 
@@ -41,7 +41,7 @@ Continue in physical order. Newly transcribed pages are normally `partial`; unre
 
 ## Exact next activity
 
-Continue **Phase 1 from scan 5**. Reattempt exact SHA-256 calculation when a functioning exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or Phase 4.
+Continue **Phase 1 from scan 9**. Preserve scans 9–20 as the 1975 Anna cross-witness without modifying the release-cleared canonical Anna work. Reattempt exact SHA-256 calculation when a functioning exact-byte hashing path becomes available. Do not begin Phase 2, Phase 3 or Phase 4.
 
 ## Preserved completed works
 
