@@ -12,11 +12,17 @@
 - compiler/editor visible on title page: **ஆசிரியர் அ. முத்து**;
 - source PDF: **not committed**.
 
-The exact supplied attachment remains controlling and its known size matches the onboarded source identity. A functioning exact-byte hashing path remains unavailable in the current runtime, so checksum pinning stays an explicit metadata defect rather than being guessed.
+The exact supplied attachment remains controlling. Its known size matches the onboarded source identity. A functioning local hashing path is still unavailable, so checksum pinning remains an explicit metadata defect rather than being guessed.
 
 ## Intake decision
 
 A full visual inventory of all 84 scans found four Kalaignar poem/event blocks not currently represented as canonical repository items. Those four remain stable intake IDs 01–04. Five other Kalaignar blocks are already represented elsewhere and are edition/cross-witness material only. Scans 69–70 are a Bharathidasan insert and are not a Kalaignar item.
+
+## Historical-glyph control
+
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is now used as a verification aid for this 1975 source. The work-level record is `HISTORICAL_GLYPH_AUDIT.md`.
+
+Historical typeforms are decoded by character identity and then encoded in modern Unicode; source spelling, grammar, punctuation and vocabulary are otherwise preserved. The full known set `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` is screened page by page. This does not collapse Phase 1 into Phase 2 verification.
 
 ## New-item inventory
 
@@ -50,10 +56,10 @@ Scans **69–70** are visibly attributed to **பாவேந்தர் பா
 - publication inventory: **84/84 visually classified**;
 - new Kalaignar items onboarded: **4/4**;
 - exact SHA-256 pin: **PENDING — 1 unresolved metadata issue**;
-- Phase 1 page-record transcription: **IN PROGRESS — 8/84**;
-- current statuses: **4 partial / 4 needs-review / 0 verified**;
-- next physical scan: **9**;
-- scans 1–8 publication preliminaries now have page records;
+- Phase 1 page-record transcription: **IN PROGRESS — 12/84**;
+- current statuses: **8 partial / 4 needs-review / 0 verified**;
+- historical-glyph first-pass: **scans 9–12 complete**;
+- next physical scan: **13**;
 - Phase 2 verification: **BLOCKED by incomplete Phase 1**;
 - Phase 3 canonical assembly: **BLOCKED**;
 - Phase 4 translation: **BLOCKED**.
