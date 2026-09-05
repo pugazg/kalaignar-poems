@@ -14,20 +14,20 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 
 1. scans **46–57** — Item 01 — **Phase 2 COMPLETE: 12/12 verified**;
 2. scans **58–65** — Item 02 — **Phase 2 COMPLETE: 8/8 verified**;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE: 2/2 verified**.
 
-Phase 1: **22/22 complete**. Phase 2: **20/22 verified**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**.
 
 ## Verified checkpoint
 
-- scans **46–57** and **58–65** are independently source-cleared from enlarged controlling pixels;
-- historical-glyph Phase-2 recheck is complete through scan **65**;
-- unresolved lexical/historical-family issues on verified scans **46–65: 0**;
-- scan 63 source-cleared thematic label is `வண்மை`;
-- scan 65 source-clears the final `எளிமை / வன்மை / வலிமை / இறைமை / புதுமை` conclusion and `வணக்கம்.`;
+- all active new-Kalaignar scans **46–65, 67–68** are independently source-cleared from enlarged controlling pixels;
+- historical-glyph Phase-2 recheck is **22/22 complete**;
+- unresolved lexical/historical-family issues: **0**;
+- scan 67 corrections include `மகிழுகின்றார்`, `நேர் மாறாய்ப்`, and `நெளரோஜி`;
+- scan 68 corrects Phase-1 `ஏனே` to source `ஏன` in `வரம் பெற்ற கருணைச் செல்வர் என: ஏன`;
 - no Phase-3 join/structure decision has been made;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 04 scans 67–68**. Independently compare both pages against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation until both pages pass.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Preserve visible printed numerals separately from reconciled logical pagination. Do not begin Gate 2 boundary/page-join audit, canonical assembly or translation in the same activity.
