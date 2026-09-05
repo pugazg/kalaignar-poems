@@ -6,7 +6,7 @@ The controlling authority remains the pixels of `TVA_BOK_0064169_கலைஞர
 
 ## Required screen
 
-Every **new-item Tamil target page** is checked for:
+Every active Tamil production page is checked for:
 
 `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
 
@@ -19,9 +19,9 @@ Rules:
 - unresolved clusters/text remain unresolved / `needs-review`;
 - the glyph screen does **not** itself promote a Phase-1 page to `verified`.
 
-## Processing scope
+## Production scope correction
 
-Under the user-directed NEW-ITEM-ONLY policy, production glyph screening follows only the new Kalaignar blocks: **46–57, 58–65, 66, 67–68**. Earlier archival cross-witness notes remain frozen.
+After direct scan-66 review, `சாராய சுதந்திரம்` is no longer a Kalaignar production item: the page explicitly attributes it to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`. Active Kalaignar glyph screening therefore applies to scans **46–57, 58–65, 67–68**. Scan 66 is retained only as a classified non-Kalaignar source insert and response context.
 
 ## NEW ITEM 01 — scans 46–57
 
@@ -32,26 +32,16 @@ Under the user-directed NEW-ITEM-ONLY policy, production glyph screening follows
 
 ## NEW ITEM 02 — scans 58–65
 
-| Scan | Source role | Representative screen points | First-pass result | Page status |
-|---:|---|---|---|---|
-| 58 | event heading + poem opening | `பறம்புமலைப்`, `வள்ளல்`, `தலைமைக்`, `குன்றக்குடி`, `வணக்கம்` | full family screen applied; no historical-family ambiguity silently normalized | `needs-review` |
-| 59 | poem continuation | `தமிழை`, `துறந்திடேன்`, `வணக்கம்`, `மன்னன் பாரியாலே` | full screen applied; dense ordinary lines remain for later visual clearance | `needs-review` |
-| 60 | Murugan–Valli narrative | `வள்ளி`, `வள்ளிக்கிழங்கு`, repeated `எங்கே` forms | full screen applied; one short ordinary phrase remains unresolved | `needs-review` |
-| 61 | Pari–Kapilar narrative | `பாரி`, `கபிலன்`, `மன்னர்`, `மூவேந்தர்`, `தோழன்` | full screen applied; uncertain upper-middle wording not inferred | `needs-review` |
-| 62 | charity/ethics passage | `நன்றி`, `பொற்கொடை`, `ஊர்க்கொடை`, `வள்ளல்கள்`, `வண்மையுடன்` | full screen applied; no lexical modernization | `needs-review` |
-| 63 | thematic `மை` word-play | `தொன்மை`, `எளிமை`, `வன்மை`, `வலிமை`, `இறைமை`, `புதுமை` | repeated historical forms compared within page; word-play preserved | `needs-review` |
-| 64 | theme/poet introductions | `வன்மை`, `வலிமை`, `இறைமை`, `புதுமை`, `முடியரசன்`, `முடியரசர்` | full screen applied; source word-play not normalized | `needs-review` |
-| 65 | conclusion | `எளிமை`, `வன்மை`, `வலிமை`, `இறைமை`, `புதுமை`, `வணக்கம்` | full screen applied; conclusion preserved conservatively | `needs-review` |
-
-### Item-02 result
-
 - physical scans screened: **8/8**;
 - historical-glyph first-pass coverage: **58–65 complete**;
-- combined active new-item historical-glyph coverage: **46–65 complete**;
+- repeated source forms including `பறம்புமலைப்`, `வள்ளல்`, `தலைமைக்`, `தொன்மை`, `எளிமை`, `வன்மை`, `வலிமை`, `இறைமை`, `புதுமை`, `முடியரசன்`, `முடியரசர்` were checked by character identity;
 - historical-family ambiguities deliberately guessed: **0**;
-- pages promoted to verified: **0**;
-- ordinary source-reading uncertainty remains separate and will be handled by Phase 2.
+- pages promoted to verified: **0**.
+
+## Scan 66 — non-Kalaignar Rajaji insert
+
+The full historical-family screen was applied while classifying/transcribing this page. Representative forms checked from enlarged pixels include `அண்ணாவை`, `காற்றிலே`, `அரங்கேற்றினர்`, `போற்றுக`, and `சோற்றுத்`. No historical-family ambiguity was silently normalized. Page status remains `partial`; this is not Phase-2 verification and is not Kalaignar canonical material.
 
 ## Exact next glyph activity
 
-Apply the same full screen to **NEW ITEM 03 — scan 66 (`சாராய சுதந்திரம்`) only**. Do not begin Item 04 in the same activity.
+Apply the full screen to **scans 67–68**, the Kalaignar `முதல்வர் கலைஞரின் பதில் கவிதை` block. Do not begin Phase 2 in the same activity.
