@@ -16,9 +16,7 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 **COMPLETE / PASS — 10/10 verified.**
 
-- partial: **0**;
-- needs-review: **0**;
-- blocked: **0**;
+- partial / needs-review / blocked: **0 / 0 / 0**;
 - source-backed corrections/resolutions: **5**, recorded in `poems/gunanayagar-nehru/audit.md`;
 - scan-9 bottom imprint: **`அரசு அச்சகம்.`**.
 
@@ -26,17 +24,27 @@ Scans 8–9 preserve the source-supplied English translation as physical-source 
 
 ## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
-**IN PROGRESS — GATE 1 NEXT.**
+**IN PROGRESS — GATE 1 PASS / GATE 2 NEXT.**
 
 ### Gate 1 — physical scan ↔ printed/logical page reconciliation
 
-**NEXT.** Account for all 10 physical scans and distinguish visible printed numerals from reconciled logical pagination.
+**COMPLETE / PASS.**
 
-### Gates 2–6
+- physical scans accounted: **10/10**;
+- reconciled numbered interior: **logical pages 1–8 = scans 2–9**;
+- visible printed numerals: **2–6 on scans 3–7** only;
+- inferred/suppressed logical values: scan 2 → **1**, scan 8 → **7**, scan 9 → **8**;
+- scans 1 and 10: outside numbered interior;
+- unresolved pagination issues: **0**;
+- governing record: `poems/gunanayagar-nehru/PHASE3_PAGE_RECONCILIATION.md`.
 
-**DEFERRED until Gate 1 passes.**
+### Gate 2 — boundary / page-join audit
 
-Tamil canonical poem-body boundary remains provisionally scans **3–7** until certified by the ordered Phase-3 gates.
+**NEXT.** Certify the Tamil poem opening/closing boundary, joins **3→4, 4→5, 5→6, 6→7**, scan-7 performance-note separation, and exclusions of scans **1–2, 8–9 and 10** from canonical Tamil body scope.
+
+### Gates 3–6
+
+**DEFERRED until Gate 2 passes.**
 
 ## Phase 4 — repository English translation and release
 
@@ -46,7 +54,7 @@ The source's existing English translation on scans 8–9 is archived as source e
 
 ## Exact next activity
 
-Complete **Phase 3 Gate 1 only**; do not begin Gate 2 or assembly in the same activity.
+Complete **Phase 3 Gate 2 only**; do not begin Gate 3 or assembly in the same activity.
 
 ## Preserved completed work
 
