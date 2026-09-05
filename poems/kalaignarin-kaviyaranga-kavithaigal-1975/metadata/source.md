@@ -12,16 +12,24 @@
 
 ## Exact-source status
 
-The exact supplied attachment was re-resolved for the current Phase 1 activity and its known size still matches **93,307,011 bytes**. Exact-byte SHA-256 computation was attempted through the available execution runtime but the local hashing path was unavailable. The checksum therefore remains a visible unresolved metadata issue. No substitute file, web copy or other edition is being used.
+The exact supplied attachment remains controlling and its known size still matches **93,307,011 bytes**. Exact-byte SHA-256 computation was reattempted during the scans 21–32 Phase-1 batch, but the available local execution path failed again. The checksum therefore remains a visible unresolved metadata issue. No substitute file, web copy or other edition is being used.
 
-Phase 1 transcription has started from the same supplied attachment, but exact-source identity is **not final** and Phase 1 cannot be declared complete/final until the checksum is pinned.
+Phase 1 may continue from this same supplied attachment, but exact-source identity is **not final** and Phase 1 cannot be declared complete/final until the checksum is pinned.
+
+## Current Phase-1 source coverage
+
+- page records: **32/84**;
+- historical-glyph first-pass: **scans 9–32** using the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md`;
+- Anna cross-witness scans **9–20**: complete at Phase 1;
+- Nehru cross-witness scans **21–32**: complete at Phase 1;
+- exact next scan: **33**.
 
 ## Physical/source observations
 
-- scan 1: illustrated front cover — Phase 1 record `../pages/0001.md`;
-- scan 2: title/publication page — Phase 1 record `../pages/0002.md`;
-- scan 3: first-edition / price detail — Phase 1 `needs-review` for small bottom imprint;
-- scan 4: handwritten inscription/note — Phase 1 `needs-review` for cursive Tamil handwriting;
+- scan 1: illustrated front cover;
+- scan 2: title/publication page;
+- scan 3: first-edition / price detail — `needs-review` for small bottom imprint;
+- scan 4: handwritten inscription/note — `needs-review` for cursive Tamil handwriting;
 - scan 5: `முன்னுரை`;
 - scan 6: faint bleed-through / verso-like page;
 - scan 7: `பதிப்புரை`;
@@ -30,6 +38,8 @@ Phase 1 transcription has started from the same supplied attachment, but exact-s
 
 ## Source authority rule
 
-The supplied 1975 scan is controlling for this workspace. Existing repository editions may be used only to identify duplicate/cross-witness relationships; they must not silently correct, normalize or replace 1975 readings.
+The supplied 1975 scan is controlling for this workspace. Existing repository editions may be used only to identify duplicate/cross-witness relationships and comparison points; they must not silently correct, normalize, complete or replace 1975 readings.
 
-The checksum remains an explicit intake defect. Reattempt and synchronize SHA-256 as soon as a functioning exact-byte hashing path is available.
+Historical glyph decoding identifies character identity only. It must not be used to modernize source spelling, grammar, punctuation or vocabulary.
+
+Reattempt and synchronize SHA-256 as soon as a functioning exact-byte hashing path is available.
