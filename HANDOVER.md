@@ -12,17 +12,17 @@ Process only poems not already represented in the repository. Skip duplicate ran
 
 ## Active new Kalaignar scope
 
-1. scans **46–57** — Item 01 — **Phase 2 COMPLETE: 12/12 verified**;
-2. scans **58–65** — Item 02 — **Phase 2 COMPLETE: 8/8 verified**;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE: 2/2 verified**.
+1. scans **46–57** — Item 01 — Phase 2 complete / Gate 1 reconciled;
+2. scans **58–65** — Item 02 — Phase 2 complete / Gate 1 reconciled;
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — Phase 2 complete / Gate 1 reconciled.
 
-Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gate 1: **COMPLETE / PASS**.
 
-All active new-Kalaignar scans are independently source-cleared from enlarged source pixels. Historical-glyph Phase-2 recheck is **22/22 complete**; unresolved lexical/historical-glyph issues are **0**. No Phase-3 work has begun and existing release-cleared poem trees remain untouched.
+Gate-1 authority is `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_STRUCTURE_AUDIT.md`. The structural interval scans **46–68** reconciles continuously as logical publication pages **46–68**. Visible numerals occur on scans **47–57, 59–65, 68**; scans **46, 58, 66, 67** have no visible numeral and retain `printed_page: null`. Scan 66 remains non-Kalaignar context only. No page text changed in Gate 1, and existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Preserve visible printed numerals separately from reconciled logical pagination. Do not begin Gate 2 boundary/page-join audit, title reconciliation, canonical assembly or translation in the same activity.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only** for Items 01, 02 and 04. Certify each opening, internal continuation, quotation carry-over, separator and closing boundary. Use scan 66 only as contextual separation evidence. Do not begin Gate 3 title reconciliation, canonical assembly, final clearance or translation in the same activity.
 
 ## Preserved completed works
 
