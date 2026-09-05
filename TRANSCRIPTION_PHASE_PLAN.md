@@ -17,7 +17,7 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 ## Historical Tamil glyph control
 
-The user-supplied historical-glyph guide is mandatory. Phase-1 family screening is complete for **22/22 active Kalaignar scans**. Phase-2 independent historical-glyph recheck is complete through **scan 46**. Source-pixel identity controls; no lexical modernization or global replacement.
+The user-supplied historical-glyph guide is mandatory. Phase-1 family screening is complete for **22/22 active Kalaignar scans**. Phase-2 independent historical-glyph recheck is complete through **scan 47**. Source-pixel identity controls; no lexical modernization or global replacement.
 
 ## Phase 1 — new-Kalaignar transcription only
 
@@ -25,10 +25,10 @@ The user-supplied historical-glyph guide is mandatory. Phase-1 family screening 
 
 ## Phase 2 — independent source-critical verification
 
-**IN PROGRESS — 1/22 VERIFIED.**
+**IN PROGRESS — 2/22 VERIFIED.**
 
-- scan **46**: **verified** after enlarged-source review; unresolved issues **0**;
-- scans **47–57**: Item 01 pending verification;
+- scans **46–47**: **verified**, unresolved issues 0;
+- scans **48–57**: Item 01 pending verification;
 - scans **58–65**: Item 02 pending verification;
 - scans **67–68**: Item 04 pending verification.
 
@@ -44,4 +44,4 @@ For every remaining page, recheck every line, punctuation/lineation choice and h
 
 ## Exact next activity
 
-Verify **scan 47 only** at Phase 2. Do not begin Phase 3 or Phase 4 in the same activity.
+Verify **scan 48 only** at Phase 2. Do not begin Phase 3 or Phase 4 in the same activity.
