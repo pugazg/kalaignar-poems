@@ -12,18 +12,25 @@ Four new Kalaignar item blocks are onboarded: scans **46–57, 58–65, 66, 67�
 
 ## Durable Phase 1 checkpoint
 
-- page records: **4/84**;
-- scans 1–2: `partial`;
-- scans 3–4: `needs-review`;
+- page records: **8/84**;
+- `partial`: scans **1, 2, 6, 8**;
+- `needs-review`: scans **3, 4, 5, 7**;
 - verified: **0**;
-- exact next physical scan: **5**.
+- exact next physical scan: **9**.
 
-Scan 3 has an unresolved small bottom imprint. Scan 4 has unresolved cursive Tamil handwriting; only the clearly readable English `(As a Special case)` was captured. Do not guess either reading.
+Unresolved controls:
 
-The SHA-256 calculation remains an explicit metadata issue because the current execution runtime did not provide a functioning local hashing path. Reattempt it when possible, but do not invent a checksum.
+- scan 3: small bottom printer/imprint line;
+- scan 4: cursive Tamil handwritten inscription;
+- scan 5: dense `முன்னுரை` body; only clearly readable heading/signature/date are committed;
+- scan 7: dense `பதிப்புரை` body/role lines; only clearly readable heading/signature/date are committed.
+
+Scans 6 and 8 are retained as bleed-through/verso-like publication pages with no intended edition text clearly visible.
+
+The SHA-256 remains an explicit metadata issue because all available exact-byte execution paths remain unavailable. Reattempt it when possible, but do not invent a checksum.
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 5 in physical order**, creating one page record per scan and preserving exact source wording, punctuation, lineation, handwriting/non-text notes and page roles. Newly transcribed pages are normally `partial`, not `verified`.
+Continue **Phase 1 transcription only from scan 9 in physical order**. Scans **9–20** are the already represented Anna-poem cross-witness. Create one page record per scan and preserve the 1975 wording, punctuation, lineation and page roles exactly; do **not** reopen or modify the existing canonical Anna poem merely because this edition differs.
 
-Keep cross-witness and Bharathidasan classifications explicit. Do not begin Phase 2, Phase 3 or translation.
+Keep all cross-witness and Bharathidasan classifications explicit. Do not begin Phase 2, Phase 3 or translation.
