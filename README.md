@@ -11,13 +11,15 @@ Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic w
 Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`  
 Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**.
 
-**ONBOARDED / PHASE 1 IN PROGRESS — 4/84 page records.**
+**ONBOARDED / PHASE 1 IN PROGRESS — 8/84 page records.**
 
-- scans 1–2: `partial`;
-- scans 3–4: `needs-review`;
+- `partial`: scans **1, 2, 6, 8**;
+- `needs-review`: scans **3, 4, 5, 7**;
 - verified: **0**;
-- exact next scan: **5**;
+- exact next scan: **9**;
 - checksum: still an explicit source-identity defect; no checksum was guessed.
+
+Scans 5–8 complete the publication preliminaries. Scans 5 and 7 retain unresolved dense body text rather than guessed readings; scans 6 and 8 are bleed-through/verso-like pages. Scan 9 begins the existing Anna-poem cross-witness block.
 
 New target blocks remain:
 
@@ -28,7 +30,7 @@ New target blocks remain:
 
 Five Kalaignar blocks in the same 1975 PDF are already represented elsewhere and remain cross-witnesses only; scans 69–70 are a Bharathidasan insert. No existing release-cleared poem tree has been modified.
 
-Exact next activity: continue **Phase 1 from scan 5** in physical order and reattempt SHA-256 pinning when a functioning exact-byte hashing path is available.
+Exact next activity: continue **Phase 1 from scan 9** in physical order, preserving the 1975 Anna witness without creating or modifying a duplicate canonical poem. Reattempt SHA-256 pinning when a functioning exact-byte hashing path is available.
 
 ## Latest completed work — குணநாயகர் நேரு
 
