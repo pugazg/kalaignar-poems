@@ -10,21 +10,20 @@ Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங
 
 ## USER-DIRECTED NEW-ITEM-ONLY RULE
 
-Do not retranscribe poems already represented in the repository. Skip **9–20, 21–32, 33–45, 71–77, 78–84**. Existing page records 9–32 remain archival cross-witnesses only. Scans 69–70 are Bharathidasan material.
+Do not retranscribe or verify already represented blocks as new works. Skip **9–20, 21–32, 33–45, 71–77, 78–84**. Scan 66 is Rajaji and scans 69–70 are Bharathidasan.
 
-## Corrected production scope
+## Durable Phase-1 checkpoint
 
-- scans **46–57** — Kalaignar Item 01 — Phase 1 first pass complete, 12/12 needs-review;
-- scans **58–65** — Kalaignar Item 02 — Phase 1 first pass complete, 8/8 needs-review;
-- scan **66** — `சாராய சுதந்திரம்` — **NON-KALAIGNAR**, explicitly attributed to `சக்கரவர்த்தி—இராசகோபாலாச்சாரி`; retained at `pages/0066.md` only as source/context;
-- scans **67–68** — `முதல்வர் கலைஞரின் பதில் கவிதை` — **NEXT genuine Kalaignar block**.
-
-Corrected Kalaignar production target: **22 scans**. Current Phase-1 coverage: **20/22**.
-
-## Historical Tamil glyph control
-
-Use the user-supplied historical-glyph guide on every active Kalaignar page. Screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`; character identity comes from source pixels. Never global-replace, modernize source wording, or guess unread text.
+- genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
+- active target scans: **22/22 Phase-1 page records complete**;
+- Item 01: 12 `needs-review`;
+- Item 02: 8 `needs-review`;
+- Item 04: 2 `partial`;
+- verified active pages: **0**;
+- historical-glyph first-pass: **22/22 complete**.
 
 ## Exact next activity
 
-Process **scans 67–68 only** as the Kalaignar `முதல்வர் கலைஞரின் பதில் கவிதை` Phase-1 block. Create one page record per scan, apply the historical-glyph screen, and keep uncertain text unresolved. Do not begin Phase 2, Phase 3 or translation in the same activity.
+Begin **Phase 2 independent source-critical verification with scan 46**. Work through the active Kalaignar targets in physical order: **46–57, then 58–65, then 67–68**. Compare every recorded line, punctuation/lineation decision and historical-glyph decoding against enlarged controlling-source pixels. Correct only source-backed differences and promote a page to `verified` only after independent clearance.
+
+Do not begin Phase 3 canonical assembly or Phase 4 translation until Phase 2 is complete.
