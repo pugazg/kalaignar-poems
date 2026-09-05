@@ -15,15 +15,18 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 ## Durable checkpoint
 
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
-- active target scans: **22/22 Phase-1 records complete**;
-- Item 01: 12 `needs-review`;
-- Item 02: 8 `needs-review`;
-- Item 04: 2 `partial`;
-- verified active pages: **0**;
-- historical-glyph Phase-1 screen: **22/22 complete**.
+- Phase 1: **22/22 complete**;
+- Phase 2: **1/22 verified**;
+- scan **46**: `pages/0046.md` **verified**, unresolved readings **0**;
+- scans **47–57**: 11 Item-01 pages pending Phase 2;
+- scans **58–65**: 8 Item-02 pages pending Phase 2;
+- scans **67–68**: 2 Item-04 pages pending Phase 2;
+- historical-glyph Phase-2 recheck complete through scan **46**.
+
+Scan 46 was independently reread from enlarged source pixels. The source-backed page now includes `80-வது பிறந்தநாளை ஒட்டி நடைபெற்ற`, `இன்று காலை: புறப்பட்டுக் கார் ஏறும் போது`, the restored `புதுவைக்குச் செல்கின்றாயா; அங்கு / “குடி”யுண்டே—` lines, and the full `குடி` place-name sequence. Phase 3 has not begun.
 
 ## Exact next activity
 
-Begin **Phase 2 independent source-critical verification with Item 01 scan 46**. Proceed in physical order across **46–57, 58–65, 67–68** only. Independently compare every recorded line, punctuation/lineation choice and historical-glyph decoding against enlarged controlling-source pixels. Correct only source-backed differences and promote pages to `verified` only after actual visual clearance.
+Continue **Phase 2 with Item 01 scan 47 only**. Independently compare `pages/0047.md` against enlarged controlling-source pixels; recheck every word ending, punctuation mark, line break and historical-glyph family. Correct only source-backed differences and promote the page to `verified` only after complete visual clearance.
 
 Do not begin Phase 3 canonical assembly or Phase 4 translation until Phase 2 is complete.
