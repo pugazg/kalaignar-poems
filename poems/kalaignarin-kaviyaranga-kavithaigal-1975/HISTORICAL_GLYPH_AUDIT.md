@@ -25,29 +25,33 @@ Under the user-directed NEW-ITEM-ONLY policy, production glyph screening follows
 
 ## NEW ITEM 01 — scans 46–57
 
-| Scan | Source role | First-pass result | Page status |
-|---:|---|---|---|
-| 46 | event heading + poem opening | full screen applied; dense ordinary text remains partly unread | `needs-review` |
-| 47 | poem continuation | full screen applied; ordinary lexical uncertainty retained | `needs-review` |
-| 48 | poem continuation | full screen applied; names/rhetorical lines partly unresolved | `needs-review` |
-| 49 | poem continuation | full screen applied; no uncertain place-name/text normalized | `needs-review` |
-| 50 | Bharathi/Bharathidasan comparison passage | full screen applied; quoted forms retained conservatively | `needs-review` |
-| 51 | poem/political quotation passage | full screen applied; unresolved surrounding text deferred | `needs-review` |
-| 52 | Gandhi/social-ethics passage | full screen applied; no global replacement | `needs-review` |
-| 53 | numbered quotations/discussion | full screen applied; uncertain quote text left open | `needs-review` |
-| 54 | Tamil/praise passage | full screen applied; long quotation partly unresolved | `needs-review` |
-| 55 | Tamil/love passage | full screen applied; central word-play unresolved | `needs-review` |
-| 56 | women/social-reform passage | full screen applied; relationship/gender wording not inferred | `needs-review` |
-| 57 | conclusion | full screen applied; final praise retained; middle passage unresolved | `needs-review` |
-
-### Item-01 result
-
 - physical scans screened: **12/12**;
 - historical-glyph first-pass coverage: **46–57 complete**;
 - pages promoted to verified: **0**;
-- ordinary source-reading uncertainty remains on all twelve pages and will be handled by later independent source-critical verification;
-- no completed/canonical poem tree was modified.
+- all twelve remain `needs-review` because ordinary source-reading uncertainty remains.
+
+## NEW ITEM 02 — scans 58–65
+
+| Scan | Source role | Representative screen points | First-pass result | Page status |
+|---:|---|---|---|---|
+| 58 | event heading + poem opening | `பறம்புமலைப்`, `வள்ளல்`, `தலைமைக்`, `குன்றக்குடி`, `வணக்கம்` | full family screen applied; no historical-family ambiguity silently normalized | `needs-review` |
+| 59 | poem continuation | `தமிழை`, `துறந்திடேன்`, `வணக்கம்`, `மன்னன் பாரியாலே` | full screen applied; dense ordinary lines remain for later visual clearance | `needs-review` |
+| 60 | Murugan–Valli narrative | `வள்ளி`, `வள்ளிக்கிழங்கு`, repeated `எங்கே` forms | full screen applied; one short ordinary phrase remains unresolved | `needs-review` |
+| 61 | Pari–Kapilar narrative | `பாரி`, `கபிலன்`, `மன்னர்`, `மூவேந்தர்`, `தோழன்` | full screen applied; uncertain upper-middle wording not inferred | `needs-review` |
+| 62 | charity/ethics passage | `நன்றி`, `பொற்கொடை`, `ஊர்க்கொடை`, `வள்ளல்கள்`, `வண்மையுடன்` | full screen applied; no lexical modernization | `needs-review` |
+| 63 | thematic `மை` word-play | `தொன்மை`, `எளிமை`, `வன்மை`, `வலிமை`, `இறைமை`, `புதுமை` | repeated historical forms compared within page; word-play preserved | `needs-review` |
+| 64 | theme/poet introductions | `வன்மை`, `வலிமை`, `இறைமை`, `புதுமை`, `முடியரசன்`, `முடியரசர்` | full screen applied; source word-play not normalized | `needs-review` |
+| 65 | conclusion | `எளிமை`, `வன்மை`, `வலிமை`, `இறைமை`, `புதுமை`, `வணக்கம்` | full screen applied; conclusion preserved conservatively | `needs-review` |
+
+### Item-02 result
+
+- physical scans screened: **8/8**;
+- historical-glyph first-pass coverage: **58–65 complete**;
+- combined active new-item historical-glyph coverage: **46–65 complete**;
+- historical-family ambiguities deliberately guessed: **0**;
+- pages promoted to verified: **0**;
+- ordinary source-reading uncertainty remains separate and will be handled by Phase 2.
 
 ## Exact next glyph activity
 
-Begin NEW ITEM 02 with **scan 58**, continuing through scan 65. Do not return to duplicate ranges.
+Apply the same full screen to **NEW ITEM 03 — scan 66 (`சாராய சுதந்திரம்`) only**. Do not begin Item 04 in the same activity.
