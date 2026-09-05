@@ -2,7 +2,7 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATE 1 COMPLETE — PASS / GATE 2 NEXT / SOURCE SHA-256 PINNED.**
+**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATES 1–2 COMPLETE — PASS / GATE 3 NEXT / SOURCE SHA-256 PINNED.**
 
 - physical scans inventoried: **84/84**;
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
@@ -12,6 +12,7 @@
 - NEW ITEM 02, scans 58–65: **8/8 verified**;
 - NEW ITEM 04, scans 67–68: **2/2 verified**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
 - scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, retained only as source/context;
 - scans 69–70: Bharathidasan insert — non-Kalaignar;
 - already represented Kalaignar blocks: scans **9–20, 21–32, 33–45, 71–77, 78–84** — skip/no retranscription or anthology verification;
@@ -35,7 +36,7 @@ The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` remains mandat
 - NEW ITEM 02 — scans 58–65: **8/8 VERIFIED**;
 - NEW ITEM 04 — scans 67–68: **2/2 VERIFIED**.
 
-No page-level lexical work was reopened during Gate 1.
+No page-level lexical work was reopened during Gates 1–2.
 
 ## Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation
 
@@ -58,17 +59,39 @@ Gate-1 accounting:
 
 The page-record `printed_page` fields remain source-visible evidence only. Scans 46, 58, 66 and 67 remain `printed_page: null`; their reconciled logical numbers are structural metadata and were not backfilled into page records.
 
+## Phase 3 Gate 2 — boundary / page-join audit
+
+Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+**PASS.** Gate 2 certified all boundaries in the three active new Kalaignar items:
+
+- item openings: **3/3 certified**;
+- Item 01 internal joins, scans 46–57: **11/11 certified**;
+- Item 02 internal joins, scans 58–65: **7/7 certified**;
+- Item 04 internal joins, scans 67–68: **1/1 certified**;
+- total internal joins: **19/19 certified**;
+- item closings: **3/3 certified**;
+- scan 66 contextual separation evidence: **1/1 certified**, still non-Kalaignar;
+- unresolved boundary/join issues: **0**.
+
+Explicit source states preserved by Gate 2:
+
+- scan **50 → 51** carries a source-open quotation across the physical page break without a repeated opening/closing mark; no editorial quotation mark was inserted;
+- scan **68** ends `பட்டியல் பிறகு சொல்வேன்:` and then prints a horizontal closing rule; the colon is retained and no missing list/continuation is invented.
+
+Gate-2 page-text changes: **none**. Gate-2 page-status changes: **none**. Existing release-cleared poem-tree changes: **none**.
+
 ## Phase 3 progression
 
 1. Physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**
-2. Boundary / page-join audit — **NEXT**
-3. Title-witness reconciliation — deferred
+2. Boundary / page-join audit — **COMPLETE / PASS**
+3. Title-witness reconciliation — **NEXT**
 4. Canonical Tamil assembly — deferred
 5. Assembly/source-completeness review — deferred
 6. Tamil final clearance — deferred
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit only** for NEW ITEM 01 (46–57), NEW ITEM 02 (58–65) and NEW ITEM 04 (67–68). Use scan 66 only as contextual separation evidence between Items 02 and 04.
+Perform **Phase 3 Gate 3 — title-witness reconciliation only** for the three certified new Kalaignar items. Preserve all applicable source title/event/contents witnesses exactly and document any explicit assembly-authority decision required by the processing guide.
 
-Do not begin Gate 3 title reconciliation, canonical assembly, final clearance or translation in the same activity.
+Do not begin canonical assembly, final clearance or translation in the same activity.

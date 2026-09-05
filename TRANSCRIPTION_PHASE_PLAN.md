@@ -29,13 +29,13 @@ The user-supplied historical-glyph guide is mandatory. Phase-1 family screening 
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — GATE 1 COMPLETE / PASS; GATE 2 NEXT.**
+**IN PROGRESS — GATES 1–2 COMPLETE / PASS; GATE 3 NEXT.**
 
 Ordered gates from `POEM_PROCESSING_GUIDE.md`:
 
 1. **Physical scan ↔ printed-page reconciliation — COMPLETE / PASS**
-2. **Boundary / page-join audit — NEXT**
-3. Title-witness reconciliation — deferred
+2. **Boundary / page-join audit — COMPLETE / PASS**
+3. **Title-witness reconciliation — NEXT**
 4. Canonical Tamil assembly — deferred
 5. Assembly/source-completeness review — deferred
 6. Tamil final clearance — deferred
@@ -52,10 +52,25 @@ Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_STRUCTURE_AUDI
 - unexplained pagination gaps/resets: **none**;
 - Gate-1 page-text changes: **none**.
 
+### Gate 2 result
+
+Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+- new-item openings certified: **3/3**;
+- internal page joins certified: **19/19** — Item 01 **11/11**, Item 02 **7/7**, Item 04 **1/1**;
+- item closings certified: **3/3**;
+- scan 66 certified only as Rajaji contextual separation evidence;
+- scan 50 → 51 source-open quotation carry-over preserved without editorial punctuation repair;
+- scan 68 source terminal colon before horizontal closing rule preserved without inventing continuation;
+- unresolved boundary/join issues: **0**;
+- Gate-2 page-text/status changes: **none**.
+
 ## Phase 4 — English translation / release
 
 **BLOCKED until Tamil final clearance.**
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 only**: boundary / page-join audit for NEW ITEM 01 scans 46–57, NEW ITEM 02 scans 58–65, and NEW ITEM 04 scans 67–68, using scan 66 only as contextual separation evidence. Do not begin Gate 3, canonical assembly or Phase 4 in the same activity.
+Perform **Phase 3 Gate 3 only — title-witness reconciliation** for the three certified new Kalaignar items. Inspect applicable title/event/contents witnesses, preserve each witness exactly, and record any explicit assembly-authority decision required by `POEM_PROCESSING_GUIDE.md`.
+
+Do not begin canonical assembly, final clearance or Phase 4 in the same activity.

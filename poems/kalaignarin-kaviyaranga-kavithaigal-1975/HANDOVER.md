@@ -12,11 +12,11 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 
 ## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — **Phase 2 COMPLETE / Gate 1 reconciled**;
-2. scans **58–65** — Item 02 — **Phase 2 COMPLETE / Gate 1 reconciled**;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE / Gate 1 reconciled**.
+1. scans **46–57** — Item 01 — **Phase 2 COMPLETE / Gates 1–2 PASS**;
+2. scans **58–65** — Item 02 — **Phase 2 COMPLETE / Gates 1–2 PASS**;
+3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE / Gates 1–2 PASS**.
 
-Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gate 1: **COMPLETE / PASS**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gate 1: **COMPLETE / PASS**. Phase 3 Gate 2: **COMPLETE / PASS**.
 
 ## Gate-1 checkpoint
 
@@ -28,11 +28,24 @@ Authority: `PHASE3_STRUCTURE_AUDIT.md`.
 - scans **46, 58, 66, 67** have no visible numeral and retain `printed_page: null`;
 - scan 66 remains non-Kalaignar Rajaji context only;
 - unexplained gaps/resets: **none**;
-- page-text changes in Gate 1: **none**;
+- page-text changes in Gate 1: **none**.
+
+## Gate-2 checkpoint
+
+Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+- item openings certified: **3/3**;
+- internal scan-to-scan joins certified: **19/19** — Item 01 **11/11**, Item 02 **7/7**, Item 04 **1/1**;
+- item closings certified: **3/3**;
+- scan 66 is certified only as contextual separation evidence and remains non-Kalaignar;
+- scan **50 → 51** source-visible quotation carry-over is preserved exactly without editorial repair;
+- scan **68** closes with source text ending in a colon followed by a horizontal rule; no continuation is invented;
+- unresolved boundary/join issues: **0**;
+- Gate-2 page-text/status changes: **none**;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit only** for Items 01, 02 and 04. Check each item opening, every internal scan-to-scan continuation, quotation carry-over, separators and closing boundary. Use scan 66 only as contextual separation evidence between Items 02 and 04.
+Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Inspect the applicable title/event/contents witnesses for Items 01, 02 and 04, preserve all witnesses exactly, and record any explicit assembly-authority decision required by `POEM_PROCESSING_GUIDE.md`.
 
-Do not begin Gate 3 title-witness reconciliation, canonical assembly, final clearance or translation in the same activity.
+Do not begin canonical Tamil assembly, final clearance or translation in the same activity.

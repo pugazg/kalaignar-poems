@@ -18,18 +18,24 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 - Phase 1: **22/22 complete**;
 - Phase 2: **22/22 verified — COMPLETE**;
 - Phase 3 Gate 1: **COMPLETE / PASS** in `PHASE3_STRUCTURE_AUDIT.md`;
+- Phase 3 Gate 2: **COMPLETE / PASS** in `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - Gate-1 structural interval scans **46–68** reconciles continuously as logical publication pages **46–68**;
 - visible numerals: **47–57, 59–65, 68**;
 - suppressed/unprinted numerals: scans **46, 58, 66, 67**; keep their `printed_page` as `null`;
-- scan 66 remains non-Kalaignar Rajaji context only;
+- Gate-2 openings: **3/3 certified**;
+- Gate-2 internal joins: **19/19 certified** — Item 01 **11/11**, Item 02 **7/7**, Item 04 **1/1**;
+- Gate-2 closings: **3/3 certified**;
+- scan 66 remains non-Kalaignar Rajaji context only and is certified only as contextual separation evidence;
+- source-open quotation carry-over on **50 → 51** is preserved without editorial punctuation repair;
+- scan **68** terminal colon before its horizontal closing rule is preserved without inventing continuation;
 - unexplained pagination gaps/resets: **none**;
-- Gate-1 page-text changes: **none**;
+- Gate-1/Gate-2 page-text changes: **none**;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit only**.
+Perform **Phase 3 Gate 3 — title-witness reconciliation only**.
 
-Audit NEW ITEM 01 scans **46–57**, NEW ITEM 02 scans **58–65**, and NEW ITEM 04 scans **67–68**. Certify each opening, each internal scan-to-scan continuation, quotation carry-over, separators and closing boundary. Use scan 66 only as contextual separation evidence between Items 02 and 04.
+Inspect the applicable source title/event/contents witnesses for NEW ITEM 01 scans **46–57**, NEW ITEM 02 scans **58–65**, and NEW ITEM 04 scans **67–68**. Preserve every witness exactly. Where witnesses differ, document the difference explicitly and record the assembly-authority decision required by `POEM_PROCESSING_GUIDE.md`; do not create a hybrid title and do not alter verified page text.
 
-Do not begin Gate 3 title-witness reconciliation, canonical assembly, final clearance or translation in the same activity.
+Do not begin canonical Tamil assembly, final clearance or translation in the same activity.

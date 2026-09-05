@@ -10,10 +10,10 @@ Physical `scan_page` is 1-indexed against the exact 84-scan supplied PDF. Printe
 | 9–20 | existing Anna witness | **ALREADY IN REPOSITORY — SKIP** |
 | 21–32 | existing Nehru witness | **ALREADY IN REPOSITORY — SKIP** |
 | 33–45 | existing `வாழ்வெனும் பாதையில்` witness | **ALREADY IN REPOSITORY — SKIP** |
-| 46–57 | **NEW ITEM 01** | **Phase 2 COMPLETE / Gate 1 reconciled** |
-| 58–65 | **NEW ITEM 02** | **Phase 2 COMPLETE / Gate 1 reconciled** |
-| 66 | Rajaji `சாராய சுதந்திரம்` | **NON-KALAIGNAR — source/context only; Gate 1 context reconciled** |
-| 67–68 | **NEW ITEM 04 — `முதல்வர் கலைஞரின் பதில் கவிதை`** | **Phase 2 COMPLETE / Gate 1 reconciled** |
+| 46–57 | **NEW ITEM 01** | **Phase 2 COMPLETE / Gates 1–2 PASS** |
+| 58–65 | **NEW ITEM 02** | **Phase 2 COMPLETE / Gates 1–2 PASS** |
+| 66 | Rajaji `சாராய சுதந்திரம்` | **NON-KALAIGNAR — source/context only; structural/separation context certified** |
+| 67–68 | **NEW ITEM 04 — `முதல்வர் கலைஞரின் பதில் கவிதை`** | **Phase 2 COMPLETE / Gates 1–2 PASS** |
 | 69–70 | Bharathidasan insert | **NON-KALAIGNAR** |
 | 71–77 | existing `விடுதலை வீரர்கள்` witness | **ALREADY IN REPOSITORY — SKIP** |
 | 78–84 | existing `தந்தை பெரியார்` witness | **ALREADY IN REPOSITORY — SKIP** |
@@ -48,10 +48,24 @@ Structural invariant for this interval:
 
 `printed_page` stays `null` on scans 46, 58, 66 and 67; logical values are not backfilled as if they were printed witnesses.
 
+## Phase 3 Gate 2 — boundary / page-join audit
+
+Gate-2 authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+- Item 01 opening / joins / closing: **PASS — 1 opening, 11/11 joins, 1 closing**;
+- Item 02 opening / joins / closing: **PASS — 1 opening, 7/7 joins, 1 closing**;
+- Item 04 opening / joins / closing: **PASS — 1 opening, 1/1 join, 1 closing**;
+- total internal joins: **19/19 certified**;
+- scan 66: **contextual separation certified only; non-Kalaignar status unchanged**;
+- scan 50 → 51 open-quotation carry-over: **source state certified / no editorial repair**;
+- scan 68 colon before horizontal closing rule: **source state certified / no invented continuation**;
+- unresolved boundary/join issues: **0**;
+- page-text/status changes in Gate 2: **none**.
+
 ## Phase status
 
-**Phase 1: 22/22 COMPLETE. Phase 2: 22/22 VERIFIED — COMPLETE. Phase 3 Gate 1: COMPLETE / PASS. Gate 2 NEXT.**
+**Phase 1: 22/22 COMPLETE. Phase 2: 22/22 VERIFIED — COMPLETE. Phase 3 Gates 1–2: COMPLETE / PASS. Gate 3 NEXT.**
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit only** for Items 01, 02 and 04. Use scan 66 only as contextual separation evidence. Do not begin Gate 3 title reconciliation, canonical assembly or translation in the same activity.
+Perform **Phase 3 Gate 3 — title-witness reconciliation only** for Items 01, 02 and 04. Do not begin canonical assembly, final clearance or translation in the same activity.
