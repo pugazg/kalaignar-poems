@@ -44,11 +44,23 @@ Inventory coverage: **84/84 scans classified**.
 | 13 | `../pages/0013.md` | `partial` | 13 | Anna cross-witness; historical-glyph screen applied |
 | 14 | `../pages/0014.md` | `partial` | 14 | Anna cross-witness; 1975 edition wording retained independently |
 | 15 | `../pages/0015.md` | `partial` | 15 | Anna cross-witness; historical-glyph screen applied |
-| 16 | `../pages/0016.md` | `partial` | 16 | Anna cross-witness; later-witness `மன்னன் என்றால் கரிகாலன்` line not inserted because it is not visible here |
+| 16 | `../pages/0016.md` | `partial` | 16 | Anna cross-witness; later-witness line not inserted where absent here |
 | 17 | `../pages/0017.md` | `partial` | 17 | Anna cross-witness; dialogue passage transcribed from 1975 scan |
-| 18 | `../pages/0018.md` | `needs-review` | 18 | one short right-aligned word after `இனிமேலே எனப்` unresolved; historical-glyph family identities pass |
+| 18 | `../pages/0018.md` | `needs-review` | 18 | one short source word unresolved; historical-glyph identities pass |
 | 19 | `../pages/0019.md` | `partial` | 19 | Anna cross-witness; statue / memorial passage |
-| 20 | `../pages/0020.md` | `partial` | 20 | Anna cross-witness conclusion; historical-glyph screen applied |
-| 21–84 | — | `not-started` | — | continue in physical order |
+| 20 | `../pages/0020.md` | `partial` | 20 | Anna cross-witness conclusion |
+| 21 | `../pages/0021.md` | `partial` | none visible | Nehru event heading + poem opening; historical-glyph screen applied |
+| 22 | `../pages/0022.md` | `partial` | 22 | Nehru Rose passage begins |
+| 23 | `../pages/0023.md` | `partial` | 23 | Rose lament; 1975 wording retained independently |
+| 24 | `../pages/0024.md` | `partial` | 24 | Rose/Nehru continuation; unusual `குரங்கின்கை` sequence preserved |
+| 25 | `../pages/0025.md` | `needs-review` | 25 | one bracketed/parenthetical line unresolved |
+| 26 | `../pages/0026.md` | `needs-review` | 26 | one lower-middle line sequence unresolved; `கர்த்தபம்` retained |
+| 27 | `../pages/0027.md` | `partial` | 27 | China-border / Kalinga / Puduvai passage |
+| 28 | `../pages/0028.md` | `needs-review` | 28 | one `பண நாயகம் ...` line unresolved; S. D. Sundaram intro begins |
+| 29 | `../pages/0029.md` | `needs-review` | 29 | one `அன்பர் சுப்பு...` line unresolved |
+| 30 | `../pages/0030.md` | `partial` | 30 | Murugu Sundaram / Abdur Rahman introductions |
+| 31 | `../pages/0031.md` | `needs-review` | 31 | first few Kannadasan-intro lines unresolved; later witness not substituted |
+| 32 | `../pages/0032.md` | `partial` | 32 | Kannadasan conclusion + event `முடிவுரை`; Nehru block closes |
+| 33–84 | — | `not-started` | — | continue in physical order |
 
-Phase 1 transcription coverage: **20/84**. Historical-glyph first-pass coverage: **scans 9–20**. Anna cross-witness Phase-1 coverage: **12/12 scans (9–20)**. Exact next scan: **21**. No page is `verified`; Phase 2 has not begun.
+Phase 1 transcription coverage: **32/84**. Historical-glyph first-pass coverage: **scans 9–32**. Anna cross-witness coverage: **12/12 scans (9–20)**. Nehru cross-witness coverage: **12/12 scans (21–32)**. Exact next scan: **33**. No page is `verified`; Phase 2 has not begun.
