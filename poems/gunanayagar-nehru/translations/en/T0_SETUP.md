@@ -6,32 +6,12 @@ Work: **குணநாயகர் நேரு**
 
 **T0 COMPLETE / PASS.**
 
-T0 established the English translation workspace and source hierarchy without drafting repository translation prose.
+T0 established final-cleared Tamil as primary translation authority and scans **8–9** (`BEAUTY ROSE WEPT`, Dr. Krishna Srinivas) as a secondary historical witness only. One batch covers canonical scans **3–7**.
 
-Created controls:
+T0 changed no final-cleared Tamil `pages/` or `sections/`.
 
-- `README.md`;
-- `TRANSLATION_PLAN.md`;
-- `SOURCE_MAP.md`.
+## Subsequent state
 
-## Primary source
+Phase 4 T1 has since been completed independently from Tamil. See `T1_DRAFT.md`, `batches/BATCH_01.md`, and `sections/01.md`.
 
-Final-cleared Tamil canonical `../../sections/01.md`, blob `56ec1cf593d20c69f50a7b4bb7b69529bcc413e6`, covering canonical scans **3–7 exactly once**.
-
-Tamil source/canonical checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`.
-
-## Historical English witness
-
-Scans **8–9**, **BEAUTY ROSE WEPT**, `Translation: Dr. Krishna Srinivas`, are classified as a **secondary historical translation witness** only. The witness is selective/condensed, not line-complete, and cannot control source coverage, repository title, or Tamil interpretation. It may be consulted only after an independent Tamil-based draft exists, with meaningful adoptions/divergences documented.
-
-## Batch plan
-
-One translation batch: canonical section **01**, scans **3–7**.
-
-## Tamil protection
-
-T0 makes **0 intended changes** to final-cleared Tamil `pages/` and `sections/`.
-
-## Exact next activity
-
-**Phase 4 T1 — Batch 01 independent English draft only.** Draft the complete English section from final-cleared Tamil before consulting scans 8–9.
+Current next activity: **Phase 4 T2 — Tamil-first source/fidelity review, then historical-witness comparison**.

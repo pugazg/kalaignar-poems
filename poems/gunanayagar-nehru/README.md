@@ -2,27 +2,30 @@
 
 Source-first archival workspace for Kalaignar M. Karunanidhi's **குணநாயகர் நேரு**.
 
-## Controlling source
+## Source identity
 
-`TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 physical scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
+`TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` — **10 scans**, **27,006,676 bytes**, SHA-256 `efc8efb14d45e8cb7cbf2dc232732b7a54e778c1fd1957ad64e198072829e07c`.
 
-## Tamil state
+Tamil title: **குணநாயகர் நேரு**. Printed attribution: **முதல்வர் கலைஞர்**. Catalog identity **கலைஞர் மு. கருணாநிதி** remains metadata.
 
-**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED.** Verified pages **10/10**; canonical section **1/1**; scans **3–7 exactly once**; unresolved Tamil/source issues **0**. Tamil source/canonical checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`.
+## Current status
 
-Canonical Tamil title: **குணநாயகர் நேரு**. Source attribution: **முதல்வர் கலைஞர்**. Catalog identity **கலைஞர் மு. கருணாநிதி** remains metadata. Scan-7 performance note and scans **1–2, 8–9, 10** remain outside canonical Tamil verse.
+**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 + T1 COMPLETE / T2 NEXT.**
 
-## Phase 4 status
-
-**T0 COMPLETE / T1 NEXT.** Translation controls are under `translations/en/`.
-
-- working English title candidate: **Nehru, the Noble Leader**;
-- one translation batch: canonical section 01 / scans **3–7**;
-- source-English **BEAUTY ROSE WEPT**, Dr. Krishna Srinivas, scans **8–9**: secondary historical translation witness only, not the primary source or coverage authority;
-- new repository English translation prose: not yet started.
-
-The user-supplied Tamil Wiktionary reference corroborates `கர்த்தபம்` = donkey; verified Tamil remains unchanged.
+- physical pages: **10/10 verified**;
+- canonical Tamil verse scans: **3–7 = 5/5 exactly once**;
+- canonical Tamil file: `sections/01.md`;
+- unresolved Tamil/source issues: **0**;
+- Tamil checkpoint: `80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`;
+- T0 translation controls: **PASS**;
+- T1 independent English draft: **COMPLETE**, `translations/en/sections/01.md`;
+- Batch 01 record: `translations/en/batches/BATCH_01.md`;
+- T1 completion record: `translations/en/T1_DRAFT.md`;
+- working English title: **Nehru, the Noble Leader**;
+- source-English scans 8–9: secondary historical witness, **not yet compared in T1**;
+- T1 English-only review queue: **10**;
+- Tamil changes during Phase 4: **0**.
 
 ## Exact next activity
 
-Perform **Phase 4 T1 — Batch 01 independent English draft only** from final-cleared Tamil. Do not consult/copy scans 8–9 until the independent draft exists, and do not modify Tamil.
+Perform **Phase 4 T2 — Batch 01 source/fidelity review**, Tamil-first and historical-witness-second. Do not begin T3 in the same activity.
