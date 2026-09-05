@@ -17,15 +17,20 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - Phase 1: **22/22 complete**;
 - Phase 2: **22/22 verified — COMPLETE**;
-- NEW ITEM 01 scans **46–57: 12/12 verified**;
-- NEW ITEM 02 scans **58–65: 8/8 verified**;
-- NEW ITEM 04 scans **67–68: 2/2 verified**;
-- historical-glyph Phase-2 recheck: **22/22 complete**;
-- unresolved issues on active verified pages: **0**;
-- Phase 3 has not begun.
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- Gate-1 authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_STRUCTURE_AUDIT.md`;
+- scans **46–68** reconcile continuously as logical publication pages **46–68**;
+- visible numerals: **47–57, 59–65, 68**;
+- suppressed numerals: scans **46, 58, 66, 67**; their `printed_page` remains `null`;
+- scan 66 remains non-Kalaignar Rajaji context only;
+- unexplained pagination gaps/resets: **none**;
+- Gate-1 page-text changes: **none**;
+- existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only**.
 
-Account for active new-item ranges **46–57, 58–65, 67–68**, with scan 66 kept explicitly as non-Kalaignar source/context. Preserve `printed_page` only where a numeral is visibly printed; any reconciled logical page sequence must be recorded separately as structural metadata. Do not begin Gate 2 boundary/page-join audit, title reconciliation, canonical assembly or translation in the same activity.
+Audit NEW ITEM 01 scans **46–57**, NEW ITEM 02 scans **58–65**, and NEW ITEM 04 scans **67–68**. Certify each item opening, every internal scan-to-scan continuation, quotation carry-over, separator, and closing boundary. Use scan 66 only as contextual separation evidence between Item 02 and Item 04.
+
+Do not begin Gate 3 title-witness reconciliation, canonical assembly, final clearance or translation in the same activity.
