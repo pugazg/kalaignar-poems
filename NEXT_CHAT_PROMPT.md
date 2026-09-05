@@ -4,46 +4,36 @@ Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Preserve newer durable work and do not reopen release-cleared works because a copied prompt is older.
+Fetch live `main` first. Preserve newer durable work. Read root `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, then active-work `README.md`, `SOURCE_INTAKE.md`, `indexes/item-map.md`, `indexes/page-map.md`, `audit.md`, `HISTORICAL_GLYPH_AUDIT.md`, `HANDOVER.md`, and `NEXT_CHAT_PROMPT.md` before changes.
 
-Before changes read `POEM_PROCESSING_GUIDE.md`, root `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, this prompt, then active-work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/item-map.md`, `indexes/page-map.md`, `audit.md`, `HISTORICAL_GLYPH_AUDIT.md`, `HANDOVER.md`, and `NEXT_CHAT_PROMPT.md`.
+Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**.
 
-Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 **PENDING**. Resolve the same supplied attachment before visual work; never substitute another edition.
+## USER-DIRECTED NEW-ITEM-ONLY RULE
 
-New Kalaignar blocks: scans **46–57, 58–65, 66, 67–68**. Existing cross-witness blocks: **9–20, 21–32, 33–45, 71–77, 78–84**. Bharathidasan insert: **69–70**.
+Do **not** retranscribe poems already represented in the repository.
+
+Skip further transcription of scans **9–20, 21–32, 33–45, 71–77, 78–84**. Existing page records 9–32 remain archival cross-witnesses only. Scans 69–70 are Bharathidasan material and are outside Kalaignar production scope.
+
+## Active production targets
+
+- Item 01: scans **46–57**;
+- Item 02: scans **58–65**;
+- Item 03: scan **66**;
+- Item 04: scans **67–68**.
+
+Total target scans: **23**.
 
 ## Historical Tamil glyph control
 
-Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` as a required verification aid. On every Tamil text page screen:
-
-`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
-
-Read character identity from source pixels first and encode that identity in normal Unicode. Do not modernize spelling, grammar, vocabulary, punctuation or lineation; never global-replace. This first pass does not satisfy Phase 2 verification.
+Use the user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` on every new Tamil target page. Screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`; determine character identity from source pixels and preserve source wording exactly. Never global-replace or guess unread text.
 
 ## Durable checkpoint
 
-Phase 1 page records: **32/84**.
-
-- `partial`: **22**;
-- `needs-review`: **10**;
-- historical-glyph first-pass: scans **9–32 complete**;
-- Anna cross-witness scans **9–20: 12/12 complete at Phase 1**;
-- Nehru cross-witness scans **21–32: 12/12 complete at Phase 1**;
-- unresolved historical-glyph identities: **0**;
-- ordinary unresolved Nehru page records: **25, 26, 28, 29, 31**;
-- verified: **0**;
-- next physical scan: **33**.
-
-The release-cleared Anna and Nehru canonical works remain unchanged. Later witnesses were used only as secondary comparison aids; unread 1975 text was not silently filled from them.
-
-Unresolved prelim/source text also remains open on scans 3, 4, 5, 7 and Anna scan 18. Do not guess those readings.
-
-The exact supplied attachment remains controlling and its size matches the intake record. Exact SHA-256 computation was reattempted during the latest batch but the available execution path again failed. Keep SHA-256 visibly pending; do not invent it.
+- NEW ITEM 01 scan **46** is recorded at `pages/0046.md`;
+- status: `needs-review`;
+- new-item Phase-1 coverage: **1/23**;
+- exact next scan: **47**.
 
 ## Exact next activity
 
-Continue **Phase 1 transcription only from scan 33 through scan 45 in physical order**. Scans **33–45** are the already represented **`வாழ்வெனும் பாதையில்` cross-witness**. Create one page record per scan, preserve the 1975 source spelling, punctuation, lineation and printed page numerals, and apply the historical-glyph screen to every Tamil page. Do not reopen or modify the release-cleared canonical `வாழ்வெனும் பாதையில்` work merely because this edition differs.
-
-Do not begin Phase 2 verification, Phase 3 canonical assembly or Phase 4 translation.
-
-Preserve `poems/gunanayagar-nehru/`, `poems/oruthalaik-kathal/` and `poems/kalaignarin-kavithaigal/` as RELEASE-CLEARED.
+Continue **NEW ITEM 01 Phase 1 from scan 47 through scan 57**, in physical order. Do not return to scan 33 or any other duplicate block. Keep Phase 2, Phase 3 and translation separate.
