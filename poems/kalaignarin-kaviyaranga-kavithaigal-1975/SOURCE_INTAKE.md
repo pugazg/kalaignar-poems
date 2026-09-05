@@ -10,62 +10,48 @@
 - printed title: **கலைஞரின் கவியரங்கக் கவிதைகள்**;
 - edition witness: **முதற் பதிப்பு: 1975**;
 - compiler/editor visible on title page: **ஆசிரியர் அ. முத்து**;
-- source PDF: **not committed**.
-
-The exact supplied attachment remains controlling. Its known size matches the onboarded source identity. Exact-byte hashing was reattempted during the scan-21–32 batch, but the available execution path again failed; checksum pinning therefore remains an explicit metadata defect.
+- source PDF committed: **no**.
 
 ## Intake decision
 
-A full visual inventory of all 84 scans found four Kalaignar poem/event blocks not currently represented as canonical repository items. Those remain stable intake IDs 01–04. Five other Kalaignar blocks are already represented elsewhere and are edition/cross-witness material only. Scans 69–70 are a Bharathidasan insert and are not a Kalaignar item.
+A complete visual inventory identified **four Kalaignar blocks not represented in the repository**. These are the only production targets for this anthology.
+
+| ID | Source-heading intake label | Scans | Current state |
+|---:|---|---:|---|
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 1 started at scan 46** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | pending |
+| 03 | `சாராய சுதந்திரம்` | 66 | pending |
+| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | pending |
+
+Total new-item production scans: **23**.
+
+## User-directed duplicate policy
+
+Already represented poems are now **classification-only / skip** for this workflow. Do not create additional page transcriptions for:
+
+- scans 9–20 — Anna;
+- scans 21–32 — Nehru;
+- scans 33–45 — `வாழ்வெனும் பாதையில்`;
+- scans 71–77 — `விடுதலை வீரர்கள்`;
+- scans 78–84 — `தந்தை பெரியார்`.
+
+The earlier page records for scans 9–32 remain archival witnesses but are no longer active production work.
+
+Scans 69–70 are visibly Bharathidasan material; preserve the classification and exclude them from Kalaignar canonical assembly.
 
 ## Historical-glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is used as a required verification aid. Work-level record: `HISTORICAL_GLYPH_AUDIT.md`.
+The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory on every new-item Tamil page. Full known-family screen:
 
-Historical typeforms are decoded by character identity into modern Unicode; source spelling, grammar, punctuation and vocabulary are otherwise preserved. Full known-family screen: `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`.
+`ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`
 
-Historical-glyph first-pass coverage now extends through scans **9–32**. Historical-family unresolved identities: **0**. Ordinary unread source text remains separately recorded and is never filled from later witnesses.
+Character identity is read from source pixels and encoded into normal Unicode; source wording is otherwise preserved. No global replacement and no guessing.
 
-## New-item inventory
+## Current new-item Phase-1 checkpoint
 
-| ID | Visible source heading / identifying witness | Scans | Notes |
-|---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | opening records 29-4-71 and Bharathidasan 80th-birthday context |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | opening records 5-5-71 |
-| 03 | `சாராய சுதந்திரம்` | 66 | one-page Kalaignar poem/event block; opening records 19-9-71 |
-| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | separate response-poem block immediately following item 03 |
+- target scans: **23**;
+- page records complete: **1/23**;
+- scan 46 → `pages/0046.md` → `needs-review`;
+- exact next production scan: **47**.
 
-These labels are source-intake identifiers only. Phase 3 title-witness reconciliation will determine any later canonical display title.
-
-## Duplicate/cross-witness inventory
-
-| Scans | Source block | Existing repository authority | Current 1975 Phase-1 state |
-|---:|---|---|---|
-| 9–20 | Anna memorial / `எம் அண்ணா – இதய மன்னா!` witness | `poems/idhayathai-thanthidu-anna/`; `poems/kalaignarin-kavithaigal/sections/01.md` | **12/12 complete; cross-witness only** |
-| 21–32 | 14.11.1970 Nehru kaviyarangam | `poems/kalaignarin-kavithaigal/sections/19.md`; separate later standalone Nehru witness | **12/12 complete; cross-witness only** |
-| 33–45 | `வாழ்வெனும் பாதையில்` | `poems/kalaignarin-kavithaigal/sections/17.md` | **next** |
-| 71–77 | `விடுதலை வீரர்கள்` | `poems/kalaignarin-kavithaigal/sections/06.md` | not started |
-| 78–84 | `தந்தை பெரியார்` | `poems/kalaignarin-kavithaigal/sections/26.md` | not started |
-
-No release-cleared work is reopened by this source workflow.
-
-## Excluded non-Kalaignar source block
-
-Scans **69–70** are visibly attributed to **பாவேந்தர் பாரதிதாசன்**. Preserve them as publication witnesses, but do not assemble them as a Kalaignar poem.
-
-## Phase boundary
-
-- publication inventory: **84/84 visually classified**;
-- new Kalaignar items onboarded: **4/4**;
-- exact SHA-256 pin: **PENDING — 1 unresolved metadata issue**;
-- Phase 1 page-record transcription: **IN PROGRESS — 32/84**;
-- current statuses: **22 partial / 10 needs-review / 0 verified**;
-- historical-glyph first-pass: **scans 9–32 complete**;
-- Anna cross-witness scans 9–20: **Phase-1 first pass complete**;
-- Nehru cross-witness scans 21–32: **Phase-1 first pass complete**;
-- next physical scan: **33**;
-- Phase 2 verification: **BLOCKED by incomplete Phase 1**;
-- Phase 3 canonical assembly: **BLOCKED**;
-- Phase 4 translation: **BLOCKED**.
-
-Phase 1 may continue against the same supplied attachment, but neither exact-source identity nor Phase 1 completion may be claimed until the checksum issue is resolved.
+The controlling attachment remains the same 93,307,011-byte file. SHA-256 is still pending and must not be invented.
