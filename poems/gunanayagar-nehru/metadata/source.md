@@ -22,16 +22,17 @@
 - Gate 2 canonical Tamil verse source scans: **3–7**; scan-7 performance note outside verse; scans **1–2, 8–9, 10** outside Tamil canonical verse;
 - Gate 3 canonical Tamil title: **குணநாயகர் நேரு**; source attribution: **முதல்வர் கலைஞர்**;
 - Gate 4 canonical assembly: **PASS — `sections/01.md`**, assembled from verified `pages/0003.md` … `0007.md` with scan provenance;
-- Gate 5 assembly/source-completeness review: **PASS — scans 3–7 represented exactly once, unresolved 0**.
+- Gate 5 assembly/source-completeness review: **PASS — scans 3–7 represented exactly once, unresolved 0**;
+- Gate 6 Tamil final clearance: **PASS — PHASE 3 COMPLETE**.
 
-The source English translation remains physical-source evidence and is not repository Phase-4 output. Verified unusual forms, including `கர்த்தபம்`, remain unchanged; the user-supplied Wiktionary entry corroborates `கர்த்தபம்` = donkey.
+The source English translation remains physical-source evidence and is not automatically repository Phase-4 output. Its treatment must be explicitly recorded during Phase 4 T0. Verified unusual forms, including `கர்த்தபம்`, remain unchanged; the user-supplied Wiktionary entry corroborates `கர்த்தபம்` = donkey.
 
 ## Verification / phase state
 
 - Phase 2: **PASS — 10/10 verified, unresolved 0**;
-- Phase 3 Gates 1–5: **PASS**;
-- Phase 3 Gate 6 Tamil final clearance: **NEXT**;
-- Tamil final clearance: not yet granted.
+- Phase 3: **COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED**;
+- Tamil source/canonical checkpoint cleared by Gate 6: **`80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`**;
+- Phase 4 T0: **NEXT**.
 
 ## Authority
 

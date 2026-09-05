@@ -18,7 +18,7 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Phase 3 — structure, completeness, canonical Tamil assembly and final clearance
 
-**IN PROGRESS — GATES 1–5 PASS / GATE 6 NEXT.**
+**COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED.**
 
 ### Gate 1 — pagination reconciliation
 
@@ -34,20 +34,26 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ### Gate 4 — canonical Tamil assembly
 
-**COMPLETE / PASS.** Canonical `poems/gunanayagar-nehru/sections/01.md` assembled from verified scans **3–7** with explicit provenance. Authority: `poems/gunanayagar-nehru/PHASE3_CANONICAL_ASSEMBLY.md`.
+**COMPLETE / PASS.** Canonical `poems/gunanayagar-nehru/sections/01.md` assembled from verified scans **3–7** with explicit provenance.
 
 ### Gate 5 — assembly/source-completeness review
 
-**COMPLETE / PASS.** Canonical section **1/1**; scans **3–7 = 5/5 exactly once**; missing / duplicate markers **0 / 0**; source/page/canonical discrepancies **0**. Authority: `poems/gunanayagar-nehru/PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
+**COMPLETE / PASS.** Canonical section **1/1**; scans **3–7 = 5/5 exactly once**; missing / duplicate markers **0 / 0**; source/page/canonical discrepancies **0**.
 
 ### Gate 6 — Tamil final clearance
 
-**NEXT.** Reconfirm Gates 1–5 and unresolved Tamil/source issues 0, then record the final-clearance decision. Do not begin Phase 4 in the same gate.
+**COMPLETE / PASS.** Gates 1–5 reconfirmed; verified pages **10/10**; canonical section **1/1**; unresolved Tamil/source issues **0**. Authority: `poems/gunanayagar-nehru/PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+Tamil source/canonical checkpoint cleared by Gate 6: **`80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`**.
 
 ## Phase 4
 
-**DEFERRED until Tamil final clearance.** Source English scans 8–9 remain source evidence, not repository Phase-4 output.
+**T0 NEXT.** The source English translation on scans 8–9 remains source evidence and is not automatically repository Phase-4 output.
+
+### T0 — translation setup / source mapping
+
+**NEXT.** Create translation workspace/control docs, source map and batch plan from the final-cleared Tamil layer; explicitly document the role of source-English scans 8–9. Do not draft new English prose during T0.
 
 ## Exact next activity
 
-Complete **Phase 3 Gate 6 only**.
+Complete **Phase 4 T0 only**.

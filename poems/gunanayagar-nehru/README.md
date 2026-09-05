@@ -16,19 +16,18 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's **குணநா
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–5 PASS / GATE 6 NEXT.**
+**PHASE 3 COMPLETE — TAMIL FINAL-CLEARED / PHASE 4 T0 NEXT.**
 
 - verified physical pages: **10/10**;
 - unresolved readings: **0**;
-- Gates 1–5 unresolved issues: **0**;
-- canonical Tamil verse source scans: **3–7 = 5/5**;
+- Phase-3 Gates **1–6 PASS**;
+- canonical Tamil verse source scans: **3–7 = 5/5 exactly once**;
 - joins **3→4, 4→5, 5→6, 6→7**: **4/4 PASS**;
-- canonical Tamil assembly: **COMPLETE — `sections/01.md`**;
-- Gate-5 canonical coverage: **5/5 scans 3–7 exactly once**;
-- missing / duplicated canonical markers: **0 / 0**;
+- canonical Tamil assembly: **`sections/01.md`**;
+- missing / duplicate canonical markers: **0 / 0**;
 - scan-7 performance note remains outside canonical verse;
-- Gate-5 source/canonical discrepancies: **0**;
-- Tamil final clearance: **not yet granted**.
+- unresolved Tamil/source issues: **0**;
+- Tamil source/canonical checkpoint cleared by Gate 6: **`80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`**.
 
 Gate records:
 
@@ -36,10 +35,11 @@ Gate records:
 - `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - `PHASE3_CANONICAL_ASSEMBLY.md`;
-- `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`.
+- `PHASE3_ASSEMBLY_SOURCE_COMPLETENESS_REVIEW.md`;
+- `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
 The user-supplied Tamil Wiktionary reference corroborates **`கர்த்தபம்` = donkey**; verified source wording remains unchanged.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 6 — Tamil final clearance only**. Reconfirm Gates 1–5 PASS, verified pages 10/10, canonical section 1/1, scans 3–7 exactly once, all title/attribution/exclusion authorities, and unresolved Tamil/source issues 0. Do not begin Phase 4 translation in the same activity.
+Perform **Phase 4 T0 — English translation setup / source mapping only**. Create the English translation workspace/plan/source map from the final-cleared Tamil layer and explicitly classify scans 8–9 as a pre-existing source-translation witness. Do not begin translation prose in the same T0 activity.

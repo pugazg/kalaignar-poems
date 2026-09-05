@@ -22,13 +22,15 @@ Source intake result: **PASS — 10/10 physical scans accounted.**
 
 - Phase 1: **COMPLETE — 10/10**;
 - Phase 2: **PASS — 10/10 verified, unresolved 0**;
-- Phase 3 Gates 1–5: **PASS**;
+- Phase 3 Gates **1–6: PASS**;
 - canonical Tamil assembly: **`sections/01.md`** from scans **3–7**;
-- Gate-5 canonical source coverage: **5/5 scans exactly once**, unresolved **0**;
-- Phase 3 Gate 6 Tamil final clearance: **NEXT**.
+- canonical source coverage: **5/5 scans exactly once**, unresolved **0**;
+- Tamil final clearance: **PASS — PHASE 3 COMPLETE**;
+- Tamil source/canonical checkpoint cleared by Gate 6: **`80bc2b30dbe7630a68ff01df4ad782fa8e6aa962`**;
+- Phase 4 T0: **NEXT**.
 
-Gate 1 reconciled logical pages **1–8 = scans 2–9**. Gate 2 certified Tamil verse scans **3–7** and exclusions. Gate 3 locked exact Tamil title **குணநாயகர் நேரு** and source attribution **முதல்வர் கலைஞர்**. Gate 4 assembled the canonical Tamil verse. Gate 5 independently reconfirmed the source/page/canonical layer with no discrepancy.
+Gate 1 reconciled logical pages **1–8 = scans 2–9**. Gate 2 certified Tamil verse scans **3–7** and exclusions. Gate 3 locked exact Tamil title **குணநாயகர் நேரு** and source attribution **முதல்வர் கலைஞர்**. Gate 4 assembled canonical Tamil verse. Gate 5 independently reconfirmed the source/page/canonical layer with no discrepancy. Gate 6 granted Tamil final clearance with unresolved Tamil/source issues **0**.
 
 ## Next activity
 
-Perform **Phase 3 Gate 6 Tamil final clearance only**. Phase 4 remains deferred.
+Perform **Phase 4 T0 English translation setup / source mapping only**. The printed English translation on scans 8–9 remains source evidence and must be explicitly classified in the translation plan before any new English prose is drafted.
