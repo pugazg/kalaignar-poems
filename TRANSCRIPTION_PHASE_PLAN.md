@@ -11,31 +11,27 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 - publication inventory: **84/84 classified**;
 - genuinely new Kalaignar blocks: **4** — scans **46–57, 58–65, 66, 67–68**;
 - new-item target scans: **23 total**;
-- already represented Kalaignar blocks: **5** — classification-only / skip retranscription;
-- Bharathidasan insert: scans **69–70** — non-Kalaignar;
-- exact SHA-256 source pin: **PENDING**.
-
-## User-directed duplicate rule
-
-Do not spend Phase-1 effort retranscribing poems already in the repository. Skip remaining duplicate ranges **33–45, 71–77, 78–84**. Earlier cross-witness page records 9–32 remain retained but frozen outside the production queue.
+- already represented blocks: **skip retranscription**;
+- Bharathidasan insert: scans **69–70** — non-Kalaignar.
 
 ## Historical Tamil glyph control
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory for every new Tamil target page. Use the full family screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. Source-pixel identity controls; no lexical modernization or global replacement.
+The user-supplied historical-glyph guide is mandatory for every new Tamil target page. Use the full family screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. Source-pixel identity controls; no lexical modernization or global replacement.
 
 ## Phase 1 — new-item transcription only
 
-**IN PROGRESS — 1/23 target scans.**
+**IN PROGRESS — 12/23 target scans.**
 
-- scan **46** → NEW ITEM 01 → `pages/0046.md` → `needs-review`;
-- exact next target scan: **47**;
-- Items 02–04 remain pending;
-- Phase-1 unread text stays unresolved rather than guessed;
-- no target page is `verified`; Phase 2 remains separate.
+- NEW ITEM 01 scans **46–57: 12/12 first-pass records complete**;
+- all twelve Item-01 pages: `needs-review`;
+- no new-item page is `verified`;
+- NEW ITEM 02 scans **58–65: NEXT**;
+- Items 03–04 pending;
+- unread text stays unresolved rather than guessed.
 
 ## Phase 2 — independent source-critical verification
 
-**BLOCKED until the four new items finish Phase 1.** Existing duplicate blocks do not need Phase 2 in this anthology workflow.
+**BLOCKED until all four new items finish Phase 1.** Existing duplicate blocks do not need Phase 2 in this anthology workflow.
 
 ## Phase 3 — structural gates / canonical Tamil
 
@@ -47,4 +43,4 @@ The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory f
 
 ## Exact next activity
 
-Continue **NEW ITEM 01 Phase 1 from scan 47 through scan 57**. Do not return to duplicate scan ranges. Reattempt SHA-256 only when a functioning exact-byte path is available.
+Begin **NEW ITEM 02 Phase 1 at scan 58** and process scans **58–65**. Do not return to duplicate ranges. Reattempt SHA-256 only when a functioning exact-byte path is available.
