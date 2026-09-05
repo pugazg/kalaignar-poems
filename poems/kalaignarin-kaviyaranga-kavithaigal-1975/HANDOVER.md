@@ -8,31 +8,24 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. Live `main` is authoritativ
 
 ## User-directed NEW-ITEM-ONLY policy
 
-Do not retranscribe or verify already represented poems as new works. Skip scans **9–20, 21–32, 33–45, 71–77, 78–84**. Earlier page records 9–32 remain archival cross-witnesses. Scan 66 is Rajaji source/context; scans 69–70 are Bharathidasan material.
+Do not retranscribe or verify already represented poems as new works. Skip scans **9–20, 21–32, 33–45, 71–77, 78–84**. Scan 66 is Rajaji source/context; scans 69–70 are Bharathidasan material.
 
 ## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — **Phase 2 in progress: scan 46 verified; scans 47–57 pending**;
+1. scans **46–57** — Item 01 — **Phase 2 in progress: scans 46–47 verified; scans 48–57 pending**;
 2. scans **58–65** — Item 02 — **Phase 1 complete; Phase 2 pending**;
 3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
 
-Phase 1: **22/22 complete**. Phase 2: **1/22 verified**.
+Phase 1: **22/22 complete**. Phase 2: **2/22 verified**.
 
-## Scan 46 verification checkpoint
+## Verified checkpoint
 
-`pages/0046.md` was independently reread from enlarged controlling pixels and promoted to `verified`.
+- `pages/0046.md`: verified, unresolved issues 0.
+- `pages/0047.md`: verified after full enlarged-source reread. Important source-backed corrections include `பருக்கிடம்` instead of the Phase-1 `பக்தியுடன்`, `“சாரம்”` instead of `“சாராய”`, restoration of the complete car/friend exchange, the full `புதுச் சிறப்பு / தனிச் சிறப்பு / குடிச் சிறப்பு / கவிச் சிறப்பு / புவிச் சிறப்பு` sequence, the 1946 Puduvai recollection, and the closing lines through `பண்புநிறை அமைச்சர் பெருமக்கள் தனை—`.
+- Historical-glyph Phase-2 recheck is complete through scan 47; unresolved historical-family issues: 0.
 
-Key source-backed resolutions:
-
-- `80-வது பிறந்தநாளை ஒட்டி நடைபெற்ற`;
-- `இன்று காலை: புறப்பட்டுக் கார் ஏறும் போது`;
-- restored `புதுவைக்குச் செல்கின்றாயா; அங்கு / “குடி”யுண்டே—`;
-- completed the friend-response and full `குடி` place-name sequence;
-- historical forms in `பிறந்தநாளை`, `செல்கின்றாயா`, `இஃதறியா`, `எத்தனையோ` independently rechecked;
-- unresolved scan-46 issues: **0**.
-
-No Phase-3 join/structure decision was made.
+No Phase-3 join/structure decision has been made.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 01 scan 47 only**. Independently compare `pages/0047.md` against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only if all lexical, punctuation and lineation readings clear. Do not begin Phase 3 or translation.
+Continue **Phase 2 with Item 01 scan 48 only**. Independently compare `pages/0048.md` against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation.
