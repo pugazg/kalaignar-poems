@@ -1,66 +1,43 @@
 # Physical page map — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
-Physical `scan_page` is 1-indexed against the exact 84-scan supplied PDF. Printed-page values have **not** yet been systematically reconciled; Phase 1 records only numerals visibly printed on each scan.
+Physical `scan_page` is 1-indexed against the exact 84-scan supplied PDF. Printed-page values are recorded only when visibly printed; inferred pagination is not written as printed metadata.
 
-| Physical scans | Intake classification | Canonical policy |
+## Publication classification and processing policy
+
+| Physical scans | Intake classification | Production policy |
 |---:|---|---|
-| 1 | front cover | publication structure |
-| 2 | title/publication page | publication structure |
-| 3 | first-edition / price detail | publication structure |
-| 4 | handwritten inscription | non-edition handwriting; preserve as visual/source note |
-| 5 | `முன்னுரை` | publication structure |
-| 6 | faint bleed-through / verso-like page | publication structure |
-| 7 | `பதிப்புரை` | publication structure |
-| 8 | faint bleed-through / verso-like page | publication structure |
-| 9–20 | existing Anna poem witness | cross-witness only; no duplicate canonical poem |
-| 21–32 | existing Nehru kaviyarangam witness | cross-witness only; no duplicate canonical poem |
-| 33–45 | existing `வாழ்வெனும் பாதையில்` witness | cross-witness only; no duplicate canonical poem |
-| 46–57 | **NEW ITEM 01** | candidate for later canonical assembly after Phases 1–3 |
-| 58–65 | **NEW ITEM 02** | candidate for later canonical assembly after Phases 1–3 |
-| 66 | **NEW ITEM 03** | candidate for later canonical assembly after Phases 1–3 |
-| 67–68 | **NEW ITEM 04** | candidate for later canonical assembly after Phases 1–3 |
-| 69–70 | Bharathidasan insert | preserve publication witness; exclude from Kalaignar canon |
-| 71–77 | existing `விடுதலை வீரர்கள்` witness | cross-witness only; no duplicate canonical poem |
-| 78–84 | existing `தந்தை பெரியார்` witness | cross-witness only; no duplicate canonical poem |
+| 1–8 | publication preliminaries | existing intake page records retained; no further work unless source-intake cleanup is explicitly requested |
+| 9–20 | existing Anna poem witness | **ALREADY IN REPOSITORY — SKIP further transcription**; page records 0009–0020 already created and retained only as archival cross-witnesses |
+| 21–32 | existing Nehru kaviyarangam witness | **ALREADY IN REPOSITORY — SKIP further transcription**; page records 0021–0032 already created and retained only as archival cross-witnesses |
+| 33–45 | existing `வாழ்வெனும் பாதையில்` witness | **ALREADY IN REPOSITORY — SKIP / do not create duplicate page records** |
+| 46–57 | **NEW ITEM 01** — 29-4-71 Puduvai Bharathidasan 80th-birthday leadership poem | **ACTIVE TARGET — transcribe / verify fully** |
+| 58–65 | **NEW ITEM 02** — Pari / Parambu-malai kaviyarangam leadership poem | **NEW TARGET — transcribe / verify fully** |
+| 66 | **NEW ITEM 03** — `சாராய சுதந்திரம்` | **NEW TARGET — transcribe / verify fully** |
+| 67–68 | **NEW ITEM 04** — `முதல்வர் கலைஞரின் பதில் கவிதை` | **NEW TARGET — transcribe / verify fully** |
+| 69–70 | Bharathidasan insert | **NON-KALAIGNAR — classify only; do not transcribe as Kalaignar canon** |
+| 71–77 | existing `விடுதலை வீரர்கள்` witness | **ALREADY IN REPOSITORY — SKIP further transcription** |
+| 78–84 | existing `தந்தை பெரியார்` witness | **ALREADY IN REPOSITORY — SKIP further transcription** |
 
-Inventory coverage: **84/84 scans classified**.
+Inventory classification: **84/84 scans accounted for**.
 
-## Phase 1 page-record checkpoint
+## Retained historical page records
 
-| Scan | Page record | Phase 1 status | Printed numeral | Note |
-|---:|---|---|---|---|
-| 1 | `../pages/0001.md` | `partial` | none visible | cover title captured; damaged upper edge not reconstructed |
-| 2 | `../pages/0002.md` | `partial` | none visible | title/publication text and donation witness captured |
-| 3 | `../pages/0003.md` | `needs-review` | none visible | edition/price captured; small bottom imprint unresolved |
-| 4 | `../pages/0004.md` | `needs-review` | none visible | non-edition handwriting; full Tamil cursive reading deferred |
-| 5 | `../pages/0005.md` | `needs-review` | none visible | `முன்னுரை`; heading/signature/date captured, body unresolved |
-| 6 | `../pages/0006.md` | `partial` | none visible | bleed-through/verso-like page; no intended edition text clearly visible |
-| 7 | `../pages/0007.md` | `needs-review` | none visible | `பதிப்புரை`; heading/signature/date captured, body unresolved |
-| 8 | `../pages/0008.md` | `partial` | none visible | bleed-through/verso-like page before first poem witness |
-| 9 | `../pages/0009.md` | `partial` | none visible | Anna cross-witness opening; historical-glyph screen applied |
-| 10 | `../pages/0010.md` | `partial` | 10 | Anna cross-witness; historical-glyph screen applied |
-| 11 | `../pages/0011.md` | `partial` | 11 | Anna cross-witness; historical-glyph screen applied |
-| 12 | `../pages/0012.md` | `partial` | 12 | Anna cross-witness; `மாற்றான்` checked as historical `றா` identity |
-| 13 | `../pages/0013.md` | `partial` | 13 | Anna cross-witness; historical-glyph screen applied |
-| 14 | `../pages/0014.md` | `partial` | 14 | Anna cross-witness; 1975 edition wording retained independently |
-| 15 | `../pages/0015.md` | `partial` | 15 | Anna cross-witness; historical-glyph screen applied |
-| 16 | `../pages/0016.md` | `partial` | 16 | Anna cross-witness; later-witness line not inserted where absent here |
-| 17 | `../pages/0017.md` | `partial` | 17 | Anna cross-witness; dialogue passage transcribed from 1975 scan |
-| 18 | `../pages/0018.md` | `needs-review` | 18 | one short source word unresolved; historical-glyph identities pass |
-| 19 | `../pages/0019.md` | `partial` | 19 | Anna cross-witness; statue / memorial passage |
-| 20 | `../pages/0020.md` | `partial` | 20 | Anna cross-witness conclusion |
-| 21 | `../pages/0021.md` | `partial` | none visible | Nehru event heading + poem opening; historical-glyph screen applied |
-| 22 | `../pages/0022.md` | `partial` | 22 | Nehru Rose passage begins |
-| 23 | `../pages/0023.md` | `partial` | 23 | Rose lament; 1975 wording retained independently |
-| 24 | `../pages/0024.md` | `partial` | 24 | Rose/Nehru continuation; unusual `குரங்கின்கை` sequence preserved |
-| 25 | `../pages/0025.md` | `needs-review` | 25 | one bracketed/parenthetical line unresolved |
-| 26 | `../pages/0026.md` | `needs-review` | 26 | one lower-middle line sequence unresolved; `கர்த்தபம்` retained |
-| 27 | `../pages/0027.md` | `partial` | 27 | China-border / Kalinga / Puduvai passage |
-| 28 | `../pages/0028.md` | `needs-review` | 28 | one `பண நாயகம் ...` line unresolved; S. D. Sundaram intro begins |
-| 29 | `../pages/0029.md` | `needs-review` | 29 | one `அன்பர் சுப்பு...` line unresolved |
-| 30 | `../pages/0030.md` | `partial` | 30 | Murugu Sundaram / Abdur Rahman introductions |
-| 31 | `../pages/0031.md` | `needs-review` | 31 | first few Kannadasan-intro lines unresolved; later witness not substituted |
-| 32 | `../pages/0032.md` | `partial` | 32 | Kannadasan conclusion + event `முடிவுரை`; Nehru block closes |
-| 33–84 | — | `not-started` | — | continue in physical order |
+The earlier full-publication workflow created page records for scans **1–32**. They remain in place; no deletion or canonical reopening is required. Their statuses remain Phase-1 `partial` / `needs-review`, not `verified`.
 
-Phase 1 transcription coverage: **32/84**. Historical-glyph first-pass coverage: **scans 9–32**. Anna cross-witness coverage: **12/12 scans (9–20)**. Nehru cross-witness coverage: **12/12 scans (21–32)**. Exact next scan: **33**. No page is `verified`; Phase 2 has not begun.
+The user has now explicitly directed that already represented poems should not be retranscribed merely because they occur in this 1975 anthology. Therefore scans **33–45, 71–77 and 78–84 will not receive duplicate page records** in this workflow.
+
+## New-item Phase 1 checkpoint
+
+The four genuinely new Kalaignar blocks contain **23 target scans** in total.
+
+| Scan | Page record | Item | Phase 1 status | Printed numeral | Note |
+|---:|---|---:|---|---|---|
+| 46 | `../pages/0046.md` | 01 | `needs-review` | none visible | event heading and clearly legible opening fragments captured; dense intervening text deliberately unresolved; historical-glyph guide applied |
+| 47–57 | — | 01 | `not-started` | — | continue NEW ITEM 01 only |
+| 58–65 | — | 02 | `not-started` | — | new item |
+| 66 | — | 03 | `not-started` | — | new item |
+| 67–68 | — | 04 | `not-started` | — | new item |
+
+**New-item Phase-1 coverage: 1/23 target scans. Exact next scan: 47.**
+
+Historical-glyph first-pass remains mandatory on every new Tamil target page using the user-supplied guide. Phase 2 independent source verification remains separate.
