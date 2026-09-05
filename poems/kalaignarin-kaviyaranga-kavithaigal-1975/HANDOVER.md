@@ -13,19 +13,21 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 ## Active Kalaignar items
 
 1. scans **46–57** — Item 01 — **Phase 2 COMPLETE: 12/12 verified**;
-2. scans **58–65** — Item 02 — **Phase 2 in progress: scan 58 verified; scans 59–65 pending**;
+2. scans **58–65** — Item 02 — **Phase 2 in progress: scans 58–59 verified; scans 60–65 pending**;
 3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 1 complete; Phase 2 pending**.
 
-Phase 1: **22/22 complete**. Phase 2: **13/22 verified**.
+Phase 1: **22/22 complete**. Phase 2: **14/22 verified**.
 
 ## Verified checkpoint
 
 - scans **46–57** are independently source-cleared with unresolved lexical/historical-glyph issues **0**;
-- `pages/0058.md` is verified from enlarged controlling pixels. Important source-backed corrections include `[மாதொரு பாகன்—சிவனார்!]`, `மாதவர்க்கும் ஒரு பாகம் உண்டன்றோ?`, `மருதநேயார் மதுரை முத்து மேயர்க்கும்`, and the closing boundary `நான் ஏற்பதில்லை—எதைத் துறந்திடினும்`;
-- historical-glyph Phase-2 recheck is complete through scan **58**;
+- `pages/0058.md` and `pages/0059.md` are verified from enlarged controlling pixels;
+- scan 59 restored the complete Madurai/Sangam address, `எனக் கிறுக்கும் / தனக் கிறுக்கும் / தவக் கிறுக்கர்` word-play, `கன்றுக்குடி / குன்றக்குடி`, `மாரியாலே / பாரியாலே`, `பலாச் சுனை`, and the closing `கொடிக்கிருக்க விட்டாக இழையணித்தேர் ஈந்த அண்ணல்` passage;
+- historical-glyph Phase-2 recheck is complete through scan **59**;
+- unresolved issues on verified scans **46–59: 0**;
 - no Phase-3 join/structure decision has been made;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Continue **Phase 2 with Item 02 scan 59**, then proceed in physical order through scans **59–65**. Independently compare each page against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation.
+Continue **Phase 2 with Item 02 scan 60**, then proceed in physical order through scans **60–65**. Independently compare each page against enlarged controlling-source pixels, repeat the historical-glyph screen, correct only source-backed differences, and promote to `verified` only after complete clearance. Do not begin Phase 3 or translation.
