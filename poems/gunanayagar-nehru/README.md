@@ -28,17 +28,22 @@ The printed attribution is preserved separately from the catalog form.
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 NEXT.**
+**SOURCE INTAKE COMPLETE / PHASE 1 COMPLETE / PHASE 2 COMPLETE — PASS / PHASE 3 GATE 1 PASS / GATE 2 NEXT.**
 
 - physical scans accounted: **10/10**;
 - verified page records: **10/10**;
 - partial / needs-review / blocked: **0 / 0 / 0**;
-- Tamil poem-body scope remains provisionally scans **3–7** pending Phase 3 certification;
+- Gate 1: **PASS**, unresolved pagination issues **0**;
+- reconciled numbered interior: **logical pages 1–8 = scans 2–9**;
+- source-visible printed numerals remain **2–6 on scans 3–7** only;
+- Tamil poem-body scope remains candidate scans **3–7** pending Gate 2 certification;
 - Tamil canonical assembly: deferred;
 - repository Phase-4 translation/release: deferred.
 
-Phase 2 made five source-backed corrections/resolutions recorded in `audit.md`, including the scan-9 bottom imprint. The source-printed English pages 8–9 remain source evidence, not repository Phase-4 translation output.
+Gate-1 authority: [`PHASE3_PAGE_RECONCILIATION.md`](PHASE3_PAGE_RECONCILIATION.md). Page-record `printed_page` fields were not changed for scans whose numerals are suppressed/unprinted.
+
+The user also supplied a Tamil Wiktionary lexical corroboration confirming **`கர்த்தபம்` = donkey**. This supports retaining the verified source reading; it does not alter the transcription.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation only**. Account for all 10 scans and distinguish visible printed numbers from inferred/reconciled logical pagination. Do not begin Gate 2, canonical Tamil assembly or translation in the same activity.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only**. Certify scan 3 as the poem opening, joins **3→4, 4→5, 5→6, 6→7**, the scan-7 verse close versus its performance note, and exclusions of scans **1–2, 8–9 and 10** from the canonical Tamil poem body. Do not begin Gate 3 title-witness reconciliation or canonical assembly in the same activity.
