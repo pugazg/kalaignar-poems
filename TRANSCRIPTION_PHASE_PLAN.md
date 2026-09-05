@@ -20,13 +20,13 @@ The user-supplied historical-glyph guide is mandatory for every new Tamil target
 
 ## Phase 1 — new-item transcription only
 
-**IN PROGRESS — 12/23 target scans.**
+**IN PROGRESS — 20/23 target scans.**
 
-- NEW ITEM 01 scans **46–57: 12/12 first-pass records complete**;
-- all twelve Item-01 pages: `needs-review`;
+- NEW ITEM 01 scans **46–57: 12/12 first-pass records complete; all needs-review**;
+- NEW ITEM 02 scans **58–65: 8/8 first-pass records complete; all needs-review**;
+- NEW ITEM 03 scan **66: NEXT**;
+- NEW ITEM 04 scans **67–68: pending**;
 - no new-item page is `verified`;
-- NEW ITEM 02 scans **58–65: NEXT**;
-- Items 03–04 pending;
 - unread text stays unresolved rather than guessed.
 
 ## Phase 2 — independent source-critical verification
@@ -43,4 +43,4 @@ The user-supplied historical-glyph guide is mandatory for every new Tamil target
 
 ## Exact next activity
 
-Begin **NEW ITEM 02 Phase 1 at scan 58** and process scans **58–65**. Do not return to duplicate ranges. Reattempt SHA-256 only when a functioning exact-byte path is available.
+Process **NEW ITEM 03 Phase 1 — scan 66 (`சாராய சுதந்திரம்`) only**. Apply historical-glyph screening and the conservative no-guess rule. Do not begin Item 04, Phase 2, Phase 3 or Phase 4 in the same activity.
