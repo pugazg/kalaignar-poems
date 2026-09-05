@@ -21,15 +21,15 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ### T1 — Batch 01 independent English draft
 
-**COMPLETE.** `translations/en/sections/01.md` covers scans **3–7 exactly once**. Batch record: `translations/en/batches/BATCH_01.md`. Historical witness comparison not performed. Tamil changes **0**.
+**COMPLETE.** Independent draft created from Tamil only.
 
 ### T2 — source/fidelity review + historical-witness comparison
 
-**NEXT.** Review the independent English draft against Tamil first; then compare scans 8–9 and document divergences/adoptions. Reviewed PASS requires unresolved translation issues **0**.
+**COMPLETE / REVIEWED PASS.** Reviewed English section `translations/en/sections/01.md` covers scans **3–7 exactly once**. Historical Dr. Krishna Srinivas witness comparison is complete; deliberate wording adoptions **0**; unresolved English translation issues **0**.
 
-### T3 — reader-facing assembly/editorial consistency
+### T3 — reader-facing assembly / editorial consistency
 
-**DEFERRED until T2 PASS.**
+**NEXT.** Assemble the reviewed section into the reader-facing English work and perform editorial-consistency review. Require unresolved T3 issues **0**.
 
 ### T4 — final source-coverage / release-integrity review
 
@@ -37,4 +37,4 @@ Controlling PDF: `TVA_BOK_0065713_குணநாயகர்_நேரு.pdf` 
 
 ## Exact next activity
 
-Complete **Phase 4 T2 only**.
+Complete **Phase 4 T3 only**.
