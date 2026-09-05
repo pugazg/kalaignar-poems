@@ -6,7 +6,7 @@
 
 - physical scans: **84**;
 - exact attachment size: **93,307,011 bytes**;
-- SHA-256: **PENDING** — exact checksum has not been fabricated;
+- SHA-256: **PENDING — exact checksum has not been fabricated**;
 - printed title: **கலைஞரின் கவியரங்கக் கவிதைகள்**;
 - edition witness: **முதற் பதிப்பு: 1975**;
 - compiler/editor visible on title page: **ஆசிரியர் அ. முத்து**;
@@ -14,30 +14,20 @@
 
 ## Intake decision
 
-A complete visual inventory identified **four Kalaignar blocks not represented in the repository**. These are the only production targets for this anthology.
+A complete visual inventory identified **four Kalaignar blocks not represented in the repository**. These are the only production targets.
 
 | ID | Source-heading intake label | Scans | Current state |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 1 started at scan 46** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | pending |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 1 first pass complete — 12/12 page records; all needs-review** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **NEXT** |
 | 03 | `சாராய சுதந்திரம்` | 66 | pending |
 | 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | pending |
 
-Total new-item production scans: **23**.
+Total new-item production scans: **23**. Current new-item Phase-1 coverage: **12/23**.
 
 ## User-directed duplicate policy
 
-Already represented poems are now **classification-only / skip** for this workflow. Do not create additional page transcriptions for:
-
-- scans 9–20 — Anna;
-- scans 21–32 — Nehru;
-- scans 33–45 — `வாழ்வெனும் பாதையில்`;
-- scans 71–77 — `விடுதலை வீரர்கள்`;
-- scans 78–84 — `தந்தை பெரியார்`.
-
-The earlier page records for scans 9–32 remain archival witnesses but are no longer active production work.
-
-Scans 69–70 are visibly Bharathidasan material; preserve the classification and exclude them from Kalaignar canonical assembly.
+Already represented poems are classification-only/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Earlier page records for scans 9–32 remain archival witnesses but are no longer active production work. Scans 69–70 are Bharathidasan material and are excluded from Kalaignar canonical assembly.
 
 ## Historical-glyph control
 
@@ -47,11 +37,10 @@ The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` is mandatory o
 
 Character identity is read from source pixels and encoded into normal Unicode; source wording is otherwise preserved. No global replacement and no guessing.
 
-## Current new-item Phase-1 checkpoint
+## Item-01 Phase-1 result
 
-- target scans: **23**;
-- page records complete: **1/23**;
-- scan 46 → `pages/0046.md` → `needs-review`;
-- exact next production scan: **47**.
+Scans **46–57** all have conservative page records. Event identity, date/location, distinctive quotations and positively readable phrases are captured. Dense uncertain lines remain unresolved, so every Item-01 page stays `needs-review`. No page is verified and Phase 2 has not begun.
 
-The controlling attachment remains the same 93,307,011-byte file. SHA-256 is still pending and must not be invented.
+## Exact next production scan
+
+**58 — NEW ITEM 02.**
