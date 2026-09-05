@@ -1,0 +1,232 @@
+# Nehru, the Noble Leader
+
+## குணநாயகர் நேரு — English Translation
+
+<!-- Reader-facing assembly from reviewed Phase 4 Batch 01. The section heading below is an editorial navigation label; scan-page markers preserve physical-source provenance. -->
+
+## Section 1
+
+<!-- scan_page: 3 -->
+
+### Nehru, the Noble Leader
+
+**Chief Minister Kalaignar**
+
+To Nehru,
+the cherished son of the venerable Gandhi,
+the Tamil government that strives
+to drive away the darkness of old
+strings a poem in threefold Tamil;
+in this arena of poetry
+it places a garland upon the Pandit
+who gathered fame upon the world stage...
+
+I entered a garden heavy with bloom,
+and there a scene awaited me;
+I turn that scene into verse for you.
+Champak leaned to the ears of laughing Jasmine
+        and whispered some news;
+the two ran together to Samanthi...
+        and put their mouths to her ear...
+                                                then
+
+all three murmured something to Mullai,
+                                                and with her
+all four flower-women began to walk
+        through the whole pleasure-garden.
+Whom were these flower-women seeking?
+                                                Were they wandering
+for fibre to bind a garland?
+                                I stood wondering...
+Spreading fragrance upon the breeze, they searched,
+                                                searched on;
+I could not tell whom they sought...
+“My knee is aching, girl,” said Mullai.
+“My foot has gone red,” said Champak, baring her teeth in a grin...
+
+<!-- scan_page: 4 -->
+
+For Samanthi and Jasmine too, it became a great ordeal—
+then, from one corner of the garden, came the sound of lament.
+“There! There!” cried the flower-women,
+        and flew toward that place...
+
+“O king of the earth! O mountain of fame! Have you gone, my leader?
+O sovereign! O king of principle!
+        Where is Death that robbed you from me?
+You lifted me, kissed me, and took me to your heart—today
+you have left me alone and gone a vast distance...
+                                                What justice is this?
+You would give honey to my petals—in return
+I would give you... Have you forgotten?
+You would hold me against your chest,
+and a flood of joy would overflow its banks;
+is your heart stone, that you should part from me, a maiden?”
+
+Hearing that anguished cry,
+the sweet, fragrant flower-women went near...
+Pouring tears like a flood through an opened sluice,
+Rose stood there, almost fainting...
+Jasmine and Mullai went close and said—
+        “Rose, girl, why are you still weeping?
+
+A good man lived so that the world might live...
+A mighty man lived to gather us into his embrace...
+Will what is gone ever return? End your lament!
+Queen of flowers! Show us a smile!”
+        They tried to console her, but beautiful Rose,
+        finding no comfort, sobbed and wept.
+
+“I would call the dew the spittle spat out by night—
+but the kiss from my lord's lips I would call nectar...
+From that first day he showed me love...
+        and today he has left me drenched
+        in this spittle-dew; what shall I do?
+Whenever I think that the uncrowned king
+        will never touch me again,
+my whole body is pierced as though by thorns!
+What use is this red to me when there is no smile in my life?
+What use is fragrance to me when there is no joy in my heart?...
+He sat upon the throne of India—
+and I sat upon the throne of his heart...
+
+<!-- scan_page: 5 -->
+
+“He is asleep; he will wake and rise;
+before he could step down and call me his maiden...
+I stood dressed in red, ready to dance
+in the arena of his heart—
+                                                but before that,
+the monkey-hand of Time made my life
+into a ‘garland’ in its grasp.
+
+Go away. Leave me here alone.
+On the holy man's birthday,
+to make my tears an offering
+        at his feet—
+        that is my duty...”
+
+Hearing Rose's words, I drooped in sorrow...
+Seeing her wither at the loss of her king,
+I turned away without speaking further.
+Let my wife's hair go without fragrance today;
+I came back without plucking a single flower—
+for if I pluck a flower today,
+it shall only be to string a garland for the great hero Nehru!...
+
+A formidable hero who tore down
+the flag of the white men who had torn into our fold and seized our freedom,
+and took up the flag of liberation;
+a lion who laboured without tiring
+along the path laid down by the Mahatma—
+to take the blows that came
+and endure repression!
+A man of sacrifice
+who spent the beauty of his youth
+inside a dark prison!
+
+His anger could burst like mustard seed dropped in hot oil—yet
+we shall say he poured oil into the sacrificial fire of freedom!
+Though born amid mountains of wealth,
+he stood as a mountain of virtue that embraced the poor!
+People compare the speed of work to a spinning top;
+the Pandit's work would make even the spinning top lose—
+
+Thunder cracking in his speech—youth
+throbbing in his writing—character
+sweeter by a measure than honey—deeds
+roaring like an exploding charge—an unyielding
+grip in his nature—the flag of freedom
+in his hand—and only a little
+hair upon his head!
+
+(“Then what is living here?” he asked, looking at me!)
+
+<!-- scan_page: 6 -->
+
+Because he stood straight and opposed
+everything that stood against justice,
+he became Nehru...
+When a powerful foe crossed India's long border,
+the people feared, “What will happen?”
+He wiped the grief from their hearts and said,
+“Nothing will happen as long as I am here”—
+and thus he became Nehru.
+
+“If you have courage and purity of heart,
+will suffering befall you?” he asked a child—
+“Only happiness will come, Uncle,” answered the tender flower-bud of a child;
+and thus he became “Uncle Nehru”...
+
+On religion, God and belief,
+his own convictions were distinct; yet
+without wounding the minds of others,
+he governed along a good path.
+He wrote in his will that after his death
+there should be no religious rites,
+and by that act gave light to the world.
+Holding non-alignment to be a good principle,
+he shaped a policy fitting the words
+our Pungundranar gave us to praise through the ages:
+“Every town is ours; everyone is kin.”
+
+By a turn of time,
+a donkey may become king of the forest;
+in an auction, some may squat upon a tower's summit.
+But Jawahar did not become leader of the Indian world in any such way!
+He was a Salem mango—the Chennai seashore—
+a Korkai pearl—Kollegal silk—
+a Thanjavur temple—the cool-watered Kaveri—
+Kanchi upon the earth—a broad-shouldered Pandyan!
+Though their ideas differed,
+when the news came that Nehru had died,
+Anna, then confined in prison,
+shed tears and wept in grief...
+In a land that honours dignified politics,
+let us praise in song Nehru, precious as the eye!
+
+“The army will come bounding—the foe will surge in—
+a firebrand will come—a black mark will come—
+the Chinese thorn will come,” some mocked.
+“The morning star will rise,” he said—and the foe
+
+<!-- scan_page: 7 -->
+
+he plucked out and flung away...
+Today he lies in sacred sleep—Nehru—
+lies in sacred sleep!
+
+> “Looking upon the beloved son
+> lying with his lips folded shut,
+> a mother beats herself and throws herself about, crying,
+> ‘Will no honey ever come to those jewel-like lips?’
+> The face of war where ghosts perform their dance,
+> the cruel spectacle where dogs and jackals feed and feed,
+> the battlefield where unripe fruit, ripe fruit,
+> flower and bud all fall together—”
+
+Our *Kalingattu Parani* tells of such a field;
+yet in that very Kalinga, King Ashoka embraced peace.
+Along the path of virtue that Ashoka found there,
+Nehru, to safeguard the world,
+clipped the wings of the vultures
+and set the white dove flying
+                                                high in the sky!...
+
+> “Practise the foremost virtue;
+> render justice true and right;
+> equality is the substance of democracy—
+> therefore beat the drum and proclaim it!”
+
+This is the poem sung to change our condition
+by the art-rich poet
+of wave-beaten Puduvai!
+
+“Democracy! Democracy!”
+Jawahar too thundered;
+we shall not forget that some among us
+worked instead to make their own autocracy flourish.
+For the rule of money to be shattered in an instant,
+and for Nehru, the Noble Leader, to press forward too,
+time itself was not enough—
+time itself would not wait!
