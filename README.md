@@ -24,10 +24,11 @@ Current state:
 - canonical scan markers: **1/1 exactly once**;
 - canonical payload equality vs verified page layer: **1/1 PASS**;
 - unresolved Tamil issues: **0**;
-- verified page / canonical Tamil changes during Gate 6: **0 / 0**;
-- Phase 4 English translation/release: **NOT STARTED / UNBLOCKED**.
+- Phase 4 English translation setup: **COMPLETE**;
+- translation item drafting/review: **NOT STARTED**;
+- English control layer: `poems/kanchithan-annan/translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`.
 
-Exact next activity: **Phase 4 English translation setup only** — create `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`. Do not draft the English poem in the same setup activity.
+Exact next activity: **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review only**. Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md`; do not perform reader-facing assembly in the same activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
