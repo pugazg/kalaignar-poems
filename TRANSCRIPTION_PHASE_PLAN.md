@@ -30,20 +30,22 @@ Unresolved Tamil issues: **0**.
 - reader-facing English assembly: **COMPLETE / PASS**;
 - reader-facing output: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
 - assembly authority: `poems/kanchithan-annan/translations/en/ASSEMBLY.md`;
+- editorial / terminology / voice consistency review: **COMPLETE / PASS**;
+- editorial authority: `poems/kanchithan-annan/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
 - active scan coverage: **1/1 exactly once**;
-- reviewed-English lexical changes during assembly: **0**;
-- unresolved translation / assembly issues: **0 / 0**;
+- English lexical changes required by editorial gate: **0**;
+- unresolved translation / assembly / editorial issues: **0 / 0 / 0**;
 - Tamil page/canonical changes during Phase 4: **0 / 0**.
 
 Remaining Phase-4 sequence:
 
 1. Batch 01 translation/review — **COMPLETE / PASS**;
 2. reader-facing English assembly — **COMPLETE / PASS**;
-3. editorial / terminology / voice consistency review — **NEXT**;
-4. final source-coverage / release-integrity review;
+3. editorial / terminology / voice consistency review — **COMPLETE / PASS**;
+4. final source-coverage / release-integrity review — **NEXT**;
 5. release report / explicit release-clearance decision.
 
-Exact next activity: **editorial / terminology / voice consistency review only**. Do not combine with final release-integrity or release-clearance.
+Exact next activity: **final source-coverage / release-integrity review only**. Do not combine with release reporting or release clearance.
 
 ## Preserved closed source
 
