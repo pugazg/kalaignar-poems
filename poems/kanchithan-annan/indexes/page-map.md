@@ -6,23 +6,22 @@ User-scoped work range: **physical scan 16 only**.
 
 | Physical scan | Work-scope ordinal | Visible printed page | Page-layer `printed_page` | Role | Page record | Canonical Tamil | English status |
 |---:|---:|---|---|---|---|---|---|
-| 16 | 1/1 | none | `null` | decorative title + author line + complete poem + author portrait | `../pages/0016.md` | `../sections/01.md` | Batch 01 REVIEWED / assembly PASS / editorial PASS |
+| 16 | 1/1 | none | `null` | decorative title + author line + complete poem + author portrait | `../pages/0016.md` | `../sections/01.md` | **RELEASE-CLEARED** |
 
-## Notes
+## Final accounting
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
 - canonical title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
 - canonical Tamil blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
-- reviewed English: `../translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- reader-facing assembly: `../translations/en/ASSEMBLY.md` — **COMPLETE / PASS**;
-- reader-facing output: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
-- editorial review: `../translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
-- source scan marker in reviewed and reader-facing English: **1/1 exactly once**;
-- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
-- English lexical changes required by editorial gate: **0**;
-- Tamil page/canonical changes during Phase 4: **0 / 0**.
+- reviewed English blob: `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- reader-facing English blob: `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
+- assembly / editorial / release-integrity: **PASS / PASS / PASS**;
+- source scan marker in reader-facing English: **1/1 exactly once**;
+- release authority: `../translations/en/RELEASE_REPORT.md`;
+- final status: **CLOSED / RELEASE-CLEARED**;
+- unresolved release issues: **0**;
+- Tamil page/canonical drift since final clearance: **0 / 0**.
 
-Exact next activity: **final source-coverage / release-integrity review only**. Do not perform release reporting or release clearance in the same activity.
+Future textual changes require a documented source-backed reopen.
