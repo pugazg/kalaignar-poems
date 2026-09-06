@@ -12,12 +12,7 @@ User-scoped work range: **physical scan 16 only**.
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gate 1: **PASS** — `../PHASE3_STRUCTURE_AUDIT.md`;
-- Phase 3 Gate 2: **PASS** — `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Phase 3 Gate 3: **PASS** — `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- Phase 3 Gate 4: **PASS** — `../PHASE3_CANONICAL_ASSEMBLY.md`;
-- Phase 3 Gate 5: **PASS** — `../PHASE3_CANONICAL_SOURCE_REVIEW.md`;
-- Phase 3 Gate 6: **PASS** — `../PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+- Phase 3 Gates 1–6: **PASS**;
 - no visible printed numeral exists on scan 16, so `printed_page` remains `null`;
 - internal joins: **0**;
 - scans 15 and 17 positively bound the one-page work;
@@ -25,6 +20,11 @@ User-scoped work range: **physical scan 16 only**.
 - canonical scan markers: **1/1 exactly once**;
 - canonical payload equality vs verified page layer: **1/1 PASS**;
 - unresolved Tamil issues: **0**;
-- Tamil layer: **FINAL-CLEARED**.
+- Tamil layer: **FINAL-CLEARED**;
+- Phase 4 English translation setup: **COMPLETE**;
+- translation batch partition: **Batch 01 = Item 01 = scan 16**;
+- English item translation/review: **NOT STARTED**.
 
-Exact next activity: **Phase 4 English translation setup only**. Do not draft English in the same setup activity.
+Phase-4 authority files are `../translations/en/README.md`, `../translations/en/TRANSLATION_PLAN.md`, and `../translations/en/SOURCE_MAP.md`.
+
+Exact next activity: **Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only**. Do not perform reader-facing assembly in the same activity.
