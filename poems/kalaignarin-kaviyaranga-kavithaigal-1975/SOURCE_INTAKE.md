@@ -16,19 +16,21 @@
 
 Three genuinely new Kalaignar blocks are active:
 
-| ID | Source-heading label | Scans | Current state |
+| ID | Source-heading witness | Scans | Current state |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 1 complete — 12/12** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 1 complete — 8/8** |
-| 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji** |
-| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **Phase 1 complete — 2/2** |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 VERIFIED / Gates 1–3 PASS** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 2 VERIFIED / Gates 1–3 PASS** |
+| 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context** |
+| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | **Phase 2 VERIFIED / Gates 1–3 PASS** |
 
-Active Kalaignar production scans: **22/22 Phase-1 records complete**. Scan 66 is retained only as source/context for Item 04 and is excluded from Kalaignar canonical assembly.
+Active Kalaignar production scans: **22/22 verified**. Scan 66 is retained only as source/context for Item 04 and is excluded from Kalaignar canonical assembly.
 
 Already represented poems remain classification-only/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Scans **69–70** are Bharathidasan material.
 
-The historical-glyph first-pass is complete across all active Kalaignar target scans; Phase 2 remains an independent visual verification layer.
+Historical-glyph screening and independent recheck are complete across all **22/22** active Kalaignar target scans. Phase 3 Gates 1–3 are complete/pass.
+
+Gate-3 title authority corrections are source-fidelity metadata corrections only: Item 02 uses the exact scan-58 heading `பறம்புமலைப் பாரி வள்ளல் விழாக் / கவியரங்கில் / முதல்வர் கலைஞரின் தலைமைக் கவிதை`; Item 04 uses direct scan-67 `“முதல்வர் கலைஞரின் பதில் கவிதை”`, while scan 66 `மறுப்புக் கவிதை` remains contextual provenance only.
 
 ## Exact next activity
 
-Begin Phase 2 at **scan 46**, working only through the three new Kalaignar blocks. Do not begin Phase 3 or translation until Phase 2 is complete.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for the three new Kalaignar items. Do not begin Gate 5, Tamil final clearance or translation in the same activity.

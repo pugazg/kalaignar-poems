@@ -12,11 +12,11 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 
 ## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — **Phase 2 COMPLETE / Gates 1–2 PASS**;
-2. scans **58–65** — Item 02 — **Phase 2 COMPLETE / Gates 1–2 PASS**;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — **Phase 2 COMPLETE / Gates 1–2 PASS**.
+1. scans **46–57** — Item 01 — **Phase 2 COMPLETE / Gates 1–3 PASS**;
+2. scans **58–65** — Item 02 — **Phase 2 COMPLETE / Gates 1–3 PASS**;
+3. scans **67–68** — Item 04 / `“முதல்வர் கலைஞரின் பதில் கவிதை”` — **Phase 2 COMPLETE / Gates 1–3 PASS**.
 
-Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gate 1: **COMPLETE / PASS**. Phase 3 Gate 2: **COMPLETE / PASS**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gates 1–3: **COMPLETE / PASS**.
 
 ## Gate-1 checkpoint
 
@@ -41,11 +41,27 @@ Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 - scan **50 → 51** source-visible quotation carry-over is preserved exactly without editorial repair;
 - scan **68** closes with source text ending in a colon followed by a horizontal rule; no continuation is invented;
 - unresolved boundary/join issues: **0**;
-- Gate-2 page-text/status changes: **none**;
+- Gate-2 page-text/status changes: **none**.
+
+## Gate-3 checkpoint
+
+Authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+
+- publication preliminaries contain **no item-level contents page**;
+- Item 01 title authority: exact scan-46 two-line heading `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை`;
+- Item 02 title authority: exact scan-58 three-line heading `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
+- Item 04 title authority: exact scan-67 `“முதல்வர் கலைஞரின் பதில் கவிதை”`;
+- scan 66 `மறுப்புக் கவிதை` remains contextual provenance only;
+- Item 02 normalized repository convenience label was corrected in status/intake metadata only; verified scan text did not change;
+- unresolved title-witness conflicts: **0**;
+- Gate-3 page-text/status changes: **none**;
+- canonical Tamil files: **0/3**;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Inspect the applicable title/event/contents witnesses for Items 01, 02 and 04, preserve all witnesses exactly, and record any explicit assembly-authority decision required by `POEM_PROCESSING_GUIDE.md`.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for Items 01, 02 and 04.
 
-Do not begin canonical Tamil assembly, final clearance or translation in the same activity.
+Use only verified page records. Apply Gate-3 title authorities exactly, preserve Gate-2-certified joins/quotation state/separators/source punctuation and explicit scan provenance, and exclude scan 66 from canonical Kalaignar text.
+
+Do not begin Gate 5 assembly/source-completeness review, Tamil final clearance or translation in the same activity.

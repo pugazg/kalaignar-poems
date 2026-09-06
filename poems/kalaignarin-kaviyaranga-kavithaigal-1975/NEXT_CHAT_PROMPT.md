@@ -19,23 +19,27 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 - Phase 2: **22/22 verified — COMPLETE**;
 - Phase 3 Gate 1: **COMPLETE / PASS** in `PHASE3_STRUCTURE_AUDIT.md`;
 - Phase 3 Gate 2: **COMPLETE / PASS** in `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Phase 3 Gate 3: **COMPLETE / PASS** in `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - Gate-1 structural interval scans **46–68** reconciles continuously as logical publication pages **46–68**;
-- visible numerals: **47–57, 59–65, 68**;
-- suppressed/unprinted numerals: scans **46, 58, 66, 67**; keep their `printed_page` as `null`;
-- Gate-2 openings: **3/3 certified**;
-- Gate-2 internal joins: **19/19 certified** — Item 01 **11/11**, Item 02 **7/7**, Item 04 **1/1**;
-- Gate-2 closings: **3/3 certified**;
-- scan 66 remains non-Kalaignar Rajaji context only and is certified only as contextual separation evidence;
-- source-open quotation carry-over on **50 → 51** is preserved without editorial punctuation repair;
+- Gate-2 openings **3/3**, joins **19/19**, closings **3/3** certified;
+- Item 01 title authority: exact scan-46 two-line heading `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை`;
+- Item 02 title authority: exact scan-58 three-line heading `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
+- Item 04 title authority: exact scan-67 `“முதல்வர் கலைஞரின் பதில் கவிதை”`;
+- scan 66 `மறுப்புக் கவிதை` remains contextual provenance only, not Item-04 title authority;
+- publication has no item-level contents-page witness;
+- scan **50 → 51** source-open quotation carry-over is preserved without editorial punctuation repair;
 - scan **68** terminal colon before its horizontal closing rule is preserved without inventing continuation;
-- unexplained pagination gaps/resets: **none**;
-- Gate-1/Gate-2 page-text changes: **none**;
+- unresolved pagination/boundary/title issues: **none**;
+- Gates 1–3 verified page-text/status changes: **none**;
+- canonical Tamil files: **0/3**;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for Items 01, 02 and 04.
 
-Inspect the applicable source title/event/contents witnesses for NEW ITEM 01 scans **46–57**, NEW ITEM 02 scans **58–65**, and NEW ITEM 04 scans **67–68**. Preserve every witness exactly. Where witnesses differ, document the difference explicitly and record the assembly-authority decision required by `POEM_PROCESSING_GUIDE.md`; do not create a hybrid title and do not alter verified page text.
+Re-read `POEM_PROCESSING_GUIDE.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, and all verified page records for scans 46–65 and 67–68 before assembly.
 
-Do not begin canonical Tamil assembly, final clearance or translation in the same activity.
+Use only verified page text; apply the exact Gate-3 title authority; preserve verified lineation/punctuation/quotation state/separators and Gate-2-certified joins; preserve explicit physical scan provenance; exclude scan 66 from Kalaignar canonical text. Do not repair the scan 50 → 51 quotation state or invent continuation after scan 68.
+
+Create all three complete canonical item files in this activity. Do not begin Gate 5 assembly/source-completeness review, Tamil final clearance or translation in the same activity.

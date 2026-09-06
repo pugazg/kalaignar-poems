@@ -12,11 +12,11 @@ Process only poems not already represented in the repository. Skip duplicate ran
 
 ## Active new Kalaignar scope
 
-1. scans **46–57** — Item 01 — Phase 2 complete / Gates 1–2 PASS;
-2. scans **58–65** — Item 02 — Phase 2 complete / Gates 1–2 PASS;
-3. scans **67–68** — Item 04 / `முதல்வர் கலைஞரின் பதில் கவிதை` — Phase 2 complete / Gates 1–2 PASS.
+1. scans **46–57** — Item 01 — Phase 2 complete / Gates 1–3 PASS;
+2. scans **58–65** — Item 02 — Phase 2 complete / Gates 1–3 PASS;
+3. scans **67–68** — Item 04 / `“முதல்வர் கலைஞரின் பதில் கவிதை”` — Phase 2 complete / Gates 1–3 PASS.
 
-Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gate 1: **COMPLETE / PASS**. Phase 3 Gate 2: **COMPLETE / PASS**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified — COMPLETE**. Phase 3 Gates 1, 2 and 3: **COMPLETE / PASS**.
 
 Gate-1 authority is `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_STRUCTURE_AUDIT.md`. The structural interval scans **46–68** reconciles continuously as logical publication pages **46–68**. Visible numerals occur on scans **47–57, 59–65, 68**; scans **46, 58, 66, 67** have no visible numeral and retain `printed_page: null`. Scan 66 remains non-Kalaignar context only. No page text changed in Gate 1.
 
@@ -29,14 +29,29 @@ Gate-2 authority is `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_BOUND
 - scan 50 → 51 source quotation carry-over preserved without editorial repair;
 - scan 68 terminal colon + horizontal closing rule preserved without invented continuation;
 - unresolved boundary/join issues: **0**;
-- Gate-2 page-text/status changes: **none**;
-- existing release-cleared poem trees remain untouched.
+- Gate-2 page-text/status changes: **none**.
+
+Gate-3 authority is `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TITLE_WITNESS_RECONCILIATION.md`:
+
+- publication preliminaries contain **no item-level contents page**;
+- Item 01 title authority: exact two-line scan-46 heading `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை`;
+- Item 02 title authority: exact three-line scan-58 heading `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
+- Item 04 title authority: exact scan-67 heading `“முதல்வர் கலைஞரின் பதில் கவிதை”`;
+- scan 66's `மறுப்புக் கவிதை` remains a contextual descriptor only and must not replace or hybridize the Item-04 title;
+- Item 02 repository convenience label was corrected from normalized `விழாக் கவியரங்கு` to the source-exact `விழாக் / கவியரங்கில்` witness in status/intake metadata;
+- unresolved title-witness conflicts: **0**;
+- Gate-3 verified page-text/status changes: **none**;
+- canonical Tamil files remain **0/3**.
+
+Existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only** for Items 01, 02 and 04. Preserve all applicable title/event/contents witnesses exactly and record any explicit assembly-authority decision required by the processing guide.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for Items 01, 02 and 04.
 
-Do not begin canonical assembly, final clearance or translation in the same activity.
+Use only the verified page records. Apply the exact Gate-3 title authorities, preserve Gate-2-certified joins/quotation state/separators and explicit physical scan provenance, and exclude scan 66 from Kalaignar canonical text.
+
+Do not begin Gate 5 assembly/source-completeness review, Tamil final clearance or translation in the same activity.
 
 ## Preserved completed works
 

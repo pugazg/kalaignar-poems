@@ -6,14 +6,14 @@ Physical `scan_page` is 1-indexed against the exact 84-scan supplied PDF. Printe
 
 | Physical scans | Classification | Production policy |
 |---:|---|---|
-| 1–8 | publication preliminaries | retained intake records |
+| 1–8 | publication preliminaries | retained intake records; **no contents page** |
 | 9–20 | existing Anna witness | **ALREADY IN REPOSITORY — SKIP** |
 | 21–32 | existing Nehru witness | **ALREADY IN REPOSITORY — SKIP** |
 | 33–45 | existing `வாழ்வெனும் பாதையில்` witness | **ALREADY IN REPOSITORY — SKIP** |
-| 46–57 | **NEW ITEM 01** | **Phase 2 COMPLETE / Gates 1–2 PASS** |
-| 58–65 | **NEW ITEM 02** | **Phase 2 COMPLETE / Gates 1–2 PASS** |
+| 46–57 | **NEW ITEM 01** | **Phase 2 COMPLETE / Gates 1–3 PASS** |
+| 58–65 | **NEW ITEM 02** | **Phase 2 COMPLETE / Gates 1–3 PASS** |
 | 66 | Rajaji `சாராய சுதந்திரம்` | **NON-KALAIGNAR — source/context only; structural/separation context certified** |
-| 67–68 | **NEW ITEM 04 — `முதல்வர் கலைஞரின் பதில் கவிதை`** | **Phase 2 COMPLETE / Gates 1–2 PASS** |
+| 67–68 | **NEW ITEM 04 — `“முதல்வர் கலைஞரின் பதில் கவிதை”`** | **Phase 2 COMPLETE / Gates 1–3 PASS** |
 | 69–70 | Bharathidasan insert | **NON-KALAIGNAR** |
 | 71–77 | existing `விடுதலை வீரர்கள்` witness | **ALREADY IN REPOSITORY — SKIP** |
 | 78–84 | existing `தந்தை பெரியார்` witness | **ALREADY IN REPOSITORY — SKIP** |
@@ -62,10 +62,25 @@ Gate-2 authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 - unresolved boundary/join issues: **0**;
 - page-text/status changes in Gate 2: **none**.
 
+## Phase 3 Gate 3 — title-witness reconciliation
+
+Gate-3 authority: `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+
+| Item | Physical scans | Canonical title authority for later assembly |
+|---:|---:|---|
+| 01 | 46–57 | exact scan-46 two-line heading `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` |
+| 02 | 58–65 | exact scan-58 three-line heading `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` |
+| 04 | 67–68 | exact scan-67 heading `“முதல்வர் கலைஞரின் பதில் கவிதை”` |
+
+- publication item-level contents witness: **none**;
+- scan 66 `மறுப்புக் கவிதை`: **contextual descriptor only**, not Item-04 title authority;
+- unresolved title-witness conflicts: **0**;
+- Gate-3 verified page-text/status changes: **none**.
+
 ## Phase status
 
-**Phase 1: 22/22 COMPLETE. Phase 2: 22/22 VERIFIED — COMPLETE. Phase 3 Gates 1–2: COMPLETE / PASS. Gate 3 NEXT.**
+**Phase 1: 22/22 COMPLETE. Phase 2: 22/22 VERIFIED — COMPLETE. Phase 3 Gates 1–3: COMPLETE / PASS. Gate 4 NEXT.**
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only** for Items 01, 02 and 04. Do not begin canonical assembly, final clearance or translation in the same activity.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for Items 01, 02 and 04. Do not begin Gate 5, final clearance or translation in the same activity.

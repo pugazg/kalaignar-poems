@@ -29,14 +29,14 @@ The user-supplied historical-glyph guide is mandatory. Phase-1 family screening 
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — GATES 1–2 COMPLETE / PASS; GATE 3 NEXT.**
+**IN PROGRESS — GATES 1–3 COMPLETE / PASS; GATE 4 NEXT.**
 
 Ordered gates from `POEM_PROCESSING_GUIDE.md`:
 
 1. **Physical scan ↔ printed-page reconciliation — COMPLETE / PASS**
 2. **Boundary / page-join audit — COMPLETE / PASS**
-3. **Title-witness reconciliation — NEXT**
-4. Canonical Tamil assembly — deferred
+3. **Title-witness reconciliation — COMPLETE / PASS**
+4. **Canonical Tamil assembly — NEXT**
 5. Assembly/source-completeness review — deferred
 6. Tamil final clearance — deferred
 
@@ -65,12 +65,27 @@ Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_BOUNDARY_JOIN_
 - unresolved boundary/join issues: **0**;
 - Gate-2 page-text/status changes: **none**.
 
+### Gate 3 result
+
+Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+
+- printed item-level contents-page witnesses: **0** — publication preliminaries contain no contents page;
+- Item 01 assembly title authority: exact scan-46 two-line heading;
+- Item 02 assembly title authority: exact scan-58 three-line heading with source `கவியரங்கில்`;
+- Item 04 assembly title authority: exact scan-67 `“முதல்வர் கலைஞரின் பதில் கவிதை”`;
+- scan 66 `மறுப்புக் கவிதை` is contextual provenance only, not the Item-04 title;
+- unresolved title-witness conflicts: **0**;
+- Gate-3 verified page-text/status changes: **none**;
+- canonical Tamil files: **0/3**.
+
 ## Phase 4 — English translation / release
 
 **BLOCKED until Tamil final clearance.**
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 only — title-witness reconciliation** for the three certified new Kalaignar items. Inspect applicable title/event/contents witnesses, preserve each witness exactly, and record any explicit assembly-authority decision required by `POEM_PROCESSING_GUIDE.md`.
+Perform **Phase 3 Gate 4 only — canonical Tamil assembly** for the three certified new Kalaignar items.
 
-Do not begin canonical assembly, final clearance or Phase 4 in the same activity.
+Assemble exclusively from `verified` page records; use Gate-3 title authorities; preserve Gate-2-certified page joins, quotation state, separators, source punctuation/lineation and explicit scan provenance; exclude scan 66 from Kalaignar canonical text.
+
+Do not begin Gate 5, Tamil final clearance or Phase 4 in the same activity.

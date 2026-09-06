@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY / PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATES 1–2 COMPLETE — PASS / GATE 3 NEXT.**
+**ONBOARDED / NEW-ITEM-ONLY / PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATES 1–3 COMPLETE — PASS / GATE 4 NEXT.**
 
 Controlling source:
 
@@ -16,12 +16,12 @@ Controlling source:
 
 ## Corrected production scope
 
-| Intake ID | Source-heading label | Scans | Current state |
+| Intake ID | Source-heading witness | Scans | Current state |
 |---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில் — முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 verified; Gates 1–2 PASS** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக் கவியரங்கு — முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 2 verified; Gates 1–2 PASS** |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 verified; Gates 1–3 PASS** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 2 verified; Gates 1–3 PASS** |
 | 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context only** |
-| 04 | `முதல்வர் கலைஞரின் பதில் கவிதை` | 67–68 | **Phase 2 verified; Gates 1–2 PASS** |
+| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | **Phase 2 verified; Gates 1–3 PASS** |
 
 There are **3 genuinely new Kalaignar blocks / 22 production scans**, all independently verified. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription or anthology verification. Scans **69–70** are Bharathidasan material.
 
@@ -52,8 +52,21 @@ Historical-glyph screening and independent recheck are **22/22 complete**, unres
 - unresolved boundary/join issues: **0**;
 - page-text/status changes: **none**.
 
+## Phase 3 Gate 3
+
+`PHASE3_TITLE_WITNESS_RECONCILIATION.md` records **COMPLETE / PASS**:
+
+- publication preliminaries contain **no item-level contents page**;
+- Item 01: exact scan-46 two-line heading controls later assembly;
+- Item 02: exact scan-58 three-line heading controls later assembly; the earlier normalized convenience label `விழாக் கவியரங்கு` is not a source witness and has been corrected in status/intake metadata;
+- Item 04: exact scan-67 title `“முதல்வர் கலைஞரின் பதில் கவிதை”` controls later assembly;
+- scan 66's `மறுப்புக் கவிதை` remains contextual provenance only and must not replace/hybridize the Item-04 title;
+- unresolved title-witness conflicts: **0**;
+- verified page-text/status changes: **none**;
+- canonical Tamil files: **0/3**.
+
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Inspect the applicable title/event/contents witnesses for the three new Kalaignar items, preserve each witness exactly, and record any assembly-authority decision required by the processing guide.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for Items 01, 02 and 04. Assemble only from verified page records, apply the Gate-3 title authorities, preserve Gate-2-certified joins/quotation state/separators and explicit scan provenance, and exclude scan 66 from Kalaignar canonical text.
 
-Do not begin canonical Tamil assembly, final clearance or translation in the same activity.
+Do not begin Gate 5, Tamil final clearance or translation in the same activity.

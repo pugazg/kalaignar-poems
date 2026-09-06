@@ -19,23 +19,38 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 - Phase 2: **22/22 verified — COMPLETE**;
 - Phase 3 Gate 1: **COMPLETE / PASS** in `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_STRUCTURE_AUDIT.md`;
 - Phase 3 Gate 2: **COMPLETE / PASS** in `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Phase 3 Gate 3: **COMPLETE / PASS** in `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - scans **46–68** reconcile continuously as logical publication pages **46–68**;
-- visible numerals: **47–57, 59–65, 68**;
-- suppressed numerals: scans **46, 58, 66, 67**; their `printed_page` remains `null`;
-- Gate-2 item openings: **3/3 certified**;
-- Gate-2 internal joins: **19/19 certified** — Item 01 **11/11**, Item 02 **7/7**, Item 04 **1/1**;
-- Gate-2 item closings: **3/3 certified**;
-- scan 66 remains non-Kalaignar Rajaji context only and is certified only as contextual separation evidence;
+- Gate-2 openings **3/3**, internal joins **19/19**, closings **3/3** certified;
+- Item 01 title authority: exact scan-46 heading block `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை`;
+- Item 02 title authority: exact scan-58 heading block `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
+- Item 04 title authority: exact scan-67 heading `“முதல்வர் கலைஞரின் பதில் கவிதை”`;
+- scan 66 `மறுப்புக் கவிதை` remains contextual provenance only and is excluded from Kalaignar canonical text;
+- publication has no item-level contents-page witness for these items;
 - scan **50 → 51** source-visible quotation carry-over remains unrepaired/editorially untouched;
 - scan **68** terminal colon before its horizontal closing rule remains source-faithful; no continuation was invented;
-- unresolved pagination or boundary/join issues: **none**;
-- Gate-1/Gate-2 page-text changes: **none**;
+- unresolved pagination, boundary/join or title-witness issues: **none**;
+- Gates 1–3 verified page-text changes: **none**;
+- canonical Tamil new items: **0/3**;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for NEW ITEM 01 scans **46–57**, NEW ITEM 02 scans **58–65**, and NEW ITEM 04 scans **67–68**.
 
-Inspect the applicable source title/event/contents witnesses for NEW ITEM 01 scans **46–57**, NEW ITEM 02 scans **58–65**, and NEW ITEM 04 scans **67–68**. Preserve every witness exactly. Where witnesses differ, document the difference explicitly and record the assembly-authority decision required by `POEM_PROCESSING_GUIDE.md`; do not create a hybrid title and do not alter verified page text.
+Before writing, re-read `POEM_PROCESSING_GUIDE.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, and the verified page records for scans 46–65 and 67–68.
 
-Do not begin canonical Tamil assembly, final clearance or translation in the same activity.
+Assembly rules:
+
+- body text comes only from the corresponding `verified` page records;
+- use the exact Gate-3 title authority for each item; do not normalize or hybridize titles;
+- preserve verified spelling, punctuation, lineation, quotation state, separators and Gate-2-certified page joins;
+- preserve explicit physical `scan_page` provenance inside each canonical item using the repository's established canonical provenance convention;
+- do **not** include scan 66 Rajaji text in Kalaignar canonical assembly;
+- do not repair the source-open quotation state across scan **50 → 51**;
+- preserve scan **68** ending `பட்டியல் பிறகு சொல்வேன்:` and the certified closing state; do not invent a missing list or continuation;
+- do not alter verified page records merely to make assembled prose smoother.
+
+Create the complete canonical files for all three items in this Gate-4 activity; do not publish a partial item.
+
+Do **not** begin Gate 5 assembly/source-completeness review, Tamil final clearance or translation in the same activity.
