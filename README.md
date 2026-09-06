@@ -17,11 +17,12 @@ Current state:
 - Phase 1 direct visual transcription: **1/1 COMPLETE**;
 - Phase 2 verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Gate-1 decision: scan 16 has no visible printed page numeral; `printed_page: null` retained; no inferred issue-page number introduced;
-- Phase 3 Gate 2–6: **NOT STARTED**;
+- Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
+- Gate-2 result: opening **1/1 PASS**, internal joins **0**, closing **1/1 PASS**, unresolved boundary issues **0**, verified page-text changes **0**;
+- Phase 3 Gate 3–6: **NOT STARTED**;
 - Phase 4 English translation/release: **NOT STARTED**.
 
-Exact next activity: **Phase 3 Gate 2 boundary / page-join audit** for the one-page work. Certify opening and closing boundaries and record **0 internal joins**. Do not begin Gate 3 in the same activity.
+Exact next activity: **Phase 3 Gate 3 title-witness reconciliation**. Reconcile the direct scan-16 title/author witness with the available bibliographic/catalogue witness. Do not begin canonical assembly in the same activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
