@@ -25,21 +25,24 @@ Workspace: `poems/anna-kaviyarangam/`. User-scoped work range: **physical scans 
 
 ### Phase 4 — translation / release
 
-**IN PROGRESS — TRANSLATION SETUP COMPLETE / BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY NOT STARTED.**
+**IN PROGRESS — TRANSLATION SETUP COMPLETE / BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY COMPLETE-PASS / EDITORIAL REVIEW NOT STARTED.**
 
 - Phase-4 controls: `poems/anna-kaviyarangam/translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
 - reviewed English: `poems/anna-kaviyarangam/translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
 - Batch-01 review: `poems/anna-kaviyarangam/translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**;
 - reviewed batches: **1/1**;
+- reader-facing English: `poems/anna-kaviyarangam/translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
+- assembly authority: `poems/anna-kaviyarangam/translations/en/ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b` — **PASS**;
 - English scan coverage: **6/6 — scans 119–124 exactly once and ordered**;
 - source-context / handoff headings / `M. K.` markers: **1/1 / 8/8 / 8/8**;
-- detected English omissions / duplications: **0 / 0**;
-- unresolved translation issues: **0**;
+- reviewed-English omissions / duplications: **0 / 0**;
+- assembly omissions / duplications: **0 / 0**;
+- reviewed English lexical changes during assembly: **0**;
+- unresolved translation / assembly issues: **0 / 0**;
 - Tamil page/canonical drift during Phase 4: **0 / 0**;
-- reader-facing English: not assembled;
 - editorial consistency / release-integrity / release clearance: not started.
 
-Exact next activity: **reader-facing English assembly only** from reviewed `sections/01.md`. Create `poems/anna-kaviyarangam/translations/en/anna-kaviyarangam-en.md` and the assembly authority. Keep later editorial and release gates separate.
+Exact next activity: **editorial / terminology / voice consistency review only**. Compare reviewed `sections/01.md` with reader-facing `anna-kaviyarangam-en.md`, verify exact body synchronization and consistency of title, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions. Create `EDITORIAL_CONSISTENCY_REVIEW.md` if PASS. Keep release-integrity and release-clearance gates separate.
 
 ---
 

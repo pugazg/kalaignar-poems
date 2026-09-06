@@ -22,11 +22,14 @@ Canonical Tamil authority:
 
 Batch review: `batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**.
 
-Reader-facing English has **not** yet been assembled.
+Reader-facing English:
 
-## Structural review map
+- `anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
+- assembly authority: `ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b` — **PASS**.
 
-Reviewed `sections/01.md` accounts for:
+## Structural coverage map
+
+Reviewed `sections/01.md` and the reader-facing assembly account for:
 
 - active scan markers: **6/6 — 119, 120, 121, 122, 123, 124 exactly once and ordered**;
 - scan 119 visible printed page: **19**;
@@ -39,15 +42,22 @@ Reviewed `sections/01.md` accounts for:
 - வேழவேந்தன் three-state mother-title distinction: **PASS**;
 - final Abdul Rahman handoff terminal punctuation: **PASS**;
 - neighbouring scans 118 and 125 included: **0 / 0**;
-- detected English omissions / duplications: **0 / 0**;
-- unresolved Batch-01 translation issues: **0**.
+- detected reviewed-English omissions / duplications: **0 / 0**;
+- detected assembly omissions / duplications: **0 / 0**;
+- unresolved translation / assembly issues: **0 / 0**.
+
+## Assembly relation
+
+The reader-facing file is the reviewed `sections/01.md` body with only standalone YAML control front matter removed. The H1, `Source context`, `Poem`, six scan-provenance comments, eight handoff headings, eight `M. K.` markers and all reviewed English wording remain unchanged.
+
+Reader-facing YAML control front matter: **0**. Reviewed English lexical changes during assembly: **0**.
 
 ## Phase-4 integrity rule
 
-English review remains derivative of the FINAL-CLEARED Tamil authority. No Tamil page or canonical file changed during Batch 01.
+English remains derivative of the FINAL-CLEARED Tamil authority. No Tamil page or canonical file changed during Batch 01 or assembly.
 
 Tamil page/canonical drift during Phase 4 so far: **0 / 0**.
 
 ## Exact next activity
 
-**Reader-facing English assembly only** from reviewed `sections/01.md`. Create `anna-kaviyarangam-en.md` and the assembly authority. Editorial consistency and release gates remain deferred.
+**Editorial / terminology / voice consistency review only.** Compare `sections/01.md` with `anna-kaviyarangam-en.md`, confirm exact body synchronization and consistency of title, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions. Release-integrity and release-clearance gates remain deferred.

@@ -18,17 +18,20 @@ Scope: physical scans **119–124**. Work: **அண்ணா கவியரங�
 - reviewed English: `translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
 - Batch-01 review: `translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **REVIEWED / PASS**;
 - reviewed translation batches: **1/1**;
+- reader-facing English: `translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
+- assembly authority: `translations/en/ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b` — **COMPLETE / PASS**;
 - English source coverage: **scans 119–124 exactly once and ordered**;
 - source-context block: **1/1**;
 - poet-handoff headings / `M. K.` markers: **8/8 / 8/8**;
-- detected English omissions / duplications: **0 / 0**;
-- unresolved Batch-01 translation issues: **0**;
+- reviewed-English omissions / duplications: **0 / 0**;
+- assembly omissions / duplications: **0 / 0**;
+- reviewed English lexical changes during assembly: **0**;
+- unresolved translation / assembly issues: **0 / 0**;
 - Tamil page/canonical drift during Phase 4: **0 / 0**;
-- reader-facing English: **not assembled**;
 - editorial consistency / release-integrity / release clearance: not started.
 
-Working English title: **Anna Kaviyarangam**. Preserve the reviewed section as Batch-01 authority; do not silently alter FINAL-CLEARED Tamil or overwrite reviewed English while performing assembly.
+Working English title: **Anna Kaviyarangam**. The reader-facing output is the reviewed `sections/01.md` body with only YAML control front matter removed. Preserve both reviewed and assembled English as the current Phase-4 authorities; do not silently alter FINAL-CLEARED Tamil.
 
 ## Exact next activity
 
-**Reader-facing English assembly only.** Assemble `translations/en/anna-kaviyarangam-en.md` from reviewed `translations/en/sections/01.md` and create the assembly authority according to repository precedent. Do not perform editorial-consistency, release-integrity or release-clearance gates in the same activity.
+**Editorial / terminology / voice consistency review only.** Compare `translations/en/sections/01.md` with `translations/en/anna-kaviyarangam-en.md`, verify exact body synchronization and consistency of title, source context, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions. Create `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` if PASS. Do not perform release-integrity review or release clearance in the same activity.
