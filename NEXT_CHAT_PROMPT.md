@@ -21,33 +21,41 @@ Do not retranscribe or re-translate already represented blocks as new works. Ski
 - canonical files: `sections/01.md` (46–57), `sections/02.md` (58–65), `sections/04.md` (67–68);
 - Phase 4 setup: **COMPLETE**;
 - translation controls: `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
-- planned batches: **3**;
-- English batches drafted/reviewed: **0/3**;
-- Batch 01 Item 01 scans **46–57**: **NEXT**;
-- no English poem text existed at the end of setup;
+- Batch 01 Item 01 scans **46–57**: **REVIEWED PASS**;
+- reviewed English file: `translations/en/sections/01.md`, blob `4dfbb95c099108398eeccd6bfb368e34d7db2ee0`;
+- Batch-01 review: `translations/en/batches/batch-01.md`;
+- Batch-01 scan coverage: **12/12**, unique and in source order;
+- scan **50→51** quotation state and scan-57 closing rule: preserved;
+- unresolved Batch-01 translation issues: **0**;
+- English batches reviewed: **1/3**;
+- reviewed active translation scans: **12/22**;
+- Tamil page/canonical changes during Phase 4: **0**;
+- Batch 02 Item 02 scans **58–65**: **NEXT**;
 - existing release-cleared poem trees remain untouched.
 
 ## Mandatory startup
 
-Read completely before Batch 01:
+Read completely before Batch 02:
 
 1. `POEM_PROCESSING_GUIDE.md`
 2. `TRANSCRIPTION_PHASE_PLAN.md`
 3. root `HANDOVER.md`
 4. this prompt
 5. workspace `HANDOVER.md`
-6. `PHASE3_TAMIL_FINAL_CLEARANCE.md`
-7. `PHASE3_CANONICAL_SOURCE_REVIEW.md`
-8. `indexes/canonical-source-map.md`
-9. `translations/en/README.md`
-10. `translations/en/TRANSLATION_PLAN.md`
-11. `translations/en/SOURCE_MAP.md`
-12. final-cleared `sections/01.md` and relevant verified page records for scans 46–57 when source-sensitive wording requires them.
+6. workspace `NEXT_CHAT_PROMPT.md`
+7. `PHASE3_TAMIL_FINAL_CLEARANCE.md`
+8. `PHASE3_CANONICAL_SOURCE_REVIEW.md`
+9. `indexes/canonical-source-map.md`
+10. `translations/en/README.md`
+11. `translations/en/TRANSLATION_PLAN.md`
+12. `translations/en/SOURCE_MAP.md`
+13. `translations/en/batches/batch-01.md` for locked cross-batch terminology precedent
+14. final-cleared `sections/02.md` and relevant verified page records for scans 58–65 when source-sensitive wording requires them.
 
 ## Exact next activity
 
-Perform **Phase 4 Batch 01 — Item 01 only, scans 46–57**.
+Perform **Phase 4 Batch 02 — Item 02 only, scans 58–65**.
 
-Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md`. Translate only from the final-cleared Tamil canonical item; retain all 12 `scan_page` provenance markers; preserve direct address, quoted Bharathi/Bharathidasan voices, scan 50→51 quotation state and Item-01 `குடி`/sound wordplay through explicit translation decisions. Source-review the complete item and mark Batch 01 PASS only if coverage/fidelity checks succeed.
+Create `translations/en/sections/02.md` and `translations/en/batches/batch-02.md`. Translate only from the final-cleared Tamil canonical item; retain all **8/8** `scan_page` provenance markers; preserve direct address, Pari/Kapilar/Murugan/Valli/Avvaiyar source identities, poet hand-offs and especially the `மை` wordplay chain through explicit source-linked translation decisions. Source-review the complete item and mark Batch 02 PASS only if coverage/fidelity checks succeed.
 
-Do **not** start Batch 02 in the same activity.
+Do **not** start Batch 03 in the same activity.
