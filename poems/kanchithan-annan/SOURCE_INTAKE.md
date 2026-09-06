@@ -14,9 +14,9 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gate 1 PASS | not started |
+| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–2 PASS | not started |
 
-Only physical scan **16** belongs to this user-requested work intake. The surrounding 1970 Pongal issue is not part of the transcription scope.
+Only physical scan **16** belongs to this user-requested work intake. The surrounding 1970 Pongal issue is not part of the transcription scope, but scans **15** and **17** were inspected solely to certify the Gate-2 work boundaries.
 
 The source page visibly contains the poem title and author attribution and contains the complete poem on that single scoped page. It also contains decorative material and an author portrait beneath the poem.
 
@@ -27,9 +27,12 @@ The source page visibly contains the poem title and author attribution and conta
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
-- Phase 3 Gate 2–6: NOT STARTED;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
+- Phase 3 Gate 3–6: NOT STARTED;
 - Phase 4: NOT STARTED.
 
 Gate-1 decision: scan 16 has **no visible printed page numeral**; page-layer `printed_page` remains `null`; no inferred issue-page number was introduced.
 
-Exact next activity: **Phase 3 Gate 2 boundary / page-join audit** for the one-page scoped work. Do not begin Gate 3, canonical assembly or translation in the same activity.
+Gate-2 decision: opening and closing boundaries are certified, **0 internal joins**, and the portrait/decorative matter remains outside the poem body. No verified text changed.
+
+Exact next activity: **Phase 3 Gate 3 title-witness reconciliation**. Do not begin canonical assembly or translation in the same activity.
