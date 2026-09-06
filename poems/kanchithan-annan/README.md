@@ -30,15 +30,21 @@ The scan itself visibly carries the decorative title **காஞ்சிதா�
 - Phase 1 transcription: **COMPLETE — 1/1 scoped scan**;
 - Phase 2 source-critical verification: **COMPLETE — 1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 2 onward: **NOT STARTED**;
+- Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
+- Phase 3 Gate 3 onward: **NOT STARTED**;
 - Phase 4 English translation / release: **NOT STARTED**.
 
-Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`. Physical scan **16** is the sole scoped source page; no printed page numeral is visible, so page-layer `printed_page` correctly remains `null`. No inferred issue-page number was introduced.
+Authorities:
+
+- Gate 1: `PHASE3_STRUCTURE_AUDIT.md`;
+- Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+Gate 2 certifies the opening and closing boundaries on scan 16, **0 internal joins**, and the portrait/decorative matter as outside the poem body. Surrounding scans 15 and 17 positively confirm the one-page work boundary. No verified poem text changed.
 
 No canonical `sections/` file exists yet. Phase boundaries remain in force.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit** for this one-page work. Certify the poem opening and closing boundaries, confirm there are **0 internal page joins**, and preserve the Phase-2 verified wording unchanged.
+Perform **Phase 3 Gate 3 — title-witness reconciliation**. Reconcile the direct scan-16 title/author witness with the available bibliographic/catalogue witness, preserve each witness exactly, and make an explicit canonical-title authority decision without creating a hybrid title.
 
-Do **not** begin Gate 3, canonical assembly or English translation in the same activity.
+Do **not** begin canonical Tamil assembly or English translation in the same activity.
