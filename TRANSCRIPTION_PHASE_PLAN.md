@@ -8,24 +8,26 @@ Workspace: `poems/anna-kaviyarangam/`. User-scoped work range: **physical scans 
 
 ### Phase 1 — transcription
 
-**COMPLETE — 6/6.** Authority: `poems/anna-kaviyarangam/PHASE1_COMPLETION.md`.
+**COMPLETE — 6/6.**
 
 ### Phase 2 — source-critical verification
 
-**COMPLETE — 6/6 VERIFIED / PASS.** Authority: `poems/anna-kaviyarangam/PHASE2_SOURCE_VERIFICATION.md`.
-
-Historical-glyph second pass: **PASS**. Unresolved Tamil issues: **0**.
+**COMPLETE — 6/6 VERIFIED / PASS.** Historical-glyph second pass **PASS**; unresolved Tamil issues **0**.
 
 ### Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — Gates 1, 2 and 3 COMPLETE / PASS; Gate 4 NOT STARTED.**
+**IN PROGRESS — Gates 1–4 COMPLETE / PASS; Gate 5 NOT STARTED.**
 
-- Gate 1: `poems/anna-kaviyarangam/PHASE3_STRUCTURE_AUDIT.md` — six scans accounted; scan 119 printed page **19**; scans 120–124 remain `null`, no inferred values;
-- Gate 2: `poems/anna-kaviyarangam/PHASE3_BOUNDARY_JOIN_AUDIT.md` — opening PASS; physical joins **5/5 PASS**; column turns **5/5 PASS**; closing PASS; unresolved boundary issues **0**;
-- Gate 3: `poems/anna-kaviyarangam/PHASE3_TITLE_WITNESS_RECONCILIATION.md` — top-level title authority **`அண்ணா கவியரங்கம்`**; eight internal handoff headings preserved verbatim; body/title variants preserved without normalization; unresolved title-witness issues **0**;
-- Gates 1–3 page-text changes: **0**.
+- Gate 1: pagination/source accounting **PASS**;
+- Gate 2: opening, five physical joins, five two-column turns and closing **PASS**;
+- Gate 3: top-level title and eight internal handoff witnesses reconciled **PASS**;
+- Gate 4: `poems/anna-kaviyarangam/PHASE3_CANONICAL_ASSEMBLY.md` — **COMPLETE / PASS**;
+- canonical output: `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md`;
+- canonical source coverage: **6/6 verified scans, 119–124 exactly once**;
+- page-record Tamil changes through Gate 4: **0**;
+- Tamil final clearance: **not granted**.
 
-Exact next gate: **Gate 4 — canonical Tamil assembly only.** Do not combine Phase-3 gates.
+Exact next gate: **Gate 5 — assembly/source-completeness review only.** Do not combine with Tamil final clearance or translation.
 
 ### Phase 4 — translation / release
 
@@ -35,6 +37,4 @@ Exact next gate: **Gate 4 — canonical Tamil assembly only.** Do not combine Ph
 
 ## Recently completed source — காஞ்சிதான் அண்ணன் (1970)
 
-Workspace: `poems/kanchithan-annan/` — **RELEASE-CLEARED**. No further phase activity is pending; future textual changes require a documented source-backed reopen.
-
-Previously release-cleared workspaces remain closed unless genuine source evidence requires formal reopening.
+Workspace: `poems/kanchithan-annan/` — **RELEASE-CLEARED**. No further activity is pending without a formal source-backed reopen.

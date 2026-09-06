@@ -17,46 +17,38 @@
 - SHA-256: `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`;
 - source PDF committed to repository: **No**.
 
-## Scope / verified state
+## Durable scope
 
-| Physical scan | Printed page | Role | Phase 2 state | Phase 3 Gate 1 |
+| Physical scan | Printed page | Phase 2 | Gate 1 | Canonical provenance |
 |---:|---:|---|---|---|
-| 119 | 19 | opening/title/context + poem | verified | PASS |
-| 120 | null | poem continuation | verified | PASS |
-| 121 | null | poem + poet-introduction transitions | verified | PASS |
-| 122 | null | poet-introduction transitions / poem excerpts | verified | PASS |
-| 123 | null | poet-introduction transitions / poem excerpts | verified | PASS |
-| 124 | null | closing transitions / closing poem | verified | PASS |
+| 119 | 19 | verified | PASS | included once |
+| 120 | null | verified | PASS | included once |
+| 121 | null | verified | PASS | included once |
+| 122 | null | verified | PASS | included once |
+| 123 | null | verified | PASS | included once |
+| 124 | null | verified | PASS | included once |
 
-Scan 119 printed numeral **19** is directly certified. Gate-1 source inspection finds no visible page numeral on scans 120–124, so those values remain `null`; no sequence-based numerals are inferred.
+Gate 2 boundary/join audit: **COMPLETE / PASS**. Gate 3 title-witness reconciliation: **COMPLETE / PASS**.
 
-## Phase 3 Gate 2 boundary result
+## Phase 3 Gate 4 canonical assembly
 
-Gate 2 is **COMPLETE / PASS**; authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+Gate 4 is **COMPLETE / PASS**; authority: `PHASE3_CANONICAL_ASSEMBLY.md`.
 
-- scan 119 work opening: PASS;
-- internal physical scan joins 119→120→121→122→123→124: **5/5 PASS**;
-- internal two-column turns on scans 120–124: **5/5 PASS**;
-- scan 124 closing boundary: PASS;
-- unresolved boundary/carry-over issues: **0**.
+- canonical output: `sections/anna-kaviyarangam.md`;
+- source pages consumed: **6/6 verified pages**;
+- scan provenance markers: **119–124 exactly once each**;
+- scan-119 source-context panel preserved separately and verbatim;
+- top-level title: `அண்ணா கவியரங்கம்`;
+- eight internal handoff headings preserved verbatim;
+- scans 118 and 125 imported: **no**;
+- inferred page numerals introduced: **0**;
+- page-record Tamil changes: **0**;
+- unresolved assembly decisions: **0**.
 
-Scans **118 and 125** remain outside the user-authorized transcription scope and were used only as neighbouring boundary evidence.
-
-## Phase 3 Gate 3 title-witness result
-
-Gate 3 is **COMPLETE / PASS**; authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-- decorated scan-119 heading **`அண்ணா கவியரங்கம்`** is the top-level work-title authority;
-- scan-119 `‘அண்ணா கவியரங்கத்திற்கு’` is an inflected contextual reference, not a competing title;
-- eight source-visible poet handoff headings are internal structural headings and remain verbatim;
-- body/title differences are preserved rather than normalized, including the ஆனந்தம் and வேழவேந்தன் variants;
-- unresolved title-witness issues: **0**;
-- page-text changes in Gate 3: **0**.
+The canonical output remains **awaiting Gate-5 assembly/source-completeness review** and is not Tamil final-cleared.
 
 ## Duplicate decision
 
-Repository search and comparison with existing Anna works found no canonical representation of this **7.1.1968** World Tamil Conference chair-poem. `அண்ணன் ஒரு கவியரங்கம்` (1973) and `இதயத்தைத் தந்திடு அண்ணா` (1969) are different works/events, though the later elegy reuses some earlier lines.
+Repository comparison found no prior canonical representation of this **7.1.1968** World Tamil Conference chair-poem. Related later Anna works remain separate witnesses.
 
-Phase 1 and Phase 2 are complete. **Phase 3 Gates 1–3 are COMPLETE / PASS**.
-
-Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly only**.
+Exact next activity: **Phase 3 Gate 5 — assembly/source-completeness review only**.
