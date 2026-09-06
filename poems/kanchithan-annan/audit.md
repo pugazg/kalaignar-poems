@@ -96,16 +96,35 @@ Repository search found no existing match for title `காஞ்சிதான
 - unresolved pagination / boundary / title / assembly / completeness issues: **0 / 0 / 0 / 0 / 0**;
 - verified page changes during Gate 6: **0**;
 - canonical Tamil changes during Gate 6: **0**;
-- Tamil layer: **FINAL-CLEARED**;
-- Phase 4: **UNBLOCKED / NOT STARTED**.
+- Tamil layer: **FINAL-CLEARED**.
+
+## Phase 4 translation setup
+
+**COMPLETE.** No English poem text was drafted.
+
+Controls created:
+
+- `translations/en/README.md`;
+- `translations/en/TRANSLATION_PLAN.md`;
+- `translations/en/SOURCE_MAP.md`.
+
+Setup decisions:
+
+- normal translation source: FINAL-CLEARED `sections/01.md`;
+- fallback source order when Tamil is questioned: controlling scan 16 → verified `pages/0016.md` → final-cleared canonical → Phase-3 records;
+- complete-item batch partition: **Batch 01 = Item 01 = scan 16**;
+- English item planned: `translations/en/sections/01.md`;
+- batch review planned: `translations/en/batches/batch-01.md`;
+- reader-facing assembly deferred until Batch 01 is REVIEWED / PASS;
+- Tamil page / canonical changes during Phase-4 setup: **0 / 0**.
 
 ## Current totals
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **PASS**;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
 - unresolved Tamil issues: **0**;
-- Phase 4: **not started**.
+- Phase 4 setup: **COMPLETE**;
+- Phase 4 Batch 01: **NOT STARTED**.
 
-Exact next activity: **Phase 4 English translation setup only**. Create the English translation control layer; do not draft the English poem in the same activity.
+Exact next activity: **Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only**. Do not perform reader-facing assembly in the same activity.
