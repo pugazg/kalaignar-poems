@@ -12,11 +12,13 @@ User-scoped work range: **physical scan 16 only**.
 
 - Phase 1 transcription: **1/1 COMPLETE**;
 - Phase 2 verification: **1/1 VERIFIED / PASS**;
-- Phase 3 Gate 1: **COMPLETE / PASS** — see `../PHASE3_STRUCTURE_AUDIT.md`;
+- Phase 3 Gate 1: **COMPLETE / PASS** — `../PHASE3_STRUCTURE_AUDIT.md`;
+- Phase 3 Gate 2: **COMPLETE / PASS** — `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - no printed page numeral is visibly present on scan 16, so `printed_page` remains `null`;
 - `1/1` is a work-scope archival ordinal only, not an inferred printed page number;
-- no issue-level page number has been invented or backfilled;
-- surrounding scans of the 1970 Pongal issue remain outside this work scope;
+- scan 15 closes preceding unrelated material; scan 17 begins a different item, positively bounding the poem to scan 16;
+- internal page joins: **0**;
+- decorative title/portrait matter is outside the poem body;
 - no canonical Tamil `sections/` output exists yet.
 
-Exact next activity: Phase 3 Gate 2 boundary/page-join audit; because the work is one physical scan, certify opening and closing boundaries and record **0 internal joins**.
+Exact next activity: **Phase 3 Gate 3 title-witness reconciliation**. Do not begin canonical assembly in the same activity.
