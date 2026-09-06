@@ -12,49 +12,45 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - active Kalaignar production scans: **22**;
 - scan 66 `சாராய சுதந்திரம்`: non-Kalaignar Rajaji source/context;
-- duplicate Kalaignar blocks: skip retranscription/anthology verification;
-- scans 69–70: Bharathidasan.
+- scans 69–70: Bharathidasan;
+- duplicate Kalaignar ranges remain skip/no retranscription.
 
-## Phase 1 — new-Kalaignar transcription only
+## Phase 1 — transcription
 
-**COMPLETE — 22/22 target scans.**
+**COMPLETE — 22/22.**
 
-## Phase 2 — independent source-critical verification
+## Phase 2 — source-critical verification
 
 **COMPLETE — 22/22 VERIFIED.** Unresolved lexical/historical-glyph issues: **0**.
 
-## Phase 3 — structure, completeness, assembly and Tamil final clearance
+## Phase 3 — structure, assembly and Tamil final clearance
 
 **COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED.**
 
-1. Physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**
-2. Boundary / page-join audit — **COMPLETE / PASS**
-3. Title-witness reconciliation — **COMPLETE / PASS**
-4. Canonical Tamil assembly — **COMPLETE / PASS**
-5. Assembly/source-completeness review — **COMPLETE / PASS**
-6. Tamil final clearance — **COMPLETE / PASS**
-
-### Gate 6 result
-
-Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TAMIL_FINAL_CLEARANCE.md`.
-
-- Phase 1: **22/22 complete**;
-- Phase 2: **22/22 verified**;
-- canonical items: **3/3**;
-- active source scan accounting: **22/22 PASS**;
-- canonical payload equality against verified page layer: **22/22 PASS**;
-- title/context authority: **3/3 PASS**;
-- internal joins preserved: **19/19 PASS**;
-- scan 66 canonical occurrences: **0**;
-- unresolved Tamil lexical/historical-glyph/structural/title/completeness issues: **0**;
-- Tamil source/canonical layer: **FINAL-CLEARED**.
+Canonical items: **3/3**; canonical payload equality: **22/22 PASS**; unresolved Tamil source/canonical defects: **0**. Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
 ## Phase 4 — English translation / release
 
-**UNBLOCKED — SETUP NEXT.**
+**IN PROGRESS — SETUP COMPLETE / BATCH 01 NEXT.**
 
-Translation must use only the Tamil final-cleared canonical item layer as the normal working source, with the controlling scan and verified page layer retained as higher authority if a Tamil reading is questioned.
+Translation controls:
+
+- `translations/en/README.md`;
+- `translations/en/TRANSLATION_PLAN.md`;
+- `translations/en/SOURCE_MAP.md`.
+
+Batch inventory:
+
+| Batch | Item | Scans | Status |
+|---:|---:|---:|---|
+| 01 | 01 | 46–57 | **NEXT** |
+| 02 | 02 | 58–65 | planned |
+| 03 | 04 | 67–68 | planned |
+
+English item drafts/reviews: **0/3**. Complete-item boundaries are mandatory.
+
+After all three batches are reviewed PASS: full English assembly → editorial/terminology/voice consistency review → release-integrity review/report.
 
 ## Exact next activity
 
-Perform **Phase 4 translation setup only**: create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`; pin source hierarchy, fidelity/terminology rules and item-level batch boundaries. Do not draft English poem text in the same setup activity.
+Perform **Phase 4 Batch 01 only** for Item 01 scans **46–57**. Draft and source-review the complete English item from final-cleared `sections/01.md`, preserve all 12 scan markers and source quotation structure, and create the Batch-01 decision record. Do not start Batch 02 in the same activity.

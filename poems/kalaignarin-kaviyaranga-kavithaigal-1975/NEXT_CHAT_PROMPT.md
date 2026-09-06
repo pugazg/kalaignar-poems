@@ -1,4 +1,4 @@
-# Next Chat Prompt — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
+# Next Chat Prompt — கலைஞரின் கவியரங்கக் கவிதைகள் (1975) / Phase 4 Batch 01
 
 Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
@@ -8,35 +8,19 @@ Fetch live `main` first and preserve newer durable work.
 
 Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
 
-## USER-DIRECTED NEW-ITEM-ONLY RULE
-
-Do not retranscribe or verify already represented blocks as new works. Skip **9–20, 21–32, 33–45, 71–77, 78–84**. Scan 66 is Rajaji source/context; scans 69–70 are Bharathidasan material.
-
 ## Durable checkpoint
 
-- Phase 1: **22/22 complete**;
-- Phase 2: **22/22 verified — COMPLETE**;
-- Phase 3 Gates 1–6: **COMPLETE / PASS**;
-- Tamil final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
-- canonical files: `sections/01.md` (46–57), `sections/02.md` (58–65), `sections/04.md` (67–68);
-- canonical inventory: **3/3 PASS**;
-- active scan accounting: **22/22 PASS**;
-- canonical payload equality vs verified page layer: **22/22 PASS**;
-- title/context authority: **3/3 PASS**;
-- internal joins: **19/19 preserved**;
-- `sections/03.md` intentionally absent; scan 66 canonical occurrences: **0**;
-- unresolved Tamil source/canonical defects: **0**;
-- canonical manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`;
-- Phase 4 is **unblocked**;
-- no English translation text has been drafted for this workspace yet;
-- existing release-cleared poem trees remain untouched.
+- Tamil layer: **FINAL-CLEARED**;
+- active canonical items: `sections/01.md` (46–57), `sections/02.md` (58–65), `sections/04.md` (67–68);
+- Phase 4 translation setup: **COMPLETE**;
+- control files: `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
+- English batches reviewed: **0/3**;
+- Batch 01 Item 01 scans **46–57**: **NEXT**;
+- no English poem text was drafted during setup.
 
-## Exact next activity
+## Mandatory startup
 
-Perform **Phase 4 translation setup only**.
-
-Before writing, read completely:
+Read completely:
 
 1. `POEM_PROCESSING_GUIDE.md`
 2. `TRANSCRIPTION_PHASE_PLAN.md`
@@ -47,14 +31,32 @@ Before writing, read completely:
 7. `PHASE3_TAMIL_FINAL_CLEARANCE.md`
 8. `PHASE3_CANONICAL_SOURCE_REVIEW.md`
 9. `indexes/canonical-source-map.md`
-10. final-cleared `sections/01.md`, `sections/02.md`, `sections/04.md`.
+10. `translations/en/README.md`
+11. `translations/en/TRANSLATION_PLAN.md`
+12. `translations/en/SOURCE_MAP.md`
+13. final-cleared `sections/01.md` completely.
+
+Consult verified `pages/0046.md`–`0057.md` and Phase-3 title/join records as needed for source-sensitive wording.
+
+## Exact next activity
+
+Perform **Phase 4 Batch 01 — Item 01 only, scans 46–57**.
 
 Create:
 
-- `translations/en/README.md`;
-- `translations/en/TRANSLATION_PLAN.md`;
-- `translations/en/SOURCE_MAP.md`.
+- `translations/en/sections/01.md`;
+- `translations/en/batches/batch-01.md`.
 
-Pin the translation source hierarchy, fidelity/terminology rules and item-level batch boundaries for Items 01, 02 and 04. Normal working source must be the Tamil final-cleared canonical sections; if a Tamil reading is questioned, controlling scan → verified page record → canonical section → Phase-3 records governs.
+Requirements:
 
-Do **not** draft English poem text in the same setup activity.
+- translate only from final-cleared Tamil;
+- retain all **12/12** `scan_page` markers;
+- translate the direct two-line title authority without merging the dated event/provenance block into a hybrid title;
+- preserve public-speech voice, direct address, rhetorical questions, repeated forms and embedded quoted voices;
+- translate Bharathi/Bharathidasan quotations from this Tamil witness rather than importing an outside English version;
+- document `குடி` and other sound/wordplay handling;
+- preserve the certified scan **50→51** quotation state and scan-57 closing separator structurally;
+- source-review the complete item for omissions/duplications and voice fidelity;
+- mark Batch 01 reviewed PASS only if all checks succeed.
+
+Do **not** start Batch 02 in the same activity.

@@ -12,21 +12,21 @@
 - compiler/editor: **ஆசிரியர் அ. முத்து**;
 - source PDF committed: **no**.
 
-## Corrected intake decision
+## Intake decision
 
-| ID | Source-heading witness | Scans | Canonical output | Current state |
-|---:|---|---:|---|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | `sections/01.md` | **TAMIL FINAL-CLEARED** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | `sections/02.md` | **TAMIL FINAL-CLEARED** |
-| 03 | `சாராய சுதந்திரம்` | 66 | none | **NON-KALAIGNAR — Rajaji source/context** |
-| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | `sections/04.md` | **TAMIL FINAL-CLEARED** |
+| ID | Scans | Canonical output | Current state |
+|---:|---:|---|---|
+| 01 | 46–57 | `sections/01.md` | **TAMIL FINAL-CLEARED / English Batch 01 NEXT** |
+| 02 | 58–65 | `sections/02.md` | **TAMIL FINAL-CLEARED / English Batch 02 planned** |
+| 03 | 66 | none | **NON-KALAIGNAR — Rajaji context** |
+| 04 | 67–68 | `sections/04.md` | **TAMIL FINAL-CLEARED / English Batch 03 planned** |
 
-Active Kalaignar production scans: **22/22 verified, canonically source-reviewed and Tamil final-cleared**. Scan 66 is retained only as source/context and remains excluded from canonical Kalaignar text.
+Active Kalaignar production scans: **22/22 verified, canonically source-reviewed and Tamil final-cleared**. Scan 66 remains context only and excluded from Kalaignar canonical/English poem text.
 
-Already represented poems remain classification-only/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Scans **69–70** are Bharathidasan material.
+Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain classification-only/skip. Scans **69–70** are Bharathidasan material.
 
-Final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — Phase 3 Gates 1–6 **PASS**, unresolved Tamil source/canonical defects **0**, Phase 4 **unblocked**.
+Final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`. Phase-4 translation setup is **COMPLETE** under `translations/en/README.md`, `TRANSLATION_PLAN.md` and `SOURCE_MAP.md`.
 
 ## Exact next activity
 
-Perform **Phase 4 translation setup only**. Create the English translation README, translation plan and source map; do not draft English poem text in the setup activity.
+Perform **English Batch 01 — Item 01 scans 46–57 only**. Do not start Batch 02 in the same activity.
