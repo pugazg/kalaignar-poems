@@ -28,8 +28,10 @@ User-scoped work range: **physical scan 16 only**.
 - Phase 2 independent source-critical verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
+- Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
 - Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`;
 - Gate-2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Gate-3 authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - page record: `pages/0016.md` — `verified`;
 - no canonical Tamil section created;
 - no English translation started.
@@ -46,14 +48,26 @@ Physical scan **16** is the sole page in the user-scoped work. No printed page n
 - verified page-text changes: **0**;
 - unresolved boundary/join issues: **0**.
 
+## Gate-3 title decision
+
+- direct scan-16 title: `காஞ்சிதான் அண்ணன்`;
+- bibliographic/catalogue title: **காஞ்சிதான் அண்ணன்**;
+- canonical-title authority: **direct scan 16**;
+- title conflicts: **0**;
+- author-attribution conflicts: **0**;
+- hybrid/synthetic title: **none**;
+- verified page-text changes: **0**.
+
+The source-printed author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி` remains preserved in the verified page layer. Bibliographic authorship remains **கலைஞர் மு. கருணாநிதி**. The catalogue description remains context only.
+
 ## Source controls
 
 The scan is the controlling text. Do not normalize spelling, punctuation, ellipses, quote marks, historical/compact forms or lineation. The original 108-page source remains authoritative even though a one-page scan-16 convenience extract exists outside the repository.
 
 ## Exact next activity
 
-**Phase 3 Gate 3 — title-witness reconciliation.**
+**Phase 3 Gate 4 — canonical Tamil assembly.**
 
-Reconcile the direct scan-16 title/author witness with the available bibliographic/catalogue witness. Preserve each witness exactly, make an explicit canonical-title authority decision, and do not construct a hybrid title.
+Create the canonical Tamil section from `pages/0016.md`, preserving the Gate-3 direct title authority and the complete verified poem wording, punctuation, quotation states, ellipses and lineation. Keep non-poem decorative/portrait material non-lexical.
 
-Do not perform canonical Tamil assembly or English translation in the same activity.
+Do not perform Gate 5 source-completeness review or English translation in the same activity.

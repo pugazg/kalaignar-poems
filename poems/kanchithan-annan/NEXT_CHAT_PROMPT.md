@@ -22,8 +22,9 @@ Read completely before changes:
 10. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
 11. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
 12. `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`
-13. `poems/kanchithan-annan/HANDOVER.md`
-14. `poems/kanchithan-annan/pages/0016.md`
+13. `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
+14. `poems/kanchithan-annan/HANDOVER.md`
+15. `poems/kanchithan-annan/pages/0016.md`
 
 ## Controlling source
 
@@ -42,14 +43,18 @@ Read completely before changes:
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
-- Gate-2 closure: opening 1/1 PASS; internal joins 0; closing 1/1 PASS; scans 15 and 17 positively bound the one-page poem; verified text changes 0;
-- Phase 3 Gate 3–6: NOT STARTED;
+- Phase 3 Gate 3: **COMPLETE / PASS**;
+- canonical-title authority: direct scan 16, `காஞ்சிதான் அண்ணன்`;
+- title conflicts: **0**;
+- author-attribution conflicts: **0**;
+- verified text changes during Gates 1–3: **0**;
+- Phase 3 Gate 4–6: NOT STARTED;
 - Phase 4: NOT STARTED.
 
 ## Next activity only
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation**.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly**.
 
-Reconcile the direct scan-16 title/author witness with the user-supplied bibliographic/catalogue witness. Preserve each witness exactly and record which witness controls the later canonical title. Do not invent punctuation, spacing or a hybrid title.
+Create the canonical Tamil section from the verified `pages/0016.md` source layer. Preserve the direct title authority and every verified lexical form, punctuation mark, quotation state, ellipsis and line break. Keep the decorative title design, ornaments, small design/artist signature and portrait outside the canonical lexical poem body except for appropriate provenance metadata/comments.
 
-**Do not begin Gate 4 canonical Tamil assembly or English translation in this same activity.**
+**Do not perform Gate 5 canonical/source-completeness review or English translation in this same activity.**

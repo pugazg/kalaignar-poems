@@ -14,7 +14,7 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–2 PASS | not started |
+| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–3 PASS | not started |
 
 Only physical scan **16** belongs to this user-requested work intake. The surrounding 1970 Pongal issue is not part of the transcription scope, but scans **15** and **17** were inspected solely to certify the Gate-2 work boundaries.
 
@@ -28,11 +28,14 @@ The source page visibly contains the poem title and author attribution and conta
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
-- Phase 3 Gate 3–6: NOT STARTED;
+- Phase 3 Gate 3: **COMPLETE / PASS**;
+- Phase 3 Gate 4–6: NOT STARTED;
 - Phase 4: NOT STARTED.
 
 Gate-1 decision: scan 16 has **no visible printed page numeral**; page-layer `printed_page` remains `null`; no inferred issue-page number was introduced.
 
 Gate-2 decision: opening and closing boundaries are certified, **0 internal joins**, and the portrait/decorative matter remains outside the poem body. No verified text changed.
 
-Exact next activity: **Phase 3 Gate 3 title-witness reconciliation**. Do not begin canonical assembly or translation in the same activity.
+Gate-3 decision: direct scan title `காஞ்சிதான் அண்ணன்` and the bibliographic title **காஞ்சிதான் அண்ணன்** agree exactly. The direct scan is the canonical-title authority. The catalogue description remains context only; no hybrid title was created.
+
+Exact next activity: **Phase 3 Gate 4 canonical Tamil assembly**. Do not perform Gate 5 or begin translation in the same activity.

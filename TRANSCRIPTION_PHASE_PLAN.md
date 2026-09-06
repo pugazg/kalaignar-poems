@@ -24,14 +24,14 @@ Authority: `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`.
 - Gate-1 authority: `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`;
 - Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
 - Gate-2 authority: `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- opening boundaries: **1/1 PASS**;
-- internal page joins: **0**;
-- closing boundaries: **1/1 PASS**;
-- unresolved boundary/join issues: **0**;
-- verified page-text changes during Gates 1–2: **0**;
-- Gate 3–6: **NOT STARTED**.
+- Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
+- Gate-3 authority: `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- canonical-title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
+- title conflicts / author conflicts: **0 / 0**;
+- verified page-text changes during Gates 1–3: **0**;
+- Gate 4–6: **NOT STARTED**.
 
-Exact next activity: **Gate 3 title-witness reconciliation**. Reconcile the scan-16 direct title/author witness with the available bibliographic/catalogue witness. Do not combine Gate 3 with canonical assembly.
+Exact next activity: **Gate 4 canonical Tamil assembly** from the verified one-page source. Do not combine Gate 4 with Gate 5 source-completeness review.
 
 ## Phase 4 — English translation / release
 
@@ -48,4 +48,4 @@ The prior new-item-only source remains **RELEASE-CLEARED**:
 
 ## Exact next activity
 
-**Phase 3 Gate 3 for `poems/kanchithan-annan/` only.** Preserve the verified page text unchanged and do not begin Gate 4 canonical Tamil assembly or English translation.
+**Phase 3 Gate 4 for `poems/kanchithan-annan/` only.** Preserve the verified page text and Gate-3 title authority; do not perform Gate 5 or begin English translation.

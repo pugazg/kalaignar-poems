@@ -31,20 +31,22 @@ The scan itself visibly carries the decorative title **காஞ்சிதா�
 - Phase 2 source-critical verification: **COMPLETE — 1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
-- Phase 3 Gate 3 onward: **NOT STARTED**;
+- Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
+- Phase 3 Gate 4–6: **NOT STARTED**;
 - Phase 4 English translation / release: **NOT STARTED**.
 
 Authorities:
 
 - Gate 1: `PHASE3_STRUCTURE_AUDIT.md`;
-- Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+- Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-Gate 2 certifies the opening and closing boundaries on scan 16, **0 internal joins**, and the portrait/decorative matter as outside the poem body. Surrounding scans 15 and 17 positively confirm the one-page work boundary. No verified poem text changed.
+Gate 3 locks the canonical Tamil title to the direct scan-16 source form **காஞ்சிதான் அண்ணன்**. The user-supplied bibliographic title agrees exactly; no competing or hybrid title exists. The source-printed author line remains preserved in `pages/0016.md`, while bibliographic authorship remains **கலைஞர் மு. கருணாநிதி**. Gate 3 changed no verified poem text.
 
 No canonical `sections/` file exists yet. Phase boundaries remain in force.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation**. Reconcile the direct scan-16 title/author witness with the available bibliographic/catalogue witness, preserve each witness exactly, and make an explicit canonical-title authority decision without creating a hybrid title.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly** for this one-page work. Create the canonical Tamil section from the verified page-layer source, preserving the Gate-3 direct title authority and all verified wording, punctuation, quotation states, ellipses and lineation.
 
-Do **not** begin canonical Tamil assembly or English translation in the same activity.
+Do **not** perform Gate 5 source-completeness review or begin English translation in the same activity.

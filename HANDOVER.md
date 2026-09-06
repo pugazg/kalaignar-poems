@@ -27,10 +27,15 @@ Bibliographic record: title **காஞ்சிதான் அண்ணன்*
 - Phase 2 independent verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
+- Phase 3 Gate 3: **COMPLETE / PASS**;
 - Gate-1 authority: `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`;
 - Gate-2 authority: `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate-2 result: opening 1/1 PASS; internal joins 0; closing 1/1 PASS; scans 15/17 positively bound the work; unresolved boundary/join issues 0; page-text changes 0;
-- Phase 3 Gate 3–6: NOT STARTED;
+- Gate-3 authority: `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- canonical-title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
+- title conflicts: **0**;
+- author-attribution conflicts: **0**;
+- verified page-text changes through Gate 3: **0**;
+- Phase 3 Gate 4–6: NOT STARTED;
 - Phase 4: NOT STARTED;
 - no canonical Tamil or English derivative file exists yet.
 
@@ -38,9 +43,9 @@ The source scan controls spelling, punctuation, ellipses, lineation, quotations 
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation**. Reconcile the direct scan-16 title/author witness with the available bibliographic/catalogue witness. Preserve witnesses exactly and record the canonical-title authority without creating a hybrid title.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly**. Create the canonical Tamil section from the verified `pages/0016.md` source layer, preserving the direct scan title authority and all verified wording, punctuation, quotation states, ellipses and lineation.
 
-Do not begin Gate 4 canonical Tamil assembly or English translation in the same activity.
+Do not perform Gate 5 canonical/source-completeness review or English translation in the same activity.
 
 ## Most recently completed source — preserved
 

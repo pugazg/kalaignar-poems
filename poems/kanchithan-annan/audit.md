@@ -67,7 +67,20 @@ Result: **COMPLETE / PASS.** Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 - verified page records reopened: **0**;
 - page-text changes: **0**.
 
-The poem is self-contained on scan 16: direct title and author line at the opening, complete poem body, final line `காத்திருப்பவர்களில் நானும் ஒருவன்!`, followed by the portrait. Scan 17 begins a different item.
+## Phase 3 Gate 3 — title-witness reconciliation
+
+Result: **COMPLETE / PASS.** Authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+
+- direct scan title: `காஞ்சிதான் அண்ணன்`;
+- bibliographic/catalogue title: **காஞ்சிதான் அண்ணன்**;
+- canonical-title authority: **direct scan 16**;
+- title conflicts: **0**;
+- author-attribution conflicts: **0**;
+- synthetic/hybrid titles created: **0**;
+- verified page-text changes: **0**;
+- unresolved title/provenance issues: **0**.
+
+The source-printed author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி` is retained as source text. Bibliographic authorship remains **கலைஞர் மு. கருணாநிதி**. The catalogue description remains contextual metadata and is not promoted into the title.
 
 ## Current totals
 
@@ -79,8 +92,9 @@ The poem is self-contained on scan 16: direct title and author line at the openi
 - verified: **1**;
 - Phase 3 Gate 1: **PASS**;
 - Phase 3 Gate 2: **PASS**;
-- Phase 3 Gate 3–6: **not started**;
+- Phase 3 Gate 3: **PASS**;
+- Phase 3 Gate 4–6: **not started**;
 - Phase 4: **not started**;
-- unresolved Tamil lexical/pagination/boundary issues: **0**.
+- unresolved Tamil lexical/pagination/boundary/title issues: **0**.
 
-Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation**. Do not begin canonical assembly in the same activity.
+Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly** from the verified one-page source. Do not perform Gate 5 in the same activity.

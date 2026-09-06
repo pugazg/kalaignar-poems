@@ -30,7 +30,8 @@ The user explicitly identified **physical PDF page 16** as the complete source p
 
 - physical scan 16: decorative poem title, author line, complete poem body, ornamental page design and an author portrait beneath the poem;
 - visible printed page numeral on scan 16: **none**;
-- `printed_page` is therefore kept `null` in the page layer.
+- `printed_page` is therefore kept `null` in the page layer;
+- scans 15 and 17 were inspected only to certify the one-page opening/closing boundary during Phase 3 Gate 2.
 
 A one-page convenience extract was created outside the repository:
 
@@ -40,6 +41,18 @@ A one-page convenience extract was created outside the repository:
 - SHA-256: `a57fcf28c77c3b9874e8a38a752067c06f0524ba002ab2feed2a9e63ffbc69dc`.
 
 This convenience extract does not replace the original 108-page source identity and is not committed.
+
+## Title authority
+
+Phase 3 Gate 3 reconciled the direct and bibliographic witnesses:
+
+- direct scan-16 title: `காஞ்சிதான் அண்ணன்`;
+- bibliographic title: **காஞ்சிதான் அண்ணன்**;
+- controlling canonical-title authority: **direct scan 16**;
+- title conflicts: **0**;
+- hybrid title: **none**.
+
+The catalogue description remains contextual metadata and must not be substituted for the source title.
 
 ## Scan condition / anomalies
 
@@ -52,9 +65,13 @@ This convenience extract does not replace the original 108-page source identity 
 
 - intake: **COMPLETE**;
 - Phase 1 direct visual transcription: **1/1 COMPLETE**;
-- Phase 2 independent source-critical verification: **NOT STARTED**;
+- Phase 2 independent source-critical verification: **1/1 VERIFIED / PASS**;
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gate 2: **PASS**;
+- Phase 3 Gate 3: **PASS**;
+- Phase 3 Gate 4–6: **NOT STARTED**;
 - canonical Tamil assembly: **NOT STARTED**;
 - Tamil final clearance: **NOT STARTED**;
 - English translation/release: **NOT STARTED**.
 
-The controlling scan remains the highest textual authority.
+The controlling scan remains the highest textual authority. Exact next activity: **Phase 3 Gate 4 canonical Tamil assembly**.
