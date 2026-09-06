@@ -56,13 +56,26 @@ Combined translated active coverage: **1/1 scan**.
 - title / terminology / transliteration / punctuation / voice consistency: **PASS**;
 - reader-facing cleanliness: **PASS**;
 - unresolved editorial issues: **0**;
-- English lexical changes required: **0**;
-- Tamil page/canonical changes: **0 / 0**.
+- English lexical changes required: **0**.
+
+## Release-integrity status
+
+`RELEASE_INTEGRITY_REVIEW.md` — **COMPLETE / PASS**.
+
+- live reviewed-item blob matches Batch-01 / assembly certificates: **PASS**;
+- live reader-facing blob matches assembly / editorial certificates: **PASS**;
+- active source coverage: **1/1 — scan 16 exactly once**;
+- active omissions / duplicates / unexpected markers: **0 / 0 / 0**;
+- title / attribution integrity: **PASS**;
+- boundary / closing integrity: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- Tamil page/canonical drift since final clearance: **0 / 0**;
+- unresolved release-integrity defects: **0**.
 
 ## Tamil protection
 
-Phase 4 has changed **0** FINAL-CLEARED Tamil page files and **0** canonical Tamil section files. A genuine source-backed Tamil discrepancy still requires formal reopening before any correction can propagate to English.
+Git comparison from Tamil final-clearance commit `6321c5d2197a0a4d612515984fb96639952478b3` through the release-integrity input checkpoint found **0** active Tamil page changes and **0** active canonical Tamil section changes. A genuine source-backed Tamil discrepancy still requires formal reopening before any correction can propagate to English.
 
 ## Exact next activity
 
-**Final source-coverage / release-integrity review only.** Create `RELEASE_INTEGRITY_REVIEW.md` after reconfirming live artifact identities and scan/source integrity. Do not create the release report or grant release clearance in the same activity.
+Create `RELEASE_REPORT.md` and make the explicit **release-clearance decision only** after reconfirming live artifact identities. The work is not RELEASE-CLEARED until that explicit decision is recorded.

@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 BATCH 01 REVIEWED PASS / ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS.**
+**PHASE 4 BATCH 01 REVIEWED PASS / ASSEMBLY PASS / EDITORIAL PASS / RELEASE-INTEGRITY PASS.**
 
 Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
@@ -24,8 +24,6 @@ If a Tamil reading becomes questionable: controlling scan 16 → verified `../..
 
 Reviewed English blob: `17a565f28af6e51d215d703bcb6058cf2805023b`.
 
-Review authority: `batches/batch-01.md`.
-
 ## Reader-facing assembly
 
 **COMPLETE / PASS.** Authority: `ASSEMBLY.md`.
@@ -40,21 +38,33 @@ Review authority: `batches/batch-01.md`.
 
 **COMPLETE / PASS.** Authority: `EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-The gate reconfirmed title/attribution presentation, Kanchi identity handling, **Thambi**, *Malar*, source-sensitive imagery, quotation/ellipsis states, repetition/parallelism, memorial voice, first-person close and reader-facing cleanliness.
-
 - unresolved editorial / terminology / voice issues: **0**;
 - standalone English lexical changes required: **0**;
-- reader-facing English lexical changes required: **0**;
-- Tamil page/canonical changes: **0 / 0**.
+- reader-facing English lexical changes required: **0**.
+
+## Final source-coverage / release-integrity
+
+**COMPLETE / PASS.** Authority: `RELEASE_INTEGRITY_REVIEW.md`.
+
+- reviewed-item ↔ reader-facing synchronization: **PASS**;
+- active source coverage: **1/1 — scan 16 exactly once**;
+- omissions / duplicates / unexpected markers: **0 / 0 / 0**;
+- title / attribution integrity: **PASS**;
+- boundary / closing integrity: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- Tamil page/canonical drift since final clearance: **0 / 0**;
+- unresolved release-integrity defects: **0**.
+
+The work is eligible for the explicit final release decision but is **not yet RELEASE-CLEARED**.
 
 ## Remaining Phase-4 sequence
 
 1. Batch 01 translation/review — **COMPLETE / PASS**.
 2. Reader-facing English assembly — **COMPLETE / PASS**.
 3. Editorial / terminology / voice consistency review — **COMPLETE / PASS**.
-4. Final source-coverage / release-integrity review — **NEXT**.
-5. Release report / explicit release-clearance decision.
+4. Final source-coverage / release-integrity review — **COMPLETE / PASS**.
+5. Release report / explicit release-clearance decision — **NEXT**.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only** and create `RELEASE_INTEGRITY_REVIEW.md` if the gate passes. Do not combine it with release reporting or release clearance.
+Create `RELEASE_REPORT.md` and perform the explicit release-clearance decision only after reconfirming live artifact identities and all PASS authorities. Do not make lexical edits during release reporting unless a genuine defect is formally reopened.

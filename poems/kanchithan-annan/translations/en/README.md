@@ -4,7 +4,7 @@ Phase 4 English translation workspace for the one-page poem **காஞ்சி
 
 ## Status
 
-**BATCH 01 REVIEWED / PASS — ASSEMBLY PASS — EDITORIAL CONSISTENCY PASS.**
+**BATCH 01 REVIEWED / PASS — ASSEMBLY PASS — EDITORIAL PASS — RELEASE-INTEGRITY PASS.**
 
 The Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
@@ -28,11 +28,22 @@ Reader-facing output:
 
 Editorial gate:
 
-- authority: `EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
+- `EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
 - unresolved editorial / terminology / voice issues: **0**;
-- standalone English lexical changes required: **0**;
-- reader-facing English lexical changes required: **0**;
-- Tamil page/canonical changes during editorial gate: **0 / 0**.
+- English lexical changes required: **0**.
+
+Release-integrity gate:
+
+- `RELEASE_INTEGRITY_REVIEW.md` — **COMPLETE / PASS**;
+- reviewed-item ↔ reader-facing synchronization: **PASS**;
+- source coverage: **1/1 — scan 16 exactly once**;
+- title / attribution integrity: **PASS**;
+- boundary / closing integrity: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- Tamil page/canonical drift since final clearance: **0 / 0**;
+- unresolved release-integrity defects: **0**.
+
+The work is **not yet RELEASE-CLEARED**. Release-integrity PASS makes it eligible for the explicit final release decision; it does not itself grant release clearance.
 
 ## Source hierarchy
 
@@ -51,6 +62,6 @@ Normal translation source is FINAL-CLEARED `../../sections/01.md`. If a Tamil re
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**. Create `RELEASE_INTEGRITY_REVIEW.md` if the gate passes.
+Create `RELEASE_REPORT.md` and perform the explicit **release-clearance decision only** after reconfirming live artifact identities and all prior PASS authorities.
 
-Do **not** create `RELEASE_REPORT.md` or grant release clearance in the same activity.
+Do not make Tamil or English lexical edits during release reporting unless a genuine defect is formally reopened.

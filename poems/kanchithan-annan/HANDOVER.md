@@ -18,20 +18,23 @@ User-scoped work range: **physical scan 16 only**.
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **COMPLETE / PASS**;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS / Tamil FINAL-CLEARED**;
 - canonical Tamil: `sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Phase 4 setup: **COMPLETE**;
 - Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
 - English item: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing assembly: **COMPLETE / PASS**;
 - reader-facing file: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
 - editorial / terminology / voice consistency review: **COMPLETE / PASS**;
-- editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
-- active English scan coverage: **1/1 exactly once**;
-- English lexical changes required by editorial gate: **0**;
-- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
-- Tamil `pages/` / canonical `sections/` changes during Phase 4: **0 / 0**.
+- final source-coverage / release-integrity review: **COMPLETE / PASS**;
+- release-integrity authority: `translations/en/RELEASE_INTEGRITY_REVIEW.md`;
+- reviewed-item ↔ reader-facing synchronization: **PASS**;
+- active source coverage: **1/1 — scan 16 exactly once**;
+- title / attribution integrity: **PASS**;
+- opening / closing boundaries: **PASS / PASS**;
+- reader-facing cleanliness: **PASS**;
+- Tamil page/canonical drift since final clearance: **0 / 0**;
+- unresolved release-integrity defects: **0**;
+- work status: **NOT YET RELEASE-CLEARED**.
 
 ## Reviewed translation locks
 
@@ -47,6 +50,13 @@ The normal translation source remains FINAL-CLEARED Tamil. Any genuine Tamil cor
 
 ## Exact next activity
 
-**Final source-coverage / release-integrity review only.** Create `translations/en/RELEASE_INTEGRITY_REVIEW.md` after checking reviewed-item synchronization, reader-facing blob identity, scan 16 exactly once, title/attribution, certified boundaries, reader-facing cleanliness and zero Tamil drift.
+**Release report / explicit release-clearance decision only.**
 
-Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.
+Create `translations/en/RELEASE_REPORT.md` after fetching live `main` and reconfirming:
+
+- reviewed English blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- reader-facing blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
+- `RELEASE_INTEGRITY_REVIEW.md` remains COMPLETE / PASS;
+- Tamil page/canonical identities remain unchanged.
+
+Then record the explicit release-clearance decision and synchronize status docs. Do not make lexical edits unless a genuine defect is first formally reopened.

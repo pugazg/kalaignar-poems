@@ -29,23 +29,27 @@ Unresolved Tamil issues: **0**.
 - reviewed English: `poems/kanchithan-annan/translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing English assembly: **COMPLETE / PASS**;
 - reader-facing output: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- assembly authority: `poems/kanchithan-annan/translations/en/ASSEMBLY.md`;
 - editorial / terminology / voice consistency review: **COMPLETE / PASS**;
-- editorial authority: `poems/kanchithan-annan/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
-- active scan coverage: **1/1 exactly once**;
-- English lexical changes required by editorial gate: **0**;
-- unresolved translation / assembly / editorial issues: **0 / 0 / 0**;
-- Tamil page/canonical changes during Phase 4: **0 / 0**.
+- final source-coverage / release-integrity review: **COMPLETE / PASS**;
+- release-integrity authority: `poems/kanchithan-annan/translations/en/RELEASE_INTEGRITY_REVIEW.md`;
+- active source coverage: **1/1 — scan 16 exactly once**;
+- reviewed-item ↔ reader-facing synchronization: **PASS**;
+- title / attribution integrity: **PASS**;
+- boundary / closing integrity: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- Tamil page/canonical drift since final clearance: **0 / 0**;
+- unresolved translation / assembly / editorial / release-integrity issues: **0 / 0 / 0 / 0**;
+- work status: **NOT YET RELEASE-CLEARED**.
 
 Remaining Phase-4 sequence:
 
 1. Batch 01 translation/review — **COMPLETE / PASS**;
 2. reader-facing English assembly — **COMPLETE / PASS**;
 3. editorial / terminology / voice consistency review — **COMPLETE / PASS**;
-4. final source-coverage / release-integrity review — **NEXT**;
-5. release report / explicit release-clearance decision.
+4. final source-coverage / release-integrity review — **COMPLETE / PASS**;
+5. release report / explicit release-clearance decision — **NEXT**.
 
-Exact next activity: **final source-coverage / release-integrity review only**. Do not combine with release reporting or release clearance.
+Exact next activity: create `translations/en/RELEASE_REPORT.md` and make the explicit release-clearance decision only after reconfirming live artifact identities. Do not make lexical changes during release reporting unless a genuine defect is formally reopened.
 
 ## Preserved closed source
 

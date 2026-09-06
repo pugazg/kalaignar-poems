@@ -27,6 +27,7 @@ Read before changes:
 15. `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md`
 16. `poems/kanchithan-annan/translations/en/ASSEMBLY.md`
 17. `poems/kanchithan-annan/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`
+18. `poems/kanchithan-annan/translations/en/RELEASE_INTEGRITY_REVIEW.md`
 
 ## Controlling source
 
@@ -43,26 +44,22 @@ Read before changes:
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gates 1–6: **COMPLETE / PASS / Tamil FINAL-CLEARED**;
 - Tamil canonical blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Phase 4 setup: **COMPLETE**;
 - Batch 01: **1/1 REVIEWED / PASS**;
 - reviewed English: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing assembly: **COMPLETE / PASS**;
 - reader-facing output: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
-- editorial / terminology / voice consistency review: **COMPLETE / PASS**;
-- editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
-- active scan coverage: **1/1 exactly once**;
-- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
-- English lexical changes required by editorial gate: **0**;
-- Tamil changes during Phase 4: **0 / 0**.
+- editorial consistency: **COMPLETE / PASS**;
+- release-integrity review: **COMPLETE / PASS**;
+- release-integrity authority: `translations/en/RELEASE_INTEGRITY_REVIEW.md`;
+- active source coverage: **1/1 — scan 16 exactly once**;
+- title / attribution and boundary integrity: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- Tamil page/canonical drift since final clearance: **0 / 0**;
+- unresolved release-integrity defects: **0**;
+- work status: **NOT YET RELEASE-CLEARED**.
 
 ## Next activity only
 
-Perform **final source-coverage / release-integrity review**.
+Create `translations/en/RELEASE_REPORT.md` and perform the explicit **release-clearance decision only**.
 
-Create:
-
-`translations/en/RELEASE_INTEGRITY_REVIEW.md`
-
-Reconfirm standalone reviewed-English ↔ reader-facing synchronization, scan **16** exactly once, title/attribution integrity, certified opening/closing boundaries, reader-facing cleanliness and zero Tamil drift since final clearance.
-
-**Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.**
+Reconfirm live artifact identities and all PASS authorities first. Do not rewrite Tamil or English lexical text as part of release reporting unless a genuine defect is formally reopened.
