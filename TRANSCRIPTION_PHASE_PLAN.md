@@ -14,27 +14,34 @@ User-scoped work range: **physical scan 16 only**.
 
 ## Phase 2 — source-critical verification
 
-**COMPLETE / PASS — 1/1 VERIFIED.**
+**COMPLETE — 1/1 VERIFIED / PASS.**
 
-- page: `pages/0016.md` — `verified`;
-- authority: `PHASE2_SOURCE_VERIFICATION.md`;
-- Phase-1 lexical corrections required during verification: **0**;
-- unresolved lexical/historical-glyph issues: **0**.
+Authority: `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`.
 
 ## Phase 3 — structure, assembly and Tamil final clearance
 
-**NOT STARTED.**
+- Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Gate-1 authority: `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`;
+- scan 16 visible printed page numeral: **none**;
+- page-layer `printed_page`: **`null` retained**;
+- inferred issue-page number: **none**;
+- Gate 2–6: **NOT STARTED**.
 
-Next activity is Gate 1 only: physical scan ↔ printed-page reconciliation for scan 16. Follow Gate 1 → Gate 6 in order even for this one-page work.
+Exact next activity: **Gate 2 boundary / page-join audit**. For this one-page work, certify opening and closing boundaries and explicitly record **0 internal joins**. Do not combine Gate 2 with Gate 3 or assembly.
 
 ## Phase 4 — English translation / release
 
 **NOT STARTED / BLOCKED BY TAMIL FINAL CLEARANCE.**
 
-## Preserved closed sources
+## Preserved closed source — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
-Previously release-cleared work remains frozen unless source-backed correction evidence requires a documented reopen.
+The prior new-item-only source remains **RELEASE-CLEARED**:
+
+- Phase 1 22/22 COMPLETE;
+- Phase 2 22/22 VERIFIED;
+- Phase 3 Gates 1–6 PASS / Tamil FINAL-CLEARED;
+- Phase 4 3/3 reviewed PASS / assembly PASS / editorial PASS / release-integrity PASS / RELEASE-CLEARED.
 
 ## Exact next activity
 
-**Phase 3 Gate 1 for `poems/kanchithan-annan/`, scan 16 only.** Do not combine it with later gates or English translation.
+**Phase 3 Gate 2 for `poems/kanchithan-annan/` only.** Preserve the verified page text unchanged and do not begin Gate 3, canonical Tamil assembly or English translation.

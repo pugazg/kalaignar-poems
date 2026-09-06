@@ -4,11 +4,25 @@ Continue in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/kan
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first and preserve newer durable work and all release-cleared work.
+Fetch live `main` first. Preserve all newer durable work and all existing release-cleared work.
 
 ## Mandatory startup
 
-Read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, this prompt, work `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `PHASE2_SOURCE_VERIFICATION.md`, and `pages/0016.md`.
+Read completely:
+
+1. `POEM_PROCESSING_GUIDE.md`
+2. `TRANSCRIPTION_PHASE_PLAN.md`
+3. root `HANDOVER.md`
+4. this `NEXT_CHAT_PROMPT.md`
+5. `poems/kanchithan-annan/README.md`
+6. `poems/kanchithan-annan/SOURCE_INTAKE.md`
+7. `poems/kanchithan-annan/metadata/source.md`
+8. `poems/kanchithan-annan/indexes/page-map.md`
+9. `poems/kanchithan-annan/audit.md`
+10. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
+11. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
+12. `poems/kanchithan-annan/HANDOVER.md`
+13. `poems/kanchithan-annan/pages/0016.md`
 
 ## Controlling source
 
@@ -19,20 +33,32 @@ Read completely: `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root
 - SHA-256: `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`;
 - active work range: **physical scan 16 only**.
 
+Title: **காஞ்சிதான் அண்ணன்**. Author: **கலைஞர் மு. கருணாநிதி**. Publication: **காஞ்சி-பொங்கல் மலர்**, **1970**.
+
 ## Current state
 
 - source intake: COMPLETE;
 - repository duplicate check: no match found;
-- Phase 1: **1/1 COMPLETE**;
-- Phase 2: **1/1 VERIFIED / PASS**;
-- page `0016.md`: `verified`;
-- Phase-1 lexical corrections in Phase 2: **0**;
-- unresolved lexical/historical-glyph issues: **0**;
-- Phase 3: NOT STARTED;
+- Phase 1 transcription: **1/1 COMPLETE**;
+- Phase 2 verification: **1/1 VERIFIED / PASS**;
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- Gate-1 decision: physical scan 16 is the sole scoped page; no visible printed page numeral; `printed_page: null` retained; no inferred issue-page number;
+- Phase 3 Gate 2–6: **NOT STARTED**;
 - Phase 4: NOT STARTED.
 
 ## Next activity only
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for scan 16 only**. Confirm the source-visible pagination state and one-page structural scope. Do not modify verified Tamil wording.
+Perform **Phase 3 Gate 2 — boundary / page-join audit**.
 
-**Do not perform Gate 2+, canonical assembly, final clearance or English translation in the same activity.**
+For the one-page scoped work, certify:
+
+- opening boundary on scan 16;
+- closing boundary on scan 16;
+- **0 internal page joins**;
+- decorative title/portrait matter remains outside poem body.
+
+Do not alter the verified page text unless genuine source evidence requires a documented reopen.
+
+**Do not begin Gate 3 title-witness reconciliation, canonical Tamil assembly or English translation in that same activity.**
+
+The previously completed `கலைஞரின் கவியரங்கக் கவிதைகள் (1975)` workspace remains CLOSED / RELEASE-CLEARED and must not be reopened without source evidence.

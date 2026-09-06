@@ -11,7 +11,7 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's poem **காஞ�
 - work scope: **physical scan 16 only**;
 - source PDF is not committed to the repository.
 
-A one-page convenience extract of physical scan 16 was produced for source handling, but the original 108-page PDF remains the controlling source identity.
+A one-page convenience extract of physical scan 16 was also produced for source handling, but the original 108-page PDF above remains the controlling source identity.
 
 ## Bibliographic identity
 
@@ -19,28 +19,26 @@ A one-page convenience extract of physical scan 16 was produced for source handl
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publication: **காஞ்சி — பொங்கல் மலர்**;
 - year/edition: **1970**;
-- catalogue description: `அறிவுலக ஆசான் அண்ணனைப் பற்றித் தம்பி கலைஞர் எழுதிய கவிதை.`
+- user-supplied catalogue description: `அறிவுலக ஆசான் அண்ணனைப் பற்றித் தம்பி கலைஞர் எழுதிய கவிதை.`
 
-The scan visibly carries the decorative title **காஞ்சிதான் அண்ணன்** and the author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி`.
+The scan itself visibly carries the decorative title **காஞ்சிதான் அண்ணன்** and the author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி`.
 
 ## Processing status
 
 - source identity / intake: **COMPLETE**;
 - duplicate-title / opening-line repository search: **no existing match found**;
 - Phase 1 transcription: **COMPLETE — 1/1 scoped scan**;
-- Phase 2 source-critical verification: **COMPLETE / PASS — 1/1 verified**;
-- page status: **verified**;
-- Phase-1 lexical corrections during verification: **0**;
-- unresolved lexical/historical-glyph issues: **0**;
-- Phase 3 structure / canonical Tamil / final clearance: **NOT STARTED**;
+- Phase 2 source-critical verification: **COMPLETE — 1/1 VERIFIED / PASS**;
+- Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Phase 3 Gate 2 onward: **NOT STARTED**;
 - Phase 4 English translation / release: **NOT STARTED**.
 
-Verification authority: `PHASE2_SOURCE_VERIFICATION.md`.
+Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`. Physical scan **16** is the sole scoped source page; no printed page numeral is visible, so page-layer `printed_page` correctly remains `null`. No inferred issue-page number was introduced.
 
-No canonical `sections/` file exists yet.
+No canonical `sections/` file exists yet. Phase boundaries remain in force.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for physical scan 16 only. Establish the one-page structural/page-number state without changing the verified poem wording.
+Perform **Phase 3 Gate 2 — boundary / page-join audit** for this one-page work. Certify the poem opening and closing boundaries, confirm there are **0 internal page joins**, and preserve the Phase-2 verified wording unchanged.
 
-Do not combine Gate 1 with later Phase-3 gates or English translation.
+Do **not** begin Gate 3, canonical assembly or English translation in the same activity.

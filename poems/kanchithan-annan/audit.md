@@ -10,35 +10,64 @@
 
 ## Duplicate check
 
-Repository code search on live `main` found no existing match for the title or opening phrase. This work remains onboarded as a new poem workspace.
+Repository code search on live `main` found no existing match for either:
+
+- title: `காஞ்சிதான் அண்ணன்` / spaced search variant `காஞ்சி தான் அண்ணன்`;
+- opening phrase: `அண்ணன் நமக்கு அளித்துச் சென்ற படைக்கலம்`.
+
+This was therefore onboarded as a new poem workspace rather than an alternate witness of an already represented item.
 
 ## Phase 1 transcription
 
-**COMPLETE — 1/1 scoped scan transcribed.**
+Result: **COMPLETE — 1/1 scoped scan transcribed.**
 
-## Phase 2 source-critical verification
+- page record: `pages/0016.md`;
+- OCR imported: **No**;
+- silent spelling/punctuation modernization: **No**;
+- invented printed page number: **No**;
+- portrait / ornamental matter recorded as non-text source material: **Yes**;
+- canonical Tamil file created: **No**;
+- English translation started: **No**.
 
-**COMPLETE / PASS — 1/1 VERIFIED.**
+## Phase 2 verification
+
+Result: **COMPLETE — 1/1 VERIFIED / PASS.**
 
 Authority: `PHASE2_SOURCE_VERIFICATION.md`.
 
-Independent direct visual reread against physical scan 16 confirmed the complete Phase-1 poem transcription. Source-sensitive checks included `நிலக்களன்`, `ஆற்றொழுக்கை`, quoted `காஞ்சி`/`தம்பி`, ellipsis lengths, `படைக்கலம்—`, the `கம்பீரம் ... கனிவு` line, all line breaks and the final `பொங்கல் மலர்` / `காஞ்சிப் பொங்கலின்` close.
+- Phase-1 lexical corrections required: **0**;
+- unresolved lexical readings: **0**;
+- unresolved historical/compact-glyph readings: **0**;
+- punctuation/quotation issues: **0**;
+- lineation issues: **0**.
 
-Phase-1 lexical corrections required during Phase 2: **0**.
+## Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation
+
+Result: **COMPLETE / PASS.**
+
+Authority: `PHASE3_STRUCTURE_AUDIT.md`.
+
+- scoped physical scans accounted: **1/1**;
+- physical source page: **scan 16**;
+- visible printed page numeral on scan 16: **none**;
+- page-layer `printed_page`: **`null` — retained**;
+- inferred printed/issue-page numbers introduced: **0**;
+- unresolved pagination/structure issues: **0**;
+- verified page-text changes during Gate 1: **0**.
+
+The work-scope ordinal `1/1` is only archival accounting and is not a printed-page claim.
 
 ## Current totals
 
 - scoped physical scans: **1**;
 - Phase 1 transcribed: **1/1**;
+- Phase 2 verified: **1/1**;
 - partial: **0**;
 - needs-review: **0**;
 - verified: **1**;
-- Phase 2 verified: **1/1**;
-- unresolved lexical/historical-glyph issues: **0**;
-- Phase 3: **not started**;
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gate 2–6: **not started**;
 - Phase 4: **not started**;
-- canonical Tamil files: **0**.
+- unresolved Tamil lexical/pagination issues: **0**.
 
-The controlling scan remains authoritative. Phase 2 changed page status and verification documentation only; poem wording required no correction.
-
-Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for scan 16 only**.
+Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit**. Certify opening and closing boundaries and record **0 internal joins** for the one-page work. Do not proceed to Gate 3 in the same activity.

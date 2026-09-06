@@ -15,22 +15,45 @@ Current state:
 - source identity / intake: COMPLETE;
 - duplicate-title / opening-line check: no existing repository match found;
 - Phase 1 direct visual transcription: **1/1 COMPLETE**;
-- Phase 2 independent visual verification: **1/1 VERIFIED / PASS**;
-- page record: `poems/kanchithan-annan/pages/0016.md` — `verified`;
-- Phase-1 lexical corrections required during verification: **0**;
-- unresolved lexical/historical-glyph issues: **0**;
-- Phase 3 Tamil structure/assembly/final clearance: **NOT STARTED**;
+- Phase 2 verification: **1/1 VERIFIED / PASS**;
+- Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Gate-1 decision: scan 16 has no visible printed page numeral; `printed_page: null` retained; no inferred issue-page number introduced;
+- Phase 3 Gate 2–6: **NOT STARTED**;
 - Phase 4 English translation/release: **NOT STARTED**.
 
-Verification authority: `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`.
+Exact next activity: **Phase 3 Gate 2 boundary / page-join audit** for the one-page work. Certify opening and closing boundaries and record **0 internal joins**. Do not begin Gate 3 in the same activity.
 
-Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for scan 16 only**.
+## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
-## Preserved release-cleared work
+Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`
+
+Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
+
+**NEW-ITEM-ONLY SCOPE COMPLETE — PHASE 1 22/22 / PHASE 2 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / ASSEMBLY PASS / EDITORIAL PASS / RELEASE-INTEGRITY PASS / RELEASE-CLEARED.**
+
+Release-cleared new Kalaignar items:
+
+- Item 01 scans **46–57** — Tamil `sections/01.md` — English `translations/en/sections/01.md`;
+- Item 02 scans **58–65** — Tamil `sections/02.md` — English `translations/en/sections/02.md`;
+- Item 04 scans **67–68** — Tamil `sections/04.md` — English `translations/en/sections/04.md`.
+
+Scan **66** remains non-Kalaignar Rajaji context. Scans **69–70** are Bharathidasan. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside that new-item scope.
+
+Reader-facing English collection:
+
+`poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
+
+- Git blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
+- size: **24,203 bytes**;
+- item order: **01 → 02 → 04**;
+- active scan markers: **22/22**;
+- scan 66 occurrences: **0**.
+
+Final authorities include `PHASE3_TAMIL_FINAL_CLEARANCE.md`, `translations/en/ASSEMBLY.md`, `EDITORIAL_CONSISTENCY_REVIEW.md`, `RELEASE_INTEGRITY_REVIEW.md`, and `RELEASE_REPORT.md`.
+
+## Preserved completed work
 
 - `poems/gunanayagar-nehru/` — RELEASE-CLEARED;
 - `poems/oruthalaik-kathal/` — RELEASE-CLEARED;
 - `poems/kalaignarin-kavithaigal/` — RELEASE-CLEARED;
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED.
-
-Do not reopen release-cleared work without genuine source evidence and a documented reopen.

@@ -26,21 +26,31 @@ User-scoped work range: **physical scan 16 only**.
 - duplicate-title/opening-line repository search: no existing match found;
 - Phase 1 direct visual transcription: **1/1 COMPLETE**;
 - Phase 2 independent source-critical verification: **1/1 VERIFIED / PASS**;
-- verification authority: `PHASE2_SOURCE_VERIFICATION.md`;
-- Phase-1 lexical corrections required during verification: **0**;
-- unresolved lexical/historical-glyph issues: **0**;
+- Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`;
 - page record: `pages/0016.md` — `verified`;
 - no canonical Tamil section created;
 - no English translation started.
 
+## Gate-1 structural decision
+
+Physical scan **16** is the sole page in the user-scoped work. No printed page numeral is visibly present, therefore `printed_page: null` remains correct. The archival work-scope ordinal `1/1` must not be treated as a source-printed page number. No issue-page number was inferred or backfilled.
+
 ## Source controls
 
-The scan is the controlling text. Do not normalize spelling, punctuation, ellipses, quote marks, historical/compact forms or lineation. The original 108-page source remains authoritative.
+The scan is the controlling text. Do not normalize spelling, punctuation, ellipses, quote marks, historical/compact forms or lineation. The source page includes decorative title material and a portrait beneath the poem.
+
+The original 108-page source remains authoritative even though a one-page scan-16 convenience extract exists outside the repository.
 
 ## Exact next activity
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for scan 16 only.**
+**Phase 3 Gate 2 — boundary / page-join audit.**
 
-Account for the one physical source page, confirm that no printed page numeral is visibly present, and record the logical structural state without altering verified poem text.
+For this one-page work, certify:
 
-Do not combine Gate 1 with later Phase-3 gates, canonical assembly or English translation.
+- the opening boundary on scan 16;
+- the closing boundary on scan 16;
+- **0 internal page joins**;
+- the portrait and decorative material as outside the poem body.
+
+Preserve the Phase-2 verified page text unchanged. Do not perform Gate 3 title reconciliation, canonical assembly or English translation in the same activity.
