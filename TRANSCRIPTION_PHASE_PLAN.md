@@ -20,14 +20,18 @@ Workspace: `poems/kanchithan-annan/`. User-scoped work range: **physical scan 16
 - Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
 - Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
 - Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Gate-4 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`;
+- Gate 5 canonical/source-completeness review: **COMPLETE / PASS**;
+- Gate-5 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_SOURCE_REVIEW.md`;
 - canonical output: `poems/kanchithan-annan/sections/01.md`;
 - canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - canonical active scan coverage / markers: **1/1 / 1/1**;
-- source-page corrections / page-status changes during Gate 4: **0 / 0**;
-- Gate 5–6: **NOT STARTED**.
+- canonical payload equality vs verified page layer: **1/1 PASS**;
+- missing / duplicate / unexpected markers: **0 / 0 / 0**;
+- silent normalization / insertion / omission: **0 / 0 / 0**;
+- unresolved source-completeness defects: **0**;
+- Gate 6: **NOT STARTED**.
 
-Exact next activity: **Gate 5 canonical/source-completeness review only**. Do not combine Gate 5 with Tamil final clearance.
+Exact next activity: **Gate 6 Tamil final clearance only**. Do not combine Gate 6 with English translation setup or drafting.
 
 ## Phase 4 — English translation / release
 
@@ -44,4 +48,4 @@ The prior new-item-only source remains **RELEASE-CLEARED**:
 
 ## Exact next activity
 
-**Phase 3 Gate 5 for `poems/kanchithan-annan/` only.** Preserve verified page and canonical text unchanged unless a genuine source-backed discrepancy requires formal reopen. Do not grant Gate 6 or begin English translation.
+**Phase 3 Gate 6 for `poems/kanchithan-annan/` only.** Preserve the verified page and canonical text unchanged unless genuine source evidence requires formal reopen. Do not begin English translation.
