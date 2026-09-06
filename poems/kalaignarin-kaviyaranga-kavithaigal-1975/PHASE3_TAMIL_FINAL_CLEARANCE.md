@@ -126,12 +126,27 @@ Phase 4 translation setup subsequently completed with no Tamil page/canonical ch
 - `translations/en/TRANSLATION_PLAN.md`;
 - `translations/en/SOURCE_MAP.md`.
 
-The complete-item batch partition is now pinned:
+The complete-item batch partition is pinned:
 
 - Batch 01 — Item 01 — scans **46–57**;
 - Batch 02 — Item 02 — scans **58–65**;
 - Batch 03 — Item 04 — scans **67–68**.
 
+## Subsequent Phase 4 Batch 01 status
+
+Batch 01 has now completed **REVIEWED PASS** without changing any final-cleared Tamil page or canonical file.
+
+- English item: `translations/en/sections/01.md`;
+- English blob: `4dfbb95c099108398eeccd6bfb368e34d7db2ee0`;
+- review authority: `translations/en/batches/batch-01.md`;
+- source scans: **46–57 = 12/12**;
+- scan markers: **12/12 unique and ordered**;
+- scan 50→51 source-open quotation: preserved;
+- scan 57 closing rule: structurally preserved;
+- source omissions / duplications: **0 / 0**;
+- unresolved Batch-01 translation issues: **0**;
+- Tamil page/canonical changes during Phase 4: **0**.
+
 ## Exact next activity
 
-Proceed to **Phase 4 Batch 01 — Item 01 scans 46–57 only**. Draft and source-review the complete English item under the pinned translation controls. Do not start Batch 02 in the same activity.
+Proceed to **Phase 4 Batch 02 — Item 02 scans 58–65 only**. Draft and source-review the complete English item under the pinned translation controls, retaining all **8/8** scan markers and the `மை` wordplay relationship. Do not start Batch 03 in the same activity.
