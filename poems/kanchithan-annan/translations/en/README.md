@@ -4,62 +4,46 @@ Phase 4 English translation workspace for the one-page poem **காஞ்சி
 
 ## Status
 
-**SETUP COMPLETE / TRANSLATION NOT STARTED.**
+**BATCH 01 REVIEWED / PASS — 1/1 COMPLETE.**
 
-The Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+The Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
 Final-cleared Tamil authority:
 
-- canonical Tamil: `../../sections/01.md`;
-- canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- verified page: `../../pages/0016.md`;
-- verified page Git blob: `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
-- source physical scan: **16 only**;
-- canonical scan coverage: **1/1 exactly once**.
+- canonical Tamil: `../../sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- verified page: `../../pages/0016.md` — blob `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
+- source physical scan: **16 only**.
 
-No English poem text is created by this setup activity.
+Reviewed English output:
 
-## Translation scope
-
-There is one translation item only:
-
-| Batch | Item | Source scan | Tamil canonical | Planned English item | Status |
-|---:|---:|---:|---|---|---|
-| 01 | 01 | 16 | `../../sections/01.md` | `sections/01.md` | not started |
-
-Planned batch-review authority: `batches/batch-01.md`.
+- `sections/01.md` — **REVIEWED / PASS** — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- review authority: `batches/batch-01.md`;
+- required scan markers: **1/1 — scan 16 exactly once**;
+- unresolved Batch-01 translation issues: **0**;
+- Tamil page/canonical changes during Batch 01: **0 / 0**.
 
 ## Source hierarchy
 
-Normal translation source is the FINAL-CLEARED Tamil canonical `../../sections/01.md`.
+Normal translation source is FINAL-CLEARED `../../sections/01.md`. If a Tamil reading is questioned: controlling PDF scan 16 → verified `../../pages/0016.md` → final-cleared `../../sections/01.md` → Phase-3 records. English difficulty never authorizes a silent Tamil edit.
 
-If a Tamil reading is questioned, authority order is:
+## Reviewed translation controls
 
-1. controlling PDF scan 16;
-2. verified `../../pages/0016.md`;
-3. final-cleared `../../sections/01.md`;
-4. Phase-3 audit/reconciliation authorities.
+Batch 01 explicitly preserves/reconciles:
 
-An English difficulty never authorizes a silent Tamil edit. Any genuine source-backed Tamil discrepancy requires formal reopening of the affected Tamil page/audit/canonical layer.
+- **Kanchi** as publication/place and the final Anna/Kanchi identity play;
+- quoted **“Thambi”**;
+- `நிலக்களன்` as “an arena for his feelings”;
+- `ஆற்றொழுக்கை` through the river-flow image;
+- weekly, golden-letter/golden-issue, laughter/thought and reciprocal-identity parallelism;
+- rhetorical-question force;
+- source ellipsis/emphatic punctuation evidence;
+- *Pongal Malar* so the special-issue/flower wordplay remains recoverable;
+- the first-person close **“I too am one among those who wait!”**.
 
-## Translation fidelity controls
-
-The translation must preserve meaning, rhetoric, repetition and imagery while remaining readable English. Tamil lineation need not be copied mechanically, but poetic/rhetorical structure must remain visible.
-
-Source-sensitive locks for this poem include:
-
-- the repeated and shifting `‘காஞ்சி’` references to publication/place/Anna identity;
-- quoted `‘தம்பி’`;
-- the direct question `ஆனால் அண்ணன் எங்கே?`;
-- repeated parallel constructions such as `ஒன்றைப்... / மற்றொன்றைப்...` and `‘காஞ்சி’ தான் அண்ணன்... / அண்ணன் தான் ‘காஞ்சி’...`;
-- source ellipsis runs and emphatic punctuation as rhetorical evidence;
-- lexical forms `நிலக்களன்` and `ஆற்றொழுக்கை`, which require context-sensitive translation rather than normalization;
-- the first-person closing statement `காத்திருப்பவர்களில் நானும் ஒருவன்!`.
-
-The English title must derive from the direct canonical Tamil title `காஞ்சிதான் அண்ணன்`; no catalogue-description phrase or synthetic title may replace it.
+The English title is **Kanchi Is Anna**, derived only from the direct canonical title `காஞ்சிதான் அண்ணன்`.
 
 ## Exact next activity
 
-Perform **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review only**.
+Perform **reader-facing English assembly only** from the reviewed `sections/01.md` item. Create `kanchithan-annan-en.md` and `ASSEMBLY.md` according to repository precedent, preserving the scan-16 provenance marker.
 
-Create `sections/01.md` and `batches/batch-01.md`, preserving scan-16 provenance and the source-sensitive controls above. Do not perform full reader-facing assembly, editorial consistency review or release clearance in the same activity.
+Do **not** perform editorial consistency, release-integrity or release-clearance work in the same activity.

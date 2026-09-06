@@ -26,26 +26,24 @@ The scan visibly carries the title **காஞ்சிதான் அண்ண
 ## Processing status
 
 - source identity / intake: **COMPLETE**;
-- duplicate-title / opening-line repository search: **no existing match found**;
-- Phase 1 transcription: **COMPLETE — 1/1 scoped scan**;
+- Phase 1 transcription: **COMPLETE — 1/1**;
 - Phase 2 source-critical verification: **COMPLETE — 1/1 VERIFIED / PASS**;
 - Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- canonical Tamil: `sections/01.md` — scan **16** — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- canonical Tamil: `sections/01.md` — scan **16** — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - unresolved Tamil issues: **0**;
-- Phase 4 English translation setup: **COMPLETE**;
-- English item translation/review: **NOT STARTED**.
+- Phase 4 translation setup: **COMPLETE**;
+- Phase 4 Batch 01: **COMPLETE — REVIEWED / PASS**;
+- reviewed English: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- batch authority: `translations/en/batches/batch-01.md`;
+- English scan markers: **1/1 exactly once**;
+- unresolved translation issues: **0**;
+- Tamil page/canonical changes during Batch 01: **0 / 0**.
 
-Phase-4 controls:
-
-- `translations/en/README.md`;
-- `translations/en/TRANSLATION_PLAN.md`;
-- `translations/en/SOURCE_MAP.md`.
-
-The setup pins normal translation authority to FINAL-CLEARED `sections/01.md`; if Tamil is questioned, authority returns to controlling scan 16, then verified page, canonical item and Phase-3 records. No English poem text was drafted during setup.
+Phase-4 controls remain `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`.
 
 ## Exact next activity
 
-Perform **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review only**. Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md`.
+Perform **reader-facing English assembly only** from the reviewed English Item 01. Create `translations/en/kanchithan-annan-en.md` and `translations/en/ASSEMBLY.md` according to repository precedent.
 
-Do **not** perform reader-facing assembly, editorial consistency review or release clearance in the same activity.
+Do **not** perform editorial consistency, release-integrity or release-clearance gates in the same activity.

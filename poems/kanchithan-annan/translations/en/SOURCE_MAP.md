@@ -8,59 +8,47 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 User-scoped work range: **physical scan 16 only**.
 
-## Tamil source map
+## Tamil → reviewed English map
 
-| Item | Tamil canonical | Tamil blob | Verified page | Verified page blob | Scan | English status |
-|---:|---|---|---|---|---:|---|
-| 01 | `../../sections/01.md` | `1cab49c17d97f76b7a235ca6e536af06f75b5190` | `../../pages/0016.md` | `d0df5abbc42d36d5e0bc776bb2844ee9b467518e` | 16 | not started |
+| Item | Tamil canonical | Tamil blob | Scan | English reviewed file | English reviewed blob | Status |
+|---:|---|---|---:|---|---|---|
+| 01 | `../../sections/01.md` | `1cab49c17d97f76b7a235ca6e536af06f75b5190` | 16 | `sections/01.md` | `17a565f28af6e51d215d703bcb6058cf2805023b` | **PASS** |
 
-Canonical active coverage: **1/1 scan exactly once**.
+Review authority: `batches/batch-01.md`.
+
+Combined translated active coverage: **1/1 scan**.
 
 ## Title / attribution authority
 
 - direct scan-16 title: `காஞ்சிதான் அண்ணன்`;
-- bibliographic title: **காஞ்சிதான் அண்ணன்**;
-- canonical-title authority: **direct scan 16**;
-- source-printed author line: `முதலமைச்சர், கலைஞர், மு. கருணாநிதி`;
-- title conflicts / author-attribution conflicts: **0 / 0**;
-- catalogue description remains contextual metadata only.
+- English title: **Kanchi Is Anna**;
+- source-printed author line remains traceable through **Chief Minister, Kalaignar M. Karunanidhi**;
+- catalogue description remains contextual metadata only;
+- no hybrid/synthetic title was created.
 
-The eventual English title must be a translation of the canonical direct title and must not incorporate the catalogue description as title text.
+## Structural / lexical controls
 
-## Structural controls carried into English
-
-- source opening boundary: **PASS**;
+- source opening / closing boundaries: **PASS / PASS**;
 - internal page joins: **0**;
-- source closing boundary: **PASS**;
-- visible printed page numeral: **none**;
-- source physical provenance: scan **16**;
-- final source line: `காத்திருப்பவர்களில் நானும் ஒருவன்!`;
-- decorative banner, ornaments, design/artist signature and portrait remain non-lexical provenance material.
-
-## Source-sensitive lexical/rhetorical map
-
-The translation/review pass must explicitly check:
-
-- `‘காஞ்சி’` as publication name and its relationship to Kanchi city and Anna;
-- `‘தம்பி’` as a quoted recurring address;
-- `நிலக்களன்`;
-- `ஆற்றொழுக்கை`;
-- the laughter/thought parallelism;
-- `ஆனால் அண்ணன் எங்கே?` as a direct rhetorical question;
-- `‘காஞ்சி’ தான் அண்ணன்...... / அண்ணன் தான் ‘காஞ்சி’......!` as reciprocal identity/repetition;
-- source ellipsis runs and emphatic punctuation;
-- first-person closing force.
-
-## Planned English outputs
-
-- item translation: `sections/01.md` — **not created**;
-- batch review: `batches/batch-01.md` — **not created**;
-- reader-facing collection: `kanchithan-annan-en.md` — deferred until Batch 01 is REVIEWED / PASS.
+- English `scan_page: 16` markers: **1/1 exactly once**;
+- Kanchi publication/place/Anna identity relationship: **PASS**;
+- quoted `Thambi`: **PASS**;
+- `நிலக்களன்` / `ஆற்றொழுக்கை` handling: **PASS / PASS**;
+- repetition / parallelism / rhetorical-question force: **PASS**;
+- *Pongal Malar* special-issue/flower relationship: retained;
+- first-person closing force: **PASS**;
+- detected English omissions / duplications: **0 / 0**;
+- unresolved Batch-01 issues: **0**.
 
 ## Tamil protection
 
-English work may not silently alter the FINAL-CLEARED Tamil page or canonical files. If source evidence reveals a genuine Tamil discrepancy, formally reopen the affected Tamil layer before propagating any correction to English.
+Phase 4 Batch 01 changed **0** FINAL-CLEARED Tamil page files and **0** canonical Tamil section files. A genuine source-backed Tamil discrepancy still requires formal reopening before any correction can propagate to English.
+
+## Planned reader-facing output
+
+- `kanchithan-annan-en.md` — **not yet assembled**;
+- assembly authority: `ASSEMBLY.md` — **not yet created**.
 
 ## Exact next activity
 
-**Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only.** Preserve scan provenance and all source-sensitive controls. Do not begin reader-facing assembly in the same activity.
+**Reader-facing English assembly only** from reviewed `sections/01.md`. Preserve Item 01 and scan-16 provenance exactly once. Do not begin editorial-consistency or release gates in the same activity.

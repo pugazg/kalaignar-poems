@@ -12,23 +12,21 @@ User-scoped work range: **physical scan 16 only**.
 
 Current state:
 
-- source identity / intake: COMPLETE;
-- duplicate-title / opening-line check: no existing repository match found;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Gate-6 authority: `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-- canonical output: `poems/kanchithan-annan/sections/01.md`;
-- canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical scan markers: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
+- canonical Tamil: `poems/kanchithan-annan/sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - unresolved Tamil issues: **0**;
-- Phase 4 English translation setup: **COMPLETE**;
-- translation item drafting/review: **NOT STARTED**;
-- English control layer: `poems/kanchithan-annan/translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`.
+- Phase 4 translation setup: **COMPLETE**;
+- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
+- reviewed English: `poems/kanchithan-annan/translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- batch authority: `poems/kanchithan-annan/translations/en/batches/batch-01.md`;
+- English scan markers: **1/1 exactly once**;
+- unresolved translation issues: **0**;
+- Tamil page/canonical changes during Batch 01: **0 / 0**.
 
-Exact next activity: **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review only**. Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md`; do not perform reader-facing assembly in the same activity.
+Exact next activity: **reader-facing English assembly only** — create `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` and `ASSEMBLY.md`. Do not perform editorial-consistency or release gates in the same activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
@@ -38,23 +36,7 @@ Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்
 
 **NEW-ITEM-ONLY SCOPE COMPLETE — PHASE 1 22/22 / PHASE 2 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / ASSEMBLY PASS / EDITORIAL PASS / RELEASE-INTEGRITY PASS / RELEASE-CLEARED.**
 
-Release-cleared new Kalaignar items:
-
-- Item 01 scans **46–57** — Tamil `sections/01.md` — English `translations/en/sections/01.md`;
-- Item 02 scans **58–65** — Tamil `sections/02.md` — English `translations/en/sections/02.md`;
-- Item 04 scans **67–68** — Tamil `sections/04.md` — English `translations/en/sections/04.md`.
-
-Scan **66** remains non-Kalaignar Rajaji context. Scans **69–70** are Bharathidasan. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside that new-item scope.
-
-Reader-facing English collection:
-
-`poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
-
-- Git blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
-- size: **24,203 bytes**;
-- item order: **01 → 02 → 04**;
-- active scan markers: **22/22**;
-- scan 66 occurrences: **0**.
+Reader-facing English collection: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
 
 ## Preserved completed work
 

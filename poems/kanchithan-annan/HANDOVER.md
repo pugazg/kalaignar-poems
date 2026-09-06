@@ -16,29 +16,34 @@ User-scoped work range: **physical scan 16 only**.
 
 ## Completed work
 
-- intake / exact-byte identity: COMPLETE;
-- duplicate check: no existing repository match;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- page record: `pages/0016.md` — `verified`;
-- canonical Tamil: `sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Phase 4 translation setup: **COMPLETE**;
-- translation controls: `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`;
-- English item translation/review: **NOT STARTED**.
+- canonical Tamil: `sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- Phase 4 setup: **COMPLETE**;
+- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
+- English item: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- batch authority: `translations/en/batches/batch-01.md`;
+- English scan coverage: **1/1 exactly once**;
+- detected English omissions / duplications: **0 / 0**;
+- unresolved translation issues: **0**;
+- Tamil `pages/` / canonical `sections/` changes during Batch 01: **0 / 0**.
 
-## Translation controls
+## Reviewed translation locks
 
-- normal English source: FINAL-CLEARED `sections/01.md`;
-- source fallback order if Tamil is questioned: controlling scan 16 → verified `pages/0016.md` → final-cleared `sections/01.md` → Phase-3 records;
-- one complete batch only: **Batch 01 = Item 01 = scan 16**;
-- planned English item: `translations/en/sections/01.md`;
-- planned batch review: `translations/en/batches/batch-01.md`;
-- reader-facing assembly is deferred until Batch 01 is REVIEWED / PASS.
+- English title: **Kanchi Is Anna** from direct `காஞ்சிதான் அண்ணன்`;
+- Kanchi publication/place/Anna identity relationship retained;
+- quoted `தம்பி` retained as **“Thambi”**;
+- `நிலக்களன்` / `ஆற்றொழுக்கை` handled without Tamil normalization;
+- repetition, parallelism and rhetorical-question force retained;
+- *Pongal Malar* keeps the special-issue/flower relationship recoverable;
+- first-person closing remains explicit.
 
-Source-sensitive locks include the `காஞ்சி` publication/place/Anna relationship, quoted `‘தம்பி’`, repetition and reciprocal identity, rhetorical question, `நிலக்களன்`, `ஆற்றொழுக்கை`, source ellipsis/punctuation evidence and the first-person close.
+The normal translation source remains FINAL-CLEARED Tamil. Any genuine Tamil correction still requires formal reopening.
 
 ## Exact next activity
 
-**Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only.** Create the English item and its batch-review authority. Do not perform reader-facing assembly or later release gates in the same activity.
+**Reader-facing English assembly only.** Assemble reviewed `translations/en/sections/01.md` into `translations/en/kanchithan-annan-en.md` and create `translations/en/ASSEMBLY.md`, preserving scan 16 exactly once.
+
+Do not perform editorial-consistency, release-integrity or release-clearance gates in the same activity.

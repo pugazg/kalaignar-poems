@@ -4,27 +4,25 @@ Controlling publication: `TVA_PRL_0033128_காஞ்சி_பொங்க�
 
 User-scoped work range: **physical scan 16 only**.
 
-| Physical scan | Work-scope ordinal | Visible printed page | Page-layer `printed_page` | Role | Page record | Canonical output | Status |
-|---:|---:|---|---|---|---|---|---|
-| 16 | 1/1 | none | `null` | decorative title + author line + complete poem + author portrait | `../pages/0016.md` | `../sections/01.md` | verified / canonical / FINAL-CLEARED |
+| Physical scan | Work-scope ordinal | Visible printed page | Page-layer `printed_page` | Role | Page record | Canonical output | English | Status |
+|---:|---:|---|---|---|---|---|---|---|
+| 16 | 1/1 | none | `null` | decorative title + author line + complete poem + author portrait | `../pages/0016.md` | `../sections/01.md` | `../translations/en/sections/01.md` | Tamil FINAL-CLEARED / English REVIEWED PASS |
 
 ## Notes
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **PASS**;
-- no visible printed numeral exists on scan 16, so `printed_page` remains `null`;
+- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
+- no visible printed numeral exists on scan 16;
 - internal joins: **0**;
-- scans 15 and 17 positively bound the one-page work;
+- scans 15 and 17 positively bound the work;
 - canonical title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
-- canonical scan markers: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
-- unresolved Tamil issues: **0**;
-- Tamil layer: **FINAL-CLEARED**;
-- Phase 4 English translation setup: **COMPLETE**;
-- translation batch partition: **Batch 01 = Item 01 = scan 16**;
-- English item translation/review: **NOT STARTED**.
+- canonical Tamil blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- Phase 4 setup: **COMPLETE**;
+- Batch 01 = Item 01 = scan 16: **REVIEWED / PASS**;
+- reviewed English blob: `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- English scan markers: **1/1 exactly once**;
+- unresolved translation issues: **0**;
+- Tamil changes during Batch 01: **0 / 0**.
 
-Phase-4 authority files are `../translations/en/README.md`, `../translations/en/TRANSLATION_PLAN.md`, and `../translations/en/SOURCE_MAP.md`.
-
-Exact next activity: **Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only**. Do not perform reader-facing assembly in the same activity.
+Exact next activity: **reader-facing English assembly only**. Do not perform later editorial or release gates in the same activity.

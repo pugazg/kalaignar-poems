@@ -14,31 +14,23 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | **FINAL-CLEARED** | setup complete; translation not started |
+| 01 | 16 | none | new Kalaignar poem | **FINAL-CLEARED** | **Batch 01 REVIEWED / PASS** |
 
-Only physical scan **16** belongs to this user-requested work intake. Scans **15** and **17** were inspected only to certify Gate-2 boundaries.
+Only physical scan **16** belongs to this work. Scans **15** and **17** were boundary evidence only.
 
 ## Current state
 
-- source identity: COMPLETE;
-- duplicate check: no repository match found;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gates 1–6: **COMPLETE / PASS**;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation setup: **COMPLETE**;
-- English item translation/review: **NOT STARTED**.
+- Tamil layer: **FINAL-CLEARED**;
+- canonical Tamil: `sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- Phase 4 setup: **COMPLETE**;
+- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
+- reviewed English: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- batch authority: `translations/en/batches/batch-01.md`;
+- English scan marker: **1/1 exactly once**;
+- unresolved translation issues: **0**;
+- Tamil changes during Batch 01: **0 / 0**.
 
-Key final controls:
-
-- no visible printed page numeral; `printed_page` remains `null`;
-- opening / closing boundaries: **PASS / PASS**; internal joins: **0**;
-- canonical title: direct scan-16 `காஞ்சிதான் அண்ணன்`;
-- canonical Tamil: `sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical scan marker: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
-- unresolved Tamil issues: **0**.
-
-Phase-4 controls are `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, and `translations/en/SOURCE_MAP.md`. The single translation batch is Item 01 / scan 16.
-
-Exact next activity: **Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only**. Do not perform reader-facing assembly in the same activity.
+Exact next activity: **reader-facing English assembly only** from the reviewed English item. Do not perform editorial-consistency or release gates in the same activity.
