@@ -18,13 +18,16 @@ Read completely before changes:
 6. `poems/kanchithan-annan/SOURCE_INTAKE.md`
 7. `poems/kanchithan-annan/metadata/source.md`
 8. `poems/kanchithan-annan/indexes/page-map.md`
-9. `poems/kanchithan-annan/audit.md`
-10. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
-11. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
-12. `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`
-13. `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
-14. `poems/kanchithan-annan/HANDOVER.md`
-15. `poems/kanchithan-annan/pages/0016.md`
+9. `poems/kanchithan-annan/indexes/canonical-source-map.md`
+10. `poems/kanchithan-annan/audit.md`
+11. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
+12. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
+13. `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`
+14. `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
+15. `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`
+16. `poems/kanchithan-annan/HANDOVER.md`
+17. `poems/kanchithan-annan/pages/0016.md`
+18. `poems/kanchithan-annan/sections/01.md`
 
 ## Controlling source
 
@@ -37,24 +40,24 @@ Read completely before changes:
 
 ## Current state
 
-- intake: COMPLETE;
-- duplicate check: no repository match found;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
 - Phase 3 Gate 3: **COMPLETE / PASS**;
-- canonical-title authority: direct scan 16, `காஞ்சிதான் அண்ணன்`;
-- title conflicts: **0**;
-- author-attribution conflicts: **0**;
-- verified text changes during Gates 1–3: **0**;
-- Phase 3 Gate 4–6: NOT STARTED;
+- Phase 3 Gate 4: **COMPLETE / PASS**;
+- canonical output: `sections/01.md`;
+- canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- canonical scan markers: **1/1**;
+- source page corrections / page-status changes during Gate 4: **0 / 0**;
+- unresolved assembly defects: **0**;
+- Phase 3 Gate 5–6: NOT STARTED;
 - Phase 4: NOT STARTED.
 
 ## Next activity only
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly**.
+Perform **Phase 3 Gate 5 — canonical/source-completeness review**.
 
-Create the canonical Tamil section from the verified `pages/0016.md` source layer. Preserve the direct title authority and every verified lexical form, punctuation mark, quotation state, ellipsis and line break. Keep the decorative title design, ornaments, small design/artist signature and portrait outside the canonical lexical poem body except for appropriate provenance metadata/comments.
+Compare `sections/01.md` against the verified `pages/0016.md` layer and Gates 1–4. Verify that scan 16 occurs exactly once, canonical source payload matches the verified source text, the direct title/author authority is correct, source boundaries remain intact, and no silent normalization or invented text was introduced.
 
-**Do not perform Gate 5 canonical/source-completeness review or English translation in this same activity.**
+**Do not grant Gate 6 Tamil final clearance or begin English translation in this same activity.**

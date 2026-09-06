@@ -14,28 +14,29 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–3 PASS | not started |
+| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–4 PASS; `sections/01.md` assembled | not started |
 
-Only physical scan **16** belongs to this user-requested work intake. The surrounding 1970 Pongal issue is not part of the transcription scope, but scans **15** and **17** were inspected solely to certify the Gate-2 work boundaries.
-
-The source page visibly contains the poem title and author attribution and contains the complete poem on that single scoped page. It also contains decorative material and an author portrait beneath the poem.
+Only physical scan **16** belongs to this user-requested work intake. Scans **15** and **17** were inspected only to certify Gate-2 boundaries.
 
 ## Current state
 
 - source identity: COMPLETE;
-- repository duplicate check: no match found;
+- duplicate check: no repository match found;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
 - Phase 3 Gate 3: **COMPLETE / PASS**;
-- Phase 3 Gate 4–6: NOT STARTED;
+- Phase 3 Gate 4: **COMPLETE / PASS**;
+- Phase 3 Gate 5–6: NOT STARTED;
 - Phase 4: NOT STARTED.
 
-Gate-1 decision: scan 16 has **no visible printed page numeral**; page-layer `printed_page` remains `null`; no inferred issue-page number was introduced.
+Gate-1 decision: no visible printed page numeral; `printed_page` remains `null`.
 
-Gate-2 decision: opening and closing boundaries are certified, **0 internal joins**, and the portrait/decorative matter remains outside the poem body. No verified text changed.
+Gate-2 decision: opening/closing boundaries certified, **0 internal joins**, decorative/portrait matter outside poem body.
 
-Gate-3 decision: direct scan title `காஞ்சிதான் அண்ணன்` and the bibliographic title **காஞ்சிதான் அண்ணன்** agree exactly. The direct scan is the canonical-title authority. The catalogue description remains context only; no hybrid title was created.
+Gate-3 decision: direct scan title `காஞ்சிதான் அண்ணன்` controls the canonical title; bibliographic title agrees exactly; no hybrid title.
 
-Exact next activity: **Phase 3 Gate 4 canonical Tamil assembly**. Do not perform Gate 5 or begin translation in the same activity.
+Gate-4 decision: canonical Tamil output `sections/01.md` assembled from verified `pages/0016.md` with **1/1 provenance marker**, **0 page-record corrections**, **0 page-status changes**, and **0 unresolved assembly defects**. Canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
+
+Exact next activity: **Phase 3 Gate 5 canonical/source-completeness review**. Do not grant Tamil final clearance or begin translation in the same activity.

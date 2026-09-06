@@ -14,19 +14,22 @@ Current state:
 
 - source identity / intake: COMPLETE;
 - duplicate-title / opening-line check: no existing repository match found;
-- Phase 1 direct visual transcription: **1/1 COMPLETE**;
-- Phase 2 verification: **1/1 VERIFIED / PASS**;
-- Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
-- Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
-- Gate-3 authority: `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- canonical-title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
-- title conflicts / author-attribution conflicts: **0 / 0**;
-- verified page-text changes during Gates 1–3: **0**;
-- Phase 3 Gate 4–6: **NOT STARTED**;
+- Phase 1: **1/1 COMPLETE**;
+- Phase 2: **1/1 VERIFIED / PASS**;
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
+- Phase 3 Gate 3: **COMPLETE / PASS**;
+- Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
+- Gate-4 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`;
+- canonical output: `poems/kanchithan-annan/sections/01.md`;
+- canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- canonical scan markers: **1/1**;
+- page-record corrections / page-status changes during Gate 4: **0 / 0**;
+- unresolved assembly defects: **0**;
+- Phase 3 Gate 5–6: **NOT STARTED**;
 - Phase 4 English translation/release: **NOT STARTED**.
 
-Exact next activity: **Phase 3 Gate 4 canonical Tamil assembly** from the verified one-page source. Do not perform Gate 5 or begin English translation in the same activity.
+Exact next activity: **Phase 3 Gate 5 canonical/source-completeness review**. Do not grant Tamil final clearance or begin English translation in the same activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 

@@ -11,7 +11,7 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's poem **காஞ�
 - work scope: **physical scan 16 only**;
 - source PDF is not committed to the repository.
 
-A one-page convenience extract of physical scan 16 was also produced for source handling, but the original 108-page PDF above remains the controlling source identity.
+A one-page convenience extract of physical scan 16 exists outside the repository, but the original 108-page PDF remains the controlling source identity.
 
 ## Bibliographic identity
 
@@ -19,9 +19,9 @@ A one-page convenience extract of physical scan 16 was also produced for source 
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publication: **காஞ்சி — பொங்கல் மலர்**;
 - year/edition: **1970**;
-- user-supplied catalogue description: `அறிவுலக ஆசான் அண்ணனைப் பற்றித் தம்பி கலைஞர் எழுதிய கவிதை.`
+- catalogue description: `அறிவுலக ஆசான் அண்ணனைப் பற்றித் தம்பி கலைஞர் எழுதிய கவிதை.`
 
-The scan itself visibly carries the decorative title **காஞ்சிதான் அண்ணன்** and the author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி`.
+The scan visibly carries the title **காஞ்சிதான் அண்ணன்** and author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி`.
 
 ## Processing status
 
@@ -32,21 +32,26 @@ The scan itself visibly carries the decorative title **காஞ்சிதா�
 - Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 4–6: **NOT STARTED**;
+- Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
+- Phase 3 Gate 5–6: **NOT STARTED**;
 - Phase 4 English translation / release: **NOT STARTED**.
 
 Authorities:
 
 - Gate 1: `PHASE3_STRUCTURE_AUDIT.md`;
 - Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+- Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- Gate 4: `PHASE3_CANONICAL_ASSEMBLY.md`;
+- canonical source map: `indexes/canonical-source-map.md`.
 
-Gate 3 locks the canonical Tamil title to the direct scan-16 source form **காஞ்சிதான் அண்ணன்**. The user-supplied bibliographic title agrees exactly; no competing or hybrid title exists. The source-printed author line remains preserved in `pages/0016.md`, while bibliographic authorship remains **கலைஞர் மு. கருணாநிதி**. Gate 3 changed no verified poem text.
+Canonical Tamil output:
 
-No canonical `sections/` file exists yet. Phase boundaries remain in force.
+- `sections/01.md` — scan **16** — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
+
+Gate 4 assembled the canonical file from the verified page layer with **1/1 scan provenance marker**, **0 page-record corrections**, **0 page-status changes**, and **0 unresolved assembly defects**. The canonical title remains the direct scan-16 form `காஞ்சிதான் அண்ணன்`; the source-printed author line and all verified poem wording, punctuation, quotation states, ellipses and lineation are retained.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly** for this one-page work. Create the canonical Tamil section from the verified page-layer source, preserving the Gate-3 direct title authority and all verified wording, punctuation, quotation states, ellipses and lineation.
+Perform **Phase 3 Gate 5 — canonical/source-completeness review only**. Compare `sections/01.md` against `pages/0016.md` and the Gate-1/2/3 authorities; certify exact one-time scan coverage, title/provenance correctness and absence of silent normalization.
 
-Do **not** perform Gate 5 source-completeness review or begin English translation in the same activity.
+Do **not** grant Tamil final clearance or begin English translation in the same activity.

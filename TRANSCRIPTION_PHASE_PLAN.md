@@ -4,9 +4,7 @@
 
 Controlling PDF: `TVA_PRL_0033128_காஞ்சி_பொங்கல்_மலர்_1970.pdf` — **108 physical scans**, **104,701,910 bytes**, SHA-256 `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`.
 
-Workspace: `poems/kanchithan-annan/`.
-
-User-scoped work range: **physical scan 16 only**.
+Workspace: `poems/kanchithan-annan/`. User-scoped work range: **physical scan 16 only**.
 
 ## Phase 1 — transcription
 
@@ -14,24 +12,22 @@ User-scoped work range: **physical scan 16 only**.
 
 ## Phase 2 — source-critical verification
 
-**COMPLETE — 1/1 VERIFIED / PASS.**
-
-Authority: `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`.
+**COMPLETE — 1/1 VERIFIED / PASS.** Authority: `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`.
 
 ## Phase 3 — structure, assembly and Tamil final clearance
 
 - Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Gate-1 authority: `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`;
 - Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
-- Gate-2 authority: `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
-- Gate-3 authority: `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- canonical-title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
-- title conflicts / author conflicts: **0 / 0**;
-- verified page-text changes during Gates 1–3: **0**;
-- Gate 4–6: **NOT STARTED**.
+- Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
+- Gate-4 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`;
+- canonical output: `poems/kanchithan-annan/sections/01.md`;
+- canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- canonical active scan coverage / markers: **1/1 / 1/1**;
+- source-page corrections / page-status changes during Gate 4: **0 / 0**;
+- Gate 5–6: **NOT STARTED**.
 
-Exact next activity: **Gate 4 canonical Tamil assembly** from the verified one-page source. Do not combine Gate 4 with Gate 5 source-completeness review.
+Exact next activity: **Gate 5 canonical/source-completeness review only**. Do not combine Gate 5 with Tamil final clearance.
 
 ## Phase 4 — English translation / release
 
@@ -48,4 +44,4 @@ The prior new-item-only source remains **RELEASE-CLEARED**:
 
 ## Exact next activity
 
-**Phase 3 Gate 4 for `poems/kanchithan-annan/` only.** Preserve the verified page text and Gate-3 title authority; do not perform Gate 5 or begin English translation.
+**Phase 3 Gate 5 for `poems/kanchithan-annan/` only.** Preserve verified page and canonical text unchanged unless a genuine source-backed discrepancy requires formal reopen. Do not grant Gate 6 or begin English translation.

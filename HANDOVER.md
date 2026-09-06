@@ -6,13 +6,7 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. **Live main is authoritativ
 
 Workspace: `poems/kanchithan-annan/`.
 
-Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்_மலர்_1970.pdf`.
-
-Exact source identity:
-
-- physical PDF pages: **108**;
-- file size: **104,701,910 bytes**;
-- SHA-256: `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`.
+Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்_மலர்_1970.pdf` — **108 physical pages**, **104,701,910 bytes**, SHA-256 `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`.
 
 User-scoped work range: **physical scan 16 only**.
 
@@ -20,32 +14,30 @@ Bibliographic record: title **காஞ்சிதான் அண்ணன்*
 
 ## Current active status
 
-- source intake / exact-byte identity: COMPLETE;
-- duplicate repository check for title and opening phrase: no match found;
-- Phase 1 direct visual transcription: **1/1 COMPLETE**;
-- page record: `poems/kanchithan-annan/pages/0016.md` — `verified`;
-- Phase 2 independent verification: **1/1 VERIFIED / PASS**;
+- intake / exact-byte identity: COMPLETE;
+- duplicate check: no repository match;
+- Phase 1: **1/1 COMPLETE**;
+- Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
 - Phase 3 Gate 2: **COMPLETE / PASS**;
 - Phase 3 Gate 3: **COMPLETE / PASS**;
-- Gate-1 authority: `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-2 authority: `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate-3 authority: `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- canonical-title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
-- title conflicts: **0**;
-- author-attribution conflicts: **0**;
-- verified page-text changes through Gate 3: **0**;
-- Phase 3 Gate 4–6: NOT STARTED;
-- Phase 4: NOT STARTED;
-- no canonical Tamil or English derivative file exists yet.
+- Phase 3 Gate 4: **COMPLETE / PASS**;
+- Gate-4 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`;
+- canonical source map: `poems/kanchithan-annan/indexes/canonical-source-map.md`;
+- canonical Tamil: `poems/kanchithan-annan/sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- canonical scan markers: **1/1**;
+- verified page-text corrections / page-status changes during Gate 4: **0 / 0**;
+- unresolved assembly defects: **0**;
+- Phase 3 Gate 5–6: NOT STARTED;
+- Phase 4: NOT STARTED.
 
-The source scan controls spelling, punctuation, ellipses, lineation, quotations and historical/compact glyph readings. Do not import wording from other editions.
+The source scan controls spelling, punctuation, ellipses, lineation, quotations and historical/compact glyph readings. Canonical title authority remains direct scan 16: `காஞ்சிதான் அண்ணன்`.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly**. Create the canonical Tamil section from the verified `pages/0016.md` source layer, preserving the direct scan title authority and all verified wording, punctuation, quotation states, ellipses and lineation.
+Perform **Phase 3 Gate 5 — canonical/source-completeness review only**. Compare `sections/01.md` against the verified page record and Gates 1–4. Certify one-time scan coverage, payload fidelity, title/provenance correctness and absence of silent normalization.
 
-Do not perform Gate 5 canonical/source-completeness review or English translation in the same activity.
+Do not grant Gate 6 Tamil final clearance or begin English translation in the same activity.
 
 ## Most recently completed source — preserved
 
