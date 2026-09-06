@@ -50,7 +50,7 @@ Phase 3 Gate 3 reconciled the direct and bibliographic witnesses:
 - title conflicts: **0**;
 - hybrid title: **none**.
 
-## Canonical assembly
+## Canonical assembly and review
 
 Phase 3 Gate 4 assembled the verified source into:
 
@@ -60,6 +60,16 @@ Phase 3 Gate 4 assembled the verified source into:
 - verified page Git blob: `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
 - scan provenance markers: **1/1**;
 - page-record corrections / page-status changes: **0 / 0**.
+
+Phase 3 Gate 5 (`../PHASE3_CANONICAL_SOURCE_REVIEW.md`) certifies:
+
+- canonical inventory: **1/1 PASS**;
+- scan 16 represented exactly once;
+- canonical source-visible payload equality vs verified page layer: **1/1 PASS**;
+- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
+- silent normalization / insertion / omission: **0 / 0 / 0**;
+- unresolved source-completeness defects: **0**;
+- page/canonical text changes during review: **0 / 0**.
 
 ## Scan condition / anomalies
 
@@ -77,9 +87,10 @@ Phase 3 Gate 4 assembled the verified source into:
 - Phase 3 Gate 2: **PASS**;
 - Phase 3 Gate 3: **PASS**;
 - Phase 3 Gate 4: **PASS**;
-- Phase 3 Gate 5–6: **NOT STARTED**;
-- canonical Tamil assembly: **COMPLETE / PASS**;
+- Phase 3 Gate 5: **PASS**;
+- Phase 3 Gate 6: **NOT STARTED**;
+- canonical Tamil assembly/review: **COMPLETE / PASS**;
 - Tamil final clearance: **NOT STARTED**;
 - English translation/release: **NOT STARTED**.
 
-The controlling scan remains the highest textual authority. Exact next activity: **Phase 3 Gate 5 canonical/source-completeness review**.
+The controlling scan remains the highest textual authority. Exact next activity: **Phase 3 Gate 6 Tamil final clearance only**.
