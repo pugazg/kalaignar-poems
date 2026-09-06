@@ -38,21 +38,34 @@ Result: **PASS**.
 - reader-facing YAML control front matter: **0**;
 - title: **Kanchi Is Anna** — retained from reviewed item;
 - author attribution: **Chief Minister, Kalaignar M. Karunanidhi** — retained;
-- Kanchi publication/place/Anna identity relationship: **retained**;
-- quoted **“Thambi”**: **retained**;
-- `நிலக்களன்` / `ஆற்றொழுக்கை` reviewed English handling: **retained**;
-- repetition / parallelism / rhetorical-question force: **retained**;
-- *Pongal Malar* issue/flower relationship: **retained**;
-- first-person closing: **retained**;
+- Kanchi publication/place/Anna identity relationship: retained;
+- quoted **“Thambi”**: retained;
+- `நிலக்களன்` / `ஆற்றொழுக்கை` reviewed English handling: retained;
+- repetition / parallelism / rhetorical-question force: retained;
+- *Pongal Malar* issue/flower relationship: retained;
+- first-person closing: retained;
 - reviewed English lexical changes during assembly: **0**;
 - Tamil `pages/` changes during assembly: **0**;
 - Tamil canonical `sections/` changes during assembly: **0**;
 - unresolved assembly defects: **0**.
 
+## Editorial consistency status
+
+`EDITORIAL_CONSISTENCY_REVIEW.md` subsequently completed **PASS**.
+
+It reconfirmed standalone ↔ reader-facing body synchronization, title/attribution presentation, terminology and transliteration conventions, source-sensitive imagery, quotation/ellipsis states, repetition/parallelism, memorial voice, first-person close and reader-facing cleanliness.
+
+- unresolved editorial / terminology / voice issues: **0**;
+- standalone English lexical changes required: **0**;
+- reader-facing English lexical changes required: **0**;
+- Tamil page/canonical changes required: **0 / 0**.
+
+The reader-facing blob therefore remains `97b2d62b9c9aa019220dd67ed814b533d4b0a775`.
+
 ## Phase-4 transition
 
-Batch 01 remains **1/1 REVIEWED / PASS** and the reader-facing English assembly is now **COMPLETE / PASS**.
+Batch 01 remains **1/1 REVIEWED / PASS**, reader-facing assembly is **COMPLETE / PASS**, and editorial consistency is **COMPLETE / PASS**.
 
 The work is **not yet release-cleared**.
 
-Exact next activity: **editorial / terminology / voice consistency review only** across reviewed `sections/01.md` and reader-facing `kanchithan-annan-en.md`. Create `EDITORIAL_CONSISTENCY_REVIEW.md` if the review passes. Do not perform final source-coverage / release-integrity or release-clearance in the same activity.
+Exact next activity: **final source-coverage / release-integrity review only**. Create `RELEASE_INTEGRITY_REVIEW.md` if the gate passes. Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.
