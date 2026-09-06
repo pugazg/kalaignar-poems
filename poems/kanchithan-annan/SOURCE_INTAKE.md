@@ -14,7 +14,7 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English status |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | **FINAL-CLEARED** | Batch 01 REVIEWED / reader-facing assembly PASS |
+| 01 | 16 | none | new Kalaignar poem | **FINAL-CLEARED** | Batch 01 REVIEWED / assembly PASS / editorial PASS |
 
 Only physical scan **16** belongs to this work. Scans **15** and **17** were inspected only for boundary certification.
 
@@ -30,8 +30,9 @@ Only physical scan **16** belongs to this work. Scans **15** and **17** were ins
 - reviewed English: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing English: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
 - assembly authority: `translations/en/ASSEMBLY.md` — **COMPLETE / PASS**;
+- editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
 - active scan markers: **1/1 exactly once**;
-- unresolved Tamil / translation / assembly issues: **0 / 0 / 0**;
+- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
 - Tamil page/canonical changes during Phase 4: **0 / 0**.
 
-Exact next activity: **editorial / terminology / voice consistency review only**. Do not perform release-integrity or release-clearance in the same activity.
+Exact next activity: **final source-coverage / release-integrity review only**. Do not create the release report or grant release clearance in the same activity.
