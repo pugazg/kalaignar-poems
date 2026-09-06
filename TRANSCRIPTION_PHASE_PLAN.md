@@ -25,28 +25,28 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — GATES 1–4 COMPLETE / PASS; GATE 5 NEXT.**
+**IN PROGRESS — GATES 1–5 COMPLETE / PASS; GATE 6 NEXT.**
 
 1. Physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**
 2. Boundary / page-join audit — **COMPLETE / PASS**
 3. Title-witness reconciliation — **COMPLETE / PASS**
 4. Canonical Tamil assembly — **COMPLETE / PASS**
-5. Assembly/source-completeness review — **NEXT**
-6. Tamil final clearance — deferred
+5. Assembly/source-completeness review — **COMPLETE / PASS**
+6. Tamil final clearance — **NEXT**
 
-### Gate 4 result
+### Gate 5 result
 
-Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_CANONICAL_ASSEMBLY.md`.
+Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
-- canonical outputs: `sections/01.md`, `sections/02.md`, `sections/04.md`;
-- canonical items: **3/3**;
-- verified active pages represented: **22/22**;
-- explicit scan provenance markers: **22/22**;
-- scan 66 canonical inclusion: **0**;
-- verified page-text changes: **0**;
-- page-status changes: **0**;
-- unresolved assembly defects: **0**;
-- canonical source map: `indexes/canonical-source-map.md`.
+- canonical item inventory: **3/3 PASS**;
+- active source scan accounting: **22/22 PASS**;
+- canonical payload equality against verified page layer: **22/22 PASS**;
+- title/context authority: **3/3 PASS**;
+- internal joins preserved: **19/19 PASS**;
+- scan 66 canonical occurrences: **0**;
+- unresolved source-completeness defects: **0**;
+- verified page-record changes: **0**;
+- canonical item changes: **0**.
 
 ## Phase 4 — English translation / release
 
@@ -54,4 +54,4 @@ Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_CANONICAL_ASSE
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 5 only — assembly / source-completeness review** for the three canonical files. Do not grant Tamil final clearance or begin Phase 4 in the same activity.
+Perform **Phase 3 Gate 6 only — Tamil final clearance**. Confirm Gates 1–5 are all PASS and decide whether the Tamil source/canonical layer is ready for Phase 4. Do not begin English translation in the same activity.
