@@ -15,19 +15,30 @@ Scoped page records: **6/6**. Phase 2 verified pages: **6/6**. Phase 3 Gate 1: *
 
 ## Gate 1 pagination finding
 
-The printed numeral **19** on scan 119 remains directly certified. Full-page visual review found no source-visible page numeral on scans 120–124, so their `printed_page` fields remain `null`.
-
-No sequence-based numerals are inferred or backfilled for scans 120–124, and no separate logical-page values are asserted for them in this gate. The complete Gate-1 authority is `../PHASE3_STRUCTURE_AUDIT.md`.
+The printed numeral **19** on scan 119 remains directly certified. No source-visible page numeral occurs on scans 120–124, so their `printed_page` fields remain `null`; no sequence-based numerals are inferred. Authority: `../PHASE3_STRUCTURE_AUDIT.md`.
 
 ## Gate 2 boundary finding
 
 `../PHASE3_BOUNDARY_JOIN_AUDIT.md` is **COMPLETE / PASS**.
 
 - work opening: scan **119 PASS**;
-- internal physical joins: **119→120, 120→121, 121→122, 122→123, 123→124 = 5/5 PASS**;
+- physical joins 119→120→121→122→123→124: **5/5 PASS**;
 - two-column turns on scans 120–124: **5/5 PASS**;
 - closing boundary: scan **124 PASS**;
-- scans 118 and 125: neighbouring evidence only, outside transcription scope;
+- scans 118 and 125: neighbouring evidence only;
 - unresolved boundary/carry-over issues: **0**.
 
-Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation only**.
+## Gate 3 title-witness finding
+
+`../PHASE3_TITLE_WITNESS_RECONCILIATION.md` is **COMPLETE / PASS**.
+
+- scan 119: decorated work title **`அண்ணா கவியரங்கம்`** = top-level title authority;
+- scan 119: `‘அண்ணா கவியரங்கத்திற்கு’` = contextual inflected reference only;
+- scan 121: first internal handoff heading;
+- scan 122: three internal handoff headings;
+- scan 123: three internal handoff headings;
+- scan 124: final internal handoff heading;
+- internal handoff headings reconciled: **8/8 PASS**;
+- unresolved title-witness issues: **0**.
+
+Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly only**.

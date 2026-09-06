@@ -12,24 +12,19 @@ Scope: physical scans **119–124**. Bibliographic record: **அண்ணா க
 
 ### Durable status
 
-**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PASS / PHASE 3 GATES 1–2 COMPLETE-PASS.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE-PASS.**
 
 - `pages/0119.md`–`0124.md`: **6/6 verified**;
 - Phase-2 authority: `poems/anna-kaviyarangam/PHASE2_SOURCE_VERIFICATION.md`;
-- historical-glyph independent second pass: **PASS**;
-- unresolved Tamil issues: **0**;
-- Phase-3 Gate-1 authority: `poems/anna-kaviyarangam/PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-1 physical scan accounting: **6/6 PASS**;
-- scan 119 printed page directly certified as **19**;
-- scans 120–124 have no visible page numeral and remain `null`; no sequence-based numerals inferred;
-- Phase-3 Gate-2 authority: `poems/anna-kaviyarangam/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate-2 opening boundary: scan **119 PASS**;
-- internal physical joins: **5/5 PASS**;
-- internal two-column turns: **5/5 PASS**;
-- closing boundary: scan **124 PASS**;
-- scans 118 and 125 used only as neighbouring boundary evidence;
-- unresolved boundary/carry-over issues: **0**;
-- Phase 3 Gate 3: not started;
+- historical-glyph second pass: **PASS**; unresolved Tamil issues: **0**;
+- Gate 1: `poems/anna-kaviyarangam/PHASE3_STRUCTURE_AUDIT.md` — **COMPLETE / PASS**; scan 119 printed page **19**, scans 120–124 `null` with no inferred numerals;
+- Gate 2: `poems/anna-kaviyarangam/PHASE3_BOUNDARY_JOIN_AUDIT.md` — **COMPLETE / PASS**; opening PASS, physical joins **5/5**, column turns **5/5**, closing PASS, unresolved boundary issues **0**;
+- Gate 3: `poems/anna-kaviyarangam/PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **COMPLETE / PASS**;
+- Gate-3 top-level title authority: **`அண்ணா கவியரங்கம்`**;
+- `‘அண்ணா கவியரங்கத்திற்கு’` is contextual inflection only;
+- eight internal handoff headings remain verbatim; ஆனந்தம் and வேழவேந்தன் body/title variants must not be normalized or hybridized;
+- unresolved title-witness issues: **0**;
+- Phase 3 Gate 4: not started;
 - canonical Tamil: not assembled;
 - English: not started.
 
@@ -37,7 +32,7 @@ No-regression user controls remain scan 119 `காவிரியப் பூ�
 
 ### Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Inventory and compare source-visible work/title/handoff witnesses, preserve each exactly, and record the authority rule required for later canonical assembly. Keep Gate 4 and later gates separate.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only** from the verified page layer using Gates 1–3 decisions. Keep Gate 5, Tamil final clearance and translation separate.
 
 ## Recently closed work — காஞ்சிதான் அண்ணன்
 

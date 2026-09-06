@@ -4,12 +4,12 @@ Source-first workspace for the Kalaignar chair-poem printed in `முரசொ�
 
 ## Current state
 
-**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / HISTORICAL-GLYPH SECOND PASS PASS / PHASE 3 GATE 1 COMPLETE-PASS / GATE 2 COMPLETE-PASS / GATE 3 NOT STARTED.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / HISTORICAL-GLYPH SECOND PASS PASS / PHASE 3 GATES 1–3 COMPLETE-PASS / GATE 4 NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf`;
 - exact PDF identity: **136 pages / 58,026,496 bytes / SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`**;
 - poem scope: physical scans **119–124**;
-- title: **அண்ணா கவியரங்கம்**;
+- source-authoritative work title: **அண்ணா கவியரங்கம்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - event: World Tamil Conference Anna kaviyarangam, **7.1.1968**;
 - duplicate decision: **new poem**;
@@ -18,11 +18,14 @@ Source-first workspace for the Kalaignar chair-poem printed in `முரசொ�
 - Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
 - Phase-3 Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`;
 - Phase-3 Gate-2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Phase-3 Gate-3 authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - page records `pages/0119.md`–`0124.md`: **6/6 verified**;
 - Gate-1 physical scans accounted: **6/6**;
 - printed-page witness: scan 119 = **19**; scans 120–124 = `null`, with no inferred numerals;
 - Gate-2 opening / 5 scan joins / 5 column turns / closing boundary: **PASS**;
-- unresolved Tamil or boundary issues: **0**;
+- Gate-3 top-level title authority: **`அண்ணா கவியரங்கம்`**;
+- Gate-3 internal handoff headings: **8/8 preserved as distinct source-visible structural headings**;
+- unresolved Tamil / boundary / title-witness issues: **0**;
 - canonical Tamil: not assembled;
 - English: not started.
 
@@ -30,4 +33,4 @@ User-manually verified no-regression controls remain scan 119 `காவிர�
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Inventory and compare source-visible title/handoff witnesses, preserve each exactly, and record the authority rule for later canonical assembly. Do not begin canonical assembly, Tamil final clearance or translation in the same activity.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Assemble from verified page records using the certified Gate-1 pagination, Gate-2 joins and Gate-3 title authority. Do not begin Gate 5, Tamil final clearance or translation in the same activity.

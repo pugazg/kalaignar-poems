@@ -8,35 +8,28 @@ Workspace: `poems/anna-kaviyarangam/`. User-scoped work range: **physical scans 
 
 ### Phase 1 — transcription
 
-**COMPLETE — 6/6.**
-
-Authority: `poems/anna-kaviyarangam/PHASE1_COMPLETION.md`.
+**COMPLETE — 6/6.** Authority: `poems/anna-kaviyarangam/PHASE1_COMPLETION.md`.
 
 ### Phase 2 — source-critical verification
 
-**COMPLETE — 6/6 VERIFIED / PASS.**
-
-Authority: `poems/anna-kaviyarangam/PHASE2_SOURCE_VERIFICATION.md`.
+**COMPLETE — 6/6 VERIFIED / PASS.** Authority: `poems/anna-kaviyarangam/PHASE2_SOURCE_VERIFICATION.md`.
 
 Historical-glyph second pass: **PASS**. Unresolved Tamil issues: **0**.
 
 ### Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — Gates 1 and 2 COMPLETE / PASS; Gate 3 NOT STARTED.**
+**IN PROGRESS — Gates 1, 2 and 3 COMPLETE / PASS; Gate 4 NOT STARTED.**
 
-- Gate-1 authority: `poems/anna-kaviyarangam/PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-1 result: all six scoped physical scans accounted; scan 119 directly certifies printed page **19**; scans 120–124 have no visible numeral and remain `null` with no inferred values;
-- Gate-2 authority: `poems/anna-kaviyarangam/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate-2 result: work opening PASS; internal physical scan joins **5/5 PASS**; internal two-column turns **5/5 PASS**; closing boundary PASS; unresolved boundary/carry-over issues **0**;
-- Gates 1–2 page-text changes: **0**.
+- Gate 1: `poems/anna-kaviyarangam/PHASE3_STRUCTURE_AUDIT.md` — six scans accounted; scan 119 printed page **19**; scans 120–124 remain `null`, no inferred values;
+- Gate 2: `poems/anna-kaviyarangam/PHASE3_BOUNDARY_JOIN_AUDIT.md` — opening PASS; physical joins **5/5 PASS**; column turns **5/5 PASS**; closing PASS; unresolved boundary issues **0**;
+- Gate 3: `poems/anna-kaviyarangam/PHASE3_TITLE_WITNESS_RECONCILIATION.md` — top-level title authority **`அண்ணா கவியரங்கம்`**; eight internal handoff headings preserved verbatim; body/title variants preserved without normalization; unresolved title-witness issues **0**;
+- Gates 1–3 page-text changes: **0**.
 
-Exact next gate: **Gate 3 — title-witness reconciliation only.** Do not combine Phase-3 gates.
+Exact next gate: **Gate 4 — canonical Tamil assembly only.** Do not combine Phase-3 gates.
 
 ### Phase 4 — translation / release
 
-**NOT STARTED.**
-
-Translation remains blocked until Tamil final clearance.
+**NOT STARTED.** Translation remains blocked until Tamil final clearance.
 
 ---
 

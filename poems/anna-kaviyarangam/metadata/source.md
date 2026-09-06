@@ -29,17 +29,19 @@
 
 ## Printed-page numbering behaviour — Phase 3 Gate 1
 
-Within the user-scoped scans **119–124**, scan **119** directly witnesses printed page **19**. Full-page source inspection finds no visible page numeral on scans **120–124**; their page-record `printed_page` fields therefore remain `null`.
-
-No sequence-based values are inferred for scans 120–124, and this gate does not reconstruct the wider 136-page periodical's logical pagination. Authority: `../PHASE3_STRUCTURE_AUDIT.md` — **Gate 1 COMPLETE / PASS**.
+Within scans **119–124**, scan **119** directly witnesses printed page **19**. No visible page numeral occurs on scans **120–124**; their `printed_page` fields remain `null`. No sequence-based values are inferred. Authority: `../PHASE3_STRUCTURE_AUDIT.md` — **COMPLETE / PASS**.
 
 ## Boundary / join behaviour — Phase 3 Gate 2
 
-The scoped work begins physically on scan **119** and closes on scan **124**. Scan 118 is preceding unrelated prose material; scan 125 begins a separate decorated article. Those neighbouring scans are boundary evidence only and remain outside transcription scope.
+The scoped work begins on scan **119** and closes on scan **124**. Scans 118 and 125 are neighbouring boundary evidence only. All five physical joins and all five left-to-right column turns pass. Authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md` — **COMPLETE / PASS**. Unresolved boundary/carry-over issues: **0**.
 
-All five scoped physical joins **119→120→121→122→123→124** pass direct source review. The left-to-right column turns on scans **120–124** also pass. Source-visible poet-handoff headings are preserved as structural markers; Gate 2 makes no title-authority or normalization decision.
+## Title-witness behaviour — Phase 3 Gate 3
 
-Authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md` — **Gate 2 COMPLETE / PASS**. Unresolved boundary/carry-over issues: **0**.
+The decorated scan-119 header **`அண்ணா கவியரங்கம்`** is the sole top-level work-title authority for later assembly. The context-panel form `‘அண்ணா கவியரங்கத்திற்கு’` is an inflected prose reference and does not compete with the heading.
+
+The eight poet handoff headings on scans 121–124 are internal structural witnesses and must remain verbatim, including their source punctuation. Body references are not normalized to those headings. In particular, the source preserves `தலைவராம் அண்ணா` alongside heading `‘தலைவர் அண்ணா’`, and preserves the வேழவேந்தன் forms `அன்னையாம் அண்ணா`, `‘அண்ணா அன்னை’`, and heading `அன்னை அண்ணா` as distinct witnesses.
+
+Authority: `../PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **COMPLETE / PASS**. Unresolved title-witness issues: **0**.
 
 ## Related witness
 
