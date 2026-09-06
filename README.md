@@ -2,7 +2,7 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
-## Active work — காஞ்சிதான் அண்ணன் (1970)
+## காஞ்சிதான் அண்ணன் (1970) — release-cleared
 
 Workspace: `poems/kanchithan-annan/`
 
@@ -10,28 +10,20 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 User-scoped work range: **physical scan 16 only**.
 
-Current state:
+**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCH 01 REVIEWED PASS / ASSEMBLY PASS / EDITORIAL PASS / RELEASE-INTEGRITY PASS / RELEASE-CLEARED.**
 
-- source identity / intake: COMPLETE;
-- duplicate-title / opening-line check: no existing repository match found;
-- Phase 1: **1/1 COMPLETE**;
-- Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **COMPLETE / PASS**;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
-- canonical Tamil: `poems/kanchithan-annan/sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
+Release-cleared outputs:
+
+- Tamil canonical: `poems/kanchithan-annan/sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - reviewed English: `poems/kanchithan-annan/translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- reader-facing English assembly: **COMPLETE / PASS**;
-- reader-facing output: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- editorial / terminology / voice consistency review: **COMPLETE / PASS**;
-- final source-coverage / release-integrity review: **COMPLETE / PASS**;
-- release-integrity authority: `poems/kanchithan-annan/translations/en/RELEASE_INTEGRITY_REVIEW.md`;
-- active English source coverage: **1/1 — scan 16 exactly once**;
-- unresolved Tamil / translation / assembly / editorial / release-integrity issues: **0 / 0 / 0 / 0 / 0**;
-- Tamil page/canonical drift since final clearance: **0 / 0**;
-- work status: **NOT YET RELEASE-CLEARED**.
+- reader-facing English: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
+- release-integrity authority: `poems/kanchithan-annan/translations/en/RELEASE_INTEGRITY_REVIEW.md` — PASS;
+- release authority: `poems/kanchithan-annan/translations/en/RELEASE_REPORT.md`;
+- active source coverage: **1/1 — scan 16 exactly once**;
+- unresolved release issues: **0**;
+- Tamil page/canonical drift since final clearance: **0 / 0**.
 
-Exact next activity: create `poems/kanchithan-annan/translations/en/RELEASE_REPORT.md` and make the explicit **release-clearance decision only** after reconfirming live artifact identities. Do not make Tamil or English lexical edits as part of release reporting unless a genuine defect is formally reopened.
+No further production work is pending for this poem. Future textual changes require a documented source-backed reopen.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
@@ -64,4 +56,5 @@ Reader-facing English collection:
 - `poems/gunanayagar-nehru/` — RELEASE-CLEARED;
 - `poems/oruthalaik-kathal/` — RELEASE-CLEARED;
 - `poems/kalaignarin-kavithaigal/` — RELEASE-CLEARED;
-- `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED.
+- `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
+- `poems/kanchithan-annan/` — RELEASE-CLEARED.
