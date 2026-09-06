@@ -69,6 +69,20 @@ The source-printed author line `முதலமைச்சர், கலைஞ�
 
 **Phase 3 Gate 4 is COMPLETE / PASS.**
 
-Gate 5 has not been performed here.
+## Subsequent Gate 5 outcome
 
-Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review only**. Compare `sections/01.md` against the verified page layer and the Gate-1/2/3 authorities; certify one-time scan coverage, payload fidelity, title/provenance correctness and absence of silent normalization. Do not grant Tamil final clearance in the same activity.
+Phase 3 Gate 5 subsequently completed **PASS**. Durable authority: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical item inventory: **1/1 PASS**;
+- active source scan accounting: **1/1 exactly once**;
+- canonical source-visible payload equality vs verified page layer: **1/1 PASS**;
+- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
+- title / attribution provenance: **PASS**;
+- opening / closing boundaries: **PASS / PASS**;
+- silent normalization / insertion / omission: **0 / 0 / 0**;
+- unresolved source-completeness defects: **0**;
+- verified page/canonical Tamil changes during Gate 5: **0 / 0**.
+
+## Exact next gate
+
+Proceed to **Phase 3 Gate 6 — Tamil final clearance only**. Do not begin English translation in the same activity.
