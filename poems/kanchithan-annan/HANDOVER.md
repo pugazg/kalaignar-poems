@@ -23,29 +23,30 @@ User-scoped work range: **physical scan 16 only**.
 - canonical Tamil: `sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - Phase 4 setup: **COMPLETE**;
 - Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
-- reviewed English: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- batch authority: `translations/en/batches/batch-01.md`;
+- English item: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing assembly: **COMPLETE / PASS**;
-- reader-facing output: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- assembly authority: `translations/en/ASSEMBLY.md`;
-- scan-16 marker: **1/1 exactly once**;
-- reviewed English lexical changes during assembly: **0**;
-- unresolved translation / assembly issues: **0 / 0**;
+- reader-facing file: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
+- editorial / terminology / voice consistency review: **COMPLETE / PASS**;
+- editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+- active English scan coverage: **1/1 exactly once**;
+- English lexical changes required by editorial gate: **0**;
+- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
 - Tamil `pages/` / canonical `sections/` changes during Phase 4: **0 / 0**.
 
-## Reviewed translation / assembly locks
+## Reviewed translation locks
 
 - English title: **Kanchi Is Anna** from direct `காஞ்சிதான் அண்ணன்`;
 - Kanchi publication/place/Anna identity relationship retained;
 - quoted `தம்பி` retained as **“Thambi”**;
-- `நிலக்களன்` / `ஆற்றொழுக்கை` source-sensitive handling retained;
-- repetition, parallelism, ellipses and rhetorical-question force retained;
-- *Pongal Malar* keeps the issue/flower relationship recoverable;
-- first-person closing remains explicit;
-- reader-facing assembly removes YAML only and retains the reviewed H1, attribution, scan marker and poem body exactly.
+- `நிலக்களன்` / `ஆற்றொழுக்கை` handled without Tamil normalization;
+- repetition, parallelism, rhetorical questions and first-person close retained;
+- *Pongal Malar* keeps the special-issue / flower relationship recoverable;
+- reader-facing file contains no YAML or batch-control leakage.
+
+The normal translation source remains FINAL-CLEARED Tamil. Any genuine Tamil correction still requires formal reopening.
 
 ## Exact next activity
 
-**Editorial / terminology / voice consistency review only.** Review `translations/en/sections/01.md` and `translations/en/kanchithan-annan-en.md`; create `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` if PASS.
+**Final source-coverage / release-integrity review only.** Create `translations/en/RELEASE_INTEGRITY_REVIEW.md` after checking reviewed-item synchronization, reader-facing blob identity, scan 16 exactly once, title/attribution, certified boundaries, reader-facing cleanliness and zero Tamil drift.
 
-Do not perform final source-coverage/release-integrity or release-clearance in the same activity.
+Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.
