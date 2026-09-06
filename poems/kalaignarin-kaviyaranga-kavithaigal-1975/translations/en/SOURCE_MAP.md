@@ -28,15 +28,15 @@ These three canonical items account for **22/22** active Kalaignar scans exactly
 | 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58 | event prose remains separate; preserve source `கவியரங்கில்` identity |
 | 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67 | scan 66 `மறுப்புக் கவிதை` is contextual only, not title authority |
 
-English title wording is intentionally **not drafted in setup**. Each batch must translate its direct canonical heading and record the decision.
+Item 01 English title is now reviewed as **At the Revolutionary Poet's Poetry Gathering / Chief Minister Kalaignar's Presiding Poem**. Items 02 and 04 English title wording remains to be decided in their own batches.
 
 ## Structural witnesses relevant to translation
 
 - all **19/19** certified internal joins remain authoritative;
-- Item 01 scan **50→51** carries an unusual source-open quotation state; English must not silently invent a source quotation closure at that boundary;
+- Item 01 scan **50→51** carries an unusual source-open quotation state; reviewed English Batch 01 preserves it without inserting a source closure;
 - closing horizontal rules follow scans **57, 65 and 68** and are structural, non-lexical witnesses;
 - Item 04 scan **68** ends `பட்டியல் பிறகு சொல்வேன்:` before its closing rule; translation must not invent a missing list or continuation;
-- explicit `scan_page` markers must be retained in future English item files for coverage review.
+- explicit `scan_page` markers remain mandatory for coverage review.
 
 ## Exclusions
 
@@ -47,22 +47,26 @@ English title wording is intentionally **not drafted in setup**. Each batch must
 
 ## Batch source partition
 
-| Batch | Item | Required source scans | Expected marker count | Status |
-|---:|---:|---:|---:|---|
-| 01 | 01 | 46–57 | 12 | **NEXT** |
-| 02 | 02 | 58–65 | 8 | planned |
-| 03 | 04 | 67–68 | 2 | planned |
+| Batch | Item | Required source scans | Expected marker count | English file | Status |
+|---:|---:|---:|---:|---|---|
+| 01 | 01 | 46–57 | 12 | `sections/01.md` | **reviewed PASS** |
+| 02 | 02 | 58–65 | 8 | `sections/02.md` | **NEXT** |
+| 03 | 04 | 67–68 | 2 | `sections/04.md` | planned |
 
-Total planned English item coverage: **22 scans / 22 markers**.
+Total planned English item coverage: **22 scans / 22 markers**. Reviewed to date: **12/22 scans / 12 markers**.
 
-## English output state at setup
+## Reviewed English item map
 
-- `sections/01.md`: not yet created;
-- `sections/02.md`: not yet created;
-- `sections/04.md`: not yet created;
-- batch review records: **0/3**;
-- English poem text drafted during setup: **0**.
+| Item | English title | English file | Git blob | Source scans | Status |
+|---:|---|---|---|---:|---|
+| 01 | At the Revolutionary Poet's Poetry Gathering / Chief Minister Kalaignar's Presiding Poem | `sections/01.md` | `4dfbb95c099108398eeccd6bfb368e34d7db2ee0` | 46–57 | **reviewed PASS** |
+| 02 | — | `sections/02.md` | — | 58–65 | NEXT |
+| 04 | — | `sections/04.md` | — | 67–68 | planned |
+
+Batch-01 review authority: `batches/batch-01.md`.
+
+Batch 01 confirms **12/12** markers unique/in order, no omissions or duplicated source passages, no Tamil page/canonical changes, preservation of the scan **50→51** quotation state, and structural representation of the scan-57 closing rule. Two initial English marker placements at **46→47** and **55→56** were corrected during review before PASS.
 
 ## Exact next activity
 
-**Batch 01 — Item 01 / scans 46–57 only.** Use final-cleared `../../sections/01.md` as the normal working source, retain all 12 scan markers, document title and source-sensitive `குடி` / quotation / Bharathi-Bharathidasan wordplay decisions, and source-review the complete English item before marking the batch PASS.
+**Batch 02 — Item 02 / scans 58–65 only.** Use final-cleared `../../sections/02.md` as the normal working source, retain all **8** scan markers, preserve the `மை` wordplay relationship and all source-visible poet hand-offs, and source-review the complete English item before marking Batch 02 PASS. Do not begin Item 04 / Batch 03 in the same activity.
