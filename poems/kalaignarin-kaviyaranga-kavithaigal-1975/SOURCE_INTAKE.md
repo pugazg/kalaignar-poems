@@ -14,17 +14,19 @@
 
 ## Corrected intake decision
 
-| ID | Source-heading witness | Scans | Canonical state |
-|---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | `sections/01.md` — Gate 4 PASS |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | `sections/02.md` — Gate 4 PASS |
-| 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context; no canonical Kalaignar file** |
-| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | `sections/04.md` — Gate 4 PASS |
+| ID | Source-heading witness | Scans | Canonical output | Current state |
+|---:|---|---:|---|---|
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | `sections/01.md` | **Gates 1–5 PASS** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | `sections/02.md` | **Gates 1–5 PASS** |
+| 03 | `சாராய சுதந்திரம்` | 66 | none | **NON-KALAIGNAR — Rajaji source/context** |
+| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | `sections/04.md` | **Gates 1–5 PASS** |
 
-Active Kalaignar production scans: **22/22 verified and canonically assembled**. Already represented poems remain classification-only/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Scans **69–70** are Bharathidasan material.
+Active Kalaignar production scans: **22/22 verified and canonically source-reviewed**. Scan 66 is retained only as source/context and remains excluded from canonical Kalaignar text.
 
-Historical-glyph screening and independent recheck are complete across all **22/22** active Kalaignar target scans. Phase 3 Gates 1–4 are complete/pass. Gate-4 source map: `indexes/canonical-source-map.md`.
+Already represented poems remain classification-only/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Scans **69–70** are Bharathidasan material.
+
+Gate 5 authority: `PHASE3_CANONICAL_SOURCE_REVIEW.md` — canonical payload equality **22/22 PASS**, unresolved source-completeness defects **0**.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 5 — assembly / source-completeness review only**. Do not grant Tamil final clearance or begin translation in the same activity.
+Perform **Phase 3 Gate 6 — Tamil final clearance only**. Do not begin translation in the same activity.
