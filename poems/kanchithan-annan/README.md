@@ -29,35 +29,23 @@ The scan visibly carries the title **காஞ்சிதான் அண்ண
 - duplicate-title / opening-line repository search: **no existing match found**;
 - Phase 1 transcription: **COMPLETE — 1/1 scoped scan**;
 - Phase 2 source-critical verification: **COMPLETE — 1/1 VERIFIED / PASS**;
-- Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
-- Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
-- Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Phase 3 Gate 5 canonical/source-completeness review: **COMPLETE / PASS**;
-- Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4 English translation / release: **NOT STARTED**.
+- canonical Tamil: `sections/01.md` — scan **16** — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- unresolved Tamil issues: **0**;
+- Phase 4 English translation setup: **COMPLETE**;
+- English item translation/review: **NOT STARTED**.
 
-Authorities:
+Phase-4 controls:
 
-- Gate 1: `PHASE3_STRUCTURE_AUDIT.md`;
-- Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- Gate 4: `PHASE3_CANONICAL_ASSEMBLY.md`;
-- Gate 5: `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
-- Gate 6: `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-- canonical source map: `indexes/canonical-source-map.md`.
+- `translations/en/README.md`;
+- `translations/en/TRANSLATION_PLAN.md`;
+- `translations/en/SOURCE_MAP.md`.
 
-Canonical Tamil output:
-
-- `sections/01.md` — scan **16** — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
-
-Final clearance certifies Gates **1–5 PASS**, **1/1 verified source scan**, **1/1 canonical item**, **1/1 scan marker exactly once**, **1/1 canonical payload equality against the verified page layer**, and **0 unresolved Tamil lexical, historical-glyph, pagination, boundary, title, assembly or completeness issues**. Gate 6 changed no Tamil page or canonical text.
-
-The controlling scan remains the highest textual authority. Any later genuine source-backed correction must formally reopen the affected source/canonical layer.
+The setup pins normal translation authority to FINAL-CLEARED `sections/01.md`; if Tamil is questioned, authority returns to controlling scan 16, then verified page, canonical item and Phase-3 records. No English poem text was drafted during setup.
 
 ## Exact next activity
 
-Perform **Phase 4 English translation setup only**. Create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md` from the FINAL-CLEARED Tamil authority.
+Perform **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review only**. Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md`.
 
-Do **not** draft the English poem in that same setup activity.
+Do **not** perform reader-facing assembly, editorial consistency review or release clearance in the same activity.
