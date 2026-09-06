@@ -25,12 +25,14 @@ Current state:
 - reviewed English: `poems/kanchithan-annan/translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing English assembly: **COMPLETE / PASS**;
 - reader-facing output: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- assembly authority: `poems/kanchithan-annan/translations/en/ASSEMBLY.md`;
+- editorial / terminology / voice consistency review: **COMPLETE / PASS**;
+- editorial authority: `poems/kanchithan-annan/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+- English lexical changes required by editorial gate: **0**;
 - English scan markers: **1/1 exactly once**;
-- unresolved translation / assembly issues: **0 / 0**;
-- Tamil page/canonical changes during Phase 4 Batch 01 + assembly: **0 / 0**.
+- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
+- Tamil page/canonical changes during Phase 4: **0 / 0**.
 
-Exact next activity: **editorial / terminology / voice consistency review only** for the reviewed and reader-facing English. Do not perform release-integrity or release-clearance in the same activity.
+Exact next activity: **final source-coverage / release-integrity review only**. Create `poems/kanchithan-annan/translations/en/RELEASE_INTEGRITY_REVIEW.md`; do not create the release report or grant release clearance in the same activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
