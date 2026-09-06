@@ -12,9 +12,18 @@ Rules:
 - no OCR guess controls a reading;
 - no global search/replace;
 - no spelling or sandhi modernization;
-- a later witness may corroborate identity but cannot substitute for the 1968 pixels;
-- unresolved compact clusters remain marked in the Phase-1 page records.
+- a later witness may corroborate identity but cannot substitute for the 1968 pixels.
 
-Representative source-sensitive identities already screened include `அண்ணா`, `அன்னை`, `என்றாள்`, `ஈன்றாள்`, `மண்ணில்`, `தமிழன்னை`, `கண்ணீர்`, `நின்று`, and related `னை/ணை/றா` forms.
+Representative source-sensitive identities screened include `அண்ணா`, `அன்னை`, `என்றாள்`, `ஈன்றாள்`, `தமிழன்னை`, `கண்ணீர்`, `நெய்யளைந்தே`, `காவிரியப்`, and related `னை/ணை/ளை/றா` forms.
 
-Phase 2 must independently repeat the visual glyph audit rather than treating this first pass as verification.
+## Phase-1 result
+
+- scoped scans screened: **6/6**;
+- Phase-1 transcription: **COMPLETE**;
+- explicit unresolved markers remaining: **0**;
+- lexical adjudication: `LEXICAL_ADJUDICATION_2026-09-06.md`;
+- user manual no-regression controls: preserved;
+- page statuses: **6/6 `partial`**;
+- Phase 2 verified pages: **0/6**.
+
+This document records only the **first-pass** historical-glyph screen used during transcription. Phase 2 must independently repeat the visual glyph audit against the controlling pixels rather than treating this first pass as verification.

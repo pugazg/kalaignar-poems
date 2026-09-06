@@ -12,27 +12,25 @@ Bibliographic identity: **அண்ணா கவியரங்கம்**, க�
 
 - new poem / no canonical repository duplicate;
 - onboarding complete;
-- page records `0119.md`–`0124.md` created;
-- Phase 1 remains **IN PROGRESS**;
+- Phase 1: **COMPLETE — 6/6 scans transcribed**;
+- explicit unresolved markers: **0**;
+- page records `0119.md`–`0124.md`: all **`partial`**, none verified;
 - historical Tamil glyph first-pass applied across all six scans;
-- high-pixel word-level comparison against the user-supplied transcription has been applied to the page records;
-- the user's manual source overrides are durably recorded in `LEXICAL_ADJUDICATION_2026-09-06.md`;
-- all six pages remain `needs-review` because explicit unresolved passages remain;
-- Phase 2 not started;
-- no page is `verified`;
+- high-pixel word-level comparison against the user-supplied transcription applied;
+- user manual source overrides durably recorded in `LEXICAL_ADJUDICATION_2026-09-06.md`;
+- Phase-1 completion authority: `PHASE1_COMPLETION.md`;
+- Phase 2 not started / verified pages **0/6**;
 - no canonical Tamil assembly;
 - no English translation.
 
-### Manual lexical controls that must not be regressed
+### Manual lexical controls that must not regress
 
 - scan 119: `காவிரியப் பூவிரியும்`, `ஒரு கைவை! வைகை!`, `தென்நிலமே`;
 - scan 120: `நானாம்`, `பாடுபட்டுக்`;
 - scan 123: `இனித்த நறு`, `தெள்ளமுதாய்`.
 
-These are user-verified against the controlling scan and override earlier provisional visual judgements.
-
-Related later witness: `இதயத்தைத் தந்திடு அண்ணா` reuses portions of the 1968 language. Use it only to compare; the 1968 pixels remain controlling.
+The later `இதயத்தைத் தந்திடு அண்ணா` witness reuses portions of the 1968 language. It is comparison-only; the 1968 pixels remain controlling.
 
 ## Exact next activity
 
-Resolve only the remaining Phase-1 `⟦unresolved ...⟧` blocks from scans 119–124, using enlarged controlling-source pixels and the 13-family historical-glyph screen. Preserve `LEXICAL_ADJUDICATION_2026-09-06.md` as a no-regression lexical control. When every visible source line is represented, close Phase 1. Do not perform Phase 2 verification in the same activity.
+Begin **Phase 2 independent source-critical visual verification**, starting with scan 119 and continuing through scan 124. Reread every visible word, punctuation mark, line break, title/heading, page role and historical-glyph identity from the controlling source. Preserve `LEXICAL_ADJUDICATION_2026-09-06.md` and `PHASE1_COMPLETION.md` as no-regression authorities. Promote pages to `verified` only after the independent Phase-2 pass succeeds.

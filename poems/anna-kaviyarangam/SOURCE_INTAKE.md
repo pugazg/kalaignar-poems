@@ -21,14 +21,18 @@
 
 | Physical scan | Printed page | Role | Phase-1 state |
 |---:|---:|---|---|
-| 119 | unresolved/source-visible numeral not yet certified | opening/title/context + poem | needs-review |
-| 120 | null | poem continuation | needs-review |
-| 121 | null | poem + poet-introduction transitions | needs-review |
-| 122 | null | poet-introduction transitions / poem excerpts | needs-review |
-| 123 | null | poet-introduction transitions / poem excerpts | needs-review |
-| 124 | null | closing transitions / closing poem | needs-review |
+| 119 | null | opening/title/context + poem | complete / partial |
+| 120 | null | poem continuation | complete / partial |
+| 121 | null | poem + poet-introduction transitions | complete / partial |
+| 122 | null | poet-introduction transitions / poem excerpts | complete / partial |
+| 123 | null | poet-introduction transitions / poem excerpts | complete / partial |
+| 124 | null | closing transitions / closing poem | complete / partial |
 
 Scans 118 and 125 are outside the user-authorized transcription scope and may be used later only as boundary evidence.
+
+Phase-1 scoped coverage: **6/6 complete**. Explicit unresolved markers: **0**. Phase 2 verified pages: **0/6**.
+
+A source-visible/handwritten numeral on scan 119 is not treated as a certified printed page number; `printed_page` remains `null` pending later structural reconciliation.
 
 ## Duplicate decision
 

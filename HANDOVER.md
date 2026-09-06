@@ -14,14 +14,14 @@ Bibliographic record: **அண்ணா கவியரங்கம்**; author
 
 ### Durable status
 
-**ONBOARDED / PHASE 1 IN PROGRESS / HIGH-PIXEL LEXICAL ADJUDICATION APPLIED.**
+**PHASE 1 COMPLETE / PHASE 2 NOT STARTED.**
 
 - duplicate check: new poem / no canonical repository match;
-- page records `poems/anna-kaviyarangam/pages/0119.md`–`0124.md`: **6/6 created**;
-- all six remain `needs-review` because unresolved source passages are explicitly preserved rather than guessed;
+- page records `poems/anna-kaviyarangam/pages/0119.md`–`0124.md`: **6/6 Phase-1 complete, all `partial`**;
+- explicit unresolved markers: **0**;
 - historical Tamil glyph first pass applied to all six pages using the 13-family screen;
-- word-level repository-vs-supplied-transcription comparison was adjudicated against high-pixel controlling scans;
-- user manual source overrides are recorded in `poems/anna-kaviyarangam/LEXICAL_ADJUDICATION_2026-09-06.md`;
+- high-pixel lexical adjudication completed and recorded in `poems/anna-kaviyarangam/LEXICAL_ADJUDICATION_2026-09-06.md`;
+- Phase-1 completion authority: `poems/anna-kaviyarangam/PHASE1_COMPLETION.md`;
 - Phase 2 verified pages: **0/6**;
 - no canonical Tamil assembly;
 - no English translation.
@@ -32,11 +32,11 @@ No-regression manual controls:
 - scan 120: `நானாம்`, `பாடுபட்டுக்`;
 - scan 123: `இனித்த நறு`, `தெள்ளமுதாய்`.
 
-The later `இதயத்தைத் தந்திடு அண்ணா` witness reuses some lines but is comparison-only; the 1968 pixels control this workspace.
+The later `இதயத்தைத் தந்திடு அண்ணா` witness is comparison-only; the 1968 pixels control this workspace.
 
 ### Exact next activity
 
-Finish the remaining Phase-1 `⟦unresolved ...⟧` blocks on scans 119–124 from the controlling pixels, preserving `LEXICAL_ADJUDICATION_2026-09-06.md` as a no-regression lexical authority. When all visible text is represented, close Phase 1. **Do not begin Phase 2 in the same activity.**
+Begin **Phase 2 independent source-critical visual verification** on scans 119–124, starting at scan 119. Repeat the historical-glyph audit and verify every word, punctuation mark, line break, title/heading, page role and source mark. Promote pages only after they pass independently. **Do not begin Phase 3 in the same activity.**
 
 ## Recently closed work — காஞ்சிதான் அண்ணன்
 
