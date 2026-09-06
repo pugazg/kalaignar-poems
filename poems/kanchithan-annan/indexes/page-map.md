@@ -6,7 +6,7 @@ User-scoped work range: **physical scan 16 only**.
 
 | Physical scan | Work-scope ordinal | Visible printed page | Page-layer `printed_page` | Role | Page record | Canonical output | Status |
 |---:|---:|---|---|---|---|---|---|
-| 16 | 1/1 | none | `null` | decorative title + author line + complete poem + author portrait | `../pages/0016.md` | `../sections/01.md` | verified / assembled |
+| 16 | 1/1 | none | `null` | decorative title + author line + complete poem + author portrait | `../pages/0016.md` | `../sections/01.md` | verified / assembled / Gate-5 reviewed |
 
 ## Notes
 
@@ -16,12 +16,16 @@ User-scoped work range: **physical scan 16 only**.
 - Phase 3 Gate 2: **PASS** — `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - Phase 3 Gate 3: **PASS** — `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - Phase 3 Gate 4: **PASS** — `../PHASE3_CANONICAL_ASSEMBLY.md`;
+- Phase 3 Gate 5: **PASS** — `../PHASE3_CANONICAL_SOURCE_REVIEW.md`;
 - canonical source map: `canonical-source-map.md`;
 - no visible printed numeral exists on scan 16, so `printed_page` remains `null`;
 - internal joins: **0**;
 - scans 15 and 17 positively bound the one-page work;
 - canonical title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
-- canonical scan markers: **1/1**;
-- verified page-text changes during Gate 4: **0**.
+- canonical scan markers: **1/1 exactly once**;
+- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
+- canonical source-visible payload equality vs verified page layer: **1/1 PASS**;
+- verified page-text / canonical Tamil changes during Gate 5: **0 / 0**;
+- unresolved source-completeness defects: **0**.
 
-Exact next activity: **Phase 3 Gate 5 canonical/source-completeness review**. Do not grant Tamil final clearance in the same activity.
+Exact next activity: **Phase 3 Gate 6 Tamil final clearance only**. Do not begin English translation in the same activity.
