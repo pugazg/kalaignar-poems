@@ -8,40 +8,31 @@ Fetch live `main` first and preserve newer durable work. Do not reopen closed/re
 
 ## Mandatory startup
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, `poems/poomudi/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, and `pages/0004.md` before source-dependent work.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, `poems/poomudi/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, and `pages/0004.md`.
 
 ## Active source
 
 `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`
 
-Recorded intake identity:
+Exact identity:
 
 - physical PDF pages: **65**;
 - file size: **247,645,717 bytes**;
-- SHA-256: **PENDING**;
+- SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
 - active poem scope: physical scan **4 only**.
 
-User-supplied bibliographic record: **பூமுடி**, கலைஞர் மு. கருணாநிதி, **முரசொலி-அண்ணா மலர்**, **1965**; context `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
-
-Direct scan witness: decorative title **பூமுடி**.
-
-Repository title/slug/source-id duplicate search: **no match**.
-
-Neighbouring evidence only:
-- scan 3 — Anna portrait;
-- scan 5 — separate Penang mayoral correspondence page.
+Direct source witnesses: title **பூமுடி**, stylized signature **மு.கருணாநிதி**, no printed page numeral.
 
 ## Current state
 
-**SOURCE INTAKE REGISTERED / EXACT SOURCE IDENTITY PARTIAL / PHASE 1 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 FIRST-PASS TRANSCRIBED / `pages/0004.md` PARTIAL / PHASE 2 NOT STARTED.**
 
-No poem-body transcription has been accepted. `poems/poomudi/pages/0004.md` is an intake-only `not-started` placeholder. No canonical Tamil or English derivative exists.
+The overlapping passage also appears in the repository's 1968 `அண்ணா கவியரங்கம்` and 1969 `இதயத்தைத் தந்திடு அண்ணா` sources. They are **secondary witnesses only**. Do not normalize the 1965 wording/punctuation to those later versions.
 
 ## Exact next activity
 
-1. Compute and record the exact SHA-256 from the supplied PDF bytes.
-2. Use a sufficiently enlarged source render of physical scan 4.
-3. Perform **Phase 1 direct visual transcription only** of that scan.
-4. Preserve source spelling, punctuation, lineation and historical/compact glyphs exactly; do not use OCR guesses or outside-edition wording.
-5. Set `pages/0004.md` to `partial` after first-pass transcription.
-6. Do not begin Phase 2 verification in the same activity.
+Perform **Phase 2 independent source-critical visual verification of physical scan 4 only**.
+
+Re-read every line directly from the 1965 controlling scan; check lexical forms, compact/historical glyphs, word joins/spaces, punctuation, ellipses, lineation, title and source-visible signature. Pay special attention to the source-specific forms recorded in `poems/poomudi/audit.md`.
+
+If the independent pass succeeds, promote `pages/0004.md` to `verified`, record Phase-2 PASS, and synchronize status docs. Do not begin Phase 3 in the same activity.

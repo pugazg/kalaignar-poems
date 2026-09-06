@@ -2,24 +2,25 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
-## பூமுடி (1965) — active intake
+## பூமுடி (1965) — Phase 1 complete
 
 Workspace: `poems/poomudi/`
 
-Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf` — **65 physical scans**, **247,645,717 bytes**; SHA-256 **pending**.
+Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf` — **65 physical scans**, **247,645,717 bytes**, SHA-256 `7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`.
 
 User-scoped work range: **physical scan 4 only**.
 
-**SOURCE INTAKE REGISTERED / EXACT SOURCE IDENTITY PARTIAL / PHASE 1 NOT STARTED.**
+**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 1/1 FIRST-PASS TRANSCRIBED / PHASE 2 NOT STARTED.**
 
-- direct scan-4 title witness: **பூமுடி**;
-- user-supplied author/publication/year: **கலைஞர் மு. கருணாநிதி / முரசொலி-அண்ணா மலர் / 1965**;
-- duplicate title/slug/source-id search: no repository match;
-- scan 3 Anna portrait and scan 5 separate Penang correspondence page: boundary evidence only;
-- poem-body transcription: not started;
+- direct title witness: **பூமுடி**;
+- direct source signature: **மு.கருணாநிதி**;
+- page record: `poems/poomudi/pages/0004.md` — `partial`;
+- visible printed page numeral: none / `printed_page: null`;
+- scans 3 and 5: boundary evidence only;
+- later 1968/1969 overlapping passages: secondary witnesses only;
 - canonical Tamil / English derivative: none.
 
-Exact next activity: record the exact PDF SHA-256 and perform Phase 1 direct visual transcription of scan 4 from a sufficiently enlarged source render. Do not begin Phase 2 in the same activity.
+Exact next activity: **Phase 2 independent source-critical visual verification of scan 4 only**. Do not begin Phase 3 in the same activity.
 
 ## காஞ்சிதான் அண்ணன் (1970) — release-cleared
 

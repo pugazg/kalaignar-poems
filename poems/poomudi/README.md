@@ -4,23 +4,23 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **பூமுடி*
 
 ## Current status
 
-**SOURCE INTAKE REGISTERED / EXACT SOURCE IDENTITY PARTIAL / PHASE 1 NOT STARTED.**
+**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 FIRST-PASS TRANSCRIBED / PHASE 2 NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`;
 - physical PDF pages: **65**;
 - file size: **247,645,717 bytes**;
-- SHA-256: **PENDING — must be computed from the exact supplied PDF bytes before Phase 1 is closed**;
+- SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
 - work scope: **physical scan 4 only**;
-- direct scan-4 title witness: **பூமுடி**;
+- direct title witness: **பூமுடி**;
+- direct source author signature: **மு.கருணாநிதி**;
 - source PDF committed to repository: **No**;
-- repository duplicate search for `பூமுடி`, `poomudi`, and source id `TVA_PRL_0001656`: **no match found**;
-- Phase 1 transcription: **NOT STARTED**;
-- Phase 2 verification: **NOT STARTED**;
+- Phase 1 page: `pages/0004.md` — **`partial` / first-pass complete**;
+- Phase 2: **NOT STARTED**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
 - canonical Tamil / English derivative files: **none**.
 
-The currently available rendered source establishes the work location and title but is not sufficiently enlarged for a source-faithful line-by-line transcription. No poem-body wording has therefore been guessed or imported.
+The page has no visible printed numeral; `printed_page: null` remains source-supported.
 
 ## User-supplied bibliographic record
 
@@ -30,20 +30,18 @@ The currently available rendered source establishes the work location and title 
 - edition/year: **1965**;
 - catalogue/context description: `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
 
-This bibliographic description is retained as user-supplied context; it is not silently inserted into the source transcription.
-
-## Provisional source boundaries
+## Source boundaries
 
 - scan **3**: full-page Anna portrait — neighbouring evidence only;
-- scan **4**: decorated `பூமுடி` title and poem text — active work scope;
-- scan **5**: separate decorated correspondence page beginning with an English Penang mayoral letter — neighbouring evidence only.
+- scan **4**: `பூமுடி` — active work scope;
+- scan **5**: separate Penang mayoral correspondence page — neighbouring evidence only.
 
-Scans 3 and 5 must not be transcribed into `பூமுடி`. Formal boundary certification remains a later Phase-3 gate.
+Formal boundary certification remains Phase 3.
+
+## Parallel-witness note
+
+The overlapping core passage appears again in the repository's 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** sources. They are secondary witnesses only. The 1965 scan controls this workspace and preserves distinct readings/punctuation that must not be normalized to the later versions.
 
 ## Exact next activity
 
-1. Compute and record the exact **SHA-256** of the supplied PDF bytes.
-2. Perform **Phase 1 direct visual transcription of physical scan 4 only** from a sufficiently enlarged source rendering.
-3. Preserve every visible Tamil form, punctuation mark, line break and unusual/historical glyph exactly; do not normalize or guess.
-4. Keep the new page record `partial` after first-pass transcription.
-5. Do **not** begin Phase 2 verification, canonical assembly, or English translation in the same activity.
+Perform **Phase 2 independent source-critical visual verification of scan 4 only**. Check every word, compact/historical glyph, punctuation mark, line break, title and source-visible signature directly against the 1965 scan. Consult later witnesses only to flag differences, never to override the controlling page. Do not begin Phase 3 in the same activity.

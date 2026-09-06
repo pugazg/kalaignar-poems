@@ -6,8 +6,10 @@
 - source type: scanned image PDF;
 - physical PDF page count: **65**;
 - file size: **247,645,717 bytes**;
-- SHA-256: **PENDING** — exact bytes are supplied, but checksum computation must be completed before Phase 1 is closed;
+- SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
 - source PDF committed to repository: **No**.
+
+Exact-byte source identity is now **COMPLETE**.
 
 ## User-supplied bibliographic record
 
@@ -17,47 +19,56 @@
 - edition/year: **1965**;
 - catalogue/context description: `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
 
-The user-supplied record is preserved as catalogue/context metadata and does not override source-visible text.
+The catalogue description remains context metadata and is not inserted into the source transcription.
 
-## Repository duplicate check
+## Direct source witnesses
 
-Live-main code search found no existing match for:
+Physical scan 4 directly shows:
 
-- `பூமுடி`;
-- `poomudi`;
-- `TVA_PRL_0001656`.
+- decorative title **பூமுடி**;
+- the complete scoped poem body;
+- stylized lower-page author signature **மு.கருணாநிதி**;
+- no visible printed page numeral.
 
-Result: **no duplicate workspace/source match found**.
+The top-margin handwritten/library-style mark is not treated as printed pagination.
 
 ## Processing scope
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English status |
 |---:|---:|---|---|---|---|
-| 01 | 4 | none confidently visible; formal confirmation pending | new Kalaignar poem | Phase 1 not started | not started |
+| 01 | 4 | none | Kalaignar poem | Phase 1 first-pass transcribed / `partial` | not started |
 
 Only physical scan **4** is in the user-requested poem scope.
 
-## Visual intake / provisional boundaries
+## Boundary evidence
 
-The current scan rendering shows:
+- scan **3** — full-page portrait of Anna; neighbour only;
+- scan **4** — active `பூமுடி` page;
+- scan **5** — separate Penang mayoral correspondence page; neighbour only.
 
-- scan **3** — full-page portrait of Anna, no poem text associated with `பூமுடி`;
-- scan **4** — direct decorative title witness **`பூமுடி`**, followed by a compact Tamil poem block and lower-page visual material;
-- scan **5** — a separate decorated page headed by an English letter from the Mayor, City Hall, George Town, Penang, dated 9 September 1965, with separate Tamil material.
+Scans 3 and 5 remain excluded. Formal boundary certification is deferred to Phase 3.
 
-Therefore scans **3** and **5** are retained only as neighbouring boundary evidence. They must not be imported into the `பூமுடி` transcription. Formal opening/closing certification is deferred to Phase 3.
+## Phase 1 completion
 
-The small current render is sufficient to locate and identify the poem but not to certify every poem-body glyph or line. No line-by-line Tamil transcription is recorded during this intake activity.
+**COMPLETE — 1/1 FIRST-PASS TRANSCRIBED.**
+
+`pages/0004.md` now contains the complete first-pass source transcription from an enlarged direct render and remains `partial` pending independent verification.
+
+No OCR was accepted.
+
+Later overlapping witnesses were registered only as secondary comparison:
+
+- 1968 `அண்ணா கவியரங்கம்`;
+- 1969 `இதயத்தைத் தந்திடு அண்ணா`.
+
+The 1965 scan remains controlling and contains source-specific variants, including `அண்ணன் உள்ளம்`, `கால்மலர்கள்`, `தம்பியரை-கழகத்தை!`, `சமதர்மப் பூ`, `பூ முடியே !`, and the close `உனக்காக எனைத் துறப்பேன்.`
 
 ## Current state
 
 - intake: **REGISTERED**;
-- exact source page count / size: **RECORDED**;
-- exact source SHA-256: **PENDING**;
-- title/source duplicate search: **PASS — no match**;
+- exact source identity: **COMPLETE**;
 - work location: **physical scan 4**;
-- direct title witness: **பூமுடி**;
-- Phase 1: **NOT STARTED**;
+- Phase 1: **COMPLETE — 1/1 first-pass transcribed / `partial`**;
 - Phase 2: **NOT STARTED**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
@@ -66,4 +77,4 @@ The small current render is sufficient to locate and identify the poem but not t
 
 ## Exact next activity
 
-Complete the exact-byte SHA-256 identity and then perform **Phase 1 direct visual transcription of physical scan 4 only** from a sufficiently enlarged source render. Preserve spelling, punctuation, historical/compact glyphs and poetic lineation exactly. Set the page to `partial` after the first pass. Do not begin Phase 2 in the same activity.
+Perform **Phase 2 independent source-critical visual verification of physical scan 4 only**. Re-read the entire page directly against the controlling 1965 scan, including historical/compact glyphs, punctuation, lineation and source-specific variants. The 1968/1969 parallels may be consulted only as secondary witnesses. Do not begin Phase 3 in the same activity.
