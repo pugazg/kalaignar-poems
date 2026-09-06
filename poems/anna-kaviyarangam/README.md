@@ -4,27 +4,25 @@ Source-first workspace for the Kalaignar chair-poem printed in `முரசொ�
 
 ## Current state
 
-**ONBOARDED / PHASE 1 COMPLETE — 6/6 scoped scans transcribed / 0 unresolved markers / HISTORICAL-GLYPH FIRST PASS COMPLETE / HIGH-PIXEL LEXICAL ADJUDICATION APPLIED / PHASE 2 NOT STARTED.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / HISTORICAL-GLYPH SECOND PASS PASS / PHASE 3 NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf`;
 - exact PDF identity: **136 pages / 58,026,496 bytes / SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`**;
-- user-authorized poem scope: physical scans **119–124**;
+- poem scope: physical scans **119–124**;
 - title: **அண்ணா கவியரங்கம்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - event: World Tamil Conference Anna kaviyarangam, **7.1.1968**;
-- duplicate check: **new poem / no canonical repository match found**;
-- page records: `pages/0119.md`–`0124.md`;
-- Phase-1 completion authority: `PHASE1_COMPLETION.md`;
+- duplicate decision: **new poem**;
+- Phase-1 authority: `PHASE1_COMPLETION.md`;
 - lexical reconciliation authority: `LEXICAL_ADJUDICATION_2026-09-06.md`;
-- all six page records are `partial`, not `verified`;
-- Phase 2 verified pages: **0/6**;
-- no canonical Tamil assembly;
-- no English translation.
+- Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
+- page records `pages/0119.md`–`0124.md`: **6/6 verified**;
+- unresolved Tamil issues: **0**;
+- canonical Tamil: not assembled;
+- English: not started.
 
-No-regression manual controls include scan 119 `காவிரியப் பூவிரியும் / ஒரு கைவை! வைகை! / தென்நிலமே`, scan 120 `நானாம் / பாடுபட்டுக்`, and scan 123 `இனித்த நறு / தெள்ளமுதாய்`.
-
-A later Anna elegy contains reused passages and may be consulted only as a comparison witness. It must never overwrite the 1968 scan.
+User-manually verified no-regression controls remain scan 119 `காவிரியப் பூவிரியும் / ஒரு கைவை! வைகை! / தென்நிலமே`, scan 120 `நானாம் / பாடுபட்டுக்`, and scan 123 `இனித்த நறு / தெள்ளமுதாய்`.
 
 ## Exact next activity
 
-Begin **Phase 2 independent source-critical visual verification** across scans 119–124. Recheck every word, punctuation mark, line break and historical-glyph identity directly against the controlling pixels; preserve the Phase-1 lexical controls unless fresh source evidence proves otherwise. Promote pages to `verified` only after the independent pass succeeds.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Account for scans 119–124, preserve certified printed page 19 on scan 119, and do not infer printed numerals for scans 120–124 without direct evidence. Keep Gate 2 and later gates separate.

@@ -2,15 +2,17 @@
 
 Physical `scan_page` is 1-indexed against the exact 136-page controlling PDF.
 
-| Scan | Classification | Phase 1 | Historical glyph first pass | Phase 2 |
-|---:|---|---|---|---|
-| 119 | title/context + poem opening | complete / partial | applied | not started |
-| 120 | poem continuation | complete / partial | applied | not started |
-| 121 | poem continuation + first poet transitions | complete / partial | applied | not started |
-| 122 | poet transitions / quoted poems | complete / partial | applied | not started |
-| 123 | poet transitions / quoted poems | complete / partial | applied | not started |
-| 124 | closing transitions / closing poem | complete / partial | applied | not started |
+| Scan | Printed page | Classification | Phase 1 | Phase 2 |
+|---:|---:|---|---|---|
+| 119 | 19 | title/context + poem opening | complete | verified |
+| 120 | null | poem continuation | complete | verified |
+| 121 | null | poem continuation + first poet transitions | complete | verified |
+| 122 | null | poet transitions / quoted poems | complete | verified |
+| 123 | null | poet transitions / quoted poems | complete | verified |
+| 124 | null | closing transitions / closing poem | complete | verified |
 
-Scoped page records: **6/6 created and Phase-1 complete**. Explicit unresolved markers: **0**. Phase 2 verified pages: **0/6**.
+Scoped page records: **6/6**. Phase 2 verified pages: **6/6**.
 
-Printed pagination is intentionally not backfilled from sequence. A source-visible/handwritten numeral on scan 119 has not been promoted into `printed_page`; physical scan numbering remains authoritative for this scoped source layer.
+The printed numeral **19** on scan 119 was directly certified during Phase 2. Printed pagination for scans 120–124 remains `null`; no values are inferred from sequence.
+
+Next activity: Phase 3 Gate 1 physical scan ↔ printed-page reconciliation only.

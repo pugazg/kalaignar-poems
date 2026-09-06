@@ -8,35 +8,27 @@ Workspace: `poems/anna-kaviyarangam/`.
 
 Controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf` — **136 physical pages**, **58,026,496 bytes**, SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`.
 
-User-scoped work range: physical scans **119–124**.
-
-Bibliographic record: **அண்ணா கவியரங்கம்**; author **கலைஞர் மு. கருணாநிதி**; publication **முரசொலி - பொங்கல் மலர்**; year **1968**; World Tamil Conference Anna kaviyarangam dated **7.1.1968**.
+Scope: physical scans **119–124**. Bibliographic record: **அண்ணா கவியரங்கம்**; author **கலைஞர் மு. கருணாநிதி**; `முரசொலி - பொங்கல் மலர்`, 1968; World Tamil Conference Anna kaviyarangam dated **7.1.1968**.
 
 ### Durable status
 
-**PHASE 1 COMPLETE / PHASE 2 NOT STARTED.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PASS.**
 
-- duplicate check: new poem / no canonical repository match;
-- page records `poems/anna-kaviyarangam/pages/0119.md`–`0124.md`: **6/6 Phase-1 complete, all `partial`**;
-- explicit unresolved markers: **0**;
-- historical Tamil glyph first pass applied to all six pages using the 13-family screen;
-- high-pixel lexical adjudication completed and recorded in `poems/anna-kaviyarangam/LEXICAL_ADJUDICATION_2026-09-06.md`;
-- Phase-1 completion authority: `poems/anna-kaviyarangam/PHASE1_COMPLETION.md`;
-- Phase 2 verified pages: **0/6**;
-- no canonical Tamil assembly;
-- no English translation.
+- `pages/0119.md`–`0124.md`: **6/6 verified**;
+- Phase-2 authority: `poems/anna-kaviyarangam/PHASE2_SOURCE_VERIFICATION.md`;
+- historical-glyph independent second pass: **PASS**;
+- unresolved Tamil issues: **0**;
+- scan 119 printed page directly certified as **19**;
+- scans 120–124 printed page fields remain `null`;
+- Phase 3: not started;
+- canonical Tamil: not assembled;
+- English: not started.
 
-No-regression manual controls:
-
-- scan 119: `காவிரியப் பூவிரியும்`, `ஒரு கைவை! வைகை!`, `தென்நிலமே`;
-- scan 120: `நானாம்`, `பாடுபட்டுக்`;
-- scan 123: `இனித்த நறு`, `தெள்ளமுதாய்`.
-
-The later `இதயத்தைத் தந்திடு அண்ணா` witness is comparison-only; the 1968 pixels control this workspace.
+No-regression user controls remain scan 119 `காவிரியப் பூவிரியும் / ஒரு கைவை! வைகை! / தென்நிலமே`, scan 120 `நானாம் / பாடுபட்டுக்`, scan 123 `இனித்த நறு / தெள்ளமுதாய்`.
 
 ### Exact next activity
 
-Begin **Phase 2 independent source-critical visual verification** on scans 119–124, starting at scan 119. Repeat the historical-glyph audit and verify every word, punctuation mark, line break, title/heading, page role and source mark. Promote pages only after they pass independently. **Do not begin Phase 3 in the same activity.**
+Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Account for scans 119–124, preserve certified printed page 19 on scan 119, and do not infer printed numerals for scans 120–124. Keep Gate 2 and later gates separate.
 
 ## Recently closed work — காஞ்சிதான் அண்ணன்
 
