@@ -12,28 +12,33 @@ Do not retranscribe or verify already represented poems as new works. Skip scans
 
 ## Active Kalaignar items
 
-1. scans **46–57** — Item 01 — `sections/01.md` — **Gates 1–5 PASS**;
-2. scans **58–65** — Item 02 — `sections/02.md` — **Gates 1–5 PASS**;
-3. scans **67–68** — Item 04 — `sections/04.md` — **Gates 1–5 PASS**.
+1. scans **46–57** — Item 01 — `sections/01.md` — **TAMIL FINAL-CLEARED**;
+2. scans **58–65** — Item 02 — `sections/02.md` — **TAMIL FINAL-CLEARED**;
+3. scans **67–68** — Item 04 — `sections/04.md` — **TAMIL FINAL-CLEARED**.
 
-Phase 1: **22/22 complete**. Phase 2: **22/22 verified**. Phase 3 Gates 1–5: **COMPLETE / PASS**.
+Phase 1: **22/22 complete**. Phase 2: **22/22 verified**. Phase 3 Gates 1–6: **COMPLETE / PASS**. Tamil source/canonical layer: **FINAL-CLEARED**.
 
-## Gate-5 checkpoint
+## Final-clearance checkpoint
 
-Authority: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+Authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-- canonical inventory: **3/3 PASS**;
-- source scans represented exactly once: **22/22 PASS**;
-- payload equality vs verified page layer: **22/22 PASS**;
-- title/context authority: **3/3 PASS**;
-- internal joins: **19/19 preserved**;
+- Gate 1: **PASS**;
+- Gate 2: **3/3 openings, 19/19 joins, 3/3 closings PASS**;
+- Gate 3: **3/3 title/context authorities PASS**;
+- Gate 4: **3/3 canonical files / 22/22 active scans PASS**;
+- Gate 5: **22/22 payload equality PASS**, unresolved source-completeness defects **0**;
 - scan 66 canonical occurrences: **0**;
-- silent normalization/source-completeness defects: **0**;
-- page/canonical corrections required: **0**;
-- canonical manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`.
+- unresolved Tamil lexical/historical-glyph/structural/title/completeness issues: **0**;
+- canonical manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`;
+- Gate-6 page/canonical changes: **0**;
+- English translation text created during Gate 6: **0**.
 
 Existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 6 — Tamil final clearance only**. Confirm Gates 1–5 remain PASS and make the explicit clearance decision. Do not begin English translation in the same activity.
+Perform **Phase 4 translation setup only**.
+
+Create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`; establish the Tamil final-cleared source hierarchy, fidelity/terminology locks and item-level batch boundaries for Items 01, 02 and 04.
+
+Do not draft English poem text in the same setup activity.

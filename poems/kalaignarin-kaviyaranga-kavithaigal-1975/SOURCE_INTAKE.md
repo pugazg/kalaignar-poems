@@ -16,17 +16,17 @@
 
 | ID | Source-heading witness | Scans | Canonical output | Current state |
 |---:|---|---:|---|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | `sections/01.md` | **Gates 1–5 PASS** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | `sections/02.md` | **Gates 1–5 PASS** |
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | `sections/01.md` | **TAMIL FINAL-CLEARED** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | `sections/02.md` | **TAMIL FINAL-CLEARED** |
 | 03 | `சாராய சுதந்திரம்` | 66 | none | **NON-KALAIGNAR — Rajaji source/context** |
-| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | `sections/04.md` | **Gates 1–5 PASS** |
+| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | `sections/04.md` | **TAMIL FINAL-CLEARED** |
 
-Active Kalaignar production scans: **22/22 verified and canonically source-reviewed**. Scan 66 is retained only as source/context and remains excluded from canonical Kalaignar text.
+Active Kalaignar production scans: **22/22 verified, canonically source-reviewed and Tamil final-cleared**. Scan 66 is retained only as source/context and remains excluded from canonical Kalaignar text.
 
 Already represented poems remain classification-only/skip: scans **9–20, 21–32, 33–45, 71–77, 78–84**. Scans **69–70** are Bharathidasan material.
 
-Gate 5 authority: `PHASE3_CANONICAL_SOURCE_REVIEW.md` — canonical payload equality **22/22 PASS**, unresolved source-completeness defects **0**.
+Final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — Phase 3 Gates 1–6 **PASS**, unresolved Tamil source/canonical defects **0**, Phase 4 **unblocked**.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 6 — Tamil final clearance only**. Do not begin translation in the same activity.
+Perform **Phase 4 translation setup only**. Create the English translation README, translation plan and source map; do not draft English poem text in the setup activity.

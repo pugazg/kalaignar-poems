@@ -25,33 +25,36 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — GATES 1–5 COMPLETE / PASS; GATE 6 NEXT.**
+**COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED.**
 
 1. Physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**
 2. Boundary / page-join audit — **COMPLETE / PASS**
 3. Title-witness reconciliation — **COMPLETE / PASS**
 4. Canonical Tamil assembly — **COMPLETE / PASS**
 5. Assembly/source-completeness review — **COMPLETE / PASS**
-6. Tamil final clearance — **NEXT**
+6. Tamil final clearance — **COMPLETE / PASS**
 
-### Gate 5 result
+### Gate 6 result
 
-Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-- canonical item inventory: **3/3 PASS**;
+- Phase 1: **22/22 complete**;
+- Phase 2: **22/22 verified**;
+- canonical items: **3/3**;
 - active source scan accounting: **22/22 PASS**;
 - canonical payload equality against verified page layer: **22/22 PASS**;
 - title/context authority: **3/3 PASS**;
 - internal joins preserved: **19/19 PASS**;
 - scan 66 canonical occurrences: **0**;
-- unresolved source-completeness defects: **0**;
-- verified page-record changes: **0**;
-- canonical item changes: **0**.
+- unresolved Tamil lexical/historical-glyph/structural/title/completeness issues: **0**;
+- Tamil source/canonical layer: **FINAL-CLEARED**.
 
 ## Phase 4 — English translation / release
 
-**BLOCKED until Tamil final clearance.**
+**UNBLOCKED — SETUP NEXT.**
+
+Translation must use only the Tamil final-cleared canonical item layer as the normal working source, with the controlling scan and verified page layer retained as higher authority if a Tamil reading is questioned.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 6 only — Tamil final clearance**. Confirm Gates 1–5 are all PASS and decide whether the Tamil source/canonical layer is ready for Phase 4. Do not begin English translation in the same activity.
+Perform **Phase 4 translation setup only**: create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md`; pin source hierarchy, fidelity/terminology rules and item-level batch boundaries. Do not draft English poem text in the same setup activity.
