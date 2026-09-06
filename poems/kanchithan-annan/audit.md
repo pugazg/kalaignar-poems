@@ -23,8 +23,6 @@ Gate authorities remain `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT
 
 **COMPLETE.** Controls: `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`.
 
-Normal source is FINAL-CLEARED `sections/01.md`. Any questioned Tamil reading returns to controlling scan 16 → verified page → canonical Tamil → Phase-3 authorities; English never silently repairs Tamil.
-
 ## Phase 4 Batch 01 — translation and source review
 
 **COMPLETE / REVIEWED PASS.**
@@ -34,13 +32,6 @@ Normal source is FINAL-CLEARED `sections/01.md`. Any questioned Tamil reading re
 - review authority: `translations/en/batches/batch-01.md`;
 - required scan: **1/1 — scan 16**;
 - English `scan_page` markers: **1/1 unique**;
-- title authority: **PASS** — `காஞ்சிதான் அண்ணன்` → **Kanchi Is Anna**;
-- Kanchi publication/place/Anna identity relationship: **PASS**;
-- quoted `Thambi`: **PASS**;
-- `நிலக்களன்` / `ஆற்றொழுக்கை` handling: **PASS / PASS**;
-- repetition / parallelism / rhetorical-question force: **PASS**;
-- *Pongal Malar* issue/flower relationship: **retained**;
-- first-person closing: **PASS**;
 - detected English omissions / duplications: **0 / 0**;
 - unresolved Batch-01 translation issues: **0**;
 - Tamil `pages/` / canonical `sections/` changed: **NO / NO**.
@@ -49,8 +40,6 @@ Normal source is FINAL-CLEARED `sections/01.md`. Any questioned Tamil reading re
 
 **COMPLETE / PASS.** Authority: `translations/en/ASSEMBLY.md`.
 
-- assembly input checkpoint: live `main` `08ffa3858f771dc2caef74d4e17a79c242e126ad`;
-- reviewed input: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing output: `translations/en/kanchithan-annan-en.md`;
 - reader-facing blob: `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
 - size: **984 bytes**;
@@ -58,10 +47,32 @@ Normal source is FINAL-CLEARED `sections/01.md`. Any questioned Tamil reading re
 - scan-16 marker: **1/1 exactly once**;
 - missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
 - reader-facing YAML front matter: **0**;
-- reviewed H1, attribution and poem body retained: **PASS**;
 - reviewed English lexical/punctuation/lineation changes during assembly: **0**;
 - unresolved assembly defects: **0**;
 - Tamil `pages/` / canonical `sections/` changes during assembly: **0 / 0**.
+
+## Phase 4 editorial / terminology / voice consistency review
+
+**COMPLETE / PASS.** Authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
+
+Reviewed and passed:
+
+- title / attribution presentation;
+- standalone-item ↔ reader-facing body synchronization;
+- Kanchi publication/place/Anna identity handling;
+- **Thambi** and *Malar* conventions;
+- `படைக்கலம்` / `நிலக்களன்` / `ஆற்றொழுக்கை` reviewed English handling;
+- repetition / parallelism / rhetorical-question force;
+- quotation / ellipsis / emphatic punctuation states;
+- memorial voice and first-person close;
+- reader-facing cleanliness.
+
+Editorial result:
+
+- unresolved editorial / terminology / voice issues: **0**;
+- standalone English lexical changes required: **0**;
+- reader-facing English lexical changes required: **0**;
+- Tamil `pages/` / canonical `sections/` changes: **0 / 0**.
 
 ## Current totals
 
@@ -70,8 +81,9 @@ Normal source is FINAL-CLEARED `sections/01.md`. Any questioned Tamil reading re
 - Phase 3: **Gates 1–6 PASS / FINAL-CLEARED**;
 - Phase 4 translation batches: **1/1 REVIEWED / PASS**;
 - Phase 4 reader-facing assembly: **COMPLETE / PASS**;
-- unresolved Tamil / translation / assembly issues: **0 / 0 / 0**;
-- editorial consistency review: **NOT STARTED**;
-- release-integrity / release-clearance: **NOT STARTED**.
+- Phase 4 editorial consistency review: **COMPLETE / PASS**;
+- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
+- final source-coverage / release-integrity review: **NOT STARTED**;
+- release clearance: **NOT GRANTED**.
 
-Exact next activity: **editorial / terminology / voice consistency review only**. Do not perform final source-coverage/release-integrity or release-clearance in the same activity.
+Exact next activity: **final source-coverage / release-integrity review only**. Create `translations/en/RELEASE_INTEGRITY_REVIEW.md`; do not perform release reporting or release clearance in the same activity.
