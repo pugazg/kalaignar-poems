@@ -25,31 +25,35 @@ User-scoped work range: **physical scan 16 only**.
 - Phase 3 Gate 3: **COMPLETE / PASS** — `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - Phase 3 Gate 4: **COMPLETE / PASS** — `PHASE3_CANONICAL_ASSEMBLY.md`;
 - Phase 3 Gate 5: **COMPLETE / PASS** — `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
-- canonical source map: `indexes/canonical-source-map.md`;
+- Phase 3 Gate 6: **COMPLETE / PASS** — `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
 - page record: `pages/0016.md` — `verified`;
 - canonical Tamil: `sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - English translation: not started.
 
-## Durable controls
+## Final-cleared controls
 
 - scan 16 has no visible printed numeral; `printed_page: null` remains correct;
 - opening / closing boundaries: **PASS / PASS**; internal joins: **0**;
 - canonical title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
 - bibliographic title agrees exactly; title / author conflicts: **0 / 0**;
-- canonical scan provenance markers: **1/1**;
+- canonical scan provenance markers: **1/1 exactly once**;
 - canonical source-visible payload equality vs verified page layer: **1/1 PASS**;
 - missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
 - silent lexical normalization / insertion / omission: **0 / 0 / 0**;
-- verified page changes during Gate 5: **0**;
-- canonical Tamil changes during Gate 5: **0**;
-- unresolved source-completeness defects: **0**.
+- unresolved Tamil lexical / historical-glyph / structural / completeness issues: **0**;
+- verified page / canonical Tamil changes during Gate 6: **0 / 0**.
 
-The canonical file preserves the source-visible title, source-printed author line and complete verified poem body. Repository-only verification prose is excluded from canonical text. Decorative title design, ornaments, design/artist signature and portrait remain non-lexical provenance material.
+The controlling scan remains the highest textual authority. Any genuine later source-backed correction must formally reopen the affected page/audit/canonical layer.
 
 ## Exact next activity
 
-**Phase 3 Gate 6 — Tamil final clearance only.**
+**Phase 4 English translation setup only.**
 
-Reconfirm Gates 1–5 are PASS and unresolved Tamil lexical, historical-glyph, pagination, boundary, title, assembly and source-completeness issues remain **0**. Create the durable Tamil final-clearance authority and mark the Tamil layer FINAL-CLEARED.
+Create:
 
-Do **not** begin English translation in the same activity.
+- `translations/en/README.md`;
+- `translations/en/TRANSLATION_PLAN.md`;
+- `translations/en/SOURCE_MAP.md`.
+
+Base the setup only on the FINAL-CLEARED Tamil authority. Do **not** draft the English poem in that same setup activity.

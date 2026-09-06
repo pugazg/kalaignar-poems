@@ -21,31 +21,21 @@ Workspace: `poems/kanchithan-annan/`. User-scoped work range: **physical scan 16
 - Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
 - Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
 - Gate 5 canonical/source-completeness review: **COMPLETE / PASS**;
-- Gate-5 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+- Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Gate-6 authority: `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
 - canonical output: `poems/kanchithan-annan/sections/01.md`;
 - canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical active scan coverage / markers: **1/1 / 1/1**;
+- canonical active scan coverage / markers: **1/1 / 1/1 exactly once**;
 - canonical payload equality vs verified page layer: **1/1 PASS**;
-- missing / duplicate / unexpected markers: **0 / 0 / 0**;
-- silent normalization / insertion / omission: **0 / 0 / 0**;
-- unresolved source-completeness defects: **0**;
-- Gate 6: **NOT STARTED**.
-
-Exact next activity: **Gate 6 Tamil final clearance only**. Do not combine Gate 6 with English translation setup or drafting.
+- unresolved Tamil issues: **0**;
+- Tamil source/canonical layer: **FINAL-CLEARED**.
 
 ## Phase 4 — English translation / release
 
-**NOT STARTED / BLOCKED BY TAMIL FINAL CLEARANCE.**
+**NOT STARTED / UNBLOCKED BY TAMIL FINAL CLEARANCE.**
+
+Exact next activity: **English translation setup only** — create `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`. Do not draft English poem text in the same setup activity.
 
 ## Preserved closed source — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
-The prior new-item-only source remains **RELEASE-CLEARED**:
-
-- Phase 1 22/22 COMPLETE;
-- Phase 2 22/22 VERIFIED;
-- Phase 3 Gates 1–6 PASS / Tamil FINAL-CLEARED;
-- Phase 4 3/3 reviewed PASS / assembly PASS / editorial PASS / release-integrity PASS / RELEASE-CLEARED.
-
-## Exact next activity
-
-**Phase 3 Gate 6 for `poems/kanchithan-annan/` only.** Preserve the verified page and canonical text unchanged unless genuine source evidence requires formal reopen. Do not begin English translation.
+The prior new-item-only source remains **RELEASE-CLEARED** and must not be reopened without genuine source evidence.

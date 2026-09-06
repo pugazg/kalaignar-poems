@@ -26,9 +26,10 @@ Read completely:
 14. `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
 15. `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`
 16. `poems/kanchithan-annan/PHASE3_CANONICAL_SOURCE_REVIEW.md`
-17. `poems/kanchithan-annan/HANDOVER.md`
-18. `poems/kanchithan-annan/pages/0016.md`
-19. `poems/kanchithan-annan/sections/01.md`
+17. `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`
+18. `poems/kanchithan-annan/HANDOVER.md`
+19. `poems/kanchithan-annan/pages/0016.md`
+20. `poems/kanchithan-annan/sections/01.md`
 
 ## Controlling source
 
@@ -40,25 +41,26 @@ Active work range: **physical scan 16 only**.
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–5: **COMPLETE / PASS**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
 - canonical output: `poems/kanchithan-annan/sections/01.md`;
 - canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical scan markers: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
-- missing / duplicate / unexpected markers: **0 / 0 / 0**;
-- silent normalization / insertion / omission: **0 / 0 / 0**;
-- unresolved source-completeness defects: **0**;
-- verified page / canonical Tamil changes during Gate 5: **0 / 0**;
-- Phase 3 Gate 6: **NOT STARTED**;
-- Phase 4: NOT STARTED.
+- unresolved Tamil issues: **0**;
+- Phase 4: **NOT STARTED / UNBLOCKED**.
 
 ## Next activity only
 
-Perform **Phase 3 Gate 6 — Tamil final clearance**.
+Perform **Phase 4 English translation setup**.
 
-Reconfirm all Gates 1–5 are PASS, verify unresolved Tamil lexical, historical-glyph, pagination, boundary, title, assembly and source-completeness issues remain zero, and create the durable final-clearance authority. Mark the Tamil layer FINAL-CLEARED only if all controls remain intact.
+Create:
 
-**Do not begin English translation in this same activity.**
+1. `poems/kanchithan-annan/translations/en/README.md`
+2. `poems/kanchithan-annan/translations/en/TRANSLATION_PLAN.md`
+3. `poems/kanchithan-annan/translations/en/SOURCE_MAP.md`
 
-The previously release-cleared workspaces remain closed unless genuine source evidence requires a documented reopen.
+Pin translation authority to FINAL-CLEARED `sections/01.md`, retain physical scan-16 provenance and source-sensitive title/wording controls, and define the one-item translation/review workflow.
+
+**Do not draft the English poem in this same setup activity.**
+
+Previously release-cleared workspaces remain closed unless genuine source evidence requires a documented reopen.

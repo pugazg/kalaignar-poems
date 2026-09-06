@@ -16,23 +16,18 @@ Current state:
 - duplicate-title / opening-line check: no existing repository match found;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gate 1: **COMPLETE / PASS**;
-- Phase 3 Gate 2: **COMPLETE / PASS**;
-- Phase 3 Gate 3: **COMPLETE / PASS**;
-- Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Phase 3 Gate 5 canonical/source-completeness review: **COMPLETE / PASS**;
-- Gate-5 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+- Phase 3 Gates 1–6: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Gate-6 authority: `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
 - canonical output: `poems/kanchithan-annan/sections/01.md`;
 - canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - canonical scan markers: **1/1 exactly once**;
 - canonical payload equality vs verified page layer: **1/1 PASS**;
-- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
-- silent normalization / insertion / omission: **0 / 0 / 0**;
-- unresolved source-completeness defects: **0**;
-- Phase 3 Gate 6: **NOT STARTED**;
-- Phase 4 English translation/release: **NOT STARTED**.
+- unresolved Tamil issues: **0**;
+- verified page / canonical Tamil changes during Gate 6: **0 / 0**;
+- Phase 4 English translation/release: **NOT STARTED / UNBLOCKED**.
 
-Exact next activity: **Phase 3 Gate 6 Tamil final clearance only**. Do not begin English translation in the same activity.
+Exact next activity: **Phase 4 English translation setup only** — create `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`. Do not draft the English poem in the same setup activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
@@ -59,8 +54,6 @@ Reader-facing English collection:
 - item order: **01 → 02 → 04**;
 - active scan markers: **22/22**;
 - scan 66 occurrences: **0**.
-
-Final authorities include `PHASE3_TAMIL_FINAL_CLEARANCE.md`, `translations/en/ASSEMBLY.md`, `EDITORIAL_CONSISTENCY_REVIEW.md`, `RELEASE_INTEGRITY_REVIEW.md`, and `RELEASE_REPORT.md`.
 
 ## Preserved completed work
 

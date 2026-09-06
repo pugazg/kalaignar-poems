@@ -14,7 +14,7 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–5 PASS; `sections/01.md` assembled and reviewed | not started |
+| 01 | 16 | none | new Kalaignar poem | **FINAL-CLEARED** | not started |
 
 Only physical scan **16** belongs to this user-requested work intake. Scans **15** and **17** were inspected only to certify Gate-2 boundaries.
 
@@ -29,17 +29,19 @@ Only physical scan **16** belongs to this user-requested work intake. Scans **15
 - Phase 3 Gate 3: **COMPLETE / PASS**;
 - Phase 3 Gate 4: **COMPLETE / PASS**;
 - Phase 3 Gate 5: **COMPLETE / PASS**;
-- Phase 3 Gate 6: NOT STARTED;
+- Phase 3 Gate 6: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
 - Phase 4: NOT STARTED.
 
-Gate-1 decision: no visible printed page numeral; `printed_page` remains `null`.
+Key final controls:
 
-Gate-2 decision: opening/closing boundaries certified, **0 internal joins**, decorative/portrait matter outside poem body.
+- no visible printed page numeral; `printed_page` remains `null`;
+- opening / closing boundaries: **PASS / PASS**; internal joins: **0**;
+- canonical title: direct scan-16 `காஞ்சிதான் அண்ணன்`;
+- canonical Tamil: `sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- canonical scan marker: **1/1 exactly once**;
+- canonical payload equality vs verified page layer: **1/1 PASS**;
+- unresolved Tamil issues: **0**;
+- Gate-6 Tamil page / canonical changes: **0 / 0**.
 
-Gate-3 decision: direct scan title `காஞ்சிதான் அண்ணன்` controls the canonical title; bibliographic title agrees exactly; no hybrid title.
-
-Gate-4 decision: canonical Tamil output `sections/01.md` assembled from verified `pages/0016.md` with **1/1 provenance marker**, **0 page-record corrections**, **0 page-status changes**, and **0 unresolved assembly defects**. Canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
-
-Gate-5 decision: canonical inventory **1/1 PASS**, scan 16 represented exactly once, source-visible canonical payload equality **1/1 PASS**, missing/duplicate/unexpected markers **0/0/0**, silent normalization/insertion/omission **0/0/0**, unresolved source-completeness defects **0**, and no Tamil text changed during review.
-
-Exact next activity: **Phase 3 Gate 6 Tamil final clearance only**. Do not begin translation in the same activity.
+Exact next activity: **Phase 4 English translation setup only**. Do not draft the English poem in the same activity.

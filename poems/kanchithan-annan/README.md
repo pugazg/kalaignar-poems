@@ -34,7 +34,8 @@ The scan visibly carries the title **காஞ்சிதான் அண்ண
 - Phase 3 Gate 3 title-witness reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
 - Phase 3 Gate 5 canonical/source-completeness review: **COMPLETE / PASS**;
-- Phase 3 Gate 6: **NOT STARTED**;
+- Phase 3 Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
 - Phase 4 English translation / release: **NOT STARTED**.
 
 Authorities:
@@ -44,16 +45,19 @@ Authorities:
 - Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - Gate 4: `PHASE3_CANONICAL_ASSEMBLY.md`;
 - Gate 5: `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+- Gate 6: `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
 - canonical source map: `indexes/canonical-source-map.md`.
 
 Canonical Tamil output:
 
 - `sections/01.md` — scan **16** — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
 
-Gate 5 certifies **1/1 canonical item**, **1/1 active scan exactly once**, **1/1 canonical payload equality against the verified page layer**, and **0 missing, duplicate or unexpected scan markers**. Title/author provenance and Gate-2 boundaries remain intact; silent lexical normalization, insertion or omission: **0**. No verified page or canonical Tamil text changed during Gate 5.
+Final clearance certifies Gates **1–5 PASS**, **1/1 verified source scan**, **1/1 canonical item**, **1/1 scan marker exactly once**, **1/1 canonical payload equality against the verified page layer**, and **0 unresolved Tamil lexical, historical-glyph, pagination, boundary, title, assembly or completeness issues**. Gate 6 changed no Tamil page or canonical text.
+
+The controlling scan remains the highest textual authority. Any later genuine source-backed correction must formally reopen the affected source/canonical layer.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 6 — Tamil final clearance only**. Reconfirm Gates 1–5 PASS and certify unresolved Tamil lexical, pagination, boundary, title, assembly and source-completeness issues remain zero.
+Perform **Phase 4 English translation setup only**. Create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md` from the FINAL-CLEARED Tamil authority.
 
-Do **not** begin English translation in the same activity.
+Do **not** draft the English poem in that same setup activity.

@@ -87,13 +87,25 @@ Repository search found no existing match for title `காஞ்சிதான
 - canonical Tamil changes required by review: **0**;
 - unresolved source-completeness defects: **0**.
 
+## Phase 3 Gate 6 — Tamil final clearance
+
+**COMPLETE / PASS.** Authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+- Gates 1–5 reconfirmed: **PASS**;
+- unresolved Tamil lexical / historical-glyph issues: **0 / 0**;
+- unresolved pagination / boundary / title / assembly / completeness issues: **0 / 0 / 0 / 0 / 0**;
+- verified page changes during Gate 6: **0**;
+- canonical Tamil changes during Gate 6: **0**;
+- Tamil layer: **FINAL-CLEARED**;
+- Phase 4: **UNBLOCKED / NOT STARTED**.
+
 ## Current totals
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–5: **PASS**;
-- Phase 3 Gate 6: **not started**;
-- Phase 4: **not started**;
-- unresolved Tamil lexical/pagination/boundary/title/assembly/completeness issues: **0**.
+- Phase 3 Gates 1–6: **PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- unresolved Tamil issues: **0**;
+- Phase 4: **not started**.
 
-Exact next activity: **Phase 3 Gate 6 — Tamil final clearance only**. Do not begin English translation in the same activity.
+Exact next activity: **Phase 4 English translation setup only**. Create the English translation control layer; do not draft the English poem in the same activity.
