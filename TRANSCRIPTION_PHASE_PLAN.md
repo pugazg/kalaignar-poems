@@ -22,12 +22,16 @@ Authority: `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`.
 
 - Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Gate-1 authority: `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`;
-- scan 16 visible printed page numeral: **none**;
-- page-layer `printed_page`: **`null` retained**;
-- inferred issue-page number: **none**;
-- Gate 2–6: **NOT STARTED**.
+- Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
+- Gate-2 authority: `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- opening boundaries: **1/1 PASS**;
+- internal page joins: **0**;
+- closing boundaries: **1/1 PASS**;
+- unresolved boundary/join issues: **0**;
+- verified page-text changes during Gates 1–2: **0**;
+- Gate 3–6: **NOT STARTED**.
 
-Exact next activity: **Gate 2 boundary / page-join audit**. For this one-page work, certify opening and closing boundaries and explicitly record **0 internal joins**. Do not combine Gate 2 with Gate 3 or assembly.
+Exact next activity: **Gate 3 title-witness reconciliation**. Reconcile the scan-16 direct title/author witness with the available bibliographic/catalogue witness. Do not combine Gate 3 with canonical assembly.
 
 ## Phase 4 — English translation / release
 
@@ -44,4 +48,4 @@ The prior new-item-only source remains **RELEASE-CLEARED**:
 
 ## Exact next activity
 
-**Phase 3 Gate 2 for `poems/kanchithan-annan/` only.** Preserve the verified page text unchanged and do not begin Gate 3, canonical Tamil assembly or English translation.
+**Phase 3 Gate 3 for `poems/kanchithan-annan/` only.** Preserve the verified page text unchanged and do not begin Gate 4 canonical Tamil assembly or English translation.
