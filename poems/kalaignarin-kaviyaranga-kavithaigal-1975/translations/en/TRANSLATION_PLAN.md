@@ -2,9 +2,9 @@
 
 ## Status
 
-**PHASE 4 ITEM TRANSLATION COMPLETE — Batches 01–03 reviewed PASS.**
+**PHASE 4 ITEM TRANSLATION COMPLETE — Batches 01–03 reviewed PASS / FULL ENGLISH ASSEMBLY COMPLETE / PASS / EDITORIAL CONSISTENCY REVIEW NEXT.**
 
-Tamil source/canonical layer is FINAL-CLEARED. Translation has not modified the Tamil archival layer.
+Tamil source/canonical layer is FINAL-CLEARED. Phase 4 has not modified the Tamil archival layer.
 
 ## Governing objective
 
@@ -54,7 +54,13 @@ A translation problem is never authority to edit Tamil silently.
 | 02 | 02 | 58–65 | `sections/02.md` | **PASS** |
 | 03 | 04 | 67–68 | `sections/04.md` | **PASS** |
 
-Batch review records: `batches/batch-01.md`, `batch-02.md`, `batch-03.md`.
+## Full English assembly
+
+**COMPLETE / PASS.** Authority: `ASSEMBLY.md`.
+
+Reader-facing file: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**.
+
+Assembly method follows repository precedent: remove standalone YAML and H1 only, prepend reader-facing item heading, retain remaining reviewed body, assemble Items **01 → 02 → 04**. Coverage: **22/22 markers; 0 omissions; 0 duplicates; 0 unexpected markers; scan 66 occurrences 0**.
 
 ## Recurring terminology / wordplay locks
 
@@ -65,15 +71,13 @@ Batch review records: `batches/batch-01.md`, `batch-02.md`, `batch-03.md`.
 - Item 04 `சுதந்திராக்கள்` is **Swatantrites**, not generic “free people”;
 - scan-66 context never becomes translated Item-04 body.
 
-## Post-batch gates
+## Remaining Phase-4 gates
 
-With all three batches reviewed PASS, remaining Phase-4 work is ordered:
-
-1. **full English assembly** from reviewed item files;
-2. editorial / terminology / voice consistency review;
+1. full English assembly — **COMPLETE / PASS**;
+2. **editorial / terminology / voice consistency review — NEXT**;
 3. final source-coverage / release-integrity review;
 4. release report / release-clearance decision.
 
 ## Exact next activity
 
-Execute **full English assembly only**. Assemble Items **01 → 02 → 04** in source order, preserve item boundaries and all **22/22** scan markers, and do not begin editorial-consistency or release-integrity review in the same activity.
+Perform **editorial / terminology / voice consistency review only**. Do not perform final release-integrity review in the same activity unless explicitly requested.

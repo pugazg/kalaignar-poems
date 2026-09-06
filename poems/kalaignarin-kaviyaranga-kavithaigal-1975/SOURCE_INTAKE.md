@@ -4,15 +4,17 @@ Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங
 
 | ID | Scans | Classification | Tamil | English |
 |---:|---:|---|---|---|
-| 01 | 46–57 | new Kalaignar | FINAL-CLEARED | Batch 01 PASS |
-| 02 | 58–65 | new Kalaignar | FINAL-CLEARED | Batch 02 PASS |
+| 01 | 46–57 | new Kalaignar | FINAL-CLEARED | Batch 01 PASS / assembled |
+| 02 | 58–65 | new Kalaignar | FINAL-CLEARED | Batch 02 PASS / assembled |
 | 03 | 66 | Rajaji context | excluded from canonical | excluded |
-| 04 | 67–68 | new Kalaignar | FINAL-CLEARED | Batch 03 PASS |
+| 04 | 67–68 | new Kalaignar | FINAL-CLEARED | Batch 03 PASS / assembled |
 
 Already represented ranges 9–20, 21–32, 33–45, 71–77, 78–84 remain skip-only. Scans 69–70 are Bharathidasan.
 
-Active Kalaignar English translation stage: **3/3 items reviewed PASS / 22/22 scans**.
+Active Kalaignar English translation stage: **3/3 items reviewed PASS / 22/22 scans / reader-facing assembly COMPLETE / PASS**.
+
+Assembly: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`; authority `translations/en/ASSEMBLY.md`.
 
 ## Exact next activity
 
-Full English assembly only.
+Editorial / terminology / voice consistency review only.

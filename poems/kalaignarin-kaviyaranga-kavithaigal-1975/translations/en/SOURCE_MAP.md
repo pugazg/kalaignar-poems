@@ -8,7 +8,7 @@ Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங
 
 Canonical Tamil manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`.
 
-## Tamil → English map
+## Tamil → reviewed English map
 
 | Item | Tamil canonical blob | Scans | English reviewed blob | Batch | Status |
 |---:|---|---:|---|---:|---|
@@ -18,6 +18,21 @@ Canonical Tamil manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3
 
 Combined translated active coverage: **22/22 scans**.
 
+## Reader-facing assembly map
+
+Output: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
+
+- Git blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
+- size: **24,203 bytes**;
+- source item order: **01 → 02 → 04**;
+- source marker partition: **46–57 / 58–65 / 67–68**;
+- total markers: **22/22**;
+- omitted / duplicate / unexpected active markers: **0 / 0 / 0**;
+- scan 66 occurrences: **0**;
+- closing source separators: **3/3**.
+
+Authority: `ASSEMBLY.md`.
+
 ## Title/context authority
 
 - Item 01: exact scan-46 two-line direct heading; Bharathidasan birthday / Puduvai prose is provenance.
@@ -26,11 +41,10 @@ Combined translated active coverage: **22/22 scans**.
 
 ## Structural controls
 
-- Item 01: scans 46–57; certified 50→51 open-quotation state preserved;
-- Item 02: scans 58–65; full `மை` chain and scan-65 closing rule preserved;
-- Item 04: scans 67–68; scan-68 terminal colon preserved before closing rule;
-- scan 66 translated canonical occurrences: **0**;
-- scan markers in reviewed item files: **12 + 8 + 2 = 22/22**.
+- Item 01: certified 50→51 open-quotation state preserved;
+- Item 02: full `மை` chain and scan-65 closing rule preserved;
+- Item 04: scan-68 terminal colon preserved before closing rule;
+- scan 66 translated/assembled canonical occurrences: **0**.
 
 ## Exclusions
 
@@ -39,10 +53,6 @@ Combined translated active coverage: **22/22 scans**.
 - scans 9–20, 21–32, 33–45, 71–77, 78–84 — already represented elsewhere;
 - scans 1–8 — publication preliminaries.
 
-## Batch-stage status
-
-Batches **01, 02, 03 = 3/3 REVIEWED / PASS**. Unresolved batch translation issues: **0**.
-
 ## Exact next activity
 
-Full English assembly from reviewed `sections/01.md`, `sections/02.md`, `sections/04.md` only.
+Editorial / terminology / voice consistency review only.

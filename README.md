@@ -8,9 +8,9 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`
 
 Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
 
-**NEW-ITEM-ONLY PROCESSING — PHASE 1 COMPLETE 22/22 / PHASE 2 COMPLETE 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 TRANSLATION BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY NEXT.**
+**NEW-ITEM-ONLY PROCESSING — PHASE 1 COMPLETE 22/22 / PHASE 2 COMPLETE 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY COMPLETE / EDITORIAL CONSISTENCY REVIEW NEXT.**
 
-Final-cleared new Kalaignar items:
+Final-cleared / reviewed new Kalaignar items:
 
 - Item 01 scans **46–57** — Tamil `sections/01.md` — English `translations/en/sections/01.md`;
 - Item 02 scans **58–65** — Tamil `sections/02.md` — English `translations/en/sections/02.md`;
@@ -18,17 +18,20 @@ Final-cleared new Kalaignar items:
 
 Scan **66** remains non-Kalaignar Rajaji context and has no canonical/English Item-03 body. Scans **69–70** are Bharathidasan. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain excluded from new-item processing.
 
-Tamil final-clearance authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+Reader-facing English assembly:
 
-English batch authorities:
+`poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
 
-- `translations/en/batches/batch-01.md` — Item 01 — PASS;
-- `translations/en/batches/batch-02.md` — Item 02 — PASS;
-- `translations/en/batches/batch-03.md` — Item 04 — PASS.
+- Git blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
+- size: **24,203 bytes**;
+- item order: **01 → 02 → 04**;
+- active scan markers: **22/22**;
+- duplicate / omitted / unexpected required markers: **0 / 0 / 0**;
+- scan 66 markers/body occurrences: **0**.
 
-Combined English batch coverage: **22/22 active Kalaignar scans**, unresolved translation issues **0**, Tamil page/canonical changes during Phase 4 **0**.
+Assembly authority: `translations/en/ASSEMBLY.md`. Tamil final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-Exact next activity: **full English assembly only**, in source order Items **01 → 02 → 04**.
+Exact next activity: **editorial / terminology / voice consistency review only** across the assembled reader-facing file and the three reviewed item files. Final source-coverage / release-integrity review remains a later gate.
 
 ## Preserved completed work
 

@@ -22,23 +22,19 @@ Canonical files: `sections/01.md`, `sections/02.md`, `sections/04.md`. Active ca
 
 ## Phase 4 — English translation / release
 
-**IN PROGRESS — SETUP COMPLETE / TRANSLATION BATCHES 3/3 REVIEWED PASS.**
+**IN PROGRESS — SETUP COMPLETE / BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY COMPLETE.**
 
-| Batch | Item | Scans | Status |
-|---:|---:|---:|---|
-| 01 | 01 | 46–57 | PASS |
-| 02 | 02 | 58–65 | PASS |
-| 03 | 04 | 67–68 | PASS |
+Reader-facing file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**.
 
-Reviewed English item coverage: **22/22 scans**. Unresolved batch translation issues: **0**. Tamil archival changes during Phase 4: **0**.
+Assembly coverage: **3/3 items, 22/22 scan markers, 0 omissions, 0 duplicates, 0 unexpected markers, scan 66 occurrences 0**. Authority: `translations/en/ASSEMBLY.md`.
 
 Remaining ordered Phase-4 gates:
 
-1. **full English assembly — NEXT**
-2. editorial / terminology / voice consistency review
-3. final source-coverage / release-integrity review
-4. release report / release-clearance decision
+1. full English assembly — **COMPLETE / PASS**;
+2. **editorial / terminology / voice consistency review — NEXT**;
+3. final source-coverage / release-integrity review;
+4. release report / release-clearance decision.
 
 ## Exact next activity
 
-Assemble the full English new-item collection from reviewed Items **01, 02, 04** only. Preserve item boundaries and all scan provenance. Do not combine later review gates into that activity unless explicitly requested.
+Perform the editorial / terminology / voice consistency review only. Do not combine it with final release-integrity review unless explicitly requested.

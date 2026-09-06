@@ -1,23 +1,33 @@
-# Next Chat Prompt — கலைஞரின் கவியரங்கக் கவிதைகள் (1975) / Full English Assembly
+# Next Chat Prompt — கலைஞரின் கவியரங்கக் கவிதைகள் (1975) / Editorial Consistency Review
 
 Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live main first.
+Fetch live main first and preserve newer durable work.
 
 ## Checkpoint
 
-Tamil is FINAL-CLEARED. Phase 4 setup is complete. All translation batches are REVIEWED / PASS:
+Tamil is **FINAL-CLEARED**. Phase 4 setup and all translation batches are complete. Batches 01–03 are **3/3 REVIEWED / PASS**.
 
-- Batch 01 — Item 01 — scans 46–57 — `translations/en/sections/01.md`
-- Batch 02 — Item 02 — scans 58–65 — `translations/en/sections/02.md`
-- Batch 03 — Item 04 — scans 67–68 — `translations/en/sections/04.md`
+Full reader-facing English assembly is **COMPLETE / PASS**:
 
-Combined reviewed English coverage: 22/22 active scans. Scan 66 body occurrences: 0. Unresolved batch translation issues: 0.
+- file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`;
+- blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
+- size: **24,203 bytes**;
+- items: **01 → 02 → 04**;
+- active scan markers: **22/22**;
+- omitted / duplicate / unexpected markers: **0 / 0 / 0**;
+- scan 66 occurrences: **0**;
+- unresolved assembly defects: **0**;
+- authority: `translations/en/ASSEMBLY.md`.
 
-Read the three reviewed item files, three batch records, `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`, and Tamil final-clearance authority before assembly.
+Read `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`, `ASSEMBLY.md`, the assembled reader-facing file, all three reviewed English item files and all three batch records. Keep `PHASE3_TAMIL_FINAL_CLEARANCE.md` as Tamil authority.
 
 ## Exact next activity
 
-Create the full reader-facing English assembly from Items **01 → 02 → 04** only. Preserve item separation and all 22 `scan_page` markers. Verify assembly coverage and duplication at the assembly level, but do not begin the separate editorial-consistency or release-integrity gates unless explicitly requested.
+Perform **editorial / terminology / voice consistency review only**.
+
+Check cross-item heading style, recurring names/terms/transliteration, quotation and punctuation presentation, translator-note/wordplay conventions, public-speech cadence, satire/direct address, and reader-facing cleanliness. Do not silently alter Tamil. If a real Tamil discrepancy is discovered, formally reopen the source-backed Tamil workflow.
+
+Do **not** perform final source-coverage/release-integrity review or release-clearance decision in the same activity unless explicitly requested.
