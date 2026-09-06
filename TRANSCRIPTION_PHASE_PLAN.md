@@ -12,33 +12,29 @@ User-scoped work range: **physical scan 16 only**.
 
 **COMPLETE — 1/1 scoped scan transcribed.**
 
-`pages/0016.md` is intentionally `partial` because first-pass transcription does not itself grant verification.
-
 ## Phase 2 — source-critical verification
 
-**NOT STARTED — 0/1 verified.**
+**COMPLETE / PASS — 1/1 VERIFIED.**
 
-Next activity: independently reread scan 16 against the controlling source, check every word/mark/line break and promote to `verified` only after a successful pass.
+- page: `pages/0016.md` — `verified`;
+- authority: `PHASE2_SOURCE_VERIFICATION.md`;
+- Phase-1 lexical corrections required during verification: **0**;
+- unresolved lexical/historical-glyph issues: **0**.
 
 ## Phase 3 — structure, assembly and Tamil final clearance
 
 **NOT STARTED.**
 
-Do not create canonical Tamil output before Phase 2 passes. After verification, follow the ordered Gate 1 → Gate 6 workflow from `POEM_PROCESSING_GUIDE.md`, even though this is a one-page work.
+Next activity is Gate 1 only: physical scan ↔ printed-page reconciliation for scan 16. Follow Gate 1 → Gate 6 in order even for this one-page work.
 
 ## Phase 4 — English translation / release
 
 **NOT STARTED / BLOCKED BY TAMIL FINAL CLEARANCE.**
 
-## Preserved closed source — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
+## Preserved closed sources
 
-The prior new-item-only source remains **RELEASE-CLEARED**:
-
-- Phase 1 22/22 COMPLETE;
-- Phase 2 22/22 VERIFIED;
-- Phase 3 Gates 1–6 PASS / Tamil FINAL-CLEARED;
-- Phase 4 3/3 reviewed PASS / assembly PASS / editorial PASS / release-integrity PASS / RELEASE-CLEARED.
+Previously release-cleared work remains frozen unless source-backed correction evidence requires a documented reopen.
 
 ## Exact next activity
 
-**Phase 2 visual verification of `poems/kanchithan-annan/pages/0016.md` only.** Do not combine it with Phase 3 assembly or English translation.
+**Phase 3 Gate 1 for `poems/kanchithan-annan/`, scan 16 only.** Do not combine it with later gates or English translation.

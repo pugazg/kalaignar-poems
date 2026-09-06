@@ -25,21 +25,22 @@ User-scoped work range: **physical scan 16 only**.
 - source intake / exact-byte identity: COMPLETE;
 - duplicate-title/opening-line repository search: no existing match found;
 - Phase 1 direct visual transcription: **1/1 COMPLETE**;
-- page record: `pages/0016.md`;
-- page status: `partial`;
+- Phase 2 independent source-critical verification: **1/1 VERIFIED / PASS**;
+- verification authority: `PHASE2_SOURCE_VERIFICATION.md`;
+- Phase-1 lexical corrections required during verification: **0**;
+- unresolved lexical/historical-glyph issues: **0**;
+- page record: `pages/0016.md` — `verified`;
 - no canonical Tamil section created;
 - no English translation started.
 
 ## Source controls
 
-The scan is the controlling text. Do not normalize spelling, punctuation, ellipses, quote marks, historical/compact forms or lineation. The source page includes decorative title material and a portrait beneath the poem.
-
-The original 108-page source remains authoritative even though a one-page scan-16 convenience extract exists outside the repository.
+The scan is the controlling text. Do not normalize spelling, punctuation, ellipses, quote marks, historical/compact forms or lineation. The original 108-page source remains authoritative.
 
 ## Exact next activity
 
-**Phase 2 source-critical visual verification — scan 16 only.**
+**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for scan 16 only.**
 
-Independently reread the page against the scan and check every word ending, compact/historical glyph, punctuation mark, quote, ellipsis and line break. Explicitly recheck `நிலக்களன்`, `ஆற்றொழுக்கை`, quoted `காஞ்சி`, `தம்பி`, and the closing lines. If and only if the pass succeeds, correct any source-backed differences and promote `pages/0016.md` from `partial` to `verified`, then synchronize README/audit/page-map/handover.
+Account for the one physical source page, confirm that no printed page numeral is visibly present, and record the logical structural state without altering verified poem text.
 
-Do not perform Phase 3 canonical assembly in the same activity.
+Do not combine Gate 1 with later Phase-3 gates, canonical assembly or English translation.

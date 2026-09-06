@@ -10,49 +10,35 @@
 
 ## Duplicate check
 
-Repository code search on live `main` found no existing match for either:
-
-- title: `காஞ்சிதான் அண்ணன்` / spaced search variant `காஞ்சி தான் அண்ணன்`;
-- opening phrase: `அண்ணன் நமக்கு அளித்துச் சென்ற படைக்கலம்`.
-
-This is therefore onboarded as a new poem workspace rather than an alternate witness of an already represented item.
+Repository code search on live `main` found no existing match for the title or opening phrase. This work remains onboarded as a new poem workspace.
 
 ## Phase 1 transcription
 
-Result: **COMPLETE — 1/1 scoped scan transcribed.**
+**COMPLETE — 1/1 scoped scan transcribed.**
 
-- page record: `pages/0016.md`;
-- current page status: `partial`;
-- OCR imported: **No**;
-- silent spelling/punctuation modernization: **No**;
-- invented printed page number: **No**;
-- portrait / ornamental matter recorded as non-text source material: **Yes**;
-- canonical Tamil file created: **No**;
-- English translation started: **No**.
+## Phase 2 source-critical verification
 
-## Verification state
+**COMPLETE / PASS — 1/1 VERIFIED.**
 
-Phase 2 has **not** been performed. No `verified` claim is made from this first-pass transcription.
+Authority: `PHASE2_SOURCE_VERIFICATION.md`.
 
-Independent verification must recheck, among all text:
+Independent direct visual reread against physical scan 16 confirmed the complete Phase-1 poem transcription. Source-sensitive checks included `நிலக்களன்`, `ஆற்றொழுக்கை`, quoted `காஞ்சி`/`தம்பி`, ellipsis lengths, `படைக்கலம்—`, the `கம்பீரம் ... கனிவு` line, all line breaks and the final `பொங்கல் மலர்` / `காஞ்சிப் பொங்கலின்` close.
 
-- `நிலக்களன்`;
-- `ஆற்றொழுக்கை`;
-- quotation states around `காஞ்சி` and `தம்பி`;
-- ellipsis lengths and adjacency;
-- the `கம்பீரம் ... கனிவு` line;
-- final `பொங்கல் மலர்` / `காஞ்சிப் பொங்கலின்` closing;
-- source lineation and punctuation throughout.
+Phase-1 lexical corrections required during Phase 2: **0**.
 
 ## Current totals
 
 - scoped physical scans: **1**;
 - Phase 1 transcribed: **1/1**;
-- partial: **1**;
+- partial: **0**;
 - needs-review: **0**;
-- verified: **0**;
-- Phase 2 verified: **0/1**;
+- verified: **1**;
+- Phase 2 verified: **1/1**;
+- unresolved lexical/historical-glyph issues: **0**;
 - Phase 3: **not started**;
-- unresolved Phase-1 lexical placeholders: **0**.
+- Phase 4: **not started**;
+- canonical Tamil files: **0**.
 
-The controlling scan remains authoritative. If Phase 2 finds a discrepancy, correct the page record from the scan and document it rather than normalizing from outside sources.
+The controlling scan remains authoritative. Phase 2 changed page status and verification documentation only; poem wording required no correction.
+
+Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation for scan 16 only**.
