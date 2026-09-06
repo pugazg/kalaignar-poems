@@ -27,30 +27,33 @@ User-scoped work range: **physical scan 16 only**.
 - Phase 1 direct visual transcription: **1/1 COMPLETE**;
 - Phase 2 independent source-critical verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
+- Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
 - Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`;
+- Gate-2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - page record: `pages/0016.md` — `verified`;
 - no canonical Tamil section created;
 - no English translation started.
 
 ## Gate-1 structural decision
 
-Physical scan **16** is the sole page in the user-scoped work. No printed page numeral is visibly present, therefore `printed_page: null` remains correct. The archival work-scope ordinal `1/1` must not be treated as a source-printed page number. No issue-page number was inferred or backfilled.
+Physical scan **16** is the sole page in the user-scoped work. No printed page numeral is visibly present, therefore `printed_page: null` remains correct. No issue-page number was inferred or backfilled.
+
+## Gate-2 boundary decision
+
+- opening boundary: **PASS** — scan 15 is preceding unrelated material; scan 16 begins with the poem's own title and author line;
+- internal joins: **0**;
+- closing boundary: **PASS** — the poem ends on scan 16 with `காத்திருப்பவர்களில் நானும் ஒருவன்!`, followed by a portrait; scan 17 begins a different item;
+- verified page-text changes: **0**;
+- unresolved boundary/join issues: **0**.
 
 ## Source controls
 
-The scan is the controlling text. Do not normalize spelling, punctuation, ellipses, quote marks, historical/compact forms or lineation. The source page includes decorative title material and a portrait beneath the poem.
-
-The original 108-page source remains authoritative even though a one-page scan-16 convenience extract exists outside the repository.
+The scan is the controlling text. Do not normalize spelling, punctuation, ellipses, quote marks, historical/compact forms or lineation. The original 108-page source remains authoritative even though a one-page scan-16 convenience extract exists outside the repository.
 
 ## Exact next activity
 
-**Phase 3 Gate 2 — boundary / page-join audit.**
+**Phase 3 Gate 3 — title-witness reconciliation.**
 
-For this one-page work, certify:
+Reconcile the direct scan-16 title/author witness with the available bibliographic/catalogue witness. Preserve each witness exactly, make an explicit canonical-title authority decision, and do not construct a hybrid title.
 
-- the opening boundary on scan 16;
-- the closing boundary on scan 16;
-- **0 internal page joins**;
-- the portrait and decorative material as outside the poem body.
-
-Preserve the Phase-2 verified page text unchanged. Do not perform Gate 3 title reconciliation, canonical assembly or English translation in the same activity.
+Do not perform canonical Tamil assembly or English translation in the same activity.
