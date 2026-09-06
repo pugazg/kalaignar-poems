@@ -14,7 +14,7 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–4 PASS; `sections/01.md` assembled | not started |
+| 01 | 16 | none | new Kalaignar poem | Phase 2 VERIFIED; Phase 3 Gates 1–5 PASS; `sections/01.md` assembled and reviewed | not started |
 
 Only physical scan **16** belongs to this user-requested work intake. Scans **15** and **17** were inspected only to certify Gate-2 boundaries.
 
@@ -28,7 +28,8 @@ Only physical scan **16** belongs to this user-requested work intake. Scans **15
 - Phase 3 Gate 2: **COMPLETE / PASS**;
 - Phase 3 Gate 3: **COMPLETE / PASS**;
 - Phase 3 Gate 4: **COMPLETE / PASS**;
-- Phase 3 Gate 5–6: NOT STARTED;
+- Phase 3 Gate 5: **COMPLETE / PASS**;
+- Phase 3 Gate 6: NOT STARTED;
 - Phase 4: NOT STARTED.
 
 Gate-1 decision: no visible printed page numeral; `printed_page` remains `null`.
@@ -39,4 +40,6 @@ Gate-3 decision: direct scan title `காஞ்சிதான் அண்ண�
 
 Gate-4 decision: canonical Tamil output `sections/01.md` assembled from verified `pages/0016.md` with **1/1 provenance marker**, **0 page-record corrections**, **0 page-status changes**, and **0 unresolved assembly defects**. Canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
 
-Exact next activity: **Phase 3 Gate 5 canonical/source-completeness review**. Do not grant Tamil final clearance or begin translation in the same activity.
+Gate-5 decision: canonical inventory **1/1 PASS**, scan 16 represented exactly once, source-visible canonical payload equality **1/1 PASS**, missing/duplicate/unexpected markers **0/0/0**, silent normalization/insertion/omission **0/0/0**, unresolved source-completeness defects **0**, and no Tamil text changed during review.
+
+Exact next activity: **Phase 3 Gate 6 Tamil final clearance only**. Do not begin translation in the same activity.
