@@ -91,10 +91,20 @@ Canonical three-file manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32
 
 **Phase 3 Gate 4 is COMPLETE / PASS.**
 
+## Subsequent Gate 5 outcome
+
+Phase 3 Gate 5 subsequently completed **PASS**. Durable evidence: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical item inventory: **3/3 PASS**;
+- active source scan accounting: **22/22 PASS**;
+- canonical payload equality against the verified page layer: **22/22 PASS**;
+- Gate-3 title/context authority: **3/3 PASS**;
+- Gate-2 internal joins preserved: **19/19 PASS**;
+- scan 66 canonical inclusion: **0**;
+- unresolved source-completeness defects: **0**;
+- verified page-record changes during Gate 5: **0**;
+- canonical item changes during Gate 5: **0**.
+
 ## Exact next gate
 
-Proceed to **Phase 3 Gate 5 — assembly / source-completeness review only**.
-
-Verify the three canonical files against the verified page layer and certified source map: every required active Kalaignar scan must occur exactly once, canonical payloads must remain source-faithful, title/context decisions must match Gate 3, scan 66 must remain excluded, and no source text may be silently normalized.
-
-Do not grant Tamil final clearance and do not begin translation in the same activity.
+Proceed to **Phase 3 Gate 6 — Tamil final clearance only**. Do not begin English translation in the same activity.
