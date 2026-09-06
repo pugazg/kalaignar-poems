@@ -2,21 +2,19 @@
 
 ## Current status
 
-**ONBOARDED / NEW-ITEM-ONLY / KALAIGNAR PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATES 1–3 COMPLETE — PASS / GATE 4 NEXT / SOURCE SHA-256 PINNED.**
+**ONBOARDED / NEW-ITEM-ONLY / PHASE 1 COMPLETE 22/22 / PHASE 2 COMPLETE 22/22 VERIFIED / PHASE 3 GATES 1–4 COMPLETE — PASS / GATE 5 NEXT / SOURCE SHA-256 PINNED.**
 
 - physical scans inventoried: **84/84**;
 - genuinely new Kalaignar blocks: **3** — scans **46–57, 58–65, 67–68**;
 - active Kalaignar production scans: **22/22**;
 - Phase-2 verified active pages: **22/22**;
-- NEW ITEM 01, scans 46–57: **12/12 verified**;
-- NEW ITEM 02, scans 58–65: **8/8 verified**;
-- NEW ITEM 04, scans 67–68: **2/2 verified**;
-- Phase 3 Gates 1–3: **COMPLETE / PASS**;
-- scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, retained only as source/context;
+- Phase 3 Gates 1–4: **COMPLETE / PASS**;
+- canonical Kalaignar files: **3/3** — `sections/01.md`, `sections/02.md`, `sections/04.md`;
+- canonical scan provenance markers: **22/22**;
+- scan 66 `சாராய சுதந்திரம்`: **NON-KALAIGNAR**, retained only as source/context and excluded from canonical sections;
 - scans 69–70: Bharathidasan insert — non-Kalaignar;
-- already represented Kalaignar blocks: scans **9–20, 21–32, 33–45, 71–77, 78–84** — skip/no retranscription or anthology verification;
-- repository writes to existing release-cleared poem trees: **0**;
-- canonical Tamil new items: **0/3**.
+- duplicate/already represented blocks reopened: **0**;
+- repository writes to existing release-cleared poem trees: **0**.
 
 ## Exact source identity
 
@@ -25,91 +23,53 @@
 - bytes: **93,307,011**;
 - SHA-256: `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
 
-## Historical Tamil glyph control
+## Phase 3 ledger
 
-The user-supplied `HISTORICAL_TAMIL_GLYPH_TRANSCRIPTION_GUIDE.md` remains mandatory. The full family screen `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ` was applied during Phase 1 and independently repeated across all **22/22** active Kalaignar scans during Phase 2. Unresolved lexical/historical-glyph issues: **0**.
+### Gate 1 — pagination
 
-## Phase 2 final ledger
+**PASS.** Scans **46–68** reconcile continuously as logical pages **46–68**. Source-visible numerals occur on **47–57, 59–65, 68**; scans **46, 58, 66, 67** retain `printed_page: null`.
 
-- NEW ITEM 01 — scans 46–57: **12/12 VERIFIED**;
-- NEW ITEM 02 — scans 58–65: **8/8 VERIFIED**;
-- NEW ITEM 04 — scans 67–68: **2/2 VERIFIED**.
+### Gate 2 — boundaries / joins
 
-No page-level lexical work was reopened during Gates 1–3.
+**PASS.** **3/3 openings**, **19/19 internal joins**, **3/3 closings** certified. Scan 50→51 open quotation and scan 68 terminal colon remain source-faithful; scan 66 is contextual separation only.
 
-## Phase 3 Gate 1 — physical scan ↔ printed/logical page reconciliation
+### Gate 3 — title witnesses
 
-Authority: `PHASE3_STRUCTURE_AUDIT.md`.
+**PASS.** **3/3** title authorities resolved; no item-level contents-page witness. Item 02 uses source `கவியரங்கில்`; Item 04 direct `“முதல்வர் கலைஞரின் பதில் கவிதை”` controls over contextual `மறுப்புக் கவிதை`.
 
-**PASS.** The complete structural interval scans **46–68** reconciles to one continuous publication-page sequence **46–68**, with structural invariant:
+### Gate 4 — canonical Tamil assembly
 
-`reconciled logical publication page = physical scan_page`
+Authority: `PHASE3_CANONICAL_ASSEMBLY.md`.
 
-Gate-1 accounting:
+**PASS.** Canonical outputs:
 
-- physical scans in interval: **23/23**;
-- active new-Kalaignar scans: **22/22**;
-- non-Kalaignar contextual scan: **1/1** — scan 66;
-- visibly numbered interval pages: **19/23** — scans 47–57, 59–65, 68;
-- suppressed/unprinted numerals: **4/23** — scans **46, 58, 66, 67**;
-- active Kalaignar suppressed numerals: **46, 58, 67**;
-- unexplained pagination gaps/resets: **none**;
-- page-text changes in Gate 1: **none**.
+- Item 01 → `sections/01.md` → scans **46–57**;
+- Item 02 → `sections/02.md` → scans **58–65**;
+- Item 04 → `sections/04.md` → scans **67–68**.
 
-The page-record `printed_page` fields remain source-visible evidence only. Scans 46, 58, 66 and 67 remain `printed_page: null`; their reconciled logical numbers are structural metadata and were not backfilled into page records.
+Accounting:
 
-## Phase 3 Gate 2 — boundary / page-join audit
-
-Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
-
-**PASS.** Gate 2 certified all boundaries in the three active new Kalaignar items:
-
-- item openings: **3/3 certified**;
-- Item 01 internal joins, scans 46–57: **11/11 certified**;
-- Item 02 internal joins, scans 58–65: **7/7 certified**;
-- Item 04 internal joins, scans 67–68: **1/1 certified**;
-- total internal joins: **19/19 certified**;
-- item closings: **3/3 certified**;
-- scan 66 contextual separation evidence: **1/1 certified**, still non-Kalaignar;
-- unresolved boundary/join issues: **0**.
-
-Explicit source states preserved by Gate 2:
-
-- scan **50 → 51** carries a source-open quotation across the physical page break without a repeated opening/closing mark; no editorial quotation mark was inserted;
-- scan **68** ends `பட்டியல் பிறகு சொல்வேன்:` and then prints a horizontal closing rule; the colon is retained and no missing list/continuation is invented.
-
-Gate-2 page-text changes: **none**. Gate-2 page-status changes: **none**.
-
-## Phase 3 Gate 3 — title-witness reconciliation
-
-Authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-**PASS.** Gate 3 resolved all applicable title witnesses:
-
-- printed item-level contents-page witnesses: **0** — the publication preliminaries contain no contents page;
-- Item 01 title authority: exact scan-46 two-line heading `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை`;
-- Item 02 title authority: exact scan-58 three-line heading `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை`;
-- Item 04 title authority: exact scan-67 direct heading `“முதல்வர் கலைஞரின் பதில் கவிதை”`;
-- scan 66 contextual descriptor `மறுப்புக் கவிதை` is preserved as provenance only and does not replace/hybridize the direct Item-04 heading;
-- Item 02 prior convenience label `விழாக் கவியரங்கு` was corrected in status/intake metadata to the source-exact heading witness;
-- unresolved title-witness conflicts: **0**;
-- Gate-3 verified page-text changes: **none**;
-- Gate-3 page-status changes: **none**;
-- canonical Tamil item files created: **0/3**.
-
-Existing release-cleared poem-tree changes across Gates 1–3: **none**.
+- canonical items: **3/3**;
+- verified active pages represented: **22/22**;
+- explicit scan markers: **22/22**;
+- overlap: **0**;
+- active-scan omission: **0**;
+- scan-66 canonical inclusion: **0**;
+- verified page-text changes: **0**;
+- page-status changes: **0**;
+- unresolved Gate-4 assembly defects: **0**;
+- canonical source map: `indexes/canonical-source-map.md`;
+- canonical three-file manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`.
 
 ## Phase 3 progression
 
 1. Physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**
 2. Boundary / page-join audit — **COMPLETE / PASS**
 3. Title-witness reconciliation — **COMPLETE / PASS**
-4. Canonical Tamil assembly — **NEXT**
-5. Assembly/source-completeness review — deferred
+4. Canonical Tamil assembly — **COMPLETE / PASS**
+5. Assembly/source-completeness review — **NEXT**
 6. Tamil final clearance — deferred
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for the three certified new Kalaignar items. Assemble exclusively from verified page records, use Gate-3 title authorities, preserve Gate-2-certified joins/quotation state/separators and explicit scan provenance, and exclude scan 66 from canonical Kalaignar text.
-
-Do not begin Gate 5, Tamil final clearance or translation in the same activity.
+Perform **Phase 3 Gate 5 — assembly / source-completeness review only**. Do not grant Tamil final clearance or begin translation in the same activity.

@@ -15,10 +15,6 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 - duplicate Kalaignar blocks: skip retranscription/anthology verification;
 - scans 69–70: Bharathidasan.
 
-## Historical Tamil glyph control
-
-The user-supplied historical-glyph guide is mandatory. Phase-1 family screening and Phase-2 independent recheck are both **22/22 complete**. Source-pixel identity controls; no lexical modernization or global replacement.
-
 ## Phase 1 — new-Kalaignar transcription only
 
 **COMPLETE — 22/22 target scans.**
@@ -29,54 +25,28 @@ The user-supplied historical-glyph guide is mandatory. Phase-1 family screening 
 
 ## Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — GATES 1–3 COMPLETE / PASS; GATE 4 NEXT.**
+**IN PROGRESS — GATES 1–4 COMPLETE / PASS; GATE 5 NEXT.**
 
-Ordered gates from `POEM_PROCESSING_GUIDE.md`:
-
-1. **Physical scan ↔ printed-page reconciliation — COMPLETE / PASS**
-2. **Boundary / page-join audit — COMPLETE / PASS**
-3. **Title-witness reconciliation — COMPLETE / PASS**
-4. **Canonical Tamil assembly — NEXT**
-5. Assembly/source-completeness review — deferred
+1. Physical scan ↔ printed-page reconciliation — **COMPLETE / PASS**
+2. Boundary / page-join audit — **COMPLETE / PASS**
+3. Title-witness reconciliation — **COMPLETE / PASS**
+4. Canonical Tamil assembly — **COMPLETE / PASS**
+5. Assembly/source-completeness review — **NEXT**
 6. Tamil final clearance — deferred
 
-### Gate 1 result
+### Gate 4 result
 
-Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_STRUCTURE_AUDIT.md`.
+Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_CANONICAL_ASSEMBLY.md`.
 
-- structural interval: scans **46–68**;
-- reconciled logical publication pages: **46–68**;
-- visible numerals: scans **47–57, 59–65, 68**;
-- suppressed numerals: scans **46, 58, 66, 67**;
-- `printed_page` remains `null` where numerals are not visibly printed;
-- unexplained pagination gaps/resets: **none**;
-- Gate-1 page-text changes: **none**.
-
-### Gate 2 result
-
-Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
-
-- new-item openings certified: **3/3**;
-- internal page joins certified: **19/19** — Item 01 **11/11**, Item 02 **7/7**, Item 04 **1/1**;
-- item closings certified: **3/3**;
-- scan 66 certified only as Rajaji contextual separation evidence;
-- scan 50 → 51 source-open quotation carry-over preserved without editorial punctuation repair;
-- scan 68 source terminal colon before horizontal closing rule preserved without inventing continuation;
-- unresolved boundary/join issues: **0**;
-- Gate-2 page-text/status changes: **none**.
-
-### Gate 3 result
-
-Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-- printed item-level contents-page witnesses: **0** — publication preliminaries contain no contents page;
-- Item 01 assembly title authority: exact scan-46 two-line heading;
-- Item 02 assembly title authority: exact scan-58 three-line heading with source `கவியரங்கில்`;
-- Item 04 assembly title authority: exact scan-67 `“முதல்வர் கலைஞரின் பதில் கவிதை”`;
-- scan 66 `மறுப்புக் கவிதை` is contextual provenance only, not the Item-04 title;
-- unresolved title-witness conflicts: **0**;
-- Gate-3 verified page-text/status changes: **none**;
-- canonical Tamil files: **0/3**.
+- canonical outputs: `sections/01.md`, `sections/02.md`, `sections/04.md`;
+- canonical items: **3/3**;
+- verified active pages represented: **22/22**;
+- explicit scan provenance markers: **22/22**;
+- scan 66 canonical inclusion: **0**;
+- verified page-text changes: **0**;
+- page-status changes: **0**;
+- unresolved assembly defects: **0**;
+- canonical source map: `indexes/canonical-source-map.md`.
 
 ## Phase 4 — English translation / release
 
@@ -84,8 +54,4 @@ Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_TITLE_WITNESS_
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 only — canonical Tamil assembly** for the three certified new Kalaignar items.
-
-Assemble exclusively from `verified` page records; use Gate-3 title authorities; preserve Gate-2-certified page joins, quotation state, separators, source punctuation/lineation and explicit scan provenance; exclude scan 66 from Kalaignar canonical text.
-
-Do not begin Gate 5, Tamil final clearance or Phase 4 in the same activity.
+Perform **Phase 3 Gate 5 only — assembly / source-completeness review** for the three canonical files. Do not grant Tamil final clearance or begin Phase 4 in the same activity.

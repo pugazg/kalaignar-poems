@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**ONBOARDED / NEW-ITEM-ONLY / PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATES 1–3 COMPLETE — PASS / GATE 4 NEXT.**
+**ONBOARDED / NEW-ITEM-ONLY / PHASE 1 COMPLETE — 22/22 / PHASE 2 COMPLETE — 22/22 VERIFIED / PHASE 3 GATES 1–4 COMPLETE — PASS / GATE 5 NEXT.**
 
 Controlling source:
 
@@ -14,59 +14,26 @@ Controlling source:
 - first edition **1975**;
 - compiler/editor witness **ஆசிரியர் அ. முத்து**.
 
-## Corrected production scope
+## Production scope
 
-| Intake ID | Source-heading witness | Scans | Current state |
-|---:|---|---:|---|
-| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | **Phase 2 verified; Gates 1–3 PASS** |
-| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | **Phase 2 verified; Gates 1–3 PASS** |
-| 03 | `சாராய சுதந்திரம்` | 66 | **NON-KALAIGNAR — Rajaji source/context only** |
-| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | **Phase 2 verified; Gates 1–3 PASS** |
+| Intake ID | Source-heading witness | Scans | Canonical output | Current state |
+|---:|---|---:|---|---|
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46–57 | `sections/01.md` | **Gates 1–4 PASS** |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58–65 | `sections/02.md` | **Gates 1–4 PASS** |
+| 03 | `சாராய சுதந்திரம்` | 66 | none | **NON-KALAIGNAR — Rajaji context** |
+| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67–68 | `sections/04.md` | **Gates 1–4 PASS** |
 
-There are **3 genuinely new Kalaignar blocks / 22 production scans**, all independently verified. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription or anthology verification. Scans **69–70** are Bharathidasan material.
+There are **3 genuinely new Kalaignar blocks / 22 production scans**, all independently verified and now canonically assembled. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain skip/no retranscription or anthology verification. Scans **69–70** are Bharathidasan material.
 
-Historical-glyph screening and independent recheck are **22/22 complete**, unresolved issues **0**. Existing release-cleared poem trees remain untouched.
+## Phase 3 authorities
 
-## Phase 3 Gate 1
+- `PHASE3_STRUCTURE_AUDIT.md` — Gate 1 COMPLETE / PASS;
+- `PHASE3_BOUNDARY_JOIN_AUDIT.md` — Gate 2 COMPLETE / PASS, **19/19** internal joins;
+- `PHASE3_TITLE_WITNESS_RECONCILIATION.md` — Gate 3 COMPLETE / PASS, **3/3** title authorities resolved;
+- `PHASE3_CANONICAL_ASSEMBLY.md` — Gate 4 COMPLETE / PASS, **3/3** canonical items / **22/22** verified active pages represented.
 
-`PHASE3_STRUCTURE_AUDIT.md` records **COMPLETE / PASS**:
-
-- structural interval: scans **46–68**;
-- reconciled logical publication pages: **46–68**;
-- invariant: `logical page = physical scan_page`;
-- visible numerals: scans **47–57, 59–65, 68**;
-- suppressed numerals: scans **46, 58, 66, 67**;
-- unexplained gaps/resets: **none**;
-- page-text changes: **none**.
-
-## Phase 3 Gate 2
-
-`PHASE3_BOUNDARY_JOIN_AUDIT.md` records **COMPLETE / PASS**:
-
-- item openings certified: **3/3**;
-- internal joins certified: **19/19** — Item 01 **11/11**, Item 02 **7/7**, Item 04 **1/1**;
-- item closings certified: **3/3**;
-- scan 66 certified only as Rajaji contextual separation evidence;
-- scan **50 → 51** source-visible quotation carry-over is preserved without editorial repair;
-- scan **68** source-visible terminal colon before the horizontal closing rule is preserved without inventing continuation;
-- unresolved boundary/join issues: **0**;
-- page-text/status changes: **none**.
-
-## Phase 3 Gate 3
-
-`PHASE3_TITLE_WITNESS_RECONCILIATION.md` records **COMPLETE / PASS**:
-
-- publication preliminaries contain **no item-level contents page**;
-- Item 01: exact scan-46 two-line heading controls later assembly;
-- Item 02: exact scan-58 three-line heading controls later assembly; the earlier normalized convenience label `விழாக் கவியரங்கு` is not a source witness and has been corrected in status/intake metadata;
-- Item 04: exact scan-67 title `“முதல்வர் கலைஞரின் பதில் கவிதை”` controls later assembly;
-- scan 66's `மறுப்புக் கவிதை` remains contextual provenance only and must not replace/hybridize the Item-04 title;
-- unresolved title-witness conflicts: **0**;
-- verified page-text/status changes: **none**;
-- canonical Tamil files: **0/3**.
+Gate-4 source mapping is in `indexes/canonical-source-map.md`. `sections/03.md` is intentionally absent because scan 66 is not Kalaignar text. Verified page-text/status changes in Gate 4: **none**.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only** for Items 01, 02 and 04. Assemble only from verified page records, apply the Gate-3 title authorities, preserve Gate-2-certified joins/quotation state/separators and explicit scan provenance, and exclude scan 66 from Kalaignar canonical text.
-
-Do not begin Gate 5, Tamil final clearance or translation in the same activity.
+Perform **Phase 3 Gate 5 — assembly / source-completeness review only**. Verify canonical payload equality/provenance against the verified page layer and source map. Do not grant Tamil final clearance or begin translation in the same activity.
