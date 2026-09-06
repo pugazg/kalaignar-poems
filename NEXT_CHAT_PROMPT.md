@@ -21,8 +21,9 @@ Read completely:
 9. `poems/kanchithan-annan/audit.md`
 10. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
 11. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
-12. `poems/kanchithan-annan/HANDOVER.md`
-13. `poems/kanchithan-annan/pages/0016.md`
+12. `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`
+13. `poems/kanchithan-annan/HANDOVER.md`
+14. `poems/kanchithan-annan/pages/0016.md`
 
 ## Controlling source
 
@@ -42,23 +43,17 @@ Title: **காஞ்சிதான் அண்ணன்**. Author: **கல�
 - Phase 1 transcription: **1/1 COMPLETE**;
 - Phase 2 verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
-- Gate-1 decision: physical scan 16 is the sole scoped page; no visible printed page numeral; `printed_page: null` retained; no inferred issue-page number;
-- Phase 3 Gate 2–6: **NOT STARTED**;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
+- Gate-2 closure: opening 1/1 PASS; internal joins 0; closing 1/1 PASS; scans 15 and 17 positively bound the one-page poem; verified page-text changes 0;
+- Phase 3 Gate 3–6: **NOT STARTED**;
 - Phase 4: NOT STARTED.
 
 ## Next activity only
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit**.
+Perform **Phase 3 Gate 3 — title-witness reconciliation**.
 
-For the one-page scoped work, certify:
+Reconcile the direct scan-16 title/author witness with the user-supplied bibliographic/catalogue witness. Preserve each witness exactly and explicitly record which witness controls the later canonical title. Do not invent punctuation, spacing or a hybrid title.
 
-- opening boundary on scan 16;
-- closing boundary on scan 16;
-- **0 internal page joins**;
-- decorative title/portrait matter remains outside poem body.
-
-Do not alter the verified page text unless genuine source evidence requires a documented reopen.
-
-**Do not begin Gate 3 title-witness reconciliation, canonical Tamil assembly or English translation in that same activity.**
+**Do not begin Gate 4 canonical Tamil assembly or English translation in that same activity.**
 
 The previously completed `கலைஞரின் கவியரங்கக் கவிதைகள் (1975)` workspace remains CLOSED / RELEASE-CLEARED and must not be reopened without source evidence.
