@@ -19,20 +19,18 @@ Current state:
 - Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - Gate-6 authority: `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-- canonical output: `poems/kanchithan-annan/sections/01.md`;
-- canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical scan markers: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
-- unresolved Tamil issues: **0**;
+- canonical Tamil: `poems/kanchithan-annan/sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - Phase 4 English translation setup: **COMPLETE**;
 - Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
 - reviewed English: `poems/kanchithan-annan/translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- batch authority: `poems/kanchithan-annan/translations/en/batches/batch-01.md`;
+- reader-facing English assembly: **COMPLETE / PASS**;
+- reader-facing output: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
+- assembly authority: `poems/kanchithan-annan/translations/en/ASSEMBLY.md`;
 - English scan markers: **1/1 exactly once**;
-- unresolved translation issues: **0**;
-- Tamil page/canonical changes during Batch 01: **0 / 0**.
+- unresolved translation / assembly issues: **0 / 0**;
+- Tamil page/canonical changes during Phase 4 Batch 01 + assembly: **0 / 0**.
 
-Exact next activity: **reader-facing English assembly only** — create `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` and `ASSEMBLY.md`. Do not perform editorial-consistency or release gates in the same activity.
+Exact next activity: **editorial / terminology / voice consistency review only** for the reviewed and reader-facing English. Do not perform release-integrity or release-clearance in the same activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 

@@ -9,7 +9,7 @@
 - publication year: **1970**;
 - work location: physical PDF page **16** only.
 
-User-supplied catalogue description, preserved as catalogue context rather than source text:
+User-supplied catalogue description, preserved as context rather than source text:
 
 > அறிவுலக ஆசான் அண்ணனைப் பற்றித் தம்பி கலைஞர் எழுதிய கவிதை.
 
@@ -24,59 +24,30 @@ User-supplied catalogue description, preserved as catalogue context rather than 
 
 ## Scoped work boundary
 
-The user identified physical PDF page **16** as the complete source page for this poem. This is treated as a one-scan periodical extraction.
+Scan 16 contains the decorative title, author line, complete poem, ornaments and author portrait. No visible printed page numeral appears; `printed_page` remains `null`. Scans 15 and 17 are boundary evidence only.
 
-- scan 16: decorative title, source author line, complete poem body, ornaments and author portrait;
-- visible printed page numeral: **none**;
-- page-layer `printed_page`: **`null`**;
-- scans 15 and 17 were inspected only for Gate-2 boundary certification.
+One-page convenience extract outside the repository: `காஞ்சிதான்_அண்ணன்_காஞ்சி_பொங்கல்_மலர்_1970_page_16.pdf`, **1,318,143 bytes**, SHA-256 `a57fcf28c77c3b9874e8a38a752067c06f0524ba002ab2feed2a9e63ffbc69dc`. It does not replace the original source identity.
 
-A one-page convenience extract exists outside the repository:
+## Canonical / final-cleared Tamil
 
-- filename: `காஞ்சிதான்_அண்ணன்_காஞ்சி_பொங்கல்_மலர்_1970_page_16.pdf`;
-- pages: **1**;
-- file size: **1,318,143 bytes**;
-- SHA-256: `a57fcf28c77c3b9874e8a38a752067c06f0524ba002ab2feed2a9e63ffbc69dc`.
+- verified page: `../pages/0016.md` — blob `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
+- canonical Tamil: `../sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
+- canonical scan markers: **1/1 exactly once**;
+- unresolved Tamil issues: **0**.
 
-It does not replace the original source identity.
+## Phase 4 English state
 
-## Title authority
-
-Phase 3 Gate 3 reconciled the direct and bibliographic witnesses:
-
-- direct scan-16 title: `காஞ்சிதான் அண்ணன்`;
-- bibliographic title: **காஞ்சிதான் அண்ணன்**;
-- canonical-title authority: **direct scan 16**;
-- title conflicts: **0**;
-- hybrid title: **none**.
-
-## Canonical / final-cleared layer
-
-- verified page: `../pages/0016.md` — Git blob `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
-- canonical Tamil: `../sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Phase 3 Gates 1–6: **PASS**;
-- scan provenance markers: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
-- unresolved Tamil issues: **0**;
-- Tamil layer: **FINAL-CLEARED**.
-
-## Phase 4 translation controls and reviewed item
-
-Translation setup is **COMPLETE**. Control files:
-
-- `../translations/en/README.md`;
-- `../translations/en/TRANSLATION_PLAN.md`;
-- `../translations/en/SOURCE_MAP.md`.
-
-Normal translation authority is FINAL-CLEARED `../sections/01.md`. If a Tamil reading is questioned, return to controlling scan 16, then the verified page, canonical section and Phase-3 records.
-
-The single complete-item translation batch is **Batch 01 = Item 01 = scan 16** and is now **REVIEWED / PASS**:
-
+- translation controls: **COMPLETE**;
+- Batch 01: **1/1 REVIEWED / PASS**;
 - reviewed English: `../translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- review authority: `../translations/en/batches/batch-01.md`;
-- English scan markers: **1/1 exactly once**;
-- unresolved translation issues: **0**;
-- Tamil page/canonical changes during Batch 01: **0 / 0**.
+- reader-facing assembly: **COMPLETE / PASS**;
+- reader-facing output: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
+- assembly authority: `../translations/en/ASSEMBLY.md`;
+- reader-facing scan markers: **1/1 exactly once**;
+- reviewed English lexical changes during assembly: **0**;
+- unresolved translation / assembly issues: **0 / 0**;
+- Tamil page/canonical changes during Phase 4: **0 / 0**.
 
 ## Scan condition / anomalies
 
@@ -87,13 +58,6 @@ The single complete-item translation batch is **Batch 01 = Item 01 = scan 16** a
 
 ## Current processing state
 
-- intake: **COMPLETE**;
-- Phase 1: **1/1 COMPLETE**;
-- Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
-- Phase 4 translation setup: **COMPLETE**;
-- Phase 4 Batch 01 translation/review: **1/1 REVIEWED / PASS**;
-- reader-facing English assembly: **NOT STARTED**;
-- English release: **NOT STARTED**.
+Tamil: **FINAL-CLEARED**. English Batch 01: **REVIEWED / PASS**. Reader-facing English assembly: **COMPLETE / PASS**. English release: **NOT STARTED**.
 
-The controlling scan remains the highest textual authority. Exact next activity: **reader-facing English assembly only**.
+Exact next activity: **editorial / terminology / voice consistency review only**.

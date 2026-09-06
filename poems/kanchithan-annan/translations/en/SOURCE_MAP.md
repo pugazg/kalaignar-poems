@@ -14,9 +14,21 @@ User-scoped work range: **physical scan 16 only**.
 |---:|---|---|---:|---|---|---|
 | 01 | `../../sections/01.md` | `1cab49c17d97f76b7a235ca6e536af06f75b5190` | 16 | `sections/01.md` | `17a565f28af6e51d215d703bcb6058cf2805023b` | **PASS** |
 
-Review authority: `batches/batch-01.md`.
+Review authority: `batches/batch-01.md`. Combined translated active coverage: **1/1 scan**.
 
-Combined translated active coverage: **1/1 scan**.
+## Reader-facing assembly map
+
+Output: `kanchithan-annan-en.md`
+
+- Git blob: `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
+- size: **984 bytes**;
+- source items: **1/1 — Item 01**;
+- source scan marker: **16 — 1/1 exactly once**;
+- missing / duplicate / unexpected active markers: **0 / 0 / 0**;
+- reader-facing YAML front matter: **0**;
+- reviewed English lexical changes during assembly: **0**.
+
+Assembly authority: `ASSEMBLY.md` — **COMPLETE / PASS**.
 
 ## Title / attribution authority
 
@@ -30,25 +42,18 @@ Combined translated active coverage: **1/1 scan**.
 
 - source opening / closing boundaries: **PASS / PASS**;
 - internal page joins: **0**;
-- English `scan_page: 16` markers: **1/1 exactly once**;
 - Kanchi publication/place/Anna identity relationship: **PASS**;
 - quoted `Thambi`: **PASS**;
 - `நிலக்களன்` / `ஆற்றொழுக்கை` handling: **PASS / PASS**;
 - repetition / parallelism / rhetorical-question force: **PASS**;
 - *Pongal Malar* special-issue/flower relationship: retained;
 - first-person closing force: **PASS**;
-- detected English omissions / duplications: **0 / 0**;
-- unresolved Batch-01 issues: **0**.
+- unresolved Batch-01 / assembly issues: **0 / 0**.
 
 ## Tamil protection
 
-Phase 4 Batch 01 changed **0** FINAL-CLEARED Tamil page files and **0** canonical Tamil section files. A genuine source-backed Tamil discrepancy still requires formal reopening before any correction can propagate to English.
-
-## Planned reader-facing output
-
-- `kanchithan-annan-en.md` — **not yet assembled**;
-- assembly authority: `ASSEMBLY.md` — **not yet created**.
+Phase 4 Batch 01 and assembly changed **0** FINAL-CLEARED Tamil page files and **0** canonical Tamil section files. A genuine source-backed Tamil discrepancy still requires formal reopening before any correction can propagate to English.
 
 ## Exact next activity
 
-**Reader-facing English assembly only** from reviewed `sections/01.md`. Preserve Item 01 and scan-16 provenance exactly once. Do not begin editorial-consistency or release gates in the same activity.
+**Editorial / terminology / voice consistency review only** across the reviewed item and reader-facing output. Do not begin final source-coverage/release-integrity or release-clearance in the same activity.

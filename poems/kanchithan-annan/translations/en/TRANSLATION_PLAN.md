@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 BATCH 01 COMPLETE / REVIEWED PASS — 1/1.**
+**PHASE 4 BATCH 01 REVIEWED PASS / READER-FACING ASSEMBLY PASS.**
 
 Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
@@ -18,38 +18,38 @@ If a Tamil reading becomes questionable: controlling scan 16 → verified `../..
 
 ## Batch inventory
 
-| Batch | Item | Physical scan | Tamil source | English file | Review |
+| Batch | Item | Scan | Tamil source | English file | Review |
 |---:|---:|---:|---|---|---|
 | 01 | 01 | 16 | `../../sections/01.md` | `sections/01.md` | **REVIEWED / PASS** |
 
-Reviewed English blob: `17a565f28af6e51d215d703bcb6058cf2805023b`.
+Reviewed English blob: `17a565f28af6e51d215d703bcb6058cf2805023b`. Review authority: `batches/batch-01.md`.
 
-Review authority: `batches/batch-01.md`.
+## Reader-facing assembly
+
+**COMPLETE / PASS.** Authority: `ASSEMBLY.md`.
+
+Reader-facing file: `kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**.
+
+- assembled items: **1/1**;
+- scan marker: **1/1 exactly once**;
+- YAML control front matter removed: **PASS**;
+- reviewed H1, attribution and poem body retained exactly: **PASS**;
+- reviewed English lexical changes during assembly: **0**;
+- unresolved assembly defects: **0**;
+- Tamil page/canonical changes during Phase 4: **0 / 0**.
 
 ## Reviewed fidelity decisions
 
-- English title: **Kanchi Is Anna**, from direct canonical `காஞ்சிதான் அண்ணன்`;
-- Kanchi publication/place/Anna identity relationship remains visible;
-- quoted `தம்பி` is retained as **“Thambi”**;
-- `நிலக்களன்` / `ஆற்றொழுக்கை` receive context-sensitive, non-normalizing English handling;
-- weekly repetition, golden-letter/golden-issue parallelism, laughter/thought pairing and reciprocal Kanchi/Anna identity are retained;
-- rhetorical questions remain questions;
-- source ellipsis/emphatic punctuation remains visible as rhetorical evidence;
-- *Pongal Malar* retains the special-issue/flower relationship;
-- first-person final line remains first-person;
-- scan provenance: **1/1 marker exactly once**;
-- detected omissions / duplications: **0 / 0**;
-- unresolved translation issues: **0**;
-- Tamil page/canonical changes: **0 / 0**.
+English preserves **Kanchi Is Anna**, the Kanchi publication/place/Anna identity relationship, quoted **“Thambi”**, context-sensitive handling of `நிலக்களன்` / `ஆற்றொழுக்கை`, weekly and golden-item repetition, laughter/thought parallelism, reciprocal Kanchi/Anna identity, rhetorical questions, source ellipses, *Pongal Malar* issue/flower relationship and the explicit first-person closing.
 
 ## Remaining Phase-4 sequence
 
 1. Batch 01 translation/review — **COMPLETE / PASS**.
-2. Reader-facing English assembly — **NEXT**.
-3. Editorial / terminology / voice consistency review.
+2. Reader-facing English assembly — **COMPLETE / PASS**.
+3. Editorial / terminology / voice consistency review — **NEXT**.
 4. Final source-coverage / release-integrity review.
 5. Release report / explicit release-clearance decision.
 
 ## Exact next activity
 
-Create reader-facing `kanchithan-annan-en.md` and `ASSEMBLY.md` from the reviewed English item only. Do not combine assembly with later editorial or release gates.
+Perform **editorial / terminology / voice consistency review only**. Do not combine with final release-integrity or release-clearance.

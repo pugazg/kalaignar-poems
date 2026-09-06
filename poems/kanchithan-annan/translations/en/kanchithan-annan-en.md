@@ -1,0 +1,28 @@
+# Kanchi Is Anna
+
+Chief Minister, Kalaignar M. Karunanidhi
+
+<!-- scan_page: 16 -->
+
+“Kanchi” —
+the weapon Anna left us—
+an arena for his feelings.
+He would write week after week......
+and for it we would wait the whole week!
+Every letter—a golden letter!
+Every issue—a golden issue!
+Lovely Tamil would charm......its artistry would outdo a river’s flow......
+A style that had grown familiar......a style that laid the road
+for the procession of rationalism......
+Read one, and laughter would come.
+Read another, and thought would arise!
+He would begin by calling “Thambi”......where else
+could there be such grandeur......where else such tenderness?
+There is the city “Kanchi,” where the arts flourished.
+There too is the “Kanchi” of our dignified leader.
+But where is Anna?
+“Kanchi” is Anna......
+Anna is “Kanchi”......!
+The Pongal *Malar*......a flower like gold......
+To savour the flavour of Kanchi’s Pongal,
+I too am one among those who wait!

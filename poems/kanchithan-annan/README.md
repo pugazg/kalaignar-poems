@@ -11,8 +11,6 @@ Source-first archival workspace for Kalaignar M. Karunanidhi's poem **காஞ�
 - work scope: **physical scan 16 only**;
 - source PDF is not committed to the repository.
 
-A one-page convenience extract of physical scan 16 exists outside the repository, but the original 108-page PDF remains the controlling source identity.
-
 ## Bibliographic identity
 
 - title: **காஞ்சிதான் அண்ணன்**;
@@ -21,41 +19,35 @@ A one-page convenience extract of physical scan 16 exists outside the repository
 - year/edition: **1970**;
 - catalogue description: `அறிவுலக ஆசான் அண்ணனைப் பற்றித் தம்பி கலைஞர் எழுதிய கவிதை.`
 
-The scan visibly carries the title **காஞ்சிதான் அண்ணன்** and author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி`.
+The direct scan carries title **காஞ்சிதான் அண்ணன்** and author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி`.
 
 ## Processing status
 
 - source identity / intake: **COMPLETE**;
-- duplicate-title / opening-line repository search: **no existing match found**;
-- Phase 1 transcription: **COMPLETE — 1/1 scoped scan**;
-- Phase 2 source-critical verification: **COMPLETE — 1/1 VERIFIED / PASS**;
+- Phase 1 transcription: **1/1 COMPLETE**;
+- Phase 2 source-critical verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- canonical Tamil: `sections/01.md` — scan **16** — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
+- canonical Tamil: `sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - unresolved Tamil issues: **0**;
-- Phase 4 English translation setup: **COMPLETE**;
-- Phase 4 Batch 01: **COMPLETE — 1/1 REVIEWED / PASS**;
+- Phase 4 setup: **COMPLETE**;
+- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
 - reviewed English: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - batch authority: `translations/en/batches/batch-01.md`;
-- English scan marker: **1/1 exactly once**;
-- unresolved translation issues: **0**;
-- Tamil page/canonical changes during Batch 01: **0 / 0**.
+- reader-facing English assembly: **COMPLETE / PASS**;
+- reader-facing output: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
+- assembly authority: `translations/en/ASSEMBLY.md`;
+- scan-16 marker: **1/1 exactly once**;
+- reviewed-English lexical changes during assembly: **0**;
+- unresolved translation / assembly issues: **0 / 0**;
+- Tamil page/canonical changes during Phase 4: **0 / 0**.
 
-Authorities:
-
-- Gate 1: `PHASE3_STRUCTURE_AUDIT.md`;
-- Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- Gate 4: `PHASE3_CANONICAL_ASSEMBLY.md`;
-- Gate 5: `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
-- Gate 6: `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-- canonical source map: `indexes/canonical-source-map.md`;
-- Phase-4 controls: `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`.
+Authorities include Gates 1–6, `indexes/canonical-source-map.md`, the Phase-4 control files, `batches/batch-01.md`, and `translations/en/ASSEMBLY.md`.
 
 The controlling scan remains the highest textual authority. Any later genuine source-backed correction must formally reopen the affected source/canonical layer.
 
 ## Exact next activity
 
-Perform **reader-facing English assembly only**. Create `translations/en/kanchithan-annan-en.md` and `translations/en/ASSEMBLY.md` from the reviewed English item.
+Perform **editorial / terminology / voice consistency review only** across reviewed `translations/en/sections/01.md` and reader-facing `translations/en/kanchithan-annan-en.md`. Create `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` if PASS.
 
-Do **not** perform editorial consistency, release-integrity or release-clearance work in the same activity.
+Do **not** perform final source-coverage/release-integrity or release-clearance in the same activity.

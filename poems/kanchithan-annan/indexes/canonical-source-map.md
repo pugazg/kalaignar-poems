@@ -1,76 +1,41 @@
 # Canonical source map — காஞ்சிதான் அண்ணன்
 
-Canonical output for the user-scoped one-page work:
+Canonical Tamil output for the user-scoped one-page work:
 
-- `../sections/01.md` — physical scan **16** — canonical title `காஞ்சிதான் அண்ணன்`.
+- `../sections/01.md` — physical scan **16** — canonical title `காஞ்சிதான் அண்ணன்` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
 
-## Assembly / clearance accounting
+## Tamil assembly / clearance accounting
 
 - canonical items: **1/1**;
 - active source scans represented: **1/1**;
 - explicit `scan_page` provenance markers: **1/1 exactly once**;
-- visible printed page numerals represented: **0**;
-- verified page Git blob: `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
-- canonical section Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- page-record lexical changes required by assembly/review: **0**;
-- page-status changes required by assembly/review: **0**.
+- verified page blob: `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
+- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
+- source-visible payload equality vs verified page: **1/1 PASS**;
+- unresolved Tamil issues: **0**.
 
-## Canonical item inventory
+## Title / boundary controls
 
-| Item | Canonical title authority | Title scan | Physical scans | Visible printed numeral | Canonical file |
-|---:|---|---:|---:|---|---|
-| 01 | direct scan-16 title `காஞ்சிதான் அண்ணன்` | 16 | 16 | none | `sections/01.md` |
-
-## Title / attribution controls
-
-Gate-3 authority is `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-- canonical title is exactly `காஞ்சிதான் அண்ணன்`;
+- canonical title: direct scan-16 `காஞ்சிதான் அண்ணன்`;
 - bibliographic title agrees exactly;
-- source-printed author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி` is retained in the canonical source payload;
-- catalogue description remains contextual metadata only;
-- no hybrid title is created.
-
-## Boundary / pagination controls
-
-- Gate-1 authority: `../PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-2 authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- scan 16 has no visible printed page numeral, therefore page-layer and canonical printed-page metadata remain `null`;
-- internal joins: **0**;
-- opening and closing boundaries: **PASS / PASS**;
-- final source line remains `காத்திருப்பவர்களில் நானும் ஒருவன்!`;
-- decorative title design, ornaments, design/artist signature and portrait remain non-lexical provenance material.
-
-## Gate 5 source-completeness result
-
-Authority: `../PHASE3_CANONICAL_SOURCE_REVIEW.md` — **COMPLETE / PASS**.
-
-- source scan represented exactly once: **1/1**;
-- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
-- source-visible payload equality vs verified page layer: **1/1 PASS**;
-- silent normalization / insertion / omission: **0 / 0 / 0**;
-- unresolved source-completeness defects: **0**.
-
-## Gate 6 final clearance
-
-Authority: `../PHASE3_TAMIL_FINAL_CLEARANCE.md` — **COMPLETE / PASS**.
-
-- Phase 3 Gates 1–5 reconfirmed: **PASS**;
-- unresolved Tamil lexical/historical-glyph/structural/completeness issues: **0**;
-- verified page / canonical Tamil changes during Gate 6: **0 / 0**;
-- Tamil source/canonical layer: **FINAL-CLEARED**.
+- source-printed author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி` retained in canonical payload;
+- no visible printed page numeral; printed-page metadata remains `null`;
+- opening / closing boundaries: **PASS / PASS**; internal joins: **0**;
+- final source line: `காத்திருப்பவர்களில் நானும் ஒருவன்!`;
+- decorative title design, ornaments, signature and portrait remain non-lexical provenance material.
 
 ## Phase 4 source linkage
 
-English translation setup is **COMPLETE** under `../translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`.
+- translation controls: **COMPLETE**;
+- Batch 01 = Item 01 = scan 16: **1/1 REVIEWED / PASS**;
+- reviewed English: `../translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- batch review: `../translations/en/batches/batch-01.md`;
+- reader-facing English assembly: **COMPLETE / PASS**;
+- reader-facing output: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
+- assembly authority: `../translations/en/ASSEMBLY.md`;
+- reader-facing scan marker: **1/1 exactly once**;
+- reviewed English lexical changes during assembly: **0**;
+- unresolved translation / assembly issues: **0 / 0**;
+- Tamil page/canonical changes during Phase 4: **0 / 0**.
 
-- normal translation source: `../sections/01.md`;
-- translation batch partition: **Batch 01 = Item 01 = scan 16**;
-- reviewed English item: `../translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- batch review: `../translations/en/batches/batch-01.md` — **REVIEWED / PASS**;
-- English scan markers: **1/1 exactly once**;
-- detected English omissions / duplications: **0 / 0**;
-- unresolved translation issues: **0**;
-- Tamil page/canonical changes during Batch 01: **0 / 0**.
-
-Exact next activity: **reader-facing English assembly only** — create `../translations/en/kanchithan-annan-en.md` and `../translations/en/ASSEMBLY.md` from the reviewed English item.
+Exact next activity: **editorial / terminology / voice consistency review only**.
