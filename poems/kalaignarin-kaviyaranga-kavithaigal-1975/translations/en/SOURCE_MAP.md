@@ -8,17 +8,17 @@ Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங
 
 Canonical Tamil manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`.
 
-## Tamil → release-cleared English map
+## Tamil → reviewed English map
 
-| Item | Tamil canonical blob | Scans | English reviewed blob | Final status |
-|---:|---|---:|---|---|
-| 01 | `2e1c83a6a54dc6afe0c791787a5f6d478984e27d` | 46–57 | `4dfbb95c099108398eeccd6bfb368e34d7db2ee0` | RELEASE-CLEARED |
-| 02 | `713389069483b3dd0e376c1b4a2da4b8c0c09e77` | 58–65 | `354cd23470ef400aaa813a620bab2cbb3673fae6` | RELEASE-CLEARED |
-| 04 | `b057acc1fdabfc144e0b0e8afd13763cfff91672` | 67–68 | `332c65fb822e5bc3eeac375935c00c49d62bfab7` | RELEASE-CLEARED |
+| Item | Tamil canonical blob | Scans | English reviewed blob | Batch | Status |
+|---:|---|---:|---|---:|---|
+| 01 | `2e1c83a6a54dc6afe0c791787a5f6d478984e27d` | 46–57 | `4dfbb95c099108398eeccd6bfb368e34d7db2ee0` | 01 | PASS |
+| 02 | `713389069483b3dd0e376c1b4a2da4b8c0c09e77` | 58–65 | `354cd23470ef400aaa813a620bab2cbb3673fae6` | 02 | PASS |
+| 04 | `b057acc1fdabfc144e0b0e8afd13763cfff91672` | 67–68 | `332c65fb822e5bc3eeac375935c00c49d62bfab7` | 03 | PASS |
 
-Combined active coverage: **22/22 scans**.
+Combined translated active coverage: **22/22 scans**.
 
-## Reader-facing release map
+## Reader-facing assembly map
 
 Output: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
 
@@ -31,10 +31,22 @@ Output: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
 - scan 66 occurrences: **0**;
 - closing source separators: **3/3**.
 
+Assembly authority: `ASSEMBLY.md` — **PASS**.
+
+## Editorial status
+
+`EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**. No standalone English or reader-facing lexical correction was required. Reader-facing blob remains unchanged.
+
+## Final source-coverage / release-integrity status
+
+`RELEASE_INTEGRITY_REVIEW.md` — **COMPLETE / PASS**.
+
+The live standalone English blobs above exactly match the three batch-review certificates and assembly inputs. The live reader-facing blob exactly matches the assembly/editorial checkpoint. Final integrity accounting remains **22/22** active scans with **0/0/0** omissions/duplicates/unexpected markers, excluded scan 66 absent, title/context and boundary/closing states intact, reader-facing control leakage **0**, and Tamil page/canonical drift since final clearance **0**.
+
 ## Title/context authority
 
 - Item 01: exact scan-46 two-line direct heading; Bharathidasan birthday / Puduvai prose is provenance.
-- Item 02: exact scan-58 three-line direct heading, preserving source `கவியரங்கில்`; dated explanation is provenance.
+- Item 02: exact scan-58 three-line direct heading preserving source `கவியரங்கில்`; dated explanation is provenance.
 - Item 04: direct scan-67 `“முதல்வர் கலைஞரின் பதில் கவிதை”`; scan-66 `மறுப்புக் கவிதை` remains context only.
 
 ## Structural controls
@@ -51,11 +63,6 @@ Output: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
 - scans 9–20, 21–32, 33–45, 71–77, 78–84 — already represented elsewhere;
 - scans 1–8 — publication preliminaries.
 
-## Final Phase-4 authorities
+## Exact next activity
 
-- `ASSEMBLY.md` — PASS;
-- `EDITORIAL_CONSISTENCY_REVIEW.md` — PASS;
-- `RELEASE_INTEGRITY_REVIEW.md` — PASS;
-- `RELEASE_REPORT.md` — **PHASE 4 COMPLETE — RELEASE-CLEARED**.
-
-No further translation/release gate remains for this scope.
+**Release report / release-clearance decision only.** The work remains not-yet-RELEASE-CLEARED until that explicit decision is recorded.
