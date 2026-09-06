@@ -22,25 +22,23 @@ Bibliographic record: title **காஞ்சிதான் அண்ணன்*
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - Gate-6 authority: `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
 - canonical Tamil: `poems/kanchithan-annan/sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical scan markers: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
-- unresolved Tamil lexical/historical-glyph/structural/completeness issues: **0**;
-- verified page / canonical Tamil changes during Gate 6: **0 / 0**;
-- Phase 4: **NOT STARTED / UNBLOCKED**.
+- unresolved Tamil issues: **0**;
+- Phase 4 translation setup: **COMPLETE**;
+- translation controls: `poems/kanchithan-annan/translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
+- English poem drafting/review: **NOT STARTED**.
 
-The source scan remains the highest textual authority. Any genuine future correction must formally reopen the affected final-cleared Tamil layer.
+Translation authority is pinned to the FINAL-CLEARED Tamil canonical `sections/01.md`. If a Tamil reading is questioned, use controlling scan 16 → verified page record → final-cleared canonical → Phase-3 authorities. English difficulty never permits a silent Tamil edit.
 
 ## Exact next activity
 
-Perform **Phase 4 English translation setup only** for `poems/kanchithan-annan/`.
+Perform **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review only**.
 
 Create:
 
-- `translations/en/README.md`;
-- `translations/en/TRANSLATION_PLAN.md`;
-- `translations/en/SOURCE_MAP.md`.
+- `poems/kanchithan-annan/translations/en/sections/01.md`;
+- `poems/kanchithan-annan/translations/en/batches/batch-01.md`.
 
-Pin translation authority to the FINAL-CLEARED Tamil `sections/01.md` and scan 16 provenance. Do not draft the English poem in the same setup activity.
+Preserve scan-16 provenance, the `காஞ்சி` publication/place/Anna relationship, quoted `‘தம்பி’`, repetition/parallelism, rhetorical question, source-sensitive `நிலக்களன்` / `ஆற்றொழுக்கை`, and the first-person closing. Do not perform reader-facing assembly or later release gates in the same activity.
 
 ## Most recently completed source — preserved
 
