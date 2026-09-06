@@ -1,45 +1,62 @@
 # Transcription / Translation Phase Plan — Kalaignar Poems Archive
 
-## Current active work
+## Current active work — பூமுடி (1965)
 
-**NONE.**
+Workspace: `poems/poomudi/`.
 
-The most recently completed work is **அண்ணா கவியரங்கம் (1968)** at `poems/anna-kaviyarangam/`.
+Controlling PDF: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`.
 
-### அண்ணா கவியரங்கம் — final state
+Recorded intake identity:
 
-Controlling PDF: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf` — **136 physical pages**, **58,026,496 bytes**, SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`.
+- physical PDF pages: **65**;
+- file size: **247,645,717 bytes**;
+- SHA-256: **PENDING**;
+- user-scoped work range: **physical scan 4 only**.
 
-User-scoped work range: **physical scans 119–124**.
+User-supplied record: **பூமுடி**, கலைஞர் மு. கருணாநிதி, `முரசொலி-அண்ணா மலர்`, 1965. Direct scan-4 title witness: **பூமுடி**.
 
-**CLOSED / RELEASE-CLEARED — 2026-09-06.**
+### Intake / source identity
 
-- Phase 1 transcription: **COMPLETE — 6/6**;
-- Phase 2 source-critical verification: **COMPLETE — 6/6 VERIFIED / PASS**;
-- historical-glyph second pass: **PASS**;
-- Phase 3 Gates 1–6: **COMPLETE / PASS / Tamil FINAL-CLEARED**;
-- canonical Tamil: `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
-- Tamil final-clearance commit: `46782b6378b3accd82c43a056c2e6bd36be60e23`;
-- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
-- reviewed English: `poems/anna-kaviyarangam/translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
-- reader-facing English: `poems/anna-kaviyarangam/translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b`;
-- assembly / editorial / release-integrity: **PASS / PASS / PASS**;
-- release authority: `poems/anna-kaviyarangam/translations/en/RELEASE_REPORT.md`;
-- release status: `poems/anna-kaviyarangam/RELEASE_STATUS.md`;
-- active source coverage: **6/6 — scans 119–124 exactly once and ordered**;
-- unresolved release issues: **0**;
-- Tamil page/canonical drift since final clearance: **0 / 0**.
+**REGISTERED — PARTIAL EXACT IDENTITY.**
 
-No further production activity is pending for **அண்ணா கவியரங்கம்**. Any future textual change requires a documented source-backed reopen.
+- physical page count: recorded;
+- byte size: recorded;
+- SHA-256: pending;
+- repository duplicate search: no match;
+- neighbour scans 3 and 5: boundary evidence only.
+
+### Phase 1 — transcription
+
+**NOT STARTED — 0/1.**
+
+`poems/poomudi/pages/0004.md` is an intake-only `not-started` placeholder. No poem-body text has been accepted.
+
+Exact Phase-1 prerequisite: compute and record source SHA-256, then inspect a sufficiently enlarged rendering of scan 4.
+
+Phase-1 completion condition: directly transcribe the complete visible poem page, preserve source spelling/punctuation/lineation/historical glyphs, and leave page status `partial` pending Phase 2.
+
+### Phase 2 — source-critical verification
+
+**NOT STARTED.** Blocked until Phase 1 transcription is complete.
+
+### Phase 3 — structure / completeness / canonical Tamil / final clearance
+
+**NOT STARTED.** Blocked until Phase 2 passes.
+
+### Phase 4 — translation / release
+
+**NOT STARTED.** Blocked until Tamil final clearance.
+
+### Exact next activity
+
+Compute the source SHA-256 and perform **Phase 1 direct visual transcription of physical scan 4 only**. Do not mix Phase 2 verification into the same activity.
 
 ---
+
+## Most recently completed source — அண்ணா கவியரங்கம் (1968)
+
+Workspace: `poems/anna-kaviyarangam/` — **CLOSED / RELEASE-CLEARED**.
 
 ## Previously completed source — காஞ்சிதான் அண்ணன் (1970)
 
 Workspace: `poems/kanchithan-annan/` — **CLOSED / RELEASE-CLEARED**.
-
----
-
-## Repository next activity
-
-No active work is currently registered. Intake or continue another supplied work using live `main` as authority and the repository processing guide.

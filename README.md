@@ -2,6 +2,25 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
+## பூமுடி (1965) — active intake
+
+Workspace: `poems/poomudi/`
+
+Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf` — **65 physical scans**, **247,645,717 bytes**; SHA-256 **pending**.
+
+User-scoped work range: **physical scan 4 only**.
+
+**SOURCE INTAKE REGISTERED / EXACT SOURCE IDENTITY PARTIAL / PHASE 1 NOT STARTED.**
+
+- direct scan-4 title witness: **பூமுடி**;
+- user-supplied author/publication/year: **கலைஞர் மு. கருணாநிதி / முரசொலி-அண்ணா மலர் / 1965**;
+- duplicate title/slug/source-id search: no repository match;
+- scan 3 Anna portrait and scan 5 separate Penang correspondence page: boundary evidence only;
+- poem-body transcription: not started;
+- canonical Tamil / English derivative: none.
+
+Exact next activity: record the exact PDF SHA-256 and perform Phase 1 direct visual transcription of scan 4 from a sufficiently enlarged source render. Do not begin Phase 2 in the same activity.
+
 ## காஞ்சிதான் அண்ணன் (1970) — release-cleared
 
 Workspace: `poems/kanchithan-annan/`
@@ -53,6 +72,7 @@ Reader-facing English collection:
 
 ## Preserved completed work
 
+- `poems/anna-kaviyarangam/` — RELEASE-CLEARED;
 - `poems/gunanayagar-nehru/` — RELEASE-CLEARED;
 - `poems/oruthalaik-kathal/` — RELEASE-CLEARED;
 - `poems/kalaignarin-kavithaigal/` — RELEASE-CLEARED;

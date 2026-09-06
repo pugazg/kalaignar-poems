@@ -1,31 +1,47 @@
-# Next Chat Prompt — Kalaignar Poems Archive
+# Next Chat Prompt — Kalaignar Poems Archive / பூமுடி
 
-Continue directly in `pugazg/kalaignar-poems`, branch `main`.
+Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/poomudi/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first and preserve newer durable work.
+Fetch live `main` first and preserve newer durable work. Do not reopen closed/release-cleared work because an older prompt is stale.
 
-## Current repository state
+## Mandatory startup
 
-There is **no active work currently registered**.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, `poems/poomudi/README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, and `pages/0004.md` before source-dependent work.
 
-The most recently completed workspace is `poems/anna-kaviyarangam/` — **CLOSED / RELEASE-CLEARED — 2026-09-06**.
+## Active source
 
-Final authorities for that work:
+`TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`
 
-- `poems/anna-kaviyarangam/PHASE3_TAMIL_FINAL_CLEARANCE.md` — Tamil **FINAL-CLEARED**;
-- canonical Tamil `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
-- reviewed English `poems/anna-kaviyarangam/translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
-- reader-facing English `poems/anna-kaviyarangam/translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b`;
-- `poems/anna-kaviyarangam/translations/en/RELEASE_INTEGRITY_REVIEW.md` — **PASS**;
-- `poems/anna-kaviyarangam/translations/en/RELEASE_REPORT.md` — **PHASE 4 COMPLETE / RELEASE-CLEARED**;
-- `poems/anna-kaviyarangam/RELEASE_STATUS.md` — **CLOSED / RELEASE-CLEARED**;
-- unresolved release issues: **0**;
-- Tamil page/canonical drift since final clearance: **0 / 0**.
+Recorded intake identity:
 
-Do not reopen **அண்ணா கவியரங்கம்** or any other closed workspace because of a stale copied prompt. A future textual change requires genuine source-backed evidence and a documented reopen.
+- physical PDF pages: **65**;
+- file size: **247,645,717 bytes**;
+- SHA-256: **PENDING**;
+- active poem scope: physical scan **4 only**.
 
-## Next repository activity
+User-supplied bibliographic record: **பூமுடி**, கலைஞர் மு. கருணாநிதி, **முரசொலி-அண்ணா மலர்**, **1965**; context `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
 
-Intake or continue the next supplied work. Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, and the relevant work/source intake authorities before source-dependent changes.
+Direct scan witness: decorative title **பூமுடி**.
+
+Repository title/slug/source-id duplicate search: **no match**.
+
+Neighbouring evidence only:
+- scan 3 — Anna portrait;
+- scan 5 — separate Penang mayoral correspondence page.
+
+## Current state
+
+**SOURCE INTAKE REGISTERED / EXACT SOURCE IDENTITY PARTIAL / PHASE 1 NOT STARTED.**
+
+No poem-body transcription has been accepted. `poems/poomudi/pages/0004.md` is an intake-only `not-started` placeholder. No canonical Tamil or English derivative exists.
+
+## Exact next activity
+
+1. Compute and record the exact SHA-256 from the supplied PDF bytes.
+2. Use a sufficiently enlarged source render of physical scan 4.
+3. Perform **Phase 1 direct visual transcription only** of that scan.
+4. Preserve source spelling, punctuation, lineation and historical/compact glyphs exactly; do not use OCR guesses or outside-edition wording.
+5. Set `pages/0004.md` to `partial` after first-pass transcription.
+6. Do not begin Phase 2 verification in the same activity.

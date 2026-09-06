@@ -2,46 +2,54 @@
 
 Repository: `pugazg/kalaignar-poems`, branch `main`. **Live main is authoritative.**
 
-## Current active work
+## Current active work — பூமுடி
 
-**NONE.**
+Workspace: `poems/poomudi/`.
+
+Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`.
+
+Recorded intake identity:
+
+- physical PDF pages: **65**;
+- file size: **247,645,717 bytes**;
+- SHA-256: **PENDING — exact checksum must be recorded before Phase 1 is closed**;
+- user-scoped poem range: physical scan **4 only**.
+
+User-supplied bibliographic record: title **பூமுடி**; author **கலைஞர் மு. கருணாநிதி**; publication **முரசொலி-அண்ணா மலர்**; year **1965**; context `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
+
+Direct scan witness: decorative title **பூமுடி** on physical scan 4.
+
+### Durable status
+
+**SOURCE INTAKE REGISTERED / EXACT SOURCE IDENTITY PARTIAL / PHASE 1 NOT STARTED.**
+
+- repository duplicate search for `பூமுடி`, `poomudi`, and `TVA_PRL_0001656`: **NO MATCH**;
+- page record: `poems/poomudi/pages/0004.md` — intake-only `not-started` placeholder;
+- Phase 1: **0/1 NOT STARTED**;
+- Phase 2: **0/1 NOT STARTED**;
+- Phase 3: **NOT STARTED**;
+- Phase 4: **NOT STARTED**;
+- canonical Tamil: **none**;
+- English derivative: **none**.
+
+Provisional neighbouring evidence: scan 3 is a full-page Anna portrait; scan 5 is a separate Penang mayoral correspondence page. Both are excluded from poem transcription. Formal boundary certification is deferred to Phase 3.
+
+No body text has been guessed from the low-resolution intake render. The controlling scan alone governs source wording, punctuation, lineation and historical/compact glyphs.
+
+### Exact next activity
+
+Compute and durably record the exact PDF SHA-256, then perform **Phase 1 direct visual transcription of physical scan 4 only** from a sufficiently enlarged source rendering. Set the page to `partial` after the first pass. Do not begin Phase 2 in the same activity.
 
 ## Most recently closed work — அண்ணா கவியரங்கம்
 
-Workspace: `poems/anna-kaviyarangam/`.
+Workspace: `poems/anna-kaviyarangam/` — **CLOSED / RELEASE-CLEARED — 2026-09-06**.
 
-Controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf` — **136 physical pages**, **58,026,496 bytes**, SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`.
+- Tamil source/canonical layer: FINAL-CLEARED;
+- Phase 4: RELEASE-CLEARED;
+- unresolved release issues: **0**.
 
-Scope: physical scans **119–124**. Work title: **அண்ணா கவியரங்கம்**; author **கலைஞர் மு. கருணாநிதி**; event date **7.1.1968**.
-
-**CLOSED / RELEASE-CLEARED — 2026-09-06.**
-
-- Phase 1: **6/6 COMPLETE**;
-- Phase 2: **6/6 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **COMPLETE / PASS / Tamil FINAL-CLEARED**;
-- Tamil final-clearance commit: `46782b6378b3accd82c43a056c2e6bd36be60e23`;
-- canonical Tamil: `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
-- Phase 4 Batch 01: **1/1 REVIEWED / PASS**;
-- reviewed English: `poems/anna-kaviyarangam/translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
-- reader-facing English: `poems/anna-kaviyarangam/translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b`;
-- assembly / editorial / release-integrity gates: **PASS / PASS / PASS**;
-- release report: `poems/anna-kaviyarangam/translations/en/RELEASE_REPORT.md`;
-- release status: `poems/anna-kaviyarangam/RELEASE_STATUS.md`;
-- active source coverage: **6/6 — scans 119–124 exactly once and ordered**;
-- source-context / handoff headings / `M. K.` markers: **1/1 / 8/8 / 8/8**;
-- unresolved release issues: **0**;
-- Tamil page/canonical drift since final clearance: **0 / 0**.
-
-### Reopen rule
-
-Do not reopen completed work because an older prompt records an earlier phase. Future textual changes require genuine source-backed evidence and a documented reopen of the affected source/canonical and derivative layers.
-
-No production activity is pending for **அண்ணா கவியரங்கம்**.
+Do not reopen without genuine source-backed evidence and a documented reopen.
 
 ## Previously closed work — காஞ்சிதான் அண்ணன்
 
 Workspace: `poems/kanchithan-annan/` — **CLOSED / RELEASE-CLEARED**.
-
-## Repository next activity
-
-No active work is currently registered. Intake or continue another supplied work, fetching live `main` first and following the repository processing guide.
