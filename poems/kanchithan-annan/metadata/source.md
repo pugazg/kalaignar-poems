@@ -54,13 +54,21 @@ Phase 3 Gate 3 reconciled the direct and bibliographic witnesses:
 
 - verified page: `../pages/0016.md` — Git blob `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
 - canonical Tamil: `../sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Gate 4 assembly: **PASS**;
-- Gate 5 canonical/source-completeness review: **PASS**;
-- Gate 6 Tamil final clearance: **PASS**;
+- Phase 3 Gates 1–6: **PASS**;
 - scan provenance markers: **1/1 exactly once**;
 - canonical payload equality vs verified page layer: **1/1 PASS**;
 - unresolved Tamil issues: **0**;
 - Tamil layer: **FINAL-CLEARED**.
+
+## Phase 4 translation controls
+
+Translation setup is **COMPLETE**. Control files:
+
+- `../translations/en/README.md`;
+- `../translations/en/TRANSLATION_PLAN.md`;
+- `../translations/en/SOURCE_MAP.md`.
+
+Normal translation authority is FINAL-CLEARED `../sections/01.md`. If a Tamil reading is questioned, return to controlling scan 16, then the verified page, canonical section and Phase-3 records. The single complete-item translation batch is **Batch 01 = Item 01 = scan 16**. No English poem text has yet been drafted.
 
 ## Scan condition / anomalies
 
@@ -74,9 +82,9 @@ Phase 3 Gate 3 reconciled the direct and bibliographic witnesses:
 - intake: **COMPLETE**;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **PASS**;
-- canonical Tamil assembly: **COMPLETE / PASS**;
-- Tamil final clearance: **COMPLETE / PASS — FINAL-CLEARED**;
-- English translation/release: **NOT STARTED**.
+- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
+- Phase 4 translation setup: **COMPLETE**;
+- Phase 4 Batch 01 translation/review: **NOT STARTED**;
+- English release: **NOT STARTED**.
 
-The controlling scan remains the highest textual authority. Exact next activity: **Phase 4 English translation setup only**.
+The controlling scan remains the highest textual authority. Exact next activity: **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review only**.
