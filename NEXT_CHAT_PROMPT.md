@@ -1,28 +1,28 @@
-# Next Chat Prompt — Kalaignar Poems Archive
+# Next Chat Prompt — அண்ணா கவியரங்கம்
 
-Continue in `pugazg/kalaignar-poems`, branch `main`.
+Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/anna-kaviyarangam/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Preserve all newer durable work and all release-cleared work.
+Fetch live `main` first and preserve all newer durable/release-cleared work.
 
-## Recently closed work — காஞ்சிதான் அண்ணன்
+Read before source-dependent work:
 
-Workspace: `poems/kanchithan-annan/`.
+1. `POEM_PROCESSING_GUIDE.md`
+2. `TRANSCRIPTION_PHASE_PLAN.md`
+3. root `HANDOVER.md`
+4. `poems/anna-kaviyarangam/README.md`
+5. `poems/anna-kaviyarangam/SOURCE_INTAKE.md`
+6. `poems/anna-kaviyarangam/metadata/source.md`
+7. `poems/anna-kaviyarangam/indexes/page-map.md`
+8. `poems/anna-kaviyarangam/HISTORICAL_GLYPH_AUDIT.md`
+9. `poems/anna-kaviyarangam/audit.md`
+10. page records `0119.md`–`0124.md`.
 
-Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்_மலர்_1970.pdf` — **108 pages**, **104,701,910 bytes**, SHA-256 `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`.
+Controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf` — **136 pages / 58,026,496 bytes / SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`**.
 
-**CLOSED / RELEASE-CLEARED.**
+Scope: physical scans **119–124**.
 
-- Tamil canonical: `poems/kanchithan-annan/sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- reviewed English: `poems/kanchithan-annan/translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- reader-facing English: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
-- release integrity: **PASS**;
-- release authority: `poems/kanchithan-annan/translations/en/RELEASE_REPORT.md`;
-- unresolved release issues: **0**.
+Current state: **ONBOARDED / PHASE 1 IN PROGRESS / 6/6 page records / 6/6 needs-review / historical-glyph first pass applied / Phase 2 not started**.
 
-Do **not** reopen `காஞ்சிதான் அண்ணன்` unless genuine source-backed evidence requires a documented reopen.
-
-## Next activity
-
-Use the handover for the next supplied/active work. Before any source-dependent work, read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, and the relevant work-specific handover/prompt. Preserve all release-cleared work.
+Exact next activity: finish **Phase 1 lexical resolution only**. Resolve every explicit `⟦unresolved ...⟧` block from enlarged source pixels, screening `ணா / ணை / ணொ / ணோ / லை / ளை / றா / றொ / றோ / னா / னை / னொ / னோ`. Do not silently import the later Anna-elegy witness and do not mark pages verified. Phase 2 must remain separate.
