@@ -24,6 +24,7 @@ User-scoped work range: **physical scan 16 only**.
 - Phase 3 Gate 2: **COMPLETE / PASS** — `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - Phase 3 Gate 3: **COMPLETE / PASS** — `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
 - Phase 3 Gate 4: **COMPLETE / PASS** — `PHASE3_CANONICAL_ASSEMBLY.md`;
+- Phase 3 Gate 5: **COMPLETE / PASS** — `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
 - canonical source map: `indexes/canonical-source-map.md`;
 - page record: `pages/0016.md` — `verified`;
 - canonical Tamil: `sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
@@ -36,16 +37,19 @@ User-scoped work range: **physical scan 16 only**.
 - canonical title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
 - bibliographic title agrees exactly; title / author conflicts: **0 / 0**;
 - canonical scan provenance markers: **1/1**;
-- source page corrections during Gate 4: **0**;
-- page-status changes during Gate 4: **0**;
-- unresolved assembly defects: **0**.
+- canonical source-visible payload equality vs verified page layer: **1/1 PASS**;
+- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
+- silent lexical normalization / insertion / omission: **0 / 0 / 0**;
+- verified page changes during Gate 5: **0**;
+- canonical Tamil changes during Gate 5: **0**;
+- unresolved source-completeness defects: **0**.
 
 The canonical file preserves the source-visible title, source-printed author line and complete verified poem body. Repository-only verification prose is excluded from canonical text. Decorative title design, ornaments, design/artist signature and portrait remain non-lexical provenance material.
 
 ## Exact next activity
 
-**Phase 3 Gate 5 — canonical/source-completeness review only.**
+**Phase 3 Gate 6 — Tamil final clearance only.**
 
-Compare `sections/01.md` against `pages/0016.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, `PHASE3_CANONICAL_ASSEMBLY.md` and `indexes/canonical-source-map.md`. Certify exact one-time scan coverage, canonical payload fidelity, title/provenance correctness and absence of silent normalization.
+Reconfirm Gates 1–5 are PASS and unresolved Tamil lexical, historical-glyph, pagination, boundary, title, assembly and source-completeness issues remain **0**. Create the durable Tamil final-clearance authority and mark the Tamil layer FINAL-CLEARED.
 
-Do **not** grant Gate 6 Tamil final clearance or begin English translation in the same activity.
+Do **not** begin English translation in the same activity.
