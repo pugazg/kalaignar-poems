@@ -26,9 +26,11 @@ Bibliographic record: title **காஞ்சிதான் அண்ணன்*
 - page record: `poems/kanchithan-annan/pages/0016.md` — `verified`;
 - Phase 2 independent verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
 - Gate-1 authority: `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-1 pagination decision: no visible printed page numeral on scan 16; `printed_page: null` retained; no inferred issue-page number;
-- Phase 3 Gate 2–6: NOT STARTED;
+- Gate-2 authority: `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Gate-2 result: opening 1/1 PASS; internal joins 0; closing 1/1 PASS; scans 15/17 positively bound the work; unresolved boundary/join issues 0; page-text changes 0;
+- Phase 3 Gate 3–6: NOT STARTED;
 - Phase 4: NOT STARTED;
 - no canonical Tamil or English derivative file exists yet.
 
@@ -36,9 +38,9 @@ The source scan controls spelling, punctuation, ellipses, lineation, quotations 
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit** for the one-page scoped work. Certify the opening boundary and closing boundary on scan 16, record **0 internal joins**, and confirm the decorative title material and portrait are outside the poem body.
+Perform **Phase 3 Gate 3 — title-witness reconciliation**. Reconcile the direct scan-16 title/author witness with the available bibliographic/catalogue witness. Preserve witnesses exactly and record the canonical-title authority without creating a hybrid title.
 
-Do not begin Gate 3 title-witness reconciliation, canonical assembly or English translation in the same activity.
+Do not begin Gate 4 canonical Tamil assembly or English translation in the same activity.
 
 ## Most recently completed source — preserved
 
