@@ -1,104 +1,69 @@
 # English Translation — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
-Phase 4 English translation workspace for the **user-directed new-item-only Kalaignar scope** in the 1975 publication.
+Phase 4 English translation workspace for the **user-directed new-item-only Kalaignar scope**.
 
 ## Status
 
-**PHASE 4 IN PROGRESS — BATCH 01 REVIEWED PASS / 1/3 BATCHES / BATCH 02 NEXT.**
+**PHASE 4 TRANSLATION BATCHES COMPLETE — 3/3 REVIEWED / PASS. FULL ENGLISH ASSEMBLY NEXT.**
 
-Tamil source/canonical layer: **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-Reviewed English coverage: **Item 01 / scans 46–57 = 12/22 active translation scans**. Tamil `pages/` and canonical `sections/` remain unchanged.
+No Tamil `pages/` or canonical `sections/` files were changed by translation.
 
-## Controlling source
+## Scope and reviewed outputs
 
-`TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf`
+| Batch | Item | Scans | English item | Status |
+|---:|---:|---:|---|---|
+| 01 | 01 | 46–57 | `sections/01.md` | **REVIEWED / PASS** |
+| 02 | 02 | 58–65 | `sections/02.md` | **REVIEWED / PASS** |
+| 03 | 04 | 67–68 | `sections/04.md` | **REVIEWED / PASS** |
 
-- physical scans: **84**;
-- file size: **93,307,011 bytes**;
-- SHA-256: `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
+There is intentionally no Item 03 English file. Intake Item 03 / scan **66** is Rajaji context only. Scans **69–70** are Bharathidasan material. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside this new-item translation scope.
 
-## Translation scope
+Reviewed English item blobs:
 
-| Item | Tamil canonical source | Physical scans | English item | Batch | Status |
-|---:|---|---:|---|---:|---|
-| 01 | `../../sections/01.md` | 46–57 | `sections/01.md` | 01 | **reviewed PASS** |
-| 02 | `../../sections/02.md` | 58–65 | `sections/02.md` | 02 | **NEXT** |
-| 04 | `../../sections/04.md` | 67–68 | `sections/04.md` | 03 | planned |
+- Item 01: `4dfbb95c099108398eeccd6bfb368e34d7db2ee0`;
+- Item 02: `354cd23470ef400aaa813a620bab2cbb3673fae6`;
+- Item 04: `332c65fb822e5bc3eeac375935c00c49d62bfab7`.
 
-There is intentionally **no Item 03 English file**. Intake Item 03 / scan **66** is Rajaji `சாராய சுதந்திரம்`, a non-Kalaignar contextual source unit. Scans **69–70** are Bharathidasan material. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside this new-item translation scope.
+## Source hierarchy
 
-## Translation source rule
+Normal working source: final-cleared Tamil canonical `../../sections/NN.md`.
 
-Normal working source is the Tamil final-cleared canonical item file.
-
-If a Tamil reading is questioned, authority order is:
+If a Tamil reading is questioned:
 
 1. controlling PDF scan;
-2. verified `../../pages/NNNN.md` record;
-3. final-cleared `../../sections/NN.md` canonical item;
+2. verified `../../pages/NNNN.md`;
+3. final-cleared canonical item;
 4. Phase-3 structure/title/assembly/final-clearance records.
 
 English difficulty never authorizes a silent Tamil edit.
 
-## Pinned fidelity rules
+## Pinned fidelity locks
 
-- Translate Kalaignar's public-speech cadence, direct address, repetition, rhetorical questions, satire, irony and polemical force rather than flattening them into explanatory prose.
-- Canonical Tamil title authority controls each English title decision. Event/date/provenance prose stays separate; do not synthesize a hybrid title.
-- Embedded Bharathi/Bharathidasan quotations remain visibly quoted and attributed. Translate them from the final-cleared Tamil witness; do not import an outside published English version silently.
-- Preserve speaker changes, quoted voices, names, dates, political/historical references and source claims as source claims. Phase 4 is not a fact-check layer.
-- English lineation may adjust for grammar, but must not erase stanza, quotation or rhetorical architecture.
-- Preserve explicit `scan_page` provenance in English item files so source coverage can be audited.
-- Preserve closing separators structurally; do not invent text after source endings.
-- Wordplay that depends on Tamil form must remain recoverable through transliteration/Tamil token plus a separated translator note where needed.
-- Tamil final-cleared `pages/` and `sections/` remain unchanged unless genuine source evidence formally reopens the Tamil workflow.
+- retain public-speech cadence, direct address, repetition, rhetorical questions, satire and polemical force;
+- translate embedded Bharathi/Bharathidasan quotations from this Tamil witness, never by silently importing an outside English version;
+- preserve item-title authority separately from date/event/context prose;
+- keep `scan_page` provenance and structural closing rules;
+- source claims remain source claims; Phase 4 is not a fact-check layer;
+- preserve Tamil-dependent wordplay through transliteration/Tamil-derived forms plus concise translator explanation.
 
-## Source-sensitive locks
+Key source-sensitive decisions now reviewed:
 
-- `பாரதி` → **Bharathi**;
-- `பாரதிதாசன்` → **Bharathidasan**;
-- `அண்ணா` → **Anna**;
-- `பெரியார்` → **Periyar**;
-- `ராஜாஜி` → **Rajaji**;
-- `பாரி` → **Pari**;
-- `கபிலர்` → **Kapilar**;
-- `புதுவை` → **Puduvai** rather than silently modernizing the source place-name;
-- `புரட்சிக் கவிஞர்` → **Revolutionary Poet** when functioning as an epithet;
-- `பாவேந்தன்` → **Pavendar**;
-- `தமிழன்னை` → **Mother Tamil**;
-- `மது விலக்கு` → **prohibition**;
-- source loanword `பர்மிட்` → **permit**;
-- Item 01 `குடி` wordplay remains recoverable through *kudi*, place names and the `கல்லக்குடி / கள்ளக்குடி` contrast;
-- Item 01 source-sensitive `பருக்கிடம்`, `சாரம்`, `விணுக்குறியா?`, `சுருட்டு / புரட்டு`, `ரசவாதம் / அதிரசவாதம்` decisions are pinned in `batches/batch-01.md`;
-- Item 02 `மை` chain (`தொன்மை / எளிமை / வண்மை / வலிமை / இறைமை / புதுமை` and related puns) must preserve the visible `mai` wordplay relationship;
-- Item 04 `சுதந்திராக்கள்` is source-sensitive and must not be reduced to generic “free people”; Batch 03 must document its final rendering from source context;
-- scan 66 `மறுப்புக் கவிதை` remains contextual only and must not replace Item 04's direct canonical `பதில் கவிதை` title witness.
+- Item 01: `குடி`, Kallakkudi / `கள்ளக்குடி`, `பருக்கிடம்`, `சாரம்`, Bharathi/Bharathidasan sound play, `சுருட்டு / புரட்டு`, certified 50→51 quotation state;
+- Item 02: `மாதவர் / மாதொரு பாகன்`, `அன்பிலார்`, `கிறுக்கு`, Valli / `வள்ளிக்கிழங்கு`, Pari–Kapilar narrative, full `மை` chain;
+- Item 04: direct `பதில் கவிதை` title authority, `சுதந்திராக்கள்` → **Swatantrites**, “The Arrack Era,” permit/doctor-certificate satire, source-visible `நெளரோஜி`, and the terminal colon on scan 68.
 
-## Batch 01 reviewed checkpoint
+## Batch review records
 
-- English item: `sections/01.md`;
-- reviewed blob: `4dfbb95c099108398eeccd6bfb368e34d7db2ee0`;
-- review authority: `batches/batch-01.md`;
-- source scans represented: **46–57 = 12/12**;
-- scan markers: **12/12 unique and ordered**;
-- scan 50→51 unusual open-quotation state: **preserved**;
-- scan 57 closing rule: **structurally preserved**;
-- omissions / duplications found after review: **0 / 0**;
-- unresolved Batch-01 translation issues: **0**;
-- Tamil page/canonical changes: **0**.
+- `batches/batch-01.md`
+- `batches/batch-02.md`
+- `batches/batch-03.md`
 
-## Batch inventory
-
-| Batch | Item | Scans | Status |
-|---:|---:|---:|---|
-| 01 | 01 | 46–57 | **reviewed — PASS** |
-| 02 | 02 | 58–65 | **NEXT** |
-| 03 | 04 | 67–68 | planned |
-
-Complete-item boundaries are mandatory; no batch may publish a partial item.
+Combined batch coverage: **22/22 active Kalaignar scans**, all required markers unique and ordered, scan 66 translated-body occurrences **0**, unresolved batch translation issues **0**.
 
 ## Exact next activity
 
-Perform **Phase 4 Batch 02 — Item 02 only, scans 58–65**. Draft `sections/02.md` from the final-cleared Tamil canonical item, retain all **8/8** scan markers, preserve the `மை` wordplay chain and source-visible poet/name hand-offs, create/review `batches/batch-02.md`, and mark PASS only after complete source/fidelity review.
+Perform **full English assembly only** from reviewed `sections/01.md`, `sections/02.md`, `sections/04.md`, in source order while preserving item separation and scan provenance.
 
-Do not start Batch 03 in the same activity.
+Do not perform the later editorial-consistency or release-integrity gates in the same activity unless explicitly requested.
