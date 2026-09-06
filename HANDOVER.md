@@ -12,15 +12,17 @@ Scope: physical scans **119–124**. Bibliographic record: **அண்ணா க
 
 ### Durable status
 
-**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PASS.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PASS / PHASE 3 GATE 1 COMPLETE-PASS.**
 
 - `pages/0119.md`–`0124.md`: **6/6 verified**;
 - Phase-2 authority: `poems/anna-kaviyarangam/PHASE2_SOURCE_VERIFICATION.md`;
 - historical-glyph independent second pass: **PASS**;
 - unresolved Tamil issues: **0**;
+- Phase-3 Gate-1 authority: `poems/anna-kaviyarangam/PHASE3_STRUCTURE_AUDIT.md`;
+- Gate-1 physical scan accounting: **6/6 PASS**;
 - scan 119 printed page directly certified as **19**;
-- scans 120–124 printed page fields remain `null`;
-- Phase 3: not started;
+- scans 120–124 have no visible page numeral and remain `null`; no sequence-based numerals inferred;
+- Phase 3 Gate 2: not started;
 - canonical Tamil: not assembled;
 - English: not started.
 
@@ -28,7 +30,7 @@ No-regression user controls remain scan 119 `காவிரியப் பூ�
 
 ### Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Account for scans 119–124, preserve certified printed page 19 on scan 119, and do not infer printed numerals for scans 120–124. Keep Gate 2 and later gates separate.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only**. Certify the work opening, all internal joins/carry-over and the closing boundary from the verified source layer. Scans 118 and 125 may be consulted only as boundary evidence. Keep Gate 3 and later gates separate.
 
 ## Recently closed work — காஞ்சிதான் அண்ணன்
 

@@ -22,11 +22,13 @@ Historical-glyph second pass: **PASS**. Unresolved Tamil issues: **0**.
 
 ### Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**NOT STARTED.**
+**IN PROGRESS — Gate 1 COMPLETE / PASS; Gate 2 NOT STARTED.**
 
-Exact next gate: **Gate 1 — physical scan ↔ printed-page reconciliation only.** Scan 119 printed page **19** is directly certified; scans 120–124 remain `null` unless direct source evidence establishes numerals.
+Gate-1 authority: `poems/anna-kaviyarangam/PHASE3_STRUCTURE_AUDIT.md`.
 
-Do not combine Phase-3 gates.
+Gate-1 pagination result: all six scoped physical scans are accounted. Scan 119 directly certifies printed page **19**. Full-page review finds no visible page numeral on scans 120–124; those page-record fields remain `null`, and no sequence-based numerals are inferred.
+
+Exact next gate: **Gate 2 — boundary / page-join audit only.** Do not combine Phase-3 gates.
 
 ### Phase 4 — translation / release
 

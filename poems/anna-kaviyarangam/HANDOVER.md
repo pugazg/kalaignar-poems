@@ -14,16 +14,19 @@ Scope: physical scans **119–124**. Work: **அண்ணா கவியரங�
 - Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
 - historical-glyph second pass: **PASS**;
 - unresolved Tamil issues: **0**;
+- Phase 3 Gate 1: **COMPLETE / PASS**;
+- Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`;
+- physical scoped scans accounted: **6/6**;
 - printed page directly certified: scan 119 = **19**;
-- scans 120–124 printed page fields remain `null`;
-- Phase 3: not started;
+- scans 120–124: no visible page numeral; `printed_page` remains `null`; no sequence inference;
+- Phase 3 Gate 2: not started;
 - canonical Tamil: not assembled;
 - English: not started.
 
 No-regression manual controls: scan 119 `காவிரியப் பூவிரியும்`, `ஒரு கைவை! வைகை!`, `தென்நிலமே`; scan 120 `நானாம்`, `பாடுபட்டுக்`; scan 123 `இனித்த நறு`, `தெள்ளமுதாய்`.
 
-Phase 2 corrected genuine Phase-1 defects; see `PHASE2_SOURCE_VERIFICATION.md` for the correction list.
+Phase 2 corrected genuine Phase-1 defects; see `PHASE2_SOURCE_VERIFICATION.md` for the correction list. Gate 1 changed no Tamil page text.
 
 ## Exact next activity
 
-**Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only.** Account for all six scoped scans. Preserve scan 119 printed page 19 and do not infer 120–124 printed numerals. Do not begin Gate 2, title reconciliation, canonical assembly or translation in the same activity.
+**Phase 3 Gate 2 — boundary / page-join audit only.** Certify the work opening, internal scan joins, poet-introduction/quotation carry-over and closing boundary. Scans 118 and 125 remain outside transcription scope and may be consulted only as boundary evidence where needed. Do not begin Gate 3, canonical assembly, Tamil final clearance or translation in the same activity.

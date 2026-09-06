@@ -27,6 +27,12 @@
 - glyph identity is decoded before Unicode transcription using the repository historical-glyph policy;
 - no global replacements, spelling modernization, punctuation normalization or silent import from later witnesses are permitted.
 
+## Printed-page numbering behaviour — Phase 3 Gate 1
+
+Within the user-scoped scans **119–124**, scan **119** directly witnesses printed page **19**. Full-page source inspection finds no visible page numeral on scans **120–124**; their page-record `printed_page` fields therefore remain `null`.
+
+No sequence-based values are inferred for scans 120–124, and this gate does not reconstruct the wider 136-page periodical's logical pagination. Authority: `../PHASE3_STRUCTURE_AUDIT.md` — **Gate 1 COMPLETE / PASS**.
+
 ## Related witness
 
 The 1969 Anna elegy `இதயத்தைத் தந்திடு அண்ணா` contains reused passages. It is a comparison witness only; where wording/punctuation differ, this 1968 source controls this workspace.

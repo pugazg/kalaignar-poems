@@ -19,16 +19,16 @@
 
 ## Scope / verified state
 
-| Physical scan | Printed page | Role | Phase 2 state |
-|---:|---:|---|---|
-| 119 | 19 | opening/title/context + poem | verified |
-| 120 | null | poem continuation | verified |
-| 121 | null | poem + poet-introduction transitions | verified |
-| 122 | null | poet-introduction transitions / poem excerpts | verified |
-| 123 | null | poet-introduction transitions / poem excerpts | verified |
-| 124 | null | closing transitions / closing poem | verified |
+| Physical scan | Printed page | Role | Phase 2 state | Phase 3 Gate 1 |
+|---:|---:|---|---|---|
+| 119 | 19 | opening/title/context + poem | verified | PASS |
+| 120 | null | poem continuation | verified | PASS |
+| 121 | null | poem + poet-introduction transitions | verified | PASS |
+| 122 | null | poet-introduction transitions / poem excerpts | verified | PASS |
+| 123 | null | poet-introduction transitions / poem excerpts | verified | PASS |
+| 124 | null | closing transitions / closing poem | verified | PASS |
 
-Scan 119 printed numeral **19** was directly certified during Phase 2. Numerals for scans 120–124 are not inferred.
+Scan 119 printed numeral **19** is directly certified. Gate-1 full-page source inspection finds no visible page numeral on scans 120–124, so those values remain `null`; no sequence-based numerals are inferred.
 
 Scans 118 and 125 remain outside the user-authorized transcription scope and may be used later only as boundary evidence.
 
@@ -36,4 +36,6 @@ Scans 118 and 125 remain outside the user-authorized transcription scope and may
 
 Repository search and comparison with existing Anna works found no canonical representation of this **7.1.1968** World Tamil Conference chair-poem. `அண்ணன் ஒரு கவியரங்கம்` (1973) and `இதயத்தைத் தந்திடு அண்ணா` (1969) are different works/events, though the later elegy reuses some earlier lines.
 
-Phase 1 and Phase 2 are complete. Next activity: Phase 3 Gate 1 only.
+Phase 1 and Phase 2 are complete. **Phase 3 Gate 1 is COMPLETE / PASS**; authority: `PHASE3_STRUCTURE_AUDIT.md`.
+
+Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit only**.
