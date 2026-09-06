@@ -1,43 +1,34 @@
-# Next Chat Prompt — அண்ணா கவியரங்கம்
+# Next Chat Prompt — அண்ணா கவியரங்கம் — CLOSED
 
-Continue `pugazg/kalaignar-poems`, branch `main`, active work `poems/anna-kaviyarangam/`.
+Repository: `pugazg/kalaignar-poems`, branch `main`.
+
+Workspace: `poems/anna-kaviyarangam/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Preserve newer durable work. Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, workspace `README.md`, `PHASE3_TAMIL_FINAL_CLEARANCE.md`, canonical `sections/anna-kaviyarangam.md`, Phase-4 controls `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`, reviewed `translations/en/sections/01.md`, `translations/en/batches/batch-01.md`, reader-facing `translations/en/anna-kaviyarangam-en.md`, `translations/en/ASSEMBLY.md`, `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`, and `translations/en/RELEASE_INTEGRITY_REVIEW.md`.
+Fetch live `main` first. This work is **CLOSED / RELEASE-CLEARED — 2026-09-06**. Do not reopen or repeat completed Tamil or English phases merely because an older copied prompt contains an earlier checkpoint.
 
 Controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf` — **136 pages / 58,026,496 bytes / SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`**.
 
 Scope: scans **119–124**.
 
-Current state: **Phase 1 COMPLETE / Phase 2 6/6 VERIFIED-PASS / Phase 3 TAMIL FINAL-CLEARED / Phase 4 Batch 01 REVIEWED-PASS / reader-facing assembly COMPLETE-PASS / editorial consistency COMPLETE-PASS / release-integrity COMPLETE-PASS / release clearance not yet granted**.
+Final authorities:
 
-Tamil authority: `sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`; Tamil final-clearance commit `46782b6378b3accd82c43a056c2e6bd36be60e23`.
+- Tamil final clearance: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — **PASS / FINAL-CLEARED**;
+- canonical Tamil: `sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
+- reviewed English: `translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
+- Batch authority: `translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**;
+- reader-facing English: `translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b`;
+- assembly: `translations/en/ASSEMBLY.md` — **PASS**;
+- editorial review: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**;
+- release-integrity review: `translations/en/RELEASE_INTEGRITY_REVIEW.md` — **PASS**;
+- release authority: `translations/en/RELEASE_REPORT.md` — **PHASE 4 COMPLETE / RELEASE-CLEARED**;
+- workspace release marker: `RELEASE_STATUS.md` — **CLOSED / RELEASE-CLEARED**.
 
-Reviewed English authority: `translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`; Batch review `translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**.
+Final source coverage: **6/6 scans 119–124 exactly once and ordered**. Source-context / handoff headings / `M. K.` markers: **1/1 / 8/8 / 8/8**. Unresolved release issues: **0**. Tamil page/canonical drift since final clearance: **0 / 0**.
 
-Reader-facing English: `translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b`; assembly authority `translations/en/ASSEMBLY.md` — **PASS**.
+## Reopen rule
 
-Editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — blob `3e11ecf4b7318cb8b097173089d224b63459e371` — **PASS**.
+A future textual change requires genuine source-backed evidence and a documented reopen of the affected source/canonical and derivative layers. Never silently modify FINAL-CLEARED Tamil or RELEASE-CLEARED English.
 
-Release-integrity authority: `translations/en/RELEASE_INTEGRITY_REVIEW.md` — blob `cfac434013bbc8937eed3417243a9d150a4221e5` — **PASS**.
-
-Release-integrity locks:
-- reviewed-item ↔ reader-facing synchronization: **PASS / 0 lexical drift**;
-- scans **119–124 exactly once and ordered**;
-- active omissions / duplicates / unexpected markers: **0 / 0 / 0**;
-- source-context **1/1**;
-- poet handoffs **8/8**;
-- `M. K.` markers **8/8**;
-- ஆனந்தம் body/heading distinction preserved;
-- வேழவேந்தன் three-state mother-title distinction preserved;
-- source-driven `Mudiyarasan` / `Mudiyarasu` preserved;
-- final Abdul Rahman punctuation preserved;
-- boundary / closing integrity **PASS**;
-- reader-facing cleanliness **PASS**;
-- Tamil page/canonical drift since final clearance **0 / 0**;
-- unresolved release-integrity defects **0**.
-
-The work is **not yet RELEASE-CLEARED**.
-
-Exact next activity: create `translations/en/RELEASE_REPORT.md` and perform the explicit **release-clearance decision only** after reconfirming live-main artifact identities and all prior PASS authorities. Do not alter Tamil or English lexical text unless a genuine defect is formally reopened.
+No next production activity is pending for **அண்ணா கவியரங்கம்**. To continue the repository, intake or continue another supplied work.

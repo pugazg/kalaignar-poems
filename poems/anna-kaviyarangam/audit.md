@@ -1,14 +1,15 @@
 # Audit — அண்ணா கவியரங்கம்
 
-## Current state
+## Final state
 
-**PHASE 1 COMPLETE / PHASE 2 6/6 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY COMPLETE-PASS / EDITORIAL CONSISTENCY COMPLETE-PASS / RELEASE-INTEGRITY COMPLETE-PASS.**
+**CLOSED / RELEASE-CLEARED — 2026-09-06.**
 
 Tamil archival layer:
 
 - source identity: **PASS**;
 - scoped scans: **119–124 = 6**;
-- Phase 2: **6/6 VERIFIED / PASS**;
+- Phase 1 transcription: **6/6 COMPLETE**;
+- Phase 2 source verification: **6/6 VERIFIED / PASS**;
 - historical-glyph second pass: **PASS**;
 - Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
 - Tamil final-clearance commit: `46782b6378b3accd82c43a056c2e6bd36be60e23`;
@@ -30,7 +31,6 @@ Phase 4 assembly layer:
 - reader-facing English: `translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
 - assembly authority: `translations/en/ASSEMBLY.md` — **PASS**;
 - reader-facing YAML front matter: **0**;
-- reader-facing scan markers: **6/6 unique, ordered 119–124**;
 - reviewed English lexical changes during assembly: **0**;
 - assembly omissions / duplications: **0 / 0**;
 - unresolved assembly defects: **0**.
@@ -57,11 +57,16 @@ Phase 4 release-integrity layer:
 - title / source-context / handoff / marker integrity: **PASS**;
 - boundary / closing integrity: **PASS**;
 - reader-facing cleanliness: **PASS**;
-- Tamil page/canonical drift from final clearance through release-integrity input checkpoint: **0 / 0**;
+- Tamil page/canonical drift since final clearance: **0 / 0**;
 - unresolved release-integrity defects: **0**.
 
-The work is **not yet RELEASE-CLEARED**.
+Phase 4 release decision:
 
-## Next activity
+- release authority: `translations/en/RELEASE_REPORT.md`;
+- release status: `RELEASE_STATUS.md`;
+- explicit decision: **PHASE 4 COMPLETE — RELEASE-CLEARED**;
+- unresolved release issues: **0**;
+- Tamil lexical changes during release reporting: **0**;
+- English lexical changes during release reporting: **0**.
 
-Create `translations/en/RELEASE_REPORT.md` and perform the explicit **release-clearance decision only** after reconfirming live-main artifact identities and all prior PASS authorities. Do not alter Tamil or English lexical text unless a genuine defect is formally reopened.
+No further production activity is pending. Future textual changes require a documented source-backed reopen.

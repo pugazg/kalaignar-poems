@@ -1,5 +1,9 @@
 # English Translation Source Map — அண்ணா கவியரங்கம்
 
+## Final status
+
+**PHASE 4 COMPLETE — RELEASE-CLEARED — 2026-09-06.**
+
 ## Tamil authority
 
 Tamil source/canonical layer: **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
@@ -28,9 +32,11 @@ Reader-facing English:
 - `anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
 - assembly authority: `ASSEMBLY.md` — **PASS**;
 - editorial authority: `EDITORIAL_CONSISTENCY_REVIEW.md` — blob `3e11ecf4b7318cb8b097173089d224b63459e371` — **PASS**;
-- release-integrity authority: `RELEASE_INTEGRITY_REVIEW.md` — blob `cfac434013bbc8937eed3417243a9d150a4221e5` — **PASS**.
+- release-integrity authority: `RELEASE_INTEGRITY_REVIEW.md` — blob `cfac434013bbc8937eed3417243a9d150a4221e5` — **PASS**;
+- release authority: `RELEASE_REPORT.md` — **RELEASE-CLEARED**;
+- workspace release marker: `../../RELEASE_STATUS.md` — **CLOSED / RELEASE-CLEARED**.
 
-## Structural coverage map
+## Final structural coverage map
 
 Reviewed `sections/01.md` and the reader-facing assembly account for:
 
@@ -49,7 +55,7 @@ Reviewed `sections/01.md` and the reader-facing assembly account for:
 - reviewed-English omissions / duplications: **0 / 0**;
 - assembly omissions / duplications: **0 / 0**.
 
-## Release-integrity map
+## Final release-integrity map
 
 `RELEASE_INTEGRITY_REVIEW.md` confirms:
 
@@ -59,13 +65,9 @@ Reviewed `sections/01.md` and the reader-facing assembly account for:
 - title / source-context / handoff / marker integrity: **PASS**;
 - boundary / closing integrity: **PASS**;
 - reader-facing cleanliness: **PASS**;
-- Tamil page/canonical drift from final-clearance commit through release-integrity input checkpoint: **0 / 0**;
+- Tamil page/canonical drift from final-clearance commit through release gate: **0 / 0**;
 - unresolved release-integrity defects: **0**.
 
-No Tamil page or canonical file changed during Phase 4. The canonical Tamil remains blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`.
+`RELEASE_REPORT.md` grants explicit **PHASE 4 COMPLETE — RELEASE-CLEARED** status with unresolved release issues **0**.
 
-The work is **not yet RELEASE-CLEARED**.
-
-## Exact next activity
-
-Create `RELEASE_REPORT.md` and perform the explicit **release-clearance decision only** after reconfirming live-main artifact identities and all prior PASS authorities. Do not alter Tamil or English lexical text unless a genuine defect is formally reopened.
+No Tamil page or canonical file changed during Phase 4. Future textual changes require a documented source-backed reopen.
