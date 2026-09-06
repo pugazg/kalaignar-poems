@@ -1,0 +1,68 @@
+# English Translation Source Map — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
+
+## Authority
+
+Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+
+Controlling source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
+
+Phase-4 setup began from final-clearance checkpoint `2c50b3c9cb8ba231d586d6eca3a6b957cf4d781c`.
+
+Canonical three-file manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`.
+
+## Canonical Tamil source map
+
+| Item | Tamil canonical blob | File SHA-256 | Scans | Reconciled logical pages | Visible printed numerals | Batch |
+|---:|---|---|---:|---:|---|---:|
+| 01 | `2e1c83a6a54dc6afe0c791787a5f6d478984e27d` | `1020bafb32b120cd58ca043597102368e026e5f681530a0f665f4086a4916ff2` | 46–57 | 46–57 | 47–57 | 01 |
+| 02 | `713389069483b3dd0e376c1b4a2da4b8c0c09e77` | `ea1e62ec88997c45c753b4e2dc1113ec30f21a939bd198696d32860dbe0cc40b` | 58–65 | 58–65 | 59–65 | 02 |
+| 04 | `b057acc1fdabfc144e0b0e8afd13763cfff91672` | `4b86a8d12ad3851589fbcdc28dd778f92d472945c4769b110ad9042dc9b44d31` | 67–68 | 67–68 | 68 | 03 |
+
+These three canonical items account for **22/22** active Kalaignar scans exactly once. Their payload equality against the verified page layer passed **22/22** in `../../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+## Title / context map
+
+| Item | Direct canonical title witness | Title scan | Context control |
+|---:|---|---:|---|
+| 01 | `புரட்சிக் கவிஞர் பாட்டரங்கில்` / `முதல்வர் கலைஞர் தலைமைக் கவிதை` | 46 | dated Bharathidasan 80th-birthday / Puduvai event prose is provenance, not title |
+| 02 | `பறம்புமலைப் பாரி வள்ளல் விழாக்` / `கவியரங்கில்` / `முதல்வர் கலைஞரின் தலைமைக் கவிதை` | 58 | event prose remains separate; preserve source `கவியரங்கில்` identity |
+| 04 | `“முதல்வர் கலைஞரின் பதில் கவிதை”` | 67 | scan 66 `மறுப்புக் கவிதை` is contextual only, not title authority |
+
+English title wording is intentionally **not drafted in setup**. Each batch must translate its direct canonical heading and record the decision.
+
+## Structural witnesses relevant to translation
+
+- all **19/19** certified internal joins remain authoritative;
+- Item 01 scan **50→51** carries an unusual source-open quotation state; English must not silently invent a source quotation closure at that boundary;
+- closing horizontal rules follow scans **57, 65 and 68** and are structural, non-lexical witnesses;
+- Item 04 scan **68** ends `பட்டியல் பிறகு சொல்வேன்:` before its closing rule; translation must not invent a missing list or continuation;
+- explicit `scan_page` markers must be retained in future English item files for coverage review.
+
+## Exclusions
+
+- scan **66** — Rajaji `சாராய சுதந்திரம்`: non-Kalaignar context; **0 canonical translation occurrences**;
+- scans **69–70** — Bharathidasan material: outside active new-item translation scope;
+- scans **9–20, 21–32, 33–45, 71–77, 78–84** — already represented Kalaignar witnesses; not duplicated into this translation workspace;
+- scans **1–8** — publication preliminaries; not active poem translation items.
+
+## Batch source partition
+
+| Batch | Item | Required source scans | Expected marker count | Status |
+|---:|---:|---:|---:|---|
+| 01 | 01 | 46–57 | 12 | **NEXT** |
+| 02 | 02 | 58–65 | 8 | planned |
+| 03 | 04 | 67–68 | 2 | planned |
+
+Total planned English item coverage: **22 scans / 22 markers**.
+
+## English output state at setup
+
+- `sections/01.md`: not yet created;
+- `sections/02.md`: not yet created;
+- `sections/04.md`: not yet created;
+- batch review records: **0/3**;
+- English poem text drafted during setup: **0**.
+
+## Exact next activity
+
+**Batch 01 — Item 01 / scans 46–57 only.** Use final-cleared `../../sections/01.md` as the normal working source, retain all 12 scan markers, document title and source-sensitive `குடி` / quotation / Bharathi-Bharathidasan wordplay decisions, and source-review the complete English item before marking the batch PASS.
