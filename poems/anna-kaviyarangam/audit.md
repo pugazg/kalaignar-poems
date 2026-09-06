@@ -2,44 +2,35 @@
 
 ## Current state
 
-**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PHASE 3 COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PHASE 3 COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED / PHASE 4 SETUP COMPLETE.**
 
 - exact source identity: **PASS**;
 - user-scoped scans: **119–124 = 6 scans**;
 - Phase 1: **6/6 COMPLETE**;
 - Phase 2: **6/6 VERIFIED / PASS**;
 - historical-glyph second pass: **6/6 PASS**;
-- unresolved lexical / punctuation / lineation / glyph issues: **0**;
-- Gate 1: `PHASE3_STRUCTURE_AUDIT.md` — **PASS**;
-- Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**;
-- Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **PASS**;
-- Gate 4: `PHASE3_CANONICAL_ASSEMBLY.md` — **PASS**;
-- Gate 5: `PHASE3_CANONICAL_SOURCE_REVIEW.md` — **PASS**;
+- Gate 1–5: **PASS**;
 - Gate 6: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — **PASS / FINAL-CLEARED**;
 - canonical source map: `indexes/canonical-source-map.md`;
 - canonical Tamil: `sections/anna-kaviyarangam.md` — final-cleared reviewed blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
 - canonical source scan accounting: **6/6 — 119–124 exactly once**;
 - verified-page payload fidelity: **6/6 PASS**;
 - source-context panel: **1/1 PASS**;
-- top-level/context title witnesses: **PASS / PASS**;
-- internal handoff headings: **8/8 PASS**;
-- source `மு. க.` markers: **8/8 PASS**;
+- internal handoff headings / source `மு. க.` markers: **8/8 / 8/8 PASS**;
 - missing / duplicate / unexpected canonical scan markers: **0 / 0 / 0**;
 - scan 118/125 text imported: **0 / 0**;
-- inferred pagination added: **0**;
-- normalized/hybrid titles introduced: **0**;
-- lexical insertions / omissions in canonical payload: **0 / 0**;
-- silent spelling/punctuation/source-visible-lineation normalization defects: **0**;
-- unresolved source-completeness defects: **0**;
-- Tamil page/canonical changes during Gate 6: **0**;
+- unresolved Tamil lexical / punctuation / lineation / glyph / structure / completeness issues: **0**;
 - Tamil final clearance: **PASS / FINAL-CLEARED**;
-- Phase 4: **not started / unblocked**;
-- English translation files: **0**.
+- Phase-4 translation control files: **3/3 present** — `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
+- planned translation batches: **1**;
+- reviewed translation batches: **0/1**;
+- English translation payload files: **0**;
+- Tamil page/canonical changes during Phase-4 setup: **0**.
 
-The canonical blob was not rewritten during Gates 5 or 6. Its Gate-4 frontmatter creation-state label is provenance only; current Tamil authority is `PHASE3_TAMIL_FINAL_CLEARANCE.md`, the Gate-5 review, canonical source map and synchronized control documents.
+Translation setup preserves a separate source-context block, the top-level title authority, all eight handoff headings, all eight source markers, and the Gate-3 title distinctions as explicit English-review controls.
 
 Any future Tamil textual change requires a documented source-backed reopen.
 
 ## Next activity
 
-Proceed with **Phase 4 English translation setup only**: create `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`. Do not draft English translation text in that same activity.
+Proceed with **Phase 4 Batch 01 — complete-work English translation and source review only** for scans **119–124**. Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md`. Do not combine with reader-facing assembly or later release gates.

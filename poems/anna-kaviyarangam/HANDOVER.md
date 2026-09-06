@@ -11,33 +11,26 @@ Scope: physical scans **119–124**. Work: **அண்ணா கவியரங�
 - Phase 1: **6/6 COMPLETE**;
 - Phase 2: **6/6 VERIFIED / PASS**;
 - historical-glyph second pass: **PASS**;
-- unresolved Tamil lexical/punctuation/lineation/glyph issues: **0**;
-- Phase 3 Gate 1: **COMPLETE / PASS** — `PHASE3_STRUCTURE_AUDIT.md`;
-- Phase 3 Gate 2: **COMPLETE / PASS** — `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Phase 3 Gate 3: **COMPLETE / PASS** — `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- Phase 3 Gate 4: **COMPLETE / PASS** — `PHASE3_CANONICAL_ASSEMBLY.md`;
-- Phase 3 Gate 5: **COMPLETE / PASS** — `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+- Phase 3 Gates 1–5: **COMPLETE / PASS**;
 - Phase 3 Gate 6: **COMPLETE / PASS — TAMIL FINAL-CLEARED** — `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
 - canonical source map: `indexes/canonical-source-map.md`;
 - canonical Tamil: `sections/anna-kaviyarangam.md` — final-cleared reviewed blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
-- verified-page payload fidelity: **6/6 PASS**;
-- canonical scan provenance: **119–124 exactly once each**;
-- source-context panel: **1/1 preserved**;
-- internal handoff headings: **8/8 preserved verbatim**;
-- source `மு. க.` markers: **8/8 retained**;
+- source coverage: **verified scans 119–124 exactly once each**;
+- source-context panel / handoff headings / `மு. க.` markers: **1/1 / 8/8 / 8/8 PASS**;
 - scans 118/125 canonical text: **0 / 0**;
-- inferred printed numerals introduced: **0**;
-- silent normalization defects: **0**;
-- unresolved pagination/boundary/title/assembly/completeness issues: **0**;
-- Gate-6 Tamil page/canonical text changes: **0**;
+- unresolved Tamil lexical/glyph/pagination/boundary/title/assembly/completeness issues: **0**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4: **not started / unblocked**;
-- English translation files: **0**.
+- Phase 4 translation setup: **COMPLETE**;
+- Phase-4 controls: `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`;
+- translation plan: **one Batch 01 covering the complete canonical work, scans 119–124**;
+- reviewed English batches: **0/1**;
+- English translation payload files: **0**;
+- Tamil page/canonical drift during translation setup: **0 / 0**.
 
-No-regression manual controls: scan 119 `காவிரியப் பூவிரியும்`, `ஒரு கைவை! வைகை!`, `தென்நிலமே`; scan 120 `நானாம்`, `பாடுபட்டுக்`; scan 123 `இனித்த நறு`, `தெள்ளமுதாய்`.
+Working English title policy: **Anna Kaviyarangam**. Preserve the source-context panel separately, all eight poet-handoff headings, all eight source `மு. க.` markers, and the Gate-3 title distinctions. English difficulty does not authorize a Tamil change.
 
-The controlling 1968 scan remains the highest textual authority. Any future Tamil correction requires a documented source-backed reopen.
+No-regression manual controls remain scan 119 `காவிரியப் பூவிரியும்`, `ஒரு கைவை! வைகை!`, `தென்நிலமே`; scan 120 `நானாம்`, `பாடுபட்டுக்`; scan 123 `இனித்த நறு`, `தெள்ளமுதாய்`.
 
 ## Exact next activity
 
-**Phase 4 English translation setup only.** Create `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md` and `translations/en/SOURCE_MAP.md` from the FINAL-CLEARED Tamil authority. Do not draft English translation text in that same activity.
+**Phase 4 Batch 01 — complete-work English translation and source review only.** Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md` from FINAL-CLEARED Tamil scans **119–124**. Do not perform reader-facing English assembly, editorial consistency review, release-integrity review or release clearance in the same activity.
