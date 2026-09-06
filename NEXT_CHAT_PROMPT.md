@@ -1,36 +1,54 @@
-# Next Chat Prompt — Kalaignar Poems Archive / கலைஞரின் கவியரங்கக் கவிதைகள் (1975) CLOSED
+# Next Chat Prompt — Kalaignar Poems Archive / காஞ்சிதான் அண்ணன்
 
-Continue in `pugazg/kalaignar-poems`, branch `main`.
+Continue in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/kanchithan-annan/`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first and preserve newer durable work.
+Fetch live `main` first. Preserve all newer durable work and all existing release-cleared work.
 
-## Closed checkpoint
+## Mandatory startup
 
-The user-directed new-item-only work for `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` is **RELEASE-CLEARED**.
+Read completely:
 
-- Tamil Phase 1: **22/22 COMPLETE**;
-- Tamil Phase 2: **22/22 VERIFIED**;
-- Phase 3: **Gates 1–6 PASS / TAMIL FINAL-CLEARED**;
-- Phase 4 batches: **3/3 REVIEWED / PASS**;
-- reader-facing assembly: **PASS**;
-- editorial consistency: **PASS**;
-- final release-integrity review: **PASS**;
-- explicit release report: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/RELEASE_REPORT.md`;
-- release decision: **PHASE 4 COMPLETE — RELEASE-CLEARED**;
-- unresolved release issues: **0**.
+1. `POEM_PROCESSING_GUIDE.md`
+2. `TRANSCRIPTION_PHASE_PLAN.md`
+3. root `HANDOVER.md`
+4. this `NEXT_CHAT_PROMPT.md`
+5. `poems/kanchithan-annan/README.md`
+6. `poems/kanchithan-annan/SOURCE_INTAKE.md`
+7. `poems/kanchithan-annan/metadata/source.md`
+8. `poems/kanchithan-annan/indexes/page-map.md`
+9. `poems/kanchithan-annan/audit.md`
+10. `poems/kanchithan-annan/HANDOVER.md`
+11. `poems/kanchithan-annan/pages/0016.md`
 
-Reader-facing file:
+## Controlling source
 
-`poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
+`TVA_PRL_0033128_காஞ்சி_பொங்கல்_மலர்_1970.pdf`
 
-Certified blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
+- exact physical pages: **108**;
+- file size: **104,701,910 bytes**;
+- SHA-256: `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`;
+- active work range: **physical scan 16 only**.
 
-## Preservation rule
+Title: **காஞ்சிதான் அண்ணன்**. Author: **கலைஞர் மு. கருணாநிதி**. Publication: **காஞ்சி-பொங்கல் மலர்**, **1970**.
 
-Do not reopen or rewrite this work merely for stylistic improvement. Any future textual change must be supported by genuine source evidence and must follow the repository reopen/audit policy.
+## Current state
 
-## Next production activity
+- source intake: COMPLETE;
+- repository duplicate check: no match found;
+- Phase 1 transcription: **1/1 COMPLETE**;
+- page `0016.md`: `partial`;
+- Phase 2: **NOT STARTED**;
+- Phase 3: NOT STARTED;
+- Phase 4: NOT STARTED.
 
-There is no pending activity for this source. Wait for the user to supply a new source/work or an explicit source-backed correction request. For a new source, begin with live-main fetch, source identity/intake and the normal phased workflow.
+## Next activity only
+
+Perform **Phase 2 independent source-critical visual verification of scan 16**. Verify every word ending, historical/compact glyph, punctuation mark, quotation state, ellipsis and line break directly from the controlling scan. Recheck `நிலக்களன்`, `ஆற்றொழுக்கை`, all quoted `காஞ்சி` forms, `தம்பி`, and the closing lines.
+
+Make only source-backed corrections. If the page passes, promote `pages/0016.md` to `verified` and synchronize status documents.
+
+**Do not begin Phase 3 canonical assembly or English translation in that same activity.**
+
+The previously completed `கலைஞரின் கவியரங்கக் கவிதைகள் (1975)` workspace remains CLOSED / RELEASE-CLEARED and must not be reopened without source evidence.

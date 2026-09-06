@@ -2,6 +2,26 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
+## Active work — காஞ்சிதான் அண்ணன் (1970)
+
+Workspace: `poems/kanchithan-annan/`
+
+Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்_மலர்_1970.pdf` — **108 physical scans**, **104,701,910 bytes**, SHA-256 `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`.
+
+User-scoped work range: **physical scan 16 only**.
+
+Current state:
+
+- source identity / intake: COMPLETE;
+- duplicate-title / opening-line check: no existing repository match found;
+- Phase 1 direct visual transcription: **1/1 COMPLETE**;
+- page record: `pages/0016.md` — `partial`;
+- Phase 2 verification: **NOT STARTED**;
+- Phase 3 Tamil assembly/final clearance: **NOT STARTED**;
+- Phase 4 English translation/release: **NOT STARTED**.
+
+Exact next activity: Phase 2 independent visual verification of scan 16. Do not begin Phase 3 in the same activity.
+
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
 Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`
@@ -16,7 +36,7 @@ Release-cleared new Kalaignar items:
 - Item 02 scans **58–65** — Tamil `sections/02.md` — English `translations/en/sections/02.md`;
 - Item 04 scans **67–68** — Tamil `sections/04.md` — English `translations/en/sections/04.md`.
 
-Scan **66** remains non-Kalaignar Rajaji context. Scans **69–70** are Bharathidasan. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside this new-item scope.
+Scan **66** remains non-Kalaignar Rajaji context. Scans **69–70** are Bharathidasan. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside that new-item scope.
 
 Reader-facing English collection:
 
@@ -28,18 +48,11 @@ Reader-facing English collection:
 - active scan markers: **22/22**;
 - scan 66 occurrences: **0**.
 
-Final authorities:
-
-- Tamil: `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
-- assembly: `translations/en/ASSEMBLY.md`;
-- editorial: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
-- final integrity: `translations/en/RELEASE_INTEGRITY_REVIEW.md`;
-- release decision: `translations/en/RELEASE_REPORT.md` — **PHASE 4 COMPLETE — RELEASE-CLEARED**.
-
-No further production activity is pending for this source's new-item-only scope. Future textual changes require a documented source-backed reopen. Otherwise the next repository activity is intake of a new supplied source/work.
+Final authorities include `PHASE3_TAMIL_FINAL_CLEARANCE.md`, `translations/en/ASSEMBLY.md`, `EDITORIAL_CONSISTENCY_REVIEW.md`, `RELEASE_INTEGRITY_REVIEW.md`, and `RELEASE_REPORT.md`.
 
 ## Preserved completed work
 
 - `poems/gunanayagar-nehru/` — RELEASE-CLEARED;
 - `poems/oruthalaik-kathal/` — RELEASE-CLEARED;
-- `poems/kalaignarin-kavithaigal/` — RELEASE-CLEARED.
+- `poems/kalaignarin-kavithaigal/` — RELEASE-CLEARED;
+- `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED.
