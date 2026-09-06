@@ -22,34 +22,19 @@ User-supplied catalogue description, preserved as context rather than source tex
 - SHA-256: `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`;
 - source PDF committed to repository: **No**.
 
-## Scoped work boundary
-
-Scan 16 contains the decorative title, author line, complete poem, ornaments and author portrait. No visible printed page numeral appears; `printed_page` remains `null`. Scans 15 and 17 are boundary evidence only.
-
-One-page convenience extract outside the repository: `காஞ்சிதான்_அண்ணன்_காஞ்சி_பொங்கல்_மலர்_1970_page_16.pdf`, **1,318,143 bytes**, SHA-256 `a57fcf28c77c3b9874e8a38a752067c06f0524ba002ab2feed2a9e63ffbc69dc`. It does not replace the original source identity.
-
-## Canonical / final-cleared Tamil
+## Final-cleared / release-cleared artifacts
 
 - verified page: `../pages/0016.md` — blob `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
 - canonical Tamil: `../sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
-- canonical scan markers: **1/1 exactly once**;
-- unresolved Tamil issues: **0**.
-
-## Phase 4 English state
-
-- translation controls: **COMPLETE**;
-- Batch 01: **1/1 REVIEWED / PASS**;
 - reviewed English: `../translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- reader-facing assembly: **COMPLETE / PASS**;
-- reader-facing output: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- assembly authority: `../translations/en/ASSEMBLY.md`;
-- editorial / terminology / voice consistency review: **COMPLETE / PASS**;
-- editorial authority: `../translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
-- reader-facing scan markers: **1/1 exactly once**;
-- English lexical changes required by editorial gate: **0**;
-- unresolved translation / assembly / editorial issues: **0 / 0 / 0**;
-- Tamil page/canonical changes during Phase 4: **0 / 0**.
+- reader-facing English: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
+- Phase 3 Gates 1–6: **PASS / Tamil FINAL-CLEARED**;
+- Phase 4 Batch 01 / assembly / editorial / release-integrity: **PASS / PASS / PASS / PASS**;
+- release authority: `../translations/en/RELEASE_REPORT.md`;
+- final work status: **CLOSED / RELEASE-CLEARED**;
+- source coverage: **1/1 — scan 16 exactly once**;
+- unresolved release issues: **0**;
+- Tamil page/canonical drift since final clearance: **0 / 0**.
 
 ## Scan condition / anomalies
 
@@ -58,8 +43,4 @@ One-page convenience extract outside the repository: `காஞ்சிதா�
 - portrait appears below the poem without a visible caption;
 - no silent normalization of punctuation, ellipses, spelling, lineation or quoted forms is permitted.
 
-## Current processing state
-
-Tamil: **FINAL-CLEARED**. English Batch 01: **REVIEWED / PASS**. Reader-facing assembly: **COMPLETE / PASS**. Editorial consistency: **COMPLETE / PASS**. Release integrity: **NOT STARTED**. Release clearance: **NOT GRANTED**.
-
-Exact next activity: **final source-coverage / release-integrity review only**.
+Future textual changes require a documented source-backed reopen.
