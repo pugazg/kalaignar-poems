@@ -4,39 +4,32 @@ Canonical Tamil output for the user-scoped one-page work:
 
 - `../sections/01.md` — physical scan **16** — canonical title `காஞ்சிதான் அண்ணன்` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`.
 
-## Tamil assembly / clearance accounting
+## Tamil authority
 
-- canonical items: **1/1**;
+- verified page: `../pages/0016.md` — blob `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
 - active source scans represented: **1/1**;
-- explicit `scan_page` provenance markers: **1/1 exactly once**;
-- verified page blob: `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
+- explicit scan provenance: **1/1 exactly once**;
 - Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
-- source-visible payload equality vs verified page: **1/1 PASS**;
+- title authority: direct scan-16 `காஞ்சிதான் அண்ணன்`;
+- opening / closing boundaries: **PASS / PASS**;
+- internal joins: **0**;
 - unresolved Tamil issues: **0**.
 
-## Title / boundary controls
+## Phase 4 linkage
 
-- canonical title: direct scan-16 `காஞ்சிதான் அண்ணன்`;
-- bibliographic title agrees exactly;
-- source-printed author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி` retained in canonical payload;
-- no visible printed page numeral; printed-page metadata remains `null`;
-- opening / closing boundaries: **PASS / PASS**; internal joins: **0**;
-- final source line: `காத்திருப்பவர்களில் நானும் ஒருவன்!`;
-- decorative title design, ornaments, signature and portrait remain non-lexical provenance material.
-
-## Phase 4 source linkage
-
-- translation controls: **COMPLETE**;
-- Batch 01 = Item 01 = scan 16: **1/1 REVIEWED / PASS**;
 - reviewed English: `../translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- batch review: `../translations/en/batches/batch-01.md`;
-- reader-facing English assembly: **COMPLETE / PASS**;
-- reader-facing output: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- assembly authority: `../translations/en/ASSEMBLY.md`;
-- editorial review: `../translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
+- reader-facing English: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
+- Batch 01 / assembly / editorial / release-integrity: **PASS / PASS / PASS / PASS**;
 - reader-facing scan marker: **1/1 exactly once**;
-- English lexical changes required by editorial gate: **0**;
-- unresolved translation / assembly / editorial issues: **0 / 0 / 0**;
-- Tamil page/canonical changes during Phase 4: **0 / 0**.
+- omitted / duplicate / unexpected active markers: **0 / 0 / 0**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**.
 
-Exact next activity: **final source-coverage / release-integrity review only**. Create `../translations/en/RELEASE_INTEGRITY_REVIEW.md` if the integrity gate passes; do not grant release clearance in the same activity.
+## Release state
+
+Release authority: `../translations/en/RELEASE_REPORT.md`.
+
+**PHASE 4 COMPLETE — RELEASE-CLEARED.**
+
+Unresolved release issues: **0**.
+
+Future changes require a documented source-backed reopen.
