@@ -43,19 +43,31 @@ Authority: `PHASE2_SOURCE_VERIFICATION.md`.
 
 ## Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation
 
-Result: **COMPLETE / PASS.**
-
-Authority: `PHASE3_STRUCTURE_AUDIT.md`.
+Result: **COMPLETE / PASS.** Authority: `PHASE3_STRUCTURE_AUDIT.md`.
 
 - scoped physical scans accounted: **1/1**;
 - physical source page: **scan 16**;
-- visible printed page numeral on scan 16: **none**;
-- page-layer `printed_page`: **`null` — retained**;
-- inferred printed/issue-page numbers introduced: **0**;
+- visible printed page numeral: **none**;
+- page-layer `printed_page`: **`null` retained**;
+- inferred issue-page numbers introduced: **0**;
 - unresolved pagination/structure issues: **0**;
-- verified page-text changes during Gate 1: **0**.
+- verified page-text changes: **0**.
 
-The work-scope ordinal `1/1` is only archival accounting and is not a printed-page claim.
+## Phase 3 Gate 2 — boundary / page-join audit
+
+Result: **COMPLETE / PASS.** Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+- opening boundaries: **1/1 PASS**;
+- internal physical page joins: **0/0**;
+- closing boundaries: **1/1 PASS**;
+- scan 15 preceding-material boundary: **PASS**;
+- scan 17 next-item boundary: **PASS**;
+- portrait/decorative matter outside poem body: **confirmed**;
+- unresolved boundary/join issues: **0**;
+- verified page records reopened: **0**;
+- page-text changes: **0**.
+
+The poem is self-contained on scan 16: direct title and author line at the opening, complete poem body, final line `காத்திருப்பவர்களில் நானும் ஒருவன்!`, followed by the portrait. Scan 17 begins a different item.
 
 ## Current totals
 
@@ -66,8 +78,9 @@ The work-scope ordinal `1/1` is only archival accounting and is not a printed-pa
 - needs-review: **0**;
 - verified: **1**;
 - Phase 3 Gate 1: **PASS**;
-- Phase 3 Gate 2–6: **not started**;
+- Phase 3 Gate 2: **PASS**;
+- Phase 3 Gate 3–6: **not started**;
 - Phase 4: **not started**;
-- unresolved Tamil lexical/pagination issues: **0**.
+- unresolved Tamil lexical/pagination/boundary issues: **0**.
 
-Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit**. Certify opening and closing boundaries and record **0 internal joins** for the one-page work. Do not proceed to Gate 3 in the same activity.
+Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation**. Do not begin canonical assembly in the same activity.
