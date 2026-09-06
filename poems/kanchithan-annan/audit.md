@@ -71,15 +71,29 @@ Repository search found no existing match for title `காஞ்சிதான
 - page-status changes during assembly: **0**;
 - unresolved assembly defects: **0**.
 
-The canonical output preserves the exact direct title, source-printed author line, verified poem wording, punctuation, quotations, ellipses and lineation. Repository-only Phase-2 discussion is not canonical source text. Decorative design and portrait matter remain non-lexical provenance commentary.
+## Phase 3 Gate 5 — canonical/source-completeness review
+
+**COMPLETE / PASS.** Authority: `PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+
+- canonical inventory: **1/1 PASS**;
+- active scan accounting: **1/1 exactly once**;
+- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
+- canonical source-visible payload equality vs verified page layer: **1/1 PASS**;
+- title / author provenance: **PASS**;
+- opening / closing boundaries: **PASS / PASS**;
+- internal joins: **0**;
+- silent lexical normalization / insertion / omission: **0 / 0 / 0**;
+- verified page records reopened: **0**;
+- canonical Tamil changes required by review: **0**;
+- unresolved source-completeness defects: **0**.
 
 ## Current totals
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–4: **PASS**;
-- Phase 3 Gate 5–6: **not started**;
+- Phase 3 Gates 1–5: **PASS**;
+- Phase 3 Gate 6: **not started**;
 - Phase 4: **not started**;
-- unresolved Tamil lexical/pagination/boundary/title/assembly issues: **0**.
+- unresolved Tamil lexical/pagination/boundary/title/assembly/completeness issues: **0**.
 
-Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review only**. Do not grant Tamil final clearance in the same activity.
+Exact next activity: **Phase 3 Gate 6 — Tamil final clearance only**. Do not begin English translation in the same activity.
