@@ -20,16 +20,12 @@ Read completely before changes:
 8. `poems/kanchithan-annan/indexes/page-map.md`
 9. `poems/kanchithan-annan/indexes/canonical-source-map.md`
 10. `poems/kanchithan-annan/audit.md`
-11. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
-12. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
-13. `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`
-14. `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
-15. `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`
-16. `poems/kanchithan-annan/PHASE3_CANONICAL_SOURCE_REVIEW.md`
-17. `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`
-18. `poems/kanchithan-annan/HANDOVER.md`
-19. `poems/kanchithan-annan/pages/0016.md`
-20. `poems/kanchithan-annan/sections/01.md`
+11. `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`
+12. `poems/kanchithan-annan/HANDOVER.md`
+13. `poems/kanchithan-annan/sections/01.md`
+14. `poems/kanchithan-annan/translations/en/README.md`
+15. `poems/kanchithan-annan/translations/en/TRANSLATION_PLAN.md`
+16. `poems/kanchithan-annan/translations/en/SOURCE_MAP.md`
 
 ## Controlling source
 
@@ -47,24 +43,21 @@ Read completely before changes:
 - Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
 - canonical title authority: direct scan 16 — `காஞ்சிதான் அண்ணன்`;
-- canonical output: `sections/01.md`;
-- canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical scan markers: **1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
+- canonical output: `sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - unresolved Tamil issues: **0**;
-- Tamil page / canonical changes during Gate 6: **0 / 0**;
-- Phase 4: NOT STARTED.
+- Phase 4 control setup: **COMPLETE**;
+- batch partition: **Batch 01 = Item 01 = scan 16**;
+- English item / batch review: **NOT STARTED**.
 
 ## Next activity only
 
-Perform **Phase 4 English translation setup**.
+Perform **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review**.
 
-Create the English translation control layer:
+Create:
 
-1. `translations/en/README.md`
-2. `translations/en/TRANSLATION_PLAN.md`
-3. `translations/en/SOURCE_MAP.md`
+1. `translations/en/sections/01.md`
+2. `translations/en/batches/batch-01.md`
 
-Pin the translation authority to the FINAL-CLEARED Tamil `sections/01.md`, preserve the scan-16 provenance and source-sensitive title/wording controls, and define the one-item translation/review workflow.
+Use FINAL-CLEARED `sections/01.md` as the normal translation source. Preserve scan provenance and explicitly review the `காஞ்சி` publication/place/Anna relationship, quoted `‘தம்பி’`, repetition/parallelism, rhetorical question, `நிலக்களன்`, `ஆற்றொழுக்கை`, source ellipsis/punctuation evidence and the first-person close.
 
-**Do not draft the English poem in this same setup activity.**
+**Do not perform reader-facing assembly, editorial consistency review or release clearance in this same activity.**
