@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 4 ITEM TRANSLATION COMPLETE / Batches 01–03 reviewed PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW NEXT.**
+**PHASE 4 ITEM TRANSLATION COMPLETE / Batches 01–03 reviewed PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL SOURCE-COVERAGE & RELEASE-INTEGRITY PASS / RELEASE DECISION NEXT.**
 
 Tamil source/canonical layer is FINAL-CLEARED. Phase 4 has not modified the active Tamil `pages/` or canonical `sections/` layer.
 
@@ -55,7 +55,22 @@ Reader-facing file: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `2
 
 **COMPLETE / PASS.** Authority: `EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-The cross-item review found no terminology, transliteration, quotation/punctuation, heading, reader-cleanliness or voice defect requiring an English lexical rewrite. The assembly and all three reviewed standalone item blobs remain unchanged. Unresolved editorial issues: **0**.
+No terminology, transliteration, quotation/punctuation, heading, reader-cleanliness or voice defect required an English lexical rewrite. Unresolved editorial issues: **0**.
+
+## Final source-coverage / release integrity
+
+**COMPLETE / PASS.** Authority: `RELEASE_INTEGRITY_REVIEW.md`.
+
+- reviewed standalone blob synchronization: **3/3 PASS**;
+- reader-facing blob identity: **PASS**;
+- active source coverage: **22/22**;
+- omissions / duplicates / unexpected markers: **0 / 0 / 0**;
+- excluded scan 66 / Item 03 integrity: PASS;
+- title/context integrity: PASS;
+- certified boundary/closing states: PASS;
+- reader-facing control leakage: **0**;
+- Tamil page/canonical drift since final clearance: **0**;
+- unresolved release-integrity defects: **0**.
 
 Recurring locks remain:
 
@@ -66,13 +81,13 @@ Recurring locks remain:
 - Item 04 `சுதந்திராக்கள்` → **Swatantrites**;
 - scan-66 context never becomes translated Item-04 body.
 
-## Remaining Phase-4 gates
+## Remaining Phase-4 gate
 
 1. full English assembly — **COMPLETE / PASS**;
 2. editorial / terminology / voice consistency review — **COMPLETE / PASS**;
-3. **final source-coverage / release-integrity review — NEXT**;
-4. release report / release-clearance decision.
+3. final source-coverage / release-integrity review — **COMPLETE / PASS**;
+4. **release report / release-clearance decision — NEXT**.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**. Do not call the work RELEASE-CLEARED before that gate and the explicit release decision are complete.
+Create `RELEASE_REPORT.md` and make the explicit release-clearance decision after reconfirming live artifact identities and all prior PASS authorities. Do not modify Tamil or English lexical text merely to prepare the release report.

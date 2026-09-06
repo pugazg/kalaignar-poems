@@ -1,4 +1,4 @@
-# Next Chat Prompt — கலைஞரின் கவியரங்கக் கவிதைகள் (1975) / Final Source-Coverage & Release-Integrity Review
+# Next Chat Prompt — கலைஞரின் கவியரங்கக் கவிதைகள் (1975) / Release Report & Clearance Decision
 
 Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
@@ -8,7 +8,7 @@ Fetch live main first and preserve newer durable work.
 
 ## Checkpoint
 
-Tamil is **FINAL-CLEARED**. Phase 4 setup and all translation batches are complete. Batches 01–03 are **3/3 REVIEWED / PASS**.
+Tamil is **FINAL-CLEARED**. Phase 4 setup and Batches 01–03 are **3/3 REVIEWED / PASS**.
 
 Reader-facing assembly is **COMPLETE / PASS**:
 
@@ -17,15 +17,24 @@ Reader-facing assembly is **COMPLETE / PASS**:
 - size **24,203 bytes**;
 - items **01 → 02 → 04**;
 - active scan markers **22/22**;
-- omissions / duplicates / unexpected **0 / 0 / 0**;
 - scan 66 occurrences **0**.
 
-Editorial / terminology / voice consistency review is **COMPLETE / PASS** under `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`:
+Editorial / terminology / voice consistency review is **COMPLETE / PASS** under `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-- unresolved editorial issues **0**;
-- English lexical changes required **0**;
-- reader-facing blob unchanged;
-- Tamil `pages/` / canonical `sections/` changes since final clearance **0**.
+Final source-coverage / release-integrity review is **COMPLETE / PASS** under `translations/en/RELEASE_INTEGRITY_REVIEW.md`:
+
+- reviewed-item ↔ assembly synchronization: PASS;
+- live reviewed item blobs: **3/3 match batch/assembly authorities**;
+- active scan coverage: **22/22**;
+- omitted / duplicate / unexpected active markers: **0 / 0 / 0**;
+- Item 03 / scan 66 exclusion: PASS;
+- title/context integrity: PASS;
+- certified boundary/closing states: PASS;
+- reader-facing control leakage: 0;
+- Tamil page/canonical drift since final clearance: 0;
+- unresolved integrity defects: 0.
+
+The work is **NOT YET RELEASE-CLEARED** only because the explicit release report / decision has not yet been recorded.
 
 ## Read before proceeding
 
@@ -38,24 +47,20 @@ Editorial / terminology / voice consistency review is **COMPLETE / PASS** under 
 7. `translations/en/SOURCE_MAP.md`
 8. `translations/en/ASSEMBLY.md`
 9. `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`
-10. assembled reader-facing file
-11. reviewed Items 01, 02, 04 and batch records.
+10. `translations/en/RELEASE_INTEGRITY_REVIEW.md`
+11. reader-facing assembly and all three reviewed English item/batch records.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**.
+Perform the **release report / release-clearance decision only**.
 
-Verify:
+Reconfirm live-main identities for:
 
-- reviewed standalone-item ↔ assembly synchronization;
-- Items **01, 02, 04** exactly once and in order;
-- active scans **46–65, 67–68 = 22/22** exactly once;
-- scan **66** remains excluded;
-- title/event/context decisions remain intact;
-- Item 01 certified **50→51** quotation state remains intact;
-- Item 02 `மை` architecture and scan-65 close remain intact;
-- Item 04 direct `பதில் கவிதை` authority, Swatantrites handling, scan-68 terminal colon and close remain intact;
-- no reader-facing YAML/review-control leakage;
-- no Tamil `pages/` / canonical `sections/` changes since final clearance.
+- Item 01 English blob `4dfbb95c099108398eeccd6bfb368e34d7db2ee0`;
+- Item 02 English blob `354cd23470ef400aaa813a620bab2cbb3673fae6`;
+- Item 04 English blob `332c65fb822e5bc3eeac375935c00c49d62bfab7`;
+- reader-facing blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
 
-Do not call the work RELEASE-CLEARED unless this gate passes and the release-clearance decision is subsequently recorded according to repository precedent.
+Confirm all PASS authorities remain current and the active Tamil `pages/` / canonical `sections/` layer still has zero drift from final clearance. Then create `translations/en/RELEASE_REPORT.md` following repository precedent.
+
+If the evidence remains unchanged, record the explicit RELEASE-CLEARED decision and synchronize final status/handover documents. Do not make Tamil or English lexical edits as part of release reporting unless a genuine defect is first formally reopened.

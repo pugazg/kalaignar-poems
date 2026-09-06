@@ -2,7 +2,7 @@
 
 ## Status
 
-**PHASE 1 22/22 COMPLETE / PHASE 2 22/22 VERIFIED / PHASE 3 FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS.**
+**PHASE 1 22/22 COMPLETE / PHASE 2 22/22 VERIFIED / PHASE 3 FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW PASS.**
 
 - source scans inventoried: **84/84**;
 - active new Kalaignar scans: **22**;
@@ -38,22 +38,33 @@ Authority: `translations/en/ASSEMBLY.md`.
 
 Authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
 
+Result: **COMPLETE / PASS**. Unresolved editorial / terminology / voice issues **0**. English standalone/reader-facing lexical changes required **0**.
+
+## Final source-coverage / release-integrity audit
+
+Authority: `translations/en/RELEASE_INTEGRITY_REVIEW.md`.
+
 Result: **COMPLETE / PASS**.
 
-- heading/title presentation: PASS;
-- recurring names, titles and terminology: PASS;
-- transliteration and wordplay conventions: PASS;
-- quotation/punctuation/source-visible states: PASS;
-- public-speech voice, satire and rhetorical continuity: PASS;
-- reader-facing cleanliness: PASS;
-- unresolved editorial / terminology / voice issues: **0**;
-- English standalone lexical changes required: **0**;
-- reader-facing assembly lexical changes required: **0**;
-- reader-facing blob remains `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
-- Tamil `pages/` / canonical `sections/` changed since final clearance: **0**.
+- live reviewed English item blobs match batch certificates: **3/3**;
+- live reviewed item blobs match assembly inputs: **3/3**;
+- live reader-facing blob matches assembly/editorial checkpoint: **PASS**;
+- Items 01, 02, 04 occur once and in source order: **PASS**;
+- active scan coverage: **22/22**;
+- active omissions / duplicates / unexpected markers: **0 / 0 / 0**;
+- scan 66 / Item 03 reader-facing occurrences: **0**;
+- excluded scans 69–70 remain outside reader-facing body: **PASS**;
+- title/event/context integrity: **PASS**;
+- Item-01 50→51 quotation state: **PASS**;
+- Item-02 `மை` architecture / scan-65 close: **PASS**;
+- Item-04 direct reply title / scan-68 terminal colon / close: **PASS**;
+- source separators: **3/3**;
+- reader-facing control leakage: **0**;
+- Tamil `pages/` / canonical `sections/` drift since final clearance: **0**;
+- unresolved release-integrity defects: **0**.
 
-The work is cleared to the final source-coverage / release-integrity gate but is **not yet RELEASE-CLEARED**.
+The work has passed the final integrity gate but is **not yet RELEASE-CLEARED** until the explicit release report / release-clearance decision is recorded.
 
 ## Exact next activity
 
-**Final source-coverage / release-integrity review only.**
+**Release report / release-clearance decision only.**

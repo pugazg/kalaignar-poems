@@ -18,7 +18,7 @@ Reviewed standalone inputs remain:
 - Item 02: `sections/02.md` — blob `354cd23470ef400aaa813a620bab2cbb3673fae6`;
 - Item 04: `sections/04.md` — blob `332c65fb822e5bc3eeac375935c00c49d62bfab7`.
 
-This gate is an English editorial / terminology / voice review. It is **not** a fresh visual retranscription of the Tamil source and it is **not** the final release-integrity gate. Tamil authority remains the final-cleared source/canonical layer and ultimately the controlling scan if a genuine Tamil discrepancy is ever reopened.
+This gate is an English editorial / terminology / voice review. It is **not** a fresh visual retranscription of the Tamil source and it is **not** itself a release-clearance decision. Tamil authority remains the final-cleared source/canonical layer and ultimately the controlling scan if a genuine Tamil discrepancy is ever reopened.
 
 ## 1. Reader-facing structure and heading presentation
 
@@ -129,8 +129,12 @@ The reader-facing blob therefore remains `28d63e07b9acbfbba9d37d0f1475e976562697
 - unresolved editorial / terminology / voice issues: **0**;
 - Tamil final-cleared source/canonical changes: **0**.
 
-The English work is cleared to proceed to the **final source-coverage / release-integrity review**. It is **not yet RELEASE-CLEARED** until that separate gate passes and the release-clearance decision is recorded.
+## Subsequent final integrity status
+
+The later `RELEASE_INTEGRITY_REVIEW.md` gate is now **COMPLETE / PASS**. It reconfirmed reviewed-item↔assembly synchronization, **22/22** active source coverage, exclusions, title/context integrity, certified boundary/closing states, reader-facing cleanliness and **0** Tamil page/canonical drift. Unresolved release-integrity defects: **0**.
+
+The work is eligible for the explicit release-clearance decision but is **not yet RELEASE-CLEARED** until that decision is recorded.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**. Verify reviewed-item ↔ assembly synchronization, complete 22/22 active scan accounting, exclusions, title/context integrity, closing/boundary states, reader-facing cleanliness and Tamil-source protection. If that gate passes, a later release report / release-clearance decision may be recorded according to repository precedent.
+Create `RELEASE_REPORT.md` and perform the **release-clearance decision only**, after reconfirming live artifact identities and all prior PASS authorities. Do not alter Tamil or English lexical text as part of release reporting unless a genuine defect is formally reopened.

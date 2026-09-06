@@ -22,24 +22,25 @@ Canonical files: `sections/01.md`, `sections/02.md`, `sections/04.md`. Active ca
 
 ## Phase 4 — English translation / release
 
-**IN PROGRESS — SETUP COMPLETE / BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS.**
+**IN PROGRESS — SETUP COMPLETE / BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL SOURCE-COVERAGE & RELEASE-INTEGRITY PASS.**
 
 Reader-facing file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**.
 
 Authorities:
 
 - `translations/en/ASSEMBLY.md` — assembly **PASS**;
-- `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — editorial / terminology / voice consistency **PASS**.
+- `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — editorial / terminology / voice consistency **PASS**;
+- `translations/en/RELEASE_INTEGRITY_REVIEW.md` — final source-coverage / release integrity **PASS**.
 
-Editorial gate result: recurring terms/wordplay/title presentation/quotation/punctuation/voice/reader cleanliness **PASS**, unresolved English editorial issues **0**, English lexical changes required **0**, Tamil final-cleared page/canonical changes **0**.
+Final integrity result: reviewed-item↔assembly synchronization PASS; active coverage **22/22**; omissions/duplicates/unexpected **0/0/0**; scan 66 excluded; title/context and certified closing states PASS; reader-facing control leakage **0**; Tamil page/canonical drift since final clearance **0**; unresolved integrity defects **0**.
 
-Remaining ordered Phase-4 gates:
+Remaining ordered Phase-4 gate:
 
 1. full English assembly — **COMPLETE / PASS**;
 2. editorial / terminology / voice consistency review — **COMPLETE / PASS**;
-3. **final source-coverage / release-integrity review — NEXT**;
-4. release report / release-clearance decision.
+3. final source-coverage / release-integrity review — **COMPLETE / PASS**;
+4. **release report / release-clearance decision — NEXT**.
 
 ## Exact next activity
 
-Perform the **final source-coverage / release-integrity review only**. Do not mark the active work RELEASE-CLEARED unless that gate passes and a durable release-clearance decision is recorded.
+Create `translations/en/RELEASE_REPORT.md` and make the explicit **release-clearance decision**. Reconfirm live-main artifact identities first. Do not mark the work RELEASE-CLEARED before that decision is durably recorded.

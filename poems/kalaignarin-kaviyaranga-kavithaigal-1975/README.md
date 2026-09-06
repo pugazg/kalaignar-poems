@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**NEW-ITEM-ONLY / PHASE 1 COMPLETE 22/22 / PHASE 2 VERIFIED 22/22 / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW NEXT.**
+**NEW-ITEM-ONLY / PHASE 1 COMPLETE 22/22 / PHASE 2 VERIFIED 22/22 / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW PASS / RELEASE DECISION NEXT.**
 
 | Intake | Scans | Tamil | English |
 |---:|---:|---|---|
@@ -17,10 +17,16 @@ Scans 69–70 are Bharathidasan. Already represented ranges 9–20, 21–32, 33�
 
 Tamil authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-Reader-facing English assembly: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**. Assembly authority: `translations/en/ASSEMBLY.md`.
+Reader-facing English assembly: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**.
 
-Editorial / terminology / voice consistency authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**. Cross-item headings, recurring terms/transliteration, wordplay conventions, quotations/punctuation, public-speech voice and reader-facing cleanliness all PASS; unresolved editorial issues **0**; English lexical changes required **0**; Tamil final-cleared page/canonical changes **0**.
+Phase-4 authorities:
+
+- `translations/en/ASSEMBLY.md` — **PASS**;
+- `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**;
+- `translations/en/RELEASE_INTEGRITY_REVIEW.md` — **FINAL SOURCE-COVERAGE / RELEASE-INTEGRITY PASS**.
+
+Final integrity result: reviewed-item↔assembly synchronization PASS; active source coverage **22/22**; omissions/duplicates/unexpected **0/0/0**; scan 66 occurrences **0**; title/context and boundary/closing integrity PASS; reader-facing control leakage **0**; Tamil page/canonical drift **0**; unresolved integrity defects **0**.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**. The work is not yet RELEASE-CLEARED.
+Perform the **release report / release-clearance decision only**. The work is not yet RELEASE-CLEARED until that explicit decision is recorded.

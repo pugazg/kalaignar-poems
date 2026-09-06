@@ -8,7 +8,7 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`
 
 Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
 
-**NEW-ITEM-ONLY PROCESSING — PHASE 1 COMPLETE 22/22 / PHASE 2 COMPLETE 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW NEXT.**
+**NEW-ITEM-ONLY PROCESSING — PHASE 1 COMPLETE 22/22 / PHASE 2 COMPLETE 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW PASS / RELEASE REPORT & CLEARANCE DECISION NEXT.**
 
 Final-cleared / reviewed new Kalaignar items:
 
@@ -28,9 +28,14 @@ Reader-facing English assembly:
 - active scan markers: **22/22**;
 - scan 66 occurrences: **0**.
 
-Assembly authority: `translations/en/ASSEMBLY.md`. Editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**, unresolved editorial/terminology/voice issues **0**, English lexical changes required **0**. Tamil final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+Authorities:
 
-Exact next activity: **final source-coverage / release-integrity review only**. The active work is **not yet RELEASE-CLEARED**.
+- Tamil final clearance: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — PASS;
+- assembly: `translations/en/ASSEMBLY.md` — PASS;
+- editorial / terminology / voice: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — PASS;
+- final source-coverage / release integrity: `translations/en/RELEASE_INTEGRITY_REVIEW.md` — **PASS**, unresolved integrity defects **0**, Tamil page/canonical drift **0**.
+
+Exact next activity: **release report / release-clearance decision only**. The active work is **not yet RELEASE-CLEARED** until that explicit decision is recorded.
 
 ## Preserved completed work
 

@@ -47,12 +47,16 @@ Result: **PASS**.
 - Tamil canonical `sections/` changes during assembly: **0**;
 - unresolved assembly defects: **0**.
 
-## Subsequent editorial consistency status
+## Subsequent review status
 
-The separate `EDITORIAL_CONSISTENCY_REVIEW.md` gate subsequently completed **PASS**. It found **0 unresolved editorial / terminology / voice issues** and required **0 lexical changes** to the standalone English items or reader-facing assembly. Therefore this assembly blob remains `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
+`EDITORIAL_CONSISTENCY_REVIEW.md` subsequently completed **PASS**, found **0 unresolved editorial / terminology / voice issues**, and required **0 lexical changes**.
 
-The active work is not yet RELEASE-CLEARED.
+`RELEASE_INTEGRITY_REVIEW.md` subsequently completed **PASS**. It reconfirmed live reviewed-item blob synchronization, the unchanged reader-facing blob, **22/22** active source coverage, exclusions, title/context integrity, certified boundary/closing states, reader-facing cleanliness and **0** Tamil page/canonical drift since final clearance.
+
+Therefore this assembly remains unchanged at blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
+
+The active work is not yet RELEASE-CLEARED because the explicit release report / release-clearance decision remains pending.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**. Do not combine release clearance with that gate unless the final evidence and repository precedent support recording the release decision there.
+Create `RELEASE_REPORT.md` and make the explicit **release-clearance decision** according to repository precedent after reconfirming live artifact identities. Do not alter the assembled English or Tamil source layer merely to prepare the release report.

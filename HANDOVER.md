@@ -35,21 +35,26 @@ Reader-facing file: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations
 
 **COMPLETE / PASS** under `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-- cross-item heading/title presentation: PASS;
-- recurring names/terms/transliteration: PASS;
-- wordplay conventions (`குடி`, `மை`, Swatantrites and source-sensitive transliterations): PASS;
-- quotation/punctuation/source-visible states: PASS;
-- public-speech cadence, direct address, satire and rhetorical continuity: PASS;
-- reader-facing cleanliness: PASS;
-- unresolved editorial/terminology/voice issues: **0**;
-- English standalone lexical changes required in this gate: **0**;
-- assembly lexical changes required: **0**;
-- Tamil `pages/` / canonical `sections/` changes since final clearance: **0**.
+Unresolved editorial / terminology / voice issues: **0**. English lexical changes required: **0**. Reader-facing blob remains unchanged.
 
-The reader-facing blob therefore remains `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
+### Final source-coverage / release integrity
+
+**COMPLETE / PASS** under `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/RELEASE_INTEGRITY_REVIEW.md`.
+
+- live standalone item blobs match all three batch certificates and assembly inputs: **3/3**;
+- reader-facing blob matches assembly/editorial checkpoints: **PASS**;
+- active scan accounting: **22/22**, omissions/duplicates/unexpected **0/0/0**;
+- Item 03 / scan 66 excluded: **PASS**;
+- title/context integrity: **PASS**;
+- certified boundary/closing states: **PASS**;
+- reader-facing control leakage: **0**;
+- Tamil `pages/` / canonical `sections/` changes since final clearance: **0**;
+- unresolved release-integrity defects: **0**.
+
+The integrity gate does **not** itself declare release clearance.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**. Verify reviewed-item ↔ reader-facing synchronization, active scan accounting **22/22**, exclusions, title/context integrity, certified closing/boundary states, reader-facing cleanliness and Tamil-source protection.
+Perform the **release report / release-clearance decision only**. Reconfirm live-main identities, then create `translations/en/RELEASE_REPORT.md` according to repository precedent. If the certified blobs and PASS authorities remain unchanged, record the explicit release-clearance decision and synchronize final status/handover documents.
 
-Do not call the active work RELEASE-CLEARED until that separate gate passes and the release-clearance decision is durably recorded.
+Do not make new Tamil or English lexical edits during release reporting unless a genuine defect is first formally reopened.

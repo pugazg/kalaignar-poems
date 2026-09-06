@@ -24,27 +24,33 @@ Items 01 (46–57), 02 (58–65), 04 (67–68) are **FINAL-CLEARED**. Phase 1 22
 
 **COMPLETE / PASS** under `translations/en/ASSEMBLY.md`.
 
-Reader-facing file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, size **24,203 bytes**, items **01 → 02 → 04**, active scan markers **22/22**, omitted/duplicate/unexpected markers **0/0/0**, scan 66 occurrences **0**.
+Reader-facing file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, size **24,203 bytes**, items **01 → 02 → 04**, active scan markers **22/22**, scan 66 occurrences **0**.
 
 ## Editorial consistency
 
-**COMPLETE / PASS** under `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
+**COMPLETE / PASS** under `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`. Unresolved editorial / terminology / voice issues **0**; English lexical changes required **0**; reader-facing blob unchanged.
 
-- heading/title presentation: PASS;
-- recurring names/terms/transliteration: PASS;
-- `குடி`, `மை`, Swatantrites and source-sensitive wordplay handling: PASS;
-- quotation/punctuation/source-visible states: PASS;
-- public-speech cadence, direct address, satire and rhetorical continuity: PASS;
-- reader-facing cleanliness: PASS;
-- unresolved editorial/terminology/voice issues: **0**;
-- standalone English lexical changes required: **0**;
-- reader-facing assembly lexical changes required: **0**;
-- Tamil `pages/` / canonical `sections/` changes since final clearance: **0**.
+## Final source-coverage / release integrity
 
-Reader-facing blob remains unchanged at `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
+**COMPLETE / PASS** under `translations/en/RELEASE_INTEGRITY_REVIEW.md`.
+
+- live standalone English blobs match the three reviewed batch certificates: **3/3**;
+- live standalone blobs match assembly inputs: **3/3**;
+- reader-facing blob matches assembly/editorial checkpoints: **PASS**;
+- Items **01, 02, 04** exactly once and in source order: **PASS**;
+- active source markers **22/22**; omissions/duplicates/unexpected **0/0/0**;
+- Item 03 / scan 66 excluded: **PASS**;
+- scans 69–70 excluded: **PASS**;
+- title/event/context decisions: **PASS**;
+- Item-01 50→51 quotation state: **PASS**;
+- Item-02 `மை` architecture and close: **PASS**;
+- Item-04 direct reply title, terminal colon and close: **PASS**;
+- reader-facing review/YAML control leakage: **0**;
+- Tamil `pages/` / canonical `sections/` changes since final clearance: **0**;
+- unresolved release-integrity defects: **0**.
+
+The integrity PASS makes the work eligible for the release decision but does **not** itself mark RELEASE-CLEARED.
 
 ## Exact next activity
 
-Perform **final source-coverage / release-integrity review only**. Verify item↔assembly synchronization, 22/22 scan coverage and uniqueness, exclusions, title/context integrity, certified boundary/closing states, reader-facing cleanliness and Tamil-source protection.
-
-Do not mark RELEASE-CLEARED until that separate gate passes and the release decision is recorded.
+Create `translations/en/RELEASE_REPORT.md` and make the explicit **release-clearance decision** according to repository precedent. Reconfirm live artifact identities before the decision. If unchanged, record release clearance and synchronize final status/handover documents. Do not introduce new Tamil or English lexical changes during release reporting.

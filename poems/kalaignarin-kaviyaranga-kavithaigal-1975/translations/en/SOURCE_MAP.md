@@ -31,18 +31,22 @@ Output: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
 - scan 66 occurrences: **0**;
 - closing source separators: **3/3**.
 
-Assembly authority: `ASSEMBLY.md`.
+Assembly authority: `ASSEMBLY.md` — **PASS**.
 
 ## Editorial status
 
-`EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**.
+`EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**. No standalone English or reader-facing lexical correction was required. Reader-facing blob remains unchanged.
 
-No standalone English or reader-facing lexical correction was required. Recurring names/terms, transliteration, wordplay conventions, quote/punctuation presentation, title structure, public-speech voice and reader-facing cleanliness all passed. Reader-facing blob remains unchanged.
+## Final source-coverage / release-integrity status
+
+`RELEASE_INTEGRITY_REVIEW.md` — **COMPLETE / PASS**.
+
+The live standalone English blobs above exactly match the three batch-review certificates and assembly inputs. The live reader-facing blob exactly matches the assembly/editorial checkpoint. Final integrity accounting remains **22/22** active scans with **0/0/0** omissions/duplicates/unexpected markers, excluded scan 66 absent, title/context and boundary/closing states intact, reader-facing control leakage **0**, and Tamil page/canonical drift since final clearance **0**.
 
 ## Title/context authority
 
 - Item 01: exact scan-46 two-line direct heading; Bharathidasan birthday / Puduvai prose is provenance.
-- Item 02: exact scan-58 three-line direct heading, preserving source `கவியரங்கில்`; dated explanation is provenance.
+- Item 02: exact scan-58 three-line direct heading preserving source `கவியரங்கில்`; dated explanation is provenance.
 - Item 04: direct scan-67 `“முதல்வர் கலைஞரின் பதில் கவிதை”`; scan-66 `மறுப்புக் கவிதை` remains context only.
 
 ## Structural controls
@@ -61,4 +65,4 @@ No standalone English or reader-facing lexical correction was required. Recurrin
 
 ## Exact next activity
 
-**Final source-coverage / release-integrity review only.** The work is not yet RELEASE-CLEARED.
+**Release report / release-clearance decision only.** The work remains not-yet-RELEASE-CLEARED until that explicit decision is recorded.
