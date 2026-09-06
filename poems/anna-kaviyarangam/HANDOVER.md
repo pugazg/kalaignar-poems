@@ -13,15 +13,26 @@ Bibliographic identity: **அண்ணா கவியரங்கம்**, க�
 - new poem / no canonical repository duplicate;
 - onboarding complete;
 - page records `0119.md`–`0124.md` created;
-- Phase 1 remains **IN PROGRESS** because all six records contain explicitly marked unresolved compact readings;
+- Phase 1 remains **IN PROGRESS**;
 - historical Tamil glyph first-pass applied across all six scans;
+- high-pixel word-level comparison against the user-supplied transcription has been applied to the page records;
+- the user's manual source overrides are durably recorded in `LEXICAL_ADJUDICATION_2026-09-06.md`;
+- all six pages remain `needs-review` because explicit unresolved passages remain;
 - Phase 2 not started;
 - no page is `verified`;
 - no canonical Tamil assembly;
 - no English translation.
 
+### Manual lexical controls that must not be regressed
+
+- scan 119: `காவிரியப் பூவிரியும்`, `ஒரு கைவை! வைகை!`, `தென்நிலமே`;
+- scan 120: `நானாம்`, `பாடுபட்டுக்`;
+- scan 123: `இனித்த நறு`, `தெள்ளமுதாய்`.
+
+These are user-verified against the controlling scan and override earlier provisional visual judgements.
+
 Related later witness: `இதயத்தைத் தந்திடு அண்ணா` reuses portions of the 1968 language. Use it only to compare; the 1968 pixels remain controlling.
 
 ## Exact next activity
 
-Resolve the remaining Phase-1 `⟦unresolved ...⟧` blocks page by page from scans 119–124, with the 13-family historical-glyph screen. When every visible source line is represented, close Phase 1. Do not perform Phase 2 verification in the same activity.
+Resolve only the remaining Phase-1 `⟦unresolved ...⟧` blocks from scans 119–124, using enlarged controlling-source pixels and the 13-family historical-glyph screen. Preserve `LEXICAL_ADJUDICATION_2026-09-06.md` as a no-regression lexical control. When every visible source line is represented, close Phase 1. Do not perform Phase 2 verification in the same activity.
