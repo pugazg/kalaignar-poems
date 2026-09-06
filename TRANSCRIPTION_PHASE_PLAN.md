@@ -25,24 +25,24 @@ Workspace: `poems/anna-kaviyarangam/`. User-scoped work range: **physical scans 
 
 ### Phase 4 — translation / release
 
-**IN PROGRESS — TRANSLATION SETUP COMPLETE / BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY COMPLETE-PASS / EDITORIAL REVIEW NOT STARTED.**
+**IN PROGRESS — TRANSLATION SETUP COMPLETE / BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY COMPLETE-PASS / EDITORIAL CONSISTENCY COMPLETE-PASS / RELEASE-INTEGRITY NOT STARTED.**
 
-- Phase-4 controls: `poems/anna-kaviyarangam/translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
 - reviewed English: `poems/anna-kaviyarangam/translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
 - Batch-01 review: `poems/anna-kaviyarangam/translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**;
-- reviewed batches: **1/1**;
 - reader-facing English: `poems/anna-kaviyarangam/translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
-- assembly authority: `poems/anna-kaviyarangam/translations/en/ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b` — **PASS**;
+- assembly authority: `poems/anna-kaviyarangam/translations/en/ASSEMBLY.md` — **PASS**;
+- editorial authority: `poems/anna-kaviyarangam/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — blob `3e11ecf4b7318cb8b097173089d224b63459e371` — **PASS**;
 - English scan coverage: **6/6 — scans 119–124 exactly once and ordered**;
 - source-context / handoff headings / `M. K.` markers: **1/1 / 8/8 / 8/8**;
 - reviewed-English omissions / duplications: **0 / 0**;
 - assembly omissions / duplications: **0 / 0**;
-- reviewed English lexical changes during assembly: **0**;
-- unresolved translation / assembly issues: **0 / 0**;
+- reviewed-item ↔ reader-facing lexical differences after YAML removal: **0**;
+- unresolved translation / assembly / editorial issues: **0 / 0 / 0**;
+- English lexical changes required by editorial gate: **0**;
 - Tamil page/canonical drift during Phase 4: **0 / 0**;
-- editorial consistency / release-integrity / release clearance: not started.
+- release-integrity / release clearance: not started.
 
-Exact next activity: **editorial / terminology / voice consistency review only**. Compare reviewed `sections/01.md` with reader-facing `anna-kaviyarangam-en.md`, verify exact body synchronization and consistency of title, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions. Create `EDITORIAL_CONSISTENCY_REVIEW.md` if PASS. Keep release-integrity and release-clearance gates separate.
+Exact next activity: **final source-coverage / release-integrity review only**. Reconfirm reviewed-item ↔ reader-facing synchronization, scans 119–124 coverage/order, title/source-context/handoff/marker boundaries, reader-facing cleanliness and zero Tamil drift since final clearance. Create `poems/anna-kaviyarangam/translations/en/RELEASE_INTEGRITY_REVIEW.md` if PASS. Keep `RELEASE_REPORT.md` / explicit release clearance separate.
 
 ---
 

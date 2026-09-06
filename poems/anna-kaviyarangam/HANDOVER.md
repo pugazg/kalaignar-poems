@@ -19,19 +19,23 @@ Scope: physical scans **119–124**. Work: **அண்ணா கவியரங�
 - Batch-01 review: `translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **REVIEWED / PASS**;
 - reviewed translation batches: **1/1**;
 - reader-facing English: `translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
-- assembly authority: `translations/en/ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b` — **COMPLETE / PASS**;
+- assembly authority: `translations/en/ASSEMBLY.md` — **COMPLETE / PASS**;
+- editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — blob `3e11ecf4b7318cb8b097173089d224b63459e371` — **COMPLETE / PASS**;
 - English source coverage: **scans 119–124 exactly once and ordered**;
 - source-context block: **1/1**;
 - poet-handoff headings / `M. K.` markers: **8/8 / 8/8**;
 - reviewed-English omissions / duplications: **0 / 0**;
 - assembly omissions / duplications: **0 / 0**;
-- reviewed English lexical changes during assembly: **0**;
-- unresolved translation / assembly issues: **0 / 0**;
+- reviewed-item ↔ reader-facing lexical differences after YAML removal: **0**;
+- unresolved translation / assembly / editorial issues: **0 / 0 / 0**;
+- editorial English lexical changes: **0**;
 - Tamil page/canonical drift during Phase 4: **0 / 0**;
-- editorial consistency / release-integrity / release clearance: not started.
+- release-integrity / release clearance: not started.
 
-Working English title: **Anna Kaviyarangam**. The reader-facing output is the reviewed `sections/01.md` body with only YAML control front matter removed. Preserve both reviewed and assembled English as the current Phase-4 authorities; do not silently alter FINAL-CLEARED Tamil.
+Editorial locks confirmed PASS: **Anna Kaviyarangam** title; separate scan-119 source context; eight distinct handoffs; eight `M. K.` markers; ஆனந்தம் body/heading distinction; வேழவேந்தன் three-state mother-title distinction; source-driven `Mudiyarasan` / `Mudiyarasu`; drama-title chain; `Sazhakkarai`; final Abdul Rahman heading punctuation; public-performance voice and reader-facing cleanliness.
+
+The reviewed and reader-facing English blobs did not change during editorial review. FINAL-CLEARED Tamil remains the highest Tamil authority.
 
 ## Exact next activity
 
-**Editorial / terminology / voice consistency review only.** Compare `translations/en/sections/01.md` with `translations/en/anna-kaviyarangam-en.md`, verify exact body synchronization and consistency of title, source context, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions. Create `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` if PASS. Do not perform release-integrity review or release clearance in the same activity.
+**Final source-coverage / release-integrity review only.** Reconfirm live reviewed-item ↔ reader-facing synchronization, scans **119–124** coverage/order, source-context and handoff boundaries, title/marker states, reader-facing cleanliness and zero Tamil drift since final clearance. Create `translations/en/RELEASE_INTEGRITY_REVIEW.md` if PASS. Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.

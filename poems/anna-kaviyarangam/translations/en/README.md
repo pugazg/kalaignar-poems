@@ -4,7 +4,7 @@ Phase 4 English translation workspace for the FINAL-CLEARED Tamil work **அண�
 
 ## Current status
 
-**PHASE 4 BATCH 01 REVIEWED / PASS — 1/1 BATCH COMPLETE / READER-FACING ASSEMBLY COMPLETE-PASS / EDITORIAL REVIEW NOT STARTED.**
+**PHASE 4 BATCH 01 REVIEWED / PASS — 1/1 BATCH COMPLETE / READER-FACING ASSEMBLY COMPLETE-PASS / EDITORIAL CONSISTENCY COMPLETE-PASS / RELEASE-INTEGRITY NOT STARTED.**
 
 Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
@@ -30,35 +30,35 @@ Reviewed English:
 Reader-facing assembly:
 
 - `anna-kaviyarangam-en.md` — **ASSEMBLED / PASS** — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b`;
-- assembly authority: `ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b`;
-- assembly method: remove only reviewed-item YAML front matter; retain the reviewed H1, source context, poem, scan markers, handoffs, `M. K.` markers and English body exactly;
+- assembly authority: `ASSEMBLY.md` — **COMPLETE / PASS** — current blob `704a1f484336d36c876205188358cf17c9423123`;
+- reader-facing output equals the reviewed item body after removal of YAML control front matter only;
 - reviewed English lexical changes during assembly: **0**;
 - assembly omissions / duplications: **0 / 0**;
-- unresolved assembly defects: **0**;
+- unresolved assembly defects: **0**.
+
+Editorial consistency:
+
+- `EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS** — blob `3e11ecf4b7318cb8b097173089d224b63459e371`;
+- reviewed-item ↔ reader-facing lexical differences after YAML removal: **0**;
+- title/source-context presentation: **PASS**;
+- handoff headings / `M. K.` markers: **8/8 / 8/8 PASS**;
+- source-driven ஆனந்தம் and வேழவேந்தன் title distinctions: **PASS**;
+- transliteration / drama-title consistency: **PASS**;
+- rhetorical / public-performance voice consistency: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- unresolved editorial / terminology / voice issues: **0**;
+- English lexical changes required by editorial gate: **0**;
 - Tamil page/canonical drift during Phase 4: **0 / 0**.
-
-## Translation architecture
-
-The reviewed and assembled English preserve the source architecture:
-
-- scan-119 source context remains separate from the poem;
-- the working title remains **Anna Kaviyarangam**;
-- all eight poet handoffs remain separate structural units;
-- the ஆனந்தம் body/heading distinction remains intact;
-- the வேழவேந்தன் three-state mother-title distinction remains intact;
-- the final Abdul Rahman handoff retains its terminal punctuation distinction;
-- physical provenance remains traceable as **119 → 120 → 121 → 122 → 123 → 124**.
-
-The FINAL-CLEARED Tamil layer and Batch-01 reviewed English were not changed during assembly.
 
 ## Remaining Phase-4 outputs
 
 Not yet completed:
 
-- editorial / terminology / voice consistency review;
-- release-integrity review;
-- release report / clearance.
+- final source-coverage / release-integrity review;
+- release report / explicit release clearance.
+
+The work is **not yet RELEASE-CLEARED**.
 
 ## Exact next activity
 
-Proceed with **editorial / terminology / voice consistency review only**. Compare reviewed `sections/01.md` with `anna-kaviyarangam-en.md`, verify exact body synchronization and consistency of title, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions, and create `EDITORIAL_CONSISTENCY_REVIEW.md` if the gate passes. Do not perform release-integrity review or release clearance in the same activity.
+Proceed with **final source-coverage / release-integrity review only**. Reconfirm reviewed-item ↔ reader-facing synchronization, scans **119–124** coverage/order, title/source-context/handoff/marker boundaries, reader-facing cleanliness and zero Tamil drift since final clearance. Create `RELEASE_INTEGRITY_REVIEW.md` if PASS. Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.

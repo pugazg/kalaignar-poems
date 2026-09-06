@@ -2,7 +2,7 @@
 
 ## Current state
 
-**PHASE 1 COMPLETE / PHASE 2 6/6 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY COMPLETE-PASS.**
+**PHASE 1 COMPLETE / PHASE 2 6/6 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY COMPLETE-PASS / EDITORIAL CONSISTENCY COMPLETE-PASS.**
 
 Tamil archival layer:
 
@@ -33,17 +33,33 @@ Phase 4 translation/review layer:
 Phase 4 assembly layer:
 
 - reader-facing English: `translations/en/anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
-- assembly authority: `translations/en/ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b` — **PASS**;
+- assembly authority: `translations/en/ASSEMBLY.md` — **PASS**;
 - reader-facing YAML front matter: **0**;
 - reader-facing scan markers: **6/6 unique, ordered 119–124**;
 - source-context / handoffs / `M. K.` markers: **1/1 / 8/8 / 8/8**;
 - reviewed English lexical changes during assembly: **0**;
 - detected assembly omissions / duplications: **0 / 0**;
-- unresolved assembly defects: **0**;
-- Tamil page/canonical changes during Batch 01 + assembly: **0 / 0**;
-- editorial consistency: **not started**;
+- unresolved assembly defects: **0**.
+
+Phase 4 editorial layer:
+
+- editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — blob `3e11ecf4b7318cb8b097173089d224b63459e371` — **COMPLETE / PASS**;
+- reviewed-item ↔ reader-facing lexical differences after YAML removal: **0**;
+- title/source-context presentation: **PASS**;
+- handoff headings / `M. K.` marker consistency: **8/8 / 8/8 PASS**;
+- ஆனந்தம் / வேழவேந்தன் source-driven distinctions: **PASS / PASS**;
+- `Mudiyarasan` / `Mudiyarasu` source variation: **PASS / retained**;
+- transliteration / drama-title consistency: **PASS**;
+- `Sazhakkarai` conservative handling: **PASS**;
+- quotation / punctuation / lineation / rhetorical voice: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- unresolved editorial / terminology / voice issues: **0**;
+- English lexical changes required: **0**;
+- Tamil page/canonical drift during Batch 01 + assembly + editorial review: **0 / 0**;
 - release-integrity / release clearance: not started.
+
+The work is **not yet RELEASE-CLEARED**.
 
 ## Next activity
 
-Proceed with **editorial / terminology / voice consistency review only**. Compare reviewed `translations/en/sections/01.md` with reader-facing `translations/en/anna-kaviyarangam-en.md`, confirm exact body synchronization and consistency of title, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions. Do not combine with release-integrity or release-clearance gates.
+Proceed with **final source-coverage / release-integrity review only**. Reconfirm reviewed `translations/en/sections/01.md` ↔ reader-facing `translations/en/anna-kaviyarangam-en.md` synchronization, scans **119–124** coverage/order, title/source-context/handoff/marker boundaries, reader-facing cleanliness and zero Tamil drift. Create `translations/en/RELEASE_INTEGRITY_REVIEW.md` if PASS. Do not create a release report or grant release clearance in the same activity.

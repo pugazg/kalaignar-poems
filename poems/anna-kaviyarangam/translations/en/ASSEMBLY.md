@@ -53,10 +53,23 @@ Result: **PASS**.
 - Tamil canonical `sections/anna-kaviyarangam.md` changes during assembly: **0**;
 - reviewed `translations/en/sections/01.md` changes during assembly: **0**.
 
+## Editorial consistency status
+
+`EDITORIAL_CONSISTENCY_REVIEW.md` subsequently completed **PASS** — blob `3e11ecf4b7318cb8b097173089d224b63459e371`.
+
+It reconfirmed exact reviewed-item ↔ reader-facing body synchronization after YAML removal, title/source-context presentation, all eight handoffs and eight `M. K.` markers, source-driven ஆனந்தம் and வேழவேந்தன் title distinctions, `Mudiyarasan` / `Mudiyarasu` source variation, transliteration and drama-title consistency, `Sazhakkarai`, rhetorical/public-performance voice, punctuation and reader-facing cleanliness.
+
+- unresolved editorial / terminology / voice issues: **0**;
+- standalone English lexical changes required: **0**;
+- reader-facing English lexical changes required: **0**;
+- Tamil page/canonical changes required: **0 / 0**.
+
+The reviewed standalone blob remains `4d41c3d3421144ac5b6c589417b08827a0f93f05` and the reader-facing blob remains `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b`.
+
 ## Phase-4 transition
 
-Translation setup remains **COMPLETE**, Batch 01 remains **1/1 REVIEWED / PASS**, and reader-facing assembly is now **COMPLETE / PASS**.
+Translation setup remains **COMPLETE**, Batch 01 remains **1/1 REVIEWED / PASS**, reader-facing assembly is **COMPLETE / PASS**, and editorial consistency is **COMPLETE / PASS**.
 
-Editorial / terminology / voice consistency review has **not** been performed in this activity. Release-integrity review and release clearance also remain pending.
+The work is **not yet release-cleared**.
 
-Exact next activity: **editorial / terminology / voice consistency review only**. Compare reviewed `sections/01.md` with `anna-kaviyarangam-en.md`, confirm body synchronization and consistency of title, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions, and create `EDITORIAL_CONSISTENCY_REVIEW.md` if the gate passes. Do not perform release-integrity review or create `RELEASE_REPORT.md` in the same activity.
+Exact next activity: **final source-coverage / release-integrity review only**. Reconfirm live reviewed-item ↔ reader-facing synchronization, scans 119–124 source coverage and ordering, source-context/handoff boundaries, title/marker states, reader-facing cleanliness and zero Tamil drift since final clearance. Create `RELEASE_INTEGRITY_REVIEW.md` if PASS. Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.

@@ -25,7 +25,8 @@ Batch review: `batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f
 Reader-facing English:
 
 - `anna-kaviyarangam-en.md` — blob `87d0e9f4a1c4e6964adc6d4bd088ad89ceddfa8b` — **ASSEMBLED / PASS**;
-- assembly authority: `ASSEMBLY.md` — blob `88a305762359b644eea8fbf1a508a6e00c013f3b` — **PASS**.
+- assembly authority: `ASSEMBLY.md` — current blob `704a1f484336d36c876205188358cf17c9423123` — **PASS**;
+- editorial authority: `EDITORIAL_CONSISTENCY_REVIEW.md` — blob `3e11ecf4b7318cb8b097173089d224b63459e371` — **PASS**.
 
 ## Structural coverage map
 
@@ -40,24 +41,37 @@ Reviewed `sections/01.md` and the reader-facing assembly account for:
 - source `மு. க.` markers rendered as `M. K.`: **8/8**;
 - ஆனந்தம் body/heading distinction: **PASS**;
 - வேழவேந்தன் three-state mother-title distinction: **PASS**;
+- source-driven `Mudiyarasan` / `Mudiyarasu` variation: **PASS / retained**;
 - final Abdul Rahman handoff terminal punctuation: **PASS**;
 - neighbouring scans 118 and 125 included: **0 / 0**;
 - detected reviewed-English omissions / duplications: **0 / 0**;
 - detected assembly omissions / duplications: **0 / 0**;
 - unresolved translation / assembly issues: **0 / 0**.
 
-## Assembly relation
+## Editorial consistency map
 
-The reader-facing file is the reviewed `sections/01.md` body with only standalone YAML control front matter removed. The H1, `Source context`, `Poem`, six scan-provenance comments, eight handoff headings, eight `M. K.` markers and all reviewed English wording remain unchanged.
+`EDITORIAL_CONSISTENCY_REVIEW.md` confirms:
 
-Reader-facing YAML control front matter: **0**. Reviewed English lexical changes during assembly: **0**.
+- reviewed-item ↔ reader-facing body synchronization after YAML removal: **PASS / 0 lexical differences**;
+- title and source-context presentation: **PASS**;
+- handoff headings / `M. K.` markers: **8/8 / 8/8 PASS**;
+- source-driven title/name distinctions: **PASS**;
+- transliteration and proper-name consistency: **PASS**;
+- drama-title chain: **PASS**;
+- `Sazhakkarai` conservative handling: **PASS**;
+- quotation / punctuation / lineation / rhetorical voice: **PASS**;
+- reader-facing cleanliness: **PASS**;
+- unresolved editorial / terminology / voice issues: **0**;
+- English lexical changes required by editorial gate: **0**.
 
 ## Phase-4 integrity rule
 
-English remains derivative of the FINAL-CLEARED Tamil authority. No Tamil page or canonical file changed during Batch 01 or assembly.
+English remains derivative of the FINAL-CLEARED Tamil authority. No Tamil page or canonical file changed during Batch 01, assembly or editorial review.
 
 Tamil page/canonical drift during Phase 4 so far: **0 / 0**.
 
+The work is **not yet RELEASE-CLEARED**.
+
 ## Exact next activity
 
-**Editorial / terminology / voice consistency review only.** Compare `sections/01.md` with `anna-kaviyarangam-en.md`, confirm exact body synchronization and consistency of title, handoffs, `M. K.`, transliteration, drama titles, rhetorical voice and source-sensitive distinctions. Release-integrity and release-clearance gates remain deferred.
+**Final source-coverage / release-integrity review only.** Reconfirm the live reviewed-item ↔ reader-facing relationship, scans **119–124** coverage/order, title/source-context/handoff/marker boundaries, reader-facing cleanliness and zero Tamil drift since final clearance. Create `RELEASE_INTEGRITY_REVIEW.md` if PASS. Release report / explicit release clearance remains deferred.
