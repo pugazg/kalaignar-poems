@@ -30,12 +30,23 @@
 
 Scan 119 printed numeral **19** is directly certified. Gate-1 full-page source inspection finds no visible page numeral on scans 120–124, so those values remain `null`; no sequence-based numerals are inferred.
 
-Scans 118 and 125 remain outside the user-authorized transcription scope and may be used later only as boundary evidence.
+## Phase 3 Gate 2 boundary result
+
+Gate 2 is **COMPLETE / PASS**; authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+- scan 119 work opening: PASS;
+- internal physical scan joins 119→120→121→122→123→124: **5/5 PASS**;
+- internal two-column turns on scans 120–124: **5/5 PASS**;
+- source-visible poet-handoff markers: checked without title normalization;
+- scan 124 closing boundary: PASS;
+- unresolved boundary/carry-over issues: **0**.
+
+Scans **118 and 125** remain outside the user-authorized transcription scope. They were inspected only as neighbouring physical boundary evidence; no text from either was imported into the page layer.
 
 ## Duplicate decision
 
 Repository search and comparison with existing Anna works found no canonical representation of this **7.1.1968** World Tamil Conference chair-poem. `அண்ணன் ஒரு கவியரங்கம்` (1973) and `இதயத்தைத் தந்திடு அண்ணா` (1969) are different works/events, though the later elegy reuses some earlier lines.
 
-Phase 1 and Phase 2 are complete. **Phase 3 Gate 1 is COMPLETE / PASS**; authority: `PHASE3_STRUCTURE_AUDIT.md`.
+Phase 1 and Phase 2 are complete. **Phase 3 Gates 1 and 2 are COMPLETE / PASS**.
 
-Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit only**.
+Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation only**.

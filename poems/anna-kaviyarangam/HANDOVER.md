@@ -19,14 +19,22 @@ Scope: physical scans **119–124**. Work: **அண்ணா கவியரங�
 - physical scoped scans accounted: **6/6**;
 - printed page directly certified: scan 119 = **19**;
 - scans 120–124: no visible page numeral; `printed_page` remains `null`; no sequence inference;
-- Phase 3 Gate 2: not started;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
+- Gate-2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Gate-2 opening boundary: scan **119 PASS**;
+- internal physical scan joins: **5/5 PASS**;
+- internal two-column turns: **5/5 PASS**;
+- closing boundary: scan **124 PASS**;
+- scans 118 and 125 used only as neighbouring boundary evidence;
+- unresolved boundary/carry-over issues: **0**;
+- Phase 3 Gate 3: not started;
 - canonical Tamil: not assembled;
 - English: not started.
 
 No-regression manual controls: scan 119 `காவிரியப் பூவிரியும்`, `ஒரு கைவை! வைகை!`, `தென்நிலமே`; scan 120 `நானாம்`, `பாடுபட்டுக்`; scan 123 `இனித்த நறு`, `தெள்ளமுதாய்`.
 
-Phase 2 corrected genuine Phase-1 defects; see `PHASE2_SOURCE_VERIFICATION.md` for the correction list. Gate 1 changed no Tamil page text.
+Phase 2 corrected genuine Phase-1 defects; see `PHASE2_SOURCE_VERIFICATION.md` for the correction list. Gates 1 and 2 changed no Tamil page text.
 
 ## Exact next activity
 
-**Phase 3 Gate 2 — boundary / page-join audit only.** Certify the work opening, internal scan joins, poet-introduction/quotation carry-over and closing boundary. Scans 118 and 125 remain outside transcription scope and may be consulted only as boundary evidence where needed. Do not begin Gate 3, canonical assembly, Tamil final clearance or translation in the same activity.
+**Phase 3 Gate 3 — title-witness reconciliation only.** Inventory the source-visible work/title/handoff witnesses, preserve each witness exactly, and record an explicit authority decision for later assembly. Do not begin canonical assembly, Tamil final clearance or translation in the same activity.

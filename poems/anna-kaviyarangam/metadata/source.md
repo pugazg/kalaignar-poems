@@ -33,6 +33,14 @@ Within the user-scoped scans **119–124**, scan **119** directly witnesses prin
 
 No sequence-based values are inferred for scans 120–124, and this gate does not reconstruct the wider 136-page periodical's logical pagination. Authority: `../PHASE3_STRUCTURE_AUDIT.md` — **Gate 1 COMPLETE / PASS**.
 
+## Boundary / join behaviour — Phase 3 Gate 2
+
+The scoped work begins physically on scan **119** and closes on scan **124**. Scan 118 is preceding unrelated prose material; scan 125 begins a separate decorated article. Those neighbouring scans are boundary evidence only and remain outside transcription scope.
+
+All five scoped physical joins **119→120→121→122→123→124** pass direct source review. The left-to-right column turns on scans **120–124** also pass. Source-visible poet-handoff headings are preserved as structural markers; Gate 2 makes no title-authority or normalization decision.
+
+Authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md` — **Gate 2 COMPLETE / PASS**. Unresolved boundary/carry-over issues: **0**.
+
 ## Related witness
 
 The 1969 Anna elegy `இதயத்தைத் தந்திடு அண்ணா` contains reused passages. It is a comparison witness only; where wording/punctuation differ, this 1968 source controls this workspace.

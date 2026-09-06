@@ -12,7 +12,7 @@ Scope: physical scans **119–124**. Bibliographic record: **அண்ணா க
 
 ### Durable status
 
-**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PASS / PHASE 3 GATE 1 COMPLETE-PASS.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PASS / PHASE 3 GATES 1–2 COMPLETE-PASS.**
 
 - `pages/0119.md`–`0124.md`: **6/6 verified**;
 - Phase-2 authority: `poems/anna-kaviyarangam/PHASE2_SOURCE_VERIFICATION.md`;
@@ -22,7 +22,14 @@ Scope: physical scans **119–124**. Bibliographic record: **அண்ணா க
 - Gate-1 physical scan accounting: **6/6 PASS**;
 - scan 119 printed page directly certified as **19**;
 - scans 120–124 have no visible page numeral and remain `null`; no sequence-based numerals inferred;
-- Phase 3 Gate 2: not started;
+- Phase-3 Gate-2 authority: `poems/anna-kaviyarangam/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Gate-2 opening boundary: scan **119 PASS**;
+- internal physical joins: **5/5 PASS**;
+- internal two-column turns: **5/5 PASS**;
+- closing boundary: scan **124 PASS**;
+- scans 118 and 125 used only as neighbouring boundary evidence;
+- unresolved boundary/carry-over issues: **0**;
+- Phase 3 Gate 3: not started;
 - canonical Tamil: not assembled;
 - English: not started.
 
@@ -30,7 +37,7 @@ No-regression user controls remain scan 119 `காவிரியப் பூ�
 
 ### Exact next activity
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit only**. Certify the work opening, all internal joins/carry-over and the closing boundary from the verified source layer. Scans 118 and 125 may be consulted only as boundary evidence. Keep Gate 3 and later gates separate.
+Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Inventory and compare source-visible work/title/handoff witnesses, preserve each exactly, and record the authority rule required for later canonical assembly. Keep Gate 4 and later gates separate.
 
 ## Recently closed work — காஞ்சிதான் அண்ணன்
 

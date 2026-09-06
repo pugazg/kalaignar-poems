@@ -19,4 +19,15 @@ The printed numeral **19** on scan 119 remains directly certified. Full-page vis
 
 No sequence-based numerals are inferred or backfilled for scans 120–124, and no separate logical-page values are asserted for them in this gate. The complete Gate-1 authority is `../PHASE3_STRUCTURE_AUDIT.md`.
 
-Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit only**.
+## Gate 2 boundary finding
+
+`../PHASE3_BOUNDARY_JOIN_AUDIT.md` is **COMPLETE / PASS**.
+
+- work opening: scan **119 PASS**;
+- internal physical joins: **119→120, 120→121, 121→122, 122→123, 123→124 = 5/5 PASS**;
+- two-column turns on scans 120–124: **5/5 PASS**;
+- closing boundary: scan **124 PASS**;
+- scans 118 and 125: neighbouring evidence only, outside transcription scope;
+- unresolved boundary/carry-over issues: **0**.
+
+Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation only**.
