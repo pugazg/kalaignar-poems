@@ -4,11 +4,11 @@ Phase 4 English translation workspace for the **user-directed new-item-only Kala
 
 ## Status
 
-**PHASE 4 SETUP COMPLETE — 0/3 translation batches drafted / BATCH 01 NEXT.**
+**PHASE 4 IN PROGRESS — BATCH 01 REVIEWED PASS / 1/3 BATCHES / BATCH 02 NEXT.**
 
 Tamil source/canonical layer: **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-No English poem text was drafted during setup.
+Reviewed English coverage: **Item 01 / scans 46–57 = 12/22 active translation scans**. Tamil `pages/` and canonical `sections/` remain unchanged.
 
 ## Controlling source
 
@@ -20,11 +20,11 @@ No English poem text was drafted during setup.
 
 ## Translation scope
 
-| Item | Tamil canonical source | Physical scans | Planned English item | Batch |
-|---:|---|---:|---|---:|
-| 01 | `../../sections/01.md` | 46–57 | `sections/01.md` | 01 |
-| 02 | `../../sections/02.md` | 58–65 | `sections/02.md` | 02 |
-| 04 | `../../sections/04.md` | 67–68 | `sections/04.md` | 03 |
+| Item | Tamil canonical source | Physical scans | English item | Batch | Status |
+|---:|---|---:|---|---:|---|
+| 01 | `../../sections/01.md` | 46–57 | `sections/01.md` | 01 | **reviewed PASS** |
+| 02 | `../../sections/02.md` | 58–65 | `sections/02.md` | 02 | **NEXT** |
+| 04 | `../../sections/04.md` | 67–68 | `sections/04.md` | 03 | planned |
 
 There is intentionally **no Item 03 English file**. Intake Item 03 / scan **66** is Rajaji `சாராய சுதந்திரம்`, a non-Kalaignar contextual source unit. Scans **69–70** are Bharathidasan material. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside this new-item translation scope.
 
@@ -64,27 +64,41 @@ English difficulty never authorizes a silent Tamil edit.
 - `கபிலர்` → **Kapilar**;
 - `புதுவை` → **Puduvai** rather than silently modernizing the source place-name;
 - `புரட்சிக் கவிஞர்` → **Revolutionary Poet** when functioning as an epithet;
-- `பாவேந்தன்` → **Pavendar**, with a first-use translator note if needed;
+- `பாவேந்தன்` → **Pavendar**;
 - `தமிழன்னை` → **Mother Tamil**;
 - `மது விலக்கு` → **prohibition**;
 - source loanword `பர்மிட்` → **permit**;
-- Item 01 `குடி` wordplay must not be flattened to one English sense;
+- Item 01 `குடி` wordplay remains recoverable through *kudi*, place names and the `கல்லக்குடி / கள்ளக்குடி` contrast;
+- Item 01 source-sensitive `பருக்கிடம்`, `சாரம்`, `விணுக்குறியா?`, `சுருட்டு / புரட்டு`, `ரசவாதம் / அதிரசவாதம்` decisions are pinned in `batches/batch-01.md`;
 - Item 02 `மை` chain (`தொன்மை / எளிமை / வண்மை / வலிமை / இறைமை / புதுமை` and related puns) must preserve the visible `mai` wordplay relationship;
 - Item 04 `சுதந்திராக்கள்` is source-sensitive and must not be reduced to generic “free people”; Batch 03 must document its final rendering from source context;
 - scan 66 `மறுப்புக் கவிதை` remains contextual only and must not replace Item 04's direct canonical `பதில் கவிதை` title witness.
+
+## Batch 01 reviewed checkpoint
+
+- English item: `sections/01.md`;
+- reviewed blob: `4dfbb95c099108398eeccd6bfb368e34d7db2ee0`;
+- review authority: `batches/batch-01.md`;
+- source scans represented: **46–57 = 12/12**;
+- scan markers: **12/12 unique and ordered**;
+- scan 50→51 unusual open-quotation state: **preserved**;
+- scan 57 closing rule: **structurally preserved**;
+- omissions / duplications found after review: **0 / 0**;
+- unresolved Batch-01 translation issues: **0**;
+- Tamil page/canonical changes: **0**.
 
 ## Batch inventory
 
 | Batch | Item | Scans | Status |
 |---:|---:|---:|---|
-| 01 | 01 | 46–57 | **NEXT** |
-| 02 | 02 | 58–65 | planned |
+| 01 | 01 | 46–57 | **reviewed — PASS** |
+| 02 | 02 | 58–65 | **NEXT** |
 | 03 | 04 | 67–68 | planned |
 
 Complete-item boundaries are mandatory; no batch may publish a partial item.
 
 ## Exact next activity
 
-Perform **Phase 4 Batch 01 — Item 01 only, scans 46–57**. Draft the English item from `../../sections/01.md`, preserve scan provenance and quotation structure, then perform an item-level source/fidelity review and record the Batch-01 decision record.
+Perform **Phase 4 Batch 02 — Item 02 only, scans 58–65**. Draft `sections/02.md` from the final-cleared Tamil canonical item, retain all **8/8** scan markers, preserve the `மை` wordplay chain and source-visible poet/name hand-offs, create/review `batches/batch-02.md`, and mark PASS only after complete source/fidelity review.
 
-Do not start Batch 02 in the same activity.
+Do not start Batch 03 in the same activity.
