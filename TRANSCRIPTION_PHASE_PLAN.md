@@ -31,7 +31,7 @@ Canonical items: **3/3**; canonical payload equality: **22/22 PASS**; unresolved
 
 ## Phase 4 — English translation / release
 
-**IN PROGRESS — SETUP COMPLETE / BATCH 01 NEXT.**
+**IN PROGRESS — BATCH 01 REVIEWED PASS / BATCH 02 NEXT.**
 
 Translation controls:
 
@@ -43,14 +43,18 @@ Batch inventory:
 
 | Batch | Item | Scans | Status |
 |---:|---:|---:|---|
-| 01 | 01 | 46–57 | **NEXT** |
-| 02 | 02 | 58–65 | planned |
+| 01 | 01 | 46–57 | **reviewed — PASS** |
+| 02 | 02 | 58–65 | **NEXT** |
 | 03 | 04 | 67–68 | planned |
 
-English item drafts/reviews: **0/3**. Complete-item boundaries are mandatory.
+Reviewed English progress: **1/3 items / 1/3 batches / 12/22 scans**.
+
+Batch 01 authority: `translations/en/batches/batch-01.md`; reviewed English item `translations/en/sections/01.md`, blob `4dfbb95c099108398eeccd6bfb368e34d7db2ee0`. All **12/12** scan markers are represented in source order; the scan **50→51** quotation state and scan-57 closing separator are preserved; unresolved Batch-01 translation issues **0**; Tamil page/canonical changes **0**.
+
+Complete-item boundaries remain mandatory.
 
 After all three batches are reviewed PASS: full English assembly → editorial/terminology/voice consistency review → release-integrity review/report.
 
 ## Exact next activity
 
-Perform **Phase 4 Batch 01 only** for Item 01 scans **46–57**. Draft and source-review the complete English item from final-cleared `sections/01.md`, preserve all 12 scan markers and source quotation structure, and create the Batch-01 decision record. Do not start Batch 02 in the same activity.
+Perform **Phase 4 Batch 02 only** for Item 02 scans **58–65**. Draft and source-review the complete English item from final-cleared `sections/02.md`, preserve all **8/8** scan markers and the source `மை` wordplay chain, and create the Batch-02 decision record. Do not start Batch 03 in the same activity.
