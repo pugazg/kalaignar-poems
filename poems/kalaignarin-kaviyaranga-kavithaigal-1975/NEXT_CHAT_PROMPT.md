@@ -1,4 +1,4 @@
-# Next Chat Prompt — Kalaignar Poems Archive / கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
+# Next Chat Prompt — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
 Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`.
 
@@ -16,21 +16,26 @@ Do not retranscribe or verify already represented blocks as new works. Skip **9�
 
 - Phase 1: **22/22 complete**;
 - Phase 2: **22/22 verified — COMPLETE**;
-- Phase 3 Gates 1–4: **COMPLETE / PASS**;
-- Gate 4 authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/PHASE3_CANONICAL_ASSEMBLY.md`;
-- canonical source map: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/indexes/canonical-source-map.md`;
+- Phase 3 Gates 1–5: **COMPLETE / PASS**;
+- Gate 5 authority: `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
 - canonical files: `sections/01.md` (46–57), `sections/02.md` (58–65), `sections/04.md` (67–68);
-- **3/3** canonical items assembled from **22/22** verified active Kalaignar scans with **22/22** scan markers;
-- `sections/03.md` intentionally absent because scan 66 / intake Item 03 is non-Kalaignar Rajaji context;
-- scan 50→51 quotation state, source closing separators and scan-68 terminal colon remain preserved;
-- verified page-text/status changes in Gate 4: **none**;
+- canonical inventory **3/3 PASS**;
+- **22/22** active Kalaignar scans occur exactly once with no duplicate/omitted/unexpected markers;
+- canonical payload equality against the verified page layer: **22/22 PASS**;
+- Gate-3 title/context authority: **3/3 PASS**;
+- Gate-2 internal joins: **19/19 preserved**;
+- `sections/03.md` remains intentionally absent; scan 66 canonical occurrences: **0**;
+- scan 50→51 quotation state and scan 68 terminal colon + closing rule remain source-faithful;
+- unresolved source-completeness defects: **0**;
+- verified page-record changes during Gate 5: **none**;
+- canonical item changes during Gate 5: **none**;
 - canonical manifest SHA-256: `52d0c105cf8d6b14ae87bee871583d2b47d6aa32dabb3b0f2514633592d667e7`;
 - existing release-cleared poem trees remain untouched.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 5 — assembly / source-completeness review only**.
+Perform **Phase 3 Gate 6 — Tamil final clearance only**.
 
-Compare all three canonical files against the verified page records and certified source map. Confirm every required active Kalaignar scan occurs exactly once, canonical payload is source-faithful, Gate-3 title/context decisions are obeyed, scan 66 remains excluded, and no source text was silently normalized.
+Confirm Gates 1–5 are all PASS and no unresolved Tamil source/canonical defects remain. If the final-clearance criteria are satisfied, record the explicit Tamil clearance decision and update durable status/handover documents.
 
-Do not grant Tamil final clearance or begin translation in the same activity.
+Do **not** begin English translation in the same activity.
