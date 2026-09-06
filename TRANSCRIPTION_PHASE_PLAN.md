@@ -19,28 +19,27 @@ Workspace: `poems/anna-kaviyarangam/`. User-scoped work range: **physical scans 
 **COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED.**
 
 - final-cleared canonical: `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md`;
-- final-cleared canonical blob: `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
+- canonical blob: `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
 - source coverage: **verified scans 119–124 exactly once each**;
-- context panel / handoff headings / `மு. க.` markers: **1/1 / 8/8 / 8/8 PASS**;
-- unresolved Tamil lexical/glyph/pagination/boundary/title/assembly/completeness issues: **0**.
+- unresolved Tamil issues: **0**.
 
 ### Phase 4 — translation / release
 
-**IN PROGRESS — TRANSLATION SETUP COMPLETE / BATCH 01 NOT STARTED.**
+**IN PROGRESS — TRANSLATION SETUP COMPLETE / BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY NOT STARTED.**
 
-Phase-4 control layer:
+- Phase-4 controls: `poems/anna-kaviyarangam/translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
+- reviewed English: `poems/anna-kaviyarangam/translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
+- Batch-01 review: `poems/anna-kaviyarangam/translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**;
+- reviewed batches: **1/1**;
+- English scan coverage: **6/6 — scans 119–124 exactly once and ordered**;
+- source-context / handoff headings / `M. K.` markers: **1/1 / 8/8 / 8/8**;
+- detected English omissions / duplications: **0 / 0**;
+- unresolved translation issues: **0**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**;
+- reader-facing English: not assembled;
+- editorial consistency / release-integrity / release clearance: not started.
 
-- `poems/anna-kaviyarangam/translations/en/README.md`;
-- `poems/anna-kaviyarangam/translations/en/TRANSLATION_PLAN.md`;
-- `poems/anna-kaviyarangam/translations/en/SOURCE_MAP.md`.
-
-Batch plan: **1 batch** covering the complete canonical work, physical scans **119–124**.
-
-- reviewed English batches: **0/1**;
-- English translation payload files: **0**;
-- Tamil page/canonical changes during setup: **0 / 0**.
-
-Exact next activity: **Phase 4 Batch 01 — complete-work English translation and source review only**. Create `poems/anna-kaviyarangam/translations/en/sections/01.md` and `batches/batch-01.md`. Do not combine with reader-facing assembly, editorial consistency review or release work.
+Exact next activity: **reader-facing English assembly only** from reviewed `sections/01.md`. Create `poems/anna-kaviyarangam/translations/en/anna-kaviyarangam-en.md` and the assembly authority. Keep later editorial and release gates separate.
 
 ---
 

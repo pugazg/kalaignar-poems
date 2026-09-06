@@ -11,39 +11,43 @@ User-scoped work range: physical scans **119–124**.
 Canonical Tamil authority:
 
 - `../../sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
-- canonical source map: `../../indexes/canonical-source-map.md`;
 - Gate-5 review: `../../PHASE3_CANONICAL_SOURCE_REVIEW.md` — **PASS**;
 - Gate-6 final clearance: `../../PHASE3_TAMIL_FINAL_CLEARANCE.md` — **PASS / FINAL-CLEARED**.
 
-## Planned English linkage
+## English linkage
 
-| Item | Tamil canonical | Tamil blob | Physical scans | Planned reviewed English | Status |
-|---:|---|---|---:|---|---|
-| 01 | `../../sections/anna-kaviyarangam.md` | `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5` | 119–124 | `sections/01.md` | NOT STARTED |
+| Item | Tamil canonical | Tamil blob | Physical scans | Reviewed English | English blob | Status |
+|---:|---|---|---:|---|---|---|
+| 01 | `../../sections/anna-kaviyarangam.md` | `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5` | 119–124 | `sections/01.md` | `4d41c3d3421144ac5b6c589417b08827a0f93f05` | **REVIEWED / PASS** |
 
-No English translation payload file exists at setup completion.
+Batch review: `batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**.
 
-## Structural source map
+Reader-facing English has **not** yet been assembled.
 
-The eventual English review layer must account for the following source structure:
+## Structural review map
 
-- active scan markers: **6/6 — 119, 120, 121, 122, 123, 124**;
+Reviewed `sections/01.md` accounts for:
+
+- active scan markers: **6/6 — 119, 120, 121, 122, 123, 124 exactly once and ordered**;
 - scan 119 visible printed page: **19**;
 - scans 120–124 visible printed page: **none / `null` provenance**;
-- opening source-context panel: **1**;
-- top-level title witness: **1 — `அண்ணா கவியரங்கம்`**;
-- poet-handoff headings: **8**;
-- source `மு. க.` markers associated with those handoffs: **8**;
-- neighbouring scans 118 and 125: **outside translation scope**;
-- missing / duplicate / unexpected active Tamil scan markers at final clearance: **0 / 0 / 0**;
-- unresolved Tamil issues: **0**.
+- opening source-context panel: **1/1**;
+- top-level working title: **Anna Kaviyarangam**;
+- poet-handoff headings: **8/8**;
+- source `மு. க.` markers rendered as `M. K.`: **8/8**;
+- ஆனந்தம் body/heading distinction: **PASS**;
+- வேழவேந்தன் three-state mother-title distinction: **PASS**;
+- final Abdul Rahman handoff terminal punctuation: **PASS**;
+- neighbouring scans 118 and 125 included: **0 / 0**;
+- detected English omissions / duplications: **0 / 0**;
+- unresolved Batch-01 translation issues: **0**.
 
 ## Phase-4 integrity rule
 
-English review must remain traceable to the FINAL-CLEARED Tamil authority. The English layer may explain or translate, but it must not silently alter Tamil title witnesses, boundaries, handoff distinctions, punctuation-sensitive source decisions, or page provenance.
+English review remains derivative of the FINAL-CLEARED Tamil authority. No Tamil page or canonical file changed during Batch 01.
 
-Tamil source/canonical files changed during translation setup: **0**.
+Tamil page/canonical drift during Phase 4 so far: **0 / 0**.
 
 ## Exact next activity
 
-**Phase 4 Batch 01 — complete-work English translation and source review only.** Create `sections/01.md` and `batches/batch-01.md` for scans **119–124**. Reader-facing assembly and later release gates remain deferred.
+**Reader-facing English assembly only** from reviewed `sections/01.md`. Create `anna-kaviyarangam-en.md` and the assembly authority. Editorial consistency and release gates remain deferred.

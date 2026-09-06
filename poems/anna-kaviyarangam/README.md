@@ -4,7 +4,7 @@ Source-first workspace for the Kalaignar chair-poem printed in `முரசொ�
 
 ## Current state
 
-**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / HISTORICAL-GLYPH SECOND PASS PASS / PHASE 3 COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED / PHASE 4 SETUP COMPLETE / BATCH 01 NOT STARTED.**
+**PHASE 1 COMPLETE / PHASE 2 6/6 VERIFIED / PHASE 3 COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED / PHASE 4 BATCH 01 REVIEWED-PASS / READER-FACING ASSEMBLY NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf`;
 - exact PDF identity: **136 pages / 58,026,496 bytes / SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`**;
@@ -12,23 +12,24 @@ Source-first workspace for the Kalaignar chair-poem printed in `முரசொ�
 - source-authoritative work title: **அண்ணா கவியரங்கம்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - event: World Tamil Conference Anna kaviyarangam, **7.1.1968**;
-- Phase-3 Gate-6 authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — **PASS / FINAL-CLEARED**;
-- canonical source map: `indexes/canonical-source-map.md`;
-- page records `pages/0119.md`–`0124.md`: **6/6 verified**;
-- canonical Tamil: `sections/anna-kaviyarangam.md` — final-cleared reviewed blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
-- canonical scan provenance: **119–124 exactly once each**;
-- source-context panel: **1/1 preserved**;
-- internal handoff headings / `மு. க.` markers: **8/8 / 8/8 preserved**;
-- scans 118/125 canonical text: **0 / 0**;
-- unresolved Tamil lexical / glyph / boundary / title / completeness issues: **0**;
-- Tamil final clearance: **PASS / FINAL-CLEARED**;
-- Phase-4 control layer: `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md` — **SETUP COMPLETE**;
-- Phase-4 batch plan: **1 batch covering scans 119–124**;
-- English translation payload files: **0**;
-- reviewed English batches: **0/1**.
+- Tamil final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — **PASS / FINAL-CLEARED**;
+- canonical Tamil: `sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
+- Tamil source coverage: **119–124 exactly once each**;
+- unresolved Tamil issues: **0**;
+- Phase-4 controls: `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`;
+- reviewed English: `translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
+- Batch-01 review: `translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**;
+- reviewed batches: **1/1**;
+- English active scan markers: **6/6 — 119–124 exactly once and ordered**;
+- source-context block: **1/1**;
+- handoff headings / `M. K.` markers: **8/8 / 8/8**;
+- detected English omissions / duplications: **0 / 0**;
+- unresolved Batch-01 translation issues: **0**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**;
+- reader-facing English: not yet assembled.
 
-No-regression controls remain scan 119 `காவிரியப் பூவிரியும் / ஒரு கைவை! வைகை! / தென்நிலமே`, scan 120 `நானாம் / பாடுபட்டுக்`, and scan 123 `இனித்த நறு / தெள்ளமுதாய்`.
+Working English title: **Anna Kaviyarangam**. The reviewed translation preserves the source-context/poem separation, eight handoffs, ஆனந்தம் distinction, வேழவேந்தன் three-state mother-title distinction and final Abdul Rahman heading punctuation.
 
 ## Exact next activity
 
-Perform **Phase 4 Batch 01 — complete-work English translation and source review only**. Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md` from the FINAL-CLEARED Tamil canonical work for scans **119–124**. Preserve the separate source-context panel, all eight handoff headings and source-marker structure. Do not perform reader-facing assembly, editorial consistency review or release clearance in the same activity.
+Perform **reader-facing English assembly only** from reviewed `translations/en/sections/01.md`. Create `translations/en/anna-kaviyarangam-en.md` and the assembly authority. Do not perform editorial-consistency, release-integrity or release-clearance gates in the same activity.

@@ -1,10 +1,10 @@
 # English Translation — அண்ணா கவியரங்கம்
 
-Phase 4 English translation control workspace for the FINAL-CLEARED Tamil work **அண்ணா கவியரங்கம்**.
+Phase 4 English translation workspace for the FINAL-CLEARED Tamil work **அண்ணா கவியரங்கம்**.
 
 ## Current status
 
-**PHASE 4 SETUP COMPLETE / BATCH 01 NOT STARTED.**
+**PHASE 4 BATCH 01 REVIEWED / PASS — 1/1 BATCH COMPLETE / READER-FACING ASSEMBLY NOT STARTED.**
 
 Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
@@ -13,43 +13,44 @@ Final-cleared Tamil authority:
 - canonical Tamil: `../../sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
 - verified page layer: `../../pages/0119.md`–`../../pages/0124.md`;
 - physical source scans: **119–124**;
-- Gate-5 source-completeness review: `../../PHASE3_CANONICAL_SOURCE_REVIEW.md` — **PASS**;
-- canonical source map: `../../indexes/canonical-source-map.md`.
+- Gate-5 source-completeness review: `../../PHASE3_CANONICAL_SOURCE_REVIEW.md` — **PASS**.
 
-## Translation boundary
+Reviewed English:
 
-This setup creates control files only. **No English translation payload has been drafted.**
+- `sections/01.md` — **BATCH-REVIEWED / PASS** — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`;
+- `batches/batch-01.md` — **REVIEWED / PASS** — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8`;
+- active scan markers: **6/6 — 119–124 exactly once and ordered**;
+- source-context block: **1/1**;
+- poet-handoff headings: **8/8**;
+- `M. K.` markers representing source `மு. க.`: **8/8**;
+- detected English omissions / duplications: **0 / 0**;
+- unresolved Batch-01 translation issues: **0**;
+- Tamil page/canonical drift during Batch 01: **0 / 0**.
 
-The English layer must preserve the source architecture rather than flatten it into prose:
+## Translation architecture
 
-- the scan-119 source-context panel remains a separate **Source context** block;
-- the main poem remains distinct from that context block;
-- all eight poet-handoff headings remain distinct and source-traceable;
-- all eight source `மு. க.` markers remain structurally represented;
-- the ஆனந்தம் body-reference / heading distinction remains distinct;
-- the வேழவேந்தன் `அன்னையாம் அண்ணா` / `‘அண்ணா அன்னை’` / `அன்னை அண்ணா` distinction must not be normalized into one phrase;
-- the final Abdul Rahman handoff retains its source-terminal punctuation distinction;
-- physical scan provenance **119 → 120 → 121 → 122 → 123 → 124** remains traceable in the English review layer.
+The reviewed English preserves the source architecture:
 
-## Working title policy
+- scan-119 source context remains separate from the poem;
+- the working title remains **Anna Kaviyarangam**;
+- all eight poet handoffs remain separate structural units;
+- the ஆனந்தம் body/heading distinction remains intact;
+- the வேழவேந்தன் three-state mother-title distinction remains intact;
+- the final Abdul Rahman handoff retains its terminal punctuation distinction;
+- physical provenance remains traceable as **119 → 120 → 121 → 122 → 123 → 124**.
 
-Use **Anna Kaviyarangam** as the working English title so the culturally specific `கவியரங்கம்` is not prematurely flattened. A descriptive gloss such as “poetry gathering” may be supplied in explanatory context if useful, but the translation review must not silently replace the source title with a synthetic alternative.
+The FINAL-CLEARED Tamil layer was not changed to ease English phrasing.
 
-## Planned Phase-4 outputs
+## Remaining Phase-4 outputs
 
-Control layer now present:
+Not yet created:
 
-- `README.md`;
-- `TRANSLATION_PLAN.md`;
-- `SOURCE_MAP.md`.
-
-Planned later outputs, not created in this setup:
-
-- reviewed English section: `sections/01.md`;
-- Batch-01 review record: `batches/batch-01.md`;
 - reader-facing English: `anna-kaviyarangam-en.md`;
-- assembly/editorial/release-integrity/release records as required by the repository workflow.
+- assembly authority;
+- editorial / terminology / voice consistency review;
+- release-integrity review;
+- release report / clearance.
 
 ## Exact next activity
 
-Proceed with **Phase 4 Batch 01 — complete-work English translation and source review only**. Translate the FINAL-CLEARED canonical work for scans **119–124** into `sections/01.md`, preserve the source-context/poem/handoff structure, and document the review in `batches/batch-01.md`. Do not perform reader-facing final assembly, editorial consistency review or release clearance in that same activity.
+Proceed with **reader-facing English assembly only** from reviewed `sections/01.md`. Create `anna-kaviyarangam-en.md` and the assembly authority according to repository precedent. Do not perform editorial-consistency, release-integrity or release-clearance gates in the same activity.
