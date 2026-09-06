@@ -20,16 +20,12 @@ Read completely:
 8. `poems/kanchithan-annan/indexes/page-map.md`
 9. `poems/kanchithan-annan/indexes/canonical-source-map.md`
 10. `poems/kanchithan-annan/audit.md`
-11. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
-12. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
-13. `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`
-14. `poems/kanchithan-annan/PHASE3_TITLE_WITNESS_RECONCILIATION.md`
-15. `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`
-16. `poems/kanchithan-annan/PHASE3_CANONICAL_SOURCE_REVIEW.md`
-17. `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`
-18. `poems/kanchithan-annan/HANDOVER.md`
-19. `poems/kanchithan-annan/pages/0016.md`
-20. `poems/kanchithan-annan/sections/01.md`
+11. `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`
+12. `poems/kanchithan-annan/HANDOVER.md`
+13. `poems/kanchithan-annan/sections/01.md`
+14. `poems/kanchithan-annan/translations/en/README.md`
+15. `poems/kanchithan-annan/translations/en/TRANSLATION_PLAN.md`
+16. `poems/kanchithan-annan/translations/en/SOURCE_MAP.md`
 
 ## Controlling source
 
@@ -47,20 +43,21 @@ Active work range: **physical scan 16 only**.
 - canonical output: `poems/kanchithan-annan/sections/01.md`;
 - canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - unresolved Tamil issues: **0**;
-- Phase 4: **NOT STARTED / UNBLOCKED**.
+- Phase 4 translation control setup: **COMPLETE**;
+- English item drafting/review: **NOT STARTED**;
+- batch partition: **Batch 01 = Item 01 = scan 16**.
 
 ## Next activity only
 
-Perform **Phase 4 English translation setup**.
+Perform **Phase 4 Batch 01 — Item 01 / scan 16 translation and source review**.
 
 Create:
 
-1. `poems/kanchithan-annan/translations/en/README.md`
-2. `poems/kanchithan-annan/translations/en/TRANSLATION_PLAN.md`
-3. `poems/kanchithan-annan/translations/en/SOURCE_MAP.md`
+1. `poems/kanchithan-annan/translations/en/sections/01.md`
+2. `poems/kanchithan-annan/translations/en/batches/batch-01.md`
 
-Pin translation authority to FINAL-CLEARED `sections/01.md`, retain physical scan-16 provenance and source-sensitive title/wording controls, and define the one-item translation/review workflow.
+Use FINAL-CLEARED `sections/01.md` as the normal translation source. Preserve scan-16 provenance, the `காஞ்சி` publication/place/Anna relationship, quoted `‘தம்பி’`, repetition/parallelism, rhetorical-question force, source-sensitive `நிலக்களன்` / `ஆற்றொழுக்கை`, and the first-person close. If a Tamil reading is questioned, return to the controlling scan and formally reopen Tamil if necessary; never silently repair only English.
 
-**Do not draft the English poem in this same setup activity.**
+**Do not perform reader-facing assembly, editorial consistency review or release clearance in the same activity.**
 
 Previously release-cleared workspaces remain closed unless genuine source evidence requires a documented reopen.
