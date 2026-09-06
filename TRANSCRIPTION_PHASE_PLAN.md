@@ -16,18 +16,23 @@ Workspace: `poems/anna-kaviyarangam/`. User-scoped work range: **physical scans 
 
 ### Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — Gates 1–4 COMPLETE / PASS; Gate 5 NOT STARTED.**
+**IN PROGRESS — Gates 1–5 COMPLETE / PASS; Gate 6 NOT STARTED.**
 
 - Gate 1: pagination/source accounting **PASS**;
 - Gate 2: opening, five physical joins, five two-column turns and closing **PASS**;
 - Gate 3: top-level title and eight internal handoff witnesses reconciled **PASS**;
-- Gate 4: `poems/anna-kaviyarangam/PHASE3_CANONICAL_ASSEMBLY.md` — **COMPLETE / PASS**;
-- canonical output: `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md`;
-- canonical source coverage: **6/6 verified scans, 119–124 exactly once**;
-- page-record Tamil changes through Gate 4: **0**;
+- Gate 4: canonical assembly `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — **PASS**;
+- Gate 5: `poems/anna-kaviyarangam/PHASE3_CANONICAL_SOURCE_REVIEW.md` — **COMPLETE / PASS**;
+- Gate-5 canonical payload review: **6/6 verified pages PASS**;
+- canonical scan provenance: **119–124 exactly once each**;
+- context panel / handoff headings / `மு. க.` markers: **1/1 / 8/8 / 8/8 PASS**;
+- missing / duplicate / unexpected active scan markers: **0 / 0 / 0**;
+- silent-normalization / source-completeness defects: **0 / 0**;
+- verified page records reopened by Gate 5: **0**;
+- canonical changes required by Gate 5: **0**;
 - Tamil final clearance: **not granted**.
 
-Exact next gate: **Gate 5 — assembly/source-completeness review only.** Do not combine with Tamil final clearance or translation.
+Exact next gate: **Gate 6 — Tamil final clearance only.** Reconfirm Gates 1–5 are PASS and all unresolved Tamil/source-completeness issue counts remain zero. Do not begin translation in the same activity.
 
 ### Phase 4 — translation / release
 

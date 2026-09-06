@@ -1,30 +1,30 @@
-# Physical page map — அண்ணா கவியரங்கம்
+# Physical / canonical source map — அண்ணா கவியரங்கம்
 
 Physical `scan_page` is 1-indexed against the exact 136-page controlling PDF.
 
-| Scan | Printed page | Classification | Phase 2 | Gate 1 | Gate 4 canonical |
+| Scan | Printed page | Classification | Phase 2 | Gate 4 canonical | Gate 5 payload |
 |---:|---:|---|---|---|---|
-| 119 | 19 | title/context + poem opening | verified | PASS | included once |
-| 120 | null | poem continuation | verified | PASS | included once |
-| 121 | null | poem + first handoffs | verified | PASS | included once |
-| 122 | null | handoffs / poem excerpts | verified | PASS | included once |
-| 123 | null | handoffs / poem excerpts | verified | PASS | included once |
-| 124 | null | closing handoffs / closing poem | verified | PASS | included once |
+| 119 | 19 | title/context + poem opening | verified | included once | PASS |
+| 120 | null | poem continuation | verified | included once | PASS |
+| 121 | null | poem + first handoffs | verified | included once | PASS |
+| 122 | null | handoffs / poem excerpts | verified | included once | PASS |
+| 123 | null | handoffs / poem excerpts | verified | included once | PASS |
+| 124 | null | closing handoffs / closing poem | verified | included once | PASS |
 
-Scoped page records: **6/6 verified**. Gate 1: **6/6 accounted / PASS**. Gate 2: opening, **5/5** physical joins, **5/5** column turns and closing **PASS**. Gate 3: title witnesses **PASS**.
+Scoped page records: **6/6 verified**.
 
-## Gate 4 assembly mapping
+## Gate results
 
-Canonical file: `../sections/anna-kaviyarangam.md`.
+- Gate 1: **6/6 physical scans accounted / PASS**; scan 119 printed page **19**; scans 120–124 remain `null`, no inferred values.
+- Gate 2: opening **PASS**; physical joins **5/5 PASS**; two-column turns **5/5 PASS**; closing **PASS**; scans 118/125 are neighbouring evidence only.
+- Gate 3: top-level title witness **PASS**; contextual title-like witness classified **PASS**; internal handoff headings **8/8 PASS**.
+- Gate 4: canonical file `../sections/anna-kaviyarangam.md` assembled from scans **119 → 120 → 121 → 122 → 123 → 124**, each exactly once.
+- Gate 5: canonical/source-completeness payload review **6/6 PASS**; missing / duplicate / unexpected active markers **0 / 0 / 0**; source-context panel **1/1**; handoff headings **8/8**; `மு. க.` markers **8/8**; silent-normalization defects **0**; unresolved completeness defects **0**.
 
-- canonical physical scan sequence: **119 → 120 → 121 → 122 → 123 → 124**;
-- scan markers: **6/6 exactly once**;
-- printed page 19 retained only for scan 119;
-- scans 120–124 remain `null` in provenance; no inferred values;
-- source-context panel comes from scan 119 only;
-- scans 118 and 125 remain outside scope and are not assembled;
-- internal handoff headings remain at their verified source positions.
+Detailed canonical linkage: `canonical-source-map.md`. Gate-5 authority: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
 
-Gate-4 authority: `../PHASE3_CANONICAL_ASSEMBLY.md` — **COMPLETE / PASS**.
+Reviewed canonical blob: `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`; Gate 5 required no canonical Tamil change.
 
-Exact next activity: **Phase 3 Gate 5 — assembly/source-completeness review only**.
+Tamil final clearance is **not yet granted**.
+
+Exact next activity: **Phase 3 Gate 6 — Tamil final clearance only**.
