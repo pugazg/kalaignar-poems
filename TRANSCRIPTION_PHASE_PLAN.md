@@ -25,16 +25,24 @@ Workspace: `poems/kanchithan-annan/`. User-scoped work range: **physical scan 16
 - Gate-6 authority: `poems/kanchithan-annan/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
 - canonical output: `poems/kanchithan-annan/sections/01.md`;
 - canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical active scan coverage / markers: **1/1 / 1/1 exactly once**;
-- canonical payload equality vs verified page layer: **1/1 PASS**;
 - unresolved Tamil issues: **0**;
 - Tamil source/canonical layer: **FINAL-CLEARED**.
 
 ## Phase 4 — English translation / release
 
-**NOT STARTED / UNBLOCKED BY TAMIL FINAL CLEARANCE.**
+Translation setup: **COMPLETE**.
 
-Exact next activity: **English translation setup only** — create `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`. Do not draft English poem text in the same setup activity.
+Controls:
+
+- `poems/kanchithan-annan/translations/en/README.md`;
+- `poems/kanchithan-annan/translations/en/TRANSLATION_PLAN.md`;
+- `poems/kanchithan-annan/translations/en/SOURCE_MAP.md`.
+
+Batch plan: **1 complete item / 1 batch** — Batch 01 = Item 01 = physical scan 16.
+
+English item drafting/review: **NOT STARTED**.
+
+Exact next activity: **Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only**. Create `translations/en/sections/01.md` and `translations/en/batches/batch-01.md`. Do not combine this with reader-facing assembly or release gates.
 
 ## Preserved closed source — கலைஞரின் கவியரங்கக் கவிதைகள் (1975)
 
