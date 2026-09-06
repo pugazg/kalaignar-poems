@@ -1,6 +1,6 @@
 # Canonical source map — காஞ்சிதான் அண்ணன்
 
-Phase 3 Gate 4 canonical output for the user-scoped one-page work:
+Phase 3 canonical output for the user-scoped one-page work:
 
 - `../sections/01.md` — physical scan **16** — canonical title `காஞ்சிதான் அண்ணன்`.
 
@@ -45,6 +45,22 @@ Gate-3 authority is `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 - final source line remains `காத்திருப்பவர்களில் நானும் ஒருவன்!`;
 - decorative title design, ornaments, small design/artist signature and portrait remain non-lexical provenance material.
 
+## Gate 5 source-completeness review
+
+Authority: `../PHASE3_CANONICAL_SOURCE_REVIEW.md` — **COMPLETE / PASS**.
+
+- canonical item inventory: **1/1 PASS**;
+- active source scan accounting: **1/1 exactly once**;
+- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
+- canonical source-visible payload equality vs verified page layer: **1/1 PASS**;
+- title / attribution authority: **PASS**;
+- Gate-2 opening / closing boundaries: **PASS / PASS**;
+- silent normalization / insertion / omission: **0 / 0 / 0**;
+- unresolved source-completeness defects: **0**;
+- canonical Tamil changes required by Gate 5: **0**.
+
 ## Gate state
 
-Gate 4 canonical assembly is **COMPLETE / PASS**. Gate 5 canonical/source-completeness review is **NOT STARTED**.
+Gates 1–5 are **COMPLETE / PASS**. Gate 6 Tamil final clearance is **NOT STARTED**.
+
+Exact next activity: **Phase 3 Gate 6 Tamil final clearance only**. Do not begin English translation in the same activity.
