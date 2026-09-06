@@ -21,8 +21,9 @@ Read completely before changes:
 9. `poems/kanchithan-annan/audit.md`
 10. `poems/kanchithan-annan/PHASE2_SOURCE_VERIFICATION.md`
 11. `poems/kanchithan-annan/PHASE3_STRUCTURE_AUDIT.md`
-12. `poems/kanchithan-annan/HANDOVER.md`
-13. `poems/kanchithan-annan/pages/0016.md`
+12. `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`
+13. `poems/kanchithan-annan/HANDOVER.md`
+14. `poems/kanchithan-annan/pages/0016.md`
 
 ## Controlling source
 
@@ -33,8 +34,6 @@ Read completely before changes:
 - SHA-256: `2c8468b88d1e0d2b39cc47e07f538196e1d10b45a3263cbe9cc0fb2dbbc9f700`;
 - active work range: **physical scan 16 only**.
 
-The original full PDF is authoritative. A one-page scan-16 convenience extract may be used for viewing only if its provenance to this exact source is preserved.
-
 ## Current state
 
 - intake: COMPLETE;
@@ -42,14 +41,15 @@ The original full PDF is authoritative. A one-page scan-16 convenience extract m
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1: **COMPLETE / PASS**;
-- Gate-1 decision: no visible printed page numeral; `printed_page: null` retained; no inferred issue-page number;
-- Phase 3 Gate 2–6: NOT STARTED;
+- Phase 3 Gate 2: **COMPLETE / PASS**;
+- Gate-2 closure: opening 1/1 PASS; internal joins 0; closing 1/1 PASS; scans 15 and 17 positively bound the one-page poem; verified text changes 0;
+- Phase 3 Gate 3–6: NOT STARTED;
 - Phase 4: NOT STARTED.
 
 ## Next activity only
 
-Perform **Phase 3 Gate 2 — boundary / page-join audit** for the one-page scoped work.
+Perform **Phase 3 Gate 3 — title-witness reconciliation**.
 
-Certify the opening boundary, closing boundary and **0 internal joins**. Confirm that the decorative title material and portrait are outside the poem body. Do not alter the Phase-2 verified lexical text unless genuine source evidence requires a formal reopen.
+Reconcile the direct scan-16 title/author witness with the user-supplied bibliographic/catalogue witness. Preserve each witness exactly and record which witness controls the later canonical title. Do not invent punctuation, spacing or a hybrid title.
 
-**Do not begin Gate 3 title-witness reconciliation, canonical Tamil assembly or English translation in this same activity.**
+**Do not begin Gate 4 canonical Tamil assembly or English translation in this same activity.**
