@@ -33,9 +33,10 @@ Canonical Tamil output for the user-scoped one-page work:
 - reader-facing English assembly: **COMPLETE / PASS**;
 - reader-facing output: `../translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
 - assembly authority: `../translations/en/ASSEMBLY.md`;
+- editorial review: `../translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**;
 - reader-facing scan marker: **1/1 exactly once**;
-- reviewed English lexical changes during assembly: **0**;
-- unresolved translation / assembly issues: **0 / 0**;
+- English lexical changes required by editorial gate: **0**;
+- unresolved translation / assembly / editorial issues: **0 / 0 / 0**;
 - Tamil page/canonical changes during Phase 4: **0 / 0**.
 
-Exact next activity: **editorial / terminology / voice consistency review only**.
+Exact next activity: **final source-coverage / release-integrity review only**. Create `../translations/en/RELEASE_INTEGRITY_REVIEW.md` if the integrity gate passes; do not grant release clearance in the same activity.
