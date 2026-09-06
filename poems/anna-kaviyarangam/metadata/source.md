@@ -25,17 +25,18 @@
 - Gate 3: decorated `அண்ணா கவியரங்கம்` is the top-level title authority; contextual `‘அண்ணா கவியரங்கத்திற்கு’` and all eight handoff headings remain exact source witnesses without normalization.
 - Gate 4: canonical Tamil assembled at `../sections/anna-kaviyarangam.md` from verified scans 119–124 with six physical provenance markers; page-record text unchanged; scans 118/125 excluded; inferred pagination added **0**.
 - Gate 5: canonical/source-completeness review compared the canonical output against all six verified page records and prior gate decisions; **6/6 payload PASS**, source-context panel **1/1**, handoff headings **8/8**, `மு. க.` markers **8/8**, silent-normalization defects **0**, unresolved completeness defects **0**.
+- Gate 6: all Gates 1–5 reconfirmed **PASS**; unresolved Tamil lexical/glyph/pagination/boundary/title/assembly/completeness issues **0**; Tamil page/canonical text changes **0**; Tamil layer **FINAL-CLEARED**.
 
-Gate-5 authority: `../PHASE3_CANONICAL_SOURCE_REVIEW.md` — **COMPLETE / PASS**. Canonical source map: `../indexes/canonical-source-map.md`.
+Gate-5 authority: `../PHASE3_CANONICAL_SOURCE_REVIEW.md` — **COMPLETE / PASS**. Gate-6 authority: `../PHASE3_TAMIL_FINAL_CLEARANCE.md` — **COMPLETE / PASS / FINAL-CLEARED**. Canonical source map: `../indexes/canonical-source-map.md`.
 
-Reviewed canonical blob: `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`. Gate 5 required no canonical Tamil change.
-
-Tamil final clearance is **not yet granted**.
+Final-cleared canonical blob: `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`. Gates 5 and 6 required no canonical Tamil change.
 
 ## Related witness
 
 The 1969 Anna elegy `இதயத்தைத் தந்திடு அண்ணா` contains reused passages. It is comparison evidence only; the 1968 source controls this workspace.
 
-## Exact next activity
+## Phase transition
 
-**Phase 3 Gate 6 — Tamil final clearance only.** Do not begin English translation in the same activity.
+Phase 4 is **unblocked but not started**. English translation files: **0**.
+
+Exact next activity: **Phase 4 English translation setup only** — create `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`; do not draft English translation text in the same activity.

@@ -2,7 +2,7 @@
 
 Canonical Tamil output:
 
-- `../sections/anna-kaviyarangam.md` — physical scans **119–124** — canonical title `அண்ணா கவியரங்கம்` — reviewed blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`.
+- `../sections/anna-kaviyarangam.md` — physical scans **119–124** — canonical title `அண்ணா கவியரங்கம்` — final-cleared reviewed blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`.
 
 ## Verified page authority
 
@@ -28,13 +28,19 @@ Canonical Tamil output:
 - `மு. க.` source markers: **8/8 retained**;
 - scans 118 and 125 canonical text: **0 / 0**;
 - Phase 3 Gates 1–5: **COMPLETE / PASS**;
-- Gate 6 Tamil final clearance: **not started**;
-- unresolved Tamil / boundary / title / completeness issues: **0**.
+- Gate 6 Tamil final clearance: **COMPLETE / PASS**;
+- Tamil source/canonical layer: **FINAL-CLEARED**;
+- unresolved Tamil lexical/glyph/boundary/title/completeness issues: **0**;
+- Tamil page/canonical changes during Gate 6: **0**.
 
-Gate-5 authority: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`.
+Gate-5 authority: `../PHASE3_CANONICAL_SOURCE_REVIEW.md`. Gate-6 authority: `../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-The canonical blob is unchanged by Gate 5. Its Gate-4 `status` frontmatter is retained as creation-state provenance; this source map and the Gate-5 review carry the current workflow state.
+The canonical blob is unchanged by Gates 5 and 6. Its Gate-4 `status` frontmatter is retained as creation-state provenance; the Gate-6 clearance record and this source map carry the current Tamil workflow authority.
+
+## Phase 4 linkage
+
+Phase 4 is **unblocked but not started**. English translation files: **0**.
 
 ## Exact next activity
 
-**Phase 3 Gate 6 — Tamil final clearance only.** Do not begin English translation in the same activity.
+**Phase 4 English translation setup only** — create `../translations/en/README.md`, `../translations/en/TRANSLATION_PLAN.md`, and `../translations/en/SOURCE_MAP.md` from the FINAL-CLEARED Tamil authority. Do not draft English translation text in the same activity.

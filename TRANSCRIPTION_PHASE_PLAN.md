@@ -16,27 +16,28 @@ Workspace: `poems/anna-kaviyarangam/`. User-scoped work range: **physical scans 
 
 ### Phase 3 — structure, completeness, assembly and Tamil final clearance
 
-**IN PROGRESS — Gates 1–5 COMPLETE / PASS; Gate 6 NOT STARTED.**
+**COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED.**
 
 - Gate 1: pagination/source accounting **PASS**;
 - Gate 2: opening, five physical joins, five two-column turns and closing **PASS**;
 - Gate 3: top-level title and eight internal handoff witnesses reconciled **PASS**;
 - Gate 4: canonical assembly `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — **PASS**;
-- Gate 5: `poems/anna-kaviyarangam/PHASE3_CANONICAL_SOURCE_REVIEW.md` — **COMPLETE / PASS**;
-- Gate-5 canonical payload review: **6/6 verified pages PASS**;
-- canonical scan provenance: **119–124 exactly once each**;
+- Gate 5: `poems/anna-kaviyarangam/PHASE3_CANONICAL_SOURCE_REVIEW.md` — **PASS**;
+- Gate 6: `poems/anna-kaviyarangam/PHASE3_TAMIL_FINAL_CLEARANCE.md` — **PASS / FINAL-CLEARED**;
+- final-cleared canonical blob: `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
+- canonical source coverage: **verified scans 119–124 exactly once each**;
 - context panel / handoff headings / `மு. க.` markers: **1/1 / 8/8 / 8/8 PASS**;
 - missing / duplicate / unexpected active scan markers: **0 / 0 / 0**;
-- silent-normalization / source-completeness defects: **0 / 0**;
-- verified page records reopened by Gate 5: **0**;
-- canonical changes required by Gate 5: **0**;
-- Tamil final clearance: **not granted**.
-
-Exact next gate: **Gate 6 — Tamil final clearance only.** Reconfirm Gates 1–5 are PASS and all unresolved Tamil/source-completeness issue counts remain zero. Do not begin translation in the same activity.
+- silent-normalization defects: **0**;
+- unresolved Tamil lexical/glyph/pagination/boundary/title/assembly/completeness issues: **0**;
+- Tamil page/canonical changes during Gate 6: **0**;
+- Tamil source/canonical layer: **FINAL-CLEARED**.
 
 ### Phase 4 — translation / release
 
-**NOT STARTED.** Translation remains blocked until Tamil final clearance.
+**NOT STARTED — UNBLOCKED BY TAMIL FINAL CLEARANCE.**
+
+Exact next activity: **English translation setup only**. Create `poems/anna-kaviyarangam/translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md` from the FINAL-CLEARED Tamil authority. Do not draft English translation text in the same setup activity.
 
 ---
 

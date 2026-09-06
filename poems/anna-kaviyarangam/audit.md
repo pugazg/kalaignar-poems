@@ -2,7 +2,7 @@
 
 ## Current state
 
-**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PHASE 3 GATES 1–5 COMPLETE-PASS / GATE 6 NOT STARTED.**
+**PHASE 1 COMPLETE / PHASE 2 COMPLETE — 6/6 VERIFIED / PHASE 3 COMPLETE — GATES 1–6 PASS / TAMIL FINAL-CLEARED.**
 
 - exact source identity: **PASS**;
 - user-scoped scans: **119–124 = 6 scans**;
@@ -14,9 +14,10 @@
 - Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**;
 - Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **PASS**;
 - Gate 4: `PHASE3_CANONICAL_ASSEMBLY.md` — **PASS**;
-- Gate 5: `PHASE3_CANONICAL_SOURCE_REVIEW.md` — **COMPLETE / PASS**;
+- Gate 5: `PHASE3_CANONICAL_SOURCE_REVIEW.md` — **PASS**;
+- Gate 6: `PHASE3_TAMIL_FINAL_CLEARANCE.md` — **PASS / FINAL-CLEARED**;
 - canonical source map: `indexes/canonical-source-map.md`;
-- canonical Tamil: `sections/anna-kaviyarangam.md` — reviewed blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
+- canonical Tamil: `sections/anna-kaviyarangam.md` — final-cleared reviewed blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`;
 - canonical source scan accounting: **6/6 — 119–124 exactly once**;
 - verified-page payload fidelity: **6/6 PASS**;
 - source-context panel: **1/1 PASS**;
@@ -29,14 +30,16 @@
 - normalized/hybrid titles introduced: **0**;
 - lexical insertions / omissions in canonical payload: **0 / 0**;
 - silent spelling/punctuation/source-visible-lineation normalization defects: **0**;
-- verified page records reopened by Gate 5: **0**;
-- canonical Tamil changes required by Gate 5: **0**;
 - unresolved source-completeness defects: **0**;
-- Tamil final clearance: **not granted**;
+- Tamil page/canonical changes during Gate 6: **0**;
+- Tamil final clearance: **PASS / FINAL-CLEARED**;
+- Phase 4: **not started / unblocked**;
 - English translation files: **0**.
 
-The canonical blob is unchanged by Gate 5. Its Gate-4 frontmatter creation-state label is not the current workflow authority; current state is controlled by `PHASE3_CANONICAL_SOURCE_REVIEW.md`, `indexes/canonical-source-map.md`, this audit and the handover documents.
+The canonical blob was not rewritten during Gates 5 or 6. Its Gate-4 frontmatter creation-state label is provenance only; current Tamil authority is `PHASE3_TAMIL_FINAL_CLEARANCE.md`, the Gate-5 review, canonical source map and synchronized control documents.
 
-## Next gate
+Any future Tamil textual change requires a documented source-backed reopen.
 
-Proceed with **Phase 3 Gate 6 — Tamil final clearance only**. Do not combine with English translation.
+## Next activity
+
+Proceed with **Phase 4 English translation setup only**: create `translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`. Do not draft English translation text in that same activity.
