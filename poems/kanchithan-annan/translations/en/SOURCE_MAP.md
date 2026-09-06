@@ -1,6 +1,6 @@
 # English Translation Source Map — காஞ்சிதான் அண்ணன்
 
-## Authority
+## Final authority
 
 Tamil source/canonical layer: **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
@@ -8,74 +8,27 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 User-scoped work range: **physical scan 16 only**.
 
-## Tamil → reviewed English map
-
-| Item | Tamil canonical | Tamil blob | Scan | English reviewed file | English reviewed blob | Status |
+| Item | Tamil canonical | Tamil blob | Scan | Reviewed English | English blob | Final status |
 |---:|---|---|---:|---|---|---|
-| 01 | `../../sections/01.md` | `1cab49c17d97f76b7a235ca6e536af06f75b5190` | 16 | `sections/01.md` | `17a565f28af6e51d215d703bcb6058cf2805023b` | **PASS** |
+| 01 | `../../sections/01.md` | `1cab49c17d97f76b7a235ca6e536af06f75b5190` | 16 | `sections/01.md` | `17a565f28af6e51d215d703bcb6058cf2805023b` | **RELEASE-CLEARED** |
 
-Review authority: `batches/batch-01.md`.
+Reader-facing output: `kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**.
 
-Combined translated active coverage: **1/1 scan**.
+## Integrity status
 
-## Reader-facing assembly map
-
-- output: `kanchithan-annan-en.md`;
-- Git blob: `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
-- size: **984 bytes**;
-- source item order: **01**;
-- active scan markers: **1/1 — scan 16 exactly once**;
-- omitted / duplicate / unexpected active markers: **0 / 0 / 0**;
-- assembly authority: `ASSEMBLY.md` — **COMPLETE / PASS**.
-
-## Title / attribution authority
-
-- direct scan-16 title: `காஞ்சிதான் அண்ணன்`;
-- English title: **Kanchi Is Anna**;
-- source-printed author line remains traceable through **Chief Minister, Kalaignar M. Karunanidhi**;
-- catalogue description remains contextual metadata only;
-- no hybrid/synthetic title was created.
-
-## Structural / lexical controls
-
-- source opening / closing boundaries: **PASS / PASS**;
-- internal page joins: **0**;
-- English `scan_page: 16` markers: **1/1 exactly once**;
-- Kanchi publication/place/Anna identity relationship: **PASS**;
-- quoted **Thambi**: **PASS**;
-- `நிலக்களன்` / `ஆற்றொழுக்கை` handling: **PASS / PASS**;
-- repetition / parallelism / rhetorical-question force: **PASS**;
-- *Pongal Malar* special-issue/flower relationship: retained;
-- first-person closing force: **PASS**.
-
-## Editorial consistency status
-
-`EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**.
-
-- standalone ↔ reader-facing reviewed body synchronization: **PASS**;
-- title / terminology / transliteration / punctuation / voice consistency: **PASS**;
-- reader-facing cleanliness: **PASS**;
-- unresolved editorial issues: **0**;
-- English lexical changes required: **0**.
-
-## Release-integrity status
-
-`RELEASE_INTEGRITY_REVIEW.md` — **COMPLETE / PASS**.
-
-- live reviewed-item blob matches Batch-01 / assembly certificates: **PASS**;
-- live reader-facing blob matches assembly / editorial certificates: **PASS**;
-- active source coverage: **1/1 — scan 16 exactly once**;
-- active omissions / duplicates / unexpected markers: **0 / 0 / 0**;
+- Batch 01 review: **PASS**;
+- reader-facing assembly: **PASS**;
+- editorial consistency: **PASS**;
+- final release-integrity review: **PASS**;
+- active source markers: **1/1 — scan 16 exactly once**;
+- omitted / duplicate / unexpected markers: **0 / 0 / 0**;
 - title / attribution integrity: **PASS**;
-- boundary / closing integrity: **PASS**;
-- reader-facing cleanliness: **PASS**;
+- opening / closing boundaries: **PASS / PASS**;
+- internal joins: **0**;
+- reader-facing control leakage: **0**;
 - Tamil page/canonical drift since final clearance: **0 / 0**;
-- unresolved release-integrity defects: **0**.
+- unresolved release issues: **0**.
 
-## Tamil protection
+Release authority: `RELEASE_REPORT.md` — **PHASE 4 COMPLETE / RELEASE-CLEARED**.
 
-Git comparison from Tamil final-clearance commit `6321c5d2197a0a4d612515984fb96639952478b3` through the release-integrity input checkpoint found **0** active Tamil page changes and **0** active canonical Tamil section changes. A genuine source-backed Tamil discrepancy still requires formal reopening before any correction can propagate to English.
-
-## Exact next activity
-
-Create `RELEASE_REPORT.md` and make the explicit **release-clearance decision only** after reconfirming live artifact identities. The work is not RELEASE-CLEARED until that explicit decision is recorded.
+This source map is final for the release-cleared state. Future changes require a documented source-backed reopen.
