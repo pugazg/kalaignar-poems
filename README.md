@@ -18,6 +18,7 @@ Current state:
 - Phase 2 verification: **1/1 VERIFIED / PASS**;
 - Phase 3 Gate 1 physical scan ↔ printed-page reconciliation: **COMPLETE / PASS**;
 - Phase 3 Gate 2 boundary / page-join audit: **COMPLETE / PASS**;
+- Gate-2 authority: `poems/kanchithan-annan/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - Gate-2 result: opening **1/1 PASS**, internal joins **0**, closing **1/1 PASS**, unresolved boundary issues **0**, verified page-text changes **0**;
 - Phase 3 Gate 3–6: **NOT STARTED**;
 - Phase 4 English translation/release: **NOT STARTED**.
