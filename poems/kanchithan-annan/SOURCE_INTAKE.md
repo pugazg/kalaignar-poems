@@ -14,7 +14,7 @@ Controlling source: `TVA_PRL_0033128_காஞ்சி_பொங்கல்
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English |
 |---:|---:|---|---|---|---|
-| 01 | 16 | none | new Kalaignar poem | **FINAL-CLEARED** | not started |
+| 01 | 16 | none | new Kalaignar poem | **FINAL-CLEARED** | setup complete; translation not started |
 
 Only physical scan **16** belongs to this user-requested work intake. Scans **15** and **17** were inspected only to certify Gate-2 boundaries.
 
@@ -24,14 +24,10 @@ Only physical scan **16** belongs to this user-requested work intake. Scans **15
 - duplicate check: no repository match found;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gate 1: **COMPLETE / PASS**;
-- Phase 3 Gate 2: **COMPLETE / PASS**;
-- Phase 3 Gate 3: **COMPLETE / PASS**;
-- Phase 3 Gate 4: **COMPLETE / PASS**;
-- Phase 3 Gate 5: **COMPLETE / PASS**;
-- Phase 3 Gate 6: **COMPLETE / PASS**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS**;
 - Tamil source/canonical layer: **FINAL-CLEARED**;
-- Phase 4: NOT STARTED.
+- Phase 4 English translation setup: **COMPLETE**;
+- English item translation/review: **NOT STARTED**.
 
 Key final controls:
 
@@ -41,7 +37,8 @@ Key final controls:
 - canonical Tamil: `sections/01.md` — Git blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - canonical scan marker: **1/1 exactly once**;
 - canonical payload equality vs verified page layer: **1/1 PASS**;
-- unresolved Tamil issues: **0**;
-- Gate-6 Tamil page / canonical changes: **0 / 0**.
+- unresolved Tamil issues: **0**.
 
-Exact next activity: **Phase 4 English translation setup only**. Do not draft the English poem in the same activity.
+Phase-4 controls are `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, and `translations/en/SOURCE_MAP.md`. The single translation batch is Item 01 / scan 16.
+
+Exact next activity: **Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only**. Do not perform reader-facing assembly in the same activity.
