@@ -20,16 +20,19 @@ Current state:
 - Phase 3 Gate 2: **COMPLETE / PASS**;
 - Phase 3 Gate 3: **COMPLETE / PASS**;
 - Phase 3 Gate 4 canonical Tamil assembly: **COMPLETE / PASS**;
-- Gate-4 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_ASSEMBLY.md`;
+- Phase 3 Gate 5 canonical/source-completeness review: **COMPLETE / PASS**;
+- Gate-5 authority: `poems/kanchithan-annan/PHASE3_CANONICAL_SOURCE_REVIEW.md`;
 - canonical output: `poems/kanchithan-annan/sections/01.md`;
 - canonical Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- canonical scan markers: **1/1**;
-- page-record corrections / page-status changes during Gate 4: **0 / 0**;
-- unresolved assembly defects: **0**;
-- Phase 3 Gate 5–6: **NOT STARTED**;
+- canonical scan markers: **1/1 exactly once**;
+- canonical payload equality vs verified page layer: **1/1 PASS**;
+- missing / duplicate / unexpected scan markers: **0 / 0 / 0**;
+- silent normalization / insertion / omission: **0 / 0 / 0**;
+- unresolved source-completeness defects: **0**;
+- Phase 3 Gate 6: **NOT STARTED**;
 - Phase 4 English translation/release: **NOT STARTED**.
 
-Exact next activity: **Phase 3 Gate 5 canonical/source-completeness review**. Do not grant Tamil final clearance or begin English translation in the same activity.
+Exact next activity: **Phase 3 Gate 6 Tamil final clearance only**. Do not begin English translation in the same activity.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
