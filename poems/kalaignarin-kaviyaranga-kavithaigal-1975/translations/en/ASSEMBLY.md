@@ -6,9 +6,7 @@
 
 Assembly input checkpoint: `970123c37270f612b3d03f8454d0ab5a81bf76f5`.
 
-Reader-facing output:
-
-`kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
+Reader-facing output: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md`.
 
 - Git blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
 - size: **24,203 bytes**;
@@ -27,15 +25,7 @@ All three inputs were already **BATCH-REVIEWED / PASS** before assembly.
 
 ## Assembly method
 
-Repository precedent was followed for a reader-facing collection:
-
-1. remove each standalone item's YAML front matter;
-2. remove the standalone H1 title only;
-3. prepend a reader-facing `## Item NN — <English title>` heading;
-4. retain the remainder of the reviewed item body in source order;
-5. concatenate Items **01, 02, 04** without importing any excluded context or duplicate publication ranges.
-
-For the multi-line source-heading items, the reviewed subordinate Markdown heading lines remain in the assembled body, so the two-line Item-01 and three-line Item-02 title structures are not collapsed into new lexical text.
+Repository precedent was followed for a reader-facing collection: standalone YAML and standalone H1 control scaffolding were removed, a reader-facing item heading was supplied, the remaining reviewed item body was retained, and Items **01, 02, 04** were concatenated in source order. Multi-line source-heading structure remains visible through the retained subordinate Markdown headings.
 
 ## Assembly-level source coverage
 
@@ -46,23 +36,23 @@ Result: **PASS**.
 - Item 01 markers: **12/12 — 46–57**;
 - Item 02 markers: **8/8 — 58–65**;
 - Item 04 markers: **2/2 — 67–68**;
-- duplicate required scan markers: **0**;
-- omitted required scan markers: **0**;
-- unexpected scan markers: **0**;
+- duplicate / omitted / unexpected required scan markers: **0 / 0 / 0**;
 - scan 66 body occurrences / markers: **0**;
 - item order: **01 → 02 → 04 — PASS**;
 - source closing separators retained: **3/3**;
-- Item-01 certified 50→51 quotation state retained through assembly;
+- Item-01 certified 50→51 quotation state retained;
 - Item-04 scan-68 terminal colon retained before its closing separator;
 - reviewed item text altered for translation/editorial reasons during assembly: **0**;
 - Tamil `pages/` changes during assembly: **0**;
 - Tamil canonical `sections/` changes during assembly: **0**;
 - unresolved assembly defects: **0**.
 
-This is an **assembly gate only**. It does not certify cross-item editorial consistency or final release integrity.
+## Subsequent editorial consistency status
+
+The separate `EDITORIAL_CONSISTENCY_REVIEW.md` gate subsequently completed **PASS**. It found **0 unresolved editorial / terminology / voice issues** and required **0 lexical changes** to the standalone English items or reader-facing assembly. Therefore this assembly blob remains `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
+
+The active work is not yet RELEASE-CLEARED.
 
 ## Exact next activity
 
-Perform **editorial / terminology / voice consistency review only** across the assembled reader-facing file and the three reviewed item files. Check cross-item heading style, recurring names/terms, transliteration, translator-note conventions, punctuation/quotation presentation, rhetorical voice and reader-facing cleanliness without reopening Tamil absent genuine source evidence.
-
-Do **not** perform the final source-coverage / release-integrity review or release-clearance decision in the same activity unless explicitly requested.
+Perform **final source-coverage / release-integrity review only**. Do not combine release clearance with that gate unless the final evidence and repository precedent support recording the release decision there.

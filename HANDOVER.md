@@ -23,37 +23,33 @@ Process only new Kalaignar items. Skip already represented scans **9–20, 21–
 
 ## Phase 4 checkpoint
 
-Translation setup and all three complete-item batches are finished:
+Translation batches **01–03 = 3/3 REVIEWED / PASS**. English translated active-scan coverage: **22/22**. Scan 66 translated-body occurrences: **0**. Unresolved batch issues: **0**.
 
-| Batch | Item | Scans | Status |
-|---:|---:|---:|---|
-| 01 | 01 | 46–57 | **REVIEWED / PASS** |
-| 02 | 02 | 58–65 | **REVIEWED / PASS** |
-| 03 | 04 | 67–68 | **REVIEWED / PASS** |
+### Full English assembly
 
-English translated scan coverage: **22/22**. Scan 66 translated-body occurrences: **0**. Unresolved batch translation issues: **0**. Tamil archival files changed during Phase 4: **0**.
+**COMPLETE / PASS** under `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/ASSEMBLY.md`.
 
-## Full English assembly checkpoint
+Reader-facing file: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**, Items **01 → 02 → 04**, **22/22** markers, scan 66 occurrences **0**.
 
-**COMPLETE / PASS.** Authority: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/ASSEMBLY.md`.
+### Editorial / terminology / voice consistency
 
-Reader-facing file:
+**COMPLETE / PASS** under `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-`poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
+- cross-item heading/title presentation: PASS;
+- recurring names/terms/transliteration: PASS;
+- wordplay conventions (`குடி`, `மை`, Swatantrites and source-sensitive transliterations): PASS;
+- quotation/punctuation/source-visible states: PASS;
+- public-speech cadence, direct address, satire and rhetorical continuity: PASS;
+- reader-facing cleanliness: PASS;
+- unresolved editorial/terminology/voice issues: **0**;
+- English standalone lexical changes required in this gate: **0**;
+- assembly lexical changes required: **0**;
+- Tamil `pages/` / canonical `sections/` changes since final clearance: **0**.
 
-- blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
-- size **24,203 bytes**;
-- assembled Items **01 → 02 → 04**;
-- markers **22/22**, unique and ordered;
-- omitted / duplicate / unexpected active markers **0 / 0 / 0**;
-- scan 66 assembly occurrences **0**;
-- source closing separators **3/3**;
-- unresolved assembly defects **0**.
-
-Assembly did not perform a cross-item editorial consistency review and did not perform final release-integrity review.
+The reader-facing blob therefore remains `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
 
 ## Exact next activity
 
-Perform **editorial / terminology / voice consistency review only** across the assembled reader-facing file and reviewed Items 01, 02 and 04. Check headings, recurring names/terms, transliteration, quotation/punctuation presentation, wordplay-note conventions, rhetorical voice and reader-facing cleanliness.
+Perform **final source-coverage / release-integrity review only**. Verify reviewed-item ↔ reader-facing synchronization, active scan accounting **22/22**, exclusions, title/context integrity, certified closing/boundary states, reader-facing cleanliness and Tamil-source protection.
 
-Do **not** perform the final source-coverage / release-integrity review or release-clearance decision in the same activity unless explicitly requested.
+Do not call the active work RELEASE-CLEARED until that separate gate passes and the release-clearance decision is durably recorded.

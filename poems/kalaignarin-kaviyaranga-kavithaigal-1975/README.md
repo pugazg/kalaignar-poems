@@ -4,7 +4,7 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 ## Current state
 
-**NEW-ITEM-ONLY / PHASE 1 COMPLETE 22/22 / PHASE 2 VERIFIED 22/22 / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY COMPLETE / EDITORIAL REVIEW NEXT.**
+**NEW-ITEM-ONLY / PHASE 1 COMPLETE 22/22 / PHASE 2 VERIFIED 22/22 / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW NEXT.**
 
 | Intake | Scans | Tamil | English |
 |---:|---:|---|---|
@@ -15,12 +15,12 @@ Source-first archival workspace for `TVA_BOK_0064169_கலைஞரின்_�
 
 Scans 69–70 are Bharathidasan. Already represented ranges 9–20, 21–32, 33–45, 71–77, 78–84 remain skipped.
 
-Tamil authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`. English controls: `translations/en/README.md`, `TRANSLATION_PLAN.md`, `SOURCE_MAP.md`.
+Tamil authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
 Reader-facing English assembly: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**. Assembly authority: `translations/en/ASSEMBLY.md`.
 
-Assembly result: **Items 01 → 02 → 04; 22/22 markers; 0 omitted / duplicate / unexpected markers; scan 66 occurrences 0; unresolved assembly defects 0.**
+Editorial / terminology / voice consistency authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**. Cross-item headings, recurring terms/transliteration, wordplay conventions, quotations/punctuation, public-speech voice and reader-facing cleanliness all PASS; unresolved editorial issues **0**; English lexical changes required **0**; Tamil final-cleared page/canonical changes **0**.
 
 ## Exact next activity
 
-Perform **editorial / terminology / voice consistency review only**. Final release-integrity review remains a later gate.
+Perform **final source-coverage / release-integrity review only**. The work is not yet RELEASE-CLEARED.

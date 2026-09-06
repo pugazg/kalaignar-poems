@@ -4,9 +4,9 @@ Phase 4 English translation workspace for the **user-directed new-item-only Kala
 
 ## Status
 
-**TRANSLATION BATCHES 3/3 REVIEWED / PASS — FULL READER-FACING ENGLISH ASSEMBLY COMPLETE / PASS — EDITORIAL CONSISTENCY REVIEW NEXT.**
+**TRANSLATION BATCHES 3/3 REVIEWED PASS / FULL READER-FACING ASSEMBLY PASS / EDITORIAL-TERMINOLOGY-VOICE CONSISTENCY PASS / FINAL SOURCE-COVERAGE & RELEASE-INTEGRITY REVIEW NEXT.**
 
-Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. No Tamil `pages/` or canonical `sections/` files were changed by Phase 4.
+Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`. No Tamil `pages/` or canonical `sections/` files have changed since final clearance.
 
 ## Scope and reviewed outputs
 
@@ -35,10 +35,27 @@ Reviewed English item blobs:
 - active scan markers: **22/22 unique and ordered**;
 - omitted / duplicate / unexpected active markers: **0 / 0 / 0**;
 - scan 66 occurrences: **0**;
-- source closing separators: **3/3**;
-- unresolved assembly defects: **0**.
+- source closing separators: **3/3**.
 
 Assembly authority: `ASSEMBLY.md`.
+
+## Editorial / terminology / voice review
+
+`EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**.
+
+The review confirms:
+
+- source-title/heading presentation: PASS;
+- recurring names/titles/terminology: PASS;
+- transliteration and wordplay conventions: PASS;
+- quotation/punctuation and source-visible states: PASS;
+- public-speech cadence, direct address, satire and rhetorical continuity: PASS;
+- reader-facing cleanliness: PASS;
+- unresolved editorial issues: **0**;
+- standalone English lexical changes required: **0**;
+- assembled English lexical changes required: **0**.
+
+The assembly blob therefore remains unchanged at `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
 
 ## Source hierarchy
 
@@ -47,15 +64,14 @@ Normal working source remains final-cleared Tamil canonical `../../sections/NN.m
 ## Pinned fidelity locks
 
 - retain public-speech cadence, direct address, repetition, rhetorical questions, satire and polemical force;
-- translate embedded Bharathi/Bharathidasan quotations from this Tamil witness rather than silently importing outside English versions;
-- preserve item-title authority separately from date/event/context prose;
+- embedded Bharathi/Bharathidasan quotations come from this Tamil witness, not silently from outside English versions;
+- title authority remains separate from date/event/context prose;
 - keep `scan_page` provenance and structural closing rules;
 - source claims remain source claims;
-- preserve Tamil-dependent wordplay through transliteration/Tamil-derived forms where needed;
-- Item 01: `குடி`, Kallakkudi / `கள்ளக்குடி`, `பருக்கிடம்`, `சாரம்`, Bharathi/Bharathidasan sound play, `சுருட்டு / புரட்டு`, certified 50→51 quotation state;
-- Item 02: `மாதவர் / மாதொரு பாகன்`, `அன்பிலார்`, `கிறுக்கு`, Valli / `வள்ளிக்கிழங்கு`, Pari–Kapilar narrative, full `மை` chain;
-- Item 04: direct `பதில் கவிதை` title authority, `சுதந்திராக்கள்` → **Swatantrites**, “The Arrack Era,” source-visible `நெளரோஜி`, and scan-68 terminal colon.
+- Item 01 preserves `குடி` and source-dependent sound-play/transliterations;
+- Item 02 preserves the full visible `மை` family;
+- Item 04 preserves direct `பதில் கவிதை` authority, **Swatantrites**, source-visible `நெளரோஜி`, and the scan-68 terminal colon.
 
 ## Exact next activity
 
-Perform **editorial / terminology / voice consistency review only** across the assembled collection and reviewed item files. Final source-coverage/release-integrity review remains a later gate.
+Perform **final source-coverage / release-integrity review only**. This work is **not yet RELEASE-CLEARED**.

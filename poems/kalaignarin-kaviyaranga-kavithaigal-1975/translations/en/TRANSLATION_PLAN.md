@@ -2,9 +2,9 @@
 
 ## Status
 
-**PHASE 4 ITEM TRANSLATION COMPLETE — Batches 01–03 reviewed PASS / FULL ENGLISH ASSEMBLY COMPLETE / PASS / EDITORIAL CONSISTENCY REVIEW NEXT.**
+**PHASE 4 ITEM TRANSLATION COMPLETE / Batches 01–03 reviewed PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW NEXT.**
 
-Tamil source/canonical layer is FINAL-CLEARED. Phase 4 has not modified the Tamil archival layer.
+Tamil source/canonical layer is FINAL-CLEARED. Phase 4 has not modified the active Tamil `pages/` or canonical `sections/` layer.
 
 ## Governing objective
 
@@ -12,16 +12,7 @@ Retain Kalaignar's public-speech cadence, wit, repetition, political and literar
 
 ## Translation source hierarchy
 
-Normal source: final-cleared `../../sections/NN.md`.
-
-If a Tamil reading is questioned:
-
-1. controlling source scan;
-2. verified `../../pages/NNNN.md`;
-3. final-cleared canonical section;
-4. Phase-3 records.
-
-A translation problem is never authority to edit Tamil silently.
+Normal source: final-cleared `../../sections/NN.md`. If a Tamil reading is questioned: controlling scan → verified page record → final-cleared canonical section → Phase-3 records. A translation problem is never authority to edit Tamil silently.
 
 ## Stable item/title policy
 
@@ -58,26 +49,30 @@ A translation problem is never authority to edit Tamil silently.
 
 **COMPLETE / PASS.** Authority: `ASSEMBLY.md`.
 
-Reader-facing file: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**.
+Reader-facing file: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**, Items **01 → 02 → 04**, **22/22** active markers, scan 66 occurrences **0**.
 
-Assembly method follows repository precedent: remove standalone YAML and H1 only, prepend reader-facing item heading, retain remaining reviewed body, assemble Items **01 → 02 → 04**. Coverage: **22/22 markers; 0 omissions; 0 duplicates; 0 unexpected markers; scan 66 occurrences 0**.
+## Editorial / terminology / voice consistency
 
-## Recurring terminology / wordplay locks
+**COMPLETE / PASS.** Authority: `EDITORIAL_CONSISTENCY_REVIEW.md`.
+
+The cross-item review found no terminology, transliteration, quotation/punctuation, heading, reader-cleanliness or voice defect requiring an English lexical rewrite. The assembly and all three reviewed standalone item blobs remain unchanged. Unresolved editorial issues: **0**.
+
+Recurring locks remain:
 
 - Bharathi, Bharathidasan, Anna, Periyar, Rajaji, Pari, Kapilar, Puduvai;
 - Revolutionary Poet, Pavendar, Mother Tamil, prohibition, permit;
 - Item 01 `குடி` and related place/drink sound play;
-- Item 02 `மை` family must keep a visible `mai` relationship;
-- Item 04 `சுதந்திராக்கள்` is **Swatantrites**, not generic “free people”;
+- Item 02 full visible `மை` family;
+- Item 04 `சுதந்திராக்கள்` → **Swatantrites**;
 - scan-66 context never becomes translated Item-04 body.
 
 ## Remaining Phase-4 gates
 
 1. full English assembly — **COMPLETE / PASS**;
-2. **editorial / terminology / voice consistency review — NEXT**;
-3. final source-coverage / release-integrity review;
+2. editorial / terminology / voice consistency review — **COMPLETE / PASS**;
+3. **final source-coverage / release-integrity review — NEXT**;
 4. release report / release-clearance decision.
 
 ## Exact next activity
 
-Perform **editorial / terminology / voice consistency review only**. Do not perform final release-integrity review in the same activity unless explicitly requested.
+Perform **final source-coverage / release-integrity review only**. Do not call the work RELEASE-CLEARED before that gate and the explicit release decision are complete.

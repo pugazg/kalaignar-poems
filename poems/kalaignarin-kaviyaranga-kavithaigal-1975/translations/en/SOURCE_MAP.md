@@ -31,7 +31,13 @@ Output: `kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
 - scan 66 occurrences: **0**;
 - closing source separators: **3/3**.
 
-Authority: `ASSEMBLY.md`.
+Assembly authority: `ASSEMBLY.md`.
+
+## Editorial status
+
+`EDITORIAL_CONSISTENCY_REVIEW.md` — **COMPLETE / PASS**.
+
+No standalone English or reader-facing lexical correction was required. Recurring names/terms, transliteration, wordplay conventions, quote/punctuation presentation, title structure, public-speech voice and reader-facing cleanliness all passed. Reader-facing blob remains unchanged.
 
 ## Title/context authority
 
@@ -55,4 +61,4 @@ Authority: `ASSEMBLY.md`.
 
 ## Exact next activity
 
-Editorial / terminology / voice consistency review only.
+**Final source-coverage / release-integrity review only.** The work is not yet RELEASE-CLEARED.

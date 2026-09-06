@@ -8,7 +8,7 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`
 
 Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்_கவிதைகள்.pdf` — **84 scans**, **93,307,011 bytes**, SHA-256 `d9b70fd65f913c2c4377c25675e115555987bb9d9a4c22681b13ebae98afd168`.
 
-**NEW-ITEM-ONLY PROCESSING — PHASE 1 COMPLETE 22/22 / PHASE 2 COMPLETE 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY COMPLETE / EDITORIAL CONSISTENCY REVIEW NEXT.**
+**NEW-ITEM-ONLY PROCESSING — PHASE 1 COMPLETE 22/22 / PHASE 2 COMPLETE 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS / FINAL RELEASE-INTEGRITY REVIEW NEXT.**
 
 Final-cleared / reviewed new Kalaignar items:
 
@@ -26,12 +26,11 @@ Reader-facing English assembly:
 - size: **24,203 bytes**;
 - item order: **01 → 02 → 04**;
 - active scan markers: **22/22**;
-- duplicate / omitted / unexpected required markers: **0 / 0 / 0**;
-- scan 66 markers/body occurrences: **0**.
+- scan 66 occurrences: **0**.
 
-Assembly authority: `translations/en/ASSEMBLY.md`. Tamil final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+Assembly authority: `translations/en/ASSEMBLY.md`. Editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — **PASS**, unresolved editorial/terminology/voice issues **0**, English lexical changes required **0**. Tamil final-clearance authority: `PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
-Exact next activity: **editorial / terminology / voice consistency review only** across the assembled reader-facing file and the three reviewed item files. Final source-coverage / release-integrity review remains a later gate.
+Exact next activity: **final source-coverage / release-integrity review only**. The active work is **not yet RELEASE-CLEARED**.
 
 ## Preserved completed work
 

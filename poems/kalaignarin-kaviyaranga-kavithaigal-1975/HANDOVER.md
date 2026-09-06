@@ -18,28 +18,33 @@ Items 01 (46–57), 02 (58–65), 04 (67–68) are **FINAL-CLEARED**. Phase 1 22
 - Batch 03 / Item 04 / 67–68: REVIEWED PASS;
 - English active-scan coverage: 22/22;
 - scan 66 translated body: 0;
-- unresolved batch issues: 0;
-- Tamil archival changes during translation: 0.
+- unresolved batch issues: 0.
 
 ## Full assembly
 
-**COMPLETE / PASS.**
+**COMPLETE / PASS** under `translations/en/ASSEMBLY.md`.
 
-Reader-facing file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`.
+Reader-facing file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, size **24,203 bytes**, items **01 → 02 → 04**, active scan markers **22/22**, omitted/duplicate/unexpected markers **0/0/0**, scan 66 occurrences **0**.
 
-- blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
-- size **24,203 bytes**;
-- items **01 → 02 → 04**;
-- active scan markers **22/22**;
-- omitted / duplicate / unexpected markers **0 / 0 / 0**;
-- scan 66 occurrences **0**;
-- source separators **3/3**;
-- unresolved assembly defects **0**.
+## Editorial consistency
 
-Authority: `translations/en/ASSEMBLY.md`.
+**COMPLETE / PASS** under `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
 
-Important decisions remain pinned in `translations/en/TRANSLATION_PLAN.md`: Item 01 `குடி`, Item 02 `மை`, Item 04 direct `பதில் கவிதை` title authority / Swatantrites handling, embedded quotation fidelity and source-claim policy.
+- heading/title presentation: PASS;
+- recurring names/terms/transliteration: PASS;
+- `குடி`, `மை`, Swatantrites and source-sensitive wordplay handling: PASS;
+- quotation/punctuation/source-visible states: PASS;
+- public-speech cadence, direct address, satire and rhetorical continuity: PASS;
+- reader-facing cleanliness: PASS;
+- unresolved editorial/terminology/voice issues: **0**;
+- standalone English lexical changes required: **0**;
+- reader-facing assembly lexical changes required: **0**;
+- Tamil `pages/` / canonical `sections/` changes since final clearance: **0**.
+
+Reader-facing blob remains unchanged at `28d63e07b9acbfbba9d37d0f1475e9765626977b`.
 
 ## Exact next activity
 
-Perform **editorial / terminology / voice consistency review only** across the assembled reader-facing file and reviewed Items 01, 02, 04. Final source-coverage/release-integrity review remains separate.
+Perform **final source-coverage / release-integrity review only**. Verify item↔assembly synchronization, 22/22 scan coverage and uniqueness, exclusions, title/context integrity, certified boundary/closing states, reader-facing cleanliness and Tamil-source protection.
+
+Do not mark RELEASE-CLEARED until that separate gate passes and the release decision is recorded.

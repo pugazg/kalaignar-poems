@@ -22,19 +22,24 @@ Canonical files: `sections/01.md`, `sections/02.md`, `sections/04.md`. Active ca
 
 ## Phase 4 — English translation / release
 
-**IN PROGRESS — SETUP COMPLETE / BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY COMPLETE.**
+**IN PROGRESS — SETUP COMPLETE / BATCHES 3/3 REVIEWED PASS / FULL ENGLISH ASSEMBLY PASS / EDITORIAL CONSISTENCY PASS.**
 
 Reader-facing file: `translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md` — blob `28d63e07b9acbfbba9d37d0f1475e9765626977b`, **24,203 bytes**.
 
-Assembly coverage: **3/3 items, 22/22 scan markers, 0 omissions, 0 duplicates, 0 unexpected markers, scan 66 occurrences 0**. Authority: `translations/en/ASSEMBLY.md`.
+Authorities:
+
+- `translations/en/ASSEMBLY.md` — assembly **PASS**;
+- `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — editorial / terminology / voice consistency **PASS**.
+
+Editorial gate result: recurring terms/wordplay/title presentation/quotation/punctuation/voice/reader cleanliness **PASS**, unresolved English editorial issues **0**, English lexical changes required **0**, Tamil final-cleared page/canonical changes **0**.
 
 Remaining ordered Phase-4 gates:
 
 1. full English assembly — **COMPLETE / PASS**;
-2. **editorial / terminology / voice consistency review — NEXT**;
-3. final source-coverage / release-integrity review;
+2. editorial / terminology / voice consistency review — **COMPLETE / PASS**;
+3. **final source-coverage / release-integrity review — NEXT**;
 4. release report / release-clearance decision.
 
 ## Exact next activity
 
-Perform the editorial / terminology / voice consistency review only. Do not combine it with final release-integrity review unless explicitly requested.
+Perform the **final source-coverage / release-integrity review only**. Do not mark the active work RELEASE-CLEARED unless that gate passes and a durable release-clearance decision is recorded.
