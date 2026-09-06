@@ -4,15 +4,15 @@ Continue `pugazg/kalaignar-poems`, branch `main`, active work `poems/anna-kaviya
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first. Preserve newer durable work. Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, workspace `README.md`, `PHASE3_TAMIL_FINAL_CLEARANCE.md`, canonical `sections/anna-kaviyarangam.md`, Phase-4 controls `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`, reviewed `translations/en/sections/01.md`, `translations/en/batches/batch-01.md`, reader-facing `translations/en/anna-kaviyarangam-en.md`, `translations/en/ASSEMBLY.md`, and `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`.
+Fetch live `main` first. Preserve newer durable work. Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, workspace `README.md`, `PHASE3_TAMIL_FINAL_CLEARANCE.md`, canonical `sections/anna-kaviyarangam.md`, Phase-4 controls `translations/en/README.md`, `translations/en/TRANSLATION_PLAN.md`, `translations/en/SOURCE_MAP.md`, reviewed `translations/en/sections/01.md`, `translations/en/batches/batch-01.md`, reader-facing `translations/en/anna-kaviyarangam-en.md`, `translations/en/ASSEMBLY.md`, `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`, and `translations/en/RELEASE_INTEGRITY_REVIEW.md`.
 
 Controlling source: `TVA_PRL_0001502_முரசொலி_பொங்கல் மலர்_1968.pdf` — **136 pages / 58,026,496 bytes / SHA-256 `5f9cc505038ae1c3f91cbd0b50c0b6692b54baeee40fffef1fcdc8d213a146ce`**.
 
 Scope: scans **119–124**.
 
-Current state: **Phase 1 COMPLETE / Phase 2 6/6 VERIFIED-PASS / Phase 3 TAMIL FINAL-CLEARED / Phase 4 Batch 01 REVIEWED-PASS / reader-facing assembly COMPLETE-PASS / editorial consistency COMPLETE-PASS / release-integrity not started**.
+Current state: **Phase 1 COMPLETE / Phase 2 6/6 VERIFIED-PASS / Phase 3 TAMIL FINAL-CLEARED / Phase 4 Batch 01 REVIEWED-PASS / reader-facing assembly COMPLETE-PASS / editorial consistency COMPLETE-PASS / release-integrity COMPLETE-PASS / release clearance not yet granted**.
 
-Tamil authority: `sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`.
+Tamil authority: `sections/anna-kaviyarangam.md` — blob `95e0e536f5dcdfbb59b3a5ca0164b9d988b459d5`; Tamil final-clearance commit `46782b6378b3accd82c43a056c2e6bd36be60e23`.
 
 Reviewed English authority: `translations/en/sections/01.md` — blob `4d41c3d3421144ac5b6c589417b08827a0f93f05`; Batch review `translations/en/batches/batch-01.md` — blob `189a38e2cd1eb223c2a570da85b2afab9f6862a8` — **PASS**.
 
@@ -20,20 +20,24 @@ Reader-facing English: `translations/en/anna-kaviyarangam-en.md` — blob `87d0e
 
 Editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` — blob `3e11ecf4b7318cb8b097173089d224b63459e371` — **PASS**.
 
-Editorial locks:
-- reviewed item ↔ reader-facing body after YAML removal: **0 lexical differences**;
+Release-integrity authority: `translations/en/RELEASE_INTEGRITY_REVIEW.md` — blob `cfac434013bbc8937eed3417243a9d150a4221e5` — **PASS**.
+
+Release-integrity locks:
+- reviewed-item ↔ reader-facing synchronization: **PASS / 0 lexical drift**;
 - scans **119–124 exactly once and ordered**;
+- active omissions / duplicates / unexpected markers: **0 / 0 / 0**;
 - source-context **1/1**;
 - poet handoffs **8/8**;
 - `M. K.` markers **8/8**;
 - ஆனந்தம் body/heading distinction preserved;
 - வேழவேந்தன் three-state mother-title distinction preserved;
-- source-driven `Mudiyarasan` / `Mudiyarasu` variation preserved;
-- transliteration and drama-title chain PASS;
-- `Sazhakkarai` retained conservatively;
-- final Abdul Rahman handoff punctuation preserved;
-- unresolved translation / assembly / editorial issues **0 / 0 / 0**;
-- English lexical changes required by editorial gate **0**;
-- Tamil drift during Phase 4 **0 / 0**.
+- source-driven `Mudiyarasan` / `Mudiyarasu` preserved;
+- final Abdul Rahman punctuation preserved;
+- boundary / closing integrity **PASS**;
+- reader-facing cleanliness **PASS**;
+- Tamil page/canonical drift since final clearance **0 / 0**;
+- unresolved release-integrity defects **0**.
 
-Exact next activity: **final source-coverage / release-integrity review only**. Reconfirm live reviewed-item ↔ reader-facing synchronization, scans 119–124 coverage/order, title/source-context/handoff/marker boundaries, reader-facing cleanliness and zero Tamil drift since final clearance. Create `translations/en/RELEASE_INTEGRITY_REVIEW.md` if PASS. Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.
+The work is **not yet RELEASE-CLEARED**.
+
+Exact next activity: create `translations/en/RELEASE_REPORT.md` and perform the explicit **release-clearance decision only** after reconfirming live-main artifact identities and all prior PASS authorities. Do not alter Tamil or English lexical text unless a genuine defect is formally reopened.
