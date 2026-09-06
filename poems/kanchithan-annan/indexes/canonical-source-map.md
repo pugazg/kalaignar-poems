@@ -12,8 +12,7 @@ Canonical output for the user-scoped one-page work:
 - visible printed page numerals represented: **0**;
 - verified page Git blob: `d0df5abbc42d36d5e0bc776bb2844ee9b467518e`;
 - canonical section Git blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
-- page-record lexical changes required by assembly/review: **0**;
-- page-status changes required by assembly/review: **0**.
+- Tamil layer: **FINAL-CLEARED**.
 
 ## Canonical item inventory
 
@@ -23,8 +22,6 @@ Canonical output for the user-scoped one-page work:
 
 ## Title / attribution controls
 
-Gate-3 authority is `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
 - canonical title is exactly `காஞ்சிதான் அண்ணன்`;
 - bibliographic title agrees exactly;
 - source-printed author line `முதலமைச்சர், கலைஞர், மு. கருணாநிதி` is retained in the canonical source payload;
@@ -33,8 +30,6 @@ Gate-3 authority is `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
 ## Boundary / pagination controls
 
-- Gate-1 authority: `../PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-2 authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - scan 16 has no visible printed page numeral, therefore page-layer and canonical printed-page metadata remain `null`;
 - internal joins: **0**;
 - opening and closing boundaries: **PASS / PASS**;
@@ -60,4 +55,14 @@ Authority: `../PHASE3_TAMIL_FINAL_CLEARANCE.md` — **COMPLETE / PASS**.
 - verified page / canonical Tamil changes during Gate 6: **0 / 0**;
 - Tamil source/canonical layer: **FINAL-CLEARED**.
 
-Phase 4 is unblocked. Exact next activity: **English translation setup only**.
+## Phase 4 source linkage
+
+English translation setup is **COMPLETE** under `../translations/en/README.md`, `TRANSLATION_PLAN.md`, and `SOURCE_MAP.md`.
+
+- normal translation source: `../sections/01.md`;
+- translation batch partition: **Batch 01 = Item 01 = scan 16**;
+- planned English item: `../translations/en/sections/01.md`;
+- planned batch review: `../translations/en/batches/batch-01.md`;
+- English item text: **NOT STARTED**.
+
+Exact next activity: **Phase 4 Batch 01 — translate and source-review Item 01 / scan 16 only**.
