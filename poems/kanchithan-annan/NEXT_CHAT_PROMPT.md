@@ -26,6 +26,7 @@ Read before changes:
 14. `poems/kanchithan-annan/translations/en/batches/batch-01.md`
 15. `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md`
 16. `poems/kanchithan-annan/translations/en/ASSEMBLY.md`
+17. `poems/kanchithan-annan/translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`
 
 ## Controlling source
 
@@ -40,23 +41,28 @@ Read before changes:
 
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–6: **COMPLETE / PASS**;
-- Tamil source/canonical layer: **FINAL-CLEARED**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS / Tamil FINAL-CLEARED**;
 - Tamil canonical blob: `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - Phase 4 setup: **COMPLETE**;
 - Batch 01: **1/1 REVIEWED / PASS**;
-- reviewed English blob: `17a565f28af6e51d215d703bcb6058cf2805023b`;
+- reviewed English: `translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
 - reader-facing assembly: **COMPLETE / PASS**;
-- reader-facing output: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- assembly authority: `translations/en/ASSEMBLY.md`;
-- scan marker: **1/1 exactly once**;
-- unresolved translation / assembly issues: **0 / 0**;
+- reader-facing output: `translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
+- editorial / terminology / voice consistency review: **COMPLETE / PASS**;
+- editorial authority: `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md`;
+- active scan coverage: **1/1 exactly once**;
+- unresolved Tamil / translation / assembly / editorial issues: **0 / 0 / 0 / 0**;
+- English lexical changes required by editorial gate: **0**;
 - Tamil changes during Phase 4: **0 / 0**.
 
 ## Next activity only
 
-Perform **editorial / terminology / voice consistency review** across reviewed `translations/en/sections/01.md` and reader-facing `translations/en/kanchithan-annan-en.md`.
+Perform **final source-coverage / release-integrity review**.
 
-Check title/attribution presentation, Kanchi publication/place/Anna identity handling, `Thambi`, transliteration/italics, punctuation/ellipsis states, repetition/parallelism, memorial voice, rhetorical-question force, first-person close and reader-facing cleanliness. Create `translations/en/EDITORIAL_CONSISTENCY_REVIEW.md` if PASS.
+Create:
 
-**Do not perform final source-coverage / release-integrity or release-clearance in this same activity.**
+`translations/en/RELEASE_INTEGRITY_REVIEW.md`
+
+Reconfirm standalone reviewed-English ↔ reader-facing synchronization, scan **16** exactly once, title/attribution integrity, certified opening/closing boundaries, reader-facing cleanliness and zero Tamil drift since final clearance.
+
+**Do not create `RELEASE_REPORT.md` or grant release clearance in the same activity.**
