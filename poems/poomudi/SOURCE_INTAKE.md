@@ -12,31 +12,42 @@ User bibliographic record: title **பூமுடி**, author **கலைஞ�
 
 ## Direct source witness
 
-Physical scan **4** shows the decorated title **பூமுடி**, complete poem body, stylized signature **மு.கருணாநிதி**, and no source-printed page numeral. The top-margin handwritten/library mark is non-print material.
+Physical scan **4** shows the decorated title **பூமுடி**, complete poem body, stylized signature **மு.கருணாநிதி**, and no source-printed page numeral.
 
 ## Processing scope
 
 | Physical scan | Role | Tamil state |
 |---:|---|---|
 | 3 | full-page Anna portrait; pre-work neighbour | excluded / Gate 2 certified |
-| 4 | sole active `பூமுடி` work scan | Phase 2 verified; Gates 1–2 PASS |
+| 4 | sole active `பூமுடி` work scan | Phase 2 verified; Gates 1–3 PASS |
 | 5 | separate Penang mayoral correspondence; post-work neighbour | excluded / Gate 2 certified |
+
+## Phase 3 authority state
+
+- Gate 1 pagination: **COMPLETE / PASS** — `printed_page: null` certified;
+- Gate 2 boundaries: **COMPLETE / PASS** — opening/closing PASS, internal joins **0**;
+- Gate 3 title witness: **COMPLETE / PASS**.
+
+Gate 3 reconciles:
+
+- direct title `பூமுடி` ↔ bibliographic title **பூமுடி** — exact agreement;
+- source signature `மு.கருணாநிதி` ↔ bibliographic author **கலைஞர் மு. கருணாநிதி** — compatible forms, preserved in their respective source/metadata layers;
+- title conflicts / author conflicts / hybrid titles: **0 / 0 / 0**.
+
+Canonical title authority for later assembly is the direct scan-4 form `பூமுடி`.
 
 ## Current state
 
 - source identity: **COMPLETE**;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gate 1: **COMPLETE / PASS**;
-- Phase 3 Gate 2: **COMPLETE / PASS**;
-- Phase 3 Gate 3: **NOT STARTED**;
+- Phase 3 Gates 1–3: **COMPLETE / PASS**;
+- Gate 4: **NOT STARTED**;
 - canonical Tamil / English derivative: **none / none**;
-- unresolved Tamil readings: **0**.
+- unresolved Tamil/title/boundary issues: **0 / 0 / 0**.
 
-Gate 1 certifies `printed_page: null` for scan 4. Gate 2 certifies opening and closing boundaries with internal physical joins **0**. Neither gate changed the verified page text or frontmatter.
-
-Final user-controlled source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, and `உனைக்காக்க`.
+Final source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, and `உனைக்காக்க`.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Do not begin canonical assembly in the same activity.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `sections/01.md` from verified `pages/0004.md`; do not begin Gate 5 in the same activity.

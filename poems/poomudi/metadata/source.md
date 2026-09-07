@@ -4,7 +4,8 @@
 
 - direct title: **பூமுடி** — physical scan 4;
 - source-visible signature: **மு.கருணாநிதி**;
-- user bibliographic author: **கலைஞர் மு. கருணாநிதி**;
+- bibliographic title: **பூமுடி**;
+- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
 - publication/year: **முரசொலி-அண்ணா மலர் / 1965**;
 - work location: physical scan **4 only**.
 
@@ -24,23 +25,23 @@ Final affected source locks: `கமழுகின்ற`, `தலைமீத�
 
 ## Phase 3 Gate 1 — PASS
 
-Authority: `../PHASE3_STRUCTURE_AUDIT.md`.
-
-- scan 4 = active scan **1/1**;
-- no source-printed page numeral;
-- `printed_page: null` certified;
-- inferred numerals: **0**.
+`../PHASE3_STRUCTURE_AUDIT.md`: scan 4 accounted 1/1; no source-printed numeral; `printed_page: null` certified; inferred numerals **0**.
 
 ## Phase 3 Gate 2 — PASS
 
-Authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+`../PHASE3_BOUNDARY_JOIN_AUDIT.md`: scan 3 pre-work portrait; scan 4 complete work; scan 5 post-work Penang correspondence; internal joins **0**; opening/closing PASS.
 
-- scan 3 = full-page Anna portrait, certified pre-work neighbour;
-- scan 4 = complete work, opening and closing both present;
-- scan 5 = separate Penang mayoral correspondence item, certified post-work neighbour;
-- internal physical page joins: **0**;
-- unresolved boundary/join issues: **0**;
-- page text/frontmatter changes: **0 / 0**.
+## Phase 3 Gate 3 — PASS
+
+`../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+
+- direct and bibliographic titles agree exactly as `பூமுடி`;
+- canonical Tamil title authority: direct scan-4 `பூமுடி`;
+- source-visible signature `மு.கருணாநிதி` remains source text;
+- bibliographic author **கலைஞர் மு. கருணாநிதி** remains metadata;
+- title conflicts / author conflicts / hybrid titles: **0 / 0 / 0**;
+- unresolved title/provenance issues: **0**;
+- Gate-3 page text/frontmatter changes: **0 / 0**.
 
 ## Parallel witnesses — secondary only
 
@@ -50,8 +51,8 @@ The 1968 **அண்ணா கவியரங்கம்** and 1969 **இதய
 
 - Phase 1: **COMPLETE**;
 - Phase 2: **VERIFIED / PASS**;
-- Phase 3 Gates 1–2: **COMPLETE / PASS**;
-- Gate 3: **NOT STARTED**;
+- Phase 3 Gates 1–3: **COMPLETE / PASS**;
+- Gate 4: **NOT STARTED**;
 - canonical Tamil / English derivative: **none / none**.
 
-Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation only**.
+Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly only**.

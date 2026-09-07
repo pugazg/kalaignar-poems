@@ -4,7 +4,7 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **பூமுடி*
 
 ## Current status
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–2 COMPLETE / PASS / GATE 3 NOT STARTED.**
+**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`;
 - physical PDF pages: **65**;
@@ -14,7 +14,8 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **பூமுடி*
 - verified page: `pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
 - Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`;
 - Gate-2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- unresolved Tamil readings: **0**;
+- Gate-3 authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- unresolved Tamil/title/boundary issues: **0 / 0 / 0**;
 - canonical Tamil / English derivative: **none / none**.
 
 ## Final source locks
@@ -25,18 +26,21 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **பூமுடி*
 
 All other accepted wording, punctuation and lineation remain unchanged.
 
-## Phase 3 Gate 1 — PASS
+## Phase 3 Gates 1–2 — PASS
 
-Scan **4** is the sole active work scan. No source-printed page numeral is visible; `printed_page: null` is formally certified. Inferred printed numerals: **0**.
+Gate 1 certifies scan **4** as the sole active scan with `printed_page: null`. Gate 2 certifies scan **3** as the pre-work neighbour, scan **4** as the complete work, scan **5** as the post-work neighbour, and internal physical joins as **0**.
 
-## Phase 3 Gate 2 — PASS
+## Phase 3 Gate 3 — PASS
 
-- scan **3**: full-page Anna portrait — certified pre-work neighbour;
-- scan **4**: complete `பூமுடி` work — opening and closing both on this scan;
-- scan **5**: separate Penang mayoral correspondence item — certified post-work neighbour;
-- internal physical page joins: **0**;
-- unresolved boundary/join issues: **0**;
-- Gate-2 changes to verified page text/frontmatter: **0 / 0**.
+- direct source title: **பூமுடி**;
+- bibliographic title: **பூமுடி** — exact agreement;
+- source-visible signature: **மு.கருணாநிதி**;
+- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
+- canonical Tamil title authority: direct scan-4 `பூமுடி`;
+- title conflicts / author conflicts / hybrid titles: **0 / 0 / 0**;
+- Gate-3 page text/frontmatter changes: **0 / 0**.
+
+The source signature is preserved exactly in source-derived text; the longer bibliographic author form remains metadata.
 
 ## Parallel-witness note
 
@@ -44,4 +48,4 @@ The 1968 **அண்ணா கவியரங்கம்** and 1969 **இதய
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Reconcile the direct scan-4 title/signature with the bibliographic/catalogue title and author forms; do not create a hybrid title and do not begin canonical Tamil assembly in the same activity.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `sections/01.md` from verified `pages/0004.md` with explicit scan-4 provenance. Do not begin Gate 5 in the same activity.

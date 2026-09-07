@@ -31,26 +31,34 @@ User-scoped work range: **physical scan 4 only**.
 **COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`.
 
 - active scans: **1/1 — scan 4**;
-- source-visible printed numerals: **0**;
-- `printed_page: null`: **certified**;
+- `printed_page: null`: certified;
 - inferred numerals: **0**.
 
 #### Gate 2 — boundary / page-join audit
 
 **COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
-- opening boundary: **PASS**;
+- opening / closing boundaries: **PASS / PASS**;
+- scans 3 / 5 surrounding boundary checks: **PASS / PASS**;
 - internal physical joins: **0**;
-- closing boundary: **PASS**;
-- surrounding scans 3/5: **PASS**;
-- unresolved boundary/join issues: **0**;
-- page text/frontmatter changes: **0 / 0**.
+- unresolved boundary/join issues: **0**.
 
 #### Gate 3 — title-witness reconciliation
 
-**NOT STARTED.**
+**COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-Gates 4–6 remain blocked until Gate 3 is complete.
+- direct title: `பூமுடி`;
+- bibliographic title: **பூமுடி**;
+- canonical title authority: direct scan-4 `பூமுடி`;
+- source signature: `மு.கருணாநிதி`;
+- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
+- title/author conflicts: **0 / 0**;
+- hybrid titles: **0**;
+- page changes: **0**.
+
+#### Gate 4 — canonical Tamil assembly
+
+**NOT STARTED.** Gates 5–6 remain blocked until Gate 4 is complete.
 
 ### Phase 4 — translation / release
 
@@ -58,7 +66,7 @@ Gates 4–6 remain blocked until Gate 3 is complete.
 
 ### Exact next activity
 
-Perform **Phase 3 Gate 3 only**. Reconcile direct title/signature and bibliographic title/author witnesses. Do not begin canonical assembly in the same activity.
+Perform **Phase 3 Gate 4 only**. Create `poems/poomudi/sections/01.md` from the verified page layer, preserving direct title authority, source signature, exact verified wording/lineation and explicit scan-4 provenance. Do not begin Gate 5 in the same activity.
 
 ---
 

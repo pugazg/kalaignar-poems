@@ -2,7 +2,7 @@
 
 ## Current state
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–2 COMPLETE / PASS / GATE 3 NOT STARTED.**
+**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
 
 ### Source / verified layer
 
@@ -12,40 +12,44 @@
 - verified page: `pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
 - unresolved Tamil readings: **0**.
 
-Final user-controlled source locks:
-
-- `அறிவுமணங் கமழுகின்ற அண்ணன் தலைமீது`;
-- `பொன்வைத்தால் நோகுமென்று`;
-- `உனைக்காக்க எனைத் துறப்பேன்.`
+Final source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`.
 
 ### Gate 1 — pagination
 
-Authority: `PHASE3_STRUCTURE_AUDIT.md` — **PASS**.
-
-- active scans accounted: **1/1**;
-- source-visible printed numerals: **0/1**;
-- `printed_page: null`: **certified**;
-- inferred numerals: **0**;
-- page text/frontmatter changes: **0 / 0**.
+`PHASE3_STRUCTURE_AUDIT.md` — **PASS**. Scan 4 accounted 1/1; `printed_page: null` certified; inferred numerals **0**.
 
 ### Gate 2 — boundaries / joins
 
-Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**.
+`PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**.
 
-- opening boundary: **1/1 PASS** — scan 3 portrait → independent scan-4 `பூமுடி` opening;
+- opening boundary: **1/1 PASS**;
 - internal physical joins: **0**;
-- closing boundary: **1/1 PASS** — poem closes on scan 4 with `உனைக்காக்க எனைத் துறப்பேன்.`;
-- scan 5 separate Penang correspondence confirms post-work boundary;
+- closing boundary: **1/1 PASS**;
+- scans 3 / 5: pre/post-work boundary witnesses **PASS**;
 - unresolved boundary/join issues: **0**;
-- verified page records reopened: **0**;
-- Gate-2 page text/frontmatter changes: **0 / 0**.
+- page text/frontmatter changes: **0 / 0**.
+
+### Gate 3 — title-witness reconciliation
+
+`PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **PASS**.
+
+- direct title: `பூமுடி`;
+- bibliographic title: **பூமுடி**;
+- canonical title authority: direct scan-4 `பூமுடி`;
+- source-visible signature: `மு.கருணாநிதி`;
+- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
+- title conflicts: **0**;
+- author-attribution conflicts: **0**;
+- hybrid/synthetic titles: **0**;
+- unresolved title/provenance issues: **0**;
+- Gate-3 page text/frontmatter changes: **0 / 0**.
 
 ### Current production state
 
-- Gate 3 title-witness reconciliation: **NOT STARTED**;
-- canonical Tamil: **none**;
+- Gate 4 canonical Tamil assembly: **NOT STARTED**;
+- canonical Tamil files: **0**;
 - Phase 4: **NOT STARTED**.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Do not begin canonical assembly in the same activity.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `sections/01.md` from verified `pages/0004.md` and preserve explicit scan-4 provenance. Do not begin Gate 5 in the same activity.

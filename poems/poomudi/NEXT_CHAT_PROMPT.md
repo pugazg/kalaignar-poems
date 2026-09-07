@@ -8,7 +8,7 @@ Fetch live `main` first. Preserve newer durable work and all closed/release-clea
 
 ## Mandatory startup
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, this prompt, workspace `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `PHASE2_SOURCE_VERIFICATION.md`, `PHASE2_REVERIFICATION_2026-09-07.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, and `pages/0004.md`.
+Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, this prompt, workspace `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `PHASE2_SOURCE_VERIFICATION.md`, `PHASE2_REVERIFICATION_2026-09-07.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, and `pages/0004.md`.
 
 ## Controlling source
 
@@ -18,21 +18,23 @@ Active scope: **physical scan 4 only**.
 
 ## Current state
 
-**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–2 COMPLETE / PASS / GATE 3 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
 
-Gate 1: scan 4 is the sole active scan; no printed numeral is visible; `printed_page: null` is certified.
+Gate 1: scan 4 is the sole active scan; no source-printed page numeral; `printed_page: null` certified.
 
-Gate 2:
+Gate 2: scan 3 = certified pre-work neighbour; scan 4 = complete work; scan 5 = certified post-work neighbour; internal physical joins = **0**.
 
-- scan 3 = certified pre-work neighbour;
-- scan 4 = complete work, opening + closing;
-- scan 5 = certified post-work neighbour;
-- internal physical joins = **0**;
-- unresolved boundary/join issues = **0**;
+Gate 3:
+
+- direct title `பூமுடி` and bibliographic title **பூமுடி** agree exactly;
+- source-visible signature `மு.கருணாநிதி` remains source text;
+- bibliographic author **கலைஞர் மு. கருணாநிதி** remains metadata;
+- title/author conflicts = **0 / 0**;
+- hybrid/synthetic titles = **0**;
 - page text/frontmatter changes = **0 / 0**.
 
-Final source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`. Do not normalize them to later parallel witnesses.
+Final source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 3 — title-witness reconciliation only**. Reconcile direct source title/signature with the user-supplied bibliographic title/author. Do not create a hybrid title and do not begin canonical Tamil assembly in the same activity.
+Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `sections/01.md` from the verified `pages/0004.md` source layer, preserving title `பூமுடி`, source signature `மு.கருணாநிதி`, exact verified wording/lineation, and explicit scan-4 provenance. Do not begin Gate 5 in the same activity.

@@ -2,7 +2,7 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
-## பூமுடி (1965) — Phase 3 Gates 1–2 complete
+## பூமுடி (1965) — Phase 3 Gates 1–3 complete
 
 Workspace: `poems/poomudi/`
 
@@ -10,22 +10,26 @@ Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா �
 
 User-scoped work range: **physical scan 4 only**.
 
-**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PASS / PHASE 3 GATES 1–2 COMPLETE / PASS / GATE 3 NOT STARTED.**
+**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
 
 - direct title witness: **பூமுடி**;
+- bibliographic title: **பூமுடி** — exact agreement;
 - direct source signature: **மு.கருணாநிதி**;
+- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
 - verified page: `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
 - Gate-1 authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`;
 - Gate-2 authority: `poems/poomudi/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Gate-3 authority: `poems/poomudi/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- canonical title authority: direct scan-4 **பூமுடி**;
 - final corrected source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`;
 - visible printed page numeral: **none / `printed_page: null` certified**;
-- scan 3: certified pre-work Anna portrait;
-- scan 5: certified post-work Penang correspondence;
+- scan 3 / scan 5: certified pre/post-work neighbours;
 - internal physical joins: **0**;
-- unresolved Tamil / boundary issues: **0 / 0**;
+- title/author conflicts / hybrid titles: **0 / 0 / 0**;
+- unresolved Tamil/title/boundary issues: **0 / 0 / 0**;
 - canonical Tamil / English derivative: none.
 
-Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation only**. Do not begin canonical assembly in the same activity.
+Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `poems/poomudi/sections/01.md`; do not begin Gate 5 in the same activity.
 
 ## காஞ்சிதான் அண்ணன் (1970) — release-cleared
 
