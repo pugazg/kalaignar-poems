@@ -2,7 +2,7 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
-## பூமுடி (1965) — Phase 2 verified
+## பூமுடி (1965) — Phase 3 Gate 1 complete
 
 Workspace: `poems/poomudi/`
 
@@ -10,20 +10,21 @@ Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா �
 
 User-scoped work range: **physical scan 4 only**.
 
-**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
+**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PASS / PHASE 3 GATE 1 COMPLETE / PASS / GATE 2 NOT STARTED.**
 
 - direct title witness: **பூமுடி**;
 - direct source signature: **மு.கருணாநிதி**;
-- verified page: `poems/poomudi/pages/0004.md`;
+- verified page: `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
 - Phase-2 authority: `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`;
-- Phase-1 corrections required: **0**;
-- visible printed page numeral: none / `printed_page: null` currently retained;
-- scans 3 and 5: boundary evidence only;
-- later 1968/1969 shared passage: non-controlling textual reuse / parallel witnesses only;
+- Gate-1 authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`;
+- final corrected source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`;
+- visible printed page numeral: **none / `printed_page: null` formally certified**;
+- inferred printed numerals: **0**;
+- scans 3 and 5: boundary evidence only pending Gate 2;
 - unresolved Tamil readings: **0**;
 - canonical Tamil / English derivative: none.
 
-Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Do not begin Gate 2 in the same activity.
+Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit only**. Do not begin Gate 3 in the same activity.
 
 ## காஞ்சிதான் அண்ணன் (1970) — release-cleared
 

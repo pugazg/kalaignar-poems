@@ -15,35 +15,30 @@ Exact source identity:
 - SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
 - user-scoped poem range: physical scan **4 only**.
 
-Direct source witnesses: decorative title **பூமுடி** and stylized author signature **மு.கருணாநிதி**.
-
 ### Durable status
 
-**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATE 1 COMPLETE / PASS / GATE 2 NOT STARTED.**
 
-- verified page: `poems/poomudi/pages/0004.md`;
+- verified page: `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
 - Phase-2 authority: `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`;
-- visible printed page numeral: none; `printed_page: null` currently retained;
-- Phase-1 corrections required during Phase 2: **0**;
-- compact/historical glyph pass: **PASS**;
+- correction record: `poems/poomudi/PHASE2_REVERIFICATION_2026-09-07.md`;
+- Gate-1 authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`;
+- printed-page state: **no visible numeral / `printed_page: null` formally certified**;
+- inferred printed numerals: **0**;
 - unresolved Tamil readings: **0**;
-- Phase 3: **NOT STARTED**;
-- Phase 4: **NOT STARTED**;
 - canonical Tamil / English derivative: **none / none**.
 
-Scans 3 and 5 remain neighbour-only boundary evidence.
+Final source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, and `உனைக்காக்க`; all other accepted text remains unchanged.
 
-The overlapping passage also appears in the 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** workspaces. Phase 2 classifies these as later textual reuses / parallel witnesses only; the 1965 scan has distinct wording/punctuation and controls this work.
+Scans 3 and 5 remain neighbour-only boundary evidence pending Gate 2.
 
 ### Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only** for scan 4. Formally certify the one-page physical scope and the source-visible printed-page state. Do not begin Gate 2 in the same activity.
+Perform **Phase 3 Gate 2 — boundary / page-join audit only**. Certify the one-page work's opening and closing boundaries from scans 3–5 and record internal physical joins as zero. Do not begin Gate 3 in the same activity.
 
 ## Most recently closed work — அண்ணா கவியரங்கம்
 
 Workspace: `poems/anna-kaviyarangam/` — **CLOSED / RELEASE-CLEARED — 2026-09-06**.
-
-Do not reopen without genuine source-backed evidence and a documented reopen.
 
 ## Previously closed work — காஞ்சிதான் அண்ணன்
 
