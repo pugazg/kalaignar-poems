@@ -1,47 +1,44 @@
-# Source metadata — ஆந்தையும் அரசனும்
+# Source metadata — ஆந்தையும் அரசனும்!
 
 ## Work identity
+
 - bibliographic title: **ஆந்தையும் அரசனும்**;
-- direct decorated scan-18 title: **`ஆந்தையும் அரசனும்!`**;
-- canonical Tamil assembly title authority: **`ஆந்தையும் அரசனும்!`** (direct controlling-source witness);
+- direct decorated / canonical source title: **`ஆந்தையும் அரசனும்!`**;
 - bibliographic author: **கலைஞர் மு. கருணாநிதி**;
 - direct scan-18 author line: **`மு.கருணாநிதி`**;
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1965**;
 - physical work range: scans **18–25**.
 
-The bibliographic title remains preserved as metadata/work identity. The direct scan-18 title governs canonical source text; its terminal exclamation mark is source punctuation and must not be normalized away.
-
 ## Controlling source
+
 - filename: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`;
 - physical pages: **102**;
 - file size: **381,558,891 bytes**;
 - SHA-256: **`523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**;
-- source PDF committed: **No**.
+- source PDF committed: **No**;
+- neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
+## Textual authority
 
-## Secondary-witness state
+The exact controlling 1965 scans remain the highest textual authority. The bibliographic title is preserved as metadata; Gate 3 locks direct scan-18 `ஆந்தையும் அரசனும்!` as the canonical Tamil heading authority. No admitted secondary lexical witness overrides the controlling source.
 
-See `../SECONDARY_WITNESS_RESEARCH.md`.
+## Final processing state
 
-- admitted secondary lexical witnesses: **0**;
-- candidate secondary witnesses: **1**, inclusion not proven;
-- web/secondary Tamil imported into page records: **0**.
-
-## Processing state
 - duplicate-title search: **PASS — 0 matches**;
 - exact-byte source identity: **LOCKED**;
 - complete source visibility for active scans: **8/8**;
 - Phase 1: **COMPLETE — 8/8 lexically complete**;
 - Phase 2: **PASS — 8/8 verified / 0 unresolved**;
-- Phase-2 report: `../PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-- Phase 3 Gate 1: **PASS** — `../PHASE3_PAGINATION_RECONCILIATION.md`;
-- printed-page state: **8/8 `null` confirmed — no direct numeral witness and no source-supported logical number assigned**;
-- Phase 3 Gate 2: **PASS** — `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- boundary state: **opening 1/1 PASS / internal joins 7/7 PASS / closing 1/1 PASS / unresolved 0 / page-text changes 0**;
-- Phase 3 Gate 3: **PASS** — `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- title state: **bibliographic `ஆந்தையும் அரசனும்` preserved / direct `ஆந்தையும் அரசனும்!` selected for canonical assembly / unresolved 0**;
-- Phase 3 Gate 4+: **NOT STARTED**;
-- canonical Tamil / English: none / none.
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gate 2: **PASS**;
+- Phase 3 Gate 3: **PASS**;
+- Phase 3 Gate 4: **PASS — canonical `../sections/01.md`, blob `1693fd59795ddbc5eef6d0ee614c8502961c6e3d`**;
+- Phase 3 Gate 5: **PASS — source-completeness 8/8**;
+- Phase 3 Gate 6: **PASS — TAMIL FINAL-CLEARED**;
+- Phase 4: **COMPLETE — RELEASE-CLEARED**;
+- reviewed English: `../translations/en/sections/01.md` — blob `a6e558f24f086fef4c8b72c6a909d70ae34cd55a`;
+- reader-facing English: `../translations/en/aanthaiyum-arasanum-en.md` — blob `8ba2b7987b7a7d15ca1712f5fa1eb9e410c8d44a`;
+- release authority: `../translations/en/RELEASE_REPORT.md`;
+- unresolved issues: **0**.
 
-Physical scan numbers remain provenance identifiers and are not treated as printed-page numbers. Gates 2–3 preserve source-owned boundary and title punctuation; they do not normalize verified text.
+Physical scan numbers remain provenance identifiers; no unsupported printed-page numbers were assigned. Future textual changes require a documented source-backed reopen.

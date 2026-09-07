@@ -19,11 +19,27 @@ Canonical Tamil output:
 
 - active source scans represented: **8/8**;
 - explicit scan provenance: **8/8 exactly once**;
-- Gate 1 pagination: **PASS**;
-- Gate 2 opening/internal joins/closing: **PASS / 7/7 PASS / PASS**;
-- Gate 3 title authority: direct scan-18 `ஆந்தையும் அரசனும்!` — **PASS**;
-- Gate 4 canonical assembly: **PASS**;
-- bibliographic title retained separately: `ஆந்தையும் அரசனும்`;
-- unresolved Tamil issues at assembly: **0**.
+- Phase 3 Gates 1–6: **PASS / TAMIL FINAL-CLEARED**;
+- title authority: direct scan-18 `ஆந்தையும் அரசனும்!`;
+- bibliographic witness retained: `ஆந்தையும் அரசனும்`;
+- opening / internal joins / closing: **PASS / 7/7 PASS / PASS**;
+- unresolved Tamil issues: **0**.
 
-Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review**.
+## Phase 4 linkage
+
+- reviewed English: `../translations/en/sections/01.md` — blob `a6e558f24f086fef4c8b72c6a909d70ae34cd55a`;
+- reader-facing English: `../translations/en/aanthaiyum-arasanum-en.md` — blob `8ba2b7987b7a7d15ca1712f5fa1eb9e410c8d44a`;
+- Batch 01 / assembly / editorial / release-integrity: **PASS / PASS / PASS / PASS**;
+- reviewed and reader-facing scan markers: **8/8 exactly once**;
+- omitted / duplicate / unexpected active markers: **0 / 0 / 0**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**.
+
+## Release state
+
+Release authority: `../translations/en/RELEASE_REPORT.md`.
+
+**PHASE 4 COMPLETE — RELEASE-CLEARED.**
+
+Unresolved release issues: **0**.
+
+Future changes require a documented source-backed reopen.

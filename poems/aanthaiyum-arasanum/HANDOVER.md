@@ -1,34 +1,46 @@
-# HANDOVER — ஆந்தையும் அரசனும்
+# HANDOVER — ஆந்தையும் அரசனும்!
 
 Repository: `pugazg/kalaignar-poems`, branch `main`. Live `main` is authoritative.
+
+## Closed state
+
+**CLOSED / RELEASE-CLEARED — 2026-09-07.**
 
 Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf` — **102 scans / 381,558,891 bytes / SHA-256 `523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**.
 
 Scope: scans **18–25**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Current status: **PHASE 1 COMPLETE 8/8 / PHASE 2 PASS 8/8 VERIFIED / PHASE 3 GATES 1–3 PASS / 0 UNRESOLVED**.
+- Phase 1: **COMPLETE 8/8**;
+- Phase 2: **PASS 8/8 VERIFIED / 0 unresolved**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS — TAMIL FINAL-CLEARED**;
+- Phase 4: **COMPLETE — RELEASE-CLEARED**;
+- unresolved issues: **0**.
 
-Title witnesses:
+Title witnesses remain distinct and preserved:
 
-- bibliographic/work metadata: **`ஆந்தையும் அரசனும்`**;
-- direct source title: **`ஆந்தையும் அரசனும்!`**;
-- canonical assembly title authority: **direct scan-18 `ஆந்தையும் அரசனும்!`**.
+- bibliographic: `ஆந்தையும் அரசனும்`;
+- direct/canonical source title: `ஆந்தையும் அரசனும்!`.
 
-Direct source author line: **`மு.கருணாநிதி`**.
+## Final authorities
 
-Authorities:
+- `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
+- `PHASE3_PAGINATION_RECONCILIATION.md`;
+- `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- `PHASE3_CANONICAL_ASSEMBLY.md`;
+- `PHASE3_CANONICAL_SOURCE_REVIEW.md`;
+- `PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+- Tamil canonical `sections/01.md` — blob `1693fd59795ddbc5eef6d0ee614c8502961c6e3d`;
+- `indexes/canonical-source-map.md`;
+- reviewed English `translations/en/sections/01.md` — blob `a6e558f24f086fef4c8b72c6a909d70ae34cd55a`;
+- reader-facing English `translations/en/aanthaiyum-arasanum-en.md` — blob `8ba2b7987b7a7d15ca1712f5fa1eb9e410c8d44a`;
+- release authority `translations/en/RELEASE_REPORT.md`;
+- `RELEASE_STATUS.md`.
 
-- Phase 2: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-- Phase 3 Gate 1: `PHASE3_PAGINATION_RECONCILIATION.md`;
-- Phase 3 Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Phase 3 Gate 3: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+Phase 4 caused **0 Tamil page / canonical drift**. All active scan markers occur exactly once in Tamil canonical and reviewed/reader-facing English.
 
-Gate 1 result: physical scans 18–25 **8/8 accounted**; direct printed-page witnesses **0/8**; all `printed_page: null` values confirmed without unsupported logical pagination.
+Do not reopen this work for routine processing. A future textual change requires genuinely new source-backed evidence and a documented reopen of the affected page/audit/canonical/release layers.
 
-Gate 2 result: opening **PASS**, joins 18→19 through 24→25 **7/7 PASS**, closing **PASS**; direct poetic continuation 18→19, quotation carry-over 22→23, quoted-question/speech-tag carry-over 23→24, and scan-24-owned separator before scan 25 are all certified; corrections **0**, unresolved boundary holds **0**.
+## Next repository activity
 
-Gate 3 result: both title witnesses preserved exactly. The only variance is the terminal exclamation mark on the direct source title. Because canonical assembly must preserve the verified source layer, **`ஆந்தையும் அரசனும்!`** governs the canonical heading; bibliographic `ஆந்தையும் அரசனும்` remains metadata/search identity. No hybrid/normalized title is allowed. Page-layer changes **0**; title holds **0**.
-
-All eight page records remain `verified`.
-
-Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly**. Assemble from `pages/0018.md`–`0025.md` only, use heading `ஆந்தையும் அரசனும்!`, preserve physical scan provenance plus all Gate-2-certified separators/quotation/line continuities, and stop before Gate 5 assembly/source-completeness review.
+Proceed with **`தலைகேட்டான் தம்பி`** at `../thalaikettan-thambi/`: establish its pending exact-source SHA and perform Phase 1 transcription for scans **18–23**.

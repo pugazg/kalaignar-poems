@@ -1,37 +1,48 @@
-# Next Chat Prompt — Kalaignar Poems Archive / 1965–1966 Pongal Malar
+# Next Chat Prompt — Kalaignar Poems Archive / தலைகேட்டான் தம்பி
 
-Continue `pugazg/kalaignar-poems`, branch `main`. Fetch live `main` first and preserve release-cleared work.
+Continue `pugazg/kalaignar-poems`, branch `main`. Fetch live `main` first and preserve newer durable/release-cleared work.
 
-## Active — ஆந்தையும் அரசனும்
+## Active — தலைகேட்டான் தம்பி
 
-Workspace `poems/aanthaiyum-arasanum/`.
+Workspace: `poems/thalaikettan-thambi/`.
 
-Controlling PDF: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf` — **102 pages / 381,558,891 bytes / SHA-256 `523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**. Scope scans **18–25**.
+Controlling source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical pages / 30,952,719 bytes / SHA-256 pending**.
 
-Status: **Phase 1 COMPLETE 8/8 / Phase 2 PASS 8/8 VERIFIED / Phase 3 Gates 1–3 PASS / unresolved 0**.
+Scope: scans **18–23 = 6**.
 
-Authorities:
+Current status:
 
-- `poems/aanthaiyum-arasanum/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-- `poems/aanthaiyum-arasanum/PHASE3_PAGINATION_RECONCILIATION.md`;
-- `poems/aanthaiyum-arasanum/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- `poems/aanthaiyum-arasanum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+- intake/range: **COMPLETE**;
+- duplicate check: **PASS — 0 matches**;
+- exact SHA: **PENDING**;
+- Phase 1: **0/6 NOT STARTED**;
+- Phase 2–4: blocked;
+- corrected complete direct title: **`தலைகேட்டான் தம்பி`**;
+- scan-18 title is spatially decorated as upper `தலைகேட்டான்` plus lower `தம்பி`;
+- bibliographic/direct title conflict: **0**.
 
-Title witnesses are both preserved:
+## Mandatory startup
 
-- bibliographic: **`ஆந்தையும் அரசனும்`**;
-- direct source: **`ஆந்தையும் அரசனும்!`**.
+Read before source-dependent writes:
 
-Gate 3 locks **`ஆந்தையும் அரசனும்!`** as the canonical Tamil assembly heading. The terminal exclamation mark is source punctuation and must not be normalized away.
+1. `POEM_PROCESSING_GUIDE.md`;
+2. `TRANSCRIPTION_PHASE_PLAN.md`;
+3. root `HANDOVER.md`;
+4. this prompt;
+5. `poems/thalaikettan-thambi/README.md`;
+6. its `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, and existing page records.
 
-## Staged — தலைகேட்டான் தம்பி
-
-Workspace `poems/thalaikettan-thambi/`.
-Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA pending**. Scope **18–23**. Phase 1 **0/6 NOT STARTED**.
-Corrected direct title: **`தலைகேட்டான் தம்பி`**, spatially split as upper decorated `தலைகேட்டான்` plus lower decorated `தம்பி`; title conflict **0**.
+Resolve/attach the exact 1966 controlling PDF before lexical work. The controlling scan, not OCR/web/catalogue/later witnesses, governs all Tamil readings.
 
 ## Exact next activity
 
-Complete **Phase 3 Gate 4 — canonical Tamil assembly** for `ஆந்தையும் அரசனும்` only. Assemble from verified `pages/0018.md`–`0025.md`; preserve verified spelling, historical forms, punctuation, lineation, source separators and quotation continuity; honor the certified 18→19, 22→23, 23→24 and 24→25 boundary decisions; include physical scan provenance; and use exactly **`# ஆந்தையும் அரசனும்!`** as the canonical heading.
+1. Establish and record SHA-256 from the exact 75-page source bytes.
+2. Acquire complete uncropped/high-resolution views of physical scans **18–23** from that same PDF.
+3. Complete **Phase 1 transcription only** for all six scans, word-for-word from the controlling source.
+4. Preserve old Tamil glyphs/forms, source spelling, punctuation, quotation marks, separators, unusual spacing and lineation.
+5. If a reading remains genuinely unclear, mark it for review rather than guessing.
+6. Keep newly transcribed page records `partial`; do not start Phase 2 until Phase 1 is durably complete.
 
-Stop after Gate 4. Do not begin Gate 5 review/final clearance or `தலைகேட்டான் தம்பி` in the same step.
+## Closed — ஆந்தையும் அரசனும்!
+
+`poems/aanthaiyum-arasanum/` is **CLOSED / RELEASE-CLEARED — 2026-09-07**: Phase 1–4 complete, Phase 3 Tamil FINAL-CLEARED, unresolved 0. Do not reopen it merely because an older copied prompt contains an earlier checkpoint.

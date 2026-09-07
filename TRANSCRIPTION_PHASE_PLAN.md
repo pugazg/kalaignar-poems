@@ -2,25 +2,7 @@
 
 ## Active work queue
 
-### 1. ஆந்தையும் அரசனும் — 1965
-
-Workspace `poems/aanthaiyum-arasanum/`; source `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`; **102 pages / 381,558,891 bytes / SHA-256 `523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**; scope scans **18–25 (8)**.
-
-- intake/range: **COMPLETE**;
-- duplicate check: **PASS — 0 matches**;
-- exact SHA: **LOCKED**;
-- Phase 1: **COMPLETE — 8/8 lexically complete**;
-- Phase 2: **PASS — 8/8 verified / 0 unresolved**;
-- Phase 3 Gate 1: **PASS — physical range 8/8 accounted / printed-page witnesses 0/8 / all `printed_page` values confirmed `null` / no logical numbers assigned**;
-- Gate-1 authority: `poems/aanthaiyum-arasanum/PHASE3_PAGINATION_RECONCILIATION.md`;
-- Phase 3 Gate 2: **PASS — opening 1/1 / internal joins 7/7 / closing 1/1 / unresolved 0 / page-text changes 0**;
-- Gate-2 authority: `poems/aanthaiyum-arasanum/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Phase 3 Gate 3: **PASS — bibliographic `ஆந்தையும் அரசனும்` preserved / direct scan-18 `ஆந்தையும் அரசனும்!` preserved and locked as canonical assembly heading / unresolved 0 / page-text changes 0**;
-- Gate-3 authority: `poems/aanthaiyum-arasanum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- Phase 3 Gate 4+: **NOT STARTED**;
-- exact next gate: **Phase 3 Gate 4 — canonical Tamil assembly**.
-
-### 2. தலைகேட்டான் தம்பி — 1966
+### 1. தலைகேட்டான் தம்பி — 1966
 
 Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf`; **75 pages / 30,952,719 bytes / SHA pending**; scope scans **18–23 (6)**.
 
@@ -28,14 +10,35 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 - duplicate check: **PASS — 0 matches**;
 - exact SHA: **PENDING**;
 - Phase 1: **0/6 NOT STARTED**;
-- direct title: **`தலைகேட்டான் தம்பி`**, split decoratively as upper `தலைகேட்டான்` + lower `தம்பி`;
+- direct title: **`தலைகேட்டான் தம்பி`**, spatially split as upper `தலைகேட்டான்` + lower `தம்பி`;
 - bibliographic/direct title conflict: **0**;
-- Phase 2–4: blocked.
+- Phase 2: **BLOCKED**;
+- Phase 3: **BLOCKED**;
+- Phase 4: **BLOCKED**;
+- exact next activity: **establish exact source SHA and complete Phase 1 transcription for scans 18–23**.
 
-## Most recently completed — பூமுடி
+## Most recently completed — ஆந்தையும் அரசனும்! — 1965
 
-`poems/poomudi/` — **CLOSED / RELEASE-CLEARED — 2026-09-07**.
+Workspace `poems/aanthaiyum-arasanum/`; source `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`; **102 pages / 381,558,891 bytes / SHA-256 `523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**; scope scans **18–25 (8)**.
+
+- Phase 1: **COMPLETE — 8/8**;
+- Phase 2: **PASS — 8/8 VERIFIED / 0 unresolved**;
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gate 2: **PASS**;
+- Phase 3 Gate 3: **PASS**;
+- Phase 3 Gate 4: **PASS — canonical `sections/01.md`**;
+- Phase 3 Gate 5: **PASS — source-completeness 8/8**;
+- Phase 3 Gate 6: **PASS — TAMIL FINAL-CLEARED**;
+- Phase 4: **COMPLETE — RELEASE-CLEARED**;
+- release authority: `poems/aanthaiyum-arasanum/translations/en/RELEASE_REPORT.md`;
+- status: **CLOSED — 2026-09-07**.
+
+Do not reopen completed work without genuinely new source-backed evidence.
+
+## Other preserved completed work
+
+`poems/poomudi/`, `poems/anna-kaviyarangam/`, `poems/gunanayagar-nehru/`, `poems/oruthalaik-kathal/`, `poems/kalaignarin-kavithaigal/`, `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`, and `poems/kanchithan-annan/` remain release-cleared.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4** for `ஆந்தையும் அரசனும்`: create canonical Tamil only from verified `pages/0018.md`–`0025.md`, preserve physical scan provenance and all Gate-2-certified joins/separators/quotation continuity, and use exact canonical source heading **`ஆந்தையும் அரசனும்!`** under Gate 3. Stop before Gate 5 assembly/source-completeness review or Tamil final clearance.
+Proceed with **`தலைகேட்டான் தம்பி` Phase 1** only: lock the exact source SHA, inspect scans **18–23** from the same controlling PDF, transcribe word-for-word, keep first-pass pages `partial`, and do not begin Phase 2 until all six page records are lexically complete.

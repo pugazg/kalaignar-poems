@@ -1,4 +1,8 @@
-# Audit — ஆந்தையும் அரசனும்
+# Audit — ஆந்தையும் அரசனும்!
+
+## Final state
+
+**CLOSED / RELEASE-CLEARED — 2026-09-07.**
 
 - controlling source present: **yes**;
 - physical PDF pages: **102**;
@@ -9,58 +13,35 @@
 - page records: **8/8**;
 - Phase 1 lexically complete: **8/8**;
 - Phase 2 verified: **8/8**;
-- unresolved lexical holds: **0**;
-- Phase 3 Gate 1 pagination reconciliation: **PASS**;
-- Phase 3 Gate 2 boundary/page-join audit: **PASS**;
-- Phase 3 Gate 3 title-witness reconciliation: **PASS**;
-- unresolved boundary/title holds: **0 / 0**;
-- canonical / English files: **0 / 0**.
+- unresolved lexical / historical-glyph holds: **0**.
 
-## Phase-2 authority
+## Phase 3
 
-`PHASE2_SOURCE_CRITICAL_VERIFICATION.md` — **PASS 8/8 VERIFIED**.
+- Gate 1 pagination reconciliation: **PASS** — active scans 8/8; visible printed numerals 0/8; `printed_page: null` confirmed 8/8;
+- Gate 2 boundary/page joins: **PASS** — opening 1/1; internal joins 7/7; closing 1/1; unresolved 0;
+- Gate 3 title reconciliation: **PASS** — bibliographic `ஆந்தையும் அரசனும்` preserved; direct `ஆந்தையும் அரசனும்!` locked as canonical title authority;
+- Gate 4 canonical assembly: **PASS** — `sections/01.md`, blob `1693fd59795ddbc5eef6d0ee614c8502961c6e3d`; scan markers 18–25 = 8/8 exactly once;
+- Gate 5 canonical/source-completeness review: **PASS** — payload equality 8/8; omissions/duplicates/unexpected markers 0/0/0; silent normalization defects 0;
+- Gate 6 Tamil final clearance: **PASS** — Tamil source/canonical layer **FINAL-CLEARED**;
+- unresolved pagination / boundary / title / assembly / completeness issues: **0**.
 
-Phase 2 required exactly three source-backed lexical corrections: scan 21 `ஒளிக்குன்றாம்`, scan 24 `சொன்னார்`, scan 25 `சொன்னான்`.
+## Phase 4
 
-## Phase 3 Gate 1 — pagination
+- reviewed English: `translations/en/sections/01.md` — blob `a6e558f24f086fef4c8b72c6a909d70ae34cd55a` — **REVIEWED / PASS**;
+- reader-facing English: `translations/en/aanthaiyum-arasanum-en.md` — blob `8ba2b7987b7a7d15ca1712f5fa1eb9e410c8d44a`;
+- English scan markers: **8/8 exactly once** in reviewed and reader-facing outputs;
+- Batch 01: **PASS**;
+- reader-facing assembly: **PASS**;
+- editorial / terminology / voice review: **PASS**;
+- release-integrity review: **PASS**;
+- release report: **RELEASE-CLEARED**;
+- unresolved translation / assembly / editorial / release issues: **0**;
+- Tamil verified-page / canonical drift during Phase 4: **0 / 0**.
 
-Authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
+## Final authority
 
-- physical scans **18–25: 8/8 accounted**;
-- direct printed-page numerals admitted: **0/8**;
-- reconciled logical printed-page numerals assigned: **0/8**;
-- durable `printed_page`: **`null` on 8/8**;
-- physical scan numbers are provenance only.
+Release authority: `translations/en/RELEASE_REPORT.md`.
 
-## Phase 3 Gate 2 — boundary / page joins
+**PHASES 1–4 COMPLETE / TAMIL FINAL-CLEARED / RELEASE-CLEARED / 0 UNRESOLVED.**
 
-Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
-
-- opening boundary scan 17→18: **PASS**;
-- internal joins 18→19 through 24→25: **7/7 PASS**;
-- closing boundary scan 25→26: **PASS**;
-- direct poetic continuation 18→19: **certified**;
-- quotation carry-over 22→23: **certified**;
-- quoted-question / speech-tag continuation 23→24: **certified**;
-- separator-owned transition 24→25: **certified; separator remains on scan 24**;
-- page-layer corrections required: **0**;
-- unresolved boundary holds: **0**.
-
-## Phase 3 Gate 3 — title witnesses
-
-Authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-- bibliographic witness preserved: **`ஆந்தையும் அரசனும்`**;
-- direct scan-18 witness preserved: **`ஆந்தையும் அரசனும்!`**;
-- difference: **terminal source-visible exclamation mark**;
-- canonical assembly title authority: **direct scan-18 `ஆந்தையும் அரசனும்!`**;
-- bibliographic form remains metadata/search identity and does not override source punctuation;
-- hybrid/normalized title prohibited;
-- page-layer changes required: **0**;
-- unresolved title holds: **0**.
-
-## Gate result
-
-**PHASE 3 GATES 1–3 PASS / 8/8 VERIFIED / 0 LEXICAL HOLDS / 0 BOUNDARY HOLDS / 0 TITLE HOLDS.**
-
-Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly** from verified pages only, using `ஆந்தையும் அரசனும்!` as the canonical heading and preserving scan provenance and all Gate-2-certified joins. Gate 5 review and Tamil final clearance remain deferred.
+Future textual changes require a documented source-backed reopen.

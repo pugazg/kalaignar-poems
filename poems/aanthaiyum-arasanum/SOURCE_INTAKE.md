@@ -1,43 +1,38 @@
-# Source intake — ஆந்தையும் அரசனும்
+# Source intake — ஆந்தையும் அரசனும்!
 
 ## Controlling source
+
 - filename: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`;
-- scanned image PDF; **102 pages / 381,558,891 bytes**;
+- scanned image PDF: **102 pages / 381,558,891 bytes**;
 - SHA-256: **`523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**;
 - source PDF committed: **No**.
 
-## Bibliographic record supplied by user
+## Bibliographic record
+
 - title: **ஆந்தையும் அரசனும்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1965**.
 
-## Visual source-range intake
+## Visual source range
+
 - scan 17 unrelated prose — neighbour only;
-- scan 18 decorated opening — active; direct title **`ஆந்தையும் அரசனும்!`**;
-- scans 19–25 continuation — active;
+- scan 18 decorated poem opening — direct title **`ஆந்தையும் அரசனும்!`**, author `மு.கருணாநிதி`;
+- scans 19–25 poem continuation;
+- scan 25 source-visible closing ornament;
 - scan 26 unrelated cartoon — neighbour only.
 
 Active scope: **18–25 = 8 scans**.
 
-## Source-access resolution
-The earlier reduced/cropped-renderer hold is **resolved**. Exact source bytes and complete high-resolution views were used for the active scans.
+## Final processing state
 
-## Current state
-- intake: **COMPLETE**;
+- intake / range: **COMPLETE**;
 - exact SHA: **LOCKED**;
-- Phase 1: **COMPLETE — 8/8 lexically complete**;
-- Phase 2: **PASS — 8/8 verified / 0 unresolved**;
-- Phase 3 Gate 1 pagination: **PASS**;
-- Phase 3 Gate 2 boundary/page joins: **PASS — opening 1/1 / joins 7/7 / closing 1/1 / unresolved 0**;
-- Phase 3 Gate 3 title witnesses: **PASS — bibliographic `ஆந்தையும் அரசனும்` preserved; direct `ஆந்தையும் அரசனும்!` selected as canonical assembly authority; unresolved 0**;
-- Phase 3 Gate 4+: **NOT STARTED**;
-- Phase 4: **NOT STARTED**.
+- Phase 1: **COMPLETE — 8/8**;
+- Phase 2: **PASS — 8/8 VERIFIED**;
+- Phase 3 Gates 1–6: **COMPLETE / PASS — TAMIL FINAL-CLEARED**;
+- canonical Tamil: `sections/01.md` — blob `1693fd59795ddbc5eef6d0ee614c8502961c6e3d`;
+- Phase 4: **COMPLETE — RELEASE-CLEARED**;
+- release authority: `translations/en/RELEASE_REPORT.md`;
+- unresolved issues: **0**.
 
-Authorities:
-
-- `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-- `PHASE3_PAGINATION_RECONCILIATION.md`;
-- `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly** from verified page records `0018`–`0025`, using exact source heading `ஆந்தையும் அரசனும்!`, preserving certified joins/separators/quotation continuity and physical scan provenance.
+The earlier reduced/cropped-renderer limitation is resolved and no longer an active hold. This source intake is closed. Future textual changes require a documented source-backed reopen.
