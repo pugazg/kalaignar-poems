@@ -4,14 +4,9 @@
 
 Workspace: `poems/poomudi/`.
 
-Controlling PDF: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`.
+Controlling PDF: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf` — **65 pages / 247,645,717 bytes / SHA-256 `7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**.
 
-Exact source identity:
-
-- physical PDF pages: **65**;
-- file size: **247,645,717 bytes**;
-- SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
-- user-scoped work range: **physical scan 4 only**.
+User-scoped work range: **physical scan 4 only**.
 
 ### Intake / source identity
 
@@ -26,33 +21,36 @@ Exact source identity:
 **COMPLETE — 1/1 VERIFIED / PASS.**
 
 - verified page: `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
-- verification authority: `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`;
-- user-triggered correction record: `poems/poomudi/PHASE2_REVERIFICATION_2026-09-07.md`;
-- final affected source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`;
+- final source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`;
 - unresolved Tamil readings: **0**.
 
 ### Phase 3 — structure / completeness / canonical Tamil / final clearance
 
 #### Gate 1 — physical scan ↔ printed-page reconciliation
 
-**COMPLETE / PASS.**
+**COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`.
 
-Authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`.
-
-- active scans accounted: **1/1 — scan 4**;
-- visible source-printed page numerals: **0**;
-- `printed_page: null`: **formally certified**;
-- inferred printed numerals: **0**;
-- Gate-1 page text/frontmatter changes: **0 / 0**;
-- unresolved pagination issues: **0**.
+- active scans: **1/1 — scan 4**;
+- source-visible printed numerals: **0**;
+- `printed_page: null`: **certified**;
+- inferred numerals: **0**.
 
 #### Gate 2 — boundary / page-join audit
 
+**COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+- opening boundary: **PASS**;
+- internal physical joins: **0**;
+- closing boundary: **PASS**;
+- surrounding scans 3/5: **PASS**;
+- unresolved boundary/join issues: **0**;
+- page text/frontmatter changes: **0 / 0**.
+
+#### Gate 3 — title-witness reconciliation
+
 **NOT STARTED.**
 
-Exact next gate: certify the one-page work's opening and closing boundaries using scans 3–5 and record internal physical joins as **0**.
-
-Gates 3–6 remain blocked until Gate 2 is complete.
+Gates 4–6 remain blocked until Gate 3 is complete.
 
 ### Phase 4 — translation / release
 
@@ -60,7 +58,7 @@ Gates 3–6 remain blocked until Gate 2 is complete.
 
 ### Exact next activity
 
-Perform **Phase 3 Gate 2 only**. Do not begin Gate 3, canonical assembly, completeness review, Tamil final clearance, or translation in the same activity.
+Perform **Phase 3 Gate 3 only**. Reconcile direct title/signature and bibliographic title/author witnesses. Do not begin canonical assembly in the same activity.
 
 ---
 
