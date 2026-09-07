@@ -28,19 +28,30 @@ Active range: **18–23 = 6 physical scans**.
 
 ### Scan-18 title layout
 
-The complete direct title is **`தலைகேட்டான் தம்பி`**. It is distributed across a single decorated page composition: `தலைகேட்டான்` appears in the upper decorated heading and `தம்பி` appears as a decorated lower title element. The earlier intake interpretation that treated `தலைகேட்டான்` alone as the direct title is superseded by the user's direct source correction. Bibliographic and direct title witnesses therefore agree; intake title conflict: **0**.
+The complete direct title is **`தலைகேட்டான் தம்பி`**. It is distributed across a single decorated page composition: `தலைகேட்டான்` appears in the upper decorated heading and `தம்பி` appears as a decorated lower title element. Direct and bibliographic title witnesses agree; intake title conflict: **0**.
 
-Phase 3 Gate 3 must still preserve and document the source layout, but it no longer has a lexical title disagreement to resolve.
+Scan 18 also carries the source-position attribution **`கருணாநிதி`**. Preserve that shorter direct form as source evidence; the bibliographic authorship remains **கலைஞர் மு. கருணாநிதி** in metadata.
 
 ## Duplicate check
 
 Repository code search for **தலைகேட்டான் தம்பி** returned **0 existing matches** before onboarding.
 
+## Phase-1 source access / transcription
+
+The same attached 75-page controlling PDF was visually inspected for scans **18–23**. The user-supplied word-for-word extraction was used only as an alignment aid; it did not replace the source scans as authority.
+
+- page records: **6/6 populated**;
+- Phase 1: **COMPLETE — 6/6 lexically populated**;
+- current page status: **6 `partial` / 0 `verified`**;
+- independent source-critical re-read: **NOT STARTED**;
+- formal Phase-3 pagination/boundary/title-layout reconciliation: **NOT STARTED**.
+
 ## Current state
 
 - range/bibliographic intake: **COMPLETE**;
 - exact SHA-256: **PENDING**;
-- Phase 1: **0/6 NOT STARTED**;
-- Phase 2–4: **NOT STARTED**.
+- Phase 1: **COMPLETE — 6/6**;
+- Phase 2: **NOT STARTED**;
+- Phase 3–4: **BLOCKED**.
 
-Exact next activity after the 1965 work: Phase 1 scans **18–23**.
+Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 2 source-critical visual verification** scans **18–23** only. Do not begin Phase 3 in the same activity.

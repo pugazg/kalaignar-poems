@@ -8,7 +8,7 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. **Live main is authoritativ
 
 Workspace: `poems/thalaikettan-thambi/`.
 
-Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA-256 pending**.
+Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA-256 pending exact-byte hash**.
 
 Scope: physical scans **18–23 = 6**.
 
@@ -16,14 +16,20 @@ Current state:
 
 - intake/range: **COMPLETE**;
 - duplicate check: **PASS — 0 matches**;
+- active-scan visibility: **6/6**;
 - exact SHA: **PENDING**;
-- Phase 1: **0/6 NOT STARTED**;
-- Phase 2–4: **BLOCKED by Phase 1**;
+- Phase 1: **COMPLETE — 6/6 lexically populated**;
+- page statuses: **6 `partial` / 0 `verified`**;
+- Phase 2: **NOT STARTED**;
+- Phase 3–4: **BLOCKED**;
 - corrected complete direct title: **`தலைகேட்டான் தம்பி`**;
 - scan-18 decoration spatially splits the title as upper `தலைகேட்டான்` + lower `தம்பி`;
-- bibliographic/direct title conflict: **0**.
+- bibliographic/direct title conflict: **0**;
+- direct scan-18 source-position attribution: **`கருணாநிதி`**.
 
-Exact next activity: establish the exact controlling-source SHA from the same supplied 1966 PDF, obtain complete high-resolution views of scans **18–23**, and perform Phase 1 word-for-word Tamil transcription into page records. Preserve old glyphs, source spelling, punctuation, separators and lineation. Leave newly transcribed pages `partial`; do not begin Phase 2 in the same activity.
+The complete first-pass text is now present in `poems/thalaikettan-thambi/pages/0018.md`–`0023.md`. It was built from direct controlling-scan inspection with the user's word-for-word extraction used only as an alignment aid. It is not yet independently source-verified.
+
+Exact next activity: **lock the pending SHA-256 from the exact attached 75-page bytes, then perform Phase 2 source-critical visual verification scans 18–23.** Check every lexical ending, compact/historical glyph, punctuation mark, quotation, separator, unusual spacing and line break; correct only source-backed differences; promote only fully checked pages to `verified`; stop before Phase 3.
 
 ## Newly closed — ஆந்தையும் அரசனும்! (1965)
 
