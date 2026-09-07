@@ -4,7 +4,7 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **பூமுடி*
 
 ## Current status
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
+**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS AFTER SOURCE-BACKED REVERIFICATION / PHASE 3 NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`;
 - physical PDF pages: **65**;
@@ -16,8 +16,10 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **பூமுடி*
 - source PDF committed to repository: **No**;
 - verified page: `pages/0004.md`;
 - Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
+- post-verification correction record: `PHASE2_REVERIFICATION_2026-09-07.md`;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
+- source-backed corrected readings: **4**;
 - unresolved Tamil readings: **0**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
@@ -33,6 +35,26 @@ The page has no visible printed numeral; `printed_page: null` remains source-sup
 - edition/year: **1965**;
 - catalogue/context description: `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
 
+## Source-backed re-verification
+
+After the initial Phase-2 PASS, the user flagged four readings and stated that all other transcribed words were correct. Direct enlarged-scan reinspection confirmed:
+
+- `கமழ்கின்ற` → `கமழுகின்ற`;
+- `தலையது` → `தலையிது`;
+- `பொன்னைவைத்தால்` → `பொன்னை வைத்தால்`;
+- `உனக்காக` → `உனைக் காக்க`.
+
+The affected verified lines are now:
+
+```text
+அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது
+பொன்னை வைத்தால் நோகுமென்று
+...
+உனைக் காக்க எனைத் துறப்பேன்.
+```
+
+All other poem wording, punctuation and lineation remain unchanged.
+
 ## Source boundaries
 
 - scan **3**: full-page Anna portrait — neighbouring evidence only;
@@ -43,7 +65,7 @@ Formal boundary certification remains Phase 3 Gate 2.
 
 ## Parallel-witness note
 
-The overlapping core passage appears again in the repository's 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** sources. Phase 2 confirms that these are later textual reuses / parallel witnesses, not authorities for normalizing the 1965 page. Source-specific 1965 wording, spacing, punctuation and lineation remain locked to scan 4.
+The overlapping core passage appears again in the repository's 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** sources. These are later textual reuses / parallel witnesses, not authorities for normalizing the 1965 page. The corrected 1965 closing agrees with the 1968 `உனைக் காக்க எனைத் துறப்பேன்.`; the 1969 witness reads `உனக்காக எனைத் துறப்பேன்; என் -`.
 
 ## Exact next activity
 

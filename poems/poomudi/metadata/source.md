@@ -40,18 +40,29 @@ Scans 3 and 5 are excluded from the poem transcription. Formal opening/closing c
 
 ## Phase 2 verified source layer
 
-`../pages/0004.md` is now **VERIFIED / PASS** after an independent source-critical reread of the enlarged 1965 scan.
+`../pages/0004.md` is **VERIFIED / PASS** after the initial independent source-critical reread and a later focused source-backed re-verification of four user-flagged readings.
 
-Verification authority: `../PHASE2_SOURCE_VERIFICATION.md`.
+Authorities:
+
+- `../PHASE2_SOURCE_VERIFICATION.md` — final Phase-2 authority;
+- `../PHASE2_REVERIFICATION_2026-09-07.md` — post-verification correction record.
+
+Final verification accounting:
 
 - active pages: **1/1 VERIFIED**;
-- Phase-1 corrections required: **0**;
 - poem lines checked: **23/23**;
+- source-backed corrected readings: **4**;
 - compact/historical glyph pass: **PASS**;
 - punctuation/spacing/lineation: **PASS**;
 - unresolved Tamil readings: **0**.
 
-Source-specific verified forms include:
+Corrected 1965 source readings:
+
+- `அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது`;
+- `பொன்னை வைத்தால் நோகுமென்று`;
+- final `உனைக் காக்க எனைத் துறப்பேன்.`
+
+Other source-specific verified forms remain unchanged, including:
 
 - `அரவணைக்கும் அண்ணன் உள்ளம் — அவர்`;
 - `முக்கனியும். தோற்றுவிடும்!`;
@@ -59,8 +70,7 @@ Source-specific verified forms include:
 - `தம்பியரை-கழகத்தை!`;
 - `சமதர்மப் பூ`;
 - `தாய்மொழி தமிழே`;
-- `பூ முடியே ! புகழ்முடியே !`;
-- final `உனக்காக எனைத் துறப்பேன்.`
+- `பூ முடியே ! புகழ்முடியே !`.
 
 ## Parallel witnesses — secondary only
 
@@ -69,13 +79,13 @@ The core passage is reused later in:
 - `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — 1968;
 - `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md` — 1969.
 
-These later sources are **parallel textual reuses**, not controlling witnesses for the 1965 page. Their `அன்னை உள்ளம்`, `கால் மலர்கள்`, alternate punctuation/spacing and different continuation states must not overwrite the verified 1965 witness.
+These later sources are **parallel textual reuses**, not controlling witnesses for the 1965 page. The corrected 1965 close `உனைக் காக்க எனைத் துறப்பேன்.` agrees with the 1968 witness; the 1969 witness uses `உனக்காக எனைத் துறப்பேன்; என் -`. This relationship is comparison evidence only.
 
 ## Current processing state
 
 - source intake / exact identity: **COMPLETE**;
 - Phase 1: **1/1 COMPLETE**;
-- Phase 2: **1/1 VERIFIED / PASS**;
+- Phase 2: **1/1 VERIFIED / PASS after correction/reverification**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
 - canonical Tamil: **none**;

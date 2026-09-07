@@ -22,7 +22,8 @@ Read completely before source-dependent changes:
 10. `poems/poomudi/audit.md`
 11. `poems/poomudi/HANDOVER.md`
 12. `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`
-13. `poems/poomudi/pages/0004.md`
+13. `poems/poomudi/PHASE2_REVERIFICATION_2026-09-07.md`
+14. `poems/poomudi/pages/0004.md`
 
 ## Controlling source
 
@@ -39,9 +40,24 @@ Direct source witnesses: title **பூமுடி**; stylized signature **ம�
 
 ## Current state
 
-**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS AFTER SOURCE-BACKED REVERIFICATION / PHASE 3 NOT STARTED.**
 
-`pages/0004.md` is verified. `PHASE2_SOURCE_VERIFICATION.md` is the verification authority. Phase-1 corrections required: **0**. Unresolved Tamil readings: **0**.
+`pages/0004.md` is verified. `PHASE2_SOURCE_VERIFICATION.md` is the final Phase-2 authority. `PHASE2_REVERIFICATION_2026-09-07.md` records the user-triggered correction of four readings.
+
+Locked corrections:
+
+- `கமழ்கின்ற` → `கமழுகின்ற`;
+- `தலையது` → `தலையிது`;
+- `பொன்னைவைத்தால்` → `பொன்னை வைத்தால்`;
+- `உனக்காக` → `உனைக் காக்க`.
+
+The verified affected lines are:
+
+- `அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது`;
+- `பொன்னை வைத்தால் நோகுமென்று`;
+- `உனைக் காக்க எனைத் துறப்பேன்.`
+
+The user explicitly stated that all other transcribed words were correct. Do not reopen or change any other poem wording without new source-backed evidence.
 
 The overlapping passage also appears in the repository's 1968 `அண்ணா கவியரங்கம்` and 1969 `இதயத்தைத் தந்திடு அண்ணா` sources. They are later textual reuses / parallel witnesses only. Do not normalize the verified 1965 wording/punctuation to them.
 

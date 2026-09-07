@@ -23,12 +23,13 @@ Active workspace: `poems/poomudi/`.
 
 ## Current durable state
 
-**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS AFTER SOURCE-BACKED REVERIFICATION / PHASE 3 NOT STARTED.**
 
 - verified page: `pages/0004.md`;
 - Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
+- post-verification correction authority: `PHASE2_REVERIFICATION_2026-09-07.md`;
 - visible printed page numeral: **none**; `printed_page: null`;
-- Phase-1 corrections required during Phase 2: **0**;
+- source-backed corrected readings after user recheck: **4**;
 - compact/historical glyph pass: **PASS**;
 - unresolved Tamil readings: **0**;
 - Phase 3: **NOT STARTED**;
@@ -38,6 +39,23 @@ Active workspace: `poems/poomudi/`.
 
 Neighbouring scans 3 and 5 remain boundary evidence only.
 
+## Source-backed correction / no-regression control
+
+The user flagged exactly four readings as wrong and stated that the rest of the transcription was correct. Direct enlarged-scan reinspection confirmed these corrections:
+
+- `கமழ்கின்ற` → `கமழுகின்ற`;
+- `தலையது` → `தலையிது`;
+- `பொன்னைவைத்தால்` → `பொன்னை வைத்தால்`;
+- `உனக்காக` → `உனைக் காக்க`.
+
+The affected verified lines are now:
+
+- `அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது`;
+- `பொன்னை வைத்தால் நோகுமென்று`;
+- `உனைக் காக்க எனைத் துறப்பேன்.`
+
+All other poem wording, punctuation and lineation remain unchanged.
+
 ## Parallel textual reuse
 
 The shared core passage appears later in:
@@ -45,7 +63,7 @@ The shared core passage appears later in:
 - `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` (1968);
 - `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md` (1969).
 
-The 1965 page is not to be normalized to either later reuse. Phase 2 independently reconfirmed source-specific forms such as `அண்ணன் உள்ளம்`, `முக்கனியும். தோற்றுவிடும்!`, `கால்மலர்கள்`, `தம்பியரை-கழகத்தை!`, `சமதர்மப் பூ`, `பூ முடியே ! புகழ்முடியே !`, and `உனக்காக எனைத் துறப்பேன்.`
+The 1965 page is not to be normalized to either later reuse. The corrected 1965 close agrees with the 1968 `உனைக் காக்க எனைத் துறப்பேன்.`; the 1969 witness has `உனக்காக எனைத் துறப்பேன்; என் -`.
 
 ## Exact next activity
 

@@ -36,7 +36,7 @@ The top-margin handwritten/library-style mark is non-print material.
 
 | ID | Physical scan | Visible printed page | Classification | Tamil status | English status |
 |---:|---:|---|---|---|---|
-| 01 | 4 | none | Kalaignar poem | Phase 2 `verified` / PASS | not started |
+| 01 | 4 | none | Kalaignar poem | Phase 2 `verified` / PASS after correction/reverification | not started |
 
 Only physical scan **4** is in the user-requested poem scope.
 
@@ -52,16 +52,26 @@ Scans 3 and 5 remain excluded. Formal boundary certification is deferred to Phas
 
 Phase 1: **COMPLETE — 1/1 first-pass transcribed.**
 
-Phase 2: **COMPLETE — 1/1 VERIFIED / PASS.**
+Phase 2: **COMPLETE — 1/1 VERIFIED / PASS after source-backed re-verification.**
 
 - verified page: `pages/0004.md`;
-- verification authority: `PHASE2_SOURCE_VERIFICATION.md`;
-- Phase-1 corrections required by Phase 2: **0**;
+- final verification authority: `PHASE2_SOURCE_VERIFICATION.md`;
+- correction record: `PHASE2_REVERIFICATION_2026-09-07.md`;
+- source-backed corrected readings: **4**;
 - historical/compact glyph pass: **PASS**;
 - punctuation/spacing/lineation: **PASS**;
 - unresolved Tamil readings: **0**.
 
-The later 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** sources contain the shared core passage and were used only as non-controlling comparison. Their differences were not imported into the 1965 source layer.
+The corrected readings are:
+
+- `கமழ்கின்ற` → `கமழுகின்ற`;
+- `தலையது` → `தலையிது`;
+- `பொன்னைவைத்தால்` → `பொன்னை வைத்தால்`;
+- `உனக்காக` → `உனைக் காக்க`.
+
+All other poem text was retained unchanged after direct reinspection.
+
+The later 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** sources contain the shared core passage and remain non-controlling comparison witnesses only.
 
 ## Current state
 

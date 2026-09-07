@@ -2,7 +2,7 @@
 
 ## Current state
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
+**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS AFTER SOURCE-BACKED REVERIFICATION / PHASE 3 NOT STARTED.**
 
 ### Source identity
 
@@ -36,7 +36,8 @@
 - Phase 2 verified: **1/1 / PASS**;
 - verified page: `pages/0004.md`;
 - Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
-- Phase-1 corrections required during verification: **0**;
+- post-verification correction authority: `PHASE2_REVERIFICATION_2026-09-07.md`;
+- source-backed corrections after user recheck: **4**;
 - historical/compact-glyph pass: **PASS**;
 - punctuation / spacing / lineation: **PASS**;
 - unresolved Tamil readings: **0**;
@@ -46,10 +47,25 @@
 - English derivative files: **0**;
 - OCR-derived body text accepted: **0**.
 
-Source-sensitive 1965 forms independently reconfirmed:
+### Corrected source readings
 
-- `அறிவுமணங் கமழ்கின்ற அண்ணன் தலையது`;
-- `பொன்னைவைத்தால் நோகுமென்று`;
+The initial verified record contained four defects. The user flagged exactly these readings, and focused direct reinspection of the 1965 scan confirmed the corrections:
+
+- `கமழ்கின்ற` → `கமழுகின்ற`;
+- `தலையது` → `தலையிது`;
+- `பொன்னைவைத்தால்` → `பொன்னை வைத்தால்`;
+- `உனக்காக` → `உனைக் காக்க`.
+
+The affected lines now read:
+
+- `அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது`;
+- `பொன்னை வைத்தால் நோகுமென்று`;
+- `உனைக் காக்க எனைத் துறப்பேன்.`
+
+All other poem wording, punctuation and lineation remained unchanged.
+
+Source-sensitive 1965 forms independently reconfirmed include:
+
 - `அரவணைக்கும் அண்ணன் உள்ளம் — அவர்`;
 - `முக்கனியும். தோற்றுவிடும்!`;
 - `கால்மலர்கள்`;
@@ -58,16 +74,13 @@ Source-sensitive 1965 forms independently reconfirmed:
 - `தாய்மொழி தமிழே`;
 - `பூ முடியே ! புகழ்முடியே !`;
 - `தேடிவரும் வாழ்த்துக் குவியலிலே தினம்`;
-- `பாடிவரும் வண்டாக நான் பறப்பேன்...`;
-- `உனக்காக எனைத் துறப்பேன்.`
+- `பாடிவரும் வண்டாக நான் பறப்பேன்...`.
 
 ### Parallel-witness reconciliation
 
-The user-identified 1969 **இதயத்தைத் தந்திடு அண்ணா** witness and the 1968 **அண்ணா கவியரங்கம்** witness contain the shared core passage. They were checked only as secondary comparison after direct source rereading.
+The 1969 **இதயத்தைத் தந்திடு அண்ணா** witness and 1968 **அண்ணா கவியரங்கம்** witness contain the shared core passage. They remain secondary comparison only.
 
-Result: **parallel textual reuse confirmed; no harmonization permitted**.
-
-Important later-source differences include `அன்னை உள்ளம்`, `கால் மலர்கள்`, comma-separated `தம்பியரை, கழகத்தை!`, different `பூமுடியே`/`புகழ் முடியே` spacing and the 1968 close `உனைக் காக்க எனைத் துறப்பேன்.` These do not alter the verified 1965 witness.
+The corrected 1965 close `உனைக் காக்க எனைத் துறப்பேன்.` agrees with the 1968 witness. The 1969 witness instead has `உனக்காக எனைத் துறப்பேன்; என் -`. No harmonization is permitted beyond what the controlling 1965 scan itself establishes.
 
 ## Exact next activity
 

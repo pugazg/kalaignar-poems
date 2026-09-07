@@ -13,13 +13,28 @@ Exact source identity:
 
 ## Result
 
-**PHASE 2 COMPLETE — 1/1 VERIFIED / PASS.**
+**PHASE 2 COMPLETE — 1/1 VERIFIED / PASS AFTER SOURCE-BACKED REVERIFICATION.**
 
 Verified page authority: `pages/0004.md`.
 
+The initial Phase-2 pass incorrectly reported zero corrections. The user then flagged exactly four readings for source reinspection. A focused enlarged-scan reread confirmed all four as transcription defects and corrected them without changing any other poem text.
+
+### Corrected readings
+
+| Prior transcription | Correct controlling-source reading |
+|---|---|
+| `கமழ்கின்ற` | `கமழுகின்ற` |
+| `தலையது` | `தலையிது` |
+| `பொன்னைவைத்தால்` | `பொன்னை வைத்தால்` |
+| `உனக்காக` | `உனைக் காக்க` |
+
+Correction/reverification authority: `PHASE2_REVERIFICATION_2026-09-07.md`.
+
+## Final Phase-2 accounting
+
 - active source pages independently reread: **1/1**;
 - poem lines checked: **23/23**;
-- Phase-1 corrections required: **0**;
+- source-backed transcription corrections: **4**;
 - title witness: **PASS**;
 - source-visible author signature: **PASS**;
 - compact/historical-glyph verification: **PASS**;
@@ -29,12 +44,10 @@ Verified page authority: `pages/0004.md`.
 - visible printed page numeral: **none** / `printed_page: null` retained;
 - unresolved Tamil readings: **0**.
 
-## Directly confirmed 1965 witness
+## Final verified 1965 source locks
 
-The independent visual reread confirmed the complete Phase-1 transcription without lexical or punctuation correction. Source-specific locks include:
-
-- `அறிவுமணங் கமழ்கின்ற அண்ணன் தலையது`;
-- `பொன்னைவைத்தால் நோகுமென்று`;
+- `அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது`;
+- `பொன்னை வைத்தால் நோகுமென்று`;
 - `அரவணைக்கும் அண்ணன் உள்ளம் — அவர்`;
 - `மா, பலா, வாழையெனும் முக்கனியும். தோற்றுவிடும்!`;
 - `கால்மலர்கள் வாடிடினும் — அவர்`;
@@ -45,37 +58,23 @@ The independent visual reread confirmed the complete Phase-1 transcription witho
 - `நாடிவரும் பூ முடியே ! புகழ்முடியே ! உமைத்`;
 - `தேடிவரும் வாழ்த்துக் குவியலிலே தினம்`;
 - `பாடிவரும் வண்டாக நான் பறப்பேன்...`;
-- `உனக்காக எனைத் துறப்பேன்.`
+- `உனைக் காக்க எனைத் துறப்பேன்.`
 
-The decorative title **பூமுடி** and stylized lower-page source signature **மு.கருணாநிதி** were also reconfirmed. The top-margin handwritten/library mark and decorative/portrait material remain non-poem source material.
+The decorative title **பூமுடி** and stylized lower-page source signature **மு.கருணாநிதி** remain reconfirmed. The top-margin handwritten/library mark and decorative/portrait material remain non-poem source material.
 
 ## Parallel-witness comparison
 
-The user correctly identified that the core passage reappears in **இதயத்தைத் தந்திடு அண்ணா**. It also appears in **அண்ணா கவியரங்கம்**.
-
-Comparison authorities:
+The core passage reappears later in:
 
 - 1968: `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md`;
 - 1969: `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md`.
 
-These are **later textual reuses / parallel witnesses**, not controlling witnesses for the 1965 `பூமுடி` page. They share the core poetic sequence but contain source-specific wording, spacing, punctuation and continuation differences.
+These are **later textual reuses / parallel witnesses**, not controlling witnesses for the 1965 `பூமுடி` page. The 1965 scan remains controlling.
 
-Selected reconciled variants:
-
-| 1965 `பூமுடி` | 1968 `அண்ணா கவியரங்கம்` | 1969 `இதயத்தைத் தந்திடு அண்ணா` | Decision |
-|---|---|---|---|
-| `அரவணைக்கும் அண்ணன் உள்ளம் — அவர்` | `அரவணைக்கும் அன்னை உள்ளம்—அவர்` | `அரவணைக்கும் அன்னை உள்ளம்! அவர்` | retain 1965 |
-| `முக்கனியும். தோற்றுவிடும்!` | `முக்கனியும் தோற்றுவிடும்.` | `முக்கனியும் தோற்றுவிடும்-` | retain 1965 |
-| `கால்மலர்கள்` | `கால் மலர்கள்` | `கால் மலர்கள்` | retain 1965 |
-| `தம்பியரை-கழகத்தை!` | `தம்பியரை, கழகத்தை!` | `தம்பியரை, கழகத்தை!` | retain 1965 |
-| `சமதர்மப் பூ மணக்க,` | `சமதர்மப் பூ மணக்க` | `சமதர்மப்பூ மணக்க` | retain 1965 |
-| `பூ முடியே ! புகழ்முடியே !` | `பூமுடியே! புகழ் முடியே!` | `பூமுடியே! புகழ் முடியே!` | retain 1965 |
-| `உனக்காக எனைத் துறப்பேன்.` | `உனைக் காக்க எனைத் துறப்பேன்.` | `உனக்காக எனைத் துறப்பேன்; என் -` | retain 1965 |
-
-The comparison strengthens provenance discipline; it does not authorize harmonization.
+Selected source-specific differences remain intentionally unreconciled. For the corrected closing line, the 1965 source now reads `உனைக் காக்க எனைத் துறப்பேன்.`, agreeing with the 1968 witness; the 1969 witness instead reads `உனக்காக எனைத் துறப்பேன்; என் -`.
 
 ## Phase boundary
 
-Phase 2 is now complete. No Phase-3 structure, boundary, assembly, completeness or final-clearance work was performed in this activity.
+Phase 2 is complete after the documented re-verification. No Phase-3 structure, boundary, assembly, completeness or final-clearance work was performed in the correction activity.
 
 **Exact next activity:** Phase 3 **Gate 1 — physical scan ↔ printed-page reconciliation only** for scan 4. Confirm the one-page physical scope and the absence/presence of a source-visible printed numeral; do not begin Gate 2 in the same activity.
