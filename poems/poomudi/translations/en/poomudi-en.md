@@ -1,0 +1,28 @@
+# Flower Crown
+
+<!-- scan_page: 4 -->
+
+Upon Anna's head, fragrant with the scent of wisdom,
+thinking gold itself would hurt him,
+they placed a crown of flowers.
+Softer than the softness of flower petals,
+a sacred heart — a loving heart —
+Anna's embracing heart — his
+flower-petals speak Tamil —
+mango, jackfruit, banana—the three fruits. Even they would be defeated!
+The flowers of his eyes become spears — become swords
+if any harm should come to Mother Tamil!
+Though the flowers of his feet may wither — his
+arduous journey will not stop!
+The flowers of his hands hold together the younger brothers—the Kazhagam!
+Those very flowers forgive enemies
+and make their heads bow like ripened ears of paddy.
+As democracy's flower sways,
+as the flower of social equality spreads fragrance,
+with Tamil, the mother tongue, as life's garden,
+O flower crown sought by the dancing breeze! O crown of fame! Among
+the heaps of greetings that seek you, each day
+I shall fly as a bee that comes singing...
+To guard you, I shall give myself up.
+
+M. Karunanidhi
