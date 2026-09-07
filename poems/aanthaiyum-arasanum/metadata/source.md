@@ -25,17 +25,17 @@ See `../SECONDARY_WITNESS_RESEARCH.md`.
 - candidate secondary witnesses: **1**, inclusion not proven;
 - web/secondary Tamil imported into page records: **0**.
 
-A user-supplied word-for-word extraction derived from the same 1965 source was used only as a lexical/alignment control. The controlling scans remained the authority.
-
 ## Processing state
 - duplicate-title search: **PASS — 0 matches**;
 - exact-byte source identity: **LOCKED**;
-- complete uncropped/high-resolution source visibility for active scans: **8/8**;
+- complete source visibility for active scans: **8/8**;
 - Phase 1: **COMPLETE — 8/8 lexically complete**;
 - Phase 2: **PASS — 8/8 verified / 0 unresolved**;
 - Phase-2 report: `../PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-- Phase 3: **NOT STARTED**;
-- printed-page state: pending Phase-3 Gate 1 reconciliation;
+- Phase 3 Gate 1: **PASS**;
+- pagination report: `../PHASE3_PAGINATION_RECONCILIATION.md`;
+- printed-page state: **8/8 `null` confirmed — no direct numeral witness and no source-supported logical number assigned**;
+- Phase 3 Gate 2+: **NOT STARTED**;
 - canonical Tamil / English: none / none.
 
-Phase 2 corrected three Phase-1 lexical readings: scan-21 `ஒளிக்குன்றாம்`, scan-24 `சொன்னார்`, and scan-25 `சொன்னான்`.
+Physical scan numbers remain provenance identifiers and are not treated as printed-page numbers.

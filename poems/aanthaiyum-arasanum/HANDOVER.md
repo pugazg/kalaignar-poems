@@ -6,20 +6,22 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: scans **18–25**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Current status: **PHASE 1 COMPLETE 8/8 / PHASE 2 PASS 8/8 VERIFIED / 0 UNRESOLVED / PHASE 3 NOT STARTED**.
+Current status: **PHASE 1 COMPLETE 8/8 / PHASE 2 PASS 8/8 VERIFIED / PHASE 3 GATE 1 PASS / 0 UNRESOLVED**.
 
-Direct source lock: decorated opening title **`ஆந்தையும் அரசனும்!`** and author line **`மு.கருணாநிதி`**.
+Direct source lock: title **`ஆந்தையும் அரசனும்!`**; author **`மு.கருணாநிதி`**.
 
 Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
+Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
 
-Phase 2 independently reread all eight page records against the exact controlling scans and required three lexical corrections:
+Gate 1 result:
 
-- scan 21: `ஒளிக்குன்றும்` → **`ஒளிக்குன்றாம்`**;
-- scan 24: `சொன்னர்` → **`சொன்னார்`**;
-- scan 25: `சொன்னன்` → **`சொன்னான்`**.
+- physical scans 18–25: **8/8 accounted**;
+- direct printed-page numeral witnesses: **0/8**;
+- logical printed-page numbers safely assignable from a source-supported anchor: **0/8**;
+- all eight page records keep `printed_page: null`, now as a **reconciled/confirmed result**, not a pending placeholder;
+- scan numbers remain physical provenance only;
+- no lexical text changed and all pages remain `verified`.
 
-All other difficult Phase-1 controls were reconfirmed, including `தேனைப் பிழிற்றும்`, scan-20 `புல்லலூர் எயிற்றியனார்`, `வற்றா அன்பைப்`, `தளர் வுற்றான்`, `நாளையோ இன்றே வந்தே சேர்வார்`, and the scan-25 placement of `சென்றார்!` before the separator.
+Do not reinterpret `null` as a claim that the whole magazine was unpaginated. It is scoped to the evidence for this poem.
 
-Secondary-witness research remains provenance-only; admitted secondary lexical witnesses: **0**.
-
-Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–25. Record direct printed numerals only where visibly present; distinguish reconciled logical pagination from direct witnesses. Do not begin page-join audit, title reconciliation or canonical assembly until Gate 1 is durably complete.
+Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit**. Verify opening boundary, joins **18→19, 19→20, 20→21, 21→22, 22→23, 23→24, 24→25**, separator/quotation/line continuities, and closing boundary. Do not start canonical assembly until the ordered Phase-3 gates pass.
