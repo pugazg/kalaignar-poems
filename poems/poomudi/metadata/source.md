@@ -3,92 +3,65 @@
 ## Work identity
 
 - title: **பூமுடி** — direct decorative title witness on physical scan 4;
-- author: **மு. கருணாநிதி** — directly confirmed by the stylized lower-page source signature; user catalogue gives **கலைஞர் மு. கருணாநிதி**;
-- publication: **முரசொலி-அண்ணா மலர்** — user-supplied bibliographic record;
-- publication year / edition: **1965** — user-supplied bibliographic record;
-- work location: physical PDF scan **4** only.
+- author: **மு. கருணாநிதி** — source-visible lower-page signature; user catalogue gives **கலைஞர் மு. கருணாநிதி**;
+- publication: **முரசொலி-அண்ணா மலர்**;
+- year: **1965**;
+- work location: physical scan **4 only**.
 
-User-supplied catalogue/context description, preserved separately from source text:
-
-> முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை
+User-supplied context: `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
 
 ## Controlling source
 
 - filename: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`;
-- source type: image-only scanned PDF;
 - physical PDF pages: **65**;
 - file size: **247,645,717 bytes**;
 - SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
-- source PDF committed to repository: **No**.
+- source PDF committed: **No**.
 
-## Scan location / pagination
+## Pagination / boundaries
 
-- active poem scan: **4**;
-- visible printed page numeral on scan 4: **none**;
+- active scan: **4**;
+- visible printed page numeral: **none**;
 - page-layer `printed_page`: **`null`**;
-- the small top-margin handwritten/library-style mark is non-print material and is not pagination.
+- scan 3: Anna portrait — neighbour only;
+- scan 5: separate Penang correspondence — neighbour only.
 
-Formal pagination reconciliation remains Phase 3 Gate 1.
-
-## Boundary evidence
-
-- scan 3: full-page Anna portrait — neighbour only;
-- scan 4: decorated `பூமுடி` title + complete scoped poem + stylized `மு.கருணாநிதி` signature;
-- scan 5: separate Penang mayoral correspondence page — neighbour only.
-
-Scans 3 and 5 are excluded from the poem transcription. Formal opening/closing certification remains Phase 3 Gate 2.
+Formal pagination reconciliation remains Phase 3 Gate 1; formal boundaries remain Gate 2.
 
 ## Phase 2 verified source layer
 
-`../pages/0004.md` is **VERIFIED / PASS** after the initial independent source-critical reread and a later focused source-backed re-verification of four user-flagged readings.
+`../pages/0004.md` is **VERIFIED / PASS**. Authorities:
 
-Authorities:
+- `../PHASE2_SOURCE_VERIFICATION.md`;
+- `../PHASE2_REVERIFICATION_2026-09-07.md`.
 
-- `../PHASE2_SOURCE_VERIFICATION.md` — final Phase-2 authority;
-- `../PHASE2_REVERIFICATION_2026-09-07.md` — post-verification correction record.
+Final corrected 1965 source readings:
 
-Final verification accounting:
+- `அறிவுமணங் கமழுகின்ற அண்ணன் தலைமீது`;
+- `பொன்வைத்தால் நோகுமென்று`;
+- final `உனைக்காக்க எனைத் துறப்பேன்.`
 
-- active pages: **1/1 VERIFIED**;
-- poem lines checked: **23/23**;
-- source-backed corrected readings: **4**;
-- compact/historical glyph pass: **PASS**;
-- punctuation/spacing/lineation: **PASS**;
-- unresolved Tamil readings: **0**.
+Correction history:
 
-Corrected 1965 source readings:
+- `கமழ்கின்ற` → `கமழுகின்ற`;
+- `தலையது` → `தலைமீது`;
+- `பொன்னைவைத்தால்` → `பொன்வைத்தால்`;
+- `உனக்காக` → `உனைக்காக்க`.
 
-- `அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது`;
-- `பொன்னை வைத்தால் நோகுமென்று`;
-- final `உனைக் காக்க எனைத் துறப்பேன்.`
-
-Other source-specific verified forms remain unchanged, including:
-
-- `அரவணைக்கும் அண்ணன் உள்ளம் — அவர்`;
-- `முக்கனியும். தோற்றுவிடும்!`;
-- `கால்மலர்கள்`;
-- `தம்பியரை-கழகத்தை!`;
-- `சமதர்மப் பூ`;
-- `தாய்மொழி தமிழே`;
-- `பூ முடியே ! புகழ்முடியே !`.
+The interim readings `தலையிது`, `பொன்னை வைத்தால்`, and `உனைக் காக்க` are superseded. All other poem text remains unchanged under the user's no-regression instruction.
 
 ## Parallel witnesses — secondary only
 
-The core passage is reused later in:
+The overlapping core passage appears in 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா**. They are later parallel textual reuses, not controlling witnesses. Final 1965 `உனைக்காக்க` must remain source-specific.
 
-- `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — 1968;
-- `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md` — 1969.
+## Current state
 
-These later sources are **parallel textual reuses**, not controlling witnesses for the 1965 page. The corrected 1965 close `உனைக் காக்க எனைத் துறப்பேன்.` agrees with the 1968 witness; the 1969 witness uses `உனக்காக எனைத் துறப்பேன்; என் -`. This relationship is comparison evidence only.
-
-## Current processing state
-
-- source intake / exact identity: **COMPLETE**;
+- source identity: **COMPLETE**;
 - Phase 1: **1/1 COMPLETE**;
-- Phase 2: **1/1 VERIFIED / PASS after correction/reverification**;
+- Phase 2: **1/1 VERIFIED / PASS**;
+- unresolved Tamil readings: **0**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
-- canonical Tamil: **none**;
-- English derivative: **none**.
+- canonical Tamil / English derivative: **none / none**.
 
-Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only** for scan 4.
+Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**.

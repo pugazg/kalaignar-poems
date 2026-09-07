@@ -2,89 +2,56 @@
 
 ## Controlling source
 
-- source filename: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`;
-- source type: scanned image PDF;
-- physical PDF page count: **65**;
+- filename: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`;
+- physical pages: **65**;
 - file size: **247,645,717 bytes**;
 - SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
-- source PDF committed to repository: **No**.
+- source PDF committed: **No**.
 
-Exact-byte source identity is **COMPLETE**.
-
-## User-supplied bibliographic record
+## Work identity / scope
 
 - title: **பூமுடி**;
-- author: **கலைஞர் மு. கருணாநிதி**;
-- publication: **முரசொலி-அண்ணா மலர்**;
-- edition/year: **1965**;
-- catalogue/context description: `முரசொலி அண்ணா மலருக்காக அண்ணனுக்கு வாழ்த்துச் சொல்லி தம்பி கலைஞர் எழுதிய கவிதை`.
+- user-supplied author: **கலைஞர் மு. கருணாநிதி**;
+- source signature: **மு.கருணாநிதி**;
+- publication/year: **முரசொலி-அண்ணா மலர் / 1965**;
+- active work scope: **physical scan 4 only**;
+- scan 3 and scan 5: neighbour-only boundary evidence.
 
-The catalogue description remains context metadata and is not inserted into the source transcription.
+## Current source layer
 
-## Direct source witnesses
+Phase 1: **1/1 COMPLETE**.  
+Phase 2: **1/1 VERIFIED / PASS after user-triggered source corrections**.
 
-Physical scan 4 directly shows:
+Authorities:
 
-- decorative title **பூமுடி**;
-- complete scoped poem body;
-- stylized lower-page author signature **மு.கருணாநிதி**;
-- no visible printed page numeral.
+- `pages/0004.md`;
+- `PHASE2_SOURCE_VERIFICATION.md`;
+- `PHASE2_REVERIFICATION_2026-09-07.md`.
 
-The top-margin handwritten/library-style mark is non-print material.
-
-## Processing scope
-
-| ID | Physical scan | Visible printed page | Classification | Tamil status | English status |
-|---:|---:|---|---|---|---|
-| 01 | 4 | none | Kalaignar poem | Phase 2 `verified` / PASS after correction/reverification | not started |
-
-Only physical scan **4** is in the user-requested poem scope.
-
-## Boundary evidence
-
-- scan **3** — full-page portrait of Anna; neighbour only;
-- scan **4** — active `பூமுடி` page;
-- scan **5** — separate Penang mayoral correspondence page; neighbour only.
-
-Scans 3 and 5 remain excluded. Formal boundary certification is deferred to Phase 3 Gate 2.
-
-## Phase 1 / Phase 2
-
-Phase 1: **COMPLETE — 1/1 first-pass transcribed.**
-
-Phase 2: **COMPLETE — 1/1 VERIFIED / PASS after source-backed re-verification.**
-
-- verified page: `pages/0004.md`;
-- final verification authority: `PHASE2_SOURCE_VERIFICATION.md`;
-- correction record: `PHASE2_REVERIFICATION_2026-09-07.md`;
-- source-backed corrected readings: **4**;
-- historical/compact glyph pass: **PASS**;
-- punctuation/spacing/lineation: **PASS**;
-- unresolved Tamil readings: **0**.
-
-The corrected readings are:
+Final corrected forms:
 
 - `கமழ்கின்ற` → `கமழுகின்ற`;
-- `தலையது` → `தலையிது`;
-- `பொன்னைவைத்தால்` → `பொன்னை வைத்தால்`;
-- `உனக்காக` → `உனைக் காக்க`.
+- `தலையது` → `தலைமீது`;
+- `பொன்னைவைத்தால்` → `பொன்வைத்தால்`;
+- `உனக்காக` → `உனைக்காக்க`.
 
-All other poem text was retained unchanged after direct reinspection.
+Final affected lines:
 
-The later 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** sources contain the shared core passage and remain non-controlling comparison witnesses only.
+- `அறிவுமணங் கமழுகின்ற அண்ணன் தலைமீது`;
+- `பொன்வைத்தால் நோகுமென்று`;
+- `உனைக்காக்க எனைத் துறப்பேன்.`
+
+The interim forms `தலையிது`, `பொன்னை வைத்தால்`, and `உனைக் காக்க` are superseded. All other poem wording, punctuation and lineation remain unchanged under the user's no-regression instruction.
 
 ## Current state
 
-- intake: **REGISTERED**;
 - exact source identity: **COMPLETE**;
-- work location: **physical scan 4**;
-- Phase 1: **COMPLETE — 1/1**;
-- Phase 2: **COMPLETE — 1/1 VERIFIED / PASS**;
+- visible printed page numeral: **none** / `printed_page: null`;
+- unresolved Tamil readings: **0**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
-- canonical Tamil: **none**;
-- English derivative: **none**.
+- canonical Tamil / English derivative: **none / none**.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Confirm the one-page physical scope and the absence/presence of a source-visible printed numeral. Do not begin Gate 2 in the same activity.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Do not begin Gate 2 in the same activity.

@@ -2,14 +2,7 @@
 
 ## Trigger
 
-After the initial Phase-2 PASS, the user requested a new source check of exactly four readings and explicitly stated that all other transcribed words were correct:
-
-- `கமழ்கின்ற`;
-- `தலையது`;
-- `பொன்னைவைத்தால்`;
-- `உனக்காக`.
-
-Because `pages/0004.md` had already been marked `verified`, this request was treated as a formal source-backed reopen of those four locations only.
+After the initial Phase-2 PASS, the user requested source rechecks of four readings and explicitly stated that the rest of the transcription was correct. The first correction pass still left three of those locations wrong, so the user supplied the final exact source forms.
 
 ## Controlling source
 
@@ -18,59 +11,52 @@ Because `pages/0004.md` had already been marked `verified`, this request was tre
 - physical PDF pages: **65**;
 - file size: **247,645,717 bytes**;
 - SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
-- inspected scope: **physical scan 4 only**.
+- correction scope: **physical scan 4 only**.
 
-The enlarged 1965 scan is controlling. Later witnesses were consulted only after direct reinspection.
+## Final correction result
 
-## Reverification result
+**PASS — final user-controlled source corrections recorded.**
 
-**PASS — four source-backed corrections required.**
-
-| Flagged prior reading | Reverified 1965 source reading | Action |
+| Original flagged reading | Incorrect interim reading, if any | Final 1965 reading |
 |---|---|---|
-| `கமழ்கின்ற` | `கமழுகின்ற` | corrected |
-| `தலையது` | `தலையிது` | corrected |
-| `பொன்னைவைத்தால்` | `பொன்னை வைத்தால்` | corrected |
-| `உனக்காக` | `உனைக் காக்க` | corrected |
+| `கமழ்கின்ற` | — | `கமழுகின்ற` |
+| `தலையது` | `தலையிது` | `தலைமீது` |
+| `பொன்னைவைத்தால்` | `பொன்னை வைத்தால்` | `பொன்வைத்தால்` |
+| `உனக்காக` | `உனைக் காக்க` | `உனைக்காக்க` |
 
-Accordingly, the affected source lines are now:
+Final affected lines:
 
 ```text
-அறிவுமணங் கமழுகின்ற அண்ணன் தலையிது
-பொன்னை வைத்தால் நோகுமென்று
+அறிவுமணங் கமழுகின்ற அண்ணன் தலைமீது
+பொன்வைத்தால் நோகுமென்று
 ```
 
-and the closing line is:
+Final closing line:
 
 ```text
-உனைக் காக்க எனைத் துறப்பேன்.
+உனைக்காக்க எனைத் துறப்பேன்.
 ```
 
 ## No-regression control
 
-The user explicitly limited the defect report to those four readings. All other poem wording, punctuation and lineation in the prior verified page were rechecked and retained unchanged.
+The user stated that the other transcription is correct. Accordingly:
 
-Therefore:
-
-- corrected lexical/spacing locations: **4**;
-- other poem-text changes: **0**;
-- title changes: **0**;
-- signature changes: **0**;
-- printed-page changes: **0**;
-- unresolved Tamil readings after recheck: **0**.
+- final corrected reading groups: **4**;
+- changes in this second correction round: **3** (`தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`);
+- other poem wording changes: **0**;
+- other punctuation/lineation changes: **0**;
+- title/signature/pagination changes: **0**;
+- unresolved Tamil readings: **0**.
 
 ## Parallel-witness note
 
-The corrected final line `உனைக் காக்க எனைத் துறப்பேன்.` agrees with the 1968 **அண்ணா கவியரங்கம்** witness. The 1969 **இதயத்தைத் தந்திடு அண்ணா** witness has `உனக்காக எனைத் துறப்பேன்; என் -` and remains a later, non-controlling textual reuse.
-
-This agreement/disagreement is provenance evidence only; the 1965 scan independently controls the correction.
+The final 1965 closing form `உனைக்காக்க எனைத் துறப்பேன்.` is source-specific. It must not be harmonized to the 1968 **அண்ணா கவியரங்கம்** form `உனைக் காக்க எனைத் துறப்பேன்.` or the 1969 **இதயத்தைத் தந்திடு அண்ணா** form beginning `உனக்காக`.
 
 ## Final status
 
-- `pages/0004.md`: **VERIFIED** after correction/reverification;
-- `PHASE2_SOURCE_VERIFICATION.md`: updated final Phase-2 authority;
+- `pages/0004.md`: **VERIFIED** with the final corrections;
+- `PHASE2_SOURCE_VERIFICATION.md`: final Phase-2 authority synchronized;
 - Phase 2: **COMPLETE — 1/1 VERIFIED / PASS**;
-- unresolved Tamil readings: **0**;
 - Phase 3: **NOT STARTED**.
 
 Exact next activity remains **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**.
