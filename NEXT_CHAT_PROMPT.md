@@ -14,7 +14,7 @@ Workspace `poems/thalaikettan-thambi/`.
 
 Controlling PDF: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA-256 pending**. Scope scans **18–23**. Scan 17 unrelated photograph; scan 24 unrelated cartoon. Phase 1 **0/6 NOT STARTED**.
 
-Important: direct scan-18 heading is `தலைகேட்டான்`; bibliographic title is `தலைகேட்டான் தம்பி`. Preserve both; do not reconcile before Gate 3.
+Corrected scan-18 title witness: complete decorated direct title **`தலைகேட்டான் தம்பி`** = upper decorated `தலைகேட்டான்` + lower decorated `தம்பி` on the same opening page. Bibliographic title is identical; title conflict **0**. Preserve the split page layout as provenance.
 
 ## Exact next activity
 

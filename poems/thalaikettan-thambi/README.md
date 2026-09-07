@@ -12,12 +12,13 @@ Source-first workspace for the user-identified Kalaignar poem **தலைகே�
 - SHA-256: **pending exact-byte hash**;
 - user-scoped work range: physical scans **18–23** = **6 scans**;
 - bibliographic title: **தலைகேட்டான் தம்பி**;
+- direct scan-18 decorated title: **தலைகேட்டான் தம்பி**;
 - bibliographic author: **கலைஞர் மு. கருணாநிதி**;
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1966**;
 - repository duplicate-title search: **0 existing matches**;
 - Phase 1: **0/6 NOT STARTED**.
 
-Important title-witness note: the decorated heading visibly shown on scan **18** reads **`தலைகேட்டான்`** in the supplied rendering, while the user/catalogue title is **`தலைகேட்டான் தம்பி`**. Preserve both as separate witnesses; do not create a hybrid or silently rewrite the scan title. Formal authority decision belongs to Phase 3 Gate 3 after Phase-1/2 source work.
+Important source-layout note: scan **18** presents the title as one decorated composition split spatially across the page — **`தலைகேட்டான்`** in the upper decorated heading and **`தம்பி`** as a decorated lower element. The complete direct title witness is therefore **`தலைகேட்டான் தம்பி`**. The earlier intake note treating `தலைகேட்டான்` alone as the direct title is superseded. Title conflict at intake: **0**.
 
 Visual intake: scan **17** is an unrelated full-page photograph; scans **18–23** are the scoped work; scan **24** is an unrelated cartoon page.
 
@@ -27,4 +28,4 @@ Visual intake: scan **17** is an unrelated full-page photograph; scans **18–23
 
 ## Exact next activity
 
-Keep this work staged while `ஆந்தையும் அரசனும்` is processed first, then perform Phase 1 scans **18–23** with source-faithful old-glyph transcription. No page may be marked verified during Phase 1.
+Keep this work staged while `ஆந்தையும் அரசனும்` is processed first, then perform Phase 1 scans **18–23** with source-faithful old-glyph transcription. Preserve the split decorative title layout in provenance. No page may be marked verified during Phase 1.

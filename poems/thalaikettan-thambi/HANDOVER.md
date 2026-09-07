@@ -6,7 +6,7 @@ Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் ம�
 
 Scope: scans **18–23 (6 scans)**. Scan 17 is an unrelated photograph; scan 24 an unrelated cartoon.
 
-Bibliographic title: **தலைகேட்டான் தம்பி**. Direct scan-18 heading currently visible: **தலைகேட்டான்**. Preserve both; Gate 3 resolves authority only after verified transcription.
+Bibliographic title: **தலைகேட்டான் தம்பி**. Complete direct scan-18 decorated title: **தலைகேட்டான் தம்பி**. Layout provenance: upper decorated `தலைகேட்டான்` + lower decorated `தம்பி` on the same opening page. Direct/bibliographic title conflict: **0**. The earlier provisional hold based on `தலைகேட்டான்` alone is superseded.
 
 Status: **INTAKE COMPLETE EXCEPT SHA / PHASE 1 NOT STARTED — 0/6**.
 

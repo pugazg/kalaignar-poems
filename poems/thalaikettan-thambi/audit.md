@@ -11,6 +11,6 @@
 - verified pages: **0**;
 - canonical / English files: **0 / 0**.
 
-Title witness difference is explicitly held: scan heading `தலைகேட்டான்` vs bibliographic `தலைகேட்டான் தம்பி`. No reconciliation has been performed.
+Title-witness correction: scan 18 carries the complete decorated title **`தலைகேட்டான் தம்பி`**, split spatially as upper `தலைகேட்டான்` and lower decorated `தம்பி`. Direct and bibliographic title witnesses agree; lexical title conflicts: **0**. The earlier intake hold based on `தலைகேட்டான்` alone is superseded.
 
 No OCR/outside-edition Tamil imported; no old glyph modernization; no inferred printed page numbers.

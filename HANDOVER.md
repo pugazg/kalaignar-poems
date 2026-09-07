@@ -22,7 +22,7 @@ Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் ம�
 
 Scope: scans **18–23 = 6**. Scan 17 unrelated photograph; scan 24 unrelated cartoon. Status: **intake complete except checksum / Phase 1 0/6 NOT STARTED**.
 
-Title-witness hold: scan 18 visibly shows `தலைகேட்டான்`; user/catalogue title is `தலைகேட்டான் தம்பி`. Preserve both without reconciliation until Phase 3 Gate 3.
+Corrected title witness: scan 18 carries the complete decorated title **`தலைகேட்டான் தம்பி`**, split across the same page as upper `தலைகேட்டான்` and lower decorated `தம்பி`. This agrees with the bibliographic title; lexical title conflict **0**. Preserve the split layout as provenance.
 
 ## Most recently closed work — பூமுடி
 

@@ -6,11 +6,11 @@ Scope: physical scans **18–23**.
 
 | Scan | Role at intake | `printed_page` | Phase-1 state |
 |---:|---|---|---|
-| 18 | decorated opening; direct heading `தலைகேட்டான்` | `null` pending reconciliation | not-started |
+| 18 | decorated opening; complete title `தலைகேட்டான் தம்பி` split as upper `தலைகேட்டான்` + lower decorated `தம்பி` | `null` pending reconciliation | not-started |
 | 19 | continuation | `null` pending reconciliation | not-started |
 | 20 | continuation | `null` pending reconciliation | not-started |
 | 21 | continuation | `null` pending reconciliation | not-started |
 | 22 | continuation | `null` pending reconciliation | not-started |
 | 23 | continuation / user-scoped closing scan | `null` pending reconciliation | not-started |
 
-Neighbour evidence: scan 17 unrelated photograph; scan 24 unrelated cartoon. Formal pagination/boundary/title reconciliation remains Phase 3.
+Neighbour evidence: scan 17 unrelated photograph; scan 24 unrelated cartoon. Formal pagination/boundary/title-layout reconciliation remains Phase 3, but there is no lexical title conflict: direct and bibliographic titles are both `தலைகேட்டான் தம்பி`.

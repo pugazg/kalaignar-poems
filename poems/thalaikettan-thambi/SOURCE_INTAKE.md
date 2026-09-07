@@ -20,15 +20,17 @@
 ## Direct visual intake
 
 - scan **17**: unrelated full-page photograph — neighbour only;
-- scan **18**: decorated opening with visible heading `தலைகேட்டான்` — active;
+- scan **18**: decorated opening; complete direct title **`தலைகேட்டான் தம்பி`** — active;
 - scans **19–23**: continuing scoped work — active;
 - scan **24**: unrelated cartoon — neighbour only.
 
 Active range: **18–23 = 6 physical scans**.
 
-### Title-witness hold
+### Scan-18 title layout
 
-The direct scan-18 heading `தலைகேட்டான்` and bibliographic title `தலைகேட்டான் தம்பி` are not silently reconciled. Both are retained pending full transcription, verification and Phase 3 Gate 3.
+The complete direct title is **`தலைகேட்டான் தம்பி`**. It is distributed across a single decorated page composition: `தலைகேட்டான்` appears in the upper decorated heading and `தம்பி` appears as a decorated lower title element. The earlier intake interpretation that treated `தலைகேட்டான்` alone as the direct title is superseded by the user's direct source correction. Bibliographic and direct title witnesses therefore agree; intake title conflict: **0**.
+
+Phase 3 Gate 3 must still preserve and document the source layout, but it no longer has a lexical title disagreement to resolve.
 
 ## Duplicate check
 

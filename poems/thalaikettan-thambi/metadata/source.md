@@ -3,12 +3,13 @@
 ## Work identity
 
 - bibliographic title: **தலைகேட்டான் தம்பி**;
-- direct decorated scan-18 heading currently visible: **தலைகேட்டான்**;
+- complete direct decorated scan-18 title: **தலைகேட்டான் தம்பி**;
+- source-layout form: upper decorated `தலைகேட்டான்` + lower decorated `தம்பி` on the same opening page;
 - bibliographic author: **கலைஞர் மு. கருணாநிதி**;
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1966**;
 - physical scope: scans **18–23**.
 
-Do not normalize the direct heading to the bibliographic title. Gate 3 will decide canonical-title authority after verified source work.
+The earlier provisional metadata that recorded only `தலைகேட்டான்` as the direct heading is superseded. Direct and bibliographic title witnesses agree lexically. Preserve the split decorated layout as source provenance; do not collapse that layout into a claim that `தம்பி` is absent.
 
 ## Controlling source
 
