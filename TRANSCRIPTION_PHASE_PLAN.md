@@ -9,8 +9,10 @@ Workspace `poems/aanthaiyum-arasanum/`; source `TVA_PRL_0001631_முரசெ�
 - intake/range: **COMPLETE**;
 - duplicate check: **PASS — 0 matches**;
 - exact SHA: **PENDING**;
-- Phase 1: **0/8 NOT STARTED**;
-- Phase 2–4: blocked until prior phase completion.
+- Phase 1: **STARTED — scan 18 partial / 0 of 8 pages complete / 0 verified**;
+- direct title lock: **`ஆந்தையும் அரசனும்!`**;
+- source-access hold: current renderer crops the page; unseen lower text must not be guessed;
+- Phase 2–4: blocked until Phase 1 completion.
 
 ### 2. தலைகேட்டான் தம்பி — 1966
 
@@ -20,13 +22,14 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 - duplicate check: **PASS — 0 matches**;
 - exact SHA: **PENDING**;
 - Phase 1: **0/6 NOT STARTED**;
-- title-witness hold: direct `தலைகேட்டான்` vs bibliographic `தலைகேட்டான் தம்பி`;
+- direct title: **`தலைகேட்டான் தம்பி`**, split decoratively as upper `தலைகேட்டான்` + lower `தம்பி`;
+- bibliographic/direct title conflict: **0**;
 - Phase 2–4: blocked.
 
 ## Most recently completed — பூமுடி
 
-`poems/poomudi/` — **CLOSED / RELEASE-CLEARED — 2026-09-07** with Phase 1–4 complete and unresolved Tamil/release issues 0/0.
+`poems/poomudi/` — **CLOSED / RELEASE-CLEARED — 2026-09-07**.
 
 ## Exact next activity
 
-Start **ஆந்தையும் அரசனும் Phase 1 scans 18–25**. Transcription only: direct scan, source-faithful old glyphs, punctuation and lineation; use `partial`/`needs-review`, never `verified`. After its Phase-1 completion, activate the 1966 six-scan work.
+Complete scan 18 of **ஆந்தையும் அரசனும்** from a full uncropped rendering of the controlling source, then continue Phase 1 scans 19–25. Use `partial`/`needs-review`, never `verified`; no secondary witness may substitute for unseen source text.
