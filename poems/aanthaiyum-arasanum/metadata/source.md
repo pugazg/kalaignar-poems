@@ -35,7 +35,10 @@ See `../SECONDARY_WITNESS_RESEARCH.md`.
 - Phase 3 Gate 1: **PASS**;
 - pagination report: `../PHASE3_PAGINATION_RECONCILIATION.md`;
 - printed-page state: **8/8 `null` confirmed — no direct numeral witness and no source-supported logical number assigned**;
-- Phase 3 Gate 2+: **NOT STARTED**;
+- Phase 3 Gate 2: **PASS**;
+- boundary report: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- boundary state: **opening 1/1 PASS / internal joins 7/7 PASS / closing 1/1 PASS / unresolved 0 / page-text changes 0**;
+- Phase 3 Gate 3+: **NOT STARTED**;
 - canonical Tamil / English: none / none.
 
-Physical scan numbers remain provenance identifiers and are not treated as printed-page numbers.
+Physical scan numbers remain provenance identifiers and are not treated as printed-page numbers. Gate 2 preserves source-owned separator and quotation continuity across page boundaries; it does not normalize verified text.

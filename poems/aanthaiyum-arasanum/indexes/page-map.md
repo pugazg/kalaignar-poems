@@ -5,11 +5,12 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 Scope: **physical scans 18–25**.
 
 Phase-3 Gate-1 pagination authority: `../PHASE3_PAGINATION_RECONCILIATION.md`.
+Phase-3 Gate-2 boundary authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 | Scan | Role / directly visible structure | Printed-page result | Verification state |
 |---:|---|---|---|
 | 18 | decorated opening; direct title `ஆந்தையும் அரசனும்!`; author `மு.கருணாநிதி`; illustration | `null` — no direct numeral; no logical number assigned | **verified** |
-| 19 | continuation; verse blocks + separator | `null` — no direct numeral; no logical number assigned | **verified** |
+| 19 | continuation; verse blocks + separators | `null` — no direct numeral; no logical number assigned | **verified** |
 | 20 | continuation; poem text + decorative panel + illustration | `null` — no direct numeral; no logical number assigned | **verified** |
 | 21 | continuation; central poem column + decorative border | `null` — no direct numeral; no logical number assigned | **verified** |
 | 22 | continuation; poem text + decorative panel + illustration | `null` — no direct numeral; no logical number assigned | **verified** |
@@ -17,8 +18,22 @@ Phase-3 Gate-1 pagination authority: `../PHASE3_PAGINATION_RECONCILIATION.md`.
 | 24 | continuation; poem text + decorative panel + separator + illustration | `null` — no direct numeral; no logical number assigned | **verified** |
 | 25 | closing scan; verse blocks + separators + closing ornament | `null` — no direct numeral; no logical number assigned | **verified** |
 
-Phase 1 lexical transcription: **8/8 complete**. Phase 2 source-critical verification: **8/8 PASS / 0 unresolved**. Phase 3 Gate 1: **PASS — physical range 8/8 accounted; printed-page witnesses 0/8; `printed_page` confirmed `null` on 8/8**.
+Phase 1 lexical transcription: **8/8 complete**. Phase 2 source-critical verification: **8/8 PASS / 0 unresolved**. Phase 3 Gate 1: **PASS**. Phase 3 Gate 2: **PASS**.
+
+## Certified boundary map
+
+| Boundary | Gate-2 state | Assembly-sensitive note |
+|---|---|---|
+| 17→18 | PASS | unrelated prose → decorated poem opening; no carry-over |
+| 18→19 | PASS | direct poetic continuation: `...மன்னர்` → `வாளை உருவிக்...`; do not insert separator |
+| 19→20 | PASS | clean verse transition; do not invent boundary punctuation/separator |
+| 20→21 | PASS | clean verse transition; preserve page-layer lineation |
+| 21→22 | PASS | new quotation begins on scan 22; opening quote belongs to scan 22 |
+| 22→23 | PASS | one quotation carries across the page boundary and closes on scan 23 |
+| 23→24 | PASS | quoted question closes on scan 23; `எனக் கேட்டார் அருகிருந்தோர்.` continues the sentence on scan 24 |
+| 24→25 | PASS | source separator is owned by scan 24; retain once before scan-25 text |
+| 25→26 | PASS | decorative poem close → unrelated cartoon; no poem continuation |
 
 Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit** for opening, joins 18→19 through 24→25, and closing boundary. Do not begin canonical assembly until the ordered Phase-3 gates pass.
+Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation**. Canonical assembly remains blocked until the title authority is explicitly recorded.

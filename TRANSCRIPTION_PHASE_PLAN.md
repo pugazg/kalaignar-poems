@@ -13,8 +13,10 @@ Workspace `poems/aanthaiyum-arasanum/`; source `TVA_PRL_0001631_முரசெ�
 - Phase 2: **PASS — 8/8 verified / 0 unresolved**;
 - Phase 3 Gate 1: **PASS — physical range 8/8 accounted / printed-page witnesses 0/8 / all `printed_page` values confirmed `null` / no logical numbers assigned**;
 - Gate-1 authority: `poems/aanthaiyum-arasanum/PHASE3_PAGINATION_RECONCILIATION.md`;
-- Phase 3 Gate 2+: **NOT STARTED**;
-- exact next gate: **Phase 3 Gate 2 — boundary / page-join audit**.
+- Phase 3 Gate 2: **PASS — opening 1/1 / internal joins 7/7 / closing 1/1 / unresolved 0 / page-text changes 0**;
+- Gate-2 authority: `poems/aanthaiyum-arasanum/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Phase 3 Gate 3+: **NOT STARTED**;
+- exact next gate: **Phase 3 Gate 3 — title-witness reconciliation**.
 
 ### 2. தலைகேட்டான் தம்பி — 1966
 
@@ -34,4 +36,4 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 2** for `ஆந்தையும் அரசனும்`: certify opening boundary, joins **18→19 through 24→25**, quotation/separator/poetic-line continuity, and closing boundary against the controlling 1965 source. Do not jump to canonical assembly before the remaining ordered Phase-3 gates pass.
+Perform **Phase 3 Gate 3** for `ஆந்தையும் அரசனும்`: reconcile bibliographic `ஆந்தையும் அரசனும்` with direct decorated scan-18 `ஆந்தையும் அரசனும்!`, preserve both witnesses, and record explicit title authority for canonical assembly. Do not begin canonical assembly before Gate 3 passes.

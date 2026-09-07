@@ -27,8 +27,15 @@ The earlier reduced/cropped-renderer hold is **resolved**. Exact source bytes an
 - exact SHA: **LOCKED**;
 - Phase 1: **COMPLETE — 8/8 lexically complete**;
 - Phase 2: **PASS — 8/8 verified / 0 unresolved**;
-- Phase 3–4: **NOT STARTED**.
+- Phase 3 Gate 1 pagination: **PASS**;
+- Phase 3 Gate 2 boundary/page joins: **PASS — opening 1/1 / joins 7/7 / closing 1/1 / unresolved 0**;
+- Phase 3 Gate 3+: **NOT STARTED**;
+- Phase 4: **NOT STARTED**.
 
-Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
+Authorities:
 
-Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–25.
+- `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
+- `PHASE3_PAGINATION_RECONCILIATION.md`;
+- `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+
+Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation** between bibliographic `ஆந்தையும் அரசனும்` and direct scan-18 `ஆந்தையும் அரசனும்!`. Preserve both witnesses and record the canonical assembly authority explicitly.

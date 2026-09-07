@@ -6,22 +6,35 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: scans **18–25**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Current status: **PHASE 1 COMPLETE 8/8 / PHASE 2 PASS 8/8 VERIFIED / PHASE 3 GATE 1 PASS / 0 UNRESOLVED**.
+Current status: **PHASE 1 COMPLETE 8/8 / PHASE 2 PASS 8/8 VERIFIED / PHASE 3 GATES 1–2 PASS / 0 UNRESOLVED**.
 
 Direct source lock: title **`ஆந்தையும் அரசனும்!`**; author **`மு.கருணாநிதி`**.
 
-Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
-Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
+Authorities:
+
+- Phase 2: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
+- Phase 3 Gate 1: `PHASE3_PAGINATION_RECONCILIATION.md`;
+- Phase 3 Gate 2: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
 Gate 1 result:
 
 - physical scans 18–25: **8/8 accounted**;
 - direct printed-page numeral witnesses: **0/8**;
 - logical printed-page numbers safely assignable from a source-supported anchor: **0/8**;
-- all eight page records keep `printed_page: null`, now as a **reconciled/confirmed result**, not a pending placeholder;
-- scan numbers remain physical provenance only;
-- no lexical text changed and all pages remain `verified`.
+- all eight page records keep `printed_page: null` as a reconciled result.
 
-Do not reinterpret `null` as a claim that the whole magazine was unpaginated. It is scoped to the evidence for this poem.
+Gate 2 result:
 
-Exact next activity: **Phase 3 Gate 2 — boundary / page-join audit**. Verify opening boundary, joins **18→19, 19→20, 20→21, 21→22, 22→23, 23→24, 24→25**, separator/quotation/line continuities, and closing boundary. Do not start canonical assembly until the ordered Phase-3 gates pass.
+- opening scan 17→18: **PASS**;
+- joins 18→19 through 24→25: **7/7 PASS**;
+- closing scan 25→26: **PASS**;
+- direct poetic continuation 18→19: **certified**;
+- quotation carry-over 22→23: **certified**;
+- quoted-question / speech-tag carry-over 23→24: **certified**;
+- scan-24 separator before scan-25 unit: **certified; retain once on scan 24**;
+- page-layer corrections: **0**;
+- unresolved boundary holds: **0**.
+
+All eight page records remain `verified`.
+
+Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation**. Preserve both the bibliographic title `ஆந்தையும் அரசனும்` and direct decorated scan-18 `ஆந்தையும் அரசனும்!`, and explicitly decide which witness governs canonical assembly. Do not silently normalize punctuation. Do not begin canonical assembly until Gate 3 passes.
