@@ -10,44 +10,24 @@
 
 User bibliographic record: title **பூமுடி**, author **கலைஞர் மு. கருணாநிதி**, publication **முரசொலி-அண்ணா மலர்**, year **1965**.
 
-## Direct source witness
+Direct scan-4 witnesses: decorated title **பூமுடி**, complete poem, stylized signature **மு.கருணாநிதி**, no source-printed page numeral. The top-margin handwritten/library mark is non-print material.
 
-Physical scan **4** shows the decorated title **பூமுடி**, complete poem body, stylized signature **மு.கருணாநிதி**, and no source-printed page numeral.
+## Final processing state
 
-## Processing scope
-
-| Physical scan | Role | Tamil state |
+| Scan | Role | Final state |
 |---:|---|---|
-| 3 | full-page Anna portrait; pre-work neighbour | excluded / Gate 2 certified |
-| 4 | sole active `பூமுடி` work scan | Phase 2 verified; Gates 1–3 PASS |
-| 5 | separate Penang mayoral correspondence; post-work neighbour | excluded / Gate 2 certified |
+| 3 | Anna portrait | excluded / pre-work boundary witness |
+| 4 | complete `பூமுடி` work | verified / canonical / translated / release-cleared |
+| 5 | Penang mayoral correspondence | excluded / post-work boundary witness |
 
-## Phase 3 authority state
-
-- Gate 1 pagination: **COMPLETE / PASS** — `printed_page: null` certified;
-- Gate 2 boundaries: **COMPLETE / PASS** — opening/closing PASS, internal joins **0**;
-- Gate 3 title witness: **COMPLETE / PASS**.
-
-Gate 3 reconciles:
-
-- direct title `பூமுடி` ↔ bibliographic title **பூமுடி** — exact agreement;
-- source signature `மு.கருணாநிதி` ↔ bibliographic author **கலைஞர் மு. கருணாநிதி** — compatible forms, preserved in their respective source/metadata layers;
-- title conflicts / author conflicts / hybrid titles: **0 / 0 / 0**.
-
-Canonical title authority for later assembly is the direct scan-4 form `பூமுடி`.
-
-## Current state
-
-- source identity: **COMPLETE**;
 - Phase 1: **1/1 COMPLETE**;
 - Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–3: **COMPLETE / PASS**;
-- Gate 4: **NOT STARTED**;
-- canonical Tamil / English derivative: **none / none**;
-- unresolved Tamil/title/boundary issues: **0 / 0 / 0**.
+- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
+- Tamil canonical: `sections/01.md` — blob `f80d59aca5c8f704862237b458b0ede0f5b4ae96`;
+- Phase 4: **COMPLETE / RELEASE-CLEARED**;
+- reader-facing English: `translations/en/poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- unresolved Tamil / release issues: **0 / 0**.
 
-Final source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, and `உனைக்காக்க`.
+Final user-controlled forms include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`. Later 1968/1969 reuses remain non-controlling.
 
-## Exact next activity
-
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `sections/01.md` from verified `pages/0004.md`; do not begin Gate 5 in the same activity.
+No further production activity remains. Future changes require a documented source-backed reopen.

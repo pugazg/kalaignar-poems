@@ -1,79 +1,44 @@
 # Transcription / Translation Phase Plan — Kalaignar Poems Archive
 
-## Current active work — பூமுடி (1965)
+## Current active work
+
+**None.**
+
+## Most recently completed — பூமுடி (1965)
 
 Workspace: `poems/poomudi/`.
 
 Controlling PDF: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf` — **65 pages / 247,645,717 bytes / SHA-256 `7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**.
 
-User-scoped work range: **physical scan 4 only**.
+Scope: **physical scan 4 only**.
 
-### Intake / source identity
+### Completed workflow
 
-**COMPLETE.**
+- source intake / exact identity: **COMPLETE**;
+- Phase 1 transcription: **1/1 COMPLETE**;
+- Phase 2 source-critical verification: **1/1 VERIFIED / PASS**;
+- Phase 3 Gate 1 pagination: **PASS**;
+- Phase 3 Gate 2 boundaries/joins: **PASS**;
+- Phase 3 Gate 3 title-witness reconciliation: **PASS**;
+- Phase 3 Gate 4 canonical Tamil assembly: **PASS**;
+- Phase 3 Gate 5 source-completeness review: **PASS**;
+- Phase 3 Gate 6 Tamil final clearance: **PASS / FINAL-CLEARED**;
+- Phase 4 setup: **COMPLETE**;
+- Phase 4 Batch 01 translation/source review: **REVIEWED / PASS**;
+- reader-facing assembly: **PASS**;
+- editorial / terminology / voice review: **PASS**;
+- release-integrity review: **PASS**;
+- release clearance: **GRANTED**.
 
-### Phase 1 — transcription
+Final outputs:
 
-**COMPLETE — 1/1.**
+- Tamil canonical `poems/poomudi/sections/01.md` — blob `f80d59aca5c8f704862237b458b0ede0f5b4ae96`;
+- reviewed English `poems/poomudi/translations/en/sections/01.md` — blob `451172aa579c790322a86e3bb0c3dde68704e79d`;
+- reader-facing English `poems/poomudi/translations/en/poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- release authority `poems/poomudi/translations/en/RELEASE_REPORT.md`.
 
-### Phase 2 — source-critical verification
+**பூமுடி is CLOSED / RELEASE-CLEARED — 2026-09-07.**
 
-**COMPLETE — 1/1 VERIFIED / PASS.**
+## Next activity
 
-- verified page: `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
-- final source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`;
-- unresolved Tamil readings: **0**.
-
-### Phase 3 — structure / completeness / canonical Tamil / final clearance
-
-#### Gate 1 — physical scan ↔ printed-page reconciliation
-
-**COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`.
-
-- active scans: **1/1 — scan 4**;
-- `printed_page: null`: certified;
-- inferred numerals: **0**.
-
-#### Gate 2 — boundary / page-join audit
-
-**COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
-
-- opening / closing boundaries: **PASS / PASS**;
-- scans 3 / 5 surrounding boundary checks: **PASS / PASS**;
-- internal physical joins: **0**;
-- unresolved boundary/join issues: **0**.
-
-#### Gate 3 — title-witness reconciliation
-
-**COMPLETE / PASS.** Authority: `poems/poomudi/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-- direct title: `பூமுடி`;
-- bibliographic title: **பூமுடி**;
-- canonical title authority: direct scan-4 `பூமுடி`;
-- source signature: `மு.கருணாநிதி`;
-- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
-- title/author conflicts: **0 / 0**;
-- hybrid titles: **0**;
-- page changes: **0**.
-
-#### Gate 4 — canonical Tamil assembly
-
-**NOT STARTED.** Gates 5–6 remain blocked until Gate 4 is complete.
-
-### Phase 4 — translation / release
-
-**NOT STARTED.** Blocked until Tamil final clearance.
-
-### Exact next activity
-
-Perform **Phase 3 Gate 4 only**. Create `poems/poomudi/sections/01.md` from the verified page layer, preserving direct title authority, source signature, exact verified wording/lineation and explicit scan-4 provenance. Do not begin Gate 5 in the same activity.
-
----
-
-## Most recently completed source — அண்ணா கவியரங்கம் (1968)
-
-Workspace: `poems/anna-kaviyarangam/` — **CLOSED / RELEASE-CLEARED**.
-
-## Previously completed source — காஞ்சிதான் அண்ணன் (1970)
-
-Workspace: `poems/kanchithan-annan/` — **CLOSED / RELEASE-CLEARED**.
+Intake or continue the next supplied work. Each new/active work must proceed through the phase/gate sequence defined in `POEM_PROCESSING_GUIDE.md`; closed work is reopened only for genuine source-backed correction.

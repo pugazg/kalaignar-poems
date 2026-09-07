@@ -7,21 +7,27 @@
 - final-clearance authority: `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`;
 - physical source scan: **4 only**.
 
-## Planned English mapping
+## Final English mapping
 
 | English unit | Tamil authority | Physical scan | Status |
 |---|---|---:|---|
-| `sections/01.md` | `../../sections/01.md` | 4 | not started |
+| `sections/01.md` | `../../sections/01.md` | 4 | REVIEWED / PASS |
 
-Reader-facing assembly after review: `poomudi-en.md`.
+Reader-facing assembly: `poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`.
 
-## Provenance locks
+Reviewed English: `sections/01.md` — blob `451172aa579c790322a86e3bb0c3dde68704e79d`.
 
-- active scan markers expected in reviewed/reader-facing English: **1/1 — scan 4 exactly once**;
+## Provenance / release locks
+
+- active scan markers: **1/1 — scan 4 exactly once**;
+- missing / duplicate / unexpected markers: **0 / 0 / 0**;
 - source title: `பூமுடி`;
-- working English title: **Flower Crown**;
-- source signature: `மு.கருணாநிதி` → English source-position form **M. Karunanidhi**;
+- English title: **Flower Crown**;
+- source signature: `மு.கருணாநிதி` → **M. Karunanidhi** in source position;
 - later 1968/1969 witnesses: non-controlling;
-- Tamil page/canonical changes permitted during translation: **0 unless formally reopened from source evidence**.
+- Batch 01 / assembly / editorial / release-integrity: **PASS / PASS / PASS / PASS**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**;
+- release authority: `RELEASE_REPORT.md`;
+- unresolved release issues: **0**.
 
-Current state: **Phase 4 setup complete; English translation payload files 0**.
+**PHASE 4 COMPLETE — RELEASE-CLEARED.**

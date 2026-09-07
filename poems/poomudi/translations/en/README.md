@@ -2,11 +2,13 @@
 
 Phase 4 English translation workspace for the one-page poem **பூமுடி**.
 
-## Setup status
+## Final status
 
-**PHASE 4 SETUP COMPLETE / BATCH 01 NOT STARTED.**
+**PHASE 4 COMPLETE — RELEASE-CLEARED.**
 
-Tamil source/canonical layer is **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
+Release date: **2026-09-07**.
+
+Tamil source/canonical layer remains **FINAL-CLEARED** under `../../PHASE3_TAMIL_FINAL_CLEARANCE.md`.
 
 Final-cleared Tamil authority:
 
@@ -14,19 +16,22 @@ Final-cleared Tamil authority:
 - verified page: `../../pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
 - source physical scan: **4 only**.
 
-Translation controls:
+English outputs:
 
-- working English title: **Flower Crown**;
-- preserve the recurring flower/crown imagery rather than paraphrasing it away;
-- preserve the affectionate address to Anna, the political/social imagery, repetition, exclamations and first-person sacrificial close;
-- source-visible signature `மு.கருணாநிதி` is rendered as **M. Karunanidhi** in English source position; bibliographic authorship remains **Kalaignar M. Karunanidhi** in metadata/control prose;
-- `கழகம்` may be retained as **Kazhagam** rather than silently narrowed to a modern party label;
-- no English wording may be used to alter the FINAL-CLEARED Tamil layer.
+- reviewed `sections/01.md` — **REVIEWED / PASS** — blob `451172aa579c790322a86e3bb0c3dde68704e79d`;
+- reader-facing `poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- active source marker: **1/1 — scan 4 exactly once**.
 
-Planned outputs:
+Completed authorities:
 
-- reviewed English: `sections/01.md`;
-- batch authority: `batches/batch-01.md`;
-- reader-facing English after review: `poomudi-en.md`.
+- `batches/batch-01.md` — REVIEWED / PASS;
+- `ASSEMBLY.md` — COMPLETE / PASS;
+- `EDITORIAL_CONSISTENCY_REVIEW.md` — COMPLETE / PASS;
+- `RELEASE_INTEGRITY_REVIEW.md` — COMPLETE / PASS;
+- `RELEASE_REPORT.md` — **RELEASE-CLEARED**.
 
-Exact next activity: **Phase 4 Batch 01 — complete-work English translation and source review for scan 4**.
+Unresolved translation / assembly / editorial / release-integrity / release issues: **0 / 0 / 0 / 0 / 0**.
+
+No English lexical change was required after Batch 01, and Phase 4 changed **0** FINAL-CLEARED Tamil page or canonical section files.
+
+This workspace is closed. Future changes require a documented source-backed reopen.

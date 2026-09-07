@@ -2,7 +2,7 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
-## பூமுடி (1965) — Phase 3 Gates 1–3 complete
+## பூமுடி (1965) — release-cleared
 
 Workspace: `poems/poomudi/`
 
@@ -10,26 +10,21 @@ Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா �
 
 User-scoped work range: **physical scan 4 only**.
 
-**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
+**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCH 01 REVIEWED PASS / ASSEMBLY PASS / EDITORIAL PASS / RELEASE-INTEGRITY PASS / RELEASE-CLEARED.**
 
 - direct title witness: **பூமுடி**;
-- bibliographic title: **பூமுடி** — exact agreement;
-- direct source signature: **மு.கருணாநிதி**;
-- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
+- source signature: **மு.கருணாநிதி**;
 - verified page: `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
-- Gate-1 authority: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-2 authority: `poems/poomudi/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate-3 authority: `poems/poomudi/PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- canonical title authority: direct scan-4 **பூமுடி**;
-- final corrected source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`;
-- visible printed page numeral: **none / `printed_page: null` certified**;
-- scan 3 / scan 5: certified pre/post-work neighbours;
-- internal physical joins: **0**;
-- title/author conflicts / hybrid titles: **0 / 0 / 0**;
-- unresolved Tamil/title/boundary issues: **0 / 0 / 0**;
-- canonical Tamil / English derivative: none.
+- Tamil canonical: `poems/poomudi/sections/01.md` — blob `f80d59aca5c8f704862237b458b0ede0f5b4ae96`;
+- reviewed English: `poems/poomudi/translations/en/sections/01.md` — blob `451172aa579c790322a86e3bb0c3dde68704e79d`;
+- reader-facing English: `poems/poomudi/translations/en/poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- English title: **Flower Crown**;
+- release authority: `poems/poomudi/translations/en/RELEASE_REPORT.md`;
+- active scan markers: **1/1 exactly once**;
+- unresolved Tamil / release issues: **0 / 0**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**.
 
-Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `poems/poomudi/sections/01.md`; do not begin Gate 5 in the same activity.
+Final source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`. Scans 3 and 5 remain excluded boundary witnesses; later 1968/1969 reuses remain non-controlling.
 
 ## காஞ்சிதான் அண்ணன் (1970) — release-cleared
 
@@ -45,14 +40,9 @@ Release-cleared outputs:
 
 - Tamil canonical: `poems/kanchithan-annan/sections/01.md` — blob `1cab49c17d97f76b7a235ca6e536af06f75b5190`;
 - reviewed English: `poems/kanchithan-annan/translations/en/sections/01.md` — blob `17a565f28af6e51d215d703bcb6058cf2805023b`;
-- reader-facing English: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
-- release-integrity authority: `poems/kanchithan-annan/translations/en/RELEASE_INTEGRITY_REVIEW.md` — PASS;
+- reader-facing English: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`;
 - release authority: `poems/kanchithan-annan/translations/en/RELEASE_REPORT.md`;
-- active scan marker: **1/1 — scan 16 exactly once**;
-- unresolved release issues: **0**;
-- Tamil page/canonical drift since final clearance: **0 / 0**.
-
-No further production work is pending for this poem. Future textual changes require a documented source-backed reopen.
+- unresolved release issues: **0**.
 
 ## கலைஞரின் கவியரங்கக் கவிதைகள் (1975) — release-cleared
 
@@ -62,29 +52,18 @@ Source: `TVA_BOK_0064169_கலைஞரின்_கவியரங்கக்
 
 **NEW-ITEM-ONLY SCOPE COMPLETE — PHASE 1 22/22 / PHASE 2 22/22 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 BATCHES 3/3 REVIEWED PASS / ASSEMBLY PASS / EDITORIAL PASS / RELEASE-INTEGRITY PASS / RELEASE-CLEARED.**
 
-Release-cleared new Kalaignar items:
-
-- Item 01 scans **46–57** — Tamil `sections/01.md` — English `translations/en/sections/01.md`;
-- Item 02 scans **58–65** — Tamil `sections/02.md` — English `translations/en/sections/02.md`;
-- Item 04 scans **67–68** — Tamil `sections/04.md` — English `translations/en/sections/04.md`.
-
-Scan **66** remains non-Kalaignar Rajaji context. Scans **69–70** are Bharathidasan. Already represented ranges **9–20, 21–32, 33–45, 71–77, 78–84** remain outside that new-item scope.
-
 Reader-facing English collection:
 
 `poems/kalaignarin-kaviyaranga-kavithaigal-1975/translations/en/kalaignarin-kaviyaranga-kavithaigal-1975-en.md`
 
-- Git blob: `28d63e07b9acbfbba9d37d0f1475e9765626977b`;
-- size: **24,203 bytes**;
-- item order: **01 → 02 → 04**;
-- active scan markers: **22/22**;
-- scan 66 occurrences: **0**.
-
 ## Preserved completed work
 
+- `poems/poomudi/` — RELEASE-CLEARED;
 - `poems/anna-kaviyarangam/` — RELEASE-CLEARED;
 - `poems/gunanayagar-nehru/` — RELEASE-CLEARED;
 - `poems/oruthalaik-kathal/` — RELEASE-CLEARED;
 - `poems/kalaignarin-kavithaigal/` — RELEASE-CLEARED;
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
 - `poems/kanchithan-annan/` — RELEASE-CLEARED.
+
+There is currently **no active production work**. Next activity is intake/continuation of the next supplied work.

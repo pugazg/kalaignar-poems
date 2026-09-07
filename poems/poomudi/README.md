@@ -2,50 +2,42 @@
 
 Source-first workspace for Kalaignar M. Karunanidhi's poem **பூமுடி**, supplied from `முரசொலி — அண்ணா மலர்` (1965).
 
-## Current status
+## Final status
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
+**CLOSED / RELEASE-CLEARED — 2026-09-07.**
 
 - controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf`;
 - physical PDF pages: **65**;
 - file size: **247,645,717 bytes**;
 - SHA-256: `7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`;
 - work scope: **physical scan 4 only**;
+- source PDF committed: **No**.
+
+## Tamil final-cleared layer
+
 - verified page: `pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
-- Gate-1 authority: `PHASE3_STRUCTURE_AUDIT.md`;
-- Gate-2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate-3 authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- unresolved Tamil/title/boundary issues: **0 / 0 / 0**;
-- canonical Tamil / English derivative: **none / none**.
+- canonical Tamil: `sections/01.md` — blob `f80d59aca5c8f704862237b458b0ede0f5b4ae96`;
+- Gates 1–6: **PASS / FINAL-CLEARED**;
+- direct title authority: `பூமுடி`;
+- source-visible signature: `மு.கருணாநிதி`;
+- `printed_page: null`: certified;
+- opening / closing: **PASS / PASS**;
+- internal joins: **0**;
+- unresolved Tamil issues: **0**.
 
-## Final source locks
+Final user-controlled source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`; all other verified wording, punctuation and lineation remain unchanged.
 
-- `அறிவுமணங் கமழுகின்ற அண்ணன் தலைமீது`;
-- `பொன்வைத்தால் நோகுமென்று`;
-- `உனைக்காக்க எனைத் துறப்பேன்.`
+## Phase 4 release layer
 
-All other accepted wording, punctuation and lineation remain unchanged.
+- reviewed English: `translations/en/sections/01.md` — blob `451172aa579c790322a86e3bb0c3dde68704e79d`;
+- reader-facing English: `translations/en/poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- English title: **Flower Crown**;
+- Batch 01 / assembly / editorial / release-integrity: **PASS / PASS / PASS / PASS**;
+- release authority: `translations/en/RELEASE_REPORT.md`;
+- active source marker: **1/1 — scan 4 exactly once**;
+- unresolved release issues: **0**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**.
 
-## Phase 3 Gates 1–2 — PASS
+Scans 3 and 5 remain excluded boundary witnesses only. Later 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** reuses remain non-controlling parallel witnesses.
 
-Gate 1 certifies scan **4** as the sole active scan with `printed_page: null`. Gate 2 certifies scan **3** as the pre-work neighbour, scan **4** as the complete work, scan **5** as the post-work neighbour, and internal physical joins as **0**.
-
-## Phase 3 Gate 3 — PASS
-
-- direct source title: **பூமுடி**;
-- bibliographic title: **பூமுடி** — exact agreement;
-- source-visible signature: **மு.கருணாநிதி**;
-- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
-- canonical Tamil title authority: direct scan-4 `பூமுடி`;
-- title conflicts / author conflicts / hybrid titles: **0 / 0 / 0**;
-- Gate-3 page text/frontmatter changes: **0 / 0**.
-
-The source signature is preserved exactly in source-derived text; the longer bibliographic author form remains metadata.
-
-## Parallel-witness note
-
-The 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** passages remain later, non-controlling parallel witnesses.
-
-## Exact next activity
-
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `sections/01.md` from verified `pages/0004.md` with explicit scan-4 provenance. Do not begin Gate 5 in the same activity.
+No production work remains. Future textual changes require a documented source-backed reopen.

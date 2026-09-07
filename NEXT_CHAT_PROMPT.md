@@ -1,33 +1,29 @@
-# Next Chat Prompt — Kalaignar Poems Archive / பூமுடி
+# Next Chat Prompt — Kalaignar Poems Archive
 
-Continue directly in `pugazg/kalaignar-poems`, branch `main`, active workspace `poems/poomudi/`.
+Continue in `pugazg/kalaignar-poems`, branch `main`.
 
 ## LIVE MAIN IS AUTHORITATIVE
 
-Fetch live `main` first and preserve newer durable work. Do not reopen closed/release-cleared work because an older prompt is stale.
+Fetch live `main` first and preserve newer durable work. Do not reopen a release-cleared workspace because an older copied prompt contains a stale checkpoint.
 
-## Mandatory startup
+## Current repository state
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, root `README.md`, workspace `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, `PHASE2_SOURCE_VERIFICATION.md`, `PHASE2_REVERIFICATION_2026-09-07.md`, `PHASE3_STRUCTURE_AUDIT.md`, `PHASE3_BOUNDARY_JOIN_AUDIT.md`, `PHASE3_TITLE_WITNESS_RECONCILIATION.md`, and `pages/0004.md`.
+There is **no active production work**.
 
-## Active source
+Most recently completed: `poems/poomudi/` — **பூமுடி — CLOSED / RELEASE-CLEARED — 2026-09-07**.
 
-`TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf` — **65 pages / 247,645,717 bytes / SHA-256 `7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**.
+Final பூமுடி authorities:
 
-Active poem scope: **physical scan 4 only**.
+- verified Tamil `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
+- canonical Tamil `poems/poomudi/sections/01.md` — blob `f80d59aca5c8f704862237b458b0ede0f5b4ae96`;
+- Tamil final clearance `poems/poomudi/PHASE3_TAMIL_FINAL_CLEARANCE.md`;
+- reviewed English `poems/poomudi/translations/en/sections/01.md` — blob `451172aa579c790322a86e3bb0c3dde68704e79d`;
+- reader-facing English `poems/poomudi/translations/en/poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- release authority `poems/poomudi/translations/en/RELEASE_REPORT.md`;
+- unresolved Tamil/release issues: **0 / 0**.
 
-## Current state
-
-**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
-
-Gate 1: scan 4 sole active scan; `printed_page: null` certified.
-
-Gate 2: scans 3 / 5 certified pre/post-work neighbours; scan 4 complete work; internal joins **0**.
-
-Gate 3: direct source title `பூமுடி` and bibliographic title **பூமுடி** agree exactly. Source signature `மு.கருணாநிதி` remains source text; bibliographic author **கலைஞர் மு. கருணாநிதி** remains metadata. Title/author conflicts and hybrid titles: **0 / 0 / 0**.
-
-Final source locks: `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`.
+Final source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `poems/poomudi/sections/01.md` from verified `pages/0004.md`, preserving title `பூமுடி`, source signature `மு.கருணாநிதி`, exact verified wording/lineation, `printed_page: null`, and explicit scan-4 provenance. Do not begin Gate 5 in the same activity.
+Intake or continue the next user-supplied Kalaignar poem/work according to `POEM_PROCESSING_GUIDE.md` and `TRANSCRIPTION_PHASE_PLAN.md`. Do not modify closed பூமுடி unless genuine source-backed evidence triggers a documented reopen.

@@ -6,45 +6,29 @@ Exact source identity: **65 scans / 247,645,717 bytes / SHA-256 `7312d5f8686f796
 
 User-scoped work range: **physical scan 4 only**.
 
-| Physical scan | Work-scope ordinal | Visible printed page | `printed_page` | Role | Status |
-|---:|---:|---|---|---|---|
-| 4 | 1/1 | none | `null` | decorated `பூமுடி` title + complete poem + stylized `மு.கருணாநிதி` signature + non-poem lower-page visual material | Phase 2 verified / Gates 1–3 PASS |
+| Physical scan | Visible printed page | `printed_page` | Role | Final state |
+|---:|---|---|---|---|
+| 4 | none | `null` | decorated `பூமுடி` title + complete poem + stylized `மு.கருணாநிதி` signature + non-poem visual material | verified / canonical / release-cleared |
 
-## Gate 1 certification
+## Boundary certification
 
-`../PHASE3_STRUCTURE_AUDIT.md` — active scans **1/1**; visible printed numerals **0/1**; `printed_page: null` certified; inferred numerals **0**.
-
-## Gate 2 boundary certification
-
-`../PHASE3_BOUNDARY_JOIN_AUDIT.md`.
-
-| Physical scan | Observation | Boundary result |
+| Scan | Observation | Result |
 |---:|---|---|
 | 3 | full-page Anna portrait | certified pre-work neighbour / excluded |
 | 4 | complete `பூமுடி` work | opening PASS / closing PASS |
-| 5 | separate Penang mayoral correspondence item | certified post-work neighbour / excluded |
+| 5 | separate Penang mayoral correspondence | certified post-work neighbour / excluded |
 
-Internal physical joins: **0**. Unresolved boundary/join issues: **0**.
+Internal physical joins: **0**.
 
-## Gate 3 title certification
+## Canonical / release mapping
 
-`../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
-
-- direct title: `பூமுடி`;
-- bibliographic title: **பூமுடி**;
-- canonical title authority: direct scan-4 `பூமுடி`;
-- source signature: `மு.கருணாநிதி`;
-- bibliographic author: **கலைஞர் மு. கருணாநிதி**;
-- title/author conflicts: **0 / 0**;
-- hybrid titles: **0**;
-- page changes: **0**.
-
-## Current accounting
-
-- Phase 1: **1/1 COMPLETE**;
-- Phase 2: **1/1 VERIFIED / PASS**;
-- Phase 3 Gates 1–3: **COMPLETE / PASS**;
-- Gate 4: **NOT STARTED**;
-- canonical Tamil / English files: **0 / 0**.
-
-Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `sections/01.md` from verified scan 4; do not begin Gate 5 in the same activity.
+- verified page: `../pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
+- canonical Tamil: `../sections/01.md` — blob `f80d59aca5c8f704862237b458b0ede0f5b4ae96`;
+- canonical scan markers: **1/1 exactly once**;
+- reviewed English: `../translations/en/sections/01.md` — blob `451172aa579c790322a86e3bb0c3dde68704e79d`;
+- reader-facing English: `../translations/en/poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- reader-facing scan markers: **1/1 exactly once**;
+- missing / duplicate / unexpected markers: **0 / 0 / 0**;
+- Phase 3: **FINAL-CLEARED**;
+- Phase 4: **RELEASE-CLEARED**;
+- unresolved Tamil / release issues: **0 / 0**.

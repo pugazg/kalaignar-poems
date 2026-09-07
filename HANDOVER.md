@@ -2,41 +2,37 @@
 
 Repository: `pugazg/kalaignar-poems`, branch `main`. **Live main is authoritative.**
 
-## Current active work — பூமுடி
+## Current active work
 
-Workspace: `poems/poomudi/`.
+**None.**
+
+## Most recently closed work — பூமுடி
+
+Workspace: `poems/poomudi/` — **CLOSED / RELEASE-CLEARED — 2026-09-07**.
 
 Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா மலர்_1965.pdf` — **65 pages / 247,645,717 bytes / SHA-256 `7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**.
 
-Active scope: **physical scan 4 only**.
-
-### Durable status
-
-**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 GATES 1–3 COMPLETE / PASS / GATE 4 NOT STARTED.**
-
+- scope: physical scan **4 only**;
 - verified page: `poems/poomudi/pages/0004.md` — blob `19fcad65afa8ff27deb07ff0a92d37694437250d`;
-- Gate 1: `poems/poomudi/PHASE3_STRUCTURE_AUDIT.md` — PASS;
-- Gate 2: `poems/poomudi/PHASE3_BOUNDARY_JOIN_AUDIT.md` — PASS;
-- Gate 3: `poems/poomudi/PHASE3_TITLE_WITNESS_RECONCILIATION.md` — PASS;
-- `printed_page: null`: certified;
-- opening / closing boundaries: **PASS / PASS**;
-- internal physical joins: **0**;
-- direct/bibliographic title: `பூமுடி` / **பூமுடி** — exact agreement;
-- source signature / bibliographic author: `மு.கருணாநிதி` / **கலைஞர் மு. கருணாநிதி** — compatible, layer-preserved;
-- title/author conflicts: **0 / 0**;
-- unresolved Tamil/title/boundary issues: **0 / 0 / 0**;
-- canonical Tamil / English derivative: **none / none**.
+- canonical Tamil: `poems/poomudi/sections/01.md` — blob `f80d59aca5c8f704862237b458b0ede0f5b4ae96`;
+- Phase 3 Gates 1–6: **PASS / FINAL-CLEARED**;
+- reviewed English: `poems/poomudi/translations/en/sections/01.md` — blob `451172aa579c790322a86e3bb0c3dde68704e79d`;
+- reader-facing English: `poems/poomudi/translations/en/poomudi-en.md` — blob `4715e5e4aac9bd666a4e657c456190f81bb5898f`;
+- Phase 4 Batch 01 / assembly / editorial / release-integrity: **PASS / PASS / PASS / PASS**;
+- release authority: `poems/poomudi/translations/en/RELEASE_REPORT.md`;
+- unresolved Tamil / release issues: **0 / 0**;
+- Tamil page/canonical drift during Phase 4: **0 / 0**.
 
-Final source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, and `உனைக்காக்க`.
+Final source locks include `கமழுகின்ற`, `தலைமீது`, `பொன்வைத்தால்`, `உனைக்காக்க`. Do not reopen without genuine source-backed evidence and a documented reopen.
 
-### Exact next activity
-
-Perform **Phase 3 Gate 4 — canonical Tamil assembly only**. Create `poems/poomudi/sections/01.md` from verified `pages/0004.md` with direct title authority, source signature, exact verified wording/lineation, and explicit scan-4 provenance. Do not begin Gate 5 in the same activity.
-
-## Most recently closed work — அண்ணா கவியரங்கம்
+## Previously closed work — அண்ணா கவியரங்கம்
 
 Workspace: `poems/anna-kaviyarangam/` — **CLOSED / RELEASE-CLEARED — 2026-09-06**.
 
 ## Previously closed work — காஞ்சிதான் அண்ணன்
 
 Workspace: `poems/kanchithan-annan/` — **CLOSED / RELEASE-CLEARED**.
+
+## Next repository activity
+
+Intake or continue the next supplied Kalaignar poem/work. Fetch live `main` first and preserve all release-cleared work.
