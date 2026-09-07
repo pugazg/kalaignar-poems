@@ -4,7 +4,7 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **ஆந்தைய�
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE EXCEPT SHA / PHASE 1 SOURCE-VISIBILITY PASS 8/8 / ALL 8 SCANS PARTIAL / 0 OF 8 LEXICALLY COMPLETE.**
+**SOURCE INTAKE COMPLETE EXCEPT SHA / PHASE 1 SOURCE-VISIBILITY PASS 8/8 / SECONDARY-WITNESS RESEARCH COMPLETE / ALL 8 SCANS PARTIAL / 0 OF 8 LEXICALLY COMPLETE.**
 
 - controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`;
 - physical PDF pages: **102**;
@@ -22,7 +22,20 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **ஆந்தைய�
 - verified pages: **0**;
 - Phase 2+: **NOT STARTED**.
 
-Direct source inspection now covers all scoped scans **18–25**. The page records durably preserve source-visible layout evidence: the decorated opening title, poem-continuation roles, illustrations/decorative panels, and visible star separators. The currently available renderer, however, is reduced/cropped and does not safely expose every old Tamil glyph, spacing distinction, punctuation mark, line break, or lower-edge continuation at transcription fidelity. Therefore no uncertain lexical wording has been guessed or imported from catalogue text, OCR, web copies or later editions.
+Direct source inspection covers all scoped scans **18–25**. Page records durably preserve source-visible layout evidence: decorated opening title, continuation roles, illustrations/decorative panels and visible star separators. The available renderer remains reduced/cropped below safe historical-glyph transcription fidelity, so uncertain lexical wording has not been guessed.
+
+## Secondary-witness research
+
+See `SECONDARY_WITNESS_RESEARCH.md`.
+
+The official Tamil Digital Library / Kalaignar archive confirms **`ஆந்தையும் அரசனும்`** as a Kalaignar poem. It also documents the 1989 first edition **`கதை சொல்லும் கலைஞரின் கவிதைகள்`**, Selvakumar Pathippagam, as a 43-poem collection drawn from Murasoli and other sources. However, the surfaced metadata does **not** prove that this poem is included in that collection, and no readable official/web transcript of the poem body was obtained.
+
+Therefore:
+
+- admitted secondary lexical witnesses: **0**;
+- Tamil lines imported from web/later sources: **0**;
+- candidate 1989 witness: **recorded but not admitted**;
+- controlling 1965 source remains absolute authority.
 
 Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
@@ -34,4 +47,4 @@ This remains bibliographic/context metadata unless independently visible in the 
 
 ## Exact next activity
 
-Continue **Phase 1 lexical transcription** only after obtaining complete uncropped/high-resolution visibility of the same controlling scans **18–25**. Replace each explicit lexical hold with exact source text, preserving historical glyphs, spelling, punctuation, separators and lineation. Pages remain `partial` until Phase 1 is complete; never mark them `verified` in Phase 1. Do not begin Phase 2 until all eight pages are completely transcribed.
+Continue **Phase 1 lexical transcription** only after obtaining full-resolution/uncropped visibility of the controlling scans **18–25**, or a proven readable later witness that can be used solely to assist visual adjudication against those scans. Preserve historical glyphs, spelling, punctuation, separators and lineation. Pages remain `partial`; never mark them `verified` in Phase 1. Do not begin Phase 2 until all eight pages are completely transcribed.

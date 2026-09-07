@@ -17,12 +17,24 @@ Preserve the source-visible final exclamation mark in the direct title witness. 
 
 Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
+## Secondary-witness state
+
+See `../SECONDARY_WITNESS_RESEARCH.md`.
+
+- official Kalaignar archive lists **ஆந்தையும் அரசனும்** as a poem;
+- archive detail page body was not readable through the available access path;
+- official metadata for `கதை சொல்லும் கலைஞரின் கவிதைகள்` establishes a **1989 first edition / Selvakumar Pathippagam / 43-poem collection**, but does **not** establish that this exact poem is included;
+- admitted secondary lexical witnesses: **0**;
+- candidate secondary witnesses: **1**, inclusion not proven;
+- web/secondary Tamil imported into page records: **0**.
+
 ## Processing state
 - duplicate-title search: **PASS — 0 matches**;
-- Phase 1: **STARTED — scan 18 partial / 0 of 8 pages complete**;
-- renderer/source-access hold: current rendered page view is cropped and cannot certify the complete lower lexical payload;
+- Phase 1 source-visibility inspection: **8/8**;
+- Phase 1 pages: **8/8 partial / 0/8 lexically complete**;
+- renderer/source-access hold: current rendered page views cannot certify the complete historical-glyph lexical payload;
 - verified pages: **0**;
 - printed-page state: not yet reconciled;
 - canonical Tamil / English: none / none.
 
-No secondary witness may fill a source area that is not directly visible in the controlling scan.
+A secondary witness may assist difficult-glyph adjudication only after its identity/text is established and only when the controlling 1965 scan supports the reading. It may never fill unseen or conflicting source text.

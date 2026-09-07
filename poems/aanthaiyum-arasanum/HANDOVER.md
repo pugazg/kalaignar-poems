@@ -6,10 +6,20 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: scans **18–25**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Current status: **PHASE 1 SOURCE-VISIBILITY PASS 8/8 — all eight page records PARTIAL / 0 of 8 lexically complete / 0 VERIFIED**.
+Current status: **PHASE 1 SOURCE-VISIBILITY PASS 8/8 / SECONDARY-WITNESS RESEARCH COMPLETE — all eight page records PARTIAL / 0 of 8 lexically complete / 0 VERIFIED**.
 
 Direct source lock: decorated opening title **`ஆந்தையும் அரசனும்!`**, including `!`.
 
-All scoped scans have now been inspected sufficiently to record page role/layout evidence in `pages/0018.md`–`0025.md`: continuation structure, visible star separators, decorative panels and illustrations. The current renderer still reduces/crops the lexical payload below safe source-critical fidelity. Do not convert those structural records into guessed Tamil. Do not fill gaps from OCR, catalogue text, web copies or later editions.
+All scoped scans have been inspected sufficiently to record page role/layout evidence. The current renderer remains below safe source-critical fidelity for complete old-glyph lexical transcription.
 
-Exact next activity: obtain complete uncropped/high-resolution visibility of the same controlling scans **18–25** and complete their Phase-1 lexical transcriptions word-for-word. Preserve historical glyphs, source spelling, punctuation, separators and lineation. Leave pages `partial`; do not begin Phase 2 or mark anything verified.
+Secondary-witness research is recorded in `SECONDARY_WITNESS_RESEARCH.md`:
+
+- official Kalaignar archive identity witness for `ஆந்தையும் அரசனும்`: found;
+- readable official poem-body text: not found;
+- `கதை சொல்லும் கலைஞரின் கவிதைகள்` (1989, Selvakumar Pathippagam, 43 poems): candidate only; this poem's inclusion is not proven;
+- admitted secondary lexical witnesses: **0**;
+- Tamil lines imported from web/later witnesses: **0**.
+
+Do not convert structural records into guessed Tamil. Do not fill gaps from OCR, catalogue text, web copies or unproven later editions.
+
+Exact next activity: obtain complete uncropped/high-resolution visibility of controlling scans **18–25**, or a proven readable later witness usable only as an aid while checking every word against the 1965 scans. Complete Phase-1 lexical transcription word-for-word, preserve historical glyphs/spelling/punctuation/separators/lineation, leave pages `partial`, and do not begin Phase 2.
