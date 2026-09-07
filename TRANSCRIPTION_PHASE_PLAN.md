@@ -9,10 +9,12 @@ Workspace `poems/aanthaiyum-arasanum/`; source `TVA_PRL_0001631_முரசெ�
 - intake/range: **COMPLETE**;
 - duplicate check: **PASS — 0 matches**;
 - exact SHA: **PENDING**;
-- Phase 1: **STARTED — scan 18 partial / 0 of 8 pages complete / 0 verified**;
+- Phase 1 source-visibility inspection: **8/8**;
+- Phase 1 page state: **8/8 partial / 0 of 8 lexically complete / 0 verified**;
 - direct title lock: **`ஆந்தையும் அரசனும்!`**;
-- source-access hold: current renderer crops the page; unseen lower text must not be guessed;
-- Phase 2–4: blocked until Phase 1 completion.
+- visible structural evidence recorded across all scoped scans: continuation roles, star separators, decorative panels/illustrations;
+- source-access hold: current renderer reduces/crops lexical text below safe transcription fidelity; unseen/uncertain Tamil must not be guessed;
+- Phase 2–4: blocked until Phase 1 lexical completion.
 
 ### 2. தலைகேட்டான் தம்பி — 1966
 
@@ -32,4 +34,4 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 
 ## Exact next activity
 
-Complete scan 18 of **ஆந்தையும் அரசனும்** from a full uncropped rendering of the controlling source, then continue Phase 1 scans 19–25. Use `partial`/`needs-review`, never `verified`; no secondary witness may substitute for unseen source text.
+Obtain complete uncropped/high-resolution source visibility for **ஆந்தையும் அரசனும் scans 18–25** and complete Phase-1 lexical transcription from the controlling 1965 scans. Keep pages `partial`, preserve old glyphs/spelling/punctuation/separators/lineation, and do not start Phase 2. No secondary witness may substitute for unreadable controlling-source text.

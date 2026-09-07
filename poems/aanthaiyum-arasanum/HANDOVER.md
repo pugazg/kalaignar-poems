@@ -6,10 +6,10 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: scans **18–25**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Current status: **PHASE 1 STARTED — scan 18 PARTIAL / 0 OF 8 PAGES COMPLETE / 0 VERIFIED**.
+Current status: **PHASE 1 SOURCE-VISIBILITY PASS 8/8 — all eight page records PARTIAL / 0 of 8 lexically complete / 0 VERIFIED**.
 
-Direct source lock established so far: decorated opening title **`ஆந்தையும் அரசனும்!`**, including `!`.
+Direct source lock: decorated opening title **`ஆந்தையும் அரசனும்!`**, including `!`.
 
-Current source-access hold: the available in-chat renderer exposes a cropped page view and does not safely reveal the complete lower lexical payload. Do not fill the unseen area from OCR, catalogue text, web copies or later editions. Continue only from a complete uncropped/high-resolution view of the same controlling PDF.
+All scoped scans have now been inspected sufficiently to record page role/layout evidence in `pages/0018.md`–`0025.md`: continuation structure, visible star separators, decorative panels and illustrations. The current renderer still reduces/crops the lexical payload below safe source-critical fidelity. Do not convert those structural records into guessed Tamil. Do not fill gaps from OCR, catalogue text, web copies or later editions.
 
-Exact next activity: finish scan 18 source-faithfully, then Phase 1 scans **19–25**, leaving completed first-pass pages `partial`. Do not begin Phase 2.
+Exact next activity: obtain complete uncropped/high-resolution visibility of the same controlling scans **18–25** and complete their Phase-1 lexical transcriptions word-for-word. Preserve historical glyphs, source spelling, punctuation, separators and lineation. Leave pages `partial`; do not begin Phase 2 or mark anything verified.

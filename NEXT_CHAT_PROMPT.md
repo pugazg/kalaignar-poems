@@ -5,8 +5,8 @@ Continue `pugazg/kalaignar-poems`, branch `main`. Fetch live `main` first and pr
 ## Active — ஆந்தையும் அரசனும்
 Workspace `poems/aanthaiyum-arasanum/`.
 Controlling PDF: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf` — **102 pages / 381,558,891 bytes / SHA pending**. Scope **18–25**.
-Status: **Phase 1 STARTED — scan 18 partial / 0 of 8 pages complete / 0 verified**.
-Direct scan title: **`ஆந்தையும் அரசனும்!`**. Current renderer crops the page; do not reconstruct unseen source text from OCR, web or later witnesses.
+Status: **Phase 1 source-visibility pass 8/8; all page records partial; lexically complete 0/8; verified 0**.
+Direct scan title: **`ஆந்தையும் அரசனும்!`**. Source-visible page structure is recorded across scans 18–25, but current renderings remain reduced/cropped; do not reconstruct uncertain lexical Tamil from OCR, web, catalogue or later witnesses.
 
 ## Staged — தலைகேட்டான் தம்பி
 Workspace `poems/thalaikettan-thambi/`.
@@ -14,4 +14,4 @@ Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் ம�
 Corrected direct title: **`தலைகேட்டான் தம்பி`**, spatially split as upper decorated `தலைகேட்டான்` plus lower decorated `தம்பி`; title conflict **0**.
 
 ## Exact next activity
-Acquire a complete uncropped/high-resolution view of scan 18 from the same 1965 controlling PDF, finish its Phase-1 transcription, then continue scans 19–25 source-faithfully. Leave first-pass pages `partial`; do not begin Phase 2.
+Acquire complete uncropped/high-resolution views of **ஆந்தையும் அரசனும் scans 18–25** from the same 1965 controlling PDF and complete Phase-1 lexical transcription word-for-word. Preserve old glyphs and exact source spelling/punctuation/separators/lineation. Leave first-pass pages `partial`; do not begin Phase 2.

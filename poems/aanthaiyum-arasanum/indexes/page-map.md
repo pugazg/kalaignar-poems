@@ -4,15 +4,17 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: **physical scans 18–25**.
 
-| Scan | Role | `printed_page` | Phase-1 state |
+| Scan | Role / directly visible structure | `printed_page` | Phase-1 state |
 |---:|---|---|---|
-| 18 | decorated opening; direct title `ஆந்தையும் அரசனும்!` | `null` pending reconciliation | **partial — title certified; full lower lexical payload pending uncropped view** |
-| 19 | continuation | `null` pending reconciliation | not-started |
-| 20 | continuation | `null` pending reconciliation | not-started |
-| 21 | continuation | `null` pending reconciliation | not-started |
-| 22 | continuation | `null` pending reconciliation | not-started |
-| 23 | continuation | `null` pending reconciliation | not-started |
-| 24 | continuation | `null` pending reconciliation | not-started |
-| 25 | continuation / user-scoped closing scan | `null` pending reconciliation | not-started |
+| 18 | decorated opening; direct title `ஆந்தையும் அரசனும்!`; illustration | `null` pending reconciliation | **partial — title certified; lexical payload incomplete** |
+| 19 | continuation; upper verse block + centered star separator + further verse | `null` pending reconciliation | **partial — lexical payload incomplete** |
+| 20 | continuation; poem text + right decorative panel + lower illustration | `null` pending reconciliation | **partial — lexical payload incomplete** |
+| 21 | continuation; central poem column + left decorative border | `null` pending reconciliation | **partial — lexical payload incomplete** |
+| 22 | continuation; poem text + right decorative panel + lower illustration | `null` pending reconciliation | **partial — lexical payload incomplete** |
+| 23 | continuation; multiple verse blocks + centered star separators | `null` pending reconciliation | **partial — lexical payload incomplete** |
+| 24 | continuation; poem text + right decorative panel + star separator + lower illustration | `null` pending reconciliation | **partial — lexical payload incomplete** |
+| 25 | user-scoped closing scan; multiple verse blocks + centered star separators | `null` pending reconciliation | **partial — lexical payload / final closing not yet certified** |
 
-Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon. Current renderer crops the source-page view; no unseen text has been inferred. Formal pagination and boundary certification remain Phase 3.
+Phase-1 source-visibility inspection is **8/8**. Lexically complete Phase-1 pages remain **0/8** because the current renderer reduces/crops source text below safe transcription fidelity. No unseen text or printed page number has been inferred.
+
+Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon. Formal pagination and boundary certification remain Phase 3.
