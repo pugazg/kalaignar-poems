@@ -4,7 +4,7 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **ஆந்தைய�
 
 ## Current status
 
-**SOURCE IDENTITY LOCKED / PHASE 1 COMPLETE 8/8 / ALL 8 SCANS LEXICALLY COMPLETE AND `partial` / 0 VERIFIED / PHASE 2 NOT STARTED.**
+**SOURCE IDENTITY LOCKED / PHASE 1 COMPLETE 8/8 / PHASE 2 PASS 8/8 VERIFIED / 0 UNRESOLVED / PHASE 3 NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`;
 - physical PDF pages: **102**;
@@ -17,31 +17,29 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **ஆந்தைய�
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1965**;
 - duplicate-title search before onboarding: **0 existing matches**;
-- source-inspected Phase-1 page records: **8/8**;
-- Phase-1 partial pages: **8/8**;
-- lexically complete Phase-1 pages: **8/8**;
-- verified pages: **0**;
-- Phase 2+: **NOT STARTED**.
+- Phase-1 lexically complete pages: **8/8**;
+- Phase-2 verified pages: **8/8**;
+- unresolved lexical holds: **0**;
+- Phase 3+: **NOT STARTED**.
 
-Complete uncropped/high-resolution views of all active scans were obtained from the exact controlling PDF. `pages/0018.md`–`0025.md` now contain the complete first-pass lexical layer. Phase 1 deliberately preserves source-visible unusual spellings/spacing, punctuation, separators and lineation rather than normalizing them.
+Complete uncropped/high-resolution views of all active scans were obtained from the exact controlling PDF. `pages/0018.md`–`0025.md` now form the verified source layer.
 
-A user-supplied same-source word-for-word extraction was useful for alignment, but it was not treated as independent authority. Every committed reading was adjudicated against the controlling 1965 scan. Notable Phase-1 corrections/controls include `மு.கருணாநிதி`, `தேனைப் பிழிற்றும்`, scan-20 `புல்லலூர் எயிற்றியனார்`, scan-21 `வற்றா அன்பைப்` and `ஒளிக்குன்றும்`, scan-24 `இன்றே`, and scan-25 `சென்றார்!` before the separator.
+Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
+
+Phase 2 required exactly three source-backed lexical corrections to the Phase-1 layer:
+
+- scan 21: `ஒளிக்குன்றும்` → **`ஒளிக்குன்றாம்`**;
+- scan 24: `சொன்னர்` → **`சொன்னார்`**;
+- scan 25: `சொன்னன்` → **`சொன்னான்`**.
+
+Other difficult Phase-1 readings were independently reconfirmed, including `தேனைப் பிழிற்றும்`, scan-20 `புல்லலூர் எயிற்றியனார்`, scan-21 `வற்றா அன்பைப்`, scan-23 `தளர் வுற்றான்`, scan-24 `நாளையோ இன்றே வந்தே சேர்வார்`, and the scan-25 placement of `சென்றார்!` before the separator.
 
 ## Secondary-witness research
 
-See `SECONDARY_WITNESS_RESEARCH.md`.
-
-The official Tamil Digital Library / Kalaignar archive confirms **`ஆந்தையும் அரசனும்`** as a Kalaignar poem. It also documents the 1989 first edition **`கதை சொல்லும் கலைஞரின் கவிதைகள்`**, Selvakumar Pathippagam, as a 43-poem collection drawn from Murasoli and other sources. However, the surfaced metadata does **not** prove that this poem is included in that collection, and no readable official/web transcript of the poem body was obtained.
-
-Therefore:
-
-- admitted secondary lexical witnesses: **0**;
-- Tamil lines imported from web/later sources: **0**;
-- candidate 1989 witness: **recorded but not admitted**;
-- controlling 1965 source remains absolute authority.
+See `SECONDARY_WITNESS_RESEARCH.md`. Admitted secondary lexical witnesses remain **0**; the controlling 1965 source is absolute textual authority.
 
 Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
 ## Exact next activity
 
-Begin **Phase 2 source-critical visual verification** for scans **18–25** only. Independently reread every page against the same controlling source; check every word ending, historical/compact glyph, unusual spacing, punctuation mark, separator and line break. Correct only source-backed differences and promote a page to `verified` only after its independent verification pass succeeds. Do not begin Phase 3 until all eight pages are verified.
+Begin **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans **18–25**. Record only visibly printed numerals as direct witnesses and distinguish them from any reconciled logical pagination. Do not begin canonical Tamil assembly until the ordered Phase-3 gates have passed.

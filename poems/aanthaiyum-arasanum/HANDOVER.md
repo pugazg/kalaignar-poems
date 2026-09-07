@@ -6,23 +6,20 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: scans **18–25**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Current status: **PHASE 1 COMPLETE — 8/8 source-inspected / 8/8 lexically complete / all eight page records `partial` / 0 VERIFIED / PHASE 2 NOT STARTED**.
+Current status: **PHASE 1 COMPLETE 8/8 / PHASE 2 PASS 8/8 VERIFIED / 0 UNRESOLVED / PHASE 3 NOT STARTED**.
 
-Direct source locks:
-- decorated opening title: **`ஆந்தையும் அரசனும்!`**;
-- scan-18 author line: **`மு.கருணாநிதி`**.
+Direct source lock: decorated opening title **`ஆந்தையும் அரசனும்!`** and author line **`மு.கருணாநிதி`**.
 
-The earlier cropped-renderer hold is resolved. Complete uncropped/high-resolution views of all active scans were obtained from the exact controlling PDF. A user-supplied same-source extraction was used only as an alignment aid; every committed reading was adjudicated against the 1965 scan.
+Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
 
-Notable first-pass source controls include:
-- scan 19 `வல்லூ றென்போம்`, `தேனைப் பிழிற்றும்`;
-- scan 20 `புல்லலூர் எயிற்றியனார்` exactly as printed there;
-- scan 21 `நண்பர் களானது`, `வற்றா அன்பைப்`, `ஒளிக்குன்றும்`;
-- scan 23 `தளர் வுற்றான்`;
-- scan 24 `நாளையோ இன்றே வந்தே சேர்வார்`;
-- scan 25 `சென்றார்!` after `பொத்தியார் ஒப்பிச்` and before the separator.
+Phase 2 independently reread all eight page records against the exact controlling scans and required three lexical corrections:
 
-Secondary-witness research remains recorded in `SECONDARY_WITNESS_RESEARCH.md`; admitted secondary lexical witnesses remain **0** and imported web/later-witness Tamil remains **0**.
+- scan 21: `ஒளிக்குன்றும்` → **`ஒளிக்குன்றாம்`**;
+- scan 24: `சொன்னர்` → **`சொன்னார்`**;
+- scan 25: `சொன்னன்` → **`சொன்னான்`**.
 
-## Exact next activity
-Perform **Phase 2 source-critical visual verification** of scans **18–25** independently against the same controlling PDF. Recheck every word ending, historical/compact glyph, unusual spacing, punctuation, separator and line break. Correct only source-backed differences and promote a page to `verified` only after its independent verification pass succeeds. Do not begin Phase 3 until all eight pages are verified.
+All other difficult Phase-1 controls were reconfirmed, including `தேனைப் பிழிற்றும்`, scan-20 `புல்லலூர் எயிற்றியனார்`, `வற்றா அன்பைப்`, `தளர் வுற்றான்`, `நாளையோ இன்றே வந்தே சேர்வார்`, and the scan-25 placement of `சென்றார்!` before the separator.
+
+Secondary-witness research remains provenance-only; admitted secondary lexical witnesses: **0**.
+
+Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–25. Record direct printed numerals only where visibly present; distinguish reconciled logical pagination from direct witnesses. Do not begin page-join audit, title reconciliation or canonical assembly until Gate 1 is durably complete.

@@ -8,8 +8,6 @@
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1965**;
 - physical work range: scans **18–25**.
 
-Preserve the source-visible final exclamation mark in the direct title witness. Bibliographic metadata without the punctuation does not overwrite the scan.
-
 ## Controlling source
 - filename: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`;
 - physical pages: **102**;
@@ -23,24 +21,21 @@ Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
 See `../SECONDARY_WITNESS_RESEARCH.md`.
 
-- official Kalaignar archive lists **ஆந்தையும் அரசனும்** as a poem;
-- archive detail page body was not readable through the available access path;
-- official metadata for `கதை சொல்லும் கலைஞரின் கவிதைகள்` establishes a **1989 first edition / Selvakumar Pathippagam / 43-poem collection**, but does **not** establish that this exact poem is included;
 - admitted secondary lexical witnesses: **0**;
 - candidate secondary witnesses: **1**, inclusion not proven;
 - web/secondary Tamil imported into page records: **0**.
 
-A user-supplied word-for-word extraction derived from the same 1965 source was used only as a comparison/alignment aid during Phase 1. The exact controlling scans remained the authority for every committed reading.
+A user-supplied word-for-word extraction derived from the same 1965 source was used only as a lexical/alignment control. The controlling scans remained the authority.
 
 ## Processing state
 - duplicate-title search: **PASS — 0 matches**;
 - exact-byte source identity: **LOCKED**;
 - complete uncropped/high-resolution source visibility for active scans: **8/8**;
-- Phase 1 source-inspected page records: **8/8**;
-- Phase 1 pages: **8/8 partial / 8/8 lexically complete**;
-- verified pages: **0**;
-- Phase 2: **NOT STARTED**;
-- printed-page state: not yet reconciled;
+- Phase 1: **COMPLETE — 8/8 lexically complete**;
+- Phase 2: **PASS — 8/8 verified / 0 unresolved**;
+- Phase-2 report: `../PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
+- Phase 3: **NOT STARTED**;
+- printed-page state: pending Phase-3 Gate 1 reconciliation;
 - canonical Tamil / English: none / none.
 
-Phase 1 preserves source-visible unusual forms and spacing rather than normalizing them. Examples requiring deliberate retention include scan-19 `வல்லூ றென்போம்`, scan-20 `புல்லலூர் எயிற்றியனார்`, scan-21 `நண்பர் களானது`, scan-23 `தளர் வுற்றான்`, and the scan-25 placement of `சென்றார்!` before the separator.
+Phase 2 corrected three Phase-1 lexical readings: scan-21 `ஒளிக்குன்றாம்`, scan-24 `சொன்னார்`, and scan-25 `சொன்னான்`.

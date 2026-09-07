@@ -8,40 +8,38 @@
 - duplicate-title matches before onboarding: **0**;
 - page records: **8/8**;
 - complete uncropped/high-resolution source views: **8/8**;
-- Phase-1 source-inspected page records: **8/8**;
-- Phase-1 partial pages: **8/8**;
 - Phase-1 lexically complete pages: **8/8**;
-- verified pages: **0**;
-- Phase 2 started: **no**;
+- Phase-2 verified pages: **8/8**;
+- unresolved lexical holds: **0**;
+- Phase 3 started: **no**;
 - canonical / English files: **0 / 0**.
 
-## Phase-1 source-visible controls
+## Phase-2 source-critical verification
 
-- scan 18 direct decorated title: **`ஆந்தையும் அரசனும்!`**;
-- scan 18 direct author line: **`மு.கருணாநிதி`**;
-- scan 19 source-visible lexical controls include **`வல்லூ றென்போம்`** and **`தேனைப் பிழிற்றும்`**;
-- scan 20 preserves **`புல்லலூர் எயிற்றியனார்`** exactly as printed there, while other occurrences may differ;
-- scan 21 preserves **`நண்பர் களானது`**, **`வற்றா அன்பைப்`**, and **`ஒளிக்குன்றும்`**;
-- scan 23 preserves **`தளர் வுற்றான்`**;
-- scan 24 reads **`நாளையோ இன்றே வந்தே சேர்வார்`**;
-- scan 25 places **`சென்றார்!`** immediately after `பொத்தியார் ஒப்பிச்`, before the separator;
-- scan 25 ends with a source-visible decorative closing ornament, recorded non-lexically in the page record.
+Authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
 
-The user-supplied same-source extraction was used only to assist alignment. No uncertain Tamil was imported from OCR, catalogue text, web copies or unproven later editions.
+All scans **18–25** were independently reread against the controlling source. Word endings, compact/historical glyphs, unusual spacing, punctuation, quotation marks, separators and lineation were checked.
 
-## Secondary-witness research
+Phase 2 required exactly three source-backed lexical corrections:
 
-Authority: `SECONDARY_WITNESS_RESEARCH.md`.
+1. scan 21: `ஒளிக்குன்றும்` → **`ஒளிக்குன்றாம்`**;
+2. scan 24: `சொன்னர்` → **`சொன்னார்`**;
+3. scan 25: `சொன்னன்` → **`சொன்னான்`**.
 
-- official Kalaignar archive work-identity listing for `ஆந்தையும் அரசனும்`: **FOUND**;
-- readable official poem-body transcript: **NOT FOUND**;
-- 1989 `கதை சொல்லும் கலைஞரின் கவிதைகள்` metadata: **FOUND** — first edition, Selvakumar Pathippagam, 43-poem collection;
-- proof that `ஆந்தையும் அரசனும்` is contained in that 1989 collection: **NOT ESTABLISHED**;
-- admitted secondary lexical witnesses: **0**;
-- Tamil poem lines imported from web/secondary sources: **0**.
+Reconfirmed source controls include:
 
-## Phase boundary
+- scan 18: `ஆந்தையும் அரசனும்!`, `மு.கருணாநிதி`;
+- scan 19: `வல்லூ றென்போம்`, `தேனைப் பிழிற்றும்`;
+- scan 20: `புல்லலூர் எயிற்றியனார்`;
+- scan 21: `வற்றா அன்பைப்`, corrected `ஒளிக்குன்றாம்`;
+- scan 23: `தளர் வுற்றான்`;
+- scan 24: `நாளையோ இன்றே வந்தே சேர்வார்`, corrected `சொன்னார்`;
+- scan 25: corrected `சொன்னான்` and `சென்றார்!` before the separator.
 
-Phase 1 is **COMPLETE**. All eight page records remain `partial` by design because an independent Phase-2 verification pass has not yet occurred. No page is to be marked `verified` merely from the first-pass transcription.
+The user-supplied same-source extraction was used only as a lexical control. No web/catalogue/later-edition wording was imported.
 
-Exact next activity: independently perform **Phase 2 source-critical visual verification** on scans **18–25**, then promote only successful pages to `verified`.
+## Gate result
+
+**PHASE 2 PASS — 8/8 VERIFIED / 0 UNRESOLVED.**
+
+Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation**. Canonical assembly remains blocked until the ordered Phase-3 gates pass.

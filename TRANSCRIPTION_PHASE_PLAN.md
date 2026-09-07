@@ -4,17 +4,16 @@
 
 ### 1. ஆந்தையும் அரசனும் — 1965
 
-Workspace `poems/aanthaiyum-arasanum/`; source `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`; **102 pages / 381,558,891 bytes / SHA pending**; scope scans **18–25 (8)**.
+Workspace `poems/aanthaiyum-arasanum/`; source `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`; **102 pages / 381,558,891 bytes / SHA-256 `523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**; scope scans **18–25 (8)**.
 
 - intake/range: **COMPLETE**;
 - duplicate check: **PASS — 0 matches**;
-- exact SHA: **PENDING**;
-- Phase 1 source-visibility inspection: **8/8**;
-- Phase 1 page state: **8/8 partial / 0 of 8 lexically complete / 0 verified**;
-- direct title lock: **`ஆந்தையும் அரசனும்!`**;
-- visible structural evidence recorded across all scoped scans: continuation roles, star separators, decorative panels/illustrations;
-- source-access hold: current renderer reduces/crops lexical text below safe transcription fidelity; unseen/uncertain Tamil must not be guessed;
-- Phase 2–4: blocked until Phase 1 lexical completion.
+- exact SHA: **LOCKED**;
+- Phase 1: **COMPLETE — 8/8 lexically complete**;
+- Phase 2: **PASS — 8/8 verified / 0 unresolved**;
+- Phase-2 authority: `poems/aanthaiyum-arasanum/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
+- Phase 3: **NOT STARTED**;
+- exact next gate: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation**.
 
 ### 2. தலைகேட்டான் தம்பி — 1966
 
@@ -34,4 +33,4 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 
 ## Exact next activity
 
-Obtain complete uncropped/high-resolution source visibility for **ஆந்தையும் அரசனும் scans 18–25** and complete Phase-1 lexical transcription from the controlling 1965 scans. Keep pages `partial`, preserve old glyphs/spelling/punctuation/separators/lineation, and do not start Phase 2. No secondary witness may substitute for unreadable controlling-source text.
+Perform **Phase 3 Gate 1** for `ஆந்தையும் அரசனும்`: reconcile physical scans **18–25** against visibly printed page numerals/logical pagination, preserving direct-witness versus reconciled status explicitly. Do not jump to canonical assembly before ordered Phase-3 gates pass.

@@ -4,17 +4,19 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: **physical scans 18–25**.
 
-| Scan | Role / directly visible structure | `printed_page` | Phase-1 state |
+| Scan | Role / directly visible structure | `printed_page` | Phase-2 state |
 |---:|---|---|---|
-| 18 | decorated opening; direct title `ஆந்தையும் அரசனும்!`; author `மு.கருணாநிதி`; illustration | `null` pending reconciliation | **partial — lexically complete** |
-| 19 | continuation; upper verse block + centered star separators + further verse | `null` pending reconciliation | **partial — lexically complete** |
-| 20 | continuation; poem text + right decorative panel + lower illustration | `null` pending reconciliation | **partial — lexically complete** |
-| 21 | continuation; central poem column + left decorative border | `null` pending reconciliation | **partial — lexically complete** |
-| 22 | continuation; poem text + right decorative panel + lower illustration | `null` pending reconciliation | **partial — lexically complete** |
-| 23 | continuation; multiple verse blocks + centered star separators | `null` pending reconciliation | **partial — lexically complete** |
-| 24 | continuation; poem text + right decorative panel + star separator + lower illustration | `null` pending reconciliation | **partial — lexically complete** |
-| 25 | closing scan; multiple verse blocks + centered star separator + decorative closing ornament | `null` pending reconciliation | **partial — lexically complete** |
+| 18 | decorated opening; direct title `ஆந்தையும் அரசனும்!`; author `மு.கருணாநிதி`; illustration | `null` pending Phase-3 reconciliation | **verified** |
+| 19 | continuation; upper verse block + centered star separator + further verse | `null` pending Phase-3 reconciliation | **verified** |
+| 20 | continuation; poem text + right decorative panel + lower illustration | `null` pending Phase-3 reconciliation | **verified** |
+| 21 | continuation; central poem column + left decorative border | `null` pending Phase-3 reconciliation | **verified after `ஒளிக்குன்றாம்` correction** |
+| 22 | continuation; poem text + right decorative panel + lower illustration | `null` pending Phase-3 reconciliation | **verified** |
+| 23 | continuation; multiple verse blocks + centered star separators | `null` pending Phase-3 reconciliation | **verified** |
+| 24 | continuation; poem text + right decorative panel + star separator + lower illustration | `null` pending Phase-3 reconciliation | **verified after `சொன்னார்` correction** |
+| 25 | user-scoped closing scan; multiple verse blocks + centered star separators + closing ornament | `null` pending Phase-3 reconciliation | **verified after `சொன்னான்` correction** |
 
-Phase 1 is **COMPLETE 8/8**. All eight records are lexically complete first-pass transcriptions and remain `partial` until the independent Phase-2 verification pass. Verified pages: **0/8**.
+Phase 1 lexical transcription: **8/8 complete**. Phase 2 source-critical verification: **8/8 PASS / 0 unresolved**.
 
-Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon. Formal pagination and boundary certification remain Phase 3.
+Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
+
+Exact next activity: **Phase 3 Gate 1 — reconcile physical scans 18–25 with visibly printed page numbers/logical pagination without inventing direct witnesses.**

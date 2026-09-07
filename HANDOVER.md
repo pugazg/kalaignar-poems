@@ -8,12 +8,13 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. **Live main is authoritativ
 Workspace: `poems/aanthaiyum-arasanum/`.
 Source: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf` — **102 pages / 381,558,891 bytes / SHA-256 `523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**.
 Scope scans **18–25 = 8**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
-Status: **Phase 1 COMPLETE — 8/8 lexically complete / all 8 pages `partial` / verified 0 / Phase 2 NOT STARTED**.
+Status: **Phase 1 COMPLETE 8/8 / Phase 2 PASS 8/8 VERIFIED / unresolved 0 / Phase 3 NOT STARTED**.
 Direct title lock: **`ஆந்தையும் அரசனும்!`**. Direct author line: **`மு.கருணாநிதி`**.
 
-Complete uncropped/high-resolution visibility of all active scans was obtained from the exact controlling PDF. The user-supplied same-source extraction was used only as an alignment aid; every committed reading was adjudicated against the controlling scan. Secondary-witness research remains provenance-only with admitted secondary lexical witnesses **0**.
+Phase-2 authority: `poems/aanthaiyum-arasanum/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
+Phase 2 corrected exactly three Phase-1 readings: scan-21 `ஒளிக்குன்றாம்`, scan-24 `சொன்னார்`, scan-25 `சொன்னான்`.
 
-Exact next activity for this work: independently perform **Phase 2 source-critical visual verification** on scans 18–25. Check every word ending, historical/compact glyph, unusual spacing, punctuation, separator and line break; promote only successful pages to `verified`. Do not begin Phase 3 until all eight pages verify.
+Exact next activity for this work: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–25. Do not begin canonical assembly until the ordered Phase-3 gates pass.
 
 ### Priority 2 — தலைகேட்டான் தம்பி (1966)
 Workspace: `poems/thalaikettan-thambi/`.
