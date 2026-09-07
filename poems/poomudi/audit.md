@@ -2,7 +2,7 @@
 
 ## Current state
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 FIRST-PASS TRANSCRIBED / PHASE 2 NOT STARTED.**
+**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
 
 ### Source identity
 
@@ -22,28 +22,31 @@
 - visible printed page numeral: **none**;
 - page-layer `printed_page`: **`null`**.
 
-### Boundary intake
+### Boundary evidence
 
 - scan 3: Anna portrait — excluded neighbour;
 - scan 4: poem page — active;
 - scan 5: separate Penang mayoral correspondence page — excluded neighbour;
 - formal Phase-3 boundary certification: **not started**.
 
-### Phase 1 transcription state
+### Phase 1 / Phase 2
 
 - required active pages: **1**;
-- Phase 1 first-pass transcribed: **1/1**;
-- page status: **`partial`**;
-- Phase 2 verified: **0/1**;
+- Phase 1 transcribed: **1/1**;
+- Phase 2 verified: **1/1 / PASS**;
+- verified page: `pages/0004.md`;
+- Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
+- Phase-1 corrections required during verification: **0**;
+- historical/compact-glyph pass: **PASS**;
+- punctuation / spacing / lineation: **PASS**;
+- unresolved Tamil readings: **0**;
 - Phase 3 gates: **not started**;
 - Phase 4: **not started**;
 - canonical Tamil files: **0**;
 - English derivative files: **0**;
 - OCR-derived body text accepted: **0**.
 
-The first pass was made directly from an enlarged controlling scan.
-
-Source-sensitive 1965 readings currently locked for independent Phase-2 checking include:
+Source-sensitive 1965 forms independently reconfirmed:
 
 - `அறிவுமணங் கமழ்கின்ற அண்ணன் தலையது`;
 - `பொன்னைவைத்தால் நோகுமென்று`;
@@ -58,15 +61,14 @@ Source-sensitive 1965 readings currently locked for independent Phase-2 checking
 - `பாடிவரும் வண்டாக நான் பறப்பேன்...`;
 - `உனக்காக எனைத் துறப்பேன்.`
 
-### Secondary witness registration
+### Parallel-witness reconciliation
 
-The overlapping passage is also present in:
+The user-identified 1969 **இதயத்தைத் தந்திடு அண்ணா** witness and the 1968 **அண்ணா கவியரங்கம்** witness contain the shared core passage. They were checked only as secondary comparison after direct source rereading.
 
-- 1968 `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md`;
-- 1969 `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md`.
+Result: **parallel textual reuse confirmed; no harmonization permitted**.
 
-They are non-controlling comparison witnesses. The 1965 scan shows several materially different readings and punctuation states; Phase 2 must preserve the 1965 witness when the scan is clear.
+Important later-source differences include `அன்னை உள்ளம்`, `கால் மலர்கள்`, comma-separated `தம்பியரை, கழகத்தை!`, different `பூமுடியே`/`புகழ் முடியே` spacing and the 1968 close `உனைக் காக்க எனைத் துறப்பேன்.` These do not alter the verified 1965 witness.
 
 ## Exact next activity
 
-Perform **Phase 2 independent visual verification of scan 4 only**. Re-read the full transcription against the controlling scan and check historical/compact glyphs, all punctuation/spacing states and the source-specific differences from the later witnesses. If PASS, promote `pages/0004.md` to `verified`; do not begin Phase 3 in the same activity.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Do not begin Gate 2 or canonical assembly in the same activity.

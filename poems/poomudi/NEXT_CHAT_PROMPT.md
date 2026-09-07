@@ -21,7 +21,8 @@ Read completely before source-dependent changes:
 9. `poems/poomudi/indexes/page-map.md`
 10. `poems/poomudi/audit.md`
 11. `poems/poomudi/HANDOVER.md`
-12. `poems/poomudi/pages/0004.md`
+12. `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`
+13. `poems/poomudi/pages/0004.md`
 
 ## Controlling source
 
@@ -34,25 +35,20 @@ Exact identity:
 - SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
 - active poem scope: physical scan **4 only**.
 
-Direct source witnesses: title **பூமுடி**; stylized signature **மு.கருணாநிதி**; no printed page numeral.
+Direct source witnesses: title **பூமுடி**; stylized signature **மு.கருணாநிதி**; no source-visible printed page numeral found during Phase 2.
 
 ## Current state
 
-**PHASE 1 COMPLETE — 1/1 FIRST-PASS TRANSCRIBED / PAGE `partial` / PHASE 2 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
 
-`pages/0004.md` contains the complete first-pass transcription from an enlarged direct source render.
+`pages/0004.md` is verified. `PHASE2_SOURCE_VERIFICATION.md` is the verification authority. Phase-1 corrections required: **0**. Unresolved Tamil readings: **0**.
 
-Later overlapping witnesses exist in:
-
-- 1968 `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md`;
-- 1969 `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md`.
-
-They are non-controlling. The 1965 scan has source-specific variants and must govern.
+The overlapping passage also appears in the repository's 1968 `அண்ணா கவியரங்கம்` and 1969 `இதயத்தைத் தந்திடு அண்ணா` sources. They are later textual reuses / parallel witnesses only. Do not normalize the verified 1965 wording/punctuation to them.
 
 ## Exact next activity
 
-Perform **Phase 2 independent source-critical visual verification of physical scan 4 only**. Re-read the complete page from the controlling scan, checking every lexical form, compact/historical glyph, word spacing/join, punctuation mark, line break, title and signature.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**.
 
-Pay particular attention to the source-specific 1965 forms recorded in `audit.md`, especially `அண்ணன் உள்ளம்`, `முக்கனியும். தோற்றுவிடும்!`, `கால்மலர்கள்`, `தம்பியரை-கழகத்தை!`, `சமதர்மப் பூ`, `பூ முடியே !`, and the final `உனக்காக எனைத் துறப்பேன்.`
+Formally account for physical scan 4 as the sole active work scan and certify the printed-page state from the controlling source. The current page layer uses `printed_page: null`; retain it only if the direct scan continues to show no printed numeral. Record Gate-1 PASS if supported.
 
-If the independent pass succeeds, promote `pages/0004.md` to `verified` and record Phase-2 PASS. Do not start Phase 3 in the same activity.
+Do not begin Phase 3 Gate 2, canonical assembly, completeness review, Tamil final clearance, or English translation in the same activity.

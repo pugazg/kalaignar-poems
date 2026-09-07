@@ -23,12 +23,14 @@ Active workspace: `poems/poomudi/`.
 
 ## Current durable state
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 FIRST-PASS TRANSCRIBED / PHASE 2 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
 
-- page record: `pages/0004.md` — `partial`;
+- verified page: `pages/0004.md`;
+- Phase-2 authority: `PHASE2_SOURCE_VERIFICATION.md`;
 - visible printed page numeral: **none**; `printed_page: null`;
-- Phase 1: **1/1 COMPLETE**;
-- Phase 2: **0/1 NOT STARTED**;
+- Phase-1 corrections required during Phase 2: **0**;
+- compact/historical glyph pass: **PASS**;
+- unresolved Tamil readings: **0**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
 - canonical Tamil: **none**;
@@ -36,25 +38,25 @@ Active workspace: `poems/poomudi/`.
 
 Neighbouring scans 3 and 5 remain boundary evidence only.
 
-## Non-controlling parallel witnesses
+## Parallel textual reuse
 
-The overlapping passage appears later in:
+The shared core passage appears later in:
 
 - `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` (1968);
 - `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md` (1969).
 
-The controlling 1965 scan differs in wording and punctuation. Do not normalize `பூமுடி` to those later versions. In particular, preserve/check `அண்ணன் உள்ளம்`, `கால்மலர்கள்`, `தம்பியரை-கழகத்தை!`, `சமதர்மப் பூ`, `பூ முடியே !`, and `உனக்காக எனைத் துறப்பேன்.` directly from scan 4.
+The 1965 page is not to be normalized to either later reuse. Phase 2 independently reconfirmed source-specific forms such as `அண்ணன் உள்ளம்`, `முக்கனியும். தோற்றுவிடும்!`, `கால்மலர்கள்`, `தம்பியரை-கழகத்தை!`, `சமதர்மப் பூ`, `பூ முடியே ! புகழ்முடியே !`, and `உனக்காக எனைத் துறப்பேன்.`
 
 ## Exact next activity
 
-Perform **Phase 2 independent source-critical visual verification of scan 4 only**.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**.
 
-- independently reread every line against the 1965 scan;
-- check all compact/historical glyphs, word joins/spaces, punctuation and lineation;
-- compare later witnesses only after direct scan reading and only to flag variants;
-- correct only source-backed Phase-1 defects;
-- promote `pages/0004.md` from `partial` to `verified` only if the entire page passes;
-- synchronize source/status docs;
-- do **not** begin Phase 3 in the same activity.
+- fetch live `main` first;
+- reread the controlling scan and page-map state;
+- formally certify the one-page physical scope;
+- confirm whether any source-visible printed page numeral exists;
+- retain `printed_page: null` only if the scan supports it;
+- create/update the Gate-1 structural authority and synchronized status docs;
+- do **not** begin Gate 2, canonical assembly, or translation in the same activity.
 
 All release-cleared work remains closed unless formally reopened by source-backed evidence.

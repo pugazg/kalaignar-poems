@@ -19,23 +19,25 @@ Direct source witnesses: decorative title **பூமுடி** and stylized au
 
 ### Durable status
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 COMPLETE — 1/1 FIRST-PASS TRANSCRIBED / PHASE 2 NOT STARTED.**
+**PHASE 1 COMPLETE — 1/1 / PHASE 2 COMPLETE — 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
 
-- page record: `poems/poomudi/pages/0004.md` — `partial`;
-- visible printed page numeral: none; `printed_page: null`;
-- Phase 1: **1/1 COMPLETE**;
-- Phase 2: **0/1 NOT STARTED**;
+- verified page: `poems/poomudi/pages/0004.md`;
+- Phase-2 authority: `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`;
+- visible printed page numeral: none; `printed_page: null` currently retained;
+- Phase-1 corrections required during Phase 2: **0**;
+- compact/historical glyph pass: **PASS**;
+- unresolved Tamil readings: **0**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
 - canonical Tamil / English derivative: **none / none**.
 
 Scans 3 and 5 remain neighbour-only boundary evidence.
 
-The overlapping passage also appears in the 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** workspaces. They are secondary witnesses only; the 1965 scan has distinct wording/punctuation and controls this work.
+The overlapping passage also appears in the 1968 **அண்ணா கவியரங்கம்** and 1969 **இதயத்தைத் தந்திடு அண்ணா** workspaces. Phase 2 classifies these as later textual reuses / parallel witnesses only; the 1965 scan has distinct wording/punctuation and controls this work.
 
 ### Exact next activity
 
-Perform **Phase 2 independent source-critical visual verification of scan 4 only**. Check every word, historical/compact glyph, punctuation mark and line break directly against the controlling 1965 scan; use later witnesses only as non-controlling comparison. If PASS, promote the page to `verified`. Do not begin Phase 3 in the same activity.
+Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only** for scan 4. Formally certify the one-page physical scope and the source-visible printed-page state. Do not begin Gate 2 in the same activity.
 
 ## Most recently closed work — அண்ணா கவியரங்கம்
 

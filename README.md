@@ -2,7 +2,7 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
-## பூமுடி (1965) — Phase 1 complete
+## பூமுடி (1965) — Phase 2 verified
 
 Workspace: `poems/poomudi/`
 
@@ -10,17 +10,20 @@ Controlling source: `TVA_PRL_0001656_முரசொலி_அண்ணா �
 
 User-scoped work range: **physical scan 4 only**.
 
-**EXACT SOURCE IDENTITY COMPLETE / PHASE 1 1/1 FIRST-PASS TRANSCRIBED / PHASE 2 NOT STARTED.**
+**PHASE 1 1/1 COMPLETE / PHASE 2 1/1 VERIFIED / PASS / PHASE 3 NOT STARTED.**
 
 - direct title witness: **பூமுடி**;
 - direct source signature: **மு.கருணாநிதி**;
-- page record: `poems/poomudi/pages/0004.md` — `partial`;
-- visible printed page numeral: none / `printed_page: null`;
+- verified page: `poems/poomudi/pages/0004.md`;
+- Phase-2 authority: `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`;
+- Phase-1 corrections required: **0**;
+- visible printed page numeral: none / `printed_page: null` currently retained;
 - scans 3 and 5: boundary evidence only;
-- later 1968/1969 overlapping passages: secondary witnesses only;
+- later 1968/1969 shared passage: non-controlling textual reuse / parallel witnesses only;
+- unresolved Tamil readings: **0**;
 - canonical Tamil / English derivative: none.
 
-Exact next activity: **Phase 2 independent source-critical visual verification of scan 4 only**. Do not begin Phase 3 in the same activity.
+Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only**. Do not begin Gate 2 in the same activity.
 
 ## காஞ்சிதான் அண்ணன் (1970) — release-cleared
 
@@ -39,7 +42,7 @@ Release-cleared outputs:
 - reader-facing English: `poems/kanchithan-annan/translations/en/kanchithan-annan-en.md` — blob `97b2d62b9c9aa019220dd67ed814b533d4b0a775`, **984 bytes**;
 - release-integrity authority: `poems/kanchithan-annan/translations/en/RELEASE_INTEGRITY_REVIEW.md` — PASS;
 - release authority: `poems/kanchithan-annan/translations/en/RELEASE_REPORT.md`;
-- active source coverage: **1/1 — scan 16 exactly once**;
+- active scan marker: **1/1 — scan 16 exactly once**;
 - unresolved release issues: **0**;
 - Tamil page/canonical drift since final clearance: **0 / 0**.
 

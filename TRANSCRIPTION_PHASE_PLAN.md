@@ -25,22 +25,27 @@ Direct source witnesses: title **பூமுடி**; stylized signature **ம�
 
 ### Phase 1 — transcription
 
-**COMPLETE — 1/1 FIRST-PASS TRANSCRIBED.**
+**COMPLETE — 1/1.**
 
-- `poems/poomudi/pages/0004.md` contains the complete source-first transcription;
-- page status remains **`partial`** pending Phase 2;
-- no OCR text accepted;
-- visible printed page numeral: none / `printed_page: null`.
+`poems/poomudi/pages/0004.md` contains the complete source transcription.
 
 ### Phase 2 — source-critical verification
 
-**NOT STARTED — 0/1.**
+**COMPLETE — 1/1 VERIFIED / PASS.**
 
-Exact next gate: independently reread scan 4 against the controlling 1965 source, checking every lexical form, compact/historical glyph, punctuation mark and line break. Later 1968/1969 overlapping witnesses are non-controlling comparison only.
+- verification authority: `poems/poomudi/PHASE2_SOURCE_VERIFICATION.md`;
+- Phase-1 corrections required: **0**;
+- compact/historical glyph pass: **PASS**;
+- punctuation / spacing / lineation: **PASS**;
+- unresolved Tamil readings: **0**.
+
+The 1968 `அண்ணா கவியரங்கம்` and 1969 `இதயத்தைத் தந்திடு அண்ணா` passages are non-controlling later textual reuses / parallel witnesses. Their variants are not harmonized into the 1965 page.
 
 ### Phase 3 — structure / completeness / canonical Tamil / final clearance
 
-**NOT STARTED.** Blocked until Phase 2 passes.
+**NOT STARTED.**
+
+Exact next gate: **Gate 1 — physical scan ↔ printed-page reconciliation only** for scan 4. Gate 2 and later gates remain blocked until Gate 1 is completed.
 
 ### Phase 4 — translation / release
 
@@ -48,7 +53,7 @@ Exact next gate: independently reread scan 4 against the controlling 1965 source
 
 ### Exact next activity
 
-Perform **Phase 2 independent source-critical visual verification of scan 4 only**. Do not start Phase 3 in the same activity.
+Perform **Phase 3 Gate 1 only**. Formally certify the sole active physical scan and source-visible printed-page state. Do not begin Gate 2 in the same activity.
 
 ---
 

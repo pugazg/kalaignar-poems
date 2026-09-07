@@ -21,8 +21,6 @@ User-supplied catalogue/context description, preserved separately from source te
 - SHA-256: **`7312d5f8686f7968d62bbac9318c2452ca32873a0ae889f10a7151e5de81ab5a`**;
 - source PDF committed to repository: **No**.
 
-Exact-byte identity was computed from the supplied PDF bytes before Phase 1 transcription.
-
 ## Scan location / pagination
 
 - active poem scan: **4**;
@@ -30,21 +28,30 @@ Exact-byte identity was computed from the supplied PDF bytes before Phase 1 tran
 - page-layer `printed_page`: **`null`**;
 - the small top-margin handwritten/library-style mark is non-print material and is not pagination.
 
+Formal pagination reconciliation remains Phase 3 Gate 1.
+
 ## Boundary evidence
 
 - scan 3: full-page Anna portrait — neighbour only;
 - scan 4: decorated `பூமுடி` title + complete scoped poem + stylized `மு.கருணாநிதி` signature;
 - scan 5: separate Penang mayoral correspondence page — neighbour only.
 
-Scans 3 and 5 are excluded from the poem transcription. Formal opening/closing certification remains a Phase-3 gate.
+Scans 3 and 5 are excluded from the poem transcription. Formal opening/closing certification remains Phase 3 Gate 2.
 
-## Phase-1 visual inspection
+## Phase 2 verified source layer
 
-A sufficiently enlarged direct render of scan 4 was inspected. The complete visible poem was transcribed directly from the 1965 scan and recorded at `../pages/0004.md` with status `partial`.
+`../pages/0004.md` is now **VERIFIED / PASS** after an independent source-critical reread of the enlarged 1965 scan.
 
-No OCR text was accepted.
+Verification authority: `../PHASE2_SOURCE_VERIFICATION.md`.
 
-Source-specific first-pass readings that must not be silently replaced include:
+- active pages: **1/1 VERIFIED**;
+- Phase-1 corrections required: **0**;
+- poem lines checked: **23/23**;
+- compact/historical glyph pass: **PASS**;
+- punctuation/spacing/lineation: **PASS**;
+- unresolved Tamil readings: **0**.
+
+Source-specific verified forms include:
 
 - `அரவணைக்கும் அண்ணன் உள்ளம் — அவர்`;
 - `முக்கனியும். தோற்றுவிடும்!`;
@@ -57,21 +64,21 @@ Source-specific first-pass readings that must not be silently replaced include:
 
 ## Parallel witnesses — secondary only
 
-The overlapping passage beginning `பூவிதழின் மென்மையினும் மென்மையான` also survives in later repository sources:
+The core passage is reused later in:
 
-- `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — 1968 source;
-- `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md` — 1969 source.
+- `poems/anna-kaviyarangam/sections/anna-kaviyarangam.md` — 1968;
+- `poems/idhayathai-thanthidu-anna/sections/idhayathai-thanthidu-anna.md` — 1969.
 
-These later witnesses are **non-controlling** for `பூமுடி`. They were consulted only after the 1965 page had been read directly. Their variants are useful for Phase-2 comparison but must never be imported over the 1965 scan.
+These later sources are **parallel textual reuses**, not controlling witnesses for the 1965 page. Their `அன்னை உள்ளம்`, `கால் மலர்கள்`, alternate punctuation/spacing and different continuation states must not overwrite the verified 1965 witness.
 
 ## Current processing state
 
-- source intake: **REGISTERED / exact identity COMPLETE**;
-- Phase 1: **1/1 FIRST-PASS TRANSCRIBED / page remains `partial`**;
-- Phase 2: **NOT STARTED**;
+- source intake / exact identity: **COMPLETE**;
+- Phase 1: **1/1 COMPLETE**;
+- Phase 2: **1/1 VERIFIED / PASS**;
 - Phase 3: **NOT STARTED**;
 - Phase 4: **NOT STARTED**;
 - canonical Tamil: **none**;
 - English derivative: **none**.
 
-Exact next activity: **Phase 2 independent source-critical visual verification of scan 4 only**. Re-read every word, punctuation mark, line break and historical/compact glyph directly against the 1965 scan, using the later witnesses only as non-controlling comparison. Do not begin Phase 3 in the same activity.
+Exact next activity: **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation only** for scan 4.
