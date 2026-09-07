@@ -4,25 +4,28 @@ Source-first workspace for Kalaignar M. Karunanidhi's poem **ஆந்தைய�
 
 ## Current status
 
-**SOURCE INTAKE COMPLETE EXCEPT SHA / PHASE 1 SOURCE-VISIBILITY PASS 8/8 / SECONDARY-WITNESS RESEARCH COMPLETE / ALL 8 SCANS PARTIAL / 0 OF 8 LEXICALLY COMPLETE.**
+**SOURCE IDENTITY LOCKED / PHASE 1 COMPLETE 8/8 / ALL 8 SCANS LEXICALLY COMPLETE AND `partial` / 0 VERIFIED / PHASE 2 NOT STARTED.**
 
 - controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`;
 - physical PDF pages: **102**;
 - file size: **381,558,891 bytes**;
-- SHA-256: **pending exact-byte hash**;
+- SHA-256: **`523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**;
 - scope: physical scans **18–25 = 8**;
 - direct scan-18 decorated title: **`ஆந்தையும் அரசனும்!`**;
+- direct scan-18 author line: **`மு.கருணாநிதி`**;
 - bibliographic title: **ஆந்தையும் அரசனும்**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1965**;
 - duplicate-title search before onboarding: **0 existing matches**;
 - source-inspected Phase-1 page records: **8/8**;
 - Phase-1 partial pages: **8/8**;
-- lexically complete Phase-1 pages: **0/8**;
+- lexically complete Phase-1 pages: **8/8**;
 - verified pages: **0**;
 - Phase 2+: **NOT STARTED**.
 
-Direct source inspection covers all scoped scans **18–25**. Page records durably preserve source-visible layout evidence: decorated opening title, continuation roles, illustrations/decorative panels and visible star separators. The available renderer remains reduced/cropped below safe historical-glyph transcription fidelity, so uncertain lexical wording has not been guessed.
+Complete uncropped/high-resolution views of all active scans were obtained from the exact controlling PDF. `pages/0018.md`–`0025.md` now contain the complete first-pass lexical layer. Phase 1 deliberately preserves source-visible unusual spellings/spacing, punctuation, separators and lineation rather than normalizing them.
+
+A user-supplied same-source word-for-word extraction was useful for alignment, but it was not treated as independent authority. Every committed reading was adjudicated against the controlling 1965 scan. Notable Phase-1 corrections/controls include `மு.கருணாநிதி`, `தேனைப் பிழிற்றும்`, scan-20 `புல்லலூர் எயிற்றியனார்`, scan-21 `வற்றா அன்பைப்` and `ஒளிக்குன்றும்`, scan-24 `இன்றே`, and scan-25 `சென்றார்!` before the separator.
 
 ## Secondary-witness research
 
@@ -39,12 +42,6 @@ Therefore:
 
 Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-## User-supplied context
-
-`'பொற்புடைத் தமிழர் வாழ்வினில் அன்று, கற்புடை நட்பு மிளிர்ந்தது நன்று' என்பதைக் கோப்பெருஞ்சோழன் பிசிராந்தையார் நட்பின் வழிநின்று சொல்லும் கவிதை`
-
-This remains bibliographic/context metadata unless independently visible in the controlling source.
-
 ## Exact next activity
 
-Continue **Phase 1 lexical transcription** only after obtaining full-resolution/uncropped visibility of the controlling scans **18–25**, or a proven readable later witness that can be used solely to assist visual adjudication against those scans. Preserve historical glyphs, spelling, punctuation, separators and lineation. Pages remain `partial`; never mark them `verified` in Phase 1. Do not begin Phase 2 until all eight pages are completely transcribed.
+Begin **Phase 2 source-critical visual verification** for scans **18–25** only. Independently reread every page against the same controlling source; check every word ending, historical/compact glyph, unusual spacing, punctuation mark, separator and line break. Correct only source-backed differences and promote a page to `verified` only after its independent verification pass succeeds. Do not begin Phase 3 until all eight pages are verified.
