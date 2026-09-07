@@ -4,8 +4,11 @@ Controlling source: `TVA_PRL_0001631_முரசொலி_ பொங்�
 
 Scope: **physical scans 18–25**.
 
-Phase-3 Gate-1 pagination authority: `../PHASE3_PAGINATION_RECONCILIATION.md`.
-Phase-3 Gate-2 boundary authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+Authorities:
+
+- Phase-3 Gate 1 pagination: `../PHASE3_PAGINATION_RECONCILIATION.md`;
+- Phase-3 Gate 2 boundaries: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Phase-3 Gate 3 title witnesses: `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
 | Scan | Role / directly visible structure | Printed-page result | Verification state |
 |---:|---|---|---|
@@ -18,7 +21,7 @@ Phase-3 Gate-2 boundary authority: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 | 24 | continuation; poem text + decorative panel + separator + illustration | `null` — no direct numeral; no logical number assigned | **verified** |
 | 25 | closing scan; verse blocks + separators + closing ornament | `null` — no direct numeral; no logical number assigned | **verified** |
 
-Phase 1 lexical transcription: **8/8 complete**. Phase 2 source-critical verification: **8/8 PASS / 0 unresolved**. Phase 3 Gate 1: **PASS**. Phase 3 Gate 2: **PASS**.
+Phase 1 lexical transcription: **8/8 complete**. Phase 2: **8/8 PASS / 0 unresolved**. Phase 3 Gates 1–3: **PASS**.
 
 ## Certified boundary map
 
@@ -34,6 +37,12 @@ Phase 1 lexical transcription: **8/8 complete**. Phase 2 source-critical verific
 | 24→25 | PASS | source separator is owned by scan 24; retain once before scan-25 text |
 | 25→26 | PASS | decorative poem close → unrelated cartoon; no poem continuation |
 
+## Title authority
+
+- bibliographic/work metadata witness: `ஆந்தையும் அரசனும்` — preserved;
+- direct controlling-source witness: `ஆந்தையும் அரசனும்!` — preserved;
+- canonical Tamil assembly heading: **`ஆந்தையும் அரசனும்!`**.
+
 Neighbour evidence: scan 17 unrelated prose; scan 26 unrelated cartoon.
 
-Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation**. Canonical assembly remains blocked until the title authority is explicitly recorded.
+Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly** from verified page records only, following the certified boundary map and title authority above.

@@ -3,10 +3,13 @@
 ## Work identity
 - bibliographic title: **ஆந்தையும் அரசனும்**;
 - direct decorated scan-18 title: **`ஆந்தையும் அரசனும்!`**;
+- canonical Tamil assembly title authority: **`ஆந்தையும் அரசனும்!`** (direct controlling-source witness);
 - bibliographic author: **கலைஞர் மு. கருணாநிதி**;
 - direct scan-18 author line: **`மு.கருணாநிதி`**;
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1965**;
 - physical work range: scans **18–25**.
+
+The bibliographic title remains preserved as metadata/work identity. The direct scan-18 title governs canonical source text; its terminal exclamation mark is source punctuation and must not be normalized away.
 
 ## Controlling source
 - filename: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf`;
@@ -32,13 +35,13 @@ See `../SECONDARY_WITNESS_RESEARCH.md`.
 - Phase 1: **COMPLETE — 8/8 lexically complete**;
 - Phase 2: **PASS — 8/8 verified / 0 unresolved**;
 - Phase-2 report: `../PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-- Phase 3 Gate 1: **PASS**;
-- pagination report: `../PHASE3_PAGINATION_RECONCILIATION.md`;
+- Phase 3 Gate 1: **PASS** — `../PHASE3_PAGINATION_RECONCILIATION.md`;
 - printed-page state: **8/8 `null` confirmed — no direct numeral witness and no source-supported logical number assigned**;
-- Phase 3 Gate 2: **PASS**;
-- boundary report: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Phase 3 Gate 2: **PASS** — `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
 - boundary state: **opening 1/1 PASS / internal joins 7/7 PASS / closing 1/1 PASS / unresolved 0 / page-text changes 0**;
-- Phase 3 Gate 3+: **NOT STARTED**;
+- Phase 3 Gate 3: **PASS** — `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
+- title state: **bibliographic `ஆந்தையும் அரசனும்` preserved / direct `ஆந்தையும் அரசனும்!` selected for canonical assembly / unresolved 0**;
+- Phase 3 Gate 4+: **NOT STARTED**;
 - canonical Tamil / English: none / none.
 
-Physical scan numbers remain provenance identifiers and are not treated as printed-page numbers. Gate 2 preserves source-owned separator and quotation continuity across page boundaries; it does not normalize verified text.
+Physical scan numbers remain provenance identifiers and are not treated as printed-page numbers. Gates 2–3 preserve source-owned boundary and title punctuation; they do not normalize verified text.

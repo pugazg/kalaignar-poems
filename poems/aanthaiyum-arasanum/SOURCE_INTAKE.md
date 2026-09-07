@@ -29,13 +29,15 @@ The earlier reduced/cropped-renderer hold is **resolved**. Exact source bytes an
 - Phase 2: **PASS — 8/8 verified / 0 unresolved**;
 - Phase 3 Gate 1 pagination: **PASS**;
 - Phase 3 Gate 2 boundary/page joins: **PASS — opening 1/1 / joins 7/7 / closing 1/1 / unresolved 0**;
-- Phase 3 Gate 3+: **NOT STARTED**;
+- Phase 3 Gate 3 title witnesses: **PASS — bibliographic `ஆந்தையும் அரசனும்` preserved; direct `ஆந்தையும் அரசனும்!` selected as canonical assembly authority; unresolved 0**;
+- Phase 3 Gate 4+: **NOT STARTED**;
 - Phase 4: **NOT STARTED**.
 
 Authorities:
 
 - `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
 - `PHASE3_PAGINATION_RECONCILIATION.md`;
-- `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+- `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation** between bibliographic `ஆந்தையும் அரசனும்` and direct scan-18 `ஆந்தையும் அரசனும்!`. Preserve both witnesses and record the canonical assembly authority explicitly.
+Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly** from verified page records `0018`–`0025`, using exact source heading `ஆந்தையும் அரசனும்!`, preserving certified joins/separators/quotation continuity and physical scan provenance.

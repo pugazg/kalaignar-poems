@@ -12,7 +12,8 @@
 - unresolved lexical holds: **0**;
 - Phase 3 Gate 1 pagination reconciliation: **PASS**;
 - Phase 3 Gate 2 boundary/page-join audit: **PASS**;
-- unresolved boundary holds: **0**;
+- Phase 3 Gate 3 title-witness reconciliation: **PASS**;
+- unresolved boundary/title holds: **0 / 0**;
 - canonical / English files: **0 / 0**.
 
 ## Phase-2 authority
@@ -25,32 +26,41 @@ Phase 2 required exactly three source-backed lexical corrections: scan 21 `ஒ�
 
 Authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
 
-Result:
-
 - physical scans **18–25: 8/8 accounted**;
-- directly visible printed-page numerals admitted: **0/8**;
+- direct printed-page numerals admitted: **0/8**;
 - reconciled logical printed-page numerals assigned: **0/8**;
-- durable `printed_page`: **`null` on 8/8, confirmed rather than pending**;
-- physical scan numbers were **not** copied into `printed_page`.
+- durable `printed_page`: **`null` on 8/8**;
+- physical scan numbers are provenance only.
 
 ## Phase 3 Gate 2 — boundary / page joins
 
 Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md`.
 
-Result:
-
 - opening boundary scan 17→18: **PASS**;
 - internal joins 18→19 through 24→25: **7/7 PASS**;
 - closing boundary scan 25→26: **PASS**;
-- direct poetic continuation: **18→19 certified**;
-- multi-page quotation carry-over: **22→23 certified**;
-- quoted-question / speech-tag continuation: **23→24 certified**;
-- separator-owned transition: **24→25 certified; separator remains on scan 24 and is not duplicated**;
+- direct poetic continuation 18→19: **certified**;
+- quotation carry-over 22→23: **certified**;
+- quoted-question / speech-tag continuation 23→24: **certified**;
+- separator-owned transition 24→25: **certified; separator remains on scan 24**;
 - page-layer corrections required: **0**;
 - unresolved boundary holds: **0**.
 
+## Phase 3 Gate 3 — title witnesses
+
+Authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
+
+- bibliographic witness preserved: **`ஆந்தையும் அரசனும்`**;
+- direct scan-18 witness preserved: **`ஆந்தையும் அரசனும்!`**;
+- difference: **terminal source-visible exclamation mark**;
+- canonical assembly title authority: **direct scan-18 `ஆந்தையும் அரசனும்!`**;
+- bibliographic form remains metadata/search identity and does not override source punctuation;
+- hybrid/normalized title prohibited;
+- page-layer changes required: **0**;
+- unresolved title holds: **0**.
+
 ## Gate result
 
-**PHASE 3 GATES 1–2 PASS / 8/8 VERIFIED / 0 LEXICAL HOLDS / 0 BOUNDARY HOLDS.**
+**PHASE 3 GATES 1–3 PASS / 8/8 VERIFIED / 0 LEXICAL HOLDS / 0 BOUNDARY HOLDS / 0 TITLE HOLDS.**
 
-Exact next activity: **Phase 3 Gate 3 — title-witness reconciliation** between bibliographic `ஆந்தையும் அரசனும்` and direct scan-18 `ஆந்தையும் அரசனும்!`. Record explicit assembly authority without silently normalizing either witness. Canonical assembly remains blocked until Gate 3 passes.
+Exact next activity: **Phase 3 Gate 4 — canonical Tamil assembly** from verified pages only, using `ஆந்தையும் அரசனும்!` as the canonical heading and preserving scan provenance and all Gate-2-certified joins. Gate 5 review and Tamil final clearance remain deferred.

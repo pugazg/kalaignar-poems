@@ -8,18 +8,26 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. **Live main is authoritativ
 Workspace: `poems/aanthaiyum-arasanum/`.
 Source: `TVA_PRL_0001631_முரசொலி_ பொங்கல் மலர்_ 1965.pdf` — **102 pages / 381,558,891 bytes / SHA-256 `523a038dcd391f5cbe48f564d2ecac566fd0065066e05d29fc5b738aa4964819`**.
 Scope scans **18–25 = 8**. Scan 17 unrelated prose; scan 26 unrelated cartoon.
-Status: **Phase 1 COMPLETE 8/8 / Phase 2 PASS 8/8 VERIFIED / Phase 3 Gates 1–2 PASS / unresolved 0**.
-Direct title lock: **`ஆந்தையும் அரசனும்!`**. Direct author line: **`மு.கருணாநிதி`**.
+Status: **Phase 1 COMPLETE 8/8 / Phase 2 PASS 8/8 VERIFIED / Phase 3 Gates 1–3 PASS / unresolved 0**.
+
+Title state:
+
+- bibliographic/work metadata: **`ஆந்தையும் அரசனும்`**;
+- direct controlling-source title: **`ஆந்தையும் அரசனும்!`**;
+- canonical assembly heading authority: **`ஆந்தையும் அரசனும்!`**.
+
+Direct author line: **`மு.கருணாநிதி`**.
 
 Authorities:
 
 - Phase 2: `poems/aanthaiyum-arasanum/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
 - Phase 3 Gate 1: `poems/aanthaiyum-arasanum/PHASE3_PAGINATION_RECONCILIATION.md`;
-- Phase 3 Gate 2: `poems/aanthaiyum-arasanum/PHASE3_BOUNDARY_JOIN_AUDIT.md`.
+- Phase 3 Gate 2: `poems/aanthaiyum-arasanum/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- Phase 3 Gate 3: `poems/aanthaiyum-arasanum/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-Gate 1 confirms `printed_page: null` on 8/8 with no unsupported logical pagination. Gate 2 certifies opening 1/1, internal joins 7/7 and closing 1/1 with no page-text corrections or unresolved boundary holds. Key certified joins include direct poetic continuation 18→19, quotation carry-over 22→23, quoted-question/speech-tag continuation 23→24, and the scan-24-owned separator before scan 25.
+Gate 1 confirms `printed_page: null` on 8/8 with no unsupported logical pagination. Gate 2 certifies opening 1/1, internal joins 7/7 and closing 1/1 with no page-text corrections or unresolved boundary holds. Gate 3 preserves both title witnesses and locks direct scan-18 `ஆந்தையும் அரசனும்!` as canonical source heading because canonical assembly must preserve verified source punctuation; the bibliographic form remains metadata/search identity.
 
-Exact next activity for this work: **Phase 3 Gate 3 — title-witness reconciliation** between bibliographic `ஆந்தையும் அரசனும்` and direct scan-18 `ஆந்தையும் அரசனும்!`. Preserve both witnesses and record explicit canonical assembly authority. Canonical assembly remains blocked until Gate 3 passes.
+Exact next activity for this work: **Phase 3 Gate 4 — canonical Tamil assembly** from verified scans 18–25 only. Preserve source lineation, punctuation, separators, quotation continuity and scan provenance; use heading `ஆந்தையும் அரசனும்!`; stop before Gate 5 review/final clearance.
 
 ### Priority 2 — தலைகேட்டான் தம்பி (1966)
 Workspace: `poems/thalaikettan-thambi/`.
