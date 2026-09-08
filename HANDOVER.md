@@ -21,25 +21,27 @@ Current state:
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
 - page statuses: **6 `verified` / 0 `partial`**;
-- scan-18 structural-role correction: **COMPLETE** — trailing body `தம்பி` / `கருணாநிதி` removed; `தம்பி` remains title element, `கருணாநிதி` author attribution; lexical verse unchanged;
+- scan-18 structural-role correction: **COMPLETE** — `தம்பி` title element / `கருணாநிதி` author attribution removed from poem-body duplication; lexical verse unchanged;
 - Phase 3 Gate 1: **PASS**;
 - Phase 3 Gate 2: **PASS**;
-- Phase 3 Gates 3–6: **NOT STARTED**;
+- Phase 3 Gate 3: **PASS**;
+- Phase 3 Gates 4–6: **NOT STARTED**;
 - Phase 4: **BLOCKED**;
-- complete direct title: **`தலைகேட்டான் தம்பி`**;
-- scan-18 decoration spatially splits the title as upper `தலைகேட்டான்` + lower `தம்பி`;
-- bibliographic/direct title conflict: **0**;
-- direct scan-18 source-position attribution: **`கருணாநிதி`**.
+- canonical Tamil / English: **none / none**.
 
-Phase-2 authority: `poems/thalaikettan-thambi/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`. Source-backed scan-21 corrections: `மகிழ்ந்தானா` and `கொடை நீரூற்று`.
+Authorities:
 
-Structural-role authority: `poems/thalaikettan-thambi/POST_PHASE2_STRUCTURAL_CORRECTION.md`.
+- `poems/thalaikettan-thambi/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
+- `poems/thalaikettan-thambi/POST_PHASE2_STRUCTURAL_CORRECTION.md`;
+- `poems/thalaikettan-thambi/PHASE3_PAGINATION_RECONCILIATION.md`;
+- `poems/thalaikettan-thambi/PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+- `poems/thalaikettan-thambi/PHASE3_TITLE_WITNESS_RECONCILIATION.md`.
 
-Phase-3 Gate-1 authority: `poems/thalaikettan-thambi/PHASE3_PAGINATION_RECONCILIATION.md` — 6/6 active scans accounted, 0/6 visible printed numerals, 0/6 logical assignments, 6/6 `null` confirmed, unresolved 0.
+Gate 3 formally locks canonical heading authority to **`# தலைகேட்டான் தம்பி`**. Direct and bibliographic title witnesses agree lexically, in punctuation and in word order; conflicts **0 / 0 / 0**. The decorated upper/lower title layout and `கருணாநிதி` attribution remain provenance metadata, not canonical body text.
 
-Phase-3 Gate-2 authority: `poems/thalaikettan-thambi/PHASE3_BOUNDARY_JOIN_AUDIT.md` — opening **17→18 PASS**, internal joins **5/5 PASS**, closing **23→24 PASS**, unresolved boundary issues **0**. Critical 22→23 continuation remains direct with no inserted separator.
+Gate-2 critical join remains direct: `அண்ணன் உயிர்தந்த செய்தியாலே` → `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`; never insert a separator at that boundary.
 
-Exact next activity: **lock the pending SHA-256 from the exact attached 75-page bytes, then perform Phase 3 Gate 3 — title-witness reconciliation.** Do not begin canonical assembly unless explicitly directed to process remaining gates.
+Exact next activity: **lock the pending SHA-256 from the exact attached 75-page bytes, then perform Phase 3 Gate 4 — canonical Tamil assembly from verified scans 18–23.** Stop after Gate 4 unless explicitly directed to continue.
 
 ## Newly closed — ஆந்தையும் அரசனும்! (1965)
 
@@ -53,9 +55,9 @@ Source: `TVA_PRL_0001631_முரசொலி_ பொங்கல் ம�
 - Phase 2 **8/8 VERIFIED / PASS**;
 - Phase 3 Gates 1–6 **PASS / TAMIL FINAL-CLEARED**;
 - Phase 4 **COMPLETE / RELEASE-CLEARED**;
-- canonical Tamil `poems/aanthaiyum-arasanum/sections/01.md` — blob `1693fd59795ddbc5eef6d0ee614c8502961c6e3d`;
-- reviewed English `poems/aanthaiyum-arasanum/translations/en/sections/01.md` — blob `a6e558f24f086fef4c8b72c6a909d70ae34cd55a`;
-- reader-facing English `poems/aanthaiyum-arasanum/translations/en/aanthaiyum-arasanum-en.md` — blob `8ba2b7987b7a7d15ca1712f5fa1eb9e410c8d44a`;
+- canonical Tamil `poems/aanthaiyum-arasanum/sections/01.md`;
+- reviewed English `poems/aanthaiyum-arasanum/translations/en/sections/01.md`;
+- reader-facing English `poems/aanthaiyum-arasanum/translations/en/aanthaiyum-arasanum-en.md`;
 - release authority `poems/aanthaiyum-arasanum/translations/en/RELEASE_REPORT.md`;
 - unresolved issues **0**.
 
