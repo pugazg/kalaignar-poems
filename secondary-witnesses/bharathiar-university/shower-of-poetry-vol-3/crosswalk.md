@@ -1,19 +1,19 @@
 # Crosswalk — Shower of Poetry — Volume III
 
-Initial onboarding preserves the complete 50-entry contents witness but does **not** assert item identity from English-title similarity alone. Every row remains `INVESTIGATE` pending comparison against the repository's multi-item collections and standalone workspaces.
+Initial onboarding preserves the complete 50-entry contents witness but does **not** assert item identity from English-title similarity alone. Identity is hardened only from actual payload, event/person/date context and current repository coverage.
 
 | # | Source English title | Printed start p. | Status | Repository target | Note |
 |---:|---|---:|---|---|---|
-| 1 | The Opportune Hour Has Come! | 1 | **INVESTIGATE** | — | item-level matching pending |
-| 2 | The Dying Histories of Living Corpses | 4 | **INVESTIGATE** | — | item-level matching pending |
-| 3 | What is Theism? What is Atheism? | 7 | **INVESTIGATE** | — | item-level matching pending |
-| 4 | As the Vindhya Hills Lie Fallen Here | 10 | **INVESTIGATE** | — | item-level matching pending |
-| 5 | The Deception of a Proxy | 14 | **INVESTIGATE** | — | item-level matching pending |
-| 6 | Two Blossoms on a Single Stem | 18 | **INVESTIGATE** | — | item-level matching pending |
-| 7 | A Blade of Grass and the Magnifying Glass | 21 | **INVESTIGATE** | — | item-level matching pending |
-| 8 | Palaivayalam Pakkiri, the Maker of Money | 25 | **INVESTIGATE** | — | item-level matching pending |
-| 9 | Gold is Easier to Come upon than Wednesday | 29 | **INVESTIGATE** | — | item-level matching pending |
-| 10 | The Plant Nurtured in Poison | 32 | **INVESTIGATE** | — | item-level matching pending |
+| 1 | The Opportune Hour Has Come! | 1 | **NOT YET REPRESENTED** | — | 13-06-2002 Rameswaram / Abdul Kalam / science / presidency / religious-harmony poem; no current source-backed representation established |
+| 2 | The Dying Histories of Living Corpses | 4 | **NOT YET REPRESENTED** | — | 02-08-2002 satire on unworthy poets, tainted public life, ill-gotten wealth and `living corpses`; no current representation established |
+| 3 | What is Theism? What is Atheism? | 7 | **NOT YET REPRESENTED** | — | 06-08-2002 ethical theism/atheism question-poem centred on ritual, exploitation and concern for the poor; no current representation established |
+| 4 | As the Vindhya Hills Lie Fallen Here | 10 | **NOT YET REPRESENTED** | — | 24-05-2003 Kalaivanar–Bhagavathar scandal/imprisonment/Ethiraj-acquittal retrospective; distinct from `kalaignarin-kavithaigal` item 40 |
+| 5 | The Deception of a Proxy | 14 | **NOT YET REPRESENTED** | — | 21-06-2003 Kompukkaran / Varatan / proxy-betrayal narrative; no current representation established |
+| 6 | Two Blossoms on a Single Stem | 18 | **NOT YET REPRESENTED** | — | 11-07-2003 Iranian conjoined-twin sisters / surgical-separation elegy; no current representation established |
+| 7 | A Blade of Grass and the Magnifying Glass | 21 | **NOT YET REPRESENTED** | — | 30-07-2003 blade-of-grass / magnifying-glass allegory of inflated self-image; no current representation established |
+| 8 | Palaivayalam Pakkiri, the Maker of Money | 25 | **NOT YET REPRESENTED** | — | 02-08-2003 Palaiyavalam Pakkiri / Bombay-Mumbai mint / workers-union `maker of money` wordplay; no current representation established |
+| 9 | Gold is Easier to Come upon than Wednesday | 29 | **NOT YET REPRESENTED** | — | 24-08-2003 poor-family marriage / Wednesday-superstition / gold proverb reversal; no current representation established |
+| 10 | The Plant Nurtured in Poison | 32 | **NOT YET REPRESENTED** | — | 29-08-2003 Mumbai bomb / Nashik Kumbh Mela / religious-fanaticism poem; no current representation established |
 | 11 | Getting the Fingers Burnt by Taking the Gandhian Path | 34 | **INVESTIGATE** | — | item-level matching pending |
 | 12 | The Dream Ring | 39 | **INVESTIGATE** | — | item-level matching pending |
 | 13 | It Would Endure Sunlike | 45 | **INVESTIGATE** | — | item-level matching pending |
@@ -55,6 +55,16 @@ Initial onboarding preserves the complete 50-entry contents witness but does **n
 | 49 | This is a Book of History | 184 | **INVESTIGATE** | — | item-level matching pending |
 | 50 | Opposition Will Go to Smithereens | 188 | **INVESTIGATE** | — | item-level matching pending |
 
-## Initial tally
+## Identity investigation Batch 1 — COMPLETE — 2026-09-08
 
-**50 INVESTIGATE = 50.**
+Authority: `../comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`.
+
+Entries **1–10** were inspected from actual Volume-III page-image payloads, physical pages **27–59** / printed pages **1–33**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
+
+## Current tally
+
+**0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50.**
+
+## Exact next activity
+
+Run **BU-SP3 Identity Investigation Batch 2 — entries 11–20 in source order**. Use actual payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
