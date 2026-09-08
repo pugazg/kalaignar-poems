@@ -17,7 +17,8 @@ Read before further witness work:
 7. `secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md`;
 8. `secondary-witnesses/bharathiar-university/shower-of-poetry-vol-3/source.md`;
 9. `secondary-witnesses/bharathiar-university/shower-of-poetry-vol-3/crosswalk.md`;
-10. completed reports under `secondary-witnesses/bharathiar-university/comparisons/`, especially both Volume-I summaries.
+10. `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`;
+11. the two BU-SP1 consolidated summaries for historical context.
 
 ## Authority
 
@@ -35,79 +36,71 @@ Never silently rewrite Tamil or RELEASE-CLEARED English from the Bharathiar book
 - BU-SP3 — *Shower of Poetry*, Volume III — **220 pages / 80,185,514 bytes / SHA `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**;
 - BU-TT — *The Treasure Trove of Time and the Verse Key* — **205 pages / 106,152,046 bytes / SHA `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b`**.
 
-Renderer note: Volumes I and III and BU-TT may expose only a 150-page tooling window. Exact-byte source identity outranks that renderer boundary.
+Renderer note: Volume III may expose only the first 150 pages although the checksum-locked witness contains 220 physical pages. Batch 1 was entirely inside the visible window.
 
 ## Closed witness lanes
 
-### BU-TT — CLOSED 34/34
+- BU-TT comparison: **CLOSED 34/34** — `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`;
+- BU-SP1 payload comparison: historical **CLOSED 22/22 of the matches known at that stage** — `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`;
+- BU-SP1 identity classification: **CLOSED 52/52 — 33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE** — `comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`.
 
-All **34/34** Treasure-Trove translations were compared. Consolidated record: `secondary-witnesses/bharathiar-university/comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`.
+Do not retroactively describe the BU-SP1 payload lane as 33/33. Eleven matches were established later by identity investigation and were not silently promoted to payload-compared status.
 
-Apart from the independently source-verified item-31 title correction, the BU-TT lane produced **0 Tamil body corrections and 0 other released-English mutations**.
+## BU-SP3 Identity Investigation Batch 1 — COMPLETE
 
-### BU-SP1 payload-comparison lane — CLOSED 22/22 at its historical boundary
+Report: `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`.
 
-Consolidated record: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`.
+Scope: entries **1–10**, physical Volume-III pages **27–59** / printed pages **1–33**. Actual page images were inspected directly.
 
-The **22 matches known at that stage** were payload-compared against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Corrections/mutations established: **0 / 0**.
+Result: **PASS / REPORT-ONLY — 10/10**.
 
-Do **not** rewrite this historical closure as 33/33: later identity work established 11 additional matches that have not been retroactively payload-compared.
+- newly hardened `MATCHED`: **0**;
+- newly hardened `NOT YET REPRESENTED`: **10** — entries **1–10**;
+- unresolved within batch: **0**;
+- Tamil mutations: **0**;
+- RELEASE-CLEARED English mutations: **0**.
 
-### BU-SP1 identity classification — CLOSED 52/52
+High-value identity anchors:
 
-Consolidated identity record: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`.
+- entry 1 — 13-06-2002 Rameswaram / A. P. J. Abdul Kalam / science / presidency / religious harmony;
+- entry 2 — 02-08-2002 `living corpses` satire on corrupted literary/political/public life;
+- entry 3 — 06-08-2002 theism/atheism ethical-question poem centred on the poor;
+- entry 4 — 24-05-2003 Kalaivanar–Bhagavathar scandal/imprisonment/Ethiraj-acquittal retrospective; **not** `கலைஞரின் கவிதைகள்` item 40;
+- entry 5 — Kompukkaran / Varatan proxy-betrayal story;
+- entry 6 — Iranian conjoined-twin sisters and failed separation;
+- entry 7 — blade-of-grass / magnifying-glass inflated-self allegory;
+- entry 8 — Palaiyavalam Pakkiri / Bombay-Mumbai mint / workers' union / `maker of money` wordplay;
+- entry 9 — poor-family marriage / Wednesday superstition / gold proverb reversal;
+- entry 10 — Mumbai bombs / Nashik Kumbh Mela / religious-fanaticism poem.
 
-Final Volume-I identity state:
-
-- **33 MATCHED**;
-- **0 POSSIBLE**;
-- **19 NOT YET REPRESENTED**;
-- **0 INVESTIGATE**;
-- total **52/52 — IDENTITY CLOSED**.
-
-Identity-investigation reports:
-
-- Batch 1: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` — **7 MATCHED / 3 NOT YET REPRESENTED**;
-- Batch 2: `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` — **3 MATCHED / 7 NOT YET REPRESENTED**;
-- Batch 3: `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md` — **1 MATCHED / 9 NOT YET REPRESENTED**.
-
-Batch 3's new match is BU-SP1 entry **45 `A Petty Village Full of Folks Illiterate!` → `கலைஞரின் கவிதைகள்` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Entries **43, 44, 46, 47, 48, 49, 50, 51, 52** are NOT YET REPRESENTED.
-
-All BU-SP1 identity work was report/crosswalk-only: Tamil mutations **0**; RELEASE-CLEARED English mutations **0**.
+`NOT YET REPRESENTED` means no exact current source-backed repository representation was established; it is not a claim that the Tamil work never existed elsewhere.
 
 ## Four-book current state
 
-**68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176.**
+**68 MATCHED / 0 POSSIBLE / 68 NOT YET REPRESENTED / 40 INVESTIGATE = 176.**
 
 Per book:
 
 - BU-SP1: **33 MATCHED / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — identity CLOSED**;
 - BU-SP2: **1 MATCHED / 39 NOT YET REPRESENTED = 40**;
-- BU-SP3: **50 INVESTIGATE = 50**;
+- BU-SP3: **0 MATCHED / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50**;
 - BU-TT: **34 MATCHED = 34 — comparison CLOSED 34/34**.
 
-## Exact next activity — BU-SP3 Identity Investigation Batch 1
+## Exact next activity — BU-SP3 Identity Investigation Batch 2
 
-Investigate **BU-SP3 entries 1–10 in source order**:
+Investigate **BU-SP3 entries 11–20 in source order**:
 
-1. `The Opportune Hour Has Come!` — printed p.1;
-2. `The Dying Histories of Living Corpses` — p.4;
-3. `What is Theism? What is Atheism?` — p.7;
-4. `As the Vindhya Hills Lie Fallen Here` — p.10;
-5. `The Deception of a Proxy` — p.14;
-6. `Two Blossoms on a Single Stem` — p.18;
-7. `A Blade of Grass and the Magnifying Glass` — p.21;
-8. `Palaivayalam Pakkiri, the Maker of Money` — p.25;
-9. `Gold is Easier to Come upon than Wednesday` — p.29;
-10. `The Plant Nurtured in Poison` — p.32.
+11. `Getting the Fingers Burnt by Taking the Gandhian Path` — printed p.34;
+12. `The Dream Ring` — p.39;
+13. `It Would Endure Sunlike` — p.45;
+14. `The Distress of a Baby Flower` — p.48;
+15. `The Volcano from Erode` — p.51;
+16. `What Kind of Ink is That?` — p.55;
+17. `They Are in Search of God` — p.58;
+18. `The Story of a Boon Accomplished` — p.61;
+19. `The Verdict and the Confusion` — p.64;
+20. `The People Have Woken up` — p.68.
 
-Controlling secondary witness for this batch: `TVA_BOK_0065524_Shower_of_poetry_Vol_3.pdf` — **220 physical pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**.
+Use `TVA_BOK_0065524_Shower_of_poetry_Vol_3.pdf`. Inspect actual payload/event/date/person/source context, compare against current repository inventories, and harden identity only when evidence supports it. English-title resemblance alone is insufficient.
 
-For each entry:
-
-- inspect the actual BU-SP3 payload and event/date/person/source context;
-- compare against current repository multi-item inventories and standalone workspaces;
-- classify only as `MATCHED`, `POSSIBLE`, `NOT YET REPRESENTED`, or keep `INVESTIGATE` when evidence is insufficient;
-- English-title resemblance alone is insufficient;
-- record report/crosswalk changes only;
-- do **not** mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+Report/crosswalk only. **Do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.**
