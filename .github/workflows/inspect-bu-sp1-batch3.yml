@@ -35,48 +35,44 @@ jobs:
           test "$pages" = '249'
           test "$bytes" = '101936284'
 
-      - name: Render late witness pages and OCR once
+      - name: Render unresolved witness pages and OCR once
         shell: bash
         run: |
           set -euo pipefail
           mkdir rendered
-          pdftoppm -f 206 -l 249 -r 160 -tiff -gray bu-sp1.pdf rendered/p >/dev/null 2>&1
-          tiffcp rendered/p-*.tif batch3.tif
-          tesseract batch3.tif batch3 -l eng --psm 6 >/dev/null 2>&1
+          pdftoppm -f 210 -l 213 -r 120 -tiff -gray bu-sp1.pdf rendered/a >/dev/null 2>&1
+          pdftoppm -f 229 -l 231 -r 120 -tiff -gray bu-sp1.pdf rendered/b >/dev/null 2>&1
+          pdftoppm -f 235 -l 240 -r 120 -tiff -gray bu-sp1.pdf rendered/c >/dev/null 2>&1
+          pdftoppm -f 244 -l 249 -r 120 -tiff -gray bu-sp1.pdf rendered/d >/dev/null 2>&1
+          tiffcp rendered/a-*.tif rendered/b-*.tif rendered/c-*.tif rendered/d-*.tif unresolved.tif
+          tesseract unresolved.tif unresolved -l eng --psm 6 >/dev/null 2>&1
 
-      - name: Emit entry payload windows
+      - name: Emit unresolved entry payloads
         shell: python
         run: |
           from pathlib import Path
 
-          raw = Path('batch3.txt').read_text(encoding='utf-8', errors='replace')
-          pages = raw.split('\f')
-          if pages and not pages[-1].strip():
-              pages.pop()
-          print(f'OCR page blocks: {len(pages)}')
-          if len(pages) != 44:
-              raise SystemExit(f'expected 44 OCR page blocks, got {len(pages)}')
-
-          by_page = {206+i: text.strip() for i, text in enumerate(pages)}
+          raw = Path('unresolved.txt').read_text(encoding='utf-8', errors='replace')
+          blocks = raw.split('\f')
+          if blocks and not blocks[-1].strip():
+              blocks.pop()
+          physical = list(range(210,214)) + list(range(229,232)) + list(range(235,241)) + list(range(244,250))
+          print(f'OCR page blocks: {len(blocks)}')
+          print(f'Expected physical page list: {physical}')
+          if len(blocks) != len(physical):
+              raise SystemExit(f'expected {len(physical)} OCR page blocks, got {len(blocks)}')
+          by_page = {p: text.strip() for p, text in zip(physical, blocks)}
           entries = {
-              43: ('Calculation-2', 206, 209),
               44: ('In Search of Human Love', 210, 213),
-              45: ('A Petty Village Full of Folks Illiterate!', 214, 216),
-              46: ('Inauguration of the Valluvar Statue', 217, 228),
               47: ("The Sweet Word that doesn't Satiate", 229, 231),
-              48: ('Socialism Proclaimed in a Puram Poem', 232, 234),
               49: ('Do not Drive These Women away, and Do not Their Dislike Earn!', 235, 237),
               50: ('A Radiant Light of Culture', 238, 240),
-              51: ('Alive Will No Man be!', 241, 243),
               52: ('Indication of a Dawn!', 244, 249),
           }
-
           for n, (title, start, end) in entries.items():
               text = '\n\n'.join(f'--- physical page {p} ---\n{by_page[p]}' for p in range(start, end+1))
-              limit = 9000 if n == 46 else 7000
-              if len(text) > limit:
-                  keep = limit // 2
-                  text = text[:keep] + '\n\n...[middle omitted from log only]...\n\n' + text[-keep:]
+              if len(text) > 9000:
+                  text = text[:4500] + '\n\n...[middle omitted from log only]...\n\n' + text[-4500:]
               print('\n' + '='*72)
               print(f'BU-SP1 ENTRY {n}: {title} | physical {start}-{end}')
               print('='*72)
