@@ -8,20 +8,22 @@ Workspace: `poems/thalaikettan-thambi/`
 
 Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical scans**, **30,952,719 bytes**, SHA-256 pending exact-byte hash. User-scoped range: **18–23 (6 scans)**.
 
-**INTAKE COMPLETE / DUPLICATE CHECK PASS / PHASE 1 COMPLETE 6/6 / PHASE 2 COMPLETE 6/6 VERIFIED / PHASE 3 GATE 1 PASS / 0 UNRESOLVED PAGINATION ISSUES / SHA PENDING.**
+**INTAKE COMPLETE / DUPLICATE CHECK PASS / PHASE 1 COMPLETE 6/6 / PHASE 2 COMPLETE 6/6 VERIFIED / PHASE 3 GATES 1–2 PASS / 0 UNRESOLVED / SHA PENDING.**
 
 - complete direct title: `தலைகேட்டான் தம்பி`, spatially split on scan 18 as upper decorated `தலைகேட்டான்` + lower decorated `தம்பி`;
 - direct/bibliographic title conflict: **0**;
 - direct scan-18 source-position attribution: `கருணாநிதி`;
+- scan-18 structural-role correction: trailing `தம்பி` / `கருணாநிதி` removed from poem body; title/author provenance retained; lexical verse unchanged;
 - verified page layer: `pages/0018.md`–`0023.md`;
 - Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
 - scan-21 Phase-2 corrections: `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
-- Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md`;
-- Gate-1 pagination: active scans **6/6 accounted**, visible printed numerals **0/6**, logical printed-page assignments **0/6**, `printed_page: null` **6/6 confirmed**;
-- Phase 3 Gates 2–6: **NOT STARTED / blocked pending exact SHA lock**;
+- Gate 1 authority: `PHASE3_PAGINATION_RECONCILIATION.md` — `printed_page: null` confirmed **6/6**;
+- Gate 2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — opening **1/1 PASS**, internal joins **5/5 PASS**, closing **1/1 PASS**, unresolved **0**;
+- critical 22→23 direct carry preserved without inserted separator;
+- Phase 3 Gates 3–6: **NOT STARTED / blocked pending exact SHA lock**;
 - canonical Tamil / English: **none / none**.
 
-Next activity: lock the pending exact SHA-256, then perform **Phase 3 Gate 2 — boundary / page-join audit** for 17→18, internal joins 18→19 through 22→23, and 23→24. Stop before Gate 3 unless explicitly directed.
+Next activity: lock the pending exact SHA-256, then perform **Phase 3 Gate 3 — title-witness reconciliation**. Do not begin canonical assembly unless explicitly directed to process remaining gates.
 
 ## ஆந்தையும் அரசனும்! (1965) — release-cleared
 
@@ -70,4 +72,4 @@ Workspace: `poems/kalaignarin-kaviyaranga-kavithaigal-1975/`; new-item-only scop
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
 - `poems/kanchithan-annan/` — RELEASE-CLEARED.
 
-Current next production activity: **தலைகேட்டான் தம்பி — lock source SHA, then Phase 3 Gate 2 boundary/page-join audit**.
+Current next production activity: **தலைகேட்டான் தம்பி — lock source SHA, then Phase 3 Gate 3 title-witness reconciliation**.
