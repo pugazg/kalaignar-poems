@@ -16,7 +16,7 @@ jobs:
       - name: Install PDF and OCR tools
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils tesseract-ocr libtiff-tools
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr
 
       - name: Download and checksum-lock BU-SP1
         shell: bash
@@ -40,12 +40,13 @@ jobs:
         run: |
           set -euo pipefail
           mkdir rendered
-          pdftoppm -f 210 -l 213 -r 120 -tiff -gray bu-sp1.pdf rendered/a >/dev/null 2>&1
-          pdftoppm -f 229 -l 231 -r 120 -tiff -gray bu-sp1.pdf rendered/b >/dev/null 2>&1
-          pdftoppm -f 235 -l 240 -r 120 -tiff -gray bu-sp1.pdf rendered/c >/dev/null 2>&1
-          pdftoppm -f 244 -l 249 -r 120 -tiff -gray bu-sp1.pdf rendered/d >/dev/null 2>&1
-          tiffcp rendered/a-*.tif rendered/b-*.tif rendered/c-*.tif rendered/d-*.tif unresolved.tif
-          tesseract unresolved.tif unresolved -l eng --psm 6 >/dev/null 2>&1
+          pdftoppm -f 210 -l 213 -r 110 -jpeg -gray bu-sp1.pdf rendered/a >/dev/null 2>&1
+          pdftoppm -f 229 -l 231 -r 110 -jpeg -gray bu-sp1.pdf rendered/b >/dev/null 2>&1
+          pdftoppm -f 235 -l 240 -r 110 -jpeg -gray bu-sp1.pdf rendered/c >/dev/null 2>&1
+          pdftoppm -f 244 -l 249 -r 110 -jpeg -gray bu-sp1.pdf rendered/d >/dev/null 2>&1
+          printf '%s\n' rendered/a-*.jpg rendered/b-*.jpg rendered/c-*.jpg rendered/d-*.jpg > images.txt
+          test "$(wc -l < images.txt)" = '19'
+          tesseract images.txt unresolved -l eng --psm 6 >/dev/null 2>&1
 
       - name: Emit unresolved entry payloads
         shell: python
