@@ -34,16 +34,16 @@ Initial onboarding preserves the complete 50-entry contents witness but does **n
 | 28 | Will It Come to Something Good or Get a Thrashing? | 101 | **NOT YET REPRESENTED** | — | 23-11-2003 misogyny/dowry/fire-death/female-infanticide critique; no current representation established |
 | 29 | Let's Treasure the Values of Life | 104 | **NOT YET REPRESENTED** | — | 24-11-2003 cruelty/sadism lesson and scorpion-ascetic compassion fable; no current representation established |
 | 30 | Which to Opt for - That or This? | 108 | **NOT YET REPRESENTED** | — | 30-11-2003 life-journey meditation reframing heaven/hell through how human strength is used; no current representation established |
-| 31 | I Had No Mind to Leave | 111 | **INVESTIGATE** | — | item-level matching pending |
-| 32 | The Medicine Not Prescribed by the Physician | 115 | **INVESTIGATE** | — | item-level matching pending |
-| 33 | The Burden of the Mind | 118 | **INVESTIGATE** | — | item-level matching pending |
-| 34 | I Must Write That Pile up to the Himalayan Height | 123 | **INVESTIGATE** | — | item-level matching pending |
-| 35 | The Vision That my Heart Relished | 129 | **INVESTIGATE** | — | item-level matching pending |
-| 36 | The Roots That Turn into Seed | 134 | **INVESTIGATE** | — | item-level matching pending |
-| 37 | The Tragedy of Iran | 137 | **INVESTIGATE** | — | item-level matching pending |
-| 38 | A Proverb in Torment | 139 | **INVESTIGATE** | — | item-level matching pending |
-| 39 | The Scene That Moved My Heart | 143 | **INVESTIGATE** | — | item-level matching pending |
-| 40 | The Blind Man | 148 | **INVESTIGATE** | — | item-level matching pending |
+| 31 | I Had No Mind to Leave | 111 | **NOT YET REPRESENTED** | — | 01-12-2003 whipped servant / unpaid wages / wife pleading / narrator's intervention and compassion; no current representation established |
+| 32 | The Medicine Not Prescribed by the Physician | 115 | **NOT YET REPRESENTED** | — | 02-12-2003 beloved village intellectual/activist / severe fever / friends seek remedies / death as medicine no doctor prescribed; no current representation established |
+| 33 | The Burden of the Mind | 118 | **NOT YET REPRESENTED** | — | 04-12-2003 stolen gems transformed into temple/sculptural value / grief-to-service meditation / mother and Manikkavacakar examples; no current representation established |
+| 34 | I Must Write That Pile up to the Himalayan Height | 123 | **NOT YET REPRESENTED** | — | 06-12-2003 autobiographical poetic self-account / `Kavitai Alla` / anti-Hindi verse / Muttuvel / prosody / AIR / Dravidian movement; no current representation established |
+| 35 | The Vision That my Heart Relished | 129 | **NOT YET REPRESENTED** | — | 20-12-2003 ancient Tamil culture and dream wordplay on Pattuppattu/Ettuttokai/Kuruntokai/Ainkurunuru/Akananuru/Purananuru/Muppal/Nedunalvadai; no current representation established |
+| 36 | The Roots That Turn into Seed | 134 | **NOT YET REPRESENTED** | — | 26-12-2003 tree/root social allegory / self-respect and principles surviving loss of office to generate new shoots; no current representation established |
+| 37 | The Tragedy of Iran | 137 | **NOT YET REPRESENTED** | — | 28-12-2003 Iran earthquake mass-death elegy / Kerala temple-elephant contrast / condolence and international aid; no current representation established |
+| 38 | A Proverb in Torment | 139 | **NOT YET REPRESENTED** | — | 01-01-2004 Vativelan literalizes `a wall is needed to paint` and builds a house instead of understanding the healthy-body proverb; no current representation established |
+| 39 | The Scene That Moved My Heart | 143 | **NOT YET REPRESENTED** | — | 03-01-2004 `Manonmaniyam` / Jivakan / Kutilan / Purutottaman scene rejecting victory gained through betrayal; no current representation established |
+| 40 | The Blind Man | 148 | **NOT YET REPRESENTED** | — | 07-01-2004 blind/visionless search for purchasable love across campus/beach, distinguishing love from lust/gratification; no current representation established |
 | 41 | We Need to Cultivate a Mind for Service | 151 | **INVESTIGATE** | — | item-level matching pending |
 | 42 | The Umbrella of Power and the Umbrella of Victory | 155 | **INVESTIGATE** | — | item-level matching pending |
 | 43 | Pieces of Straw on the Wavy Ocean | 160 | **INVESTIGATE** | — | item-level matching pending |
@@ -73,10 +73,16 @@ Authority: `../comparisons/15-shower-of-poetry-vol-3-identity-investigation-batc
 
 Entries **21–30** were inspected from actual Volume-III page-image payloads, physical pages **100–136** / printed pages **74–110**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
 
+## Identity investigation Batch 4 — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/16-shower-of-poetry-vol-3-identity-investigation-batch-04.md`.
+
+Entries **31–40** were inspected from the exact Volume-III witness, physical pages **137–176** / printed pages **111–150**. Physical pages 137–150 were available directly in the renderer; exact checksum-locked source rendering was used across the later range beyond that tool boundary. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
+
 ## Current tally
 
-**0 MATCHED / 0 POSSIBLE / 30 NOT YET REPRESENTED / 20 INVESTIGATE = 50.**
+**0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50.**
 
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 4 — entries 31–40 in source order**. Use actual payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+Run **BU-SP3 Identity Investigation Batch 5 — entries 41–50 in source order**. Use actual payload/event/source context from the exact 220-page witness; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
