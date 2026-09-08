@@ -14,8 +14,7 @@
 - title: **தலைகேட்டான் தம்பி**;
 - author: **கலைஞர் மு. கருணாநிதி**;
 - publication: **முரசொலி-பொங்கல் மலர்**;
-- edition/year: **1966**;
-- context: `ஆவிதர நேரிடினும் அருந்தமிழர்க்கே வாழ்ந்த காவியுடை தருவேனென்று குமணனின் அருமையை விளக்கும், வாழ்க்கையைச் சொல்லும் கலைஞரின் கவிதை.`
+- edition/year: **1966**.
 
 ## Direct visual intake
 
@@ -28,28 +27,22 @@ Active range: **18–23 = 6 physical scans**.
 
 ### Scan-18 title / author layout
 
-The complete direct title is **`தலைகேட்டான் தம்பி`**. It is distributed across a single decorated page composition: `தலைகேட்டான்` appears in the upper decorated heading and `தம்பி` appears as a decorated lower title element. Direct and bibliographic title witnesses agree; intake title conflict: **0**.
-
-Scan 18 also carries the source-position attribution **`கருணாநிதி`**. Preserve that shorter direct form as source evidence; the bibliographic authorship remains **கலைஞர் மு. கருணாநிதி** in metadata. `தம்பி` and `கருணாநிதி` are structural title/author material and are not repeated as poem-body text. The post-Phase-2 correction is documented in `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
-
-## Duplicate check
-
-Repository code search for **தலைகேட்டான் தம்பி** returned **0 existing matches** before onboarding.
+The complete direct title is **`தலைகேட்டான் தம்பி`**, distributed as upper decorated `தலைகேட்டான்` plus lower decorated `தம்பி`. Scan 18 also carries the source-position attribution **`கருணாநிதி`**. `தம்பி` and `கருணாநிதி` are structural title/author material and are not repeated as poem-body text. The post-Phase-2 correction is documented in `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
 
 ## Processing source access
 
-The same attached 75-page controlling PDF was visually inspected for scans **18–23** in Phase 1, Phase 2 and Phase 3 Gates 1–2. The user-supplied word-for-word extraction was used only as an alignment aid; it did not replace the source scans as authority.
+The same attached 75-page controlling PDF was visually inspected for scans **18–23** in Phase 1, Phase 2 and Phase 3 Gates 1–3. User-supplied extraction remained an alignment aid only.
 
 - page records: **6/6 populated**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
 - current page status: **6 `verified` / 0 `partial`**;
 - Phase-2 corrections: **2**, both scan 21 — `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
-- post-Phase-2 scan-18 structural-role correction: **COMPLETE**;
-- Phase 3 Gate 1: **PASS** — no directly visible/logically supportable printed-page numerals; `printed_page: null` confirmed **6/6**;
-- Phase 3 Gate 2: **PASS** — opening **1/1**, internal joins **5/5**, closing **1/1**, unresolved boundary issues **0**;
-- critical join **22→23**: `அண்ணன் உயிர்தந்த செய்தியாலே` → `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`, with no inserted separator;
-- Phase 3 Gates 3–6: **NOT STARTED**.
+- scan-18 structural-role correction: **COMPLETE**;
+- Phase 3 Gate 1: **PASS** — `printed_page: null` confirmed **6/6**;
+- Phase 3 Gate 2: **PASS** — opening **1/1**, internal joins **5/5**, closing **1/1**, unresolved **0**;
+- Phase 3 Gate 3: **PASS** — bibliographic/direct title conflict **0** and canonical title authority locked to **`தலைகேட்டான் தம்பி`**;
+- Phase 3 Gates 4–6: **NOT STARTED**.
 
 ## Current state
 
@@ -57,8 +50,7 @@ The same attached 75-page controlling PDF was visually inspected for scans **18�
 - exact SHA-256: **PENDING**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED**;
-- Phase 3 Gate 1: **PASS**;
-- Phase 3 Gate 2: **PASS**;
-- Phase 3 Gate 3 onward / Phase 4: **BLOCKED pending checksum + ordered gates**.
+- Phase 3 Gates 1–3: **PASS**;
+- Phase 3 Gate 4 onward / Phase 4: **BLOCKED pending checksum + ordered gates**.
 
-Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 3 Gate 3 — title-witness reconciliation** only unless explicitly directed to process remaining gates.
+Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 3 Gate 4 — canonical Tamil assembly** only unless explicitly directed to continue.
