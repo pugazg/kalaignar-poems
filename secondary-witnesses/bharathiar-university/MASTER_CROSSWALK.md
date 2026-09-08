@@ -87,9 +87,31 @@ Strong source-supported candidates if a separate English-only reopen is authoriz
 1. `அடுத்தார் பேச்சால் அழிந்த தம்பி` — current repository `ruined by his own words` should be reviewed as **ruined by the words/counsel of those around him**; Bharathiar corroborates `ruined by others' words`.
 2. `வாள்முனையில் செங்குருதி தனைக் கண்டான்` — current English `saw red upon the sword-point` omits source **blood** before the later `ரத்தமல்ல; செவ்வண்ணம்` reveal.
 
-The report also records a medium comparative-force refinement for `அலையடிக்கும் கடல்வெல்லும் பரந்த உள்ளம்`, a low idiomatic refinement for `என் நாட்டைத் தொழுதுவிட்டுக் காடேகு`, and the Bharathiar `Puranaanuuru 158, 159 & 162 / Peruncithiranaar` note as secondary research context only.
-
 `poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED; Batch 1 did not reopen it.
+
+### Batch 2 — BU-TT entries 1–10
+
+Report: `comparisons/02-treasure-trove-items-01-10.md`.
+
+Mapped/reviewed repository items: **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**. Bharathiar witness range: supplied PDF physical pages **31–74** / printed pages **1–44**.
+
+Result: **COMPARISON PASS / REPORT-ONLY**.
+
+- items compared: **10/10**;
+- Tamil/source correction candidates established: **0**;
+- released-English correction candidates established: **0**;
+- title replacements: **0**;
+- Tamil/released-English mutations: **0 / 0**.
+
+Principal findings:
+
+1. BU-TT entry 6 substantially truncates repository item 17: the 2009 witness stops after the Kumari Kandam/Africa question and omits the later source movement on Lemuria/Kumari Kandam, Pavanar, Vincent Smith/Sundaranar, and world history being written from the south.
+2. BU-TT entry 8 condenses much of repository item 20's Sangam quotation/citation apparatus into narrative summary.
+3. BU-TT entry 4 supplies a semantically smoother negative reading for the Stone-Age `கருணையும் பண்பாடும்...` line, but FINAL-CLEARED Tamil scan 30 explicitly preserves `காணமுடியக்`; the secondary witness cannot normalize the controlling text.
+4. BU-TT entry 10 renders `அரியா நோக்கு` as an “ignorant look”; FINAL-CLEARED scan 116 has `அரியா`, and repository English correctly preserves the rare/hard-to-know wordplay rather than silently changing it to `அறியா`.
+5. Across the ten entries, the dominant witness pattern is **smoothing, condensation and scholarly transliteration differences**. The repository English is generally more source-complete.
+
+No completed Tamil/English work is reopened by Batch 2.
 
 ## Status semantics
 
@@ -111,12 +133,13 @@ For any MATCHED/POSSIBLE entry:
 
 ## Exact next activity
 
-Start **Secondary Witness Comparison Batch 2 — BU-TT mapped entries 1–10**:
+Start **Secondary Witness Comparison Batch 3 — BU-TT mapped entries 11–20**:
 
-- resolve the first ten mapped entries through `treasure-trove-of-time-and-verse-key/crosswalk.md`;
-- inspect their exact Bharathiar translation pages;
-- compare against corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English under `poems/kaalap-pezhaiyum-kavithai-saaviyum/`;
+- repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**;
+- inspect exact Bharathiar translation pages, not only TOC titles;
+- compare with corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English;
+- pay special attention to BU entry 15 `An Honourable Mother and an Upright Daughter` vs source-controlled item 31, and BU entry 18 `A Young Lady, She is a Tamil Lady!` vs source-controlled item 36;
 - produce a comparison report only;
 - identify source-supported English reopen candidates without mutating Tamil or released English.
 
-Then continue BU-TT entries **11–20**, **21–30**, and **31–34** in later controlled batches.
+Then continue BU-TT entries **21–30** and **31–34** in later controlled batches.
