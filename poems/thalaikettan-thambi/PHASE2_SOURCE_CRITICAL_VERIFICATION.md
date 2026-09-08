@@ -21,7 +21,18 @@ Phase 2 required **2 lexical/spacing corrections**, both on physical scan 21:
 1. `மகிழ்ந்தான அந்த மட்டில்?` → **`மகிழ்ந்தானா அந்த மட்டில்?`**
 2. `கொடை நீ ரூற்று!` → **`கொடை நீரூற்று!`**
 
-No other page-text correction was required.
+## Post-Phase-2 structural-role correction — scan 18
+
+After Phase 2, the scan-18 page record was corrected to remove a structural duplication from the poem body:
+
+```text
+தம்பி
+கருணாநிதி
+```
+
+`தம்பி` is the lower decorated element of the complete title **`தலைகேட்டான் தம்பி`** and `கருணாநிதி` is the direct source-position author attribution. Both remain preserved in the page heading/comment and repository metadata, but neither is poem-body text. This correction changes **no poem-body lexical reading**, so scan 18 remains `verified` and Phase-2 lexical clearance remains intact.
+
+Authority for this correction: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
 
 ## Difficult/source-sensitive readings reconfirmed
 
@@ -45,7 +56,7 @@ Secondary witness consulted: TamilSurangam, `மரபுக் கவிதை�
 
 | Scan | Phase-2 result | Final page status |
 |---:|---|---|
-| 18 | PASS | `verified` |
+| 18 | PASS; post-Phase-2 structural-role cleanup only | `verified` |
 | 19 | PASS | `verified` |
 | 20 | PASS | `verified` |
 | 21 | PASS after 2 source-backed corrections | `verified` |
@@ -56,10 +67,10 @@ Totals: **6 verified / 0 partial / 0 needs-review / 0 blocked**.
 
 ## Source-identity hold
 
-The exact source bytes are available and their page count/file size are locked at **75 / 30,952,719 bytes**, but the cryptographic SHA-256 is still pending. The checksum is a provenance hold only; it does not reopen the completed lexical verification. **Phase 3 must not begin until the exact-byte SHA-256 is durably recorded.**
+The exact source bytes are available and their page count/file size are locked at **75 / 30,952,719 bytes**, but the cryptographic SHA-256 is still pending. The checksum is a provenance hold only; it does not reopen the completed lexical verification. Phase 3 Gate 1 has subsequently passed, but later Phase-3 gates remain blocked until the exact-byte SHA-256 is durably recorded.
 
 ## Next activity
 
 1. Compute and durably record the pending exact-byte SHA-256 for the same 75-page controlling PDF.
-2. Once the checksum is locked, proceed to **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–23.
-3. Do not perform Gate 2 or later gates in the same Gate-1 activity unless explicitly directed.
+2. Once the checksum is locked, proceed to **Phase 3 Gate 2 — boundary / page-join audit** for opening 17→18, internal joins 18→19 through 22→23, and closing 23→24.
+3. Do not perform Gate 3 or later gates in the same activity unless explicitly directed.
