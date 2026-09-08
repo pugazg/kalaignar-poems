@@ -1,43 +1,25 @@
 # Next Chat Prompt — தலைகேட்டான் தம்பி
 
-Continue `pugazg/kalaignar-poems`, branch `main`, workspace `poems/thalaikettan-thambi/`.
+Repository: `pugazg/kalaignar-poems`, branch `main`.
 
-## LIVE MAIN IS AUTHORITATIVE
+## CLOSED WORK
 
-Fetch live `main` first and preserve newer durable/release-cleared work.
+`poems/thalaikettan-thambi/` is **CLOSED / RELEASE-CLEARED — 2026-09-08**.
 
-Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA-256 `92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**. Scope scans **18–23**.
+Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA-256 `92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**; scope scans **18–23**.
 
-Status: **Phase 1 COMPLETE 6/6 / Phase 2 PASS 6/6 VERIFIED / Phase 3 Gates 1–4 PASS / 0 unresolved / source identity LOCKED**.
+Final state:
 
-Canonical Tamil: `sections/01.md` — Gate-4 blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`.
+- Phase 1 **6/6 COMPLETE**;
+- Phase 2 **6/6 VERIFIED / PASS**;
+- Phase 3 Gates 1–6 **PASS / TAMIL FINAL-CLEARED**;
+- Phase 4 **COMPLETE / RELEASE-CLEARED**;
+- Tamil canonical `sections/01.md` — blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`;
+- reviewed English `translations/en/sections/01.md` — blob `008a4a50678fe69d3dd90165ac10e34f1145e88f`;
+- reader-facing English `translations/en/thalaikettan-thambi-en.md` — blob `4dacd0819bb510a795ca034ce8fefec02133b259`;
+- release authority `translations/en/RELEASE_REPORT.md`;
+- unresolved issues **0**.
 
-Locked controls:
+Do **not** reopen this work because an older prompt contains a pre-release checkpoint. Reopen only if genuinely new source-backed evidence is supplied.
 
-- canonical heading exactly `# தலைகேட்டான் தம்பி`;
-- scan-18 lower `தம்பி` = title element; `கருணாநிதி` = author attribution; neither is canonical body text;
-- `printed_page: null` / canonical `printed_pages: null`;
-- opening 17→18 PASS, internal joins 18→19 through 22→23 PASS, closing 23→24 PASS;
-- critical 22→23 direct carry: `அண்ணன் உயிர்தந்த செய்தியாலே` → `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`, with no inserted separator;
-- verified page records remain unchanged.
-
-## Mandatory startup
-
-Read:
-
-1. `POEM_PROCESSING_GUIDE.md`;
-2. `TRANSCRIPTION_PHASE_PLAN.md`;
-3. root `HANDOVER.md` and `NEXT_CHAT_PROMPT.md`;
-4. this prompt;
-5. `README.md`, `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`;
-6. `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-7. `POST_PHASE2_STRUCTURAL_CORRECTION.md`;
-8. `PHASE3_PAGINATION_RECONCILIATION.md`;
-9. `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-10. `PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-11. `PHASE3_CANONICAL_ASSEMBLY.md`;
-12. verified `pages/0018.md`–`0023.md` and canonical `sections/01.md`.
-
-## Exact next activity
-
-Perform **Phase 3 Gate 5 — canonical/source-completeness review only**. Compare the canonical file against all six verified page records and certify exact scan coverage, exclusions, title authority, structural-role handling, joins, separators, quotations, lineation and absence of silent normalization. Stop after Gate 5; **do not grant Tamil final clearance inside the same activity**.
+For the next archive activity, fetch live `main` and follow the root `HANDOVER.md`, `NEXT_CHAT_PROMPT.md` and `TRANSCRIPTION_PHASE_PLAN.md`.
