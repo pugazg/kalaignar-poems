@@ -56,13 +56,21 @@ Result: **PASS / REPORT-ONLY** — 10/10 compared, Tamil/source corrections **0*
 
 ### Batch 3 — BU-TT entries 11–20
 
-Report: `comparisons/03-treasure-trove-items-11-20.md`.
+Report: `comparisons/03-treasure-trove-items-11-20.md`.  
+Correction addendum: `comparisons/03A-item31-title-correction.md`.
 
 Compared supplied BU-TT physical PDF pages **75–122** / printed pages **45–92** with repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
 
-Result: **PASS / REPORT-ONLY** — 10/10 compared, Tamil/source correction candidates **0**, released-English correction candidates **0**, mutations **0 / 0**.
+Original result was report-only. One later **source-backed correction** supersedes the original item-31 title conclusion:
 
-High-value findings include the genuine item-31 source title/body anomaly (`மகனும்` title vs `தாய் மகள்` body), BU's `winnowing fan` substitution against verified `முரசு`, and the protagonist-oriented female retitle of item 36 despite source title `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
+- contents witness remains **`மாண்பு நிறை தாயும், மாசற்ற மகனும்!`**;
+- direct poem-opening scan 148 visibly reads **`மாண்பு நிறை தாயும் மாசற்ற மகளும்!`**;
+- repository title policy gives the direct poem-page witness canonical authority;
+- stable item 31 is therefore corrected to **`மாண்பு நிறை தாயும் மாசற்ற மகளும்!` / The Mother Full of Dignity and the Stainless Daughter!**;
+- BU entry 15 **An Honourable Mother and an Upright Daughter** is reclassified as corroborating secondary evidence, not as an editorial emendation;
+- the item body/close concerning Madhavi and Manimekalai (`தாய் மகள் வரலாறு`) corroborates the correction but was not the textual authority for it.
+
+Other Batch-3 findings remain: BU's `winnowing fan` substitution does not override verified `முரசு`, and the protagonist-oriented female retitle of item 36 does not override source title `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
 
 ### Batch 4 — BU-TT entries 21–30
 
@@ -86,7 +94,11 @@ High-value findings:
 - BU entry 30 materially truncates repository item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and transition to the Pandya-history continuation;
 - the dominant pattern remains smoothing, condensation, transliteration and interpretive title wording rather than repository defects.
 
-No release-cleared item was reopened.
+## Source-backed item-31 reopen
+
+Primary work-level record: `poems/kaalap-pezhaiyum-kavithai-saaviyum/POST_RELEASE_ITEM31_TITLE_CORRECTION.md`.
+
+This correction is intentionally narrow: **title only**. It changes no narrative/body wording, scan boundaries or stable item identity. The contents `மகனும்` witness is retained exactly; the canonical/title-page layer uses `மகளும்`.
 
 ## High-value established relationships
 
@@ -96,6 +108,6 @@ No release-cleared item was reopened.
 
 ## Next activity
 
-Complete the final BU-TT comparison batch — **entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
+Before/alongside final BU-TT Batch 5, keep the item-31 post-release synchronization record authoritative. Then complete **entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
 
 Inspect the exact Bharathiar body pages, compare with FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write one final report only. Then summarize the complete **34/34 BU-TT comparison** before moving to the next secondary-witness lane. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.
