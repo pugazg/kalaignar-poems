@@ -31,7 +31,13 @@ Source-backed corrections from Phase 1:
 1. scan 21 `மகிழ்ந்தான` → `மகிழ்ந்தானா`;
 2. scan 21 `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
 
-No other page-text correction was required. Historical/compact forms, quotation carry, separators, punctuation, unusual source spacing and lineation were checked against the controlling scans. Secondary/later wording was not imported over the source.
+No other lexical correction was required. Historical/compact forms, quotation carry, separators, punctuation, unusual source spacing and lineation were checked against the controlling scans. Secondary/later wording was not imported over the source.
+
+### Post-Phase-2 structural-role correction
+
+Authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
+
+On scan 18, trailing `தம்பி` / `கருணாநிதி` was removed from the poem body because `தம்பி` is the lower decorated title element and `கருணாநிதி` is the author attribution. Both remain preserved in title/metadata provenance. **No poem-body lexical reading changed; scan 18 remains `verified`.**
 
 ## Phase 3 Gate 1 — pagination
 
@@ -44,11 +50,13 @@ Result: **PASS**.
 - source-supported logical printed-page assignments: **0/6**;
 - `printed_page: null` confirmed: **6/6**;
 - missing / duplicate active scans: **0 / 0**;
-- page-text changes: **0**;
+- pagination-affecting text changes: **0**;
 - unresolved pagination issues: **0**.
+
+The scan-18 structural-role correction does not affect Gate-1 pagination.
 
 ## Current gate result
 
 **PHASE 1 COMPLETE 6/6 / PHASE 2 PASS 6/6 VERIFIED / PHASE 3 GATE 1 PASS / 0 UNRESOLVED / SHA-256 STILL PENDING.**
 
-The checksum is now the sole source-identity hold before Gate 2. Exact next activity: establish and durably record the exact source SHA-256, then perform **Phase 3 Gate 2 — boundary / page-join audit** only.
+The checksum remains the sole source-identity hold before Gate 2. Exact next activity: establish and durably record the exact source SHA-256, then perform **Phase 3 Gate 2 — boundary / page-join audit** only.
