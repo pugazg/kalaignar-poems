@@ -72,7 +72,7 @@ Key findings:
 
 ## Exact next activity
 
-First ensure the post-release item-31 correction is synchronized across the reader-facing English aggregate/release-status records. Then proceed with **Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
+The post-release item-31 correction is now **fully synchronized / re-cleared** across Tamil title authority, reviewed Batch 12, standalone English item/index and the reader-facing aggregate (SHA-256 `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`, 321,112 bytes / 16,308 lines; obsolete item-31 `Son` aggregate heading/opening 0/0). Proceed with **Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
 
 After Batch 5, create a consolidated **34/34 BU-TT comparison summary** before moving to another secondary-witness lane.
 

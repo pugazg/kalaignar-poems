@@ -94,3 +94,31 @@ Item 58 contains scans **296–299** and the collection ends exactly with `(Firs
 - Tamil canonical/page files changed during Phase 4: **0**.
 
 The English translation phase for this numbered first-part collection is complete. No further Phase-4 release gate remains.
+
+## Post-release item-31 source correction — 2026-09-08
+
+Status: **SOURCE-BACKED TITLE REOPEN CLOSED / ENGLISH RELEASE RE-CLEARED — PASS**
+
+After the original 2026-08-30 release gate, the controlling Tamil source was reread for stable item **31**. Direct scan **148** establishes the item-opening/title-page witness as `மாண்பு நிறை தாயும் மாசற்ற மகளும்!`; the contents witness remains separately preserved as `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`.
+
+The canonical English title is therefore **The Mother Full of Dignity and the Stainless Daughter!**. This is a title-only source correction; the narrative/body text, stable item number, scan range and boundaries are unchanged.
+
+### Re-synchronization result
+
+- reader-facing aggregate synchronization commit: `a77ecd4c2d89c052bbc48dd7912aaf6d1575d475`;
+- current reader-facing SHA-256: `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`;
+- current reader-facing size: **321,112 bytes**;
+- current reader-facing line count: **16,308**;
+- corrected Daughter item-31 heading: **1**;
+- corrected Daughter opening line: **1**;
+- obsolete item-31 Son heading: **0**;
+- obsolete item-31 Son opening line: **0**;
+- reviewed Batch 12 title layer: synchronized;
+- standalone item 31: `items/31-the-mother-full-of-dignity-and-the-stainless-daughter-en.md` — synchronized;
+- standalone index: synchronized;
+- contents `மகனும்` witness: retained unchanged as source metadata;
+- unresolved post-release synchronization issues: **0**.
+
+The SHA-256/size values in the original **Release checkpoints** section above remain the historical 2026-08-30 release-gate snapshot. The values in this addendum are the current reader-facing artifact after the documented source-backed correction.
+
+**Post-release decision: PASS — 58/58 English items remain release-cleared, with item 31 re-cleared under the corrected title.**

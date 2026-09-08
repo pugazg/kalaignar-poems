@@ -47,3 +47,8 @@ BU-TT entry 15, **An Honourable Mother and an Upright Daughter**, is no longer c
 - earlier Batch-3 item-31 conclusion: **SUPERSEDED by this addendum**.
 
 Primary correction authority inside the work: `poems/kaalap-pezhaiyum-kavithai-saaviyum/POST_RELEASE_ITEM31_TITLE_CORRECTION.md`.
+
+## Downstream release synchronization
+
+The corrected title has now propagated through reviewed Batch 12, standalone English item/index and the reader-facing English aggregate. Aggregate SHA-256 `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`, **321,112 bytes / 16,308 lines**; obsolete item-31 `Son` heading/opening **0 / 0**. Work-level English release status is **RE-CLEARED — PASS**.
+

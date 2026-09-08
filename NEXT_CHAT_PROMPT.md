@@ -66,13 +66,13 @@ Other Batch-3 findings remain: BU `winnowing fan` does not override verified `�
 
 Key findings: entry 21 omits item 39's final *Periya Puranam* quotation; entry 23 singularizes source `ஈக்களின்`; entry 26 **Future Dear** is weaker than `அருங்காலம்`; entry 30 substantially truncates item 52.
 
-## Immediate synchronization guardrail
+## Item-31 post-release synchronization — CLOSED
 
-Before claiming the work-level English release is fully synchronized after the item-31 reopen, verify that all release surfaces use **Daughter** and that no `Son` aggregate remains authoritative. The post-release correction report controls until that synchronization is complete.
+Direct scan-148 title `மகளும்` is now synchronized through canonical Tamil, reviewed Batch 12, standalone English item/index and the reader-facing aggregate. Current aggregate SHA-256 `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`, **321,112 bytes / 16,308 lines**; obsolete item-31 `Son` heading/opening **0 / 0**. English release status: **RE-CLEARED — PASS**. Governing record: `poems/kaalap-pezhaiyum-kavithai-saaviyum/POST_RELEASE_ITEM31_TITLE_CORRECTION.md`.
 
 ## Exact next activity — final BU-TT Batch 5
 
-Once item-31 release surfaces are synchronized, process **BU-TT entries 31–34**:
+Process **BU-TT entries 31–34**:
 
 - 31 → repository item 53;
 - 32 → item 55;

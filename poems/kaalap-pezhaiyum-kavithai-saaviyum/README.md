@@ -94,6 +94,12 @@ English:
 - `translations/en/RELEASE_REPORT.md`;
 - `translations/en/items/README.md`.
 
+## Post-release item-31 correction
+
+On **2026-09-08**, a direct visual reread of controlling scan **148** established the canonical poem-page title as **`மாண்பு நிறை தாயும் மாசற்ற மகளும்!`**. Contents **`மாண்பு நிறை தாயும், மாசற்ற மகனும்!`** remains a separate contents witness.
+
+The Tamil title layer, Batch 12, standalone English item/index and reader-facing English aggregate have been synchronized and re-cleared. Current aggregate: SHA-256 `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`, **321,112 bytes / 16,308 lines**. Obsolete item-31 `Son` aggregate heading/opening occurrences: **0 / 0**. See `POST_RELEASE_ITEM31_TITLE_CORRECTION.md`.
+
 ## Completion boundary
 
 This numbered first-part work is **release-complete**. There is no routine next Phase-3 or Phase-4 activity.

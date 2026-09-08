@@ -108,6 +108,6 @@ This correction is intentionally narrow: **title only**. It changes no narrative
 
 ## Next activity
 
-Before/alongside final BU-TT Batch 5, keep the item-31 post-release synchronization record authoritative. Then complete **entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
+Item-31 post-release synchronization is **complete / re-cleared**. Complete **entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
 
 Inspect the exact Bharathiar body pages, compare with FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write one final report only. Then summarize the complete **34/34 BU-TT comparison** before moving to the next secondary-witness lane. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.

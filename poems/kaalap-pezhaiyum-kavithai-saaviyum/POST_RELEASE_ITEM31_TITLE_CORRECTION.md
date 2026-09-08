@@ -65,3 +65,20 @@ This is a **title-only source-backed correction**. No narrative/body wording on 
 **SOURCE-BACKED REOPEN: PASS / CORRECTION APPLIED.**
 
 The Tamil item is re-cleared with canonical title **`மாண்பு நிறை தாயும் மாசற்ற மகளும்!`**. The older `மகனும்` title-page/canonical claim is superseded; `மகனும்` survives only as the separate contents witness.
+
+## Synchronization closure
+
+The downstream release surfaces have now been synchronized and verified.
+
+- reader-facing aggregate commit: `a77ecd4c2d89c052bbc48dd7912aaf6d1575d475`;
+- aggregate SHA-256: `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`;
+- aggregate size: **321,112 bytes**;
+- aggregate line count: **16,308**;
+- `Daughter` item-31 heading/opening occurrences: **1 / 1**;
+- obsolete `Son` item-31 heading/opening occurrences: **0 / 0**;
+- reviewed Batch 12: synchronized;
+- standalone English item 31 and `items/README.md`: synchronized;
+- work-level English release: **RE-CLEARED — PASS**;
+- unresolved synchronization holds: **0**.
+
+The source-backed reopen is therefore **CLOSED**. Routine work may return to the Bharathiar University secondary-witness queue.
