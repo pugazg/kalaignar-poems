@@ -6,8 +6,10 @@
 - scanned PDF;
 - physical PDF pages: **75**;
 - file size: **30,952,719 bytes**;
-- SHA-256: **pending exact-byte hash**;
+- SHA-256: **`92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**;
 - source PDF committed: **No**.
+
+Exact-byte identity is now locked. The attached 30,952,719-byte source and an independently materialized copy produced the same SHA-256.
 
 ## User bibliographic record
 
@@ -27,30 +29,20 @@ Active range: **18–23 = 6 physical scans**.
 
 ### Scan-18 title / author layout
 
-The complete direct title is **`தலைகேட்டான் தம்பி`**, distributed as upper decorated `தலைகேட்டான்` plus lower decorated `தம்பி`. Scan 18 also carries the source-position attribution **`கருணாநிதி`**. `தம்பி` and `கருணாநிதி` are structural title/author material and are not repeated as poem-body text. The post-Phase-2 correction is documented in `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
+The complete direct title is **`தலைகேட்டான் தம்பி`**, distributed as upper decorated `தலைகேட்டான்` plus lower decorated `தம்பி`. Scan 18 also carries the source-position attribution **`கருணாநிதி`**. `தம்பி` and `கருணாநிதி` are structural title/author material and are not repeated as poem-body text. Authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
 
-## Processing source access
-
-The same attached 75-page controlling PDF was visually inspected for scans **18–23** in Phase 1, Phase 2 and Phase 3 Gates 1–3. User-supplied extraction remained an alignment aid only.
+## Processing state
 
 - page records: **6/6 populated**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
-- current page status: **6 `verified` / 0 `partial`**;
-- Phase-2 corrections: **2**, both scan 21 — `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
-- scan-18 structural-role correction: **COMPLETE**;
-- Phase 3 Gate 1: **PASS** — `printed_page: null` confirmed **6/6**;
-- Phase 3 Gate 2: **PASS** — opening **1/1**, internal joins **5/5**, closing **1/1**, unresolved **0**;
-- Phase 3 Gate 3: **PASS** — bibliographic/direct title conflict **0** and canonical title authority locked to **`தலைகேட்டான் தம்பி`**;
-- Phase 3 Gates 4–6: **NOT STARTED**.
+- Phase 3 Gate 1: **PASS — `printed_page: null` confirmed 6/6**;
+- Phase 3 Gate 2: **PASS — opening 1/1, internal joins 5/5, closing 1/1**;
+- Phase 3 Gate 3: **PASS — canonical title authority `தலைகேட்டான் தம்பி`**;
+- Phase 3 Gate 4: **PASS — canonical Tamil assembled from verified scans 18–23 in `sections/01.md`**;
+- canonical scan markers: **18–23 exactly once**;
+- critical 22→23 direct carry preserved without an inserted separator;
+- Phase 3 Gates 5–6: **NOT STARTED**;
+- Phase 4: **BLOCKED**.
 
-## Current state
-
-- range/bibliographic intake: **COMPLETE**;
-- exact SHA-256: **PENDING**;
-- Phase 1: **COMPLETE — 6/6**;
-- Phase 2: **COMPLETE / PASS — 6/6 VERIFIED**;
-- Phase 3 Gates 1–3: **PASS**;
-- Phase 3 Gate 4 onward / Phase 4: **BLOCKED pending checksum + ordered gates**.
-
-Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 3 Gate 4 — canonical Tamil assembly** only unless explicitly directed to continue.
+Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review** of `sections/01.md` against `pages/0018.md`–`0023.md`. Do not grant Tamil final clearance inside Gate 5.

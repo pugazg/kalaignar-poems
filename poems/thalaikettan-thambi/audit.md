@@ -3,51 +3,46 @@
 - controlling source attached: **yes**;
 - physical PDF pages: **75**;
 - file size: **30,952,719 bytes**;
-- SHA-256: **pending exact-byte hash**;
+- SHA-256: **`92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**;
 - active scans: **18–23 = 6**;
-- duplicate bibliographic-title matches before onboarding: **0**;
 - page records: **6/6**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
-- page statuses: **0 `partial` / 6 `verified`**;
+- page statuses: **6 verified / 0 partial**;
 - Phase 3 Gate 1: **PASS**;
 - Phase 3 Gate 2: **PASS**;
 - Phase 3 Gate 3: **PASS**;
-- Phase 3 Gates 4–6: **NOT STARTED**;
-- canonical / English files: **0 / 0**.
+- Phase 3 Gate 4: **PASS**;
+- Phase 3 Gates 5–6: **NOT STARTED**;
+- canonical Tamil: **1 file — `sections/01.md`**;
+- English files: **0**.
 
-Title witness: scan 18 carries the complete decorated title **`தலைகேட்டான் தம்பி`**, split spatially as upper `தலைகேட்டான்` and lower decorated `தம்பி`. The direct source-position attribution is **`கருணாநிதி`**. The title/author labels are structural and are not repeated as poem-body text.
+Exact-byte source identity is locked. The attached source and an independently materialized copy of the same 30,952,719-byte file produced the identical SHA-256 above.
 
-## Phase 2
+Title/author structural role remains locked: complete title `தலைகேட்டான் தம்பி`; direct author attribution `கருணாநிதி`; neither structural label is duplicated into poem body.
 
-Authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md` — **PASS, 6/6 independently verified / 0 unresolved**. Source-backed scan-21 corrections: `மகிழ்ந்தானா`, `கொடை நீரூற்று`.
+## Gate results
 
-## Post-Phase-2 structural correction
+- Gate 1 — pagination: **PASS**, `printed_page: null` confirmed 6/6.
+- Gate 2 — boundaries/page joins: **PASS**, opening 1/1, internal 5/5, closing 1/1, unresolved 0.
+- Gate 3 — title witness: **PASS**, canonical title authority `# தலைகேட்டான் தம்பி`, conflicts 0.
+- Gate 4 — canonical assembly: **PASS**, `sections/01.md` assembled only from verified `pages/0018.md`–`0023.md`.
 
-Authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`. Scan-18 trailing body duplication `தம்பி` / `கருணாநிதி` was removed because these are title/author material. Poem-body lexical text remained unchanged; scan 18 remains `verified`.
+Gate-4 controls:
 
-## Phase 3 Gate 1 — pagination
+- verified scans represented: **6/6**;
+- physical scan markers: **18–23 exactly once**;
+- missing / duplicated source scans in canonical: **0 / 0**;
+- neighbouring scans 17 / 24 included: **0 / 0**;
+- critical 22→23 carry: **preserved with no inserted separator**;
+- scan-18 title/author duplication reintroduced: **no**;
+- verified page-text changes during assembly: **0**;
+- unresolved assembly defects: **0**.
 
-Authority: `PHASE3_PAGINATION_RECONCILIATION.md` — **PASS**. Active scans **6/6 accounted**, visible numerals **0/6**, logical assignments **0/6**, `printed_page: null` confirmed **6/6**, unresolved **0**.
-
-## Phase 3 Gate 2 — boundary / page joins
-
-Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**. Opening **1/1**, internal joins **5/5**, closing **1/1**, unresolved **0**. Critical 22→23 carry is direct and must not receive an inserted separator.
-
-## Phase 3 Gate 3 — title witness
-
-Authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **PASS**.
-
-- bibliographic title: `தலைகேட்டான் தம்பி`;
-- direct title: `தலைகேட்டான் தம்பி`;
-- lexical / punctuation / word-order conflicts: **0 / 0 / 0**;
-- canonical title authority: **`# தலைகேட்டான் தம்பி`**;
-- author attribution preserved separately: **yes**;
-- Gate-3 page-text changes: **0**;
-- unresolved title issues: **0**.
+Authority: `PHASE3_CANONICAL_ASSEMBLY.md`.
 
 ## Current gate result
 
-**PHASE 1 COMPLETE 6/6 / PHASE 2 PASS 6/6 VERIFIED / PHASE 3 GATES 1–3 PASS / 0 UNRESOLVED / SHA-256 STILL PENDING.**
+**PHASE 1 COMPLETE / PHASE 2 PASS / PHASE 3 GATES 1–4 PASS / SOURCE IDENTITY LOCKED / 0 UNRESOLVED.**
 
-The checksum remains the final source-identity hold before Gate 4 canonical assembly. Exact next activity: establish and durably record the exact SHA-256, then perform **Phase 3 Gate 4 — canonical Tamil assembly** only unless explicitly directed to continue further.
+Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review**. Do not grant Tamil final clearance until Gate 5 passes and Gate 6 is performed separately.

@@ -2,75 +2,33 @@
 
 Date: **2026-09-08**.
 
-Controlling source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical pages / 30,952,719 bytes / SHA-256 pending exact-byte hash**.
+Controlling source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical pages / 30,952,719 bytes / SHA-256 `92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**.
 
-Active work range: physical scans **18–23**.
+Active range: physical scans **18–23**.
 
 ## Result
 
 **PHASE 2 COMPLETE — 6/6 VERIFIED / 0 unresolved lexical holds.**
 
-All six Phase-1 page records were independently reread against the same controlling 1966 scans. Verification covered lexical endings, compact/historical Tamil forms, punctuation, quotation marks, separators, unusual spacing, lineation, title layout and the direct source-position attribution.
-
-The source scan remains the sole textual authority. The user-supplied word-for-word extraction remained an alignment aid only.
+All six Phase-1 page records were independently reread against the controlling 1966 scans. Verification covered lexical endings, compact/historical Tamil forms, punctuation, quotation marks, separators, unusual spacing and lineation. User-supplied extraction remained an alignment aid only.
 
 ## Source-backed corrections from Phase 1
 
-Phase 2 required **2 lexical/spacing corrections**, both on physical scan 21:
+1. scan 21 `மகிழ்ந்தான அந்த மட்டில்?` → **`மகிழ்ந்தானா அந்த மட்டில்?`**;
+2. scan 21 `கொடை நீ ரூற்று!` → **`கொடை நீரூற்று!`**.
 
-1. `மகிழ்ந்தான அந்த மட்டில்?` → **`மகிழ்ந்தானா அந்த மட்டில்?`**
-2. `கொடை நீ ரூற்று!` → **`கொடை நீரூற்று!`**
+No other lexical page-text correction was required.
 
-## Post-Phase-2 structural-role correction — scan 18
-
-After Phase 2, the scan-18 page record was corrected to remove a structural duplication from the poem body:
-
-```text
-தம்பி
-கருணாநிதி
-```
-
-`தம்பி` is the lower decorated element of the complete title **`தலைகேட்டான் தம்பி`** and `கருணாநிதி` is the direct source-position author attribution. Both remain preserved in the page heading/comment and repository metadata, but neither is poem-body text. This correction changes **no poem-body lexical reading**, so scan 18 remains `verified` and Phase-2 lexical clearance remains intact.
-
-Authority for this correction: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
-
-## Difficult/source-sensitive readings reconfirmed
-
-The controlling scan was retained over normalized or later-witness wording for source-sensitive forms including:
-
-- scan 18 wordplay spacing: `கரும் பெடுத்துத்`, `சுரும் பெடுத்து`, `அரும் பெடுத்துச்`, `எறும் பெடுத்துச்`;
-- scan 18 `அமிழ்த மெனும்` and `கொங்கு நாடு`;
-- scan 19 `புலவரை யீன்ற`, `தருக் கடக்க`, `அவன்றன்`;
-- scan 20 `குமணனுக்கு முண்டு`, `தம்பி யுந்தன்`, `எனக்கு?`, `எடுத்துக்கொள்..`;
-- scan 21 `அன்பைவிடப் பெரிய அன்பை`, `மனதில்`, `குலை யறுக்கும்`, `உதிர மெலாம்`, `காரி உமிழ்ந்தனர்`;
-- scan 22 `பாலையிற்`, `தம்பியவன்`, `தந்திடுவாய்ப்`, `விஷ உள்ளம்`;
-- scan 23 `ஆவிதரநேரிடினும்`, `ரத்தமல்ல`, `ஈக்கள்போல்`, `புலவர்கூட்டம்`, `குமணமன்னன்`, `தமிழுக் கீந்தான்`.
-
-## Secondary-witness discipline
-
-A public later/derivative transcription was consulted only as corroboration for difficult candidates and **was not admitted as textual authority**. It differs from this controlling scan at multiple places (for example later/derivative `அன்பைவிடத் தூய அன்பை` versus controlling-scan `அன்பைவிடப் பெரிய அன்பை`, and other normalized/joined forms). Those differences were not imported into the verified page layer.
-
-Secondary witness consulted: TamilSurangam, `மரபுக் கவிதைகள் - தலைகேட்டான் தம்பி!`.
+Source-sensitive forms reconfirmed include `கரும் பெடுத்துத்`, `அமிழ்த மெனும்`, `புலவரை யீன்ற`, `தருக் கடக்க`, `குமணனுக்கு முண்டு`, `அன்பைவிடப் பெரிய அன்பை`, `குலை யறுக்கும்`, `பாலையிற்`, `தம்பியவன்`, `ஆவிதரநேரிடினும்`, `ரத்தமல்ல`, `ஈக்கள்போல்`, and `தமிழுக் கீந்தான்`.
 
 ## Page status
 
-| Scan | Phase-2 result | Final page status |
-|---:|---|---|
-| 18 | PASS; post-Phase-2 structural-role cleanup only | `verified` |
-| 19 | PASS | `verified` |
-| 20 | PASS | `verified` |
-| 21 | PASS after 2 source-backed corrections | `verified` |
-| 22 | PASS | `verified` |
-| 23 | PASS | `verified` |
+Scans **18, 19, 20, 21, 22, 23**: **6/6 `verified`**.
 
-Totals: **6 verified / 0 partial / 0 needs-review / 0 blocked**.
+## Later structural/source-identity developments
 
-## Source-identity hold
+- scan 18 later received a structural-role-only correction removing duplicated title/author labels from poem body; authority `POST_PHASE2_STRUCTURAL_CORRECTION.md`; lexical verse remained unchanged and page status stayed verified;
+- exact source identity was subsequently locked to the SHA-256 above from the exact attached bytes;
+- Phase 3 Gates 1–4 subsequently passed.
 
-The exact source bytes are available and their page count/file size are locked at **75 / 30,952,719 bytes**, but the cryptographic SHA-256 is still pending. The checksum is a provenance hold only; it does not reopen the completed lexical verification. Phase 3 Gate 1 has subsequently passed, but later Phase-3 gates remain blocked until the exact-byte SHA-256 is durably recorded.
-
-## Next activity
-
-1. Compute and durably record the pending exact-byte SHA-256 for the same 75-page controlling PDF.
-2. Once the checksum is locked, proceed to **Phase 3 Gate 2 — boundary / page-join audit** for opening 17→18, internal joins 18→19 through 22→23, and closing 23→24.
-3. Do not perform Gate 3 or later gates in the same activity unless explicitly directed.
+Phase-2 result remains closed and authoritative. Exact current next activity: **Phase 3 Gate 5 canonical/source-completeness review**.

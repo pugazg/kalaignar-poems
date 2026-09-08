@@ -25,14 +25,17 @@ Removed the trailing body duplication:
 
 from `pages/0018.md`.
 
-The page heading continues to preserve the complete title `தலைகேட்டான் தம்பி`; the source-layout comment preserves the upper/lower title split and `கருணாநிதி` remains durably recorded as the direct source-position attribution in metadata/work documentation.
+The page heading continues to preserve the complete title `தலைகேட்டான் தம்பி`; source-layout provenance preserves the upper/lower title split and `கருணாநிதி` remains recorded as direct author attribution.
 
 ## Effect on verification
 
-This is a **structural-role correction, not a lexical modernization or normalization**. No poem-body word was changed. The previously verified scan-18 verse remains intact, and page status remains `verified`.
+This is a **structural-role correction, not lexical modernization or normalization**. No poem-body word was changed. The verified scan-18 verse remains intact, and page status remains `verified`.
 
-Phase 3 Gate 1 pagination is unaffected. Gate 2 subsequently confirmed all boundaries/page joins. Gate 3 subsequently reconciled the bibliographic and direct title witnesses and locked canonical title authority to **`# தலைகேட்டான் தம்பி`**.
+## Subsequent closure
 
-## Current state / next activity
+- exact source identity is now locked to SHA-256 **`92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**;
+- Phase 3 Gates 1–3 subsequently passed;
+- Gate 3 locked canonical title authority to `# தலைகேட்டான் தம்பி`;
+- Phase 3 Gate 4 subsequently assembled canonical `sections/01.md` without reintroducing `தம்பி` / `கருணாநிதி` into poem body.
 
-Phase 3 Gates **1–3 are PASS**. The exact source SHA-256 remains pending because checksum execution has failed; no hash is inferred or invented. Once the checksum is durably locked, proceed to **Phase 3 Gate 4 — canonical Tamil assembly**.
+Current next activity: **Phase 3 Gate 5 — canonical/source-completeness review**.

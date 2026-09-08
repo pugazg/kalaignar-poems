@@ -6,38 +6,27 @@ Continue `pugazg/kalaignar-poems`, branch `main`. Fetch live `main` first and pr
 
 Workspace: `poems/thalaikettan-thambi/`.
 
-Controlling source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical pages / 30,952,719 bytes / SHA-256 pending exact-byte hash**. Scope: scans **18–23 = 6**.
+Controlling source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical pages / 30,952,719 bytes / SHA-256 `92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**. Scope: scans **18–23 = 6**.
 
-Current status:
+Current status: **Phase 1 COMPLETE / Phase 2 PASS 6/6 VERIFIED / Phase 3 Gates 1–4 PASS / source identity LOCKED / 0 unresolved / Gate 5 next**.
 
-- Phase 1: **COMPLETE — 6/6**;
-- Phase 2: **PASS — 6/6 VERIFIED / 0 unresolved**;
-- scan-18 structural-role correction: **COMPLETE**;
-- Phase 3 Gate 1: **PASS**;
-- Phase 3 Gate 2: **PASS**;
-- Phase 3 Gate 3: **PASS**;
-- Phase 3 Gates 4–6: **NOT STARTED**;
-- exact SHA: **PENDING**;
-- Phase 4: **BLOCKED**.
+Canonical Tamil: `poems/thalaikettan-thambi/sections/01.md`, Gate-4 blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`.
 
-Locked structure/title rules:
+Locked rules:
 
-- complete title: **`தலைகேட்டான் தம்பி`**;
-- upper decorated `தலைகேட்டான்` + lower `தம்பி`;
-- direct author attribution: **`கருணாநிதி`**;
-- title/author material is not poem-body text;
-- canonical heading authority: **`# தலைகேட்டான் தம்பி`**;
-- title conflicts: **0**;
-- critical 22→23 join has no inserted separator.
+- canonical heading `# தலைகேட்டான் தம்பி`;
+- scan-18 lower `தம்பி` is title material and `கருணாநிதி` author attribution; neither is poem-body text;
+- `printed_pages: null`;
+- scan markers 18–23 exactly once;
+- critical 22→23 direct carry has no inserted separator;
+- scans 17 and 24 excluded;
+- verified page records unchanged.
 
-Read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, root `HANDOVER.md`, this prompt, and all active-work README/source/audit/handover/page-map plus Phase-2, structural-correction and Phase-3 Gate 1–3 authorities before changing source-dependent state.
+Read the processing guide, phase plan, root/work handovers and prompts, work README/source/audit/page map, Phase-2 authority, structural-correction record, Phase-3 Gates 1–4 records, verified page records, and canonical `sections/01.md` before changing state.
 
 ## Exact next activity
 
-1. Establish and durably record SHA-256 from the exact 75-page / 30,952,719-byte controlling PDF. Do not infer or invent it.
-2. Then perform **Phase 3 Gate 4 — canonical Tamil assembly** from verified `pages/0018.md`–`0023.md`.
-3. Use exactly `# தலைகேட்டான் தம்பி`; preserve verified spelling, punctuation, lineation, separators, quotation continuity, physical scan provenance and certified page joins.
-4. Stop after Gate 4 unless explicitly directed to continue.
+Perform **Phase 3 Gate 5 — canonical/source-completeness review only**. Compare `sections/01.md` against verified `pages/0018.md`–`0023.md`; certify exact source coverage, exclusions, title/author handling, joins, separators, quotation continuity, lineation and absence of silent normalization. Stop after Gate 5. **Do not grant Tamil final clearance until Gate 6 is separately performed.**
 
 ## Closed — ஆந்தையும் அரசனும்!
 
