@@ -1,4 +1,4 @@
-name: Fix item 31 aggregate title
+name: Verify item 31 aggregate synchronization
 
 on:
   push:
@@ -8,46 +8,39 @@ on:
       - .github/workflows/fix-item31-aggregate.yml
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  synchronize:
+  verify:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Correct item 31 title in reader-facing aggregate
+      - name: Verify synchronized aggregate and report metrics
         shell: python
         run: |
           from pathlib import Path
+          import hashlib
 
           path = Path("poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md")
-          text = path.read_text(encoding="utf-8")
+          data = path.read_bytes()
+          text = data.decode("utf-8")
 
-          old_heading = "## Item 31 — The Mother Full of Dignity and the Stainless Son!"
           new_heading = "## Item 31 — The Mother Full of Dignity and the Stainless Daughter!"
-          old_opening = "and the stainless son!"
           new_opening = "and the stainless daughter!"
+          old_heading = "## Item 31 — The Mother Full of Dignity and the Stainless Son!"
+          old_opening = "and the stainless son!"
 
-          assert text.count(old_heading) == 1, f"Expected one old item-31 heading, found {text.count(old_heading)}"
-          assert text.count(old_opening) == 1, f"Expected one old item-31 opening line, found {text.count(old_opening)}"
+          assert text.count(new_heading) == 1
+          assert text.count(new_opening) == 1
+          assert text.count(old_heading) == 0
+          assert text.count(old_opening) == 0
 
-          text = text.replace(old_heading, new_heading, 1)
-          text = text.replace(old_opening, new_opening, 1)
-          path.write_text(text, encoding="utf-8")
-
-      - name: Commit synchronized aggregate
-        shell: bash
-        run: |
-          if git diff --quiet -- poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md; then
-            echo "No aggregate change required."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add poems/kaalap-pezhaiyum-kavithai-saaviyum/translations/en/kaalap-pezhaiyum-kavithai-saaviyum-en.md
-          git commit -m "Synchronize item 31 Daughter title in English aggregate [skip ci]"
-          git push
+          print(f"SHA256={hashlib.sha256(data).hexdigest()}")
+          print(f"BYTES={len(data)}")
+          print(f"LINES={len(text.splitlines())}")
+          print("NEW_HEADING_COUNT=1")
+          print("NEW_OPENING_COUNT=1")
+          print("OLD_HEADING_COUNT=0")
+          print("OLD_OPENING_COUNT=0")
