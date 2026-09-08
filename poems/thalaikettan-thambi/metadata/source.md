@@ -10,7 +10,7 @@
 - publication/year: **முரசொலி-பொங்கல் மலர் / 1966**;
 - physical scope: scans **18–23**.
 
-Direct and bibliographic title witnesses agree lexically and in word order. `தம்பி` is a title element and `கருணாநிதி` is author attribution; neither is repeated as poem-body text in the scan-18 page record or canonical body.
+`தம்பி` is a title element and `கருணாநிதி` is author attribution; neither is repeated as poem-body text in the verified page layer, canonical Tamil or English poem payload.
 
 ## Controlling source
 
@@ -20,35 +20,23 @@ Direct and bibliographic title witnesses agree lexically and in word order. `த
 - SHA-256: **`92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**;
 - source PDF committed: **No**.
 
-The hash was computed from the exact attached source bytes; an independently materialized copy of the same 30,952,719-byte file produced the identical SHA-256.
+Exact-byte identity is locked; the attached source and a separately materialized copy produced the identical hash.
 
 Neighbour evidence: scan 17 unrelated photograph; scan 24 unrelated cartoon.
 
-## Processing state
+## Final processing state
 
-- duplicate-title search: **PASS — 0 matches**;
-- complete source visibility for active scans: **6/6**;
 - Phase 1: **COMPLETE — 6/6**;
-- Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
-- page statuses: **6 `verified` / 0 `partial`**;
-- post-Phase-2 scan-18 structural-role correction: **COMPLETE**;
-- Phase 3 Gate 1: **PASS**;
-- Phase 3 Gate 2: **PASS**;
-- Phase 3 Gate 3: **PASS — canonical heading authority `# தலைகேட்டான் தம்பி`**;
-- Phase 3 Gate 4: **PASS — canonical Tamil assembled in `../sections/01.md` from verified scans 18–23**;
-- Phase 3 Gates 5–6: **NOT STARTED**;
-- Phase 4: **BLOCKED**;
-- printed-page state: **reconciled — `printed_page: null` confirmed 6/6**;
-- canonical Tamil: **`../sections/01.md`**;
-- English: **none**.
+- Phase 2: **PASS — 6/6 VERIFIED / 0 unresolved**;
+- scan-18 structural-role correction: **COMPLETE**;
+- Phase 3 Gates 1–6: **PASS — TAMIL FINAL-CLEARED**;
+- Phase 4: **COMPLETE — RELEASE-CLEARED**;
+- canonical Tamil: `../sections/01.md` — blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`;
+- reviewed English: `../translations/en/sections/01.md` — blob `008a4a50678fe69d3dd90165ac10e34f1145e88f`;
+- reader-facing English: `../translations/en/thalaikettan-thambi-en.md` — blob `4dacd0819bb510a795ca034ce8fefec02133b259`;
+- release authority: `../translations/en/RELEASE_REPORT.md`;
+- unresolved issues: **0**.
 
-Authorities:
+Printed-page state remains `null` for all six active scans. Gate-2 joins, Gate-3 title authority and the critical 22→23 continuation remain locked.
 
-- Phase 2: `../PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-- scan-18 structural role: `../POST_PHASE2_STRUCTURAL_CORRECTION.md`;
-- Gate 1: `../PHASE3_PAGINATION_RECONCILIATION.md`;
-- Gate 2: `../PHASE3_BOUNDARY_JOIN_AUDIT.md`;
-- Gate 3: `../PHASE3_TITLE_WITNESS_RECONCILIATION.md`;
-- Gate 4: `../PHASE3_CANONICAL_ASSEMBLY.md`.
-
-Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review**. Do not grant Tamil final clearance until Gate 5 passes and Gate 6 is performed separately.
+**Status: CLOSED / RELEASE-CLEARED — 2026-09-08.**
