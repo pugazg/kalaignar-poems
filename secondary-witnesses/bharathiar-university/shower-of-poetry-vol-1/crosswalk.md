@@ -46,20 +46,20 @@ Initial title-level matching against the current repository. MATCHED rows are hi
 | 40 | No Day there is That May be his Birthday Called | 173 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 46 | There Is No One Day Called His Birthday |
 | 41 | Do Not Your Onward March Give up! | 175 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 66 | `நடையை நிறுத்தாதே!`: same dogs/thorns/torrent/journey/duty-dignity-discipline payload |
 | 42 | We Shall Tear the Mask to Pieces! | 178 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 70 | `முகமூடி கிழித்தெறிவோம் வாரீர்!`: same fraudulent-ascetic polemic and mask-tearing close |
-| 43 | Calculation-2 | 182 | **INVESTIGATE** | — | distinct 15-01-1995 Pongal / Sun TV `Thamizh Maalai` work; NOT repository item 18 (02-08-1970 Salem) |
-| 44 | In Search of Human Love | 186 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 45 | A Petty Village Full of Folks Illiterate! | 190 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 46 | Inauguration of the Valluvar Statue | 193 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 47 | The Sweet Word that doesn't Satiate | 205 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 48 | Socialism Proclaimed in a Puram Poem | 208 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 49 | Do not Drive These Women away, and Do not Their Dislike Earn! | 211 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 50 | A Radiant Light of Culture | 214 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 51 | Alive Will No Man be! | 217 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 52 | Indication of a Dawn! | 220 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
+| 43 | Calculation-2 | 182 | **NOT YET REPRESENTED** | — | distinct 15-01-1995 Pongal / Sun TV `Thamizh Maalai` `Calculation-2`; NOT repository item 18, and no other current representation established |
+| 44 | In Search of Human Love | 186 | **NOT YET REPRESENTED** | — | distinct 03-06-1995 age-71 birthday/cadre poem; Periyar–Anna path, secularism, Eelam and human-love frame; no current representation established |
+| 45 | A Petty Village Full of Folks Illiterate! | 190 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 67 | exact sustained payload match to `பாமரர் நிறைந்த பட்டிக்காடு!`: panchayat refrain, barking dogs/bread, `மாயை`, Panchali-Devi burning, yes-men and hand-raising crowd |
+| 46 | Inauguration of the Valluvar Statue | 193 | **NOT YET REPRESENTED** | — | 31-12-1999 Kanyakumari Valluvar-statue symposium / 01-01-2000 inauguration presidential poem; no current representation established |
+| 47 | The Sweet Word that doesn't Satiate | 205 | **NOT YET REPRESENTED** | — | distinct 17-06-2001 poetic-comparison protest resolving the inexhaustible name as `Anna`; no current representation established |
+| 48 | Socialism Proclaimed in a Puram Poem | 208 | **NOT YET REPRESENTED** | — | distinct 21-06-2001 Nakkeeran / Puranaanooru-189 socialism and equitable-distribution poem; no current representation established |
+| 49 | Do not Drive These Women away, and Do not Their Dislike Earn! | 211 | **NOT YET REPRESENTED** | — | distinct 22-07-2001 Thanjai Rationalists Conference / Veeramani / `thali`-cutting refusal episode; no current representation established |
+| 50 | A Radiant Light of Culture | 214 | **NOT YET REPRESENTED** | — | September-2001 Moopanar/Karuppiah/Kapisthalam elegy and Sivagangai midnight-call anecdote; no current representation established |
+| 51 | Alive Will No Man be! | 217 | **NOT YET REPRESENTED** | — | post-September-11 World Trade Center/Pentagon terrorism and nonviolence poem; OCR date not relied on; no current representation established |
+| 52 | Indication of a Dawn! | 220 | **NOT YET REPRESENTED** | — | April-2002 religion/fanaticism/Gujarat/interfaith-harmony/human-love poem; no current representation established |
 
-## Initial tally
+## Current tally
 
-**32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE = 52.**
+**33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52.**
 
 
 ## Identity-hardening result — 2026-09-08
@@ -72,7 +72,7 @@ Current tally after identity Batches 1–2: **32 MATCHED / 0 POSSIBLE / 10 NOT Y
 
 ## Confirmed-MATCHED payload comparison closure — 2026-09-08
 
-All **22/22 MATCHED** rows have now received payload-level comparison against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Reports: `../comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`, `../comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`, `../comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `../comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Corrections/mutations established from this witness lane: **0 / 0**. Payload-comparison closure covered the 22 matches known at that stage; identity Batches 1–2 later hardened ten additional matches. Current classification is **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
+All **22/22 MATCHED** rows have now received payload-level comparison against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Reports: `../comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`, `../comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`, `../comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `../comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Corrections/mutations established from this witness lane: **0 / 0**. Payload-comparison closure covered the 22 matches known at that stage; identity Batches 1–3 later hardened eleven additional matches. Final Volume-I identity classification is **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE**. The later eleven matches are not retroactively counted as payload-compared.
 
 ## Identity investigation Batch 1 — COMPLETE — 2026-09-08
 
@@ -81,3 +81,13 @@ Authority: `../comparisons/10-shower-of-poetry-vol-1-identity-investigation-batc
 ## Identity investigation Batch 2 — COMPLETE — 2026-09-08
 
 Authority: `../comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Entries **29, 41, 42** → MATCHED; entries **31, 32, 34, 35, 36, 37, 38** → NOT YET REPRESENTED. Current tally: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE = 52**. Remaining INVESTIGATE rows: **43–52**.
+
+## Identity investigation Batch 3 — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Entry **45 → MATCHED** `poems/kalaignarin-kavithaigal/` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 → NOT YET REPRESENTED**. Result: **PASS / REPORT-ONLY — 10/10**, Tamil / released-English mutations **0 / 0**.
+
+Final BU-SP1 identity tally: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Identity classification is therefore **CLOSED 52/52**. The earlier payload-comparison lane remains explicitly **22/22 of the matches known at that stage**, not 33/33.
+
+## Exact next activity
+
+Create the consolidated **BU-SP1 Volume-I identity summary/closure record**; after that, proceed to BU-SP3 item-level matching under the phase plan.

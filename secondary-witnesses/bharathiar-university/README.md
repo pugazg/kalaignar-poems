@@ -29,12 +29,12 @@ The current page renderer may expose only **150 pages** for Volumes I, III and *
 
 The four contents witnesses contain **176 translated entries**:
 
-- Volume I: **52** — 32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE;
+- Volume I: **52** — 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE;
 - Volume II: **40** — 1 MATCHED / 39 NOT YET REPRESENTED;
 - Volume III: **50** — 50 INVESTIGATE;
 - *Treasure Trove*: **34** — 34 MATCHED.
 
-Current hardened crosswalk: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**.
+Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**.
 
 See `MASTER_CROSSWALK.md` and the per-book crosswalks.
 
@@ -144,15 +144,18 @@ Compared the final confirmed MATCHED entries **39 and 40** against FINAL-CLEARED
 
 ### BU-SP1 confirmed-MATCHED payload lane — COMPLETE 22/22
 
-Consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries are payload-compared. Across the lane, Tamil/source corrections **0**, released-English corrections **0**, title replacements **0**, mutations **0 / 0**. Volume-I crosswalk remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+Consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries are payload-compared. Across the lane, Tamil/source corrections **0**, released-English corrections **0**, title replacements **0**, mutations **0 / 0**. This 22/22 payload count is historical to the matches known at that stage; later identity work expands the identity classification without retroactively expanding this payload lane.
 
-### BU-SP1 identity investigation Batches 1–2 — COMPLETE
+### BU-SP1 identity investigation Batches 1–3 — COMPLETE / IDENTITY CLOSED 52/52
 
 - Batch 1: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` — **7 MATCHED / 3 NOT YET REPRESENTED**.
 - Batch 2: `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` — **3 MATCHED / 7 NOT YET REPRESENTED**.
-- Current BU-SP1 state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE = 52**.
+- Batch 3: `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md` — **1 MATCHED / 9 NOT YET REPRESENTED**, final ten rows resolved.
+- Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**.
+- Batch 3 used exact checksum-locked Volume-I bytes and rendered physical pages 206–249; English OCR was a reading/navigation aid for this secondary witness only, with no Tamil reconstruction.
 - All identity work remained report/crosswalk-only; Tamil / released-English mutations **0 / 0**.
+- The earlier 22/22 confirmed-MATCHED payload lane remains a separate historical closure; 11 later identity matches are not silently counted as payload-compared.
 
 ## Next activity
 
-Run **BU-SP1 Identity Investigation Batch 3 — final rows 43–52**. Entry 43 is already locked as a distinct 15-01-1995 Pongal / Sun TV `Thamizh Maalai` work and is not item 18; establish repository representation for all ten from actual payload/source context.
+Create the consolidated **BU-SP1 Volume-I identity summary/closure record**. After consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.

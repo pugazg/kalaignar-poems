@@ -15,7 +15,7 @@ Exact witness set:
 
 Renderer warning: BU-TT may expose only 150 pages in the conversation renderer. For Batch 4, physical pages **151–174** were inspected by direct rendering from the exact checksum-locked PDF bytes; no OCR reconstruction was used.
 
-Current hardened crosswalk: **176 entries = 57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE**.
+Current hardened crosswalk: **176 entries = 68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE**.
 
 Witness authority:
 
@@ -98,13 +98,19 @@ Report `secondary-witnesses/bharathiar-university/comparisons/09-shower-of-poetr
 
 Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED BU-SP1 payloads are compared. Aggregate mutations **0 / 0**; Volume-I classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
 
-## BU-SP1 identity investigation Batches 1–2 — COMPLETE
+## BU-SP1 identity investigation Batches 1–3 — COMPLETE / IDENTITY CLOSED 52/52
 
-Reports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` and `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Hardened **10 new MATCHED** identities and **10 NOT YET REPRESENTED** dispositions from exact witness payload/context. BU-SP1 current state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**. Four-book current tally: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+Reports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`, `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` and `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Across the identity batches, **11 new MATCHED** identities and **19 NOT YET REPRESENTED** dispositions were hardened from source payload/event context.
+
+Batch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book current tally: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+
+For Batch 3, exact Volume-I bytes were independently locked to **249 pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`** before physical pages **206–249** were rendered. English OCR was used only as a reading/navigation aid for this institutional secondary witness; it did not reconstruct or mutate Tamil.
+
+The earlier confirmed-MATCHED payload lane remains **22/22 for the matches known at that stage**. Eleven later identity matches exist, but are not retroactively claimed as payload-compared.
 
 ## Exact next activity
 
-Run **BU-SP1 Identity Investigation Batch 3 — final entries 43–52**. Establish repository representation from actual payload/source context only. Report/crosswalk only.
+Create the consolidated **BU-SP1 Volume-I identity summary/closure record**. Then proceed to **BU-SP3 item-level matching** according to the phase plan.
 
 ## Release-cleared work rule
 

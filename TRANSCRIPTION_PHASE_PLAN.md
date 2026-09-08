@@ -25,7 +25,7 @@ Renderer guardrail: BU-TT may expose only 150 pages in the conversation renderer
 - bibliographic metadata: **RECORDED 4/4**;
 - contents inventories: **176/176 indexed**;
 - master crosswalk: **COMPLETE — initial pass**;
-- classifications: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE**;
+- classifications: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE**;
 - Tamil changes from witness onboarding: **0**;
 - release-cleared English changes from witness onboarding: **0**.
 
@@ -99,7 +99,7 @@ Report `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`: entries **39
 
 ### BU-SP1 confirmed-MATCHED comparison — COMPLETE 22/22
 
-Summary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed matches are payload-compared; aggregate corrections/mutations **0 / 0**. The 22 originally confirmed matches are payload-compared; identity Batches 1–2 later harden current Volume-I classification to **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
+Summary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** matches known at that stage are payload-compared; aggregate corrections/mutations **0 / 0**. Identity Batches 1–3 later harden 11 additional MATCHED identities. Those later matches are **not** retroactively counted in the 22/22 payload lane.
 
 ### BU-SP1 identity investigation Batch 1 — COMPLETE
 
@@ -107,11 +107,15 @@ Report `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md
 
 ### BU-SP1 identity investigation Batch 2 — COMPLETE
 
-Report `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`: **3 MATCHED / 7 NOT YET REPRESENTED**, mutations **0 / 0**. Current Volume-I state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
+Report `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`: **3 MATCHED / 7 NOT YET REPRESENTED**, mutations **0 / 0**.
+
+### BU-SP1 identity investigation Batch 3 — COMPLETE
+
+Report `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`: **1 MATCHED / 9 NOT YET REPRESENTED**, mutations **0 / 0**. Final Volume-I identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — CLOSED 52/52**.
 
 ### Current comparison activity — NEXT
 
-**BU-SP1 identity investigation Batch 3** — final entries **43–52**. Harden identities from actual payload/event/source context; report/crosswalk only.
+Create the consolidated **BU-SP1 Volume-I identity summary/closure record**, preserving the distinction between the 52/52 identity closure and the earlier 22/22 payload-comparison closure.
 
 ### Planned sequence after BU-SP1 identity closure
 
@@ -125,4 +129,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP1 identity investigation Batch 3 — final entries 43–52 — identity/crosswalk report only**.
+Create the consolidated **BU-SP1 Volume-I identity summary/closure record**; then proceed to BU-SP3 item-level matching.

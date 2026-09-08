@@ -14,12 +14,12 @@ Authority remains:
 
 | Code | Book | Exact pages | Bytes | SHA-256 | Entries | Crosswalk state |
 |---|---|---:|---:|---|---:|---|
-| BU-SP1 | *Shower of Poetry*, Volume I | 249 | 101,936,284 | `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536` | 52 | 22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE |
+| BU-SP1 | *Shower of Poetry*, Volume I | 249 | 101,936,284 | `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536` | 52 | 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE |
 | BU-SP2 | *Shower of Poetry*, Volume II | 168 | 156,922,680 | `e29c294adfe94c508cdb8aeb4f8cadf116b8dc1bdeb4025eef86a7a017f02a31` | 40 | 1 MATCHED / 39 NOT YET REPRESENTED |
 | BU-SP3 | *Shower of Poetry*, Volume III | 220 | 80,185,514 | `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6` | 50 | 50 INVESTIGATE |
 | BU-TT | *The Treasure Trove of Time and the Verse Key* | 205 | 106,152,046 | `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b` | 34 | 34 MATCHED |
 
-**Total: 176 entries — 57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE.**
+**Total: 176 entries — 68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE.**
 
 Per-book tables:
 
@@ -32,7 +32,7 @@ Per-book tables:
 
 ### BU-SP1 → `கலைஞரின் கவிதைகள்`
 
-Twenty-two Volume-I entries are now high-confidence matches to stable items in `poems/kalaignarin-kavithaigal/`; all three former POSSIBLE rows have been hardened. Entry 43 `Calculation-2` is a distinct 15-01-1995 Pongal/Sun TV work and is not repository item 18.
+Thirty-three Volume-I entries are now high-confidence matches across the current repository. The original 22-match payload-comparison lane is closed 22/22; identity hardening/investigation later established 11 additional matches. Entry 43 `Calculation-2` is a distinct 15-01-1995 Pongal/Sun TV work, is not repository item 18, and is classified NOT YET REPRESENTED.
 
 ### BU-SP2 → `தலைகேட்டான் தம்பி`
 
@@ -124,7 +124,7 @@ For any MATCHED/POSSIBLE entry:
 
 ## BU-SP1 identity hardening — COMPLETE
 
-`comparisons/06-shower-of-poetry-vol-1-identity-hardening.md` resolves all three former POSSIBLE rows: **8 → MATCHED item 40; 18 → MATCHED item 18; 43 → DISTINCT 1995 work / INVESTIGATE representation, not item 18**. Current BU-SP1 tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+`comparisons/06-shower-of-poetry-vol-1-identity-hardening.md` resolves all three former POSSIBLE rows: **8 → MATCHED item 40; 18 → MATCHED item 18; 43 → DISTINCT 1995 work / INVESTIGATE representation, not item 18**. At that identity-hardening stage, BU-SP1 stood at **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**; later identity Batches 1–3 completed the classification.
 
 ## BU-SP1 payload comparison Batch 1 — COMPLETE
 
@@ -136,16 +136,20 @@ For any MATCHED/POSSIBLE entry:
 
 ## BU-SP1 confirmed-MATCHED payload closure — COMPLETE 22/22
 
-Final report: `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Entries **39 and 40** completed the confirmed-MATCHED lane at **22/22**. Aggregate result: Tamil/source correction candidates **0**; released-English correction candidates **0**; title replacements **0**; mutations **0 / 0**. Current BU-SP1 classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+Final report: `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Entries **39 and 40** completed the confirmed-MATCHED lane at **22/22**. Aggregate result: Tamil/source correction candidates **0**; released-English correction candidates **0**; title replacements **0**; mutations **0 / 0**. At that payload-comparison stage the classification was **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**; later identity work did not retroactively expand the 22/22 payload-comparison count.
 
 Final-batch diagnostics include BU `பவள விழா` → **Platinum Jubilee**, source **1929** → BU **1928**, `வெல்லம்` → **sugar cane**, and `அர்ச்சனைகள்` → **censure**. The repository remains source-preferred.
 
-## BU-SP1 identity investigation Batches 1–2 — COMPLETE
+## BU-SP1 identity investigation Batches 1–3 — COMPLETE / IDENTITY CLOSED 52/52
 
-Reports: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` and `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Ten new matches and ten NOT-YET-REPRESENTED dispositions were hardened with **0 / 0** Tamil/English mutation. BU-SP1 now stands at **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
+Reports: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`, `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` and `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Across the three identity batches, **11 new MATCHED** identities and **19 NOT YET REPRESENTED** dispositions were hardened with **0 / 0** Tamil/English mutation.
 
-Four-book hardened tally: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**.
+Batch 3 resolved the final ten rows: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; **43, 44, 46, 47, 48, 49, 50, 51 and 52 NOT YET REPRESENTED**. BU-SP1 identity classification is now **CLOSED 52/52 — 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE**.
+
+Four-book hardened tally: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**.
+
+The earlier confirmed-MATCHED payload lane remains **22/22 for the matches known at that stage**; the 11 later identity matches are not silently reclassified as payload-compared.
 
 ## Exact next activity
 
-Run **BU-SP1 Identity Investigation Batch 3 — entries 43–52**. Identity/crosswalk only; no Tamil or released-English mutation.
+Create the consolidated **BU-SP1 Volume-I identity summary/closure record**. After Volume-I identity consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.
