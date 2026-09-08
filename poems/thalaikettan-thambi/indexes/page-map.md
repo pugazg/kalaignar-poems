@@ -21,6 +21,8 @@ Phase 3 Gate 1: `../PHASE3_PAGINATION_RECONCILIATION.md` — **PASS**; visible p
 
 Phase 3 Gate 2: `../PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**; opening **17→18**, internal joins **18→19 through 22→23**, and closing **23→24** all certified. Critical 22→23 continuation must remain adjacent with no inserted separator.
 
-Neighbour evidence: scan **17** unrelated photograph; scan **24** unrelated cartoon. There is no lexical title conflict: direct and bibliographic titles are both `தலைகேட்டான் தம்பி`.
+Phase 3 Gate 3: `../PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **PASS**; bibliographic and direct titles both `தலைகேட்டான் தம்பி`, title conflicts **0**, canonical heading authority **`# தலைகேட்டான் தம்பி`**.
 
-The exact source SHA-256 remains pending and blocks Gate 3/later progression. Exact next activity: lock the SHA-256, then perform **Phase 3 Gate 3 — title-witness reconciliation**.
+Neighbour evidence: scan **17** unrelated photograph; scan **24** unrelated cartoon.
+
+The exact source SHA-256 remains pending and blocks Gate 4 canonical assembly. Exact next activity: lock the SHA-256, then perform **Phase 3 Gate 4 — canonical Tamil assembly**.
