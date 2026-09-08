@@ -1,0 +1,37 @@
+name: Inspect BU-SP1 entry 45 payload
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/inspect-bu-sp1-entry45.yml
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install rendering tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr
+      - name: Download exact source and inspect entry 45 pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://tamildigitallibrary.in/assets/docs/uploads/primary_files/book/TVA_BOK_0065522/TVA_BOK_0065522_Shower_of_poetry_Vol_1.pdf'
+          curl -L --fail --retry 3 "$URL" -o /tmp/bu-sp1.pdf
+          echo "SIZE $(stat -c%s /tmp/bu-sp1.pdf)"
+          echo "SHA256 $(sha256sum /tmp/bu-sp1.pdf | awk '{print $1}')"
+          pdfinfo /tmp/bu-sp1.pdf | grep '^Pages:'
+          mkdir -p /tmp/r
+          pdftoppm -f 212 -l 219 -r 180 -jpeg /tmp/bu-sp1.pdf /tmp/r/p >/dev/null 2>&1
+          page=212
+          for img in $(find /tmp/r -type f -name 'p-*.jpg' | sort -V); do
+            echo "===== PHYSICAL_PAGE_${page} ====="
+            tesseract "$img" stdout -l eng --psm 6 2>/dev/null || true
+            echo "===== END_PHYSICAL_PAGE_${page} ====="
+            page=$((page+1))
+          done
