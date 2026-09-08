@@ -6611,12 +6611,12 @@ the sorrow
 of not possessing
 a complete history!
 
-## Item 31 — The Mother Full of Dignity and the Stainless Son!
+## Item 31 — The Mother Full of Dignity and the Stainless Daughter!
 
 <!-- scan 148 -->
 
 The mother full of dignity
-and the stainless son!
+and the stainless daughter!
 
 All the beauty of nature —
 as darkness and light;
