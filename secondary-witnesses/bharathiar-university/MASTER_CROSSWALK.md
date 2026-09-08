@@ -16,10 +16,10 @@ Authority remains:
 |---|---|---:|---:|---|---:|---|
 | BU-SP1 | *Shower of Poetry*, Volume I | 249 | 101,936,284 | `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536` | 52 | 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE |
 | BU-SP2 | *Shower of Poetry*, Volume II | 168 | 156,922,680 | `e29c294adfe94c508cdb8aeb4f8cadf116b8dc1bdeb4025eef86a7a017f02a31` | 40 | 1 MATCHED / 39 NOT YET REPRESENTED |
-| BU-SP3 | *Shower of Poetry*, Volume III | 220 | 80,185,514 | `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6` | 50 | 0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE |
+| BU-SP3 | *Shower of Poetry*, Volume III | 220 | 80,185,514 | `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6` | 50 | 0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE — CLOSED |
 | BU-TT | *The Treasure Trove of Time and the Verse Key* | 205 | 106,152,046 | `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b` | 34 | 34 MATCHED |
 
-**Total: 176 entries — 68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE.**
+**Total: 176 entries — 68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE — 176/176 identity-classified.**
 
 Per-book tables:
 
@@ -170,6 +170,10 @@ Report: `comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.m
 
 Report: `comparisons/16-shower-of-poetry-vol-3-identity-investigation-batch-04.md`. Entries **31–40** → **NOT YET REPRESENTED** after exact-source payload review; no MATCHED or unresolved rows in the batch. Current BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50**. Current four-book tally: **68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
+## BU-SP3 identity investigation Batch 5 — COMPLETE / IDENTITY CLOSED 50/50
+
+Report: `comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`; consolidated closure: `comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`. Entries **41–50** → **10 NOT YET REPRESENTED** after exact-source payload review, with **0 MATCHED / 0 unresolved**. Final BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50**. Current four-book tally: **68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+
 ## Exact next activity
 
-Proceed to **BU-SP3 Identity Investigation Batch 5 — entries 41–50**. Harden identities only from the exact 220-page Volume-III payload/event/source context and current repository inventories; report/crosswalk only.
+Identity classification is now complete for **176/176** BU entries. Start payload comparison of the **11 BU-SP1 matches established after the historical 22/22 payload lane closed**. First source-order batch: **2, 5, 6, 7, 17, 20, 24, 29, 41, 42**; final remainder: **45**. BU-SP2's 39 `NOT YET REPRESENTED` rows remain on source-acquisition hold absent new source evidence.

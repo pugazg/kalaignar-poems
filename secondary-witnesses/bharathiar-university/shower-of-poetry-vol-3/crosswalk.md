@@ -44,16 +44,16 @@ Initial onboarding preserves the complete 50-entry contents witness but does **n
 | 38 | A Proverb in Torment | 139 | **NOT YET REPRESENTED** | — | 01-01-2004 Vativelan literalizes `a wall is needed to paint` and builds a house instead of understanding the healthy-body proverb; no current representation established |
 | 39 | The Scene That Moved My Heart | 143 | **NOT YET REPRESENTED** | — | 03-01-2004 `Manonmaniyam` / Jivakan / Kutilan / Purutottaman scene rejecting victory gained through betrayal; no current representation established |
 | 40 | The Blind Man | 148 | **NOT YET REPRESENTED** | — | 07-01-2004 blind/visionless search for purchasable love across campus/beach, distinguishing love from lust/gratification; no current representation established |
-| 41 | We Need to Cultivate a Mind for Service | 151 | **INVESTIGATE** | — | item-level matching pending |
-| 42 | The Umbrella of Power and the Umbrella of Victory | 155 | **INVESTIGATE** | — | item-level matching pending |
-| 43 | Pieces of Straw on the Wavy Ocean | 160 | **INVESTIGATE** | — | item-level matching pending |
-| 44 | Piccaiyappan and Piccaiyappan | 163 | **INVESTIGATE** | — | item-level matching pending |
-| 45 | Let Progressiveness Blossom | 167 | **INVESTIGATE** | — | item-level matching pending |
-| 46 | May You too Live Long Acquiring the Training I Have Acquired! | 170 | **INVESTIGATE** | — | item-level matching pending |
-| 47 | A Word of Counsel to Our Cricket Team | 174 | **INVESTIGATE** | — | item-level matching pending |
-| 48 | The Mother Who Voted for Tamil | 179 | **INVESTIGATE** | — | item-level matching pending |
-| 49 | This is a Book of History | 184 | **INVESTIGATE** | — | item-level matching pending |
-| 50 | Opposition Will Go to Smithereens | 188 | **INVESTIGATE** | — | item-level matching pending |
+| 41 | We Need to Cultivate a Mind for Service | 151 | **NOT YET REPRESENTED** | — | 10-01-2004 Netumaran / 18-month prison return / 1938 and Emergency banner-service reflection / Appar / Mother Teresa; no current source-backed representation established |
+| 42 | The Umbrella of Power and the Umbrella of Victory | 155 | **NOT YET REPRESENTED** | — | 11-01-2004 transience meditation / power as water-bubble umbrella / enduring character, self-respect, honour and victory; no current representation established |
+| 43 | Pieces of Straw on the Wavy Ocean | 160 | **NOT YET REPRESENTED** | — | 13-01-2004 widowhood / Bharathidasan `Kaimmai` / older remarriage verse / `vitavai`–`kaimpen` dot wordplay; distinct 2004 reflection, no current representation established |
+| 44 | Piccaiyappan and Piccaiyappan | 163 | **NOT YET REPRESENTED** | — | 14-01-2004 Paccaiyappan / Piccaiyappan / Cinkarayar / dentist Paramanandam `showing teeth` comic wordplay; no current representation established |
+| 45 | Let Progressiveness Blossom | 167 | **NOT YET REPRESENTED** | — | 15-01-2004 Pongal labour-poverty / farmhand / weaver / washerfolk / government employees and teachers / political-progress close; no current representation established |
+| 46 | May You too Live Long Acquiring the Training I Have Acquired! | 170 | **NOT YET REPRESENTED** | — | 23-01-2004 meditation / `medicine and monkey` / yoga / breathing / walking / personal health-and-longevity practice; no current representation established |
+| 47 | A Word of Counsel to Our Cricket Team | 174 | **NOT YET REPRESENTED** | — | 24-01-2004 cricket team-spirit versus individual scores / sportsmanship / advertising critique / political-party analogy; no current representation established |
+| 48 | The Mother Who Voted for Tamil | 179 | **NOT YET REPRESENTED** | — | 03-02-2004 Inpacakaran / dying mother / Tamil classical-language election / mother votes for Tamil and dies / Mother-Tamil sacrifice allegory; no current representation established |
+| 49 | This is a Book of History | 184 | **NOT YET REPRESENTED** | — | 19-02-2004 election-front / Dravidian youth / dictatorship and betrayal / Anna one-life principle / Party-Movement as history text; no current representation established |
+| 50 | Opposition Will Go to Smithereens | 188 | **NOT YET REPRESENTED** | — | 17-04-2004 adversity / Anna abusive-hoarding-and-light counsel / heart that bears anything / opposition destroyed; no current representation established |
 
 ## Identity investigation Batch 1 — COMPLETE — 2026-09-08
 
@@ -79,10 +79,22 @@ Authority: `../comparisons/16-shower-of-poetry-vol-3-identity-investigation-batc
 
 Entries **31–40** were inspected from the exact Volume-III witness, physical pages **137–176** / printed pages **111–150**. Physical pages 137–150 were available directly in the renderer; exact checksum-locked source rendering was used across the later range beyond that tool boundary. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
 
+## Identity investigation Batch 5 — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`.
+
+Entries **41–50** were inspected from the exact Volume-III witness, physical pages **177–215** / printed pages **151–189**. All ten entries lie beyond the ordinary 150-page renderer window, so the exact TDL source was independently reconfirmed at **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`** before direct rasterization. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
+
+Consolidated identity closure: `../comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`.
+
 ## Current tally
 
-**0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50.**
+**0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50 — IDENTITY CLOSED 50/50.**
 
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 5 — entries 41–50 in source order**. Use actual payload/event/source context from the exact 220-page witness; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+BU-SP3 identity classification is **CLOSED 50/50**. The next actionable secondary-witness lane is payload comparison of the **11 BU-SP1 matches established after the historical 22/22 payload lane closed**.
+
+Run the first source-order batch of ten later matches: **BU-SP1 entries 2, 5, 6, 7, 17, 20, 24, 29, 41 and 42**. Compare actual BU payload against FINAL-CLEARED repository Tamil and RELEASE-CLEARED English; report only unless the controlling Tamil independently supports a correction. Entry **45** remains the final one-item remainder after that batch.
+
+Keep BU-SP2's **39 NOT YET REPRESENTED** rows on source-acquisition hold unless new source evidence establishes identities.

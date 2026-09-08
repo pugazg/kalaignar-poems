@@ -15,7 +15,7 @@ Exact witness set:
 
 Renderer warning: BU-TT may expose only 150 pages in the conversation renderer. For Batch 4, physical pages **151–174** were inspected by direct rendering from the exact checksum-locked PDF bytes; no OCR reconstruction was used.
 
-Current hardened crosswalk: **176 entries = 68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE**.
+Current hardened crosswalk: **176/176 identity-classified = 68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE**.
 
 Witness authority:
 
@@ -128,10 +128,12 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/15-shower-of-poet
 
 Report: `secondary-witnesses/bharathiar-university/comparisons/16-shower-of-poetry-vol-3-identity-investigation-batch-04.md`. Entries **31–40** were hardened **NOT YET REPRESENTED** from the exact Volume-III witness, physical pages **137–176** / printed pages **111–150**. The first part was directly visible in the normal renderer; the later range was rendered from independently checksum-verified exact bytes after reconfirming **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. BU-SP3 now stands at **0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50**; four-book tally **68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
+## BU-SP3 identity investigation Batch 5 — COMPLETE / VOLUME III IDENTITY CLOSED 50/50
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`; consolidated closure: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`. Entries **41–50** were hardened **NOT YET REPRESENTED** from the exact Volume-III witness, physical pages **177–215** / printed **151–189**. The exact TDL source was reconfirmed at **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`** before rasterization. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. Final BU-SP3: **0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50 — CLOSED**; four-book tally **68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 5 — entries 41–50 in source order**. All ten remaining entries are beyond the normal 150-page renderer window, so use the exact checksum-locked 220-page source. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
+Run **BU-SP1 later-MATCHED payload comparison Batch 1** for entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** in source order. These 10 are part of the 11 identities established after the historical 22/22 payload lane closed; entry **45** is the final remainder. Compare actual BU payload with FINAL-CLEARED Tamil and RELEASE-CLEARED English and report differences. Do not mutate either layer unless the controlling Tamil independently supports a documented reopen.
 
-## Release-cleared work rule
-
-Completed workspaces remain frozen unless genuinely new source-backed evidence justifies a documented reopen. Item 31 above is such a documented exception; its reopen is deliberately title-only and does not alter narrative/body text or item boundaries.
+BU-SP2's **39 NOT YET REPRESENTED** entries remain on source-acquisition hold absent new source evidence.

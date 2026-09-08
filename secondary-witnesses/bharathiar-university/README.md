@@ -31,10 +31,10 @@ The four contents witnesses contain **176 translated entries**:
 
 - Volume I: **52** — 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE;
 - Volume II: **40** — 1 MATCHED / 39 NOT YET REPRESENTED;
-- Volume III: **50** — 0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE;
+- Volume III: **50** — 0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE — identity CLOSED;
 - *Treasure Trove*: **34** — 34 MATCHED.
 
-Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE = 176**.
+Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE = 176 — 176/176 identity-classified**.
 
 See `MASTER_CROSSWALK.md` and the per-book crosswalks.
 
@@ -176,6 +176,10 @@ Report: `comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.m
 
 Report: `comparisons/16-shower-of-poetry-vol-3-identity-investigation-batch-04.md`. Entries **31–40** were inspected from the exact Volume-III witness, physical pages **137–176** / printed pages **111–150**. The normal renderer covered physical pages 137–150; exact checksum-locked source rendering covered the later range beyond that tool boundary. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**; Tamil / RELEASE-CLEARED English mutations **0 / 0**. Current BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50**.
 
+### BU-SP3 identity investigation Batch 5 — COMPLETE / VOLUME III IDENTITY CLOSED 50/50
+
+Report: `comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`; consolidated closure: `comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`. Entries **41–50**, physical pages **177–215** / printed pages **151–189**, were read from the exact checksum-locked 220-page witness. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**. Final BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50 — CLOSED**.
+
 ## Next activity
 
-Proceed to **BU-SP3 Identity Investigation Batch 5 — entries 41–50 in source order**. All remaining entries lie beyond the normal 150-page renderer window; use the exact checksum-locked 220-page Volume-III witness. Report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+All **176/176** BU entries now have identity dispositions. Resume payload comparison for the **11 BU-SP1 entries matched only after the historical 22/22 payload lane had closed**. First batch: entries **2, 5, 6, 7, 17, 20, 24, 29, 41, 42**; entry **45** is the final remainder. Keep BU-SP2's 39 `NOT YET REPRESENTED` rows on source-acquisition hold absent new source evidence.

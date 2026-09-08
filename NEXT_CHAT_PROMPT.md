@@ -4,7 +4,7 @@ Continue `pugazg/kalaignar-poems`, branch `main`. **Fetch live `main` first** an
 
 ## Active lane
 
-No new Tamil poem is staged. Current activity: `secondary-witnesses/bharathiar-university/`.
+No new Tamil poem is staged. Current activity remains `secondary-witnesses/bharathiar-university/`.
 
 Read before further witness work:
 
@@ -15,12 +15,10 @@ Read before further witness work:
 5. this prompt;
 6. `secondary-witnesses/bharathiar-university/README.md`;
 7. `secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md`;
-8. `secondary-witnesses/bharathiar-university/shower-of-poetry-vol-3/source.md`;
-9. `secondary-witnesses/bharathiar-university/shower-of-poetry-vol-3/crosswalk.md`;
-10. `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`;
-11. `secondary-witnesses/bharathiar-university/comparisons/14-shower-of-poetry-vol-3-identity-investigation-batch-02.md`;
-12. `secondary-witnesses/bharathiar-university/comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.md`;
-13. the two BU-SP1 consolidated summaries for historical context.
+8. `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`;
+9. `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`;
+10. `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`;
+11. the relevant BU-SP1 per-book `source.md` / `crosswalk.md` and the final BU-SP3 Batch-5 report for historical context.
 
 ## Authority
 
@@ -38,73 +36,42 @@ Never silently rewrite Tamil or RELEASE-CLEARED English from the Bharathiar book
 - BU-SP3 — *Shower of Poetry*, Volume III — **220 pages / 80,185,514 bytes / SHA `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**;
 - BU-TT — *The Treasure Trove of Time and the Verse Key* — **205 pages / 106,152,046 bytes / SHA `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b`**.
 
-Renderer note: Volume III may expose only the first **150 pages** although the checksum-locked witness contains **220 physical pages**. Batches 1–3 were entirely inside the visible window. Batch 4 starts inside it, but entry 40 begins at printed p.148 and its payload may cross the renderer boundary. If so, treat the 150-page ceiling only as a tooling boundary and use the exact checksum-locked bytes for any required later physical pages.
+## Closed identity / comparison lanes
 
-## Closed witness lanes
+- BU-TT comparison: **CLOSED 34/34**;
+- BU-SP1 identity classification: **CLOSED 52/52 — 33 MATCHED / 19 NOT YET REPRESENTED**;
+- BU-SP3 identity classification: **CLOSED 50/50 — 0 MATCHED / 50 NOT YET REPRESENTED**;
+- all BU contents entries now identity-classified: **176/176 — 68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE**.
 
-- BU-TT comparison: **CLOSED 34/34** — `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`;
-- BU-SP1 payload comparison: historical **CLOSED 22/22 of the matches known at that stage** — `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`;
-- BU-SP1 identity classification: **CLOSED 52/52 — 33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE** — `comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`.
+BU-SP3 Batch 5 report: `comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`. Entries **41–50** were read from exact physical pages **177–215** beyond the normal 150-page renderer boundary after checksum/page-count reconfirmation. Result: **10 NOT YET REPRESENTED**, mutations **0 / 0**.
 
-Do not retroactively describe the BU-SP1 payload lane as 33/33. Eleven matches were established later by identity investigation and were not silently promoted to payload-compared status.
+## Important BU-SP1 payload-count distinction
 
-## BU-SP3 Identity Investigation Batches 1–3 — COMPLETE
+The historical BU-SP1 payload-comparison lane is **CLOSED 22/22 of the matches known at that stage**. Later identity work established **11 additional MATCHED entries**:
 
-### Batch 1
+**2, 5, 6, 7, 17, 20, 24, 29, 41, 42, 45.**
 
-Report: `comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10**, physical pages **27–59** / printed **1–33** → **10 NOT YET REPRESENTED**, **0 MATCHED**, **0 unresolved**.
+Do **not** retroactively describe the historical lane as 33/33. These eleven form a new, explicitly separate payload-comparison debt.
 
-### Batch 2
+## Exact next activity — BU-SP1 later-MATCHED payload comparison Batch 1
 
-Report: `comparisons/14-shower-of-poetry-vol-3-identity-investigation-batch-02.md`. Entries **11–20**, physical pages **60–99** / printed **34–73** → **10 NOT YET REPRESENTED**, **0 MATCHED**, **0 unresolved**.
+Compare the first ten later matches in source order:
 
-### Batch 3
+1. entry **2** `Periyar`;
+2. entry **5** `Green Parrot!`;
+3. entry **6** `The Mother in Puranaanooru - 2`;
+4. entry **7** `A Heroic Warrior Killed`;
+5. entry **17** `The Paari Festival`;
+6. entry **20** `The Fountain of Imagination`;
+7. entry **24** `Pour Plenteously O Sky!`;
+8. entry **29** `Some Countries there are!`;
+9. entry **41** `Do Not Your Onward March Give up!`;
+10. entry **42** `We Shall Tear the Mask to Pieces!`.
 
-Report: `comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.md`. Entries **21–30**, physical pages **100–136** / printed **74–110** → **10 NOT YET REPRESENTED**, **0 MATCHED**, **0 unresolved**.
+Repository targets are recorded in the BU-SP1 consolidated identity summary. Read the actual BU payloads and compare them with FINAL-CLEARED repository Tamil first, then RELEASE-CLEARED English. Classify differences as title choice, interpretation, omission, expansion, transliteration/name choice, structural condensation or possible mistranslation.
 
-High-value Batch-3 anchors include:
+Report first. **Do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English unless the controlling Tamil independently supports a documented reopen.**
 
-- entry 21 — 14-11-2003 personified Worry / employment / Happiness-wings allegory;
-- entry 22 — 16-11-2003 barefoot schoolgirl / thorn / broken eyeless needle / nothing-useless moral;
-- entry 23 — 17-11-2003 Tamil film-title / astrology-numerology spelling-change / alien-language satire;
-- entry 24 — 18-11-2003 autobiographical yellow-towel reflection via Osho, Buddha, Tirumular and Bharati;
-- entry 25 — 19-11-2003 Savitri/Satyavan/Yama/Draupadi gender-equality dream-dialogue;
-- entry 26 — 21-11-2003 elephant/crocodile/Atimoolam ingratitude fable;
-- entry 27 — 22-11-2003 rationalist anti-rebirth / public-fame meditation;
-- entry 28 — 23-11-2003 misogyny/dowry/fire-death/female-infanticide critique;
-- entry 29 — 24-11-2003 scorpion-and-ascetic compassion fable;
-- entry 30 — 30-11-2003 life-journey meditation reframing heaven and hell.
+After Batch 1, entry **45** `A Petty Village Full of Folks Illiterate!` is the final later-MATCHED remainder.
 
-Across BU-SP3 Batches 1–3: Tamil mutations **0**; RELEASE-CLEARED English mutations **0**.
-
-`NOT YET REPRESENTED` means no exact current source-backed repository representation was established; it is not a claim that the Tamil work never existed elsewhere.
-
-## Four-book current state
-
-**68 MATCHED / 0 POSSIBLE / 88 NOT YET REPRESENTED / 20 INVESTIGATE = 176.**
-
-Per book:
-
-- BU-SP1: **33 MATCHED / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — identity CLOSED**;
-- BU-SP2: **1 MATCHED / 39 NOT YET REPRESENTED = 40**;
-- BU-SP3: **0 MATCHED / 30 NOT YET REPRESENTED / 20 INVESTIGATE = 50**;
-- BU-TT: **34 MATCHED = 34 — comparison CLOSED 34/34**.
-
-## Exact next activity — BU-SP3 Identity Investigation Batch 4
-
-Investigate **BU-SP3 entries 31–40 in source order**:
-
-31. `I Had No Mind to Leave` — printed p.111;
-32. `The Medicine Not Prescribed by the Physician` — p.115;
-33. `The Burden of the Mind` — p.118;
-34. `I Must Write That Pile up to the Himalayan Height` — p.123;
-35. `The Vision That my Heart Relished` — p.129;
-36. `The Roots That Turn into Seed` — p.134;
-37. `The Tragedy of Iran` — p.137;
-38. `A Proverb in Torment` — p.139;
-39. `The Scene That Moved My Heart` — p.143;
-40. `The Blind Man` — p.148.
-
-Use `TVA_BOK_0065524_Shower_of_poetry_Vol_3.pdf`. Inspect actual payload/event/date/person/source context, compare against current repository inventories, and harden identity only when evidence supports it. English-title resemblance alone is insufficient.
-
-Report/crosswalk only. **Do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.**
+BU-SP2's **39 NOT YET REPRESENTED** rows remain on source-acquisition hold absent new source evidence.

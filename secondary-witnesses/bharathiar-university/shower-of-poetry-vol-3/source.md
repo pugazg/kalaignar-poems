@@ -31,8 +31,8 @@ No Tamil or released English text may be silently replaced from this witness.
 
 This PDF is image-only. The current renderer exposes a **150-page window**, but exact-byte PDF inspection establishes **220 physical pages**. The contents list translated material beginning as late as printed p.188, so the 150-page value is only a renderer/tool boundary.
 
-Batch 4 crossed that boundary. The exact TDL source was independently downloaded and reconfirmed at **80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6` / 220 pages** before physical pages **149–176** were rasterized. English OCR was used only as a reading/navigation aid for this institutional English secondary witness; it did not reconstruct or mutate Tamil.
+Batches 4–5 crossed that boundary. The exact TDL source was independently downloaded and reconfirmed at **80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6` / 220 pages** before later physical pages were rasterized; Batch 5 directly inspected physical pages **177–215** / printed **151–189**. English OCR was used only as a reading/navigation aid for this institutional English secondary witness; it did not reconstruct or mutate Tamil.
 
 ## Repository use
 
-See `../MASTER_CROSSWALK.md` and `crosswalk.md`. Initial onboarding left all 50 entries at `INVESTIGATE`; identity Batches 1–4 have now hardened entries **1–40** to `NOT YET REPRESENTED` from actual payload/context review. Current Volume-III state: **0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50**. English title similarity alone is insufficient to assert canonical identity.
+See `../MASTER_CROSSWALK.md` and `crosswalk.md`. Initial onboarding left all 50 entries at `INVESTIGATE`; identity Batches 1–5 have now classified **all 50/50** entries from actual payload/event/date/person context. Final Volume-III state: **0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50 — IDENTITY CLOSED**. English title similarity alone is insufficient to assert canonical identity. Consolidated closure: `../comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`.
