@@ -102,7 +102,7 @@ Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/S
 
 Reports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`, `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` and `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Across the identity batches, **11 new MATCHED** identities and **19 NOT YET REPRESENTED** dispositions were hardened from source payload/event context.
 
-Batch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book tally immediately after BU-SP1 closure: **68 MATCHED / 0 POSSIBLE / 78 NOT YET REPRESENTED / 30 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+Batch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book tally immediately after BU-SP1 closure: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
 For Batch 3, exact Volume-I bytes were independently locked to **249 pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`** before physical pages **206–249** were rendered. English OCR was used only as a reading/navigation aid for this institutional secondary witness; it did not reconstruct or mutate Tamil.
 
