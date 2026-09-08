@@ -8,11 +8,20 @@ Fetch live `main` first and preserve newer durable/release-cleared work.
 
 Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA-256 pending exact-byte hash**. Scope scans **18–23**.
 
-Status: **Phase 1 COMPLETE 6/6 / Phase 2 COMPLETE 6/6 VERIFIED / Phase 3 Gate 1 PASS / 0 unresolved pagination issues / exact SHA pending**. Complete direct scan-18 decorated title = **`தலைகேட்டான் தம்பி`**, split spatially as upper `தலைகேட்டான்` and lower decorated `தம்பி`. Bibliographic title is identical; title conflict **0**. Direct source-position attribution on scan 18: **`கருணாநிதி`**.
+Status: **Phase 1 COMPLETE 6/6 / Phase 2 COMPLETE 6/6 VERIFIED / Phase 3 Gates 1–2 PASS / 0 unresolved / exact SHA pending**.
+
+Scan-18 structure is locked as follows:
+
+- complete title: **`தலைகேட்டான் தம்பி`**;
+- layout: upper decorated `தலைகேட்டான்` + lower decorated `தம்பி`;
+- direct source-position author attribution: **`கருணாநிதி`**;
+- `தம்பி` and `கருணாநிதி` are structural title/author material and are **not poem-body text**. The trailing body duplication was removed in `POST_PHASE2_STRUCTURAL_CORRECTION.md`; scan 18 remains `verified`.
 
 Phase-2 corrections on scan 21: `மகிழ்ந்தானா` and `கொடை நீரூற்று`. Authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
 
-Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md` — physical scans 18–23 **6/6 accounted**, visible printed numerals **0/6**, logical printed-page assignments **0/6**, `printed_page: null` confirmed **6/6**, no page-text changes.
+Gate 1 authority: `PHASE3_PAGINATION_RECONCILIATION.md` — `printed_page: null` confirmed **6/6**.
+
+Gate 2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — opening **17→18 PASS**, internal joins **5/5 PASS**, closing **23→24 PASS**, unresolved **0**. Critical **22→23** carry is `அண்ணன் உயிர்தந்த செய்தியாலே` → `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`; never insert a separator at that boundary.
 
 ## Mandatory startup
 
@@ -30,14 +39,15 @@ Read before source-dependent change:
 10. `audit.md`;
 11. `HANDOVER.md`;
 12. `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
-13. `PHASE3_PAGINATION_RECONCILIATION.md`;
-14. verified page records `pages/0018.md`–`0023.md`.
+13. `POST_PHASE2_STRUCTURAL_CORRECTION.md`;
+14. `PHASE3_PAGINATION_RECONCILIATION.md`;
+15. `PHASE3_BOUNDARY_JOIN_AUDIT.md`;
+16. verified page records `pages/0018.md`–`0023.md`.
 
 The controlling 1966 scan, not OCR/web/catalogue/later witnesses, governs all Tamil readings. User extraction and secondary witnesses are aids only.
 
 ## Exact next activity
 
-1. Establish and durably record the still-pending SHA-256 from the exact attached 75-page source bytes.
-2. Then perform **Phase 3 Gate 2 — boundary / page-join audit** for opening **17→18**, internal joins **18→19 through 22→23**, and closing **23→24**.
-3. Check quotation carry-over, separators, poetic-line continuity and item boundaries without normalizing verified wording.
-4. Stop after Gate 2 unless explicitly directed to continue.
+1. Establish and durably record the still-pending **SHA-256** from the exact attached 75-page source bytes. Do not infer or invent it.
+2. Then perform **Phase 3 Gate 3 — title-witness reconciliation**. Bibliographic and direct lexical titles are both `தலைகேட்டான் தம்பி`; formally lock the canonical title authority while preserving the decorated upper/lower layout and author attribution as provenance.
+3. Do not begin canonical Tamil assembly unless explicitly directed to process remaining gates.
