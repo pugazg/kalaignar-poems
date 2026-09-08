@@ -1,0 +1,83 @@
+name: Inspect BU-SP1 Batch 3 source
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/inspect-bu-sp1-batch3.yml
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install PDF and OCR tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr libtiff-tools
+
+      - name: Download and checksum-lock BU-SP1
+        shell: bash
+        run: |
+          set -euo pipefail
+          url='https://commons.wikimedia.org/wiki/Special:Redirect/file/Shower_of_poetry_Vol_1.pdf'
+          curl -fL --retry 4 --retry-delay 2 "$url" -o bu-sp1.pdf
+          actual="$(sha256sum bu-sp1.pdf | awk '{print $1}')"
+          expected='f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536'
+          echo "SHA-256: $actual"
+          test "$actual" = "$expected"
+          pages="$(pdfinfo bu-sp1.pdf | awk '/^Pages:/ {print $2}')"
+          bytes="$(stat -c '%s' bu-sp1.pdf)"
+          echo "Physical pages: $pages"
+          echo "Bytes: $bytes"
+          test "$pages" = '249'
+          test "$bytes" = '101936284'
+
+      - name: Render late witness pages and OCR once
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir rendered
+          pdftoppm -f 206 -l 249 -r 160 -tiff -gray bu-sp1.pdf rendered/p >/dev/null 2>&1
+          tiffcp rendered/p-*.tif batch3.tif
+          tesseract batch3.tif batch3 -l eng --psm 6 >/dev/null 2>&1
+
+      - name: Emit entry payload windows
+        shell: python
+        run: |
+          from pathlib import Path
+
+          raw = Path('batch3.txt').read_text(encoding='utf-8', errors='replace')
+          pages = raw.split('\f')
+          if pages and not pages[-1].strip():
+              pages.pop()
+          print(f'OCR page blocks: {len(pages)}')
+          if len(pages) != 44:
+              raise SystemExit(f'expected 44 OCR page blocks, got {len(pages)}')
+
+          by_page = {206+i: text.strip() for i, text in enumerate(pages)}
+          entries = {
+              43: ('Calculation-2', 206, 209),
+              44: ('In Search of Human Love', 210, 213),
+              45: ('A Petty Village Full of Folks Illiterate!', 214, 216),
+              46: ('Inauguration of the Valluvar Statue', 217, 228),
+              47: ("The Sweet Word that doesn't Satiate", 229, 231),
+              48: ('Socialism Proclaimed in a Puram Poem', 232, 234),
+              49: ('Do not Drive These Women away, and Do not Their Dislike Earn!', 235, 237),
+              50: ('A Radiant Light of Culture', 238, 240),
+              51: ('Alive Will No Man be!', 241, 243),
+              52: ('Indication of a Dawn!', 244, 249),
+          }
+
+          for n, (title, start, end) in entries.items():
+              text = '\n\n'.join(f'--- physical page {p} ---\n{by_page[p]}' for p in range(start, end+1))
+              limit = 9000 if n == 46 else 7000
+              if len(text) > limit:
+                  keep = limit // 2
+                  text = text[:keep] + '\n\n...[middle omitted from log only]...\n\n' + text[-keep:]
+              print('\n' + '='*72)
+              print(f'BU-SP1 ENTRY {n}: {title} | physical {start}-{end}')
+              print('='*72)
+              print(text)
