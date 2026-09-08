@@ -10,8 +10,6 @@ This directory records four 2009 Bharathiar University / Macmillan English-trans
 
 These books may help with meaning, person/place identification, Sangam references, title choices and translation review. They must **not** silently change a verified Tamil page, canonical Tamil, or release-cleared English. A later change requires a documented comparison showing that the controlling Tamil supports the change.
 
-This follows the repository's existing cross-witness rule: canonical poem identity and source-witness identity are different facts, and one witness must never be silently normalized against another.
-
 ## Four-book set
 
 | Witness | Exact physical pages | Bytes | SHA-256 | Translator | TOC entries |
@@ -25,7 +23,7 @@ All four were edited by **P. Marudanayagam and V. Murugan**, issued by **Bharath
 
 ## Renderer-limit note
 
-The current page renderer exposes only **150 pages** for Volumes I, III and *Treasure Trove*. Exact-byte PDF inspection establishes their real physical lengths as **249, 220 and 205 pages** respectively. The 150-page renderer value is therefore a tooling window, not source-file length.
+The current page renderer may expose only **150 pages** for Volumes I, III and *Treasure Trove*. Exact-byte PDF inspection establishes their real physical lengths as **249, 220 and 205 pages** respectively. The 150-page renderer value is a tooling window, not source-file length.
 
 ## Crosswalk state
 
@@ -38,22 +36,37 @@ The four contents witnesses contain **176 translated entries**:
 
 Overall initial onboarding: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE = 176**.
 
-See the per-book crosswalks plus `MASTER_CROSSWALK.md`.
+See `MASTER_CROSSWALK.md` and the per-book crosswalks.
+
+## Completed comparison — Batch 1
+
+`comparisons/01-thalaikettan-thambi.md`
+
+Compared BU-SP2 **The Brother for the Head did Ask!** (supplied PDF pp.85–89) with `poems/thalaikettan-thambi/` FINAL-CLEARED Tamil and RELEASE-CLEARED English.
+
+Result: **PASS / REPORT-ONLY**.
+
+- Tamil/source correction candidates: **0**;
+- released English changes: **0**;
+- strong source-supported future English review candidates: **2**;
+- medium semantic refinement: **1**;
+- low editorial refinement: **1**.
+
+Strong candidates:
+
+1. `அடுத்தார் பேச்சால் அழிந்த தம்பி` — current `ruined by his own words` should be reviewed as **ruined by the words/counsel of those around him**;
+2. `வாள்முனையில் செங்குருதி தனைக் கண்டான்` — current English should be reviewed for restoring source **blood** before the later `not blood—red colour` reveal.
+
+No text was changed. `poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED.
 
 ## High-value established relationships
 
-- Volume II item 17, **The Brother for the Head did Ask!** → `poems/thalaikettan-thambi/` as a later `Sangath Thamizh` English translation witness. Its translation occupies PDF pages **85–89** in the supplied Volume-II file. This establishes a secondary work witness, not authority over the 1966 Murasoli Tamil source.
-- Volume I contains numerous selections already represented in `poems/kalaignarin-kavithaigal/`, including `இதயத்தைத் தந்திடு அண்ணா`, `விடுதலை வீரர்கள்`, `ஐம்புலன்`, `புதிய பாதை`, `நீர்க் குடும்பம்`, `பாரதிதாசன்`, `நேரு கண்ட ஜனநாயகம்`, `வெள்ளி விழா`, `தந்தை பெரியார்`, `அகத்துறைப் படைப்புகள்`, `சிலப்பதிகார விருந்து`, `அண்ணா வழியில்`, and other matched items.
-- *The Treasure Trove of Time and the Verse Key* is a direct **book-level secondary witness** to `poems/kaalap-pezhaiyum-kavithai-saaviyum/`. Its 34 translated TOC entries are mapped to a selected subset of that repository work's 58 canonical items.
+- BU-SP2 item 17 → `poems/thalaikettan-thambi/` as a later `Sangath Thamizh` English translation witness.
+- Volume I contains numerous selections already represented in `poems/kalaignarin-kavithaigal/`.
+- *The Treasure Trove of Time and the Verse Key* is a direct **book-level secondary witness** to `poems/kaalap-pezhaiyum-kavithai-saaviyum/`; its 34 TOC entries map to stable repository items.
 
 ## Next activity
 
-Perform payload comparison in controlled batches, beginning with already release-cleared exact matches:
+Perform **Secondary Witness Comparison Batch 2 — BU-TT mapped entries 1–10** against `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
 
-1. `தலைகேட்டான் தம்பி` — compare Volume-II pp.85–89 with FINAL-CLEARED repository Tamil and English;
-2. *The Treasure Trove of Time and the Verse Key* — compare the 34 mapped translations against their repository items, recording editorial observations and only source-supported reopen candidates;
-3. Volume-I MATCHED/POSSIBLE items;
-4. unresolved Volume-I and Volume-III item matching;
-5. Volume-II Sangam selections not yet represented.
-
-No comparison batch may directly mutate Tamil or released English text without a separate documented source-backed decision.
+The batch must inspect the actual Bharathiar translation pages, compare against FINAL-CLEARED Tamil and RELEASE-CLEARED English, and produce a report only. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.
