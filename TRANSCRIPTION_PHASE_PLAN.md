@@ -25,7 +25,7 @@ Renderer guardrail: BU-TT may expose only 150 pages in the conversation renderer
 - bibliographic metadata: **RECORDED 4/4**;
 - contents inventories: **176/176 indexed**;
 - master crosswalk: **COMPLETE — initial pass**;
-- classifications: **68 MATCHED / 0 POSSIBLE / 88 NOT YET REPRESENTED / 20 INVESTIGATE**;
+- classifications: **68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE**;
 - Tamil changes from witness onboarding: **0**;
 - release-cleared English changes from witness onboarding: **0**.
 
@@ -129,13 +129,17 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/14-shower-of-poet
 
 Report: `secondary-witnesses/bharathiar-university/comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.md`. Entries **21–30** → **10 NOT YET REPRESENTED**, with **0 MATCHED / 0 unresolved** and Tamil / released-English mutations **0 / 0**. Current BU-SP3: **0 MATCHED / 0 POSSIBLE / 30 NOT YET REPRESENTED / 20 INVESTIGATE = 50**.
 
+### BU-SP3 identity investigation Batch 4 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/16-shower-of-poetry-vol-3-identity-investigation-batch-04.md`. Entries **31–40** → **10 NOT YET REPRESENTED**, with **0 MATCHED / 0 unresolved** and Tamil / released-English mutations **0 / 0**. Current BU-SP3: **0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50**.
+
 ### Current comparison activity — NEXT
 
-**BU-SP3 Identity Investigation Batch 4 — entries 31–40 in source order.**
+**BU-SP3 Identity Investigation Batch 5 — entries 41–50 in source order.**
 
 ### Planned witness sequence
 
-1. BU-SP3 — continue item-level matching of the **20 remaining INVESTIGATE** entries, next entries 31–40;
+1. BU-SP3 — complete item-level identity investigation of the **10 remaining INVESTIGATE** entries, entries 41–50, using exact-source rendering beyond the normal 150-page viewer boundary;
 2. BU-SP2 — retain its 39 NOT YET REPRESENTED entries until source-backed identities are established or a new controlling/source witness is supplied.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
@@ -144,4 +148,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP3 Identity Investigation Batch 4 — entries 31–40 — identity/crosswalk report only**.
+Proceed with **BU-SP3 Identity Investigation Batch 5 — entries 41–50 — identity/crosswalk report only**.

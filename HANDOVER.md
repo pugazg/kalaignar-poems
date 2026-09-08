@@ -15,7 +15,7 @@ Exact witness set:
 
 Renderer warning: BU-TT may expose only 150 pages in the conversation renderer. For Batch 4, physical pages **151–174** were inspected by direct rendering from the exact checksum-locked PDF bytes; no OCR reconstruction was used.
 
-Current hardened crosswalk: **176 entries = 68 MATCHED / 0 POSSIBLE / 88 NOT YET REPRESENTED / 20 INVESTIGATE**.
+Current hardened crosswalk: **176 entries = 68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE**.
 
 Witness authority:
 
@@ -124,9 +124,13 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/14-shower-of-poet
 
 Report: `secondary-witnesses/bharathiar-university/comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.md`. Entries **21–30** were hardened **NOT YET REPRESENTED** from direct physical pages **100–136** / printed pages **74–110**. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. BU-SP3 now stands at **0 MATCHED / 0 POSSIBLE / 30 NOT YET REPRESENTED / 20 INVESTIGATE = 50**; four-book tally **68 MATCHED / 0 POSSIBLE / 88 NOT YET REPRESENTED / 20 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
+## BU-SP3 identity investigation Batch 4 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/16-shower-of-poetry-vol-3-identity-investigation-batch-04.md`. Entries **31–40** were hardened **NOT YET REPRESENTED** from the exact Volume-III witness, physical pages **137–176** / printed pages **111–150**. The first part was directly visible in the normal renderer; the later range was rendered from independently checksum-verified exact bytes after reconfirming **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. BU-SP3 now stands at **0 MATCHED / 0 POSSIBLE / 40 NOT YET REPRESENTED / 10 INVESTIGATE = 50**; four-book tally **68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 4 — entries 31–40 in source order**. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
+Run **BU-SP3 Identity Investigation Batch 5 — entries 41–50 in source order**. All ten remaining entries are beyond the normal 150-page renderer window, so use the exact checksum-locked 220-page source. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
 
 ## Release-cleared work rule
 
