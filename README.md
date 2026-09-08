@@ -2,27 +2,26 @@
 
 Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic works and source publications.
 
-## தலைகேட்டான் தம்பி (1966) — active
+## Current production queue
+
+**No new poem is currently staged.** The next archive activity begins when the user selects or supplies the next source/work. Release-cleared work must not be reopened from stale prompts.
+
+## தலைகேட்டான் தம்பி (1966) — release-cleared
 
 Workspace: `poems/thalaikettan-thambi/`
 
-Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical scans**, **30,952,719 bytes**, SHA-256 **`92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**. User-scoped range: **18–23 (6 scans)**.
+Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical scans**, **30,952,719 bytes**, SHA-256 **`92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**. Scope: **18–23 (6 scans)**.
 
-**SOURCE IDENTITY LOCKED / PHASE 1 COMPLETE 6/6 / PHASE 2 COMPLETE 6/6 VERIFIED / PHASE 3 GATES 1–4 PASS / 0 UNRESOLVED.**
+**PHASE 1 6/6 COMPLETE / PHASE 2 6/6 VERIFIED / PHASE 3 TAMIL FINAL-CLEARED / PHASE 4 RELEASE-CLEARED.**
 
-- complete direct title: `தலைகேட்டான் தம்பி`, upper decorated `தலைகேட்டான்` + lower decorated `தம்பி`;
-- direct source-position attribution: `கருணாநிதி`;
-- scan-18 structural-role correction complete; title/author material not repeated as body;
-- verified page layer: `pages/0018.md`–`0023.md`;
-- Gate 1: **PASS — `printed_page: null` confirmed 6/6**;
-- Gate 2: **PASS — opening 1/1, internal joins 5/5, closing 1/1**;
-- Gate 3: **PASS — canonical title authority `# தலைகேட்டான் தம்பி`**;
-- Gate 4: **PASS — canonical Tamil `sections/01.md` assembled from all 6 verified scans**;
-- critical 22→23 direct carry preserved without inserted separator;
-- Phase 3 Gates 5–6: **NOT STARTED**;
-- Phase 4: **BLOCKED pending Tamil final clearance**.
+- canonical Tamil: `poems/thalaikettan-thambi/sections/01.md` — blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`;
+- reviewed English: `poems/thalaikettan-thambi/translations/en/sections/01.md` — blob `008a4a50678fe69d3dd90165ac10e34f1145e88f`;
+- reader-facing English: `poems/thalaikettan-thambi/translations/en/thalaikettan-thambi-en.md` — blob `4dacd0819bb510a795ca034ce8fefec02133b259`;
+- release authority: `poems/thalaikettan-thambi/translations/en/RELEASE_REPORT.md`;
+- unresolved issues: **0**;
+- status: **CLOSED — 2026-09-08**.
 
-Next activity: **Phase 3 Gate 5 — canonical/source-completeness review only**. Do not grant Tamil final clearance until Gate 6.
+Source locks include scan-18 title/author structural separation, verified `மகிழ்ந்தானா` / `கொடை நீரூற்று`, and the direct 22→23 continuation without an inserted separator.
 
 ## ஆந்தையும் அரசனும்! (1965) — release-cleared
 
@@ -44,6 +43,7 @@ Final source locks include `கமழுகின்ற`, `தலைமீது
 
 ## Preserved completed work
 
+- `poems/thalaikettan-thambi/` — RELEASE-CLEARED;
 - `poems/aanthaiyum-arasanum/` — RELEASE-CLEARED;
 - `poems/poomudi/` — RELEASE-CLEARED;
 - `poems/anna-kaviyarangam/` — RELEASE-CLEARED;
@@ -53,4 +53,4 @@ Final source locks include `கமழுகின்ற`, `தலைமீது
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
 - `poems/kanchithan-annan/` — RELEASE-CLEARED.
 
-Current next production activity: **தலைகேட்டான் தம்பி — Phase 3 Gate 5 canonical/source-completeness review**.
+Current next production activity: **await the next user-directed poem/source selection and onboard it under `POEM_PROCESSING_GUIDE.md`.**
