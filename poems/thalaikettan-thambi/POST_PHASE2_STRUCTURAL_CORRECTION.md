@@ -31,8 +31,8 @@ The page heading continues to preserve the complete title `தலைகேட்
 
 This is a **structural-role correction, not a lexical modernization or normalization**. No poem-body word was changed. The previously verified scan-18 verse remains intact, and page status remains `verified`.
 
-Phase 3 Gate 1 pagination is unaffected.
+Phase 3 Gate 1 pagination is unaffected. Gate 2 subsequently confirmed all boundaries/page joins. Gate 3 subsequently reconciled the bibliographic and direct title witnesses and locked canonical title authority to **`# தலைகேட்டான் தம்பி`**.
 
-## Remaining hold / next activity
+## Current state / next activity
 
-The exact source SHA-256 is still pending. Once it is durably locked, proceed to **Phase 3 Gate 2 — boundary / page-join audit**.
+Phase 3 Gates **1–3 are PASS**. The exact source SHA-256 remains pending because checksum execution has failed; no hash is inferred or invented. Once the checksum is durably locked, proceed to **Phase 3 Gate 4 — canonical Tamil assembly**.
