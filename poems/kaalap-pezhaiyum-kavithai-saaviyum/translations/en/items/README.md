@@ -1,10 +1,10 @@
 # Standalone English translations — காலப் பேழையும் கவிதைச் சாவியும்
 
-Status: **RELEASE-CLEARED — 58/58 standalone item files synchronized with the final English release**
+Status: **RELEASE-CLEARED — 58/58 standalone item files; item 31 source-backed title correction applied 2026-09-08**
 
-Each file contains one stable numbered item. Its verse/dialogue/source-visible structure is byte-for-byte aligned with the corresponding item body in `../kaalap-pezhaiyum-kavithai-saaviyum-en.md`; the standalone file adds only provenance front matter and an H1 English title.
+Each file contains one stable numbered item. Its verse/dialogue/source-visible structure follows the corresponding reviewed translation body; standalone files add provenance front matter and an H1 English title.
 
-The final-cleared Tamil canonical/page layer is not modified by this distribution step.
+The final-cleared Tamil canonical/page layer controls title and text. Item 31 was source-backed reopened on 2026-09-08 because the direct poem-opening title page reads `மகளும்`, while the contents separately reads `மகனும்`.
 
 | Item | English title | Standalone file | Source scans |
 |---:|---|---|---:|
@@ -38,7 +38,7 @@ The final-cleared Tamil canonical/page layer is not modified by this distributio
 | 28 | The Ancient Civilisation That Spread Across the Whole World! | [28-the-ancient-civilisation-that-spread-across-the-whole-world-en.md](28-the-ancient-civilisation-that-spread-across-the-whole-world-en.md) | 136–139 |
 | 29 | Mother, Give Us — Bear Us Treasures of Self-Respect! | [29-mother-give-us-bear-us-treasures-of-self-respect-en.md](29-mother-give-us-bear-us-treasures-of-self-respect-en.md) | 140–144 |
 | 30 | The Measure of His Power: His Just Sceptre! | [30-the-measure-of-his-power-his-just-sceptre-en.md](30-the-measure-of-his-power-his-just-sceptre-en.md) | 145–147 |
-| 31 | The Mother Full of Dignity and the Stainless Son! | [31-the-mother-full-of-dignity-and-the-stainless-son-en.md](31-the-mother-full-of-dignity-and-the-stainless-son-en.md) | 148–151 |
+| 31 | The Mother Full of Dignity and the Stainless Daughter! | [31-the-mother-full-of-dignity-and-the-stainless-daughter-en.md](31-the-mother-full-of-dignity-and-the-stainless-daughter-en.md) | 148–151 |
 | 32 | Kovoorar Questions — Heads Bow Down | [32-kovoorar-questions-heads-bow-down-en.md](32-kovoorar-questions-heads-bow-down-en.md) | 152–156 |
 | 33 | Is “Seruppaazhi-Erindha” an Honorific Title? | [33-is-seruppaazhi-erindha-an-honorific-title-en.md](33-is-seruppaazhi-erindha-an-honorific-title-en.md) | 157–160 |
 | 34 | It Did Not Vanish; It Was Reborn! | [34-it-did-not-vanish-it-was-reborn-en.md](34-it-did-not-vanish-it-was-reborn-en.md) | 161–166 |
@@ -61,10 +61,10 @@ The final-cleared Tamil canonical/page layer is not modified by this distributio
 | 51 | Marriages Too Can Bring a Turn! | [51-marriages-too-can-bring-a-turn-en.md](51-marriages-too-can-bring-a-turn-en.md) | 252–256 |
 | 52 | A Culture That Announces an Invasion in Advance! | [52-a-culture-that-announces-an-invasion-in-advance-en.md](52-a-culture-that-announces-an-invasion-in-advance-en.md) | 257–262 |
 | 53 | Tamil Escaped the Sea-Deluge; It Found the Last Sangam! | [53-tamil-escaped-the-sea-deluge-it-found-the-last-sangam-en.md](53-tamil-escaped-the-sea-deluge-it-found-the-last-sangam-en.md) | 263–270 |
-| 54 | He Who Won the Battle of Talaiyalanganam! | [54-he-who-won-the-battle-of-talaiyalanganam-en.md](54-he-who-won-the-battle-of-talaiyalanganam-en.md) | 271–276 |
+| 54 | He Who Won the Battle of Talaiyalanganam! | [54-he-who-won-the-battle-of-talaiyalanganam-en.md](54-he-won-the-battle-of-talaiyalanganam-en.md) | 271–276 |
 | 55 | Nedunchezhiyan and Nedunalvadai! | [55-nedunchezhiyan-and-nedunalvadai-en.md](55-nedunchezhiyan-and-nedunalvadai-en.md) | 277–284 |
 | 56 | When Attachment Goes Beyond Its Bounds, It Burns as Frenzy! | [56-when-attachment-goes-beyond-its-bounds-it-burns-as-frenzy-en.md](56-when-attachment-goes-beyond-its-bounds-it-burns-as-frenzy-en.md) | 285–288 |
 | 57 | What Prize Is Fitting for the Beauty of a Simile! | [57-what-prize-is-fitting-for-the-beauty-of-a-simile-en.md](57-what-prize-is-fitting-for-the-beauty-of-a-simile-en.md) | 289–295 |
 | 58 | Beside the Enemy Sword's Edge; Let Us Labour All Our Days! | [58-beside-the-enemy-sword-s-edge-let-us-labour-all-our-days-en.md](58-beside-the-enemy-sword-s-edge-let-us-labour-all-our-days-en.md) | 296–299 |
 
-Release gate: **PASS** — see `../RELEASE_REPORT.md`.
+Release gate: **PASS with post-release item-31 title correction** — see `../RELEASE_REPORT.md` and `../../POST_RELEASE_ITEM31_TITLE_CORRECTION.md`.
