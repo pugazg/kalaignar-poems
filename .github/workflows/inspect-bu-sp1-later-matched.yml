@@ -1,0 +1,42 @@
+name: Inspect BU-SP1 later-matched payload pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/inspect-bu-sp1-later-matched.yml
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install rendering tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr
+      - name: Download exact source and inspect needed pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://tamildigitallibrary.in/assets/docs/uploads/primary_files/book/TVA_BOK_0065522/TVA_BOK_0065522_Shower_of_poetry_Vol_1.pdf'
+          curl -L --fail --retry 3 "$URL" -o /tmp/bu-sp1.pdf
+          echo "SIZE $(stat -c%s /tmp/bu-sp1.pdf)"
+          echo "SHA256 $(sha256sum /tmp/bu-sp1.pdf | awk '{print $1}')"
+          pdfinfo /tmp/bu-sp1.pdf | grep '^Pages:'
+          render_range() {
+            local first="$1" last="$2" out="$3"
+            mkdir -p "$out"
+            pdftoppm -f "$first" -l "$last" -r 180 -jpeg /tmp/bu-sp1.pdf "$out/p" >/dev/null 2>&1
+            local page="$first"
+            for img in $(find "$out" -type f -name 'p-*.jpg' | sort -V); do
+              echo "===== PHYSICAL_PAGE_${page} ====="
+              tesseract "$img" stdout -l eng --psm 6 2>/dev/null || true
+              echo "===== END_PHYSICAL_PAGE_${page} ====="
+              page=$((page+1))
+            done
+          }
+          render_range 164 170 /tmp/r1
+          render_range 198 205 /tmp/r2
