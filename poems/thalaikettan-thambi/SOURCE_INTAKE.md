@@ -26,11 +26,11 @@
 
 Active range: **18–23 = 6 physical scans**.
 
-### Scan-18 title layout
+### Scan-18 title / author layout
 
 The complete direct title is **`தலைகேட்டான் தம்பி`**. It is distributed across a single decorated page composition: `தலைகேட்டான்` appears in the upper decorated heading and `தம்பி` appears as a decorated lower title element. Direct and bibliographic title witnesses agree; intake title conflict: **0**.
 
-Scan 18 also carries the source-position attribution **`கருணாநிதி`**. Preserve that shorter direct form as source evidence; the bibliographic authorship remains **கலைஞர் மு. கருணாநிதி** in metadata.
+Scan 18 also carries the source-position attribution **`கருணாநிதி`**. Preserve that shorter direct form as source evidence; the bibliographic authorship remains **கலைஞர் மு. கருணாநிதி** in metadata. `தம்பி` and `கருணாநிதி` are structural title/author material and are not repeated as poem-body text. The post-Phase-2 correction is documented in `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
 
 ## Duplicate check
 
@@ -38,15 +38,18 @@ Repository code search for **தலைகேட்டான் தம்பி**
 
 ## Processing source access
 
-The same attached 75-page controlling PDF was visually inspected for scans **18–23** in Phase 1, Phase 2 and Phase 3 Gate 1. The user-supplied word-for-word extraction was used only as an alignment aid; it did not replace the source scans as authority.
+The same attached 75-page controlling PDF was visually inspected for scans **18–23** in Phase 1, Phase 2 and Phase 3 Gates 1–2. The user-supplied word-for-word extraction was used only as an alignment aid; it did not replace the source scans as authority.
 
 - page records: **6/6 populated**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
 - current page status: **6 `verified` / 0 `partial`**;
 - Phase-2 corrections: **2**, both scan 21 — `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
+- post-Phase-2 scan-18 structural-role correction: **COMPLETE**;
 - Phase 3 Gate 1: **PASS** — no directly visible/logically supportable printed-page numerals; `printed_page: null` confirmed **6/6**;
-- Phase 3 Gates 2–6: **NOT STARTED**.
+- Phase 3 Gate 2: **PASS** — opening **1/1**, internal joins **5/5**, closing **1/1**, unresolved boundary issues **0**;
+- critical join **22→23**: `அண்ணன் உயிர்தந்த செய்தியாலே` → `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`, with no inserted separator;
+- Phase 3 Gates 3–6: **NOT STARTED**.
 
 ## Current state
 
@@ -55,6 +58,7 @@ The same attached 75-page controlling PDF was visually inspected for scans **18�
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED**;
 - Phase 3 Gate 1: **PASS**;
-- Phase 3 Gate 2 onward / Phase 4: **BLOCKED pending checksum + ordered gates**.
+- Phase 3 Gate 2: **PASS**;
+- Phase 3 Gate 3 onward / Phase 4: **BLOCKED pending checksum + ordered gates**.
 
-Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 3 Gate 2 — boundary / page-join audit** only.
+Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 3 Gate 3 — title-witness reconciliation** only unless explicitly directed to process remaining gates.
