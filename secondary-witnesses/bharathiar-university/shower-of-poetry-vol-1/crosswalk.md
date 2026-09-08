@@ -11,7 +11,7 @@ Initial title-level matching against the current repository. MATCHED rows are hi
 | 5 | Green Parrot! | 8 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
 | 6 | The Mother in Puranaanooru - 2 | 10 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
 | 7 | A Heroic Warrior Killed | 14 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 8 | The Beloved Son of the Muse of Arts | 20 | **POSSIBLE** | poems/kalaignarin-kavithaigal/ item 40 | close title: Mother Art's Foremost Son; confirm payload before treating as same |
+| 8 | The Beloved Son of the Muse of Arts | 20 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 40 | payload match confirmed: Kalaivanar / N. S. Krishnan elegy, same imagery and film-title sequence |
 | 9 | Long Live, Jeeva! | 24 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 42 | Long Live Jeeva |
 | 10 | The Mother in Puranaanooru - 3 | 26 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
 | 11 | Freedom Fighters | 31 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 6 | Freedom Fighters |
@@ -21,7 +21,7 @@ Initial title-level matching against the current repository. MATCHED rows are hi
 | 15 | Bharathidasan | 58 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 14 | Bharathidasan |
 | 16 | Do Give Your Heart to Me, Anna! | 68 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 1; poems/idhayathai-thanthidu-anna/ | Give Me Your Heart, Anna / standalone same work |
 | 17 | The Paari Festival | 80 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 18 | Calculation - 1 | 85 | **POSSIBLE** | poems/kalaignarin-kavithaigal/ item 18 | repository has one `கணக்கு` / Arithmetic item; Volume I splits Calculation 1/2 |
+| 18 | Calculation - 1 | 85 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 18 | exact 02-08-1970 Salem Tamil Sangam `கணக்கு` payload and event match |
 | 19 | The Democracy that Nehru Found | 90 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 19 | Democracy as Nehru Saw It |
 | 20 | The Fountain of Imagination | 96 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
 | 21 | The Silver Jubilee | 98 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 21 | Silver Jubilee |
@@ -46,7 +46,7 @@ Initial title-level matching against the current repository. MATCHED rows are hi
 | 40 | No Day there is That May be his Birthday Called | 173 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 46 | There Is No One Day Called His Birthday |
 | 41 | Do Not Your Onward March Give up! | 175 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
 | 42 | We Shall Tear the Mask to Pieces! | 178 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
-| 43 | Calculation-2 | 182 | **POSSIBLE** | poems/kalaignarin-kavithaigal/ item 18 | repository has one `கணக்கு` / Arithmetic item; Volume I splits Calculation 1/2 |
+| 43 | Calculation-2 | 182 | **INVESTIGATE** | — | distinct 15-01-1995 Pongal / Sun TV `Thamizh Maalai` work; NOT repository item 18 (02-08-1970 Salem) |
 | 44 | In Search of Human Love | 186 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
 | 45 | A Petty Village Full of Folks Illiterate! | 190 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
 | 46 | Inauguration of the Valluvar Statue | 193 | **INVESTIGATE** | — | not yet item-matched against all repository collections |
@@ -59,4 +59,13 @@ Initial title-level matching against the current repository. MATCHED rows are hi
 
 ## Initial tally
 
-**20 MATCHED / 3 POSSIBLE / 29 INVESTIGATE = 52.**
+**22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE = 52.**
+
+
+## Identity-hardening result — 2026-09-08
+
+Authority: `../comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`.
+
+The three former `POSSIBLE` rows are resolved: entry **8 MATCHED item 40**; entry **18 MATCHED item 18**; entry **43 is a DISTINCT 1995 work and is NOT item 18**, so its repository representation remains `INVESTIGATE`. No Tamil or released-English mutation occurred.
+
+Current tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE = 52**.

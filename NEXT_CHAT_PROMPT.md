@@ -74,12 +74,16 @@ Direct scan-148 title `மகளும்` is now synchronized through canonical
 
 Final Batch 5: `comparisons/05-treasure-trove-items-31-34.md`. Consolidated closure: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All 34 BU-TT entries are compared. Apart from the source-verified item-31 title correction, no Tamil body or other released-English mutation resulted.
 
-## Exact next activity — BU-SP1 identity hardening
+## BU-SP1 identity hardening — COMPLETE
 
-Read `secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md` and inspect exact Volume-I witness payloads for:
+Report: `secondary-witnesses/bharathiar-university/comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`.
 
-1. entry 8 **The Beloved Son of the Muse of Arts** → possible `poems/kalaignarin-kavithaigal/` item 40;
-2. entry 18 **Calculation - 1** → possible item 18;
-3. entry 43 **Calculation-2** → possible item 18.
+- entry 8 **The Beloved Son of the Muse of Arts** → **MATCHED** `kalaignarin-kavithaigal` item 40;
+- entry 18 **Calculation - 1** → **MATCHED** item 18 (`கணக்கு`, Salem Tamil Sangam, 02-08-1970);
+- entry 43 **Calculation-2** → **DISTINCT WORK**, dated 15-01-1995 Pongal / Sun TV `Thamizh Maalai`; NOT item 18; repository representation remains INVESTIGATE.
 
-Compare each against the relevant FINAL-CLEARED repository Tamil/English payload and classify as MATCHED / distinct work or segment / not a match. Update crosswalk and a durable identity report only. Do not mutate Tamil or released English. After hardening, begin payload comparison of the confirmed Volume-I MATCHED entries.
+BU-SP1 tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**. No Tamil or released-English mutation occurred.
+
+## Exact next activity — BU-SP1 payload comparison Batch 1
+
+Compare confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18** against their FINAL-CLEARED Tamil and RELEASE-CLEARED English targets. Classify title, semantics, omissions/condensation, expansion, transliteration and structure. Produce one durable report only; do not mutate Tamil or released English.

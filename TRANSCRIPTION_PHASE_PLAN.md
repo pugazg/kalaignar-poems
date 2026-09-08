@@ -25,7 +25,7 @@ Renderer guardrail: BU-TT may expose only 150 pages in the conversation renderer
 - bibliographic metadata: **RECORDED 4/4**;
 - contents inventories: **176/176 indexed**;
 - master crosswalk: **COMPLETE — initial pass**;
-- classifications: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**;
+- classifications: **57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE**;
 - Tamil changes from witness onboarding: **0**;
 - release-cleared English changes from witness onboarding: **0**.
 
@@ -81,20 +81,18 @@ BU-TT entries **31–34** vs repository items **53, 55, 56, 57**. Report `compar
 
 Summary: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/34** matched Treasure Trove entries have been compared. Apart from the separately source-verified item-31 title correction, Tamil body corrections **0** and other released-English mutations **0**.
 
+### BU-SP1 identity hardening — COMPLETE
+
+Report `comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`. Former POSSIBLE rows resolved **3/3**: entry 8 MATCHED item 40; entry 18 MATCHED item 18; entry 43 is a distinct 1995 Pongal/Sun TV work, not item 18, and remains INVESTIGATE for representation. Current Volume-I tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+
 ### Current comparison activity — NEXT
 
-**BU-SP1 identity hardening — three POSSIBLE rows.**
+**BU-SP1 payload-comparison Batch 1** — confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16, 18**. Report-only; no Tamil or released-English mutation.
 
-- entry 8 **The Beloved Son of the Muse of Arts** → possible `kalaignarin-kavithaigal` item 40;
-- entry 18 **Calculation - 1** → possible item 18;
-- entry 43 **Calculation-2** → possible item 18.
+### Planned sequence after Batch 1
 
-Operation: inspect Volume-I payloads and relevant FINAL-CLEARED repository items, then classify MATCHED / distinct segment or work / not a match. Update only witness identity/crosswalk records. No Tamil or released-English mutation.
-
-### Planned sequence after identity hardening
-
-1. BU-SP1 — compare confirmed MATCHED payloads;
-2. BU-SP1 — investigate remaining unmapped entries;
+1. continue BU-SP1 confirmed-MATCHED payload comparisons;
+2. investigate BU-SP1 remaining 30 unmapped entries;
 3. BU-SP3 — item-level matching for 50 INVESTIGATE entries;
 4. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
 
@@ -104,4 +102,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-TT Secondary Witness Comparison Batch 5 — mapped entries 31–34 — report only**, then summarize the complete 34-entry Treasure Trove witness comparison.
+Proceed with **BU-SP1 payload-comparison Batch 1 — entries 1, 8, 9, 11, 12, 13, 14, 15, 16 and 18 — report only**.

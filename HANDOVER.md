@@ -15,7 +15,7 @@ Exact witness set:
 
 Renderer warning: BU-TT may expose only 150 pages in the conversation renderer. For Batch 4, physical pages **151–174** were inspected by direct rendering from the exact checksum-locked PDF bytes; no OCR reconstruction was used.
 
-Initial crosswalk: **176 entries = 55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**.
+Current hardened crosswalk: **176 entries = 57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE**.
 
 Witness authority:
 
@@ -76,9 +76,13 @@ Final Batch 5: `secondary-witnesses/bharathiar-university/comparisons/05-treasur
 
 The full BU-TT witness is now **34/34 compared**. Apart from the separately source-verified item-31 `மகளும்` title correction, the lane established no Tamil body correction and no other released-English mutation.
 
+## BU-SP1 identity hardening — COMPLETE
+
+Report `secondary-witnesses/bharathiar-university/comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`: **entry 8 MATCHED item 40; entry 18 MATCHED item 18; entry 43 DISTINCT 1995 work / not item 18, representation INVESTIGATE**. BU-SP1 is now **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**. Tamil/released-English mutations **0 / 0**.
+
 ## Exact next activity
 
-Proceed with **BU-SP1 identity hardening** for three `POSSIBLE` rows: entry 8 → possible `kalaignarin-kavithaigal` item 40; entries 18 and 43 (`Calculation - 1/-2`) → possible item 18. Compare payloads and harden each relationship before broad Volume-I witness comparison. No Tamil/release mutation in the identity step.
+Run BU-SP1 payload-comparison Batch 1 for confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**, report-only.
 
 ## Release-cleared work rule
 

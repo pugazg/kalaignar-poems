@@ -29,12 +29,12 @@ The current page renderer may expose only **150 pages** for Volumes I, III and *
 
 The four contents witnesses contain **176 translated entries**:
 
-- Volume I: **52** — 20 MATCHED / 3 POSSIBLE / 29 INVESTIGATE;
+- Volume I: **52** — 22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE;
 - Volume II: **40** — 1 MATCHED / 39 NOT YET REPRESENTED;
 - Volume III: **50** — 50 INVESTIGATE;
 - *Treasure Trove*: **34** — 34 MATCHED.
 
-Overall initial onboarding: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE = 176**.
+Current hardened crosswalk: **57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE = 176**.
 
 See `MASTER_CROSSWALK.md` and the per-book crosswalks.
 
@@ -116,12 +116,10 @@ Compared BU-TT entries **31–34** with repository items **53, 55, 56 and 57**. 
 
 Consolidated report: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/34** BU-TT translations have been compared. Apart from the separately source-verified item-31 title correction, the lane established **0 Tamil body corrections and 0 other released-English mutations**. The dominant Bharathiar pattern is condensation/smoothing, scholarly transliteration, interpretive retitling and occasional modernization rather than repository textual defects.
 
+### BU-SP1 identity hardening — COMPLETE
+
+Report: `comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`. Result: **3/3 former POSSIBLE rows resolved** — entry 8 MATCHED item 40; entry 18 MATCHED item 18; entry 43 is a distinct 1995 Pongal/Sun TV work and is NOT item 18, so it remains INVESTIGATE for repository representation. Mutations: **0 / 0**.
+
 ## Next activity
 
-Proceed with **BU-SP1 identity hardening** for the three current `POSSIBLE` rows before broad Volume-I payload comparison:
-
-1. entry 8 **The Beloved Son of the Muse of Arts** → possible `poems/kalaignarin-kavithaigal/` item 40;
-2. entry 18 **Calculation - 1** → possible item 18;
-3. entry 43 **Calculation-2** → possible item 18.
-
-Compare payloads and classify each as MATCHED / distinct work or segment / not a match. This is identity/crosswalk work only; no Tamil or released-English mutation is authorized by the matching step.
+Begin BU-SP1 payload-comparison Batch 1 for the first **10 confirmed MATCHED entries in source order: 1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**. Compare each against FINAL-CLEARED Tamil and RELEASE-CLEARED English and produce a report only.

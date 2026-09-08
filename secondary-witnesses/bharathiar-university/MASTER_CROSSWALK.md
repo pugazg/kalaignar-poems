@@ -14,12 +14,12 @@ Authority remains:
 
 | Code | Book | Exact pages | Bytes | SHA-256 | Entries | Crosswalk state |
 |---|---|---:|---:|---|---:|---|
-| BU-SP1 | *Shower of Poetry*, Volume I | 249 | 101,936,284 | `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536` | 52 | 20 MATCHED / 3 POSSIBLE / 29 INVESTIGATE |
+| BU-SP1 | *Shower of Poetry*, Volume I | 249 | 101,936,284 | `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536` | 52 | 22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE |
 | BU-SP2 | *Shower of Poetry*, Volume II | 168 | 156,922,680 | `e29c294adfe94c508cdb8aeb4f8cadf116b8dc1bdeb4025eef86a7a017f02a31` | 40 | 1 MATCHED / 39 NOT YET REPRESENTED |
 | BU-SP3 | *Shower of Poetry*, Volume III | 220 | 80,185,514 | `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6` | 50 | 50 INVESTIGATE |
 | BU-TT | *The Treasure Trove of Time and the Verse Key* | 205 | 106,152,046 | `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b` | 34 | 34 MATCHED |
 
-**Total: 176 entries — 55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE.**
+**Total: 176 entries — 57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE.**
 
 Per-book tables:
 
@@ -32,7 +32,7 @@ Per-book tables:
 
 ### BU-SP1 → `கலைஞரின் கவிதைகள்`
 
-Twenty Volume-I entries are high-confidence matches to stable items in `poems/kalaignarin-kavithaigal/`; three more are POSSIBLE and require payload comparison.
+Twenty-two Volume-I entries are now high-confidence matches to stable items in `poems/kalaignarin-kavithaigal/`; all three former POSSIBLE rows have been hardened. Entry 43 `Calculation-2` is a distinct 15-01-1995 Pongal/Sun TV work and is not repository item 18.
 
 ### BU-SP2 → `தலைகேட்டான் தம்பி`
 
@@ -122,12 +122,10 @@ For any MATCHED/POSSIBLE entry:
 
 **COMPLETE — 34/34 compared.** Final Batch 5: `comparisons/05-treasure-trove-items-31-34.md`; consolidated summary: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. Apart from the independently source-verified item-31 title correction, BU-TT established **0 Tamil body corrections and 0 other released-English mutations**.
 
+## BU-SP1 identity hardening — COMPLETE
+
+`comparisons/06-shower-of-poetry-vol-1-identity-hardening.md` resolves all three former POSSIBLE rows: **8 → MATCHED item 40; 18 → MATCHED item 18; 43 → DISTINCT 1995 work / INVESTIGATE representation, not item 18**. Current BU-SP1 tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+
 ## Exact next activity
 
-Harden the three BU-SP1 `POSSIBLE` identities by payload comparison:
-
-- entry 8 **The Beloved Son of the Muse of Arts** → possible `kalaignarin-kavithaigal` item 40;
-- entry 18 **Calculation - 1** → possible item 18;
-- entry 43 **Calculation-2** → possible item 18.
-
-Classify each relationship before beginning the 20 already-MATCHED Volume-I payload comparisons. No source/release mutation during identity hardening.
+Compare the first ten confirmed BU-SP1 MATCHED payloads in source order: **1, 8, 9, 11, 12, 13, 14, 15, 16, 18**. Report only; no Tamil/released-English mutation.
