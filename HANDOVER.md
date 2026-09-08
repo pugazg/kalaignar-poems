@@ -70,11 +70,15 @@ Key findings:
 - BU entry 26's **Future Dear** is weaker than source `அருங்காலம்`; repository **Precious Age** remains closer;
 - BU entry 30 materially truncates item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and closing transition.
 
+## BU-TT comparison lane — COMPLETE 34/34
+
+Final Batch 5: `secondary-witnesses/bharathiar-university/comparisons/05-treasure-trove-items-31-34.md` — entries **31–34** → repository items **53, 55, 56, 57**, **PASS / REPORT-ONLY**, corrections/mutations **0 / 0**. Consolidated closure: `secondary-witnesses/bharathiar-university/comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`.
+
+The full BU-TT witness is now **34/34 compared**. Apart from the separately source-verified item-31 `மகளும்` title correction, the lane established no Tamil body correction and no other released-English mutation.
+
 ## Exact next activity
 
-The post-release item-31 correction is now **fully synchronized / re-cleared** across Tamil title authority, reviewed Batch 12, standalone English item/index and the reader-facing aggregate (SHA-256 `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`, 321,112 bytes / 16,308 lines; obsolete item-31 `Son` aggregate heading/opening 0/0). Proceed with **Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
-
-After Batch 5, create a consolidated **34/34 BU-TT comparison summary** before moving to another secondary-witness lane.
+Proceed with **BU-SP1 identity hardening** for three `POSSIBLE` rows: entry 8 → possible `kalaignarin-kavithaigal` item 40; entries 18 and 43 (`Calculation - 1/-2`) → possible item 18. Compare payloads and harden each relationship before broad Volume-I witness comparison. No Tamil/release mutation in the identity step.
 
 ## Release-cleared work rule
 

@@ -53,3 +53,9 @@ The direct poem-page witness governs canonical assembly, so repository item 31 i
 ## Initial tally
 
 **34 MATCHED = 34.**
+
+## Comparison status — COMPLETE 34/34
+
+All 34 mapped entries have now been compared against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Governing reports: `../comparisons/02-treasure-trove-items-01-10.md`, `03-treasure-trove-items-11-20.md`, `03A-item31-title-correction.md`, `04-treasure-trove-items-21-30.md`, `05-treasure-trove-items-31-34.md`, and consolidated `TREASURE_TROVE_34_ENTRY_SUMMARY.md`.
+
+Result: **COMPLETE / PASS**. Apart from the independently source-verified item-31 title correction, Tamil body corrections **0** and other released-English mutations **0**.

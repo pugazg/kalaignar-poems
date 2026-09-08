@@ -106,8 +106,22 @@ This correction is intentionally narrow: **title only**. It changes no narrative
 - Volume I contains numerous selections already represented in `poems/kalaignarin-kavithaigal/`.
 - *The Treasure Trove of Time and the Verse Key* is a direct **book-level secondary witness** to `poems/kaalap-pezhaiyum-kavithai-saaviyum/`; its 34 TOC entries map to stable repository items.
 
+### Batch 5 — BU-TT entries 31–34 — COMPLETE
+
+Report: `comparisons/05-treasure-trove-items-31-34.md`.
+
+Compared BU-TT entries **31–34** with repository items **53, 55, 56 and 57**. Result: **PASS / REPORT-ONLY — 4/4**, Tamil/source correction candidates **0**, released-English correction candidates **0**, mutations **0 / 0**. High-value findings: entry 31 modernizes `கடற்கோள்` to **tsunami**, converts `எழுபது காதம்` to **seven hundred miles** and omits the final historical-source note; entry 32 omits item 55's complete opening Pandya/Sangam prelude and closing source note; entry 33 narrows `பற்று` to **love**; entry 34 modernizes source-position `கானப்பேர் கோயில்` to Kalaiyar Koyil and compresses the title's `அழகு`.
+
+### BU-TT consolidated closure — COMPLETE 34/34
+
+Consolidated report: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/34** BU-TT translations have been compared. Apart from the separately source-verified item-31 title correction, the lane established **0 Tamil body corrections and 0 other released-English mutations**. The dominant Bharathiar pattern is condensation/smoothing, scholarly transliteration, interpretive retitling and occasional modernization rather than repository textual defects.
+
 ## Next activity
 
-Item-31 post-release synchronization is **complete / re-cleared**. Complete **entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
+Proceed with **BU-SP1 identity hardening** for the three current `POSSIBLE` rows before broad Volume-I payload comparison:
 
-Inspect the exact Bharathiar body pages, compare with FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write one final report only. Then summarize the complete **34/34 BU-TT comparison** before moving to the next secondary-witness lane. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.
+1. entry 8 **The Beloved Son of the Muse of Arts** → possible `poems/kalaignarin-kavithaigal/` item 40;
+2. entry 18 **Calculation - 1** → possible item 18;
+3. entry 43 **Calculation-2** → possible item 18.
+
+Compare payloads and classify each as MATCHED / distinct work or segment / not a match. This is identity/crosswalk work only; no Tamil or released-English mutation is authorized by the matching step.

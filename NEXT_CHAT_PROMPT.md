@@ -70,15 +70,16 @@ Key findings: entry 21 omits item 39's final *Periya Puranam* quotation; entry 2
 
 Direct scan-148 title `மகளும்` is now synchronized through canonical Tamil, reviewed Batch 12, standalone English item/index and the reader-facing aggregate. Current aggregate SHA-256 `8037357fe359646f9d8ad86f2ee3bb3b215422c7735faffa2b61f29b20a99c3c`, **321,112 bytes / 16,308 lines**; obsolete item-31 `Son` heading/opening **0 / 0**. English release status: **RE-CLEARED — PASS**. Governing record: `poems/kaalap-pezhaiyum-kavithai-saaviyum/POST_RELEASE_ITEM31_TITLE_CORRECTION.md`.
 
-## Exact next activity — final BU-TT Batch 5
+## BU-TT comparison lane — CLOSED 34/34
 
-Process **BU-TT entries 31–34**:
+Final Batch 5: `comparisons/05-treasure-trove-items-31-34.md`. Consolidated closure: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All 34 BU-TT entries are compared. Apart from the source-verified item-31 title correction, no Tamil body or other released-English mutation resulted.
 
-- 31 → repository item 53;
-- 32 → item 55;
-- 33 → item 56;
-- 34 → item 57.
+## Exact next activity — BU-SP1 identity hardening
 
-For each entry inspect exact Bharathiar pages, compare with FINAL-CLEARED Tamil and RELEASE-CLEARED English, classify title/semantic/omission/expansion/transliteration/structure differences, and produce one durable report. Do **not** mutate Tamil or released English within the comparison itself.
+Read `secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md` and inspect exact Volume-I witness payloads for:
 
-After Batch 5, produce a consolidated **34/34 BU-TT comparison summary** and select the next secondary-witness lane.
+1. entry 8 **The Beloved Son of the Muse of Arts** → possible `poems/kalaignarin-kavithaigal/` item 40;
+2. entry 18 **Calculation - 1** → possible item 18;
+3. entry 43 **Calculation-2** → possible item 18.
+
+Compare each against the relevant FINAL-CLEARED repository Tamil/English payload and classify as MATCHED / distinct work or segment / not a match. Update crosswalk and a durable identity report only. Do not mutate Tamil or released English. After hardening, begin payload comparison of the confirmed Volume-I MATCHED entries.

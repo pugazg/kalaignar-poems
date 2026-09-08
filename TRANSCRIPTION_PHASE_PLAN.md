@@ -73,27 +73,30 @@ High-value findings:
 - BU entry 30 materially truncates item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and closing transition;
 - recurrent witness pattern remains smoothing, condensation, transliteration differences and interpretive retitling.
 
+### Comparison Batch 5 — COMPLETE
+
+BU-TT entries **31–34** vs repository items **53, 55, 56, 57**. Report `comparisons/05-treasure-trove-items-31-34.md` — **PASS / REPORT-ONLY — 4/4**, corrections/mutations **0 / 0**.
+
+### BU-TT consolidated comparison — COMPLETE 34/34
+
+Summary: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/34** matched Treasure Trove entries have been compared. Apart from the separately source-verified item-31 title correction, Tamil body corrections **0** and other released-English mutations **0**.
+
 ### Current comparison activity — NEXT
 
-**Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34.**
+**BU-SP1 identity hardening — three POSSIBLE rows.**
 
-Target repository items: **53, 55, 56, 57**.
+- entry 8 **The Beloved Son of the Muse of Arts** → possible `kalaignarin-kavithaigal` item 40;
+- entry 18 **Calculation - 1** → possible item 18;
+- entry 43 **Calculation-2** → possible item 18.
 
-Operation:
+Operation: inspect Volume-I payloads and relevant FINAL-CLEARED repository items, then classify MATCHED / distinct segment or work / not a match. Update only witness identity/crosswalk records. No Tamil or released-English mutation.
 
-- inspect exact Bharathiar translation pages for entries 31–34;
-- compare with corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English;
-- classify title/semantic/omission/expansion/transliteration/structure differences;
-- record only independently source-supported repository-English review candidates;
-- deliver a durable final BU-TT comparison report only;
-- **no Tamil changes and no released-English changes**.
+### Planned sequence after identity hardening
 
-### Planned sequence after Batch 5
-
-1. create a consolidated **34/34 BU-TT comparison summary**;
-2. BU-SP1 — resolve 3 POSSIBLE relationships, compare 20 MATCHED, investigate remaining 29;
-3. BU-SP3 — item-level matching for all 50 INVESTIGATE entries;
-4. BU-SP2 — retain 39 not-yet-represented entries until source-backed identities are established.
+1. BU-SP1 — compare confirmed MATCHED payloads;
+2. BU-SP1 — investigate remaining unmapped entries;
+3. BU-SP3 — item-level matching for 50 INVESTIGATE entries;
+4. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
 

@@ -118,14 +118,16 @@ For any MATCHED/POSSIBLE entry:
 5. update released English only when the controlling Tamil independently supports the revision;
 6. any revision requires a documented source-backed reopen; Bharathiar can serve as corroborating/diagnostic evidence.
 
+## BU-TT comparison closure
+
+**COMPLETE — 34/34 compared.** Final Batch 5: `comparisons/05-treasure-trove-items-31-34.md`; consolidated summary: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. Apart from the independently source-verified item-31 title correction, BU-TT established **0 Tamil body corrections and 0 other released-English mutations**.
+
 ## Exact next activity
 
-After the item-31 correction synchronization is fully recorded, complete **Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34**:
+Harden the three BU-SP1 `POSSIBLE` identities by payload comparison:
 
-- repository items **53, 55, 56 and 57**;
-- inspect exact Bharathiar translation pages;
-- compare with corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English;
-- produce a report only;
-- identify source-supported English reopen candidates without mutating source layers in the comparison step.
+- entry 8 **The Beloved Son of the Muse of Arts** → possible `kalaignarin-kavithaigal` item 40;
+- entry 18 **Calculation - 1** → possible item 18;
+- entry 43 **Calculation-2** → possible item 18.
 
-After Batch 5, produce a consolidated **34/34 BU-TT comparison summary** and choose the next secondary-witness lane.
+Classify each relationship before beginning the 20 already-MATCHED Volume-I payload comparisons. No source/release mutation during identity hardening.
