@@ -33,4 +33,4 @@ This PDF is image-only. The current renderer exposes a **150-page window**, but 
 
 ## Repository use
 
-See `../MASTER_CROSSWALK.md` and `crosswalk.md`. Initial onboarding left all 50 entries at `INVESTIGATE`; identity Batches 1–2 have now hardened entries **1–20** to `NOT YET REPRESENTED` from actual payload/context review. Current Volume-III state: **0 MATCHED / 0 POSSIBLE / 20 NOT YET REPRESENTED / 30 INVESTIGATE = 50**. English title similarity alone is insufficient to assert canonical identity.
+See `../MASTER_CROSSWALK.md` and `crosswalk.md`. Initial onboarding left all 50 entries at `INVESTIGATE`; identity Batches 1–3 have now hardened entries **1–30** to `NOT YET REPRESENTED` from actual payload/context review. Current Volume-III state: **0 MATCHED / 0 POSSIBLE / 30 NOT YET REPRESENTED / 20 INVESTIGATE = 50**. English title similarity alone is insufficient to assert canonical identity.
