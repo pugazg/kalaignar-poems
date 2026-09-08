@@ -1,4 +1,4 @@
-name: OCR BU-SP3 Batch 4 source pages
+name: OCR BU-SP3 Batch 5 source pages
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq poppler-utils tesseract-ocr
-      - name: Download exact source and OCR physical pages 174-176
+      - name: Download exact source and OCR physical pages 177-220
         shell: bash
         run: |
           set -euo pipefail
@@ -27,8 +27,8 @@ jobs:
           echo "SHA256 $(sha256sum /tmp/bu-sp3.pdf | awk '{print $1}')"
           pdfinfo /tmp/bu-sp3.pdf | grep '^Pages:'
           mkdir -p /tmp/bu-sp3-pages
-          pdftoppm -f 174 -l 176 -r 180 -jpeg /tmp/bu-sp3.pdf /tmp/bu-sp3-pages/p >/dev/null 2>&1
-          page=174
+          pdftoppm -f 177 -l 220 -r 180 -jpeg /tmp/bu-sp3.pdf /tmp/bu-sp3-pages/p >/dev/null 2>&1
+          page=177
           for img in $(find /tmp/bu-sp3-pages -type f -name 'p-*.jpg' | sort -V); do
             echo "===== PHYSICAL_PAGE_${page} ====="
             tesseract "$img" stdout -l eng --psm 6 2>/dev/null || true
