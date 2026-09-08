@@ -6,7 +6,7 @@ Scope: physical scans **18–23**.
 
 | Scan | Role / directly visible structure | `printed_page` | Phase-2 state |
 |---:|---|---|---|
-| 18 | decorated opening; complete title `தலைகேட்டான் தம்பி` split as upper `தலைகேட்டான்` + lower decorated `தம்பி`; source attribution `கருணாநிதி`; opening verse blocks | `null` — **Gate-1 confirmed; no visible/logical printed page established** | **verified** |
+| 18 | decorated opening; complete title `தலைகேட்டான் தம்பி` split as upper `தலைகேட்டான்` + lower decorated `தம்பி`; source attribution `கருணாநிதி`; opening verse blocks. Title/author labels are structural and are not repeated as poem-body text. | `null` — **Gate-1 confirmed; no visible/logical printed page established** | **verified** |
 | 19 | continuation; illustrated upper field + verse blocks | `null` — **Gate-1 confirmed** | **verified** |
 | 20 | continuation; verse blocks + illustration | `null` — **Gate-1 confirmed** | **verified** |
 | 21 | continuation; illustration + verse/direct-speech blocks; Phase-2 corrections `மகிழ்ந்தானா`, `கொடை நீரூற்று` | `null` — **Gate-1 confirmed** | **verified** |
@@ -14,6 +14,8 @@ Scope: physical scans **18–23**.
 | 23 | continuation / user-scoped closing scan; verse blocks + illustration | `null` — **Gate-1 confirmed** | **verified** |
 
 Phase 1 lexical transcription: **6/6 complete**. Independent Phase-2 verification: **6/6 PASS / 0 unresolved**.
+
+Post-Phase-2 structural-role correction: scan 18 trailing `தம்பி` / `கருணாநிதி` duplication was removed from poem body; title/author provenance remains preserved. Authority: `../POST_PHASE2_STRUCTURAL_CORRECTION.md`.
 
 Phase 3 Gate 1 authority: `../PHASE3_PAGINATION_RECONCILIATION.md` — **PASS**. All six physical scans are accounted for; directly visible printed numerals **0/6**; source-supported logical printed-page assignments **0/6**; `printed_page: null` confirmed **6/6**.
 
