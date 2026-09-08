@@ -41,47 +41,53 @@ Authority hierarchy:
 
 ### Comparison Batch 2 — COMPLETE
 
-BU-TT entries **1–10** vs repository items **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**.
+BU-TT entries **1–10** vs repository items **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**. Report `comparisons/02-treasure-trove-items-01-10.md` — **PASS / REPORT-ONLY**, 10/10 compared, corrections 0/0, mutations 0/0.
 
-Report: `secondary-witnesses/bharathiar-university/comparisons/02-treasure-trove-items-01-10.md`.
+### Comparison Batch 3 — COMPLETE
+
+BU-TT entries **11–20** vs repository items **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**.
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/03-treasure-trove-items-11-20.md`.
+
+Witness range: supplied BU-TT physical pages **75–122** / printed pages **45–92**.
 
 Result: **PASS / REPORT-ONLY**.
 
 - items compared: **10/10**;
-- Tamil/source correction candidates: **0**;
-- released-English correction candidates: **0**;
+- Tamil/source transcription correction candidates: **0**;
+- source-supported released-English correction candidates: **0**;
 - title replacements: **0**;
 - Tamil / released-English changes: **0 / 0**.
 
-Witness-character findings: recurrent smoothing/condensation; major BU omission in entry 6 / repository item 17; Sangam quotation/citation condensation in entry 8 / item 20; later-witness interpretive divergences at item 6's Stone-Age polarity and item 22's `அரியா நோக்கு` were rejected in favour of FINAL-CLEARED source readings.
+High-value findings:
+
+- item 31 carries a verified source title/body anomaly — `மாசற்ற மகனும்` in the title versus `தாய் மகள் வரலாறு` in the closing body; Bharathiar's daughter title is a later editorial harmonization only;
+- BU entry 18 retitles item 36 toward Anni Minjili, but source title remains `இளையவன்; அவன் ஒரு தமிழ் மகன்!`;
+- BU entry 13's **winnowing fan** does not override verified `முரசு` / repository **war-drum**;
+- BU entry 16's **Head That Hung** does not override `குனிந்திடும்` / repository **Heads Bow Down**;
+- recurrent pattern: smoothing, condensation, transliteration differences and occasional editorial retitling.
 
 ### Current comparison activity — NEXT
 
-**Secondary Witness Comparison Batch 3 — BU-TT entries 11–20.**
+**Secondary Witness Comparison Batch 4 — BU-TT entries 21–30.**
 
-Target repository items: **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**.
-
-Special attention:
-
-- BU entry 15 **An Honourable Mother and an Upright Daughter** vs repository item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`;
-- BU entry 18 **A Young Lady, She is a Tamil Lady!** vs repository item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
+Target repository items: **39, 40, 44, 45, 46, 47, 49, 50, 51, 52**.
 
 Operation:
 
-- inspect exact Bharathiar translation pages for entries 11–20;
+- inspect exact Bharathiar translation pages for entries 21–30;
 - compare with corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English;
 - classify title/semantic/omission/expansion/transliteration/structure differences;
 - record only independently source-supported repository-English review candidates;
 - deliver a durable comparison report only;
 - **no Tamil changes and no released-English changes**.
 
-### Planned sequence after Batch 3
+### Planned sequence after Batch 4
 
-1. BU-TT entries **21–30**;
-2. BU-TT entries **31–34**;
-3. BU-SP1 — resolve 3 POSSIBLE relationships, compare 20 MATCHED, investigate remaining 29;
-4. BU-SP3 — item-level matching for all 50 INVESTIGATE entries;
-5. BU-SP2 — retain 39 not-yet-represented entries until source-backed identities are established.
+1. BU-TT entries **31–34** — final Treasure Trove Batch 5;
+2. BU-SP1 — resolve 3 POSSIBLE relationships, compare 20 MATCHED, investigate remaining 29;
+3. BU-SP3 — item-level matching for all 50 INVESTIGATE entries;
+4. BU-SP2 — retain 39 not-yet-represented entries until source-backed identities are established.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
 
@@ -89,4 +95,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-TT Secondary Witness Comparison Batch 3 — mapped entries 11–20 — report only**.
+Proceed with **BU-TT Secondary Witness Comparison Batch 4 — mapped entries 21–30 — report only**.
