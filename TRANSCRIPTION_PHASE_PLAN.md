@@ -17,7 +17,7 @@ Exact four-book set:
 - BU-SP3 — *Shower of Poetry*, Volume III — **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`** — 50 entries;
 - BU-TT — *The Treasure Trove of Time and the Verse Key* — **205 pages / 106,152,046 bytes / SHA-256 `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b`** — 34 entries.
 
-Renderer guardrail: Volumes I, III and BU-TT may expose only 150 pages; exact-byte counts above are authoritative.
+Renderer guardrail: BU-TT may expose only 150 pages in the conversation renderer. For Batch 4, physical pages 151–174 were directly rendered from the checksum-locked source bytes without OCR reconstruction.
 
 ### Onboarding status
 
@@ -45,46 +45,52 @@ BU-TT entries **1–10** vs repository items **1, 2, 5, 6, 11, 17, 19, 20, 21, 2
 
 ### Comparison Batch 3 — COMPLETE
 
-BU-TT entries **11–20** vs repository items **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**.
+BU-TT entries **11–20** vs repository items **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**. Report `comparisons/03-treasure-trove-items-11-20.md` — **PASS / REPORT-ONLY**, 10/10 compared, corrections 0/0, mutations 0/0.
 
-Report: `secondary-witnesses/bharathiar-university/comparisons/03-treasure-trove-items-11-20.md`.
+High-value findings include the verified item-31 title/body anomaly, BU `winnowing fan` rejected against source `முரசு`, and the item-36 protagonist-oriented female retitle rejected against the controlling title.
 
-Witness range: supplied BU-TT physical pages **75–122** / printed pages **45–92**.
+### Comparison Batch 4 — COMPLETE
+
+BU-TT entries **21–30** vs repository items **39, 40, 44, 45, 46, 47, 49, 50, 51, 52**.
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/04-treasure-trove-items-21-30.md`.
+
+Witness range: supplied BU-TT physical pages **123–174** / printed pages **93–144**.
 
 Result: **PASS / REPORT-ONLY**.
 
 - items compared: **10/10**;
-- Tamil/source transcription correction candidates: **0**;
+- Tamil/source correction candidates: **0**;
 - source-supported released-English correction candidates: **0**;
 - title replacements: **0**;
-- Tamil / released-English changes: **0 / 0**.
+- Tamil / released-English mutations: **0 / 0**.
 
 High-value findings:
 
-- item 31 carries a verified source title/body anomaly — `மாசற்ற மகனும்` in the title versus `தாய் மகள் வரலாறு` in the closing body; Bharathiar's daughter title is a later editorial harmonization only;
-- BU entry 18 retitles item 36 toward Anni Minjili, but source title remains `இளையவன்; அவன் ஒரு தமிழ் மகன்!`;
-- BU entry 13's **winnowing fan** does not override verified `முரசு` / repository **war-drum**;
-- BU entry 16's **Head That Hung** does not override `குனிந்திடும்` / repository **Heads Bow Down**;
-- recurrent pattern: smoothing, condensation, transliteration differences and occasional editorial retitling.
+- BU entry 21 omits item 39's closing *Periya Puranam* / Sekkizhar quotation;
+- BU entry 23 singular **a Fly** does not override source plural `ஈக்களின்` / repository **Flies**;
+- BU entry 26 **Future Dear** is weaker than source `அருங்காலம்`; repository **Precious Age** remains closer;
+- BU entry 30 materially truncates item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and closing transition;
+- recurrent witness pattern remains smoothing, condensation, transliteration differences and interpretive retitling.
 
 ### Current comparison activity — NEXT
 
-**Secondary Witness Comparison Batch 4 — BU-TT entries 21–30.**
+**Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34.**
 
-Target repository items: **39, 40, 44, 45, 46, 47, 49, 50, 51, 52**.
+Target repository items: **53, 55, 56, 57**.
 
 Operation:
 
-- inspect exact Bharathiar translation pages for entries 21–30;
+- inspect exact Bharathiar translation pages for entries 31–34;
 - compare with corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English;
 - classify title/semantic/omission/expansion/transliteration/structure differences;
 - record only independently source-supported repository-English review candidates;
-- deliver a durable comparison report only;
+- deliver a durable final BU-TT comparison report only;
 - **no Tamil changes and no released-English changes**.
 
-### Planned sequence after Batch 4
+### Planned sequence after Batch 5
 
-1. BU-TT entries **31–34** — final Treasure Trove Batch 5;
+1. create a consolidated **34/34 BU-TT comparison summary**;
 2. BU-SP1 — resolve 3 POSSIBLE relationships, compare 20 MATCHED, investigate remaining 29;
 3. BU-SP3 — item-level matching for all 50 INVESTIGATE entries;
 4. BU-SP2 — retain 39 not-yet-represented entries until source-backed identities are established.
@@ -95,4 +101,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-TT Secondary Witness Comparison Batch 4 — mapped entries 21–30 — report only**.
+Proceed with **BU-TT Secondary Witness Comparison Batch 5 — mapped entries 31–34 — report only**, then summarize the complete 34-entry Treasure Trove witness comparison.
