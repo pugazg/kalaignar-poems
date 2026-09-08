@@ -1,0 +1,275 @@
+name: Synchronize BU-SP1 payload closure
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/run-sync-bu-sp1-payload-closure.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Synchronize durable BU payload-closure state
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          def read(path):
+              return Path(path).read_text(encoding='utf-8')
+
+          def write(path, text):
+              Path(path).write_text(text, encoding='utf-8')
+
+          def replace_once(text, old, new, label):
+              n = text.count(old)
+              if n != 1:
+                  raise SystemExit(f'{label}: expected 1 occurrence, found {n}')
+              return text.replace(old, new, 1)
+
+          def insert_before_once(text, marker, block, label):
+              n = text.count(marker)
+              if n != 1:
+                  raise SystemExit(f'{label}: expected 1 marker, found {n}')
+              return text.replace(marker, block + marker, 1)
+
+          report = 'comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md'
+          summary = 'comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md'
+
+          # SP1 crosswalk
+          p = 'secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md'
+          t = read(p)
+          block = '''## Later-established MATCHED payload final remainder — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated payload closure: `../comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`.
+
+BU-SP1 entry **45 — `A Petty Village Full of Folks Illiterate!`** was compared against exact physical pages **214–216 / printed 190–192**, FINAL-CLEARED Tamil item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`, verified page records 435–437 and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 1/1**; Tamil/source correction candidates **0**; released-English correction candidates **0**; Tamil / released-English mutations **0 / 0**.
+
+High-value finding: BU contains an extra passage before the final hand-raising-dolls stanza that is **absent from verified controlling anthology scans 435–437**. It is therefore recorded as **secondary-witness alternate-version / expansion evidence** and is not imported into Tamil or released English.
+
+Separate later-established MATCHED payload debt is now **11/11 CLOSED**. Historical payload milestone remains **22/22 of the matches known at that stage**. Current BU-SP1 MATCHED payload coverage is **33/33 — CLOSED**.
+
+'''
+          t = insert_before_once(t, '## Exact next activity\n', block, 'SP1 crosswalk closure insert')
+          old = '''## Exact next activity
+
+Compare the final later-established MATCHED remainder: **BU-SP1 entry 45 — `A Petty Village Full of Folks Illiterate!` → `poems/kalaignarin-kavithaigal/` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Report first; do not mutate Tamil or RELEASE-CLEARED English unless the controlling Tamil independently supports a documented reopen.'''
+          new = '''## Exact next activity
+
+**No BU-SP1 MATCHED payload debt remains.** Volume-I identity is **52/52 CLOSED** and all **33/33 MATCHED identities are payload-compared**. Preserve the historical 22/22 milestone as its own chronological record. The **19 NOT YET REPRESENTED** Volume-I entries remain source-acquisition/future-representation evidence unless a new controlling/source witness establishes a repository match.'''
+          t = replace_once(t, old, new, 'SP1 crosswalk exact next')
+          write(p, t)
+
+          # BU README
+          p = 'secondary-witnesses/bharathiar-university/README.md'
+          t = read(p)
+          block = '''### BU-SP1 later-established MATCHED payload final remainder — COMPLETE / SP1 PAYLOAD CLOSED 33/33
+
+Report: `comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated payload summary: `comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`. Entry **45** was read from exact Volume-I physical pages **214–216 / printed 190–192** and compared with FINAL-CLEARED Tamil item 67 plus RELEASE-CLEARED English: **PASS / REPORT-ONLY — 1/1**, corrections/mutations **0 / 0**. BU's extra pre-final passage is absent from verified controlling scans 435–437 and is retained only as alternate-version/expansion witness evidence.
+
+The later-established SP1 MATCHED debt is **11/11 CLOSED**; current SP1 MATCHED payload coverage is **33/33 CLOSED**, while historical `SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md` remains exactly **22/22 of the matches known at that stage**.
+
+Across the four BU books, every currently established MATCHED identity is now payload-reviewed: **68/68 MATCHED — CLOSED** (SP1 33/33, SP2 1/1, SP3 0, BU-TT 34/34). The remaining **108 NOT YET REPRESENTED** entries are source-acquisition/future-representation evidence, not open payload debt against present repository works.
+
+'''
+          t = insert_before_once(t, '## Next activity\n', block, 'BU README closure insert')
+          old = '''## Next activity
+
+All **176/176** BU entries have identity dispositions. Complete the remaining BU-SP1 later-match payload debt with **entry 45 — `A Petty Village Full of Folks Illiterate!` → `கலைஞரின் கவிதைகள்` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Keep the historical 22/22 payload milestone distinct; current overall MATCHED payload coverage is **32/33**. BU-SP2's 39 `NOT YET REPRESENTED` rows remain on source-acquisition hold absent new source evidence.'''
+          new = '''## Next activity
+
+All **176/176** BU entries have identity dispositions and all **68/68 currently MATCHED** entries are payload-compared. **No matched-payload comparison remains.** Keep the **108 NOT YET REPRESENTED** entries on source-acquisition/future-representation hold unless a new controlling/source witness establishes a repository match. Do not reopen FINAL-CLEARED Tamil or RELEASE-CLEARED English from BU alone.'''
+          t = replace_once(t, old, new, 'BU README next')
+          write(p, t)
+
+          # MASTER_CROSSWALK
+          p = 'secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md'
+          t = read(p)
+          block = '''## BU-SP1 final later-established payload remainder — COMPLETE / MATCHED PAYLOAD CLOSED
+
+Report: `comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; Volume-I payload consolidation: `comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`. Entry **45** → item **67 `பாமரர் நிறைந்த பட்டிக்காடு!`** is **PASS / REPORT-ONLY — 1/1**, correction candidates **0 / 0**, mutations **0 / 0**. The exact BU payload contains one additional pre-final passage absent from verified controlling scans 435–437; classify it as secondary-witness alternate-version/expansion material, not a repository omission.
+
+Later-established SP1 MATCHED payload lane: **11/11 CLOSED**. Total SP1 MATCHED payload coverage: **33/33 CLOSED**. Historical 22/22 milestone remains unchanged. Repository-wide BU MATCHED payload coverage is now **68/68 CLOSED**: SP1 33, SP2 1, SP3 0, BU-TT 34.
+
+'''
+          t = insert_before_once(t, '## Exact next activity\n', block, 'MASTER closure insert')
+          old = '''## Exact next activity
+
+Identity classification remains complete for **176/176** BU entries. Run the final later-established BU-SP1 MATCHED payload comparison: **entry 45 — `A Petty Village Full of Folks Illiterate!` → `poems/kalaignarin-kavithaigal/` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Historical 22/22 payload closure remains untouched; current overall MATCHED payload coverage is **32/33**. BU-SP2's 39 `NOT YET REPRESENTED` rows remain on source-acquisition hold absent new source evidence.'''
+          new = '''## Exact next activity
+
+Identity classification is complete for **176/176** BU entries and payload comparison is complete for **68/68 currently MATCHED** entries. There is **no remaining matched-payload debt**. The **108 NOT YET REPRESENTED** entries remain on source-acquisition/future-representation hold unless new controlling/source evidence establishes a match. Preserve the historical BU-SP1 22/22 payload milestone separately from the current 33/33 closure.'''
+          t = replace_once(t, old, new, 'MASTER exact next')
+          write(p, t)
+
+          # HANDOVER
+          p = 'HANDOVER.md'
+          t = read(p)
+          block = '''## BU-SP1 final later-established MATCHED payload remainder — COMPLETE / PAYLOAD CLOSED 33/33
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated Volume-I payload summary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`.
+
+Entry **45 — `A Petty Village Full of Folks Illiterate!`** was read from exact checksum-locked Volume-I physical pages **214–216 / printed 190–192** and compared with FINAL-CLEARED `கலைஞரின் கவிதைகள்` item **67 `பாமரர் நிறைந்த பட்டிக்காடு!`**, verified source page records **435–437**, and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 1/1**; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
+BU contains an additional passage before the final hand-raising-dolls stanza. Verified controlling anthology scan 437 moves directly from `ஆண்டவனும் நானேதான் என்பார்!` through the refrain/separator to `எல்லோரும் கைதூக்கும் பதுமைகளாய் இருந்து-`; therefore the BU-only passage is alternate-version/expansion evidence and is **not imported**.
+
+Later-established BU-SP1 MATCHED payload debt: **11/11 CLOSED**. Current BU-SP1 MATCHED payload coverage: **33/33 CLOSED**. Historical payload milestone remains **22/22 of the matches known at that stage** and must not be rewritten.
+
+Repository-wide BU MATCHED payload coverage is now **68/68 CLOSED**: SP1 **33/33**, SP2 **1/1**, SP3 **0**, BU-TT **34/34**. Identity remains **176/176 classified = 68 MATCHED / 108 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE**.
+
+'''
+          t = insert_before_once(t, '## Exact next activity\n', block, 'HANDOVER closure insert')
+          old = '''## Exact next activity
+
+Run the final **BU-SP1 later-MATCHED payload remainder**: entry **45 — `A Petty Village Full of Folks Illiterate!`**, repository target `poems/kalaignarin-kavithaigal/` item **67 — `பாமரர் நிறைந்த பட்டிக்காடு!`**. Compare actual BU payload with FINAL-CLEARED Tamil and RELEASE-CLEARED English; report first. Do not mutate either layer unless the controlling Tamil independently supports a documented reopen.
+
+BU-SP2's **39 NOT YET REPRESENTED** entries remain on source-acquisition hold absent new source evidence.'''
+          new = '''## Exact next activity
+
+**No Bharathiar University matched-payload comparison remains.** Keep all **108 NOT YET REPRESENTED** rows on source-acquisition/future-representation hold unless a new controlling/source witness establishes a repository match. No new Tamil poem is staged. Preserve every FINAL-CLEARED Tamil and RELEASE-CLEARED English layer unless controlling Tamil evidence independently supports a documented reopen.'''
+          t = replace_once(t, old, new, 'HANDOVER exact next')
+          write(p, t)
+
+          # TRANSCRIPTION_PHASE_PLAN
+          p = 'TRANSCRIPTION_PHASE_PLAN.md'
+          t = read(p)
+          block = '''### BU-SP1 later-established MATCHED final remainder — COMPLETE / SP1 PAYLOAD CLOSED 33/33
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated summary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`. Entry **45 → item 67**: **PASS / REPORT-ONLY — 1/1**, corrections/mutations **0 / 0**. BU-only expansion before the final stanza is absent from verified controlling scans 435–437 and is not imported.
+
+Later-established SP1 MATCHED lane **11/11 CLOSED**; total SP1 MATCHED payload **33/33 CLOSED**; historical 22/22 milestone preserved. Across all BU witnesses, **68/68 currently MATCHED entries are payload-compared — CLOSED**.
+
+'''
+          t = insert_before_once(t, '### Current comparison activity — NEXT\n', block, 'PHASE closure insert')
+          t = replace_once(t,
+              '''### Current comparison activity — NEXT
+
+**BU-SP1 later-MATCHED final payload remainder — entry 45 `A Petty Village Full of Folks Illiterate!` → item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`.**''',
+              '''### Current comparison activity — NEXT
+
+**None pending in the BU matched-payload lane.** All **68/68 current MATCHED** entries are payload-compared. The **108 NOT YET REPRESENTED** identities remain on source-acquisition/future-representation hold.''',
+              'PHASE current activity')
+          t = replace_once(t,
+              '''### Planned witness sequence
+
+1. BU-SP1 — complete the **1 remaining later-established MATCHED payload**: entry **45**; the first 10 later matches are report-complete and the historical 22/22 lane remains separately preserved;
+2. BU-SP2 — retain its **39 NOT YET REPRESENTED** entries on source-acquisition hold until source-backed identities are established or a new controlling/source witness is supplied.''',
+              '''### Planned witness sequence
+
+1. BU matched-payload lane — **CLOSED 68/68 current MATCHED**; preserve SP1's historical **22/22** milestone separately from its current **33/33** closure;
+2. BU NOT YET REPRESENTED rows — **108 on source-acquisition/future-representation hold** until new controlling/source evidence establishes repository matches.''',
+              'PHASE planned sequence')
+          t = replace_once(t,
+              '''## Exact next activity
+
+Proceed with **BU-SP1 later-MATCHED final payload remainder — entry 45 → item 67 — report-first comparison only**.''',
+              '''## Exact next activity
+
+**No source-dependent BU comparison is pending.** Await a new controlling/source witness or a newly staged Tamil work before changing the BU crosswalk. Do not promote NOT YET REPRESENTED rows or reopen release-cleared text without source evidence.''',
+              'PHASE exact next')
+          write(p, t)
+
+          # Root README
+          p = 'README.md'
+          t = read(p)
+          t = replace_once(t,
+              '''A **secondary-witness comparison lane** is active under:
+
+`secondary-witnesses/bharathiar-university/`''',
+              '''A **secondary-witness archive/comparison lane** is maintained under:
+
+`secondary-witnesses/bharathiar-university/`''',
+              'README lane heading')
+          t = replace_once(t,
+              '''BU-SP1 later-established MATCHED payload Batch 1 is **COMPLETE — 10/10 / report-only / 0 mutations**. Historical payload closure remains **22/22 of the matches known at that stage**; separate later-match debt is **10/11**, so current MATCHED payload coverage is **32/33**. Exact next secondary-witness activity: **entry 45 `A Petty Village Full of Folks Illiterate!` → item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**.''',
+              '''BU-SP1 payload comparison is now **CLOSED 33/33 current MATCHED**. The historical **22/22 of the matches known at that stage** remains a distinct chronological milestone; the later-established 11/11 lane is also closed. Across all four BU witnesses, **68/68 currently MATCHED entries are payload-compared**. The **108 NOT YET REPRESENTED** entries remain source-acquisition/future-representation evidence; there is no active matched-payload debt.''',
+              'README top payload state')
+          t = replace_once(t,
+              '''Current next activity: **BU-SP1 later-MATCHED final payload remainder — entry 45 `A Petty Village Full of Folks Illiterate!` → item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`; report first, no Tamil/released-English mutation without controlling-source support.**''',
+              '''Current next activity: **no BU matched-payload comparison is pending; await new controlling/source evidence or a newly staged Tamil work. Preserve all release-cleared layers.**''',
+              'README tail next')
+          write(p, t)
+
+          # NEXT_CHAT_PROMPT
+          p = 'NEXT_CHAT_PROMPT.md'
+          write(p, '''# Next Chat Prompt — Kalaignar Poems Archive / Bharathiar University Witness Lane Closed
+
+Continue `pugazg/kalaignar-poems`, branch `main`. **Fetch live `main` first** and preserve every newer durable/release-cleared source, Tamil canonical and English release.
+
+## Current production state
+
+No new Tamil poem is staged.
+
+The Bharathiar University 2009 secondary-witness set is fully onboarded under `secondary-witnesses/bharathiar-university/`.
+
+## Authority
+
+1. controlling historical Tamil scan;
+2. FINAL-CLEARED repository Tamil canonical;
+3. RELEASE-CLEARED repository English;
+4. Bharathiar University English as institutional secondary/interpretive witness.
+
+Never silently rewrite Tamil or RELEASE-CLEARED English from BU. A BU discrepancy may diagnose a problem; the controlling Tamil must independently support any correction.
+
+## Durable BU state
+
+- identity classification: **176/176 CLOSED**;
+- four-book identity tally: **68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE**;
+- BU-TT: **34/34 MATCHED payload-compared / CLOSED**;
+- BU-SP2: **1/1 MATCHED payload-compared** (`தலைகேட்டான் தம்பி`); remaining **39 NOT YET REPRESENTED**;
+- BU-SP3: **50/50 identity-classified / 0 MATCHED / 50 NOT YET REPRESENTED / CLOSED**;
+- BU-SP1 identity: **52/52 CLOSED — 33 MATCHED / 19 NOT YET REPRESENTED**;
+- historical BU-SP1 payload milestone: **22/22 of the matches known at that stage — preserve exactly**;
+- later-established BU-SP1 MATCHED lane: **11/11 CLOSED**;
+- current BU-SP1 MATCHED payload coverage: **33/33 CLOSED**;
+- repository-wide BU MATCHED payload coverage: **68/68 CLOSED**.
+
+## Final BU-SP1 remainder
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`.
+
+Consolidated SP1 payload closure: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`.
+
+Entry **45 — `A Petty Village Full of Folks Illiterate!`** was compared with `கலைஞரின் கவிதைகள்` item **67 — `பாமரர் நிறைந்த பட்டிக்காடு!`** from exact BU physical pages **214–216 / printed 190–192**. Result: **PASS / REPORT-ONLY — corrections/mutations 0 / 0**.
+
+High-value finding: BU has an additional passage before the final hand-raising-dolls stanza. Verified controlling anthology scans **435–437** do not contain it, so it is preserved only as **secondary-witness alternate-version / expansion evidence** and was not imported.
+
+## Exact next activity
+
+There is **no remaining Bharathiar University matched-payload debt**. Keep all **108 NOT YET REPRESENTED** entries on source-acquisition/future-representation hold unless new controlling/source evidence establishes a repository match.
+
+Do not invent a new Tamil task from the BU books. Await either:
+
+- a new controlling/source witness that can establish representation for a NOT YET REPRESENTED entry; or
+- a newly staged Tamil poem/publication supplied or explicitly selected by the user.
+
+When either occurs, fetch live `main` first and follow the normal source-first processing gates.
+''')
+          PY
+      - name: Remove temporary one-time workflows
+        run: |
+          git rm .github/workflows/inspect-bu-sp1-entry45.yml
+          git rm .github/workflows/run-sync-bu-sp1-payload-closure.yml
+      - name: Commit synchronized closure state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md HANDOVER.md TRANSCRIPTION_PHASE_PLAN.md NEXT_CHAT_PROMPT.md \
+            secondary-witnesses/bharathiar-university/README.md \
+            secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md \
+            secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md
+          git add -u .github/workflows
+          git diff --cached --check
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Close Bharathiar matched payload comparison lane"
+            git push
+          fi
