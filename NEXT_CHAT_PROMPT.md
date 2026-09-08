@@ -1,33 +1,41 @@
-# Next Chat Prompt — Kalaignar Poems Archive / தலைகேட்டான் தம்பி
+# Next Chat Prompt — Kalaignar Poems Archive
 
-Continue `pugazg/kalaignar-poems`, branch `main`. Fetch live `main` first and preserve newer durable/release-cleared work.
+Continue `pugazg/kalaignar-poems`, branch `main`. Fetch live `main` first and preserve all newer durable/release-cleared work.
 
-## Active — தலைகேட்டான் தம்பி
+## Current queue
 
-Workspace: `poems/thalaikettan-thambi/`.
+**No new poem is staged after the release clearance of `தலைகேட்டான் தம்பி`.**
 
-Controlling source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 physical pages / 30,952,719 bytes / SHA-256 `92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**. Scope: scans **18–23 = 6**.
+### Newly closed — தலைகேட்டான் தம்பி
 
-Current status: **Phase 1 COMPLETE / Phase 2 PASS 6/6 VERIFIED / Phase 3 Gates 1–4 PASS / source identity LOCKED / 0 unresolved / Gate 5 next**.
+`poems/thalaikettan-thambi/` is **CLOSED / RELEASE-CLEARED — 2026-09-08**.
 
-Canonical Tamil: `poems/thalaikettan-thambi/sections/01.md`, Gate-4 blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`.
+Source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf` — **75 pages / 30,952,719 bytes / SHA-256 `92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**; scope scans **18–23**.
 
-Locked rules:
+Final state:
 
-- canonical heading `# தலைகேட்டான் தம்பி`;
-- scan-18 lower `தம்பி` is title material and `கருணாநிதி` author attribution; neither is poem-body text;
-- `printed_pages: null`;
-- scan markers 18–23 exactly once;
-- critical 22→23 direct carry has no inserted separator;
-- scans 17 and 24 excluded;
-- verified page records unchanged.
+- Phase 1 **6/6 COMPLETE**;
+- Phase 2 **6/6 VERIFIED / PASS**;
+- Phase 3 Gates 1–6 **PASS / TAMIL FINAL-CLEARED**;
+- Phase 4 **COMPLETE / RELEASE-CLEARED**;
+- Tamil canonical blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`;
+- reviewed English blob `008a4a50678fe69d3dd90165ac10e34f1145e88f`;
+- reader-facing English blob `4dacd0819bb510a795ca034ce8fefec02133b259`;
+- release authority `poems/thalaikettan-thambi/translations/en/RELEASE_REPORT.md`;
+- unresolved issues **0**.
 
-Read the processing guide, phase plan, root/work handovers and prompts, work README/source/audit/page map, Phase-2 authority, structural-correction record, Phase-3 Gates 1–4 records, verified page records, and canonical `sections/01.md` before changing state.
+Do not reopen it merely because an older prompt contains a Gate-1/2/3/4 checkpoint.
+
+`poems/aanthaiyum-arasanum/` and the other listed completed workspaces also remain release-cleared.
 
 ## Exact next activity
 
-Perform **Phase 3 Gate 5 — canonical/source-completeness review only**. Compare `sections/01.md` against verified `pages/0018.md`–`0023.md`; certify exact source coverage, exclusions, title/author handling, joins, separators, quotation continuity, lineation and absence of silent normalization. Stop after Gate 5. **Do not grant Tamil final clearance until Gate 6 is separately performed.**
+When the user supplies or selects the next poem/source:
 
-## Closed — ஆந்தையும் அரசனும்!
+1. read `POEM_PROCESSING_GUIDE.md`, `TRANSCRIPTION_PHASE_PLAN.md`, and root `HANDOVER.md`;
+2. fetch live `main` and preserve all closed work;
+3. establish exact source identity when bytes are available;
+4. run duplicate/title/source-range intake;
+5. create the new workspace and begin the appropriate phased workflow.
 
-`poems/aanthaiyum-arasanum/` remains **CLOSED / RELEASE-CLEARED — 2026-09-07**. Do not reopen without genuinely new source-backed evidence.
+Until a new work is selected, **do not start or reopen another poem by assumption**.
