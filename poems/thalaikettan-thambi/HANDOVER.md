@@ -17,45 +17,29 @@ Bibliographic title: **தலைகேட்டான் தம்பி**. Comp
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
 - page status: **6 `verified` / 0 `partial`**;
-- Phase 3 Gate 1: **PASS — pagination reconciled, `printed_page: null` confirmed 6/6**;
-- Phase 3 Gates 2–6: **NOT STARTED**;
+- post-Phase-2 scan-18 structural-role correction: **COMPLETE**;
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gate 2: **PASS**;
+- Phase 3 Gates 3–6: **NOT STARTED**;
 - Phase 4: **NOT STARTED / blocked**;
 - canonical Tamil / English: **none / none**.
 
-Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
+Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`; scan-21 corrections: `மகிழ்ந்தானா`, `கொடை நீரூற்று`.
 
-Two source-backed Phase-2 corrections were made on scan 21:
+Post-Phase-2 structural-role authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md` — scan 18 trailing body duplication `தம்பி` / `கருணாநிதி` removed; title/author provenance retained; poem-body lexical text unchanged; scan 18 remains `verified`.
 
-- `மகிழ்ந்தான` → `மகிழ்ந்தானா`;
-- `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
+Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md` — scans **6/6 accounted**, visible printed numerals **0/6**, logical assignments **0/6**, `printed_page: null` confirmed **6/6**, unresolved **0**.
 
-Post-Phase-2 structural-role correction authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
-
-- scan 18 trailing body duplication `தம்பி` / `கருணாநிதி` was removed;
-- `தம்பி` remains preserved as the lower decorated title element of `தலைகேட்டான் தம்பி`;
-- `கருணாநிதி` remains preserved as the direct source-position author attribution;
-- no poem-body lexical reading changed;
-- scan 18 remains `verified`.
-
-Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
-
-Gate-1 result:
-
-- physical scans accounted: **6/6**;
-- visible printed numerals: **0/6**;
-- logical printed-page assignments supported by source: **0/6**;
-- confirmed `printed_page: null`: **6/6**;
-- missing / duplicate active scans: **0 / 0**;
-- unresolved pagination issues: **0**.
+Phase-3 Gate-2 authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — opening **17→18 PASS**, internal joins **5/5 PASS**, closing **23→24 PASS**, Gate-2 text changes **0**, unresolved boundary issues **0**. Critical join **22→23** is direct: `அண்ணன் உயிர்தந்த செய்தியாலே` → `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`; do not insert a separator at canonical assembly.
 
 User-supplied extraction and secondary witnesses remain non-authoritative aids.
 
 ## Exact next activity
 
 1. Establish the still-pending **SHA-256** from the exact attached 75-page PDF bytes and synchronize source-identity fields.
-2. Only after that source-identity lock, perform **Phase 3 Gate 2 — boundary / page-join audit**:
-   - opening boundary **17→18**;
-   - internal joins **18→19, 19→20, 20→21, 21→22, 22→23**;
-   - closing boundary **23→24**;
-   - certify quotation/separator/poetic-line continuity without lexical normalization.
-3. Stop after Gate 2 unless explicitly directed to continue.
+2. Then perform **Phase 3 Gate 3 — title-witness reconciliation**:
+   - bibliographic title: `தலைகேட்டான் தம்பி`;
+   - direct scan-18 title: `தலைகேட்டான் தம்பி`, spatially upper `தலைகேட்டான்` + lower `தம்பி`;
+   - author attribution: `கருணாநிதி`;
+   - record explicit canonical assembly title authority without creating a hybrid or duplicating structural labels into poem body.
+3. Stop after Gate 3 unless explicitly directed to process remaining gates.
