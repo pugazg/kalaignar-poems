@@ -20,7 +20,7 @@ A MATCHED row does **not** authorize replacing the repository's FINAL-CLEARED Ta
 | 12 | This Tamil Land Two Thousand Years ago! | 49 | **MATCHED** | 24 | This Tamil Land, Two Thousand Years Ago! |
 | 13 | Awake! Here is the Dawn of Chemozhi! | 54 | **MATCHED** | 26 | Awake; Here Is the Dawn of a Classical Language! |
 | 14 | Give Birth to Self-respecting Heroes; Give them to us, Mother! | 59 | **MATCHED** | 29 | Mother, Give Us — Bear Us Treasures of Self-Respect! |
-| 15 | An Honourable Mother and an Upright Daughter | 63 | **MATCHED** | 31 | The Mother Full of Dignity and the Stainless Son! |
+| 15 | An Honourable Mother and an Upright Daughter | 63 | **MATCHED** | 31 | The Mother Full of Dignity and the Stainless Daughter! |
 | 16 | Kōvūrār's Question and the Head That Hung | 67 | **MATCHED** | 32 | Kovoorar Questions — Heads Bow Down |
 | 17 | An Elevated Intimacy Dearer than Life | 71 | **MATCHED** | 35 | A Noble Friendship Higher Than Life Itself! |
 | 18 | A Young Lady, She is a Tamil Lady! | 77 | **MATCHED** | 36 | He Is Young; He Is a Son of Tamil! |
@@ -41,9 +41,14 @@ A MATCHED row does **not** authorize replacing the repository's FINAL-CLEARED Ta
 | 33 | When Love Exceeds its Limits, There will be a Roaring Fire of Frenzy! | 160 | **MATCHED** | 56 | When Attachment Goes Beyond Its Bounds, It Burns as Frenzy! |
 | 34 | What Reward does the Simile Deserve? | 165 | **MATCHED** | 57 | What Prize Is Fitting for the Beauty of a Simile! |
 
-## Important title observation
+## Important item-31 title observation — corrected 2026-09-08
 
-Entry 15 is deliberately retained as a **translation-witness title difference**: Bharathiar University prints **“An Honourable Mother and an Upright Daughter”**, while the repository's source-controlled item 31 title is **`மாண்பு நிறை தாயும் மாசற்ற மகனும்!` / “The Mother Full of Dignity and the Stainless Son!”**. The repository item body itself discusses Madhavi and Manimekalai as mother/daughter. This is exactly the kind of interpretive/title difference that the secondary-witness layer is designed to preserve without silently correcting the controlling Tamil title.
+The source has **two genuinely different Tamil witnesses**:
+
+- contents: `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`;
+- direct item-opening page (scan 148): `மாண்பு நிறை தாயும் மாசற்ற மகளும்!`.
+
+The direct poem-page witness governs canonical assembly, so repository item 31 is now **`மாண்பு நிறை தாயும் மாசற்ற மகளும்!` / “The Mother Full of Dignity and the Stainless Daughter!”**. Bharathiar University's **“An Honourable Mother and an Upright Daughter”** is therefore corroborating interpretive evidence for the daughter reading, not an editorial correction of a source title. The contents `மகனும்` form remains preserved as a separate source witness.
 
 ## Initial tally
 
