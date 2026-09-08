@@ -1,0 +1,85 @@
+name: Synchronize BU-SP1 identity closure state
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sync-bu-sp1-identity-closure.yml
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Synchronize closure references and next activity
+        shell: python
+        run: |
+          from pathlib import Path
+
+          def replace_one(path, old, new, label):
+              p = Path(path)
+              text = p.read_text(encoding='utf-8')
+              n = text.count(old)
+              if n != 1:
+                  raise SystemExit(f'{label}: expected exactly one occurrence, found {n}')
+              p.write_text(text.replace(old, new, 1), encoding='utf-8')
+
+          summary = '`comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`'
+
+          replace_one(
+              'secondary-witnesses/bharathiar-university/README.md',
+              '## Next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**. After consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.',
+              '### BU-SP1 consolidated identity closure — COMPLETE 52/52\n\nConsolidated identity record: ' + summary + '. Final state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — IDENTITY CLOSED**. The historical payload-comparison closure remains **22/22 of the matches known at that stage**; eleven later identity matches are not retroactively counted as payload-compared. Tamil / released-English mutations from BU-SP1 identity work: **0 / 0**.\n\n## Next activity\n\nProceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order**. Use actual Volume-III payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.',
+              'BU README next activity')
+
+          replace_one(
+              'secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md',
+              '## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**. After Volume-I identity consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.',
+              '## BU-SP1 consolidated identity closure — COMPLETE 52/52\n\nConsolidated identity record: ' + summary + '. Final Volume-I identity classification is **33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE = 52**. The separate historical payload-comparison record remains `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md` at **22/22 of the matches known at that stage**.\n\n## Exact next activity\n\nProceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10**. Harden identities only from actual Volume-III payload/event/source context and current repository inventories; report/crosswalk only.',
+              'master crosswalk next activity')
+
+          replace_one(
+              'secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md',
+              '## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**; after that, proceed to BU-SP3 item-level matching under the phase plan.',
+              '## Consolidated identity closure — COMPLETE 52/52\n\nAuthority: `../comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Volume-I identity is **CLOSED 52/52 — 33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE**. The earlier payload-comparison lane remains **22/22 of the matches known at that stage**.\n\n## Exact next activity\n\nVolume-I identity work is closed. Proceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10** under the repository-wide phase plan.',
+              'SP1 crosswalk next activity')
+
+          replace_one(
+              'HANDOVER.md',
+              '## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**. Then proceed to **BU-SP3 item-level matching** according to the phase plan.',
+              '## BU-SP1 consolidated identity closure — COMPLETE 52/52\n\nConsolidated authority: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final BU-SP1 identity state is **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — CLOSED**. The separate historical payload-comparison closure remains **22/22 of the matches known at that stage**.\n\n## Exact next activity\n\nRun **BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order**. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.',
+              'handover next activity')
+
+          replace_one(
+              'TRANSCRIPTION_PHASE_PLAN.md',
+              '### Current comparison activity — NEXT\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**, preserving the distinction between the 52/52 identity closure and the earlier 22/22 payload-comparison closure.',
+              '### BU-SP1 consolidated identity closure — COMPLETE 52/52\n\nSummary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final identity state: **33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE = 52**. The historical payload lane remains **22/22 of the matches known at that stage**.\n\n### Current comparison activity — NEXT\n\n**BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order.**',
+              'phase-plan current activity')
+
+          replace_one(
+              'TRANSCRIPTION_PHASE_PLAN.md',
+              '### Planned sequence after BU-SP1 identity closure\n\n1. close/consolidate Volume-I identity state;\n2. BU-SP3 — item-level matching for remaining INVESTIGATE entries;\n3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.',
+              '### Planned witness sequence\n\n1. BU-SP3 — item-level matching of the **50 INVESTIGATE** entries, beginning with entries 1–10;\n2. BU-SP2 — retain its 39 NOT YET REPRESENTED entries until source-backed identities are established or a new controlling/source witness is supplied.',
+              'phase-plan sequence')
+
+          replace_one(
+              'TRANSCRIPTION_PHASE_PLAN.md',
+              '## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**; then proceed to BU-SP3 item-level matching.',
+              '## Exact next activity\n\nProceed with **BU-SP3 Identity Investigation Batch 1 — entries 1–10 — identity/crosswalk report only**.',
+              'phase-plan exact next')
+
+      - name: Commit synchronized state
+        shell: bash
+        run: |
+          git config user.name "pugazg"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add HANDOVER.md TRANSCRIPTION_PHASE_PLAN.md secondary-witnesses/bharathiar-university/README.md secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Synchronize BU-SP1 identity closure state"
+          git push origin HEAD:main
