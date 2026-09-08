@@ -24,16 +24,16 @@ Initial onboarding preserves the complete 50-entry contents witness but does **n
 | 18 | The Story of a Boon Accomplished | 61 | **NOT YET REPRESENTED** | — | 19-10-2003 search-for-God allegory ending with immortality granted as a corpse; no current representation established |
 | 19 | The Verdict and the Confusion | 64 | **NOT YET REPRESENTED** | — | 20-10-2003 monarchy/democracy debate using one and zeroes, ballot paper and ballot box; no current representation established |
 | 20 | The People Have Woken up | 68 | **NOT YET REPRESENTED** | — | 03-11-2003 Valluvar/Bharati/Bharathidasan/Pattukkottai royal-repression satire ending with awakened people; no current representation established |
-| 21 | Worry Flew off | 74 | **INVESTIGATE** | — | item-level matching pending |
-| 22 | The Eyeless Needle | 78 | **INVESTIGATE** | — | item-level matching pending |
-| 23 | Movie Tamil | 81 | **INVESTIGATE** | — | item-level matching pending |
-| 24 | The Yellow Towel | 85 | **INVESTIGATE** | — | item-level matching pending |
-| 25 | Men and Women Are of One Kind | 89 | **INVESTIGATE** | — | item-level matching pending |
-| 26 | The Elephant That Trampled Down Gratitude | 93 | **INVESTIGATE** | — | item-level matching pending |
-| 27 | There is Only One Birth | 97 | **INVESTIGATE** | — | item-level matching pending |
-| 28 | Will It Come to Something Good or Get a Thrashing? | 101 | **INVESTIGATE** | — | item-level matching pending |
-| 29 | Let's Treasure the Values of Life | 104 | **INVESTIGATE** | — | item-level matching pending |
-| 30 | Which to Opt for - That or This? | 108 | **INVESTIGATE** | — | item-level matching pending |
+| 21 | Worry Flew off | 74 | **NOT YET REPRESENTED** | — | 14-11-2003 personified Worry / employment / Happiness-wings allegory; no current representation established |
+| 22 | The Eyeless Needle | 78 | **NOT YET REPRESENTED** | — | 16-11-2003 Pavani/Parimalai barefoot-schoolgirl / thorn / broken eyeless needle / nothing-useless moral; no current representation established |
+| 23 | Movie Tamil | 81 | **NOT YET REPRESENTED** | — | 17-11-2003 Tamil-film-title / astrology-numerology spelling-change / alien-language satire; no current representation established |
+| 24 | The Yellow Towel | 85 | **NOT YET REPRESENTED** | — | 18-11-2003 autobiographical yellow-towel reflection via Osho/Buddha/Tirumular/Bharati; no current representation established |
+| 25 | Men and Women Are of One Kind | 89 | **NOT YET REPRESENTED** | — | 19-11-2003 Savitri/Satyavan/Yama/Draupadi dream-dialogue rejecting male/female superiority claims; no current representation established |
+| 26 | The Elephant That Trampled Down Gratitude | 93 | **NOT YET REPRESENTED** | — | 21-11-2003 elephant/crocodile/Atimoolam rescue fable on ingratitude and Tirukkural measure of help; no current representation established |
+| 27 | There is Only One Birth | 97 | **NOT YET REPRESENTED** | — | 22-11-2003 rationalist anti-rebirth/afterlife poem distinguishing bodily death from lasting public fame/work; no current representation established |
+| 28 | Will It Come to Something Good or Get a Thrashing? | 101 | **NOT YET REPRESENTED** | — | 23-11-2003 misogyny/dowry/fire-death/female-infanticide critique; no current representation established |
+| 29 | Let's Treasure the Values of Life | 104 | **NOT YET REPRESENTED** | — | 24-11-2003 cruelty/sadism lesson and scorpion-ascetic compassion fable; no current representation established |
+| 30 | Which to Opt for - That or This? | 108 | **NOT YET REPRESENTED** | — | 30-11-2003 life-journey meditation reframing heaven/hell through how human strength is used; no current representation established |
 | 31 | I Had No Mind to Leave | 111 | **INVESTIGATE** | — | item-level matching pending |
 | 32 | The Medicine Not Prescribed by the Physician | 115 | **INVESTIGATE** | — | item-level matching pending |
 | 33 | The Burden of the Mind | 118 | **INVESTIGATE** | — | item-level matching pending |
@@ -67,10 +67,16 @@ Authority: `../comparisons/14-shower-of-poetry-vol-3-identity-investigation-batc
 
 Entries **11–20** were inspected from actual Volume-III page-image payloads, physical pages **60–99** / printed pages **34–73**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
 
+## Identity investigation Batch 3 — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.md`.
+
+Entries **21–30** were inspected from actual Volume-III page-image payloads, physical pages **100–136** / printed pages **74–110**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
+
 ## Current tally
 
-**0 MATCHED / 0 POSSIBLE / 20 NOT YET REPRESENTED / 30 INVESTIGATE = 50.**
+**0 MATCHED / 0 POSSIBLE / 30 NOT YET REPRESENTED / 20 INVESTIGATE = 50.**
 
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 3 — entries 21–30 in source order**. Use actual payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+Run **BU-SP3 Identity Investigation Batch 4 — entries 31–40 in source order**. Use actual payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
