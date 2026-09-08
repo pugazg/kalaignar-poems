@@ -31,10 +31,10 @@ The four contents witnesses contain **176 translated entries**:
 
 - Volume I: **52** — 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE;
 - Volume II: **40** — 1 MATCHED / 39 NOT YET REPRESENTED;
-- Volume III: **50** — 0 MATCHED / 0 POSSIBLE / 20 NOT YET REPRESENTED / 30 INVESTIGATE;
+- Volume III: **50** — 0 MATCHED / 0 POSSIBLE / 30 NOT YET REPRESENTED / 20 INVESTIGATE;
 - *Treasure Trove*: **34** — 34 MATCHED.
 
-Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 78 NOT YET REPRESENTED / 30 INVESTIGATE = 176**.
+Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 88 NOT YET REPRESENTED / 20 INVESTIGATE = 176**.
 
 See `MASTER_CROSSWALK.md` and the per-book crosswalks.
 
@@ -166,8 +166,12 @@ Report: `comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.m
 
 ### BU-SP3 identity investigation Batch 2 — COMPLETE
 
-Report: `comparisons/14-shower-of-poetry-vol-3-identity-investigation-batch-02.md`. Entries **11–20** were inspected from actual Volume-III page images, physical pages **60–99** / printed pages **34–73**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**; Tamil / RELEASE-CLEARED English mutations **0 / 0**. Current BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 20 NOT YET REPRESENTED / 30 INVESTIGATE = 50**.
+Report: `comparisons/14-shower-of-poetry-vol-3-identity-investigation-batch-02.md`. Entries **11–20** were inspected from actual Volume-III page images, physical pages **60–99** / printed pages **34–73**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**; Tamil / RELEASE-CLEARED English mutations **0 / 0**.
+
+### BU-SP3 identity investigation Batch 3 — COMPLETE
+
+Report: `comparisons/15-shower-of-poetry-vol-3-identity-investigation-batch-03.md`. Entries **21–30** were inspected from actual Volume-III page images, physical pages **100–136** / printed pages **74–110**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**; Tamil / RELEASE-CLEARED English mutations **0 / 0**. Current BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 30 NOT YET REPRESENTED / 20 INVESTIGATE = 50**.
 
 ## Next activity
 
-Proceed to **BU-SP3 Identity Investigation Batch 3 — entries 21–30 in source order**. Use actual Volume-III payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+Proceed to **BU-SP3 Identity Investigation Batch 4 — entries 31–40 in source order**. Use actual Volume-III payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
