@@ -23,13 +23,13 @@ Renderer guardrail: Volumes I, III and BU-TT may expose only 150 pages in the cu
 
 ### Onboarding status
 
-- four exact source identities: **LOCKED 4/4**;
+- source identities: **LOCKED 4/4**;
 - bibliographic metadata: **RECORDED 4/4**;
 - contents inventories: **176/176 indexed**;
 - master crosswalk: **COMPLETE — initial pass**;
-- current classifications: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**;
-- Tamil changes caused by witness onboarding: **0**;
-- release-cleared English changes caused by witness onboarding: **0**.
+- classifications: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**;
+- Tamil changes from witness onboarding: **0**;
+- release-cleared English changes from witness onboarding: **0**.
 
 Authority hierarchy:
 
@@ -37,31 +37,53 @@ Authority hierarchy:
 2. FINAL-CLEARED repository Tamil canonical;
 3. Bharathiar University English as a secondary interpretive/editorial witness.
 
-### Current comparison activity
+### Comparison Batch 1 — COMPLETE
 
-**Secondary Witness Comparison Batch 1 — `தலைகேட்டான் தம்பி` — NEXT.**
+`தலைகேட்டான் தம்பி` vs BU-SP2 item 17 / *The Brother for the Head did Ask!* / physical PDF pp.85–89.
 
-- BU-SP2 item 17: `Thalai Keettaan Thambi! / The Brother for the Head did Ask!`;
-- printed start page 62;
-- supplied Volume-II physical PDF pages 85–89;
-- repository target: `poems/thalaikettan-thambi/`;
-- operation: compare BU English against FINAL-CLEARED Tamil and RELEASE-CLEARED repository English;
-- deliverable: durable comparison report only;
-- direct Tamil changes: **PROHIBITED in comparison batch**;
-- direct released-English changes: **PROHIBITED in comparison batch**.
+Report: `secondary-witnesses/bharathiar-university/comparisons/01-thalaikettan-thambi.md`.
 
-Any later English correction must use a separate documented reopen and must be independently supported by the controlling Tamil; the Bharathiar witness is diagnostic/corroborating evidence only.
+Result: **PASS / REPORT-ONLY**.
 
-### Planned sequence after Batch 1
+- Tamil/source corrections: **0**;
+- English title replacement: **0**;
+- released English changes: **0**;
+- strong future English review candidates: **2**;
+- medium refinements: **1**;
+- low editorial refinements: **1**.
 
-1. BU-TT — compare **34 MATCHED** items to `poems/kaalap-pezhaiyum-kavithai-saaviyum/` in controlled batches;
-2. BU-SP1 — resolve **3 POSSIBLE** relationships, compare the **20 MATCHED** items, and investigate the remaining 29;
-3. BU-SP3 — perform item-level matching for all 50 INVESTIGATE entries;
-4. BU-SP2 — retain 39 entries as not-yet-represented until a source-backed repository identity is established; do not manufacture matches from historical/theme similarity.
+Strong candidates:
 
-## Most recently completed — தலைகேட்டான் தம்பி — 1966
+1. `அடுத்தார் பேச்சால் அழிந்த தம்பி` — current `ruined by his own words` should be reviewed as **ruined by the words/counsel of those around him**;
+2. `வாள்முனையில் செங்குருதி தனைக் கண்டான்` — restore source **blood** perception before the later `not blood—red colour` reveal if an English-only reopen is authorized.
 
-Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf`; **75 pages / 30,952,719 bytes / SHA-256 `92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**; scope scans **18–23 (6)**.
+`poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED until explicit reopen authorization.
+
+### Current comparison activity — NEXT
+
+**Secondary Witness Comparison Batch 2 — BU-TT mapped entries 1–10.**
+
+Target: `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
+
+Operation:
+
+- inspect exact Bharathiar translation pages for entries 1–10;
+- compare with corresponding FINAL-CLEARED Tamil items and RELEASE-CLEARED repository English;
+- classify title/semantic/omission/expansion/transliteration/structure differences;
+- record only independently source-supported repository-English review candidates;
+- deliver a durable comparison report only;
+- **no Tamil changes and no released-English changes**.
+
+### Planned sequence after Batch 2
+
+1. BU-TT entries **11–20**;
+2. BU-TT entries **21–30**;
+3. BU-TT entries **31–34**;
+4. BU-SP1 — resolve 3 POSSIBLE relationships, compare 20 MATCHED, investigate remaining 29;
+5. BU-SP3 — item-level matching for all 50 INVESTIGATE entries;
+6. BU-SP2 — retain 39 not-yet-represented entries until source-backed identities are established.
+
+## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
 
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **PASS — 6/6 VERIFIED**;
@@ -69,15 +91,8 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 - Phase 4: **COMPLETE — RELEASE-CLEARED**;
 - status: **CLOSED — 2026-09-08**.
 
-## Previously completed — ஆந்தையும் அரசனும்! — 1965
-
-- Phase 1–4: **COMPLETE**;
-- Tamil: **FINAL-CLEARED**;
-- English: **RELEASE-CLEARED**;
-- status: **CLOSED — 2026-09-07**.
-
-Other preserved release-cleared work includes `poomudi`, `anna-kaviyarangam`, `gunanayagar-nehru`, `oruthalaik-kathal`, `kalaignarin-kavithaigal`, `kalaignarin-kaviyaranga-kavithaigal-1975`, and `kanchithan-annan`.
+Other release-cleared work remains frozen.
 
 ## Exact next activity
 
-Proceed with **Bharathiar University Secondary Witness Comparison Batch 1 — `தலைகேட்டான் தம்பி` — report only**. Do not reopen source/canonical/release text during that batch.
+Proceed with **BU-TT Secondary Witness Comparison Batch 2 — mapped entries 1–10 — report only**.
