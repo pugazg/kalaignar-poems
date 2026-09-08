@@ -10,15 +10,16 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 - duplicate check: **PASS — 0 matches**;
 - active-scan visibility: **6/6**;
 - exact SHA: **PENDING**;
-- Phase 1: **COMPLETE — 6/6 lexically populated**;
-- page statuses: **6 `partial` / 0 `verified`**;
+- Phase 1: **COMPLETE — 6/6**;
+- Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
+- page statuses: **6 `verified` / 0 `partial`**;
 - direct title: **`தலைகேட்டான் தம்பி`**, spatially split as upper `தலைகேட்டான்` + lower `தம்பி`;
 - bibliographic/direct title conflict: **0**;
 - direct source-position attribution: **`கருணாநிதி`**;
-- Phase 2: **NOT STARTED**;
-- Phase 3: **BLOCKED**;
+- Phase-2 source corrections: scan 21 `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
+- Phase 3: **NOT STARTED / blocked until exact source SHA is locked**;
 - Phase 4: **BLOCKED**;
-- exact next activity: **lock exact source SHA, then complete Phase 2 source-critical verification for scans 18–23; stop before Phase 3**.
+- exact next activity: **lock exact source SHA, then Phase 3 Gate 1 physical scan ↔ printed-page reconciliation for scans 18–23; stop after Gate 1 unless explicitly directed**.
 
 ## Most recently completed — ஆந்தையும் அரசனும்! — 1965
 
@@ -39,4 +40,4 @@ Do not reopen completed work without genuinely new source-backed evidence.
 
 ## Exact next activity
 
-Proceed with **`தலைகேட்டான் தம்பி` source-identity lock + Phase 2 only**: compute the pending SHA from the exact attached 75-page PDF, independently verify `pages/0018.md`–`0023.md` against scans 18–23, correct only source-backed differences, promote only fully checked pages to `verified`, and do not begin Phase 3 in the same activity.
+Proceed with **`தலைகேட்டான் தம்பி` source-identity lock + Phase 3 Gate 1 only**: compute the pending SHA from the exact attached 75-page PDF, then reconcile physical scans 18–23 against directly visible/logical printed-page numbering without inferring unsupported numbers. Do not begin Gate 2 unless explicitly directed.

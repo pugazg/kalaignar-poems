@@ -27,12 +27,14 @@ Neighbour evidence: scan 17 unrelated photograph; scan 24 unrelated cartoon.
 - duplicate-title search: **PASS — 0 matches**;
 - complete source visibility for active scans: **6/6**;
 - Phase 1: **COMPLETE — 6/6 lexically populated**;
-- page statuses: **6 `partial` / 0 `verified`**;
-- Phase 2: **NOT STARTED**;
-- Phase 3–4: **BLOCKED**;
+- Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
+- page statuses: **6 `verified` / 0 `partial`**;
+- Phase 3–4: **NOT STARTED**;
 - printed-page state: **not yet reconciled; current page records retain `printed_page: null` pending Phase 3**;
 - canonical Tamil / English: **none / none**.
 
-The Phase-1 text was produced by direct scan inspection with the user-supplied extraction used only as an alignment aid. It remains first-pass material until the independent Phase-2 source-critical review succeeds.
+Phase-2 authority: `../PHASE2_SOURCE_CRITICAL_VERIFICATION.md`. Two source-backed corrections were made on scan 21: `மகிழ்ந்தான` → `மகிழ்ந்தானா` and `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
 
-Exact next activity: establish the pending exact SHA-256, then independently verify scans **18–23** in Phase 2. Do not start Phase 3 during that activity.
+The verified text is governed by the controlling 1966 scan. User extraction and secondary witnesses remain non-authoritative aids.
+
+Exact next activity: establish the pending exact SHA-256, then perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–23. Do not start Gate 2 in the same activity unless explicitly directed.

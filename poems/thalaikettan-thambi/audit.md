@@ -7,8 +7,9 @@
 - active scans: **18–23 = 6**;
 - duplicate bibliographic-title matches before onboarding: **0**;
 - page records: **6/6**;
-- Phase-1 lexically populated: **6/6**;
-- page statuses: **6 `partial` / 0 `verified`**;
+- Phase 1: **COMPLETE — 6/6**;
+- Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
+- page statuses: **0 `partial` / 6 `verified`**;
 - canonical / English files: **0 / 0**.
 
 Title witness: scan 18 carries the complete decorated title **`தலைகேட்டான் தம்பி`**, split spatially as upper `தலைகேட்டான்` and lower decorated `தம்பி`. Direct and bibliographic title witnesses agree; lexical title conflicts: **0**. The source-position attribution on scan 18 is **`கருணாநிதி`**.
@@ -17,17 +18,21 @@ Title witness: scan 18 carries the complete decorated title **`தலைகே�
 
 Result: **COMPLETE — 6/6 first-pass page transcriptions present.**
 
-Method discipline:
+## Phase 2
 
-- active scans **18–23** were visually inspected from the controlling PDF;
-- the user-supplied word-for-word extraction was used only as an alignment aid;
-- no web/catalogue/later-edition text was admitted as authority;
-- no page was promoted to `verified` during first pass;
-- historical/compact glyph, punctuation, lineation, quotation, separator and unusual-spacing verification remains intentionally deferred to Phase 2;
-- no inferred printed page numbers were assigned.
+Authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
+
+Result: **PASS — 6/6 independently verified / 0 unresolved.**
+
+Source-backed corrections from Phase 1:
+
+1. scan 21 `மகிழ்ந்தான` → `மகிழ்ந்தானா`;
+2. scan 21 `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
+
+No other page-text correction was required. Historical/compact forms, quotation carry, separators, punctuation, unusual source spacing and lineation were checked against the controlling scans. Secondary/later wording was not imported over the source.
 
 ## Current gate result
 
-**PHASE 1 COMPLETE 6/6 / 6 PARTIAL / 0 VERIFIED / SHA-256 STILL PENDING / PHASE 2 NOT STARTED.**
+**PHASE 1 COMPLETE 6/6 / PHASE 2 PASS 6/6 VERIFIED / 0 UNRESOLVED / SHA-256 STILL PENDING / PHASE 3 NOT STARTED.**
 
-Exact next activity: establish the exact source SHA-256 and perform independent **Phase 2 source-critical visual verification** scans **18–23**. Correct only source-backed differences. Phase 3 remains blocked.
+The checksum is now the only source-identity hold before Phase 3. Exact next activity: establish and durably record the exact source SHA-256, then perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–23 only.

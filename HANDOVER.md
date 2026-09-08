@@ -18,18 +18,18 @@ Current state:
 - duplicate check: **PASS — 0 matches**;
 - active-scan visibility: **6/6**;
 - exact SHA: **PENDING**;
-- Phase 1: **COMPLETE — 6/6 lexically populated**;
-- page statuses: **6 `partial` / 0 `verified`**;
-- Phase 2: **NOT STARTED**;
-- Phase 3–4: **BLOCKED**;
+- Phase 1: **COMPLETE — 6/6**;
+- Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
+- page statuses: **6 `verified` / 0 `partial`**;
+- Phase 3–4: **NOT STARTED**;
 - corrected complete direct title: **`தலைகேட்டான் தம்பி`**;
 - scan-18 decoration spatially splits the title as upper `தலைகேட்டான்` + lower `தம்பி`;
 - bibliographic/direct title conflict: **0**;
 - direct scan-18 source-position attribution: **`கருணாநிதி`**.
 
-The complete first-pass text is now present in `poems/thalaikettan-thambi/pages/0018.md`–`0023.md`. It was built from direct controlling-scan inspection with the user's word-for-word extraction used only as an alignment aid. It is not yet independently source-verified.
+Phase-2 authority: `poems/thalaikettan-thambi/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`. Source-backed scan-21 corrections: `மகிழ்ந்தானா` and `கொடை நீரூற்று`.
 
-Exact next activity: **lock the pending SHA-256 from the exact attached 75-page bytes, then perform Phase 2 source-critical visual verification scans 18–23.** Check every lexical ending, compact/historical glyph, punctuation mark, quotation, separator, unusual spacing and line break; correct only source-backed differences; promote only fully checked pages to `verified`; stop before Phase 3.
+Exact next activity: **lock the pending SHA-256 from the exact attached 75-page bytes, then perform Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation scans 18–23.** Stop after Gate 1 unless explicitly directed to continue.
 
 ## Newly closed — ஆந்தையும் அரசனும்! (1965)
 

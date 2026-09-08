@@ -14,17 +14,24 @@ Bibliographic title: **தலைகேட்டான் தம்பி**. Comp
 - duplicate check: **PASS — 0 matches**;
 - complete active-scan visibility: **6/6**;
 - exact SHA-256: **PENDING**;
-- Phase 1: **COMPLETE — 6/6 lexically populated**;
-- page status: **6 `partial` / 0 `verified`**;
-- Phase 2: **NOT STARTED**;
-- Phase 3–4: **BLOCKED**;
+- Phase 1: **COMPLETE — 6/6**;
+- Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
+- page status: **6 `verified` / 0 `partial`**;
+- Phase 3–4: **NOT STARTED**;
 - canonical Tamil / English: **none / none**.
 
-Phase-1 page records are `pages/0018.md`–`0023.md`. They were produced by direct scan inspection from the controlling 1966 PDF with the user's word-for-word extraction used only as an alignment aid. They remain first-pass text and must not be cited as independently verified.
+Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
+
+Two source-backed Phase-2 corrections were made on scan 21:
+
+- `மகிழ்ந்தான` → `மகிழ்ந்தானா`;
+- `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
+
+All other Phase-1 readings were reconfirmed against the controlling scans. User-supplied extraction and secondary witnesses remain non-authoritative aids.
 
 ## Exact next activity
 
 1. Establish the still-pending **SHA-256** from the exact attached 75-page PDF bytes and synchronize the source-identity fields.
-2. Perform **Phase 2 source-critical visual verification** on scans **18–23**, checking every lexical ending, compact/historical glyph, punctuation mark, quotation, separator, unusual spacing and line break against the controlling source.
-3. Correct only source-backed differences and promote pages to `verified` only after successful independent checking.
-4. Stop after Phase 2. Do not begin Phase 3 in the same activity.
+2. Then perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans **18–23**.
+3. Preserve `printed_page: null` unless a numeral is directly visible or a logical mapping is explicitly documented according to repository policy.
+4. Stop after Gate 1 unless explicitly directed to continue to later gates.

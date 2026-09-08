@@ -16,14 +16,16 @@ Current status:
 - duplicate check: **PASS — 0 matches**;
 - active-scan visibility: **6/6**;
 - exact SHA: **PENDING**;
-- Phase 1: **COMPLETE — 6/6 lexically populated**;
-- page statuses: **6 `partial` / 0 `verified`**;
-- Phase 2: **NOT STARTED**;
-- Phase 3–4: blocked;
+- Phase 1: **COMPLETE — 6/6**;
+- Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
+- page statuses: **6 `verified` / 0 `partial`**;
+- Phase 3–4: **NOT STARTED**;
 - complete direct title: **`தலைகேட்டான் தம்பி`**;
 - scan-18 title is spatially decorated as upper `தலைகேட்டான்` plus lower `தம்பி`;
 - bibliographic/direct title conflict: **0**;
 - direct source-position attribution: **`கருணாநிதி`**.
+
+Phase-2 authority: `poems/thalaikettan-thambi/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`. Scan-21 source corrections: `மகிழ்ந்தானா` and `கொடை நீரூற்று`.
 
 ## Mandatory startup
 
@@ -34,19 +36,17 @@ Read before source-dependent writes:
 3. root `HANDOVER.md`;
 4. this prompt;
 5. `poems/thalaikettan-thambi/README.md`;
-6. its `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`;
-7. page records `pages/0018.md`–`0023.md`.
+6. its `SOURCE_INTAKE.md`, `metadata/source.md`, `indexes/page-map.md`, `audit.md`, `HANDOVER.md`, `NEXT_CHAT_PROMPT.md`, `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`;
+7. verified page records `pages/0018.md`–`0023.md`.
 
-Resolve/use the same exact attached 1966 controlling PDF before lexical verification. The controlling scan, not OCR/web/catalogue/later witnesses, governs all Tamil readings. The user-supplied extraction is an alignment aid only.
+Resolve/use the same exact attached 1966 controlling PDF before source-dependent work. The controlling scan, not OCR/web/catalogue/later witnesses, governs all Tamil readings.
 
 ## Exact next activity
 
 1. Establish and durably record SHA-256 from the exact 75-page source bytes.
-2. Perform **Phase 2 source-critical visual verification** for scans **18–23**.
-3. Independently check every word ending and compact/historical Tamil glyph, plus punctuation, quotation marks, separators, unusual spacing and lineation.
-4. Correct only source-backed differences.
-5. Promote pages to `verified` only after their complete visual check passes.
-6. Stop after Phase 2. Do not begin Phase 3 in the same activity.
+2. Perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans **18–23**.
+3. Account for every physical scan and distinguish visible printed numerals from logical/inferred pagination; never use scan numbers as printed numbers.
+4. Stop after Gate 1 unless explicitly directed to continue.
 
 ## Closed — ஆந்தையும் அரசனும்!
 
