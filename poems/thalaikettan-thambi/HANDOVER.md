@@ -29,6 +29,14 @@ Two source-backed Phase-2 corrections were made on scan 21:
 - `மகிழ்ந்தான` → `மகிழ்ந்தானா`;
 - `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
 
+Post-Phase-2 structural-role correction authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
+
+- scan 18 trailing body duplication `தம்பி` / `கருணாநிதி` was removed;
+- `தம்பி` remains preserved as the lower decorated title element of `தலைகேட்டான் தம்பி`;
+- `கருணாநிதி` remains preserved as the direct source-position author attribution;
+- no poem-body lexical reading changed;
+- scan 18 remains `verified`.
+
 Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
 
 Gate-1 result:
@@ -38,7 +46,6 @@ Gate-1 result:
 - logical printed-page assignments supported by source: **0/6**;
 - confirmed `printed_page: null`: **6/6**;
 - missing / duplicate active scans: **0 / 0**;
-- page-text changes: **0**;
 - unresolved pagination issues: **0**.
 
 User-supplied extraction and secondary witnesses remain non-authoritative aids.
