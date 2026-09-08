@@ -102,7 +102,7 @@ Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/S
 
 Reports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`, `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` and `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Across the identity batches, **11 new MATCHED** identities and **19 NOT YET REPRESENTED** dispositions were hardened from source payload/event context.
 
-Batch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book current tally: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+Batch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book tally immediately after BU-SP1 closure: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
 For Batch 3, exact Volume-I bytes were independently locked to **249 pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`** before physical pages **206–249** were rendered. English OCR was used only as a reading/navigation aid for this institutional secondary witness; it did not reconstruct or mutate Tamil.
 
@@ -112,9 +112,13 @@ The earlier confirmed-MATCHED payload lane remains **22/22 for the matches known
 
 Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final BU-SP1 identity state is **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — CLOSED**. The separate historical payload-comparison closure remains **22/22 of the matches known at that stage**.
 
+## BU-SP3 identity investigation Batch 1 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10** were hardened **NOT YET REPRESENTED** from direct physical pages **27–59** / printed pages **1–33**. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. BU-SP3 now stands at **0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50**; four-book tally **68 MATCHED / 0 POSSIBLE / 68 NOT YET REPRESENTED / 40 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order**. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
+Run **BU-SP3 Identity Investigation Batch 2 — entries 11–20 in source order**. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
 
 ## Release-cleared work rule
 

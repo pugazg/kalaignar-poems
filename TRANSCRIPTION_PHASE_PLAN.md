@@ -117,13 +117,17 @@ Report `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md
 
 Summary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final identity state: **33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE = 52**. The historical payload lane remains **22/22 of the matches known at that stage**.
 
+### BU-SP3 identity investigation Batch 1 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10** → **10 NOT YET REPRESENTED**, with **0 MATCHED / 0 unresolved** and Tamil / released-English mutations **0 / 0**. Current BU-SP3: **0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50**.
+
 ### Current comparison activity — NEXT
 
-**BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order.**
+**BU-SP3 Identity Investigation Batch 2 — entries 11–20 in source order.**
 
 ### Planned witness sequence
 
-1. BU-SP3 — item-level matching of the **50 INVESTIGATE** entries, beginning with entries 1–10;
+1. BU-SP3 — continue item-level matching of the **40 remaining INVESTIGATE** entries, next entries 11–20;
 2. BU-SP2 — retain its 39 NOT YET REPRESENTED entries until source-backed identities are established or a new controlling/source witness is supplied.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
@@ -132,4 +136,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP3 Identity Investigation Batch 1 — entries 1–10 — identity/crosswalk report only**.
+Proceed with **BU-SP3 Identity Investigation Batch 2 — entries 11–20 — identity/crosswalk report only**.

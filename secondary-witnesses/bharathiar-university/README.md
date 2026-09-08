@@ -31,10 +31,10 @@ The four contents witnesses contain **176 translated entries**:
 
 - Volume I: **52** — 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE;
 - Volume II: **40** — 1 MATCHED / 39 NOT YET REPRESENTED;
-- Volume III: **50** — 50 INVESTIGATE;
+- Volume III: **50** — 0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE;
 - *Treasure Trove*: **34** — 34 MATCHED.
 
-Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**.
+Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 68 NOT YET REPRESENTED / 40 INVESTIGATE = 176**.
 
 See `MASTER_CROSSWALK.md` and the per-book crosswalks.
 
@@ -160,6 +160,10 @@ Consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`
 
 Consolidated identity record: `comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — IDENTITY CLOSED**. The historical payload-comparison closure remains **22/22 of the matches known at that stage**; eleven later identity matches are not retroactively counted as payload-compared. Tamil / released-English mutations from BU-SP1 identity work: **0 / 0**.
 
+### BU-SP3 identity investigation Batch 1 — COMPLETE
+
+Report: `comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10** were inspected from actual Volume-III page images, physical pages **27–59** / printed pages **1–33**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**; Tamil / RELEASE-CLEARED English mutations **0 / 0**. Current BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50**.
+
 ## Next activity
 
-Proceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order**. Use actual Volume-III payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+Proceed to **BU-SP3 Identity Investigation Batch 2 — entries 11–20 in source order**. Use actual Volume-III payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
