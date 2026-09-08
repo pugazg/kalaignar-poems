@@ -13,7 +13,7 @@ Exact witness set:
 - BU-SP3 — *Shower of Poetry*, Volume III — **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**;
 - BU-TT — *The Treasure Trove of Time and the Verse Key* — **205 pages / 106,152,046 bytes / SHA-256 `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b`**.
 
-Renderer warning: Volumes I, III and BU-TT may expose only 150 pages through a renderer; exact-byte counts above control.
+Renderer warning: BU-TT may expose only 150 pages in the conversation renderer. For Batch 4, physical pages **151–174** were inspected by direct rendering from the exact checksum-locked PDF bytes; no OCR reconstruction was used.
 
 Initial crosswalk: **176 entries = 55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**.
 
@@ -27,49 +27,47 @@ These books must not silently modify Tamil or RELEASE-CLEARED English.
 
 ## Comparison Batch 1 — COMPLETE
 
-`secondary-witnesses/bharathiar-university/comparisons/01-thalaikettan-thambi.md`
-
-`தலைகேட்டான் தம்பி` vs BU-SP2 item 17: **PASS / REPORT-ONLY**. Tamil/source corrections **0**; released-English changes **0**. Two strong source-supported future English review candidates were recorded. The work remains CLOSED / RELEASE-CLEARED.
+`comparisons/01-thalaikettan-thambi.md` — `தலைகேட்டான் தம்பி` vs BU-SP2 item 17: **PASS / REPORT-ONLY**. Tamil/source corrections **0**; released-English changes **0**. Two strong source-supported future English review candidates were recorded.
 
 ## Comparison Batch 2 — COMPLETE
 
-`secondary-witnesses/bharathiar-university/comparisons/02-treasure-trove-items-01-10.md`
-
-BU-TT entries **1–10** vs repository items **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**: **PASS / REPORT-ONLY**, 10/10 compared, Tamil/source corrections **0**, released-English corrections **0**, mutations **0 / 0**.
-
-Key Batch-2 guardrails: BU entry 6 truncates item 17; BU entry 4's negative Stone-Age interpretation does not override verified `காணமுடியக்`; BU entry 10's “ignorant look” does not override verified `அரியா நோக்கு`.
+`comparisons/02-treasure-trove-items-01-10.md` — BU-TT entries **1–10** vs repository items **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**: **PASS / REPORT-ONLY**, 10/10 compared, mutations **0 / 0**.
 
 ## Comparison Batch 3 — COMPLETE
 
-`secondary-witnesses/bharathiar-university/comparisons/03-treasure-trove-items-11-20.md`
+`comparisons/03-treasure-trove-items-11-20.md` — BU-TT entries **11–20** vs repository items **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**: **PASS / REPORT-ONLY**, 10/10 compared, mutations **0 / 0**.
 
-Scope: BU-TT entries **11–20**, physical PDF pages **75–122** / printed pages **45–92**, mapped to repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
+Important durable findings: item 31 source title/body anomaly (`மகனும்` title vs `தாய் மகள்` body), BU `winnowing fan` rejected against verified `முரசு`, and BU female retitle of item 36 rejected against source `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
+
+## Comparison Batch 4 — COMPLETE
+
+`secondary-witnesses/bharathiar-university/comparisons/04-treasure-trove-items-21-30.md`
+
+Scope: BU-TT entries **21–30**, printed pages **93–144**, supplied PDF physical pages **123–174**, mapped to repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**.
 
 Result: **PASS / REPORT-ONLY**.
 
 - items compared: **10/10**;
-- Tamil/source transcription correction candidates: **0**;
+- Tamil/source correction candidates: **0**;
 - source-supported released-English correction candidates: **0**;
 - title replacements: **0**;
-- Tamil / released-English changes: **0 / 0**.
+- Tamil / released-English mutations: **0 / 0**.
 
 Key findings:
 
-- item 31 is a verified **source title/body anomaly**: title `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` says son, but the verified closing body says `மாண்பு நிறை தாய் மகள் வரலாறு`; Bharathiar's **An Honourable Mother and an Upright Daughter** is a later editorial harmonization, not proof of a transcription error;
-- BU entry 18 **A Young Lady, She is a Tamil Lady!** is an editorial retitle toward Anni Minjili; source item 36 remains `இளையவன்; அவன் ஒரு தமிழ் மகன்!`;
-- BU entry 13's **winnowing fan** cannot override FINAL-CLEARED `முரசு கொண்டு புலி விரட்டிய தமிழச்சி`; repository **war-drum** remains correct for this edition;
-- BU entry 16's **the Head That Hung** is a weaker fit for source `குனிந்திடும்`; repository **Heads Bow Down** is retained;
-- dominant pattern remains smoothing, condensation, transliteration differences and occasional editorial retitling.
+- BU entry 21 omits repository item 39's final *Periya Puranam* / Sekkizhar Vatapi-campaign quotation;
+- BU entry 23 singularizes source `ஈக்களின்` as **a Fly**; repository **Flies** remains source-controlled;
+- BU entry 26's **Future Dear** is weaker than source `அருங்காலம்`; repository **Precious Age** remains closer;
+- BU entry 30 materially truncates item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and closing transition;
+- dominant pattern continues to be smoothing, condensation, transliteration and interpretive retitling rather than repository defects.
 
 No release-cleared item was reopened.
 
 ## Exact next activity
 
-Proceed with **Secondary Witness Comparison Batch 4 — BU-TT entries 21–30**, mapped to repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**.
+Proceed with **Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
 
-Inspect exact BU pages, compare against FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write **report only**. Do not mutate Tamil or released English without a separate documented source-backed reopen.
-
-After Batch 4, process final BU-TT entries **31–34** as Batch 5.
+Inspect exact BU pages, compare against FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write **report only**. After Batch 5, create a consolidated **34/34 BU-TT comparison summary** before moving to another secondary-witness lane.
 
 ## Release-cleared work remains frozen
 
