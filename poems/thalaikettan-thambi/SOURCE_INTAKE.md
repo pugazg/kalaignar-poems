@@ -9,40 +9,33 @@
 - SHA-256: **`92576adf33cf4908e2079632c62e12f4a4ada33fd591765d242645bb0bd8795a`**;
 - source PDF committed: **No**.
 
-Exact-byte identity is now locked. The attached 30,952,719-byte source and an independently materialized copy produced the same SHA-256.
+Exact-byte source identity: **LOCKED**.
 
-## User bibliographic record
+## Bibliographic / direct source record
 
 - title: **தலைகேட்டான் தம்பி**;
 - author: **கலைஞர் மு. கருணாநிதி**;
-- publication: **முரசொலி-பொங்கல் மலர்**;
-- edition/year: **1966**.
+- publication/year: **முரசொலி-பொங்கல் மலர் / 1966**;
+- active range: **scans 18–23 = 6**;
+- scan 17: unrelated photograph — excluded;
+- scan 24: unrelated cartoon — excluded.
 
-## Direct visual intake
+Scan 18 carries the complete title as upper decorated `தலைகேட்டான்` + lower decorated `தம்பி`, plus source-position author attribution `கருணாநிதி`. Those structural labels are not poem-body text.
 
-- scan **17**: unrelated full-page photograph — neighbour only;
-- scan **18**: decorated opening; complete direct title **`தலைகேட்டான் தம்பி`** — active;
-- scans **19–23**: continuing scoped work — active;
-- scan **24**: unrelated cartoon — neighbour only.
+## Final processing state
 
-Active range: **18–23 = 6 physical scans**.
+- page records: **6/6 verified**;
+- Phase 1: **COMPLETE**;
+- Phase 2: **PASS / 0 unresolved**;
+- Phase 3 Gates 1–6: **PASS / TAMIL FINAL-CLEARED**;
+- Phase 4 translation/review/release: **COMPLETE / RELEASE-CLEARED**;
+- canonical Tamil: `sections/01.md` — scans 18–23 exactly once;
+- canonical source map: `indexes/canonical-source-map.md`;
+- reviewed English: `translations/en/sections/01.md`;
+- reader-facing English: `translations/en/thalaikettan-thambi-en.md`;
+- release authority: `translations/en/RELEASE_REPORT.md`;
+- unresolved issues: **0**.
 
-### Scan-18 title / author layout
+The user-supplied transcription and any secondary witness remain non-authoritative aids; the controlling 1966 scans govern the Tamil layer.
 
-The complete direct title is **`தலைகேட்டான் தம்பி`**, distributed as upper decorated `தலைகேட்டான்` plus lower decorated `தம்பி`. Scan 18 also carries the source-position attribution **`கருணாநிதி`**. `தம்பி` and `கருணாநிதி` are structural title/author material and are not repeated as poem-body text. Authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
-
-## Processing state
-
-- page records: **6/6 populated**;
-- Phase 1: **COMPLETE — 6/6**;
-- Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
-- Phase 3 Gate 1: **PASS — `printed_page: null` confirmed 6/6**;
-- Phase 3 Gate 2: **PASS — opening 1/1, internal joins 5/5, closing 1/1**;
-- Phase 3 Gate 3: **PASS — canonical title authority `தலைகேட்டான் தம்பி`**;
-- Phase 3 Gate 4: **PASS — canonical Tamil assembled from verified scans 18–23 in `sections/01.md`**;
-- canonical scan markers: **18–23 exactly once**;
-- critical 22→23 direct carry preserved without an inserted separator;
-- Phase 3 Gates 5–6: **NOT STARTED**;
-- Phase 4: **BLOCKED**.
-
-Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review** of `sections/01.md` against `pages/0018.md`–`0023.md`. Do not grant Tamil final clearance inside Gate 5.
+**CLOSED / RELEASE-CLEARED — 2026-09-08.**
