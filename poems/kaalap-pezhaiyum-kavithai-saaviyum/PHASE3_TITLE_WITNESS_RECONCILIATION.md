@@ -4,7 +4,9 @@
 
 **COMPLETE — all documented contents/title-page differences reconciled as separate source witnesses.**
 
-This record follows completion of the 58-item boundary and page-join audit. It resolves **assembly authority**, not source wording: neither witness is corrected into the other.
+Post-release source correction on **2026-09-08**: item 31 was reopened after a direct reread of title scan 148. The poem-page title is `மாண்பு நிறை தாயும் மாசற்ற மகளும்!`; the earlier record had accidentally carried contents-witness `மகனும்` into the title-page layer. The contents witness itself remains unchanged.
+
+This record resolves **assembly authority**, not source wording: neither witness is corrected into the other.
 
 ## Governing source rule
 
@@ -48,7 +50,7 @@ Reconciliation rule:
 | 25 | 123 | 124 | `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்!` | `கலாச்சாரத்தின்மீது கண்ணகி காட்டிய அழுத்தம்` | final punctuation | Assembled title follows title page without final `!`; contents witness remains unchanged. |
 | 26 | 127 | 128 | `விழித்தெழுக; இதோ, செம்மொழி விடியல்!` | `விழித்தெழுக; இதோ செம்மொழி விடியல்!` | comma omission | Assembled title follows title page without the comma after `இதோ`; contents witness remains unchanged. |
 | 29 | 139 | 140 | `தாயே, தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` | `தாயே தந்திடு எமக்கு தன்மானச் செல்வங்களை ஈன்று!` | comma omission | Assembled title follows title page without the comma after `தாயே`; contents witness remains unchanged. |
-| 31 | 147 | 148 | `மாண்பு நிறை தாயும், மாசற்ற மகனும்!` | `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` | comma omission | Assembled title follows title page without the comma after `தாயும்`; contents witness remains unchanged. |
+| 31 | 147 | 148 | `மாண்பு நிறை தாயும், மாசற்ற மகனும்!` | `மாண்பு நிறை தாயும் மாசற்ற மகளும்!` | **lexical `மகனும்` → `மகளும்` + comma omission** | **Use direct title-page `மகளும்` form for canonical/displayed title; retain contents `மகனும்` exactly as the contents witness.** |
 | 32 | 151 | 152 | `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!` | `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்` | substantive wording + punctuation | Treat as two distinct printed witnesses. Use the title-page wording exactly for assembled title; retain contents wording exactly as the contents witness. |
 | 37 | 178 | 179 | `அன்பால் அவனை விலை கொள்ள முடியுமா?` | `அன்பால் அவனை விலைகொள்ள முடியுமோ?` | word division + lexical/interrogative form; title page also prints item `36` | Use title-page wording for assembled title. Keep sequence identity as item 37 and separately preserve printed item number `36`. |
 | 40 | 194 | 195 | `காஞ்சி மண் காட்டிய கனிவும் கருணையும்!` | `காஞ்சி மண் காட்டிய கனிவும் கருணையும்` | final punctuation | Assembled title follows title page without final `!`; contents witness remains unchanged. |
@@ -58,22 +60,22 @@ Reconciliation rule:
 | 54 | 270 | 271 | `தலையாலங்கானத்துச் செரு வென்றான்!` | `தலையாலங்கானத்துச் செருவென்றான்!` | word joining | Use joined title-page form `செருவென்றான்!` in assembled title; retain spaced contents witness. |
 | 58 | 295 | 296 | `பகை வாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்` | `பகைவாள் முனை மருங்க; நாள் எல்லாம் உழைப்போம்!` | word joining + final punctuation | Use title-page `பகைவாள்` and final `!` in assembled title; retain contents witness unchanged. |
 
+## Item 31 source-backed correction note
+
+The title-page reread on 2026-09-08 establishes that the direct opening page visibly reads:
+
+`மாண்பு நிறை தாயும்`
+`மாசற்ற மகளும்!`
+
+The contents page independently reads `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`. The earlier Phase-2/title-reconciliation record incorrectly conflated these witnesses. The correction is therefore **not editorial harmonization**: it restores the direct title-page witness and preserves the contents witness separately. The body, which concerns Madhavi and Manimekalai and closes with `மாண்பு நிறை தாய் மகள் வரலாறு`, is consistent with the corrected item-opening title but did not serve as authority for changing it.
+
 ## Non-discrepant titles
 
 For the other **44/58 items**, the verified contents title and title-page title do not require a witness-specific assembly decision. Canonical assembly still derives the displayed title from the verified item-opening page record, with the contents index retained independently.
 
 ## Required canonical-assembly metadata
 
-For every discrepant item, the later assembled item should make the witness distinction durable. At minimum it must retain:
-
-- stable item sequence number;
-- title-page title used by the assembled item;
-- contents title as the alternate source witness;
-- physical title scan;
-- printed start page / reconciled range;
-- for item 37 only, `printed_item_number: 36` or an equivalent explicit source-anomaly note.
-
-This may be represented in front matter or in a source note, but the distinction must not be lost during filename creation or canonical assembly.
+For every discrepant item, the assembled item must retain stable item sequence number, title-page title, contents-title witness, title scan and reconciled source range. For item 37 only, preserve the anomalous printed item number `36` separately.
 
 ## Reconciliation result
 
@@ -81,6 +83,7 @@ This may be represented in front matter or in a source note, but the distinction
 - contents witnesses preserved: **14/14**;
 - title-page witnesses preserved: **14/14**;
 - hybrid/normalized titles created: **none**;
+- item-31 direct title-page correction: **applied — `மகளும்`**;
 - item-37 printed-number anomaly preserved: **yes**;
 - title authority for canonical assembly: **title-page witness**;
 - title authority for contents/index representation: **contents witness**;
@@ -88,8 +91,4 @@ This may be represented in front matter or in a source note, but the distinction
 
 ## Phase-3 gate
 
-The title-witness reconciliation gate is now **PASS**.
-
-Canonical Tamil assembly is therefore **UNBLOCKED**. The next Phase-3 activity is to assemble the **58 separate canonical Tamil item files from verified page records**, preserving verified lineation, page-order joins, source separators/notes, and the title authority rules above.
-
-Do not begin Phase 4 translation until canonical assembly, assembly/source-completeness review, and Tamil final clearance are complete.
+The title-witness reconciliation gate remains **PASS** after the documented item-31 source-backed correction. Canonical item 31 and its English title layer must use the corrected direct title-page witness while retaining the contents variant as provenance.
