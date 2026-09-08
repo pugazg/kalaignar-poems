@@ -14,13 +14,14 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
 - page statuses: **6 `verified` / 0 `partial`**;
 - direct title: **`தலைகேட்டான் தம்பி`**, spatially split as upper `தலைகேட்டான்` + lower `தம்பி`;
-- bibliographic/direct title conflict: **0**;
 - direct source-position attribution: **`கருணாநிதி`**;
+- scan-18 structural-role correction: **COMPLETE** — title/author duplication removed from poem body; lexical verse unchanged;
 - Phase-2 source corrections: scan 21 `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
-- Phase 3 Gate 1: **PASS — physical scans 6/6 accounted; visible printed numerals 0/6; logical printed-page assignments 0/6; `printed_page: null` confirmed 6/6; unresolved pagination 0**;
-- Phase 3 Gates 2–6: **NOT STARTED / blocked until exact source SHA is locked**;
+- Phase 3 Gate 1: **PASS — scans 6/6 accounted; visible printed numerals 0/6; logical assignments 0/6; `printed_page: null` confirmed 6/6**;
+- Phase 3 Gate 2: **PASS — opening 1/1, internal joins 5/5, closing 1/1, unresolved 0**;
+- Phase 3 Gates 3–6: **NOT STARTED / blocked until exact source SHA is locked**;
 - Phase 4: **BLOCKED**;
-- exact next activity: **lock exact source SHA, then Phase 3 Gate 2 boundary/page-join audit for 17→18, 18→19 through 22→23, and 23→24; stop after Gate 2 unless explicitly directed**.
+- exact next activity: **lock exact source SHA, then Phase 3 Gate 3 title-witness reconciliation; do not begin Gate 4 unless explicitly directed to process remaining gates**.
 
 ## Most recently completed — ஆந்தையும் அரசனும்! — 1965
 
@@ -41,4 +42,4 @@ Do not reopen completed work without genuinely new source-backed evidence.
 
 ## Exact next activity
 
-Proceed with **`தலைகேட்டான் தம்பி` source-identity lock + Phase 3 Gate 2 only**: compute the pending SHA from the exact attached 75-page PDF, then certify the opening, five internal joins and closing boundary without altering verified source wording. Do not begin Gate 3 unless explicitly directed.
+Proceed with **`தலைகேட்டான் தம்பி` source-identity lock + Phase 3 Gate 3 only**: compute and durably record the pending exact SHA from the same attached 75-page PDF, then reconcile the direct and bibliographic title witnesses and formalize canonical title authority. Do not begin canonical assembly unless explicitly directed to process remaining gates.
