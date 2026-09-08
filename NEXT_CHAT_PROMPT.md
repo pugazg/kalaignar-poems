@@ -39,42 +39,51 @@ Renderer note: Volumes I, III and BU-TT may expose only a 150-page tooling windo
 
 ### Batch 1 — `தலைகேட்டான் தம்பி`
 
-Report: `comparisons/01-thalaikettan-thambi.md`. **PASS / REPORT-ONLY**; Tamil changes 0, released-English changes 0; two strong future English-review candidates recorded.
+Report `comparisons/01-thalaikettan-thambi.md`: **PASS / REPORT-ONLY**; Tamil changes 0, released-English changes 0; two strong future English-review candidates recorded.
 
 ### Batch 2 — BU-TT entries 1–10
 
-Report: `comparisons/02-treasure-trove-items-01-10.md`.
+Report `comparisons/02-treasure-trove-items-01-10.md`: **PASS / REPORT-ONLY**, 10/10 compared, Tamil/source corrections 0, released-English corrections 0, mutations 0/0.
 
-Mapped repository items: **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**. BU physical pages **31–74**, printed pages **1–44**.
+### Batch 3 — BU-TT entries 11–20
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/03-treasure-trove-items-11-20.md`.
+
+Mappings: **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**. BU physical pages **75–122**, printed pages **45–92**.
 
 Result: **PASS / REPORT-ONLY**.
 
 - items compared: **10/10**;
-- Tamil/source correction candidates: **0**;
-- released-English correction candidates: **0**;
+- Tamil/source transcription correction candidates: **0**;
+- source-supported released-English correction candidates: **0**;
 - title replacements: **0**;
 - Tamil / released-English changes: **0 / 0**.
 
-Important findings: BU entry 6 substantially truncates repository item 17; BU entry 8 condenses Sangam quotation/citation structure in item 20; BU entry 4's negative Stone-Age interpretation does not override verified Tamil `காணமுடியக்`; BU entry 10's “ignorant look” does not override verified `அரியா நோக்கு`.
+Important findings:
 
-## Exact next activity — Batch 3
+1. item 31 source title/body anomaly is real and source-verified: title `மாசற்ற மகனும்` vs closing body `தாய் மகள் வரலாறு`; Bharathiar's **daughter** title is a later editorial harmonization, not authority over the controlling title;
+2. BU entry 18 **A Young Lady, She is a Tamil Lady!** retitles source item 36 toward Anni Minjili; controlling title remains `இளையவன்; அவன் ஒரு தமிழ் மகன்!`;
+3. BU entry 13 uses **winnowing fan**, but FINAL-CLEARED scan 130 explicitly has `முரசு`; repository **war-drum** remains correct for this edition;
+4. BU entry 16's **Head That Hung** does not displace source-specific `குனிந்திடும்` / repository **Heads Bow Down**.
+
+## Exact next activity — Batch 4
 
 Book: **BU-TT — The Treasure Trove of Time and the Verse Key**.
 
-Scope: **entries 11–20**.
+Scope: **entries 21–30**.
 
 Repository mappings:
 
-- 11 → item 23;
-- 12 → item 24;
-- 13 → item 26;
-- 14 → item 29;
-- 15 → item 31;
-- 16 → item 32;
-- 17 → item 35;
-- 18 → item 36;
-- 19 → item 37;
-- 20 → item 38.
+- 21 → item 39;
+- 22 → item 40;
+- 23 → item 44;
+- 24 → item 45;
+- 25 → item 46;
+- 26 → item 47;
+- 27 → item 49;
+- 28 → item 50;
+- 29 → item 51;
+- 30 → item 52.
 
 For each entry:
 
@@ -82,12 +91,7 @@ For each entry:
 2. compare with FINAL-CLEARED Tamil and RELEASE-CLEARED repository English;
 3. classify title, semantic, omission/condensation, expansion, transliteration/name and structural differences;
 4. identify only independently source-supported English reopen candidates;
-5. produce one durable Batch-3 report;
+5. produce one durable Batch-4 report;
 6. make **no Tamil or released-English changes**.
 
-Special attention:
-
-- BU 15 **An Honourable Mother and an Upright Daughter** vs source-controlled item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`;
-- BU 18 **A Young Lady, She is a Tamil Lady!** vs source-controlled item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
-
-After Batch 3, continue BU-TT entries 21–30 and 31–34 unless the user redirects scope.
+After Batch 4, process final BU-TT entries 31–34 as Batch 5 unless the user redirects scope.
