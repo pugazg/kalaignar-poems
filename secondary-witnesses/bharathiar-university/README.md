@@ -50,25 +50,33 @@ Result: **PASS / REPORT-ONLY**. Tamil/source correction candidates **0**; releas
 
 Report: `comparisons/02-treasure-trove-items-01-10.md`.
 
-Compared supplied BU-TT physical PDF pages **31–74** / printed pages **1–44** with stable repository items **1, 2, 5, 6, 11, 17, 19, 20, 21 and 22** in `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
+Compared supplied BU-TT physical PDF pages **31–74** / printed pages **1–44** with stable repository items **1, 2, 5, 6, 11, 17, 19, 20, 21 and 22**.
+
+Result: **PASS / REPORT-ONLY** — 10/10 compared, Tamil/source corrections **0**, released-English corrections **0**, text mutations **0 / 0**. Dominant pattern: smoothing, condensation and transliteration differences. Major preserved findings include BU entry 6 truncating repository item 17, BU entry 4's negative Stone-Age normalization conflicting with verified `காணமுடியக்`, and BU entry 10's `ignorant look` conflicting with verified `அரியா நோக்கு`.
+
+### Batch 3 — BU-TT entries 11–20
+
+Report: `comparisons/03-treasure-trove-items-11-20.md`.
+
+Compared supplied BU-TT physical PDF pages **75–122** / printed pages **45–92** with repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
 
 Result: **PASS / REPORT-ONLY**.
 
 - items compared: **10/10**;
-- Tamil/source correction candidates established: **0**;
-- released-English correction candidates established: **0**;
+- Tamil/source transcription correction candidates: **0**;
+- source-supported released-English correction candidates: **0**;
 - title replacements: **0**;
-- Tamil changes: **0**;
-- released-English changes: **0**.
+- Tamil / released-English changes: **0 / 0**.
 
 High-value findings:
 
-- BU-TT entry 6 (`Where to Start Writing World History?`) substantially truncates repository item 17, omitting the source's later Kumari Kandam/Pavanar/Vincent Smith/Sundaranar/world-history-from-the-south movement;
-- BU-TT entry 8 condenses the extended Sangam quotation/citation structure of repository item 20;
-- BU-TT entry 4 gives a later interpretive **negative** for the Stone-Age `கருணையும் பண்பாடும்... காணமுடியக்` line, while the FINAL-CLEARED Tamil page explicitly preserves the positive source spelling; no normalization was imported;
-- BU-TT entry 10 renders `அரியா நோக்கு` as an “ignorant look,” while FINAL-CLEARED Tamil is `அரியா`, and repository English correctly preserves the rare/hard-to-know wordplay rather than changing it to `அறியா`.
+- item 31 is a genuine **source title/body anomaly**: verified title `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` says **son**, while the verified body closes with `மாண்பு நிறை தாய் மகள் வரலாறு`; Bharathiar's **An Honourable Mother and an Upright Daughter** is a later editorial harmonization, not evidence that the source title was mistranscribed;
+- BU entry 18 **A Young Lady, She is a Tamil Lady!** is a later protagonist-oriented retitling; verified source item 36 remains `இளையவன்; அவன் ஒரு தமிழ் மகன்!`;
+- BU entry 13 says a Tamil woman drove away a tiger with a **winnowing fan**, but FINAL-CLEARED scan 130 explicitly reads `முரசு கொண்டு புலி விரட்டிய தமிழச்சி`; repository **war-drum** remains source-controlled;
+- BU entry 16 **the Head That Hung** is a weaker fit for source `குனிந்திடும்`; repository **Heads Bow Down** is retained;
+- structural condensation remains recurrent across all ten entries.
 
-The overall Batch-2 pattern is **smoothing + recurrent condensation**; the source-first repository English is more complete across these ten items.
+No release-cleared item was reopened.
 
 ## High-value established relationships
 
@@ -78,8 +86,6 @@ The overall Batch-2 pattern is **smoothing + recurrent condensation**; the sourc
 
 ## Next activity
 
-Perform **Secondary Witness Comparison Batch 3 — BU-TT mapped entries 11–20**, corresponding to repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
+Perform **Secondary Witness Comparison Batch 4 — BU-TT mapped entries 21–30**, corresponding to repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**.
 
-This batch includes two known high-value title divergences: BU entry 15 **An Honourable Mother and an Upright Daughter** versus source-controlled repository item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`, and BU entry 18 **A Young Lady, She is a Tamil Lady!** versus source-controlled item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
-
-Continue report-only. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.
+Continue report-only. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision. After Batch 4, process the final BU-TT entries **31–34** as Batch 5.
