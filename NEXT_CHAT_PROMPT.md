@@ -101,21 +101,30 @@ Strong witness diagnostics:
 
 These are secondary-witness issues; the source-controlled repository remains unchanged.
 
-## Exact next activity — BU-SP1 payload comparison Batch 2
+## BU-SP1 payload comparison Batch 2 — COMPLETE
 
-Compare confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33** against their FINAL-CLEARED Tamil and RELEASE-CLEARED English targets.
+Report: `secondary-witnesses/bharathiar-university/comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`.
 
-Exact BU printed / physical PDF ranges:
+Scope: confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**. Result: **PASS / REPORT-ONLY — 10/10**; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
 
-- entry 19: **90–95 / 114–119**;
-- entry 21: **98–104 / 122–128**;
-- entry 22: **105–110 / 129–134**;
-- entry 23: **111–115 / 135–139**;
-- entry 25: **118–125 / 142–149**;
-- entry 26: **126–130 / 150–154**;
-- entry 27: **131–132 / 155–156**;
-- entry 28: **133–141 / 157–165**;
-- entry 30: **146–147 / 170–171**;
-- entry 33: **156–158 / 180–182**.
+Strong witness diagnostics:
 
-The normal renderer may stop at 150 pages. For physical pages **150–182**, render directly from the same exact checksum-locked Volume-I PDF bytes; do not use OCR reconstruction. Classify title, semantics, omissions/condensation, expansion, transliteration/name choice and structure. Produce a durable report only; do not mutate Tamil or released English.
+- entry 19 — BU omits the long Nehru/Rose flower-garden allegory;
+- entry 21 — source `பொன்விழா` becomes BU **Diamond Jubilee**, and the BU footnote gives an impossible Silver-Jubilee date **10-08-1922** instead of the source-controlled 1972 event;
+- entry 25 — BU heavily condenses the Poompuhar / Silappathikaram / Tolkappiyam / eight-meyppadu / abhinaya architecture;
+- entry 26 — BU translates `ஆத்திகம்` as **agnosticism** instead of theism and omits the Kamban/Ravana interrogation plus the Anna-work-title chain;
+- entry 28 — BU footnote **07-11-1980** conflicts with controlling Tamil opening **7.1.80**;
+- remaining differences are predominantly condensation, title interpretation, honorific normalization and loss of Tamil sound-play.
+
+The source-controlled repository remains unchanged.
+
+## Exact next activity — final BU-SP1 confirmed-MATCHED payload batch
+
+Compare the final two confirmed MATCHED Volume-I entries:
+
+1. entry **39 — Rationalist, Pandyan** → `poems/kalaignarin-kavithaigal/` item **48**;
+2. entry **40 — No Day there is That May be his Birthday Called** → item **46**.
+
+Inspect their exact BU payloads against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Classify title, semantics, omissions/condensation, expansion, transliteration/name choice, structure and possible mistranslation. Produce a report only; do not mutate Tamil or released English.
+
+After those two are complete, create a consolidated **22/22 confirmed-MATCHED BU-SP1 comparison summary**, then proceed to identity investigation of the remaining **30 INVESTIGATE** Volume-I entries.

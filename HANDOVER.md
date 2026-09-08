@@ -84,9 +84,15 @@ Report `secondary-witnesses/bharathiar-university/comparisons/06-shower-of-poetr
 
 Report `secondary-witnesses/bharathiar-university/comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`: confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**, **PASS / REPORT-ONLY — 10/10**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**. Strong diagnostics include BU `பஞ்சைகளல்ல` → **cowards**, `கிந்தன்` → **Kandan**, omission of the New Path river-love sequence and Bharathidasan Muthamma dream, and Calculation-I `மணக்கணக்கு` → **mental calculation** / `வேங்கை` → **lion** / river → **rains**.
 
+## BU-SP1 payload comparison Batch 2 — COMPLETE
+
+Report `secondary-witnesses/bharathiar-university/comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`: entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**, **PASS / REPORT-ONLY — 10/10**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**. Exact-byte direct rendering was used for physical Volume-I pages beyond the normal 150-page renderer window; no OCR reconstruction.
+
+Key diagnostics: entry 19 omits the Nehru/Rose allegory; entry 21 has `பொன்விழா` → **Diamond Jubilee** plus a BU **1922** metadata error; entry 25 heavily condenses the Silappathikaram/Tolkappiyam/abhinaya blocks; entry 26 has `ஆத்திகம்` → **agnosticism** and omits the Kamban/Ravana + Anna-title chain; entry 28 has BU **07-11-1980** against source **7.1.80**.
+
 ## Exact next activity
 
-Run BU-SP1 payload-comparison Batch 2 for confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**, report-only. Physical witness ranges extend through PDF page **182**, so direct-render the exact checksum-locked bytes beyond the normal 150-page renderer window.
+Run the final confirmed-MATCHED BU-SP1 payload comparison for entries **39 and 40** (`Rationalist, Pandyan` → item 48; `No Day there is That May be his Birthday Called` → item 46), then create a consolidated **22/22 confirmed-MATCHED Volume-I summary**. Report-only.
 
 ## Release-cleared work rule
 

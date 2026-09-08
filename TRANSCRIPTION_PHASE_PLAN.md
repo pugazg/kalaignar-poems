@@ -89,16 +89,19 @@ Report `comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`. Former POS
 
 Report `comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`: entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**, **PASS / REPORT-ONLY — 10/10**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
 
+### BU-SP1 payload-comparison Batch 2 — COMPLETE
+
+Report `comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`: entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**, **PASS / REPORT-ONLY — 10/10**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
 ### Current comparison activity — NEXT
 
-**BU-SP1 payload-comparison Batch 2** — confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**. Report-only. Exact witness physical pages extend to **182**; direct exact-byte rendering is required beyond the normal 150-page renderer window.
+**Final BU-SP1 confirmed-MATCHED payload batch** — entries **39 and 40**, mapped to repository items **48 and 46**. Report-only. After those two, create the consolidated **22/22 confirmed-MATCHED BU-SP1 comparison summary**.
 
-### Planned sequence after Batch 2
+### Planned sequence after confirmed-MATCHED closure
 
-1. compare the final two confirmed BU-SP1 MATCHED entries **39 and 40**;
-2. investigate BU-SP1 remaining 30 unmapped entries;
-3. BU-SP3 — item-level matching for 50 INVESTIGATE entries;
-4. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
+1. investigate BU-SP1 remaining 30 unmapped / INVESTIGATE entries;
+2. BU-SP3 — item-level matching for 50 INVESTIGATE entries;
+3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
 
@@ -106,4 +109,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP1 payload-comparison Batch 2 — entries 19, 21, 22, 23, 25, 26, 27, 28, 30 and 33 — report only**.
+Proceed with the **final BU-SP1 confirmed-MATCHED payload batch — entries 39 and 40 — report only**, then create the consolidated **22/22 Volume-I confirmed-MATCHED comparison summary**.

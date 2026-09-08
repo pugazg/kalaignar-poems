@@ -128,6 +128,14 @@ Compared confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18** ag
 
 High-value diagnostics: BU entry 1 mistranslates `பஞ்சைகளல்ல` as **cowards** rather than paupers and inserts **tricks and frauds** into the opening; entry 8 flattens the `Nalla Thambi / Panam / Manamagal` film-title chain and reads source `கிந்தன்` as **Kandan**; entry 13 omits the extended river-name love sequence; entry 14 heavily condenses the water-family architecture; entry 15 omits the Muthusamy → Muthamma dream sequence; entry 18 mistranslates `மணக்கணக்கு` as **mental calculation**, `வேங்கை` as **lion**, and source river multiplication as multiplying **rains**. These are secondary-witness weaknesses, not repository defects.
 
+### BU-SP1 payload comparison Batch 2 — COMPLETE
+
+Report: `comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`.
+
+Compared confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33** against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 10/10**; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
+High-value diagnostics: BU entry 19 omits the long Nehru/Rose flower-garden allegory; entry 21 mistranslates source `பொன்விழா` as **Diamond Jubilee** and carries an impossible **10-08-1922** Silver-Jubilee footnote date; entry 25 heavily condenses the Silappathikaram/Tolkappiyam/abhinaya architecture; entry 26 mistranslates `ஆத்திகம்` as **agnosticism** and omits the Kamban/Ravana plus Anna-work-title chain; entry 28 gives **07-11-1980** where the controlling Tamil opening is **7.1.80**. These are secondary-witness defects/condensations, not repository defects.
+
 ## Next activity
 
-Proceed with **BU-SP1 payload-comparison Batch 2** for confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**. Use direct exact-byte rendering where physical PDF pages exceed the normal 150-page renderer window. Report only; do not mutate Tamil or released English.
+Run the **final confirmed-MATCHED BU-SP1 payload batch** for entries **39 and 40** — entry 39 **Rationalist, Pandyan** → `kalaignarin-kavithaigal` item 48; entry 40 **No Day there is That May be his Birthday Called** → item 46. Then create a consolidated **22/22 confirmed-MATCHED BU-SP1 comparison summary**. Report only.
