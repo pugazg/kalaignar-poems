@@ -13,6 +13,10 @@ jobs:
   inspect:
     runs-on: ubuntu-latest
     steps:
+      - name: Install rendering tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils tesseract-ocr
       - name: Download exact source and OCR physical pages 149-174
         shell: bash
         run: |
@@ -21,7 +25,7 @@ jobs:
           curl -L --fail --retry 3 "$URL" -o /tmp/bu-sp3.pdf
           echo "SIZE $(stat -c%s /tmp/bu-sp3.pdf)"
           echo "SHA256 $(sha256sum /tmp/bu-sp3.pdf | awk '{print $1}')"
-          pdfinfo /tmp/bu-sp3.pdf | grep '^Pages:' || true
+          pdfinfo /tmp/bu-sp3.pdf | grep '^Pages:'
           mkdir -p /tmp/bu-sp3-pages
           pdftoppm -f 149 -l 174 -r 180 -jpeg /tmp/bu-sp3.pdf /tmp/bu-sp3-pages/p >/dev/null 2>&1
           page=149
