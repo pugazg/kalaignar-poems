@@ -38,26 +38,37 @@ Overall initial onboarding: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED /
 
 See `MASTER_CROSSWALK.md` and the per-book crosswalks.
 
-## Completed comparison — Batch 1
+## Completed comparisons
 
-`comparisons/01-thalaikettan-thambi.md`
+### Batch 1 — `தலைகேட்டான் தம்பி`
 
-Compared BU-SP2 **The Brother for the Head did Ask!** (supplied PDF pp.85–89) with `poems/thalaikettan-thambi/` FINAL-CLEARED Tamil and RELEASE-CLEARED English.
+Report: `comparisons/01-thalaikettan-thambi.md`.
+
+Result: **PASS / REPORT-ONLY**. Tamil/source correction candidates **0**; released English changes **0**; two strong future English review candidates, one medium refinement and one low editorial refinement were recorded. `poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED.
+
+### Batch 2 — BU-TT entries 1–10
+
+Report: `comparisons/02-treasure-trove-items-01-10.md`.
+
+Compared supplied BU-TT physical PDF pages **31–74** / printed pages **1–44** with stable repository items **1, 2, 5, 6, 11, 17, 19, 20, 21 and 22** in `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
 
 Result: **PASS / REPORT-ONLY**.
 
-- Tamil/source correction candidates: **0**;
-- released English changes: **0**;
-- strong source-supported future English review candidates: **2**;
-- medium semantic refinement: **1**;
-- low editorial refinement: **1**.
+- items compared: **10/10**;
+- Tamil/source correction candidates established: **0**;
+- released-English correction candidates established: **0**;
+- title replacements: **0**;
+- Tamil changes: **0**;
+- released-English changes: **0**.
 
-Strong candidates:
+High-value findings:
 
-1. `அடுத்தார் பேச்சால் அழிந்த தம்பி` — current `ruined by his own words` should be reviewed as **ruined by the words/counsel of those around him**;
-2. `வாள்முனையில் செங்குருதி தனைக் கண்டான்` — current English should be reviewed for restoring source **blood** before the later `not blood—red colour` reveal.
+- BU-TT entry 6 (`Where to Start Writing World History?`) substantially truncates repository item 17, omitting the source's later Kumari Kandam/Pavanar/Vincent Smith/Sundaranar/world-history-from-the-south movement;
+- BU-TT entry 8 condenses the extended Sangam quotation/citation structure of repository item 20;
+- BU-TT entry 4 gives a later interpretive **negative** for the Stone-Age `கருணையும் பண்பாடும்... காணமுடியக்` line, while the FINAL-CLEARED Tamil page explicitly preserves the positive source spelling; no normalization was imported;
+- BU-TT entry 10 renders `அரியா நோக்கு` as an “ignorant look,” while FINAL-CLEARED Tamil is `அரியா`, and repository English correctly preserves the rare/hard-to-know wordplay rather than changing it to `அறியா`.
 
-No text was changed. `poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED.
+The overall Batch-2 pattern is **smoothing + recurrent condensation**; the source-first repository English is more complete across these ten items.
 
 ## High-value established relationships
 
@@ -67,6 +78,8 @@ No text was changed. `poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEAR
 
 ## Next activity
 
-Perform **Secondary Witness Comparison Batch 2 — BU-TT mapped entries 1–10** against `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
+Perform **Secondary Witness Comparison Batch 3 — BU-TT mapped entries 11–20**, corresponding to repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
 
-The batch must inspect the actual Bharathiar translation pages, compare against FINAL-CLEARED Tamil and RELEASE-CLEARED English, and produce a report only. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.
+This batch includes two known high-value title divergences: BU entry 15 **An Honourable Mother and an Upright Daughter** versus source-controlled repository item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`, and BU entry 18 **A Young Lady, She is a Tamil Lady!** versus source-controlled item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
+
+Continue report-only. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.
