@@ -23,21 +23,37 @@ Witness authority:
 2. FINAL-CLEARED repository Tamil canonical;
 3. Bharathiar University English translation as a secondary interpretive/editorial witness.
 
-These books must not silently modify Tamil or RELEASE-CLEARED English.
+These books must not silently modify Tamil or RELEASE-CLEARED English. If a later witness exposes a possible problem, the controlling Tamil source must be reread before any correction.
 
 ## Comparison Batch 1 — COMPLETE
 
-`comparisons/01-thalaikettan-thambi.md` — `தலைகேட்டான் தம்பி` vs BU-SP2 item 17: **PASS / REPORT-ONLY**. Tamil/source corrections **0**; released-English changes **0**. Two strong source-supported future English review candidates were recorded.
+`comparisons/01-thalaikettan-thambi.md` — `தலைகேட்டான் தம்பி` vs BU-SP2 item 17: **PASS / REPORT-ONLY**. Two strong future English review candidates were recorded; no mutation occurred during the comparison.
 
 ## Comparison Batch 2 — COMPLETE
 
 `comparisons/02-treasure-trove-items-01-10.md` — BU-TT entries **1–10** vs repository items **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**: **PASS / REPORT-ONLY**, 10/10 compared, mutations **0 / 0**.
 
-## Comparison Batch 3 — COMPLETE
+## Comparison Batch 3 — COMPLETE + item-31 correction addendum
 
-`comparisons/03-treasure-trove-items-11-20.md` — BU-TT entries **11–20** vs repository items **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**: **PASS / REPORT-ONLY**, 10/10 compared, mutations **0 / 0**.
+Original report: `comparisons/03-treasure-trove-items-11-20.md`.  
+Correction addendum: `comparisons/03A-item31-title-correction.md`.
 
-Important durable findings: item 31 source title/body anomaly (`மகனும்` title vs `தாய் மகள்` body), BU `winnowing fan` rejected against verified `முரசு`, and BU female retitle of item 36 rejected against source `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
+Scope: BU-TT entries **11–20** vs repository items **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**.
+
+### Source-backed item-31 reopen — 2026-09-08
+
+The user identified a contents/poem-page discrepancy and reattached the controlling Tamil PDF. Direct visual reread of **scan 148** established:
+
+- contents witness: **`மாண்பு நிறை தாயும், மாசற்ற மகனும்!`**;
+- direct poem-opening/title-page witness: **`மாண்பு நிறை தாயும் மாசற்ற மகளும்!`**.
+
+Repository policy already gives the direct title-page witness canonical/display authority. The prior page/canonical record had accidentally copied contents `மகனும்` into the title-page layer. The correction is therefore source-backed, not semantic normalization.
+
+Durable correction authority: `poems/kaalap-pezhaiyum-kavithai-saaviyum/POST_RELEASE_ITEM31_TITLE_CORRECTION.md`.
+
+Canonical item 31 is now **`மாண்பு நிறை தாயும் மாசற்ற மகளும்!` / The Mother Full of Dignity and the Stainless Daughter!**. Contents `மகனும்` remains preserved as a separate source witness. The poem body concerning Madhavi and Manimekalai, including closing `மாண்பு நிறை தாய் மகள் வரலாறு`, corroborates but is not the authority for the title correction. BU **An Honourable Mother and an Upright Daughter** is now corroborating secondary evidence rather than an editorial emendation.
+
+Other Batch-3 findings remain: BU `winnowing fan` does not override verified `முரசு`; BU female retitle of item 36 does not override source `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
 
 ## Comparison Batch 4 — COMPLETE
 
@@ -45,30 +61,21 @@ Important durable findings: item 31 source title/body anomaly (`மகனும�
 
 Scope: BU-TT entries **21–30**, printed pages **93–144**, supplied PDF physical pages **123–174**, mapped to repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**.
 
-Result: **PASS / REPORT-ONLY**.
-
-- items compared: **10/10**;
-- Tamil/source correction candidates: **0**;
-- source-supported released-English correction candidates: **0**;
-- title replacements: **0**;
-- Tamil / released-English mutations: **0 / 0**.
+Result: **PASS / REPORT-ONLY** — 10/10 compared; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
 
 Key findings:
 
 - BU entry 21 omits repository item 39's final *Periya Puranam* / Sekkizhar Vatapi-campaign quotation;
 - BU entry 23 singularizes source `ஈக்களின்` as **a Fly**; repository **Flies** remains source-controlled;
 - BU entry 26's **Future Dear** is weaker than source `அருங்காலம்`; repository **Precious Age** remains closer;
-- BU entry 30 materially truncates item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and closing transition;
-- dominant pattern continues to be smoothing, condensation, transliteration and interpretive retitling rather than repository defects.
-
-No release-cleared item was reopened.
+- BU entry 30 materially truncates item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and closing transition.
 
 ## Exact next activity
 
-Proceed with **Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
+First ensure the post-release item-31 correction is synchronized across the reader-facing English aggregate/release-status records. Then proceed with **Secondary Witness Comparison Batch 5 — final BU-TT entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
 
-Inspect exact BU pages, compare against FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write **report only**. After Batch 5, create a consolidated **34/34 BU-TT comparison summary** before moving to another secondary-witness lane.
+After Batch 5, create a consolidated **34/34 BU-TT comparison summary** before moving to another secondary-witness lane.
 
-## Release-cleared work remains frozen
+## Release-cleared work rule
 
-`poems/thalaikettan-thambi/`, `poems/aanthaiyum-arasanum/` and all other completed poem workspaces remain closed unless genuinely new source-backed evidence justifies a documented reopen.
+Completed workspaces remain frozen unless genuinely new source-backed evidence justifies a documented reopen. Item 31 above is such a documented exception; its reopen is deliberately title-only and does not alter narrative/body text or item boundaries.
