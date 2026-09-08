@@ -138,8 +138,18 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/18-shower-of-poet
 
 Historical BU-SP1 payload closure remains **22/22 of the matches known at that stage**. Separate later-match debt is **10/11 compared**, so current total MATCHED payload coverage is **32/33**. Do not rewrite the historical milestone as 32/32 or 33/33.
 
+## BU-SP1 final later-established MATCHED payload remainder — COMPLETE / PAYLOAD CLOSED 33/33
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated Volume-I payload summary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`.
+
+Entry **45 — `A Petty Village Full of Folks Illiterate!`** was read from exact checksum-locked Volume-I physical pages **214–216 / printed 190–192** and compared with FINAL-CLEARED `கலைஞரின் கவிதைகள்` item **67 `பாமரர் நிறைந்த பட்டிக்காடு!`**, verified source page records **435–437**, and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 1/1**; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
+BU contains an additional passage before the final hand-raising-dolls stanza. Verified controlling anthology scan 437 moves directly from `ஆண்டவனும் நானேதான் என்பார்!` through the refrain/separator to `எல்லோரும் கைதூக்கும் பதுமைகளாய் இருந்து-`; therefore the BU-only passage is alternate-version/expansion evidence and is **not imported**.
+
+Later-established BU-SP1 MATCHED payload debt: **11/11 CLOSED**. Current BU-SP1 MATCHED payload coverage: **33/33 CLOSED**. Historical payload milestone remains **22/22 of the matches known at that stage** and must not be rewritten.
+
+Repository-wide BU MATCHED payload coverage is now **68/68 CLOSED**: SP1 **33/33**, SP2 **1/1**, SP3 **0**, BU-TT **34/34**. Identity remains **176/176 classified = 68 MATCHED / 108 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE**.
+
 ## Exact next activity
 
-Run the final **BU-SP1 later-MATCHED payload remainder**: entry **45 — `A Petty Village Full of Folks Illiterate!`**, repository target `poems/kalaignarin-kavithaigal/` item **67 — `பாமரர் நிறைந்த பட்டிக்காடு!`**. Compare actual BU payload with FINAL-CLEARED Tamil and RELEASE-CLEARED English; report first. Do not mutate either layer unless the controlling Tamil independently supports a documented reopen.
-
-BU-SP2's **39 NOT YET REPRESENTED** entries remain on source-acquisition hold absent new source evidence.
+**No Bharathiar University matched-payload comparison remains.** Keep all **108 NOT YET REPRESENTED** rows on source-acquisition/future-representation hold unless a new controlling/source witness establishes a repository match. No new Tamil poem is staged. Preserve every FINAL-CLEARED Tamil and RELEASE-CLEARED English layer unless controlling Tamil evidence independently supports a documented reopen.

@@ -141,14 +141,20 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/17-shower-of-poet
 
 Report: `secondary-witnesses/bharathiar-university/comparisons/18-shower-of-poetry-vol-1-later-matched-payload-batch-01.md`. Entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** → **PASS / REPORT-ONLY — 10/10**, correction candidates **0 / 0**, Tamil / released-English mutations **0 / 0**. Historical payload milestone remains **22/22 of the matches known at that stage**; separate later-match debt is now **10/11**, total MATCHED payload coverage **32/33**.
 
+### BU-SP1 later-established MATCHED final remainder — COMPLETE / SP1 PAYLOAD CLOSED 33/33
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated summary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`. Entry **45 → item 67**: **PASS / REPORT-ONLY — 1/1**, corrections/mutations **0 / 0**. BU-only expansion before the final stanza is absent from verified controlling scans 435–437 and is not imported.
+
+Later-established SP1 MATCHED lane **11/11 CLOSED**; total SP1 MATCHED payload **33/33 CLOSED**; historical 22/22 milestone preserved. Across all BU witnesses, **68/68 currently MATCHED entries are payload-compared — CLOSED**.
+
 ### Current comparison activity — NEXT
 
-**BU-SP1 later-MATCHED final payload remainder — entry 45 `A Petty Village Full of Folks Illiterate!` → item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`.**
+**None pending in the BU matched-payload lane.** All **68/68 current MATCHED** entries are payload-compared. The **108 NOT YET REPRESENTED** identities remain on source-acquisition/future-representation hold.
 
 ### Planned witness sequence
 
-1. BU-SP1 — complete the **1 remaining later-established MATCHED payload**: entry **45**; the first 10 later matches are report-complete and the historical 22/22 lane remains separately preserved;
-2. BU-SP2 — retain its **39 NOT YET REPRESENTED** entries on source-acquisition hold until source-backed identities are established or a new controlling/source witness is supplied.
+1. BU matched-payload lane — **CLOSED 68/68 current MATCHED**; preserve SP1's historical **22/22** milestone separately from its current **33/33** closure;
+2. BU NOT YET REPRESENTED rows — **108 on source-acquisition/future-representation hold** until new controlling/source evidence establishes repository matches.
 
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
@@ -157,4 +163,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP1 later-MATCHED final payload remainder — entry 45 → item 67 — report-first comparison only**.
+**No source-dependent BU comparison is pending.** Await a new controlling/source witness or a newly staged Tamil work before changing the BU crosswalk. Do not promote NOT YET REPRESENTED rows or reopen release-cleared text without source evidence.

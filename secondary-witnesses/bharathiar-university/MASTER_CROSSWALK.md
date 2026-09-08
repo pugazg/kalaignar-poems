@@ -178,6 +178,12 @@ Report: `comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.m
 
 Report: `comparisons/18-shower-of-poetry-vol-1-later-matched-payload-batch-01.md`. Entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** were compared against actual BU payload, FINAL-CLEARED Tamil and RELEASE-CLEARED English: **PASS / REPORT-ONLY — 10/10**, corrections/mutations **0 / 0**. The historical `SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md` record remains exactly **22/22 of the matches known at that stage**. Separate later-match debt: **10/11 compared; entry 45 pending**. Overall current BU-SP1 MATCHED payload coverage: **32/33**.
 
+## BU-SP1 final later-established payload remainder — COMPLETE / MATCHED PAYLOAD CLOSED
+
+Report: `comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; Volume-I payload consolidation: `comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`. Entry **45** → item **67 `பாமரர் நிறைந்த பட்டிக்காடு!`** is **PASS / REPORT-ONLY — 1/1**, correction candidates **0 / 0**, mutations **0 / 0**. The exact BU payload contains one additional pre-final passage absent from verified controlling scans 435–437; classify it as secondary-witness alternate-version/expansion material, not a repository omission.
+
+Later-established SP1 MATCHED payload lane: **11/11 CLOSED**. Total SP1 MATCHED payload coverage: **33/33 CLOSED**. Historical 22/22 milestone remains unchanged. Repository-wide BU MATCHED payload coverage is now **68/68 CLOSED**: SP1 33, SP2 1, SP3 0, BU-TT 34.
+
 ## Exact next activity
 
-Identity classification remains complete for **176/176** BU entries. Run the final later-established BU-SP1 MATCHED payload comparison: **entry 45 — `A Petty Village Full of Folks Illiterate!` → `poems/kalaignarin-kavithaigal/` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Historical 22/22 payload closure remains untouched; current overall MATCHED payload coverage is **32/33**. BU-SP2's 39 `NOT YET REPRESENTED` rows remain on source-acquisition hold absent new source evidence.
+Identity classification is complete for **176/176** BU entries and payload comparison is complete for **68/68 currently MATCHED** entries. There is **no remaining matched-payload debt**. The **108 NOT YET REPRESENTED** entries remain on source-acquisition/future-representation hold unless new controlling/source evidence establishes a match. Preserve the historical BU-SP1 22/22 payload milestone separately from the current 33/33 closure.

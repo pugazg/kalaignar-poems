@@ -184,6 +184,14 @@ Report: `comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.m
 
 Report: `comparisons/18-shower-of-poetry-vol-1-later-matched-payload-batch-01.md`. Compared entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** against actual BU payload, FINAL-CLEARED Tamil and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 10/10**, correction candidates **0 / 0**, Tamil / released-English mutations **0 / 0**. Historical payload closure remains **22/22 of the matches known at that stage**; the separate later-match debt is now **10/11 compared**, giving current MATCHED payload coverage **32/33**.
 
+### BU-SP1 later-established MATCHED payload final remainder — COMPLETE / SP1 PAYLOAD CLOSED 33/33
+
+Report: `comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated payload summary: `comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`. Entry **45** was read from exact Volume-I physical pages **214–216 / printed 190–192** and compared with FINAL-CLEARED Tamil item 67 plus RELEASE-CLEARED English: **PASS / REPORT-ONLY — 1/1**, corrections/mutations **0 / 0**. BU's extra pre-final passage is absent from verified controlling scans 435–437 and is retained only as alternate-version/expansion witness evidence.
+
+The later-established SP1 MATCHED debt is **11/11 CLOSED**; current SP1 MATCHED payload coverage is **33/33 CLOSED**, while historical `SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md` remains exactly **22/22 of the matches known at that stage**.
+
+Across the four BU books, every currently established MATCHED identity is now payload-reviewed: **68/68 MATCHED — CLOSED** (SP1 33/33, SP2 1/1, SP3 0, BU-TT 34/34). The remaining **108 NOT YET REPRESENTED** entries are source-acquisition/future-representation evidence, not open payload debt against present repository works.
+
 ## Next activity
 
-All **176/176** BU entries have identity dispositions. Complete the remaining BU-SP1 later-match payload debt with **entry 45 — `A Petty Village Full of Folks Illiterate!` → `கலைஞரின் கவிதைகள்` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Keep the historical 22/22 payload milestone distinct; current overall MATCHED payload coverage is **32/33**. BU-SP2's 39 `NOT YET REPRESENTED` rows remain on source-acquisition hold absent new source evidence.
+All **176/176** BU entries have identity dispositions and all **68/68 currently MATCHED** entries are payload-compared. **No matched-payload comparison remains.** Keep the **108 NOT YET REPRESENTED** entries on source-acquisition/future-representation hold unless a new controlling/source witness establishes a repository match. Do not reopen FINAL-CLEARED Tamil or RELEASE-CLEARED English from BU alone.

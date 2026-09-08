@@ -100,6 +100,16 @@ Compared later-established MATCHED entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 
 
 Historical payload milestone remains **22/22 of the matches known at that stage**. Separate later-match payload debt is now **10/11 compared**, so total current MATCHED payload coverage is **32/33** without relabelling the historical 22/22 record.
 
+## Later-established MATCHED payload final remainder — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/19-shower-of-poetry-vol-1-later-matched-payload-final-remainder.md`; consolidated payload closure: `../comparisons/SHOWER_OF_POETRY_VOL_1_33_MATCHED_PAYLOAD_SUMMARY.md`.
+
+BU-SP1 entry **45 — `A Petty Village Full of Folks Illiterate!`** was compared against exact physical pages **214–216 / printed 190–192**, FINAL-CLEARED Tamil item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`, verified page records 435–437 and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 1/1**; Tamil/source correction candidates **0**; released-English correction candidates **0**; Tamil / released-English mutations **0 / 0**.
+
+High-value finding: BU contains an extra passage before the final hand-raising-dolls stanza that is **absent from verified controlling anthology scans 435–437**. It is therefore recorded as **secondary-witness alternate-version / expansion evidence** and is not imported into Tamil or released English.
+
+Separate later-established MATCHED payload debt is now **11/11 CLOSED**. Historical payload milestone remains **22/22 of the matches known at that stage**. Current BU-SP1 MATCHED payload coverage is **33/33 — CLOSED**.
+
 ## Exact next activity
 
-Compare the final later-established MATCHED remainder: **BU-SP1 entry 45 — `A Petty Village Full of Folks Illiterate!` → `poems/kalaignarin-kavithaigal/` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Report first; do not mutate Tamil or RELEASE-CLEARED English unless the controlling Tamil independently supports a documented reopen.
+**No BU-SP1 MATCHED payload debt remains.** Volume-I identity is **52/52 CLOSED** and all **33/33 MATCHED identities are payload-compared**. Preserve the historical 22/22 milestone as its own chronological record. The **19 NOT YET REPRESENTED** Volume-I entries remain source-acquisition/future-representation evidence unless a new controlling/source witness establishes a repository match.
