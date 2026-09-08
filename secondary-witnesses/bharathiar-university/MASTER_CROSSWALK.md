@@ -134,6 +134,12 @@ For any MATCHED/POSSIBLE entry:
 
 `comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md` compares confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**. Result: **PASS / REPORT-ONLY — 10/10**, Tamil/source correction candidates **0**, released-English correction candidates **0**, mutations **0 / 0**. Strong diagnostics include omission of the Nehru/Rose allegory; `பொன்விழா` → **Diamond Jubilee** plus the BU 1922 date error; heavy Silappathikaram/Tolkappiyam condensation; `ஆத்திகம்` → **agnosticism**; and BU **07-11-1980** versus source **7.1.80**.
 
+## BU-SP1 confirmed-MATCHED payload closure — COMPLETE 22/22
+
+Final report: `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Entries **39 and 40** completed the confirmed-MATCHED lane at **22/22**. Aggregate result: Tamil/source correction candidates **0**; released-English correction candidates **0**; title replacements **0**; mutations **0 / 0**. Current BU-SP1 classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+
+Final-batch diagnostics include BU `பவள விழா` → **Platinum Jubilee**, source **1929** → BU **1928**, `வெல்லம்` → **sugar cane**, and `அர்ச்சனைகள்` → **censure**. The repository remains source-preferred.
+
 ## Exact next activity
 
-Compare the final two confirmed BU-SP1 MATCHED payloads: **39 and 40**. Then produce a consolidated **22/22 confirmed-MATCHED BU-SP1 comparison summary** before investigating the remaining 30 Volume-I rows.
+Run BU-SP1 identity investigation Batch 1 for entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Compare actual witness payload/source context with current repository collections before hardening any relationship. Do not mutate Tamil or released English.

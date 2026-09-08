@@ -90,9 +90,17 @@ Report `secondary-witnesses/bharathiar-university/comparisons/08-shower-of-poetr
 
 Key diagnostics: entry 19 omits the Nehru/Rose allegory; entry 21 has `பொன்விழா` → **Diamond Jubilee** plus a BU **1922** metadata error; entry 25 heavily condenses the Silappathikaram/Tolkappiyam/abhinaya blocks; entry 26 has `ஆத்திகம்` → **agnosticism** and omits the Kamban/Ravana + Anna-title chain; entry 28 has BU **07-11-1980** against source **7.1.80**.
 
+## BU-SP1 payload comparison Batch 3 — COMPLETE
+
+Report `secondary-witnesses/bharathiar-university/comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`: final MATCHED entries **39 and 40**, **PASS / REPORT-ONLY — 2/2**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**. Direct exact-byte renders were used for Volume-I physical pages **194–198**, with no OCR reconstruction. Strong BU defects: `பவள விழா` → **Platinum Jubilee**; source **1929** → BU **1928**; `வெல்லம்` → **sugar cane**; `அர்ச்சனைகள்` → **censure**.
+
+## BU-SP1 confirmed-MATCHED comparison lane — COMPLETE 22/22
+
+Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED BU-SP1 payloads are compared. Aggregate mutations **0 / 0**; Volume-I classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+
 ## Exact next activity
 
-Run the final confirmed-MATCHED BU-SP1 payload comparison for entries **39 and 40** (`Rationalist, Pandyan` → item 48; `No Day there is That May be his Birthday Called` → item 46), then create a consolidated **22/22 confirmed-MATCHED Volume-I summary**. Report-only.
+Run **BU-SP1 identity investigation Batch 1** for entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Harden identity only from payload/event/source evidence, not title similarity. Report/crosswalk only; no Tamil or released-English mutation.
 
 ## Release-cleared work rule
 

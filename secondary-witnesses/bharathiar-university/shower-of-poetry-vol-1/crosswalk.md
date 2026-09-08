@@ -69,3 +69,7 @@ Authority: `../comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`.
 The three former `POSSIBLE` rows are resolved: entry **8 MATCHED item 40**; entry **18 MATCHED item 18**; entry **43 is a DISTINCT 1995 work and is NOT item 18**, so its repository representation remains `INVESTIGATE`. No Tamil or released-English mutation occurred.
 
 Current tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE = 52**.
+
+## Confirmed-MATCHED payload comparison closure — 2026-09-08
+
+All **22/22 MATCHED** rows have now received payload-level comparison against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Reports: `../comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`, `../comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`, `../comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `../comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Corrections/mutations established from this witness lane: **0 / 0**. Classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.

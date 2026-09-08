@@ -93,13 +93,21 @@ Report `comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`: entries **1,
 
 Report `comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`: entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**, **PASS / REPORT-ONLY — 10/10**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
 
+### BU-SP1 payload-comparison Batch 3 — COMPLETE
+
+Report `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`: entries **39 and 40**, **PASS / REPORT-ONLY — 2/2**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
+### BU-SP1 confirmed-MATCHED comparison — COMPLETE 22/22
+
+Summary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed matches are payload-compared; aggregate corrections/mutations **0 / 0**. Current Volume-I classification: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+
 ### Current comparison activity — NEXT
 
-**Final BU-SP1 confirmed-MATCHED payload batch** — entries **39 and 40**, mapped to repository items **48 and 46**. Report-only. After those two, create the consolidated **22/22 confirmed-MATCHED BU-SP1 comparison summary**.
+**BU-SP1 identity investigation Batch 1** — entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Establish identities from payload/event/source context before updating crosswalk classification. Report/crosswalk only.
 
-### Planned sequence after confirmed-MATCHED closure
+### Planned sequence after identity Batch 1
 
-1. investigate BU-SP1 remaining 30 unmapped / INVESTIGATE entries;
+1. continue hardening the remaining BU-SP1 INVESTIGATE rows;
 2. BU-SP3 — item-level matching for 50 INVESTIGATE entries;
 3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
 
@@ -109,4 +117,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with the **final BU-SP1 confirmed-MATCHED payload batch — entries 39 and 40 — report only**, then create the consolidated **22/22 Volume-I confirmed-MATCHED comparison summary**.
+Proceed with **BU-SP1 identity investigation Batch 1 — entries 2, 3, 4, 5, 6, 7, 10, 17, 20 and 24 — identity/crosswalk report only**.

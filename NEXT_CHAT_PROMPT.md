@@ -118,13 +118,19 @@ Strong witness diagnostics:
 
 The source-controlled repository remains unchanged.
 
-## Exact next activity — final BU-SP1 confirmed-MATCHED payload batch
+## BU-SP1 final confirmed-MATCHED payload batch — COMPLETE
 
-Compare the final two confirmed MATCHED Volume-I entries:
+Report: `secondary-witnesses/bharathiar-university/comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`. Entries **39 and 40** were compared from direct exact-byte renders of physical Volume-I pages **194–198**. Result: **PASS / REPORT-ONLY — 2/2**, corrections **0 / 0**, mutations **0 / 0**.
 
-1. entry **39 — Rationalist, Pandyan** → `poems/kalaignarin-kavithaigal/` item **48**;
-2. entry **40 — No Day there is That May be his Birthday Called** → item **46**.
+Strong diagnostics:
 
-Inspect their exact BU payloads against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Classify title, semantics, omissions/condensation, expansion, transliteration/name choice, structure and possible mistranslation. Produce a report only; do not mutate Tamil or released English.
+- entry 39 `பவள விழா` → BU **Platinum Jubilee** instead of source Coral Jubilee; source **1929** → BU **1928**; Ayyappan / `பொய்யப்பா` wordplay flattened;
+- entry 40 `வெல்லம்` → BU **sugar cane** instead of jaggery; `அர்ச்சனைகள்` → BU **censure**, reversing source ritual praise; `மகுடி` and the difficult hen-line syntax are smoothed.
 
-After those two are complete, create a consolidated **22/22 confirmed-MATCHED BU-SP1 comparison summary**, then proceed to identity investigation of the remaining **30 INVESTIGATE** Volume-I entries.
+## BU-SP1 confirmed-MATCHED lane — CLOSED 22/22
+
+Consolidated report: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries have payload comparisons. Tamil/source corrections **0**; released-English corrections **0**; title replacements **0**; mutations **0 / 0**. BU-SP1 remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+
+## Exact next activity — BU-SP1 identity investigation Batch 1
+
+Investigate entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24** in source order. Read each actual BU payload and identify current repository representation, if any, using payload, event/date, persons, narrative and source context. Do not harden a match from English-title resemblance alone. Update identity/crosswalk/report records only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.

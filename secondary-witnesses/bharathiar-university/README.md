@@ -136,6 +136,16 @@ Compared confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**
 
 High-value diagnostics: BU entry 19 omits the long Nehru/Rose flower-garden allegory; entry 21 mistranslates source `பொன்விழா` as **Diamond Jubilee** and carries an impossible **10-08-1922** Silver-Jubilee footnote date; entry 25 heavily condenses the Silappathikaram/Tolkappiyam/abhinaya architecture; entry 26 mistranslates `ஆத்திகம்` as **agnosticism** and omits the Kamban/Ravana plus Anna-work-title chain; entry 28 gives **07-11-1980** where the controlling Tamil opening is **7.1.80**. These are secondary-witness defects/condensations, not repository defects.
 
+### BU-SP1 payload comparison Batch 3 — COMPLETE
+
+Report: `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`.
+
+Compared the final confirmed MATCHED entries **39 and 40** against FINAL-CLEARED Tamil and RELEASE-CLEARED English using direct renders of exact Volume-I physical pages **194–198**. Result: **PASS / REPORT-ONLY — 2/2**; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**. Strong diagnostics: entry 39 `பவள விழா` → BU **Platinum Jubilee** and source **1929** → BU **1928**, with Ayyappan / `பொய்யப்பா` wordplay flattened; entry 40 `வெல்லம்` → BU **sugar cane** and `அர்ச்சனைகள்` → BU **censure**, reversing the source's ritual-praise sense.
+
+### BU-SP1 confirmed-MATCHED payload lane — COMPLETE 22/22
+
+Consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries are payload-compared. Across the lane, Tamil/source corrections **0**, released-English corrections **0**, title replacements **0**, mutations **0 / 0**. Volume-I crosswalk remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+
 ## Next activity
 
-Run the **final confirmed-MATCHED BU-SP1 payload batch** for entries **39 and 40** — entry 39 **Rationalist, Pandyan** → `kalaignarin-kavithaigal` item 48; entry 40 **No Day there is That May be his Birthday Called** → item 46. Then create a consolidated **22/22 confirmed-MATCHED BU-SP1 comparison summary**. Report only.
+Begin **BU-SP1 identity investigation Batch 1** for the first ten remaining INVESTIGATE entries in source order: **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Establish identity from actual payload/event/source context before changing status; English-title resemblance alone is insufficient. Identity work is report/crosswalk only and must not mutate Tamil or released English.
