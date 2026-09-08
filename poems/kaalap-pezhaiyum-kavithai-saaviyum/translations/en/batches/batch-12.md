@@ -4,30 +4,30 @@ language: "en"
 batch: "12"
 items: "31–33"
 source_scans: "148–160"
-status: "reviewed"
+status: "reviewed; item-31 source-backed title correction applied 2026-09-08"
 translation_basis: "final-cleared canonical Tamil sections/31.md through sections/33.md"
 ---
 
 # Batch 12 — items 31–33
 
-## Item 31 — The Mother Full of Dignity and the Stainless Son!
+## Item 31 — The Mother Full of Dignity and the Stainless Daughter!
 
 Source metadata:
 
 - stable item: **31**
-- canonical Tamil title: `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`
+- canonical Tamil title: `மாண்பு நிறை தாயும் மாசற்ற மகளும்!`
 - contents witness: `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`
 - canonical file: `../../../sections/31.md`
 - physical scans: **148–151**
 - printed pages: **147–150**
-- title-witness status: **documented discrepancy — contents witness adds a comma after `தாயும்`; canonical/title-page witness does not**
+- title-witness status: **documented substantive discrepancy — title-page `மகளும்`; contents `மகனும்`, with contents comma after `தாயும்`**
 
 ### English translation
 
 <!-- scan 148 -->
 
 The mother full of dignity
-and the stainless son!
+and the stainless daughter!
 
 All the beauty of nature —
 as darkness and light;
@@ -320,8 +320,6 @@ to belong to the Tamils!
 Such poets today
 may be very few in number;
 but in those days —
-
-<!-- scan 153 -->
 
 they stood high
 both in number and in thought.
@@ -804,7 +802,7 @@ singing a song of delight!
 
 ## Translator notes
 
-- Item 31 preserves the canonical/title-page punctuation witness without the contents comma after `தாயும்`. The English displayed title also preserves the canonical lexical reading `மகனும்` as **son**. This is source-sensitive because the body and closing lines speak of Madhavi and Manimekalai as mother and daughter; the verified Tamil title is not silently changed to `மகளும்`.
+- Item 31 preserves the title witnesses separately: contents `மாண்பு நிறை தாயும், மாசற்ற மகனும்!`; direct item-opening scan 148 `மாண்பு நிறை தாயும் மாசற்ற மகளும்!`. The direct title-page witness governs the displayed/canonical title, so English uses **daughter**. The earlier **son** title was corrected in a documented source-backed reopen on 2026-09-08.
 - Item 31 retains Kalaignar's sensual descriptive imagery for Madhavi/Manimekalai, Udayakumaran's love-letter imagery, Manimekalai's disguise as Kaya Chandikai, Vidyadharan's fatal misrecognition, and Nedumudikilli's severe response without sanitising or harmonising the narrative with outside retellings.
 - Item 32 preserves the substantially different title witnesses separately. The displayed English title follows the canonical/title-page witness `கோவூரார் கேள்வியுறும் - குனிந்திடும் தலையுறும்`, not the contents wording `கோவூரார் கேள்வியும் குனிந்திடும் தலையும்!`.
 - The compact classical verse on scan 155 is translated as a distinct quotation and followed, as in the source, by Kalaignar's own `இதன் பொருள்` explanation. The source's verified compact forms are not silently normalised.
@@ -812,11 +810,10 @@ singing a song of delight!
 - Item 32 preserves the repeated star separators and the sequence of Kovoor Kizhar's interventions: Nalankilli/Nedunkilli, Ilanthathan, the children of Malaiyaman Tirumudi Kari, the Avur–Uraiyur siege, the quoted poem and the closing humanitarian/ceasefire argument.
 - Item 33 deliberately retains **Seruppaazhi-Erindha** in the displayed English title because the poem's central movement depends upon decomposing the Tamil sound-form. The false segmentation `செருப்பு + ஆழி` is rendered “shoe + ocean,” while the source's preferred segmentation `செரு + பாழி + எறிந்த` is preserved as `seru + paazhi + erindha` with its source-supplied senses “war + military camp + conquered.”
 - The chronology, Maurya/Chola account, Mogur identification and historical claims in Item 33 are translated as the final-cleared Tamil presents them. No outside historical correction or reconciliation has been inserted.
-- No final-cleared Tamil canonical file or verified page record was modified while preparing this batch.
 
 ## Batch review
 
-Result: **PASS**
+Result: **PASS — item-31 title correction re-reviewed 2026-09-08**
 
 Checks:
 
@@ -825,9 +822,9 @@ Checks:
 - source order: **PASS**;
 - omissions / duplications detected in batch: **0 / 0**;
 - title witnesses: **Items 31 and 32 discrepancies explicitly preserved; Item 33 contents/title-page match — PASS**;
-- Item 31 verified `மகனும்` title reading retained despite the mother-daughter body/close; Madhavi–Manimekalai, Udayakumaran, Kaya Chandikai/Vidyadharan, imprisonment and humanitarian close retained: **PASS**;
+- Item 31 direct title-page `மகளும்` retained, contents `மகனும்` preserved separately; Madhavi–Manimekalai, Udayakumaran, Kaya Chandikai/Vidyadharan, imprisonment and humanitarian close retained: **PASS**;
 - Item 32 poet/political-intervention sequence, all star separators, compact classical quotation, source-supplied meaning and ceasefire/humanitarian conclusion retained: **PASS**;
 - Item 33 Chola-history framing, source chronology, `செருப்பாழி` segmentation argument, branch/root imagery and Maurya–Mogur narrative retained: **PASS**;
 - source claims corrected or replaced through outside knowledge: **NO**;
-- Tamil canonical text altered for English: **NO**;
+- source-backed Tamil title correction imported into English title: **YES — item 31 only**;
 - Kalaignar-language/voice review: **PASS**.
