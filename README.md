@@ -4,7 +4,24 @@ Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic w
 
 ## Current production queue
 
-**No new poem is currently staged.** The next archive activity begins when the user selects or supplies the next source/work. Release-cleared work must not be reopened from stale prompts.
+**No new Tamil poem is currently staged.** Release-cleared work must not be reopened from stale prompts.
+
+A new **secondary-witness comparison lane** is active under:
+
+`secondary-witnesses/bharathiar-university/`
+
+The user supplied the complete four-book 2009 Bharathiar University / Macmillan English-translation witness set:
+
+- *Shower of Poetry*, Volume I — **249 pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`**;
+- *Shower of Poetry*, Volume II — **168 pages / 156,922,680 bytes / SHA-256 `e29c294adfe94c508cdb8aeb4f8cadf116b8dc1bdeb4025eef86a7a017f02a31`**;
+- *Shower of Poetry*, Volume III — **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**;
+- *The Treasure Trove of Time and the Verse Key* — **205 pages / 106,152,046 bytes / SHA-256 `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b`**.
+
+Their **176 TOC entries** are durably indexed at `secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md`: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**.
+
+Witness hierarchy is locked: historical Tamil controlling scan → FINAL-CLEARED repository Tamil → Bharathiar University English as institutional secondary witness. These 2009 translations may inform interpretation/editorial review but **must never silently rewrite Tamil or release-cleared English**.
+
+Exact next secondary-witness activity: **Batch 1 — compare Volume-II pp.85–89 `The Brother for the Head did Ask!` against release-cleared `poems/thalaikettan-thambi/`, producing a comparison report only.**
 
 ## தலைகேட்டான் தம்பி (1966) — release-cleared
 
@@ -53,4 +70,4 @@ Final source locks include `கமழுகின்ற`, `தலைமீது
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
 - `poems/kanchithan-annan/` — RELEASE-CLEARED.
 
-Current next production activity: **await the next user-directed poem/source selection and onboard it under `POEM_PROCESSING_GUIDE.md`.**
+Current next activity: **Bharathiar University Secondary Witness Comparison Batch 1 — `தலைகேட்டான் தம்பி`; report-only, no direct text mutation.**
