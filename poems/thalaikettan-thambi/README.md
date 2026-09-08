@@ -4,7 +4,7 @@ Source-first workspace for the user-identified Kalaignar poem **தலைகே�
 
 ## Current status
 
-**SOURCE RANGE / BIBLIOGRAPHIC INTAKE COMPLETE / DUPLICATE CHECK PASS / EXACT SHA-256 PENDING / PHASE 1 COMPLETE 6/6 / PHASE 2 COMPLETE 6/6 VERIFIED / PHASE 3 GATES 1–2 PASS / 0 UNRESOLVED.**
+**SOURCE RANGE / BIBLIOGRAPHIC INTAKE COMPLETE / DUPLICATE CHECK PASS / EXACT SHA-256 PENDING / PHASE 1 COMPLETE 6/6 / PHASE 2 COMPLETE 6/6 VERIFIED / PHASE 3 GATES 1–3 PASS / 0 UNRESOLVED.**
 
 - controlling source: `TVA_PRL_0001662_முரசொலி_பொங்கல் மலர்_1966.pdf`;
 - physical PDF pages: **75**;
@@ -19,40 +19,40 @@ Source-first workspace for the user-identified Kalaignar poem **தலைகே�
 - repository duplicate-title search: **0 existing matches**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE — 6/6 `verified` / 0 unresolved**;
-- Phase 3 Gate 1: **PASS — all six `printed_page: null` values confirmed**;
-- Phase 3 Gate 2: **PASS — opening 1/1, internal joins 5/5, closing 1/1**;
-- Phase 3 Gates 3–6: **NOT STARTED / blocked pending exact SHA lock + ordered gates**;
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gate 2: **PASS**;
+- Phase 3 Gate 3: **PASS — canonical title authority locked to `தலைகேட்டான் தம்பி`**;
+- Phase 3 Gates 4–6: **NOT STARTED / Gate 4 blocked pending exact SHA lock**;
 - Phase 4: **BLOCKED**.
 
-Important source-layout note: scan **18** presents the title as one decorated composition split spatially across the page — **`தலைகேட்டான்`** in the upper decorated heading and **`தம்பி`** as a decorated lower title element. The complete direct title witness is therefore **`தலைகேட்டான் தம்பி`**. `கருணாநிதி` is the direct source-position author attribution. These structural labels are preserved as title/author evidence and are **not repeated as poem-body text** in `pages/0018.md`.
-
-The post-Phase-2 structural-role cleanup is documented in `POST_PHASE2_STRUCTURAL_CORRECTION.md`; no poem-body lexical reading changed and scan 18 remains `verified`.
+Scan **18** structural roles are locked: `தலைகேட்டான்` + lower decorated `தம்பி` form the complete title, while `கருணாநிதி` is the direct author attribution. These structural labels are not repeated as poem-body text. Authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
 
 ## Phase-2 result
 
-Authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
-
-- page records `pages/0018.md`–`0023.md`: **6/6 verified**;
-- unresolved lexical/glyph/punctuation/lineation holds: **0**;
-- Phase-2 source-backed corrections: **2**, both on scan 21: `மகிழ்ந்தானா`, `கொடை நீரூற்று`.
+Authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md` — **6/6 VERIFIED / 0 unresolved**. Source-backed scan-21 corrections: `மகிழ்ந்தானா`, `கொடை நீரூற்று`.
 
 ## Phase-3 Gate 1
 
-Authority: `PHASE3_PAGINATION_RECONCILIATION.md` — **PASS**. Physical scans **6/6 accounted**, visible printed numerals **0/6**, logical printed-page assignments **0/6**, `printed_page: null` confirmed **6/6**, unresolved pagination issues **0**.
+Authority: `PHASE3_PAGINATION_RECONCILIATION.md` — **PASS**. Physical scans **6/6 accounted**, visible printed numerals **0/6**, logical printed-page assignments **0/6**, `printed_page: null` confirmed **6/6**.
 
 ## Phase-3 Gate 2
 
-Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**.
+Authority: `PHASE3_BOUNDARY_JOIN_AUDIT.md` — **PASS**. Opening **17→18**, all five internal joins, and closing **23→24** are certified. Critical **22→23** carry remains direct with no inserted separator.
 
-- opening **17→18**: PASS;
-- internal joins **18→19, 19→20, 20→21, 21→22, 22→23**: **5/5 PASS**;
-- closing **23→24**: PASS;
-- critical direct carry **22→23** is locked without inserted separator;
-- Gate-2 text corrections: **0**;
-- unresolved boundary issues: **0**.
+## Phase-3 Gate 3
 
-The exact SHA-256 remains pending. No hash has been inferred or invented.
+Authority: `PHASE3_TITLE_WITNESS_RECONCILIATION.md` — **PASS**.
+
+- bibliographic title: `தலைகேட்டான் தம்பி`;
+- direct scan-18 complete title: `தலைகேட்டான் தம்பி`;
+- lexical / punctuation / word-order title conflicts: **0 / 0 / 0**;
+- canonical assembly heading authority: **`# தலைகேட்டான் தம்பி`**;
+- author attribution remains provenance, not body text;
+- Gate-3 text changes: **0**;
+- unresolved title issues: **0**.
+
+The exact SHA-256 remains pending because checksum execution continues to fail; no hash has been inferred or invented.
 
 ## Exact next activity
 
-Establish and durably record the exact source **SHA-256**. Then perform **Phase 3 Gate 3 — title-witness reconciliation**. Direct and bibliographic title witnesses already agree lexically as `தலைகேட்டான் தம்பி`; Gate 3 must formally lock the assembly authority while preserving the decorated scan-18 layout and author attribution. Do not begin canonical Tamil assembly unless explicitly directed to process remaining gates.
+Establish and durably record the exact source **SHA-256** from the same 75-page / 30,952,719-byte PDF. Once that source-identity lock is complete, perform **Phase 3 Gate 4 — canonical Tamil assembly** from verified `pages/0018.md`–`0023.md`, preserving the Gate-2 joins and Gate-3 title authority. Do not begin Gate 5 in the same activity unless explicitly directed to continue.
