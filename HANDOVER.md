@@ -21,7 +21,9 @@ Current state:
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
 - page statuses: **6 `verified` / 0 `partial`**;
-- Phase 3–4: **NOT STARTED**;
+- Phase 3 Gate 1: **PASS — pagination reconciled; `printed_page: null` confirmed 6/6**;
+- Phase 3 Gates 2–6: **NOT STARTED**;
+- Phase 4: **BLOCKED**;
 - corrected complete direct title: **`தலைகேட்டான் தம்பி`**;
 - scan-18 decoration spatially splits the title as upper `தலைகேட்டான்` + lower `தம்பி`;
 - bibliographic/direct title conflict: **0**;
@@ -29,7 +31,9 @@ Current state:
 
 Phase-2 authority: `poems/thalaikettan-thambi/PHASE2_SOURCE_CRITICAL_VERIFICATION.md`. Source-backed scan-21 corrections: `மகிழ்ந்தானா` and `கொடை நீரூற்று`.
 
-Exact next activity: **lock the pending SHA-256 from the exact attached 75-page bytes, then perform Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation scans 18–23.** Stop after Gate 1 unless explicitly directed to continue.
+Phase-3 Gate-1 authority: `poems/thalaikettan-thambi/PHASE3_PAGINATION_RECONCILIATION.md` — 6/6 active scans accounted, 0/6 visible printed numerals, 0/6 logical printed-page assignments, 6/6 `null` confirmed, missing/duplicate 0/0, page-text changes 0.
+
+Exact next activity: **lock the pending SHA-256 from the exact attached 75-page bytes, then perform Phase 3 Gate 2 — boundary / page-join audit for 17→18, 18→19 through 22→23, and 23→24.** Stop after Gate 2 unless explicitly directed to continue.
 
 ## Newly closed — ஆந்தையும் அரசனும்! (1965)
 

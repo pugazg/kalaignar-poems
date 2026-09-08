@@ -36,16 +36,17 @@ Scan 18 also carries the source-position attribution **`கருணாநித
 
 Repository code search for **தலைகேட்டான் தம்பி** returned **0 existing matches** before onboarding.
 
-## Phase 1 / Phase 2 source access
+## Processing source access
 
-The same attached 75-page controlling PDF was visually inspected for scans **18–23**. The user-supplied word-for-word extraction was used only as an alignment aid; it did not replace the source scans as authority.
+The same attached 75-page controlling PDF was visually inspected for scans **18–23** in Phase 1, Phase 2 and Phase 3 Gate 1. The user-supplied word-for-word extraction was used only as an alignment aid; it did not replace the source scans as authority.
 
 - page records: **6/6 populated**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
 - current page status: **6 `verified` / 0 `partial`**;
 - Phase-2 corrections: **2**, both scan 21 — `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
-- formal Phase-3 pagination/boundary/title-layout reconciliation: **NOT STARTED**.
+- Phase 3 Gate 1: **PASS** — no directly visible/logically supportable printed-page numerals; `printed_page: null` confirmed **6/6**;
+- Phase 3 Gates 2–6: **NOT STARTED**.
 
 ## Current state
 
@@ -53,6 +54,7 @@ The same attached 75-page controlling PDF was visually inspected for scans **18�
 - exact SHA-256: **PENDING**;
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED**;
-- Phase 3–4: **BLOCKED pending checksum + ordered Phase-3 gates**.
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gate 2 onward / Phase 4: **BLOCKED pending checksum + ordered gates**.
 
-Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** scans 18–23 only.
+Exact next activity: lock the pending SHA-256 from the exact source bytes, then perform **Phase 3 Gate 2 — boundary / page-join audit** only.

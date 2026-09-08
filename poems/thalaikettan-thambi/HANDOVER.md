@@ -17,7 +17,9 @@ Bibliographic title: **தலைகேட்டான் தம்பி**. Comp
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE / PASS — 6/6 VERIFIED / 0 unresolved**;
 - page status: **6 `verified` / 0 `partial`**;
-- Phase 3–4: **NOT STARTED**;
+- Phase 3 Gate 1: **PASS — pagination reconciled, `printed_page: null` confirmed 6/6**;
+- Phase 3 Gates 2–6: **NOT STARTED**;
+- Phase 4: **NOT STARTED / blocked**;
 - canonical Tamil / English: **none / none**.
 
 Phase-2 authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
@@ -27,11 +29,26 @@ Two source-backed Phase-2 corrections were made on scan 21:
 - `மகிழ்ந்தான` → `மகிழ்ந்தானா`;
 - `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
 
-All other Phase-1 readings were reconfirmed against the controlling scans. User-supplied extraction and secondary witnesses remain non-authoritative aids.
+Phase-3 Gate-1 authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
+
+Gate-1 result:
+
+- physical scans accounted: **6/6**;
+- visible printed numerals: **0/6**;
+- logical printed-page assignments supported by source: **0/6**;
+- confirmed `printed_page: null`: **6/6**;
+- missing / duplicate active scans: **0 / 0**;
+- page-text changes: **0**;
+- unresolved pagination issues: **0**.
+
+User-supplied extraction and secondary witnesses remain non-authoritative aids.
 
 ## Exact next activity
 
-1. Establish the still-pending **SHA-256** from the exact attached 75-page PDF bytes and synchronize the source-identity fields.
-2. Then perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans **18–23**.
-3. Preserve `printed_page: null` unless a numeral is directly visible or a logical mapping is explicitly documented according to repository policy.
-4. Stop after Gate 1 unless explicitly directed to continue to later gates.
+1. Establish the still-pending **SHA-256** from the exact attached 75-page PDF bytes and synchronize source-identity fields.
+2. Only after that source-identity lock, perform **Phase 3 Gate 2 — boundary / page-join audit**:
+   - opening boundary **17→18**;
+   - internal joins **18→19, 19→20, 20→21, 21→22, 22→23**;
+   - closing boundary **23→24**;
+   - certify quotation/separator/poetic-line continuity without lexical normalization.
+3. Stop after Gate 2 unless explicitly directed to continue.

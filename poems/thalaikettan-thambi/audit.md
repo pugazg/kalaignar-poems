@@ -10,6 +10,8 @@
 - Phase 1: **COMPLETE — 6/6**;
 - Phase 2: **COMPLETE — 6/6 VERIFIED / 0 unresolved**;
 - page statuses: **0 `partial` / 6 `verified`**;
+- Phase 3 Gate 1: **PASS**;
+- Phase 3 Gates 2–6: **NOT STARTED**;
 - canonical / English files: **0 / 0**.
 
 Title witness: scan 18 carries the complete decorated title **`தலைகேட்டான் தம்பி`**, split spatially as upper `தலைகேட்டான்` and lower decorated `தம்பி`. Direct and bibliographic title witnesses agree; lexical title conflicts: **0**. The source-position attribution on scan 18 is **`கருணாநிதி`**.
@@ -31,8 +33,22 @@ Source-backed corrections from Phase 1:
 
 No other page-text correction was required. Historical/compact forms, quotation carry, separators, punctuation, unusual source spacing and lineation were checked against the controlling scans. Secondary/later wording was not imported over the source.
 
+## Phase 3 Gate 1 — pagination
+
+Authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
+
+Result: **PASS**.
+
+- active physical scans accounted: **6/6**;
+- directly visible printed numerals: **0/6**;
+- source-supported logical printed-page assignments: **0/6**;
+- `printed_page: null` confirmed: **6/6**;
+- missing / duplicate active scans: **0 / 0**;
+- page-text changes: **0**;
+- unresolved pagination issues: **0**.
+
 ## Current gate result
 
-**PHASE 1 COMPLETE 6/6 / PHASE 2 PASS 6/6 VERIFIED / 0 UNRESOLVED / SHA-256 STILL PENDING / PHASE 3 NOT STARTED.**
+**PHASE 1 COMPLETE 6/6 / PHASE 2 PASS 6/6 VERIFIED / PHASE 3 GATE 1 PASS / 0 UNRESOLVED / SHA-256 STILL PENDING.**
 
-The checksum is now the only source-identity hold before Phase 3. Exact next activity: establish and durably record the exact source SHA-256, then perform **Phase 3 Gate 1 — physical scan ↔ printed-page reconciliation** for scans 18–23 only.
+The checksum is now the sole source-identity hold before Gate 2. Exact next activity: establish and durably record the exact source SHA-256, then perform **Phase 3 Gate 2 — boundary / page-join audit** only.

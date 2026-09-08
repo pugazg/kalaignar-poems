@@ -17,9 +17,10 @@ Workspace `poems/thalaikettan-thambi/`; source `TVA_PRL_0001662_முரசெ�
 - bibliographic/direct title conflict: **0**;
 - direct source-position attribution: **`கருணாநிதி`**;
 - Phase-2 source corrections: scan 21 `மகிழ்ந்தானா`, `கொடை நீரூற்று`;
-- Phase 3: **NOT STARTED / blocked until exact source SHA is locked**;
+- Phase 3 Gate 1: **PASS — physical scans 6/6 accounted; visible printed numerals 0/6; logical printed-page assignments 0/6; `printed_page: null` confirmed 6/6; unresolved pagination 0**;
+- Phase 3 Gates 2–6: **NOT STARTED / blocked until exact source SHA is locked**;
 - Phase 4: **BLOCKED**;
-- exact next activity: **lock exact source SHA, then Phase 3 Gate 1 physical scan ↔ printed-page reconciliation for scans 18–23; stop after Gate 1 unless explicitly directed**.
+- exact next activity: **lock exact source SHA, then Phase 3 Gate 2 boundary/page-join audit for 17→18, 18→19 through 22→23, and 23→24; stop after Gate 2 unless explicitly directed**.
 
 ## Most recently completed — ஆந்தையும் அரசனும்! — 1965
 
@@ -40,4 +41,4 @@ Do not reopen completed work without genuinely new source-backed evidence.
 
 ## Exact next activity
 
-Proceed with **`தலைகேட்டான் தம்பி` source-identity lock + Phase 3 Gate 1 only**: compute the pending SHA from the exact attached 75-page PDF, then reconcile physical scans 18–23 against directly visible/logical printed-page numbering without inferring unsupported numbers. Do not begin Gate 2 unless explicitly directed.
+Proceed with **`தலைகேட்டான் தம்பி` source-identity lock + Phase 3 Gate 2 only**: compute the pending SHA from the exact attached 75-page PDF, then certify the opening, five internal joins and closing boundary without altering verified source wording. Do not begin Gate 3 unless explicitly directed.
