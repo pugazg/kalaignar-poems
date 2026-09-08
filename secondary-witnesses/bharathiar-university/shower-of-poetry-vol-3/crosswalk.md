@@ -14,16 +14,16 @@ Initial onboarding preserves the complete 50-entry contents witness but does **n
 | 8 | Palaivayalam Pakkiri, the Maker of Money | 25 | **NOT YET REPRESENTED** | — | 02-08-2003 Palaiyavalam Pakkiri / Bombay-Mumbai mint / workers-union `maker of money` wordplay; no current representation established |
 | 9 | Gold is Easier to Come upon than Wednesday | 29 | **NOT YET REPRESENTED** | — | 24-08-2003 poor-family marriage / Wednesday-superstition / gold proverb reversal; no current representation established |
 | 10 | The Plant Nurtured in Poison | 32 | **NOT YET REPRESENTED** | — | 29-08-2003 Mumbai bomb / Nashik Kumbh Mela / religious-fanaticism poem; no current representation established |
-| 11 | Getting the Fingers Burnt by Taking the Gandhian Path | 34 | **INVESTIGATE** | — | item-level matching pending |
-| 12 | The Dream Ring | 39 | **INVESTIGATE** | — | item-level matching pending |
-| 13 | It Would Endure Sunlike | 45 | **INVESTIGATE** | — | item-level matching pending |
-| 14 | The Distress of a Baby Flower | 48 | **INVESTIGATE** | — | item-level matching pending |
-| 15 | The Volcano from Erode | 51 | **INVESTIGATE** | — | item-level matching pending |
-| 16 | What Kind of Ink is That? | 55 | **INVESTIGATE** | — | item-level matching pending |
-| 17 | They Are in Search of God | 58 | **INVESTIGATE** | — | item-level matching pending |
-| 18 | The Story of a Boon Accomplished | 61 | **INVESTIGATE** | — | item-level matching pending |
-| 19 | The Verdict and the Confusion | 64 | **INVESTIGATE** | — | item-level matching pending |
-| 20 | The People Have Woken up | 68 | **INVESTIGATE** | — | item-level matching pending |
+| 11 | Getting the Fingers Burnt by Taking the Gandhian Path | 34 | **NOT YET REPRESENTED** | — | 31-08-2003 animal-conference / cruelty-ban / injured government employee / Gandhian-rights satire; no current representation established |
+| 12 | The Dream Ring | 39 | **NOT YET REPRESENTED** | — | 03-09-2003 magical-ring allegory of bodily/political excess, arrogance and dream collapse; no current representation established |
+| 13 | It Would Endure Sunlike | 45 | **NOT YET REPRESENTED** | — | 13-09-2003 nadaswaram/percussion fingers extended to movement discipline and leadership; no current representation established |
+| 14 | The Distress of a Baby Flower | 48 | **NOT YET REPRESENTED** | — | 16-09-2003 prison-garden flower/mother-creeper allegory on ordeal, honour and inferiority; no current representation established |
+| 15 | The Volcano from Erode | 51 | **NOT YET REPRESENTED** | — | 18-09-2003 Periyar / Erode volcano / anti-caste / women-equality / Vaikom / self-respect poem; distinct from 1974 item 26 |
+| 16 | What Kind of Ink is That? | 55 | **NOT YET REPRESENTED** | — | 28-09-2003 Kannaki/Pandya justice contrasted with delayed/corrupted modern justice and truth-ink wordplay; no current representation established |
+| 17 | They Are in Search of God | 58 | **NOT YET REPRESENTED** | — | 13-10-2003 temple-car north/south faction clash, bloodshed and missing deity ending; no current representation established |
+| 18 | The Story of a Boon Accomplished | 61 | **NOT YET REPRESENTED** | — | 19-10-2003 search-for-God allegory ending with immortality granted as a corpse; no current representation established |
+| 19 | The Verdict and the Confusion | 64 | **NOT YET REPRESENTED** | — | 20-10-2003 monarchy/democracy debate using one and zeroes, ballot paper and ballot box; no current representation established |
+| 20 | The People Have Woken up | 68 | **NOT YET REPRESENTED** | — | 03-11-2003 Valluvar/Bharati/Bharathidasan/Pattukkottai royal-repression satire ending with awakened people; no current representation established |
 | 21 | Worry Flew off | 74 | **INVESTIGATE** | — | item-level matching pending |
 | 22 | The Eyeless Needle | 78 | **INVESTIGATE** | — | item-level matching pending |
 | 23 | Movie Tamil | 81 | **INVESTIGATE** | — | item-level matching pending |
@@ -61,10 +61,16 @@ Authority: `../comparisons/13-shower-of-poetry-vol-3-identity-investigation-batc
 
 Entries **1–10** were inspected from actual Volume-III page-image payloads, physical pages **27–59** / printed pages **1–33**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
 
+## Identity investigation Batch 2 — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/14-shower-of-poetry-vol-3-identity-investigation-batch-02.md`.
+
+Entries **11–20** were inspected from actual Volume-III page-image payloads, physical pages **60–99** / printed pages **34–73**. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**.
+
 ## Current tally
 
-**0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50.**
+**0 MATCHED / 0 POSSIBLE / 20 NOT YET REPRESENTED / 30 INVESTIGATE = 50.**
 
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 2 — entries 11–20 in source order**. Use actual payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+Run **BU-SP3 Identity Investigation Batch 3 — entries 21–30 in source order**. Use actual payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.

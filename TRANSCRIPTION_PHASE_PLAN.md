@@ -119,15 +119,19 @@ Summary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY
 
 ### BU-SP3 identity investigation Batch 1 — COMPLETE
 
-Report: `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10** → **10 NOT YET REPRESENTED**, with **0 MATCHED / 0 unresolved** and Tamil / released-English mutations **0 / 0**. Current BU-SP3: **0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50**.
+Report: `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10** → **10 NOT YET REPRESENTED**, with **0 MATCHED / 0 unresolved** and Tamil / released-English mutations **0 / 0**.
+
+### BU-SP3 identity investigation Batch 2 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/14-shower-of-poetry-vol-3-identity-investigation-batch-02.md`. Entries **11–20** → **10 NOT YET REPRESENTED**, with **0 MATCHED / 0 unresolved** and Tamil / released-English mutations **0 / 0**. Current BU-SP3: **0 MATCHED / 0 POSSIBLE / 20 NOT YET REPRESENTED / 30 INVESTIGATE = 50**.
 
 ### Current comparison activity — NEXT
 
-**BU-SP3 Identity Investigation Batch 2 — entries 11–20 in source order.**
+**BU-SP3 Identity Investigation Batch 3 — entries 21–30 in source order.**
 
 ### Planned witness sequence
 
-1. BU-SP3 — continue item-level matching of the **40 remaining INVESTIGATE** entries, next entries 11–20;
+1. BU-SP3 — continue item-level matching of the **30 remaining INVESTIGATE** entries, next entries 21–30;
 2. BU-SP2 — retain its 39 NOT YET REPRESENTED entries until source-backed identities are established or a new controlling/source witness is supplied.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
@@ -136,4 +140,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP3 Identity Investigation Batch 2 — entries 11–20 — identity/crosswalk report only**.
+Proceed with **BU-SP3 Identity Investigation Batch 3 — entries 21–30 — identity/crosswalk report only**.

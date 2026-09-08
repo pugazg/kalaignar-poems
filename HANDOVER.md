@@ -15,7 +15,7 @@ Exact witness set:
 
 Renderer warning: BU-TT may expose only 150 pages in the conversation renderer. For Batch 4, physical pages **151–174** were inspected by direct rendering from the exact checksum-locked PDF bytes; no OCR reconstruction was used.
 
-Current hardened crosswalk: **176 entries = 68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE**.
+Current hardened crosswalk: **176 entries = 68 MATCHED / 0 POSSIBLE / 78 NOT YET REPRESENTED / 30 INVESTIGATE**.
 
 Witness authority:
 
@@ -102,7 +102,7 @@ Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/S
 
 Reports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`, `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` and `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Across the identity batches, **11 new MATCHED** identities and **19 NOT YET REPRESENTED** dispositions were hardened from source payload/event context.
 
-Batch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book tally immediately after BU-SP1 closure: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+Batch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book tally immediately after BU-SP1 closure: **68 MATCHED / 0 POSSIBLE / 78 NOT YET REPRESENTED / 30 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
 For Batch 3, exact Volume-I bytes were independently locked to **249 pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`** before physical pages **206–249** were rendered. English OCR was used only as a reading/navigation aid for this institutional secondary witness; it did not reconstruct or mutate Tamil.
 
@@ -114,11 +114,15 @@ Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/S
 
 ## BU-SP3 identity investigation Batch 1 — COMPLETE
 
-Report: `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10** were hardened **NOT YET REPRESENTED** from direct physical pages **27–59** / printed pages **1–33**. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. BU-SP3 now stands at **0 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 40 INVESTIGATE = 50**; four-book tally **68 MATCHED / 0 POSSIBLE / 68 NOT YET REPRESENTED / 40 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+Report: `secondary-witnesses/bharathiar-university/comparisons/13-shower-of-poetry-vol-3-identity-investigation-batch-01.md`. Entries **1–10** were hardened **NOT YET REPRESENTED** from direct physical pages **27–59** / printed pages **1–33**. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. Tamil / released-English mutations: **0 / 0**.
+
+## BU-SP3 identity investigation Batch 2 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/14-shower-of-poetry-vol-3-identity-investigation-batch-02.md`. Entries **11–20** were hardened **NOT YET REPRESENTED** from direct physical pages **60–99** / printed pages **34–73**. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. BU-SP3 now stands at **0 MATCHED / 0 POSSIBLE / 20 NOT YET REPRESENTED / 30 INVESTIGATE = 50**; four-book tally **68 MATCHED / 0 POSSIBLE / 78 NOT YET REPRESENTED / 30 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
 ## Exact next activity
 
-Run **BU-SP3 Identity Investigation Batch 2 — entries 11–20 in source order**. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
+Run **BU-SP3 Identity Investigation Batch 3 — entries 21–30 in source order**. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
 
 ## Release-cleared work rule
 
