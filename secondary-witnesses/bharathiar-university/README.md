@@ -23,7 +23,7 @@ All four were edited by **P. Marudanayagam and V. Murugan**, issued by **Bharath
 
 ## Renderer-limit note
 
-The current page renderer may expose only **150 pages** for Volumes I, III and *Treasure Trove*. Exact-byte PDF inspection establishes their real physical lengths as **249, 220 and 205 pages** respectively. The 150-page renderer value is a tooling window, not source-file length.
+The current page renderer may expose only **150 pages** for Volumes I, III and *Treasure Trove*. Exact-byte PDF inspection establishes their real physical lengths as **249, 220 and 205 pages** respectively. For BU-TT Batch 4, physical pages **151–174** were inspected by direct rendering from the same checksum-locked PDF bytes; no OCR reconstruction was used.
 
 ## Crosswalk state
 
@@ -60,21 +60,31 @@ Report: `comparisons/03-treasure-trove-items-11-20.md`.
 
 Compared supplied BU-TT physical PDF pages **75–122** / printed pages **45–92** with repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
 
+Result: **PASS / REPORT-ONLY** — 10/10 compared, Tamil/source correction candidates **0**, released-English correction candidates **0**, mutations **0 / 0**.
+
+High-value findings include the genuine item-31 source title/body anomaly (`மகனும்` title vs `தாய் மகள்` body), BU's `winnowing fan` substitution against verified `முரசு`, and the protagonist-oriented female retitle of item 36 despite source title `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
+
+### Batch 4 — BU-TT entries 21–30
+
+Report: `comparisons/04-treasure-trove-items-21-30.md`.
+
+Compared BU-TT printed pages **93–144** / supplied PDF physical pages **123–174** with repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**.
+
 Result: **PASS / REPORT-ONLY**.
 
 - items compared: **10/10**;
-- Tamil/source transcription correction candidates: **0**;
+- Tamil/source correction candidates: **0**;
 - source-supported released-English correction candidates: **0**;
 - title replacements: **0**;
-- Tamil / released-English changes: **0 / 0**.
+- Tamil / released-English mutations: **0 / 0**.
 
 High-value findings:
 
-- item 31 is a genuine **source title/body anomaly**: verified title `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` says **son**, while the verified body closes with `மாண்பு நிறை தாய் மகள் வரலாறு`; Bharathiar's **An Honourable Mother and an Upright Daughter** is a later editorial harmonization, not evidence that the source title was mistranscribed;
-- BU entry 18 **A Young Lady, She is a Tamil Lady!** is a later protagonist-oriented retitling; verified source item 36 remains `இளையவன்; அவன் ஒரு தமிழ் மகன்!`;
-- BU entry 13 says a Tamil woman drove away a tiger with a **winnowing fan**, but FINAL-CLEARED scan 130 explicitly reads `முரசு கொண்டு புலி விரட்டிய தமிழச்சி`; repository **war-drum** remains source-controlled;
-- BU entry 16 **the Head That Hung** is a weaker fit for source `குனிந்திடும்`; repository **Heads Bow Down** is retained;
-- structural condensation remains recurrent across all ten entries.
+- BU entry 21 omits repository item 39's closing *Periya Puranam* / Sekkizhar campaign quotation;
+- BU entry 23 singularizes source `ஈக்களின்` as **a Fly**, while the source-controlled repository correctly retains **Flies**;
+- BU entry 26's **Future Dear** is weaker than source `அருங்காலம்`; repository **Precious Age** remains closer;
+- BU entry 30 materially truncates repository item 52 after the Golden-Handed Pandyan episode, omitting the later Pandya list, *Tolkappiyam* presentation and transition to the Pandya-history continuation;
+- the dominant pattern remains smoothing, condensation, transliteration and interpretive title wording rather than repository defects.
 
 No release-cleared item was reopened.
 
@@ -86,6 +96,6 @@ No release-cleared item was reopened.
 
 ## Next activity
 
-Perform **Secondary Witness Comparison Batch 4 — BU-TT mapped entries 21–30**, corresponding to repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**.
+Complete the final BU-TT comparison batch — **entries 31–34**, mapped to repository items **53, 55, 56 and 57**.
 
-Continue report-only. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision. After Batch 4, process the final BU-TT entries **31–34** as Batch 5.
+Inspect the exact Bharathiar body pages, compare with FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write one final report only. Then summarize the complete **34/34 BU-TT comparison** before moving to the next secondary-witness lane. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.
