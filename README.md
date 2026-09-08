@@ -6,7 +6,7 @@ Source-first archival repository for Kalaignar M. Karunanidhi's poetry, poetic w
 
 **No new Tamil poem is currently staged.** Release-cleared work must not be reopened from stale prompts.
 
-A new **secondary-witness comparison lane** is active under:
+A **secondary-witness comparison lane** is active under:
 
 `secondary-witnesses/bharathiar-university/`
 
@@ -17,11 +17,11 @@ The user supplied the complete four-book 2009 Bharathiar University / Macmillan 
 - *Shower of Poetry*, Volume III — **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**;
 - *The Treasure Trove of Time and the Verse Key* — **205 pages / 106,152,046 bytes / SHA-256 `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b`**.
 
-Their **176 TOC entries** are durably indexed at `secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md`. Current hardened state after BU-SP1 identity closure and BU-SP3 Batches 1–3: **68 MATCHED / 0 POSSIBLE / 88 NOT YET REPRESENTED / 20 INVESTIGATE**.
+Their **176 TOC entries** are durably indexed at `secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md`. Current hardened state after BU-SP1 identity closure and BU-SP3 Batches 1–4: **68 MATCHED / 0 POSSIBLE / 98 NOT YET REPRESENTED / 10 INVESTIGATE**.
 
 Witness hierarchy is locked: historical Tamil controlling scan → FINAL-CLEARED repository Tamil → Bharathiar University English as institutional secondary witness. These 2009 translations may inform interpretation/editorial review but **must never silently rewrite Tamil or release-cleared English**.
 
-Exact next secondary-witness activity: **BU-SP3 Identity Investigation Batch 4 — Volume-III entries 31–40; report/crosswalk only, no Tamil or released-English mutation.**
+Exact next secondary-witness activity: **BU-SP3 Identity Investigation Batch 5 — Volume-III entries 41–50; report/crosswalk only, no Tamil or released-English mutation.** Because all ten remaining entries are beyond the ordinary 150-page renderer window, use the exact checksum-locked 220-page source rather than treating that tool boundary as the end of the book.
 
 ## தலைகேட்டான் தம்பி (1966) — release-cleared
 
@@ -70,4 +70,4 @@ Final source locks include `கமழுகின்ற`, `தலைமீது
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
 - `poems/kanchithan-annan/` — RELEASE-CLEARED.
 
-Current next activity: **BU-SP3 Identity Investigation Batch 4 — entries 31–40; report/crosswalk only.**
+Current next activity: **BU-SP3 Identity Investigation Batch 5 — entries 41–50; report/crosswalk only.**
