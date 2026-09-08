@@ -180,6 +180,10 @@ Report: `comparisons/16-shower-of-poetry-vol-3-identity-investigation-batch-04.m
 
 Report: `comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`; consolidated closure: `comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`. Entries **41–50**, physical pages **177–215** / printed pages **151–189**, were read from the exact checksum-locked 220-page witness. Result: **0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**, Tamil / RELEASE-CLEARED English mutations **0 / 0**. Final BU-SP3 state: **0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50 — CLOSED**.
 
+### BU-SP1 later-established MATCHED payload Batch 1 — COMPLETE
+
+Report: `comparisons/18-shower-of-poetry-vol-1-later-matched-payload-batch-01.md`. Compared entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** against actual BU payload, FINAL-CLEARED Tamil and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 10/10**, correction candidates **0 / 0**, Tamil / released-English mutations **0 / 0**. Historical payload closure remains **22/22 of the matches known at that stage**; the separate later-match debt is now **10/11 compared**, giving current MATCHED payload coverage **32/33**.
+
 ## Next activity
 
-All **176/176** BU entries now have identity dispositions. Resume payload comparison for the **11 BU-SP1 entries matched only after the historical 22/22 payload lane had closed**. First batch: entries **2, 5, 6, 7, 17, 20, 24, 29, 41, 42**; entry **45** is the final remainder. Keep BU-SP2's 39 `NOT YET REPRESENTED` rows on source-acquisition hold absent new source evidence.
+All **176/176** BU entries have identity dispositions. Complete the remaining BU-SP1 later-match payload debt with **entry 45 — `A Petty Village Full of Folks Illiterate!` → `கலைஞரின் கவிதைகள்` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Keep the historical 22/22 payload milestone distinct; current overall MATCHED payload coverage is **32/33**. BU-SP2's 39 `NOT YET REPRESENTED` rows remain on source-acquisition hold absent new source evidence.

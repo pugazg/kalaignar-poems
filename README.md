@@ -21,7 +21,7 @@ Their **176 TOC entries** are durably indexed at `secondary-witnesses/bharathiar
 
 Witness hierarchy is locked: historical Tamil controlling scan → FINAL-CLEARED repository Tamil → Bharathiar University English as institutional secondary witness. These 2009 translations may inform interpretation/editorial review but **must never silently rewrite Tamil or release-cleared English**.
 
-Exact next secondary-witness activity: **BU-SP1 later-MATCHED payload comparison Batch 1 — entries 2, 5, 6, 7, 17, 20, 24, 29, 41 and 42**. These identities were established after the historical 22/22 payload lane closed; compare them now without retroactively rewriting that historical count. Entry 45 is the final remainder.
+BU-SP1 later-established MATCHED payload Batch 1 is **COMPLETE — 10/10 / report-only / 0 mutations**. Historical payload closure remains **22/22 of the matches known at that stage**; separate later-match debt is **10/11**, so current MATCHED payload coverage is **32/33**. Exact next secondary-witness activity: **entry 45 `A Petty Village Full of Folks Illiterate!` → item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**.
 
 ## தலைகேட்டான் தம்பி (1966) — release-cleared
 
@@ -70,4 +70,4 @@ Final source locks include `கமழுகின்ற`, `தலைமீது
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
 - `poems/kanchithan-annan/` — RELEASE-CLEARED.
 
-Current next activity: **BU-SP1 later-MATCHED payload comparison Batch 1 — entries 2, 5, 6, 7, 17, 20, 24, 29, 41, 42; report first, no Tamil/released-English mutation without controlling-source support.**
+Current next activity: **BU-SP1 later-MATCHED final payload remainder — entry 45 `A Petty Village Full of Folks Illiterate!` → item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`; report first, no Tamil/released-English mutation without controlling-source support.**

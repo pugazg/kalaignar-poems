@@ -132,8 +132,14 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/16-shower-of-poet
 
 Report: `secondary-witnesses/bharathiar-university/comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`; consolidated closure: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`. Entries **41–50** were hardened **NOT YET REPRESENTED** from the exact Volume-III witness, physical pages **177–215** / printed **151–189**. The exact TDL source was reconfirmed at **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`** before rasterization. Batch result: **PASS / REPORT-ONLY — 10/10; 0 MATCHED / 10 NOT YET REPRESENTED / 0 unresolved**. Final BU-SP3: **0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50 — CLOSED**; four-book tally **68 MATCHED / 0 POSSIBLE / 108 NOT YET REPRESENTED / 0 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
 
+## BU-SP1 later-established MATCHED payload Batch 1 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/18-shower-of-poetry-vol-1-later-matched-payload-batch-01.md`. Entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** were compared against actual BU-SP1 payload, FINAL-CLEARED Tamil and RELEASE-CLEARED English. Exact-source rendering beyond the 150-page viewer boundary reconfirmed Volume I at **249 pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`** for entries 29, 41 and 42. Result: **PASS / REPORT-ONLY — 10/10**; source/Tamil correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
+Historical BU-SP1 payload closure remains **22/22 of the matches known at that stage**. Separate later-match debt is **10/11 compared**, so current total MATCHED payload coverage is **32/33**. Do not rewrite the historical milestone as 32/32 or 33/33.
+
 ## Exact next activity
 
-Run **BU-SP1 later-MATCHED payload comparison Batch 1** for entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** in source order. These 10 are part of the 11 identities established after the historical 22/22 payload lane closed; entry **45** is the final remainder. Compare actual BU payload with FINAL-CLEARED Tamil and RELEASE-CLEARED English and report differences. Do not mutate either layer unless the controlling Tamil independently supports a documented reopen.
+Run the final **BU-SP1 later-MATCHED payload remainder**: entry **45 — `A Petty Village Full of Folks Illiterate!`**, repository target `poems/kalaignarin-kavithaigal/` item **67 — `பாமரர் நிறைந்த பட்டிக்காடு!`**. Compare actual BU payload with FINAL-CLEARED Tamil and RELEASE-CLEARED English; report first. Do not mutate either layer unless the controlling Tamil independently supports a documented reopen.
 
 BU-SP2's **39 NOT YET REPRESENTED** entries remain on source-acquisition hold absent new source evidence.

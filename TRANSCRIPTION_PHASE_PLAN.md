@@ -137,13 +137,17 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/16-shower-of-poet
 
 Report: `secondary-witnesses/bharathiar-university/comparisons/17-shower-of-poetry-vol-3-identity-investigation-batch-05.md`; consolidated closure: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_3_IDENTITY_50_ENTRY_SUMMARY.md`. Entries **41–50** → **10 NOT YET REPRESENTED**, with **0 MATCHED / 0 unresolved** and Tamil / released-English mutations **0 / 0**. Final BU-SP3: **0 MATCHED / 0 POSSIBLE / 50 NOT YET REPRESENTED / 0 INVESTIGATE = 50 — CLOSED**.
 
+### BU-SP1 later-established MATCHED payload Batch 1 — COMPLETE
+
+Report: `secondary-witnesses/bharathiar-university/comparisons/18-shower-of-poetry-vol-1-later-matched-payload-batch-01.md`. Entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** → **PASS / REPORT-ONLY — 10/10**, correction candidates **0 / 0**, Tamil / released-English mutations **0 / 0**. Historical payload milestone remains **22/22 of the matches known at that stage**; separate later-match debt is now **10/11**, total MATCHED payload coverage **32/33**.
+
 ### Current comparison activity — NEXT
 
-**BU-SP1 later-MATCHED payload comparison Batch 1 — entries 2, 5, 6, 7, 17, 20, 24, 29, 41 and 42 in source order.**
+**BU-SP1 later-MATCHED final payload remainder — entry 45 `A Petty Village Full of Folks Illiterate!` → item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`.**
 
 ### Planned witness sequence
 
-1. BU-SP1 — payload-compare the **11 later-established MATCHED** entries not included in the historical 22/22 payload lane: first batch **2, 5, 6, 7, 17, 20, 24, 29, 41, 42**, then final remainder **45**;
+1. BU-SP1 — complete the **1 remaining later-established MATCHED payload**: entry **45**; the first 10 later matches are report-complete and the historical 22/22 lane remains separately preserved;
 2. BU-SP2 — retain its **39 NOT YET REPRESENTED** entries on source-acquisition hold until source-backed identities are established or a new controlling/source witness is supplied.
 
 
@@ -153,4 +157,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP1 later-MATCHED payload comparison Batch 1 — entries 2, 5, 6, 7, 17, 20, 24, 29, 41, 42 — report-first comparison only**.
+Proceed with **BU-SP1 later-MATCHED final payload remainder — entry 45 → item 67 — report-first comparison only**.

@@ -92,6 +92,14 @@ Final BU-SP1 identity tally: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED 
 
 Authority: `../comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Volume-I identity is **CLOSED 52/52 — 33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE**. The earlier payload-comparison lane remains **22/22 of the matches known at that stage**.
 
+## Later-established MATCHED payload comparison Batch 1 — COMPLETE — 2026-09-08
+
+Authority: `../comparisons/18-shower-of-poetry-vol-1-later-matched-payload-batch-01.md`.
+
+Compared later-established MATCHED entries **2, 5, 6, 7, 17, 20, 24, 29, 41 and 42** against actual BU payload, FINAL-CLEARED Tamil and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 10/10**; Tamil/source correction candidates **0**; released-English correction candidates **0**; Tamil / released-English mutations **0 / 0**.
+
+Historical payload milestone remains **22/22 of the matches known at that stage**. Separate later-match payload debt is now **10/11 compared**, so total current MATCHED payload coverage is **32/33** without relabelling the historical 22/22 record.
+
 ## Exact next activity
 
-Volume-I identity work is closed. Proceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10** under the repository-wide phase plan.
+Compare the final later-established MATCHED remainder: **BU-SP1 entry 45 — `A Petty Village Full of Folks Illiterate!` → `poems/kalaignarin-kavithaigal/` item 67 `பாமரர் நிறைந்த பட்டிக்காடு!`**. Report first; do not mutate Tamil or RELEASE-CLEARED English unless the controlling Tamil independently supports a documented reopen.
