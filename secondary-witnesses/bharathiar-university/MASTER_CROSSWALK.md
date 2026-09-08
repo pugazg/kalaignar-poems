@@ -48,8 +48,6 @@ Volume-II item 17 is the established secondary work witness:
 
 This is a later `Sangath Thamizh` translation witness and does not override the repository's 1966 Murasoli controlling source.
 
-The four `Pisiraandhaiyaar` items have thematic/historical overlap with material elsewhere in the repository, but no identical-work assertion is made without payload comparison.
-
 ### BU-TT → `காலப் பேழையும் கவிதைச் சாவியும்`
 
 The entire book is a secondary English witness to `poems/kaalap-pezhaiyum-kavithai-saaviyum/`. All **34/34** translated entries are mapped to the repository's stable 58-item sequence. See its `crosswalk.md` for exact stable item numbers.
@@ -71,23 +69,7 @@ All 50 titles are preserved, but item-level mapping is deliberately deferred. En
 
 Report: `comparisons/01-thalaikettan-thambi.md`.
 
-Compared BU-SP2 physical PDF pages **85–89** with FINAL-CLEARED Tamil and RELEASE-CLEARED repository English.
-
-Result: **COMPARISON PASS / REPORT-ONLY**.
-
-- Tamil/source correction candidates: **0**;
-- title replacement candidates: **0**;
-- released English changes: **0**;
-- strong future English review candidates: **2**;
-- medium semantic refinement candidates: **1**;
-- low editorial/idiomatic refinement candidates: **1**.
-
-Strong source-supported candidates if a separate English-only reopen is authorized:
-
-1. `அடுத்தார் பேச்சால் அழிந்த தம்பி` — current repository `ruined by his own words` should be reviewed as **ruined by the words/counsel of those around him**; Bharathiar corroborates `ruined by others' words`.
-2. `வாள்முனையில் செங்குருதி தனைக் கண்டான்` — current English `saw red upon the sword-point` omits source **blood** before the later `ரத்தமல்ல; செவ்வண்ணம்` reveal.
-
-`poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED; Batch 1 did not reopen it.
+Result: **COMPARISON PASS / REPORT-ONLY**. Tamil/source corrections **0**; released-English changes **0**; two strong future English review candidates recorded. `poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED.
 
 ### Batch 2 — BU-TT entries 1–10
 
@@ -103,15 +85,31 @@ Result: **COMPARISON PASS / REPORT-ONLY**.
 - title replacements: **0**;
 - Tamil/released-English mutations: **0 / 0**.
 
+Principal findings: BU entry 6 substantially truncates repository item 17; BU entry 8 condenses item 20's Sangam quotation/citation apparatus; BU entry 4's negative Stone-Age reading does not override verified `காணமுடியக்`; BU entry 10's “ignorant look” does not override verified `அரியா நோக்கு`.
+
+### Batch 3 — BU-TT entries 11–20
+
+Report: `comparisons/03-treasure-trove-items-11-20.md`.
+
+Mapped/reviewed repository items: **23, 24, 26, 29, 31, 32, 35, 36, 37, 38**. Bharathiar witness range: supplied PDF physical pages **75–122** / printed pages **45–92**.
+
+Result: **COMPARISON PASS / REPORT-ONLY**.
+
+- items compared: **10/10**;
+- Tamil/source transcription correction candidates: **0**;
+- source-supported released-English correction candidates: **0**;
+- authorized title replacements: **0**;
+- Tamil/released-English mutations: **0 / 0**.
+
 Principal findings:
 
-1. BU-TT entry 6 substantially truncates repository item 17: the 2009 witness stops after the Kumari Kandam/Africa question and omits the later source movement on Lemuria/Kumari Kandam, Pavanar, Vincent Smith/Sundaranar, and world history being written from the south.
-2. BU-TT entry 8 condenses much of repository item 20's Sangam quotation/citation apparatus into narrative summary.
-3. BU-TT entry 4 supplies a semantically smoother negative reading for the Stone-Age `கருணையும் பண்பாடும்...` line, but FINAL-CLEARED Tamil scan 30 explicitly preserves `காணமுடியக்`; the secondary witness cannot normalize the controlling text.
-4. BU-TT entry 10 renders `அரியா நோக்கு` as an “ignorant look”; FINAL-CLEARED scan 116 has `அரியா`, and repository English correctly preserves the rare/hard-to-know wordplay rather than silently changing it to `அறியா`.
-5. Across the ten entries, the dominant witness pattern is **smoothing, condensation and scholarly transliteration differences**. The repository English is generally more source-complete.
+1. **Item 31 source title/body anomaly:** verified title says `மாசற்ற மகனும்` / **stainless son**, while verified closing body says `மாண்பு நிறை தாய் மகள் வரலாறு` / mother-daughter history. Bharathiar's **An Honourable Mother and an Upright Daughter** is a later editorial harmonization, not proof of a source transcription error.
+2. **Item 36 retitling:** verified source title is `இளையவன்; அவன் ஒரு தமிழ் மகன்!`; Bharathiar's **A Young Lady, She is a Tamil Lady!** retitles toward Anni Minjili, the eventual protagonist. Repository source title remains authoritative.
+3. **Item 26 lexical substitution:** Bharathiar uses **winnowing fan** in the tiger-driving line, but FINAL-CLEARED scan 130 explicitly prints `முரசு கொண்டு புலி விரட்டிய தமிழச்சி`; repository **war-drum** is source-controlled.
+4. **Item 32 title fit:** Bharathiar **the Head That Hung** is a weaker fit for `குனிந்திடும்`; repository **Heads Bow Down** remains closer to the source.
+5. Across all ten, Bharathiar continues the pattern of **smoothing, compression, scholarly transliteration and occasional editorial retitling**; repository English is generally more source-complete.
 
-No completed Tamil/English work is reopened by Batch 2.
+No completed Tamil/English item is reopened by Batch 3.
 
 ## Status semantics
 
@@ -133,13 +131,12 @@ For any MATCHED/POSSIBLE entry:
 
 ## Exact next activity
 
-Start **Secondary Witness Comparison Batch 3 — BU-TT mapped entries 11–20**:
+Start **Secondary Witness Comparison Batch 4 — BU-TT mapped entries 21–30**:
 
-- repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**;
+- repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**;
 - inspect exact Bharathiar translation pages, not only TOC titles;
 - compare with corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English;
-- pay special attention to BU entry 15 `An Honourable Mother and an Upright Daughter` vs source-controlled item 31, and BU entry 18 `A Young Lady, She is a Tamil Lady!` vs source-controlled item 36;
 - produce a comparison report only;
 - identify source-supported English reopen candidates without mutating Tamil or released English.
 
-Then continue BU-TT entries **21–30** and **31–34** in later controlled batches.
+Then process the final BU-TT entries **31–34** as Batch 5.
