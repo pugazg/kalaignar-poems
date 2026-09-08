@@ -32,28 +32,7 @@ Per-book complete title/start-page tables and mapping decisions:
 
 ### BU-SP1 → `கலைஞரின் கவிதைகள்`
 
-Twenty Volume-I entries are already high-confidence matches to stable items in `poems/kalaignarin-kavithaigal/`; three more are POSSIBLE and require payload comparison. The matched set includes:
-
-- `O Panneerselvam!` → item 39;
-- `Long Live, Jeeva!` → item 42;
-- `Freedom Fighters` → item 6;
-- `The Five Senses` → item 7;
-- `The New Path` → item 11;
-- `Water Family` → item 13;
-- `Bharathidasan` → item 14;
-- `Do Give Your Heart to Me, Anna!` → item 1 and alternate standalone witness `poems/idhayathai-thanthidu-anna/`;
-- `The Democracy that Nehru Found` → item 19;
-- `The Silver Jubilee` → item 21;
-- `Thanthai Periyar` → item 26;
-- `The Poems of Akam (Love) Mode` → item 27;
-- `The Feast of Silappadhikaaram` → item 29;
-- `In the Path of Anna` → item 30;
-- `Today is Your Birthday` → item 45;
-- `Social Outlook` → item 34;
-- `Dear Friend of Mine! Why Did You Part from Me?` → item 44;
-- `As Your Shadow We Move about!` → item 41;
-- `Rationalist, Pandyan` → item 48;
-- `No Day there is That May be his Birthday Called` → item 46.
+Twenty Volume-I entries are already high-confidence matches to stable items in `poems/kalaignarin-kavithaigal/`; three more are POSSIBLE and require payload comparison. The matched set includes `O Panneerselvam!`, `Long Live, Jeeva!`, `Freedom Fighters`, `The Five Senses`, `The New Path`, `Water Family`, `Bharathidasan`, `Do Give Your Heart to Me, Anna!`, `The Democracy that Nehru Found`, `The Silver Jubilee`, `Thanthai Periyar`, `The Poems of Akam (Love) Mode`, `The Feast of Silappadhikaaram`, `In the Path of Anna`, `Today is Your Birthday`, `Social Outlook`, `Dear Friend of Mine! Why Did You Part from Me?`, `As Your Shadow We Move about!`, `Rationalist, Pandyan`, and `No Day there is That May be his Birthday Called`.
 
 POSSIBLE: `The Beloved Son of the Muse of Arts` and the two `Calculation` entries require direct payload comparison before identity is hardened.
 
@@ -86,6 +65,32 @@ These are evidence for editorial comparison, not permission to normalize the sou
 
 All 50 titles are preserved, but item-level mapping is deliberately deferred. English-title similarity alone is insufficient under repository cross-witness policy.
 
+## Completed comparison batches
+
+### Batch 1 — `தலைகேட்டான் தம்பி`
+
+Report: `comparisons/01-thalaikettan-thambi.md`.
+
+Compared BU-SP2 physical PDF pages **85–89** with FINAL-CLEARED Tamil and RELEASE-CLEARED repository English.
+
+Result: **COMPARISON PASS / REPORT-ONLY**.
+
+- Tamil/source correction candidates: **0**;
+- title replacement candidates: **0**;
+- released English changes: **0**;
+- strong future English review candidates: **2**;
+- medium semantic refinement candidates: **1**;
+- low editorial/idiomatic refinement candidates: **1**.
+
+Strong source-supported candidates if a separate English-only reopen is authorized:
+
+1. `அடுத்தார் பேச்சால் அழிந்த தம்பி` — current repository `ruined by his own words` should be reviewed as **ruined by the words/counsel of those around him**; Bharathiar corroborates `ruined by others' words`.
+2. `வாள்முனையில் செங்குருதி தனைக் கண்டான்` — current English `saw red upon the sword-point` omits source **blood** before the later `ரத்தமல்ல; செவ்வண்ணம்` reveal.
+
+The report also records a medium comparative-force refinement for `அலையடிக்கும் கடல்வெல்லும் பரந்த உள்ளம்`, a low idiomatic refinement for `என் நாட்டைத் தொழுதுவிட்டுக் காடேகு`, and the Bharathiar `Puranaanuuru 158, 159 & 162 / Peruncithiranaar` note as secondary research context only.
+
+`poems/thalaikettan-thambi/` remains CLOSED / RELEASE-CLEARED; Batch 1 did not reopen it.
+
 ## Status semantics
 
 - **MATCHED** — high-confidence current repository work/item identity established. Payload comparison may still reveal witness-specific wording/translation differences.
@@ -106,11 +111,12 @@ For any MATCHED/POSSIBLE entry:
 
 ## Exact next activity
 
-Start **Secondary Witness Comparison Batch 1 — `தலைகேட்டான் தம்பி`**:
+Start **Secondary Witness Comparison Batch 2 — BU-TT mapped entries 1–10**:
 
-- compare Bharathiar University Volume-II physical PDF pages 85–89 against repository FINAL-CLEARED Tamil `poems/thalaikettan-thambi/sections/01.md` and RELEASE-CLEARED English;
+- resolve the first ten mapped entries through `treasure-trove-of-time-and-verse-key/crosswalk.md`;
+- inspect their exact Bharathiar translation pages;
+- compare against corresponding FINAL-CLEARED Tamil and RELEASE-CLEARED English under `poems/kaalap-pezhaiyum-kavithai-saaviyum/`;
 - produce a comparison report only;
-- identify translation/title/interpretive differences and any source-supported English reopen candidates;
-- do **not** mutate Tamil or released English in the comparison batch.
+- identify source-supported English reopen candidates without mutating Tamil or released English.
 
-After Batch 1, process the 34 mapped *Treasure Trove* items in controlled batches.
+Then continue BU-TT entries **11–20**, **21–30**, and **31–34** in later controlled batches.
