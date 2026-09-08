@@ -4,26 +4,33 @@ Controlling source: `TVA_PRL_0001662_முரசொலி_பொங்க
 
 Scope: physical scans **18–23**.
 
-| Scan | Role / directly visible structure | `printed_page` | State / canonical mapping |
+| Scan | Role / directly visible structure | `printed_page` | Final mapping |
 |---:|---|---|---|
-| 18 | decorated opening; complete title `தலைகேட்டான் தம்பி` split as upper `தலைகேட்டான்` + lower decorated `தம்பி`; source attribution `கருணாநிதி`; title/author labels not repeated as poem body | `null` | **verified → `sections/01.md` marker 18** |
-| 19 | continuation; verse blocks | `null` | **verified → marker 19** |
-| 20 | continuation; verse blocks + separator | `null` | **verified → marker 20** |
-| 21 | continuation; Phase-2 source corrections `மகிழ்ந்தானா`, `கொடை நீரூற்று` | `null` | **verified → marker 21** |
-| 22 | continuation; ends `அண்ணன் உயிர்தந்த செய்தியாலே` | `null` | **verified → marker 22** |
-| 23 | direct carry begins `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`; poem closes `அதனை அண்ணன் தமிழுக் கீந்தான்!` | `null` | **verified → marker 23** |
+| 18 | decorated opening; complete title `தலைகேட்டான் தம்பி`; source attribution `கருணாநிதி`; title/author labels not poem body | `null` | verified → Tamil `sections/01.md` marker 18 → English marker 18 |
+| 19 | continuation; verse blocks | `null` | verified → marker 19 |
+| 20 | continuation; verse blocks + separator | `null` | verified → marker 20 |
+| 21 | continuation; source locks `மகிழ்ந்தானா`, `கொடை நீரூற்று` | `null` | verified → marker 21 |
+| 22 | continuation; ends `அண்ணன் உயிர்தந்த செய்தியாலே` | `null` | verified → marker 22 |
+| 23 | direct carry begins `வெடிவைத்த மலைபோலச் சிதறிற்று - வெள்ளையுள்ளம்`; closes `அதனை அண்ணன் தமிழுக் கீந்தான்!` | `null` | verified → marker 23 |
 
-Phase 1: **6/6 COMPLETE**. Phase 2: **6/6 VERIFIED / PASS / 0 unresolved**.
+## Final gate state
 
-Phase 3:
+- Phase 1: **6/6 COMPLETE**;
+- Phase 2: **6/6 VERIFIED / PASS**;
+- Gate 1 pagination: **PASS**;
+- Gate 2 boundaries/joins: **PASS — 5/5 internal joins**;
+- Gate 3 title witness: **PASS**;
+- Gate 4 canonical Tamil assembly: **PASS**;
+- Gate 5 canonical/source-completeness: **PASS**;
+- Gate 6 Tamil final clearance: **PASS**;
+- Phase 4 English / release: **COMPLETE / RELEASE-CLEARED**.
 
-- Gate 1 pagination: **PASS**, `printed_page: null` confirmed 6/6;
-- Gate 2 boundaries/joins: **PASS**, opening 1/1, internal 5/5, closing 1/1;
-- Gate 3 title witness: **PASS**, canonical heading `# தலைகேட்டான் தம்பி`;
-- Gate 4 canonical assembly: **PASS**, `../sections/01.md` contains markers 18–23 exactly once;
-- critical 22→23 carry preserved with no inserted separator;
-- scans 17 / 24 excluded from canonical body.
+Canonical Tamil: `../sections/01.md` — blob `fcf3ed8c3d2e8af90c8c4ea06a506ef5b4ae9d0f`.
 
-Source identity is locked by SHA-256 above. Gate-4 authority: `../PHASE3_CANONICAL_ASSEMBLY.md`.
+Reviewed English: `../translations/en/sections/01.md` — blob `008a4a50678fe69d3dd90165ac10e34f1145e88f`.
 
-Exact next activity: **Phase 3 Gate 5 — canonical/source-completeness review**.
+Reader-facing English: `../translations/en/thalaikettan-thambi-en.md` — blob `4dacd0819bb510a795ca034ce8fefec02133b259`.
+
+Scans 17 and 24 remain excluded. Critical 22→23 continuity remains direct with no inserted separator.
+
+**CLOSED / RELEASE-CLEARED — 2026-09-08.**
