@@ -85,13 +85,17 @@ Summary: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/34** matched
 
 Report `comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`. Former POSSIBLE rows resolved **3/3**: entry 8 MATCHED item 40; entry 18 MATCHED item 18; entry 43 is a distinct 1995 Pongal/Sun TV work, not item 18, and remains INVESTIGATE for representation. Current Volume-I tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
 
+### BU-SP1 payload-comparison Batch 1 — COMPLETE
+
+Report `comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`: entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**, **PASS / REPORT-ONLY — 10/10**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
 ### Current comparison activity — NEXT
 
-**BU-SP1 payload-comparison Batch 1** — confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16, 18**. Report-only; no Tamil or released-English mutation.
+**BU-SP1 payload-comparison Batch 2** — confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**. Report-only. Exact witness physical pages extend to **182**; direct exact-byte rendering is required beyond the normal 150-page renderer window.
 
-### Planned sequence after Batch 1
+### Planned sequence after Batch 2
 
-1. continue BU-SP1 confirmed-MATCHED payload comparisons;
+1. compare the final two confirmed BU-SP1 MATCHED entries **39 and 40**;
 2. investigate BU-SP1 remaining 30 unmapped entries;
 3. BU-SP3 — item-level matching for 50 INVESTIGATE entries;
 4. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
@@ -102,4 +106,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP1 payload-comparison Batch 1 — entries 1, 8, 9, 11, 12, 13, 14, 15, 16 and 18 — report only**.
+Proceed with **BU-SP1 payload-comparison Batch 2 — entries 19, 21, 22, 23, 25, 26, 27, 28, 30 and 33 — report only**.

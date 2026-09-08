@@ -80,9 +80,13 @@ The full BU-TT witness is now **34/34 compared**. Apart from the separately sour
 
 Report `secondary-witnesses/bharathiar-university/comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`: **entry 8 MATCHED item 40; entry 18 MATCHED item 18; entry 43 DISTINCT 1995 work / not item 18, representation INVESTIGATE**. BU-SP1 is now **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**. Tamil/released-English mutations **0 / 0**.
 
+## BU-SP1 payload comparison Batch 1 — COMPLETE
+
+Report `secondary-witnesses/bharathiar-university/comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`: confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**, **PASS / REPORT-ONLY — 10/10**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**. Strong diagnostics include BU `பஞ்சைகளல்ல` → **cowards**, `கிந்தன்` → **Kandan**, omission of the New Path river-love sequence and Bharathidasan Muthamma dream, and Calculation-I `மணக்கணக்கு` → **mental calculation** / `வேங்கை` → **lion** / river → **rains**.
+
 ## Exact next activity
 
-Run BU-SP1 payload-comparison Batch 1 for confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**, report-only.
+Run BU-SP1 payload-comparison Batch 2 for confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**, report-only. Physical witness ranges extend through PDF page **182**, so direct-render the exact checksum-locked bytes beyond the normal 150-page renderer window.
 
 ## Release-cleared work rule
 

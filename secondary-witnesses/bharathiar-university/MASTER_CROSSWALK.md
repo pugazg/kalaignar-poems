@@ -126,6 +126,10 @@ For any MATCHED/POSSIBLE entry:
 
 `comparisons/06-shower-of-poetry-vol-1-identity-hardening.md` resolves all three former POSSIBLE rows: **8 → MATCHED item 40; 18 → MATCHED item 18; 43 → DISTINCT 1995 work / INVESTIGATE representation, not item 18**. Current BU-SP1 tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
 
+## BU-SP1 payload comparison Batch 1 — COMPLETE
+
+`comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md` compares confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**. Result: **PASS / REPORT-ONLY — 10/10**, Tamil/source correction candidates **0**, released-English correction candidates **0**, mutations **0 / 0**. The dominant BU pattern is condensation/smoothing and loss of source puns; strongest diagnostics include `பஞ்சைகளல்ல` → **cowards**, `கிந்தன்` → **Kandan**, major river/water-family/Muthamma omissions, and `மணக்கணக்கு` → **mental calculation**.
+
 ## Exact next activity
 
-Compare the first ten confirmed BU-SP1 MATCHED payloads in source order: **1, 8, 9, 11, 12, 13, 14, 15, 16, 18**. Report only; no Tamil/released-English mutation.
+Run BU-SP1 payload-comparison Batch 2 for confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**. Report only; no Tamil/released-English mutation.

@@ -120,6 +120,14 @@ Consolidated report: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/
 
 Report: `comparisons/06-shower-of-poetry-vol-1-identity-hardening.md`. Result: **3/3 former POSSIBLE rows resolved** — entry 8 MATCHED item 40; entry 18 MATCHED item 18; entry 43 is a distinct 1995 Pongal/Sun TV work and is NOT item 18, so it remains INVESTIGATE for repository representation. Mutations: **0 / 0**.
 
+### BU-SP1 payload comparison Batch 1 — COMPLETE
+
+Report: `comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`.
+
+Compared confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18** against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Result: **PASS / REPORT-ONLY — 10/10**; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.
+
+High-value diagnostics: BU entry 1 mistranslates `பஞ்சைகளல்ல` as **cowards** rather than paupers and inserts **tricks and frauds** into the opening; entry 8 flattens the `Nalla Thambi / Panam / Manamagal` film-title chain and reads source `கிந்தன்` as **Kandan**; entry 13 omits the extended river-name love sequence; entry 14 heavily condenses the water-family architecture; entry 15 omits the Muthusamy → Muthamma dream sequence; entry 18 mistranslates `மணக்கணக்கு` as **mental calculation**, `வேங்கை` as **lion**, and source river multiplication as multiplying **rains**. These are secondary-witness weaknesses, not repository defects.
+
 ## Next activity
 
-Begin BU-SP1 payload-comparison Batch 1 for the first **10 confirmed MATCHED entries in source order: 1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**. Compare each against FINAL-CLEARED Tamil and RELEASE-CLEARED English and produce a report only.
+Proceed with **BU-SP1 payload-comparison Batch 2** for confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33**. Use direct exact-byte rendering where physical PDF pages exceed the normal 150-page renderer window. Report only; do not mutate Tamil or released English.

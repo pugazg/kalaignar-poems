@@ -84,6 +84,38 @@ Report: `secondary-witnesses/bharathiar-university/comparisons/06-shower-of-poet
 
 BU-SP1 tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**. No Tamil or released-English mutation occurred.
 
-## Exact next activity — BU-SP1 payload comparison Batch 1
+## BU-SP1 payload comparison Batch 1 — COMPLETE
 
-Compare confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18** against their FINAL-CLEARED Tamil and RELEASE-CLEARED English targets. Classify title, semantics, omissions/condensation, expansion, transliteration and structure. Produce one durable report only; do not mutate Tamil or released English.
+Report: `secondary-witnesses/bharathiar-university/comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`.
+
+Scope: confirmed MATCHED entries **1, 8, 9, 11, 12, 13, 14, 15, 16 and 18**. Result: **PASS / REPORT-ONLY — 10/10**; Tamil/source corrections **0**; released-English corrections **0**; mutations **0 / 0**.
+
+Strong witness diagnostics:
+
+- entry 1: `பஞ்சைகளல்ல` → BU **cowards** instead of source **paupers**, plus an unsupported **tricks and frauds** insertion;
+- entry 8: BU flattens `Nalla Thambi / Panam / Manamagal` and reads source `கிந்தன்` as **Kandan**;
+- entry 13: BU omits the extended river-name love sequence;
+- entry 14: BU materially condenses the sea/rain/river/well/pond/tears/sweat architecture;
+- entry 15: BU omits the Muthusamy → Muthamma dream sequence;
+- entry 18: BU `மணக்கணக்கு` → **mental calculation**, `வேங்கை` → **lion**, and river multiplication → multiplying **rains**.
+
+These are secondary-witness issues; the source-controlled repository remains unchanged.
+
+## Exact next activity — BU-SP1 payload comparison Batch 2
+
+Compare confirmed MATCHED entries **19, 21, 22, 23, 25, 26, 27, 28, 30 and 33** against their FINAL-CLEARED Tamil and RELEASE-CLEARED English targets.
+
+Exact BU printed / physical PDF ranges:
+
+- entry 19: **90–95 / 114–119**;
+- entry 21: **98–104 / 122–128**;
+- entry 22: **105–110 / 129–134**;
+- entry 23: **111–115 / 135–139**;
+- entry 25: **118–125 / 142–149**;
+- entry 26: **126–130 / 150–154**;
+- entry 27: **131–132 / 155–156**;
+- entry 28: **133–141 / 157–165**;
+- entry 30: **146–147 / 170–171**;
+- entry 33: **156–158 / 180–182**.
+
+The normal renderer may stop at 150 pages. For physical pages **150–182**, render directly from the same exact checksum-locked Volume-I PDF bytes; do not use OCR reconstruction. Classify title, semantics, omissions/condensation, expansion, transliteration/name choice and structure. Produce a durable report only; do not mutate Tamil or released English.
