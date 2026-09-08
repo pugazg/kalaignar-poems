@@ -1,0 +1,100 @@
+name: Close BU-SP1 matched comparison lane
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/close-sp1-matched.yml
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Synchronize durable witness status
+        shell: python
+        run: |
+          from pathlib import Path
+
+          # README: replace current next block.
+          p = Path('secondary-witnesses/bharathiar-university/README.md')
+          t = p.read_text(encoding='utf-8')
+          marker = '## Next activity\n\nRun the **final confirmed-MATCHED BU-SP1 payload batch**'
+          if marker not in t:
+              raise SystemExit('README marker missing')
+          t = t.split('## Next activity\n', 1)[0] + '''### BU-SP1 payload comparison Batch 3 — COMPLETE\n\nReport: `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`.\n\nCompared the final confirmed MATCHED entries **39 and 40** against FINAL-CLEARED Tamil and RELEASE-CLEARED English using direct renders of exact Volume-I physical pages **194–198**. Result: **PASS / REPORT-ONLY — 2/2**; Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**. Strong diagnostics: entry 39 `பவள விழா` → BU **Platinum Jubilee** and source **1929** → BU **1928**, with Ayyappan / `பொய்யப்பா` wordplay flattened; entry 40 `வெல்லம்` → BU **sugar cane** and `அர்ச்சனைகள்` → BU **censure**, reversing the source's ritual-praise sense.\n\n### BU-SP1 confirmed-MATCHED payload lane — COMPLETE 22/22\n\nConsolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries are payload-compared. Across the lane, Tamil/source corrections **0**, released-English corrections **0**, title replacements **0**, mutations **0 / 0**. Volume-I crosswalk remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.\n\n## Next activity\n\nBegin **BU-SP1 identity investigation Batch 1** for the first ten remaining INVESTIGATE entries in source order: **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Establish identity from actual payload/event/source context before changing status; English-title resemblance alone is insufficient. Identity work is report/crosswalk only and must not mutate Tamil or released English.\n'''
+          p.write_text(t, encoding='utf-8')
+
+          # MASTER_CROSSWALK: replace exact-next tail.
+          p = Path('secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md')
+          t = p.read_text(encoding='utf-8')
+          marker = '## Exact next activity\n\nCompare the final two confirmed BU-SP1 MATCHED payloads:'
+          if marker not in t:
+              raise SystemExit('MASTER marker missing')
+          t = t.split('## Exact next activity\n', 1)[0] + '''## BU-SP1 confirmed-MATCHED payload closure — COMPLETE 22/22\n\nFinal report: `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Entries **39 and 40** completed the confirmed-MATCHED lane at **22/22**. Aggregate result: Tamil/source correction candidates **0**; released-English correction candidates **0**; title replacements **0**; mutations **0 / 0**. Current BU-SP1 classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.\n\nFinal-batch diagnostics include BU `பவள விழா` → **Platinum Jubilee**, source **1929** → BU **1928**, `வெல்லம்` → **sugar cane**, and `அர்ச்சனைகள்` → **censure**. The repository remains source-preferred.\n\n## Exact next activity\n\nRun BU-SP1 identity investigation Batch 1 for entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Compare actual witness payload/source context with current repository collections before hardening any relationship. Do not mutate Tamil or released English.\n'''
+          p.write_text(t, encoding='utf-8')
+
+          # HANDOVER.
+          p = Path('HANDOVER.md')
+          t = p.read_text(encoding='utf-8')
+          marker = '## Exact next activity\n\nRun the final confirmed-MATCHED BU-SP1 payload comparison'
+          if marker not in t:
+              raise SystemExit('HANDOVER marker missing')
+          before, after = t.split('## Exact next activity\n', 1)
+          release_marker = '## Release-cleared work rule\n'
+          if release_marker not in after:
+              raise SystemExit('HANDOVER release marker missing')
+          release_tail = release_marker + after.split(release_marker, 1)[1]
+          closure = '''## BU-SP1 payload comparison Batch 3 — COMPLETE\n\nReport `secondary-witnesses/bharathiar-university/comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`: final MATCHED entries **39 and 40**, **PASS / REPORT-ONLY — 2/2**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**. Direct exact-byte renders were used for Volume-I physical pages **194–198**, with no OCR reconstruction. Strong BU defects: `பவள விழா` → **Platinum Jubilee**; source **1929** → BU **1928**; `வெல்லம்` → **sugar cane**; `அர்ச்சனைகள்` → **censure**.\n\n## BU-SP1 confirmed-MATCHED comparison lane — COMPLETE 22/22\n\nConsolidated authority: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED BU-SP1 payloads are compared. Aggregate mutations **0 / 0**; Volume-I classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.\n\n## Exact next activity\n\nRun **BU-SP1 identity investigation Batch 1** for entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Harden identity only from payload/event/source evidence, not title similarity. Report/crosswalk only; no Tamil or released-English mutation.\n\n'''
+          p.write_text(before + closure + release_tail, encoding='utf-8')
+
+          # NEXT_CHAT_PROMPT: replace current final-batch section to EOF.
+          p = Path('NEXT_CHAT_PROMPT.md')
+          t = p.read_text(encoding='utf-8')
+          marker = '## Exact next activity — final BU-SP1 confirmed-MATCHED payload batch\n'
+          if marker not in t:
+              raise SystemExit('NEXT prompt marker missing')
+          prefix = t.split(marker, 1)[0]
+          suffix = '''## BU-SP1 final confirmed-MATCHED payload batch — COMPLETE\n\nReport: `secondary-witnesses/bharathiar-university/comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`. Entries **39 and 40** were compared from direct exact-byte renders of physical Volume-I pages **194–198**. Result: **PASS / REPORT-ONLY — 2/2**, corrections **0 / 0**, mutations **0 / 0**.\n\nStrong diagnostics:\n\n- entry 39 `பவள விழா` → BU **Platinum Jubilee** instead of source Coral Jubilee; source **1929** → BU **1928**; Ayyappan / `பொய்யப்பா` wordplay flattened;\n- entry 40 `வெல்லம்` → BU **sugar cane** instead of jaggery; `அர்ச்சனைகள்` → BU **censure**, reversing source ritual praise; `மகுடி` and the difficult hen-line syntax are smoothed.\n\n## BU-SP1 confirmed-MATCHED lane — CLOSED 22/22\n\nConsolidated report: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries have payload comparisons. Tamil/source corrections **0**; released-English corrections **0**; title replacements **0**; mutations **0 / 0**. BU-SP1 remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.\n\n## Exact next activity — BU-SP1 identity investigation Batch 1\n\nInvestigate entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24** in source order. Read each actual BU payload and identify current repository representation, if any, using payload, event/date, persons, narrative and source context. Do not harden a match from English-title resemblance alone. Update identity/crosswalk/report records only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.\n'''
+          p.write_text(prefix + suffix, encoding='utf-8')
+
+          # Phase plan.
+          p = Path('TRANSCRIPTION_PHASE_PLAN.md')
+          t = p.read_text(encoding='utf-8')
+          marker = '### Current comparison activity — NEXT\n\n**Final BU-SP1 confirmed-MATCHED payload batch**'
+          if marker not in t:
+              raise SystemExit('PHASE current marker missing')
+          start = t.index('### Current comparison activity — NEXT\n')
+          end = t.index('## Most recently completed Tamil work', start)
+          replacement = '''### BU-SP1 payload-comparison Batch 3 — COMPLETE\n\nReport `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`: entries **39 and 40**, **PASS / REPORT-ONLY — 2/2**. Tamil/source correction candidates **0**; released-English correction candidates **0**; mutations **0 / 0**.\n\n### BU-SP1 confirmed-MATCHED comparison — COMPLETE 22/22\n\nSummary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed matches are payload-compared; aggregate corrections/mutations **0 / 0**. Current Volume-I classification: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.\n\n### Current comparison activity — NEXT\n\n**BU-SP1 identity investigation Batch 1** — entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Establish identities from payload/event/source context before updating crosswalk classification. Report/crosswalk only.\n\n### Planned sequence after identity Batch 1\n\n1. continue hardening the remaining BU-SP1 INVESTIGATE rows;\n2. BU-SP3 — item-level matching for 50 INVESTIGATE entries;\n3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.\n\n'''
+          t = t[:start] + replacement + t[end:]
+          old = '## Exact next activity\n\nProceed with the **final BU-SP1 confirmed-MATCHED payload batch — entries 39 and 40 — report only**, then create the consolidated **22/22 Volume-I confirmed-MATCHED comparison summary**.\n'
+          new = '## Exact next activity\n\nProceed with **BU-SP1 identity investigation Batch 1 — entries 2, 3, 4, 5, 6, 7, 10, 17, 20 and 24 — identity/crosswalk report only**.\n'
+          if old not in t:
+              raise SystemExit('PHASE exact next missing')
+          p.write_text(t.replace(old, new, 1), encoding='utf-8')
+
+          # Per-book crosswalk: append payload-comparison closure if absent.
+          p = Path('secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md')
+          t = p.read_text(encoding='utf-8')
+          if '## Confirmed-MATCHED payload comparison closure' not in t:
+              t += '''\n## Confirmed-MATCHED payload comparison closure — 2026-09-08\n\nAll **22/22 MATCHED** rows have now received payload-level comparison against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Reports: `../comparisons/07-shower-of-poetry-vol-1-matched-batch-01.md`, `../comparisons/08-shower-of-poetry-vol-1-matched-batch-02.md`, `../comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; consolidated summary: `../comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. Corrections/mutations established from this witness lane: **0 / 0**. Classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.\n'''
+          p.write_text(t, encoding='utf-8')
+
+      - name: Commit synchronized records
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add secondary-witnesses/bharathiar-university/README.md \
+                  secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md \
+                  secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md \
+                  HANDOVER.md NEXT_CHAT_PROMPT.md TRANSCRIPTION_PHASE_PLAN.md
+          git commit -m 'Close BU-SP1 matched comparison lane [skip ci]'
+          git push
