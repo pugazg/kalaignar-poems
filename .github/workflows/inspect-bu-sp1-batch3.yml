@@ -1,4 +1,4 @@
-name: Inspect BU-SP1 Batch 3 source
+name: Synchronize BU-SP1 Batch 3 state
 
 on:
   push:
@@ -7,74 +7,214 @@ on:
       - .github/workflows/inspect-bu-sp1-batch3.yml
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  inspect:
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Install PDF and OCR tools
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq poppler-utils tesseract-ocr
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Download and checksum-lock BU-SP1
-        shell: bash
-        run: |
-          set -euo pipefail
-          url='https://commons.wikimedia.org/wiki/Special:Redirect/file/Shower_of_poetry_Vol_1.pdf'
-          curl -fL --retry 4 --retry-delay 2 "$url" -o bu-sp1.pdf
-          actual="$(sha256sum bu-sp1.pdf | awk '{print $1}')"
-          expected='f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536'
-          echo "SHA-256: $actual"
-          test "$actual" = "$expected"
-          pages="$(pdfinfo bu-sp1.pdf | awk '/^Pages:/ {print $2}')"
-          bytes="$(stat -c '%s' bu-sp1.pdf)"
-          echo "Physical pages: $pages"
-          echo "Bytes: $bytes"
-          test "$pages" = '249'
-          test "$bytes" = '101936284'
-
-      - name: Render unresolved witness pages and OCR once
-        shell: bash
-        run: |
-          set -euo pipefail
-          mkdir rendered
-          pdftoppm -f 210 -l 213 -r 110 -jpeg -gray bu-sp1.pdf rendered/a >/dev/null 2>&1
-          pdftoppm -f 229 -l 231 -r 110 -jpeg -gray bu-sp1.pdf rendered/b >/dev/null 2>&1
-          pdftoppm -f 235 -l 240 -r 110 -jpeg -gray bu-sp1.pdf rendered/c >/dev/null 2>&1
-          pdftoppm -f 244 -l 249 -r 110 -jpeg -gray bu-sp1.pdf rendered/d >/dev/null 2>&1
-          printf '%s\n' rendered/a-*.jpg rendered/b-*.jpg rendered/c-*.jpg rendered/d-*.jpg > images.txt
-          test "$(wc -l < images.txt)" = '19'
-          tesseract images.txt unresolved -l eng --psm 6 >/dev/null 2>&1
-
-      - name: Emit unresolved entry payloads
+      - name: Synchronize Batch 3 report and status documents
         shell: python
         run: |
           from pathlib import Path
 
-          raw = Path('unresolved.txt').read_text(encoding='utf-8', errors='replace')
-          blocks = raw.split('\f')
-          if blocks and not blocks[-1].strip():
-              blocks.pop()
-          physical = list(range(210,214)) + list(range(229,232)) + list(range(235,241)) + list(range(244,250))
-          print(f'OCR page blocks: {len(blocks)}')
-          print(f'Expected physical page list: {physical}')
-          if len(blocks) != len(physical):
-              raise SystemExit(f'expected {len(physical)} OCR page blocks, got {len(blocks)}')
-          by_page = {p: text.strip() for p, text in zip(physical, blocks)}
-          entries = {
-              44: ('In Search of Human Love', 210, 213),
-              47: ("The Sweet Word that doesn't Satiate", 229, 231),
-              49: ('Do not Drive These Women away, and Do not Their Dislike Earn!', 235, 237),
-              50: ('A Radiant Light of Culture', 238, 240),
-              52: ('Indication of a Dawn!', 244, 249),
+          def read(path):
+              return Path(path).read_text(encoding='utf-8')
+
+          def write(path, text):
+              Path(path).write_text(text, encoding='utf-8')
+
+          def replace_one(text, old, new, label):
+              count = text.count(old)
+              if count != 1:
+                  raise SystemExit(f'{label}: expected exactly one occurrence, found {count}')
+              return text.replace(old, new, 1)
+
+          report_path = Path('secondary-witnesses/bharathiar-university/comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md')
+          if report_path.exists():
+              raise SystemExit(f'{report_path} already exists; refusing to overwrite newer durable work')
+
+          report = '''# BU-SP1 Identity Investigation Batch 3
+
+          Witness: **Bharathiar University / Macmillan, _Shower of Poetry_, Volume I (2009)**  
+          Authority class: **institutional secondary English witness only**  
+          Exact witness identity: **249 physical pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`**.
+
+          ## Scope
+
+          Investigated the final ten Volume-I identity rows: **43–52**.
+
+          The normal conversation renderer exposes only the first 150 pages of this 249-page image-only witness. For this batch, the same public source was downloaded in a one-time repository workflow and independently locked to the recorded **page count, byte size and SHA-256** before physical pages **206–249** were rendered. English OCR over those exact-byte renders was used only as a **reading/navigation aid for secondary-witness identity**. It was not used to reconstruct Tamil, replace a controlling source, or mutate any FINAL-CLEARED Tamil or RELEASE-CLEARED English text.
+
+          Identity decisions below use distinctive payload, event/date/person context and current repository canonical inventories. `NOT YET REPRESENTED` means that no exact current repository representation was established in this pass; it is not a historical claim that the work never appeared elsewhere.
+
+          ## Results
+
+          | BU entry | BU title | Result | Repository target / disposition | Evidence |
+          |---:|---|---|---|---|
+          | 43 | `Calculation-2` | **NOT YET REPRESENTED** | — | Distinct **15-01-1995** Pongal / Sun TV `Thamizh Maalai` presiding poem on `Calculation`: Tamil/classical-literature prelude, Independence-Day reckoning, accounts, `Kanakkupillai` and bribery wordplay. The earlier negative lock stands: this is **not** 1970 Salem item 18 `கணக்கு`; no other current representation was established. |
+          | 44 | `In Search of Human Love` | **NOT YET REPRESENTED** | — | Distinct **03-06-1995** age-71 birthday/cadre poem: mother/father/sisters/wife/children contrasted with the joy received from movement brothers; Periyar–Anna path, Hindi imposition, social justice, Palestine, South Africa, Eelam, secularism and a closing Tamil-land/language oath. No current source-backed repository target was established. |
+          | 45 | `A Petty Village Full of Folks Illiterate!` | **MATCHED** | `poems/kalaignarin-kavithaigal/` item **67** `பாமரர் நிறைந்த பட்டிக்காடு!` | Payload identity is direct and sustained: illiterate-majority panchayat refrain, literate minority suppressed, barking dogs silenced with bread, the deceptive `மாயை`/fraud, corruption, Panchali-Devi newspaper burning, yes-men, absurd drumstick/candlestick claims and hand-raising followers all correspond. |
+          | 46 | `Inauguration of the Valluvar Statue` | **NOT YET REPRESENTED** | — | Long Kanyakumari Valluvar-statue poetic-symposium presidential address: Tamil/Kural praise, Prof. Anbazhagan, Aram–Porul–Inbam, the 38 Virtue chapters as statue base and introductions to participating poets. Witness note dates the symposium **31-12-1999** and statue inauguration **01-01-2000**. No current repository representation was established. |
+          | 47 | `The Sweet Word that doesn't Satiate` | **NOT YET REPRESENTED** | — | Distinct **17-06-2001** poem in which flowers, moon, clouds, deer and peacocks protest their overuse as poetic comparisons; the one inexhaustible, incomparable name is finally revealed as **Anna**. No current source-backed repository representation was established. |
+          | 48 | `Socialism Proclaimed in a Puram Poem` | **NOT YET REPRESENTED** | — | Distinct **21-06-2001** Sangam/socialism poem: addresses wealth accumulated from toilers, invokes Anna's food/wealth question, identifies Nakkeeran's ancient formulation, contrasts king and hunter, and closes with **Puranaanooru 189** and equitable distribution / giving as the purpose of wealth. No current representation was established. |
+          | 49 | `Do not Drive These Women away, and Do not Their Dislike Earn!` | **NOT YET REPRESENTED** | — | Distinct **22-07-2001** Thanjai Rationalists' Conference episode: Veeramani offers a knife to cut four women's `thali`; Kalaignar rejects public cutting of already-worn marriage threads while affirming that self-respect marriage need not require one, and asks that women entering the rationalist path not be alienated. No current representation was established. |
+          | 50 | `A Radiant Light of Culture` | **NOT YET REPRESENTED** | — | Distinct **September 2001** Moopanar/Karuppiah elegy: Kapisthalam/Kaveri setting, generosity and simplicity, friendship surviving political differences, and the Sivagangai shooting-rumour midnight-call anecdote. It closes that India lost a good leader and Kalaignar a good friend. No current repository representation was established. |
+          | 51 | `Alive Will No Man be!` | **NOT YET REPRESENTED** | — | Distinct post-September-11 terrorism poem: World Trade Center, Washington/New York and Pentagon imagery, rejection of terrorism and retaliatory violence, Gandhi/nonviolence, and the warning that a purportedly sweet new world may contain **no living human being**. The OCR-rendered date is internally inconsistent with the payload and is therefore **not used as identity evidence**. No current representation was established. |
+          | 52 | `Indication of a Dawn!` | **NOT YET REPRESENTED** | — | Distinct **April 2002** religion/humanity poem: religion acquired through upbringing, caste and sectarian division, religious fanaticism, Bush/Arafat and Gujarat bloodshed, then inter-religious harmony, human love, shared happiness, peace and virtue as the `indication of a dawn`. Poem ends on physical p.245; later pages are project/back matter. No current representation was established. |
+
+          ## Repository comparison controls
+
+          - Entry **45** was checked against FINAL-CLEARED `poems/kalaignarin-kavithaigal/sections/67.md`; the shared panchayat/fraud/refrain architecture establishes identity beyond English-title resemblance.
+          - The remaining nine rows were checked conservatively against current repository inventories and distinctive payload markers. No high-confidence current work/item identity was established.
+          - Entry **50** is not `கலைஞரின் கவிதைகள்` item 44: that repository item is explicitly the Kannadasan elegy `என் இனிய நண்பா! ஏன் பிரிந்தாய்?`, while BU entry 50 is the Moopanar/Kapisthalam elegy.
+          - Entry **52** is not `கலைஞரின் கவிதைகள்` item 73 `பகலவனாய்க் கிழக்கில் உதித்திடுவோம்!`; that repository poem is a different political-mobilisation / November-protest work.
+
+          ## Batch closure
+
+          **PASS / REPORT-ONLY — 10/10 identity rows hardened.**
+
+          - newly hardened `MATCHED`: **1** — entry **45**;
+          - newly hardened `NOT YET REPRESENTED`: **9** — **43, 44, 46, 47, 48, 49, 50, 51, 52**;
+          - remaining `POSSIBLE`: **0**;
+          - remaining `INVESTIGATE` in BU-SP1: **0**;
+          - Tamil mutations: **0**;
+          - RELEASE-CLEARED English mutations: **0**.
+
+          ## BU-SP1 identity state after Batches 1–3
+
+          **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52.**
+
+          The **Volume-I identity-classification lane is CLOSED 52/52**. The earlier payload-comparison closure covered the 22 matches known at that stage; identity hardening/investigation later established **11 additional matches**, including entry 45 here. That distinction must remain explicit rather than retroactively claiming 33/33 payload comparison.
+
+          Across all four Bharathiar books, the hardened crosswalk is now:
+
+          **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176.**
+
+          ## Exact next activity
+
+          Create the **consolidated BU-SP1 Volume-I identity summary/closure record**, preserving the distinction between **52/52 identity classification** and the earlier **22/22 payload-comparison lane**. After Volume-I identity consolidation, proceed to BU-SP3 item-level matching as separately authorized by the phase plan.
+          '''
+          report = '\n'.join(line[10:] if line.startswith('          ') else line for line in report.splitlines()) + '\n'
+          report_path.write_text(report, encoding='utf-8')
+
+          # Per-book crosswalk.
+          path = 'secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md'
+          text = read(path)
+          rows = {
+              '| 43 | Calculation-2 | 182 | **INVESTIGATE** | — | distinct 15-01-1995 Pongal / Sun TV `Thamizh Maalai` work; NOT repository item 18 (02-08-1970 Salem) |': '| 43 | Calculation-2 | 182 | **NOT YET REPRESENTED** | — | distinct 15-01-1995 Pongal / Sun TV `Thamizh Maalai` `Calculation-2`; NOT repository item 18, and no other current representation established |',
+              '| 44 | In Search of Human Love | 186 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 44 | In Search of Human Love | 186 | **NOT YET REPRESENTED** | — | distinct 03-06-1995 age-71 birthday/cadre poem; Periyar–Anna path, secularism, Eelam and human-love frame; no current representation established |',
+              '| 45 | A Petty Village Full of Folks Illiterate! | 190 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 45 | A Petty Village Full of Folks Illiterate! | 190 | **MATCHED** | poems/kalaignarin-kavithaigal/ item 67 | exact sustained payload match to `பாமரர் நிறைந்த பட்டிக்காடு!`: panchayat refrain, barking dogs/bread, `மாயை`, Panchali-Devi burning, yes-men and hand-raising crowd |',
+              '| 46 | Inauguration of the Valluvar Statue | 193 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 46 | Inauguration of the Valluvar Statue | 193 | **NOT YET REPRESENTED** | — | 31-12-1999 Kanyakumari Valluvar-statue symposium / 01-01-2000 inauguration presidential poem; no current representation established |',
+              "| 47 | The Sweet Word that doesn't Satiate | 205 | **INVESTIGATE** | — | not yet item-matched against all repository collections |": "| 47 | The Sweet Word that doesn't Satiate | 205 | **NOT YET REPRESENTED** | — | distinct 17-06-2001 poetic-comparison protest resolving the inexhaustible name as `Anna`; no current representation established |",
+              '| 48 | Socialism Proclaimed in a Puram Poem | 208 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 48 | Socialism Proclaimed in a Puram Poem | 208 | **NOT YET REPRESENTED** | — | distinct 21-06-2001 Nakkeeran / Puranaanooru-189 socialism and equitable-distribution poem; no current representation established |',
+              '| 49 | Do not Drive These Women away, and Do not Their Dislike Earn! | 211 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 49 | Do not Drive These Women away, and Do not Their Dislike Earn! | 211 | **NOT YET REPRESENTED** | — | distinct 22-07-2001 Thanjai Rationalists Conference / Veeramani / `thali`-cutting refusal episode; no current representation established |',
+              '| 50 | A Radiant Light of Culture | 214 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 50 | A Radiant Light of Culture | 214 | **NOT YET REPRESENTED** | — | September-2001 Moopanar/Karuppiah/Kapisthalam elegy and Sivagangai midnight-call anecdote; no current representation established |',
+              '| 51 | Alive Will No Man be! | 217 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 51 | Alive Will No Man be! | 217 | **NOT YET REPRESENTED** | — | post-September-11 World Trade Center/Pentagon terrorism and nonviolence poem; OCR date not relied on; no current representation established |',
+              '| 52 | Indication of a Dawn! | 220 | **INVESTIGATE** | — | not yet item-matched against all repository collections |': '| 52 | Indication of a Dawn! | 220 | **NOT YET REPRESENTED** | — | April-2002 religion/fanaticism/Gujarat/interfaith-harmony/human-love poem; no current representation established |',
           }
-          for n, (title, start, end) in entries.items():
-              text = '\n\n'.join(f'--- physical page {p} ---\n{by_page[p]}' for p in range(start, end+1))
-              if len(text) > 9000:
-                  text = text[:4500] + '\n\n...[middle omitted from log only]...\n\n' + text[-4500:]
-              print('\n' + '='*72)
-              print(f'BU-SP1 ENTRY {n}: {title} | physical {start}-{end}')
-              print('='*72)
-              print(text)
+          for old, new in rows.items():
+              text = replace_one(text, old, new, f'crosswalk row {old[:10]}')
+          text = replace_one(text,
+              '## Initial tally\n\n**32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE = 52.**',
+              '## Current tally\n\n**33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52.**',
+              'crosswalk current tally')
+          text = replace_one(text,
+              'Payload-comparison closure covered the 22 matches known at that stage; identity Batches 1–2 later hardened ten additional matches. Current classification is **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.',
+              'Payload-comparison closure covered the 22 matches known at that stage; identity Batches 1–3 later hardened eleven additional matches. Final Volume-I identity classification is **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE**. The later eleven matches are not retroactively counted as payload-compared.',
+              'crosswalk payload-stage wording')
+          tail = '## Identity investigation Batch 2 — COMPLETE — 2026-09-08\n\nAuthority: `../comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Entries **29, 41, 42** → MATCHED; entries **31, 32, 34, 35, 36, 37, 38** → NOT YET REPRESENTED. Current tally: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE = 52**. Remaining INVESTIGATE rows: **43–52**.\n'
+          replacement = tail + '''\n## Identity investigation Batch 3 — COMPLETE — 2026-09-08\n\nAuthority: `../comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Entry **45 → MATCHED** `poems/kalaignarin-kavithaigal/` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 → NOT YET REPRESENTED**. Result: **PASS / REPORT-ONLY — 10/10**, Tamil / released-English mutations **0 / 0**.\n\nFinal BU-SP1 identity tally: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Identity classification is therefore **CLOSED 52/52**. The earlier payload-comparison lane remains explicitly **22/22 of the matches known at that stage**, not 33/33.\n\n## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**; after that, proceed to BU-SP3 item-level matching under the phase plan.\n'''
+          text = replace_one(text, tail, replacement, 'crosswalk Batch 3 append')
+          write(path, text)
+
+          # Master crosswalk.
+          path = 'secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md'
+          text = read(path)
+          text = replace_one(text,
+              '| BU-SP1 | *Shower of Poetry*, Volume I | 249 | 101,936,284 | `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536` | 52 | 22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE |',
+              '| BU-SP1 | *Shower of Poetry*, Volume I | 249 | 101,936,284 | `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536` | 52 | 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE |',
+              'master BU-SP1 table')
+          text = replace_one(text,
+              '**Total: 176 entries — 57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE.**',
+              '**Total: 176 entries — 68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE.**',
+              'master total')
+          text = replace_one(text,
+              'Twenty-two Volume-I entries are now high-confidence matches to stable items in `poems/kalaignarin-kavithaigal/`; all three former POSSIBLE rows have been hardened. Entry 43 `Calculation-2` is a distinct 15-01-1995 Pongal/Sun TV work and is not repository item 18.',
+              'Thirty-three Volume-I entries are now high-confidence matches across the current repository. The original 22-match payload-comparison lane is closed 22/22; identity hardening/investigation later established 11 additional matches. Entry 43 `Calculation-2` is a distinct 15-01-1995 Pongal/Sun TV work, is not repository item 18, and is classified NOT YET REPRESENTED.',
+              'master relationship wording')
+          text = replace_one(text,
+              'Current BU-SP1 tally: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.',
+              'At that identity-hardening stage, BU-SP1 stood at **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**; later identity Batches 1–3 completed the classification.',
+              'master historical hardening tally')
+          text = replace_one(text,
+              'Current BU-SP1 classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.',
+              'At that payload-comparison stage the classification was **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**; later identity work did not retroactively expand the 22/22 payload-comparison count.',
+              'master historical payload tally')
+          old_tail = '''## BU-SP1 identity investigation Batches 1–2 — COMPLETE\n\nReports: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` and `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Ten new matches and ten NOT-YET-REPRESENTED dispositions were hardened with **0 / 0** Tamil/English mutation. BU-SP1 now stands at **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.\n\nFour-book hardened tally: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**.\n\n## Exact next activity\n\nRun **BU-SP1 Identity Investigation Batch 3 — entries 43–52**. Identity/crosswalk only; no Tamil or released-English mutation.\n'''
+          new_tail = '''## BU-SP1 identity investigation Batches 1–3 — COMPLETE / IDENTITY CLOSED 52/52\n\nReports: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`, `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` and `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Across the three identity batches, **11 new MATCHED** identities and **19 NOT YET REPRESENTED** dispositions were hardened with **0 / 0** Tamil/English mutation.\n\nBatch 3 resolved the final ten rows: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; **43, 44, 46, 47, 48, 49, 50, 51 and 52 NOT YET REPRESENTED**. BU-SP1 identity classification is now **CLOSED 52/52 — 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE**.\n\nFour-book hardened tally: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**.\n\nThe earlier confirmed-MATCHED payload lane remains **22/22 for the matches known at that stage**; the 11 later identity matches are not silently reclassified as payload-compared.\n\n## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**. After Volume-I identity consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.\n'''
+          text = replace_one(text, old_tail, new_tail, 'master Batches 1-3 tail')
+          write(path, text)
+
+          # Witness README.
+          path = 'secondary-witnesses/bharathiar-university/README.md'
+          text = read(path)
+          text = replace_one(text,
+              '- Volume I: **52** — 32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE;',
+              '- Volume I: **52** — 33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE;',
+              'README Volume I tally')
+          text = replace_one(text,
+              'Current hardened crosswalk: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**.',
+              'Current hardened crosswalk: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**.',
+              'README aggregate tally')
+          text = replace_one(text,
+              'Across the lane, Tamil/source corrections **0**, released-English corrections **0**, title replacements **0**, mutations **0 / 0**. Volume-I crosswalk remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.',
+              'Across the lane, Tamil/source corrections **0**, released-English corrections **0**, title replacements **0**, mutations **0 / 0**. This 22/22 payload count is historical to the matches known at that stage; later identity work expands the identity classification without retroactively expanding this payload lane.',
+              'README historical payload tally')
+          old_tail = '''### BU-SP1 identity investigation Batches 1–2 — COMPLETE\n\n- Batch 1: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` — **7 MATCHED / 3 NOT YET REPRESENTED**.\n- Batch 2: `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` — **3 MATCHED / 7 NOT YET REPRESENTED**.\n- Current BU-SP1 state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE = 52**.\n- All identity work remained report/crosswalk-only; Tamil / released-English mutations **0 / 0**.\n\n## Next activity\n\nRun **BU-SP1 Identity Investigation Batch 3 — final rows 43–52**. Entry 43 is already locked as a distinct 15-01-1995 Pongal / Sun TV `Thamizh Maalai` work and is not item 18; establish repository representation for all ten from actual payload/source context.\n'''
+          new_tail = '''### BU-SP1 identity investigation Batches 1–3 — COMPLETE / IDENTITY CLOSED 52/52\n\n- Batch 1: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` — **7 MATCHED / 3 NOT YET REPRESENTED**.\n- Batch 2: `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` — **3 MATCHED / 7 NOT YET REPRESENTED**.\n- Batch 3: `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md` — **1 MATCHED / 9 NOT YET REPRESENTED**, final ten rows resolved.\n- Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**.\n- Batch 3 used exact checksum-locked Volume-I bytes and rendered physical pages 206–249; English OCR was a reading/navigation aid for this secondary witness only, with no Tamil reconstruction.\n- All identity work remained report/crosswalk-only; Tamil / released-English mutations **0 / 0**.\n- The earlier 22/22 confirmed-MATCHED payload lane remains a separate historical closure; 11 later identity matches are not silently counted as payload-compared.\n\n## Next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**. After consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.\n'''
+          text = replace_one(text, old_tail, new_tail, 'README Batches 1-3 tail')
+          write(path, text)
+
+          # Root handover.
+          path = 'HANDOVER.md'
+          text = read(path)
+          text = replace_one(text,
+              'Current hardened crosswalk: **176 entries = 57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE**.',
+              'Current hardened crosswalk: **176 entries = 68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE**.',
+              'HANDOVER top tally')
+          old_tail = '''## BU-SP1 identity investigation Batches 1–2 — COMPLETE\n\nReports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` and `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Hardened **10 new MATCHED** identities and **10 NOT YET REPRESENTED** dispositions from exact witness payload/context. BU-SP1 current state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**. Four-book current tally: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.\n\n## Exact next activity\n\nRun **BU-SP1 Identity Investigation Batch 3 — final entries 43–52**. Establish repository representation from actual payload/source context only. Report/crosswalk only.\n'''
+          new_tail = '''## BU-SP1 identity investigation Batches 1–3 — COMPLETE / IDENTITY CLOSED 52/52\n\nReports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`, `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md` and `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`. Across the identity batches, **11 new MATCHED** identities and **19 NOT YET REPRESENTED** dispositions were hardened from source payload/event context.\n\nBatch 3 final ten: **entry 45 MATCHED** `கலைஞரின் கவிதைகள்` item 67; entries **43, 44, 46, 47, 48, 49, 50, 51, 52 NOT YET REPRESENTED**. Final BU-SP1 identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Four-book current tally: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.\n\nFor Batch 3, exact Volume-I bytes were independently locked to **249 pages / 101,936,284 bytes / SHA-256 `f353a833679b1aa743b07ac0e586d99a43ca77ebfe14822e26879f0c5f9a7536`** before physical pages **206–249** were rendered. English OCR was used only as a reading/navigation aid for this institutional secondary witness; it did not reconstruct or mutate Tamil.\n\nThe earlier confirmed-MATCHED payload lane remains **22/22 for the matches known at that stage**. Eleven later identity matches exist, but are not retroactively claimed as payload-compared.\n\n## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**. Then proceed to **BU-SP3 item-level matching** according to the phase plan.\n'''
+          text = replace_one(text, old_tail, new_tail, 'HANDOVER Batches 1-3 tail')
+          write(path, text)
+
+          # Phase plan.
+          path = 'TRANSCRIPTION_PHASE_PLAN.md'
+          text = read(path)
+          text = replace_one(text,
+              '- classifications: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE**;',
+              '- classifications: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 50 INVESTIGATE**;',
+              'phase-plan aggregate tally')
+          old_tail = '''### BU-SP1 confirmed-MATCHED comparison — COMPLETE 22/22\n\nSummary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed matches are payload-compared; aggregate corrections/mutations **0 / 0**. The 22 originally confirmed matches are payload-compared; identity Batches 1–2 later harden current Volume-I classification to **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.\n\n### BU-SP1 identity investigation Batch 1 — COMPLETE\n\nReport `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`: **7 MATCHED / 3 NOT YET REPRESENTED**, mutations **0 / 0**.\n\n### BU-SP1 identity investigation Batch 2 — COMPLETE\n\nReport `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`: **3 MATCHED / 7 NOT YET REPRESENTED**, mutations **0 / 0**. Current Volume-I state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.\n\n### Current comparison activity — NEXT\n\n**BU-SP1 identity investigation Batch 3** — final entries **43–52**. Harden identities from actual payload/event/source context; report/crosswalk only.\n\n### Planned sequence after BU-SP1 identity closure\n\n1. close/consolidate Volume-I identity state;\n2. BU-SP3 — item-level matching for remaining INVESTIGATE entries;\n3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.\n\n## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966\n\nPhase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLOSED — 2026-09-08**. Other release-cleared work remains frozen.\n\n## Exact next activity\n\nProceed with **BU-SP1 identity investigation Batch 3 — final entries 43–52 — identity/crosswalk report only**.\n'''
+          new_tail = '''### BU-SP1 confirmed-MATCHED comparison — COMPLETE 22/22\n\nSummary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** matches known at that stage are payload-compared; aggregate corrections/mutations **0 / 0**. Identity Batches 1–3 later harden 11 additional MATCHED identities. Those later matches are **not** retroactively counted in the 22/22 payload lane.\n\n### BU-SP1 identity investigation Batch 1 — COMPLETE\n\nReport `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`: **7 MATCHED / 3 NOT YET REPRESENTED**, mutations **0 / 0**.\n\n### BU-SP1 identity investigation Batch 2 — COMPLETE\n\nReport `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`: **3 MATCHED / 7 NOT YET REPRESENTED**, mutations **0 / 0**.\n\n### BU-SP1 identity investigation Batch 3 — COMPLETE\n\nReport `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`: **1 MATCHED / 9 NOT YET REPRESENTED**, mutations **0 / 0**. Final Volume-I identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — CLOSED 52/52**.\n\n### Current comparison activity — NEXT\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**, preserving the distinction between the 52/52 identity closure and the earlier 22/22 payload-comparison closure.\n\n### Planned sequence after BU-SP1 identity closure\n\n1. close/consolidate Volume-I identity state;\n2. BU-SP3 — item-level matching for remaining INVESTIGATE entries;\n3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.\n\n## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966\n\nPhase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLOSED — 2026-09-08**. Other release-cleared work remains frozen.\n\n## Exact next activity\n\nCreate the consolidated **BU-SP1 Volume-I identity summary/closure record**; then proceed to BU-SP3 item-level matching.\n'''
+          text = replace_one(text, old_tail, new_tail, 'phase-plan Batch 3 closure')
+          write(path, text)
+
+          print('Synchronized durable Batch 3 state.')
+
+      - name: Commit durable state
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'pugazg'
+          git config user.email 'w46v654vvn@privaterelay.appleid.com'
+          git status --short
+          git diff --check
+          git add HANDOVER.md TRANSCRIPTION_PHASE_PLAN.md secondary-witnesses/bharathiar-university
+          git diff --cached --quiet && { echo 'No durable changes staged'; exit 1; }
+          git commit -m 'Close BU-SP1 identity investigation Batch 3'
+          git push origin HEAD:main
