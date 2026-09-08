@@ -1,0 +1,89 @@
+name: Close BU-TT secondary witness lane
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/close-bu-tt-lane.yml
+
+permissions:
+  contents: write
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Synchronize BU-TT completion records
+        shell: python
+        run: |
+          from pathlib import Path
+
+          # Secondary-witness README: replace final next-activity block and add Batch 5 completion.
+          p = Path("secondary-witnesses/bharathiar-university/README.md")
+          t = p.read_text(encoding="utf-8")
+          old = """## Next activity\n\nItem-31 post-release synchronization is **complete / re-cleared**. Complete **entries 31–34**, mapped to repository items **53, 55, 56 and 57**.\n\nInspect the exact Bharathiar body pages, compare with FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write one final report only. Then summarize the complete **34/34 BU-TT comparison** before moving to the next secondary-witness lane. No comparison batch may directly mutate Tamil or released English without a separate documented source-backed decision.\n"""
+          new = """### Batch 5 — BU-TT entries 31–34 — COMPLETE\n\nReport: `comparisons/05-treasure-trove-items-31-34.md`.\n\nCompared BU-TT entries **31–34** with repository items **53, 55, 56 and 57**. Result: **PASS / REPORT-ONLY — 4/4**, Tamil/source correction candidates **0**, released-English correction candidates **0**, mutations **0 / 0**. High-value findings: entry 31 modernizes `கடற்கோள்` to **tsunami**, converts `எழுபது காதம்` to **seven hundred miles** and omits the final historical-source note; entry 32 omits item 55's complete opening Pandya/Sangam prelude and closing source note; entry 33 narrows `பற்று` to **love**; entry 34 modernizes source-position `கானப்பேர் கோயில்` to Kalaiyar Koyil and compresses the title's `அழகு`.\n\n### BU-TT consolidated closure — COMPLETE 34/34\n\nConsolidated report: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/34** BU-TT translations have been compared. Apart from the separately source-verified item-31 title correction, the lane established **0 Tamil body corrections and 0 other released-English mutations**. The dominant Bharathiar pattern is condensation/smoothing, scholarly transliteration, interpretive retitling and occasional modernization rather than repository textual defects.\n\n## Next activity\n\nProceed with **BU-SP1 identity hardening** for the three current `POSSIBLE` rows before broad Volume-I payload comparison:\n\n1. entry 8 **The Beloved Son of the Muse of Arts** → possible `poems/kalaignarin-kavithaigal/` item 40;\n2. entry 18 **Calculation - 1** → possible item 18;\n3. entry 43 **Calculation-2** → possible item 18.\n\nCompare payloads and classify each as MATCHED / distinct work or segment / not a match. This is identity/crosswalk work only; no Tamil or released-English mutation is authorized by the matching step.\n"""
+          assert old in t, "README next-activity anchor not found"
+          p.write_text(t.replace(old, new, 1), encoding="utf-8")
+
+          # Master crosswalk: close BU-TT and advance to SP1 POSSIBLE hardening.
+          p = Path("secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md")
+          t = p.read_text(encoding="utf-8")
+          marker = "## Exact next activity\n"
+          assert marker in t
+          t = t.split(marker, 1)[0] + """## BU-TT comparison closure\n\n**COMPLETE — 34/34 compared.** Final Batch 5: `comparisons/05-treasure-trove-items-31-34.md`; consolidated summary: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. Apart from the independently source-verified item-31 title correction, BU-TT established **0 Tamil body corrections and 0 other released-English mutations**.\n\n## Exact next activity\n\nHarden the three BU-SP1 `POSSIBLE` identities by payload comparison:\n\n- entry 8 **The Beloved Son of the Muse of Arts** → possible `kalaignarin-kavithaigal` item 40;\n- entry 18 **Calculation - 1** → possible item 18;\n- entry 43 **Calculation-2** → possible item 18.\n\nClassify each relationship before beginning the 20 already-MATCHED Volume-I payload comparisons. No source/release mutation during identity hardening.\n"""
+          p.write_text(t, encoding="utf-8")
+
+          # Per-book crosswalk: record completed comparison status.
+          p = Path("secondary-witnesses/bharathiar-university/treasure-trove-of-time-and-verse-key/crosswalk.md")
+          t = p.read_text(encoding="utf-8")
+          anchor = "## Initial tally\n\n**34 MATCHED = 34.**\n"
+          assert anchor in t
+          replacement = anchor + """\n## Comparison status — COMPLETE 34/34\n\nAll 34 mapped entries have now been compared against FINAL-CLEARED Tamil and RELEASE-CLEARED English. Governing reports: `../comparisons/02-treasure-trove-items-01-10.md`, `03-treasure-trove-items-11-20.md`, `03A-item31-title-correction.md`, `04-treasure-trove-items-21-30.md`, `05-treasure-trove-items-31-34.md`, and consolidated `TREASURE_TROVE_34_ENTRY_SUMMARY.md`.\n\nResult: **COMPLETE / PASS**. Apart from the independently source-verified item-31 title correction, Tamil body corrections **0** and other released-English mutations **0**.\n"""
+          p.write_text(t.replace(anchor, replacement, 1), encoding="utf-8")
+
+          # Root HANDOVER: replace exact-next block only.
+          p = Path("HANDOVER.md")
+          t = p.read_text(encoding="utf-8")
+          start = t.index("## Exact next activity\n")
+          end = t.index("## Release-cleared work rule\n", start)
+          block = """## BU-TT comparison lane — COMPLETE 34/34\n\nFinal Batch 5: `secondary-witnesses/bharathiar-university/comparisons/05-treasure-trove-items-31-34.md` — entries **31–34** → repository items **53, 55, 56, 57**, **PASS / REPORT-ONLY**, corrections/mutations **0 / 0**. Consolidated closure: `secondary-witnesses/bharathiar-university/comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`.\n\nThe full BU-TT witness is now **34/34 compared**. Apart from the separately source-verified item-31 `மகளும்` title correction, the lane established no Tamil body correction and no other released-English mutation.\n\n## Exact next activity\n\nProceed with **BU-SP1 identity hardening** for three `POSSIBLE` rows: entry 8 → possible `kalaignarin-kavithaigal` item 40; entries 18 and 43 (`Calculation - 1/-2`) → possible item 18. Compare payloads and harden each relationship before broad Volume-I witness comparison. No Tamil/release mutation in the identity step.\n\n"""
+          p.write_text(t[:start] + block + t[end:], encoding="utf-8")
+
+          # Root NEXT_CHAT_PROMPT: replace final Batch-5 activity with next lane.
+          p = Path("NEXT_CHAT_PROMPT.md")
+          t = p.read_text(encoding="utf-8")
+          marker = "## Exact next activity — final BU-TT Batch 5\n"
+          assert marker in t
+          t = t.split(marker, 1)[0] + """## BU-TT comparison lane — CLOSED 34/34\n\nFinal Batch 5: `comparisons/05-treasure-trove-items-31-34.md`. Consolidated closure: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All 34 BU-TT entries are compared. Apart from the source-verified item-31 title correction, no Tamil body or other released-English mutation resulted.\n\n## Exact next activity — BU-SP1 identity hardening\n\nRead `secondary-witnesses/bharathiar-university/shower-of-poetry-vol-1/crosswalk.md` and inspect exact Volume-I witness payloads for:\n\n1. entry 8 **The Beloved Son of the Muse of Arts** → possible `poems/kalaignarin-kavithaigal/` item 40;\n2. entry 18 **Calculation - 1** → possible item 18;\n3. entry 43 **Calculation-2** → possible item 18.\n\nCompare each against the relevant FINAL-CLEARED repository Tamil/English payload and classify as MATCHED / distinct work or segment / not a match. Update crosswalk and a durable identity report only. Do not mutate Tamil or released English. After hardening, begin payload comparison of the confirmed Volume-I MATCHED entries.\n"""
+          p.write_text(t, encoding="utf-8")
+
+          # Phase plan: replace current/planned BU-TT section through the next major section.
+          p = Path("TRANSCRIPTION_PHASE_PLAN.md")
+          t = p.read_text(encoding="utf-8")
+          start = t.index("### Current comparison activity — NEXT\n")
+          end = t.index("## Most recently completed Tamil work", start)
+          block = """### Comparison Batch 5 — COMPLETE\n\nBU-TT entries **31–34** vs repository items **53, 55, 56, 57**. Report `comparisons/05-treasure-trove-items-31-34.md` — **PASS / REPORT-ONLY — 4/4**, corrections/mutations **0 / 0**.\n\n### BU-TT consolidated comparison — COMPLETE 34/34\n\nSummary: `comparisons/TREASURE_TROVE_34_ENTRY_SUMMARY.md`. All **34/34** matched Treasure Trove entries have been compared. Apart from the separately source-verified item-31 title correction, Tamil body corrections **0** and other released-English mutations **0**.\n\n### Current comparison activity — NEXT\n\n**BU-SP1 identity hardening — three POSSIBLE rows.**\n\n- entry 8 **The Beloved Son of the Muse of Arts** → possible `kalaignarin-kavithaigal` item 40;\n- entry 18 **Calculation - 1** → possible item 18;\n- entry 43 **Calculation-2** → possible item 18.\n\nOperation: inspect Volume-I payloads and relevant FINAL-CLEARED repository items, then classify MATCHED / distinct segment or work / not a match. Update only witness identity/crosswalk records. No Tamil or released-English mutation.\n\n### Planned sequence after identity hardening\n\n1. BU-SP1 — compare confirmed MATCHED payloads;\n2. BU-SP1 — investigate remaining unmapped entries;\n3. BU-SP3 — item-level matching for 50 INVESTIGATE entries;\n4. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.\n\n"""
+          p.write_text(t[:start] + block + t[end:], encoding="utf-8")
+
+      - name: Commit synchronized records
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add secondary-witnesses/bharathiar-university/README.md \
+                  secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md \
+                  secondary-witnesses/bharathiar-university/treasure-trove-of-time-and-verse-key/crosswalk.md \
+                  HANDOVER.md NEXT_CHAT_PROMPT.md TRANSCRIPTION_PHASE_PLAN.md
+          if git diff --cached --quiet; then
+            echo "No documentation changes required."
+            exit 0
+          fi
+          git commit -m "Close BU-TT 34-entry comparison lane [skip ci]"
+          git push
