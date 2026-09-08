@@ -129,8 +129,18 @@ Strong diagnostics:
 
 ## BU-SP1 confirmed-MATCHED lane — CLOSED 22/22
 
-Consolidated report: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries have payload comparisons. Tamil/source corrections **0**; released-English corrections **0**; title replacements **0**; mutations **0 / 0**. BU-SP1 remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+Consolidated report: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED Volume-I entries have payload comparisons. Tamil/source corrections **0**; released-English corrections **0**; title replacements **0**; mutations **0 / 0**. The originally confirmed-MATCHED lane closed at 22/22; later identity Batches 1–2 harden the current BU-SP1 classification to **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
 
-## Exact next activity — BU-SP1 identity investigation Batch 1
+## BU-SP1 identity investigation Batch 1 — COMPLETE
 
-Investigate entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24** in source order. Read each actual BU payload and identify current repository representation, if any, using payload, event/date, persons, narrative and source context. Do not harden a match from English-title resemblance alone. Update identity/crosswalk/report records only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.
+`comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`: entries **2, 5, 6, 7, 17, 20, 24 MATCHED**; **3, 4, 10 NOT YET REPRESENTED**. The Pari witness is the 1971 source work despite BU's secondary 1970 date error.
+
+## BU-SP1 identity investigation Batch 2 — COMPLETE
+
+`comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`: entries **29, 41, 42 MATCHED**; **31, 32, 34, 35, 36, 37, 38 NOT YET REPRESENTED**. Exact physical pages **166–205** were directly rendered from checksum-locked Volume-I bytes; no OCR reconstruction.
+
+Current BU-SP1: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE = 52**. Four-book total: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**. No Tamil or released-English text was changed.
+
+## Exact next activity — BU-SP1 identity investigation Batch 3
+
+Investigate the final Volume-I rows **43, 44, 45, 46, 47, 48, 49, 50, 51 and 52**. Entry 43 is already known to be a distinct **15-01-1995 Pongal / Sun TV `Thamizh Maalai`** `Calculation-2` work and is NOT item 18. Read actual payloads and establish current repository representation, if any. Report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.

@@ -140,6 +140,12 @@ Final report: `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`; conso
 
 Final-batch diagnostics include BU `பவள விழா` → **Platinum Jubilee**, source **1929** → BU **1928**, `வெல்லம்` → **sugar cane**, and `அர்ச்சனைகள்` → **censure**. The repository remains source-preferred.
 
+## BU-SP1 identity investigation Batches 1–2 — COMPLETE
+
+Reports: `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` and `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Ten new matches and ten NOT-YET-REPRESENTED dispositions were hardened with **0 / 0** Tamil/English mutation. BU-SP1 now stands at **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
+
+Four-book hardened tally: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**.
+
 ## Exact next activity
 
-Run BU-SP1 identity investigation Batch 1 for entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Compare actual witness payload/source context with current repository collections before hardening any relationship. Do not mutate Tamil or released English.
+Run **BU-SP1 Identity Investigation Batch 3 — entries 43–52**. Identity/crosswalk only; no Tamil or released-English mutation.

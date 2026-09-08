@@ -25,7 +25,7 @@ Renderer guardrail: BU-TT may expose only 150 pages in the conversation renderer
 - bibliographic metadata: **RECORDED 4/4**;
 - contents inventories: **176/176 indexed**;
 - master crosswalk: **COMPLETE — initial pass**;
-- classifications: **57 MATCHED / 0 POSSIBLE / 39 NOT YET REPRESENTED / 80 INVESTIGATE**;
+- classifications: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE**;
 - Tamil changes from witness onboarding: **0**;
 - release-cleared English changes from witness onboarding: **0**.
 
@@ -99,16 +99,24 @@ Report `comparisons/09-shower-of-poetry-vol-1-matched-batch-03.md`: entries **39
 
 ### BU-SP1 confirmed-MATCHED comparison — COMPLETE 22/22
 
-Summary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed matches are payload-compared; aggregate corrections/mutations **0 / 0**. Current Volume-I classification: **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
+Summary `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed matches are payload-compared; aggregate corrections/mutations **0 / 0**. The 22 originally confirmed matches are payload-compared; identity Batches 1–2 later harden current Volume-I classification to **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
+
+### BU-SP1 identity investigation Batch 1 — COMPLETE
+
+Report `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md`: **7 MATCHED / 3 NOT YET REPRESENTED**, mutations **0 / 0**.
+
+### BU-SP1 identity investigation Batch 2 — COMPLETE
+
+Report `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`: **3 MATCHED / 7 NOT YET REPRESENTED**, mutations **0 / 0**. Current Volume-I state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**.
 
 ### Current comparison activity — NEXT
 
-**BU-SP1 identity investigation Batch 1** — entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Establish identities from payload/event/source context before updating crosswalk classification. Report/crosswalk only.
+**BU-SP1 identity investigation Batch 3** — final entries **43–52**. Harden identities from actual payload/event/source context; report/crosswalk only.
 
-### Planned sequence after identity Batch 1
+### Planned sequence after BU-SP1 identity closure
 
-1. continue hardening the remaining BU-SP1 INVESTIGATE rows;
-2. BU-SP3 — item-level matching for 50 INVESTIGATE entries;
+1. close/consolidate Volume-I identity state;
+2. BU-SP3 — item-level matching for remaining INVESTIGATE entries;
 3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
@@ -117,4 +125,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Proceed with **BU-SP1 identity investigation Batch 1 — entries 2, 3, 4, 5, 6, 7, 10, 17, 20 and 24 — identity/crosswalk report only**.
+Proceed with **BU-SP1 identity investigation Batch 3 — final entries 43–52 — identity/crosswalk report only**.

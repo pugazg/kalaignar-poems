@@ -98,9 +98,13 @@ Report `secondary-witnesses/bharathiar-university/comparisons/09-shower-of-poetr
 
 Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`. All **22/22** confirmed MATCHED BU-SP1 payloads are compared. Aggregate mutations **0 / 0**; Volume-I classification remains **22 MATCHED / 0 POSSIBLE / 30 INVESTIGATE**.
 
+## BU-SP1 identity investigation Batches 1–2 — COMPLETE
+
+Reports `comparisons/10-shower-of-poetry-vol-1-identity-investigation-batch-01.md` and `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md`. Hardened **10 new MATCHED** identities and **10 NOT YET REPRESENTED** dispositions from exact witness payload/context. BU-SP1 current state: **32 MATCHED / 0 POSSIBLE / 10 NOT YET REPRESENTED / 10 INVESTIGATE**. Four-book current tally: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE = 176**. Tamil / released-English mutations: **0 / 0**.
+
 ## Exact next activity
 
-Run **BU-SP1 identity investigation Batch 1** for entries **2, 3, 4, 5, 6, 7, 10, 17, 20 and 24**. Harden identity only from payload/event/source evidence, not title similarity. Report/crosswalk only; no Tamil or released-English mutation.
+Run **BU-SP1 Identity Investigation Batch 3 — final entries 43–52**. Establish repository representation from actual payload/source context only. Report/crosswalk only.
 
 ## Release-cleared work rule
 

@@ -17,11 +17,11 @@ The user supplied the complete four-book 2009 Bharathiar University / Macmillan 
 - *Shower of Poetry*, Volume III — **220 pages / 80,185,514 bytes / SHA-256 `90d64eb19a75c93ae78a5081fe1f6ad1733fc92dff1568e65eadb6bb5213afb6`**;
 - *The Treasure Trove of Time and the Verse Key* — **205 pages / 106,152,046 bytes / SHA-256 `17ecd31500ad67ec34d684a8c2d0d208866fd5bca3f630a2941c50baa3b86d4b`**.
 
-Their **176 TOC entries** are durably indexed at `secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md`: **55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**.
+Their **176 TOC entries** are durably indexed at `secondary-witnesses/bharathiar-university/MASTER_CROSSWALK.md`. Current hardened state after BU-TT closure and BU-SP1 identity Batches 1–2: **67 MATCHED / 0 POSSIBLE / 49 NOT YET REPRESENTED / 60 INVESTIGATE**.
 
 Witness hierarchy is locked: historical Tamil controlling scan → FINAL-CLEARED repository Tamil → Bharathiar University English as institutional secondary witness. These 2009 translations may inform interpretation/editorial review but **must never silently rewrite Tamil or release-cleared English**.
 
-Exact next secondary-witness activity: **Batch 1 — compare Volume-II pp.85–89 `The Brother for the Head did Ask!` against release-cleared `poems/thalaikettan-thambi/`, producing a comparison report only.**
+Exact next secondary-witness activity: **BU-SP1 Identity Investigation Batch 3 — final Volume-I entries 43–52; report/crosswalk only, no Tamil or released-English mutation.**
 
 ## தலைகேட்டான் தம்பி (1966) — release-cleared
 
@@ -70,4 +70,4 @@ Final source locks include `கமழுகின்ற`, `தலைமீது
 - `poems/kalaignarin-kaviyaranga-kavithaigal-1975/` — RELEASE-CLEARED;
 - `poems/kanchithan-annan/` — RELEASE-CLEARED.
 
-Current next activity: **Bharathiar University Secondary Witness Comparison Batch 1 — `தலைகேட்டான் தம்பி`; report-only, no direct text mutation.**
+Current next activity: **BU-SP1 Identity Investigation Batch 3 — entries 43–52; report/crosswalk only.**
