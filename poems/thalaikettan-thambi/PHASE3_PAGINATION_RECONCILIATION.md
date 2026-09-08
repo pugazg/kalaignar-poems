@@ -39,14 +39,15 @@ No reliable surrounding numeral or other source evidence supports assigning logi
 - confirmed `printed_page: null`: **6/6**;
 - missing active scans: **0**;
 - duplicate active scans: **0**;
-- page-text changes required: **0**;
-- page-record front-matter changes required: **0** — the existing `null` values were already correct;
+- pagination-affecting page-text changes required: **0**;
 - unresolved pagination issues: **0**.
 
-## Remaining provenance hold
+## Subsequent structural correction and Gate 2
 
-The exact source **SHA-256 is still pending**. This does not change the pagination conclusion, but repository source-identity policy requires the hash to be durably locked before progression to later Phase-3 gates.
+After Gate 1, scan 18 received a structural-role correction documented in `POST_PHASE2_STRUCTURAL_CORRECTION.md`: trailing `தம்பி` / `கருணாநிதி` was removed from poem body because those source-visible elements are title and author material. This does **not** affect any Gate-1 pagination conclusion.
 
-## Exact next activity
+Phase 3 Gate 2 has subsequently passed under `PHASE3_BOUNDARY_JOIN_AUDIT.md`: opening **1/1 PASS**, internal joins **5/5 PASS**, closing **1/1 PASS**, unresolved boundary issues **0**.
 
-Establish and record the SHA-256 from the exact attached 75-page PDF bytes. **Only after that source-identity lock**, proceed to **Phase 3 Gate 2 — boundary / page-join audit** for opening 17→18, internal joins 18→19 through 22→23, and closing 23→24. Do not begin Gate 3 in the same activity unless explicitly directed.
+## Remaining provenance hold / current next activity
+
+The exact source **SHA-256 is still pending**. No hash is inferred or invented. Establish and durably record it, then proceed to **Phase 3 Gate 3 — title-witness reconciliation**. Canonical Tamil assembly remains blocked until the ordered title gate passes.
