@@ -156,6 +156,10 @@ Consolidated summary: `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md`
 - All identity work remained report/crosswalk-only; Tamil / released-English mutations **0 / 0**.
 - The earlier 22/22 confirmed-MATCHED payload lane remains a separate historical closure; 11 later identity matches are not silently counted as payload-compared.
 
+### BU-SP1 consolidated identity closure — COMPLETE 52/52
+
+Consolidated identity record: `comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — IDENTITY CLOSED**. The historical payload-comparison closure remains **22/22 of the matches known at that stage**; eleven later identity matches are not retroactively counted as payload-compared. Tamil / released-English mutations from BU-SP1 identity work: **0 / 0**.
+
 ## Next activity
 
-Create the consolidated **BU-SP1 Volume-I identity summary/closure record**. After consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.
+Proceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order**. Use actual Volume-III payload/event/source context; report/crosswalk only; do not mutate FINAL-CLEARED Tamil or RELEASE-CLEARED English.

@@ -113,15 +113,18 @@ Report `comparisons/11-shower-of-poetry-vol-1-identity-investigation-batch-02.md
 
 Report `comparisons/12-shower-of-poetry-vol-1-identity-investigation-batch-03.md`: **1 MATCHED / 9 NOT YET REPRESENTED**, mutations **0 / 0**. Final Volume-I identity state: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — CLOSED 52/52**.
 
+### BU-SP1 consolidated identity closure — COMPLETE 52/52
+
+Summary: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final identity state: **33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE = 52**. The historical payload lane remains **22/22 of the matches known at that stage**.
+
 ### Current comparison activity — NEXT
 
-Create the consolidated **BU-SP1 Volume-I identity summary/closure record**, preserving the distinction between the 52/52 identity closure and the earlier 22/22 payload-comparison closure.
+**BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order.**
 
-### Planned sequence after BU-SP1 identity closure
+### Planned witness sequence
 
-1. close/consolidate Volume-I identity state;
-2. BU-SP3 — item-level matching for remaining INVESTIGATE entries;
-3. BU-SP2 — retain not-yet-represented entries until source-backed identities are established.
+1. BU-SP3 — item-level matching of the **50 INVESTIGATE** entries, beginning with entries 1–10;
+2. BU-SP2 — retain its 39 NOT YET REPRESENTED entries until source-backed identities are established or a new controlling/source witness is supplied.
 
 ## Most recently completed Tamil work — தலைகேட்டான் தம்பி — 1966
 
@@ -129,4 +132,4 @@ Phase 1–4 complete; Tamil FINAL-CLEARED; English RELEASE-CLEARED; status **CLO
 
 ## Exact next activity
 
-Create the consolidated **BU-SP1 Volume-I identity summary/closure record**; then proceed to BU-SP3 item-level matching.
+Proceed with **BU-SP3 Identity Investigation Batch 1 — entries 1–10 — identity/crosswalk report only**.

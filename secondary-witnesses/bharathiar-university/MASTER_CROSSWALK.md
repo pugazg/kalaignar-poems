@@ -150,6 +150,10 @@ Four-book hardened tally: **68 MATCHED / 0 POSSIBLE / 58 NOT YET REPRESENTED / 5
 
 The earlier confirmed-MATCHED payload lane remains **22/22 for the matches known at that stage**; the 11 later identity matches are not silently reclassified as payload-compared.
 
+## BU-SP1 consolidated identity closure — COMPLETE 52/52
+
+Consolidated identity record: `comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final Volume-I identity classification is **33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE = 52**. The separate historical payload-comparison record remains `comparisons/SHOWER_OF_POETRY_VOL_1_22_MATCHED_SUMMARY.md` at **22/22 of the matches known at that stage**.
+
 ## Exact next activity
 
-Create the consolidated **BU-SP1 Volume-I identity summary/closure record**. After Volume-I identity consolidation, proceed to **BU-SP3 item-level matching** under the phase plan.
+Proceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10**. Harden identities only from actual Volume-III payload/event/source context and current repository inventories; report/crosswalk only.

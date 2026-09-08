@@ -108,9 +108,13 @@ For Batch 3, exact Volume-I bytes were independently locked to **249 pages / 101
 
 The earlier confirmed-MATCHED payload lane remains **22/22 for the matches known at that stage**. Eleven later identity matches exist, but are not retroactively claimed as payload-compared.
 
+## BU-SP1 consolidated identity closure — COMPLETE 52/52
+
+Consolidated authority: `secondary-witnesses/bharathiar-university/comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Final BU-SP1 identity state is **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52 — CLOSED**. The separate historical payload-comparison closure remains **22/22 of the matches known at that stage**.
+
 ## Exact next activity
 
-Create the consolidated **BU-SP1 Volume-I identity summary/closure record**. Then proceed to **BU-SP3 item-level matching** according to the phase plan.
+Run **BU-SP3 Identity Investigation Batch 1 — entries 1–10 in source order**. Report/crosswalk only; no FINAL-CLEARED Tamil or RELEASE-CLEARED English mutation.
 
 ## Release-cleared work rule
 

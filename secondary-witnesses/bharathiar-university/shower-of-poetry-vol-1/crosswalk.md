@@ -88,6 +88,10 @@ Authority: `../comparisons/12-shower-of-poetry-vol-1-identity-investigation-batc
 
 Final BU-SP1 identity tally: **33 MATCHED / 0 POSSIBLE / 19 NOT YET REPRESENTED / 0 INVESTIGATE = 52**. Identity classification is therefore **CLOSED 52/52**. The earlier payload-comparison lane remains explicitly **22/22 of the matches known at that stage**, not 33/33.
 
+## Consolidated identity closure — COMPLETE 52/52
+
+Authority: `../comparisons/SHOWER_OF_POETRY_VOL_1_IDENTITY_52_ENTRY_SUMMARY.md`. Volume-I identity is **CLOSED 52/52 — 33 MATCHED / 19 NOT YET REPRESENTED / 0 POSSIBLE / 0 INVESTIGATE**. The earlier payload-comparison lane remains **22/22 of the matches known at that stage**.
+
 ## Exact next activity
 
-Create the consolidated **BU-SP1 Volume-I identity summary/closure record**; after that, proceed to BU-SP3 item-level matching under the phase plan.
+Volume-I identity work is closed. Proceed to **BU-SP3 Identity Investigation Batch 1 — entries 1–10** under the repository-wide phase plan.
