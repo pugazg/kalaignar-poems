@@ -4,9 +4,7 @@ Repository: `pugazg/kalaignar-poems`, branch `main`. **Live main is authoritativ
 
 ## Current active lane — Bharathiar University secondary witnesses
 
-No new Tamil poem is staged. The user supplied four 2009 Bharathiar University / Macmillan English-translation books, onboarded under:
-
-`secondary-witnesses/bharathiar-university/`
+No new Tamil poem is staged. Four 2009 Bharathiar University / Macmillan English-translation books are onboarded under `secondary-witnesses/bharathiar-university/`.
 
 Exact witness set:
 
@@ -27,55 +25,48 @@ Witness authority rule:
 
 These books must not silently modify Tamil or RELEASE-CLEARED English.
 
-## Secondary Witness Comparison Batch 1 — COMPLETE
-
-Work: `தலைகேட்டான் தம்பி`.
-
-Bharathiar witness: BU-SP2 item 17, **The Brother for the Head did Ask!**, supplied Volume-II physical pages **85–89**.
-
-Durable report:
+## Comparison Batch 1 — COMPLETE
 
 `secondary-witnesses/bharathiar-university/comparisons/01-thalaikettan-thambi.md`
 
-Result: **COMPARISON PASS / REPORT-ONLY**.
+`தலைகேட்டான் தம்பி` vs BU-SP2 item 17: **PASS / REPORT-ONLY**. Tamil/source corrections **0**; released-English changes **0**. Two strong source-supported future English review candidates were recorded, plus one medium and one low refinement. The work remains CLOSED / RELEASE-CLEARED.
 
-- Tamil/source correction candidates: **0**;
-- title replacement candidates: **0**;
-- released English modified: **No**;
-- strong source-supported English review candidates: **2**;
-- medium semantic refinement candidates: **1**;
-- low editorial/idiomatic refinement candidates: **1**.
+## Comparison Batch 2 — COMPLETE
 
-Strong candidates recorded for a future explicitly authorized English-only reopen:
+`secondary-witnesses/bharathiar-university/comparisons/02-treasure-trove-items-01-10.md`
 
-1. `அடுத்தார் பேச்சால் அழிந்த தம்பி` — current English `ruined by his own words` is not supported; source sense is **ruined by the words/counsel of those around him**. BU corroborates `ruined by others' words`.
-2. `வாள்முனையில் செங்குருதி தனைக் கண்டான்` — current English `saw red upon the sword-point` omits source `செங்குருதி` / blood and weakens the later reveal `ரத்தமல்ல; செவ்வண்ணம்`; future review should restore the blood perception before the red-colour reveal.
+Scope: BU-TT entries **1–10**, supplied PDF physical pages **31–74** / printed pages **1–44**, mapped to repository stable items **1, 2, 5, 6, 11, 17, 19, 20, 21 and 22** in `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
 
-Additional review notes:
+Result: **PASS / REPORT-ONLY**.
 
-- `அலையடிக்கும் கடல்வெல்லும் பரந்த உள்ளம்` may warrant **surpasses the wave-beaten sea** rather than `as vast as`;
-- `என் நாட்டைத் தொழுதுவிட்டுக் காடேகு` may read more idiomatically as **take leave of / bow farewell to my country and go to the forest**;
-- `குலை யறுக்கும் செய்தி` remains semantic-investigation only; the Bharathiar free rendering does not settle it;
-- BU's appended `Puranaanuuru 158, 159 & 162 / Peruncithiranaar` note is preserved as secondary research context only, not inserted into the 1966 canonical layer.
+- items compared: **10/10**;
+- Tamil/source correction candidates established: **0**;
+- released-English correction candidates established: **0**;
+- title replacements: **0**;
+- Tamil changes: **0**;
+- released-English changes: **0**.
 
-`poems/thalaikettan-thambi/` remains **CLOSED / RELEASE-CLEARED**; no release status is revoked by Batch 1.
+Key findings:
+
+- BU entry 6 substantially truncates repository item 17, omitting the final Kumari Kandam/Pavanar/Vincent Smith/Sundaranar/world-history-from-the-south movement;
+- BU entry 8 condenses repository item 20's extended Sangam quotations/citations;
+- BU entry 4 gives a later negative interpretation for the Stone-Age `கருணையும் பண்பாடும்...` line, but FINAL-CLEARED Tamil scan 30 explicitly preserves `காணமுடியக்`; no normalization is allowed;
+- BU entry 10 renders `அரியா நோக்கு` as an “ignorant look,” while FINAL-CLEARED scan 116 has `அரியா`; repository English correctly keeps the rare/hard-to-know source reading;
+- dominant pattern across Batch 2: **smoothing + condensation + transliteration differences**; repository English is generally more source-complete.
+
+No release-cleared item was reopened.
 
 ## Exact next activity
 
-Proceed with **Secondary Witness Comparison Batch 2 — BU-TT mapped items 1–10** against `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
+Proceed with **Secondary Witness Comparison Batch 3 — BU-TT entries 11–20**, mapped to repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
 
-For each of the first ten Bharathiar *Treasure Trove* entries:
+Special title-witness focus:
 
-1. inspect the exact BU-TT translation pages;
-2. compare with the corresponding FINAL-CLEARED Tamil stable item and RELEASE-CLEARED repository English;
-3. classify title/semantic/omission/expansion/transliteration/structural differences;
-4. record only source-supported English reopen candidates;
-5. write a report only — **no Tamil or released-English mutation**.
+- BU entry 15 **An Honourable Mother and an Upright Daughter** ↔ source-controlled item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`;
+- BU entry 18 **A Young Lady, She is a Tamil Lady!** ↔ source-controlled item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
 
-If the user explicitly asks to fix `தலைகேட்டான் தம்பி` English before Batch 2, open a separate English-only editorial-reopen record and adjudicate E1/E2 first, with Tamil frozen.
+Inspect exact BU pages, compare against FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write **report only**. Do not mutate Tamil or released English without a separate documented source-backed reopen.
 
 ## Release-cleared work remains frozen
 
-- `poems/thalaikettan-thambi/` — CLOSED / RELEASE-CLEARED — 2026-09-08;
-- `poems/aanthaiyum-arasanum/` — CLOSED / RELEASE-CLEARED — 2026-09-07;
-- other preserved release-cleared work includes `poomudi`, `anna-kaviyarangam`, `gunanayagar-nehru`, `oruthalaik-kathal`, `kalaignarin-kavithaigal`, `kalaignarin-kaviyaranga-kavithaigal-1975`, and `kanchithan-annan`.
+`poems/thalaikettan-thambi/`, `poems/aanthaiyum-arasanum/` and all other completed poem workspaces remain closed unless genuinely new source-backed evidence justifies a documented reopen.
