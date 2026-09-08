@@ -17,7 +17,7 @@ Renderer warning: Volumes I, III and BU-TT may expose only 150 pages through a r
 
 Initial crosswalk: **176 entries = 55 MATCHED / 3 POSSIBLE / 39 NOT YET REPRESENTED / 79 INVESTIGATE**.
 
-Witness authority rule:
+Witness authority:
 
 1. historical Tamil controlling source;
 2. FINAL-CLEARED repository Tamil canonical;
@@ -29,43 +29,47 @@ These books must not silently modify Tamil or RELEASE-CLEARED English.
 
 `secondary-witnesses/bharathiar-university/comparisons/01-thalaikettan-thambi.md`
 
-`தலைகேட்டான் தம்பி` vs BU-SP2 item 17: **PASS / REPORT-ONLY**. Tamil/source corrections **0**; released-English changes **0**. Two strong source-supported future English review candidates were recorded, plus one medium and one low refinement. The work remains CLOSED / RELEASE-CLEARED.
+`தலைகேட்டான் தம்பி` vs BU-SP2 item 17: **PASS / REPORT-ONLY**. Tamil/source corrections **0**; released-English changes **0**. Two strong source-supported future English review candidates were recorded. The work remains CLOSED / RELEASE-CLEARED.
 
 ## Comparison Batch 2 — COMPLETE
 
 `secondary-witnesses/bharathiar-university/comparisons/02-treasure-trove-items-01-10.md`
 
-Scope: BU-TT entries **1–10**, supplied PDF physical pages **31–74** / printed pages **1–44**, mapped to repository stable items **1, 2, 5, 6, 11, 17, 19, 20, 21 and 22** in `poems/kaalap-pezhaiyum-kavithai-saaviyum/`.
+BU-TT entries **1–10** vs repository items **1, 2, 5, 6, 11, 17, 19, 20, 21, 22**: **PASS / REPORT-ONLY**, 10/10 compared, Tamil/source corrections **0**, released-English corrections **0**, mutations **0 / 0**.
+
+Key Batch-2 guardrails: BU entry 6 truncates item 17; BU entry 4's negative Stone-Age interpretation does not override verified `காணமுடியக்`; BU entry 10's “ignorant look” does not override verified `அரியா நோக்கு`.
+
+## Comparison Batch 3 — COMPLETE
+
+`secondary-witnesses/bharathiar-university/comparisons/03-treasure-trove-items-11-20.md`
+
+Scope: BU-TT entries **11–20**, physical PDF pages **75–122** / printed pages **45–92**, mapped to repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
 
 Result: **PASS / REPORT-ONLY**.
 
 - items compared: **10/10**;
-- Tamil/source correction candidates established: **0**;
-- released-English correction candidates established: **0**;
+- Tamil/source transcription correction candidates: **0**;
+- source-supported released-English correction candidates: **0**;
 - title replacements: **0**;
-- Tamil changes: **0**;
-- released-English changes: **0**.
+- Tamil / released-English changes: **0 / 0**.
 
 Key findings:
 
-- BU entry 6 substantially truncates repository item 17, omitting the final Kumari Kandam/Pavanar/Vincent Smith/Sundaranar/world-history-from-the-south movement;
-- BU entry 8 condenses repository item 20's extended Sangam quotations/citations;
-- BU entry 4 gives a later negative interpretation for the Stone-Age `கருணையும் பண்பாடும்...` line, but FINAL-CLEARED Tamil scan 30 explicitly preserves `காணமுடியக்`; no normalization is allowed;
-- BU entry 10 renders `அரியா நோக்கு` as an “ignorant look,” while FINAL-CLEARED scan 116 has `அரியா`; repository English correctly keeps the rare/hard-to-know source reading;
-- dominant pattern across Batch 2: **smoothing + condensation + transliteration differences**; repository English is generally more source-complete.
+- item 31 is a verified **source title/body anomaly**: title `மாண்பு நிறை தாயும் மாசற்ற மகனும்!` says son, but the verified closing body says `மாண்பு நிறை தாய் மகள் வரலாறு`; Bharathiar's **An Honourable Mother and an Upright Daughter** is a later editorial harmonization, not proof of a transcription error;
+- BU entry 18 **A Young Lady, She is a Tamil Lady!** is an editorial retitle toward Anni Minjili; source item 36 remains `இளையவன்; அவன் ஒரு தமிழ் மகன்!`;
+- BU entry 13's **winnowing fan** cannot override FINAL-CLEARED `முரசு கொண்டு புலி விரட்டிய தமிழச்சி`; repository **war-drum** remains correct for this edition;
+- BU entry 16's **the Head That Hung** is a weaker fit for source `குனிந்திடும்`; repository **Heads Bow Down** is retained;
+- dominant pattern remains smoothing, condensation, transliteration differences and occasional editorial retitling.
 
 No release-cleared item was reopened.
 
 ## Exact next activity
 
-Proceed with **Secondary Witness Comparison Batch 3 — BU-TT entries 11–20**, mapped to repository items **23, 24, 26, 29, 31, 32, 35, 36, 37 and 38**.
-
-Special title-witness focus:
-
-- BU entry 15 **An Honourable Mother and an Upright Daughter** ↔ source-controlled item 31 `மாண்பு நிறை தாயும் மாசற்ற மகனும்!`;
-- BU entry 18 **A Young Lady, She is a Tamil Lady!** ↔ source-controlled item 36 `இளையவன்; அவன் ஒரு தமிழ் மகன்!`.
+Proceed with **Secondary Witness Comparison Batch 4 — BU-TT entries 21–30**, mapped to repository items **39, 40, 44, 45, 46, 47, 49, 50, 51 and 52**.
 
 Inspect exact BU pages, compare against FINAL-CLEARED Tamil and RELEASE-CLEARED English, and write **report only**. Do not mutate Tamil or released English without a separate documented source-backed reopen.
+
+After Batch 4, process final BU-TT entries **31–34** as Batch 5.
 
 ## Release-cleared work remains frozen
 
