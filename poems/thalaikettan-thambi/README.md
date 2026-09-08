@@ -23,7 +23,7 @@ Source-first workspace for the user-identified Kalaignar poem **தலைகே�
 - Phase 3 Gates 2–6: **NOT STARTED / blocked pending exact SHA lock + ordered gates**;
 - Phase 4: **BLOCKED**.
 
-Important source-layout note: scan **18** presents the title as one decorated composition split spatially across the page — **`தலைகேட்டான்`** in the upper decorated heading and **`தம்பி`** as a decorated lower title element. The complete direct title witness is therefore **`தலைகேட்டான் தம்பி`**. Direct and bibliographic title witnesses agree lexically; title conflict: **0**.
+Important source-layout note: scan **18** presents the title as one decorated composition split spatially across the page — **`தலைகேட்டான்`** in the upper decorated heading and **`தம்பி`** as a decorated lower title element. The complete direct title witness is therefore **`தலைகேட்டான் தம்பி`**. `கருணாநிதி` is the direct source-position author attribution. These structural labels are preserved as title/author evidence and are **not repeated as poem-body text** in `pages/0018.md`.
 
 Visual source intake, Phase 1, Phase 2 and Phase 3 Gate 1 used the same attached 75-page controlling PDF. Scan **17** is an unrelated full-page photograph and scan **24** an unrelated cartoon page.
 
@@ -35,7 +35,8 @@ Authority: `PHASE2_SOURCE_CRITICAL_VERIFICATION.md`.
 - unresolved lexical/glyph/punctuation/lineation holds: **0**;
 - Phase-2 source-backed corrections: **2**, both on scan 21:
   - `மகிழ்ந்தான` → `மகிழ்ந்தானா`;
-  - `கொடை நீ ரூற்று` → `கொடை நீரூற்று`.
+  - `கொடை நீ ரூற்று` → `கொடை நீரூற்று`;
+- post-Phase-2 structural-role correction on scan 18: trailing body duplication `தம்பி` / `கருணாநிதி` removed; title/author provenance retained; lexical poem text unchanged. Authority: `POST_PHASE2_STRUCTURAL_CORRECTION.md`.
 
 ## Phase-3 Gate 1 result
 
@@ -46,7 +47,7 @@ Authority: `PHASE3_PAGINATION_RECONCILIATION.md`.
 - source-supported logical printed pages: **0/6**;
 - confirmed `printed_page: null`: **6/6**;
 - missing / duplicate active scans: **0 / 0**;
-- page-text changes: **0**;
+- pagination-affecting page-text changes: **0**;
 - unresolved pagination issues: **0**.
 
 The user-supplied word-for-word extraction and any secondary witness are alignment/corroboration aids only. The controlling 1966 scans govern the verified Tamil layer.
